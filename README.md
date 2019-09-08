@@ -19,7 +19,7 @@ This repository is the rule set for a science fantasy role playing game.
 ## Why put an RPG in a repository?
 
 EXP has already been published on the web using a creative commons license.
-link::http://expgame.com[EXP]
+link: http://expgame.com[EXP]
 As the sole author of this text I have craved for version control. 
 There are many benifits of storing a rule set in asciidoc on git.
 
