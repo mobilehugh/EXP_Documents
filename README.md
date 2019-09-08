@@ -27,3 +27,24 @@ There are many benifits of storing a rule set in asciidoc on git.
 * Sharing 
 * Forking
 * Docs as Code
+
+## Goals
+
+### Personal goals are learning the following systems.
+
+* Git/Github
+* Antora
+* Asciidoc(tor)
+* Gulp
+* Python
+* APIs
+* SSH keys
+* The confidence of safe storage
+
+### Goals 
+
+* usable document set for playing the game
+* integration with python tools for player support
+* translations
+* multiple authors
+
