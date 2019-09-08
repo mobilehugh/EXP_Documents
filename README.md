@@ -30,9 +30,8 @@ There are many benifits of storing a rule set in asciidoc on git.
 
 ## Goals
 
-====
-Make the world a bit less worse by people having fun playing games together. 
-====
+*Make the world a bit less worse by people playing games together.* 
+
 
 ### Personal goals
 
