@@ -30,7 +30,11 @@ There are many benifits of storing a rule set in asciidoc on git.
 
 ## Goals
 
-### Personal goals are learning the following systems.
+====
+Make the world a bit less worse by people having fun playing games together. 
+====
+
+### Personal goals
 
 * Git/Github
 * Antora
@@ -41,7 +45,7 @@ There are many benifits of storing a rule set in asciidoc on git.
 * SSH keys
 * The confidence of safe storage
 
-### Goals 
+### EXP Goals 
 
 * usable document set for playing the game
 * integration with python tools for player support
