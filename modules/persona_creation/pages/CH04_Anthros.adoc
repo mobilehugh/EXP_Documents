@@ -59,20 +59,21 @@ Which races the player can choose from depends on the attributes rolled for the 
 
 == Creating an Anthro Persona
 
-// Make interactive checklist.
-[options="interactive"]
-* [ ] Attributes 
-* [ ] Adjust attributes by attributes
-* [ ] Anthro type
-* [ ] Adjust attributes by type
-* [ ] Age, Hite, Wate
-* [ ] Social standing (SS)
-* [ ] Mutations
-* [ ] Vocation
-* [ ] Combat table 
-* [ ] Roll Incidentals 
-* [ ] Roll TOYS
-* [ ] Have fun
+// Make interactive checklist does not work on antora ui
+// [options="interactive"]
+
+.Steps to generate an Anthro persona
+. Attributes 
+. Adjust attributes by attributes
+. Anthro type
+. Adjust attributes by type
+. Age, Hite, Wate
+. Mutations
+. Vocation
+. Combat table 
+. Roll Incidentals 
+. Roll TOYS
+. Have fun
 
 == Anthro Attributes
 
@@ -82,7 +83,8 @@ The referee may have all kinds of different ways for generating attributes for a
 The table below reflects an attribute generation system that results in the most balanced collection of persona races and classes.
 
 //table 4.1 
-include::ROOT:partial$anthro_attributes_table.adoc
+
+include::partials/anthro_attributes_table.adoc[]
 
 === Attribute Minimums
 
