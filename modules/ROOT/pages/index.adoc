@@ -1,5 +1,6 @@
 = Introduction
 
+
 image::ROOT:exp_game_headliner.png[]
 
 
@@ -15,3 +16,36 @@ Enjoy.
 EXP: The Game of Technological Chaos evolved from role playing games in the late 1970s.
 Dungeons and Dragons, Gamma World and most importantly Metamorphosis Alpha.
 James Ward is our hero.
+
+== Testing This
+
+=== Sectums
+This version is testing sectnums.
+Sectnums activated in playbook does not work as expected. 
+Hopefully I do not need to adjust the = and == section headers.
+
+
+=== Attributes
+Testing a global variable (called attribute here) called test variable. 
+
+test-variable = {test-variable}
+
+Testing antora attributes.
+Retrying with triple brackets.
+
+First test is for bread crumbs {{{page.breadcrumbs}}}
+
+Another test for module info {{{page.module}}}
+
+=== Admonitions
+Testing admonition fonts setting.
+Clearly I am missing something on admonitions. 
+I have removed the icons thing for admonitions. 
+
+
+TIP: Admonitions should not be hard. 
+
+CAUTION: Did your admonition work?
+
+
+
