@@ -17,7 +17,7 @@ all of which take a lot of getting used to.
 The robotic class can be riotous fun for those players who can relate to the completely different physical and mental construction  
 and can result in severe problems for those who cannot adapt.
 
-.There are not robot storks.
+.There are no robot storks.
 image::ROOT:robot_delivery_service.png[alt="studiostoks stock art illustration."]
 
 Those players who have chosen robot personas have their work cut out for them.
@@ -27,9 +27,46 @@ The process is actually quite straightforward and can be executed via the follow
 
 == Robot Fabrication Checklist
 
-// table insert 23
+. xref:#_bot_attributes[Bot Attributes]
 
-== 1)  Bot Attributes
+. xref::#_robot_type[Robot Type]
+
+. Base Anthro Type
+
+. Armour Rating
+
+. Movement Rate
+
+. Wate Allowance
+
+. Power Source
+
+. Sensors
+
+. Locomotion Type
+
+. Offensive Systems
+
+. Defensive Systems
+
+. Peripheral Systems
+
+. Description
+
+. Wate
+
+. Size
+
+. Control Factor
+
+. Hit Points
+
+. Tech Level
+
+. Adaptability
+
+
+== Bot Attributes
 
 Although attributes for robots are comprised of the usual seven (AWE, CHA, CON, DEX, INT, MSTR, PSTR and HPS), their generation differs.
 There are four prime requisites:  CON, DEX, INT and PSTR.
@@ -51,7 +88,7 @@ HPS are dependent on each Robot Type, and are calculated once the robot type is 
 
 //<figure id="attachment_672" aria-describedby="caption-attachment-672" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/robotassembly.54-300x213.png?resize=300%2C213[Anthros building robots to replace anthros.,300]](https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/robotassembly.54.png)+++<figcaption id="caption-attachment-672" class="wp-caption-text">+++Anthros building robots to replace anthros.+++</figcaption>++++++</figure>+++
 
-== 2) Bot Type
+== Robot Type
 
 When the personas attributes and attribute levels have been determined, refer to Table 5.2: Robot Type Determination Table to see what possibilities available to the player.
 For example, a bot with a PSTR Level III would look down the column for PSTR III and find that three robot types (F, H & J) are allowed.
@@ -59,7 +96,7 @@ This is repeated for each of the four attributes.
 The robot type that appears most frequently becomes the personas robot type.
 In the case of a tie, the player is free to choose.
 
-// insert table 24
+include::ROOT:partial$CH05_Table_Robotic_Base_Anthro_Type.adoc[]
 
 Lets consider a bot named Sal.
 Her attribute levels are CON 2, DEX 2, INT 3 and PSTR 4.
@@ -134,262 +171,6 @@ stock illustration.
 modified HM,300]+++<figcaption id="caption-attachment-9642" class="wp-caption-text">+++Android migraines are the worst.+++</figcaption>++++++</figure>+++
 
 
-
-
-=== J) Janitorial
-
-Janitorial bots, very simply, clean up.
-If the bots INT is 12 or greater, they will be of the domestic variety.
-The domestic bot is designed to cean up constantly changing domestic landscapes where anything can randomly occur.
-The industrial type, on the other hand, is tended to work in a pre-programmed factory which is highly regulated and supposedly self-sufficient.
-Industrial bots roll their size on the outdoor table, while the domestics use the indoor table.
-
-Both types of janitorial bot are equipped with vacuums, sweepers, detergents, toilet plungers anD other such paraphernalia necessary for decreasing the entropy of the universe.
-These bots can also act as part-time sentries or can be ordered to go get specific tooLs or types of food.
-
-==== Domestic
-
-// table insert 33
-
-==== Industrial
-
-+++<figure id="attachment_753" aria-describedby="caption-attachment-753" style="width: 206px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/maintenancebot.66-206x300.png?resize=206%2C300[Maintenance bot puzzling over NewTek device.,206]](https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/maintenancebot.66.png)+++<figcaption id="caption-attachment-753" class="wp-caption-text">+++Maintenance bot puzzling over NewTek device.+++</figcaption>++++++</figure>+++
-
-=== M) Maintenance
-
-// table insert 49
-
-Maintenance bots should not be confused with janitorial bots (see Type E) although they sound similar.
-The crucial difference is that maintenance bots, in addition to cleaning, are adept at repairing artifacts.
-A maintenance bot is best likened to a mechanic in a drum.
-
-The robot functions the same as a mechanic except for some tremendous bonuses.
-The player can add the repair droids INT to performance table rolls, just like a normal mech;
-however, a maintenance bot gets one skill per point of intelligence plus 5 per experience level.
-So a maintbot with a 13 INT would be 18 skills at first level plus 5 new skills per experience level.
-For referee persona robots, most of these skills will be rolled on the _Mechanic Skills_ table in Chapter 8: Classes.
-
-Players can choose where they want the expertise of their personal to lie.
-Thus a robot could have skill level 15 in repairing bicycles and skill level 2 in guns.
-Thus this robot would be able to subtract 15 DDs when repairing or working with bicycles.
-This is an ominous bonus indeed.
-It is recommended that one take a variety of skills, making their persona more flexible.
-For further reading about performance tables, consult http://expgame.com/?page_id=269[Chapter 27: Performance Tables].
-
-=== P) Policing
-
-Policing bots are used by crime fighting forces in extremely rough areas or in places where there are severe police staff shortages.
-The three types of policing bots are: riot (CON minimum 15), civilian or special operations (INT minimum 15).
-All policing bots respect the lives and livelihoods (if legal) of their base race, though it is expected that insane policing bots may be renegade and not the great protectors of law and order that they were initially designed to be.
-
-==== Civils
-
-// table insert 41
-
-Civilian policing bots are sent out to apprehend known criminals, guard banks, give out traffic tickets, lecture kids on road safety, etc.
-This bot type can speak very fluently and can double its CHA to make commanding comments like: &#8220;FREEZE!&#8221;
-or &#8220;HOLD IT!&#8221;
-The civil bots get three chances to roll a single non-damaging weapon from the robot attack tables 2 or 3.
-If the bot is unsuccessful on all three attempts to acquire a stunning or similarly non-damaging weapon, the bot will be without any form of attack.
-
-Those civil policing bots without weapons can still grapple a target.
-Successfully scoring a hit will completely immobilize a humanoid target, rendering them unable to do anything physical.
-To break away requires a bizarre PSTR roll.
-During this time, the civil bot will usually remove any weapons or offending items from the immobilized persona.
-Civil policing bots will usually carry their collars (captured criminals) in this unglamorous fashion to the police station.+++<figure id="attachment_718" aria-describedby="caption-attachment-718" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/riotbot.62-300x217.png?resize=300%2C217[Riot bot protecting and serving.,300]](https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/riotbot.62.png)+++<figcaption id="caption-attachment-718" class="wp-caption-text">+++Riot bot protecting and serving.+++</figcaption>++++++</figure>+++
-
-==== Riot
-
-// table insert 42
-
-Riot bots are large crowd control devices and often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc.
-A riobot can detain one target per point of PSTR in the same fashion that a Civils Policing bot can.
-So a Riobot with a PSTR of 20 can grapple and hold 20 targets.
-In addition to grappling each riobot has one roll on Table 5.12 Riot Policing Bot Peripheral for every three points of INT.
-It is possible to have multiple copies of the same crowd control peripheral.
-
-Each crowd control peripheral can be used on one target per point of AWE every unit.
-The first detail is whether the peripheral is targeted or area of effect.
-Targeted means that the riobot picks targets and attacks.
-Area is the range around the Riobot that the effect radiates.
-Next item is the range of the attack.
-Usually it is an attribute of the bot.
-So if the range was PSTR and the bots PSTR was 11 the range would be 11 hexes.
-That would either be the range to the target like any type C attack, or the radius around the bot like a grenade attack.
-The next data point is the intensity of the attack.
-If the riot bot is using a stun ray with a CON of 14 the target would get a save of versus intensity 14 attack.
-If intensity says AR then at to hit roll must be successful.
-If the intensity says None there is no save or the referee could refer to http://expgame.com/?page_id=275[Chapter 16 Special rolls], more specifically Sphincter Dice.
-The effect of the attack is a simple self explanatory description.
-For effects like sleep, blindness and stun the duration is d4 minutes.
-Effectively knocking the target out of combat time.
-If for some reason the Riot Bot cannot affect its effect it can choose to default to inflicting 3d4 HPS of damage instead.
-
-// table insert 44
-
-==== Special Operations
-
-// table insert 43
-
-Special operations bots are the bots which dispatch riot bots and civils to perform their sundry duties.
-This intelligent robot is a criminologist in a drum (to put it less than gracefully) that is used to track down intergalactic murderers, confidence women and other unsavory rogues.
-If a players persona qualifies to become a special operations bot, her highest attribute can be transferred to her INT.
-It is possible that when this robotic type fails its CF roll, it will go off hunting criminals.
-This may include other personas or even the entire expedition which, due to the nature of the game, stand a good chance of being criminals themselves.
-
-=== R) Rescue
-
-There are two types of emergency bots: rescue (used for removing people from inhospitable and unhealthy situations) and spillage (used for containing contaminants).
-To qualify as a rescue emergency bot, the personas DEX must be 22 or higher.
-
-==== Retrieval
-
-// table insert 47
-
-Retrieval bots are used to remove people or bodies from dangerous situations such as fires, landslides, radioactive areas, outer-space, etc.
-They are capable of performing their duties underwater, in zero-gravity or in a vacuum.
-These bots can also save people against their will, stashing them into a nice cool stasis chamber  
-for their own good, of course.
-The robot will have one stasis chamber for every two points of PSTR.
-People stored in the chambers cannot be killed or in any way come to harm unless the bot is destroyed.
-All rescue bots roll their size on the outdoor table.
-Rescue bots also have loudspeakers and sirens for warning signals and 150 hexes of glowing retractable fencing for cordoning off danger areas.
-
-==== Spillage
-
-// table insert 48
-
-Spillage bots are not sloppy drink servers  
-they are bots designed to control the spillage of deadly chemicals or to contain fires.
-Spillage bots can sense deadly chemicals at a range of ten hexes per point of AWE but only if there is a lethal amount of the poison present.
-Once the bot detects a nasty substance, it can be safely stored away inside the bot by an array of shovels, rakes and scoops.
-The chance of doing this successfully is equal to five times the personas DEX.
-
-Once collected, the garbage will be stored in a cargo hold with a capacity of 20 times the personas WA.
-The spillage bot is capable of sifting through debris and storing only the toxic materials.
-Eventually, the spillage bot will run out of storage space.
-
-At this point, a spillage bot can cover the toxic area with a sealing plastic.
-The bot will normally have enough spray-on plastic to cover 100 hexes.
-This spray-on plastic can also function as a webgun (see Chapter 46: Guns).
-Poisonous junk cannot be completely forgotten once stashed away;
-a full spillage bot may begin to glow, radiate or attract strange animals.
-
-The spillage bot also has flame retardant which will extinguish all normal fires.
-The bot can extinguish 5 hexes of fire for every point of CON.
-For example, a bot with CON 22 could put out 110 flaming hexes.
-The player can regulate how much retardant is used each time and need not expend the whole lot at one go.
-Spillage bots can fence off 250 hexes of danger zone with their glowing retractable fencing.
-They have a base AR of 875 and roll their size on the outdoor table.+++<figure id="attachment_720" aria-describedby="caption-attachment-720" style="width: 209px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/policingbot.61-209x300.png?resize=209%2C300[Social bot right.
-Android left.
-,209]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/policingbot.61.png)+++<figcaption id="caption-attachment-720" class="wp-caption-text">+++Social bot right.
-Android left.+++</figcaption>++++++</figure>+++
-
-=== S) Social
-
-// table insert 32
-
-Relations bots are borgs that roughly resemble the base race that built them.
-This resemblance is purely for aesthetics and cannot be mistaken for the real race.
-The size and weight of the robot will be rolled on the tables for the base race with the weight being increased by 25%.
-This robot type will have articulated legs 90% of the time;
-this will supersede any other form of locomotion.
-Relations bots speak the language of their base race and possibly many others.
-The maximum number of languages that a relations bot can understand and employ is 10 times her INT.
-Each new language encountered can be immediately understood with a deci-die roll less than her INT.
-If a language is not immediately understood, then a relations bot will come to understand it with 1 to 4 days of exposure.
-Relations bots are also known as robotic butlers and they can observe the customs and etiquette (often pedantically) of 1 culture per point of INT.
-Robutlers can also tend to the needs of 2 guests per point of INT.+++<figure id="attachment_75" aria-describedby="caption-attachment-75" style="width: 203px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2010/05/vanwithgun.231-203x300.png?resize=203%2C300[Drive she beeped.,203]](https://i1.wp.com/expgame.com/wp-content/uploads/2010/05/vanwithgun.231.png)+++<figcaption id="caption-attachment-75" class="wp-caption-text">+++Drive she beeped.+++</figcaption>++++++</figure>+++
-
-=== T) Transportation
-
-There are two types of transportation robots.
-Planetary (terrestrial) and extra-planetary (can pilot space vehicles).
-In order to be an extra-planetary transportation bot, DEX and INT must both be at least 22.
-
-==== Planetary
-
-// table insert 50
-
-Transportation bots get driving skills equal to their INT plus five skills per experience level.
-Thus a first level transport bot with an INT of 23 would have 28 skills to divide amongst chosen vehicles.
-Any bot that can use a vehicle that carries more than 15 passengers automatically gets a serving skill.
-These bots can only maneuver and navigate their vehicles  
-than cannot engage in vehicle combat.
-Only expendable combots can use vehicles for offensive combat tactics.
-There is nothing keeping a particularly insane transbot from attempting such maneuvers though.
-
-The transport bot uses the _Driving Performance_ table (see Chapter 17: Driving) as any other persona would;
-however, she can use her skill level to reduce the DD of the maneuver.
-For instance, a transport bot with air-car skill level 10 would subtract 10 DD from any maneuver she was attempting.
-The chance that a transport robot will be able to pilot a vehicle is equal to 4 times its INT, regardless of skill level.
-
-==== Extra-Planetary
-
-// table insert 51
-
-An extra-planetary transport bot has all the same skills as its cousin above, except that it can pilot space-vehicles and can function normal in a vacuum.
-An extra-planetary transport bot can be used to replace a pilot.
-
-=== V) Veterinarian
-
-Medibots are veterinarians in a drum.
-They are capable of carrying out any vet skill provided that it falls under the description of the vedibots sub-type.
-All three medibots are capable of minor repair work and standard first aid procedures;
-however, a diagnostic bot could not carry out surgical procedures, a surgical bot could not perform facial reconstructions and a cosmetic bot could not stop an interal hemorrhage.
-
-All medibots will be diagnostic unless they qualify as either of the others.
-Regardless of how insane a medibot becomes, it will always have a very high regard for life.
-In fact, this is how the medibots insanity will usually present itself, with an extraordinarily high regard for life.
-This may include bacteria, insects and mindless animals on the same level of sentient life.+++<figure id="attachment_742" aria-describedby="caption-attachment-742" style="width: 216px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/medicalbot.762-216x300.png?resize=216%2C300[Diagnostic medical bot.,216]](https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/medicalbot.762.png)+++<figcaption id="caption-attachment-742" class="wp-caption-text">+++Diagnostic medical bot.+++</figcaption>++++++</figure>+++
-
-==== Diagnostic
-
-// table insert 45
-
-The forte of the diagnostic robot is diagnosis.
-It has the memory capacity and the intuitive abilities to very accurately diagnose all but the most peculiar conditions.
-The diagnostic bot can occasionally fail to assess even the most trivial conditions.
-A diagnostic bot has enough articulations and peripherals attached to attempt virtually any vet maneuver.
-The diagnostic bot cannot apply general anaesthetics or perform classic surgical procedures.
-For instance, a diagnostic bot may identify a brain tumour but would be helpless to remove it.
-
-The chance for success of these maneuvers is determined on the _Veterinarian Performance Table_.
-The diagnostic bot can subtract its INT level from the DD of the maneuver and add twice its INT to the die roll.
-So a diagnostic bot with an INT level of 3 and an INT of 15 would subtract 3 DD from each maneuver and add 30 to the PT roll.
-The diagnostic bot is also capable of identifying any medical appliance to pharmaceutical with a proficiency 5 times the personas INT.+++<figure id="attachment_741" aria-describedby="caption-attachment-741" style="width: 205px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/medicalbot.63-205x300.png?resize=205%2C300[Interventional medical bot.,205]](https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/medicalbot.63.png)+++<figcaption id="caption-attachment-741" class="wp-caption-text">+++Interventional medical bot.+++</figcaption>++++++</figure>+++
-
-==== Interventional
-
-// table insert 46
-
-These medibots are capable of performing all surgical functions.
-They can replace eyes, add bionic parts, add real parts, remove real parts, remove gallstones, glue eyelids shut plus a host of other related wonders.
-All surgical bots have local and general anesthetic and any patient can be kept under for as long as necessary or desired.
-The surgical bot must be within 1 hex per two points of PSTR to use its anaesthetics.
-
-Before proceeding, the surgical robot must be given a description of what needs to be done.
-This description can be given by a diagnostic bot or a veterinarian.
-If a surgical bot is left to do its own diagnosis, then it will function as a veterinarian that can add its INT to the performance table rolls.
-The percentage chance of successful surgery is 4 times the bots INT.
-Recovery is also dependant on the CON of the patient and she must make a DDS roll and a CON attribute roll before recovering.
-Failure to recover may mean delayed recovery or death, depending on the procedure.
-
-These bots are also capable of fleshy reconstructions that will affect only the players CHA and external appearance.
-Interventional medical bots can reconstruct teeth, change hair, eye, skin colour, facial appearance (nose jobs, etc.) and other purely external changes.
-Regardless of the extent of repairs and changes, a personas CHA can only be increased by a maximum of 3 points.
-Medical bots make few (if any) errors;
-the chance for success is five times the bots INT.
-Once the work is finished, the patients CON must be capable of overcoming any complicaitons or side effects  
-this is checked with a CON attribute roll.
-
-Whether the bot screws up or the persona succumbs to infection, the result is the same  
-a drop in CHA by one to four points.
-Lost CHA can be built back up to no more than three higher than the personas original CHA.
-The cosmetic bots are only able to anesthetize local parts of the body with their sonic anesthetic.
-Spies can add 10 times the INT of the cosmetic bot to their PT roll when using one to create a disguise.
-Cosmetic bots can function as a veterinarian.
-When using the PT table cosmetic bots can add their INT.
 
 == *3) Base Race*
 
