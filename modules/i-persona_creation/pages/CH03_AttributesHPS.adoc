@@ -43,7 +43,7 @@ Once the player has determined a maximum HPS, it should be recorded in ink on he
 
 // brand new table for version 6.0
 .*Hit Points by Race*
-[width="75%",cols="<,<,<,<",frame="all", stripes="even", caption='{table-caption}{counter:table-number} ']
+[width="75%",cols="<,<,<,<",frame="all", stripes="even"]
 
 |===
 
@@ -53,14 +53,14 @@ s|Robot
 s|Alien
 
 s|HPS Basis
-^|CON
-^|CON and Size
-^|CON and Type
+|CON
+|CON and Size
+|CON and Type
 
 s|Range
-^|5-90
-^|0-500
-^|1-750
+|5-90
+|0-500
+|1-750
 
 
 
@@ -68,6 +68,7 @@ s|Range
 
 
 .Calculate Maximum HPS
+[quote]
 =====
 [.text-center]
 HPS = (1/2 CON x d8) + CON
