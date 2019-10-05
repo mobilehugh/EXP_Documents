@@ -3,7 +3,7 @@
 :table-caption: Table 3.
 
 .Organs of resiliency.
-[caption='{figure-caption}{counter:figure-number} ']
+[caption='', alt="Warren Oddson 1990" ]
 image::ROOT:constitution.png[]
 
 Constitution represents a persona’s internal physique.
@@ -11,10 +11,35 @@ The main components of CON are the heart, lungs, liver, kidneys and immune syste
 A high CON is better to repel disease, resist poisons, and repair damaged tissue.
 
 The constitution represents internal hardiness it points.
-The relationship between CON and HPS is detailand directly influences structural integrity as well.
-The CON is used to determine the persona's hed in HPS.
+The relationship between CON and HPS is detail and directly influences structural integrity as well.
+The CON is used to determine the persona's HPS.
 
 The CON attribute is rolled on 3d6.  If a persona’s CON should drop below 1, she is irrevocably dead due to combined heart, liver, kidney and immune system failure.
+
+// brand new table for version 6.0
+.*Constitution by Race*
+[width="75%",cols="<,<,<,<",frame="all", stripes="even", caption='{table-caption}{counter:table-number} ']
+
+|===
+
+|
+s|Anthro
+s|Robot
+s|Alien
+
+s|Die Roll
+^|3d6
+^|1d4 (level)
+^|5d6-5
+
+s|Range
+^|3-18
+^|1-25
+^|0-25
+
+|===
+
+
 
 == Damage System Shock (DSS)
 A player must make a check to remain conscious whenever more than half her remaining hit points are lost at one time.

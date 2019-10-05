@@ -1,6 +1,7 @@
 = Hit Points (HPS)
 
 .How much physical damage can one endure?
+[caption='', alt="Warren Oddson 1990" ]
 image::ROOT:hitpoints.png[]
 
 Hit points reflect the persona’s ability to withstand physical damage.
@@ -19,14 +20,13 @@ shooting, stabbing car accident, fall, explosions, etc.
 For more information about losing hit points, she chapters 26 or 27 in the combat section.
 
 Personas don’t just lose hit points until they die (hit points are a dynamic attribute, not a declining attribute).
-Personas can get hit points back through rest.
-See Chapter 13.
-Health for more information about rest.
-Medical attention can heal back lost hit points.
-
+Personas can regain hit points back through rest.
+See Chapter 13. Health for more information about rest.
+Medical attention can also heal back lost hit points.
 
 The hit point doesn’t convert to some unit of energy – like an erg.
-However, the hit point is a constant value. Any person, alien or robot at 10 HPS can only withstand 10 HPS of damage.
+However, the hit point is a constant value. \
+Any anthro, alien or robot that absorbs 10 HPS of damage deducts that from their HPS total.
 What varies is how each race type is affected upon reaching 1 HPS.
 How aliens and robots respond to very low hit point totals (less than 1) is covered in their respective chapters.
 How people respond to particular HPS totals is detailed here.
@@ -40,6 +40,32 @@ The maximum HPS cannot be exceeded by healing of any sort (of course, there are 
 No pity should be given to the players while they are rolling their persona’s HPS.
 Hit points should be considered just another attribute which will determine class and race.
 Once the player has determined a maximum HPS, it should be recorded in ink on her persona record sheet.
+
+// brand new table for version 6.0
+.*Hit Points by Race*
+[width="75%",cols="<,<,<,<",frame="all", stripes="even", caption='{table-caption}{counter:table-number} ']
+
+|===
+
+|
+s|Anthro
+s|Robot
+s|Alien
+
+s|HPS Basis
+^|CON
+^|CON and Size
+^|CON and Type
+
+s|Range
+^|5-90
+^|0-500
+^|1-750
+
+
+
+|===
+
 
 .Calculate Maximum HPS
 =====

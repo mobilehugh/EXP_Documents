@@ -1,8 +1,7 @@
 = Dexterity (DEX)
-:figure-caption: Figure 3.
-:table-caption: Table 3.
 
-
+.Wiring the brain to the environment.
+[caption='', alt="Warren Oddson 1990" ]
 image::ROOT:dexterity.png[]
 
 The dexterity attribute represents many abilities which are collectively referred to as DEX.
@@ -13,8 +12,30 @@ A player may be required to make a DEX attribute roll when her persona attempts 
 A persona’s dexterity also directly affects her amour rating.
 Amour rating determines how difficult a target is to hit during combat.
 So a player character with a high dexterity can dodge and deflect attacks better and, consequently, has a better amour rating.
-The exact details of this bonus are described in Chapter 29.
-Armour Rating.
+
+// brand new table for version 6.0
+.*Dexterity by Race*
+[width="75%",cols="<,<,<,<",frame="all", stripes="even", caption='{table-caption}{counter:table-number} ']
+
+|===
+
+|
+s|Anthro
+s|Robot
+s|Alien
+
+s|Die Roll
+^|3d6
+^|1d4 (level)
+^|5d6-5
+
+s|Range
+^|3-18
+^|1-25
+^|0-25
+
+|===
+
 
 A persona’s movement rate is determined by her DEX.
 Table 3.2 is used to find how fast a persona can move in h/u (equal to m/s).
