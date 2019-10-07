@@ -67,12 +67,12 @@ s|Range
 |===
 
 
-.Calculate Maximum HPS
-[quote]
-=====
-[.text-center]
-HPS = (1/2 CON x d8) + CON
-=====
+=== Anthro Hit Points Calculation
+.HPS = (1/2 CON x 1d8) + CON
+****
+A persona with a CON of 11 would roll 6d8 and add 11. Rounding benefits the player.
+****
+
 
 The persona’s CON attribute plays an important role in determining the persona’s maximum HPS.
 A persona’s HPS is determined by rolling d8s.
@@ -87,11 +87,11 @@ When a persona takes 1 and a ½ times her HPS max without any interim healing, s
 So the persona that rolled 26 HPS max would be dead if her HPS total dropped below -13; a persona with 54 HPS max would be dead if her HPS total were to go below -27 HPS; one with 44 HPS max would be dead if her HPS total were to drop below -22 HPS.
 This is also called negative one half of one’s HPS.
 
-.Calculate Minimum HPS
-=====
-[.text-center]
-Death = -1 times (1/2 max HPS)
-=====
+=== Anthro Minimum HPS Calculation
+.Death = -1 times (1/2 max HPS)
+****
+For example an anthro persona with 30 HPS would be dead if their HPS total to negative 15 (-15).
+****
 
 Hit points appear to be an attribute that can drop below 1 without killing the persona.
 This is true; however, any persona with a negative hit point total is in a state of severe trauma – she is dying.
@@ -109,11 +109,14 @@ A damage system shock roll (DSS) is a deci-die roll less than 3 times her curren
 If the player rolls higher than 3 x HPS + Con on percentile dice, the persona has been stunned or knocked down.
 
 
-.Calculate Damage System Shock
-====
-[.text-center]
-DSS = (3 times current HPS) + CON
-====
+=== Calculate Damage System Shock (DSS)
+.DSS = (3 times current HPS) + CON
+****
+Consider a persona with a 10 CON and 20 HPS. 
+If she were to take 12 HPS at once a DSS roll would be required.
+The persona now has a 10 CON and 8 HPS.
+She would have to roll 34 or less on 1d100 to keep standing.
+****
 
 == Recovery Rolls (REC)
 The stunned persona will remain inactive until she makes a successful recovery roll.
@@ -121,11 +124,15 @@ A recovery roll (REC) is a percentile dice roll less than 5 times her persona’
 If the player rolls higher than her 5 x HPS + Con on deci-dice, the persona remains stunned or knocked down.
 The player may only attempt a recovery roll as often as her Con dictates.
 
-.Calculate Recovery Rolls
-====
-[.text-center]
-REC = (5 times current HPS) + CON
-====
+
+=== Calculate Recovery Rolls (REC)
+.REC = (5 times current HPS) + CON
+****
+Consider a persona with a 10 CON and 8 HPS. 
+If she were stunned she could make a recovery roll (REC).
+She would have to roll less than 50 on 1d100 to get back up.
+****
+
 
 An example using numbers may help.
 Two player characters both take equal damage in a car accident, let’s say 20 HPS.
