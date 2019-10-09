@@ -1,21 +1,38 @@
 = Anthros
 		
-Every persona, from the evilest RP to the kindest player persona, has a race.
-The three types of races found in EXP are anthros (humans, canines, felines, etc.), robots (janitorial to combat) and aliens (flying carnivorous plants to pulsating blobs).
-Player personas primarily consist of anthropomorphs.
-The other race options (robots and aliens) are extraordinary ones which are complicated to run and are only recommended for experienced players.
-For more information about bots and aliens, refer to XREFs Chapter 5 Robots and Aliens.
-The races detailed in this chapter are referred to as anthropomorphs.
-They are all upright, bipedal and humanoid.
-Every persona has legs (for locomotion), arms (not used for locomotion) and hands (attached to the ends of the arms) which are used for grasping/manipulating.
-The head, however, would be a facsimile of whichever race the persona is.
-The body covering (skin, hide, feathers) will also reflect the base race chosen.
-The properly proportioned humanoid form would sport whatever tails, snorts, brows, horns or tufts are found on the base race.
+[quote]
+____
+*Anthros are humanoid life forms with animal appearances.*
+____
 
-Let’s consider a player who is canine.
-First, she shall choose a dog type that suits her fancy.
-This is done purely for descriptive purposes and will not alter any of the attributes rolled.
-The race type chosen may be reflected in the disposition of the persona though.
+All anthros are upright, bipedal and have hands, heads and faces.
+In the fake taxonomy of life in EXP Anthros are in the family Hominidae, and the genus homo.
+Anthros are further differentiated by types.
+Each anthro type is considered a species with names like homo avis, or homo felis.
+A homo felis (feline) would be further differentiated as a cat, lion or cougar.
+The final appearance of the anthro type is chosen by the player.
+
+Creating personas in EXP can be completely random.
+It is the expectation throughout this document that everything is randomly generated.
+This is not a requirement and players are free to choose their anthro type.
+This choice is up to the referee and players in the game.  
+
+== Anthro Limitations
+
+EXP is extremely open to creative interpretation. 
+However there are limitations to what an anthro persona can be.
+Let’s consider a player who has a canine (dog) anthro persona.
+The player can choose a dog type that suits her fancy.
+This could be a husky, a poodle, a golden or a mutt.
+Both the canine and dog type are purely descriptive.
+
+The hite, wate, and abilities of the persona are determined by the type canine.
+The dog type is cosmetic.
+A chihuahua will *NOT* automatically be tiny, anxious, and yappy. 
+The canine type will determine the hite and wate.
+The vocation will determine the skill set.
+The player chooses the disposition.
+
 
 After much deliberation, the player chooses that her canine persona will have the likeness of a bulldog.
 The persona’s head will have the gnarled features and folded jowls characteristic of a bulldog.
@@ -50,105 +67,341 @@ Each one could have evolved from a lesser species (as humans evolved from apes);
 Inquisitive players may force a referee to answer more complex question like:
 How do all the races appear in the same place?
 Why are they humanoid?
-Do androids dream of electric sheep (Dick)?
+Do androids dream of electric sheep?
 The answers to such questions may be included in the initial campaign background or may even be woven into the goal of the campaign itself.
-
-The players usually have the option of choosing from one of several races.
-Which races the player can choose from depends on the attributes rolled for the persona.
 
 == Creating an Anthro Persona
 
-// [options="interactive"]
-
 .Steps to generate an Anthro persona
-. Attributes 
-. Adjust attributes by attributes
-. Anthro type
-. Adjust attributes by type
-. Age, Hite, Wate
-. Mutations
-. Vocation
-. Combat table 
-. Roll Incidentals 
+. <<_attributes,Attribute Generation>> 
+.. <<_adjusting_attributes_by_attribute,Attributes adjust attributes>>
+. <<_anthro_type_selection,Anthro Selection>>
+.. <<_attributes_adjustments,Adjust Attributes>>
+.. <<_age,Age>> 
+.. <<_hite_and_wate,Hite and Wate>>
+. xref::CH07_Mutating.adoc[Mutations]
+. xref::CH08_Vocations_.adoc[Vocations]
+. xref:CH10_Incidentals.adoc[Incidentals]
 . Roll TOYS
-. Have fun
+. xref:ii-non_combat_rules:CH14_Performance_Tables.adoc[Performance Tables]
+. xref:iii-combat_rules:CH09_Combat_Tables.adoc[Combat Tables]
+. *Have fun!*
 
-== Anthro Attributes
+== Attributes
 
-Chapter 3 Attributes is dedicated the explanation of anthro attributes.
-Since anthropomorphs are the basic persona type in EXP that chapter answers all your attribute questions. 
-The referee may have all kinds of different ways for generating attributes for anthros. 
-The table below reflects an attribute generation system that results in the most balanced collection of persona races and classes.
+Anthro attributes are generated randomly and added to the persona record sheet.
+Attributes determine both the physical abilities and type of the anthro persona. 
+Randomly determining anthro attributes is based on rule set legacy and game balance.
+Using multiple die to generate the random numbers creates more organic ability curves.
+The weak and strong are outliers. 
 
-//table 4.1 
+Many role playing games have different mechanisms for determining persona attributes. 
 
+// brand new table for version 6.0
+.*Anthro Attribute Generation*
+[width="75%",cols="<,<,<",frame="all", stripes="even"]
+
+|===
+
+3+<|Randomly determine the anthro attributes.
+
+s|Attribute
+s|Abbreviation
+s|Die Roll
+
+|Awareness
+|AWE
+|3d6
+
+|Charisma
+|CHA
+|3d6
+
+|Constitution
+|CON
+|3d6
+
+|Dexterity
+|DEX
+|3d6
+
+|Intelligence
+|INT
+|3d6
+
+|Mental Strength
+|MSTR
+|4d4
+
+|Physical Strength
+|PSTR
+|3d6
+
+|Hit Points
+|HPS
+e|Special
+
+|Social Standing
+|SS
+|1d1000
+
+s|Attribute
+s|Abbreviation
+s|Die Roll
+
+|===
+
+=== Alternate Generation Systems
+
+It is easy enough to incorporate alternate generation systems.
+Keep in mind that EXP is based on a system where 3 and 18 are rare attribute scores. 
+Bonuses and penalties in EXP reflect anthro attributes based on this.
+The frequency of powerful vocations are checked by using the strict 3d6 method.
+The referee and players should choose the approach that works best for them.
+Don't let rules get in the way of the story or the fun.
+
+==== Drop the lowest
+
+Drop the lowest is a simple enough mechanism for increasing anthro attributes.
+Players roll 4d6 and drop the lowest die roll. 
+If a player were to roll 4, 3, 5, and 2 the 2 is dropped and the total is 12. 
+
+The impact on the rule set of drop the lowest is astounding. 
+Running python computer models with drop the lowest changed the game considerably. 
+Expeditions are be composed of powerful spies and knites.
+The rule set still works though and drop the lowest up to the players and referee.
+
+For technical reasons Social Standing and HPS cannot be part of drop the lowest. 
+
+==== Roll and assign
+
+Roll and assign has the player roll 3d6 times and then assign the attribute score.
+If a player were to roll 11, 15, 4, 16 etc.
+She would next assign each score to an attribute.
+Her persona could have a 16 DEX, a 15 INT and 4 CHA etc.
+
+For technical reasons Social Standing and HPS cannot be part of roll and assign. 
+
+==== Point system
+
+Point systems become alarmingly complicated very rapidly.
+In theory point systems allow players to create the persona they want.
+However the amount of time spent couriering points around is time consuming.
+It is likely more efficient to let players choose their type and vocation outright.
+There is nothing wrong with this approach at all.
+Don't let rules get in the way of story and fun.
+
+A strict point assignment is based on a 3d6 system and totals 70 points.
+A generous point assignment is based on 4d6 drop lowest and totals 91 points.
+As players are smart and creative the referee will need assignment rules.
+A few tips include: making CHA negative will not add points, anthro type minimum and maximums still apply, no attribute can be less than 3, and many more. 
+
+For technical reasons Social Standing and HPS cannot be part of a point system.
+
+== Adjusting Attributes by Attribute
+
+// is this only MSTR and INT? if so SIMPLIFY
+
+Several attributes are influenced by other attributes. 
+For example, Mental Strength is improved by Intelligence. 
+It is important to make the attribute adjustments as this can change the anthro type choices.
+
+== Anthro Type Selection
+
+Once an potential anthro's attributes have been generated choices must be made.
+The player and referee go through the Anthro Type Attribute Requirements Table.
+By comparing the generated attributes to this table a list of anthro types is created.
+Each anthro type has a set of attribute minimums.
+The persona must have attributes equal to or greater than the minimum.
+Anthro type maximums do *NOT* apply when choosing an anthro type.
+
+If the referee and player agree this step can be skipped and players can choose whatever anthro type they desire.
+The corollary of this also applies. 
+The referee can designate that all anthro types be the same. 
+Don't let rules get in the way of story or fun.
+
+//table 4.1
 include::ROOT:partial$CH04_Table_anthro_attributes.adoc[]
 
-=== Attribute Minimums
-
-The Racial Attribute Table not only restricts personas from being certain races but also protects the player while rolling mutations.
-Many defective mutations can reduce attribute scores but, while creating a persona, such reductions can never force an attribute below a race’s attribute minimum.E.g., if a feline with a 9 CHA (minimum 8 CHA) were to get a Total Carapace (physical mutation #50), her CHA should drop by 4 points.
-Because a feline’s minimum CHA is 8, her CHA would be 8 instead of the expected 5. Charisma is a special example because often a player will want her persona’s CHA attribute to be as low as possible.
-If the player desires this, the protective aspect of the racial minimums can be ignored and her CHA can drop as low as possible.
-Remember that the persona’s attributes must meet all of the racial requirements before any race can be chosen.
-
-=== Attribute Maximums
-
-Racial maximums do not apply when the player is rolling up her person.
-So a canine could have a charisma of 17 even though the racial maximum is 15. 
-Attribute minimums and maximums can be ignored once the campaign start.
-The racial minimums do not apply and the racial maximums are firmly in place.
-If a player’s CHA drops because of burns or her PSTR drops because of disease or her INT drops because of brain damage during the campaign, the racial minimums will not limit the attribute’s decline.
-If one, or several, of a persona’s attributes drops below the racial minimum during the course of a campaign, the persona does not have to change races.
-
-== Anthro Type
-
-The Anthro Type Table used by the player to see which of the twelve races she may be.
-The player compares the attributes she has rolled against the minimums requirements for each anthro race, and then picks the preferred one.
-For example, if she wanted to be an ursidae, both her DEX and INT would have to be 4 or better and her PSTR would have to be 12 or more.
-The best way to determine one’s race is to go down the minimum attribute column and then choose from the races that the persona may become.
-	
-The attribute limits ensure that races at least start the campaign with their attributes resembling their racial stock.
-The restrictions ensure that hardy races have a high Con, that smart races have a high INT and that strong races have a high PSTR.
-It should be re-emphasized that the humanoid races are referred to as ‘Anthropomorphs’.
-Each race tends to have particular fortes and weaknesses; however, such tendencies are not the rule
-	
-There are twelve different anthro types that the players may have an opportunity to choose from.
-Each type is grouped homo-typically (by shape) in such a fashion that will give respectable taxonomists fits.
-These groupings are arranged by what visually appears most similar.
-Some examples are: giraffes and cows are both classed as equine; kangaroos and rats are both classed as rodents; sloths and polar bears are both grouped as ursidae.
-There are probably countless biological reasons for not grouping such animal types together; however, morphologically they are similar.
-	
-Each race is a bipedal, upright humanoid.
-The races only have those special features listed in the discussion for that race.
-Special abilities found in the animal kingdom, like flying or poison attacks, do not apply.
-Such special abilities can only occur as random mutations when the persona’s mutations are rolled Mutations.
-	
-=== Requirements
-
-These are the attributes that are required are required by the personal to be the particular anthro type. 
-For example for a persona to be an canine their AWE must be at least 4 and CHA at least 3.
- 
-=== Adjustments
-
-These are the adjustments made the persona’s attributes depending on their anthro type.
- 
-=== Age
-
-Used to calculate the starting age of the persona in years.
- 
-=== Hite and Wate
-
-Hite in centimeters and wate in kilograms.
- 
-=== Determine Anthro Type
+=== Example Anthro Type Selection
 
 A player has generated a persona with the following attributes:  AWE 6, CHA 15, CON 17, DEX 9, INT 14, MSTR 12, PSTR 6 AND HPS 42.
-By comparing her attributes to the values on the minimum side of the Racial Attribute Table, this player finds she may choose from avarian, florian, humanoid, insectoid, rodent and PSH (pure strain human).
+This player finds she may choose from avarian, florian, humanoid, insectoid, rodent and PSH (pure strain human).
 
 //table 4.2
 include::ROOT:partial$CH04_Table_anthro_type_selection.adoc[]
 
+=== Attribute Minimums
 
-// here is where to locate an ifdef with includes for all the anthros
+Anthro attribute minimums have two purposes. 
+1) organize anthro types based on physical abilities.
+2) ensure a minimum attribute score for the anthro type.
 
+How the anthro attribute minimums are used to select anthro types is detailed previously.
+The restrictions ensure that hardy types have a high CON, that smart types have a high INT and that strong types have a higher PSTR.
+
+The anthro attribute minimums are also protective of the persona being created.
+Many defect mutations can reduce attribute scores. 
+However, while creating a persona, an attribute score cannot drop below an minimum.
+If a feline were to get the mutation Total Carapace, her CHA could not drop below 8.
+Total Carapace has an armour rating benefit and CHA penalty of -4.
+This applies to anything that would drop a persona's attribute during persona creation.
+
+Once in game play the persona attributes are no longer protected by attribute minimums.
+In game play attributes can be decreased by aging, mutations or special damage.
+If a persona's CHA drops because of burns, or her PSTR drops because of aging or her INT drops because of brain damage the attribute minimums will not limit the attribute’s decline.
+This can result in persona attributes permanently dropping and even killing a persona.
+
+=== Attribute Maximums
+
+Anthro type attributes are a legacy element and are not applied to personas during generation or game play.
+
+== Anthro Type Adjustments
+
+Once the player has chosen her persona's anthro type it is recorded on the persona record.
+Each anthro type has some defining features which are detailed on their respective anthro data sheets.
+Each data sheet includes attribute adjustments, Age, Hite, and Wate. 
+Many anthro types have special abilities that are described in the body of each anthro type's section.
+
+include::ROOT:partial$CH04_Table_Ursidae_Data.adoc[]
+
+
+=== Attribute Minimums
+
+This is a refresher showing what the minimum attributes for the anthro type are.
+This is described in detail above under xref:_anthro_type_selection[Anthro Selection].
+The required attributes for an ursidae are:  DEX 4, INT 4, and PSTR 12.  
+
+=== Attributes Adjustments
+
+These are the adjustments made the persona’s attributes depending on their anthro type.
+The ursidae persona would take an INT penalty of -2.
+She would also enjoy a CON bonus of +1 and a PSTR bonus of +2.
+This tends to make ursidae, strong, hardy, but not too smart
+An anthro type attribute penalty cannot drop an attribute below the type attribute minimum.
+These attribute adjustments are important because attributes influence a persona's choice of vocation.
+These attribute changes are permanently recorded on the persona record. 
+
+=== Age
+
+Used to calculate the starting age of the persona in years.
+Ages vary wildly from anthro type to anthro type. 
+Most of the anthro ages fall into the young adult category.
+In the case of an ursidae the player would roll 1d4 and add 8.
+This generates an age between 9 and 12 in years.
+The age is recorded on the persona record sheet.
+ 
+=== Hite and Wate
+
+Hite is measured in centimeters (cm) and wate is recorded in kilograms (kg).
+A centimeter is shy of half and inch.
+A kilogram is slightly more than 2 pounds. 
+In EXP hite and wate are slightly more representative than mere cm and kg.
+They are both a pain in the butt to calculate.
+
+Hite and wate often have two categories. 
+The player may choose to be small or large. 
+Gender does not determine hite or wate. 
+It is merely a player's choice.
+
+Below we will calculate the hite and wate of a large ursidae.
+If you do not feel like doing math simply use the base hite and base wate of the persona. 
+Don't let rules get in the way of story or fun.
+
+==== Hite
+
+The hite of the anthro is calculated using a base hite and a variation.
+Each anthro type has a base hite.
+The base hite is located to the left of the + sign.
+The base hite is bolded below.
+
+// Table 4.16 Ursidae Data
+.*Find the Base Hite*
+[width="75%",cols="<,<,<",frame="all"]
+
+|===
+
+3+<| Base hite is highlighted: 176 cm
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|#176#+(2d20)-20
+|78
+
+
+|===
+
+Hite variation is the located to the right of the + sign.
+
+// Table 4.16 Ursidae Data
+.*Find the Hite Variation*
+[width="75%",cols="<,<,<",frame="all"]
+
+|===
+
+3+<| The hite variation is highlighted : (2d20)-20 cm
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|176+#(2d20)-20#
+|78
+
+
+|===
+
+The player rolls the variation and adds it to the base hite. 
+In our example the player rolled 30 on the 2d20.
+Subtracting 20 she arrives a variation of +10
+
+=== Calculate Final Hite
+.Base Hite + hite Variation = final Hite
+****
+The ursidae's base hite is 176 cm. The hite variation is +10 cm. So the persona's final hite is 186 cm.
+****
+
+==== Wate 
+
+The wate of the persona is a pure calculation based on the hite of the persona.
+The greater the hite the greater the wate. 
+
+.*Find the Base Wate*
+[width="75%",cols="<,<,<",frame="all"]
+
+|===
+
+3+<| Base wate is highlighted: 78 kg
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|176+(2d20)-20
+|#78#
+
+
+|===
+
+=== Calculate Wate Variation
+.persona hite / base hite = wate variation
+****
+The persona's hite is 186. The persona's base hite is 176 cm. Division gives a wate variation of 1.05
+****
+
+
+=== Calculate Final Wate
+.base wate * wate variation =  final wate
+****
+The base wate is 78 kg.  Multiplied by wate variation of 1.05 gives a final wate of 82 kg.
+****
+
+
+The player records the final hite and final wate on her persona record. 
+She also wonders if it was worth all the arithmetic work.
+Smiling, she remembers that numeracy is a worthy skill.
