@@ -1,39 +1,47 @@
 = Robots
-:figure-caption: Figure 5.
-:table-caption: Table 5.
 
-For players who want to try something different and more challenging, the Robot section will fit the bill nicely.
-Robots are an unusual category of persona for many reasons, the least of which is the fact that they are not biological entities.
-This alone makes them more alien than aliens.
-Robots are ideal for players who have always felt some affinity for things mechanical.
-Although robots will not suit everyone, some players will immediately find a home for their psyche inside one of these alloy-cans.
-Have you ever found yourself establishing immediate rapport with your home computer, toaster or electric drill?
-If so, you may find yourself at home in this chapter.
+Robots are the colloquial name for the family Machinae. 
+Machinae are any life form that is inorganic and fabricated.
+An organic fabricated life form would be an alien.
+An inorganic non-fabricated would most likely be an alien.
+Robots can be fabricated by Anthros, Aliens or other Robots.
+It is possible for robots to be self replicating, but there would always be an original source.
 
-Do not enter the robotic realm without consideration.
-Though it may seem appealing, there are many things to consider.
-First of all, the robots are not basic humanoid form.
-Few players can relate to being shaped like a cube and floating around on anti-grav.
-There are many advantages and disadvantages to being a robot  
-all of which take a lot of getting used to.
-The robotic class can be riotous fun for those players who can relate to the completely different physical and mental construction  
-and can result in severe problems for those who cannot adapt.
+Normal robots are not player personas.
+Functioning robots follow commands and have no free will.
+A functioning robot may be smart and sentient but it does not have consciousness.
+Player persona robots are malfunctioning robots.
+They have sentience, free will and consciousness.
+From a robotic standpoint they are broken.
+
+Robots are for players who want to try something different and challenging.
+Robots are a challenging persona type because there is no organic frame of reference.
+They have not basic humanoid form.
+A robot may have wheels instead of legs.
+A robot may have no appendages to manipulating artifacts.
+Many actions a player expects her persona to carry out will not be possible with a robot.
+The shape and lack of appendages makes robots more alien than aliens.
+
+.Robots may work for you if
+* You have a strong affinity for things mechanical.
+* You have rapport with your computer, toaster or electric drill.
+* You don't mind your persona never picking up an artifact.
+
+If you are still here creating a robot player persona welcome aboard.
+Robots are very mechanistic in their creation.
+To ensure campaign balance the player has very few decisions in how the robot is generated.
 
 .There are no robot storks.
 image::ROOT:robot_delivery_service.png[alt="studiostoks stock art illustration."]
 
-Those players who have chosen robot personas have their work cut out for them.
-The robots are completely unlike either humanoids or aliens.
-The system for designing robots is also unique and involves the use of a great many tables.
-The process is actually quite straightforward and can be executed via the following checklist:
 
 == Robot Fabrication Checklist
 
-. xref:#_bot_attributes[Bot Attributes]
+. <<_attributes,Attributes>>
 
-. xref::#_robot_type[Robot Type]
+. <<_robot_type,Select Robot Type>>
 
-. Base Anthro Type
+. Fabricator Type
 
 . Armour Rating
 
@@ -68,29 +76,140 @@ The process is actually quite straightforward and can be executed via the follow
 . Adaptability
 
 
-== Bot Attributes
-
-Although attributes for robots are comprised of the usual seven (AWE, CHA, CON, DEX, INT, MSTR, PSTR and HPS), their generation differs.
+== Attributes
+Robots have the usual seven attributes. 
+This includes AWE, CHA, CON, DEX, INT, MSTR, PSTR and HPS.
+However the generation of these attributes is unique to robots.
 There are four prime requisites:  CON, DEX, INT and PSTR.
-Each of these is determined initially on a four-sided die and is referred to as the level of the attribute.
-A player that rolls a three for PSTR thus has a PSTR level of 3.
-The level of the attribute is quite distinct from the true value of the attribute.
-The levels are used to determine what robotic type the player will have and must be converted to standard attribute values for play.
-Although a robots attributes may change in the course of a campaign, its attribute level cannot change.
-So before moving on the persona will be have four attribute levels each between one and four.
-For example the robot Persona Sal has a CON level of 2, a DEX level of 2, an INT level of 3 and a PSTR level of 4.
-These attribute levels are endlessly important for robot personas.
+The prime attributes determine the robotic type as well as her attributes.
 
-Once the attribute levels have been used to determine the robot type, they need to be converted to standard attributes.
-The conversion equations for CON, DEX INT and PSTR are given on the Robotic Attribute Conversion Table.
-The remaining attributes (AWE, CHA) are rolled as usual  
-on 3 six sides.
-Incidentally, MSTR for bots is always 0, which in fact may create ground for fascinating philosophical arguments best not pursued herein.
-HPS are dependent on each Robot Type, and are calculated once the robot type is determined.
+Robot Control Factor determines whether a robot maintains its free will.
+Fabricator Type may keep a robot from doing where her persona wants.
+Neither is an attribute, but both are crucial to a robot persona.
+
+Robots do not engage in the organic think space at all.
+Robots have a MSTR of 0. 
+Robots also do not have a social standing. 
+If robots need to compare their privilege they would use their value.
+
+=== Determining Prime Attributes
+The player first generates the prime attributes.
+The prime attributes are CON, DEX, INT and PSTR.
+Each prime attribute is determined by rolling 1d4.
+This value is called the level of the prime attribute.
+Each prime attribute is recorded on the persona record.
+
+A player that rolls a three for prime PSTR thus has a PSTR level of 3.
+The true value of the attribute is generated from the attribute level.
+The attribute level determines the robot type of the persona.
+Attributes can change through out the game, attribute levels do not change.
+The persona will  have four prime attribute each with a levels between one and four.
+For example a CON level of 2, a DEX level of 2, an INT level of 3 and a PSTR level of 4.
+
+// New Table for version 6.0
+.*Robotic Prime Attributes*
+[width="75%",cols="<,^,^,^,^",frame="all", stripes="even"]
+|===
+5+<|Each prime attribute has a range of 1 to 4.
+s|
+s|CON
+s|DEX
+s|INT
+s|PSTR
+
+s|Attribute Level
+.^|1d4
+.^|1d4
+.^|1d4
+.^|1d4
+
+s|
+s|CON
+s|DEX
+s|INT
+s|PSTR
+
+|===
+
+=== Regular Attributes
+Attributes amongst the families are equal in value. 
+An INT 12 is equal amongst robots, aliens and anthros.
+Prime attributes must be converted into regular attributes.
+The prime attribute must remain on the persona record sheet.
+For example INT would be recorded as INT level 2 INT 12.
+
+// brand new table for version 6.0
+.*Robotic Regular Attribute Generation*
+[width="75%",cols="<,<,<",frame="all", stripes="even"]
+
+|===
+
+3+<|Randomly determine several robot attributes.
+
+s|Attribute
+s|Abbreviation
+s|Die Roll
+
+|Awareness
+|AWE
+|3d6
+
+|Charisma
+|CHA
+|3d6
+
+|Constitution
+|CON
+|See Below
+
+|Dexterity
+|DEX
+|See Below
+
+|Intelligence
+|INT
+|See Below
+
+|Mental Strength
+|MSTR
+|0
+
+|Physical Strength
+|PSTR
+|See Below
+
+|Hit Points
+|HPS
+e|CON and Type
+
+|Social Standing
+|SS
+|Robot Value
+
+s|Attribute
+s|Abbreviation
+s|Die Roll
+
+|===
+
+The player must now convert the prime attributes into regular attributes. 
+If robot has a CON level of 1 the player would roll 1d8 to determine the regular CON.
+Both the CON level and regular CON are recorded on the persona record.
+
+include::ROOT:partial$CH05_Table_Robotic_Attributes.adoc[]
+
+
+
+
+
+
 
 //<figure id="attachment_672" aria-describedby="caption-attachment-672" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/robotassembly.54-300x213.png?resize=300%2C213[Anthros building robots to replace anthros.,300]](https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/robotassembly.54.png)+++<figcaption id="caption-attachment-672" class="wp-caption-text">+++Anthros building robots to replace anthros.+++</figcaption>++++++</figure>+++
 
 == Robot Type
+
+Determining robot type is byzantine, meticulous and painful.
+This is one reason that the https://github.com/misterquetoo/EXP_Game_Tools:[EXP_GAME_TOOLS] were developed.
 
 When the personas attributes and attribute levels have been determined, refer to Table 5.2: Robot Type Determination Table to see what possibilities available to the player.
 For example, a bot with a PSTR Level III would look down the column for PSTR III and find that three robot types (F, H & J) are allowed.
@@ -98,7 +217,7 @@ This is repeated for each of the four attributes.
 The robot type that appears most frequently becomes the personas robot type.
 In the case of a tie, the player is free to choose.
 
-include::ROOT:partial$CH05_Table_Robotic_Base_Anthro_Type.adoc[]
+include::ROOT:partial$CH05_Table_Robot_Type_Determination.adoc[]
 
 Lets consider a bot named Sal.
 Her attribute levels are CON 2, DEX 2, INT 3 and PSTR 4.
