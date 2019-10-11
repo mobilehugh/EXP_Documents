@@ -75,6 +75,8 @@ The answers to such questions may be included in the initial campaign background
 .Steps to generate an Anthro persona
 . <<_attributes,Attribute Generation>> 
 .. <<_adjusting_attributes_by_attribute,Attributes adjust attributes>>
+.. Record attributes
+.. Record movement rate
 . <<_anthro_type_selection,Anthro Selection>>
 .. <<_attributes_adjustments,Adjust Attributes>>
 .. <<_age,Age>> 
@@ -263,8 +265,41 @@ Each anthro type has some defining features which are detailed on their respecti
 Each data sheet includes attribute adjustments, Age, Hite, and Wate. 
 Many anthro types have special abilities that are described in the body of each anthro type's section.
 
-include::ROOT:partial$CH04_Table_Ursidae_Data.adoc[]
+// Table 4.16 Ursidae Data
+.*Ursidae Data*
+[width="75%",cols="<,<,<",frame="all"]
 
+|===
+
+3+<|The bare facts to create an ursidae player persona.
+
+s|Attribute Minimums
+2+<|DEX 4; INT 4; PSTR 12
+
+s|Attribute Adjustments
+2+<|CON +1; INT -2; PSTR +2
+
+s|Age
+2+<|9-12 (1d4+8) years
+s|Abilities
+2+<|<<_hibernation,Hibernation>>, <<_frenzy,Frenzy>>
+
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|176+(2d20)-20
+|78
+
+|Larger
+|208+(2d20)-20
+|139
+
+3+<| <<_hite_and_wate,How to calculate Hite and Wate>>
+
+|===
 
 === Attribute Minimums
 

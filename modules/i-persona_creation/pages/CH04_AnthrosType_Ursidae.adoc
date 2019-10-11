@@ -2,61 +2,112 @@
 
 image::ROOT:ursidae.png[]
 
-include::ROOT:partial$CH04_Table_Ursidae_Data.adoc[]
+// Table 4.16 Ursidae Data
+.*Ursidae Data*
+[width="75%",cols="<,<,<",frame="all"]
+
+|===
+
+3+<|The bare facts to create an ursidae player persona.
+
+s|Attribute Minimums
+2+<|DEX 4; INT 4; PSTR 12
+
+s|Attribute Adjustments
+2+<|CON +1; INT -2; PSTR +2
+
+s|Age
+2+<|9-12 (1d4+8) years
+s|Abilities
+2+<|<<_hibernation,Hibernation>>, <<_frenzy,Frenzy>>
 
 
-Ursidae have the scientific nomenclature of Homo Ursus.
-Ursidae are big, furry bearoids.
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|176+(2d20)-20
+|78
+
+|Larger
+|208+(2d20)-20
+|139
+
+
+3+<| xref:CH04_Anthros.adoc#_hite_and_wate[How to calculate Hite and Wate]
+
+|===
+
+
+Ursidae is short for Hominidae Homo Ursus.
+Ursidae are big, furry humanoid bears.
+Common appearances of ursidae: grizzly, panda, black bear, etc.
 They have rotund bodies, bear-like heads and claw-tipped stubby hands.
 Regardless of the bear type chosen, the persona remains a bipedal humanoid that naturally possesses no more abilities than those described here.
 
-== hibernation
-Ursidae can revert to a hibernation-like stupor in which their metabolism is so slowed that they appear dead.
-Only a well trained veterinarian can determine whether a hibernating ursidae is dead or just resting.
-Ursidae will only hibernate when they voluntarily decide to do so.
-They will not automatically hibernate if they are knocked unconscious (failing a DSS roll).
-The persona must be conscious and voluntarily curl up in order to hibernate.
-Ursidae cannot hibernate when their HPS totals is negative.
+== Hibernation
+Ursidae can hibernate. 
+The hibernation is so deep that they appear dead.
+Their metabolism is so slow only vets and other ursidae can tell whether an ursidae is dead or just resting.
+Ursidae will only hibernate when they decide to do so.
+They will not automatically hibernate if they are knocked unconscious.
+Ursidae cannot hibernate if the have negative hit points.
 An ursidae with negative HPS is dying like all other anthro personas.
 
-Once bedded down to hibernation, the ursidae will sleep for 1 – 6 days.
-this is determined by the referee with a d6 roll and the result is kept secret from the players.
-While hibernating, the ursidae will heal on hit point each day for every two points of CON.
+Once bedded down to hibernation the ursidae will sleep for 1d6  (1-6) days.
+The hibernation duration is determined by the referee and is kept secret from the players.
+While hibernating, the ursidae will heal 1 HPS for every 2 points of CON each day.
 So an ursidae hibernating for 4 days with a 14 CON, would heal a total of 28 HPS.
 Metabolic poisons have no effect on an ursidae while she’s in hibernation.
 
-During the time of rest, there is a 1/2% chance that the persona will actually slip into a state of permanent sleep, otherwise referred to as death.
-At the end of hibernation, the ref makes a kilo-die roll.
-If this is less than 005, the ursidae has died due to a severely decreased metabolism.
-Remember that only the trained eye can distinguish hibernation from death so uneducated players won’t know an ursidae has kicked the bucket until she starts to smell.
+====
+In past versions of EXP there was a chance that an ursidae could die during hibernation. 
+Players would only notice when the persona started to smell bad. 
+====
 
-Any attempt to wake an ursidae will have a 7% chance of success regardless of what the attempt is.
+If players decide that they want to awaken an ursidae from sleep there is a 7% chance that it will work.
+Regardless of the nature of the attempt the chance of waking is the same.
 For instance, whispering softly into her ear will be as effective as inducing electric shocks.
-Only one such attempt can be made each day of hibernation.
+Only one attempt to waken can be made per day of hibernation.
 
 == Frenzy
-In complete juxtaposition to the ursidae hibernation ability is the frenzied attack.
-The persona can revert to this mauling frenzy by choice or when confronted with a situation she cannot readily find a solution for.
-When intellectually stumped there is a 5% chance that she will involuntarily go frenzied.
-If an ursidae is awakened from her hibernation, there is a 40% chance she will automatically go into her insane violence act.
-Once frenzied, the persona has reverted to a claw-driven, non-powered fighting machine.
+In complete juxtaposition to hibernation is frenzy.
+Frenzy is a mindless mauling attack where the persona drops everything and unleashes furry fury.
+The persona rends and tears at the major cause of the dilemma with her claws.
+She cannot hear anything and does not respond to commands, demands or screams.
 
-The persona will drop all weapons of any sort and proceed to rend and tear at the major cause of the dilemma with her bare claws.
-When attacking in this frenzied fashion, the ursidae will receive 1 and 1/2 attacks per experience level per unit.
-No ursidae can have more than 6 attacks per unit while in a frenzy.
-Each attack strikes as a type A weapon and does 1-6 points of damage per hit.
-The ursidae can also add 1/2 her PSTR bonus to each hit, turning her into a lethal killing machine.
-Thus a 6th level ursidae with an 18 PSTR would get 6 attacks, each capable of inflicting 10 to 15 points of damage.
-Frenzied ursidae do not have to make damage system shock rolls and will continue fighting until they are at a negative HPS total.
+=== Initiation
+The persona can enter frenzy by choice.
+An ursidae can also be forced into a frenzy if she is awoken from hibernation or intellectually stumped.
+When intellectually stumped the persona has a 5% chance of forced frenzy.
+When woken from her hibernation the persona has a 42% chance of forced frenzy.
 
-Homo Ursus frenzy is not the panacea of hand to hand combat that it appears.
-The fit will last for 2 to 16 units.
-The duration of the attack is rolled by the referee and kept secret from the players.
-If an ursidae’s opponents have been eliminated, her frenzy will continue until the duration is up.
-This means that she will attack the nearest organic creature for the remainder of the frenzy — be it RPC, player or alien.
-So even an ursidae’s best comrades flee until she has calmed down.
-Once the frenzy ends, there is a 10% chance that it will continue for another 1-8 units.
+=== Duration
+Initially frenzy is good as the persona starts by attacking enemies or objects.
+However the ursidae will continue to frenzy for the duration of the spell.
+This could mean that fellow personas or valuable equipment becomes the target.
+A frenzy will last for 2d8 (2-16) units.
+The referee rolls the frenzy duration and keeps it secret from the players.
 
-== Saving Bonus
-Ursidae are particularly hardy and, when saving against cold based attacks, ursidae get +2 on their saving throw.
-All cold based attacks do 25% less damage to an ursidae.
+=== Effects
+The ursidae will receive 1 and 1/2 attacks per experience level per unit.
+This is rounded up. 
+So a frenzied ursidae will get at least 2 attacks per unit.
+The maximum number of attacks per unit is 6.
+For example, a 4th level (regardless of vocation) ursidae would get 6 attacks per unit.
+
+Each attack is either a punch, claw, bite or body slam.
+These attacks are non-powered thrusting and striking weapon. 
+The ursidae gets to use her Type A Bonus Proficient to attack.
+No other bonuses can be applied in this primal state.
+A successful hit does 1d6 HPS of damage.
+She can add half her Type A Damage Adjustment to the 1d6 roll.
+This flurry of furry turns her into a lethal killing machine.
+For example, a 6th level ursidae with PSTR 18 would get 6 attacks per unit inflicting 10 to 15 HPS of damage per hit
+
+Frenzied ursidae completely ignore their environment and their physiology.
+No damage system shock (DSS) rolls apply during frenzy.
+The frenzies persona will also continue to fight with a negative HPS total.
+A frenzied ursidae will literally attack until dead.
+

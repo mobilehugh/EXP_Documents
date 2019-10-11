@@ -3,29 +3,77 @@
 .Dog daze in the after club.
 image::ROOT:canine.png[]
 
-include::ROOT:partial$CH04_Table_Canine_Data.adoc[]
+// Table 4.7 Canine Data
+.*Canine Data*
+[width="75%",cols="<,<,<",frame="all"]
 
-Canines can be more scientifically referred to as Homo Canis.
+|===
+
+3+<|What one needs to whelp up a canine player persona.
+
+s|Attribute Minimums
+2+<|AWE 4; CHA 3
+
+s|Attribute Adjustments
+2+<|AWE +1; CHA -2; CON +1
+
+s|Age
+2+<|5-10 (1d6+4) years
+
+s|Abilities
+2+<|<<_radiation_sense,Radiation Sense>>
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+// One size fits all not present
+
+|One size fits all
+|150+(1d12)-8
+|48
+// Large not present
+
+3+<| xref:CH04_Anthros.adoc#_hite_and_wate[How to calculate Hite and Wate]
+
+|===
+
+Canine is the short name for Hominidae Homo Canis.
+Canines are humanoid dog people.
+A canine persona can select the looks of one of many dog types: poodle, terrier, wolf, jackal, dingo, fox, etc.
+The persona remains a bipedal humanoid.
+A canine would always have two arms, two legs, a torso and face.
 The canines are humanoid dogs that are covered in fur and sport doggy tails.
 
-A canine persona can select the looks of one of many dog types: poodle, terrier, wolf, jackal, dingo, fox, etc.
-No matter which of the canine types are chosen, the persona remains a bipedal humanoid that possesses no other natural abilities other than those described here.
-For example, real bloodhounds have finely tuned detection senses but the only searching aid a bloodhound persona would receive would be her AWE.
-
 == Radiation Sense
+Radiation sense allows a canine to detect and identify radioactive nastiness.
+The effectiveness of the radiation sense is determined by the persona's AWE and not the the type of dog.
+For example, a poodle would sniff out radiation as well as a bloodhound.
+Radiation sense does not convey any immunity to radiation.
+Radiation poisoning is just as deadly to canines as other personas.
 
-Although not all canines are bloodhounds, they still have a keen sense of smell.
-This keen aromatic faculty allows the persona to — when actively searching — detect radiation.
-The canine’s radiation detection range is 2 hexes per point of AWE.
-This is a simple yes/no response as to whether radiation is present or not.
-The ability to sense radiation yields no more information about the radiation source other than its presence and general direction.
+=== Detect Radiation
+This canine ability allows the persona to notice radiation.
+The persona can immediately tell whether the radiation is a point source or general radiation.
+If there is a point source of radiation the canine can move towards the epicenter. 
+The canine could also track a mobile source of radiation.
+If there is a generalized background radiation level the persona can determine this as well.
+The range of radiation detection is 5 hexes per point of AWE and radiation intensity.
+The range is very far. 
+The ability can be used to avoid poisoned wastelands, or track down a leaking fusion pistol.
 
-To determine the radiation type, the Homo Canis persona must get closer to the source.
-The effective range for determining radiation type is 1 hex per 2 points of AWE.
-Once within range, a canine has a 5% chance per point of MSTR of properly identifying the radiation type.
-If properly identified, the canine persona will get some idea of its intensity and general type.
-Intensity should never be described to the player as numbers.
-The referee should describe it as dangerous, background, lethal, etc.
-More information about the dangers of radiation poisoning are described in Chapter 19: Special Rolls.
-The type of radiation will rarely be of importance to the expedition and, if it is, the referee must be prepared to describe it.
-Note that the two abilities are separate; if the canine fails to identify the radiation type, she is just as likely to be poisoned by it as any other persona.
+=== Identify Radiation
+Whether or not there is a radiation type is up to the referee.
+Generic radiation is complicated enough to run in a campaign.
+If the radiation type matters then the description might be something like: a weapon, a reactor, natural, etc.
+
+The canine can immediately identify the radiation type if she is damaged by it.
+Otherwise she must be within 1 hex per 2 points of AWE.
+Once she is close enough there is a 5% chance per point of AWE to identify the radiation.
+For example a canine with AWE 12 would have to get within 6 hexes of the source. 
+She would then have a 60% chance to identify the radiation.
+If she takes radiation damage in the process she will automatically identify the radiation type.
+
+
+
+
+

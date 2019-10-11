@@ -2,22 +2,63 @@
 
 image::ROOT:rodentia.png[]
 
-include::ROOT:partial$CH04_Table_Rodentia_Data.adoc[]
+// Table 4.15 Rodentia Data
+.*Rodentia Data*
+[width="75%",cols="<,<,<",frame="all"]
 
-Rodentia are fur covered humanoids with paws, rodent heads and tails (whenever applicable).
-Rodentia can also be referred to as rodents or Homo Rodens.
-Some rodent types that a player can choose from are listed here: beaver (Canadian eh!), kangaroo, rat, mouse, mole, vole, porcupine, hedgehog, gopher, platypus, hamster, gerbil, squirrel, etc.
-No matter which rodent type is chosen, the persona remains a bipedal humanoid who possesses no natural abilities other than those detailed here.
-For example, a beaver can chew down timber and construct dams better than a civil engineer can chew down trees and construct dams.
-The only dam building experience a beaver persona could have would be through civil engineering (the mechanic class).
+|===
 
-== Movement Bonus
+3+<|Rodent data for player personas.
 
-Rodentia earn a 20% bonus on their movement rate.
-So a rodent that moves 5 h/u as determined on the Movement Table would actually move at 6 h/u.
-Rodents are unaffected when scuttling through the underbrush or similar floral terrain coverings.
+s|Attribute Minimums
+2+<|CHA 12
+
+s|Attribute Adjustments
+2+<|AWE +2; DEX +1; PSTR -1
+
+s|Age
+2+<| 5-25 (1d20+4) years
+
+s|Abilities
+2+<|<<_speedy,Speedy>>, <<_night_vision,Night Vision>>
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+// One size fits all not present
+
+|Small
+|175+(2d20)-20
+|71
+
+|Large
+|175+(2d20)-15
+|71
+
+3+<| xref:CH04_Anthros.adoc#_hite_and_wate[How to calculate Hite and Wate]
+
+|===
+
+Rodentia is short for Hominidae Homo Rodens.
+Rodentia are humanoid rat people.
+Rodentia can appear as: beaver, kangaroo, rat, mouse, mole, porcupine, hedgehog, gopher, platypus, hamster, gerbil, squirrel, etc.
+Every rodentia has two arms, two legs, a torso and a face.
+Rodentia are fur covered humanoids with paws, rodent heads and tails.
+Rodents have none of the powers of their chosen type.
+For example, a rodentia beaver cannot chew their own timber and a platypus would not be poisonous.
+
+== Speedy
+Rodents can move fast and are uninhibited by terrain.
+All rodentia get a movement bonus of +20%.
+So a rodent that has a 5 h/u move would now move at 6 h/u.
+Rodents are unaffected by familiar terrain.
+So if a rodent is running through thick grass she would not suffer any movement penalty.
 
 == Night Vision
-Rodentia also enjoy 12 hex night/day vision which is disrupted by alternative light sources such as torches and searchlights.
-Thus the night/day vision can only operate in the absence of significant light.
+Rodentia have a limited night vision.
+The night vision does not work if artificial light is present. 
+For example, a torch or searchlight would disable rodent night vision.
+In complete darkness a rodent can see 2 hexes per point of Awareness. 
+A rodentia with AWE 12 could see 24 hexes as if darkness is daytime.
+
 

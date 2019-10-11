@@ -2,28 +2,71 @@
 
 image::ROOT:feline.png[]
 
-include::ROOT:partial$CH04_Table_Feline_Data.adoc[]
+// Table 4.9 Feline Data
+.*Feline Data*
+[width="75%",cols="<,<,<",frame="all"]
 
-Meow.
-Felines are cat people.
-Felines can also be referred to as Homo Felis.
-They have furry bodies, long slender tails and mouths full of sharp little teeth.
-The anthro type feline is purely descriptive and has no abilities other than those described here.
-For example, a leopard fashioned feline persona could *not* accelerate up to 100 km/h to catch prey (or more likely a bus).
+|===
+
+3+<|Feline data for creating this anthro type is below.
+
+s|Attribute Minimums
+2+<|AWE 8; CHA 8; DEX 13
+
+s|Attribute Adjustments
+2+<|DEX +2; CON -2; PSTR -1
+
+s|Age
+2+<|5-10 (1d6+4) years
+
+s|Abilities
+2+<|<<_ambush,Ambush>>
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+
+|Skinny
+|150+(1d20)-9
+|45
+
+|Chubby
+|150+(1d20)-6
+|48
+
+3+<| xref:CH04_Anthros.adoc#_hite_and_wate[How to calculate Hite and Wate]
+
+|===
+
+Feline is short for Hominidae Homo Felis.
+Felines are humanoid cat people.
 Some of the cat types that felines may resemble are: Siamese, Manx, lion, tiger, puma, jaguar, leopard, ocelot, etc.
+Felines have furry bodies, long slender tails and mouths full of sharp little teeth.
+All felines have the same abilities. 
+For example, a leopard feline persona could *not* accelerate up to 100 km/h.
 
-Felines have a keen sense of balance and agility.
-Because of this, felines enjoy a +30% movement bonus.
-Therefore, a feline with a 5 h/u movement rate would move at 6.5 h/u which is rounded up to 7 h/u.
+Felines have excellent balance and agility.
+All felines have a +30% movement bonus.
+A feline with a move of 5 h/u increase to 7 h/u.
 
-Such speed and agility was once needed by felines in order to catch prey but this was before they could buy it at the supermarket.
-The ability to ambush prey is an asset too and felines get a bonus when trying to ambush a target.
-This bonus only applies when the feline is acting alone or the entire ambushing expedition is feline.
-An ambushing feline can subtract her DEX from the target’s AWE.
-So if a feline with a 14 DEX is trying to ambush a target that has a 16 AWE, the target’s effective AWE is reduced to 2.
-This is very devastating to the target.
+
+== Ambush
+Civilized felines have evolved beyond sneaking up on dinner in the darkness.
+They now prefer to buy dinner at the local grocer.
+The skill of night stalking remains.
+
+=== Night Vision
 Homo Felis has equal nite/day vision.
 This allows them to operate in darkness without any penalty.
+
+=== Ambush Bonus
+An ambushing feline can subtract her DEX from the target’s AWE.
+So if a feline with a 14 DEX is trying to ambush a target that has a 16 AWE, the target’s effective AWE is reduced to 2.
+This drastically improves the change of a successful ambush.
+To fully realise this ability the feline must be ambushing alone or with other felines.
+The referee can reduce the ambush bonus depending on the makeup of the expedition.
+
 
 
 
