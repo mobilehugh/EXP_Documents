@@ -34,46 +34,46 @@ To ensure campaign balance the player has very few decisions in how the robot is
 .There are no robot storks.
 image::ROOT:robot_delivery_service.png[alt="studiostoks stock art illustration."]
 
-
 == Robot Fabrication Checklist
 
 . <<_attributes,Attributes>>
 
 . <<_robot_type,Select Robot Type>>
 
-. Fabricator Type
+. <<_fabricator_type,Fabricator Type>>
 
-. Armour Rating
+. <<_armour_rating,Armour Rating>>
 
-. Movement Rate
+. <<_movement_rate,Movement Rate>>
 
-. Wate Allowance
+. <<_wate_allowance,Wate Allowance>>
 
-. Power Source
+. <<_power_source,Power Source>>
 
-. Sensors
+. <<_sensors,Sensors>>
 
-. Locomotion Type
+. <<_locomotion_type,Locomotion Type>>
 
-. Offensive Systems
+. <<_offensive_systems,Offensive Systems>>
 
-. Defensive Systems
+. <<_defensive_systems,Defensive Systems>>
 
-. Peripheral Systems
+. <<_peripheral_systems,Peripheral Systems>>
 
-. Description
+. <<_description,Description>>
 
-. Wate
+. <<_wate,Wate>>
 
-. Size
+. <<_size,Size>>
 
-. Control Factor
+. <<_control_factor,Control Factor>>
 
-. Hit Points
+. <<_hit_points,Hit Points>>
 
-. Tech Level
+. <<_tech_level,Tech Level>>
 
-. Adaptability
+. <<_adaptability,Adaptability>>
+. *Have Fun!*
 
 
 == Attributes
@@ -180,7 +180,7 @@ s|Die Roll
 
 |Hit Points
 |HPS
-e|CON and Type
+|CON and Type
 
 |Social Standing
 |SS
@@ -198,52 +198,45 @@ Both the CON level and regular CON are recorded on the persona record.
 
 include::ROOT:partial$CH05_Table_Robotic_Attributes.adoc[]
 
-
-
-
-
-
-
-//<figure id="attachment_672" aria-describedby="caption-attachment-672" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/robotassembly.54-300x213.png?resize=300%2C213[Anthros building robots to replace anthros.,300]](https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/robotassembly.54.png)+++<figcaption id="caption-attachment-672" class="wp-caption-text">+++Anthros building robots to replace anthros.+++</figcaption>++++++</figure>+++
+// robotassembly  Anthros building robots to replace anthros
 
 == Robot Type
-
 Determining robot type is byzantine, meticulous and painful.
 This is one reason that the https://github.com/misterquetoo/EXP_Game_Tools:[EXP_GAME_TOOLS] were developed.
 
-When the personas attributes and attribute levels have been determined, refer to Table 5.2: Robot Type Determination Table to see what possibilities available to the player.
-For example, a bot with a PSTR Level III would look down the column for PSTR III and find that three robot types (F, H & J) are allowed.
-This is repeated for each of the four attributes.
-The robot type that appears most frequently becomes the personas robot type.
-In the case of a tie, the player is free to choose.
+Each attribute level has it's own column. 
+The player follows down each column recording any robot IDs in that column.
+For example, going down the CON Level 3 column the player records P and T.
+This process is repeated on for all 4 attribute levels. 
+This will create a collection of letters. 
+The most prevalent letter will determine the robot type. 
+For example, if the total number of Hs exceeded all other robot IDs the persona would be a hobbot.
 
 include::ROOT:partial$CH05_Table_Robot_Type_Determination.adoc[]
 
 Lets consider a bot named Sal.
 Her attribute levels are CON 2, DEX 2, INT 3 and PSTR 4.
-The player would go down the columns of theTable 5.2: Robot Type Determination Table_ _to see which robot types apply.
-For instance, her CON of 2 is indicative of robot types C, D, I, M, S and V.
-This corresponds with robot types (C) Combat, (D) Data Analyzer, (I) Industrial, (M) Maintenance, (S) Social, and (V) Veterinarian.
-The player must go down each of columns for each of her four attribute levels tallying the robot types as she goes along.
-Continuing with Sal's DEX level of 2 (D, E, I, J, M, R, S),  INT level of 3 (C, H, M, P, R, S, V) and PSTR of 4 (A, C, I).
-Referring to the table below the player may choose between 4 robot types: (C) Combat Robot, (I) Industrial, (M) Maintenance Robot, and (S) Social.
+
+
+include::ROOT:partial$CH05_Table_Robot_Type_Example.adoc[]
+
+.Running down each column yields the following IDs
+* CON level 2 (C, D, I, M, S, V)
+* DEX level 2 (D, E, I, J, M, R, S)  
+* INT level 3 (C, H, M, P, R, S, V)
+* PSTR level 4 (A, C, I)
+
+Totalling the robot IDs there are 3 type C, 3 type I, 3 type M, and 3 type S
+The player may choose between 4 robot types: C-Combot, I-Industrial, M-Maintenance, and S-Social.
 
 // table insert 25
 
-The robot types are listed in the following pages.
-Each type is described and its particular parameters are listed.
 There are seven points that the player must record about her bot persona.
 These are: ATTRIBUTE LEVELS, ATTRIBUTES, ATTACKS (Offensive Systems), DEFENCES (Defensive Systems), HIT POINTS, RANDOM (random peripherals), ADAPTABILITY, VALUE, SIZE and ATTRIBUTES (attribute requirements.
 
-*LEVELS:* These are the attribute levels required for robot type in question as found in step (2) Determine Bot Type, on Table 5.2 Robot Type Determination Table.
 
-*ATTRIBUTES*: The normalized attributes help define further divisions of the robotic types.
-Some of the robot types have further classifications within the type.
-For instance, there is more than one type of combat robot, or industrial bot, and which sub-type of robot the persona can be depends on the normalized attributes.
-For example, all policing robots have an INT level of III but a special operations policing robots INT must be at least 15.
-See Table 5.3 Robotic Attributes Table to convert attribute levels to regular attributes.
-
-*ATTACKS*: determines the attacks that the robot can have.
+=== ATTACKS 
+determines the attacks that the robot can have.
 Remember that these robots are completely insane and an offensive weapon does not necessarily mean a gun or a bomb but it could indicate a defective piece of equipment that the malfunctioning robot is using as a weapon.
 Attacks are more completely described in step 10 
 offensive systems, in this chapter.
@@ -253,7 +246,8 @@ An analog robot would receive a 5% chance at one attack.
 If there is only a number listed beside Attacks, then that is the number.
 Step (10) Offensive Systems and the tables there determine the types of attacks.
 
-*DEFENCES*: determines the combat defences that the robot can have.
+=== DEFENCES 
+determines the combat defences that the robot can have.
 Remember that these robots are completely insane and a defensive weapon does not necessarily mean a force field or special armour but it could indicate a defective piece of equipment that the malfunctioning robot is using as a defence.
 Defences are more completely described in step 11 
 defensive systems, in this chapter.
@@ -264,36 +258,53 @@ If there is only a number listed beside DEFences, then that is the number of def
 The type of defence is determined in the defensive system part of this chapter.
 Step (11) Defensive Systems help determine the types of defences.
 
-*HIT POINTS:* this is the amount of hit points per point of CON that the robot has.
+*HIT POINTS*: this is the amount of hit points per point of CON that the robot has.
 Step (17) gives more information about robotic Hit Points (HPS)
 
-*RANDOM*: determines how many random peripherals are attached to the robot.
+=== RANDOM 
+determines how many random peripherals are attached to the robot.
 The peripherals are gadgets that allow the robot to be more useful and flexible.
 Normally, a robot will get just one roll in the peripheral systems (Step 12 of this chapter).
 Such robots are listed as normal
 other robots have a percentage chance of having extra rolls on the peripheral table.
 Step (12) Peripheral Systems has all the appropriate tables for determining the type of random peripherals.
 
-*ADAPTABILITY*: represents the adaptability of the robot.
+=== ADAPTABILITY 
+represents the adaptability of the robot.
 If it is very easily attached to new robotic peripherals, then its adaptability will be high.
 The percentage chance equals the likelihood that an object can be interfaced with the robot.
 This same value is added to the mechanics PT roll.
 
-*VALUE*: is the standard currency value of the most basic version of the robot type.
+=== VALUE 
+is the standard currency value of the most basic version of the robot type.
 The more peripherals attached to the bot, the more valuable it becomes.
 This represents the simple base value.
 
-*SIZE*: indicates whether a robot is designed for outdoor use or indoor use.
+=== SIZE 
+indicates whether a robot is designed for outdoor use or indoor use.
 Robots designed to withstand the elements and function outside of buildings are larger than those that are produced for indoor use.
 The size classifications are indoor (smaller) and outdoor (larger).
 If the persona wants to be a small outside robot, she may use the indoor size voluntarily;
-however, robots cannot be made larger by choice.+++<figure id="attachment_9642" aria-describedby="caption-attachment-9642" style="width: 300px" class="wp-caption aligncenter">+++[.size-medium.wp-image-9642] image::https://i2.wp.com/expgame.com/wp-content/uploads/2018/05/cable_face_desat-300x300.jpg?resize=300%2C300[studiostoks.
-stock illustration.
-modified HM,300]+++<figcaption id="caption-attachment-9642" class="wp-caption-text">+++Android migraines are the worst.+++</figcaption>++++++</figure>+++
+however, robots cannot be made larger by choice.
 
+.List of Robot Types
+* xref:CH05_Robots_A_Android.adoc[A-Android]
+* xref:CH05_Robots_C_Combat.adoc[C-Combat]
+* xref:CH05_Robots_D_Data_Analyzer.adoc[D-Data Analyzer]
+* xref:CH05_Robots_E_Explorations.adoc[E-Explorations]
+* xref:CH05_Robots_H_Hobbot.adoc[H-Hobbot]
+* xref:CH05_Robots_I_Industrial.adoc[I-Industrial]
+* xref:CH05_Robots_J_Janitorial.adoc[J-Janitorial]
+* xref:CH05_Robots_M_Maintenance.adoc[M-Maintenance]
+* xref:CH05_Robots_P_Policing.adoc[P-Policing]
+* xref:CH05_Robots_R_Rescue.adoc[R-Rescue]
+* xref:CH05_Robots_S_Social.adoc[S-Social]
+* xref:CH05_Robots_T_Transport.adoc[T-Transport]
+* xref:CH05_Robots_V_Veterinarian.adoc[V-Veterinarian]
 
+// cable_face_desat Android migraines are the worst
 
-== *3) Base Family*
+== Fabricator Type
 
 This is the family that the robot was designed and manufactured for.
 Unless otherwise specified, a bot will not harm or allow to come to harm any member of its base family.
@@ -311,9 +322,9 @@ Whenever the player wants to challenge the protection of her base family, she mu
 More information about control factor is found later in this chapter.
 The referee may ignore this restriction for any referee robot that she wishes to.
 
-// table insert 53
+include::ROOT:partial$CH05_Table_Robotic_Base_Anthro_Type.adoc[]
 
-== 4) Armour Rating
+== Armour Rating
 
 All bots have a base AR of 700.
 It is important to note that armour rating values are the same for robots and all other personas.
@@ -323,7 +334,7 @@ So a to hit roll of 700 or higher would damage a bot with an AR 700 just as it w
 Robots are different from biological creatures and damage differently.
 This aspect of damage is covered in this chapter under robotic damage.
 
-== 5) Movement Rate
+== Movement Rate
 
 Robotic movement rates are determined by the robots DEX value.
 Table 5.6: _Robotic Movement_ is used to determine the maximum movement rate of the robot in hexes per unit.
@@ -338,7 +349,7 @@ More information about robotic movement is covered under locomotion in this chap
 
 // table insert 54
 
-== 6) Wate Allowance
+== Wate Allowance
 
 Bots are affected by encumbrance, though not as much as other personas.
 As expected, weight allowance is determined by the PSTR and the PSTR level of the bot.
@@ -350,7 +361,7 @@ These affects are detailed in http://expgame.com/?page_id=279[Chapter 18: Encumb
 
 // table insert 55
 
-== 7) Power Source
+== Power Source
 
 All bots operate on electrical power but the cell (or supercell) that converts the source into electrical power will vary.
 For gaming simplicity, all cells work due to ingenious technological advances that require little or no explanation.
@@ -458,7 +469,7 @@ The robots solar cell not only converts light into energy but it can also store 
 A solar cell that has been exposed to light for a day can store 1 hours energy per point of the robots CON.
 So a bot with a 16 CON and a solar cell could function indefinitely in light and up to 16 hours in complete darkness.
 
-== 8) Sensors
+== Sensors
 
 All robots will have built-in audio and video sensors which will allow the robot to "`hear`" and "`see`".
 Robots do not have regular sensations for touch and no capacity for smell.
@@ -497,7 +508,7 @@ The radar will see through any medium that is not solid.
 *6) Refs Own Table:* Create your own.
 Organic eyes, tentacles, olfactory unit.
 
-== 9) Locomotion
+== Locomotion
 
 This means of locomotion, in addition to being an important necessity, will add a great deal of personality and individuality to the bot.
 The locomotion type is the first indication of the appearance of the robot and it will greatly affect the development of the persona.
@@ -585,7 +596,7 @@ The slog bag cannot be punctured during regular combat unless the robot's locomo
 
 *12) Tracks:* Robotic tracks are nothing more than rubber-coated tank tracks.
 There are 1 to 6 tracks.
-This form of locomotion is rugged, although not especially gfamilyful.
+This form of locomotion is rugged, although not especially familiar.
 A single tracked robot can change direction by altering the tension on one side of the track versus the tension of the other side.
 
 *13) Wheels:* Robotic wheels are singularly powered, axle-less and have solid tires.
@@ -594,7 +605,7 @@ There are 1 to 12 wheels.
 Robots the have wheels as a secondary locomotion type they non-powered wheels.
 The Primary Locomotion Type (sails, jets, propellers etc.) generate the force.
 
-== 10) Offensive Systems
+== Offensive Systems
 
 Robotic attacks are rarely built-in devices designed for inflicting damage on targets in combat.
 The robots in EXP have a particularly high level of free will and hence are considered quite insane.
@@ -760,7 +771,7 @@ However if some other strange mutation comes along and the player can make it fi
 *7) Disregard Base Family:* This does not count as a roll on Robotic Attack table Four.
 However it does allow the robot to attack her base family without having to make a control factor check.
 
-== 11) Defensive Systems
+== Defensive Systems
 
 Robot defences are typically malfunctioning peripherals used as a defence in combat, or some kind of industrial hardening to protect the robot to do its prescribed task.
 Occasionally robots defences are just that, a defence built to protect a robot from abuse.
@@ -831,7 +842,7 @@ If the mutation is a defect, offensive or useless to the robot, then re-roll.
 *12) Override interrupt**:* The bot cannot be subject to robotic override.
 This means that any device designed to control robots or make them subservient will not function on this robot.
 
-== 12) Peripheral Systems
+== Peripheral Systems
 
 Peripherals are attachments that give the robot some additional flexibility in performing its tasks.
 These peripherals are non-combative and are used by the robot to survive day to day campaign trials.
@@ -863,7 +874,7 @@ For the most part, these abilities are self-explanatory.
 
 // table insert 69
 
-== 13) Description
+== Description
 
 The shape of a robot is only randomly determined if the referee and player have no preconceived notion of how the robot should appear.
 The robotic shape has no bearing on any other robotic abilities be they attacks, peripherals or defences.
@@ -875,7 +886,7 @@ For example a flattened cone, but colour, design, sound, decals, smell, chrome d
 
 // table insert 71
 
-== 14) Wate
+== Wate
 
 A robot's wate will be determined by one of two factors: outdoor and indoor.
 For robots that are designed to carry out hard work such as heavy lifting or construction, there is the outdoor wate equation.
@@ -890,7 +901,7 @@ If a player wants her persona to look heavier, that is fine but the wate cannot 
 
 // table insert 72
 
-== 15) Size
+== Size
 
 Size gives a rough estimation of the volume occupied by the robot.
 It is fine to keep things simple and just make one roll to give a hite similar to other personas.
@@ -906,7 +917,7 @@ If this table is ruining a finely formed persona then ignore it, but indication 
 
 // table insert 73
 
-== 16) Control Factor
+== Control Factor
 
 CF is essentially a measure of the personas free will  
 the higher the Control Factor, the more control the player has over her robotic persona.
@@ -960,7 +971,7 @@ So a robot failing a d50 CF check would become a referee persona robot for d50 m
 purchased stock illustration.
 Modified HM.,300]
 
-== 17) Hit Points (HPS)
+== Hit Points
 
 Hit points for robots work the same way they do for other personas.
 The major difference is that bots do not go unconscious when they reach zero hit points, nor do they die, nor can they be knocked unconscious nor can they heal their damage.
@@ -972,7 +983,7 @@ This topic is covered under Robotic Damage in this chapter.
 Each bot gets one HPS factor per point of CON.
 An exploration bot (F) with a 20 CON would have 300 HPS and an analog bot (A) with a 4 CON could have between 12 and 16 HPS.
 
-== 18) Tech Level
+== Tech Level
 
 The player should roll a http://expgame.com/?page_id=359[Chapter 56 Tech Level] for her robot persona.
 This roll can adjust the wate and value of the robot.
@@ -980,14 +991,14 @@ A strange tech level could possibly make it more difficult to adapt a robot.
 The tech level roll can make a robot lighter but it cannot make it any heavier.
 If no tech level is rolled, the robot is assumed to have a tech level of 10.
 
-== 19) Adaptability
+== Adaptability
 
 Only Mechanics can fit peripheral devices onto bots and this is done using the _Mechanics`' Performance Tables_.
 The ADAPTABILITY is the percentage added to the Mechanic's PT roll, thus increasing the mechanic's chance for success.
 The Degree of Difficulty of the particular procedure is determined by the ref.
 Those bots with no adaptability percentage are designed to not be tampered with and instead of a PT roll bonus, the Mechanic suffers a 3 DD penalty.
 
-== 20) Robot Value
+== Value
 
 The value of the bot is its base worth relative to all the robot types described.
 The values indicated are for the basic unit that rolls off the assembly line.
