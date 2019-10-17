@@ -198,25 +198,56 @@ Both the CON level and regular CON are recorded on the persona record.
 
 include::ROOT:partial$CH05_Table_Robotic_Attributes.adoc[]
 
-// robotassembly  Anthros building robots to replace anthros
+// robot  assembly  Anthros building robots to replace anthros
+
+
 
 == Robot Type
+The player uses her robotic attribute levels to determine her robot persona type.
 Determining robot type is byzantine, meticulous and painful.
-This is one reason that the https://github.com/misterquetoo/EXP_Game_Tools:[EXP_GAME_TOOLS] were developed.
+This is why https://github.com/misterquetoo/EXP_Game_Tools[EXP Game Tools] were developed.
+The game play reason for this challenging system is needed because robots are not balanced in power.
+A heavy offensive combot is a force that cannot be reckoned with. 
+In EXP personas are randomly generated.
+Therefore extremely powerful robot types are rare.
+If a player were playing a robot that could destroy an entire city she would likely be the center of the campaign.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.* 
+
+icon:tags[role="red"] This little tag should be red
+
+.List of Robot Types
+* xref:CH05_Robots_A_Android.adoc[A-Android]
+* xref:CH05_Robots_C_Combat.adoc[C-Combat]
+* xref:CH05_Robots_D_Data_Analyzer.adoc[D-Datalyzer]
+* xref:CH05_Robots_E_Explorations.adoc[E-Explorations]
+* xref:CH05_Robots_H_Hobbot.adoc[H-Hobbot]
+* xref:CH05_Robots_I_Industrial.adoc[I-Industrial]
+* xref:CH05_Robots_J_Janitorial.adoc[J-Janitorial]
+* xref:CH05_Robots_M_Maintenance.adoc[M-Maintenance]
+* xref:CH05_Robots_P_Policing.adoc[P-Policing]
+* xref:CH05_Robots_R_Rescue.adoc[R-Rescue]
+* xref:CH05_Robots_S_Social.adoc[S-Social]
+* xref:CH05_Robots_T_Transport.adoc[T-Transport]
+* xref:CH05_Robots_V_Veterinarian.adoc[V-Veterinarian]
+
+=== How To Use the Robot Determination Table
+First, do not be afraid.
+Second, it is as bad as it looks.
 
 Each attribute level has it's own column. 
-The player follows down each column recording any robot IDs in that column.
-For example, going down the CON Level 3 column the player records P and T.
+The player reads down each attribute level column recording the robot IDs in that column.
+For example, going down the CON Level 3 column the player records *P* and *T*.
 This process is repeated on for all 4 attribute levels. 
 This will create a collection of letters. 
 The most prevalent letter will determine the robot type. 
-For example, if the total number of Hs exceeded all other robot IDs the persona would be a hobbot.
+For example, if the total number of *H*s exceeded all other robot IDs the persona would be a hobbot.
 
 include::ROOT:partial$CH05_Table_Robot_Type_Determination.adoc[]
 
 Lets consider a bot named Sal.
 Her attribute levels are CON 2, DEX 2, INT 3 and PSTR 4.
-
 
 include::ROOT:partial$CH05_Table_Robot_Type_Example.adoc[]
 
@@ -231,11 +262,59 @@ The player may choose between 4 robot types: C-Combot, I-Industrial, M-Maintenan
 
 // table insert 25
 
-There are seven points that the player must record about her bot persona.
-These are: ATTRIBUTE LEVELS, ATTRIBUTES, ATTACKS (Offensive Systems), DEFENCES (Defensive Systems), HIT POINTS, RANDOM (random peripherals), ADAPTABILITY, VALUE, SIZE and ATTRIBUTES (attribute requirements.
+== Robot Type Fabrication Info
+Fabricating a robot has a few of it's own unique elements. 
+Attributes are generated differently.
+The following attributes from the robot type must be recorded in order to generate the persona.
+We will use the Datalyzer Fabrication Info as an example.
+
+//  Datalyzer Data 
+.*Datalyzer Fabrication Info (D)*
+[width="75%",cols="2*<"]
+|===
+2+<|Number crunching, data analyzing, mad machines. 
+
+2+<|*Attributes*
+
+|Required Primes
+|CON 1 or 2; DEX 1 or 2; INT 4; PSTR 1 or 2
+
+|Minimum Regular
+|Nil
+
+|Hit Points
+|1d2+2 (1-3) HPS per point of CON
 
 
-=== ATTACKS 
+|Adaptability
+|15%
+
+|Value:
+|10000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|5% for 1
+
+|Defensive
+|1 and 24% for 1 more
+
+|Peripheral
+|Normal. Plus 1 Secondary Peripheral
+|===
+
+=== Heading
+The heading lists the name of the robot type, it's ID, and a catchy blurb about it.
+The ID is the letter in brackets.
+The Datalyzer's ID is D. 
+The ID is always the first letter of the robot type for convenience. 
+
+
+
+
+
+=== Attacks 
 determines the attacks that the robot can have.
 Remember that these robots are completely insane and an offensive weapon does not necessarily mean a gun or a bomb but it could indicate a defective piece of equipment that the malfunctioning robot is using as a weapon.
 Attacks are more completely described in step 10 
@@ -246,7 +325,7 @@ An analog robot would receive a 5% chance at one attack.
 If there is only a number listed beside Attacks, then that is the number.
 Step (10) Offensive Systems and the tables there determine the types of attacks.
 
-=== DEFENCES 
+=== Defences 
 determines the combat defences that the robot can have.
 Remember that these robots are completely insane and a defensive weapon does not necessarily mean a force field or special armour but it could indicate a defective piece of equipment that the malfunctioning robot is using as a defence.
 Defences are more completely described in step 11 
@@ -287,20 +366,7 @@ The size classifications are indoor (smaller) and outdoor (larger).
 If the persona wants to be a small outside robot, she may use the indoor size voluntarily;
 however, robots cannot be made larger by choice.
 
-.List of Robot Types
-* xref:CH05_Robots_A_Android.adoc[A-Android]
-* xref:CH05_Robots_C_Combat.adoc[C-Combat]
-* xref:CH05_Robots_D_Data_Analyzer.adoc[D-Data Analyzer]
-* xref:CH05_Robots_E_Explorations.adoc[E-Explorations]
-* xref:CH05_Robots_H_Hobbot.adoc[H-Hobbot]
-* xref:CH05_Robots_I_Industrial.adoc[I-Industrial]
-* xref:CH05_Robots_J_Janitorial.adoc[J-Janitorial]
-* xref:CH05_Robots_M_Maintenance.adoc[M-Maintenance]
-* xref:CH05_Robots_P_Policing.adoc[P-Policing]
-* xref:CH05_Robots_R_Rescue.adoc[R-Rescue]
-* xref:CH05_Robots_S_Social.adoc[S-Social]
-* xref:CH05_Robots_T_Transport.adoc[T-Transport]
-* xref:CH05_Robots_V_Veterinarian.adoc[V-Veterinarian]
+
 
 // cable_face_desat Android migraines are the worst
 
