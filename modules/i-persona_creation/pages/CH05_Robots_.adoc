@@ -902,7 +902,7 @@ There are four different types energy, inertia, stun and vibro.
 For example, this could be a rake that is accidentally electrified by a short circuit.
 The player will need to jump back to <<_type_a_weapon,Type A Weapon>>.
 The type A weapon will then take on the properties rolled on Attack Table Two.
-These attack types (energy, inertia, stun and vibro) are from xref:iv-hardware:An_index_hardware.adoc[Hardware]
+These attack types (energy, inertia, stun and vibro) are from xref:iv-hardware:CH49_Misc_Weapons.adoc[Miscellaneous Weapons]
 
 //add real link
 To prevent further jumping around a list of each miscellaneous weapon is included below.
@@ -979,7 +979,7 @@ There are four different types energy, inertia, stun and vibro.
 For example, this could be a nailing gun that is accidentally electrified by a short circuit.
 The player will need to jump back to <<_type_b_weapon,Type B Weapon>>.
 The type A weapon will then take on the properties rolled on Attack Table Two.
-These attack types (energy, inertia, stun and vibro) are from xref:iv-hardware:An_index_hardware.adoc[Hardware]
+These attack types (energy, inertia, stun and vibro) are from xref:iv-hardware:CH49_Misc_Weapons.adoc[Miscellaneous Weapons]
 
 //add real link
 To prevent further jumping around a list of each miscellaneous weapon is included below.
@@ -1021,17 +1021,21 @@ A Corrosive Mist inflicts 1d8 of damage per point of PSTR.
 
 ==== Gun
 This is most likely an actual weapon built into the robot.
-If a malfunction part that behaves just like a gun is preferred, story rules.
-The player jumps to xref:iv-hardware:.adoc[Hardware]
-Keep rolling on the gun table until a medium powered weapon or less is generated.
-This means that no weapons that do not have a caliber, or energy level can be rolled.
-Yes that is frustrating.
+If a malfunctioning part that behaves just like a gun is preferred, story rules.
+The player jumps to xref:iv-hardware:CH46_Guns.adoc.adoc[Guns]
+There is one limitation on the gun type that is generated.
+The gun type can only be of medium power or less. 
+If a high powered calibre is rolled the gun must be re-rolled.
+That may be frustrating.
 Robots do not express frustration.
 
-=== Aerosol
-The player can only roll for an Aerosol.
-If a non-combat aerosol is rolled the player may roll again, keeping the non-combat aerosol as well.
-
+==== Aerosol
+This is most likely an actual weapon built into the robot.
+If a malfunctioning part that behaves just like a gun is preferred, story rules.
+The player jumps to xref:iv-hardware:CH45_Grenades_Aerosols.adoc[Aerosols]
+There is one limitation on the aerosol type rolled.
+The aerosol must be a combat aerosol.
+If the player rolls an aerosol that is non-combat but preferred, story rules.
 
 === Attack Table Four
 A player gets as many rolls on Attack Table Four as indicated.
@@ -1039,115 +1043,187 @@ These attacks are actual weapons rather than baked in devices that are being mis
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Four.adoc[]
 
-==== Poison
-Poisons are toxic substances that can have an immediate effect on organic creatures that are exposed to them.
-The robot may spray lubricants from a fractured joint or squirt super cell by-products onto targets.
-Some of the poisons may actually just be conductors that allow the robot to transmit radiations or electricity.
-Poisons are sprayed onto targets and the range of the attack is 1 hex per 2 points of PSTR.
-The target persona gets a saving throw versus poison and the poison toxicity (intensity) is randomly generated each time (4d4 intensity).
-If the target saves, the killing poison will do 1d4 in damage per 2 points of intensity.
-If the persona fails her saving throw, she will drop to -1 Hit Point and die soon after.
+==== 4 Rolls on Attack Table Two
+Yup.
+Four rolls on Attack Table Two.
+This can result in a lot of attacks. 
+
+==== 3 Rolls on Attack Table Three
+Yup.
+Three rolls on Attack Table three.
+This can result in a lot of attacks. 
+
+==== Killing Attack
+This is a killing poison attack.
+The killing poison can be a robot peripheral malfunction or a intentional weapon attack.
+A malfunctioning part could spray an essential toxic fluid at the target.
+If the weapon is baked in the robot could shoot a poison dart.
+
+Killing poison has a range of 1 hex per 2 points of PSTR.
+A to hit roll must be successful.
+The killing poison attacks as a type C (powered missile weapon).
+If a hit is scored the target must save versus poison or start to die.
+The intensity of the poison is 4-16 (4d4).
+
+The killing poison will always harm an organic target.
+If the target fails her saving throw she immediately drops to -1 HPS Total.
+An anthro persona at -1 HPS is dying, an alien persona at -1 HPS is dead.
+A successful saving throw by the target will still inflict damage.
+If the target saves, the killing poison will do 1d4 HPS damage per point of intensity.
 
 ==== Gun
-Refer to http://expgame.com/?page_id=339[Chapter 46 Guns].
-Any gun type that is rolled on the table there is built into this robot.
+This is most likely an actual weapon built into the robot.
+If a malfunctioning part that behaves just like a gun is preferred, story rules.
+The player jumps to xref:iv-hardware:CH46_Guns.adoc.adoc[Guns]
+There is one limitation on the gun type that is generated.
+The gun type can only be of medium power or higher. 
+If a low calibre gun is rolled the gun must be re-rolled.
 
 ==== Grenade/Aerosol
-Refer to http://expgame.com/?page_id=337[Chapter 45 Grenades and Aerosols].
-The player can make one roll on the table.
-If a non-combat grenade or aerosol is rolled the player may roll again, keeping the non-combat aerosol as well.
+This is most likely an actual weapon built into the robot.
+If a malfunctioning part that behaves just like a gun is preferred, story rules.
+The player jumps to xref:iv-hardware:CH45_Grenades_Aerosols.adoc[Aerosols]
+There is one limitation on the area of effect weapon type rolled.
+The area of effect weapon must be a combat one.
 
 ==== Bomb
-Refer to http://expgame.com/?page_id=335[Chapter 44 Bombs].
-The player can make one roll on the table.
-If the player rolls a bomb it is detachable and remotely detonatable by the robot.
+This is most likely an actual weapon built into the robot.
+If a malfunctioning part that behaves just like a gun is preferred, story rules.
+The player jumps to xref:iv-hardware:CH44_Bombs.adoc[Bombs]
+A robot is limited to one bomb attack. 
 
-==== Jet
-The blast or mist shoots forth from the robot with a range of 1 hex per point of DEX.
-It attacks as a Type C ranged powered weapon.
-A successful hit will do damage.
-The Acid/Base Jet delivers 1d12 of damage per point of CON.
+==== Corrosive Jet
+A Corrosive Mist can an acid or alkali jet that is ejected from the robot.
+The player chooses whether the attack is acid or base for her robot persona.
+The attack has a range of 1 hex per point of DEX.
+The Corrosive Jet must score a hit to do damage.
+The attack is rolled as a Type C powered missile weapon.
+A Corrosive Jet inflicts 1d12 of damage per point of PSTR.
 
 ==== Mutation 
-The player can roll one combat/attack mutation gleaned from Section IV Mutations.
-The robot will have a physical mutation if the player rolls deci-dice (d100) less than her CON.
-Otherwise the robot will have a mental mutation effect.
-When a robots attack requires MSTR the robot will use her INT instead.
-The mutation must be an attack mutation.
-However if some other strange mutation comes along and the player can make it fit into the story of her robot, so be it!
+The robot will have a baked in weapon that functions like a mutation.
+The mutation type can be a Mental Mutation or a Physical Mutation.
+If the player rolls less than her Robot's CON on 1d100 the mutation will a xref:vi-mutations:CH59_Physical.adoc[Physical Mutation].
+If the player rolls higher than her Robot's CON the mutation will be a xref:vi-mutations:CH58_Mental.adoc[Mental Mutation].
+
+The mutation must be an attack mutation. 
+If the player wishes to roll a completely random mutation instead then so be it.
+The robot cannot have a defective mutation under any circumstances. 
+When attacking the robot uses her INT instead of her MSTR.
 
 ==== Disregard Fabricator
 This does not count as a roll on Robotic Attack table Four.
-However it does allow the robot to attack her base family without having to make a control factor check.
+This robot no longer needs to make a control factor check to harm her fabricator type. 
 
 ==== Ref's Own Table
 Look out world here comes something crazy.
 
 == Defensive Systems
+Defensive systems can be anything that makes the robot harder, to hit, damage or control.
+Robot defences can be malfunctioning peripherals used as a defence in combat.
+However most are hardenings that protect the robot while doing its work.
 
-Robot defences are typically malfunctioning peripherals used as a defence in combat, or some kind of industrial hardening to protect the robot to do its prescribed task.
-Occasionally robots defences are just that, a defence built to protect a robot from abuse.
-Regardless of how the defences story is told the function of the defence is described here.
-Each defence that the robot has listed under its robotic type earns the player one roll on Table 5.18: Robotic Defences.
-For example an Interventional Medical Robot has a 10% chance of getting 1 roll on the table.
-An Emergency Rescue robot has 3 rolls on the table automatically.
+Unlike the convoluted attack tables there is only one Defensive Systems Table.
+Each robot type has clear direction on how to approach this table. 
+Some robots have no roll on Defensive Systems.
+Others are designated multiple rolls.  
 
-// table insert 67
+include::ROOT:partial$CH05_Table_Robotic_Defences.adoc[]
 
-*1) Anti-Missile*: This robot has an anti-missile system that is built into its hull.
-This protective device will avoid damage from powered missile attacks likes guided bombs, missiles, grenades, rockets or directed aerosols.
-The bots armour rating increases by 50 to 300 (50d6 or 1d6 times 50).
-A failed to hit roll against this bot means that the missile is destroyed in its entirety and there is not area of effect or burst effect.
-If a hit is scored only an area of effect can damage the bot.
+=== Anti-Missile
+This defensive system protects the robot from flying attack.
+The defence could be a baked in defense or a peripheral being used creatively.
+Anti-missile is a combination of evasive actions, hardened casing and flechette. 
+Any ranged attack can be thwarted by this defence.
+This includes: type B weapons, guided bombs, missiles, grenades, rockets or directed aerosols.
+The defence does not work against powered small arms attacks like guns or crossbows (type C).
 
-*2) Anti-Personnel*: The anti-personnel device is designed to remove clamouring parasites or other organic creatures trying to grapple with the robot.
+The robots AR is increased by 50 to 300 (50d6 or 1d6 times 50) against missile attacks.
+If the to hit roll fails the robot has destroyed the incoming attack. 
+This will negate any area of effect damage that the missile could have delivered.
+
+A successful to hit roll will limit the damage to area of effect damage.
+Any damage delivered will be cut in half.
+
+=== Anti-Personnel
+Designed to remove clamouring parasites or grappling hordes.
 The mechanism of the anti-personnel device is chosen by the player.
-Regardless of how it is described (electric shock, sonic attack, flames, shrapnel,  cotton candy webs) the effect is the same.
-3d6 of damage is inflicted to all targets within the hex adjacent to the robot.
-The damage is automatic.
-Each target must make a saving throw versus pain (intensity equal to the damage delivered) or drop back from the robot.
-This would allow the bot to move freely avoiding a swarm.
+The player can choose the nature of the noxious anti-personnel attack.
+For example, electric shock, sonic attack, flames, shrapnel, or cotton candy webs.
+Regardless of the appearance of the defence all types will function the same.
 
-*3) Armour Rating Increase*: This indicates an increase in the base amour rating of the robot by 50 to 300 (d6 times 50).
-The base AR of all robots is 700.
-If one were to roll an AR increase of 250 then the base AR for this robot would be 950.
-Repeat rolls on this defence will increase the robots AR each time.
+Anti-personnel affects targets touching the robot or in the robot's immediate area.
+The defence has no effective range.
+The anti-personnel does not attack immobilized or incapacitated targets.
+The player rolls 3d6 each time the defence is activated.
+When activated the player can choose between lethal or non-lethal defence.
 
-*4) Artifact Armour*: The robot's regular body is replaced by a special armour type generated in http://expgame.com/?page_id=331[Chapter 42: _Armour_].
+==== Lethal
+As a lethal defence every organic target with the limited range takes damage.
+No to hit roll is necessary as this is an area of effect attack.
+The close proximity attackers must make a saving throw versus pain.
+The intensity of the attack is equal to the damage delivered. 
+A failed saving throw will cause them to fall back at least one hex from the robot.
+
+==== Non Lethal
+The none lethal version of this defence effects every organic target within range.
+While no damage is done the target automatically falls back from the robot in pain.
+The referee may allow player persona's a saving throw versus pain to stay on the robot.
+If the player persona successfully stays on the robot they will take 3-18 (3d6) HPS of damage.
+
+When using non-lethal anti-personnel the robot can move freely through riotous swarm.
+
+=== Increase AR
+The increase in armour rating could be chassis hardening, evasive maneuvers, or some combo.
+The armour rating of the robot increases by 50 to 300 (1d6 times 50).
+The effects of this defence are cumulative. 
+Multiple visits to this defence increases the AR each time.
+This can lead to armour ratings well above the robot's base of 700.
+
+=== Artifact Armour
+
+The robot's regular body is replaced by a special armour type generated in http://expgame.com/?page_id=331[Chapter 42: _Armour_].
 The base armour rating of the robot cannot fall below 700, and any special properties of the armour will be included in the bot's defence.
 So the robot could be covered in relfec, ballistic, a force field or even powered armour.
 Items that do no work, like helmets and shields should be re-rolled.
 
-*5) Camouflage*: Often the best defence is being able to hide.
+=== Camouflage
+Often the best defence is being able to hide.
 The exterior coat of this robot can blend in with the surroundings making it very hard to detect with the naked eye.
 Any type of sensor that the robot has will allow it to camouflage against it.
 So a robot with radar and video sensors could camouflage against radar and video.
 This would make it essentially invisible to those types of vision.
 Detecting this bot can only be done while actively searching and even then the searcher must make an AWE roll on a d100.
 
-*6) Detect ambush*: Ambush detection allows the robot to quadruple its AWE when attempting to search out mines and other types of non-sentient ambushes.
+=== Detect ambush
+Ambush detection allows the robot to quadruple its AWE when attempting to search out mines and other types of non-sentient ambushes.
 A robot with a 12 AWE would have a 48 AWE searching for mines, trip wires or pressure pads.
 
-*7) Diffuse Bombs*: This robot is a demolitions demolishing expert.
+=== Diffuse Bombs
+This robot is a demolitions demolishing expert.
 It can disassemble bombs and grenades as a 5th level mechanic and the bot can add twice its INT to the roll.
 This defence can in no way assist the robot in planting bombs or making bombs.
 
-*8) Evasive action*: Allows the robot to avoid combat situations entirely, providing it is not engaging combat itself.
+=== Evasive action
+Allows the robot to avoid combat situations entirely, providing it is not engaging combat itself.
 This is essentially a computerized tactical withdrawal mode.
 It allows the robot to move at normal through mine fields, tank traps, phalanx of soldiers and other such detriments to escape.
 Each time the robot encounters an escape obstacle, it can avoid it with a d20 DEX roll.
 No robot can attack while employing this defence (unless it is a combat robot).
 
-*9) Force Field*: A robot's force field will absorb any HPS in damage that should be taken by the robot.
+=== Force Field
+A robot's force field will absorb any HPS in damage that should be taken by the robot.
 Once the field has absorbed its maximum damage, it will remain inactive for 1 minute per HPS absorbed.
 A force field will be able to absorb 25 to 100 HPS in damage (d4 times 25).
 Multiple force fields are added together and function as a single device.
 
-*10) Increase HPS*: Increasing a robot's HPS increases the HPS total that it starts the campaign with.
+=== Increase HPS
+Increasing a robot's HPS increases the HPS total that it starts the campaign with.
 A robot's HPS are increased by 10% to 60% (d6 times 10%).
 A robot with 100 HPS and a HPS increase of 30% would have 130 HPS.
 
-*11) Mental mutation*: This robot has a peripheral that has the same effect as a mental mutation.
+=== Mental mutation
+This robot has a peripheral that has the same effect as a mental mutation.
 The type of mental mutation is rolled in http://expgame.com/?page_id=364[Chapter 58: _Mental Mutations_] and it must be a defence mutation.
 If the mutation is a defect, offensive or useless to the robot, then re-roll.
 
