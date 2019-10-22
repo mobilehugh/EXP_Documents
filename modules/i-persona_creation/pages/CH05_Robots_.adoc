@@ -1158,14 +1158,14 @@ The anti-personnel does not attack immobilized or incapacitated targets.
 The player rolls 3d6 each time the defence is activated.
 When activated the player can choose between lethal or non-lethal defence.
 
-==== Lethal
+==== Lethal Anti Personnel
 As a lethal defence every organic target with the limited range takes damage.
 No to hit roll is necessary as this is an area of effect attack.
 The close proximity attackers must make a saving throw versus pain.
 The intensity of the attack is equal to the damage delivered. 
 A failed saving throw will cause them to fall back at least one hex from the robot.
 
-==== Non Lethal
+==== Non Lethal Anti-Personnel
 The none lethal version of this defence effects every organic target within range.
 While no damage is done the target automatically falls back from the robot in pain.
 The referee may allow player persona's a saving throw versus pain to stay on the robot.
@@ -1181,28 +1181,34 @@ Multiple visits to this defence increases the AR each time.
 This can lead to armour ratings well above the robot's base of 700.
 
 === Artifact Armour
-
-The robot's regular body is replaced by a special armour type generated in http://expgame.com/?page_id=331[Chapter 42: _Armour_].
-The base armour rating of the robot cannot fall below 700, and any special properties of the armour will be included in the bot's defence.
-So the robot could be covered in relfec, ballistic, a force field or even powered armour.
-Items that do no work, like helmets and shields should be re-rolled.
+This robot's hull is replaced by fancy armour from xref:iv-hardware:CH42_Armour.adoc[Armour]
+The robot could be covered in relfec, ballistic, a force field, or even powered armour.
+There is a limitation on the armour type.
+The armour type cannot make the robot weaker.
+For example, the armour rating cannot drop below 700.
 
 === Camouflage
 Often the best defence is being able to hide.
-The exterior coat of this robot can blend in with the surroundings making it very hard to detect with the naked eye.
-Any type of sensor that the robot has will allow it to camouflage against it.
-So a robot with radar and video sensors could camouflage against radar and video.
+The defence is combination of colouring and structural changes that allow the robot to blend in.
+The robot can camouflage against any type of sensor that it has.
+A robot with radar and video sensors could camouflage against radar and video.
 This would make it essentially invisible to those types of vision.
-Detecting this bot can only be done while actively searching and even then the searcher must make an AWE roll on a d100.
+This is a defensive skill and does not offer any bonus for ambush. 
+A persona will only detect this robot if she is actively searching the area.
 
 === Detect ambush
-Ambush detection allows the robot to quadruple its AWE when attempting to search out mines and other types of non-sentient ambushes.
-A robot with a 12 AWE would have a 48 AWE searching for mines, trip wires or pressure pads.
+This defence makes it very difficult to surprise this robot.
+The robot is four times more likely to detect something detrimental to it.
+The persona's AWE score is quadrupled (times 4) when detecting an ambush
+The defence includes active and passive ambush situations. 
+A robot with AWE 12 would use an AWE 48 detecting mines, trip wires or traps.
 
 === Diffuse Bombs
 This robot is a demolitions demolishing expert.
-It can disassemble bombs and grenades as a 5th level mechanic and the bot can add twice its INT to the roll.
-This defence can in no way assist the robot in planting bombs or making bombs.
+The robot has both the technical and mechanical skills to defuse all types of bombs.
+The robot functions as a 5th level mechanic, plus the robot's EXPS level when diffusing bombs.
+When using the Mechanic PT roll the persona doubles her INT score when diffusing bombs. 
+This defence does not assist the robot in planting or making bombs.
 
 === Evasive action
 Allows the robot to avoid combat situations entirely, providing it is not engaging combat itself.
@@ -1212,56 +1218,70 @@ Each time the robot encounters an escape obstacle, it can avoid it with a d20 DE
 No robot can attack while employing this defence (unless it is a combat robot).
 
 === Force Field
-A robot's force field will absorb any HPS in damage that should be taken by the robot.
-Once the field has absorbed its maximum damage, it will remain inactive for 1 minute per HPS absorbed.
-A force field will be able to absorb 25 to 100 HPS in damage (d4 times 25).
+This is the classic science fantasy defensive force field.
+The force field will absorb any HPS in damage that should be taken by the robot.\
+A force field will be able to absorb 25 to 100 HPS of damage (1d4 times 25).
 Multiple force fields are added together and function as a single device.
+The force field will shut down for 1 minute per HPS absorbed once depleted.
 
 === Increase HPS
-Increasing a robot's HPS increases the HPS total that it starts the campaign with.
-A robot's HPS are increased by 10% to 60% (d6 times 10%).
-A robot with 100 HPS and a HPS increase of 30% would have 130 HPS.
+This robot just increased it's ability the take damage.
+Increasing HPS makes the robot a bit tougher
+Each time Increase HPS is visited the HPS are increased. 
+The effect is cumulative.
+The robot's HPS are increased by 10% to 60% (d6 times 10%).
+A robot with 100 HPS and an increase HPS of 30% would have 130 HPS.
 
 === Mental mutation
 This robot has a peripheral that has the same effect as a mental mutation.
-The type of mental mutation is rolled in http://expgame.com/?page_id=364[Chapter 58: _Mental Mutations_] and it must be a defence mutation.
-If the mutation is a defect, offensive or useless to the robot, then re-roll.
+The defence could be a baked in defense or a creatively used peripheral malfunction.
+The player makes  a jump to xref:vi-mutations:CH58_Mental.adoc[Mental Mutations].
+
+The mutation must be a defensive mutation.
+The player may spend some time at xref:vi-mutations:CH58_Mental.adoc[Mental Mutations] rolling and rolling.
+If the player wishes to roll a completely random mutation instead then so be it.
+The robot cannot have a defective mutation under any circumstances. 
+When attacking the robot uses her INT instead of her MSTR.
 
 === Override interrupt
-The bot cannot be subject to robotic override.
-This means that any device designed to control robots or make them subservient will not function on this robot.
+The robot is immune to robotic override.
+The defence protects against attempt to make her subservient.
+The referee may feel that a global defence to robotic override is too powerful.
+If this is the case this robot can triple her INT vs robotic override and can check 3 times more often 
 
 == Peripheral Systems
+Peripherals give the robot flexibility to perform it's tasks.
+Some peripherals are completely incongruous to the robot type and that is fine.
+Why wouldn't a combat robot have a tea service built in.
+Peripherals are not malfunctioning parts, but baked in robot controlled devices.
 
-Peripherals are attachments that give the robot some additional flexibility in performing its tasks.
-These peripherals are non-combative and are used by the robot to survive day to day campaign trials.
+Every robot gets one roll on the Primary Peripheral Table. 
+A percentage value indicates the chance of an extra roll.
+Some robots do not have peripherals and that is indicated on the fabrication into
 
-The RANDOM listing under the robot type determines how many rolls the robot gets on the Table 5.19: _Robotic Peripherals_.
-A listing of "`Normal`" indicates that the player can make one roll on the _Primary_ table.
-If there is a single number listed under the RANDOM listing, then the player will make that many rolls on the Primary table.
-If there is a percentage value listed, that is the chance that there is an additional roll.
-If the robot type has Nil listed under RANDOM, then it has no random peripherals to start with.
-
-The Table 5.19: Primary Robotic Peripherals is a list of harmless peripherals that are attached to the robot.
-These peripherals cannot be used in combat and will not harm or damage anything in any way.
-The robotic peripherals listed on the _Primary Peripheral_ table are ones which have a very limited effect on their environment.
+The peripherals rolled here can be used creatively but cannot by used in combat.
 Aroma producing could not be used to make a nausea attack, but it could help sell a house.
 An articulation could not strangle an opponent but it could open a door.
-There are no explanations of the particulars of the robotic peripherals other than the guidelines above.
-The onus is placed on the player and the referee that the self-explanatory peripherals will not be abused.
-Primary robotic peripherals will be a common reason to select Sphincter Dice from http://expgame.com/?page_id=275[Chapter 16: Special Rolls].+++<figure id="attachment_9608" aria-describedby="caption-attachment-9608" style="width: 212px" class="wp-caption aligncenter">+++[.size-medium.wp-image-9608] image::https://i0.wp.com/expgame.com/wp-content/uploads/2018/05/lamps-albatross-212x300.png?resize=212%2C300[,212]+++<figcaption id="caption-attachment-9608" class="wp-caption-text">+++Impress the natives with a light show.+++</figcaption>++++++</figure>+++
 
-// table insert 68
+Sometimes the player and referee come to an impasse regarding the creative use of a peripheral.
+This is best resolved using xref:ii-combat_rules:CH16_Special_Rolls.adoc#-sphincter_dice[Sphincter Dice]
 
-Table 5:20: _Secondary Peripherals_ is quite different from Primary Peripherals.
-These are peripherals and abilities that might not be explainable by standard programming hardware.
-These robotic abilities are often the result of the synergistic effect of several damaged systems.
-If a robot has some ability listed on the _Secondary_ table that is no indication that the particular robot type has that peripheral.
-A relations bot may be amphibious but it does not mean that all relations bots are amphibious.
-The robotic peripherals found on the _Secondary_ table are very briefly explained in single line sentences listed with each peripheral.
-For the most part, these abilities are self-explanatory.
+=== Primary Peripheral
+Primary peripherals are not fancy. 
+A primary peripheral will only mildly alter the robots function or value.
+The powerful game changing peripherals are on the Secondary Peripheral Table.
 
-// table insert 69
+include::ROOT:partial$CH05_Table_Primary_Robotic_Peripherals.adoc[]
+
+=== Secondary Peripheral
+Secondary peripherals can be game changers.
+Mild mannered robots can pursue a vocation.
+Most secondary peripherals represent a combination of hardware and software.
+These peripherals are not overly detailed as they are non-combat peripherals.
+This does not mean that they are not powerful.
+A robotic mutation could allow a robot to stop time.
+
+include::ROOT:partial$CH05_Table_Robotic_Secondary_Peripherals.adoc[]
 
 == Description
 
