@@ -60,11 +60,9 @@ image::ROOT:robot_delivery_service.png[alt="studiostoks stock art illustration."
 
 . <<_peripheral_systems,Peripheral Systems>>
 
-. <<_description,Description>>
+. <<_shape,Shape>>
 
-. <<_wate,Wate>>
-
-. <<_size,Size>>
+. <<_robot_size,Size>>
 
 . <<_control_factor,Control Factor>>
 
@@ -1237,10 +1235,11 @@ This robot has a peripheral that has the same effect as a mental mutation.
 The defence could be a baked in defense or a creatively used peripheral malfunction.
 The player makes  a jump to xref:vi-mutations:CH58_Mental.adoc[Mental Mutations].
 
-The mutation must be a defensive mutation.
+The mutation should be a defensive mutation.
 The player may spend some time at xref:vi-mutations:CH58_Mental.adoc[Mental Mutations] rolling and rolling.
 If the player wishes to roll a completely random mutation instead then so be it.
 The robot cannot have a defective mutation under any circumstances. 
+The robot cannot have a purely attack mental mutation.
 When attacking the robot uses her INT instead of her MSTR.
 
 === Override interrupt
@@ -1283,20 +1282,45 @@ A robotic mutation could allow a robot to stop time.
 
 include::ROOT:partial$CH05_Table_Robotic_Secondary_Peripherals.adoc[]
 
-== Description
+== Shape
+Most robots have a mechanical shape. 
+Unless the robot has some skill that disguises itself robots appear like robots.
+The robot shape has no bearing on attacks, peripherals or defences.
+The player can choose what she likes: fire hydrant, filing cabinet, kitchen appliance, etc.
+If some random assistance is needed consult the below tables.
+The tables only offer a shape. 
+The colour, design, sound, decals, smell, or detailing is up to the player.
+The referee may have some commercial patching depending on the campaign.
 
-The shape of a robot is only randomly determined if the referee and player have no preconceived notion of how the robot should appear.
-The robotic shape has no bearing on any other robotic abilities be they attacks, peripherals or defences.
-The robot can be shaped like anything the player wants: fire hydrant, filing cabinet, kitchen appliance, etc.
-If you choose to let the dice decide roll on the following two tables below to get a basic robot shape.
-For example a flattened cone, but colour, design, sound, decals, smell, chrome detailing is all left to the referee and the persona.
+=== Basic Shape
+The volume of the robot will fit into this shape.
+Feel free to contort the shape.
 
-// table insert 70
+include::ROOT:partial$CH05_Table_Robotic_Basic_Shape.adoc[]
 
-// table insert 71
+=== Contortion of Basic Shape
+This table manipulates the basic shape so that the infinity that is commercial design is reflected.
 
-== Wate
+include::ROOT:partial$CH05_Table_Robotic_Basic_Shape_Adjustment.adoc[]
 
+== Robot Size
+Size gives a rough estimation of the volume occupied by the robot.
+It is fine to keep things simple and just make one roll to give a hite similar to other personas.
+The size roll will be used to determine what the bot can reach, fit into or be covered by.
+Regardless of the shape rolled step 13 Description, the bot should  fit into the volume rolled here.
+For example, a sphere with the parameters 1 meter by 15 cm could become a cigar.
+Extrapolations for other shapes are usually just as simple.
+If the dimensions rolled are very close, they may be rounded off to make a perfect shape.
+
+=== Dimensions
+
+Each player rolls dimensions three times: once for each of hite, width and length.
+These can be arranged in whatever order works best for the personal.
+If this table is ruining a finely formed persona then ignore it, but indication of the size of the robot is helpful.
+
+// table insert 73
+
+=== Wate
 A robot's wate will be determined by one of two factors: outdoor and indoor.
 For robots that are designed to carry out hard work such as heavy lifting or construction, there is the outdoor wate equation.
 Other robots that are not designed for such load bearing tasks use the indoor wate equation.
@@ -1310,24 +1334,7 @@ If a player wants her persona to look heavier, that is fine but the wate cannot 
 
 // table insert 72
 
-== Size
-
-Size gives a rough estimation of the volume occupied by the robot.
-It is fine to keep things simple and just make one roll to give a hite similar to other personas.
-The size roll will be used to determine what the bot can reach, fit into or be covered by.
-Regardless of the shape rolled step 13 Description, the bot should  fit into the volume rolled here.
-For example, a sphere with the parameters 1 meter by 15 cm could become a cigar.
-Extrapolations for other shapes are usually just as simple.
-If the dimensions rolled are very close, they may be rounded off to make a perfect shape.
-
-Each player rolls dimensions three times: once for each of hite, width and length.
-These can be arranged in whatever order works best for the personal.
-If this table is ruining a finely formed persona then ignore it, but indication of the size of the robot is helpful.
-
-// table insert 73
-
 == Control Factor
-
 CF is essentially a measure of the personas free will  
 the higher the Control Factor, the more control the player has over her robotic persona.
 If the CF is quite high, the bots personality is greatly affected.
@@ -1376,12 +1383,8 @@ So a robot failing a d50 CF check would become a referee persona robot for d50 u
 If the CF check occurs during non-combat then the personal will revert to being a robot for a random number of minutes determined by the die that tested the robot's CF.
 So a robot failing a d50 CF check would become a referee persona robot for d50 minutes.
 
-[.size-medium.wp-image-9610.aligncenter] image::https://i2.wp.com/expgame.com/wp-content/uploads/2018/05/robot_damage_desat-300x200.png?resize=300%2C200[studiostoks.
-purchased stock illustration.
-Modified HM.,300]
 
 == Hit Points
-
 Hit points for robots work the same way they do for other personas.
 The major difference is that bots do not go unconscious when they reach zero hit points, nor do they die, nor can they be knocked unconscious nor can they heal their damage.
 A hit point is a hit point regardless of whether it's a robot's or an alien's or an anthropomorph's.
@@ -1393,7 +1396,6 @@ Each bot gets one HPS factor per point of CON.
 An exploration bot (F) with a 20 CON would have 300 HPS and an analog bot (A) with a 4 CON could have between 12 and 16 HPS.
 
 == Tech Level
-
 The player should roll a http://expgame.com/?page_id=359[Chapter 56 Tech Level] for her robot persona.
 This roll can adjust the wate and value of the robot.
 A strange tech level could possibly make it more difficult to adapt a robot.
@@ -1401,14 +1403,12 @@ The tech level roll can make a robot lighter but it cannot make it any heavier.
 If no tech level is rolled, the robot is assumed to have a tech level of 10.
 
 == Adaptability
-
 Only Mechanics can fit peripheral devices onto bots and this is done using the _Mechanics`' Performance Tables_.
 The ADAPTABILITY is the percentage added to the Mechanic's PT roll, thus increasing the mechanic's chance for success.
 The Degree of Difficulty of the particular procedure is determined by the ref.
 Those bots with no adaptability percentage are designed to not be tampered with and instead of a PT roll bonus, the Mechanic suffers a 3 DD penalty.
 
 == Value
-
 The value of the bot is its base worth relative to all the robot types described.
 The values indicated are for the basic unit that rolls off the assembly line.
 The strange peripherals that may have just happened, or are added to the basic robot type, increase the robot's value.
@@ -1418,7 +1418,6 @@ Any artifacts that are attached to the robot are tripled in value and added to t
 Robots that are worth incredible sums of money or have particularly valuable peripherals will often find themselves being greedily pursued by former owners or prospective "`buyers`".
 
 == Robot Experience
-
 As a bot gains more experience, it begins to solidify and reinforce its individuality and personality.
 The robot becomes more insane as it gathers data moderated by its own free will.
 The more individualistic and independent it becomes, the more insane it is.
@@ -1438,7 +1437,6 @@ So, novel use of a built-in skill will be rewarded with experience points.
 // table insert 76
 
 == Robotic Damage
-
 Many of the robot types seem to have enormous HPS totals.
 This is because they need them.
 Many attacks such as electrical and disintegrations do double damage and robots cannot repair HPS like other personas.
