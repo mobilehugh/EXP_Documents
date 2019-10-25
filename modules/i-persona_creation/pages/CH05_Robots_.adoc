@@ -254,7 +254,11 @@ include::ROOT:partial$CH05_Table_Robot_Type_Example.adoc[]
 Totalling the robot IDs there are 3 type C, 3 type I, 3 type M, and 3 type S
 The player may choose between 4 robot types: C-Combot, I-Industrial, M-Maintenance, and S-Social.
 
-// table insert 25
+=== Skip the Tables
+If you find the byzantine, burdensome, bloviated mechanism for robot type selection this table is for you.
+
+include::ROOT:partial$CH05_Table_Robot_Single_Roll.adoc[]
+
 
 == Robot Type Fabrication Info
 Fabricating a robot has a few of it's own unique elements. 
@@ -1304,35 +1308,36 @@ This table manipulates the basic shape so that the infinity that is commercial d
 include::ROOT:partial$CH05_Table_Robotic_Basic_Shape_Adjustment.adoc[]
 
 == Robot Size
-Size gives a rough estimation of the volume occupied by the robot.
-It is fine to keep things simple and just make one roll to give a hite similar to other personas.
-The size roll will be used to determine what the bot can reach, fit into or be covered by.
-Regardless of the shape rolled step 13 Description, the bot should  fit into the volume rolled here.
-For example, a sphere with the parameters 1 meter by 15 cm could become a cigar.
-Extrapolations for other shapes are usually just as simple.
-If the dimensions rolled are very close, they may be rounded off to make a perfect shape.
-
-=== Dimensions
-
-Each player rolls dimensions three times: once for each of hite, width and length.
-These can be arranged in whatever order works best for the personal.
-If this table is ruining a finely formed persona then ignore it, but indication of the size of the robot is helpful.
-
-// table insert 73
+The robot has a general descriptor of size. 
+Size is used to determine the Hite and Wate of the robot.
+The robot sizes: Tiny, Small, Medium, Large and Gigantic.
+There are two other sizes not included for player personas.
+These are Minute and Humungous. 
+They only appear for referee personas.
+The list of robot sizes are somewhat human relatable. 
 
 === Wate
-A robot's wate will be determined by one of two factors: outdoor and indoor.
-For robots that are designed to carry out hard work such as heavy lifting or construction, there is the outdoor wate equation.
-Other robots that are not designed for such load bearing tasks use the indoor wate equation.
-Regardless of the wate equation used, robots can function equally well both indoors and outdoors and only their wates will vary.
+The Wate of a robot is the combination of mass and weight that is used by all personas in EXP.
+A 100kg robot has the same Wate as a 100kg anthro.
+Wate is very important to robots as it determines how much damage is when ramming.
+Ramming is the only universal robotic attack.
+The majority of player persona robots will be either Small, Medium or Large.
+Player persona robots Wate is not adjusted by Tech Level. 
 
-Further variation in robot wate can be attained from rolling the robot's tech level.
-Tech level can be determined for any artifact in http://expgame.com/?page_id=359[Chapter 56: Tech level].
-If the wate of a persona is ruining a perfectly good persona, then the value can be altered.
-A robot can become lighter but NEVER heavier.
-If a player wants her persona to look heavier, that is fine but the wate cannot be increased.
+include::ROOT:partial$CH05_Table_Robotic_Size_Wate.adoc[]
 
-// table insert 72
+=== Hite
+The Hite of the robot is measured in centimeters (cm).
+Robot Hite can also represent the volume of the robot.
+The referee and persona can decide how many times to roll on the Hite Table
+If desired the player can roll three times: once for each of hite, width and length.
+The dimensions can be arranged in whatever order works best for the persona.
+If the robot dimensions are ruining a finely tuned player persona ignore them.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+include::ROOT:partial$CH05_Table_Robot_Dimensions.adoc[]
 
 == Control Factor
 CF is essentially a measure of the personas free will  
