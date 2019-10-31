@@ -1,47 +1,48 @@
 // Table 5.27 Robotic System Malfunction
 .*Robotic System Malfunction*
-[width="75%",cols="3*^"]
+[width="75%",cols="^,2*<",frame="all"]
 |===
 3+<|Determines what breaks when the robots breaks. 
-s|Die Roll (d100)
-s|System Damaged 
-s|Attributes Damaged
+s|Die Roll (1d100)
+s|System 
+s|Attribute(s)
 
 |01-15
 |Articulations
-|DEX and AWE
+|DEX; AWE
 
 |16-25
 |Brain
-|INT; add d6 to CF
+|INT
 
 |26-40
 |Control Unit
-|All Attributes; add d6 to CF
+|All attributes.
 
 |41-55
 |Locomotion
-|DEX and PSTR
+|DEX; PSTR
 
 |56-69
 |Peripherals
-|Drop a peripheral
+|Lose one.
 
 |70-75
 |Power Plant
-|PSTR and CON and Duration
+|PSTR; CON
 
 |76-99
 |Sensors
-|AWE and INT
+|AWE; INT
 
 |00
 |Ref's Own Table
 |
 
-s|Die Roll (d100)
-s|System Damaged 
-s|Attributes Damaged
-
+s|Die Roll (1d100)
+s|System 
+s|Attribute(s)
+3+<|All attributes: AWE, CHA, CON, DEX, INT, and PSTR. +
+Lose peripheral of player choice.
 
 |===

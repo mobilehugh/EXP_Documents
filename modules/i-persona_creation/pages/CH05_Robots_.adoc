@@ -66,11 +66,20 @@ image::ROOT:robot_delivery_service.png[alt="studiostoks stock art illustration."
 
 . <<_control_factor,Control Factor>>
 
-. <<_hit_points,Hit Points>>
+. <<_robot_hit_points,Hit Points>>
+
+. <<_robot_adaptability,Adaptability>>
+
+. <<_robot_value,Value>>
 
 . <<_tech_level,Tech Level>>
 
-. <<_adaptability,Adaptability>>
+. <<_experience,Experience>>
+
+
+
+
+
 . *Have Fun!*
 
 
@@ -109,6 +118,7 @@ For example a CON level of 2, a DEX level of 2, an INT level of 3 and a PSTR lev
 [width="75%",cols="<,^,^,^,^"]
 |===
 5+<|Each prime attribute has a range of 1 to 4.
+
 s|
 s|CON
 s|DEX
@@ -139,7 +149,6 @@ For example INT would be recorded as INT level 2 INT 12.
 // brand new table for version 6.0
 .*Robotic Regular Attribute Generation*
 [width="75%",cols="<,<,<"]
-
 |===
 3+<|Randomly determine several robot attributes.
 
@@ -1340,80 +1349,177 @@ TIP: Rules maintain game balance and assist creativity. +
 include::ROOT:partial$CH05_Table_Robot_Dimensions.adoc[]
 
 == Control Factor
-CF is essentially a measure of the personas free will  
-the higher the Control Factor, the more control the player has over her robotic persona.
-If the CF is quite high, the bots personality is greatly affected.
-The higher the bots INT, the higher the CF and the higher the CF, the better  
-at least for the player.
+Control Factor (CF) is a measure of the robot's free will.
+CF is an attribute unique to the family machinae.
+The higher the control factor the more easily the player can control her persona.
+A robot's control factor depends on her INT and improves with EXPS levels.
 
-*CONTROL FACTOR* (CF) = *INT* plus (*INT level* times *EXPS LEVEL*)
+=== Robot Control Factor
+.CF= (INT score) + (Prime INT * EXPS Level)
+****
+A 3rd level robot with a 15 INT score, and a 3 INT Prime would have a CF = 24
+****
 
-So a robot with an INT of 15 and INT LEVEL of 3 and was 3rd level would have a control factor (CF) of 24.
+=== Why Control Factor?
+Robots are not fabricated with free will in mind. 
+A robot is supposed to follow the direction of it's owners, or at least it's fabricators.
+An industrial janitorial bot is supposed to clean the factor and nothing else. 
+Player persona robots are _broken_.
+Player persona robots are considered insane and rogue.
+The free will expressed by the player is considered a malfunction by the robot's fabricators.
 
-Robots were originally developed to do slave labour for the base family that they were designed for.
 The robot personas controlled by the players are insane robots who don't care much for being slaves.
-The more insane the bot is, the more it is like a normal player (generally not a very rational lot).
-This insanity is relative.
-These free willed robots are considered insane because they will look after their own self interest before they'll do their robotic duties.
-An insane robot does not mean that the player must run her robot personal like a lunatic but that she can control her personal however she wishes.
+From a robot perspective insane does not mean mentally ill.
+An insane robot is one with free will. 
+Allowing the player to run the robot persona like an irrational player.
 
-The insanity level of the bot, or the amount of free will it has, is measured by its Control Factor.
-The robot's Control Factor (CF) is the resistance it has to reverting to a normal functioning robot.
-Whenever the robot is functioning as a normal bot, the persona has lost control of her persona.
-When a janitorial bot starts cleaning up a room, it is functioning according to its internal programming and not the player's initiative.
+NOTE: For a robot *insane* means free willness, not mental illness.
 
-*Control Factor Checks:* Control factor checks can be made whenever the robot performs a task for which it was originally designed.
-For example, if a janitorial bot were to clean up a room or a combat bot were to kill something, a CF check may be in order.
-If the CF check is failed, the bot will temporarily revert to being the automaton it was intended to be.
-Players running robots should not be always rolling the dice to see if they lose control of their character or not.
-The referee should only make her roll a CF check once in a while, perhaps when it is particularly crucial for the player to be in control of her persona.
+=== Control Factor Checks
 
-Control factor checks are very similar to an adjusted attribute roll (see Chapter 16: _Special Rolls_).
-The robot's CF is determined by the Control factor equation given above.
-For instance: a 3rd level robot with a 14 INT would have a control factor of 17.
-If the robot's INT drops due to damage, its CF will increase the amount of INT lost.
-The more damaged, the more insane, the more free willed.
+Robots were not fabricated to exercise their free will and ignore their programmed tasks.
+Whenever a robot is challenged to "get back to work" she must make a control factor check.
+The control factor check is a die roll that the player makes to keep control of her persona.
+If the control factor check fails the player can only do what her robot was programmed to do.
 
-The player must roll under her control factor to maintain control of her robot persona.
-Most control factor checks are made on a d20 and that is the smallest die that can be used.
-More difficult CF checks may be made on d30s, d50s or deci-die.
-If the robot with the CF of 17 were to voluntarily clean up a messy room (assuming it were a janitorial bot), the referee may require a d20 CF check.
-If the robot were ordered to clean up a room by a charismatic member of its base family and if the persona giving the order was a Mechanic with robotic skill, the robot may have to make a d50 CF check.
+For example, domestic janitorial bot could be find itself in a messy bathroom.
+The referee could challenge to bot to a Control Factor Check to *not* clean the bathroom.
+If the player fails the CF check the persona will need to clean the bathroom before doing anything else.
+The referee and players will decide how frequent control factor checks are made. 
+The frequency of Control Factor Checks can be frequent or infrequent. 
+Some referees will have the players checking several times a session.
 
-*Loss of Control:* A failed CF check will indicate that the player has temporarily lost control of her persona.
-This loss of control could be critical to the robot's survival and CF checks can often be life or death rolls.
-The duration of the CF failure depends on the type of CF failure that occurred.
-If the failure occurs during combat then it will last a random number of units determined by the die that tested the robot's CF.
-So a robot failing a d50 CF check would become a referee persona robot for d50 units.
-If the CF check occurs during non-combat then the personal will revert to being a robot for a random number of minutes determined by the die that tested the robot's CF.
-So a robot failing a d50 CF check would become a referee persona robot for d50 minutes.
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+=== CF Check Difficulty
+The difficulty of the CF Check is determined by the referee and player. 
+The more difficult the CF Check the more likely the player will lose control of the robot.
+For a domestic janitorial bot to ignore cleaning a messy bathroom would be easy difficulty.
+For a domestic janitorial bot to mess up a clean bathroom would be hard difficulty.
+In the first case the robot could go about her business exhibiting free will.
+In the second case the robot would likely not be able to intentionally mess up the bathroom.
+
+****
+Control Factor checks are being worked into the High Roll Paradigm. There are no procedural details on CF checks at present. See  xref:ii-non_combat_rules:CH16_Special_Rolls.adoc[Special Rolls]  for rework in progress.
+****
+
+=== Loss of Control
+A failed CF check will indicate that the player has temporarily lost control of her persona.
+The player still runs the robot persona, but she can only do things that the robot would do
+CF Checks should be fun. 
+They can even be funny.
+CF Checks should add to the story and fun of role playing. 
+It would be an example of extreme __roll playing__ to destroy a robot persona with a CF Check.
+
+== Robot Hit Points
+Robots are inorganic fabricated entities.
+They do not have a physiology per se.
+Consequently physical damage affects robots different from anthros and aliens. 
+While a hit point in damage is still a hit point in damage the affect is different.
+The main difference between robotic and organic (anthros and aliens) is that robots do not 'die' at zero.
+For a robot 0 HPS indicates something has broken rather than complete destruction.
+
+=== Calculating Robotic Hit Points
+Each robot type has Hit Points listed on it's fabrication info sheet. 
+The persona hit points are calculated when the robot type has been determined.
+An explorations robot (E) with a 20 CON would have 300 HPS.
+A datalyzer (D) with a 4 CON could have between 12 and 16 HPS.
+
+== Damaging Robots
+When a robot is damaged there are no organic repair systems to fix things up.
+Anthros and aliens have organic systems that repair themselves with time.
+Robots just keep taking more and more damage.
+Eventually the robot's hit point total will be reduced to zero. 
+
+Damage to a robot is the same as damage to any other persona.
+A punch does same damage to a robot as an organic target.
+Electrical and disintegration attacks are especially damaging to robot personas.
+Any electrical or disintegration attack does double damage to a robot. 
+When a robot is hit, any damage it takes is subtracted from its HPS total.
+This means that a robot will quickly lost HPS and will be unable to heal itself.
+
+Repairing robots is risky.
+Robotic free will depends on malfunctions.
+A properly repaired robot would no longer have free will.
+The greater the repair the more difficult the Control Factor Check
+
+=== Zero HPS
+When a robot's HPS total drops below zero several things happen:
+.Consequences of Zero HPS
+. A System is permanently damaged
+. <<_hps_max_decrease,HPS Max Decreases>> by 10%
+.. HPS Total becomes new HPS Max
+. An EXPS level is gained
+. <<_attribute_decrease,Attribute Decrease>> may occur
+
+=== HPS Max Decrease
+.New HPS Max = old HPS Max times 0.9
+****
+HPS Max of 110 drops to 99. HPS Total resets to new HPS Max. 
+****
+
+Each time the persona's HPS Total is reduced to zero the robot loses 10% off her HPS Max.
+A robot with 110 HPS Max would lose 10% when her HPS Total drops below zero.
+After her first drop below zero HPS her new HPS Max would be 99. 
+The persona's HPS Total becomes the new HPS Max.
+This drop in the HPS Max continues 
+
+Damaging a robot reduces its HPS max by ten percent and randomly reduces another attribute.
+The bot is then returned to full HPS max, less the ten percent.
+For example: a bot with a total 110 HPS drops below zero;
+the bot returns to the new HPS maximum -- which is less 10% of the previous one -- in this case, 99 hit points.
+This new hit point total is now the bot's HPS maximum.
+If this robot were to accumulate more than 99 HPS in damage, it would be damaged again and its new HPS max would be 89.
+This process of diminishing returns is undergone each time the bot reaches zero HPS total.
+So the robot's HPS max would continue to decline 80, 72, 57 etc.
+until it reaches zero HPS max, at which point it is destroyed.
+
+Regardless of the fashion in which the robot was damaged, the injured sub-system will be randomly determined.
+This could roughly be considered the same as a hit location.
+An attacker could damage a bot's sensors or power plan without even aiming for that specific part.
+Each time the robot is reduced to zero HPS, another part is damaged.
+Robotic death, the fatal malfunction, occurs whenever any of a robot's attributes is reduced to zero or its HPS max is reduced to zero.
+
+The easiest way to calculate this is to multiply the robot's present HPS max by 0.90 and round the result DOWN.
+Always round the result down.
+
+=== Attributes Decrease
+Robots may now seem indestructible.
+They are tough compared to organic personas but they are far from indestructible.
+Usually, long before the robot's HPS max reaches 0, the bot will suffer a fatal malfunction.
+
+It is important to note that bots cannot heal any damage that they take and they slowly or quickly fall apart and break down until their sentience is no longer supported by their machinery.
+In addition to losing 10% of their HPS max, the bot also has some specific system malfunction.
+Depending on which system malfunctions, some of the robot's attributes will be reduced.
+Whenever any of these attributes is reduced to zero, the robot is irrevocably destroyed.
+
+The robotic part damaged is determined on Table 5.27 Robotic System Malfunction.
+Every time the robot is reduced to zero hit points a roll is made on Table 5.27 as well as on Table 5.28 Robotic Malfunction Severity.
+
+include::ROOT:partial$CH05_Table_Robotic_System_Malfunction.adoc[]
+
+include::ROOT:partial$CH05_Table_Robotic_Malfunction_Severity.adoc[]
 
 
-== Hit Points
-Hit points for robots work the same way they do for other personas.
-The major difference is that bots do not go unconscious when they reach zero hit points, nor do they die, nor can they be knocked unconscious nor can they heal their damage.
-A hit point is a hit point regardless of whether it's a robot's or an alien's or an anthropomorph's.
-The difference lies in how losing HPS affects the bot.
-Old robots never die -- they just wear out.
-This topic is covered under Robotic Damage in this chapter.
+=== Robot Decay Tables
 
-Each bot gets one HPS factor per point of CON.
-An exploration bot (F) with a 20 CON would have 300 HPS and an analog bot (A) with a 4 CON could have between 12 and 16 HPS.
+The damaging continues until one of the personas attributes reaches zero and the bot dies.
+How on earth does one keep track of this during combat without having everything grind to a halt.
+The answer is to pre-roll the effects and create a robot decay table.
+Consider the following Table 5.29 Robot Decay Table for Sal the Diagnostic Veterinarian Robot.
+TTL keeps track of the total damage delivered over time.
+Sal decays until her AWE reaches zero and dies.
 
-== Tech Level
-The player should roll a http://expgame.com/?page_id=359[Chapter 56 Tech Level] for her robot persona.
-This roll can adjust the wate and value of the robot.
-A strange tech level could possibly make it more difficult to adapt a robot.
-The tech level roll can make a robot lighter but it cannot make it any heavier.
-If no tech level is rolled, the robot is assumed to have a tech level of 10.
+// table insert 79
 
-== Adaptability
+== Robot Adaptability
 Only Mechanics can fit peripheral devices onto bots and this is done using the _Mechanics`' Performance Tables_.
 The ADAPTABILITY is the percentage added to the Mechanic's PT roll, thus increasing the mechanic's chance for success.
 The Degree of Difficulty of the particular procedure is determined by the ref.
 Those bots with no adaptability percentage are designed to not be tampered with and instead of a PT roll bonus, the Mechanic suffers a 3 DD penalty.
 
-== Value
+== Robot Value
 The value of the bot is its base worth relative to all the robot types described.
 The values indicated are for the basic unit that rolls off the assembly line.
 The strange peripherals that may have just happened, or are added to the basic robot type, increase the robot's value.
@@ -1422,7 +1528,14 @@ The adjustment of the robot's base value is really up to the referee.
 Any artifacts that are attached to the robot are tripled in value and added to the robot's value.
 Robots that are worth incredible sums of money or have particularly valuable peripherals will often find themselves being greedily pursued by former owners or prospective "`buyers`".
 
-== Robot Experience
+== Tech Level
+The player should roll a http://expgame.com/?page_id=359[Chapter 56 Tech Level] for her robot persona.
+This roll can adjust the wate and value of the robot.
+A strange tech level could possibly make it more difficult to adapt a robot.
+The tech level roll can make a robot lighter but it cannot make it any heavier.
+If no tech level is rolled, the robot is assumed to have a tech level of 10.
+
+== Experience
 As a bot gains more experience, it begins to solidify and reinforce its individuality and personality.
 The robot becomes more insane as it gathers data moderated by its own free will.
 The more individualistic and independent it becomes, the more insane it is.
@@ -1441,66 +1554,5 @@ So, novel use of a built-in skill will be rewarded with experience points.
 
 // table insert 76
 
-== Robotic Damage
-Many of the robot types seem to have enormous HPS totals.
-This is because they need them.
-Many attacks such as electrical and disintegrations do double damage and robots cannot repair HPS like other personas.
-When a robot is hit, any damage it takes is subtracted from its HPS total.
-Damage to a robot is the same as damage to any other persona.
-A punch does no less damage to a robot than it does to any other biological life form.
-The HPS still represents a universal value.
-This means that a robot will quickly lost HPS and will be unable to heal itself.
-
-The major difference between other personas and robot personas is that robots do not expire upon reaching zero HPS.
-When a robot's hit point total drops below zero HPS, it is damaged and not dead.
-Some random part of the bot has been eroded by some degree.
-This erosion is represented by a drop in the persona's attributes, including the HPS total.
-
-Regardless of the fashion in which the robot was damaged, the injured sub-system will be randomly determined.
-This could roughly be considered the same as a hit location.
-An attacker could damage a bot's sensors or power plan without even aiming for that specific part.
-Each time the robot is reduced to zero HPS, another part is damaged.
-Robotic death, the fatal malfunction, occurs whenever any of a robot's attributes is reduced to zero or its HPS max is reduced to zero.
-
-*Losing Hit Points:* When a robot's HPS total does drop below zero, the robot has malfunctioned.
-Damaging a robot reduces its HPS max by ten percent and randomly reduces another attribute.
-The bot is then returned to full HPS max, less the ten percent.
-For example: a bot with a total 110 HPS drops below zero;
-the bot returns to the new HPS maximum -- which is less 10% of the previous one -- in this case, 99 hit points.
-This new hit point total is now the bot's HPS maximum.
-If this robot were to accumulate more than 99 HPS in damage, it would be damaged again and its new HPS max would be 89.
-This process of diminishing returns is undergone each time the bot reaches zero HPS total.
-So the robot's HPS max would continue to decline 80, 72, 57 etc.
-until it reaches zero HPS max, at which point it is destroyed.
-
-The easiest way to calculate this is to multiply the robot's present HPS max by 0.90 and round the result DOWN.
-Always round the result down.
-
-*Losing Attributes:* Robots may now seem indestructible.
-They are tough compared to organic personas but they are far from indestructible.
-Usually, long before the robot's HPS max reaches 0, the bot will suffer a fatal malfunction.
-
-It is important to note that bots cannot heal any damage that they take and they slowly or quickly fall apart and break down until their sentience is no longer supported by their machinery.
-In addition to losing 10% of their HPS max, the bot also has some specific system malfunction.
-Depending on which system malfunctions, some of the robot's attributes will be reduced.
-Whenever any of these attributes is reduced to zero, the robot is irrevocably destroyed.
-
-The robotic part damaged is determined on Table 5.27 Robotic System Malfunction.
-Every time the robot is reduced to zero hit points a roll is made on Table 5.27 as well as on Table 5.28 Robotic Malfunction Severity.
-
-// table insert 77
-
-// table insert 78
-
-== Robot Decay Tables
-
-The damaging continues until one of the personas attributes reaches zero and the bot dies.
-How on earth does one keep track of this during combat without having everything grind to a halt.
-The answer is to pre-roll the effects and create a robot decay table.
-Consider the following Table 5.29 Robot Decay Table for Sal the Diagnostic Veterinarian Robot.
-TTL keeps track of the total damage delivered over time.
-Sal decays until her AWE reaches zero and dies.
-
-// table insert 79
 
 
