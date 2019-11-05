@@ -1457,45 +1457,48 @@ When a robot's HPS total drops below zero several things happen:
 .New HPS Max = old HPS Max times 0.9
 ****
 HPS Max of 110 drops to 99. HPS Total resets to new HPS Max. 
+The result must be rounded down. 
 ****
 
 Each time the persona's HPS Total is reduced to zero the robot loses 10% off her HPS Max.
 A robot with 110 HPS Max would lose 10% when her HPS Total drops below zero.
 After her first drop below zero HPS her new HPS Max would be 99. 
 The persona's HPS Total becomes the new HPS Max.
-This drop in the HPS Max continues 
+This drop in the HPS Max continues until the robot is destroyed (HPS Max of Zero).
 
-Damaging a robot reduces its HPS max by ten percent and randomly reduces another attribute.
-The bot is then returned to full HPS max, less the ten percent.
-For example: a bot with a total 110 HPS drops below zero;
-the bot returns to the new HPS maximum -- which is less 10% of the previous one -- in this case, 99 hit points.
-This new hit point total is now the bot's HPS maximum.
-If this robot were to accumulate more than 99 HPS in damage, it would be damaged again and its new HPS max would be 89.
-This process of diminishing returns is undergone each time the bot reaches zero HPS total.
-So the robot's HPS max would continue to decline 80, 72, 57 etc.
-until it reaches zero HPS max, at which point it is destroyed.
+****
+Consider a fresh new robot with 110 HPS Max.
+She takes 115 HPS of damage.
+Her HPS Total would drop to zero. 
+She would have a new HPS MAX of 99 and subtract the remaining 5 HPS of damage from 99.
+Her new HPS Max would be 99 and her HPS Total would be 94.
+****
 
-Regardless of the fashion in which the robot was damaged, the injured sub-system will be randomly determined.
-This could roughly be considered the same as a hit location.
-An attacker could damage a bot's sensors or power plan without even aiming for that specific part.
-Each time the robot is reduced to zero HPS, another part is damaged.
-Robotic death, the fatal malfunction, occurs whenever any of a robot's attributes is reduced to zero or its HPS max is reduced to zero.
-
-The easiest way to calculate this is to multiply the robot's present HPS max by 0.90 and round the result DOWN.
-Always round the result down.
+This drop in HPS Max would continue until the HPS Max is less than one.
+That would result in a destroyed robot. 
+The above robot drops her HPS Max by 10% each time her HPS Total is zeroed.
+Her HPS Max would decrease like so: 110, 99, 89, 80, 72, 64, 57 etc.
+She would be destroyed at Zero HPS Max. 
+The total damage (by most python models) would be 970 HPS in damage.
+This seems like a lot however it is nearly impossible for robots to repair. 
 
 === Attributes Decrease
-Robots may now seem indestructible.
+Robots do not only lose HPS when they are damaged.
+The robot can also lose attribute scores each time her HPS Total reaches zero.
 They are tough compared to organic personas but they are far from indestructible.
-Usually, long before the robot's HPS max reaches 0, the bot will suffer a fatal malfunction.
+If any attribute is reduced to zero the robot is destroyed. 
 
-It is important to note that bots cannot heal any damage that they take and they slowly or quickly fall apart and break down until their sentience is no longer supported by their machinery.
-In addition to losing 10% of their HPS max, the bot also has some specific system malfunction.
-Depending on which system malfunctions, some of the robot's attributes will be reduced.
-Whenever any of these attributes is reduced to zero, the robot is irrevocably destroyed.
+A critical malfunction to the robot brain would reduce the persona's INT score by 2 points.
+So a robot with an 11 INT would have their INT reduced to 9.
+The referee and players may choose to recalculate any range effects based on INT.
+It is also equally acceptable to ignore doing such arithmetic.
+There is enough arithmetic in robot damage already.
+If any of the robot's attributes fall below 1 the robot is destroyed.
 
-The robotic part damaged is determined on Table 5.27 Robotic System Malfunction.
-Every time the robot is reduced to zero hit points a roll is made on Table 5.27 as well as on Table 5.28 Robotic Malfunction Severity.
+This does not effect the robot's attribute range. 
+A robot with a INT Range of 4 still has an INT Range of 4
+This effects any of the attribute scores: AWE, CHA, CON, DEX, INT, and PSTR.
+If any of these attributes fall below 1 the robot is destroyed.
 
 include::ROOT:partial$CH05_Table_Robotic_System_Malfunction.adoc[]
 
@@ -1503,15 +1506,11 @@ include::ROOT:partial$CH05_Table_Robotic_Malfunction_Severity.adoc[]
 
 
 === Robot Decay Tables
+Robot decay tables are essential for referee personas. 
+The decay table has all damage effects for the robot persona prepared. 
+Player persona usually will visit the system damage tables each time they zero their HPS Total.
 
-The damaging continues until one of the personas attributes reaches zero and the bot dies.
-How on earth does one keep track of this during combat without having everything grind to a halt.
-The answer is to pre-roll the effects and create a robot decay table.
-Consider the following Table 5.29 Robot Decay Table for Sal the Diagnostic Veterinarian Robot.
-TTL keeps track of the total damage delivered over time.
-Sal decays until her AWE reaches zero and dies.
-
-// table insert 79
+include::ROOT:partial$CH05_Table_Example_Robotic_Decay.adoc[]
 
 == Robot Adaptability
 Only Mechanics can fit peripheral devices onto bots and this is done using the _Mechanics`' Performance Tables_.

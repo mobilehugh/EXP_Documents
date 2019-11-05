@@ -1,8 +1,11 @@
 // Table 5.29 Sal&#039;s Robotic Decay
-.*Sal&#039;s Robotic Decay*
+.*Example Robotic Decay*
 [width="75%",cols="10*^"]
 |===
-10+<|Example of how a robot falls apart and eventually becomes scrap. 
+10+<|This robot is destroyed when her AWE = 0 at 98 HPS total damage. 
+s|Total Damage
+s|HPS Max
+s|System
 s|AWE
 s|CHA
 s|CON
@@ -10,10 +13,10 @@ s|DEX
 s|INT
 s|MSTR
 s|PSTR
-s|HPS
-s|Damaged Part
-s|TTL
 
+|16
+|16
+|Nil
 |9
 |11
 |8
@@ -21,10 +24,10 @@ s|TTL
 |18
 |0
 |12
-|16
-|Nil
-|16
 
+|30
+|14
+|Locomotion
 |9
 |11
 |8
@@ -32,21 +35,21 @@ s|TTL
 |18
 |0
 |11
-|14
-|Locomotion
-|30
 
-|9
-|11
-|8
-|19
-|17
-|0
-|11
+|42
 |12
 |Brain
-|42
+|9
+|11
+|8
+|19
+|17
+|0
+|11
 
+|52
+|10
+|Sensors
 |7
 |11
 |8
@@ -54,10 +57,10 @@ s|TTL
 |16
 |0
 |11
-|10
-|Sensors
-|52
 
+|61
+|9
+|Control Unit
 |6
 |10
 |7
@@ -65,10 +68,10 @@ s|TTL
 |15
 |0
 |9
-|9
-|Control Unit
-|61
 
+|69
+|8
+|Locomotion
 |6
 |10
 |7
@@ -76,32 +79,32 @@ s|TTL
 |15
 |0
 |8
-|8
-|Locomotion
-|69
 
-|5
-|10
-|7
-|15
-|15
-|0
-|8
+|76
 |7
 |Articulation
-|76
-
-|4
+|5
 |10
 |7
 |15
-|13
+|15
 |0
 |8
+
+|82
 |6
 |Sensors
-|82
+|4
+|10
+|7
+|15
+|13
+|0
+|8
 
+|87
+|5
+|Sensors
 |3
 |10
 |7
@@ -109,10 +112,10 @@ s|TTL
 |12
 |0
 |8
-|5
-|Sensors
-|87
 
+|91
+|4
+|Locomotion
 |3
 |10
 |7
@@ -120,21 +123,10 @@ s|TTL
 |12
 |0
 |7
-|4
-|Locomotion
-|91
 
-|1
-|10
-|7
-|14
-|11
-|0
-|7
+|94
 |3
 |Sensors
-|94
-
 |1
 |10
 |7
@@ -142,21 +134,36 @@ s|TTL
 |11
 |0
 |7
+
+|96
 |2
 |Peripheral
-|96
-
-|0\nscrap
+|1
 |10
+|7
+|14
+|11
+|0
+|7
+
+s|98
+|1
+|Sensors
+
+|0
+{set:cellbgcolor:red}
+|10
+{set:cellbgcolor!}
 |7
 |13
 |11
 |0
 |7
-|1
-|Sensors
-|98
 
+
+s|Total Damage
+s|HPS Max
+s|System
 s|AWE
 s|CHA
 s|CON
@@ -164,9 +171,4 @@ s|DEX
 s|INT
 s|MSTR
 s|PSTR
-s|HPS
-s|Damaged Part
-s|TTL
-
-
 |===
