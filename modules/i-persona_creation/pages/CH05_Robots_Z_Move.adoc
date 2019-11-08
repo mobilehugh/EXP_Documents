@@ -1,0 +1,14 @@
+= Robot Movement Rate
+Robotic movement rate is determined by the robot's DEX attribute.
+
+Robots are twice as fast as those personas with the same DEX.
+Those bots which move faster than 8 hu, must accelerate the same as vehicles.
+Robotic acceleration is one hex per unit per PSTR level (I-IV).
+
+include::ROOT:partial$CH05_Table_Robotic_Movement_Rate.adoc[]
+
+A robot that has a 17 DEX and PSTR level of 3 would move 8 hu at first, 11 hu the next unit and then reach maximum speed of 14 hu in the next unit.
+These cumbersome acceleration rules should only be applied in rare instances when the players have decided that picayune detail is of upmost importance.
+Depending on the locomotion type, bots are affected by terrain just as regular personas are.
+
+// table insert 54

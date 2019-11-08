@@ -1,0 +1,98 @@
+= Robot Hit Points
+Robots are inorganic fabricated entities.
+They do not have a physiology per se.
+Consequently physical damage affects robots different from anthros and aliens. 
+While a hit point in damage is still a hit point in damage the affect is different.
+The main difference between robotic and organic (anthros and aliens) is that robots do not 'die' at zero.
+For a robot 0 HPS indicates something has broken rather than complete destruction.
+
+== Calculating Robotic Hit Points
+Each robot type has Hit Points listed on it's fabrication info sheet. 
+The persona hit points are calculated when the robot type has been determined.
+An explorations robot (E) with a 20 CON would have 300 HPS.
+A datalyzer (D) with a 4 CON could have between 12 and 16 HPS.
+
+== Damaging Robots
+When a robot is damaged there are no organic repair systems to fix things up.
+Anthros and aliens have organic systems that repair themselves with time.
+Robots just keep taking more and more damage.
+Eventually the robot's hit point total will be reduced to zero. 
+
+Damage to a robot is the same as damage to any other persona.
+A punch does same damage to a robot as an organic target.
+Electrical and disintegration attacks are especially damaging to robot personas.
+Any electrical or disintegration attack does double damage to a robot. 
+When a robot is hit, any damage it takes is subtracted from its HPS total.
+This means that a robot will quickly lost HPS and will be unable to heal itself.
+
+Repairing robots is risky.
+Robotic free will depends on malfunctions.
+A properly repaired robot would no longer have free will.
+The greater the repair the more difficult the Control Factor Check
+
+=== Zero HPS
+When a robot's HPS total drops below zero several things happen:
+.Consequences of Zero HPS
+. A System is permanently damaged
+. <<_hps_max_decrease,HPS Max Decreases>> by 10%
+.. HPS Total becomes new HPS Max
+. An EXPS level is gained
+. <<_attribute_decrease,Attribute Decrease>> may occur
+
+=== HPS Max Decrease
+.New HPS Max = old HPS Max times 0.9
+****
+HPS Max of 110 drops to 99. HPS Total resets to new HPS Max. 
+The result must be rounded down. 
+****
+
+Each time the persona's HPS Total is reduced to zero the robot loses 10% off her HPS Max.
+A robot with 110 HPS Max would lose 10% when her HPS Total drops below zero.
+After her first drop below zero HPS her new HPS Max would be 99. 
+The persona's HPS Total becomes the new HPS Max.
+This drop in the HPS Max continues until the robot is destroyed (HPS Max of Zero).
+
+****
+Consider a fresh new robot with 110 HPS Max.
+She takes 115 HPS of damage.
+Her HPS Total would drop to zero. 
+She would have a new HPS MAX of 99 and subtract the remaining 5 HPS of damage from 99.
+Her new HPS Max would be 99 and her HPS Total would be 94.
+****
+
+This drop in HPS Max would continue until the HPS Max is less than one.
+That would result in a destroyed robot. 
+The above robot drops her HPS Max by 10% each time her HPS Total is zeroed.
+Her HPS Max would decrease like so: 110, 99, 89, 80, 72, 64, 57 etc.
+She would be destroyed at Zero HPS Max. 
+The total damage (by most python models) would be 970 HPS in damage.
+This seems like a lot however it is nearly impossible for robots to repair. 
+
+=== Attributes Decrease
+Robots do not only lose HPS when they are damaged.
+The robot can also lose attribute scores each time her HPS Total reaches zero.
+They are tough compared to organic personas but they are far from indestructible.
+If any attribute is reduced to zero the robot is destroyed. 
+
+A critical malfunction to the robot brain would reduce the persona's INT score by 2 points.
+So a robot with an 11 INT would have their INT reduced to 9.
+The referee and players may choose to recalculate any range effects based on INT.
+It is also equally acceptable to ignore doing such arithmetic.
+There is enough arithmetic in robot damage already.
+If any of the robot's attributes fall below 1 the robot is destroyed.
+
+This does not effect the robot's attribute range. 
+A robot with a INT Range of 4 still has an INT Range of 4
+This effects any of the attribute scores: AWE, CHA, CON, DEX, INT, and PSTR.
+If any of these attributes fall below 1 the robot is destroyed.
+
+include::ROOT:partial$CH05_Table_Robotic_System_Malfunction.adoc[]
+
+include::ROOT:partial$CH05_Table_Robotic_Malfunction_Severity.adoc[]
+
+=== Robot Decay Tables
+Robot decay tables are essential for referee personas. 
+The decay table has all damage effects for the robot persona prepared. 
+Player persona usually will visit the system damage tables each time they zero their HPS Total.
+
+include::ROOT:partial$CH05_Table_Example_Robotic_Decay.adoc[]

@@ -1,0 +1,121 @@
+= Robot Attributes
+Robots have the usual seven attributes. 
+This includes AWE, CHA, CON, DEX, INT, MSTR, PSTR and HPS.
+However the generation of these attributes is unique to robots.
+There are four attribute ranges:  CON, DEX, INT and PSTR.
+The attribute ranges determine both the robotic type and attributes.
+
+Robot Control Factor determines whether a robot maintains its free will.
+Fabricator Type may keep a robot from doing where her persona wants.
+Neither is an attribute, but both are crucial to a robot persona.
+
+Robots do not engage in the organic think space at all.
+Robots have a MSTR of 0. 
+Robots also do not have a social standing. 
+If robots need to compare their privilege they would use their value.
+
+== Robotic Attribute Ranges
+The player first generates her persona's attribute ranges.
+There are four attribute ranges: CON, DEX, INT and PSTR.
+Each attribute range is determined by rolling 1d4.
+Each attribute range is recorded on the persona record.
+
+A player that rolls a three for PSTR range has a PSTR range of 3.
+The true value of the attribute is generated from the attribute range.
+The attribute range determines the robot type of the persona.
+Attributes can change through out the game, attribute ranges do not change.
+The persona will  have four attribute ranges between one and four.
+For example a CON range of 2, a DEX range of 2, an INT range of 3 and a PSTR range of 4.
+
+// New Table for version 6.0
+.*Robotic Attribute Ranges*
+[width="75%",cols="<,^,^,^,^"]
+|===
+5+<|Each attribute range has a range of 1 to 4.
+
+s|
+s|CON
+s|DEX
+s|INT
+s|PSTR
+
+s|Attribute Range
+.^|1d4
+.^|1d4
+.^|1d4
+.^|1d4
+
+s|
+s|CON
+s|DEX
+s|INT
+s|PSTR
+
+|===
+
+== Regular Attributes
+Attributes amongst the families are equal in value. 
+An INT 12 is equal amongst robots, aliens and anthros.
+Attribute ranges must be converted into regular attributes.
+The attribute range must remain on the persona record sheet.
+For example INT would be recorded as INT range of 2 and INT of 12.
+
+// brand new table for version 6.0
+.*Robotic Regular Attribute Generation*
+[width="75%",cols="<,<,<"]
+|===
+3+<|Randomly determine several robot attributes.
+
+s|Attribute
+s|Abbreviation
+s|Die Roll
+
+|Awareness
+|AWE
+|3d6
+
+|Charisma
+|CHA
+|3d6
+
+|Constitution
+|CON
+|See Below
+
+|Dexterity
+|DEX
+|See Below
+
+|Intelligence
+|INT
+|See Below
+
+|Mental Strength
+|MSTR
+|0
+
+|Physical Strength
+|PSTR
+|See Below
+
+|Hit Points
+|HPS
+|CON and Type
+
+|Social Standing
+|SS
+|Robot Value
+
+s|Attribute
+s|Abbreviation
+s|Die Roll
+
+|===
+
+The player must now convert attribute range into regular attributes. 
+If robot has a CON range of 1 the player would roll 1d8 to determine the CON attribute.
+Both the CON range and the CON range are recorded on the persona record.
+
+include::ROOT:partial$CH05_Table_Robotic_Attributes.adoc[]
+
+// robot  assembly  Anthros building robots to replace anthros

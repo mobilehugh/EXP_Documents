@@ -41,8 +41,14 @@ Even simpler is dividing the families into their common names: anthro, alien, an
 ** Alien = Determined at generation
 ** Robot = Android, Combot, Hobbot, Rescue
 
-.Hominidae, Diversidae, Machinae
-image::ROOT:_mind_map.png[200]
+:art: family_mind_map.png
+:width: 300px
+:snark: Hominidae, Machinae, Diversidae
+:artist: HM
+:date: 2019
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
 
 The referee is welcome to use whatever naming structure suits their campaign.
 The aliens could all be robots.
@@ -102,19 +108,20 @@ Most of persona generation in EXP is random.
 [width="75%",cols="2*^"]
 |===
 2+<|For purely random persona generation. 
+
 s|Die Roll (1d100)
 s|Persona Family
 
 |01-80
-|Anthro
+|xref:CH04_Anthros_.adoc[Anthros]
 
 |80-95
-|Alien
+|xref:CH06_Aliens.adoc[Aliens]
 
 |96-00
-|Robot
+|xref:CH05_Robots_.adoc[Robots]
 
-s|Die Roll (1d12)
+s|Die Roll (1d100)
 s|Persona Family
 
 |===

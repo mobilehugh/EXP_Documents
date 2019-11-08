@@ -1,0 +1,98 @@
+= Anthro Size
+
+Anthros are all essentially medium sized beings. 
+Only aliens and robots are classified as tiny or large.
+Size is composed of Hite and Wate. 
+
+== Hite
+The hite of the anthro is calculated using a base hite and a variation.
+Each anthro type has a base hite.
+The base hite is located to the left of the + sign.
+The base hite is bolded below.
+
+// Table 4.16 Ursidae Data
+.*Find the Base Hite*
+[width="75%",cols="<,<,<",frame="all"]
+
+|===
+3+<| Base hite is highlighted: 176 cm
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|#176#+(2d20)-20
+|78
+
+
+|===
+
+Hite variation is the located to the right of the + sign.
+
+// Table 4.16 Ursidae Data
+.*Find the Hite Variation*
+[width="75%",cols="<,<,<",frame="all"]
+
+|===
+3+<| The hite variation is highlighted : (2d20)-20 cm
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|176+#(2d20)-20#
+|78
+
+
+|===
+
+The player rolls the variation and adds it to the base hite. 
+In our example the player rolled 30 on the 2d20.
+Subtracting 20 she arrives a variation of +10
+
+=== Calculate Final Hite
+.Base Hite + hite Variation = final Hite
+****
+The ursidae's base hite is 176 cm. The hite variation is +10 cm. So the persona's final hite is 186 cm.
+****
+
+== Wate 
+
+The wate of the persona is a pure calculation based on the hite of the persona.
+The greater the hite the greater the wate. 
+
+.*Find the Base Wate*
+[width="75%",cols="<,<,<",frame="all"]
+
+|===
+3+<| Base wate is highlighted: 78 kg
+
+s|Size
+s|Hite (cm)
+s|Wate (kg)
+
+|Large
+|176+(2d20)-20
+|#78#
+
+
+|===
+
+=== Calculate Wate Variation
+.persona hite / base hite = wate variation
+****
+The persona's hite is 186. The persona's base hite is 176 cm. Division gives a wate variation of 1.05
+****
+
+
+=== Calculate Final Wate
+.base wate * wate variation =  final wate
+****
+The base wate is 78 kg.  Multiplied by wate variation of 1.05 gives a final wate of 82 kg.
+****
+
+The player records the final hite and final wate on her persona record. 
+She also wonders if it was worth all the arithmetic work.
+Smiling, she remembers that numeracy is a worthy skill.
