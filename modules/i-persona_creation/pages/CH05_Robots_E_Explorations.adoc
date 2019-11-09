@@ -3,11 +3,47 @@
 Explorations bots come in two quite distinct but complementary types: planetary and extraplanetary.
 In order to qualify for extraplanetary status, a minimum of 24 INT is required, making extraplanetary bots the rarer of the two exbots.
 
-== Planetary
+== Planetary Exploration Robot 
 
-// table insert 35
+//  Explorations Planet Data 
+.*Planetary Exploration Robot Fabrication Info (E-P)*
+[width="75%",cols="2*<"]
+|===
+2+<|Planet side robot fabricated to explore, learn and report. 
 
-Planetary: The planetary type is the more mindless version commonly deposited on planets as an expendable drone to do preliminary reconnaissance.
+2+<|*Attributes*
+
+|Ranges
+|CON 4; DEX 2; INT 1 or 4; PSTR 3
+
+|Minimums
+|Nil
+
+|Hit Points
+|11-16 (10+1d6) per point of CON
+
+|Adaptability
+|30%
+
+|Size
+|Small
+
+|Value:
+|100000 times 1d12
+
+2+<|*Systems*
+
+|Offensive
+|25% roll on Table 1
+
+|Defensive
+|1 Roll
+
+|Peripheral
+|1 Primary
+|===
+
+The planetary exploration robot is the more mindless version commonly deposited on planets as an expendable drone to do preliminary reconnaissance.
 Their job is to survey a section of the planet on which they have been let loose;
 they are mostly used to determine mineral contents, atmosphere composition, surface mapping and take photographs.
 They are capable of speech but are not advanced enough to undertake communication with newly encountered creatures on the planet.
@@ -24,11 +60,55 @@ Some standard functions planetary bots perform are:
 Data for more complex tasks such as map-making and surveying is relayed to another location and interpreted there.
 These communications may be processed anywhere from an orbiting spaceship to a roving extra-planetary bot.
 
-//+++<figure id="attachment_10132" aria-describedby="caption-attachment-10132" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/extra_planetary_bot-300x257.png?resize=300%2C257[THE SPACE PIONEERS THE TOM CORBETT SPACE CADET STORIES By Carey Rockwell 1953 Illustrator: Louis Glanzman Modified HM,300]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/extra_planetary_bot.png)+++<figcaption id="caption-attachment-10132" class="wp-caption-text">+++Flat robot for bumpy terrain.+++</figcaption>++++++</figure>+++
 
-== Extra-planetary
+== Extra Planetary Exploration Robot
 
-// table insert 36
+:art: extra_planetary_bot.png
+:width: 250px
+:snark: Exploiting, exploring, a new planet.
+:artist: Louis Glanzman, modded HM
+:date: 1953, 2017
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+//  Explorations Planet Data 
+.*Extra Planetary Exploration Robot Fabrication Info (E-E)*
+[width="75%",cols="2*<"]
+|===
+2+<|Planet side robot fabricated to explore, learn and report. 
+
+2+<|*Attributes*
+
+|Ranges
+|CON 4; DEX 2; INT 1 or 4; PSTR 3
+
+|Minimums
+|INT 24
+
+|Hit Points
+|11-16 (10+1d6) per point of CON
+
+|Adaptability
+|-10%
+
+|Size
+|Medium
+
+|Value:
+|100000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|1 roll on Table 1
+
+|Defensive
+|2 rolls
+
+|Peripheral
+|1 Primary
+|===
 
 Extra-planetary bots can do everything their less qualified counterparts can do, plus more.
 The exbot can process the information which the planetary bot can only collect.
@@ -39,5 +119,3 @@ can also:
 * Comprehend languages
 * Identify intelligence
 * Map terrain
-
-//+++<figure id="attachment_755" aria-describedby="caption-attachment-755" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/hobbot_maintenancebot.760-300x254.png?resize=300%2C254[Blinged out hobbot with chrome stylings.,300]](https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/hobbot_maintenancebot.760.png)+++<figcaption id="caption-attachment-755" class="wp-caption-text">+++Blinged out hobbot with chrome stylings.+++</figcaption>++++++</figure>+++
