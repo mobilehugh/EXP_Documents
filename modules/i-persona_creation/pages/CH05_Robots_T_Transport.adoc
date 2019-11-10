@@ -6,7 +6,43 @@ In order to be an extra-planetary transportation bot, DEX and INT must both be a
 
 == Planetary
 
-// table insert 50
+//  Planetary Transport Fabrication Data 
+.*Planetary Transport Robot Fabrication Info (T-P)*
+[width="75%",cols="2*<"]
+|===
+2+<|Cybernetic chauffeur for all manner of planetary vehicles.
+
+2+<|*Attributes*
+
+|Ranges
+|CON 1; DEX 1, 4; INT 1, 4; PSTR 1
+
+|Minimums
+|Nil
+
+|Hit Points
+|9-12 (8+d4) per point of CON
+
+|Adaptability
+|15%
+
+|Size
+|Small
+
+|Value:
+|100000 times 2d6
+
+2+<|*Systems*
+
+|Offensive
+|50% roll on Table 1
+
+|Defensive
+|40% for 1 roll
+
+|Peripheral
+|100% for 1 roll on Primary
+|===
 
 Transportation bots get driving skills equal to their INT plus five skills per experience level.
 Thus a first level transport bot with an INT of 23 would have 28 skills to divide amongst chosen vehicles.
@@ -23,7 +59,44 @@ The chance that a transport robot will be able to pilot a vehicle is equal to 4 
 
 == Extra-Planetary
 
-// table insert 51
+//  Extra-Planetary Transport Fabrication Data 
+.*Extra-Planetary Transport Robot Fabrication Info (T-E)*
+[width="75%",cols="2*<"]
+|===
+2+<|Cybernetic chauffeur of celestial vehicles.  
+
+2+<|*Attributes*
+
+|Ranges
+|CON 1; DEX 1, 4; INT 1, 4; PSTR 1
+
+|Minimums
+|DEX 22 INT 22
+
+|Hit Points
+|9-12 (8+d4) per point of CON
+
+|Adaptability
+|15%
+
+|Size
+|Small
+
+|Value:
+|100000 times 4d6
+
+2+<|*Systems*
+
+|Offensive
+|50% roll on Table 1
+
+|Defensive
+|40% for 1 roll
+
+|Peripheral
+|100% for 1 roll on Primary
+|===
+
 
 An extra-planetary transport bot has all the same skills as its cousin above, except that it can pilot space-vehicles and can function normal in a vacuum.
 An extra-planetary transport bot can be used to replace a pilot.
