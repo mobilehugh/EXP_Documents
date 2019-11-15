@@ -1,21 +1,43 @@
 = Combot
 
-Each category of combat bot is covered individually below.
-These bots are supposed to be only small, deadly combat drones;
-not super-powered tanks that an entire campaign or game system could be based on.
-All of these robots have somehow strayed from their commanders and most of them are being actively hunted by someone or something.
-Their pursuers are usually a vengeful enemy, embarrassed opposition or corporate personnel trying to contain the out of control robot.
-Often there will be some other combat bot, perhaps holding some grudge, that has decided to make pursuit of this combot its personal mission.
+Combot is a contraction of combat robot.
+Combots have been designed to fulfill roles previously held by organic beings.
+Combots are supposed to be smaller sized drones that represent a playable scale.
+They are not intended to be monstrous city killers that destroy game balance.
+However that being said a combot can be deadly campaign upturning killing machines.
+Combots are objective driven and do not worry at all about fabricator protections.
+A combot persona is without clear direction and is likely more disturbed that other robots.
+This does not mean combot is not without rules of engagement and rules of war.
+A combot should not be an indiscriminate destroyer of everything.
 
-It must be stated that these combots are nothing more than wayward drones.
-They are the dog-meat of mechanized massacre.
-The combots are merely the tools of larger military machines or governments.
-The combots covered here are all expected to have seen battle and be a little worse for wear  
-though still substantially lethal.
+Combots are broken robots that are no longer under the control of a commander or corporation.
+The more powerful the combot the more likely a powerful owner is looking to control it.
 
-Combots are exempt from the restriction that keeps a robot from allowing its base family to come to harm.
-Any level of civility or responsibility on the battle field could jeopardize a combat robot so this feature is not included in their programming.
+// new table for 6.0
+//  Robot Attribute Requirements 
+.*Combot Attribute Requirements*
+[width="75%",cols="2*<"]
+|===
+2+<| Attribute minimums required for combot type
 
+s|Combot Type
+s|Attributes
+
+|Expendable
+|Nil
+
+|Defensive
+|CON 20
+
+|Light Offensive
+|CON 19; DEX 15
+
+|Heavy Offensive
+|CON 23; PSTR 27
+
+s|Combot Type
+s|Attributes
+|===
 
 // Expendable combat robot Expendable combat robot
 
@@ -69,14 +91,15 @@ include::ROOT:partial$articulate.adoc[]
 |1 Primary
 |===
 
-These bots are ex-reconnaissance, ex-officer aids, defunct spies or intelligent bombs.
-Whatever they used to be, they are not that now and are wandering about on their own, free-lance.
-Expendable combat robots can also drive military vehicles in combat situations other robots cannot.
-This bot type has the advantage over all the others of being able to remember combat situations and other sensitive issues.
+These bots are ex-recon, ex-aids, or malfunctioning mechanize infantry.
+It is possible that an expendable combot is a walking bomb.
+Regardless of what it used to be the expendable combot has gone free lance. 
+Expendable combots can drive military vehicles in combat situations.
+Regardless of the expendable's INT score it has a good memory for combat details. 
 
 == Defensive Combot
 
-// what? no defensive combot image FOR SHAME!!!
+// NO IMAGE? SHAME!!!
 
 //  Defensive  Data 
 .*Defensive Combot Fabrication Info (C-D)*
@@ -110,28 +133,47 @@ This bot type has the advantage over all the others of being able to remember co
 |1 roll Table 1
 
 |Defensive
-|1 per 3 points of CON
+|1 per 4 points of CON
 
 |Peripheral
 |1 Primary
 |===
 
-To be a defensive bot, the persona must have a CON better than 20.
-As the name indicates, these combots defend positions from enemy attack.
-They get two specialized abilities granted only to defensive bots: The first is the ability to ceaselessly utter vile comments and insults about the enemy base family.
-Second is the ability to analyze attacking enemy formations for offensive weaknesses.
-The chance of effectively identifying such a weakness is equal to 4 times the defensive bots INT.
-Defensive bots can also detect intruders up to a range of 10 hexes per point of AWE.
+Defensive combots defend positions from enemy attack.
+They are naturally protective of geographical spaces and fellow personas.
 
+Not surprisingly defensive combots have many Defensive Systems.
+A defensive combot with a 20 CON score would get 5 rolls on the Robot Defences Table.
+That is a lot of defences. 
+Each defensive combot has several native defences unique to this combot type.
+
+=== Demoralize
+The ability to ceaselessly utter vile comments and insults about the enemy.
+The effect of this is unclear and mostly adds a colourful element to combat.
+For the psychological warfare to be effective is a normal CHA vs MSTR challenge.
+
+=== Fortify
+Analyze attacking enemy formations to optimize defensive strategies.
+If there is no organized attack formation this will be identified also.
+To properly analyze the attack is a normal INT vs INT challenge.
+
+=== Intruder Detection
+Defensive bots can also detect intruders up to a range of 10 hexes times AWE score.
+
+=== Anti-Anti-Detection Detector
 Another ability included within the given range is the bots Anti-anti-detection system.
 The Anti-anti-detection system will automatically pick up technological aids that are concealing or scrambling the presence of intruders.
-The combot has a chance equal to twice its (AWE+INT) when trying to detect mechanical anti-surveillance systems.
+This is a hard AWE vs DEX challenge.
 
-The bot also has a weapons identification skill which can only be used on a weapon which has inflicted damage on the bot.
-This skill can be successfully employed if the player rolls under 2 times the bots INT on percentile dice.
+=== Weapon Identification
+The bot also has a weapons identification skill which can only be used on a weapon which has inflicted damage on the combot.
+
 
 == Light Offensive Combot
 
+// NO IMAGE? SHAME!!!
+
+// light offensive combot
 .*Light Offensive Combot Fabrication Info (C-L)*
 [width="75%",cols="2*<"]
 |===
@@ -170,13 +212,12 @@ s|CON 2 or 4; DEX 4; INT 1 or 3; PSTR 4
 |None
 |===
 
-
-This type of combot requires the player to have a CON better than 19 and a DEX better than 15.
-These light offensive combots are small attack drones used mostly for combat in cities and similar short range environments.
-Their job is singular  
-to attack and destroy the enemy and the enemy's defenses.
-That is their sole purpose and they therefore tend to have a single-minded violent outlook on existence.
-
+Light offensive combots are attack drones. 
+They are loaded with many small arms weapons. 
+They meant to be deployed in cities or other close quarter environments.
+Light combots are tactical machines and are not considered expendable. 
+If it fits the story a light offensive combot can control expendable combots.
+Referee persona light combots will be found with 0-3 (1d4-1) expendables under their command.
 
 == Heavy Offensive Combot
 
@@ -228,11 +269,60 @@ include::ROOT:partial$articulate.adoc[]
 |None
 |===
 
+The heavy offensive combot is the beast of the robot world.
+This combot is intended to soften, destroy and punch through enemy targets.
+The heavy offensive combot is literally heavy.
+It's robot size is gigantic.
+The heavy also refers to the weapons that the combot is armed with.
+The small arms tend to be higher powered.
+The heavy combot will sport some heavy weapons like a bombs, artillery or missile.
 
-This is the major league version of the light combot.
-Here too there are some attribute requirements: PSTR greater than 27 and CON better than 23.
-These restrictions are tough but so is the heavy combot.
-They have a good chance of being armed with bombs or missiles;
-a percentage chance equal to their CON for each type of device.
-The number of bombs and/or missiles is determined by the referee (a limit of two of either sort is recommended).
-The base AR for a heavy combot is 775.
+Heavy offensive combots to not shun combat and are hardened for it. 
+The armour rating for a heavy combot starts at 775.
+
+=== Heavy Weapons
+The heavy weapon is determined randomly.
+If a referee's campaign balance is threatened by a Nuk-O-Matic cannon don't use it.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+A heavy offensive combot could have the capacity for artillery but be out of ammo.
+Such a powerful item should improve a campaign, not destroy it.
+That being said....
+
+//a new table for 6.0
+.*Heavy Combot Heavy Weapon*
+[width="75%",cols="2*<"]
+|===
+2+<|Add PSTR to the 1d100 roll.
+
+s|Die Roll (1d100)
+s|Heavy Weapon
+
+|01-27
+|Popcorn Machine
+
+|28-60
+|Bomb only
+
+|61-90
+|Bomb/Missile
+
+|91-110
+|1 Artillery
+
+|111-120
+|1 Artillery +
+1 Bomb only
+
+|121-128
+|1 Artillery +
+1 Missile/Bomb
+
+|>129
+|Naval Artillery
+
+s|Die Roll (1d100)
+s|Heavy Weapon
+|===
