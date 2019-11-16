@@ -1,12 +1,39 @@
 = Industrial
 
 Industrial robots have been fabricated for specific tasks related to industry.
-These are usually the first 
+These are usually the first types of robots that a fabricator type makes. 
+Hence the differentiation.
 
-== Industrial Construction Robot
+// new table for 6.0
+//  Robot Attribute Requirements 
+.*Industrial Robot Attribute Requirements*
+[width="75%",cols="2*<"]
+|===
+2+<| Attribute requirement for industrial robot type
+
+s|Industrial Type
+s|Attributes
+
+|Builder
+|INT > DEX + 
+INT > PSTR
+
+|Lifter
+|PSTR > DEX  + 
+PSTR > INT
+
+|Mover
+|DEX > INT + 
+DEX > PSTR
+
+s|Industrial Type
+s|Attributes
+|===
+
+== Industrial Builder Robot
 
 //  Construction Fabrication Data 
-.*Construction Robot Fabrication Info (I-C)*
+.*Industrial Builder Fabrication Info (I-B)*
 [width="75%",cols="2*<"]
 |===
 2+<|It will come. Then you build it.
@@ -44,19 +71,22 @@ These are usually the first
 10% 2nd Primary
 |===
 
-Mobile assembly units that generally cannot design anything.
-Once programmed to produce certain items, they set right to it, acquiring their own supplies and machining the items non-stop until supplies run out.
-The cycle then starts over: acquisition of raw materials, etc.
-Bots with INT ratings greater than 22 can design their own simple objects (cups, ball, combs, toys).
-Properly programming a construction bot is a Mechanic maneuver of dS DD.
-The more valuable the item, the more difficult the DD.
-This skill does not include production of fancy high-tech weaponry and other such goodies.
-Usually a construction bot will stop functioning when it runs out of raw materials.
+Builder bots are mobile assembly machines.
+A builder bot is usually not part of the design process.
+Designing usually requires input from a mechanic.
+Once programmed the builder bot gets right too it.
+The builder will source supplies, and create widgets until out of supplies. 
+In austere environments it can take a long time to acquire construction materials
+Builders with  22 INT score can design objects (cups, ball, combs, toys).
+Programming a builder bot is a Mechanic maneuver.
+The more valuable the item, the more difficult the Degree of Difficulty.
+The robot is not made to replicate fancy high-tech weaponry or other such goodies.
+A builder robot offers a huge bonus to mechanics that are building something.
 
-== Industrial Lifting Robot
+== Industrial Lifter Robot
 
 //  Lifting Fabrication Data 
-.*Lifting Robot Fabrication Info (I-L)*
+.*Lifter Robot Fabrication Info (I-L)*
 [width="75%",cols="2*<"]
 |===
 2+<|Always gonna lift you up. May let you down.
@@ -93,23 +123,28 @@ Usually a construction bot will stop functioning when it runs out of raw materia
 |100% 1 Primary
 |===
 
-These are unemployed cargo heists that somehow have lost their jobs in warehouses or department stores.
+Lifting bots are former cargo hoists from warehouses or department stores.
 Lifting bots are capable of supporting one object per three points of DEX.
 So a lifting bot with a 12 DEX would have 4 articulations for lifting.
-The objects lifted by one arm cannot exceed 3 times the bots PSTR weight allowance.
-If the robot has multiple lifting articulations, a DEX attribute roll must be made if the arms are to work in unison, i.e., to lift a single object.
-Any object which may be lifted can be raised to a height five times the bots size (height).
+The objects lifted by one arm cannot exceed 3 times the bots Weight Allowance.
+If the robot has multiple lifters, they can coordinate to lift a heavier single object.
+Objects can be lifted to a height five times the bots Hite.
 
-Normally, for obvious reasons, lifting bots were not made to drop things to the ground.
-However, if an insane bot were to drop things too often, that might be why she is unemployed.
-If the player wishes to have her lifting bot drop something, a Control Factor (CF) roll must be made.
-If the player fails to roll (rolls under CF), the object or creature will be placed safely on the ground.
-After this CF failure, the robot will have to rest for a length of time equal to a Control Factor fit.
+If something does not want to be lifted the lifting bot must make a successful to hit roll. 
+A robot can make one attack per lift articulation.
+This grab is not a damaging attack. 
+Lifting bots will spend a lot of time grabbing and damaging targets by dropping them.
 
-== Industrial Moving Robot
+Lifting bots were not made to drop things.
+A malfunctioning lifting bot may have been fired for dropping things. 
+The player must make a Control Factor roll to successfully drop an object.
+Another Control Factor check is required if the target is from her fabricator type.
+Falling damage is determined xref:ii-non-combat-rules:CH19_Terrain.adoc#Falling[here]
+
+== Industrial Mover Robot
 
 //  Moving Robot Fabrication Data 
-.*Moving Robot Fabrication Info (I-M)*
+.*Mover Robot Fabrication Info (I-M)*
 [width="75%",cols="2*<"]
 |===
 2+<|Move it. Store it. Catalogue it.
@@ -146,14 +181,16 @@ After this CF failure, the robot will have to rest for a length of time equal to
 |100% 1 Primary
 |===
 
-These robots should not be mistaken for intelligent trucks  
-in action, they more resemble sentient mail carriers.
-Like most mail carriers, these bots have gone on strike.
-Unlike most mail carriers, they can carry 3 times their robotic wate allowance and they are very fast.
+Mover bots can easily be mistaken for intelligent trucks  
+A mover robot can carry 10 times their robotic wate allowance
 Moving robots get a bonus of 50% on their movement rate.
-They can remember 5 locations per point of INT, well within a range of 100 kilometres per point of AWE.
-The moving bot can also decipher maps and find points on maps with an efficiency of four times the bots INT.
+This robot can read maps and understand even the worst directions.
+Mover bots can remember 10 way points per INT score. 
+An industrial mover bot can always find its 'way' between way points. 
+Way points do not work from planet to planet.
 
-Some of the Moving bots are capable of loading themselves (the chance is three times INT+DEX).
-Those that are self-loading can lift items up to twice their wate allowance and can load them at a rate of about one object per unit.
-
+Moving bots are self loading. 
+The robot can lift an object twice it's wate allowance when loading.
+The lifting articulation for a mover bot cannot be weaponized.
+A mover bot cannot force an unwilling target into it's cargo hold.
+Lifter and mover bots can make a great team. 

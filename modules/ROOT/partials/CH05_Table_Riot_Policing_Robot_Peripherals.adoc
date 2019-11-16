@@ -2,8 +2,7 @@
 .*Riobot Crowd Control Peripherals*
 [width="75%",cols="^,<,<"]
 |===
-3+<|Essential attachments for keeping the peace when things are in pieces. +
-1 roll per 3 points of INT.
+3+<|1 roll per 
 
 s|Die Roll (1d100)
 s|Peripheral
@@ -11,35 +10,51 @@ s|Details
 
 |01-20
 |Water Cannon
-|Target; PSTR; AR; knockdown.
+|Target: PSTR range +
+Success: To Hit Roll + 
+Effect: knock down
 
 |21-40
 |Tear Gas
-|Area; CON; CON; blinds
+|A/E: CON range + 
+Success: CON Intensity + 
+Effect: blind 1d4 units
 
 |41-50
 |Stun Ray
-|Target; PSTR; CON; stuns
+|Target: PSTR range +
+Success: CON Intensity + 
+Effect: stun 1d10 units
 
 |51-60
 |Grav Disruptor
-|Area; half CON ; CON knockdown
+|A/E: CON range + 
+Success: half CON Intensity + 
+Effect: knocked down
 
 |61-70
 |Force Beam
-|Target; PSTR; PSTR; knock back
+|Target: PSTR range +
+Success: PSTR Intensity + 
+Effect: knock back 1d3 hexes
 
 |71-80
 |Weapon Malfunction
-|Area; Half CHA; none; 25 times chance
+|A/E: CHA range + 
+Success: CON Intensity + 
+Effect: 50 times chance malf.
 
 |81-90
 |Battery Drain
-|Area; Half INT; none; Drains batteries
+|A/E: half INT range + 
+Success: INT Intensity + 
+Effect: drains batteries.
 
 |91-99
 |Sleep Beam
-|Target; CHA; intensity INT; sleep.
+|Target: INT range +
+Success: CHA Intensity + 
+Effect: sleep until woken
 
 |00
 |Ref's Own Table

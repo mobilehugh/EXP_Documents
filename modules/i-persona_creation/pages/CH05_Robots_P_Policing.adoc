@@ -1,6 +1,33 @@
 = Policing
 
-Policing bots are used by crime fighting forces in extremely rough areas or in places where there are severe police staff shortages. The three types of policing bots are: riot (CON minimum 15), civilian or special operations (INT minimum 15). All policing bots respect the lives and livelihoods (if legal) of their fabricator type, though it is expected that insane policing bots may be renegade and not the great protectors of law and order that they were initially designed to be.
+Policing bots are crime fighting machines.
+These bots respect the lives and livelihoods (if legal) of all life forms.
+They are especially protective of their fabricator type.
+Policing bots can be stationed anywhere.
+They are not limited to underserviced or violent areas.
+
+// new table for 6.0
+//  Robot Attribute Requirements 
+.*Policing Robot Attribute Requirements*
+[width="75%",cols="2*<"]
+|===
+2+<| Attribute requirement for industrial robot type.
+
+s|Policing Type
+s|Attributes
+
+|Civil
+|Nil.
+
+|Riot
+|CON 15
+
+|Detective
+|INT 15
+
+s|Policing Type
+s|Attributes
+|===
 
 == Civil Policing Robot
 
@@ -14,7 +41,6 @@ Policing bots are used by crime fighting forces in extremely rough areas or in p
 
 |Ranges
 |CON 3; DEX 4; INT 3; PSTR 3
-
 
 |Minimums
 |Nil.
@@ -43,9 +69,34 @@ Policing bots are used by crime fighting forces in extremely rough areas or in p
 |10% for 1 roll on Primary
 |===
 
-Civilian policing bots are sent out to apprehend known criminals, guard banks, give out traffic tickets, lecture kids on road safety, etc. This bot type can speak very fluently and can double its CHA to make commanding comments like: FREEZE! or HOLD IT! The civil bots get three chances to roll a single non-damaging weapon from the robot attack tables 2 or 3. If the bot is unsuccessful on all three attempts to acquire a stunning or similarly non-damaging weapon, the bot will be without any form of attack.
+Civilian policing bots are constables on patrol in a drum.
+Civils can walk the beat, chase criminals, guard banks, issue tickets, etc.
+By sheer chance this bot's ID is P-C. 
+This robot is the main interface between the 'people' and law enforcement.
+Civilian policing bots have some special skills.
 
-Those civil policing bots without weapons can still grapple a target. Successfully scoring a hit will completely immobilize a humanoid target, rendering them unable to do anything physical. To break away requires a bizarre PSTR roll. During this time, the civil bot will usually remove any weapons or offending items from the immobilized persona. Civil policing bots will usually carry their collars (captured criminals) in this unglamorous fashion to the police station.
+=== Commanding Voice
+When necessary the civil bot can unleash booming amplified voice commands.
+Classic commands like FREEZE! or DROP IT! can be used.
+The command can be effective or at least distracting to organic ears.
+If a target fails a MSTR challenge vs the bot's doubled CHA they will pause, or obey.
+
+=== Non-Lethal Weapon
+A non-lethal weapon is one that can disable or affect a target without harming it.
+A stun weapon, or a sleep beam, or a nausea attack would be considered non-lethal.
+Less lethal weapons do not count.
+The player has three chances to roll a non-lethal weapon for her robot. 
+If there is no non-lethal weapon after three rolls the persona has no weapon.
+
+=== Disarm
+A civil bot can disarm a target with a successful to hit roll.
+
+=== Grapple
+When it is time to 'collar' a suspect or subdue a target the civil bot can grapple.
+Successfully scoring a hit will completely immobilize an organic target.
+A civil bot is completely invested during a grapple and cannot do anything else.
+To break from this grapple requires a successful bizarre PSTR roll.
+Civil bots will unglamorously drag their grappled collars back to the nearest brig.
 
 == Riobot Policing Robot
 
@@ -62,7 +113,7 @@ include::ROOT:partial$articulate.adoc[]
 .*Riobot Fabrication Info (P-R)*
 [width="75%",cols="2*<"]
 |===
-2+<|Less than lethal control of mobs.
+2+<|Keeping the peace when things are in pieces.
 
 2+<|*Attributes*
 
@@ -96,11 +147,45 @@ include::ROOT:partial$articulate.adoc[]
 |10% for 1 roll on Primary
 |===
 
-Riot bots are large crowd control devices and often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc. A riobot can detain one target per point of PSTR in the same fashion that a Civils Policing bot can. So a Riobot with a PSTR of 20 can grapple and hold 20 targets. In addition to grappling each riobot has one roll on Table 5.12 Riot Policing Bot Peripheral for every three points of INT. It is possible to have multiple copies of the same crowd control peripheral.
+Riot bots are large crowd control operatives.
+They often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc.
+There goal is to contain and restrain unruly hordes of anthros.
 
-Each crowd control peripheral can be used on one target per point of AWE every unit. The first detail is whether the peripheral is targeted or area of effect. Targeted means that the riobot picks targets and attacks. Area is the range around the Riobot that the effect radiates. Next item is the range of the attack. Usually it is an attribute of the bot. So if the range was PSTR and the bots PSTR was 11 the range would be 11 hexes. That would either be the range to the target like any type C attack, or the radius around the bot like a grenade attack. The next data point is the intensity of the attack. If the riot bot is using a stun ray with a CON of 14 the target would get a save of versus intensity 14 attack. If intensity says AR then at to hit roll must be successful. If the intensity says None there is no save or the referee could refer to [Chapter 16 Special rolls](http://expgame.com/?page_id=275 "Chapter 16: Special Rolls"), more specifically Sphincter Dice. The effect of the attack is a simple self explanatory description. For effects like sleep, blindness and stun the duration is d4 minutes. Effectively knocking the target out of combat time. If for some reason the Riot Bot cannot affect its effect it can choose to default to inflicting 3d4 HPS of damage instead.
+== Grapple and Detain
+A riobot can grapple and detain rioters.
+Once a rioter is grappled they can be detained either in or on the riobot.
+Each unit the riobot can grapple one rioter and 
+
+The riobot cannot disarm rioters.
+
+To hit roll grapple.
+Detain on riobot.
+A riobot can detain one target per point of PSTR in the same fashion that a Civils Policing bot can.
+So a Riobot with a PSTR of 20 can grapple and hold 20 targets.
+
+=== Peripherals
+Riot Policing Bot Peripheral for every three points of INT.
+It is possible to have multiple copies of the same crowd control peripheral.
 
 include::ROOT:partial$CH05_Table_Riot_Policing_Robot_Peripherals.adoc[]
+
+
+=== Table explanation
+Target vs A/E.
+Each crowd control peripheral can be used on one target per point of AWE every unit.
+
+Save vs To Hit Roll
+
+Range
+
+Intensity.
+
+
+
+The effect of the attack is a simple self explanatory description.
+For effects like sleep, blindness and stun the duration is d4 minutes.
+Effectively knocking the target out of combat time.
+If for some reason the Riot Bot cannot affect its effect it can choose to default to inflicting 3d4 HPS of damage instead.
 
 == Detective Policing Robot
 
@@ -142,4 +227,8 @@ include::ROOT:partial$CH05_Table_Riot_Policing_Robot_Peripherals.adoc[]
 |100% for 1 roll on Primary
 |===
 
-Special operations bots are the bots which dispatch riot bots and civils to perform their sundry duties. This intelligent robot is a criminologist in a drum (to put it less than glamorously) that is used to track down intergalactic murderers, confidence women and other unsavory rogues. If a players persona qualifies to become a special operations bot, her highest attribute can be transferred to her INT. It is possible that when this robotic type fails its CF roll, it will go off hunting criminals. This may include other personas or even the entire expedition which, due to the nature of the game, stand a good chance of being criminals themselves.
+Special operations bots are the bots which dispatch riot bots and civils to perform their sundry duties.
+This intelligent robot is a criminologist in a drum (to put it less than glamorously) that is used to track down intergalactic murderers, confidence women and other unsavory rogues.
+If a players persona qualifies to become a special operations bot, her highest attribute can be transferred to her INT.
+It is possible that when this robotic type fails its CF roll, it will go off hunting criminals.
+This may include other personas or even the entire expedition which, due to the nature of the game, stand a good chance of being criminals themselves.
