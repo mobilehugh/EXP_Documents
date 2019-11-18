@@ -150,42 +150,70 @@ include::ROOT:partial$articulate.adoc[]
 Riot bots are large crowd control operatives.
 They often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc.
 There goal is to contain and restrain unruly hordes of anthros.
+They function like an automated paddy wagon with added crowd suppression.
 
-== Grapple and Detain
+=== Grapple and Detain
 A riobot can grapple and detain rioters.
 Once a rioter is grappled they can be detained either in or on the riobot.
-Each unit the riobot can grapple one rioter and 
 
-The riobot cannot disarm rioters.
+The riobot can grapple one rioter per unit. 
+The riobot can carry out all other operations while grappling a rioter. 
+A successful to hit roll will immobilize the rioter and prepare them for detention.
+To break from this grapple requires a successful hard PSTR roll.
+Once detained the target is immobilized and attached to the riobot. 
+To break free from detention requires a bizarre PSTR challenge.
+A riobot can detain one target per point of PSTR.
+So a Riobot with a 20 PSTR can detain 20 targets.
 
-To hit roll grapple.
-Detain on riobot.
-A riobot can detain one target per point of PSTR in the same fashion that a Civils Policing bot can.
-So a Riobot with a PSTR of 20 can grapple and hold 20 targets.
+While detained the rioters are subject to any area of effect riobot peripherals employed.
 
-=== Peripherals
+=== Riobot Peripherals
+These peripherals are specific attachments designed for crowd control.
+They are not malfunctioning peripherals being used as weapons.
+Riobot peripherals are baked in non-lethal immobilization attacks. 
 Riot Policing Bot Peripheral for every three points of INT.
-It is possible to have multiple copies of the same crowd control peripheral.
+So a riobot with a 12 INT score would get 4 rolls on the peripheral table.
+Multiple rolls of the same peripheral are intentional riobot redundancy.
+The riobot can use every peripheral every unit.
 
 include::ROOT:partial$CH05_Table_Riot_Policing_Robot_Peripherals.adoc[]
 
+=== Details about the Details
+Each riobot peripheral has 4 parameters.
+The simplest is the name of the attack. 
+The details consists of attack type, range, intensity and effect.
 
-=== Table explanation
-Target vs A/E.
-Each crowd control peripheral can be used on one target per point of AWE every unit.
+==== Attack Type
+The riobot attack peripheral is either target or area of effect. 
+A targeted (*Target*)attack is aimed at one target and has no effect on neighbouring targets.
 
-Save vs To Hit Roll
+An area of effect (*a/e*) affects every target within the area of effect.
+Every target in the area of effect must save vs the attack or suffer the effect.
 
-Range
+==== Range
+For targeted attacks the range is the number of hexes away a target can be from the bot.
+If the range is listed as PSTR the attack can reach a target PSTR hexes away.
+So a riobot with a 10 PSTR could attack a target 10 hexes away.
 
-Intensity.
+Area of effect range is measured out from the riobot in hexes.
+All targets in that area must save vs the attack or suffer the effects. 
+If the range is listed as half CON every target within that range must save.
+So a riobot with 10 CON would affect every target within 5 hexes of itself.
 
+==== Success
+Success is what the player must roll to have the effect take hold. 
+If a to hit roll is required the player must make a successful to hit roll.
+To hit rolls are usually reserved for targeted attacks.
+A successful to hit roll vs the target's AR indicates the effect takes hold.
 
+Intensity level indicates the save the target must make to avoid the effect.
+If success is CON intensity the targets must save vs the riobot's CON or be effected.
 
+==== Effect
 The effect of the attack is a simple self explanatory description.
-For effects like sleep, blindness and stun the duration is d4 minutes.
-Effectively knocking the target out of combat time.
-If for some reason the Riot Bot cannot affect its effect it can choose to default to inflicting 3d4 HPS of damage instead.
+The effect is non-lethally immobilize targets.
+Once immobilized policing robots can automatically grapple targets. 
+
 
 == Detective Policing Robot
 
@@ -227,8 +255,9 @@ If for some reason the Riot Bot cannot affect its effect it can choose to defaul
 |100% for 1 roll on Primary
 |===
 
-Special operations bots are the bots which dispatch riot bots and civils to perform their sundry duties.
-This intelligent robot is a criminologist in a drum (to put it less than glamorously) that is used to track down intergalactic murderers, confidence women and other unsavory rogues.
-If a players persona qualifies to become a special operations bot, her highest attribute can be transferred to her INT.
-It is possible that when this robotic type fails its CF roll, it will go off hunting criminals.
-This may include other personas or even the entire expedition which, due to the nature of the game, stand a good chance of being criminals themselves.
+A detective policing bot is a criminologist in a drum.
+A detective can operate as a chief, manager, auditor, or technologist.
+The detective has no grapple or detain methods. 
+A detective depends on civils to make arrests and do the dirty work.
+Detective policing robots are dedicated to the apprehension of criminals.
+If an expedition engages in criminal activities the detective may need to make CF checks.
