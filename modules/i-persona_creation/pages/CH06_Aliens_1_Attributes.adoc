@@ -12,16 +12,18 @@ An alien PSTR of 12 is no stronger than a humanoid PSTR of 12 which is no strong
 There is a subtle difference in that aliens can begin a campaign with a zero attribute.
 If a zero is rolled for any of the alien's attributes, some special conditions will have to apply.
 
-*Generating Attributes*: Like other personas, the alien attributes are generated once for each attribute.
+== Generating Alien Attributes 
+Like other personas, the alien attributes are generated once for each attribute.
 Aliens use the Mean Attribute Table to determine their attributes.
 For example, CON, DEX, INT and MSTR are supposed to be generated on 5d6 -5.
 This means that fixe six-sided dice are rolled and 5 is subtracted from their total.
 It is essential that these attributes be rolled on the number of dice given.
 This assures a good statistical curve of attributes for all aliens generated.
 
-// table insert 82
+include::ROOT:partial$CH06_Table_Alien_Attributes.adoc[]
 
-*Zero Attributes*: Certain of the alien's attributes can have a nominal value of zero;
+== Zero Attributes
+Certain of the alien's attributes can have a nominal value of zero;
 however, this number has somewhat different implications than it would for an anthropomorphic persona.
 For instance, if the DEX roll were 0, the creature would be sessile (immobile).The DEX should be re-rolled to determine limb co-ordination and aiming ability.
 If CON were 0, this would mean that the creature has no hit points.

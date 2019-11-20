@@ -1,0 +1,101 @@
+= Anthro Hit Points
+
+The persona’s CON attribute plays an important role in determining the persona’s maximum HPS.
+A persona’s HPS is determined by rolling d8s.
+A player may roll 1d8 for every two points of CON.
+The total of these d8s comprises a large component of the HPS. The persona’s HPS are then adjusted by her CON attribute.
+For every 1 point of CON the persona has, 1 hit point is added to the maximum HPS.
+
+== Anthro Hit Points Calculation
+.HPS = (1/2 CON x 1d8) + CON
+****
+A persona with a CON of 11 would roll 6d8 and add 11. Rounding benefits the player.
+****
+
+== HPS Minimum
+The player must also be aware of several conditions that are tied into damage and HPS.
+When a persona takes 1 and a ½ times her HPS max without any interim healing, she is permanently dead.
+So the persona that rolled 26 HPS max would be dead if her HPS total dropped below -13; a persona with 54 HPS max would be dead if her HPS total were to go below -27 HPS; one with 44 HPS max would be dead if her HPS total were to drop below -22 HPS.
+This is also called negative one half of one’s HPS.
+
+=== Anthro Minimum HPS Calculation
+.Death = -1 times (1/2 max HPS)
+****
+For example an anthro persona with 30 HPS would be dead if their HPS total to negative 15 (-15).
+****
+
+Hit points appear to be an attribute that can drop below 1 without killing the persona.
+This is true; however, any persona with a negative hit point total is in a state of severe trauma – she is dying.
+When negative (having a negative HPS total), a persona loses one hit point each 5 units (10 seconds) she is left unattended.
+This rapid decline to death cannot be halted unless medically treated.
+See Chapter 34: Healing for more information.
+
+A persona with negative HPS total is completely unconscious and can do nothing other than lie about and bleed.
+Things start to return to normal once the persona is returned to a positive HPS total; something which the body cannot do itself.
+
+== Damage System Shock (DSS)
+Personas with positive hit point totals still have to be cautious.
+Whenever a persona loses more than half her present hit point total in one attack, she must make a DSS roll or be knocked unconscious.
+A damage system shock roll (DSS) is a deci-die roll less than 3 times her current HPS total plus her Con.
+If the player rolls higher than 3 x HPS + Con on percentile dice, the persona has been stunned or knocked down.
+
+
+=== Calculate Damage System Shock (DSS)
+.DSS = (3 times current HPS) + CON
+****
+Consider a persona with a 10 CON and 20 HPS. 
+If she were to take 12 HPS at once a DSS roll would be required.
+The persona now has a 10 CON and 8 HPS.
+She would have to roll 34 or less on 1d100 to keep standing.
+****
+
+== Recovery Rolls (REC)
+The stunned persona will remain inactive until she makes a successful recovery roll.
+A recovery roll (REC) is a percentile dice roll less than 5 times her persona’s HPS total plus her Con.
+If the player rolls higher than her 5 x HPS + Con on deci-dice, the persona remains stunned or knocked down.
+The player may only attempt a recovery roll as often as her Con dictates.
+
+
+=== Calculate Recovery Rolls (REC)
+.REC = (5 times current HPS) + CON
+****
+Consider a persona with a 10 CON and 8 HPS. 
+If she were stunned she could make a recovery roll (REC).
+She would have to roll less than 50 on 1d100 to get back up.
+****
+
+
+An example using numbers may help.
+Two player characters both take equal damage in a car accident, let’s say 20 HPS.
+However, each persona has a different HPS total.
+Persona Sea has 43 HPS and a 15 Con and player Ecks has 34 HPS and an 11 Con.
+Persona Sea can unstrap her seat belt and stagger away but persona Ecks must make a DSS roll or be knocked unconscious.
+This is because persona Ecks took more than half her HPS total at once but persona Sea did not.
+Ecks has 14 HPS left and, therefore, must roll less than 42 on deci-dice or be knocked unconscious.
+Since the player running persona Ecks rolled 54 on the percentile dice, her character is stunned for 10 units (duration) until she can attempt a recovery roll.
+Ten units later (about 20 game seconds), the player must roll less than 90 on the percentile dice or remain stunned for another 10 units.
+
+Note that units are a very precise measure of game time that are only relevant during combat.
+Once combat has ended, all stunned personas should immediately recover and be able to join in on the game.
+
+
+== Damage System Shock Talk
+A player must make a check to remain conscious whenever more than half her remaining hit points are lost at one time.
+This check means the player must make a % roll or her persona will lose consciousness or be stunned due to trauma.
+In order to ‘make’ a damage system shock, the player must roll a percentile dice score that is lower than her damage system shock value (DSS).
+The DSS roll must be less than 3 times her remaining hit points total.
+If a player with a 5 CON and 20 hit points were to take 10 hit points of damage, she would have to roll less than 30 on deci-dice or be knocked out.
+Failing the DSS roll means that her persona’s system could not withstand the trauma that it just received and the persona has succumbed to unconsciousness.
+This is explained in greater detail later in this chapter under Hit Points.
+
+== Recovery Roll Talk
+The Constitution Table shows the duration of time until the player can make a recovery roll.
+A recovery roll is also dependant on the persona’s hit points total.
+A recovery roll would be required before a persona could recover from a failed DSS roll.
+The recovery roll is where the player checks to see if her personal has recovered from previous damage.
+The recovery roll is a deci-die roll less than 5 times her remaining HPS.
+Let’s assume the above player failed her (DSS) roll.
+her persona would collapse unconscious from the damage and remain unconscious unless she rolled less than 5 times her remaining HPS; which, in this case, is 50%.
+However, she could only attempt a recovery roll after 16 units (according to her duration) and, if she failed it, then she would have to wait another 16 units before trying again.
+
+include::ROOT:partial$CH03_Table_Constitution_and_Recovery.adoc[]

@@ -1,7 +1,7 @@
 = Alien Combat Table
 
 The alien combat table is much simpler than the one for humanoid personas.
-Aliens which have classes should use the regular combat table that is described in http://expgame.com/?page_id=298[Chapter 27: Tactical Combat].
+Aliens which have classes should use the regular combat table that is described in TACTICAL COMBAT.
 The combat table here is for the alien's natural attack type.
 If the alien only has a type A, type B or type C natural attack, then the combat table need only include those attack types.
 Tool using aliens should use the combat table detailed as generated for Anthropomorphs.
@@ -12,19 +12,57 @@ There is also no damage adjustment (DA) because the damage inflicted by natural 
 For example, an alien should not get a PSTR bonus on a Type A natural attack.
 This only applies to natural attacks.
 
-*Type A*: Thrusting and striking weapons for aliens include their naturally endowed thrusting and striking attacks (bite, punch, claw, beak, gore, stab, rake, slice, gouge, tear, trample).
+== Type A Attacks
+Thrusting and striking weapons for aliens include their naturally endowed thrusting and striking attacks (bite, punch, claw, beak, gore, stab, rake, slice, gouge, tear, trample).
 Aliens using type A weapons are intelligent enough to warrant using the regular combat table for those weapons.
 
-*Type B*: This attack type is designed for those aliens that fling objects, shoot quills or spit in an attempt to inflict their natural damage (spit, breath, blast, arc, spray).
+== Type B Attacks
+This attack type is designed for those aliens that fling objects, shoot quills or spit in an attempt to inflict their natural damage (spit, breath, blast, arc, spray).
 Any alien using a Type B weapon should use the regular combat table for that weapon.
 
-*Type C*: Again, this is directed at those creatures with natural, powered attacks (lasers, sonics, electric arcs, radiation doses).
+== Type C Attacks
+Again, this is directed at those creatures with natural, powered attacks (lasers, sonics, electric arcs, radiation doses).
 Aliens with natural powered attacks are very rare and extremely dangerous.
 They have specially evolved organs that allow them to attack naturally but as a gun from Chapter 46.
 Any creature using powered weapons should use a regular combat table for those weapons.
 
-// table insert 88
+include::ROOT:partial$CH06_Table_Alien_Combat_Table.adoc[]
 
 For example, Sal the gigantic alien has a 22 PSTR,  15 DEX,  3 INT and a type B attack (spitting sharp blobs of resin) that attacks three times each unit would have the following combat table:
 
-// table insert 89
+// Sal's Alien Combat Table
+.*Sal the Alien's Combat Table*
+[width="75%",cols="<,4*^",frame="all", stripes="even"]
+|===
+5+<|Example Combat Table for Sal the alien.
+
+s|Attack Type
+s|BP
+s|BNP
+s|MR
+s|DA
+
+|A (contact)
+|--
+|--
+|--
+|--
+
+|B (ranged)
+|50
+|50
+|800
+|4d12
+
+|C (weapons)
+|--
+|--
+|--
+|--
+
+s|Attack Type
+s|BP
+s|BNP
+s|MR
+s|DA
+|===
