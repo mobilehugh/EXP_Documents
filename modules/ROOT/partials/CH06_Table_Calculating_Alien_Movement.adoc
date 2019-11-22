@@ -2,40 +2,35 @@
 .*Calculating Alien Movement*
 [width="75%",cols="4*^",frame="all", stripes="even"]
 |===
-4+<|Use the best terrain types from the alien body part appearance to determine movement rates on different terrains. 
-s|Alien Parts
-s|Terrain Type Score
-s|Quartering Score
-s|Terrain MR (h\/u)
+4+<|Base move 16 h/u. Body parts: Sheep (l),Wasp (la), Duck (law) and None (s).
 
-|Sheep (l)
-|Land 3
-|Land 3\/4
-|Land 12 h\/u
+s|Terrain
+s|Score 
+s|Quartered
+s|Move (h/u)
 
-|Wasp (l
+|Land
+|3
+|3/4
+|12 h/u
 
-| a)
-|Air 2
-|Air 2\/4
-|Air 8 h\/u
+|Air
+|2
+|2/4
+|8 h/u
 
-|Duck (l
+|Water
+|1
+|1/4
+|4 h/u 
 
-| a w)
-|Water 1
-|Water 1\/4
-|Water 4 h\/u 
+|Sessile
+|--
+|--
+|--
 
-|None (s)
-|
-|
-|
-
-s|Alien Parts
-s|Terrain Type Score
-s|Quartering Score
-s|Terrain MR (h\/u)
-
-
+s|Terrain
+s|Score 
+s|Quartered
+s|Move (h/u)
 |===

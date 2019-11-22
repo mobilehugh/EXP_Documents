@@ -1,5 +1,7 @@
 = Alien Society
 
+Alien society decides whether the species is fauna or an empire.
+
 Alien society is something for the referee to carefully consider and prepare for her campaign.
 Alien societies can even be the basis for an entire campaign.
 The differences in values, architecture, and social organization alone amongst alien cultures would be beyond the duration of a life time of study.
@@ -7,16 +9,157 @@ The differences in values, architecture, and social organization alone amongst a
 Most of the persona aliens will be rogues or outcasts that have rejected their alien culture thus allowing them to form their own cultural niche.
 The referee cannot possibly prepare a detailed alien society each time a player generates an alien persona.
 For the most part, alien personas will not be members of galactic societies or developed countries.
-If some idea of the alien's society is necessary but total preparation is not, the referee should turn to Chapter 11: Referee Personas and determine the society's religious, political, and philosophical beliefs.
+If some idea of the alien's society is necessary but total preparation is not, the referee should turn to 
 
-*Alien Communications*: The aliens that are generated as personas are usually from non-tool using, non-civilized, and otherwise un-organized species.
-For role-playing convenience, the aliens almost always will be able to communicate with the other personas and only the most malicious referee will not allow an alien persona this leniency.
-It is unrealistic to think that an alien will be able to converse freely with humanoid personas but remember that this is science fantasy and fun must win out over realism.
+== Alien Society Build
+. <<_alien_language,Language>>
+.. make Language Check
+.. make Tool Score Check
+. <<_alien_culture,Culture>>
+.. make Culture Check
+.. make Tool Score Check
+.. If cultured make Religion Check
+. <<_alien_education,Education>>
+.. make Education Check
+.. make Tool Score Check
+.. If educated make Politics check
+. <<_alien_vocation,Vocation>>
+.. make Vocation Check
+.. make Tool Score Check
+.. if vocation make Philosophy check
+. <<_alien_grouping,Alien Grouping>>
 
-*Tool Users*: The most important roll for any player running an alien is whether her persona is a tool user or not.
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+== Alien Language 
+Has this alien species evolved a natural language?
+Personas always have a language to communicate with fellow personas.
+This language will by naturalized.
+An alien with no language is flora or fauna and is integrated with the geography.
+There can only be written language if the alien is also a tool user. 
+
+=== Alien Language Check
+.Chance = 3 * INT score
+****
+An alien with a 12 INT has a 36% chance of having language.
+****
+
+When checking for language the player also makes a tool score check. 
+
+=== Tool Score Check
+.Chance = 2 * INT score
+****
+An alien with a 12 INT has 24% chance to add +1 to the alien's tool score. 
+****
+
+== Alien Culture
+If the alien species has a culture it can work together. 
+If the alien species has no culture it operates in isolation beyond immediate family unit.
+Must have language to check culture.
+
+=== Alien Culture Check
+.Chance = 3 * CHA score
+****
+An alien with a 12 CHA has a 36% chance of having a culture.
+****
+
+When checking for culture the player makes another Tool Score Check.
+
+=== Tool Score Check
+.Chance = 2 * INT score
+****
+An alien with a 12 INT has 24% chance to add +1 to the alien's tool score. 
+****
+
+
+If the alien has a culture there is a chance of religion.
+
+=== Religion Check
+.Chance = INT score + MSTR score
+****
+An alien with a 12 INT and a 12 MSTR has 24% chance of having religion. 
+****
+
+If there is a religion it can be rolled on this table.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Religious_Belief.adoc[]
+
+== Alien Education
+Alien education implies that the alien has developed a curiosity about the natural world that far exceeds the animal awareness that most creatures have.
+If an alien is a tool user, then there is a percentage chance equal to her INT attribute that she will be educated.
+This roll is required by all alien personas whether they are run by a referee or a player.
+It is not recommended that referees allow player run aliens to automatically be educated as is done with tool users.
+
+=== Alien Education Check
+.Chance = 3 * AWE score
+****
+An alien with a 12 AWE has a 36% chance of having education.
+****
+
+When checking for Education the player makes another Tool Score Check.
+
+=== Tool Score Check
+.Chance = 2 * INT score
+****
+An alien with a 12 INT has 24% chance to add +1 to the alien's tool score. 
+****
+
+If the alien has education there is a chance of a political system.
+
+=== Politics Check
+.Chance = INT score + CHA score
+****
+An alien with a 12 INT and a 12 CHA has 24% chance of having politics. 
+****
+
+The nature of the alien species politic is determined below.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Political_Belief.adoc[]
+
+
+== Alien Vocation
+Educated aliens can pursue persona classes like anthropomorph personas.
+All requirements and abilities for these classes are the same as listed in Chapter 8: Classes.
+Once an alien adopts a persona class, it may become a very dangerous alien indeed.
+The referee may invoke class restrictions she feels are necessary to ensure a game balance.
+Could you imagine trying to fairly referee an invisible, 900 kg, flying spie?
+Just this one sentence may keep the referee from allowing alien personas from ever pursuing classes.
+
+=== Alien Vocation Check
+.Chance = 3 * DEX score
+****
+An alien with a 12 DEX has a 36% chance of having vocations.
+****
+
+
+When checking for Vocation the player makes another Tool Score Check.
+
+=== Tool Score Check
+.Chance = 2 * INT score
+****
+An alien with a 12 INT has 24% chance to add +1 to the alien's tool score. 
+****
+
+If the alien has vocation there is a chance of a philosophical system.
+
+=== Philosophy Check
+.Chance =  INT + AWE score
+****
+An alien with a 12 INT and a 12 AWE has 24% chance of having philosophy. 
+****
+
+If the alien has a philosophy it is determined below
+
+
+
+== Tool Score
+The most important roll for any player running an alien is whether her persona is a tool user or not.
 There is a percentage chance that the alien species will be tool users equal to the alien's INT.
 Thus, an alien with a 13 INT has a 13% chance of being a tool user.
 Aliens that are tool users are allowed one roll on the TOY system (Chapter 41) to get one device which is adapted for their own use.
+
+include::ROOT:partial$CH06_Table_Alien_Tool_Score.adoc[]
 
 Tool users can easily use artifacts that are designed for them and can adapt themselves to use artifacts that are designed for humanoids.
 An artifact would be considered alien to an alien if there were a drastic difference in size;
@@ -24,7 +167,8 @@ if the alien had no digits that could obviously operate the artifact;
 or it the referee were in a petty mood.
 The chance of this happening can be determined by rolling Sphincter dice as described in Chapter 19: Special Rolls.
 
-*Adapting to a Tool*: When a tool user encounters an artifact that it cannot manipulate easily, then it must try to adapt to the artifact.
+=== Adapting to a Tool
+When a tool user encounters an artifact that it cannot manipulate easily, then it must try to adapt to the artifact.
 This means that the alien will use its tongue instead of a finger or a hoof instead of a hand.
 The chance of successfully adapting to an artifact is equal to twice the alien's DEX.
 If it cannot adapt itself then it CANNOT use the artifact.
@@ -34,25 +178,51 @@ Biologists can aid the alien in adapting to its device and mechanics can adapt t
 
 // Beasts of burden.+++</figcaption>++++++</figure>+++
 
-*Non-Tool Users*: According to the dice, most aliens will be non-tool users.
+== Non-Tool Users
+According to the dice, most aliens will be non-tool users.
 The referee may automatically allow alien personas to be tool users to increase their involvement in the game.
 The referee should not depend solely on the dice rolling of her players.
 If a player comes up with an ingenious idea about how her persona can manipulate a particular artifact then the persona should be able to do so.
 Role-Playing should overcome dice rolling.
 
-*Trying Anyway*: Non-tool users must make an INT check against percentile dice to see if they can even begin to comprehend a particular artifact.
+=== Trying Anyway
+Non-tool users must make an INT check against percentile dice to see if they can even begin to comprehend a particular artifact.
 Non-tool users must make this check for every artifact that they encounter.
 Even if they succeed in identifying an item as useful, then they must adapt themselves to the artifact as a tool-using alien would have to adapt to a foreign artifact.
 It will be rare indeed when a non-tool using alien will be able to deploy a technological device.
 
-*Alien Education*: Alien education implies that the alien has developed a curiosity about the natural world that far exceeds the animal awareness that most creatures have.
-If an alien is a tool user, then there is a percentage chance equal to her INT attribute that she will be educated.
-This roll is required by all alien personas whether they are run by a referee or a player.
-It is not recommended that referees allow player run aliens to automatically be educated as is done with tool users.
+== Alien Grouping
+How does this alien function as a society. 
+Can be used for flora, fauna, or advanced civilizations. 
+The numbers are up the referee.
+Considerations are size, combat ratio, tech level. 
 
-Educated aliens can pursue persona classes like anthropomorph personas.
-All requirements and abilities for these classes are the same as listed in Chapter 8: Classes.
-Once an alien adopts a persona class, it may become a very dangerous alien indeed.
-The referee may invoke class restrictions she feels are necessary to ensure a game balance.
-Could you imagine trying to fairly referee an invisible, 900 kg, flying spie?
-Just this one sentence may keep the referee from allowing alien personas from ever pursuing classes.
+include::ROOT:partial$CH06_Table_Alien_Group_Size.adoc[]
+
+== What are the chances?
+Here are some society results using 10000 alien species.
+Being a creator species is rare.
+
+:art: alien_society_data_10K.png
+:width: 500px
+:snark: Safety in numbers.
+:artist: HM
+:date: 2019
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+.Societal Compositions
+* Language 36%
+* Culture 11%
+* Education 4%
+* Vocation 1%
+
+.Tool Usage Frequencies
+* None 52%
+* Simple 38%
+* Tech 8%
+* Comp 1% 
+* Creator 0.1%
+
+

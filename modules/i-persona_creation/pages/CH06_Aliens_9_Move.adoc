@@ -5,6 +5,12 @@ Denizens may hop, slither, scuttle, slime or gallop along with whatever form of 
 The type of creature part that is used to describe the alien's locomotion will move at the designated movement rate regardless of what the description is.
 For instance, an alien that looks like a snail could move as fast as an alien that looks like a leopard.
 
+== Alien Base Movement Rate
+.move (h/u) = DEX
+****
+A persona with a 12 DEX would have a base movement rate of 12 h/u. 
+****
+
 If the creature type listed there does not have any obvious form of locomotion, it will still move and the player must use her imagination.
 The chance that an alien will be sessile is quite rare: the alien must have a zero DEX or all the creature parts must be non-mobile (s).
 
@@ -19,7 +25,8 @@ If the alien has sea creature parts but lives on an arid planet, it will merely 
 If the alien has parts all of one type then it will be restricted to that one environment.
 If the alien has body parts from amphibious creatures then it may be able to move equally fast on land as in liquid.
 
-*Movement and Description*: The creature parts rolled do have an effect on the alien's movement rate but not in the direct fashion that their description dictates their speed.
+== Movement and Description
+The creature parts rolled do have an effect on the alien's movement rate but not in the direct fashion that their description dictates their speed.
 As one would expect from EXP, there is a much more convoluted way to determine the alien's movement rate (move).
 The alien's DEX represents the maximum movement rate that an alien can travel at.
 Thus an alien with 12 DEX would have a base movement rate of 12 h/u.
@@ -30,7 +37,8 @@ for example, pig (l), hippopotamus (l,w) and sea urchin (n-w).
 It is these designations that determine the alien's speed on land, in the air, and in the water.
 The terrain types are described under step (8) Description earlier in this chapter.
 
-*Quartering Movement*: The three types of movement are land, air, and water and the alien's movement rate is divided amongst these terrain types.
+== Quartering Movement
+The three types of movement are land, air, and water and the alien's movement rate is divided amongst these terrain types.
 Each of the four body parts is designated a certain terrain type(s).
 Every time that a certain terrain type appears, 25% of the alien's movement rate can be achieved on that terrain.
 
@@ -42,4 +50,4 @@ If the alien had two land creature parts (l), one aquatic part (w), and one flyi
 The Example Alien Movement table has the movement rates calculated for an alien with three land parts, two airborne parts, and one water part.
 Note that none part simply reduces the alien's total movement.
 
-// table insert 95
+include::ROOT:partial$CH06_Table_Calculating_Alien_Movement.adoc[]
