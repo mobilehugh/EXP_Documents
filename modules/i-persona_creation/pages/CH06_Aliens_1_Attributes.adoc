@@ -1,33 +1,49 @@
 = Alien Attributes
 
-Alien attributes are generated in a different manner than those of other personas.
-The attributes being generated are considered to be the mean attributes (average) for an entire alien family.
-This presents no problem for the player because her persona is considered to be a model example of an adult alien.
-All her attributes are exactly average and they require no adjustment upwards or downwards.
-However, if the ref decides to have attribute differences due to sex or age, it is up to her to determine these deviations.
-The player rolls her persona's attributes on the Mean Attributes Table.
+Alien attributes are very diverse and uniquely generated.
+The attributes are specifically those of the persona created.
+The attributes are also mean attributes of an entire alien species.
+The persona is considered to be a model example of an grown alien.
+Alien attributes are used as is by the player.
 
-Alien attribute scores are the same as any other personas, whether that persona is a robot or a humanoid.
-An alien PSTR of 12 is no stronger than a humanoid PSTR of 12 which is no stronger than a robotic PSTR of 12.
-There is a subtle difference in that aliens can begin a campaign with a zero attribute.
-If a zero is rolled for any of the alien's attributes, some special conditions will have to apply.
+Integrating the new alien persona as a species is up to the referee and players.
+Elements like age, gender, and intra species attributes differences represent much work.
+EXP does not account for these elements as is. 
+Forking this project is welcome.
+
+Attribute values are equal amongst the personas, whether anthro, robot or alien.
+An alien's 12 PSTR equals an anthro's 12 PSTR which equals a robot's 12 PSTR.
+
+== Zero Attributes
+It is possible for an alien to have an attribute score of zero.
+This is a rare circumstance indeed.
+There is a 1 in 7776 that an alien's attribute rolls zero.
+It is even less likely that an alien's PSTR would be zero.
+For anthros and robots an attribute of zero means death. 
+Starting with a zero attribute is an entirely different situation.
+How to manage zero score attributes is up to the referee and players.
+
+In the spirit of diversidae the zero attribute is integrated into the alien.
+For example, a 0 DEX, could mean alien is sessile (immobile).
+A back up DEX should be rolled for co-ordination and aiming ability.
+A 0 CON, could mean the alien has no physiology.
+A back up CON should be rolled for HPS representing structural collapse.
+Such explanations could be invented for DEX, INT, MSTR AND PSTR.
+
+== Alien Death and Attributes.
+The alien is irrevocably dead if any attributes are reduced to zero by damage.
+If through age or destruction an alien's attribute reaches zero that persona is dead.
+A persona that starts with a 0 attribute is immune to death from zeroing that attribute.
+For example, an alien with a 0 DEX cannot be die from a poison that attacks DEX score.
+
+An alien also is dead if her HPS reach zero. 
 
 == Generating Alien Attributes 
 Like other personas, the alien attributes are generated once for each attribute.
 Aliens use the Mean Attribute Table to determine their attributes.
 For example, CON, DEX, INT and MSTR are supposed to be generated on 5d6 -5.
-This means that fixe six-sided dice are rolled and 5 is subtracted from their total.
+This means that fixe six-sided dice are rolled and 5 is subtracted from the total.
 It is essential that these attributes be rolled on the number of dice given.
 This assures a good statistical curve of attributes for all aliens generated.
 
 include::ROOT:partial$CH06_Table_Alien_Attributes.adoc[]
-
-== Zero Attributes
-Certain of the alien's attributes can have a nominal value of zero;
-however, this number has somewhat different implications than it would for an anthropomorphic persona.
-For instance, if the DEX roll were 0, the creature would be sessile (immobile).The DEX should be re-rolled to determine limb co-ordination and aiming ability.
-If CON were 0, this would mean that the creature has no hit points.
-Such a situation could be interpreted to mean that they lack a life force and do not appear to be alive as usually defined.
-However, their CON would be re-rolled to determine how much damage they can take before disintegrating.
-The re-rolled attributes are the same as any other persona's attribute and, if any of these are reduced to zero, the alien is irrevocably dead.
-Such explanations could be invented for DEX, INT, MSTR AND PSTR.
