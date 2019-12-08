@@ -1,0 +1,224 @@
+// Table 11.3.19 Robot Defences
+.*Robot Defences*
+[width="75%",cols="3*^",frame="all", stripes="even"]
+|===
+3+<|The amount of active defence that the robot RP has is determined by its robot type. 
+s|Robot Type
+s|Type Name
+s|Defences
+
+|A
+|Android
+|Nil
+
+|C-E
+|Combat
+
+| Expendable
+|1 Roll
+
+|C-D
+|Combat
+
+| Defensive
+|1 Roll per 3 CON
+
+|C-L
+|Combat
+
+| Offensive-Light
+|2 Rolls
+
+|C-H
+|Combat
+
+| Offensive-heavy
+|3 Rolls 
+
+|D
+|Data Analyzer
+|1 Roll; 25% 2nd roll
+
+|E-P
+|Explorations
+
+| Planetary
+|1 Roll
+
+|E-X
+|Explorations
+
+| ExtraPlan.
+|3 Rolls
+
+|H
+|Hobbot
+|50% 1 Roll
+
+|I-L
+|Industrial
+
+| Lifting
+|15% 2 Rolls
+
+|I-C
+|Industrial
+
+| Construction
+|15% 1 Roll
+
+|I-M
+|Industrial
+
+| Moving
+|15% 1 Roll
+
+|J-D
+|Janitorial
+
+| Domestic
+|14% 2 Rolls
+
+|J-I
+|Janitorial
+
+| Industrial
+|45% 2 Rolls
+
+|M
+|Maintenance
+|40% 1 Roll
+
+|P-R
+|Police
+
+| Riot
+|1 Roll
+
+|P-C
+|Police
+
+| Civilian
+|1 Roll
+
+|P-S
+|Police
+
+| Special Ops.
+|1 Roll
+
+|R-R
+|Rescue
+
+| Retrieval
+|3 Rolls
+
+|R-S
+|Rescue
+
+| Spillage
+|3 Rolls
+
+|S
+|Social
+|85% 1 Roll (non lethal)
+
+|T-P
+|Transport
+
+| Planetary
+|40% 1 Roll
+
+|T-X
+|Transport
+
+| ExtraPlan.
+|40% 1 Roll
+
+|V-D
+|Veterinarian
+
+| Diagnostic
+|10% 1 Roll 
+
+|V-I
+|Veterinarian
+
+| Interventional
+|10% 1 Roll 
+
+s|Robot Type
+s|Type Name
+s|Defences
+
+
+|===
+// Table 11.3.20 Robot Defences
+.*Robot Defences*
+[width="75%",cols="3*^",frame="all", stripes="even"]
+|===
+3+<|Defences for the robot RP whether actively built as defences or malfunctioning peripherals. 
+s|Die Roll (d100)
+s|Defence Type
+s|Explanation
+
+|01-06
+|Anti-Missile
+|AR versus missile +1d6 times 50; miss negates area of effect
+
+|07-12
+|Anti-Personnel
+|Damage 3d6; Intensity = Damage jump off
+
+|13-29
+|Armour Rating Increase
+|Increase AR by 1d6 times 50
+
+|30-35
+|Artifact Armour
+|Chapter 42: Armour; min AR 700
+
+| re-roll helmet etc.
+
+|36-41
+|Camouflage
+|Hide for Difficult (1d50) AWE roll. Cammo type per sensor type.
+
+|41-47
+|Detect Ambush
+|AWE times 4 to detect ambush
+
+|48-53
+|Diffuse Bombs
+|as mechanic level 5 plus bot level; double INT on roll
+
+|54-59
+|Evasive Action
+|Avoid mines; combat Normal (1d20) AWE roll; cannot attack unless bot type C
+
+|60-76
+|Force Field
+|Absorb 1d4 times 25 HPS damage; recover 1 min per HPS absorbed
+
+|77-82
+|Increase Hit Points
+|Add 1d6 times 10 percent to HPS Max
+
+|83-88
+|Mental Mutation
+|Chapter 59: Mental Mutations; defensive only
+
+|89-99
+|Override Interrupt
+|Free will.
+
+|00
+|Ref's Own Table
+|
+
+s|Die Roll (d100)
+s|Defence Type
+s|Explanation
+
+
+|===

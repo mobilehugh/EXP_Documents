@@ -1,0 +1,384 @@
+// Table 11.3.3 Robot RP Attributes
+.*Robot RP Attributes*
+[width="75%",cols="10*^",frame="all", stripes="even"]
+|===
+10+<|Robot RP attributes are base on the robot type.
+s|Type
+s|Type Name
+s|AWE
+s|CHA
+s|CON
+s|DEX
+s|INT
+s|MSTR
+s|PSTR
+s|Type Name
+
+|A
+|Android
+|3d6
+|13+1d6
+|19+1d6
+|19+1d6
+|19+1d6
+|0
+|19+1d10
+|Android
+
+|C-E
+|Combat
+
+| Expendable
+|3d6
+|3d6
+|7+2d8
+|19+1d6
+|1+2d8
+|0
+|19+1d10
+|Combat
+
+| Expendable
+
+|C-D
+|Combat
+
+| Defensive
+|4d6
+|3d6
+|19+1d6
+|19+1d6
+|1+2d8
+|0
+|19+1d10
+|Combat
+
+| Defensive
+
+|C-L
+|Combat
+
+| Offensive-Light
+|3d6
+|3d6
+|19+1d6
+|19+1d6
+|1+2d8
+|0
+|19+1d10
+|Combat
+
+| Offensive-Light
+
+|C-H
+|Combat
+
+| Offensive-heavy
+|3d6
+|3d6
+|22+1d3
+|19+1d6
+|1+2d8
+|0
+|26+1d3
+|Combat
+
+| Offensive-heavy
+
+|D
+|Data Analyzer
+|3d6
+|3d6
+|1d12
+|1d12
+|19+1d6
+|0
+|1d12
+|Data Analyzer
+
+|E-P
+|Explorations
+
+| Planetary
+|13+1d6
+|3d6
+|19+1d6
+|7+1d6
+|1d8
+|0
+|15+1d4
+|Explorations
+
+| Planetary
+
+|E-X
+|Explorations
+
+| ExtraPlan.
+|13+1d6
+|3d6
+|19+1d6
+|7+1d6
+|23+1d2
+|0
+|15+1d4
+|Explorations
+
+| ExtraPlan.
+
+|H
+|Hobbot
+|3d6
+|3d6
+|1d8
+|1d8
+|13+1d12
+|0
+|1d8
+|Hobbot
+
+|I-C
+|Industrial
+
+| Construction
+|3d6
+|3d6
+|3d8
+|13+1d6
+|19+1d10
+|0
+|13+1d6
+|Industrial
+
+| Construction
+
+|I-L
+|Industrial
+
+| Lifting
+|3d6
+|3d6
+|3d8
+|13+1d6
+|13+1d6
+|0
+|19+1d10
+|Industrial
+
+| Lifting
+
+|I-M
+|Industrial
+
+| Moving
+|3d6
+|3d6
+|3d8
+|19+1d10
+|13+1d6
+|0
+|13+1d6
+|Industrial
+
+| Moving
+
+|J-D
+|Janitorial
+
+| Domestic
+|3d6
+|3d6
+|1d8
+|2d8
+|12+1d6
+|0
+|2d8
+|Janitorial
+
+| Domestic
+
+|J-I
+|Janitorial
+
+| Industrial
+|3d6
+|3d6
+|1d8
+|2d8
+|1d12
+|0
+|2d8
+|Janitorial
+
+| Industrial
+
+|M
+|Maintenance
+|3d6
+|3d6
+|2d8
+|8+1d10
+|8+2d8
+|0
+|1d8
+|Maintenance
+
+|P-C
+|Police
+
+| Civilian
+|4d6
+|13+1d6
+|13+1d6
+|19+1d6
+|13+1d6
+|0
+|15+1d4
+|Police
+
+| Civilian
+
+|P-R
+|Police
+
+| Riot
+|3d6
+|3d6
+|14+1d6
+|19+1d6
+|13+1d6
+|0
+|15+1d4
+|Police
+
+| Riot
+
+|P-S
+|Police
+
+| Special Ops.
+|13+1d6
+|3d6
+|14+1d6
+|19+1d6
+|13+1d6
+|0
+|15+1d4
+|Police
+
+| Special Ops.
+
+|R-R
+|Rescue
+
+| Retrieval
+|3d6
+|3d6
+|19+1d6
+|21+1d4
+|7+1d12
+|0
+|3d6
+|Rescue
+
+| Retrieval
+
+|R-S
+|Rescue
+
+| Spillage
+|3d6
+|3d6
+|19+1d6
+|7+1d12
+|7+1d12
+|0
+|7+1d12
+|Rescue
+
+| Spillage
+
+|S
+|Social
+|3d6
+|19+1d6
+|2d8
+|2d8
+|14+1d10
+|0
+|1d8
+|Social
+
+|T-P
+|Transport
+
+| Planetary
+|3d6
+|3d6
+|1d8
+|1d8
+|1d8
+|0
+|1d8
+|Transport
+
+| Planetary
+
+|T-X
+|Transport
+
+| ExtraPlan.
+|3d6
+|3d6
+|1d8
+|21+1d4
+|21+1d4
+|0
+|1d8
+|Transport
+
+| ExtraPlan.
+
+|V-D
+|Veterinarian
+
+| Diagnostic
+|19+1d6
+|13+3d6
+|2d8
+|19+1d6
+|14+1d10
+|0
+|1d8
+|Veterinarian
+
+| Diagnostic
+
+|V-I
+|Veterinarian
+
+| Interventional
+|3d6
+|3d6
+|2d8
+|22+1d3
+|20+1d4
+|0
+|1d8
+|Veterinarian
+
+| Interventional
+
+s|Type
+s|Type Name
+s|AWE
+s|CHA
+s|CON
+s|DEX
+s|INT
+s|MSTR
+s|PSTR
+s|Type Name
+
+
+|===
