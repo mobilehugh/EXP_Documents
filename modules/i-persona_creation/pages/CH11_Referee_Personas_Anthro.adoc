@@ -10,7 +10,7 @@ The largest source of detailed anthro personas is the persona morgue.
 These are ready-made referee personas that may even include a personality.
 It is not recommended that the ref directly plagiarize a player's old persona but merely use it for inspiration.
 
-.Anthro Referee Persona Checklist
+.*Anthro Referee Persona Checklist*
 . Persona Record Sheet
 . Determine Relevance
 . Anthro Type
@@ -136,13 +136,17 @@ Need a tall anthro? Need a weak anthro? Need charismatic anthro?
 Here is where those descriptors acted on.
 For those making a purely random referee persona you can skip descriptors. 
 
-. attributes
-. size
-. age
-. gender
+=== Attributes, Hite, Wate
+include::ROOT:partial$CH11_Table_Anthro_RP_Descriptors.adoc[]
 
-The sex of an RP is chosen randomly (1-3 female;
-4-6 male), the gender could be any combination of those.
+=== Age Adjustment 
+Just  pick an age
+
+=== Gender Appearance
+Gender appearance not physiology.
+No sexuality.
+
+include::ROOT:partial$CH11_Table_RP_Gender.adoc[]
 
 == Anthro RP Attributes
 Anthro referee persona attributes are generated as per Table 11-2.2: Anthro RP Attributes.
@@ -165,9 +169,6 @@ Remember that ant attribute requirements only apply to personas while rolling up
 
 include::ROOT:partial$CH11_Table_Anthro_RP_Attribute_Supercharge.adoc[]
 
-// insert table 275
-
-// insert table 276
 
 === Anthro RP Hit Points
 A referee persona's Hit Points (HPS) maximum is determined the same as any other anthro persona.
@@ -227,7 +228,6 @@ The RP combat table is calculated the same as any other persona's combat table.
 Aliens use their natural attack table if they have no class abilities.
 Anthropomorphs and class skilled aliens use the combat table described in Chapter 27: Tactical Combat.
 
-// insert table 320
 
 The initial combat table is calculated here and the level adjustment should be added to the Bonus Proficient (BP).
 For simplicity sake we use one combined level bonus for all three weapon types for the referee persona.
@@ -235,11 +235,12 @@ If detail must prevail the level bonus can be calculated by hand.
 Calculate the Bonus Proficient on Table 11.11: Bonus Proficient for Referee Personae, then add the level bonus from Table 11.11.1: Total Level Bonus by Class.
 This will create a quick Bonus Proficient that reflects the referee personas attributes, class and level.
 
-// insert table 322
+include::ROOT:partial$CH11_Table_RP_Bonus_Proficient_(BP).adoc[]
 
-// insert table 321
+include::ROOT:partial$CH11_Table_Calculated_Level_Bonus__for_RPs_with_Classes.adoc[]
 
-// insert table 323
+include::ROOT:partial$CH11_Table_Bonus_Non_Proficient_(BNP).adoc[]
+
 
 == Anthro RP Equipment
 Referee personas carry equipment: they should be supplied with food, survival equipment, and funds.
@@ -261,18 +262,29 @@ This challenges the limits of creativity of the referee because she must supply 
 If the referee does not already have a particular appearance, personality, or set of beliefs in mind for her RP, she may find the tables provided useful.
 The referee persona qualities are on Table 11.14: RP Qualities Checklist.
 
-// insert table 324
+.*Anthro Qualities Checklist*
+. Appearance	
+.. What she looks like
+. Personality	
+.. What she is like.
+. Beliefs	
+.. What she likes.
 
 === Anthro RP Appearance
 An RPs appearance is divided into two categories: hygiene and dress.
 Hygiene represents the personas normal level of personal care.
 The hygienic habits of the RP are determined on the RP Hygiene table.
+
+==== Hygiene
 Hygiene is not unwavering like an attribute but is dependent on the scenario at hand.
 For example, a habitually immaculate RP that just dived into mud would look like someone who dived into mud;
 a habitually filthy spie would not arrive un-groomed at an aristocratic function she was trying to infiltrate.
 However, the immaculate RP would clean the mud off herself sooner than the filthy spie and the filthy spie would be the first to get soiled at the aristocratic bash.
 The dress of the referee persona does not reflect ANYTHING about the referee persona.
 
+include::ROOT:partial$CH11_Table_Referee_Persona_Hygiene.adoc[]
+
+==== Clothing
 The dress of an RP is even more variable than hygiene.
 An RP may have several favorite styles and may even combine them in some random arrangement.
 The roll on the table dress indicates which type of dress is worn: shoes, shirts, blouses, pants, hair-dos, etc.
@@ -281,9 +293,7 @@ It is easy to imagine a filthy canine lumberjack but an immaculate six legged al
 Robots can certainly have hygienic qualities, appearing dirty or well washed, but robot dress may be just too absurd.
 For instance, would a 60s style robot have fins and chrome bumpers?
 
-// insert table 325
-
-// insert table 326
+include::ROOT:partial$CH11_Table_Referee_Persona_Dress.adoc[]
 
 === Anthro RP Personality
 The referee is expected to play up these personality traits whenever possible.
@@ -291,14 +301,14 @@ Extroverted personality traits are NOT irrational: a diplomatic RP will not try 
 Aliens and robots also get a roll on the Extroverted Personality table.
 Properly functioning robots would not have  a shred of personality whatsoever, but the free willed robots of EXP are malfunctioning and extroverted personalities or even insanities are possible.
 
-// insert table 327
+include::ROOT:partial$CH11_Table_Referee_Persona_Extroverted_Personality_Trait.adoc[]
 
 ==== Introverted
 The Introverted Personality Sub-table indicates subtle personality traits.
 These traits are not too strong and should only be employed by the referee when decisions must be made by the RP.
 Such traits are played discreetly by the referee, and may only occasionally be used or noticed.
 
-// insert table 328
+include::ROOT:partial$CH11_Table_Introverted_Personality_Trait.adoc[]
 
 ==== Insane
 The Insane Personalities Table lists irrational actions that are basically pathological.
@@ -308,24 +318,25 @@ Referees are not expected to be psychiatrists and can role-play the mental illne
 If the roll on this table has been directed from the Extroverted Personality Trait Table the insanity will be quite overt.
 If the referee is rolling an insane personality off of the Introverted Personality Trait then the insanity will be less obvious.
 
-// insert table 329
+include::ROOT:partial$CH11_Table_Insane_Referee_Persona_Personality_Traits.adoc[]
 
 === Anthro RP Beliefs
 The referee should be prepared to have their preferred personas possess some personal beliefs that may affect their attitude, and how they act while role-playing.
 Beliefs are divided into three categories: political, religious, and philosophical.
 The player will have from 0-3 (d4-1) separate beliefs, where 0 is none and 3 is three rolls on Table 11.19.
+
+include::ROOT:partial$CH11_Table_Referee_Persona__Beliefs.adoc[]
+
 The beliefs are more transient than the RP's personality and they will can conflict directly with the referee persona's personality.
 The belief tables are somewhat self-explanatory and are mostly used as the tack that a particular personal will take when arguing ethics with expedition personas.
 In the case of aliens these beliefs may be the basis for their entire culture.
 For example, an alien that is militaristic and believes religiously in anonymous writings may be a member of a war-like invading family.
 
-// insert table 330
+include::ROOT:partial$CH11_Table_Referee_Persona_Religious_Belief.adoc[]
 
-// insert table 331
+include::ROOT:partial$CH11_Table_Referee_Persona_Political_Belief.adoc[]
 
-// insert table 332
-
-// insert table 333
+include::ROOT:partial$CH11_Table_Referee_Persona_Philosophical_Belief.adoc[]
 
 == Anthro RP Story
 Everything has a story.
@@ -345,13 +356,13 @@ If the referee persona is a more important one the referee must create  a more d
 Let's consider a young man from the farming district of his impoverished planet (origin) is willing to hire on for the expedition as a porter (presence) if they will take him off planet (goal).
 Another referee persona could be a very hungry alien that just jumped out of a tree (origin) and is ferociously attacking the expedition (presence) because the alien's hungry and the expedition members look like something good to eat (goal).
 
-
 === Origin
 Vishna Shraloor is a referee persona with death field generation (a mental mutation).
 She matured not knowing that this lethal power was within her.
 She grew up through a series of profound personal tragedies: the death of her parents, the death of teachers, the death of mourning relatives, the death of her playmates, the death of social workers, and the death of foster parents.
 Many of these deaths may have been caused by her misunderstood mental ability.
 That is her sad origin.
+
 include::ROOT:partial$CH11_Table_Referee_Persona_Origin.adoc[]
 
 === Presence
@@ -375,13 +386,6 @@ In fact, this chapter could be considered a guide on how to prepare a referee pe
 If the ref knows that she needs RPs but has no origins or goals, then it might help to create the persona presence first.
 This is an excellent procedure for sparking the imagination or solidifying a watery idea.
 
-// insert table 253
-
-// insert table 254
-
-// insert table 255
-
-
 == Anthro RP Name
 Often the most important part of a referee persona is its name.
 The description of a humanoid may be glossed over and that of an aliens forgotten completely but the name will always be remembered.
@@ -400,7 +404,6 @@ When preparing an anthropomorphs combat ratio, the referee should try to take in
 This means that considerable time may have to be spent in the toy section before the combat ratio can be calculated.
 Experienced referees will find that the combat ratio is not needed for estimating equivalent combat conditions but more useful in calculating the RPs experience point value which includes EXPS for encounters other than combative ones.
 
-
 The combat ratio indicates the number of expedition personas that should be needed in combat for a fair fight with that one referee persona.
 The higher the combat ratio, the stronger the referee persona.
 In other words, if 1 persona vs.
@@ -417,23 +420,14 @@ So a Combat Ratio with Plus 1 and Plus 4 and Plus 3 and Times 1.25 and Times 2.0
 It would be calculated as so: 1 plus 4 plus 3 = 8;
 times 3 times 1.25 gives a CR of 30!
 
-// insert table 334
+=== Anthro Specific
 
-// insert table 335
+include::ROOT:partial$CH11_Table_RP_CR_Anthro.adoc[]
 
-// insert table 336
-
-// insert table 337
-
-// insert table 338
-
-// insert table 339
-
-// insert table 340
+// general CR adjustments list of tables.
+// heading is === for each table
+include::ROOT:partial$CH11_RP_CR_General.adoc[]
 
 
-
-
-// insert table 342
 
 
