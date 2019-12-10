@@ -6,11 +6,12 @@ The type of creature part that is used to describe the alien's locomotion will m
 For instance, an alien that looks like a snail could move as fast as an alien that looks like a leopard.
 
 == Alien Base Movement Rate
+// tag::Alien_Move[]
 .move (h/u) = DEX
 ****
 A persona with a 12 DEX would have a base movement rate of 12 h/u. 
 ****
-
+// end::Alien_Move[]
 If the creature type listed there does not have any obvious form of locomotion, it will still move and the player must use her imagination.
 The chance that an alien will be sessile is quite rare: the alien must have a zero DEX or all the creature parts must be non-mobile (s).
 
