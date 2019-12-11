@@ -60,57 +60,7 @@ Attribute ranges must be converted into regular attributes.
 The attribute range must remain on the persona record sheet.
 For example INT would be recorded as INT range of 2 and INT of 12.
 
-// brand new table for version 6.0
-.*Robotic Regular Attribute Generation*
-[width="75%",cols="<,<,<"]
-|===
-3+<|Randomly determine several robot attributes.
-
-s|Attribute
-s|Abbreviation
-s|Die Roll
-
-|Awareness
-|AWE
-|3d6
-
-|Charisma
-|CHA
-|3d6
-
-|Constitution
-|CON
-|See Below
-
-|Dexterity
-|DEX
-|See Below
-
-|Intelligence
-|INT
-|See Below
-
-|Mental Strength
-|MSTR
-|0
-
-|Physical Strength
-|PSTR
-|See Below
-
-|Hit Points
-|HPS
-|CON and Type
-
-|Social Standing
-|SS
-|Robot Value
-
-s|Attribute
-s|Abbreviation
-s|Die Roll
-
-|===
+include::ROOT:partial$CH05_Table_Robotic_Attributes_All.adoc[]
 
 The player must now convert attribute range into regular attributes. 
 If robot has a CON range of 1 the player would roll 1d8 to determine the CON attribute.

@@ -24,29 +24,14 @@ Aliens are referred to as species because they can be unsophisticated animals of
 . EXPS Level
 . Vocation
 . Equipment
-.. Mundane
-.. Artifact
 . Combat Table
 . Combat Ratio
 * *RP ROLE PLAYING (Fun)*
 . Biology
 . Story
-.. Origin
-.. Presence
-.. Goal
-.. Personality
 . Appearance
-.. Clothing
-.. Hygiene
-.. Gender
 . Beliefs
-.. Religious
-.. Political
-.. Philosophical
 . Modifications
-.. attributes
-.. size
-.. age
 . Name
 . Have Fun!
 
@@ -171,14 +156,14 @@ include::ROOT:partial$CH06_Table_Alien_Hit_Points_HPS.adoc[]
 == Alien RP Number of Attacks
 The more attacks the more dangerous.
 
-include::ROOT:partial$include::ROOT:partial$CH06_Table_Number_of_Alien_Attacks.adoc[][]
+include::ROOT:partial$CH06_Table_Number_of_Alien_Attacks.adoc[]
 
 == Alien RP Damage per Attack
 More Bigger More Damage
 
-include::ROOT:partial$include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[][]
+include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
 
-include::ROOT:partial$include::ROOT:partial$CH06_Table_Alien_Attack_Type.adoc[][]
+include::ROOT:partial$CH06_Table_Alien_Attack_Type.adoc[]
 
 == Alien RP Armour Rating
 
@@ -286,15 +271,9 @@ Yes of course this changes everything about how the alien behaves, it's culture,
 
 
 == Alien RP Society
-
 Alien society is something for the referee to carefully consider and prepare for her campaign.
 Alien societies can even be the basis for an entire campaign.
 The differences in values, architecture, and social organization alone amongst alien cultures would be beyond the duration of a life time of study.
-
-Most of the persona aliens will be rogues or outcasts that have rejected their alien culture thus allowing them to form their own cultural niche.
-The referee cannot possibly prepare a detailed alien society each time a player generates an alien persona.
-For the most part, alien personas will not be members of galactic societies or developed countries.
-If some idea of the alien's society is necessary but total preparation is not, the referee should turn to Chapter 11: Referee Personas and determine the society's religious, political, and philosophical beliefs.
 
 .Societal Compositions
 * Language 36%
@@ -307,23 +286,108 @@ If some idea of the alien's society is necessary but total preparation is not, t
 * Simple 38%
 * Tech 8%
 * Comp 1% 
-* Creator 0.1%
+* Creator (AI) 0.1%
+
+Most of the persona aliens will be rogues or outcasts that have rejected their alien culture thus allowing them to form their own cultural niche.
+The referee cannot possibly prepare a detailed alien society each time a player generates an alien persona.
+For the most part, alien personas will not be members of galactic societies or developed countries.
+If some idea of the alien's society is necessary but total preparation is not, the referee should turn to Chapter 11: Referee Personas and determine the society's religious, political, and philosophical beliefs.
+
+include::ROOT:partial$CH11_Table_RP_Alien_Society.adoc[]
+
+
+== Alien RP EXPS Level
+Good for flora, fauna, and vocations
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Level.adoc[]
+
+== Alien RP Vocation
+Must have vocation on society level.
+No attributes apply.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Class.adoc[]
+
+
+
+== Alien RP Equipment
+Referee personas carry equipment: they should be supplied with food, survival equipment, and funds.
+What the referee persona is carrying as survival equipment will vary depending on terrain.
+Referee personas are also assumed to have collected artifacts throughout their travels.
+RPs get one artifact for every experience level.
+
+
+=== No Tool Use
+No tools, no rocks, does not even recognize tech. 
+Does not even fetch.
+Does not hold water in arms.
+
+=== Simple Tool User
+May use natural unmodified items.
+Rocks, found sticks, hold water.
+No mundane and no artifacts.
+
+=== Tech Tool User
+Simple machines like levers.
+Understand artifacts are better.
+
+xref:ii-roll_playing_rules:CH24_Mundane_Equipment.adoc[Mundane Equipment]
+Referee personas carry equipment: they should be supplied with food, survival equipment, and funds.
+What the referee persona is carrying as survival equipment will vary depending on terrain.
+
+=== Comp Tool User
+TOY roll no space ships
+No vehicles
+
+==== Some Artifacts
+Personal only no AI no Robots
+
+// whoa robots as TOYS?
+
+
+
+=== Creator 
+Can roll anything on the TOY Table
+
+==== Any Artifact
+Referee personas are also assumed to have collected artifacts throughout their travels.
+RPs get one artifact for every experience level.
+This includes multi-class levels.
+Treasure does not count as a roll so RPs can accumulate considerable wealth in addition to their personal collection of artifacts.
+Nothing RPs do not get a roll on the Toy Table but they do get additional treasure rolls.
+This tends to make RP nothings tremendously wealthy.
+If the referee desires impoverished nothings, she can save herself a whole lot of rolling on the treasure tables.
+Nothing RPs also receive their complimentary one piece of miscellaneous equipment.
+// they know how to use their artifacts
+include::ROOT:partial$CH41_Table_TOY_Type.adoc[]
 
 == Alien RP Combat Table
 This combat table is for natural attacks of the alien RP.
 If the alien is advancing in a class she will use the Anthro Class RP combat table.
 There is no such thing as a Bonus 
 
+=== Natural Attacks
+
 include::ROOT:partial$CH11_Table_Alien_Referee_Persona_Combat_Table_(CT).adoc[]
-
-
 
 Non-Proficient (BNP) for natural attacks.
 Aliens do  not have a BNP.
 Alien PSTR is included in their damage attack, and they do not have a Damage Adjustor (DA) either.
 The initial combat table can be calculated here, and it can be important to add the level bonus to the Bonus Proficient (BP).
+
+// Pure alien level bonuses
 Unfortunately the level bonus must be calculated by hand if it applies to the alien.
 So for example an alien RP with a PSTR of 20 would increase her BP for Type A natural attack  by 20 at level 2, by 13 at level 3, and by 10 at level 4.
+
+
+=== Artifact Attacks
+Use the Anthro.
+If no vocation use nothing.
+
+include::ROOT:partial$CH11_Table_RP_Bonus_Proficient_(BP).adoc[]
+
+include::ROOT:partial$CH11_Table_Calculated_Level_Bonus__for_RPs_with_Classes.adoc[]
+
+include::ROOT:partial$CH11_Table_Bonus_Non_Proficient_(BNP).adoc[]
 
 == Alien RP Combat Ratio
 The calculation of the combat ratio is reasonably self-explanatory.
@@ -407,29 +471,120 @@ include::ROOT:partial$CH06_Table_Alien_Habitation_Type.adoc[]
 
 include::ROOT:partial$CH06_Table_Alien_Group_Size.adoc[]
 
-
-
 == Alien RP Story
-. Story
-.. Origin
-.. Presence
-.. Goal
+Everything has a story.
+As previously stated, referee personas can have a wide degree of involvement in a campaign or with an expedition.
+All referee personas must have an origin, presence, and goal.
+The origin of an RP should explain where it came from and why it things the way it does.
+The presence of the RP will dictate how and why it interacts with the expedition.
+The goal of an RP is what it wants from the campaign, dictating what it will do with the expedition and when it will part company.
+
+For 95% of the RPs the expedition will encounter, the Trinity of the RP (origin, presence, and goal) will be pre-determined.
+Referee personas such as innocent civilians and animals will have simplistic origins such as migrating through the area or on their way to work.
+Their presence might be riding on the subway or rummaging through the bushes.
+Their goal may be to find some berries to eat or to get to work on time.
+If the expedition frequently intervenes in the lives of such unimportant referee personas, the referee need have no more prepared than usual.
+
+If the referee persona is a more important one the referee must create  a more detailed origin, presence, and goal.
+Let's consider a young man from the farming district of his impoverished planet (origin) is willing to hire on for the expedition as a porter (presence) if they will take him off planet (goal).
+Another referee persona could be a very hungry alien that just jumped out of a tree (origin) and is ferociously attacking the expedition (presence) because the alien's hungry and the expedition members look like something good to eat (goal).
+
+=== Origin
+Vishna Shraloor is a referee persona with death field generation (a mental mutation).
+She matured not knowing that this lethal power was within her.
+She grew up through a series of profound personal tragedies: the death of her parents, the death of teachers, the death of mourning relatives, the death of her playmates, the death of social workers, and the death of foster parents.
+Many of these deaths may have been caused by her misunderstood mental ability.
+That is her sad origin.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Origin.adoc[]
+
+=== Presence
+Vishna's presence is one of a lonely unhappy persona who constantly associates with people she does not like because the people around her tend to die frequently.
+Her profession is that of an orbital satellite repair person, a solitary job for certain.
+She has chosen to hang around with the expedition because she does not particularly like them much.
+This is her presence.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Presence.adoc[]
+
+=== Goal
+Ms. Shraloor's goals are varied.
+She would like to destroy the society that has rejected her so totally and she sees the expeditions mentality as something that she can exploit to this end.
+If an expedition member should happen to befriend her, show her the nature of her mutation, and nurse her through the subsequent guilt, she may follow another path and desire to help the society that continued to reach out to her despite their extreme risk.
+These are her potential goals.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Goal.adoc[]
+
+This chapter provides no guidelines on preparing an origin or goal for the referees personas but it does help with the presence of the referee personas.
+In fact, this chapter could be considered a guide on how to prepare a referee personas presence.
+If the ref knows that she needs RPs but has no origins or goals, then it might help to create the persona presence first.
+This is an excellent procedure for sparking the imagination or solidifying a watery idea.
+
+=== Anthro RP Personality
+The referee is expected to play up these personality traits whenever possible.
+Extroverted personality traits are NOT irrational: a diplomatic RP will not try to play consul to a crazed combat robot but she may intercede between inter-expedition differences.
+Aliens and robots also get a roll on the Extroverted Personality table.
+Properly functioning robots would not have  a shred of personality whatsoever, but the free willed robots of EXP are malfunctioning and extroverted personalities or even insanities are possible.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Extroverted_Personality_Trait.adoc[]
+
+==== Introverted
+The Introverted Personality Sub-table indicates subtle personality traits.
+These traits are not too strong and should only be employed by the referee when decisions must be made by the RP.
+Such traits are played discreetly by the referee, and may only occasionally be used or noticed.
+
+include::ROOT:partial$CH11_Table_Introverted_Personality_Trait.adoc[]
+
+==== Insane
+The Insane Personalities Table lists irrational actions that are basically pathological.
+Insane personality traits can appear in completely unexpected situations, endangering the referee persona and the expedition.
+The easiest and most fun referee personas to play are insane ones, but they should be kept relatively rare since EXP is an insane enough game as it is.
+Referees are not expected to be psychiatrists and can role-play the mental illness however they interpret them.
+If the roll on this table has been directed from the Extroverted Personality Trait Table the insanity will be quite overt.
+If the referee is rolling an insane personality off of the Introverted Personality Trait then the insanity will be less obvious.
+
+include::ROOT:partial$CH11_Table_Insane_Referee_Persona_Personality_Traits.adoc[]
+
 
 == Alien RP Appearance
-.. Personality
-. Appearance
-.. Clothing
-.. Hygiene
-.. Gender
+=== Gender
+Not physiology or sexuality. 
+Gender here is appearance only.
+
+include::ROOT:partial$CH11_Table_RP_Gender.adoc[]
+
+=== Clothing
+The dress of an RP is even more variable than hygiene.
+An RP may have several favorite styles and may even combine them in some random arrangement.
+The roll on the table dress indicates which type of dress is worn: shoes, shirts, blouses, pants, hair-dos, etc.
+Appearance is mostly directed at anthropomorph RPs, but it can also include aliens or deeply eccentric robots.
+It is easy to imagine a filthy canine lumberjack but an immaculate six legged alien dressed in traditional tribal gowns is harder to visualize.
+Robots can certainly have hygienic qualities, appearing dirty or well washed, but robot dress may be just too absurd.
+For instance, would a 60s style robot have fins and chrome bumpers?
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Dress.adoc[]
+
+=== Hygiene
+Hygiene is not unwavering like an attribute but is dependent on the scenario at hand.
+For example, a habitually immaculate RP that just dived into mud would look like someone who dived into mud;
+a habitually filthy spie would not arrive un-groomed at an aristocratic function she was trying to infiltrate.
+However, the immaculate RP would clean the mud off herself sooner than the filthy spie and the filthy spie would be the first to get soiled at the aristocratic bash.
+The dress of the referee persona does not reflect ANYTHING about the referee persona.
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Hygiene.adoc[]
+
+=== Aroma
 
 include::ROOT:partial$CH06_Table_Alien_Aroma.adoc[]
 
 == Alien RP Beliefs
-. Beliefs
-.. Religious
-.. Political
-.. Philosophical
+In the case of aliens these beliefs may be the basis for their entire culture.
+For example, an alien that is militaristic and believes religiously in anonymous writings may be a member of a war-like invading family.
 
+include::ROOT:partial$CH11_Table_Referee_Persona_Religious_Belief.adoc[]
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Political_Belief.adoc[]
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Philosophical_Belief.adoc[]
 
 
 == Alien RP Modifications
