@@ -1,32 +1,49 @@
 // Table 11.10 Robot Referee Persona Combat Table (CT)
 .*Robot Referee Persona Combat Table (CT)*
-[width="75%",cols="4*^",frame="all", stripes="even"]
+[width="75%",cols="5*^",frame="all", stripes="even"]
 |===
-4+<|Base combat table for robotic referee personae. Experience levels may alter this table.
-s|Weapon Type
-s|Bonus Proficient (BP)
-s|Level Bonus (base\/level)
-s|Damage Adjustment (DA)
+5+<|Base combat table for robotic referee personae. Experience levels may alter this table.
 
-|A (contact)
-|5 times DEX\n5 times PSTR
-|PSTR
+s|Weapon
+s|Bonus Proficient
+s|Bonus Non-Proficient
+s|Maximum Roll
+s|Damage Adjuster
+
+|*Type A* +
+Thrusting +
+Striking
+|5 * DEX +
+5 * PSTR +
+PSTR * Level
+|--
+|--
 |PSTR
 
-|B (ranged)
-|5 times AWE\n5 times DEX
-|INT
+|*Type B* +
+Throwing +
+Projectile
+|5 * AWE +
+5 * DEX +
+INT * Level
+|--
+|--
 |half PSTR
 
-|C (weapons)
-|5 times DEX\n5 times INT
-|DEX
-|0
+|*Type C* +
+Energized +
+Projectiles +
+(guns)
+|5 * DEX +
+5 * INT +
+DEX * Level
+|--
+|--
+|None
 
-s|Weapon Type
-s|Bonus Proficient (BP)
-s|Level Bonus (base\/level)
-s|Damage Adjustment (DA)
-
-
+s|Weapon
+s|BP
+s|BNP
+s|MR
+s|DA
 |===

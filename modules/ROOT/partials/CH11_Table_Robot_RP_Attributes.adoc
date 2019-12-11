@@ -3,8 +3,9 @@
 [width="75%",cols="10*^",frame="all", stripes="even"]
 |===
 10+<|Robot RP attributes are base on the robot type.
-s|Type
-s|Type Name
+
+s|ID
+s|Name
 s|AWE
 s|CHA
 s|CON
@@ -12,7 +13,7 @@ s|DEX
 s|INT
 s|MSTR
 s|PSTR
-s|Type Name
+s|HPS
 
 |A
 |Android
@@ -23,12 +24,10 @@ s|Type Name
 |19+1d6
 |0
 |19+1d10
-|Android
+|1d8
 
 |C-E
-|Combat
-
-| Expendable
+|Expendable
 |3d6
 |3d6
 |7+2d8
@@ -36,14 +35,10 @@ s|Type Name
 |1+2d8
 |0
 |19+1d10
-|Combat
-
-| Expendable
+|5
 
 |C-D
-|Combat
-
-| Defensive
+|Defensive
 |4d6
 |3d6
 |19+1d6
@@ -51,14 +46,10 @@ s|Type Name
 |1+2d8
 |0
 |19+1d10
-|Combat
-
-| Defensive
+|1d10+20
 
 |C-L
-|Combat
-
-| Offensive-Light
+|Light
 |3d6
 |3d6
 |19+1d6
@@ -66,14 +57,10 @@ s|Type Name
 |1+2d8
 |0
 |19+1d10
-|Combat
-
-| Offensive-Light
+|15+1d10
 
 |C-H
-|Combat
-
-| Offensive-heavy
+|Heavy
 |3d6
 |3d6
 |22+1d3
@@ -81,12 +68,10 @@ s|Type Name
 |1+2d8
 |0
 |26+1d3
-|Combat
-
-| Offensive-heavy
+|15+1d10
 
 |D
-|Data Analyzer
+|Datalyzer
 |3d6
 |3d6
 |1d12
@@ -94,12 +79,10 @@ s|Type Name
 |19+1d6
 |0
 |1d12
-|Data Analyzer
+|1d2+2
 
 |E-P
-|Explorations
-
-| Planetary
+|Planetary
 |13+1d6
 |3d6
 |19+1d6
@@ -107,14 +90,10 @@ s|Type Name
 |1d8
 |0
 |15+1d4
-|Explorations
-
-| Planetary
+|1d6+10
 
 |E-X
-|Explorations
-
-| ExtraPlan.
+|Exatmo
 |13+1d6
 |3d6
 |19+1d6
@@ -122,9 +101,7 @@ s|Type Name
 |23+1d2
 |0
 |15+1d4
-|Explorations
-
-| ExtraPlan.
+|1d6+10
 
 |H
 |Hobbot
@@ -135,12 +112,10 @@ s|Type Name
 |13+1d12
 |0
 |1d8
-|Hobbot
+|2d4
 
-|I-C
-|Industrial
-
-| Construction
+|I-B
+|Builder
 |3d6
 |3d6
 |3d8
@@ -148,14 +123,10 @@ s|Type Name
 |19+1d10
 |0
 |13+1d6
-|Industrial
-
-| Construction
+|1d4+8
 
 |I-L
-|Industrial
-
-| Lifting
+|Lifting
 |3d6
 |3d6
 |3d8
@@ -163,14 +134,10 @@ s|Type Name
 |13+1d6
 |0
 |19+1d10
-|Industrial
-
-| Lifting
+|1d4+8
 
 |I-M
-|Industrial
-
-| Moving
+|Moving
 |3d6
 |3d6
 |3d8
@@ -178,29 +145,10 @@ s|Type Name
 |13+1d6
 |0
 |13+1d6
-|Industrial
+|1d4+8
 
-| Moving
-
-|J-D
-|Janitorial
-
-| Domestic
-|3d6
-|3d6
-|1d8
-|2d8
-|12+1d6
-|0
-|2d8
-|Janitorial
-
-| Domestic
-
-|J-I
-|Janitorial
-
-| Industrial
+|J-C
+|Commercial
 |3d6
 |3d6
 |1d8
@@ -208,9 +156,18 @@ s|Type Name
 |1d12
 |0
 |2d8
-|Janitorial
+|1d8
 
-| Industrial
+|J-D
+|Domestic
+|3d6
+|3d6
+|1d8
+|2d8
+|12+1d6
+|0
+|2d8
+|1d4
 
 |M
 |Maintenance
@@ -221,12 +178,10 @@ s|Type Name
 |8+2d8
 |0
 |1d8
-|Maintenance
+|1d4
 
 |P-C
-|Police
-
-| Civilian
+|Civilian
 |4d6
 |13+1d6
 |13+1d6
@@ -234,14 +189,21 @@ s|Type Name
 |13+1d6
 |0
 |15+1d4
-|Police
+|3d4
 
-| Civilian
+|P-D
+|Detective
+|13+1d6
+|3d6
+|14+1d6
+|19+1d6
+|13+1d6
+|0
+|15+1d4
+|1d3+1
 
 |P-R
-|Police
-
-| Riot
+|Riot
 |3d6
 |3d6
 |14+1d6
@@ -249,29 +211,21 @@ s|Type Name
 |13+1d6
 |0
 |15+1d4
-|Police
+|3d4
 
-| Riot
-
-|P-S
-|Police
-
-| Special Ops.
-|13+1d6
+|R-C
+|Containment
 |3d6
-|14+1d6
+|3d6
 |19+1d6
-|13+1d6
+|7+1d12
+|7+1d12
 |0
-|15+1d4
-|Police
-
-| Special Ops.
+|7+1d12
+|2d10+5
 
 |R-R
-|Rescue
-
-| Retrieval
+|Retrieval
 |3d6
 |3d6
 |19+1d6
@@ -279,24 +233,7 @@ s|Type Name
 |7+1d12
 |0
 |3d6
-|Rescue
-
-| Retrieval
-
-|R-S
-|Rescue
-
-| Spillage
-|3d6
-|3d6
-|19+1d6
-|7+1d12
-|7+1d12
-|0
-|7+1d12
-|Rescue
-
-| Spillage
+|2d10+5
 
 |S
 |Social
@@ -307,12 +244,10 @@ s|Type Name
 |14+1d10
 |0
 |1d8
-|Social
+|1d3+1
 
-|T-P
-|Transport
-
-| Planetary
+|T-I
+|Inatmo
 |3d6
 |3d6
 |1d8
@@ -320,14 +255,10 @@ s|Type Name
 |1d8
 |0
 |1d8
-|Transport
-
-| Planetary
+|1d4+8
 
 |T-X
-|Transport
-
-| ExtraPlan.
+|Exatmo
 |3d6
 |3d6
 |1d8
@@ -335,14 +266,11 @@ s|Type Name
 |21+1d4
 |0
 |1d8
-|Transport
+|1d4+8
 
-| ExtraPlan.
 
 |V-D
-|Veterinarian
-
-| Diagnostic
+|Diagnostic
 |19+1d6
 |13+3d6
 |2d8
@@ -350,14 +278,10 @@ s|Type Name
 |14+1d10
 |0
 |1d8
-|Veterinarian
-
-| Diagnostic
+|2
 
 |V-I
-|Veterinarian
-
-| Interventional
+|Interventional
 |3d6
 |3d6
 |2d8
@@ -365,9 +289,7 @@ s|Type Name
 |20+1d4
 |0
 |1d8
-|Veterinarian
-
-| Interventional
+|2
 
 s|Type
 s|Type Name
@@ -378,7 +300,5 @@ s|DEX
 s|INT
 s|MSTR
 s|PSTR
-s|Type Name
-
-
+s|HPS
 |===

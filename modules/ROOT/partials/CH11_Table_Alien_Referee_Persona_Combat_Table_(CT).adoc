@@ -1,33 +1,49 @@
 // Table 11.9 Alien Referee Persona Combat Table (CT)
 .*Alien Referee Persona Combat Table (CT)*
-[width="75%",cols="4*^",frame="all", stripes="even"]
+[width="75%",cols="5*^",frame="all", stripes="even"]
 |===
-4+<|This is the base combat table for alien referee personae. This may be adjusted by EXPS level as well. 
+5+<|Alien Natural Attack Combat Table. 
 
-s|Weapon Type
-s|Bonus Proficient (BP)
-s|Level Bonus (base\/level)
-s|Maximum Roll (MR)
+s|Attack
+s|Bonus Proficient
+s|Bonus Non-Proficient
+s|Maximum Roll
+s|Damage Adjuster
 
-|A (contact)
-|10 times PSTR
-|PSTR times 2
-|700 plus BP
+|*Type A* +
+Punching +
+Biting +
+Scratching
+|10 * PSTR +
+PSTR * Level
+|--
+|700 + BP
+|--
 
-|B (ranged)
-|10 times INT
-|INT times 2
-|750 plus BP
+|*Type B* +
+Non-Powered +
+Projectiles +
+Spitting
 
-|C (weapons)
-|10 times DEX
-|DEX times 3
-|800 plus BP
+|10 * INT +
+INT * Level
+|--
+|750 + BP
+|--
 
-s|Weapon Type
-s|Bonus Proficient (BP)
-s|Level Bonus (base\/level)
-s|Maximum Roll (MR)
+|*Type C* +
+Powered +
+Projectiles +
+(guns)
+|10 * DEX +
+DEX * Level
+|--
+|800 + BP
+|--
 
-
+s|Attack
+s|BP
+s|BNP
+s|MR
+s|DA
 |===
