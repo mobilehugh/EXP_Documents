@@ -1,14 +1,16 @@
 = Robot Control Factor
+// tag::Control_Factor[]
 Control Factor (CF) is a measure of the robot's free will.
 CF is an attribute unique to the family machinae.
 The higher the control factor the more easily the player can control her persona.
 A robot's control factor depends on her INT and improves with EXPS levels.
 
 == Calculate Control Factor
-.CF= (INT score) + (Prime INT * EXPS Level)
+.CF= (INT score) + (INT Range * EXPS Level)
 ****
-A 3rd level robot with a 15 INT score, and a 3 INT Prime would have a CF = 24
+A 3rd level robot with a 15 INT score, and an INT Range of 3  would have a CF = 24
 ****
+// end::Control_Factor[]
 
 == Why Control Factor?
 Robots are not fabricated with free will in mind. 

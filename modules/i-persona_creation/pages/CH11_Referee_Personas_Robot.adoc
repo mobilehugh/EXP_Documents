@@ -1,56 +1,59 @@
 = Robot RP
 
 Robots are the colloquial name for the family Machinae. 
-Machinae are any life form that is inorganic and fabricated.
+Machinae are life forms that are inorganic and fabricated.
 An organic fabricated life form would be an alien.
 An inorganic non-fabricated would most likely be an alien.
 Robots can be fabricated by Anthros, Aliens or other Robots.
-It is possible for robots to be self replicating, but there would always be an original source.
 
-Most robots will be altered to fit into the milieu of the campaign.
-The referee should massage the robot RP to fit her milieu.
+Robot RPs should be massaged to fit into the milieu of the campaign.
 This section is for helping creativity, not replacing it.
 
 .*Robot RP Fabrication Checklist*
 * *RP ROLL PLAYING (Data)*
-. Relevance
-. Persona Record Sheet
-. Select Type
-. Attributes
-. Size
-. Armour Rating
-. Movement Rate
-. Wate Allowance
-. EXPS Level
-. Vocation
-. Systems
+. <<_robot_rp_roll_playing,Robot Roll Playing>>
+. <<_robot_rp_relevance,Relevance>>
+. <<_robot_rp_record_sheet,Persona Record Sheet>>
+. <<_robot_rp_type,Select Type>>
+. <<_robot_rp_attributes,Attributes>>
+. <<_robot_rp_size,Size>>
+. <<_robot_rp_armour_rating,Armour Rating>>
+. <<_robot_rp_movement_rate,Movement Rate>>
+. <<_robot_rp_wate_allowance,Wate Allowance>>
+. <<_robot_rp_exps_level,EXPS Level>>
+. <<_robot_rp_vocation,Vocation>>
+. <<_robot_rp_systems,Systems>>
 .. Offensive
 .. Defensive
 .. Peripheral
-. Control Factor
-. Adaptability
-. Value
-. Tech Level
-. Age
-. Combat Table
-. Combat Ratio
+. <<_robot_rp_control_factor,Control Factor>>
+. <<_robot_rp_adaptability,Adaptability>>
+. <<_robot_rp_value,Value>>
+. <<_robot_rp_tech_level,Tech Level>>
+. <<_robot_rp_age,Age>>
+. <<_robot_rp_combat_table,Combat Table>>
+. <<_robot_rp_combat_table,Combat Ratio>>
 * *RP ROLE PLAYING (Fun)*
-. Technology
+. <<_robot_rp_role_playing,Robot Role Playing>>
+. <<_robot_rp_technology,Technology>>
 .. Power Source
 .. Sensors
 .. Locomotion
-. Story
+. <<_robot_rp_story,Story>>
 .. Origin, Presence, Goal
 .. Fabricator Type
 .. Personality
-. Appearance
+. <<_robot_rp_appearance,Appearance>>
 .. Shape
 .. Colour
 .. Adornments
-. Beliefs
-. Modifications
-. Name
+. <<_robot_rp_beliefs,Beliefs>>
+. <<_robot_rp_modifications,Modifications>>
+. <<_robot_rp_name,Name>>
 . Have Fun!
+
+== Robot RP Roll Playing
+stuff about dice
 
 == Robot RP Relevance
 Not all RPs are created equal.
@@ -112,28 +115,32 @@ The referee persona record sheet can also be used to keep track of expedition in
 NOTE: *If the referee persona is worth playing it is worth writing down.*
 
 == Robot RP Type
-Roll once for one robot.
-Or pick.
+The robot RP type is generated on the Single Roll Robot Type Table. 
+The referee should massage the robot type to suite her campaign's milieu.
+For example, is a first level expedition ready for a heavy combot. 
+Nope.
 
 include::ROOT:partial$CH05_Table_Robot_Single_Roll.adoc[]
 
 == Robot RP Attributes
-Although attributes for robots are comprised of the usual seven (AWE, CHA, CON, DEX, INT, MSTR, PSTR), their generation differs.
-There are four prime requisites:  CON, DEX, INT and PSTR.
-Each of these is determined initially on a four-sided die and is referred to as the level of the attribute.
-A player that rolls a three for PSTR thus has a PSTR level of 3.
-The level of the attribute is quite distinct from the true value of the attribute.
-The levels are used to determine what robotic type the player will have and must be converted to standard attribute values for play.
-Although a robot's attributes may change in the course of a campaign, its attribute level cannot change.
-So before moving on the persona will be have four attribute levels each between one and four.
-For example the robot Persona Sal has a CON level 0f 2, a DEX level of 2, a INT level of 3 and a PSTR level of 4.
-These attribute levels are endlessly important for robot personas.
-There are no table for adjusting robotic attributes.
+For robot RPs their type determines their attributes.
+Robot RP attributes are generated using the robot look up table below. 
+The attribute look up table gives the direct attribute scores.
+Robot RPs have a mental strength of zero and are not connected to the thinkspace in any way.
+What is missing from this look up table are the attribute ranges for the robot RPs.
 
 include::ROOT:partial$CH11_Table_Robot_RP_Attributes.adoc[]
 
+=== Robot Attribute Ranges
+Some robot abilities depend on the robot's attribute range. 
+For player personas the attribute ranges determine the robot type.
+For robot RPs the robot type determines the attribute ranges. 
+Consult the lookup table below to record the attribute ranges.
+
+include::ROOT:partial$CH11_Table_Robot_RP_Attribute_Ranges.adoc[]
+
 == Robot RP Size
-Big bot booty.
+Robot RP size is broken down in to Wate and Hite.
 
 === Robot RP Wate
 
@@ -141,12 +148,24 @@ include::ROOT:partial$CH11_Table_Robot_RP_Wate.adoc[]
 
 include::ROOT:partial$CH05_Table_Robotic_Size_Wate.adoc[]
 
-==== Extreme Robot Wates
+==== Extremely Light Robots
 There is a small chance that the robot will be minute or humongous.
 Roll 1d100 to make a size check.
-If the roll is one the robot is a nano bot and has a wate of 1 to 1000 grams.
-If the size check is 100 the robot is a mighty machine and has a wate of 5d100 tonnes.
-If the robot is either a nano or a mighty the referee will have to make alterations in step (15) Size amongst other things.
+
+=== Extremely Tiny Robot Size
+A robot that is Tiny has a 1 in 6 chance to be *Nano* instead.
+Nano robots cannot be run by a player but can be introduced by a referee.
+Nano robots have a WATE of  0 to 999 grams (1d1000-1).
+No nano robot will have a WATE greater than a kilogram.
+Nano robots have no change to their attributes or combat values.
+However they are not very effective at ramming. 
+
+==== Extremely Heavy Robots
+A robot that is Gigantic has a 1 in 6 chance to be  a *Mighty Machine* instead.
+Mighty machine robots will have a WATE of 6 to 300 tons (1d50 times 6).
+Mighty machine robots cannot be run by a player but can be introduced by the referee.
+A mighty machine robot uses all the same attribute and combat values of a gigantic alien.
+However in the area of ramming most mighty machines instantly destroy their targets. 
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
@@ -158,15 +177,14 @@ These can be arranged in whatever order works best for the personal.
 
 include::ROOT:partial$CH05_Table_Robot_Dimensions.adoc[]
 
+This table does not work for nano robots or mighty machines. 
 
 == Robot RP Armour Rating
-All bots have a base AR of 700.
-It is important to note that armour rating values are the same for robots and all other personas.
-A robot has no immunity from punches, slashes and bangs just because they are composed of special alloys.
-A successful to hit roll will do damage to a robot as it would to any other target.
-So a to hit roll of 700 or higher would damage a bot with an AR 700 just as it would damage any other persona with an AR of 700.
-Robots are different from biological creatures and damage differently.
-This aspect of damage is covered in this chapter under robotic damage.
+Robot RPs have an AR of 700.
+A robot AR is the same as any other persona AR.
+A successful to hit roll damages the robot as it would any other persona.
+Robots are different from organic personas and damage differently.
+Robot RPs are easy to hit but hard to destroy.
 
 == Robot RP Movement Rate
 Robotic movement rates are determined by the robot's DEX value.
@@ -179,66 +197,78 @@ include::ROOT:partial$CH05_Table_Robotic_Movement_Rate.adoc[]
 == Robot RP Wate Allowance
 Bots are affected by encumbrance, though not as much as other referee personas.
 As expected, weight allowance is determined by the PSTR and the PSTR level of the bot.
-The wate allowance of a robot, measured in kilograms, is determined on the _Robotic Wate Allowance_ table.
 A robot with a PSTR level of 3 and a 17 PSTR would have a wate allowance of 75 kgs.
 This means that the robot can carry 75 kgs before any movement penalties are incurred.
 All penalties of encumbrance apply to robots as they would apply to other personas.
 
+Robot size does not effect a robot's wate allowance.
+
 include::ROOT:partial$CH05_Table_Robotic_Wate_Allowance.adoc[]
 
 == Robot RP EXPS Level
-Good for mechanical skills, and vocations
+EXPS Levels improve the RP's Control Factor, assist in saves and robot attributes.
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Level.adoc[]
 
 == Robot RP Vocation
-Nope.
-Except for maintenance and vets and androids.
+There are very few situations where a robot RP will have a vocation.
+Vet and Maint robots have the vocation of veterinarian and mechanic respectively.
+Androids can pursue a vocation if this suits the referee's milieu.
+Some robot peripherals will enhance the robot RP with a vocation. 
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Class.adoc[]
 
 == Robot RP Systems
-Robotic attacks are rarely built-in devices designed for inflicting damage on targets in combat.
-The robots in EXP have a particularly high level of free will and hence are considered quite insane.
-The majority of &#8220;weapons &#8220;that robots use are improperly utilized robotic devices.
-
-=== All Systems One Lookup
+Robotic RP have offensive, defensive and peripheral systems.
+Offensive and peripheral systems have different strength levels.
+Generating systems for persona robots is convoluted and fun.
+The number of rolls for each system can be found on the single lookup table below.
+Each robot type has different rolls on different tables. 
 
 include::ROOT:partial$CH11_Table_Robot_RP_Systems.adoc[]
 
 === Offensive Systems
+These are the systems that harm others.
+On the lower level tables they are often malfunctioning devices being turned into weapons.
+On higher level tables they are baked in weapons intent on destroying things.
 
 ==== Attack Table One
+These attacks include ramming and peripherals being misused. 
+It is possible to get a roll on Attack Table Two to get more dangerous weapon systems.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_One.adoc[]
-
 
 include::ROOT:partial$CH05_Table_Robotic_Ramming.adoc[]
 
 include::ROOT:partial$CH05_Table_Type_A_Weapon_Type.adoc[]
 
-
 ==== Attack Table Two
+Slightly more dangerous weapons.
+Still mostly consists of malfunctioning devices.
+It is possible to get several rolls on Attack Table One or move up to Attack Table Three.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Two.adoc[]
 
 include::ROOT:partial$CH05_Table_Type_B_Weapon_Type.adoc[]
 
 ==== Attack Table Three
+This table is composed of baked in weapons that are part of real Offensive Systems.
+The robot RP can get many rolls on lower Attack Tables and possibly move up to Table Four.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Three.adoc[]
 
 ==== Attack Table Four
+This table is devoted to lethal weapons that are built in to the robot.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Four.adoc[]
 
 === Defences
-Robot defences are typically malfunctioning peripherals used as a defence in combat, or some kind of industrial hardening to protect the robot to do it's prescribed task.
-Occasionally robots defences are just that, a defence built to protect a robot from abuse.
+Robot defensive systems can arise from misused peripherals that offer unplanned defence.
+Other defense systems represent true hardening of the robot making harder to damage or hit.
 
 include::ROOT:partial$CH05_Table_Robotic_Defences.adoc[]
 
-==== Peripherals
+=== Peripherals
 Peripherals are attachments that give the robot some additional flexibility in performing its tasks.
 These peripherals are non-combative and are used by the robot to survive day to day campaign trials.
 
@@ -247,15 +277,13 @@ include::ROOT:partial$CH05_Table_Primary_Robotic_Peripherals.adoc[]
 include::ROOT:partial$CH05_Table_Robotic_Secondary_Peripherals.adoc[]
 
 == Robot RP Control Factor
-Level and INT
-Control Factor (CF) is essentially a measure of the robot referee persona's free will
-the higher the Control Factor, the more control the referee has over her robot referee persona.
-
-*CONTROL FACTOR (CF) = INT plus (INT level times EXPS LEVEL)*
+// boilerplate comes from Robot Personas
+include::CH05_Robots_Z_CF.adoc[tag=Control_Factor]
 
 == Robot RP Adaptability
-Determines random peripherals
-and level
+Adaptability is added to the performance rolls made by mechanics working on the robot RP.
+Many robot's are hardened against adaptability. 
+Like combots for instance.
 
 == Robot RP Value
 not discussed in polite circles
@@ -267,20 +295,26 @@ If the referee wishes a tech level
 include::ROOT:partial$CH49_Table_TOY_Tech_Level.adoc[]
 
 == Robot RP Age
-Robots do not age
-Decrepitude table
-A robot referee persona's age is related to it's time since fabrication.
-The longer since fabrication the lower its HPS.
+Robots do not age.
+Unlike organic life forms robots only decay from damage and not time. 
+The longer since the robot was fabricated the less HPS that it has. 
+This has be called the table of decrepitude in the past.
 
 include::ROOT:partial$CH11_Table_Robot_RP_Age.adoc[]
 
 == Robot RP Combat Table
-The initial combat table is be calculated here.
-Robots have a bonus non proficient (BNP) of zero.
-Robots have no Maximum Roll (MR).
-Unfortunately the level bonus must be calculated by hand for the robot RP.
-So for example  a robot RP with a PSTR of 20 would increase her BP for Type A attack by 10 at level 2, by 7 at level 3, and by 5 at level 4.
-If the robot is advancing in a class she will use the Anthro Class RP combat table.
+The combat table keeps track of the persona's combat skills and increases with EXPS level.
+The referee persona's combat table is calculated here.
+It is not as exact as a player persona's combat table.
+The combat table is for tactical combat used in the Roll Playing System.
+If you are using the Role Playing System you can skip this step.
+
+This combat table is for baked in offensive systems including ramming attacks.
+Robot RPs only have a bonus proficient (BP) for their baked in attacks. 
+If a robot RP manages to use a gun their To Hit Bonus would be zero.
+This includes robots that have articulations that can use weapons.
+The only exception would be the robot type Android. 
+The robot type android may have a vocation and may use that combat table instead.
 
 include::ROOT:partial$CH11_Table_Robot_Referee_Persona_Combat_Table_(CT).adoc[]
 
@@ -296,69 +330,114 @@ include::ROOT:partial$CH11_Table_RP_CR_Robot.adoc[]
 // heading is === for each table
 include::ROOT:partial$CH11_RP_CR_General.adoc[]
 
+== Robot RP Role Playing
+The first half of referee persona creation involves much dice rolling and data collection.
+Much of the data collected is needed for Roll Playing Rules. 
+For those using the Role Playing Rules much of the data can be ignored, and the results recorded.
+This section is a framework. 
+The referee may choose the descriptive elements or roll them randomly.
+Little or none of the information in this section affects the power of the persona.
+However it does affect the story of the persona. 
+
+NOTE: *These rolls and tables are an aid to creativity. Not a replacement for creativity.*
+
+Use this section as a framework to for creating referee personas that have backstory and plans. 
+
+.*Role Playing Stuff*
+. <<_robot_rp_role_playing,Robot Role Playing>>
+. <<_robot_rp_technology,Technology>>
+.. Power Source
+.. Sensors
+.. Locomotion
+. <<_robot_rp_story,Story>>
+.. Origin, Presence, Goal
+.. Fabricator Type
+.. Personality
+. <<_robot_rp_appearance,Appearance>>
+.. Shape
+.. Colour
+.. Adornments
+. <<_robot_rp_beliefs,Beliefs>>
+. <<_robot_rp_modifications,Modifications>>
+. <<_robot_rp_name,Name>>
+. Have Fun!
+
 == Robot RP Technology
+Qualitative details about how the robots moves, sees, and powers itself.
 
 === Robot RP Power Source
-All bots operate on electrical power but the cell (or supercell) that converts the source into electrical power will vary.
+Robot power sources are science fantasy supercells that allow the robot to operate.
+Recharging may be necessary.
 
 include::ROOT:partial$CH05_Table_Robotic_Power_Cell_Type.adoc[]
 
 === Robot RP Sensors
-All robots will have built-in audio and video sensors which will allow the robot to "`hear`" and "`see`".
-Robots will receive one additional sensor for every 4 points of AWE.
-The new sensor type is rolled on the below table.
+Robot sensors allow the robot RP to hear and see like any other persona.
+The higher the RPs awareness the more sensors they have. 
 
 include::ROOT:partial$CH05_Table_Robotic_Sensors.adoc[]
 
 === Robot RP Locomotion
-This means of locomotion, in addition to being an important necessity, will add a great deal of personality and individuality to the bot.
-The locomotion type is the first indication of the appearance of the robot and it will greatly affect the development of the persona.
-To determine the robot's locomotion type, roll once on Table 11-3.9: Robot RP Locomotion.
+Robot locomotion allows the RP to get anywhere she can fit.
+The locomotion roll plays a large roll in appearance. 
 
 include::ROOT:partial$CH05_Table_Robotic_Primary_Locomotion.adoc[]
 
 include::ROOT:partial$CH05_Table_Robotic_Secondary_Locomotion_Type.adoc[]
 
 == Robot RP Story
+Everything has a story.
+The depth of the story depends on the referee persona's relevance.
+The amount of backstory collected is determined by the relevance of the persona. 
+Cannon fodder have no back story. 
+Canon RPs have all the back story possible.
+The backstory for a referee persona must be massaged to fit into the milieu of the story.
+The Trinity of the RP (origin, presence, and goal) is usually pre-determined by the referee.
+
+Referee personas benefit from a personality, origin, presence, and goal.
+Which of these is the most important is decided by the referee.
 
 === Past
+L33t Un1t is an expendable combot left on the planet from a past war.
+She has no command and control, and wanders around the desert near the expeditions home base.
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Origin.adoc[]
 
 === Present
+L33t Un1t still misses the organizational elements of an organized military force.
+She would be happy to take direction from anyone with military training.
+L33t Un1t will work with the expedition if they offer this kind of direction to her.
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Presence.adoc[]
 
 === Future
+L33t Un1t desires nothing more than to find meaningful leadership.
+She will leave the expedition to follow any combot or military brass from her previous campaign.
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Goal.adoc[]
 
 === Personality
+Robot personalities are accidental and arise from malfunctions and damage to their processes.
+If the robot RP were to be properly 'repaired' she would lose her personality.
 
 include::ROOT:partial$CH11_Table_Introverted_Personality_Trait.adoc[]
 
 === Fabricator Type
-This is the anthro type that the robot referee persona was manufactured for.
-Unless otherwise specified, a bot will not harm or allow to come to harm any member of its manufacturing anthro type.
-So, if a robot were to have an equine base anthro type, then the persona would not be able to damage any equine anthro that she met.
-Nor would the robot allow the equine anthro to accidentally come to harm.
-Non-lethal attacks that inflict small amounts of damage can be employed against a robot's base anthro type.
-A robot will protect a member of its base anthro type from other expedition members also.
-This is a major inconvenience that the player must get around when running a robot.
-Androids (type A) and combat robots (type C) are exempt from protecting their manufacturing anthro type.
-Whenever the referee persona robot wants to damage her manufacturing anthro type she must make a control.
+A robot can not wantonly harm persona from it's fabricator type.
+This is the species that the robot was designed and manufactured for.
+Almost all robots were fabricated by an anthro type.
+In general a robot cannot harm their fabricator type. 
+Nor would the robot allow her fabricator type to come to harm.
+Every robot type, unless specified, follow this programming.
 
 include::ROOT:partial$CH05_Table_Robotic_Base_Anthro_Type.adoc[]
 
 == Robot RP Appearance
-The robot can be shaped like anything the referee wants: fire hydrant, filing cabinet, kitchen appliance, etc.
-If you choose to let the dice decide roll on the following two tables below to get a basic robot shape.
-The robotic shape has no bearing on any other robotic abilities be they attacks, peripherals or defences.
-No gender
+Shape, colours, locomotion type, and peripherals create the robot RP appearance.
+These tables are for inspiration and fun and should not replace referee creativity.
 
 === Basic Shape
 The volume of the robot will fit into this shape.
-Feel free to contort the shape.
 
 include::ROOT:partial$CH05_Table_Robotic_Basic_Shape.adoc[]
 
@@ -377,9 +456,11 @@ Colour make the world go round.
 
 include::ROOT:partial$add_colour_to_your_world.adoc[]
 
-
 == Robot RP Beliefs
-Not likely
+If the referee feels that the robot is sufficiently damaged to express beliefs roll here.
+It is also possible that beliefs are baked in by the robot's fabricators.
+
+include::ROOT:partial$CH11_Table_RP_Beliefs.adoc[]
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Religious_Belief.adoc[]
 
@@ -387,25 +468,16 @@ include::ROOT:partial$CH11_Table_Referee_Persona_Political_Belief.adoc[]
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Philosophical_Belief.adoc[]
 
-
 == Robot RP Name
-Often the most important part of a referee persona is its name.
-The description of a humanoid may be glossed over and that of an aliens forgotten completely but the name will always be remembered.
-The players will recall an RPs name before they will remember her personality, dress, or special abilities.
-There is no question that a referee personas name is much more important to the campaign than that of an expedition persona.
-Often an RPs name will have some significance, like a veterinarian named Ivy Blodgett or a melancholic nothing named Sue Siedal.
+Robot names can get complicated.
+Every robot has a given name.
+The given name was imagined by the robot's malfunctioning brain.
+The given name is created by the player.
 
-Robots are more difficult to name because there is some unwritten rule that they must have letters and numbers in their names, like: QT, oicur12, unit 42, or SNOO-KM series.
-Remember the more insane the robot, the more free willed it is and the more likely that it will have named itself.
-Additional names that the referee may be required to produce for an RP robot are manufacturers name, model line, and unit name.
+Robots can also have a model name and a fabricator name.
+Model and fabricator names are optional.
+The model and fabricator names are usually created by the player.
+The referee may have pre-made model names and fabricators that reflect her milieu. 
 
-Alien families are fun to name.
-The referee will often be naming an entire family as well as the specific species member that she has created.
-A helpful hint in naming alien families is to avoid personification.
-No self-respecting space-faring family would call itself the Obese Ones,
-or the Furry Ones.
-If such alien properties are important to an alien family (which they might well be), translations can mean anything the referee likes and the Vojing Dur
-may translate into Obese Ones
-but in that aliens tongue (if they have tongues) human
-might translate into scrawny geeks.
-Always keep in mind that these creatures are alien and alien sounding words that reflect the alien are the most useful and fun.
+The robot name created here can always be used in common parlance.
+Names that sound like fax machines, look like bar codes or have 600 numbers are only used between robots.

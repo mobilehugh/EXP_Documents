@@ -2,7 +2,7 @@
 .*Robot RP Attributes*
 [width="75%",cols="10*^",frame="all", stripes="even"]
 |===
-10+<|Robot RP attributes are base on the robot type.
+10+<|Attributes are based on robot type. MSTR = 0. 
 
 s|ID
 s|Name
@@ -11,9 +11,9 @@ s|CHA
 s|CON
 s|DEX
 s|INT
-s|MSTR
 s|PSTR
 s|HPS
+s|SS
 
 |A
 |Android
@@ -22,9 +22,9 @@ s|HPS
 |19+1d6
 |19+1d6
 |19+1d6
-|0
 |19+1d10
 |1d8
+|1d1000
 
 |C-E
 |Expendable
@@ -33,9 +33,10 @@ s|HPS
 |7+2d8
 |19+1d6
 |1+2d8
-|0
 |19+1d10
 |5
+|1d1000
+
 
 |C-D
 |Defensive
@@ -44,9 +45,10 @@ s|HPS
 |19+1d6
 |19+1d6
 |1+2d8
-|0
 |19+1d10
 |1d10+20
+|1d1000
+
 
 |C-L
 |Light
@@ -55,9 +57,10 @@ s|HPS
 |19+1d6
 |19+1d6
 |1+2d8
-|0
 |19+1d10
 |15+1d10
+|1d1000
+
 
 |C-H
 |Heavy
@@ -66,9 +69,9 @@ s|HPS
 |22+1d3
 |19+1d6
 |1+2d8
-|0
 |26+1d3
 |15+1d10
+|1d1000
 
 |D
 |Datalyzer
@@ -77,9 +80,10 @@ s|HPS
 |1d12
 |1d12
 |19+1d6
-|0
 |1d12
 |1d2+2
+|1d1000
+
 
 |E-P
 |Planetary
@@ -88,9 +92,10 @@ s|HPS
 |19+1d6
 |7+1d6
 |1d8
-|0
 |15+1d4
 |1d6+10
+|1d1000
+
 
 |E-X
 |Exatmo
@@ -99,9 +104,9 @@ s|HPS
 |19+1d6
 |7+1d6
 |23+1d2
-|0
 |15+1d4
 |1d6+10
+|1d1000
 
 |H
 |Hobbot
@@ -110,9 +115,9 @@ s|HPS
 |1d8
 |1d8
 |13+1d12
-|0
 |1d8
 |2d4
+|1d1000
 
 |I-B
 |Builder
@@ -121,9 +126,10 @@ s|HPS
 |3d8
 |13+1d6
 |19+1d10
-|0
 |13+1d6
 |1d4+8
+|1d1000
+
 
 |I-L
 |Lifting
@@ -132,9 +138,9 @@ s|HPS
 |3d8
 |13+1d6
 |13+1d6
-|0
 |19+1d10
 |1d4+8
+|1d1000
 
 |I-M
 |Moving
@@ -143,9 +149,9 @@ s|HPS
 |3d8
 |19+1d10
 |13+1d6
-|0
 |13+1d6
 |1d4+8
+|1d1000
 
 |J-C
 |Commercial
@@ -154,9 +160,9 @@ s|HPS
 |1d8
 |2d8
 |1d12
-|0
 |2d8
 |1d8
+|1d1000
 
 |J-D
 |Domestic
@@ -165,9 +171,9 @@ s|HPS
 |1d8
 |2d8
 |12+1d6
-|0
 |2d8
 |1d4
+|1d1000
 
 |M
 |Maintenance
@@ -176,9 +182,9 @@ s|HPS
 |2d8
 |8+1d10
 |8+2d8
-|0
 |1d8
 |1d4
+|1d1000
 
 |P-C
 |Civilian
@@ -187,9 +193,9 @@ s|HPS
 |13+1d6
 |19+1d6
 |13+1d6
-|0
 |15+1d4
 |3d4
+|1d1000
 
 |P-D
 |Detective
@@ -198,9 +204,9 @@ s|HPS
 |14+1d6
 |19+1d6
 |13+1d6
-|0
 |15+1d4
 |1d3+1
+|1d1000
 
 |P-R
 |Riot
@@ -209,9 +215,9 @@ s|HPS
 |14+1d6
 |19+1d6
 |13+1d6
-|0
 |15+1d4
 |3d4
+|1d1000
 
 |R-C
 |Containment
@@ -220,9 +226,9 @@ s|HPS
 |19+1d6
 |7+1d12
 |7+1d12
-|0
 |7+1d12
 |2d10+5
+|1d1000
 
 |R-R
 |Retrieval
@@ -231,9 +237,9 @@ s|HPS
 |19+1d6
 |21+1d4
 |7+1d12
-|0
 |3d6
 |2d10+5
+|1d1000
 
 |S
 |Social
@@ -242,9 +248,9 @@ s|HPS
 |2d8
 |2d8
 |14+1d10
-|0
 |1d8
 |1d3+1
+|1d1000
 
 |T-I
 |Inatmo
@@ -253,9 +259,9 @@ s|HPS
 |1d8
 |1d8
 |1d8
-|0
 |1d8
 |1d4+8
+|1d1000
 
 |T-X
 |Exatmo
@@ -264,10 +270,9 @@ s|HPS
 |1d8
 |21+1d4
 |21+1d4
-|0
 |1d8
 |1d4+8
-
+|1d1000
 
 |V-D
 |Diagnostic
@@ -276,9 +281,9 @@ s|HPS
 |2d8
 |19+1d6
 |14+1d10
-|0
 |1d8
 |2
+|1d1000
 
 |V-I
 |Interventional
@@ -287,9 +292,9 @@ s|HPS
 |2d8
 |22+1d3
 |20+1d4
-|0
 |1d8
 |2
+|1d1000
 
 s|Type
 s|Type Name
@@ -298,7 +303,7 @@ s|CHA
 s|CON
 s|DEX
 s|INT
-s|MSTR
 s|PSTR
 s|HPS
+s|SS
 |===

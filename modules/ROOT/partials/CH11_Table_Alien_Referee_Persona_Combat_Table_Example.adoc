@@ -1,0 +1,55 @@
+// Table 11.9 Alien RP Example CT new for 6.0
+.*Example Alien RP CT*
+[width="75%",cols="5*^",frame="all", stripes="even"]
+|===
+5+<|Example Alien CT Level 4, PSTR 10, INT 15, DEX 20. 
+
+s|Attack
+s|Bonus Proficient
+s|Bonus Non-Proficient
+s|Maximum Roll
+s|Damage Adjuster
+
+|*Type A* +
+Punching +
+Biting +
+Scratching
+|10 * 10 +
+10 * 4 +
+= 140
+|--
+|700 + 140 +
+= 840
+|--
+
+|*Type B* +
+Non-Powered +
+Projectiles +
+Spitting
+
+|10 * 15 +
+15 * 4 +
+=210
+|--
+|750 + 210 +
+= 960
+|--
+
+|*Type C* +
+Powered +
+Projectiles +
+(guns)
+|10 * 20 +
+20 * 4 +
+= 280
+|--
+|800 + 280 +
+= 1080
+|--
+
+s|Attack
+s|BP
+s|BNP
+s|MR
+s|DA
+|===

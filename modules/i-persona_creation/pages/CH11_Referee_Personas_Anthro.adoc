@@ -12,34 +12,34 @@ This section is for helping creativity, not replacing it.
 
 .*Anthro RP Delivery Checklist*
 * *RP ROLL PLAYING (Data)*
+. <<_anthro_rp_roll_playing,Roll Playing>>
 . <<_anthro_rp_relevance,Relevance>>
 . <<_anthro_rp_record_sheet,Persona Record Sheet>>
 . <<_anthro_rp_type,Anthro Type>>
 . <<_anthro_rp_size,Size>>
 . <<_anthro_rp_age,Age>>
-. Attributes
-. Movement Rate
-. Armour Rating
-. Wate Allowance
-. Mutation
-. EXPS Level
-. Vocation
-. Equipment
-.. Mundane
-.. Artifact
-. Combat Table
-. Combat Ratio
+. <<_anthro_rp_attributes,Attributes>>
+. <<_anthro_rp_movement_rate,Move>>
+. <<_anthro_rp_armour_rating,Armour Rating>>
+. <<_anthro_rp_wate_allowance,Wate Allowance>>
+. <<_anthro_rp_mutations,Mutations>>
+. <<_anthro_rp_exps_level,EXPS Level>>
+. <<_anthro_rp_vocation,Vocation>>
+. <<_anthro_rp_equipment,Equipment>>
+. <<_anthro_rp_combat_table,Combat Table>>
+. <<_anthro_rp_combat_ratio,Combat Ratio>>
 * *RP ROLE PLAYING (Fun)*
-. Story
+. <<_anthro_rp_role_playing,Role Playing>>
+. <<_anthro_rp_story,Story>>
 .. Origin
 .. Presence
 .. Goal
 .. Personality
-. Appearance
+. <<_anthro_rp_appearance,Appearance>>
 .. Clothing
 .. Hygiene
 .. Gender
-. Beliefs
+. <<_anthro_rp_beliefs,Beliefs>>
 .. Religious
 .. Political
 .. Philosophical
@@ -47,8 +47,19 @@ This section is for helping creativity, not replacing it.
 .. attributes
 .. size
 .. age
-. Name
+. <<_anthro_rp_name,Name>>
 . Have Fun!
+
+== Anthro RP Roll Playing
+This is the data that a referee needs to run a referee persona.
+The referee should massage the roll results to reflect the milieu of her campaign.
+There is less massaging to do in this section than the role playing section.
+Most of the data generated here is for the Roll Playing Rules.
+Elements like armour rating, wate allowance, movement rate are calculated here.
+Most groups that have opted for the Role Playing Rules will not need this data.
+There are some elements that spill over into the Roll Playing Rules.
+For example, anthro type, sub type, mutations, EXPS level and vocation serve both rule systems.
+With experience the referee and players will hone what info they need from both systems. 
 
 == Anthro RP Relevance
 Not all RPs are created equal.
@@ -274,7 +285,6 @@ This is not a given though an RP could be carrying an unidentified toy.
 The referee can choose which ever is the most fun.
 High level referee personas can have tremendous wealth and lots of cool stuff. 
 
-
 .*Referee Persona TOYs*
 * one roll on TOY table per EXPS Level
 * vocation limits do not apply
@@ -345,35 +355,50 @@ include::ROOT:partial$CH11_Table_RP_CR_Anthro.adoc[]
 // heading is === for each table
 include::ROOT:partial$CH11_RP_CR_General.adoc[]
 
-== Anthro RP Role Playing Tools
-A Canon Referee Persona is more than a collection of attributes and artifacts.
-The tables here help the referee fill in the blanks.
-//completely created use as a frame work
+== Anthro RP Role Playing 
+The first half of referee persona creation involves much dice rolling and data collection.
+Much of the data collected is needed for Roll Playing Rules. 
+For those using the Role Playing Rules much of the data can be ignored, and the results recorded.
+This section is a framework. 
+The referee may choose the descriptive elements or roll them randomly.
+Little or none of the information in this section affects the power of the persona.
+However it does affect the story of the persona. 
+
+NOTE: *These rolls and tables are an aid to creativity. Not a replacement for creativity.*
+
+Use this section as a framework to for creating referee personas that have backstory and plans. 
+
+* *RP ROLE PLAYING (Fun)*
+. <<_anthro_rp_story,Story>>
+.. Origin
+.. Presence
+.. Goal
+.. Personality
+. <<_anthro_rp_appearane,Appearance>>
+.. Clothing
+.. Hygiene
+.. Gender
+. <<_anthro_rp_beliefs,Beliefs>>
+.. Religious
+.. Political
+.. Philosophical
+. <<_modifications,Modifications>>
+.. attributes
+.. size
+.. age
+. <<_anthro_rp_name,Name>>
 
 == Anthro RP Story
 Everything has a story.
 The depth of the story depends on the referee persona's relevance.
+The amount of backstory collected is determined by the relevance of the persona. 
 Cannon fodder have no back story. 
-Canon referee personas have all the back story possible.
+Canon RPs have all the back story possible.
+The backstory for a referee persona must be massaged to fit into the milieu of the story.
+The Trinity of the RP (origin, presence, and goal) is usually pre-determined by the referee.
 
-The backstory for a referee personas must be massaged to fit into the milieu of the story.
-
-
-
-All referee personas must have an origin, presence, and goal.
-The origin of an RP should explain where it came from and why it things the way it does.
-The presence of the RP will dictate how and why it interacts with the expedition.
-The goal of an RP is what it wants from the campaign, dictating what it will do with the expedition and when it will part company.
-
-For 95% of the RPs the expedition will encounter, the Trinity of the RP (origin, presence, and goal) will be pre-determined.
-Referee personas such as innocent civilians and animals will have simplistic origins such as migrating through the area or on their way to work.
-Their presence might be riding on the subway or rummaging through the bushes.
-Their goal may be to find some berries to eat or to get to work on time.
-If the expedition frequently intervenes in the lives of such unimportant referee personas, the referee need have no more prepared than usual.
-
-If the referee persona is a more important one the referee must create  a more detailed origin, presence, and goal.
-Let's consider a young man from the farming district of his impoverished planet (origin) is willing to hire on for the expedition as a porter (presence) if they will take him off planet (goal).
-Another referee persona could be a very hungry alien that just jumped out of a tree (origin) and is ferociously attacking the expedition (presence) because the alien's hungry and the expedition members look like something good to eat (goal).
+Referee personas benefit from a personality, origin, presence, and goal.
+Which of these is the most important is decided by the referee.
 
 === Origin
 Vishna Shraloor is a referee persona with death field generation (a mental mutation).
@@ -400,90 +425,102 @@ These are her potential goals.
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Goal.adoc[]
 
-This chapter provides no guidelines on preparing an origin or goal for the referees personas but it does help with the presence of the referee personas.
-In fact, this chapter could be considered a guide on how to prepare a referee personas presence.
-If the ref knows that she needs RPs but has no origins or goals, then it might help to create the persona presence first.
-This is an excellent procedure for sparking the imagination or solidifying a watery idea.
-
-=== Anthro RP Personality
+=== Personality
 The referee is expected to play up these personality traits whenever possible.
-Extroverted personality traits are NOT irrational: a diplomatic RP will not try to play consul to a crazed combat robot but she may intercede between inter-expedition differences.
-Aliens and robots also get a roll on the Extroverted Personality table.
-Properly functioning robots would not have  a shred of personality whatsoever, but the free willed robots of EXP are malfunctioning and extroverted personalities or even insanities are possible.
+Extroverted personality traits are NOT irrational.
+They are just obvious.
+A diplomatic RP will *not* try to negotiate with a heavy combot.
+She will run away.
+She may intercede between player persona arguments about loot distribution.
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Extroverted_Personality_Trait.adoc[]
 
 ==== Introverted
 The Introverted Personality Sub-table indicates subtle personality traits.
-These traits are not too strong and should only be employed by the referee when decisions must be made by the RP.
-Such traits are played discreetly by the referee, and may only occasionally be used or noticed.
+These are not immediately obvious to the players.
+An introverted personality trait may influence a "behind the ref shield" decision. 
 
 include::ROOT:partial$CH11_Table_Introverted_Personality_Trait.adoc[]
 
 ==== Insane
-The Insane Personalities Table lists irrational actions that are basically pathological.
+The insane subset of personality traits represent an illness that impedes the persona's life.
+None of them are specific diagnoses from the DSM, but strong decision influencers.
+Insane personality traits may be very forward and obvious to the players.
+Insane personality traits hold greater influence on the RP's decisions.
+Extroverted and introverted personality traits don't put the persona in harms way.
+Insane personality traits can make for bad decisions in combat. 
+These are the kind of traits that will over ride the better, often safer, decision.
 Insane personality traits can appear in completely unexpected situations, endangering the referee persona and the expedition.
-The easiest and most fun referee personas to play are insane ones, but they should be kept relatively rare since EXP is an insane enough game as it is.
-Referees are not expected to be psychiatrists and can role-play the mental illness however they interpret them.
-If the roll on this table has been directed from the Extroverted Personality Trait Table the insanity will be quite overt.
-If the referee is rolling an insane personality off of the Introverted Personality Trait then the insanity will be less obvious.
+
+NOTE: *Insanity is not played as a disease but as a decision influencer.*
+
+If the RP is here from the Extroverted Personality Trait Table then the insanity is overt.
+If the RP is here from the Introverted Personality Trait Table then insanity hidden.
 
 include::ROOT:partial$CH11_Table_Insane_Referee_Persona_Personality_Traits.adoc[]
 
 == Anthro RP Appearance
-An RPs appearance is divided into two categories: hygiene and dress.
-Hygiene represents the personas normal level of personal care.
-The hygienic habits of the RP are determined on the RP Hygiene table.
-// most important is the type and subtype usually enough
-
-=== Gender
-Not physiology or sexuality. 
-Gender here is appearance only.
-
-include::ROOT:partial$CH11_Table_RP_Gender.adoc[]
+An RPs appearance is divided into three elements: clothing, hygiene and gender.
+All of them are optional.
 
 === Clothing
-The dress of an RP is even more variable than hygiene.
+Clothing is appearance only.
+Clothing does not represent the culture, gender, occupation or personality of the RP.
+The clothing is used to identify the dress choices made.
+It is possible for a RP to change up their clothing as the referee sees fit. 
 An RP may have several favorite styles and may even combine them in some random arrangement.
-The roll on the table dress indicates which type of dress is worn: shoes, shirts, blouses, pants, hair-dos, etc.
-Appearance is mostly directed at anthropomorph RPs, but it can also include aliens or deeply eccentric robots.
-It is easy to imagine a filthy canine lumberjack but an immaculate six legged alien dressed in traditional tribal gowns is harder to visualize.
-Robots can certainly have hygienic qualities, appearing dirty or well washed, but robot dress may be just too absurd.
-For instance, would a 60s style robot have fins and chrome bumpers?
+If the referee has time she could generate a different style for different clothing elements.
+The shoes may be punk rock but the hair do renaissance. 
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Dress.adoc[]
 
 === Hygiene
-Hygiene is not unwavering like an attribute but is dependent on the scenario at hand.
-For example, a habitually immaculate RP that just dived into mud would look like someone who dived into mud;
-a habitually filthy spie would not arrive un-groomed at an aristocratic function she was trying to infiltrate.
-However, the immaculate RP would clean the mud off herself sooner than the filthy spie and the filthy spie would be the first to get soiled at the aristocratic bash.
-The dress of the referee persona does not reflect ANYTHING about the referee persona.
+Hygiene is a general habit that the persona exhibits.
+Hygiene does not influence charisma, social standing or performance rolls.
+
+While variable depending on the scenario the RP tends to ebb back to the hygiene description.
+A habitually immaculate RP that fell in the mud would look like someone who fell into mud.
+A habitually filthy spie would not arrive un-groomed at an aristocratic function.
+The immaculate RP would clean herself off sooner, and better, than the filthy RP
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Hygiene.adoc[]
 
+=== Gender
+Gender represents appearance only.
+Gender does not represent genetics, sexuality, reproduction, or employment.
+Politics of gender are up the the referee and players. 
+
+include::ROOT:partial$CH11_Table_RP_Gender.adoc[]
 
 == Anthro RP Beliefs
-The referee should be prepared to have their preferred personas possess some personal beliefs that may affect their attitude, and how they act while role-playing.
-Beliefs are divided into three categories: political, religious, and philosophical.
-The player will have from 0-3 (d4-1) separate beliefs, where 0 is none and 3 is three rolls on Table 11.19. 
-// ha ha you missed this sentence
+Beliefs are purely cerebral elements of the referee persona.
+They are not nearly as entrenched as personality or hygiene.
+Referee personas may talk the talk about a belief, but how devout they are is variable.
+RP beliefs are what the persona would like to be rather than what they actually are.
 
-include::ROOT:partial$CH11_Table_Referee_Persona__Beliefs.adoc[]
+include::ROOT:partial$CH11_Table_RP_Beliefs.adoc[]
 
-The beliefs are more transient than the RP's personality and they will can conflict directly with the referee persona's personality.
-The belief tables are somewhat self-explanatory and are mostly used as the tack that a particular persona will take when arguing ethics with expedition personas.
+=== Religious Belief
+The list here describes the structure of the religion and does not list existing human religions.
+The nomenclature, structure, hypocrisy, and corruption level is left to the referee and her milieu.
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Religious_Belief.adoc[]
 
+=== Political Belief
+The list here describes the structure of the politics and does not list existing human parties.
+The nomenclature, structure, hypocrisy, and corruption level is left to the referee and her milieu.
+
 include::ROOT:partial$CH11_Table_Referee_Persona_Political_Belief.adoc[]
+
+=== Philosophical Belief
+Some real.
+Some silly.
+All futile mental exercises in futility. 
 
 include::ROOT:partial$CH11_Table_Referee_Persona_Philosophical_Belief.adoc[]
 
 == Modifications
-Referee mods.
-Age go back and do it.
-Gender go back and do it.
+Descriptors that also change attributes or data elements of the referee persona.
 
 include::ROOT:partial$CH11_Table_Anthro_RP_Modifiers.adoc[]
 
@@ -497,13 +534,6 @@ The anthro naming structure is most familiar naming structure.
 * A mechanic - Hans Tinker
 * A mercenary - Hans Grenade
 * A nothing - Hans Ophmistuph
-
-
-Often the most important part of a referee persona is its name.
-The description of a humanoid may be glossed over and that of an aliens forgotten completely but the name will always be remembered.
-The players will recall an RPs name before they will remember her personality, dress, or special abilities.
-There is no question that a referee personas name is much more important to the campaign than that of an expedition persona.
-Often an RPs name will have some significance, like a veterinarian named Ivy Blodgett or a melancholic nothing named Sue Siedal.
 
 
 
