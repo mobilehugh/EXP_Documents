@@ -1,0 +1,49 @@
+// CHO9 Table Robot Combat Table (CT) new for 6.0
+.*Robot Referee Persona Combat Table (CT)*
+[width="75%",cols="5*^",frame="all", stripes="even"]
+|===
+5+<|Base combat table for robotic referee personae. Experience levels may alter this table.
+
+s|Attack
+s|Bonus Proficient
+s|Bonus Non-Proficient
+s|Maximum Roll
+s|Damage Adjuster
+
+|*Type A* +
+Thrusting +
+Striking
+|5 * DEX +
+5 * PSTR +
+PSTR * Level
+|0
+|--
+|PSTR
+
+|*Type B* +
+Throwing +
+Projectile
+|5 * AWE +
+5 * DEX +
+INT * Level
+|0
+|--
+|half PSTR
+
+|*Type C* +
+Energized +
+Projectiles +
+(guns)
+|5 * DEX +
+5 * INT +
+DEX * Level
+|0
+|--
+|None
+
+s|Attack
+s|BP
+s|BNP
+s|MR
+s|DA
+|===
