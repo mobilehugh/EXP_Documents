@@ -1,36 +1,45 @@
 = Combat Tables
 
-+++<div style="color: #222222;">+++The Combat Table is an essential part of the persona record sheet in EXP.
-Each persona's combat table keeps track of how well they can use weapons, what kind of bonuses they get to hit, and ultimately how good they are at combat.
-If the referee is not using the http://expgame.com/?page_id=298[Tactical Combat System] then this table can be skipped altogether.
-the Combat Table is explained in more detail in the combat rules section of EXP.
-Which is not surprisingly titled Combat Rules.
-Section three describes the rules and guidelines for resolving combat during play.
-It is recommended that you read http://expgame.com/?page_id=294[Chapter 25: Introduction to Combat] before attempting to compose any ambitious battles for your players.
-For players, understanding how combat works in EXP is a good idea before sending your persona into a confusing bloodbath.
-The whys and wherefores of clashing arms or tentacles or fusion grenades is discussed in Section Three.
+[quote]
+____
+*All the bonuses the persona takes into battle.*
+____
 
-What you do need to know here is how to record on paper the characteristics that determined a persona's combat ability.
-Chapters 26 and 27 discuss the two combat systems employed by EXP.
-The more complex of these is the Tactical Combat System which attempts to account for factors like terrain, weapon type, and persona experience and how those things affect the outcome of a heated battle.
-Both the Tactical and Theatrical Combat Systems enable the player and referee to simulate anything from vast nuclear exchanges between deep space dreadnaughts down to personal conflict between two martial artists.
+The Combat Table (CT) is an essential part of the persona record sheet and tactical combat system.
+The Combat Table combines all the of the persona's bonuses in one place.
+Attribute bonuses, level bonuses, damage bonuses are on one table.
 
-The Tactical Combat System requires some information about the persona and her attributes.
-This is recorded on the persona's combat table.
-The persona's innate physical and mental finesse will influence how effectively she can wreak destruction on her opponents.
-In order to make the whole act efficient and playable (and hence, fun) the calculation of combat adjustment is completed during persona generation.
-Each persona has her own Combat Table.
-The table is organized by weapon type and for each type gives a value by which to persona's chance of scoring a hit on her target is increased.
+An description of each element of the combat table is given xref::CH27_Tactical_Combat.adoc[here].
+This includes details about attack types, proficiencies, bonuses and adjustments.
 
-There are three weapon types that appear on the Combat Table: A, B, and C.
-A detailed description of these Weapons and how they are used appears in http://expgame.com/?page_id=298[Chapter 27: Tactical Combat] and http://expgame.com/?page_id=300[Chapter 28: Weapons].
-Type A weapons are non-powered thrusting and striking weapons, Type B are non-powered projectile weapons, and Type C are powered weapons.
-The distinction between the three types is made because different attributes come into play when determining the ability to use different weapons.
-For instance, PSTR will obviously have any effect on how well a persona can wield her battle axe but it will have very little effect on her marksmanship with a laser pistol.
+// why is damage an adjustment and to hit is a bonus. should it not be DB damage bonus.
+ 
+== Calculating Combat Tables
+Anthros, robots and aliens all calculate a combat table. 
+The differences between the families are explained in each section of the combat table.
 
-== Generating the Combat Table
+=== Anthro Combat Table
+The anthro attribute component of the combat table is based on the persona's attributes.
+The anthro level component of the combat table is vocation dependent.
+If an alien persona has a vocation they would calculate a combat table from this section.
 
-The important components of the combat table are: Bonus Proficient (BP), Bonus Non-proficient (BNP), Maximum Roll (MR) and Damage Adjustment (DA).
+
+
+
+
+
+
+
+
+
+
+The important components of the combat table are
+. Bonus Proficient (BP)
+. Bonus Non-proficient (BNP)
+. Maximum Roll (MR)
+. Damage Adjustment (DA).
+
+
 The player must record each of these values for each weapon type.
 Weapon types A, B, and C will have its own BP, BNP, MR, and DA.
 These 12 values, even if they are zero, should be recorded on a three row by four column matrix called combat table.
@@ -43,16 +52,16 @@ simply at the appropriate bonus to the kilodie roll and see if it is higher than
 // insert table 137
 
 == Bonus Proficient (BP)
-
 A bonus is anything that adds to the chance of success of an attack.
 All bonuses increase the chance of the to-hit roll being successful because the value is added to the roll.
-&#8220;Proficient&#8221;
-indicates that the persona is skilled at using a certain weapon.
-Proficiency is discussed more thoroughly later in Chapter 27.
+Proficient indicates that the persona is skilled at using a certain weapon.
 The BP is added to any to-hit roll made by a player when her persona is attacking with a weapon she is proficient with.
-The roll to hit is increased and thus the persona's chances to inflict damage are increased also.+++</div>++++++<div style="color: #222222;">+++image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/combatfeline.149-210x300.jpg?resize=210%2C300[Strength is of great benefit to type A weapons,210,link=https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/combatfeline.149.jpg]
+The roll to hit is increased and thus the persona's chances to inflict damage are increased also.
 
-*Attribute Bonuses*: Certain weapon types (A, B, or C) are best employed by personas with specific attributes.
+//+++</div>++++++<div style="color: #222222;">+++image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/combatfeline.149-210x300.jpg?resize=210%2C300[Strength is of great benefit to type A weapons,210,link=https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/combatfeline.149.jpg]
+
+=== Attribute Component BP
+Certain weapon types (A, B, or C) are best employed by personas with specific attributes.
 There is no rule that says a physically weak persona cannot wield a sword but a physically strong persona will be much more effective.
 
 The attribute bonuses are not specific to each conceivable weapon in existence but they are modeled around the weapon types described earlier.
@@ -83,7 +92,8 @@ It shouldn't be necessary to recalculate the entire combat table and simple subt
 If Bob Too's PSTR were to drop two points for whatever reason then it should suffice to subtract 10 from the type A BP, 4 from the B BP, and 2 from the type C BP.
 If the attribute adjustments are only transient then the referee may omit the calculations to ensure playability.
 
-*Experience Bonuses*: The BP is contingent on two factors: the persona's attributes and experience level.
+=== Level Component BP
+The BP is contingent on two factors: the persona's attributes and experience level.
 These two factors are added to complete the BP for characters as they attain higher levels.
 At first, low level personas will be dependent mostly on the persona's natural attributes and not on her experience level.
 The BP will increase as the persona gains EXPS and increases her level.
@@ -97,14 +107,11 @@ Combat classes have a much greater BP increase per level than the non-combat cla
 For each combat situation that the persona survives, she earns experience points.
 EXPS can be earned for carrying out class skills and the combat classes receive more experience for combat than the other personas.
 Each experience level represents a higher level of expertise in general combat.
-http://expgame.com/?page_id=273[Chapter 15: Experience] provides a detailed explanation of experience and explains how each class improves its Combat Table statistics with experience.
 
-+++<figure id="attachment_1421" aria-describedby="caption-attachment-1421" style="width: 224px" class="wp-caption aligncenter">+++[.wp-image-1421.size-medium] image::https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/critical_fail_138-224x300.png?resize=224%2C300[If you don't know how to use a tool, errors are more likely.,224,link=https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/critical_fail_138.png]+++<figcaption id="caption-attachment-1421" class="wp-caption-text">+++If you don't know how to use a tool, errors are more likely.+++</figcaption>++++++</figure>+++
+// +++<figure id="attachment_1421" aria-describedby="caption-attachment-1421" style="width: 224px" class="wp-caption aligncenter">+++[.wp-image-1421.size-medium] image::https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/critical_fail_138-224x300.png?resize=224%2C300[If you don't know how to use a tool, errors are more likely.,224,link=https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/critical_fail_138.png]+++<figcaption id="caption-attachment-1421" class="wp-caption-text">+++If you don't know how to use a tool, errors are more likely.+++</figcaption>++++++</figure>+++
 
 == Bonus Non-Proficient (BNP)
-
 The BNP is used for to-hit rolls when the persona is not proficient with a particular weapon.
-How to determine whether a persona is proficient with a certain weapon or not is explained in http://expgame.com/?page_id=298[Chapter 27: Tactical Combat] under Proficiency.
 
 Whether or not a persona is proficient in a particular weapon depends on the player.
 The weapons that a persona is proficient in are chosen by the player and are recorded on the persona record sheet.
@@ -128,26 +135,18 @@ Personas will find themselves using proficient weapons as often as possible.
 
 // insert table 143
 
-*Aliens and Robots*: These two classes are special cases.
-Before an alien would be able to attempt using a weapon other than it's natural attack it would have to be a tool user.
-If that alien were a tool and had a class then it would use the persona class BNP above.
-Aliens that are not tool users cannot pick up random weapons and use them.
-Robots are similarly limited depending on their robot type, attachments and level of insanity.
-The &#8220;natural weapons&#8221;
-of robots are usually malfunctioning peripherals that were built in at manufacture.
-The exception are androids or robots with attachments that would allow them to utilize weapons.
-Both aliens and robots would require a high level of referee interpretation of specific situation.
-Which means don't be afraid to use sphincter dice described in Chapter
+. Anthros
+. Robots
+. Aliens
 
 == Maximum Roll (MR)
-
 The maximum roll is the third column of the combat table.
 It is simultaneously the most important component and the most frustrating component of the tactical combat table.
 The maximum roll is the highest to-hit roll that the player can make.
 If her maximum roll is 894 then anything that she rolls on kilo-dice that is higher than 894 is announced as 894.
 If her kilo-die roll is 987 plus a BP of 134, her final to hit roll is 894, not 1121.
 
-+++<figure id="attachment_1423" aria-describedby="caption-attachment-1423" style="width: 300px" class="wp-caption aligncenter">+++[.size-medium.wp-image-1423] image::https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/maximumroll.151-300x248.png?resize=300%2C248[Some of us will never have the skill to hit the target.,300,link=https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/maximumroll.151.png]+++<figcaption id="caption-attachment-1423" class="wp-caption-text">+++Some of us will never have the skill to hit the target.+++</figcaption>++++++</figure>+++
+//+++<figure id="attachment_1423" aria-describedby="caption-attachment-1423" style="width: 300px" class="wp-caption aligncenter">+++[.size-medium.wp-image-1423] image::https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/maximumroll.151-300x248.png?resize=300%2C248[Some of us will never have the skill to hit the target.,300,link=https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/maximumroll.151.png]+++<figcaption id="caption-attachment-1423" class="wp-caption-text">+++Some of us will never have the skill to hit the target.+++</figcaption>++++++</figure>+++
 
 The MR is directly tied to the persona's BP and increases with experience levels.
 Thus the higher the persona's level, the higher the maximum roll and the more that she is capable of scoring a hit on.
@@ -157,13 +156,25 @@ That is her persona's MR for that weapon type regardless of whether she is using
 
 // insert table 138
 
+Without the Maximum Roll (MR) the referee will find that low levels personas are could be just as successful in lethal personal combat as much higher level personas.
+If there is no limiting difference between low and high level personas in combat then there is no point in having combat classes advance in experience levels.
+Occasionally a persona will be unable to hit a particular target because its armour rating is too high.
+This will leave some players feeling helpless and frustrated.
+That would indicate that its time for their persona to run away.
+
+The maximum roll also raises a problem of realism for the referee.
+Should a persona know that she cannot hit a target?
+Is it realistic for a persona to stop attacking a ferocious alien after just one failed attack?
+The referee may deceive the players (for realism of course), by pretending that a maximum roll is a hit, recording the damage, but not subtracting it from the targets hit point total.
+After a while the players will realize that the alien has withstood tremendous amounts of damage, but it is still being ferocious.
+It is then a role-playing decision whether or not to continue the combat, or to enact a tactical withdrawal.
+
 If a veterinarian persona has a BP of 95 for type A weapons, her maximum roll for type A weapons would be 720.
 Any to hit roll that the player made for type A weapons could be no higher than 720.
 The MR is calculated for all three weapon types and applies to any weapon in that category be it proficient, non-proficient, or skilled (only mercenaries have weapon skills).
 If the same veterinarian's BP were to increase to 106, then her MR would increase to 731 and any to hit roll greater than 731 would be announced as 731.
 
 == Damage Adjustment (DA)
-
 Damage adjustments are made for any non-powered attack that the persona uses.
 A stronger persona could generate more killing forces, more damage, than a weaker persona when using a weapon that depends on PSTR for damage.
 
@@ -181,44 +192,57 @@ Consult the Damage Adjustment table for more information.
 
 // insert table 141
 
-== Initial Proficiencies
+== Each Family Has own Calc Chart
 
-"`Proficient`" means that the persona can use the design of a weapon so that it aids her in combat.
-Proficiency is more akin to weapon familiarity than it is to weapon skill.
-It allows the persona to hit with the edge of a sword, use the full leverage of a pike, and point a gun in the right direction.
-Each single proficiency refers to a single weapon.
+. anthro CT
+. robot CT
+. alien CT
+
+
+== Weapon Proficiencies
+
+. Anthros
+. Robots
+. Aliens
+
+
+Proficient means that the persona can use the design of a weapon so that it aids her in combat.
+Proficiency is more similar to weapon familiarity than it is to weapon skill.
+It allows the persona to hit with the edge of a sword, use the full leverage of a pike, and aim a gun in the right direction.
+Each proficiency refers to a single weapon.
 Thus a persona that can have 3 proficiencies can choose 3 specific weapons that she is proficient in.
-If a persona is proficient in a weapon, it means that her player can add the BP to any to hit rolls that she makes.
-Proficiency does not increase the persona's ability to score a hit by increasing her bonus proficient but it allows the player to add her entire BP to any to hit rolls that she makes.
+If a persona is proficient in a weapon it means that her player can add her personas Bonus Proficient (BP) to any to hit rolls that she makes.
+Proficiency does not increase the personas ability to score a hit by increasing her bonus proficient, but it allows the player to add her entire BP to any to hit rolls that she makes.
+Combat based persona classes like nomads, spies, and knites get more proficiencies that non-combat classes like mechanics, biologists and nothings.
 
-Acquiring Proficiency: Personas are not automatically proficient in all weapon types and they must choose them carefully.
-For example, being proficient with a laser may be really fun until its batteries run out.
-In the long run a crossbow proficiency may have been a better choice.
+Personas are not automatically proficient in all weapon types, and they must choose them carefully.
+For example, being proficient with a laser may be really fun until its batteries run out, and in the long run a crossbow proficiency may have been a better choice.
 What weapons a persona is proficient in is completely determined by the player.
-Weapon proficiencies need not be chosen all at the same time and the player can wait until the right weapon for her persona comes along.
+Weapon proficiencies need not be chosen all at the same time, and the player can wait until the right weapon for her persona comes along.
+The number of weapons that a persona can be proficient in is limited, and is dependant on her class.
+Combat classes start with more proficiencies and learn new ones faster, while non-combat class personas will become proficient in very few weapons.
 
-The number of weapons that a persona can be proficient in is limited and is dependent on her class.
-Combat classes start with more proficiencies and learn new ones faster while non-combat class personas will become proficient in very few weapons.
-
+=== Initial Proficiency
 Each persona has an initial number of proficiencies when she starts at first level.
-The number of proficiencies is determined on Table 9.6: Weapon Proficiency.
+The number of proficiencies is determined Chapter 9: Combat Table.
 Each proficiency represents familiarity with one particular weapon.
-According to this table, a nomad could be proficient in up to three powered (type C weapons) at first level.
-She does not have to choose all three of these proficiencies in first level and, in the case of type C weapons, the persona may not even encounter them.
+She does not have to choose all three of these proficiencies in first level, and in the case of type C weapons the persona may not even encounter them.
 
-// insert table 144
 
-*Special*: Aliens and robots will only gain proficiencies in weapons if they have acquired a class.
-For example an alien would have to be a tool user, and have a class to learn additional weapon proficiencies.
-Robots may learn how to use a new malfunctioning peripheral as a weapon but that will have to be worked out by the referee and player.
-Mercenaries are proficient in all weapons.
-That is a basic class ability.
-Nothings get proficiency in one weapon total and never gain proficiency in any more.
 
-== Example Combat Table
+// isn't there a table for this
 
-Let's add the class of Nomad to our example persona Bob Too.
-Bob Too has the following attributes: AWE 10, DEX 16, INT 12, and PSTR 12.
-Check out Bob Too's complete combat table as a nomad below.
+=== Acquiring Proficiencies
+If the player chooses that her persona is proficient in a particular weapon then she simply records it on her persona record sheet.
+The player may find that 3 non-powered weapons aren't enough proficiencies for her nomad, because she has encountered some additional weapon that she would love to be proficient in.
+The player can add new proficiencies as her persona increases in experience levels.
+If the nomad described earlier had used up all her proficiencies for type A and B weapons then she would have to wait until 3rd level before she can add another non-powered weapon proficiency.
+The number of initial proficiencies, and the intervals that new ones are added are listed on the 
 
-// insert table 142+++</div>+++
+// proficiencies per level
+
+. Anthros
+. Robots
+. Aliens
+
+
