@@ -170,6 +170,7 @@ Including: weapon type, to hit bonuses, EXPS levels, weapon proficiencies and lu
 * Combat Tables
 * Proficiencies
 
+// tag::Attack_Types[]
 === Attack Types
 EXP has an enormous variety of weapons.
 A primer on weapon types is needed to understand attack bonuses.
@@ -225,6 +226,9 @@ Type B AOE are thrown at the target hex (hand grenade).
 Type C AOE are shot at the target hex (grenade launcher).
 Type A AOE would be a suicide vest.
 
+// end::Attack_Types[]
+
+
 === The Combat Table
 In the tactical combat system every persona has a combat table.
 The  combat table blends skill level, vocation, weapon type and attributes into one bonus.
@@ -240,7 +244,7 @@ TIP: If the concept of a combat table seems onerous we recommend the Theatrical 
 
 include::ROOT:partial$CH27_Table_CT_Example.adoc[]
 
-We will use the story of a anthro nomad persona who is in a tight spot to demonstrate.
+We will use the story of a nameless nomad anthro persona who is in a tight spot.
 
 ==== Bonus Proficient (BP)
 The BP value is added to rolls with weapons the persona is skilled with.

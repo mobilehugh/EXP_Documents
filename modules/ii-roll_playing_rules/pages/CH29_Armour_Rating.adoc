@@ -1,15 +1,20 @@
 = Armour Rating
 
-Personal body armour is a perverse form of self-defense.
-It is designed to protect someone who cannot, or will not, avoid combat situations.
-It is as much an instrument of violence as any weapon.
-The best way to avoid taking damage from combat is to avoid combat, but many personas happily wade into any altercation they can find or create.The body armour described in this chapter is mundane, or non-artifact, armour.
-Mundane armour is not as exciting as artifact armour, and it is usually cumbersome, uncomfortable and difficult to put on.
+The armour rating (AR) s a universal measurement of how difficult something is to hit.
+Armour Rating (AR) is not solely a measure of worn armour or hide thickness.
+The armour rating is a collection of hide, dexterity, worn armour and luck.
+The armour rating represents a single number that determine how difficult a target is to hit and damage.
+Players need to score a to hit roll higher than the target's armour rating to do damage.
+Referees need to score at to hit roll higher than the persona's AR to do damage.
 
-// *Persona Armour Rating (AR) = 500 plus six times DEX*
+.*Elements of Armour Rating*
+. Naked Armour Rating
+. Armour Adjustment
 
-== Armour Rating
-
+== Naked Armour Rating
+Calculation of armour ratings for each of the family types.
+This is the persona's armour rating wearing no protection at all. 
+Armour increases the persona's armour rating and has other effects on the persona.
 
 .Anthro AR = 500 + 6 * DEX
 ****
@@ -26,20 +31,28 @@ Robots have no AR adjustment. Easy to hit, hard to kill.
 Alien AR is random and unaffected by body type.
 ****
 
-The armour rating (AR) s a universal measurement of how difficult something is to hit.
-An anthro persona with a DEX attribute of 15 and not wearing any armour would have a natural armour rating (AR) of 590.
-Alien and robotic armour ratings are discussed in their respective chapters.
-Other targets such as walls, doors, and broad sides of barns have armour ratings also.
-Just because something has no active defences, or no active interest in defending itself doesn't mean that it has no armour rating.
-The armour particulars discussed here are for anthropomorph personas;
-however, the principles are the same whether they be applied to aliens or furniture.
+.Inanimate Object AR
+****
+If an object with no AR needs an AR go <<_inanimate_objects,here>>.
+****
 
-== Armour Rating
+== Armouring 
+// this is mundane armour
+// artifact armour
+// pull trigger on adjusting the 500 depending on restrictiveness
+
 The protection of mundane armour is offered through simple mechanics: thicker hides absorb and distribute forces, while special surfaces deflect blows.
 The persona's DEX attribute also plays an important role in a persona's defence: dodging, twisting, etc.
 All of these factors are combined into one single value called armour rating (AR).
 The higher the AR the better.
 Stronger materials, better armour design, and superior quality of workmanship all contribute to a higher armour rating AR.
+
+// differentiate between armour rating and armour
+// armour rating is a number, armour is a thing
+
+== Armour Parameters 
+
+// BONUS not a flat rate
 
 When the player is making a to hit roll she is trying to roll higher than the target's armour rating.
 Like the target'
@@ -58,7 +71,7 @@ An unarmoured persona would be much easier to hit, because her Armour Rating AR 
 Layering of armour is to be discouraged.
 If two armour types are combined the persona will only gain protection from the higher AR, but the two restrictiveness of the two armour type are added together.
 
-== Restrictiveness
+=== Restrictiveness
 The next most important factor of body armour is its restrictiveness.
 Restrictiveness is a rating of how badly the armour hampers a persona's actions compared to an unarmoured state.
 The higher the restrictiveness, the more binding, cumbersome and generally claustrophobic the armour is.
@@ -72,7 +85,7 @@ Just for interest, deactivated powered armour has a restrictiveness of 15.
 There is no reason why armour couldn't have a negative restrictiveness, where it actually assists the persona's movement when she is wearing it, but this armour type definitely wouldn't be found in the mundane armour chapter.
 The restrictiveness of the armour can affect movement, Performance  Rolls and even armour rating.
 
-== Physical Strength
+==== Physical Strength
 Sheer power can be used to reduce the restrictiveness of armour.
 For every 5 points of PSTR that the persona has she can reduce the armour restrictiveness by 1.
 The armour still has its restrictiveness but the persona is strong enough to power through it.
@@ -80,7 +93,7 @@ A person with an 11 PSTR wearing plate armour would reduce the restrictiveness f
 A persona with an 8 PSTR could wear padded armour as if she were unarmoured.
 The are benefits to reducing the restrictiveness of armour.
 
-== Movement
+==== Movement
 The restrictiveness of armour affects the movement rate of a persona.
 The more binding and cumbersome armour type is the more the persona is slowed.
 Table 29.2: Movement Penalty shows the h/u penalty of armour restrictiveness.
@@ -96,8 +109,7 @@ For instance a persona with a 16 PSTR, and leather armour (restrictiveness 1) wo
 Does this mean that she gets a movement bonus?
 Most referees will immediately rule that there can be no movement bonus from extensions of the Movement Penalty Table, but it might be an excellent way to include the impact of PSTR on movement rates.
 
-
-== Performance Rolls
+==== Performance Rolls
 Many classes must pay attention to the restrictiveness of armour types.
 Classes which require nimble actions, physical contact, or keen senses, are penalized when attempting class skills while wearing certain armour types.
 This does not stop personas from wearing any armour they wish, but any class skills they pursue will be penalized.
@@ -107,8 +119,8 @@ If the relevant piece is not removed, the DD of the task attempted in increased 
 If a veterinarian, wearing scale mail, is trying to do a quick fix on a wounded persona she must remove her helmet and gauntlets or suffer a DD 4 penalty.
 If there are further questions about DDs and performance table then refer to chapter 14, Performance Tables.
 
-=== Armour Rating
-  An armour type's restrictiveness determines the AR DEx bonus awarded to personas when using the tactical combat system.
+=== Armour 
+An armour type's restrictiveness determines the AR DEx bonus awarded to personas when using the tactical combat system.
 The theatrical'
 combat system is not obligated to AR DEx bonuses, but they can easily be included.
 The AR DEX bonus improves the persona's armour rating, and it makes the persona harder to hit.
@@ -128,7 +140,7 @@ If the persona's armour has been reduced to a negative restrictiveness (due to P
 According to the equation armour with a restrictiveness of-2 should get 8 times DEX added to it.
 Most referees, being sane and rational people, will not allow Armour Rating DEX bonus to exceed 6 times the persona's DEX.
 
-== Armour Wate
+=== Wate
 The wate of armour is excluded from the persona's wate allowance if she is wearing it.
 Armour is designed for combat movement and its wate should be properly distributed over the entire body.
 Only if the armour is carried is its wate added to the persona's wate allowance.
@@ -141,7 +153,14 @@ The designer heading gives the % of body wate that the armour should weigh when 
 This means that armour will vary according to the individual wearing it.
 If a persona whose wate is 83 kg were to have a suit of banded armour (10% body weight) made for her, the armour would weigh 8.3 kgs.
 
-//+++<figure id="attachment_2023" aria-describedby="caption-attachment-2023" style="width: 280px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/08/armourrating.309-280x300.png?resize=280%2C300[Armour Rating is a combination of protection, agility and luck.,280]](https://i1.wp.com/expgame.com/wp-content/uploads/2014/08/armourrating.309.png)+++<figcaption id="caption-attachment-2023" class="wp-caption-text">+++Armour Rating is a combination of protection, agility and luck.+++</figcaption>++++++</figure>+++
+:art: armour_rating_burning_tail.png
+:width: 250px
+:snark: Comnining protection, agility and luck.
+:artist: Andrew Brechin
+:date: 1991
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
 
 == Mundane Armour Types
 A brief description of the composition, advantages and disadvantages of each armour type is listed below.
@@ -232,7 +251,7 @@ In the tactical combat system, many weapon types can aid a persona's AR if prope
 Before any device can be used as shielding, the persona must take proficiency in that shield type.
 This means that a persona with three proficiencies would only have two after choosing a shield for shielding.
 Contrary to some opinion, the ability to use a shield is not innate and trivial, but rather an acquired ability.
-The Armour Rating (AR) bonus awarded for the described shielding types are listed on Table 29.2: Shielding__.__
+
 
 // insert table 234
 
@@ -278,7 +297,7 @@ The combinations could involve a plastix helmet with no armour, or a metal breas
 The only way that this armour type can be run is by employing the Hit Location table (See chapter 36).
 The ref determines where the attack is going to land, and then rolls to hit against the appropriate armour rating.
 
-== Inanimate Object Armour Ratings
+== Inanimate Objects
 The first thing that referees will realize is that personas like attacking things that aren't really targets.
 These include door knobs, walls, windows, car wheels, and a host of other things that the referee can't possibly have prepared armour ratings for.
 In light of the expected unexpected some guidelines for ad-libbing are included here.
