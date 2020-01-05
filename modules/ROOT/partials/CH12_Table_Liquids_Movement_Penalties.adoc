@@ -1,0 +1,69 @@
+// Table 12.5 Liquids Movement Penalties
+.*Liquids Movement Cost*
+[width="75%",cols="6*^",frame="all", stripes="even"]
+|===
+6+<|Movement cost in hexes. Splash, swim, sink etc. 
+
+s|Depth
+s|Tiny
+s|Small
+s|Medium
+s|Large
+s|Gigantic
+
+|Ankles
+|3 hex
+|2 hex
+|1 hex
+|0
+|0
+
+|Knees
+|4 hex
+|3 hex
+|2 hex
+|1 hex
+|0
+
+|Legs
+|Swim
+|4 hex
+|3 hex
+|2 hex
+|1 hex
+
+|Waist
+|Swim
+|Swim
+|4 hex
+|3 hex
+|2 hex
+
+|Shoulder
+|Swim
+|Swim
+|Swim
+|4 hex
+|3 hex
+
+|Deep
+|Swim
+|Swim
+|Swim
+|Swim
+|4 hex
+
+|Way Deep
+|Swim
+|Swim
+|Swim
+|Swim
+|Swim
+
+s|Depth
+s|Tiny
+s|Small
+s|Medium
+s|Large
+s|Gigantic
+|===

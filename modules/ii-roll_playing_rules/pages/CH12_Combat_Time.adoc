@@ -1,54 +1,95 @@
 = Combat Time
 
-Not everything happens at once, and to keep matters that way, EXP uses the concept of time.
-Every action in the game occurs at a particular time, and all events happening at the same time happen at once.
-Moreover, time flows that is, it runs in a smooth progression from any given time to any other, passing through every time in between, and it cant be stopped.
-The concept is tricky, but fairly intuitive for anyone brought up on the inside of a universe.
+[quote]
+____
+Time keeps everything from happening at once.
+____
 
-Slightly more subtle is the idea of game time.
-It might take a player five minutes to calculate all the ProficiencyTable adjustments for a particularly complex manoeuvre, but her persona, blithely detaching the boomerang from her left shoe as she dives through the fog into her waiting space vehicle, will finish the entire episode for better or worse in only a few seconds.
-On the other hand, a comment like, Ill unlock the big door with the gargoyles on it,
-might imply several minutes:of frenzied work for the persona, while, Are you talking to me, Batface
-would drawl at exactly, the same speed both in the game and out of it.
+Combat time is completely different from typical role playing time.
+Massive amounts of time in EXP can be covered quickly in the mundane world.
+Personas can travel great distances in the blink of an eye. 
+Players can repair a weapon with a roll of the dice.
+The expedition could 'hang out' for a month while a persona heals.
+An instant of mundane time can equal days, months and occasionally years of time for personas.
 
-Time for the personas in EXP, simply put, flows at a rate which bears little or no resemblance to time in the real world.
-To help distinguish, EXP measures game time by the unit.
-A unit lasts for two seconds of game time, or for one round of combat, regardless of how long in real time it takes to play out.
-Its passing indicates how far a persona can move at a stretch, how many to hit rolls she can make before her opponent strikes back, or how much time she has left to use her mutation.
-Naturally, two seconds isn't very long  but to pose a shorter duration would keep personas from finishing the simplest tasks in one go.
-Likewise, a longer interval would leave too much time unaccounted for: a unit is about the smallest measure of time in which personas can accomplish a reasonable amount of activity.
+Combat time is the opposite. 
+In combat time seconds can take minutes of mundane time to work through.
+Consider a persona detaching a boomerang from her while diving though the fog into a moving space vehicle. 
+Her player can describe this plan in seconds, however making the (un)necessary rolls could take a few minutes. 
+Once tactical combat starts movement is kept track of using minis on a hex mat.
+Attack rolls involve consulting a combat table, arithmetic and dice rolling.
+Everything slows down in combat time. 
 
-Unlike personas, however  especially combat-prone personas  civilizations rarely operate on a two-second scale EXP thus has many longer divisions of game time by which numerous other important activities, from sleeping to mapping the fall of a galactic civilization, can be measured.
-These are listed in Table 12.1, Time Components, below, along with their equivalents in units and their real time analogues.
+== When Does It Start
+Combat time starts when the referee or players decide so.
+The hex map rolls out, the minis are thrown down and persona's lives are on the line.
+If a persona's life is on the line combat time should be activated. 
 
-// table 147 goes here
+== When the Unit Measure Is A Unit
+The unit of time employed in combat time is a call a unit.
+In the EXP world a unit is 2 seconds. 
+Units are only used in combat time.
+In the mundane world a unit could take 10 minutes to play out.
+That means 2 seconds for the personas can take 10 minutes of mundane time to work through.
+
+[quote]
+____
+*A __turn__ is called a UNIT and is TWO SECONDS in duration.*
+____
+
+== When Is My Turn?
+The unit is the closest thing to a turn that exists in tactical combat.
+Every persona gets to act during every unit of combat time. 
+Some personas will run, some will attack, others will run and attack. 
+Running is represented as tokens moving on the hex mat.
+Attacking requires checking line of sight, reading the combat table, and rolling dice.
+
+Order of action is crucial in combat and the player's take turns based on the the xref::CH33_Initiative.adoc.adoc[Initiative system].
+While each player gets a turn with her persona each unit the __order__ of turns is decided by initiative.
+
+Time is important in EXP but initiative makes the tactical combat system even more tactical.
+The xref::CH33_Initiative.adoc.adoc[Initiative] system incorporates, dexterity, level, skills and luck to give fast experienced personas the advantage over lumbering neophytes.
 
 == Doing Things
-An active persona can do a surprisingly amount in two seconds.
-Players will often push their personas to the limit of time and space.
-They will often be attempting compilations of actions that will make the referees head spin.
-If only they would stick to straightforward moving and attacking!
-There are two basic types of things that can happen: activities and actions.
-There are tables listing examples of both, and the impact on the persona.
-Success of such manoeuvres  are governed by performance tables.
+An active persona can accomplish a lot in two seconds.
+Players push their personas to the limit of time and space.
+In the end there is only so much that can get done in two seconds.
+Referees will spend a fair amount of time reminding players of how short two seconds is.
 
-=== Activities
-Activities preclude the personas ability to move or attack.
-They have a specific duration can take place during combat, but the persona cannot move or attack while carrying out these activities.
-For example counting 100 eps would take 10 units and that would be all that the persona could do for 10 units.
-This would only be necessary to calculate if the persona needs to count money while the rest of the expedition is engaging in combat.
-Examples are listed on Table 12.2: Duration of Activities.
- 
-// table 152 goes here
+.Three Things Per Unit
+. Movement
+. Action
+. Movement and Action
 
-=== Actions
-Actions are bonus undertakings that have an effect on movement rate, but do not prevent combat.
-Most have a movement penalty, and the most complex stop movement, but allow to hit rolls to still be made..
-Typical actions are listed on Table 12.3 Typical Actions.
-Actions are particularly simple manoeuvres that Do need not replace movement as the sole activity in a unit (like an activity does).
-A moving persona can push open an unlocked door with only a small movement penalty, but unlocking the door would stop the persona cold.
-Where the effect is Choose
-the persona may choose to either move and do the action or attack and do the action but not both.
+=== Movement
+Pure movement indicates the persona is doing nothing other than moving.
+The persona could be running, crawling or cowering in fear.
+The player moves the mini representing her persona on the hex mat.
+Even pure movement can become complex when including terrain, barriers and movement types.
+The details of tactical combat movement is covered in the xref::CH12_Combat_Movement.adoc[Combat Movement] section.
 
+=== Action
+Pure action indicates the persona is doing something an not moving.
+The persona could be attacking, picking a lock, or cowering in fear. 
+The player would be making attack rolls, performance rolls or hiding under the game table.
 
-// table 153 goes here
+NOTE: *Under non-combat time such actions are completed immediately and are not measured.*
+
+Some actions can be completed within a unit.
+Other actions cannot be completed in a unit.
+The only action that is guaranteed to fit into the combat unit is an attack. 
+Some actions preclude the persona's ability to move or attack.
+Many actions require too much attention to either move or attack. 
+If a persona undertakes such an activity they cannot participate in combat while doing so.
+
+include::ROOT:partial$CH12_Table_Example_Activities.adoc[]
+
+=== Movement and Action
+Some actions take less than a unit but still require attention from the persona.
+These actions result in small movement rate adjustments.
+The table is included here for convenience.
+These are actually elements that 
+
+NOTE: *Attacking is the most common action in combat. There is no movement cost for attack rolls.*
+
+include::ROOT:partial$CH12_Table_Example_Actions.adoc[]

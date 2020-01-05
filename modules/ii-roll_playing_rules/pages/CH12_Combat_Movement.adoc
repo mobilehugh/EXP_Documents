@@ -1,244 +1,531 @@
 = Combat Movement
 
-Just as time is scaled in EXP, so are speed and distance.
-The fundamental unit of distance is called the hex, and is equal to two metres.
-The name hex
-corresponds to one space on a sheet of hex paper, a commonly available graph paper printed with a honeycomb of hexagons, which becomes particularly useful during tactical combat.
-The two-metre scale length is constant to avoid confusion, regardless of the size of the hexagons themselves;
-likewise, the two-metre definition of a hex is constant whether the players use hex paper or not.
+Under non-combat circumstances movement is simply declared by the players.
+Personas can move about a room or cover great distances with a few words.
+For example, we take a cab to the zoo and boom the expedition is at the zoo.
+Or we space navigate to the Promulgator System. 
+A month of time in stasis passes in an instant and the role playing begins again.
 
-Continuing the pattern of measuring distance in hexes and time in units, speed and movement are measured in the hex per unit, or h/u which upon translation into mundane language equals two metres per two seconds, or 1 m/s.
-Multiplying a measurement in h/u by 3.6 gives the same value in kilometres per hour.
-Now, inquiring minds will already be asking why movement rates aren't simply given in metres per second, if the hex per unit measurement is identical?
-As explained above, in the section on time, meters are simply too short to measure play efficiently.
+This is not the case in combat movement.
+Persona movement and location is meticulously kept track of using a hex mat and tokens.
+If a player wants her persona to move further away from an attacker she physically moves her token on the hex mat.
+The number of hexes the token can move is determined by the persona's movement rate, terrain, and direction.
+The player hoper her persona is safely out of range of an attacker. 
+If the referee can move the attacker's token to within range then an attack roll is made.
 
-Each persona has a different movement rate, decided by her DEX attribute during persona generation;
-this acts as a maximum speed for the persona under normal circumstances, although slowing down is always possible.
-(See Figure 12.1, Sample Movement Rates on Hex Paper, below.) The means of locomotion, be it flippers, tentacles, or rocket-powered servomechanisms, has nothing to do with the rate, except as environment dictates  a wheeled robot, for instance, would float helplessly in free-fall, while a giant catfish on land, even one with lungs, could only flop about pathetically until the tide came back in.
+== When Does It Start?
+Combat movement starts when the referee or players decide so.
+The hex map rolls out, the minis are thrown down and persona's lives are on the line.
+If a persona's life is on the line combat movement should be activated. 
 
-Circumstances such as these or others, like over-encumbrance, mental distraction, or general pigheadedness&8211;may force personas to slow down or even stop for a while.
-These movement penalties are described below and in Chapters 18 and 19, Encumbrance and Special Terrain.
+== When the Unit Measure Is A Hexagon
+The unit of distance used in combat movement is the hex.
+Hex is short for hexagon. 
+A hexagon is 2 meters. 
+In EXP hexes become a generalized unit of measure. 
+The size of robots, aliens, and spaceships are often described in hexes.
 
-// table 148 goes here
+[quote]
+____
+*A HEX is short for hexagon and represents TWO METERS in distance.*
+____
 
-== Basic Movement Penalties
-No movement penalty is mandatory.
-If the game is more fun without the inconvenience of calculating penalties for encumbrance, restrictiveness, terrain, and position the referee should simply ignore them.
-On the other hand, in the real world encumbrance, restrictiveness, terrain, and direction changes do affect speed, and their inclusion makes for a more rigorous game.
-The simplest movement penalty, for changing direction, is illustrated in Figure 12.2, Hex Per Unit Penalties for Direction Changes, below;
-the next most direct, for armour restrictiveness, is detailed in Table 12.4, Armour Restrictiveness Movement Penalties, affects movement rate a good deal.
-Table 18.3 compiles these effects for the five degrees of encumbrance: Free,Unencumbered, Encumbered, Over-Encumbered and Lift.
+Tactical combat movement requires a hexagon surface and tokens to keep track of movement. 
+Each hex counts as a movement and each hex equals 2 meters.
+Movement is measured in hexes per unit (h/u).
+
+== How Do I Move?
+Each persona is assigned a movement rate.
+Robot's, aliens, anthros, and vehicles are all assigned movement rates.
+Movement rate is the same as any other velocity measure with units of distance over time.
+In EXP the movement rate is measured in hexes per unit (h/u).
+
+The persona's movement rate represents what she can get accomplished during a unit of combat.
+Most commonly the persona will use up all her movement rate to move around the hex mat. 
+Some of the those hexes can be used to accomplish simple actions, change direction or overcome terrain.
+
+:art: Figure_Movement_Hexes.png
+:width: 450px
+:snark: Example token movement on hex sheet.
+:artist: hexes pixabay, colours HM
+:date: 2020
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+Movement rates are equal between anthros, aliens, robots and vehicles.
+1 h/u equals 1 h/u regardless of locomotion type.
+Flippers, feet, wheels, tracks or antigrav boots with the same movement rate move at equal speed.
+Locomotion type may be affected differently by terrain, encumbrance, and maneuvers.
+
+== Movement Rate Adjustments
+Movement adjustments are endless.
+Only the most basic ones are covered here.
+The more tactical and the more faux realism desired the more of these adjustments can be used.
+
+== Hexes As Penalties Or Movement As Actions
+Movement rate represents the furthest a persona can move in one unit during combat.
+This means that the persona is thinking about moving safely and leaves space for their attack rolls.
+So an anthro that moves 5 h/u per unit could move 5 hexes straight ahead and make an attack roll.
+
+As soon as the persona deviates from this most simplistic move attack combination there are penalties.
+Deviations from the standard combat movement attack cost the persona hexes in movement.
+For example, changing direction by one hexagon facet costs 1 hex in movement. 
+Or catching something costs 2 hexes in movement.
+For example an anthro persona can move 5 h/u and wants to change direction and catch a watermelon. 
+She can change direction, catch the watermelon, fire her pistol and still move 2 hexes that unit.
+However changing direction, catching a watermelon, and firing her pistol in waist deep water is not possible.
+The movement cost for waist deep water is 4 hexes.
+The three things she want's to do add up to 7 hexes. 
+She only has 5 h/u.
+Now the player must decide which is most important: the watermelon, changing direction, or moving. 
+If the player chose to go straight ahead and let the watermelon splash she could move forward 1 hex and fire her pistol (4 hex cost on 5 h/u).
+If player chose to catch the watermelon she would have to stop and not fire her pistol (6 hex cost on 5 h/u).
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+.Hex costs and consequences 
+. Changing direction
+.. Running
+.. Bolting
+.. Hills
+.. Acceleration
+. Equipment
+.. Restrictiveness
+.. Encumbrance
+. Actions
+. Terrain
+. Jumping
+. Diving
+. Climbing
+. Rolling
+. Barrel Roll
+
+NOTE: *hexes per unit in tactical combat are similar to action points in other rule sets.*
 
 == Changing Direction
+This is the simplest and most easily understood of all the movement adjustments.
+There is no movement penalty for moving forward on stable terrain.
+There is a 1 hex cost per facet of change in direction.
+A persona with a 6 h/u movement rate moving straight ahead could move 6 hexes and make an attack roll.
+The same persona making a 180 degree pivot turn could move 3 hexes and make an attack roll.
+If she wanted to make another 180 degree switch back that would use all her 6 h/u.
+She would appear to stay still on the hex mat, but she could still make an attack roll.
+If she wants to change weapons while going back and forth she would exceed her h/u and have to choose between changing weapons or making an attack roll.
 
-// table 149 goes here
+:art: Figure_Movement_Direction_Penalty.png
+:width: 450px
+:snark: Change orders are expensive.
+:artist: hexes pixabay, colours HM
+:date: 2020
+:license: CC BY-SA 4.0
 
-== Speeding Up
-
-
-A personas movement rate defines the fastest she can move while engaged in another activity, such as combat or conversation.
-If for some reason she wants to move more slowly, she has but to inform the referee.
-Movement penalties apply only to movement-rate, however  a persona travelling 2 h/u slower than she has to may ignore all movement penalties under -2 to maintain a constant speed.
-
-In certain situations, however, usually terror on her part, a persona might want to travel faster than her movement rate.
-This is a much more difficult proposition.
-Either her speed or her other activity has to suffer, and when speed becomes important enough, all the personas attention focusses on running: no other actions can take place at the same time.
-
-Speeding up also depends on encumbrance.
-Just as a persona carrying so much that she can barely move is incapable even of approaching her full movement rate, one dressed in a track suit and carrying only a headband can jog much faster than normal.
-
-Robots and aliens can never exceed their movement rates, except through being hurled off a cliff by a raging pachyderm or other mitigating circumstance.
-Unlike scatterbrained anthropomorphs, they do not allow cerebral activity to interfere with their maximum speed in the first place, so their movement rates already correspond to the anthropomorphic bolt.
+include::ROOT:partial$articulate.adoc[]
 
 === Running
-Running is a type of rapid motion which allows personas to exceed their movement rates by up to 50%  a persona with a movement rate of 4 h/u, for instance, could run at up to 6 h/u.
-A persona may only run when she is either Unencumbered
-or Free
-of encumbrance.
-Movement penalties apply only to a personas maximum speed.
+A persona's movement rate represents what she can accomplish per unit of combat.
+If a player chooses she can have her persona ditch combat and run away.
+This could be called a rapid tactical withdrawal.
+A running persona cannot make attack rolls or carry out actions.
+They can only run.
+The movement benefit is +50%.
+This benefit is in hexes of distance only. 
+Running does not allow for attack rolls or actions.
 
+.Tactical Withdrawal (Running)
+* free or unencumbered (cannot carry a watermelon for example)
+* benefit is hexes of distance only
+* no attack rolls
+* no actions other than running 
+
+For example, an anthro persona with a move of 6 h/u is carrying a watermelon.
+If the player decides on a rapid tactical withdrawal the persona may drop the watermelon and move at 9 h/u.
+
+Robots move at maximum efficiency and cannot increase movement rate by running.
+Only tool using aliens that carry weapons and armour can run. 
+Natural movement rates of a flora and fauna cannot be increased by running.
+
+Running does not guarantee the safety of a persona in any way.
 
 === Bolting
-A slightly more effective method of escape is bolting, by which personas can travel at up to double their movement rate.
-However, bolting takes up a great deal of energy and concentration.
-A persona may not be wearing any armour, nor carrying any equipment, while bolting  any at all.
-She cannot perform any other activity, including changing direction  to turn a corner, she must come out of her bolt,t slow down to her normal movement rate minus &8211;
-any appropriate penalties, change direction, and start bolting again.
-The restrictions on bolting make it almost useless to personas, unless by chance they habitually enter in sporting competitions.
-Referees, however, might find it helpful to allow a persona to dump all of her equipment and bolt to safety from an otherwise certain death, especially if no other technique seems likely to eliminate that troublesome Very Powerful Toy from the campaign.
+A persona's movement rate represents what she can accomplish per unit of combat.
+If a player chooses she can have her persona ditch combat and run away.
+Bolting cannot be mistaken for a tactical withdrawal. 
+Bolting represents a mindless panicked straight line run.
+A bolting persona cannot make attack rolls or carry out actions.
+They can only run.
+The movement benefit is +100%.
+This benefit is in hexes of distance only.
+ 
+Bolting does not allow for attack rolls or actions.
 
-== Movement Alternatives 
-Most bipedal forms find the upright posture least painful to move in;
-accordingly, most personas walk upright if at all.
-Yet at times, unless they suffer from hay fever, they will desire to wriggle invisibly through tall grass, or jump across a twenty metre deep pit filled with blooming poppies.
-Such alternate forms of locomotion generally involve slowing down, unless by chance the personas body is ideally suited to them in particular  as for instance an Aquarian while swimming, or a limbless alien while slithering.
-They also frequently involve combat adjustments, both for the clambering persona and for her attackers, and attribute rolls.
-Part III, Combat Rules, contains explanations and definitions for all combat terms;
-attribute rolls, in which a player must roll at or below an attribute, are detailed in Chapter 16, Special Rolls.
+.Panicked Rout (Bolting)
+* free from encumbrance (will drop weapons and shed armour or backpacks)
+* benefit is hexes of distance only
+* straight line only
+* absorbs no tactical information
+* no attack rolls
+* no actions other than running 
+* get +2 hexes for panicked screaming.
 
-=== Climbing
-Vertical movement on contraptions such as slides, ropes, and ladders, or climbing, generally depends on the-judgment or whim of the referee.
-Too many factors enter the equation  is the slide greased?
-does the persona know how to test pitons?
-is the rope slowly being severed by a diabolical candle flame?
- to encapsulate the experience in a few short paragraphs.
-The most important detail to remember is that personas engaged in climbing make far more predictable targets than otherwise, giving attackers a bonus of +125 (in general) on their to hit rolls.
-Personas who attack while climbing receive a to hit penalty of-180.
+For example, an anthro persona with a move of 6 h/u sees a heavy combot eviscerate the rest of her expedition (in one unit).
+The player decides her persona should run screaming from the combat area. 
+The persona would drop her weapon, her backpack, tear off her armour, and run in straight line screaming.
+Her movement rate bolting would be 14 h/u. 
+Double for routing and +2 for panicked screaming. 
 
-=== Climbing, Free
-Climbing without pitons or other mechanical aids, involves three steps each unit: finding a foothold, reaching it, and moving up.
-Respectively, these stages are accomplished with an AWE roll, a DEX roll, and d3 1 hexes of vertical movement (Rolling 0 hexes means the persona was forced to move laterally that unit.) If the player fails either attribute roll, her persona has slipped, and spends that unit regaining a paw hold;
-if she fails both for two consecutive units, her persona has fallen.
-A persona involved in free climbing is considered immobile for combat purposes, giving attackers a +666 to hit bonus;
-and she herself may not attack.
+Robots move at maximum efficiency and cannot increase movement rate by bolting or routing.
+Only tool using aliens that carry weapons and armour can bolt. 
+Natural movement rates of a flora and fauna (non-tool using aliens) cannot be increased by bolting.
 
-=== Climbing, Equipped
- Regular climbing is much like its free climbing counterpart, but involves the use of pitons, ropes and carabiners.
-Personas may attack while climbing (with a 180 to hit penalty) if they succeed at a DEX roll and otherwise remain immobile that unit.
-With the aid of ropes and equipment personas being attacked while climbing have a bonus to be hit of +125 on the attackers to hit roll (as opposed to the +666 to be hit when free climbing).
+Bolting does not guarantee the safety of a persona in any way.
 
-=== Climbing, Rope
-Climbing by rope requires a DEX roll each unit.
-If the player is successful, her persona can move 1d3 hexes that unit, although not more than half her movement rate.
-Referees can give stronger personas a movement bonus.
-A persona may not climb a rope and attack at the same time, although if she wishes she may hang on for a unit and attack with a 180 to hit.
-Anyone attacking a rope climber gets a +125 bonus on her to hit roll.
+=== Up Hills
+This guide refers to hills on a hex map and not climbing up walls. 
+Personas moving uphill encounter a 1 hex cost per hex rise in the terrain.
+If a persona climbed 2 hexes in altitude over 2 hexes of distance she would face a 2 hex cost. 
+If the persona's move is decreased to zero by the rise in the terrain she may stop and make an attack roll or start to climb.
 
-=== Climbing, Ladder
-Climbing by ladder require s no attribute rolls.
-Each unit, a person a may move up to 1d6 hexes, not exceeding her movement rate.
-Again, climbing personas receive 180 to hit, and their attackers +125;
-ladder climbers, however, can move and attack simultaneously.
+Usually the referee will assign the hex cost penalty to a specific hill on the hex mat.
+However for those who enjoy arithmetic...
 
-=== Crawling
-A persona can crawl struggle along the ground on all fours  at one quarter her movement rate.
-Although a persona cannot attack while crawling, her position gives her 50% cover from all Type B and Type C attacks, and an additional +125 bonus to her armour rating while crawling for cover.
-Type A attacks, however, gain a +125 to hit because of the crawlers decreased manoeuvrability.
+=== Hex cost for uphill travel
+.slope = rise over run. Cost = run in hexes
+****
+If the slope is 45% and the persona wants to travel 10 hexes they will have a 10 hex move cost. 
+****
 
-=== Crouching
-A persona can crouch scuttle along the ground with extremely bent knees  at three quarters her movement rate.
-Crouching personas can carry out actions including attacking. A crouching attacker cannot use a Type A weapons, they receive a -200 to hit penalty with Type B weapons, and they receive a -75 to hit penalty using Type C weapons.
-Crouching offers 35% cover against Type B and Type C weapons, which converts to a +80 armour rating bonus.
+So walking up that hill will allow the persona to keep making attack rolls and possibly other actions. 
+Running up that hill will only allow you make an attack roll or only run up the hill.
 
-=== Diving
-A dive is a headfirst horizontal torpedo jump which can propel the persona beyond her movement allowance.
-Upon finishing her movement for the unit, a persona can dive an additional 1 hex for every 6 points of PsTR she has, through windows, into doorways, across tables, off cliffs, etc.
-Diving renders a persona inactive for the next unit.
+=== Down Hills
+This guide refers to hills on a hex map and not jumping off cliffs. 
+Personas can move down hills safely as long as they move slower than their movement rate. 
+If a persona wants a speed boost she may add the rise she travels through to her movement rate.
+This is a hex bonus only and does not add any attacks or actions. 
+There is also a chance that the persona will face plant due to the added speed.
 
-=== Jumping Horizontal 
-A jump is a brief, self-propelled aerial excursion governed mainly by gravity after the point of liftoff.
-A horizontal jump from a running start, whether across a crevasse, mine field, detection device, or roommate, spans 1 hex for ever 7 points of PSTR the persona has;
-from a standing start, it will propel her 1 hex for every 15 PSTR.
-Generally, a persona will come to a stop after jumping, but if she makes an Improbable (d100) DEX roll upon landing, she may continue at her full movement rate.
-A persona may jump only once per unit.
-Being horizontal, this type of jump will clear only the lowest of obstacles.
+=== Acceleration
+Acceleration is a change in velocity and can represent speeding up or slowing down. 
+There are no rules in tactical combat for acceleration
+Very fast vehicles and robots may have some limitations speeding up. 
+There are no getting up to speed limitations on personas in combat.
 
-=== Jumping Vertical
-A jump is a brief, self-propelled aerial excursion governed mainly by gravity after the point of liftoff.
-A vertical jump, as over a desk, a fence, a log, or a crocodile, will not exceed three quarters the personas hite  any obstacle taller than that must be climbed over.
-All good chase scenes involve personas jumping over barriers.
-To clear a barrier between half and three quarters her hite, a persona must make a Difficult (d20) DEX roll;
-to clear a lower one, her DEX roll must be Easy (d10).
-If she successfully clears a barrier, she may continue moving in the same unit.
+A persona that is running or bolting may crash into something.
+Or a robot or vehicle making too tight a turn may risk uncontrolled contact with terrain.
+This is left entirely up the referee and players.
+Hopefully erring on what makes for the best story.
+If the debate becomes heated this would be a good  opportunity to use Sphincter Dice. 
 
-=== Righting
-Righting oneself;
-or getting up after a fall, takes a DEX roll, of difficulty to be determined by the referee.
-If the player makes the roll, the persona may both move and act during the next unit;
-if not, she may only act, her move for the unit being taken up by standing.
-Either way, unless knocked down again, she may both move and act the unit after righting herself.
+== Encumbrance
+What you are carrying slows you down in combat.
 
-=== Rolling
-Personas can roll  lie on their sides and make like a wheel at 1 h/u, regardless of terrain and previous speed.
-It is worth noting that some substances, like molasses and concrete, cannot be rolled through;
-attempts to do so will result in immobility.
-An encumbered persona can only roll by completing a Difficult (d20) PSTR roll, and cannot act while rolling.
-An unencumbered persona, while unable to use a Type A or a Type B weapon, can fire a Type C weapon with a -210 to hit roll penalty.
-
-//+++<figure id="attachment_1471" aria-describedby="caption-attachment-1471" style="width: 211px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/alienspaceship1801-211x300.png?resize=211%2C300[alienspaceship180,211]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/alienspaceship1801.png)+++<figcaption id="caption-attachment-1471" class="wp-caption-text">+++Alien carrying object through multiple terrain penalties.+++</figcaption>++++++</figure>+++
+include::ROOT:partial$CH18_Table_Encumbrance_and_Movement.adoc[]
 
 == Terrain
-The shape of the land also influences speed.
-A persona running downhill can move faster than one running uphill, or wading through knee-high swamp water.
-Basic terrain  the sort most often experienced in day-to-day life is covered in this section;
-for more exotic environmental effects on personas, see Chapter 19, Special Terrain.
+The surface of the land also influences movement in combat.
+A persona can move faster over solid ground than through a knee-deep swamp.
+The terrain surfaces covered here variations on typical environments.
+Combat movement covers the mundane terrains.
+Exotic terrains that transform combat (zero gravity, or exatmo) are covered in xref::CH19_Terrain.adoc[Special Terrain].
 
-=== Doors
-Personas travelling at high speeds can move through unlatched push doors with only a 2 h/u penalty  so, for instance, a persona moving at 5 h/u, passing through such a door, would move only 3 hexes that unit.
-Any latched or pull doors will stop the persona completely, and force her to make a DEX roll at a difficulty level determined by the referee.
-If the DEX roll is successful, she will arrive safely on the other side of the door in the same unit.
-This can be a very important result if the player has won initiative, and her persona is trying to escape an attack.
+:art: alien_spaceship_swamp.png
+:width: 250px
+:snark: Alien slogging through terrain.
+:artist: Andrew Brechin
+:date: 1990
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
 
 === Foliage
-The degree to which grass and plants act as an obstacle to movement depends both on the depth of the foliage and the size of the persona crossing it.
-Table 12.2: Foliage Movement Penalties, shows the various penalties accrued by, Tiny, Small, Medium, Large, and Gigantic personas when travelling through different foliage depths.
-Remember that all anthropomorphic personas are Medium-sized.
-Normal
-thickness for grass, too, means normal for a wilderness  we are not talking about walking across a finely manicured suburban lawn or golf course.
-The table can also used for movement through denser foliage like shrubs or plants.
-For example dense shrub would increase the movement penalty by one level.
-So a high
-grass terrain would act as a would act as tall
-depth if it were shrubs.
-If the shrubs had thorns or were sticky the penalty may be increased to Mess.
-Climb  indicates that the foliage is a complete barrier and climbing rules apply: i.e., the foliage is so thick that simple horizontal motion is impossible.
-Shrubs: Table 12.5, Grass Movement Penalties, also governs motion through low bushes, but bush height acts as grass one level higher short shrubs as normal grass, e.g., and a mess of shrubs as a barrier.
+The degree to which grass, plants fungus patches affect movement depends on the persona's size.
+Tiny, Small, Medium, Large, and Gigantic personas can overcome certain foliage depths.
+Anthro personas are Medium sized.
+Foliage movement costs affect aliens, robots and anthros equally.
+Some aliens can fly over foliage. 
+Some robots can float over foliage. 
+Locomotion differences and foliage movement costs are up to referee and player debate.
+If the debate becomes heated Sphincter Die Roll is recommended. 
 
-// table 150 goes here
+include::ROOT:partial$CH12_Table_Foliage_Movement_Penalties.adoc[]
 
-=== Hills
-Personas moving uphill encounter a penalty equal to 5 h/u times the slope of the hill that is, times the number of hexes upward they travel each unit, and divided by the number of hexes across they travel to rise that much.
-A hill on which five horizontal hexes imply one vertical hex of rise would give a penalty of-5 x (1 + 5) h/u, or 1 h/u.
-Fractions are rounded to the nearest h/u.
+Normal grass is not a manicured lawn in suburbia. 
+That would be no grass or at worst low grass.
+The foliage table is for flora that could impeded a persona's movement.
 
-Personas travelling downhill get a movement bonus calculated the same way  if four horizontal hexes imply a two vertical hex drop, the bonus is 5 x (-2 + 4) h/u, or +3 h/u (rounded off).
-A personas downhill travel rate may never exceed her bolting speed unless she is actually falling with no surface immediately beneath her;
-for every unit she spends moving at her bolting speed, she must make a difficult (d20) DEx roll or crash.
-Personas travelling faster than their movement rates may not engage in combat.
-
-=== Ice
-All sizes and shapes of persona, assuming always that they are not so heavy as to break the ice, receive a 1 h/u penalty while travelling atop it.
-Sphincter dice can frequently be consulted to check for falls or the comedic perils of inertia.
+If a persona's movement rate is brought to zero they may make an attack roll or climb, but they cannot move.
+If the result from the table is climb the foliage is considered impassible. 
+Consequences of climbing indicate that the person is stopped. 
+If they want to keep moving in the same direction they must climb.
 
 === Liquids
-Typically this will be water or some alien equivalent.
-The table below nicely covers how water affects movement.
-The Liquid Movement Penalty Table is also used for: mud, snow, and sand.
-If Swim
-appears on the table, the persona must swim, sink or stick .
+Water, or any liquid substance, slows done personas depending on their size.
+Aliens with water movement rates are not affected by swimming and use their natural movement.
+The liquid table is also used for snow, sand, mud or Swedish retail ball pits. 
+When Swim appears on the table the persona can no longer push through the liquid.
+They then must swim, sink or stick depending on the liquid.
 
-// table 151 goes here
+include::ROOT:partial$CH12_Table_Liquids_Movement_Penalties.adoc[]
 
-=== Mud
-Personas travelling through mud should use Table 12.6, Water Movement Penalties, but add two levels  i.e., shallow mud acts as waist-deep water, and deep mud as very deep water.
+This table is anthropomorphic centered.
+Ankle deep is our mundane human ankle deep. 
+The measures of depth are related to a normal sized anthro persona.
+The table evolved to have these descriptive terms instead of heights.
+Sadly we are not playing with aliens or robots at the table just yet. 
 
-=== Sand
-Similarly, personas travelling through sand should use Table 12.5, Grass Movement Penalties but add two levels i.e., short sand acts as high grass, and high sand as a mess of grass.
-(High
-and low
-refer here to the amount of loosely packed surface sand the persona must wade through.
-A beach at low tide has low sand, whereas a wind-swept desert might have sand much higher.)
+==== Swim or Climb 
+Both the Foliage and Liquid Movement cost tables can stop the persona in their hex.
+If the movement cost is greater than the persona's movement rate then the persona is stopped.
+If the table result is climb or swim then the persona is stopped.
 
-=== Snow
-Personas on snow should use Table 12.6, Water Movement Penalties, adding one level  shallow snow acts as 50cm water, and 3.0m snow as very deep water.
-An S
-here indicates Stuck.
+With foliage the *climb* result is straight forward.
+The persona can change direction or start climbing over the obstacle.
+Climbing has it's own <<_climbing,section below>>
 
-=== Swim or Sink
-If the fluid is swimmable, and the persona cannot swim  in turn, is not something the personas are expected to know how to do.
-If she drops all of her equipment, a persona can flail 0-3 hexes per unit in the direction she desires, but will simultaneously be carried along by the current, possible in exactly the opposite direction.
-The referee may force the player at any time to make a MSTR roll or panic in the water;
-panicked swimmers become drowners, and must make a CON roll each unit to keep from drowning.
-Another  MSTR roll each unit until they regain control calm down.
-Personas who can swim should refer to the general performance table.
+With liquid, or mud the consequences are quite different. 
+When a persona cannot wade through a puddle they must swim or sink.
+Unlike foliage the referee must be prepared for how swimming affects the personas.
+Is the current strong?
+Is there an undertow?
+Will the mud pull personas under?
+How hard is the mud to get out of?
+Do persona's know how to swim?
+Can persona's drown? 
 
-=== Stick in the Mud
-Getting stuck in snow sand, or mud stops the personas movement completely.
-Usually a PSTR check will allow the persona to become unstuck.
-If the liquid is of the right consistency like mud, or quicksand, the player may panic and be at risk of drowning.
-See Swim or Sink for a loose interpretation of drowning rules.
+==== Sink or Swim
+Whether a persona sinks or swims depends heavily on the family type.
+An alien that has water movement rate is unaffected by deep liquids. 
+An aquarian anthro can automatically swim. 
+Other anthros may or may not swim. 
+Check those Sphincter Dice if the player can't come up with a good back story.
+Robots will automatically sink unless they have a water compensating locomotion type.
 
-=== Water
-Fluid Movement Penalties, gives movement penalties for Tiny, Small, Medium, Large, and Gigantic personas in various depths of water.
-(Remember, as always, that all anthropomorph personas are Medium-sized.) This table is also used for motion through snow and mud, with one and two levels, respectively added to the depth.
+Those personas who can swim need only contend with encumbrance, currents, and sea monsters.
+Only personas with evolved swimming abilities (aquarians and aliens) can make attack rolls while swimming.
+
+The consequences of sinking are up to the referee.
+Drowning is an unseemly way to force players to create new personas.
+However personas that cannot swim that are immersed in water are in trouble.
+A robot that lacks exatmo hardening may be damaged by immersion.
+A flailing anthro will have to shed armour, backpack and toys. 
+
+TIP: *For organic personas MSTR rolls can be made to keep calm. Failed MSTR rolls could lead to drowning.*
+
+Alien and anthros that cannot swim can flail about once their equipment is dumped.
+Flailing can move the persona into the next hex if a PSTR roll is made.
+Robots do not flail they simple sink. 
+
+==== Mud
+Muddy liquid could be mud, slime, cess pool, jello or any other dense liquid.
+Mud uses the Liquid Movement Cost Table.
+The persona is slowed down by increasing the depth on the liquid table by two levels.
+So Knee deep water functions as Waist deep mud.
+An anthro persona (Medium sized) would have a 4 hex cost penalty.
+They would be stuck in the mud if their movement rate was zero.
+Tiny and Small personas would automatically be 'stuck in the mud.'
+
+==== Sand
+Packed sand is not a terrain obstacle. 
+The sand here is shifting sinking swirling sand. 
+The hex cost for moving through sand uses the Foliage Movement Cost Table.
+Sand is worse than foliage and density of the foliage table is increased by two levels.
+So Normal hite foliage functions as Tall hite sand.
+An anthro persona (Medium sized) would have a 2 hex cost penalty.
+They would be stuck in the sand if their movement rate was zero.
+If the persona must 'climb' in the sand they are stuck in place. 
+
+==== Snow
+Snow or other light particulate matter uses the Liquid Movement Cost Table.
+The persona is slowed down by increasing the depth on the liquid table by one level.
+So Knee deep water functions as Leg deep mud.
+An anthro persona (Medium sized) would have a 3 hex cost penalty.
+They would be deposited in the snow bank if their movement rate was zero.
+Swim indicates the persona cannot move due to the depth of snow. 
+
+=== Ice
+Ice, or any frictionless surface, is a source of slippery fun for referees.
+Unless the persona has special tires, claws or skills the frictionless surface will wreak havoc.
+Ice will offer a 1d4-1 hex cost for all personas for the entire combat on the ice.
+Yes some personas will be unable to move on ice and use their movement rate just to keep from falling over.
+
+Whether ice over liquid can support larger personas must be decided by the referee in advance.
+Sphincter Die Rolls are consulted to check for slips and falls.
+
+== Movement and Actions
+Some actions take less than a unit but still require attention from the persona.
+These actions result in small movement rate adjustments.
+The table is included here for convenience.
+These are actually elements that 
+
+NOTE: *Attacking is the most common action in combat. There is no movement cost for attack rolls.*
+
+include::ROOT:partial$CH12_Table_Example_Actions.adoc[]
+
+== Actions That Stop Movement
+Some things require too much attention.
+Some actions can be completed within a unit.
+Other actions cannot be completed in a unit.
+The only action that is guaranteed to fit into the combat unit is an attack. 
+Some actions preclude the persona's ability to move or attack.
+Many actions require too much attention to either move or attack. 
+If a persona undertakes such an activity they cannot participate in combat while doing so.
+
+include::ROOT:partial$CH12_Table_Example_Activities.adoc[]
+
+=== Doors
+Personas travelling at high speeds can move through *unlatched push doors* with only a 2 hex cost.
+So a persona with a 5 h/u movement rate could go through the door and move 3 more hexes that unit.
+Latched or pull doors will stop the persona completely.
+
+=== Climbing
+Vertical movement that does not involve flying, telekinesis or antigrav requires climbing. 
+Personas engaged in climbing make far more predictable targets than otherwise.
+Attack rolls on climbing targets gain bonuses.
+Attack rolls made by climbing personas suffer penalties.
+
+NOTE: *Under non-combat circumstances personas 'just climb' things.*
+
+Robots do not climb. 
+Alien flora and fauna no not climb. 
+Tool using aliens and anthros may try their paws at climbing. 
+
+==== Climbing, Free
+Free climbing is free of ropes, pitons, and carabiners.
+The referee determines if a surface can be free climbed. 
+
+Free climbing requires all the persona's attention.
+Free climbing cannot be combined with attack rolls or unrelated performance rolls.
+Attack rolls made on free climbing personas enjoy a bonus of +666. 
+
+Free climbing is slow and requires many attributes.
+There are three steps to moving in a free climb.
+
+.*Free Climb Steps*
+. Find the hold (AWE)
+. Reach the hold (DEX)
+. Move to the hold (PSTR)
+
+If all rolls are successful the persona moves 1-2 hexes towards their goal. 
+This goal could be upwards or sideways or downwards. 
+
+The persona is at risk of falling if her player fails the DEX or PSTR rolls. 
+The consequences of falling are up to the referee. 
+The fall is harmless but the stop at the bottom inflicts 1d4 of damage per hex of fall.
+
+==== Climbing, Equipped
+Equipped climbing uses ropes, pitons, and carabiners.
+Setting up climbing equipment cannot happen during combat.
+This section of tactical combat is only used if the personas are climbing and then get into combat.
+
+Equipped climbing requires all the persona's attention.
+Equipped climbing cannot be combined with attack rolls or unrelated performance rolls.
+Attack rolls made on equipped climbing personas enjoy a bonus of +333. 
+A persona can stop equipped climbing to make combat rolls or performance rolls.
+When hanging around and shooting back the player suffers a -180 attack roll penalty. 
+
+There are a few steps to moving upwards in a free climb.
+
+.*Equipped Climb Steps*
+. Find the hold (AWE)
+. Reach the hold (Easy DEX)
+. Move to the hold (Easy PSTR)
+
+If all rolls are successful the persona moves 1-3 hexes towards their goal. 
+This goal could be upwards or sideways or downwards. 
+
+Equipped climbers do not suffer the same fall risks as free climbers.
+However equipment damage or failure could lead to a date with gravity.
+
+==== Climbing, Rope
+For rope climbing the referee must consider rope strength.
+Personas climbing ropes cannot engage in any other actions other than climbing rope.
+
+The persona can move up 1 hex per successful PSTR roll each unit. 
+Targeting a persona climbing up a rope earns a +333 attack roll bonus.
+The persona can move down 1-3 hexes per successful DEX roll each unit.
+Targeting a persona climbing down a rope earns +180 attack roll bonus.
+
+A referee can consider a fall risk if the player fails one of the attribute rolls. 
+
+==== Climbing, Ladder
+Climbing by ladder requires no attribute rolls.
+A persona may climb a ladder 1d2 hexes each unit.
+A persona may descend a ladder 1d4 hexes each unit. 
+Unless there are extenuating circumstances the referee should allow personas to navigate ladders safely.
+These rules only apply during combat so the situation is likely dangerous enough already.
+
+== Crawling
+A persona can crawl along the ground to improve concealment or cover.
+This involves keeping one's body unnaturally close to the ground and compromises movement rate.
+Crawling personas move at 1/4 their regular movement rate. 
+So a persona who normally can move 8 hexes per combat unit can only move 2 hexes per combat unit.
+Crawling also impedes the actions a person can undertake.
+
+Crawling gives the persona an AR bonus of +125 to powered and none powered missile weapons.
+So attack types A and B are penalized but Type A attacks get an attack bonus of +125. 
+
+Robots cannot alter their locomotion type to gain any AR bonus. 
+Only anthros and tool using aliens Medium size or small can enjoy this bonus. 
+
+== Crouching
+A persona can crouch while moving to improve concealment or cover.
+This involves lowering one's body closer to the ground and compromises movement rate.
+Crouching personas move at 1/2 their regular movement rate. 
+So a persona who normally can move 6 hexes per combat unit can only move 3 hexes per combat unit.
+Crouching also impedes the actions a person can undertake.
+
+Crouching gives the persona an AR bonus of +60 to powered and none powered missile weapons.
+So attack types A and B are penalized but Type A attacks get an attack bonus of +125. 
+
+Robots cannot alter their locomotion type to gain any AR bonus. 
+Only anthros and tool using aliens Medium size or small can enjoy this bonus. 
+
+== Rolling
+Rolling allows the persona to stay under cover and move a bit faster.
+Rolling personas can move at 1/3 their movement rate (rounded down).
+A rolling persona with a 7 movement rate could roll at 2 h/u.
+
+Rolling gives the persona an AR bonus of +125 to powered and non-powered missile weapons.
+So attack types A and B are penalized but Type A attacks get an attack bonus of +125. 
+
+While rolling a persona cannot make attack rolls or performance rolls and can only roll roll.
+
+Robots cannot alter their locomotion type to gain any AR bonus. 
+Only anthros and tool using aliens Medium size or small can enjoy this bonus. 
+
+== Barrel Rolling
+Once during combat a persona can make a barrel roll if they scream barrel roll.
+The barrel roll does not impair the persona in any way during the unit.
+A barrel offers no bonus to the persona in any way.
+
+Anthros, tool using aliens and robots can perform a barrel roll once during combat. 
+
+== Diving
+A dive is a headfirst horizontal torpedo jump which can propel the persona beyond her movement allowance.
+Upon finishing her movement for the unit, a persona can dive an additional 1 hex for every 6 points of PSTR she has, through windows, into doorways, across tables, off cliffs, etc.
+Diving renders a persona inactive for the next unit.
+
+== Jumping
+A jump is a brief, self-propelled aerial excursion governed mainly by gravity after the point of liftoff.
+A jump brings a persona to a complete stop at its end.
+No attribute roll is needed to successfully jump.
+However repeated jumping to subvert movement rates should be discouraged.
+
+Horizontal jumps have no hite, and are just for distance.
+Vertical jumps get personas over impasses. 
+A failed vertical jump leaves the persona crumpled at base of the barrier.
+
+. Horizontal jump, running 1 hex per PSTR / 7
+. Horizontal jump, standing 1 hex per PSTR / 15
+. Vertical jump, half persona hite, normal DEX roll
+. Vertical jump, persona hite, difficult DEX roll
+
+Robots do not jump. 
+Flora and fauna may jump over natural obstructions in their habitat.
+
+Jumping here is for jumping during tactical combat. 
+Under non-combat circumstances getting around barriers and over obstacles is completely different. 
+
 
