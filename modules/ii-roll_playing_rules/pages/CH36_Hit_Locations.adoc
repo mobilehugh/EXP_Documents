@@ -1,83 +1,84 @@
 = Hit Location
 
-Hit location charts can be haphazardly used to determine the location of damage from a combat hit.
-In actuality the hit location table is more suitable for determining erogenous zones than it is for determining hit locations.
-It is accepted that most weapons have to hit to do damage, and hitting means contact with some part of the targets body.
-Using a hit location table to determine where the target is hit is as unrealistic as it is complex.
+[quote]
+____
+*That's gonna leave a mark. Right there.*
+____
 
-A separate hit location table would be required for every possible position that the target could be in: leaning, kneeling, running, lying down, etc., etc.
-Still more tables would be required for snake-like things, spider-like things, amoeba-like things, robots, etc.
-Each of these body shapes would require a whole host of tables for different target positions.
-The concept of being able to generate a specific hit location on any possible target would require a system even more elaborate than tactical combat;
-the idea is pure fantasy.
-Fantasy, of course, is a key aspect of role-playing games, and there definitely are instances where hit location information can be fun and necessary.
-E.g., throwing a paint bomb (does it hit the eyes?);
-flinging a bolo at an escaping prisoner (does it tangle her legs?);
-or does the last ditch shot stop the evil professor before she pulls the switch?
-(does it hit her hand?).
+The tactical combat system is not designed with hit locations in mind.
+However it can be easily incorporated. 
+Hit locations do not alter the damage delivered to the target.
+So a hit to head that delivers few HPS in damage is a grazing shot.
+However a hit to the foot that delivers many HPS in damage represents a seriously injury to the foot.
 
-The hit location charts will be used mostly as a descriptive aid.
-If the referee feels that she would like to add a bit of randomness to her descriptions without stopping for the detailed hit location tables, there is Table 36.4: Snap Hit Location.
-The quick roll table is not very accurate, and is not recommended for important hit location rolls.
+Hit locations can be used for story details.
+Hit locations can be used to determine if partial suites of armour are effective.
+Hit location can be used to determine what body part gets splatted with a paintball.
+
+The hit locations are tremendously inaccurate. 
+A less faux realistic hit location system would require a different chart for every angle of attack.
+No one here is going to be making those tables.
+Simple differences for attacks to the front or back of the target.
+
+== Snap Hit Location 
+This is a cross family table to quickly indicate where a successful attack roll landed on the target.
+The Snap hit location chart can be used mostly as a descriptive aid.
+It is fast and can eventually even be memorized. 
+
+include::ROOT:partial$CH36_Table_Snap_Hit_Location.adoc[]
 
 == Anthro Hit Locations
+Use this table when the referee or players need to know where a successful attack roll lands.
+Obviously this only applies to anthros.
 
-// insert table 356
+include::ROOT:partial$CH36_Table_Anthro_Hit_Location.adoc[]
 
 == Alien Hit Locations
+Alien hit location is more challenging. 
+Aliens are called Diversidae for a reason.
+Sometimes the indicated hit location does not even exist on the alien.
+Improvisation or post factualization 
 
-Hit location tables obviously can serve some purpose, but even the most rudimentary ones get into trouble with aliens and robots.
-These two types of targets have no pre-defined shapes, and may even be lacking hit location parts designated on the anthro hit location tables.
-Instead of indicating which body part of the target received the damage, the Alien Hit Location table indicates what purpose the hit body part has.
-E.g., if an alien is hit in the locomotion, it has been hit on whatever body part was designated for locomotion (fins, legs, wings, etc.).
-
-// insert table 357
+include::ROOT:partial$CH36_Table_Alien_Hit_Location.adoc[]
 
 == Robot Hit Locations
-
-The Robotic Hit Location table is offered only as a descriptive aid.
-Robots have a very unique way of taking damage, and regardless of where the robotic target is hit, the Robotic Damage table in chapter 31 will determine where the target has been damaged.
-The attack may hit the robots locomotion, but it may be the engine that is damaged.
-Robotic damage is covered in more detail in chapters 5 and 31, Robots, and Robotic Combat.
+This is a purely descriptive hit location chart.
+Robot hit location is different from robot damage location.
+This chart simply describes where a hit landed. 
+The system damaged is completely different.
+For example, a descriptive hit location on a robot may be the sensors.
+However the system damaged may be completely different. 
+Robots are easy to hit and hard to destroy.
 
 // insert table 358
+include::ROOT:partial$CH36_Table_Robot_Hit_Location.adoc[]
 
-// insert table 359
 
-== Hit Location and To Hit Rolls
+== Hit Location and Attack Rolls
+The player's attack roll considers some obvious elements and attributes the unknowns to a random roll.
+This random roll (kilo die attack roll) takes into account, angles, dodging, velocity, etc.
+The tactical system is already complex enough. 
+Attack rolls plus hit locations adds a layer of combat bureaucracy that the system may not support.
 
-EXPs to hit roll damage  system is designed to be simple and fast in play.
-The personas can move and attack in every combat unit, and when they attack they are firing on or swinging at their target with no consideration for hit locations.
-Having hit locations creates an additional layer of combat bureaucracy that EXP probably could not support.
-When a player insists on having her persona attack a targets specific body part remind her that the damage will be the same regardless of where she hits.
-This will usually negate the desire to hit a target in the head, or whatever.
-Conditions warranting select hit locations can certainly occur.
-There maybe a target wearing various armour types, and the persona may wish to hit one of the weaker parts.
-The hit location is generated on the appropriate hit location table, and the to hit roll is made against the armour type on that body part.
-It is expected that if the persona is trying to hit a weakness on the target, the target is trying to defend against the weakness just as much, and the random hit location roll represents this.
+=== Adding Hit Location Anyways
+One untested, but discussed, option would be to allow hit location shifting based on Bonus Proficient.
+This would only be allowed for combat vocations like: mercenary, knite, and spie.
+A successful attack roll is followed by a roll on the appropriate hit location table.
+The player can move the hit location up or down the table depending on her BP.
 
-=== Bonus Proficient Hit Locations 
-If hit locations are still required, and the players are demanding more control over what they hit then consider this simple system.
-If the player scores a hit on the target  the player then makes a roll on the Hit Location Table.
-She can then adjust her  roll on the Hit Location Table by her Bonus Proficient (BP).
-A persona that has a Bonus Proficient (BP) of 141 scores a hit on her target.
-The player rolls 241 on the Hit Location Table.
-Normally that would be the targets groin.
-The player could then choose a Hit Location adjusted by her BP.
-With Bonus Proficient of 141 she could adjust the hit location to any body part between 100 to 382.
-This means that she can now choose to hit the knee, thigh, hip, groin, or abdomen.
-This will not affect the damage generated, but it may allow her to hit the target.
-If the target has no armour on her legs, but heavy armour on her stomach then she could choose to make a to hit roll against the lower AR increasing her chance to inflict damage, but not the amount of damage inflicted.
+This works easiest for anthros. 
+If the player rolls 800 on the anthro hit location (Forearm) and has a BP +150.
+She could choose to hit anywhere from the Pectorals (650) to the Shoulder (950).
+Thus allowing her to shoot a gun holding hand or a body part lacking armour.
+
+For aliens and robots the BP is divided by 10 to work on their hit location charts.
+It would be reasonable for a referee to limit hit location targeting for unknown robots and aliens.
 
 == Hit Location and Damage
+The player's damage roll considers some obvious elements and attributes the unknowns to a random roll.
+This random roll (various dice) takes into account, angles, dodging, anatomy, etc.
+The tactical system is already complex enough. 
+Damage rolls plus hit locations adds a layer of combat bureaucracy that the system may not support.
 
-There are no damage adjustments for hit locations.
-All that is indicated by the hit location tables is that a majority of the damage was sustained by that body part.
-Hit locations are not officially part of the combat system.
-They do not affect damage in any way.
-A hit to the head, as determined by the hit location tables will be nothing more than a hit to the head.
-The HPS damage rolled after the successful to hit roll will be the damage inflicted.
-The fact that the hit was delivered to the head makes no difference.
-If the combat system has determined that 11 HPS of damage has been taken by the target then the target will subtract 11 HPS of damage from her HPS Total, regardless of where the hit is located.
-Hits that do extra damage are called critical hits, these are discussed in http://expgame.com/?page_id=275[Chapter 16: Special Rolls].
+There is no system that takes hit location and damage into account for EXP.
 

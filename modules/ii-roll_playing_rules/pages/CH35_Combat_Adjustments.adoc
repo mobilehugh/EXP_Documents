@@ -1,59 +1,39 @@
-= Combat Adjustments
+= Attack Roll Adjustments
 
-The combat adjustments represent variables that occasionally affect combat.
-This includes things like: terrain, cover, concealment, weather conditions, and some things that are simply strange.
-Combat adjustments affect the player's attack rolls, and they are either added or subtracted from the kilodie attack roll roll.
-Bonuses are those conditions that make it easier for the persona attack roll her target, and these combat adjustments are added to the player's attack roll roll.
-Penalties are those conditions that make it harder for the persona attack roll her target, and these combat adjustments are subtracted from the player's attack roll roll.
-Common sense should rule here.
-If there is some combat adjustment bogging down game play, then the referee should simply drop it.
-The referee must strike the comfortable balance between playability and realism, and if combat adjustments must suffer to ensure that everyone has fun there should be no question about dumping them.
+Attack roll adjustments affect the player's chance of successfully hitting and damaging targets.
+Combat adjustments are added or subtracted from the player's kilodie attack roll.
+These adjustments are most often penalties that impair ranged attacks by obscuring targets.  
+They includes: weather, cover, concealment, range, and firing blind.
+Type A attacks are not affected by these attack roll adjustments.
 
-== Attack Roll Adjustments
-Nearly all combat adjustments are made to the player's attack rolls.
-These can be penalties or bonuses.
-Mostly penalties.
-The penalty or bonus could be a flat adjustment or a rate adjustment.
-For simplicity most penalties are listed as negatives so simply everything is added to the player's attack roll roll.
+== Armour Rating
+Attack roll penalties do not change the target's armour rating. 
+For example a target may have 90% cover from one direction and no cover from another direction.
 
-=== Flat Adjustments
-The To-hit adjustments can be flat adjustments that simply added to the attack roll roll.
-For example, a flat adjustment of -100 attack roll would be subtracted from the players attack roll roll.
-Flat adjustments apply to all weapon types.
+== Combat Tables
+Attack roll penalties do not affect the persona's combat table.
+The persona's Bonus Proficient (BP), and Maximum Roll (MR) remain the same.
+A skilled persona with a high BP can overcome weather and range penalties
+An attack roll penalty is subtracted from the player's raw kilo-die roll.
 
-=== Rate Adjustments
-Rate adjustments are multiplied the number of hexes in range between the weapon on the target.
-The rate adjustments are calculated and added to the player's kilo-die attack roll roll.__ __Rate adjustments only affect Type B and C weapons.
-Type B and C weapons have maximum weapon ranges and decay effects are considered rate adjustments.
-For example if an axe has a decay rate adjustment of -333 per hex beyond full range would have -666 attack roll 2 hexes beyond the axe's maximum range.
+Attack roll bonuses are added to the 
 
-=== Penalties
-Penalties only affect the players attack roll roll.
-They do not reduce the persona's Maximum Roll  (MR) or any part of the combat table.
-A persona with a very high  Bonus Proficient (BP) could overcome a attack roll roll penalties.
-For example, a persona using a ranged weapon, 10 hexes from her target, in a heavy rain (-15 per hex) would have a total rate adjustment of -150.
-This attack roll roll penalty is subtracted from the player's raw kilo-die roll.
-The penalty does not  affect the player's Maximum Roll (MR).
-If player were to generate an unadjusted attack roll roll of 953, it would be reduced to 803.
-803 becomes the players attack roll roll, the player would add her Bonus Proficient (BP) and that would be the attack roll roll would be compared to the player's Maximum Roll (MR).
-The MR is not decreased by penalties.
 
 === Bonuses
-Attack roll bonuses are added to the player's net attack roll roll, even if that is the persona's Maximum Roll (MR).
+Attack roll bonuses are added to the player's net attack roll, even if that is the persona's Maximum Roll (MR).
 Thus a rear attack (+90 attack roll) with a club could allow the player to surpass her persona's MR (Maximum Roll) and possibly hit a previously impervious target.
 Consider the following scenario of a persona  with a Maximum Roll (MR) of 763 is trying attack roll a target with an Armour Rating (AR) of  793.
 Under normal circumstances, the persona could not hit the target because her Maximum Roll (MR) is too low.
-However the rear attack attack roll bonus of +90 adjusts the net attack roll roll upwards by 90.
-This means that the net attack roll roll could be as high as 883 (MR of 793 plus 90) allowing the persona attack roll a target she cannot normally hit when attacking from behind.
+However the rear attack attack roll bonus of +90 adjusts the net attack roll upwards by 90.
+This means that the net attack roll could be as high as 883 (MR of 793 plus 90) allowing the persona attack roll a target she cannot normally hit when attacking from behind.
 This method of administering attack roll bonuses is blatantly biased towards the players.
 There is no justifiable reason for players to be excluded from combat because their persona has an inadequate Maximum Roll (MR).
 Attack roll bonuses allow the a player to gain a chance attack roll a target through ingenious, or experienced, tactics.
 
-== Meteorological Conditions
-Most attack roll adjustments described are penalties, and these mostly arise from inclement meteorological conditions.
-Since most referees will not bother to quantify the intensity of a rainfall the classifications are grouped so that the actual intensity can be randomly determined.
-Any undecided weather condition can be rolled on a die.
-The intensity of snowfall for example, light (1), normal (2), heavy (3), blizzard (4), can easily be determined with the roll of a d4.
+== Weather Conditions
+Weather conditions affect the attack rolls of ranged weapons.
+There are no effects from snow, or rain on hand to hand combat (type A attacks).
+Grenades are affected by weather conditions, while aerosols are not.
 
 :art: combat_adjustments_insect_smoke.png
 :width: 250px
@@ -64,10 +44,16 @@ The intensity of snowfall for example, light (1), normal (2), heavy (3), blizzar
 
 include::ROOT:partial$articulate.adoc[]
 
-If the rate adjustment system is too cumbersome, it can be converted into a bulk penalty system.
-This is achieved by multiplying the intensity level of the adverse condition by 50.
-With this system the penalty would be the same regardless of the range of the attack.
-Heavy snow (3), would be -150 attack roll, moonlight darkness(2) would be -100 attack roll, and dense smoke (5) would be -250 attack roll.
+Most of the weather penalties are per hex of range.
+For example, shooting a gun through thick smoke at a target ten hexes away is a -600 attack roll penalty
+All personas on the hex mat are suffering the same attack roll penalty.
+If a penalty is high enough it is equivalent to firing blind. 
+Firing blind is self descriptive.
+
+Really low per hex penalties, like -2 per hex in trace fog, should only be applied for important shots.
+For example, a persona may be attempting to snipe an important enemy. 
+In this case the referee and player may find a hit or miss determined by -4 on the attack roll exciting.
+These penalties are part of the tactical combat system. 
 
 // insert table 346
 include::ROOT:partial$CH35_Table_Rain_To_Hit_Roll_Penalty.adoc[]
@@ -87,7 +73,6 @@ include::ROOT:partial$CH35_Table_Fog_or_Smoke_To_Hit_Roll_Penalty.adoc[]
 // insert table 351
 include::ROOT:partial$CH35_Table_Darkness_To_Hit_Roll_Penalty.adoc[]
 
-
 // insert table 352
 include::ROOT:partial$CH35_Table_Snow_To_Hit_Roll_Penalty.adoc[]
 
@@ -95,9 +80,10 @@ include::ROOT:partial$CH35_Table_Snow_To_Hit_Roll_Penalty.adoc[]
 include::ROOT:partial$CH35_Table_High_Gravity_Effects_Penalty.adoc[]
 
 == Cover and Concealment
-Cover and concealment are attack roll roll penalties that are attributed to cover taken by the target.
-They are different from other attack roll adjustments in that cover and concealment depend on the actions of the target.
-Cover and concealment penalties apply to weapon types B and C only.
+Cover and concealment are attack roll penalties that are attributed to targets that are hiding.
+Cover and concealment penalties apply to ranged attacks only (types B and C).
+Attack roll penalties do not change the target's armour rating. 
+For example a target may have 90% cover from one direction and no cover from another direction.
 
 :art: dinner_in_a_tube.png
 :width: 250px
@@ -108,48 +94,16 @@ Cover and concealment penalties apply to weapon types B and C only.
 
 include::ROOT:partial$articulate.adoc[]
 
-Cover and concealment penalties are based on the percentage of the target that is protected by the cover/concealment.
-The table is based on the premise that there is some portion of the target is still visible some time during the unit.
-If the target is completely hidden and not poking out to attack during the unit then the target is completely concealed.
-Attacks made would be firing blind.
+Cover and concealment  are completely different entities. 
+Cover protects the target from incoming projectiles.
+Concealment hides the target from incoming projectiles.
+If a player continues to attack a completely hidden target they are firing blind.
 
-include::ROOT:partial$CH35_Table_Cover_and_Concealment_Penalty.adoc[]
+An attacker can transform cover to concealment if by using a different weapon.
 
-// alien size adjustment
-// robot size adjustment
-
-=== Cover 
-Cover is any solid or otherwise impenetrable barrier that the persona places between her body and the attacker's weapon.
-Typical covers are rocks, tree trunks, hills, and corners of buildings.
-The more cover that a target has, the more difficult it is attack roll.
-
-=== Concealment 
-Concealment is when a persona places some non-solid obscuring or distracting barrier between herself and the attacker's weapon.
-The major difference 13,etWeen cover and concealment is that cover will stop the attack when it comes in, acting as impenetrable armour for the persona, but concealment does not stop the opponent's attacks, and merely hides the persona from the attacker.
-The key difference is that cover is impenetrable to the attacking weapon, while concealment is not.
-Thus a persona may find her previous cover downgraded to concealment if the attacker starts using a more powerful weapon.
-
-=== Example 
-If a target was enjoying 90% cover, then flat penalty would 450  on the To Hit Roll.
-If the attacker were to switch to a weapon that was not stopped by the cover, the target would have 90% concealment, and the attack roll roll flat penalty would be 80.
-Cover and concealment are not cumulative the target may have only one or the other.
-
-== Firing Blind
-Firing blind refers to attacks made against targets which are not visible, ones that have 100% cover or concealment.
-Blind firing is also employed when the attacker cannot see her target due to smoke, blindness, invisibility, tear gas, etc.
-Firing blind is based on the principle that before the attacker can even try her attack roll roll, she must first make a percentage roll to determine whether her attack will even warrant one.
-The chance of getting a attack roll roll depends on the target's size, and what information the attacker has about it.
-
-If the attacker knows the target is beyond a certain wall, can hear footsteps above, or if the target is just plain noisy, each attack has a percentage chance of warranting a roll attack roll.
-This means that if a persona can hear an alien crunching through the bush outside her tent, she may fire a burst of automatic gunfire through the tent wall.
-The ref, knowing the alien's size (say, Large), would give each burst a 16% chance to be near enough to allow the player a attack roll roll.
-If the roll is successful, the player may roll kilo-dice to make her regular attack roll roll against the alien's AR.
-
-This system is identical for type A, B and C weapons.
-The referee must remember that a target with complete cover still cannot be hit;
-weapon ranges still apply;
-and attacks that do not even get a chance attack roll still cost the persona ammunition.
-Grenades, aerosols and bombs damage everything in their area of effect and so exact aim may not be necessary (see chapter 30, Grenades and Aerosol combat).
+=== Aliens
+Cover and concealment for aliens is decided on a case by case basis.
+The referee may have milieu specific variations. 
 
 :art: space_bug_big.png
 :width: 250px
@@ -160,108 +114,134 @@ Grenades, aerosols and bombs damage everything in their area of effect and so ex
 
 include::ROOT:partial$articulate.adoc[]
 
-// insert table 355
+For Large and smaller sized aliens cover and concealment works the same as for anthros.
+For Gigantic aliens cover and concealment is virtually impossible.
+Cover and concealment should also be reserved for tool using aliens and those with natural ranged attacks.
+Partial hiding is not in the purvey of flora and fauna. 
+
+=== Robots
+Cover and concealment for robots is decided on a case by case basis.
+The referee may have milieu specific variations. 
+
+Only Medium and smaller sized robots can use cover and concealment. 
+Cover and concealment is very tactical should be limited to combots.
+Other robots either hide or expose themselves. 
+
+=== Cover 
+Cover is when a persona places an solid barrier between herself and the attacker's weapon.
+Typical cover includes: rocks, tree trunks, hills, and corners of buildings.
+If a bullet, lazer bolt, or arrow hits cover it is stopped in it's tracks.
+The referee or Sphincter Dice can decide if a barrier is cover or concealment.
+The more cover that a target has the greater the attack roll penalty.
+
+=== Concealment 
+Concealment is when a persona places an obscuring barrier between herself and the attacker's weapon.
+Typical concealment includes: bushes, tents, drywall, and paintball buildings.
+A bullet, lazer bolt, or arrow can pass through concealment.
+The referee or Sphincter Dice can decide if a barrier is cover or concealment.
+The more concealment that a target has the greater the attack roll penalty.
+Concealment attack roll penalties are much lower than cover attack roll penalties.
+
+include::ROOT:partial$CH35_Table_Cover_and_Concealment_Penalty.adoc[]
+
+=== Example 
+If a target has 90% cover (a concrete bunker) there would be -450 attack roll penalty
+Another target has 90% concealment (in the bushes) there is a -80 attack roll penalty.
+The attacker has an idea where the target is with concealment (bushes) and this helps scoring a hit.
+The attacker has an idea where the target is with cover (bunker) but this info cannot help.
+ 
+If an attacker were to switch weapons then cover can be reduced to concealment. 
+What might be cover for an arrow may not be cover from an XHP rifle. 
+
+== Firing Blind
+Firing blind refers to attacks made against targets which are not visible.
+The attacker may have an idea where the target is but target has 100% concealment.
+Blind firing applies if the target is unseen due to smoke, blindness, invisibility, or tear gas.
+Firing blind does not apply to target's with 100% cover.
+
+Firing blind is limited to projectile weapons (Types B, C, D, E, and F).
+The projectile must be able to penetrate the concealment. 
+Contact attacks (Type A) and area of effect weapons are not part of the firing blind rule set.
+
+Firing blind is mostly luck.
+The attacker thinks a target is hidden behind some concealment. 
+The cannot aim at the target so they fire into the concealment.
+This concealment could be bushes, drywall, or dense smoke.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+The most __tactical__ way to play blind firing is that the referee gives the player no information when firing blind.
+Cunning players can extract tactical information depending on how the referee plays firing blind.
+To keep the target's concealment total the referee may employ the following steps.
+
+.*meticulous blind firing rules*
+. player chooses to attack
+. player makes attack roll and damage roll
+. referee check the Percent Chance To Get An Attack Roll Dependent On Relative Size of Target If Concealed So Not Visible Table
+. no info is given until the persona investigates
+
+The persona may find a dead body, wounded or nothing at all in the bushes.
+That is the fog of war.
 
 include::ROOT:partial$CH35_Table_Percent_Chance_To_Have_A_Chance_To_Roll_To_Hit_Dependent_On_Relative_Size_of_Target_If_Concealed_So_Not_Visible.adoc[]
 
 == Range Penalties
-The range is the distance that the target is from the attacker.
-It is determined by either a subjective estimate from the ref (such as in the theatrical combat system), table top measurement, or a count of the number of hexes from the attacker to the target (such as in the tactical combat system).
-When counting hexes, the first hex is the one immediately in front of the attacker, and the last hex is the one containing the target.
+The range is the number of hexes between the attacker and the target.
+The first hex is the one immediately in front of the attacker, and the last hex is the one containing the target.
 Thus a target on an adjacent hex would be one hex away.
 
-There are no range penalties unless the target is further away than the maximum range of the weapon.
-The maximum range of a weapon is determined by its construction.
-Type A weapons (clubs, swords, etc).
-are virtually useless when the opponent is out of reach.
-Type B, and C weapons lose accuracy beyond a certain distance.
-The tactical combat system has a rate adjustment that makes weapons rapidly less accurate for each hex beyond their efficient range.
+:art: Figure_range_examples.png
+:width: 450px
+:snark: Not an oven range.
+:artist: hexes Pixabay. Colour HM
+:date: 2020
+:license: CC BY-SA 4.0
 
-The Range of type B, and C weapons indicate the number of hexes the target can be from the attacker before penalties are issued.
-If the target of a throwing axe is within 14 hexes there is no range penalty.
-The Decay (-300 for the axe) of a weapon indicates how inaccurate the attack is once it is beyond the weapon's effective range.
-The Decay is subtracted from the roll attack roll for every hex beyond the weapon's range.
-So if the axe attack just mentioned were 16 hexes from its target the attack roll penalty would be -600.
-The weapon with the longer range has a greater  Range value and a lower Decay Rate penalty.
-If the target is within the weapon's range then there is no range penalty to speak of.
-However there still could be Meteorological penalties for every hex between the target and the weapon.
+include::ROOT:partial$articulate.adoc[]
 
-=== Type A Weapons 
-Thrusting and striking weapons can be used within the same hex as the attacker, and can reach out into any adjacent hex.
-Thus any persona passing within one hex of an opponent wielding a Type A weapon could be subject to an attack.
-The referee may limit very long weapons (such as double handed swords, morning stars, and large flails) to use outside of the attacker's hex, and on occasion perhaps within a two hex radius of attack (halberds and pole arms).
-Combatants using very short weapons may find themselves limited to in hex combat.
-More information about type A weapons can be found in chapter 28, Weapons.
-
-=== Type B Weapons 
-Non powered missile weapons cannot be used within the same hex as the attacker.
-In the tactical combat system, this is the number of hexes free of decay rate penalties.
-If a player wanted attack roll a target that was 16 hexes away, with an axe, she would have a -600 penalty.
-Note that several weapons which are not Type B weapons have given ranges on the table.
-A more in depth discussion of type B weapon ranges is found  in http://expgame.com/?page_id=300[Chapter 28: Weapons].
-
-=== Type C Weapons 
-Powered missile weapons include any ranged weapon that is self powered, i.e., those which do not require physical action to inflict damage.
-Any rifle, lazer, crossbow, or bizarre energy weapon is included in this category.
-Type C weapons have no minimum range, and their ranges are much longer than type B weapons, and their decays are much lower.
-Guns are artifacts and are detailed in http://expgame.com/?page_id=339[Chapter 46: Guns].
+There are no range penalties if the target is within the maximum range of the attack.
+Maximum ranges vary by weapon construction, tentacle length and robot physical strength
+The range attack roll penalties are per hex penalties applied per hex beyond the attack's range.
 
 == Movement Penalties
-Movement combat adjustments can become very cumbersome to calculate if the terrain is in any way varied.
-The most efficient system is to allow movement to proceed essentially unhindered until combat becomes touch and go, and then apply those movement adjustments that seem necessary.
+A persona can use their entire movement rate per unit without penalty.
+Movement Rate is the designated amount that a persona can move during a combat unit. 
+There are some movement choices that the player can make that affect attack rolls.
 
-=== Movement Differential 
-To-hit adjustments based on movement apply only when the attacker and target have a difference in movement greater than 12 h/u.
-Any attacks made at differential velocities above 12 h/u are penalized at the rate of -10 for each differential h/u.
-A persona firing-on a creature flying 15 h/u faster than her would be penalized -150 on her roll to-hit.
-Likewise, a persona attacking a stationary target from a vehicle moving 22 h/u (80 km/h) would have a -220 attack roll penalty.
-Robots and aliens that naturally attack at speeds where the velocity difference is greater than 12 h/u are not affected by this penalty if they are engaged in what could be considered a natural attack for that persona.
+=== Movement Differential
+When the attacker and the target are moving at vastly different speeds there is an attack roll penalty.
+This attack roll penalty is only meant for massive movement rate differentials. 
+The kind of differentials created by a vehicle. 
 
-=== Crawling 
-A persona can crawl at 1/4 her movement rate.
-A persona cannot act while crawling, however crawling does offer protection from type B, and C attacks.
-Crawling accounts as 50% cover from ranged attacks, this offers a flat penalty of -125 on the attacker's attack roll roll.
-However if a type A attack is launched against a crawling target, the attacker will earn a attack roll bonus of +165 (considered prone).
+Movement differential attack roll penalties are not applied to natural combat movement rates.
+For example a super fast alien would only suffer a movement differential attack roll penalty if she were in a moving vehicle.
+Her natural movement rate would never cause an attack roll penalty.
 
-=== Crouching 
-A persona can move in a crouched position at 1/2 her movement rate.
-Crouching personas can act normally except that type A weapons cannot be used, type B weapons have a -200 flat attack roll penalty, and type C weapons have a -75 flat attack roll penalty.
-Crouching is generally used for cover from type B and C ranged attacks.
-Crouching offers 33% cover, which converts to a flat penalty of -80 on the attacker's attack roll roll.
+The difference in movement rate must be greater than 10 h/u. 
+There is a -10 attack roll penalty per h/u difference in movement rate. 
+This is what makes it hard to hit a target from a moving vehicle or vice versa.
 
-=== Rolling 
-Personas can roll ap1 h/u.
-A persona who is encumbered can only roll by completing successive Normal (1d20) PSTR attribute rolls.
-An encumbered persona cannot act while rolling, whereas an unencumbered persona can attack with a type C weapon only with a flat penalty of -210 attack roll.
-It also should be noted that some substances cannot be rolled through.
+=== Differential Movement Rate Attack Roll Penalty
+.penalty = -10 per h/u difference.
+****
+A persona is in a jeep going 50 h/u. Her target is running away at 10 h/u. 40 h/u difference is a -400 attack roll penalty.
+****
 
-=== Climbing 
-Any target engaged in careful vertical climbing is considered a prone target, and the flat attack roll bonus is +666.
-There are several modes of frantic combat climbing that are not near as efficient as regular climbing, but offer better cover.
-These are discussed in chapter 12, Time and Movement.
-If the target is free climbing, climbing a rope, or climbing a ladder then there is a flat +165 attack roll roll bonus.
 
-=== Dekes and Dodges 
-Players will often attempt to have their personas dodge, deke or avoid particular attacks.
-The referee's interpretation of such descriptive role playing is entirely personal.
-Mercenaries can bolster their armour rating by carrying out such maneuvers;
-but other classes are not combat trained, and therefore cannot dodge attacks.
-It is assumed that they will be taking every reasonable action that will keep themselves from getting hit.
-If they don't want to engage in combat then they should run away.
 
-=== Attacking While Prone 
-Prone is an immobile, tactically-minded, face down position.
-The prone persona is restricted to attacking with Type C weapons, but enjoys 90% concealment from type C attacks.
-Seated, squatting or reclining personas can attack normally with a type C weapons, but will suffer a flat penalty -100 attack roll with type A or B weapons.
+include::CH12_Combat_Movement.adoc[tag=Combat_Movements]
 
-=== Further Points 
-The attack roll roll adjustments listed should cover any eventuality that the expedition may encounter.
-There is, of course, always the exception.
-This is when the ref must improvise, and create her own attack roll adjustments.
-This should not be done haphazardly.
-The emotion of the moment will always affect the final decision.
-Before announcing a bizarre attack roll adjustment, ask yourself why, and be prepared to defend it.
-Once the decision is made, it is final.
-No roll can be re-rolled, and the ref must be prepared to live with that decision for all eternity.
-No pressure.
+// flanking bonuses
+
+== Further Points
+Take all these adjustments with a table spoon of salt.
+This is a faux realism tactical combat system.
+Only the most obvious attack roll adjustments are included here.
+Most have been added to EXP as they kept recurring and needed a written ruling.
+Most often the referee and players will improvise a ruling that seems fair.
+If negotiation is not successful the Sphincter Dice should be consulted.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
 
