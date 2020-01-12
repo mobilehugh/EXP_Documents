@@ -1,16 +1,29 @@
-= Area of Effect Combat
+= Area of Effect Attacks
 
 [quote]
 ____
 *Close counts in hand grenades and aerosols.*
 ____
 
-Grenades and aerosols are area of effect weapons.
-An area of effect weapon is one where the attack's effect is not just on a single target, but on every target within a certain area.
-All grenades have an area of effect that spreads outwards from a central point damaging everything within the area.
-Aerosols have area of effects like sprays, and spherical blobs.
-Both area of effect weapons are easy to use, but the rules are designed to be played with a combat tabletop  in mind.
-Using grenades in the tactical combat system with a hexagon play table is easy.
+An area of effect attack wreaks it's havoc on a bunch of hexes instead of a specific target.
+The most common area of effect attacks are grenades and aerosols.
+Aliens and robots can have area of effect attack as natural abilities or offensive systems.
+Area of effect weapons have a target hex instead of a target persona.
+Every target (friend or foe) in that area of effect is automatically affected by the attack.
+
+:art: Figure_grenade_area_of_effect.png
+:width: 250px
+:snark: Area of effect.
+:artist: HM 
+:date: 2010
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+== Grenades 
+Grenades are area of effect weapons which can be thrown at the target hex.
+Combat with Molotov's, acid misters, pipe bombs, explosives and artifact grenades is covered here.
+Any alien or robot attacks that function like grenades 
 
 :art: lion_grenade.png
 :width: 250px
@@ -21,63 +34,38 @@ Using grenades in the tactical combat system with a hexagon play table is easy.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Grenades 
-Grenades are area of effect weapons which can be thrown a reasonable distance.
-Combat with Molotov's, acid misters, pipe bombs, explosives and artifact grenades are explained here.
-The point of grenades is that, besides being destructive, they are simple to use.
-The grenade combat system reflects this.
-The ease with which grenades can be discharged is in part what makes them so deadly.
-Everyone should remember that anything caught within the area of effect--personas, targets, equipment, walls--is subject to the grenade's full effect.
-Some points to remember about grenades.
-Many grenades cannot be manually thrown out of their area of effect.
-Such grenades were designed for grenade launchers or specially armoured troops.
-Armour, unless specifically stated in the armour description, does not absorb grenade damage.
-Grenade effects are three dimensional, affecting anything above the blast hex.
+Grenades are effective and dangerous.
+They do not come with warning labels. 
+Some artifact grenades cannot be safely thrown.
+Armour does not absorb grenade damage.
+Grenade area of effect is three dimensional.
 
-=== Grenade Activation
-There are many different ways to activate a grenade (pin, twist cap, etc.).
-Most grenades should have at least one safety feature, which allows them to be transported and handled roughly.
-This does not apply to homemade grenades such as Molotov or pipe bombs which are inherently dangerous.
-All grenades have a setting where their detonation is irreversible.
-Personas can easily explode grenades  by fiddling with them.
-Contact fuses (Molotov, some pipe bombs, and most hi-tech grenades) detonate the grenade when it contacts a solid or dense liquid surface.
-Timer fuses (lit fuses, and some hi-tech grenades) detonate the grenade at a pre-set time following activation.
-Regardless of the fuse type, the persona need only throw the device to activate it.
+WARNING: *All area of effect weapons damage friend and foe equally.*
+
+.*Steps of a grenade attack*
+. Pick target hex (range)
+. Activate grenade (throw)
+. Make attack roll
+.. Malfunction
+.. Miss
+. Count area of effect
+. Wreak havoc
 
 === Range of Grenades
-The target hex chosen by the player can be anywhere within throwing range of her persona.
-A persona can throw a normal grenade 1 hex per point of PSTR.
-Heavier than normal grenades would have a shorter range.
-The player can count the hexes to see how far her persona can throw the grenade, but she cannot count hexes to determine the area of effect.
-However  a player would be able to count area of effect hexes if her persona were a high level mercenary using safe grenade throw.
-So when a player's persona is about to throw a grenades she can count the range of the grenade throw, but she cannot count the hexes of the grenade's area of effect.
+How far can the target hex be from the persona making a grenade attack?
+This depends on how the grenade is being delivered. 
+Grenades are most commonly thrown (type B). 
+Grenades can also be launched (type C).
+The player gets to choose which hex she would like the grenade to land in.
+
+==== Counting Hexes
+The player chooses a target hex within range.
+This will be a location on the hex mat that will be most effective.
+Since this is the tactical AOE system players will want to be tactical.
+The player may count out the target range hex by hex.
+The player *cannot* then count the area of effect of the grenade.
+This is an EXP convention that increases the faux realism of grenades in tactical combat.
 The diagram below demonstrates the area of effect for a 1 hex and a 2 hex radius of effect grenade.
-
-=== Grenade Malfunction
-The chance of a grenade being a dud  depends on whether it is an artifact grenade or a homemade mundane grenade.
-Grenade malfunctions are determined by the unadjusted kilo die roll of the player, and bonuses attack are not considered.
-Mundane area of effect weapons  have a high chance of malfunctioning or even exploding in the mitts of the persona.
-Homemade grenades will detonate when thrown if the kilo die attack roll is less than 42.
-They will not explode at all if the attack roll is less than 200.
-Artifact grenades are proper military devices and are much more robust.
-A referee may check for a malfunction if the kilo die attack roll is exactly 42.
-The referee and player would use a sphincter dice challenge from  to determine the outcome of the malfunction.
-
-=== Cover and Damage
-Cover from grenades can be offered by very sturdy protection such as bunkers, rocks, or vehicles.
-A completely covered target will take no damage from a grenade attack.
-If the referee feels that there should be some damage reduction for cover a simple rule may be to reduce the damage by the percent cover that a persona has.
-If a target has 90% cover then reduce the damage by 90%, if the target has 33% cover then reduce the damage to 33%.
-Concealment has nothing to offer versus grenades.
-
-// insert table 241
-
-== Attack Roll 
-The standard attack roll on kilo-dice determines how successfully the persona has thrown the grenade.
-A grenade attack targets a specific hex, not necessarily a specific target.
-The target hex can contain an opponent, or be an empty hex that is within a group of opponents.
-A successful attack roll will indicate that the grenade has detonated in the target hex, having whatever effect that is described.
-A miss with a grenade will cause it to detonate somewhere other than the target hex.
 
 :art: Figure_grenade_area_of_effect.png
 :width: 250px
@@ -88,50 +76,70 @@ A miss with a grenade will cause it to detonate somewhere other than the target 
 
 include::ROOT:partial$articulate.adoc[]
 
-For a player to hit the target hex, she must roll over 600.
-The target hex does not actually have an armour rating.
-What the roll represents is the chance of aim, timing, and grenade skills being successfully integrated for the grenade attack.
-A miss does not always indicate a poor shot;
-it indicates that the grenade did not detonate in the desired hex.
-This could occur because of bad aim, or strange bounces, but it is a miss all the same.
+==== Non-Powered Grenade Launcher (type B AOE)
+Throwing the grenade is a the most common cinematic grenade maneuver.
+Throwing a grenade is a Type B AOE attack. 
+The range of grenade depends on the PSTR of the persona throwing it.
+A persona can throw a normal grenade 1 hex per point of PSTR.
+Heavier grenades may have a shorter range.
 
-=== Attack Bonuses
-Personas throwing grenades make an attack with a Type B weapon against a specific hex on the playing table (or against a general location if not using a grid system).
-The persona usually adds her Bonus Non Proficient (BNP) to the roll since grenade proficiency is unusual.
-Grenade proficiency will allow the persona to use her Bonus Proficient (BP).
-Any penalties for Type B weapons apply to grenade attacks.
-A grenade can be accurately thrown one hex per point of PSTR.
-Grenade launchers and grenade slings can increase this range.
+==== Thrown Grenade Range (type B AOE)
+.Range = 1 hex per point of PSTR
+****
+A persona with a 12 PSTR can pick a target hex up to 12 hexes away.
+****
+
+==== Powered Grenade Launcher (type C AOE)
+Grenade launchers are artifact weapons with artifact details that will determine the range of attack.
+The launcher will have a specific range on it's artifact record sheet. 
+
+=== Grenade Activation
+For artifact grenades a persona may not know how to activate the device. 
+Once the grenade is activated (pin, twist cap, or launcher) the persona is committed to the attack.
+The pin is a safety device to keep the grenade from exploding in transport.
+Once 'pin is pulled' there is no turning back.
+
+Mundane area of effect attacks are covered xref::CH28_Weapons.adoc#_type_aoe_attacks[here].
+Mundane grenades are not safe and can explode while being made, transported of thrown.
+
+== Attack Roll 
+The grenade attack roll is a kilo-die roll made by the player.
+The roll includes skills, bonuses, and lots of chance.
+Throwing a grenade in combat is fraught with risk.
+
+The armour rating of the target hex is 600.
+How can a lump of dirt have such a high armour rating?
+While it is easy to activate and throw the grenade, success is shrouded in the fog of combat.
+Between the kilo die attack roll and the chaos of combat the lump of dirt has an AR of 600.
+A miss with a grenade can still damage all targets as the weapon still detonates.
+The persona only needs to get close with a grenade.
+
+=== Target Hex Armour Rating
+.Target Hex AR = 600
+****
+The player must roll 600 or higher to hit the target hex. Anything less is a miss.
+****
 
 == Miss Result 
 A miss with a grenade can still be a hit.
-There is a chance the grenade will still even land in the target hex.
-As long as the grenade detonates every target in the area of effect will be damage.
-As the old adage goes, close only counts in horseshoes and hand grenades.
 A miss will indicate that the grenade lands somewhere other than the target hex.
-Which hex the little gift lands in is determined by rolling on Table 30.1: Distance of Grenade Miss and Table 30.2: Direction of Grenade Miss
+There is a chance the grenade will still even land in the target hex.
+As long as the grenade detonates every target in the area of effect will be damaged
+As the old adage goes, close only counts in horseshoes and hand grenades.
 
-
-include::ROOT:partial$CH30_Table_Distance_of_Grenade_Miss.adoc[]
-
-:art: Figure_Deviation_Hex_Degrees.png
-:width: 250px
-:snark: Where could it go?
-:artist: HM
-:date: 2010
-:license: CC BY-SA 4.0
-
-include::ROOT:partial$articulate.adoc[]
+The miss result is for ranged grenade attacks. 
+It does not apply to dropping a grenade down a hole. 
+It does not apply to dropping a grenade at one's feet.
+Attack rolls and misses are for targeted attacks during the chaos of combat.
 
 :art: Figure_grenade_miss_direction_d12.png
 :width: 250px
-:snark: Roll to see where it rolls.
+:snark: Roll to see where it rolls (1d12).
 :artist: HM
 :date: 2010
 :license: CC BY-SA 4.0
 
 include::ROOT:partial$articulate.adoc[]
-
 
 :art: Figure_grenade_oops.png
 :width: 450px
@@ -142,13 +150,67 @@ include::ROOT:partial$articulate.adoc[]
 
 include::ROOT:partial$articulate.adoc[]
 
+=== Grenade Attack Bonuses
+Grenades are a proficiency like any other weapon. 
+Most personas will lack the grenade skill.
+The player can only add Bonus Non-Proficient to their attack roll.
+If the AOE attack is non-powered they use their type B BNP (or BP if proficient).
+If the AOE attack is powered they use their type C BNP (or BP if proficient).
+
+If the AOE attack is an alien natural ability the player uses her Bonus Proficient.
+If the AOE attack is a robotic baked in offensive system player uses her Bonus Proficient. 
+
+=== Grenade Malfunction
+Do it yourself mundane grenade weapons can malfunction in all sorts of ways.
+Artifact grenade weapons only come under scrutiny if the player rolls a 42 on the kilo-die.
+This means that something different happens 1 in 1000 times an artifact grenade is thrown.
+What happens is up to the referee and players.
+
+Malfunction can occur to alien and robotic grenade like attacks.
+
+=== Artifact Grenade Malfunction
+.Attack roll = 042
+****
+If the player rolls 42 on the attack roll something interesting may happen.
+****
+
+== Grenade Effect
+Most grenades deliver a deadly shockwave along with shrapnel or other special effects.
+Artifact grenades can deliver additional effects like: fire, gas, or even stranger.
+Every persona in the area of effect takes damage.
+Those personas who are located one hex beyond the area of effect are faux realistic lucky.
+Those personas inside are all affected by the attack.
+If the damage is 30 HPS every persona loses 30 hit points.
+If the effect is poison gas every persona must win a saving roll or take damage.
+
+=== Cover and Damage
+Cover from grenades can be offered by very sturdy protection such as bunkers, rocks, or vehicles.
+A completely covered target will take no damage from a grenade attack.
+If the referee feels that there should be some damage reduction for cover a simple rule may be to reduce the damage by the percent cover that a persona has.
+If a target has 90% cover then reduce the damage by 90%, if the target has 33% cover then reduce the damage to 33%.
+Concealment offers no protection against grenades.
+
+include::ROOT:partial$CH35_Table_Cover_and_Concealment_Penalty.adoc[]
+
+=== Avoiding Grenades
+It is unlikely that a persona will notice a baseball flying across the smoky confused battle field.
+Some referees and players like to have the option of running away or taking cover with a grenade attack.
+Here is an outline of things to consider.
+
+. must be able to move (has waited move)
+. must be able to act (has waited attack)
+. must know what a grenade is and not think it is a stick and want to fetch it
+. if these requirements are intact the referee may allow for an AWE roll.
 
 == Aerosols
-The aerosol is a simple weapon to use in both play, and in game mechanics.
-An aerosol is kind of like a safe grenade, where the user merely points and pushes the eject button.
-Almost all aerosols have their business ends clearly marked.
-The weapon is generally foolproof, and even mercenaries can use the device with little difficulty.
-A combat aerosol can only be acquired as an artifact and there is no mundane version to be purchased or created.
+Aerosols are cannisters of death that spray their attack with the push of a button.
+The game play of aerosols is much simpler than grenades, but they are no less dangerous.
+Almost all aerosols have their business end clearly marked.
+The weapon is generally foolproof, and even nothings can use them without difficulty.
+Weaponized aerosols are always artifacts and there are no effective mundane aerosols.
+
+For the purpose of classification an aerosol is a type C AOE attack.
+Aliens and robots can have attacks that function the same as aerosols. 
 
 :art: aerosol_face.png
 :width: 250px
@@ -159,14 +221,23 @@ A combat aerosol can only be acquired as an artifact and there is no mundane ver
 
 include::ROOT:partial$articulate.adoc[]
 
-A military aerosol is a device designed to eject lethal materials such as flames shrapnel or poisons.
-Most of the other aerosols are industrial in nature, but are effective in lethal personal combat.
-
 === Attack Roll
-An attack with an aerosol requires no roll attack, and targets in the area of effect are automatically effected.
-If a persona were targeting a specific target, the aerosol would attack as a type C weapon.
-Aerosols are not discerning, and will damage a fellow expedition member as easily as a target.
-The important details about aerosols and their ranges, effects, and peculiarities are described in 
+Aerosols do not require an attack roll and do not malfunction.
+The point and shoot nature of the aerosol leads to limited flexibility.
+When activated the aerosol instantly ejects either a stream or blob attack.
+
+=== Stream Aerosol
+This is the most common aerosol attack formation
+The aerosol blasts it's weaponized contents straight out the front.
+For example, an aerosol with a 2 hex x 9 hex area stream area of effect.
+When discharged the cuts a swath 2 hexes wide, and 9 hexes long.
+Whatever is caught in this jet stream will be affected by the aerosol.
+
+=== Blob Aerosols
+Blob aerosols instantly launch a blob a fixed range and expand out to a radius area of effect.
+Blob aerosols function very similar to a powered grenade launcher.
+So an aerosol with a 10 hex range, and a 5 hex radius of effect, would spray 10 hexes, and then engulf a 10 hex diameter ball of targets (or teammates).
+Whatever is caught in this area of effect will be affected by the aerosol.
 
 :art: Figure_Aerosols.png
 :width: 450px
@@ -177,37 +248,10 @@ The important details about aerosols and their ranges, effects, and peculiaritie
 
 include::ROOT:partial$articulate.adoc[]
 
-=== Stream Area of Effect
-This is the most common aerosol area of effect, and it is hallmark of a military aerosol.
-Another type of aerosol has a stream area of effect.
-Such aerosols may have a 2 hex x 9 hex area of effect immediately in front of the aerosol.
-So when this type of weapon is discharged it will cut a swath 2 hexes wide, and 9 hexes long.
-Whatever is caught in this jet stream will be affected by the aerosol.
-
-=== Spherical Area of Effect
-Spherical area of effect aerosols fire a charge out to their maximum range, and then explode outwards, with a spherical area of effect.
-So an aerosol with a 10 hex range, and a 5 hex radius of effect, would spray 10 hexes, and then engulf a 10 hex diameter ball of targets (or teammates).
-Anything caught within this sphere will be damaged, coated, poisoned, or whatever.
-
-This aerosol attack would be best described as a high velocity blob travelling over the 10 hex range, and then spontaneously atomizing into an effect area with a  5 hex in radius.
-The attack is instantaneous.
-If the blob, while travelling along its course, strikes any particularly dense object it would immediately atomize to its full area of effect.
-If a persona were to accidentally fire an aerosol into the back of a persona in front of her, the entire expedition is likely to be affected by the attack.
-Note that if an aerosol's area of effect can surround an object, that object cannot be used for cover 
-
-=== Aerosol Confinement
-When aerosols are used in close quarters some of the worst gaming complications can arise.
-For example, what happens if an aerosol with a 9 hex radius of effect is used in a 4 hex by 4 hex room?
-What happens when a stream aerosol is fired against a wall?
-If the ref proceeds to calculate volume, areas, 3 dimensional vectors, etc.
-combat will quickly become bogged down and players die from arithmetic overload as their personas die from napalm.
-
-Consider this pseudo-scientific : The aerosol attacks depend on the delicate atomization of liquid before they are effective.
-When the gaseous particles strike a solid surface, after they have atomized, they immediately condense, and lose their effectiveness.
-The condensed liquids are in a non-volatile, impotent form which means the effects of the aerosol are only carried out to within a molecule's width of the constraining walls, and proceed no further.
-Yet the violent effects of the attack are fully transferred to the containing surface.
-The condensate will be conveniently useless to the personas in the expedition because it will immediately evaporate.
-
-
-// insert table 243
-
+=== Confined Spaces
+Aerosols do not exhibit great forces like exploding grenades. 
+These weapons transform the atmosphere to exert their damage.
+Aerosols do not expand beyond the area of effect in a confined space.
+A stream aerosol aimed into a tiny room will only affect that tiny room.
+This keeps aerosols from harming their users. 
+Another safety feature that limits flexibility.

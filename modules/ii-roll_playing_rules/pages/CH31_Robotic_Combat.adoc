@@ -1,254 +1,354 @@
 = Robot Combat
 
-Robots cannot easily engage in combat.
-No robot, unless otherwise noted, may harm its base anthro type, or in any way allow that base anthro type to come to harm (Asimov).
-This means that a robot may attack an entire expedition, and leave one persona alone.
-This means that a robot will not fire a grenade into a crowded room if a lone member of its manufacturing anthro type may come to harm.
-Robots cannot be convinced to attack their own base family, nor can they be easily tricked.
-The ref must closely watch that robot personas do not try to squeeze through loopholes of this ruling;
-as long as they see even the potential for harming their base anthro type, they must take precautions to avoid doing so.
-It is also important that the ref makes sure that robots are not manipulated due to this law.
+This is a legacy section.
+The essential components of robot combat are discussed in persona generation. 
+Robots are just another persona in the tactical combat system. 
+There are more similarities than differences.
+Key differences are fabricator type, control factor and hit points.
 
-Lethal personal combat with robots will certainly exist.
-By no means does this imply that there will be any dearth of insane robots for the expedition to fight, but those fights won't always be toe wheel brawls.
-Even when a robot is technically allowed to bash an organic being, many robots find themselves lacking any such attack.
-Therefore crazed bots will often be reduced to locking expeditions in rooms (forever), turning off the air conditioning, or even messing with power supplies.
+== Points to Ponder on Robot Combat
 
-When robots are involved in lethal personal combat, whether it be with an expedition, an unlucky anthropomorph, or another robot it is carried out in the same method as all personas.
-The player running the robot must make a to hit roll higher than the target's armour rating before she can damage her target.
-There are no special benefits that are given a robot to hit roll.
-Conversely any to hit roll made on the robot that is higher than her AR will inflict damage.
-The robot will take damage regardless of whether she is hit by an avarian feather, or a fusion blast.
-The rest of the chapter deals with how robot combat is different from anthro and alien combat.
-These differences are all procedural for the robot persona and should not affect combat at all.
+.*in no particular order*
+. robots were not fabricated with free will in mind
+.. robot free will comes from malfunction and damage
+. robots may have a fabricator type that they cannot harm
+.. combots do not have this limitation
+. combat is an internal computational struggle
+.. control factor rolls may be required multiple times
+. robot armour rating is 700 unless hardened by defences
+. robots are easy to hit but hard to destroy
+. robots can be defeated by means other than violence
+. a robot is neither destroyed nor unconscious a zero HPS
+.. demolition tables are complicated but fun
+. Bonus proficient is only used for baked in bespoke weapons
+.. Bonus non-proficient is used for angry peripherals 
+. combot robots are like rogue tanks and are very dangerous
+. ramming (requires CF roll) is different from ramming skill (offensive system)
 
-//+++<figure id="attachment_2078" aria-describedby="caption-attachment-2078" style="width: 220px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/08/robotcombat.321-220x300.png?resize=220%2C300[I just washed that!,220]](https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/08/robotcombat.321.png)+++<figcaption id="caption-attachment-2078" class="wp-caption-text">+++I just washed that!+++</figcaption>++++++</figure>+++
+== Fabricator Type
+The relationship between a robot and her fabricator type is fluid at the best of times.
+Robots cannot easily engage in combat with their fabricator type.
+For a robot to intentionally harm a persona from their fabricator type would require a Control Factor Roll.
+There are no https://en.wikipedia.org/wiki/Isaac_Asimov[Asimovian] three rules in EXP.
+However not harming the fabricator type is a soft rule that is designed to cause confusion.
+
+A robot may attack an entire expedition, and leave one persona alone.
+Robots cannot be easily convinced, or easily tricked, to attack their fabricator type.
+Players will find that referees will keep close tabs on efforts to loophole their way through programming.
+
+Fabricator type should not be weaponized by the referee against robot personas.
+A fully operational robot with no free will may be smashed to bits by angry members of it's fabricator type.
+A persona robot can run away, immobilize attackers, or even fight back if a control factor roll is successful.
+
+:art: commercial_janitorial.png
+:width: 250px
+:snark: I just cleaned that!
+:artist: Andrew Brechin
+:date: 1990
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+== Control Factor
+Control Factor Rolls are required for the player to maintain control of her persona.
+If the player is tasker her robot persona with actions that go against her programming a CF Roll is in order.
+Control Factor Rolls can happen many times during combat.
+
+include:ii-roll_playing_rules:CH05_Robots_Z_CF.adoc[tag=Control_Factor]
+
+Robots are machines and their free will is an anomaly of damaged circuitry.
+They were fabricated to be under the control of an owner or at least a fabricator type.
+One way to defeat a robot is to restore the persona to it's fabricated servitude.
+
+Control Factor does not allow a persona to control a robot because she is from the fabricator type.
+Players can try ordering robot personas around. 
+Being from the robot's fabricator type may help barking commands.
+A robot persona is not an automaton and they enjoy their free will
+An anthro is welcome to try and give orders to a heavy combat robot.
+The player likely won't try and do that again.
+
+In short robots are free willed and conversing with them cannot bring them under the spell of their fabricator type.
+
+=== Spontaneous Loss of Control
+Under certain conditions a robot may involuntarily revert to its utilitarian nature.
+This is called loss of control, and it means the player has lost control of her persona.
+This loss of control is temporary.
+During this time the robot will return to it's expected fabrication role.
+A cleaning robot may start to clean up combat mess instead of fighting.
+
+What triggers a Control Factor Roll is decided by the referee and the players.
+The difficulty of maintaining control is decided by the referee
+For example losing control doing a simple task would be an Easy Control Factor Roll.
+If a janitorial bot was used to clean a dirty bathroom.
+A more difficult CF Roll may be required if the robot were asked to mess up a bathroom.
+
+=== Priority Commands
+Priority commands are specialized attacks made by mechanics with robotic skills.
+Strangely worded commands can immobilize a robot by creating logical dilemmas within its reasoning circuitry.
+Priority commands are the robot's version of a mental attack on the robot's circuitry.
+
+The robot will suffer debilitating effects for the length of time 1 to 100 units in length.
+While this time is appears short this is a tactical combat maneuver, and 1d100 units a lot of combat time.
+Priority commands may slow the robot to move at half speed, ignore a certain weapon, or forget how to turn left.
+The effect of the priority command is negotiated between the referee and the players. 
+
+If there is no preparation as to the priority command effect try this table. 
+
+include::ROOT:partial$CH05_Table_Robotic_System_Malfunction.adoc[]
+
+The higher the robot's control factor the more difficult it is for a priority command to be successful.
+The Degree of Difficulty (DD) of such a priority command is equal to the robot's CF. 
+Referees will often have priority commands prepared for their robot referee personas.
+Scenario related priority commands can come along with clues found in the milieu of the game.
+
+=== Robot Overrides
+Robotic overrides are specialized attacks made by mechanics with robotic skills.
+Robotic overrides can involved strangely worded commands and mechanical interventions.
+There are even specialized artifacts that assist robot override. 
+
+Robotic overrides are like a mental attack on the robot's malfunctioning free will circuitry.
+Successful robot override turns control of the robot over to the attacking mechanic.
+Needless to say this would be devastating to a player persona robot.
+Control lasts 1-100 hours (1d100).
+The override can end abruptly freeing the robot to exact revenge. 
+
+Robotic override on powerful robots should be part of the campaign.
+The referee should have sub quests that are needed to build up the required tech and knowledge.
+It would not be good game balance for high level mechs to walk around commanding heavy combots.
+
+The minimum Performance Roll DD (degree of difficulty) should be 2 DD per point of Control Factor. 
 
 == Robot Attacks
-Robot attacks vary considerably, and most robots that engage in combat will have no weapons to speak of.
-Robot weapons are most often regular non-violent appendages that are being used to damage a target.
-The next question is, how does a robot with no built-in attacks damage an opponent?
-This is left to the ingenuity of the player.
-It may be as simple as ramming, or as convoluted as mopping the opponent's face.
+Some robots have no attacks at all.
+Some robots have developed offensive systems. 
+How does a robot with no built-in attacks damage an opponent?
+This is left to the ingenuity of the player and referee.
+Attacks can be as simple as running over a target, or as convoluted as mopping the opponent's face.
 
-== Robot Combat Table
-If you are using the tactical combat system the robot persona will require a combat table.
-The robot combat table appears the same as any other persona's combat table.
-There are of course differences in how the matrix is populated.
-If the idea of a combat table is unfamiliar to the reader she should refer to *Chapter 9: Combat Tables*.
-If the reader is using the theatrical combat system then she should simply ignore pretty much everything that appears here.
+. Creative misuse
+. Ramming
+. Deadly random peripheral
+. Baked in weapons
 
-The robot combat table (Table 31.2) has three weapon types like all other combat tables.
-The way in which each weapon type's bonus proficient is generated is different from that of anthros and aliens.
-A robot with a 10 PSTR and a 15 DEX would had a Bonus Proficient (BP) of 125 for type A weapons.
-The Bonus Proficient (BP) is used for any weapon that is part of the robot.
-The Bonus Non-Proficient (BNP) for robots is 0.
-The BNP is used for any weapon that is not part of the robot.
-For instance, a robot with an articulation that picks up a gun would use her Bonus Non-Proficient (BNP), in other words there would be no to hit roll bonus at all.
-Robots have no maximum roll to limit their to hit rolls.
-If a robot were to roll 986, and have a Bonus Proficient (BP) of 110, her to hit roll would be 1096, and it would not be limited by a Maximum Roll (MR).
-Robot Damage Adjustment is straightforward, and is simply added to the damage of the appropriate weapon type.
+=== Robot Damage
+Damage inflicted by robots does *not* follow too much physics or even faux realism.
+Keep in mind that these are malfunctioning robots with malfunctioning peripherals.
+In short the peripheral is not being used for what it was meant to.
+This includes ramming attacks. 
+An attack may still have safety programming, material variances, or other pseudo science impairing the damage
 
-// insert table 244
+For example the excavating shovel of a robot will not necessarily crush everything flat.
+It may still move a tonne of dirt, but safety mechanisms could limit it's attack ability.
+Trying to crush a scampering alien is not part of the programming for that device.
+The robot can still smack the alien with it's shovel, but not with 1 tonne of force.
 
-// insert table 245
+=== Creative Misuse
+Creative misuse is up to the ingenuity of the player and referee.
+Creative misuse actions rarely involve attack rolls or damage.
+However they can be helpful or destructive an expedition in different ways
+For example, face mopping, face painting, locking a door, unlocking an airlock, turning off the lights, etc.
+Familiarity with Sphincter Dice can assist in creative misuse discussions.
 
-== Robot Ramming 
-All robots can fling themselves into targets that they want to damage.
-Ramming damage for robots is dependant on the type of ramming surface, relative wates and relative speed of the robot and its target.
-Robots that have no attacks whatsoever can resort to ramming, but they must first make a successful control factor roll (see below).
-Ramming a target will certainly damage it, but it will also damage the robot.
-Such self destructive behaviour for a robot will only be allowed by its programming if its insanity were to overrule it.
-This is what the control factor represents.
-If the robot has ramming as an attack, it does not have to make the CF check.
+=== Ramming
+A robot may smash itself into a target with the full intent of inflicting damage.
+Both the robot and the target will will take damage from successful ramming.
+If the robot can cross paths with a target on the hex mat they can make a ramming attack roll.
+Ramming is considered a type A attack on the combat table.
 
-// insert table 246
+.*elements affecting ramming*
+. Control Factor Roll (if no Ramming Skill)
+. Ramming surface (from fabrication)
+. Relative Speeds (ramming speed)
+. Relative Wates (crushy macsmushy)
+
+include::ROOT:partial$CH05_Table_Robotic_Ramming.adoc[]
 
 ==== Relative Speed
+The faster the robot is going the more ramming damage it can deliver.
+Relative damage is a very Tactical Combat type of adjustment.
 How much damage a robot inflicts is dependant on the relative speed of the robot and the target.
-If the bot is chasing the target, and scores a hit;
-the target's speed is subtracted from the robot's ramming speed.
-Thus a robot moving at 12 h/u ramming a target running away at 8 h/u could only generate 4 h/u of ramming speed.
-If the target happens to be travelling in the opposite direction of the bot;
-the target's speed is added to the bot's ramming speed.
-If the same robot and target described previously were to meet head on, the robot's ramming speed would be considered 20 h/u.
-A robot ramming at 10 h/u with a blunt flat would inflict 4d4 HPS** **damage.
-A robot ramming with a sharp protuberance at 21 h/u would inflict 8d10 HPS* *damage.
+
+Relative speed is boring and we prefer to call it Ramming Speed instead.
+
+==== Calculate Ramming Speed Damage
+.Ramming Speed = Robot move - target move (negative if towards robot) 
+****
+Descriptions below.
+****
+
+If the bot is chasing a target running away the target's speed is subtracted from the robot's speed.
+A robot move of 12 h/u and target move 8 h/u (running away) would generate 4 h/u of ramming speed. 
+A blunt flat ramming surface would generate 1d4 damage plus 3d4 for ramming speed (total 4d4).
+A successful attack roll will always generate the base damage of 1d4 HPS of damage. 
+
+If the bot and the target are heading towards each other the target's speed is added to the robot's speed.
+A robot move of 12 h/u and target move 8 h/u (charging robot) would generate 20 h/u of ramming speed.
+A blunt flat ramming surface would generate 1d4 damage plus 7d4 for ramming speed (8d4).
+A successful attack roll will always generate the base damage of 1d4 HPS of damage.
+
+If the robot had a sharp protuberance the damage would be 1d10 + 7d8 for ramming speed. 
+That is a damage range of 8-66 HPS. 
+Ramming can be very destructive.
+
+If the target were stationary (move of 0 h/u) the robot would have a ramming speed equal to it's move.
+A robot move of 12 h/u and a target move 0 h/u (standing still) would generate 12 h/u of ramming speed.
+A blunt flat ramming surface would generate 1d4 damage plus 4d4 for ramming speed (5d4).
+A successful attack roll will always generate the base damage of 1d4 HPS of damage.
+
+There are no rules for angled attacks. 
+That kind of arithmetic hurts the brains of even hardened tactical combat players.
 
 ==== Relative Wate
-If the referee chooses relative wate of the target and the robot can be considered.
-Not only does relative speed affect ramming, relative wate is also an important factor.
-If a robot has a greater wate than its target, it will inflict additional damage.
-If the target has a greater wate than the ramming robot, the target will take less damage.
-The damage factor is calculated by dividing the wate of the robot by the wate of the target.
-This damage factor only applies to robot ramming, and not to any other robot attack.
+Ramming speed determines the total damage delivered by the robot.
+Relative wate takes into consideration the size and wate of the robot.
+Consider being hit by a bicycle vs a dump truck.
+The bigger you are the harder they fall.
 
-After damage for the ram is rolled, the Hit Points (HPS)* *damage is multiplied by the wate of the robot divided by the wate of the target.
-If a 120 kg robot rammed a 40 kg target for 22 HPs of damage it would inflict triple damage, or 66 HPS damage.
-If a 40 kg robot were to ram a 120 kg target for 24 HPS of damage, the bot would inflict 1/3 damage, or 8 HPS damage.
+NOTE: *The Crush Multiplier is only used if personas are different sizes.*
+
+Relative wate is an optional rule.
+Players that have heavy robot personas like to use it.
+Players being rammed by heavy robots do not like to use it. 
+
+==== Calculate Crush Multiplier
+.Crush Effect = Robot wate / target wate
+****
+Cannot exceed 4 times bonus or a 1/4 penalty.
+****
+
+The damage is determined using the Ramming Speed Damage calculation.
+The Crush Multiplier is determines how that damage is modified due to size difference.
+
+If a 120 kg robot rammed a 40 kg target for 22 HPs of damage it would inflict triple damage.
+Increasing damage from 22 to 66 HPS damage.
+If a 40 kg robot were to ram a 120 kg target for 24 HPS of damage the bot would inflict one third damage.
+Decreasing damage from 24 to 8 HPS damage.
 The damage factor cannot exceed 4 times greater, or be reduced by less than 1/4.
 
-== Damage With Random Peripherals
+Just for fun.
+If the robot with the sharp protuberance (8-66 HPS damage) described was 4 times heavier than it's target the damage range would be a whopping 32 to 264 HPS of damage. 
+Even simple ramming robots can be the most dangerous personas on the hex mat. 
+
+=== Damage With Random Peripherals
+A robot persona may have a deadly random peripheral as part of her Offensive Systems.
+A player may want to use a random peripheral as an attack.
 How much damage does a mop to the head do?
-Here again the referee, and the player, must improvise.
-A quick (yet both arcane and convoluted) system to allow the player to roll any  four dice combination whose maximum damage is less than the robot's PSTR.
-For example, a bot with a 9 PSTR could choose from  inflicting 1d8, 2d4, 3d3, or 4d2 HPS damage with a random peripheral attack.
-A robot with a 24 PSTR could choose from 1d20, 2d12, 3d8, or 4d6 HPS damage per attack.
-The maximum number of dice in the combination is 4.
+The referee and player will discuss and improvise some outcome for random peripheral attack rolls.
+This includes attack type, damage and other effects.
+If the player wants to use her robot's mop to make a mess a control factor roll is reasonable.
+These deadly random peripherals are usually negotiated during robot fabrication.
 
-The amount of damage that a certain peripheral inflicts is determined at the beginning of the campaign, and does not alter (unlike the unpredictable ramming).
-Deciding whether an attack is a type A or a type B attack depends on the description of the deadly random peripheral.
-The number of deadly random peripherals that a robot has is determined when the persona is generated.
-Some of these peripherals will be well described, and not require too much creative effort on the part of the players involved.
-It is assumed that the procedure has managed to hardwire itself into the robot's violence response, and no other peripheral may be used to inflict damage.
-Other peripherals can be used to distract, annoy or otherwise endanger opponents.
-A description to help determine how the deadly random peripheral inflicts it's damage can be rolled on Table 5.19: Primary Robot Peripherals
+Not unexpectedly EXP has a zany system for determining damage from misused random peripherals.
+The system is so arcane and convoluted there is no table for it.
+Total damage is determined by the robot persona's PSTR.
+Dice used is determined by the robot persona's EXPS Level.
 
-If it appears that a particular weapon is not doing a realistic amount of damage the referee and players must remember that these are malfunctioning robots and therefore malfunctioning peripherals.
-The deadly random peripheral is not being used for what it was meant to.
-For example an excavating shovel of a robot will not necessarily crush everything flat.
-It can still move a tonne of dirt, but it can only do so much damage.
-Using the shovel to crush a scampering alien is not part of the programming for that device, and possibly there are still detectors and safe guards partially in place preventing full damage.
+=== Random Peripheral Damage Calculation
+.die roll = total < PSTR using 1 die per EXPS Level
+****
+So a 3rd level robot with a PSTR of 20 could use 3d6 or 2d8 or 1d12 to roll damage. She could not roll 5d4.
+****
 
+A robot with a PSTR of 9 at first level would likely choose to roll 1d8 for damage.
+At second level she could roll 2d4, or 1d6 + 1d3 for damage.
+At third level she could roll 3d3 etc. 
+EXPS level allows the robot to inflict a better damage profile with her deadly random peripheral.
 
-== Robot Armour Rating 
-Making physical contact with a robot is fairly easy, but penetrating their metallic hides can prove difficult.
-This difficulty is only reflected in their armour rating, and a hit will inflict damage if the attacker has rolled over the robot's Armour Rating (AR).
-Robots are given a base Armour Rating (AR) when they are manufactured, and cannot increase it with DEX** **bonuses.
-A robot's AR is usually 700 and is determined when the robot persona is generated.
+An extreme example is a 10th level robot with a PSTR of 20.
+She could choose to roll 10d2 vs 2d10.
+Improving her average damage roll from 10 to 15 HPS. 
+Probability is fun.
+
+=== Baked in Weapons
+These are peripherals that act like artifact weapons or bespoke artifact weapons.
+Which is which is determined at robot fabrication.
+Combot weapons are usually baked in allowing the player to use her persona's Bonus Proficient.
+When a malfunctioning peripheral is functioning __like__ a weapon the persona used her BNP.
+Otherwise baked in weapons function the same as any other weapon regarding range, damage, and malfunction.
 
 == Damaging Robots 
-Robots are damaged by all the same things that damage organic personas, plus a few extra things.
-Robots are hardy and can take more damage than any other persona type.
-Robots also gain experience, become more insane, as they are damaged more.
-Robots take double damage from concussion and force attacks (bomb blasts, solid blows), and triple damage from disintegration, corrosive and electrical attacks.
-Robots are damaged the same way as any other persona is: if a hit is scored it means HPS** **are subtracted from the robot's HPS total.
+A hit point is a hit point is a hit point.
+This means 4 HPS in damage from a feather duster is the same as 4 HPS damage from a metal pole.
+Damage organic and inorganic personas is the same.
+The shell and hull of a robot does not determine the damage. 
+The attack determines the damage. 
+Any HPS damage inflicted are subtracted from robot's HPS Total.
 
-Many of the robot types have enormous HPS totals.
-This is because they need them.
-Many attacks, such as electrical, and disintegrations do triple damage, and robots cannot repair HPS like organic personas.
-When a robot is hit, any damage it takes is subtracted from its HPS* *total.
-Damage to a robot is the same as damage to any other persona.
-A punch does no less damage to a robot than it does to any other biological life form.
-The HPS* *still represents a universal value.
-This means that a robot will quickly lose HPS, but will be unable to heal itself.
+NOTE: *Robots get EXPS from damage. More damage equals more player control over her robot persona.*
 
-==== Zero Hit Points
-A major difference between robot and other personas is that robots do not expire upon reaching zero HPS Total.
-When a robot's HPS Total drops below zero, it is damaged, but not dead.
-Some random system of the bot has been eroded to some degree.
-This erosion is represented by a drop in the robot's attributes, including the HPS Maximum.
+=== Repair or Healing
+Robots are not self repairing like organic personas.
+For a robot to heal they would have to be repaired.
+Repair for a robot returns it to it's original fabrication state which can decrease it's control factor.
+A fully repaired robot is a referee persona robot that follows orders and protocols. 
+
+It is possible for a robot to have peripherals that allow for self repair.
+Mechanics highly skilled in robots may be able to repair robots without wrecking their free will.
+
+=== Zero Hit Points
+Aliens are dead at zero hit points.
+Anthros are unconscious at zero hit points.
+Robots keep on kicking at zero hit points, but they are a bit worse off.
+When a robot's HPS Total drops below zero, it is damaged, but not dead yet.
+
+A robot continues on through a zero HPS Total as if nothing has happened at all.
+She may get a damage report or notice something working less well, but that is all.
+Zero HPS Total inflicts general decay (decreased HPS Max) and system malfunction (decreased attribute) on the robot.
+As the robot is damaged she her HPS Max and attributes deteriorate.
+
+.*Effects of Zero Hit Points*
+. General Decay
+.. Decrease HPS Max by 10%
+. Random System Malfunction
+.. Decrease an attribute by 0-2 points
+
+[quote]
+____
+A robot is destroyed when an attribute reaches zero (including HPS Max). 
+____
+
+==== General Decay (HPS Max)
+When a robot's HPS Total drops below zero the robot will suffer a general decay.
+Each general decay reduces the robot's HPS Maximum by ten percent.
+Once the new HPS Max is calculated the robot continues taking damage as if her HPS Total is the new HPS Max.
+Examples are needed.
+
+For example, when a robot with 110 HPS Max is damaged and drops to a zero HPS Total two things happen.
+First she has a new 99 HPS Max (10% off of 110), second her HPS Total is now 99 as well.
+This continues as she takes more damage.
+When she takes 99 more HPS in damage she passes a Zero HPS Total. 
+The process repeats.
+She has a new 89 HPS Max (10% off of 99), and a new 89 HPS Total.
+
+This continues with HPS Max of 80, 72, 57, etc.
+A zero HPS Max destroys the robot not the HPS Total. 
+
+==== Easy Calculation of General Decay
+.New HPS Max = Old HPS Max times .9
+****
+A robot with a HPS Max of 100 drops to a HPS Max of 90. The new HPS Total is also 90.
+****
+
+==== System Malfunction (Random Attribute)
+Each time the robot passes by a zero HPS Total one of her systems is damaged.
+If her sensors were damaged she could drop her AWE from 13 to 12.
+
 Regardless of how the robot lost the HPS the system  malfunction is randomly determined.
 This could roughly be considered the hit location of the damage taken.
 An attacker could damage a bot's sensors, or power plant, without ever aiming for that particular part.
 Each time the robot is reduced to zero HPS Total another robot system malfunctions.
 Robot death, the fatal malfunction, occurs when any of a robot's attributes, including its HPS Maximum, is reduced to zero.
 
-*System Malfunction and HPS Max*:When a robot's HPS Total drops below zero the robot will suffer a system malfunction.
-Each system malfunction reduces the robot's HPS Maximum by ten percent, and damages an attribute.
-The robot then returns to full it's new HPS Maximum (the HPS Maximum that was reduced by ten percent).
-For example, a bot with a total 110 HPs drops below zero HPS Total.
-The bot returns to the new HPS Maximum--which is less 10% than the previous one--in this case, 99 Hit Points Maximum.
-This new hit point total is now the bot's HPS Maximum.
-If this robot were to accumulate another 99 HPS in damage, it would suffer a new system malfunction, and its new HPS Maximum would be 89.
-This process of diminishing HPS Maximum is continues until bot reaches zero HPS Max.
-Which is a fatal malfunction.
-For example the HPS Maximum by  10% every system malfunction  (80, 72, 57 etc.) until it reaches zero HPS Maximum, when it is destroyed.
-Robots may now seem indestructible.
-They are tough, compared to organic personas, but they are far from indestructible.
-Usually, long before the robot's HPS Max reaches 0, the bot will suffer a fatal malfunction due to a failed system.
-A failed system is represented by any robot persona attribute reaching zero.
-
-
-The easiest way to calculate the new HPS Maximum is to multiply robot's present HPS Maximum by 0.90 and round the result down.
-Always round the result down.
-
-*System Malfunction and Attributes*:In addition to losing 10% of its HPS Maximum each system malfunction, the robot will also lose some attribute points.
 Depending on which system malfunctions one of the robot's attributes will be reduced.
 Whenever any of these attributes is reduced to zero the robot has suffered a fatal malfunction and is irrevocably destroyed.
-The robot part damaged is determined randomly on Table 31.27: Robot System Malfunction.
-And the extent of damage is determined on Table 31.28: Robot Malfunction Severity__.
-__Both of these tables are included here for convenience.
-The Robot Malfunction Severity is rolled for each attribute that is damaged when the robot's HPS Total  drops below zero.
 
-// insert table 77
+include::ROOT:partial$CH05_Table_Robotic_System_Malfunction.adoc[]
 
-// insert table 78
+include::ROOT:partial$CH05_Table_Robotic_Malfunction_Severity.adoc[]
 
-==== Robot Decay Table
+=== Robot Demolition Table
 The first question that any self-respecting referee will ask is how in the hell does one destroy a robot without destroying playability.
-If the players and referee gain particular enjoyment out of bashing robots then on the spot calculation of robot deterioration may be considered fun.
-When speed is preferred, a Robot Decay Table is recommended.
-The Robot Decay Table is prepared by the referee before the robot enters combat.
-The table outlines what happens to the robot as it accumulates HPS in damage.
-The referee tallies how much damage the robot has taken is listed as TTL (total damage), and the corresponding attribute effects for each system malfunction.
 
-The damaging continues until one of the robot's attributes reaches zero and the bot dies.
-How on earth does one keep track of this during combat without having everything grind to a halt.
-The answer is to pre-roll the effects and create a robot decay table.
-Consider the following Table 5.29 Robot Decay Table (included here for your convenience) for Sal the Diagnostic Veterinarian Robot.
-TTL keeps track of the total damage delivered over time.
-Sal decays until her AWE reaches zero and dies.
-
-// insert table 79
-
-== Controlling Robots
-Robots are machines and their free will is an anomaly of their circuitry, and damaged artificial intelligence.
-They were initially designed to be completely under the control of the anthro type that manufactured them, and one way to defeat a robot is to restore it's previous servitude.
-This does not mean that a persona from the  robot's manufacturing anthro type will be able to order around an insane robot.
-These robots are free willed, and mere verbal ordering would be no more successful than it would be with other personas.
-However there are circumstances where a robot may succumb to it's intended programming.
-The more insane the robot the higher it's Control Factor (CF).
-The Control Factor is a measure of how much control the player has over the robot persona.
-Loss of control means that the referee controls the robot like the good automaton that it is.
+include::ROOT:partial$CH05_Table_Example_Robotic_Decay.adoc[]
 
 
-==== Spontaneous Loss of Control
-There are certain conditions where a robot may involuntarily revert to its utilitarian nature.
-The chance of this happening depends entirely on the  Control Factor  (CF) of the robot, and the nature of the challenge.
-Whenever a robot voluntarily does a task that its robot type is designed to do then it may lapse into a state where it is again simply a mindless machine.
-For example, a janitorial bot would have to make a control factor roll if it were to clean up a messy room.
-If the player were to fail the Control Factor (CF) check then her robot would be out of control.
-Control factor fits are &scribed in chapter 5 under Control Factor.
-
-Whenever a robot persona performs a task for which it was originally designed -- a janitorial bot cleaning up, a combat bot killing an opponent --it must roll below its control factor or briefly return to it's original programming.
-Control Factor rolls are usually Normal Attribute rolls  (1d20).
-If the janitorial bot were ordered to clean up a room by a charismatic mechanic from the robot's base family, a tough (1d50) Control Factor roll would be need to be made.
-
-The Control Factor of a robot is the robot's INT plus its experience level, and represents how well it has learned to bypass its programming.
-To fail a Control Factor roll is to give in to that programming, a persona robot phenomenon known as loss of control.
-A robot that has lost control becomes a helpless automaton, a temporary referee person.
- The persona will continue to perform exactly its programmed function without deviation until it regains control of itself.
-If the failure occurs during combat, it will last a random number of units determined by the same, die the robot lost control with so failing a tough (d50) CF roll would result in d50 units of boring, non-sentient behaviour.
-Outside of combat, the failure will last a random number of minutes on the same die: failing an improbable (d100) roll might lead to over an hour and a half of tedium.
-
-*CONTROL FACTOR* (CF) = *INT* plus (*INT level* times *EXPS LEVEL*)
-
-So a robot with an INT of 15 and INT LEVEL of 3 and was 3rd level would have a control factor (CF) of 24.
-
-// insert table 185
-
-*Priority Commands*:Priority commands are specially worded orders that can immobilize the robot by creating logical dilemmas within its reasoning circuitry.
-They are like combat within the robot's circuitry.
-Priority commands are great opportunities for role-playing between the expedition and referee personas.
-The higher the robot's control factor the more difficult it is for a priority command to be successful.
-Referees will often have priority commands prepared for their robot personas, and little clues can be given to the expedition to give them a chance to avoid confrontation with a robot.
-
-Mechanics are the only class that can properly phrase priority commands to immobilize a robot through logical difficulties.
-The Degree of Difficulty (DD) of such a maneuver is equal to the robot's CF divided by 5, plus a random factor of 0 to 9.
-The robot will suffer debilitating effects for the length of time 1 to 100 units in length.
-Priority commands may cause the robot to move at half speed;
-not use a certain weapon, forget how to open doors, or only remember how to turn left.
-The effect of the priority command will somehow impair the robot but not completely put it out of commission.
-
-==== Robot Overrides
-These are aggressive attacks in which the robot's enemy tries to take control of the robot with specialized equipment.
-The specialized equipment could be an artifact that is designed for taking over robots, or some concoction of mechanic directed wizardry.
-This can be done remotely with magical electromagnetic waves, directly by attaching to ports, or sneakily by infecting the robot with some control virus software.
-Success of a robot override is much more problematic for a robot persona than a spontaneous loss of control, or a priority command.
-Robot overrides give control of the robot to the attacker.
- Such a circumstance needs to be played out by the referee and the players.
-A quick approach would be to triple the Degree of Difficulty (DD) of the mechanic performance roll, and convert the duration of control to 1-100 hours instead of units.
-
-
-//image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/08/aikidobot.324-300x215.png?resize=300%2C215[aikidobot.324,300,link=https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/08/aikidobot.324.png]
