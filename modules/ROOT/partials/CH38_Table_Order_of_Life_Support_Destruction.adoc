@@ -1,0 +1,41 @@
+// Table 38.8 Order of Life Support Destruction
+.*Order of Life Support Destruction*
+[width="75%",cols="4*^",frame="all", stripes="even"]
+|===
+4+<|Life support is damaged last, and a series of other defences must be destroyed first.
+
+s|Sequence
+s|Damaging 
+s|Prerequisite
+s|Effect
+
+|First
+|Shields
+|---
+|No protection for armour.
+
+|Second
+|Armour 
+|Shields <10%
+|No protection for hull.
+
+|Third
+|Hull
+|Armour <400
+|Localized decompressions.
+
+|Fourth
+|Gravity
+|Hull <10%
+|No maneuvers. 
+
+|Last
+|Life Support
+|Gravity <10%
+|Exatmo inside vessel.
+
+s|Sequence
+s|Damaging
+s|Prerequisite
+s|Effect
+|===
