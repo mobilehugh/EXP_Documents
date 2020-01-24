@@ -12,7 +12,7 @@ s|Counter
 |1 
 |ECM
 |ECM
-|--
+|ECM
 
 |2
 |Ramming
@@ -25,7 +25,9 @@ Artillery
 |ECM +
 Shields +
 Active
-|--
+|Missiles +
+Artillery
+
 
 |4
 |Boarding
@@ -34,23 +36,41 @@ Active
 Artillery
 
 |5
-|Grenades
+|Grenade +
+Mini-missile
 |ECM +
 Shields +
 Active
-|--
+|Missiles +
+Artillery
 
-|6)
-|Bombs
+|
+|Grenade +
+Mini-mine
+|Active
+|Missiles +
+Artillery
+
+|6
+|Bomb +
+Naval missile
 |ECM +
 Active +
 Shields
 |--
 
-|7)
+|
+|Bomb +
+Naval mine
+|Active
+|--
+
+
+|7
 |Naval Artillery
-|--
-|--
+|ECM
+|Naval Artillery +
+Naval missiles
 
 s|Order
 s|Attack

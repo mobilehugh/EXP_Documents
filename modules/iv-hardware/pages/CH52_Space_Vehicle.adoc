@@ -2,19 +2,16 @@
 
 [quote]
 ____
-Ships sail from A to B across the C. Spaceships sail from A to B with __nothing__ in betwee'.
+Ships sail from A to B across the C. Spaceships sail from A to B with __nothing__ in between'.
 ____
 
-
-
-
-
-// Space vehicles is  a subset of vehicles.
 Although many times more sexy, and useful, than vehicles, spacecraft are nothing more than a means of getting from one place to another.
 Spacecraft have the ability to exit planetary atmospheres, and sail off into the wild black yonder.
 The spaceships are able to do this because of specially sealed hulls, super powerful engines, and highly specialized drives that cover enormous distances in one action.
 
-The spacecraft generated in this chapter can vary from a garbage outcasts of 1000 planet armadas to the priceless result of some race trying to escape its gravity well.
+The space vehicles created in EXP can vary wildly.
+The space vehicle may be a piece of garbage discarded by a 1000 planet armada.
+Or the priceless result of some life form trying to escape its gravity well.
 Ships can be found, stolen, rented, lent or inherited by the expedition.
 The ships can be used to achieve a specific campaign goal, or just to expand campaign horizons.
 Either way access to a spaceship increases the level of fantasy to galactic proportions.
@@ -29,51 +26,63 @@ Either way access to a spaceship increases the level of fantasy to galactic prop
 include::ROOT:partial$articulate.adoc[]
 
 The introduction of a spaceship will occur whenever the ref sees fit.
-The campaign could start with a launch countdown, or could end with a glorious escape from one's own hideous planet.
-Most likely spaceships will come and go.
-Expeditions will exchange the technology for adventure, and occasionally their hides for technology.
+The campaign could start with a launch countdown, or could end with the escape from one's own hideous planet.
 
 == Nomenclature 
-To avoid confusion EXP uses the following descriptors for kinds of space vehicles.
-Any kind of vehicle that functions exatmo is a space vehicle.
-
-Exatmo is EXP for exterior to http://expgame.com/?page_id=282low-atmospheric-pressure[atmosphere].
-
-// insert table 368
+Exatmo is a contraction for exterior to atmosphere. 
+Exatmo is deadly to all life forms unless they are specifically protected.
+ECM is an acronym for electronic counter measures. 
+A vehicle must have exatmo or special drives to be a space vehicle.
+An air ship only has an inatmo drive.
+An air ship could be a plane, or a dirigible, but not a space vehicle.
 
 include::ROOT:partial$CH38_Table_Nomenclature_of_Space_Vehicles.adoc[]
 
 == The Build 
-The spacecraft are neither accurate in detail, nor in aerospace specifications.
-The ship design system creates random space cruisers that have the basic necessities of space travel: a hull, drives, computers, and life support.
-The design of the ship layouts, both external, and internal, are left to the ref, or players.
-The integral sections of ship generation are listed here: hull, drives, fuel, computers, defences, attacks, required crew, and cargo allotment.
-The space vehicle generation system has many other incidentals that appear along the way.
+Space vehicles are neither accurate in detail, nor in aerospace specifications.
+The space vehicle is a tool for role playing. 
+It is not an end itself.
+The build creates random space vehicles that supply the basic necessities of space travel.
+The only guarantees are a hull, drives, computers, and life support.
+The layout and appearance is left to the referee and players.
 
 .*Space Vehicle Build Checklist*
-. Hull
-. Drives
-. Fuel
-. Computer 
+. <<_hull,Hull>>
+. <<_drives,Drives>>
+. <<_fuel,Fuel>>
+. <<_computer,Computer>> 
+. <<_computer_software,Software>>
 . Defences
 . Attacks
 . Crew
+.. Navigator
+.. Pilot
+.. Engineer
 . Cargo
 . Special
 . EXPS
 . Value
 
-
 == Hull 
-This is the first basic assumption about space vehicles is that they have hulls.
-For spaceships that never experience planetary gravities, any sort of shape that the drives don't tear apart would be acceptable.
-However some of the spacecraft in this chapter are designed for operation in and out of the atmosphere, and the way to assure the safety of the shipboard components is to contain them within an airtight hull.
-This hull is sealed off from the vacuum of outer space, often called exatmo.
-The hull has three basic factors: size, composition, and strength.
+This is the first assumption about space vehicles is that they have hulls.
+The shape of the hull is determined entirely for dramatic effect.
+Space vehicles shaped like pirate ships are fine if this fits the referee's milieu.
+The space vehicles in created here are designed must be operational exatmo.
+Regardless of the shape chosen the hull will surround the delicate contents of the space vehicle.
+
+The ship's hull is intimately integrated with the ship's life support and gravity systems. 
+
+.*Hull Basic Elements*
+. size
+. composition
+. strength
+
 
 === Hull Size 
-The hull size determines the amount of internal equipment that the ship will be able to support.
-How much space a tonne displaces can be considered irrelevant, if all the ships are created on the same system.
+Hull size determines the space vehicle size.
+It is described in metric tonnes.
+Hull size represents the amount of volume displaced by the space vehicle.
+Hull size does not correlate with reality in any way.
 
 :art: danger_in_deep_space_ships.png
 :width: 250px
@@ -84,331 +93,406 @@ How much space a tonne displaces can be considered irrelevant, if all the ships 
 
 include::ROOT:partial$articulate.adoc[]
 
-// insert table 828
+Hull size determines how much stuff can be crammed on the space vehicle. 
+It also determines the wate of drives, computers and fuel storage. 
+
+include::ROOT:partial$CH52_Table_Hull_Size.adoc[]
 
 === Hull Composition 
-A roll on Table 52.2: Hull Composition will determine what the spacecraft's hull has been manufactured from.
-Most ships will be composed of metal, plastic, and ceramic alloys.
-Some hulls sport smart metal, organic steel (organalloy), both of which repair themselves and require no refitting.
+Hull Composition is more of a descriptor.
+All hulls function the same except regarding maintenance.
+Most space vehicles will be composed of metal, plastix, and ceramic alloys.
+Smart hulls are self maintaining and can slowly repair themselves.
+Smart hulls offer no combat benefit at all. 
+They allow the expedition to avoid the expenses of hull refitting.
 
-// insert table 829
+include::ROOT:partial$CH52_Table_Hull_Composition.adoc[]
 
 === Hull Strength 
 Hull strength is represents the hull's ability to prevent damage to the ship's interior components.
-This aspect of the hull is so similar to an armour rating that the hull is actually given an armour rating.
-Roll on Table 52.3: Hull Strength to determine the ship's AR.
-The ref must consider several additional features about spaceship hulls.
-These are airlocks, cargolocks, and datalocks (hardpoints).
+It is a mix of composition strength, shape and redundancy.
+The hull strength is also the Hull AR. 
+The hull cannot be damaged until the Hull AR is depleted. 
+This depletion can happen fast in space vehicle combat.
 
-// insert table 830
-
-=== Airlocks 
-An airlock allows passengers, and small cargo, to enter/exit the ship whether the ship is in, or out of, an atmosphere.
-An airlock takes up no space inside the ship, but requires 5 tonnes of cargo space.
-The airlock is free to be located anywhere on the space vehicle.
-A ship can have 1 airlock for every 5 tonnes of unallotted cargo space.
-So a ship with a 15 tonne cargo hold could support 3 airlocks anywhere on its hull.
-Ships with less than 5 tonnes of cargo space cannot have an airlock.
-This doesn't mean the ship cannot be entered;
-it only means that the ship can only be entered while in atmosphere.
-
-=== Cargo locks 
-A larger ship may prefer a cargo lock.
-The cargo access sizes represent the amount of cargo which can be moved through the opening at one time.
-For instance a 50 tonne cargo lock on a 2000 tonne cargo hold could move 50 tonnes of cargo per hour, day, or whatever.
-A cargolock is not pressurized, and only allows access to the cargo bay while the ship is inatmo.
-A cargo lock will only be found on larger space vehicles with at least 50 tonnes of cargo space.
-
-Cargo airlocks are enormous airlocks that are found on gigantic space vehicles.
-The cargo airlock can be used while exatmo to move cargo or smaller space vehicles into and out of the cargo hold without depressurization.
-A cargo airlock requires at least 500 tonnes of cargo space.
-
-=== Datalocks 
-Datalocks are also called hardpoints.
-Datalocks are electronic accesses to the exterior of the hull.
-A datalock is required for every single external contraption that requires exatmo access (guns, missiles, viewers etc).
-A ship will have 10 datalocks per level of computer.
-
-=== Special 
-The hulls of a space vehicle can be altered to the needs and whims of the players.
-Extravagance costs extra.
-Space vehicles may have double hulls, so attacks must penetrate two armour ratings before damage can be inflicted.
-A hull could also be streamlined to decrease atmospheric fuel consumption by one half.
-These are campaign based alterations that are up to the referee.
+include::ROOT:partial$CH52_Table_Hull_Strength.adoc[]
 
 == Drives 
 Like any vehicle a space vehicle needs engines to travel from one point to another.
-Spacecraft are not near so provincial as to call their power sources engines.
-The term drive is applied to the combined power source and propulsion system.
+However space vehicles are not so provincial as to call their power sources engines.
+Space vehicles call their engines drives.
+The term drive all the components needed to propel the space vehicle.
 
-=== Drive Types 
-The space vehicles have three different types of drives, which may, or may not, found on the space vehicle.
+The space vehicles have three different types of drives. 
+No space vehicle is guaranteed to have all three drives.
+
+.*Adding Space Vehicle Drives*
+. Drive configuration
+.. Exatmo
+.. Inatmo
+.. Special
+. Drive Size 
+. Drive Level
+
+include::ROOT:partial$CH52_Table_Drive_Types.adoc[]
+
+=== Exatmo Drive
+Exatmo drives are the defining feature of the space vehicle.
+This is the drive that maneuvers the ship through the vacuum of space.
+The exatmo drives are science fantasy fast.
+Their power is measured in fractions of the speed of light.
+They can maneuver a ship well beyond survivable physics in combat. 
+
+Exatmo drives will be one of two types: fusion or gravetics.
+The player creating the space vehicle may choose between the two.
+Both are equally efficient at moving the ship around exatmo.
+Neither type of exatmo drive can function within the atmosphere.
+Fusion and gravetics drives require an absence of gravity and atmosphere to function.
+
+Weaponizing either exatmo drive is a campaign level, nearly insurmountable task.
+At some point every expedition will attempt to weaponize the exatmo fusion drive inatmo.
+The referee should make such a refit and multi-run campaign story.
+Using a fusion drive or gravetics drive as a weapon will certainly destroy it as an exatmo drive.
+
+=== Inatmo Drive
+These are the in-atmospheric drives of the ship.
 The inatmo drive is for in atmospheric maneuvering.
 A space vehicle that does not have an inatmo drive cannot enter an atmosphere.
-All ships have an exatmo (exterior to atmosphere drive).
-This is the drive that maneuvers the ship in the vacuum of space.
-The exatmo drives are unimaginably fast, however they are no match for the vastness of space.
-Special drives technomagically fling the starship immediately across space.
-Therefore avoiding generational starships, or degenerative cryosuspension.
-Special drives make space travel more efficient and more fun.
 
-// insert table 831
+All of the inatmo drives function equally well.
+For inatmo drives to function both atmosphere and gravity are required.
+Inatmo drives do not work in space. 
+A space vehicle with both inatmo and exatmo drives can enter and exit a planet's atmosphere.
+The ship's computers negotiate the transfer of drives from inatmo to exatmo.
 
-==== Exatmo 
-Exatmo drives will be one of two types: fusion or gravetics.
-Both are equally efficient at moving the ship around in outer space.
-Neither will function within the atmosphere, but a fusion drive used within the atmosphere has special effects.
-The velocity, and power level of the drives are described under drive level in this chapter.
+include::ROOT:partial$CH52_Table_Inatmo_Drive_Type.adoc[]
 
-If used inatmo a fusion drive will have the effect of a thermonuclear explosion on the surrounding atmosphere.
-Sadistic personas that wish to use the fusion drives as a weapon should be discouraged first by the cruelty of such an action, and second by those dangers that are presented to the ship.
-A description of these dangers is left to the referee, but a few examples are: a nuclear attack to the ship;
-probability of a fuel blowout;
-accidental grounding;
-etc.
-
-==== Inatmo 
-These are the in-atmospheric drives of the ship.
-No spacecraft can enter into an atmosphere safely, without inatmo drives.
-Roll on Table 52.5: Inatmo Drive Type__ __to determine what drive type the space vehicle has.
-All of the inatmo drives function equally well, and all can move about safely within the atmosphere, and gravity-well, of any planet.
-
-// insert table 832
-
-=== 1) Antigrav
+==== Antigrav Inatmo Drive
 Nothing more than anti-gravity units which suspend, and maneuver, the ship above the planet's surface.
 
-=== 2) Balloons
+==== Balloons Inatmo Drive
 Once in the atmosphere, balloons will automatically billow out, and fill themselves with a computerized mixture of gases.
 The ship is maneuvered about by altering the buoyancy of the various balloons.
 
-=== 3) Chutes
+==== Chutes Inatmo Drive
 This spaceship ejects an enormous collection of kites, and parachutes, which computers control to maneuver the ship while fuel supplies last.
 The spaceship can employ prevailing winds to lift off.
 
-=== 4) Jets
+==== Jets Inatmo Drive
 A multitude of fuel burning jets maneuver the ship in atmosphere.
 They act like retro rockets that can maneuver a ship within the atmosphere.
 
-=== 5) Props
+==== Props Inatmo Drive
 Large airscrews, located about the ship operate at various power levels to attain maneuverability.
 
-==== Special 
-Special drives are the stuff of all science fiction space operas.
-Even spacecraft that can manage the speed of light, would still require decades to travel from one star to the next.
-This would obviously make for a lack of variety in space faring role-play.
-Because of the logistics of 2000 year space flights, science fiction authors have invented many types of special drives.
-These drives allow them to tell stories that move from planet to planet, and still have less than a hundred main characters.
-The most famous of these magical drives are listed on Table 52.6: Special Drive Type__.__
+=== Special Drives
+Special drives technomagically fling the starship instantly across space.
+Special drives avoid generational space vehicles  and unhealthy cryosuspension.
+Special drives are cornerstone of science fantasy space operas.
+The speed of light is just not good enough.
+The logistics of 2000 year space flights are the root cause of special drives.
+Special drives make space travel more efficient and more fun.
 
-// insert table 833
+include::ROOT:partial$CH52_Table_Special_Drive_Type.adoc[]
 
-=== 1) Bloater
+The special drives turn insurmountable distances into science fiction pulp.
+
+==== Bloater Special Drive
 A bloater drive expands the ship, and its contents by increasing the space between its molecules.
 The expansion continues until entire planets, and stars, can pass between the molecules without danger.
-This bloating
-continues until the destination point is near the ship's hull.
+This bloating continues until the destination point is near the ship's hull.
 The ship then begins to deflate around its new destination point, arriving there without moving.
 
-=== 2) FTL
+==== FTL Special Drive
 Faster than light travel plays havoc with many paradoxes.
-All such minor problems aside, FTL travel is a rather efficient way to get from point A to point B, and then from point A to point B again as the light catches up (many decades later).
+All such paradoxes aside, FTL travel is a convenient way to get from point A to point B.
 
-=== 3) Hyper
-Also known as jump
-drives.
-anything that is hyper does more than anything else in the same amount of time.
+==== Hyper Special Drive
+Also known as jump drives.
+Anything that is hyper does more than anything else in the same amount of time.
 So the hyperdrive covers light years faster than a non-hyper drive would.
 
-
-=== 4) Psi-Flip
-The most fantastical of all the special drives, the psi-flip transports the ship, and contents to the location thought of by the controller.
+==== Psi-Flip Special Drive
+The most fantastical of all the special drives.
+The psi-flip transports the ship to the location thought of by the navigator.
 Only the most precise mental image can be translated into motion.
-This requires at least an 18 MSTR+++<b>+++, +++</b>+++or a specially mutated persona.
-Once the mind pilot has convinced her mind that she is actually somewhere else, the psi-flip drive sets out to correct the present reality.
-Also known as a mind flip drive.
+To navigate this special drive requires 18 MSTR or a specially mutated persona.
+Robots cannot operate a psi-flip special drive.
+Once the psionic navigator has convinced her mind that she is somewhere else, the psi-flip drive correct the reality.
+Psi-flip is known as a mind flip drive, or a flip drive.
 
-=== 5) Time-Slip
+==== Time-Slip Special Drive
 Another one of the mystically bizarre space travel devices is the time slip.
-This drive system drops its payload into time limbo (whatever that is).
+This drive system drops its payload into time limbo (wherever that is).
 Once in this reference it scans through past/future time frames until it finds one where the stars and planets of the universe are better aligned for for its travel purposes.
 The drive then re-enters the original space time, but at its desired location.
 
-=== 6) Transmat
+==== Transmat Special Drive
 A transmat is also known as a probability drive.
 It depends on the probability that at least one of the electrons of one of the drive's molecules will be on an extreme orbital somewhere near the desired location.
-Once this occurs it is just a matter (no pun intended) of reorienting the rest of the ship's molecular parts with the vagrant orbital electron particle.
+Once this occurs it is just a __matter__ of reorienting the ship's molecular parts with the vagrant orbital electron particle.
 
-=== 7) Warp
-Warp drives operate under the premise that the sp_a,ge between two points can be folded up, and that the ship can pass through the fold traveling only a fraction of the previously required distance, but covering an enormous distance.
+==== Warp Special Drive
+Warp drives operate under the premise that the space between two points can be folded up.
+Once space time is folded the space vehicle passes through the base of the fold.
+This distance travelled is short but distance covered is enormous.
+This can also be called an origami drive.
 
-=== Size 
-The size of a ship's drives are determined in part by a die roll, and in part by the size of the hull.
-Each of the three drive types will occupy 1-10% of the ship's hull space.
-Thus a spaceship with an inatmo, and an exatmo drive would roll 1d10 for each.
-Let's say a 100 tonne ship's inatmo drive occupies 8% of the hull, and its exatmo drive occupies 4% of hull space.
-The inatmo drive weighs 8 tonnes, and the exatmo drive weighs 4 tonnes.
-The entire drive system for this ship occupies 12 tonnes of hull space.
+=== Drive Level and Wate
+The drive level represents how powerful the drive is.
+Drive level is determined by a 1d10 die roll.
+Each drive type will have it's own performance level.
+A space vehicle configured with exatmo and inatmo drives would roll for each drive type.
+The higher the die roll the more powerful the drive.
+The more powerful the drive is the more hull space it occupies.
 
-Drive Level of Performance):The d10 roll made to determine the size of the various drives also determines their performance level.
-The more hull that the drive occupies the better its performance is.
-So the d10 roll not only determines what fraction of a spacecraft's hull is filled with drives, but it indicates how fast, and/or powerful, the drives are.
+The wate of a ship's drives are determined their level and the space vehicle size.
+The drive wates are cumulative. 
+A space vehicle with a 10 tonnes exatmo drive and a 5 tonne special drive uses 15 tonnes of hull.
 
-// insert table 834
+A level 5 exatmo drive can move at 0.5 C (speed of light) and orbit around 5 G (gravity) planets. 
+On a 100 tonne vessel the drive would have a wate of 5 tonnes, and occupy 5 tonnes of hull space. 
+On a 10 tonne vessel the drive would have a wate of 500 kgs and occupy 500 kgs of hull space. 
 
-*Inatmo Drive Level*:For each level of inatmo drive the space vehicle can travel 1 mach in atmosphere, and can maintain maneuvers in up to 1 gravity.
-An inatmo drive like the one above (8%) would be considered a level 8 drive for that ship.
-The inatmo drive could operate in an 8g gravity well, and travel up to mach 8 in the atmosphere.
-A level 8 drive could generally out power, but not necessarily outmaneuver, a level 7 drive.
+include::ROOT:partial$CH52_Table_Drive_Level_and_Size.adoc[]
 
-*Exatmo Drive Level*:The exatmo drives also have their drive level determined by the d10 size roll.
+==== Inatmo Drive Level
+The inatmo drive level is determined by a 1d10 roll. 
+The player rolls an individual drive level for each drive.
+For each level of inatmo drive the space vehicle can travel 1 Mach in atmosphere.
+For each level of inatmo drive the space vehicle can manage 1 Gravity of planet pull.
+Mach is equal to the speed of sound. 
+In EXP we ignore the effects of temperature and atmospheric density on the speed of sound.
+It is a given that a level 4 inatmo drive is twice as fast as a level 2 inatmo drive.
+A level 6 inatmo drive can travel at Mach 6, or 6 times the speed of sound
+A level 6 inatmo drive could overcome 6 gravities of planetary pull. 
+
+==== Exatmo Drive Level
+The exatmo drive level is determined by a 1d10 roll. 
+The player rolls an individual drive level for each drive.
 A exatmo drive can travel at 1/10 the speed of light per drive level.
 The space vehicle can maintain an orbit around a planet with 1 gravity per drive level.
-An exatmo drive which occupies 4% of hull space would be capable of maintaining a forced orbital around a 4 g planet, and travel in a vacuum at speeds up to 4/10 the speed of light.
+A level 6 exatmo drive can travel at 0.6 the speed of light. 
+A level 6 exatmo drive can close orbit up to 6 gravities of planetary pull.
 
-*Special Drive Level*:Special drives are also rated with levels 1 through 10, depending on their % of occupied hull space.
-The special drives are what turn insurmountable distances into science fiction pulp.
-All of the special drives function identically, and each is capable of covering twenty light years per level per day of game time.
-So a starship with level 6 special drive could travel 120 light years in one day's jump, slip, warp or whatever.
-This one day's travel is considered one use
-of a special drive, no communication can reach the ship, and the trip cannot be aborted safely.
+==== Special Drive Level
+The special drive level is determined by a 1d10 roll. 
+The player rolls an individual drive level for each drive.
+The special drive can travel 20 light years (LY) per level.
+A level 6 special drive can travel 120 light years in one moment.
 
-The special drives can be subject to alterations by the campaign's referee.
-The time required for a use could be changed from one day to one week, and the distance travelled could be changed from light years to astronomical units, or parsecs.
+During a special drive jump the ship cannot be communicated with.
+A special drive jump cannot be aborted safely.
+The consequences of aborting a special drive run are up the referee.
 
-Budding physicists may wish to consider are problems like the paradoxes of the special drives, and the exponential power requirements of such systems.
-For the most part these considerations are left to the improvisational talents of the referee (read cop out).
+The special drives must fit into the milieu of the referee's campaign.
+The duration of a jump could be changed from a moment, a day or a week.
+The distance covered can be changed to parsecs, or astronomical units.
 
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
 
-== 3) Fuel 
-Fuel may seem like a trivial issue for a gallant expedition out to save the universe, but even the most magnanimous cause must pay attention to fuel consumption.
-As with all rules that risk pedantic note keeping fuel can be ignored to make game play more fun and the story telling more interesting.
+== Fuel 
+Fuel seems like a trivial issue for a gallant expedition out to save the universe.
+Energy is the limiter of all, including the space vehicle.
+Fuel is a tool to make game play more challenging and the story telling more interesting.
 
-=== Fuel Type 
-To determine the fuel type, roll on Table 52.8, Fuel Type.
-If more information about the fuel types is required refer to chapter 54, Vehicles.
-A space-vehicle will have one fuel type, and one fuel compartment that is accessed by each of the drives as their needs see fit.
-The different drive types have different fuel capacity requirements, and different rates of consumption.
+=== Fuel Type
+A space vehicle's fuel type is mostly a fun descriptor.
+It is entirely up the referee if gas from one ship is compatible with gas from another.
+A space vehicle will only have one fuel type.
+Each drive type will use the same fuel type.
+The drive types may use the same fuel, but each drive has different needs and rates of consumption.
 
-// insert table 835
+include::ROOT:partial$CH52_Table_Fuel_Type.adoc[]
 
 === Fuel Amount 
-To compute what fraction of hull space is occupied by fuel storage, use Table 52.9: Amount of Fuel.
-Each % of hull capacity that is devoted to fuel storage is equal to one month worth of fuel.
-Thus a space vehicle that runs on solid fuels with the following fuel storage allotments: 8% inatmo, 9% exatmo, and 3% special, would have 20 months of fuel.
-In a 100 tonne space vehicle the 20 months worth of fuel would occupy 20 tonnes of hull space.
+The amount of fuel is determine by individual die rolls for each drive type.
+The player only rolls for the drive types the space vehicle is configured for.
+The fuel amount occupies hull space on the vessel.
+The fuel amount also determines the range of the space vehicle.
+The higher the fuel level the more space it occupies and the further the space vehicle's range.
+ 
+include::ROOT:partial$CH52_Table_Fuel_Storage.adoc[]
 
-// insert table 836
+For example a spacecruiser has the following fuel levels: inatmo 8, exatmo 9 and special 3.
+Regardless of the fuel type, fuel storage occupies 20% of the spacecruiser's hull.
+The spacecruiser would have a range of 20 months. 
+If this were a 100 tonne spacecruiser 20 months of fuel would occupy 20 tonnes of hull space.
 
-=== Range 
-Fuel consumption must be converted to a standard unit, because one tonne of fuel won't meet the same requirements from one ship to another.
-Another problem is that some fuel types represent fuel storage, while others represent self contained power plants, collecting cells, or magnets.
-So a space vehicle with a fuel storage of 5% Inatmo and 10% exatmo would have 15 months of fuel to consume regardless of the size of the vehicle or its drives.
-The fuel is interchangeable and inatmo or exatmo usage drains the same stores.
-The conversion to a time of fuel use turned out to be the easiest way to keep track of fuel consumption.
+=== Fuel Range 
+Calculating light years, kilometers, or parsecs, was overwhelming, and boring.
+The 30 day month was chosen as a measure of fuel use.
+The month of range refers to that specific space vehicle, it's storage, it's drive and it's size.
+One month of fuel usage equates to one special drive jump.
+Choosing a time of fuel burn proved to be the easiest way to keep track of fuel consumption.
+A 10 tonne and 100 tonne spacer would use 1 month of fuel to do a special jump.
+The 100 tonne vessel would use 10 times more fuel in wate, but the month is used to keep track.
 
-Under no circumstances will a special drive be able to operate with less than one month of fuel available.
+include::ROOT:partial$CH52_Table_Fuel_Consumption.adoc[]
+
+So a space vehicle with a fuel storage of 5% Inatmo and 10% exatmo would have 15 months of fuel.
+This fuel could be used up in 15 special drive jumps, or 60 turns of space combat.
+A space vehicle cannot jump if there is less than 1 month of fuel on board.
+A space vehicle drops out of combat if there is less than 1 week of fuel on board.
+During space combat the drives cannot sip from the collective fuel storage. 
+Fuel storage is compartmentalized for safety and this can effect fuel access of specific drives.
 
 Refuelling is left to the design of the referee.
-Some fuel types maybe innocuous materials which are easily obtained from the local gas giant, or water planet, but others may require professional installation work.
-Several problems of fuelling are left to the imagination of the referee (read cop-out): does broadcast power work off of radio waves?
-If complications with fuel are arising the referee should none afraid-to consult the sphincter dice described in chapter 16, Special Rolls.
-
-// insert table 837
+Some fuel types maybe innocuous materials which are easily obtained from the local gas giant.
+Other fuel types may require days of retooling by highly skilled space mechanics.
+Don't forget the power of the sphincter dice when trying to decide complicated and boring issues.
 
 == Computer 
-A ship's computers are it's most important asset.
-The special hulls, and drives, that make space travel possible would not be manageable without the electronic overview of the ship's computers.
+The computer is the ship and the ship is the computer.
+The computer is deeply integrated with every system on the ship.
+The computer manages special jumps, evasive actions, life support, gravity and more.
+A space vehicle requires a computer and crew to function.
+Pilots, navigators and engineers work on the space vehicle through the ship's computer.
+The persona crew can be be replaced by software. 
+There are no manual space vehicles.
 
-=== Computer Level 
+Life support protects the vessel's cargo, but is there for the ship's computer.
+A dead computer is as dead space vehicle.
+Cargo and crew come and go.
 
-*Computer Level = 1-10 (1d10)*
+.*Installing the ship's computer*
+. Computer Level
+. Computer Wate
+. Computer Software
+.. Crew
+.. Defensive
+.. Miscellaneous
 
-The bigger the ship, the larger a computer that is needed.
-The level of a computer, like that of all other major spaceship systems, is determined randomly on a d10.
+The ship's computer is mostly distributed throughout the entire ship.
+Often there will be a central location for interaction. 
+This could be called the ship's bridge.
+Personas acting as ship's crew can be located on the bridge or distributed about the vessel.
+
+A personality for the ship's computer is recommended.
+It is assumed that there is tremendous artificial intelligence potential in a ship's computer.
+The referee may consider the ship's computer a referee persona.
+The ship's computer is intended to be user friendly.
+The expedition may interact with the computer via devices, or voice interaction.
+It would not be unreasonable to roll a fabricator type for a space vehicle. 
+
+=== Computer Level and Wate
+The higher the computer level the more powerful it is.
+A higher the computer level improve everything from the food made to combat maneuvers. 
+Computer level is rolled on one 1d10.
+
+The bigger the ship, the larger the computer.
 The higher the level of the computer the more complicated the software it can manage.
 The die roll also represents the percentage of hull capacity that is occupied by the computer.
 So a 200 tonne starship with a level 4 computer would have 8 tonnes of computer equipment on board.
 The 8 tonnes of computer includes all the wiring, transducers, terminals, and interfaces, as well as memory and processor.
 
-A computer requires life support, and will be stored within the computer center (bridge).
-All of the ship's functions are maintained in this section, and all personnel requiring computer access will operate there.
-This is essentially called the bridge.
-Interaction with the ship's computer is entirely decided by the referee.
-It is assumed that there is tremendous artificial intelligence potential in a ship's computer.
-The expedition may interact with the computer via terminals, or voice interaction.
-The ship's computer is intended to be user friendly and relevant software will be accessible by any relevant personas.
-A personality for the ship's computer is recommended.
-
-All ships require a computer and crew.
-The required crew is listed in the space vehicle crew section of this chapter.
-Crew members can only be replaced by computer software, and in some cases only by computer software and a robot.
-
-=== Computer Software 
-A starship's computer only comes equipped with the basic components necessary to operate the ship, and the computer requires the constant attention of the ship's personnel to operate.
-
-There is no limit to the amount of software that a ship's computer can handle, but there is a limit to its effectiveness.
+== Computer Software 
+Ship's computer software accentuates a computer's skill set in specific areas.
+All space vehicles automagically maintain life support, gravity, and keep things from exploding.
+A space vehicle needs direction from personas to get up and go.
 The effectiveness of software is determined by the computer level of the space vehicle.
-The referee is free to present the software in any fashion that she sees fit.
-Software may appear as hardware that attaches itself to the ship's computer, or the referee may force mechanics to make high DD performance table rolls to down load the software.
-Any attempts at programming a space vehicle's computer should start at DD20 plus the computer level,.
-The DD should be adjusted upwards depending on difficulty of the maneuver.
+There is no limit to the amount of software on board. 
+A space vehicle is limited to using 1 software title per level of computer.
 
-All additional software is considered a luxury, and is determined randomly.
-The referee goes down the software list rolling once for each program . The chance of having a program in the ship's computer depends on the computer's level, and the complexity of the program.
-The chance is multiplied by the computer level.
-Thus a level 3 computer would have a 60% chance of an astrogation program.
 
-==== Crew Replacement
-Crew replacement software is devoted to reducing the number of personnel that are required to operate the space vehicle.
-If such essential personnel is still present the software will be devoted to assisting them in their task.
-This topic is also discussed under space vehicle crew in this chapter.
+How software appears in the game is dependent on the milieu of the referee.
+Software may be hardware that is attached to the ship's computer.
+Or it may be auto downloaded from GitHub.
+Mechanics making their own software would require a research team and a start DD of 20
 
-For example, medical software will have the knowledge and interfaces for operating medical equipment, an will be able to advise a veterinarian on the proper medical procedures.
-This bonus is represented as a -1 DD on the performance table per computer level.
-So a medical program being run by a level 6 computer will would reduce vet PT rolls by 6DD.
-This bonus is the same for any other class related programming.
-To earn the the PT roll bonus the activity must be taking place on the space vehicle, or while in direct communication with it.
 
-// insert table 838
+// doubled up in software section
+// remember to cut and paste
 
-==== Defensive 
+The table for software is a bit different.
+Each software title has a __Chance__ listing. 
+A level 3 computer would have a 60% chance of an astrogation program.
+A roll of 60 or less on 1d100 indicates the software is installed.
+The player rolls for every software title.
+There is no limit to the amount of software that the computer can have on board. 
+A space vehicle is limited to using 1 software title per level of computer at once.
+Players may have to make choices about what it the most important software to run.
+
+=== Crew Replacement
+Crew replacement software indicates programs, and mechanical devices that can replace essential crew.
+In some circumstances the crew software replaces the required crew member completely.
+In other circumstances the crew software allows even the vocation nothing to operate the system.
+A space vehicle is limited to using 1 software title per level of computer at once.
+Players may have to make choices about what it the most important software to run.
+A low level ship's computer may always require a persona crew member to function.
+
+.*Essential Services*
+. Pilot
+. Astrogator
+. Engineer
+
+Each software title has a __Chance__ listing. 
+A level 3 computer would have a 60% chance of an astrogation program.
+A roll of 60 or less on 1d100 indicates the software is installed.
+The player rolls for each crew replacement software title.
+
+include::ROOT:partial$CH52_Table_Software_Crew.adoc[]
+
+==== Astrogation
+This software title allows any persona to pilot the special drives.
+The persona works directly with the ship's computer to plot special drive jumps. 
+
+When an astrogator uses this software she enjoys some special drive bonuses.
+The special drives are enhanced by 2 LY distance per level of ship's computer. 
+Special drive fuel consumption is reduced to 2 weeks per jump instead of one month.
+
+==== Engineering
+This software title allows any persona to carry out ship maintenance and repairs. 
+The ship's computer directs personas what needs to be done, where it needs to be done and how to do it.
+
+A mechanic working with this software gets bonuses on her performance rolls for ship related maneuvers.
+Ship repair and maintenance performance rolls get a bonus of +5 per level of ship's computer.
+
+==== Navigation
+This software title allows any persona to pilot the inatmo and exatmo drives.
+The persona works directly with the ship's computer via specialized control devices. 
+
+A pilot or navigator 
+
+==== Piloting
+
+
+=== Defensive 
 Defensive software devoted to protecting and disguising the space vehicle.
 Offensive software is very rare, since only the least sane of entities will engage in combat in such a hostile environment as outer space.
 The software will operate on its own, or assist mercenaries, or mechanics, in carrying out the described maneuvers.
 There is a DD bonus equal to the computer's level.
 
-// insert table 839
+include::ROOT:partial$CH52_Table_Software_Defensive.adoc[]
 
-==== Miscellaneous 
- This software can be virtually anything that can be imagined for a ship's computer.
+=== Miscellaneous 
+This software can be virtually anything that can be imagined for a ship's computer.
 If the software is relevant to a personas PT roll she can earn a DD bonus of +1 per computer level.
 For instance a nothing making a general performance table roll to successfully cater a fancy dinner would earn a DD bonus if etiquette, diplomacy, or entertainment programs were on board.
 Many of the software devices list a class in which they will assist.
-If this is the case any persona of that class will earn a DD bonus equal to the spacevehicle's computer level when working within its environment.
+If this is the case any persona of that class will earn a DD bonus equal to the space vehicle's computer level when working within its environment.
 
-// insert table 840
+include::ROOT:partial$CH52_Table_Software_Miscellaneous.adoc[]
 
-==== Value 
+=== Value 
 The value of software purchased for the ship's computer is determined as follows: (1 000 000/ chance of software) x computer level.
 Thus an astrogation program for a level 6 computer would have a value of 300 000.
 
 == Defences 
 A ship's defences are composed of both the ship's computer, and machinery within the hull of the ship.
 For instance life support is considered a defence, and it consists of a sealed hull, air generators, air cleaners, and the pumps necessary to move the air throughout the space vehicle.
-There are various types of defences available, and these are listed in order of increasing protection on Table 52.14: Defences.
-How these defences function in combat is described in http://expgame.com/?page_id=320[Chapter 38: Space Vehicle]http://expgame.com/?page_id=320[Combat].
 Refer to the Defences Table to determine what type of protection the ship has.
 Each type of defence is checked once as the referee goes down the list.
 
 All space vehicles will automatically have life support, gravity, and armour to protect the space vehicle and its contents.
-More involved defences are dependant on the roll of deci dice.
+More involved defences are dependant on the roll of deci-dice.
 A space vehicle with a level 5 computer would have a 15% chance of electronic counter measures, 10% chance of shields, and a 5% chance of guns and active defences.
 These defences are detailed in the paragraphs following the table.
 
 // insert table 841
 
-=== 1) Life Support
+=== Life Support
 The purpose of life support is to maintain a comfortable environment for the organic, and delicate inorganic, contents of the ship.
 Life support is entirely self contained, and is virtually impossible to tamper with.
 The life support system will function completely unknown to the players, until something goes wrong.
@@ -429,7 +513,7 @@ Frequent damage system shock rolls should be required in thin atmospheres.
 
 The effect of vacuum, and thin atmosphere, on personas is detailed in http://expgame.com/?page_id=282[Chapter 19: Special Terrain].
 
-=== 2) Gravity System
+=== Gravity System
 A starship's gravity system usually maintains a constant attraction of 1 gravity throughout the entire ship.
 This includes walkways, workspaces, cargo holds, cabins, etc.
 The gravity can be adjusted between 0.5  and 1.5 gravities.
@@ -449,7 +533,7 @@ Regular exatmo travel is also impossible as the accelerations of even pedestrian
 The ship will also not be able to maneuver inatmo.
 The vessel may be able to lift off, and land, but it cannot undertake atmospheric travel.
 
-=== 3) Armour
+=== Armour
 The armour is the spaceship's hull.
 The hull is the containment and physical defence system of the ship.
 The hull contains the essential components of the ship, plays an important role in ship gravity, and helps contain the atmosphere created by the life support system.
@@ -473,7 +557,7 @@ The roll on the Extent of Damage table will indicate the loss of atmosphere suff
 The effect may vary from no noticeable loss of atmosphere (trivial) to explosive decompression (destroyed).
 The difference between loss of atmosphere from hull penetration and loss of atmosphere from damaged life support is that the hull damage will only affect the damaged location.
 
-=== 4) ECM
+=== ECM
 Defensive electronic countermeasures (ECM) deceptively manipulate the electromagnetic spectrum to defend the ship.
 The more powerful the ship's computer level the more effective the electronic counter measures.
 If any personas have skill in ECM they can add that skill level to the computer level used for the ECM.
@@ -484,13 +568,13 @@ Defensive ECM is not subjected to initiative rolls.
 If ECM is available for an attack it will always be part of the defense of the ship.
 However if the ECM is used to break control or as attack ECM it will not be available.
 
-==== Armour Rating
+=== Armour Rating
 Most often defensive ECM will be used to make the ship harder to hit.
 This is done by creating false images of velocity, trajectory, rotation, size, etc.
 All of this electronic tom-foolery results in a +200 bonus to the ship's armour rating per level of computer.
 So when defensive ECM is being employed, all to hit roll attack rolls are less likely to hit.
 
-==== Breaking Control
+=== Breaking Control
 Defensive ECM is especially important when the ship is under attack from control ECM.
 Defensive ECM can identify whether a ship's component is actually malfunctioning, or whether it is malfunctioning due to control ECM.
 Defensive ECM will use the ship's computer to re-route communications channels, and alter security, to defend against control ECM attacks.
@@ -498,17 +582,17 @@ For example, if a control ECM attack had reduced the effectiveness of the ship's
 This would restore the drives to their normal power level.
 The chance of success is 15% per computer level.
 
-==== Camouflage
+=== Camouflage
 Defensive ECM can be used to hide the ship electromagnetically.
 ECM will make the ship blend in with the background, or appear as some anomaly other than a spaceship.
 This aspect of ECM will not hide the ship from a visual inspection, but it will deceive another ship's sensors.
 this deception has a 9% chance per computer level of being successful.
 
-==== Damaged
+=== Damaged
 When ECM is damaged its effectiveness is reduced by the percentage indicated on the Extent of Damage table.
 For example, ECM at 50% efficiency could only offer +100 per computer level to the ship's AR.
 
-=== 5) Shields
+=== Shields
 The defence shields protect the hull from energy and kinetic attacks.
 They do so by distributing the attacking force across the entire hull, which effectively dampers the damage.
 The shields are ready to go at all times but every unit that they are used the fuel consumption is doubled.
@@ -527,7 +611,7 @@ So before life support can be damaged shields, armour and gravity must be destro
 When a ship's exatmo drives are damaged, the shields are immediately affected.
 Direct damage to the shields will reduce their effectiveness by the percentage indicated on the Extent of Damage table.
 
-=== 6) Guns
+=== Guns
 A gun does not sound like an entirely defensive device, but occasionally the best defence is a good offence.
 In the perspective of ship to ship combat a mere gun would be an ineffectual weapon, however when defending the ship against intruders a gun mounted in the ship's airlock can be most effective.
 If the player has rolled guns'
@@ -544,7 +628,7 @@ The gun can be knocked out of commission by scoring damage rolls.
 The gun's AR is the same as the AR of the hull.
 Manipulation of the gun by mechanics should be, at least, a DD 20 maneuver.
 
-=== 7) Active
+=== Active
 Active defences are used against incoming weapons.
 An active defence may fire missiles, waves of shrapnel, energy blasts, lazer matrices, or crystalline discharges in an attempt to dissipate, prematurely detonate, or destroy incoming attacks.
 Regardless of the active defence chosen, all will function equally: lazer arrays are as effective as anti-missiles which are as effective as energy waves.
@@ -583,7 +667,7 @@ The attack types are described in the paragraphs following the table.
 
 // insert table 842
 
-=== 1) Boarding
+=== Boarding
 Boarding is similar to congenial airlock attachment, except that during combat, boarding will result in the forceful connection to undesiring airlocks.
 Boarding can only be used to force airlocks together while exatmo (exterior to atmosphere).
 Once connected the attacking crew will breech the airlock of the target ship and then board.
@@ -625,7 +709,7 @@ If the victim is being impolite, the the airlock may need to be breached.
 Airlock breaching is left for the referee to run with her players.
 It is recommended that mechanics and spies be more proficient at airlock opening than dumb old mercenaries.
 
-=== 2) Ramming
+==== Ramming
 Ramming is a method of boarding a target space vehicle where all caution has been thrown to the solar wind.
 A space cruiser capable of ramming will have a specialized airlock which can attach to any part of the target ship's hull.
 Once attached the invading party may breech the hull, airlock, or whatever to gain entry into the ship.
@@ -665,7 +749,7 @@ Hull breach success is automatic and takes 0-3 (1d4-1) combat turns.
 The Damage Location Roll also indicates where the attacking ship will breech the hull.
 I.e., if the ram damaged the target ships drives, the boarding party will enter the ship at the drives.
 
-=== 3) ECM
+==== ECM
 ECM is the abbreviation for electronic counter-measures.
 This is the battle for control over the electromagnetic spectrum.
 In space vehicle combat, ECM is the battle for control over the electronic components of the target ship.
@@ -702,7 +786,7 @@ When improvising the ref should remember that a successful ECM attack will not d
 
 // insert table 365
 
-=== 4) Grenades
+==== Grenades
 In space vehicle combat grenades explosives delivered by either missile or mine.
 The intent of the grenade is to explode against the hull in an attempt to damage the internal mechanisms of the ship.
 Grenade attacks in space vehicle combat, need to make a to hit roll before any damage can be inflicted.
@@ -744,7 +828,7 @@ The ability to detect the tiny camouflaged mini-mines requires a bizarre AWE (ki
 Mini mines can be dumped at a rate of 5 mines per unit per level of computer.
 Mini-mines, like mini-missiles, cannot survive the rigors of entry into an atmosphere but can be used to bomb targets inatmo.
 
-=== 5) Bombs
+==== Bombs
 Bombs are lethal attack weapons.
 Bombs need only explode near the ship's hull to inflict damage to the contents within.
 Bombs are delivered by either missiles or mines.
@@ -781,7 +865,7 @@ First the mines are virtually undetectable, and defensive ECM cannot be used aga
 A mine can only be visually detected by an improbable (d100) AWE attribute roll.
 Mines are hardy enough to be deployed in atmosphere, or while in orbit to be used as fierce surface attack weapons.
 
-=== 6) Artillery
+==== Artillery
 The purpose of ship artillery is to damage the target ship so that it ceases to function.
 This goal is achieved by penetrating the hull, and delivering the artillery's destructive force to the internal components of the ship.
 Although artillery cannot be fired exatmo into the atmosphere it can be used freely when the vessel is within an atmosphere.
@@ -805,7 +889,7 @@ If the artillery is being fired by a skilled gunner persona, there is a bonus of
 The organic firing bonus is mostly due to the unpredictability of an organic life form firing a weapon.
 This bonus only applies to skilled personas, because a ship's artillery cannot be fired without gunnery skill.
 
-=== 7) Naval Artillery
+==== Naval Artillery
 Naval artillery has only one purpose in mind, to destroy the target ship.
 Naval artillery is not used to soften or assist in the taking over of the target vessel.
 The destruction is accomplished by the sheer force of the weapon.
@@ -971,6 +1055,45 @@ This innovation allows hull space that was previously occupied by drives to be c
 The drawback of this system is that the drive units are subject to attack during combat.
 External drives can either be accessed directly through the hull, or via an airlock.
 Special drives can never be external.
+
+== Hull Gadgets
+The ref must consider several additional features about spaceship hulls.
+These are airlocks, cargo locks, and datalocks (hardpoints).
+
+=== Airlocks 
+An airlock allows passengers, and stuff, to get in and out with decompressing the space vehicle.
+An airlock takes up no space inside the space vehicle, but requires 5 tonnes of cargo space.
+The airlock is free to be located anywhere on the space vehicle.
+A ship can have 1 airlock for every 5 tonnes of unallotted cargo space.
+So a ship with a 15 tonne cargo hold could support 3 airlocks anywhere on its hull.
+Ships with less than 5 tonnes of cargo space cannot have an airlock.
+This doesn't mean the ship cannot be entered;
+it only means that the ship can only be entered while in atmosphere.
+
+=== Cargo locks 
+A larger ship may prefer a cargo lock.
+The cargo access sizes represent the amount of cargo which can be moved through the opening at one time.
+For instance a 50 tonne cargo lock on a 2000 tonne cargo hold could move 50 tonnes of cargo per hour, day, or whatever.
+A cargolock is not pressurized, and only allows access to the cargo bay while the ship is inatmo.
+A cargo lock will only be found on larger space vehicles with at least 50 tonnes of cargo space.
+
+Cargo airlocks are enormous airlocks that are found on gigantic space vehicles.
+The cargo airlock can be used while exatmo to move cargo or smaller space vehicles into and out of the cargo hold without depressurization.
+A cargo airlock requires at least 500 tonnes of cargo space.
+
+=== Datalocks 
+Datalocks are also called hardpoints.
+Datalocks are electronic accesses to the exterior of the hull.
+A datalock is required for every single external contraption that requires exatmo access (guns, missiles, viewers etc).
+A ship will have 10 datalocks per level of computer.
+
+=== Modifications 
+The hulls of a space vehicle can be altered to the needs and whims of the players.
+Extravagance costs extra.
+Space vehicles may have double hulls, so attacks must penetrate two armour ratings before damage can be inflicted.
+A hull could also be streamlined to decrease atmospheric fuel consumption by one half.
+These are campaign based alterations that are up to the referee.
+
 
 === Vac Suits 
 A spacecraft will have one civilian vac suit per crew member, and one civilian vac suit per state room.

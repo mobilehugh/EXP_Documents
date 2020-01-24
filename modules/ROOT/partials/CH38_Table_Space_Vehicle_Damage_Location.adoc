@@ -1,6 +1,6 @@
 // Table 38.6 Space Vehicle Damage Location
 .*Space Vehicle Damage Location*
-[width="75%",cols="3*^",frame="all", stripes="even"]
+[width="75%",cols="^,<,<",frame="all", stripes="even"]
 |===
 3+<|Damage report!
 
@@ -9,11 +9,11 @@ s|Primary
 s|Secondary
 
 |01-11
-s|1) Hull
+s|Hull
 |
 
 |12-15
-s|2) Drives
+s|Drives
 |Inatmo
 
 |16-19
@@ -25,7 +25,7 @@ s|2) Drives
 |Special
 
 |24-28
-s|3) Fuel
+s|Fuel
 |Inatmo
 
 |29-33
@@ -45,34 +45,32 @@ s|3) Fuel
 |Consumption
 
 |49
-s|4) Computer
+s|Computer
 |Level
 
 |50-51
 |
-|Bot Control
+|Robot Control
 
 |52-53
 |
 |Software
 
 |54-60
-s|5) Cargo
+s|Cargo
 |
 
 |61-62
-s|6) Crew
+s|Crew
 |
 
-// Life Support removed
-
 |63
-s|7) Defences
+s|Defences
 |Gravity
 
 |64-67
 |
-|Armour
+|Hull AR
 
 |68-71
 |
@@ -91,7 +89,7 @@ s|7) Defences
 |Actives
 
 |82-83
-s|8) Attacks
+s|Attacks
 |ECM
 
 |84-86
