@@ -1,43 +1,34 @@
 // Table 52.15 Defences
-.*Defences*
-[width="75%",cols="3*^",frame="all", stripes="even"]
+.*Space Vehicle Defences Check Table*
+[width="75%",cols="2*^",frame="all", stripes="even"]
 |===
-3+<|Determine what kind of hard defences the space vehicle has on board. Not software. Computer level (1-10) times base value determines chance of defence being onboard. Check for each defence. 
-s|
-s|Defence
-s|Base
+2+<|Roll less than Chance * Computer Level using 1d100.
 
-|1) 
+s|Defence
+s|Chance (per comp level)
+
 |Life Support
 |Auto
 
-|2)
 |Gravity Control
 |Auto
 
-|3)
 |Armour
 |Auto
 
-|4)
 |ECM
+|10 
+
+|Shields
+|8
+
+|Guns
 |4
 
-|5)
-|Shields
-|3
-
-|6)
-|Guns
+|Actives
 |2
 
-|7)
-|Active Defences
-|1
 
-s|
 s|Defence
-s|Base
-
-
+s|Chance
 |===

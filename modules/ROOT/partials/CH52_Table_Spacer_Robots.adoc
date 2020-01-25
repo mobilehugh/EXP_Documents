@@ -1,52 +1,46 @@
 // Table 52.18 Spacer Robots
 .*Spacer Robots*
-[width="75%",cols="4*^",frame="all", stripes="even"]
+[width="75%",cols="2*^,<",frame="all", stripes="even"]
 |===
-4+<|An extension of the space vehicle computer. Usually not referee personas. Computer level (1-10) times base value determines chance of robot type being onboard. Check for each type of robot.
-s|
+3+<|Check for each robot type. Chance times computer level. Roll under with 1d100.
+
+
 s|Type
-s|Base
-s|Comment
+s|Chance
+s|Bonus
 
-|C)
-|Combat
-|1\/2
-|+2 per Attack Level
 
-|D)
-|Data Analyzer (analog)
-|1
-|+1 per 10 tonnes cargo
+|C-Combot
+|1/2
+|Chance times 10 +
+if naval weapons
 
-|I)
-|Industrial
-|--
-|+10 per Cargo Lock
 
-|M)
-|Maintenance
+|D-Datalyzer
+|2
+|+1 per special drive level
+
+|IL-Industrial
+|2
+|+1 per 5 tonnes cargo
+
+|M-Maintenance
 |3
-|Double if Maintenance Software
+|Double if spaceship
 
-|V)
-|Veterinarian
+|V-Veterinarian
 |2
-|Double if Luxury passengers.
+|+5 per cabin guest.
 
-|S)
-|Social (relations)
+|S-Social
 |4
-|Double if etiquette Software
+|+5 per cabin guest.
 
-|T)
-|Transport
+|T-Transport
 |2
-|--
+|+5 per drive type
 
-s|
 s|Type
-s|Base
-s|Comment
-
-
+s|Chance
+s|Bonus
 |===

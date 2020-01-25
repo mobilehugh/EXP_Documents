@@ -2,22 +2,34 @@
 .*Calculate Cargo Space*
 [width="75%",cols="3*^",frame="all", stripes="even"]
 |===
-3+<|How much tonnage can the hold hold 
-s|Space Occupier
-s|Tonnage
-s|Cargo Space (Tonnes)
+3+<|How much can the hold hold.
 
-|Exatmo Drive 10
+s|Space +
+Occupier
+s|Tonnage +
+Occupied
+s|Cargo Tonnage +
+Remaining
+
+3+^s|Required Allotments
+
+s|Exatmo Drive 10
 |10 tonnes
 |90
 
-|Fuel for 5 months
+s|Fuel for 5 months
 |5 tonnes
 |85
 
-|Computer level 4
+s|Computer level 4
 |4 tonnes
 |81
+
+s|Access Portal
+|0 tonnes
+|81
+
+3+^|Chosen Allotments
 
 |16 Cold Storage
 |8 tonnes
@@ -39,9 +51,20 @@ s|Cargo Space (Tonnes)
 |2 tonnes
 |63
 
-s|Space Occupier
-s|Tonnage
-s|Cargo Space (Tonnes)
+3+^|Chosen Locks
 
+|3 Airlocks 
+|0 tonnes
+|63
 
+|1 Cargolock 
+|0 tonnes
+|63
+
+s|Space +
+Occupier
+s|Tonnage +
+Occupied
+s|Cargo Tonnage +
+Remaining
 |===
