@@ -1,39 +1,44 @@
-// Table 54.12 Vehicle Secondary Locomotion
-.*Vehicle Secondary Locomotion*
+.*Complementary Vehicle Locomotion*
 [width="75%",cols="4*^",frame="all", stripes="even"]
 |===
-4+<|Sometimes one type of locomotion is not enough. 
-s|Secondary Type
-s|Speed <14 h\/u
-s|Speed < 111 h\/h
-s|Speed > 111 h\/u
+4+<|Sometimes one type of locomotion is not enough.
 
-|1) Anti-Gravity
+s|
+3+s|Speed (h/u)
+
+s|Secondary Type +
+(1d100)
+
+s|<15
+s|15 to 110
+s|> 110
+
+|Anti grav
 |01-02
 |01-05
 |01-10
 
-|14) Balloons (1d12)
+|Balloons
 |03-11
 |06-15
 |--
 
-|2) Chemical Slide
+|Chemical Slide
 |12-15
 |--
 |--
 
-|10) Skis (1d4+2)
+|Skis
 |16-24
 |--
 |--
 
-|13) Wheels (1d12)
+|Wheels
 |25-33
 |16-30
 |--
 
-|Normal (No Change)
+|None
 |34-99
 |31-99
 |11-99
@@ -44,9 +49,10 @@ s|Speed > 111 h\/u
 |00
 
 s|Secondary Type
-s|Speed <14 h\/u
-s|Speed < 111 h\/h
-s|Speed > 111 h\/u
+s|<15
+s|15 to 110
+s|> 110
 
-
+s|
+3+s|Speed (h/u)
 |===

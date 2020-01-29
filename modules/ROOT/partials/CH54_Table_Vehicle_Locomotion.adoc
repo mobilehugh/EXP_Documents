@@ -1,74 +1,81 @@
 // Table 54.11 Vehicle Locomotion
-.*Vehicle Locomotion*
+.*Primary Vehicle Locomotion*
 [width="75%",cols="4*^",frame="all", stripes="even"]
 |===
-4+<|Vehicle locomotion is determined by speed of the vehicle and a bit of randomness.
-s|Primary Type
-s|Speed <14 h\/u
-s|Speed < 111 h\/h
-s|Speed > 111 h\/u
+4+<|Primary locomotion type depends on speed and randomness.
 
-|1) Anti-Gravity
+s|
+3+s|Speed (h/u)
+
+s|Primary Type +
+(1d100)
+
+s|<15
+s|15 to 110
+s|> 110
+
+
+|Antigrav
 |01-02
 |01-05
 |01-10
 
-|2) Chemical Slide (second)
+|Chemical Slide ^*^
 |03-06
 |--
 |--
 
-|3) Electromagnetic Legs
+|Electro Legs
 |07-10
 |--
 |--
 
-|4) Jets(second)
+|Jets ^*^
 |11-15
 |06-15
 |11-20
 
-|5) Magnetic
+|Magnetic
 |16-20
 |16-20
 |21-55
 
-|6) Pistons (4d4)
+|Pistons
 |21-25
 |21-34
 |--
 
-|7) Pods (d10)
+|Pods
 |26-30
 |--
 |--
 
-|8) Propellers (second)
+|Propellers ^*^
 |31-33
 |35-48
 |56-99
 
-|9) Sails (second)
+|Sails ^*^
 |34-35
 |--
 |--
 
-|10) Skis (d4+2)
+|Skis
 |36-37
 |--
 |--
 
-|11) Slog Bag
+|Slog Bag
 |38-39
 |--
 |--
 
-|12) Tracks (1d4)
+|Tracks
 |40-63
 |49-73
 |--
 
-|13) Wheels (d12)
+|Wheels
 |64-99
 |74-99
 |--
@@ -79,9 +86,12 @@ s|Speed > 111 h\/u
 |00
 
 s|Primary Type
-s|Speed <14 h\/u
-s|Speed < 111 h\/h
-s|Speed > 111 h\/u
+s|<15
+s|15 to 110
+s|> 110
 
+s|
+3+s|Speed (h/u)
 
+4+<|^*^ indicates roll on Complementary Locomotion Table
 |===
