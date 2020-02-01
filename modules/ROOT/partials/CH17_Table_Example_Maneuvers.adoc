@@ -1,0 +1,175 @@
+// Table 17.6 Example Driving Maneuvers
+.*Example Driving Degree of Difficulties*
+[width="75%",cols="<,<,^",frame="all", stripes="even"]
+|===
+3+<|Degree of Difficulty of typical driving maneuvers.
+
+2+^s|MANEUVERS
+^s|DD
+
+s|Straight Ahead
+|
+|0
+
+s|Drifting
+|
+|Turning +1 per hex distance
+
+2+<s|Turning, avoiding, swerving
+^s|DD
+
+|
+|1 facet point or 30^o^
+|2
+
+|
+|1 facet or 60^o^	
+|3
+
+|
+|2 facet points or 90^o^	
+|4
+
+|
+|2 facets or 120^o^	
+|7
+
+|
+|3 facet points or 150^o^	
+|10
+
+|
+|3 facets or 180^o^	
+|13
+
+2+<s|Parking
+^s|DD
+
+
+|
+|Drive in	
+|0
+
+|
+|Back in	
+|1
+
+|
+|Parallel	
+|2
+
+|
+|Drift in	
+|6
+
+|
+|Land in	
+|10
+
+|
+|Flying	in
+|6
+
+
+2+<s|Jumping
+^s|DD
+
+|
+|Straight	
+|3 per hex
+
+|
+|Corkscrew	
+|20
+
+|
+|End over	
+|25
+
+
+
+s|Side walling
+|
+|15
+
+s|Dead Stop	
+|
+|5
+
+2+^s|PENALTIES
+^s|DD
+
+s|Speed
+|h/u - DEX
+|+1 DD per 10 h/u
+
+2+<s|Fog, Smoke, Gas
+^s|DD
+
+|
+|Normal
+|+3
+
+|
+|Dense
+|+5
+
+
+|
+|Opaque
+|+7
+
+2+<s|Darkness
+^s|DD
+
+|
+|Moonlit
+|+3
+
+|
+|Starlit
+|+5
+
+
+|
+|Void
+|+7
+
+
+2+<s|Snow, sand storm
+^s|DD
+
+|
+|Normal
+|+3
+
+|
+|Heavy
+|+5
+
+
+|
+|Blizzard
+|+7
+
+2+<s|Rain, hail storm
+^s|DD
+
+|
+|Normal
+|+2
+
+|
+|Heavy
+|+3
+
+
+|
+|Monsoon
+|+4
+
+s|Harsh Snark	
+|
+|+42
+
+|===

@@ -1,12 +1,32 @@
 = Driving
 
-Driving involves the manual control of any powered vehicle.
-The exact meaning of manual control and motor-powered is left to the discretion of the referee, and in EXP there are many variations to be had.
-The driving system is designed specifically for those vehicles that are created in 
+Driving involves the manual control of any inatmo vehicle.
+Regardless of the vehicle locomotion type air, land or water the persona controlling is the driver.
+This section is dedicated to tactical driving of vehicles from xref:iv-hardware:CH54_Vehicles.adoc[Inatmo Vehicles,window=_blank].
+The exact meaning of manual control and motor-powered is left to the discretion of the referee.
 
-The vehicles created there are primarily land or atmosphere dependent.
-This section does not cover water vehicles, submarines or spaceships.
-If a vehicle is created which does not seem to fit the description of anything that can be used on any system, the ref must design her own system, adapt an existing one, or discard the vehicle.
+This driving system lends itself best the land based movement, but can be modified for air, water and submariner driving.
+Exatmo vehicles (space vessels) have a completely different separate method of driving. 
+
+== Observations about Speed
+* 1 h/u = 1 m/s
+* 1 h/u = 3.6 kmh
+* 1 h/u = 2.2 mph
+* 25 h/u = Gale force winds
+* 45 h/u = 100 mph
+* 342 h/u = Speed of sound
+
+== Driving and the Hex Mat
+Inatmo vehicles travel at massive speeds.
+Most vehicles will run out of table top combat mat in a unit or two.
+The referee and players will usual only keep detailed track of vehicle location during xref::CH39_Vehicle_Combat.adoc[combat].
+
+Vehicle racing, or chasing, is another reason to keep track of vehicle location.
+Car chases are fun.
+If there are no persona tokens on the mat it is recommended to grab a smaller scale hex mat.
+The smaller scale mat allows for high speed maneuvers movement and treacherous obstacles.
+Regardless of the reason for tracking vehicles on a hex mat they move like any other persona.
+They just cover more hexes each unit and can have a collision if reckless.
 
 :art: cool_cat_cool_car.png
 :width: 250px
@@ -17,97 +37,81 @@ If a vehicle is created which does not seem to fit the description of anything t
 
 include::ROOT:partial$articulate.adoc[]
 
-The basic assumption made about driving is that it is safe, provided that drivers obey traffic regulations, and employ reasonable amounts of common sense.
-Such common sense involves not over-driving (speeding, cornering), choosing a qualified driver, and properly maintaining the vehicle.
-By nature, personas are daring, unskilled and mechanically ignorant.
-Who can expect an expedition of murderous mercenaries, technically inept biologists and terrified nothings to do anything less than throw caution to the wind, and disregard common sense?
+The basic assumption made about driving is that it is safe.
+Drivers that obey traffic regulations, and employ reasonable amounts of common sense will be fine.
+The driving system only comes into play when personas speed, engage in combat or make reckless choices. 
+Under normal circumstances a vehicle allows an expedition to get from A to B to improve the story.
 
+.*Driving Collision Checklist*
+. Control Check
+. Control Challenge (Driving Roll)
+. Control Recovery (DEX roll)
+. Control Loss
+.. Duration
+.. Deceleration
+.. Direction
+. Collision Check
+. Collision Damage
+.. Persona Damage
+.. Vehicle Damage
 
-:art: van_turret_dust.png
-:width: 250px
-:snark: Don't text off road.
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
+== Control Check
+Expeditions should be able to use their vehicle to safely get from A to B.
+Vehicular mishaps should be rare.
+For the most part the vehicle and driver will carry on without issue.
+Only under extreme circumstances will a control check be warranted.
+This is usually the referee's decision.
+There are a few obvious circumstances.
 
-include::ROOT:partial$articulate.adoc[]
+.*Control Check Required*
+* driver takes damage
+* sudden dangerous change in road conditions
+** oil slick, chicken swarm
+* driver is distracted
+** arguing, telling jokes, or juggling dice
+* wilfully attempting a dangerous maneuver
+** drifting, high speed turn, barrel roll
 
-== 1) Check Warranted? 
-When the driver is required to complete a driving roll is the ref's decision.
-Some occasions when a driving roll is warranted are: any dangerous maneuvers;
-whenever the driver has been hit;
-sudden change in road conditions (oil slick, change in grade);
-whenever the vehicle has been damaged;
-if the driver is distracted (arguing with other personas, telling a joke, juggling dice);
-or whenever the ref gets irritated.
-Even though a driving performance roll check is initiated by a somewhat subjective referee decision, the remaining steps are based on the difficulty of the maneuver, the DEX of the driver, direction of loss of control, and speed of the vehicle.
+____
+*Failure on Control Check moves the driver along the Collision Checklist. On to Control Challenge*
+____
 
-== 2) Driving Performance Roll 
-Whenever drivers attempt to be daring, adventurous or foolhardy (the prime characteristics of all personas) while driving they have created a dangerous situation.
-When the driver has attempted some dangerous maneuver, the player must make a driving performance roll http://expgame.com/?page_id=277[Table 17.1: Driving Performance Roll].
-This table is similar to other performance tables.
-The degree of difficulty (DD) is based on the difficulty of the maneuvers, but the skill level is replaced by the handling level of the vehicle.
-Every vehicle created in the Technological Object Yield System (TOYS) will have a handling level.
-The better the handling level the more insane the maneuvers that can be carried out.
+== Control Challenge 
+The Control Challenge is the first step in collision avoidance.
+The player would not be here if she weren't under attack or misbehaving.
+Daring, adventurous or foolhardy choices have moved the expedition along the Collision Checklist.
 
-A successful driving performance roll indicates that nothing bad has happened, and driving continues undisturbed.
-A driver is more likely to have success with a driving performance roll if she has skill in driving, and is driving a vehicle with a good handling level.
-Failure of a driving performance roll indicates potential for loss of control of the vehicle.
-Players that fail a driving performance roll have to succeed at a DEX attribute roll, or they lose control of the vehicle.
+NOTE: *A Driving Roll was previously called a Driving Performance Table Roll*
 
-The Driving Performance Roll Table is left open, like all other performance tables, for bizarre manoeuvres which no sane ref can be prepared for.
-Included with the performance table is a list of expected manoeuvres and their adjustments.
-There are more adjustments than manoeuvres.
-The adjustments affect the DD of specific maneuvers, and they are listed with a + or 
-sign.
-The + adjustments make the maneuver more difficult by increasing the DD, and the -adjustments make it easier decreasing the DD.
-For example, driving in reverse is not a 3DD manoeuvre, but any maneuver attempted while driving in reverse is increased by 3DD (this includes driving straight).
-If there are any questions about performance tables in general, refer to http://expgame.com/?page_id=269[Chapter]http://expgame.com/?page_id=269[14: Performance Rolls].
+A Control Challenge indicates a Driving Roll must be made by the player.
+A Driving Roll is a performance roll that involves the vehicle's handling level and driver skill.
+The higher the Handling Level and driver skill the more likely to maintain control of the vehicle.
+The more difficult the maneuver being undertaken the harder it is to maintain control.
 
-== Driving Performance Rolls 
-This is the performance table for either maneuvers that the driver is trying to accomplish, or when the driver is challenged in some fashion.
-Please check step 1) Check Warranted?
-The listed maneuvers are mere inspiration, the players will surely come up with more.
-Handling Level is determined by the vehicle.
-All vehicles in EXP have a handling level.
-Example maneuvers are given below.
-Example adjustments are given below as well.
-The referee should use the penalties with reason and fun in mind.
-Making it impossible to park a vehicle due to penalties would SUCK.
-The  table shows Handling Level versus degree of difficulty (DD).
-Each row represents a Handling Level and the columns are degree of difficulty (DD).
-So a Vehicle with Handling Level 5 attempting a DD 5 maneuver would need to roll 15 or higher on d100 to be successful.
-This table can be scrolled left to right and right back left again.
+=== Driving Roll
+A Driving Roll requires the player to cast a 1d100 roll equal to or higher than a number.
+The more difficult the maneuver the higher the number.
+The difficulty of the maneuver is represented as the Degree of Difficulty (DD) of the maneuver.
+The DD is used to calculate how high the player must roll to have a successful Driving Roll.
+Degree of Difficulty is countered by the handling level of the vehicle and the personas driving skills.
 
-// replace with table 188
+The Skill Level is determined by Vehicle Handling level plus driving skills. 
+The Degree of Difficulty is determined by tables or referee irritation level.
 
-// replace with table 189
+A deep understanding of Performance Rolls is recommended for the Roll Playing System.
+Consult xref::CH14_Performance_Tables.adoc[Performance Tables] for the gory details.
 
-// replace with table 190
+=== Driving Skill Level Determination
+.Skill Level = Vehicle Handling Level + Driver Skills
+****
+Handling level 5 and driving skill 2 equals skill level 7 on the the Target Performance Roll Table. 
+****
 
-== 3) Recovery DEX Roll
-Failing on the performance table does not mean players should crumple up their persona record sheets.
-The driver still has a chance to recover from her driving error through sheer dexterity.
-This is done by granting the player a DEX roll in a desperate attempt to avoid loss of control.
-If there is a fail of on the Driving Performance Roll the player must make a Recovery DEX roll must be made.
-Once again, the faster a persona drives, the more dangerous the maneuver.
-The Recovery DEX roll becomes harder with the more difficult the degree of difficulty that was failed.
+=== Degree of Difficulty (DD) Determination 
 
+include::ROOT:partial$CH17_Table_Example_Maneuvers.adoc[]
 
-Let's consider a driver with an 11 DEX operating a vehicle with a handling level of 5.
-She is attempting to turn left at an intersection when one of her passengers spills a PGGB in her lap.
-This constitutes a Driving Performance Roll, whereas normally, this simple driving maneuver (i.e., rounding a corner) would not warrant a check.
-A 90
-turn is a DD4 maneuver.
-She is obeying her speed limit, and no other penalties (road conditions, etc.) apply.
-She must roll over 5 to corner without further incident.
-Unfortunately, she rolls 02, and fails.
-Before losing control of her vehicle, she gets a difficult Recovery DEX roll (d20) because she failed a 4DD maneuver.
-She rolls a 4 on the d20, and maintains control of her vehicle because she has rolled less than her DEX.
-
-// replace with table 191
-
-=== Speeding
+==== Speeding
 Speed effects are dependent on the player's DEX.
 A high DEX reflects good eye-hand coordination, agility, and reaction time, all of which aids in avoiding accidents.
 The maximum speed that a persona can handle is 1 h/u per point of DEX.
@@ -116,54 +120,123 @@ For every 10 h/u (36 km/h) over this driver's maximum speed, any maneuver is inc
 If the persona with a 10 DEX were cruising down a highway at 40 h/u (144 km/h) she would have +3DD on any maneuver attempted.
 The expedition will quickly realize that speeding can prove very hazardous.
 
-== 4) Loss of Control
-Loss of control of a vehicle results when the driver has both failed her Driving Performance Roll, and her Recovery DEX roll.
-Losing control of a vehicle will last a certain amount of time in units and result in deceleration and deviation.
+=== Determine Target Roll Using Tabulation
+The target roll can be calculated or tabulated. 
+The table is included here for quick target roll checks. 
+To calculate Target Roll jump to  xref::CH14_Performance_Tables.adoc[Performance Tables].
+
+include::ROOT:partial$CH14_Table_New_Performance.adoc[]
+
+=== Roll on 1d100
+If the player rolls the target number or higher they have made a successful driving maneuver.
+A successful driving roll indicates the driver has maintained control and exits the collision checklist.
+A failed driving performance roll moves the expedition further down the Collision Checklist.
+Tension mounts.
+
+____
+*Failure on Control Challenge moves the driver along the Collision Checklist. On to Control Recovery*
+____
+
+== Control Recovery
+If a player fails the Driving Roll all is not lost.
+The driver has a chance to recover from her driving error through sheer dexterity.
+This is done by granting the player a DEX roll in a desperate attempt to avoid loss of control.
+Once again, the faster a persona drives, the more dangerous the maneuver.
+Successful DEX Recovery is less likely the more difficult the maneuver.
+
+The table is a modified Attribute Roll Table.
+The player must roll 1d20 plus her DEX attribute against challenge.
+There is a random and a fixed challenge.
+One is a die roll that the player must roll higher than.
+The other is a fixed number that the player must roll higher than.
+
+include::ROOT:partial$CH17_Table_Recovery_DEX_Roll.adoc[]
+
+A successful Control Recovery roll indicates the driver has maintained control and exits the collision checklist.
+A failed driving Control Recovery roll moves the expedition further down the Collision Checklist.
+Tension mounts even more.
+____
+*Failure on Control Recovery moves the driver along the Collision Checklist. On to Loss of Control*
+____
+
+== Loss of Control
+The player has failed her control roll and control recovery rolls.
+Things are getting dangerous.
+The player loses control of her vehicle and it travels in a somewhat random direction.
+Loss of control has three elements. 
+
+.*Loss of Control*
+. Duration
+. Deceleration
+. Direction
+
+These three elements may or may not lead to a collision. 
 
 === Duration
-The loss of control of the vehicle will last for 0 to 3 units (1d4 
-1).
-This determines how many units the vehicles careens out of control.
+The loss of control of the vehicle will last for 0 to 3 units (1d4-1).
+This determines how many combat units the vehicles careens out of control.
 If the vehicle is traveling 10 h/u and loses control for 3 units the vehicle will travel for 30 hexes before control is regained.
-The referee would roll a new deceleration and deviation for each unit of lost control
 
-*Duration of Loss of Control (units) = 1d4 minus in units*
+Deceleration and Deviation can be rolled for each unit as the driver fights for control.
+
+=== Duration of Loss of Control
+.Duration = 1d4-1 units
+****
+A 1d4 result of 1 =  0 units indicating this unit only. A 1d4 result of 3 = 2 units flailing about.
+****
 
 === Deceleration
-While trying to control the vehicle the driver will presumably brake, or momentum will be lost in the lack of control.
-A vehicle that has lost control will decelerate by 0%-50% (d6-1) from its previous speed.
-This deceleration can be quite hazardous to the passengers if they are not properly restrained.
+As the vehicle is swerved around with the driver trying to regain control speed is lost.
+This speed lost can be from sensible braking, mad deviations, or both.
+The vehicle will decrease it's speed by 0%-50% (1d6-1) each unit of lost control.
 A 0% deceleration indicates no loss of vehicle speed.
-A 50% deceleration indicates that the vehicle will be travelling at half its original speed at the end of the deviation.
-The decelerated speed is the one that determines the damage if an accident should result.
-The deviation will last for 0-3 units.
-A new amount of deceleration is rolled for each unit of loss of control.
+A 50% deceleration indicates that the vehicle will be travelling at half its original speed.
 
+Deceleration can be quite hazardous to the passengers if they are not properly restrained.
+The decelerated speed is the one that determines the damage if an accident should result.
+A new amount of deceleration is rolled for each unit of loss of control.
 
 *Deceleration of of Vehicle = (1d6 1) times 10% *
 
-=== Deviation
+=== Deceleration In Loss of Control
+.Deceleration = 1d46-1 times 10%
+****
+A 1d6 result of 1 =  0% deceleration. A 1d6 result of 3 = 20% deceleration.
+****
+
+=== Direction
 Finally, the direction of the loss of control is determined by the roll of percentile dice.
 The last one, deviation, is left to the discretion of the referee.
 The ref must decide whether the vehicle-deviates left, right, or in some cases up or down;
 this is usually done randomly.
 
-// replace with table 192
+include::ROOT:partial$CH17_Table_Deviation_During_Loss_of_Control.adoc[]
 
-// replace with table 193
+:art: Figure_Deviation_Hex_Degrees.png
+:width: 250px
+:snark: Faceting the music in loss of control.
+:artist: HM
+:date: 2010
+:license: CC BY-SA 4.0
 
-=== Example of Loss of Control
-In a previous paragraph of this chapter there was a poor driver who had a PGGB spilled in her lap while attempting to make a left hand turn, at 11 h/u.
-If she had failed her DEx roll then she would have lost control of her vehicle.
-First it is determined how long the vehicle is out of her control 0-3 unites (1d4-1).
-The Duration of Loss of Control was  1 unit.
-Which means this unit and the next.
-Secondly she would determine how much she decelerated.
-A 1 was rolled on the d6 which indicates 0% deceleration.
-Thirdly her deviation roll was 36 indicating that she travels straight ahead.
-So in her first unit of loss of control her vehicle will travel straight ahead at 11 h/u.
-This could mean that she just missed the left hand turn, hit an oncoming vehicle turning left, or careened off an embankment.
-In her second unit of loss of control her vehicle would decelerate a given amount and her deviation of loss of control would be re-rolled.
+include::ROOT:partial$articulate.adoc[]
+
+____
+*Loss of Control may result in a Collision. Make a Collision Check.*
+____
+
+== Collision Check
+Losing control of a vehicle may result in an collision.
+A collision can only occur if the driver's loss of control causes the vehicle to crash into some obstacle, or careen off the road.
+
+.*Collision Indicated*
+* loss of control path crosses:
+** another vehicle's path
+** an obstacle
+** goes off the road
+* change of grade by 1/2 a hex
+* confined space with no other option
+* parameters decided by the referee
 
 :art: vehicle_collision_imminent.png
 :width: 250px
@@ -174,131 +247,107 @@ In her second unit of loss of control her vehicle would decelerate a given amoun
 
 include::ROOT:partial$articulate.adoc[]
 
-
-== 5) Collision? 
-Losing control of a vehicle may result in an collision.
-A collision can only occur if the driver's loss of control causes the vehicle to crash into some obstacle, or careen off the road.
-The chance of losing vehicle control is increased by bad road conditions, bad weather, an improperly maintained vehicle, poor handling level, high vehicle speeds, and poor physical condition of the driver.
-If any obstacle crosses the path of an out of control vehicle, then the vehicle has had a collision with that obstacle.
-If loss of control results in a drop of more than half a hex (land based vehicle only) an accident has resulted, if the vehicle crosses the path of a simultaneously moving vehicle then the two have collided.
-Either of these scenarios, or any other similar one, indicates damage to the vehicle and its passengers.
-When there is a collision both the vehicle and the passengers are damaged according to 
-
-The driving system should be used with much caution.
-If strange things begin to happen (E.g., the personas become petrified of vehicles), it may indicate a need to alter the way the ref runs the vehicle system.
+== Collision Damage 
 The deadliness of a crash depends on the speed of the vehicle.
 The higher the speed, the more dangerous the collision.
-Damage is divided into two categories: damage to the vehicle, and damage to the passengers.
-Vehicle damage is recorded by the state of a particular part of the vehicle;
-passenger damage is recorded in hit points.
-Special vehicle construction can reduce vehicle damage, and safety equipment (restraining belts, air bags) can reduce passenger damage.
+The speed of the collision determines the energy of the collision.
+The energy of the collision determines the  amount of damage delivered.
+The vehicle and passengers are damaged simultaneously
 
-== 6) Collision Damage 
-Everything considered, driving is safe;
-it's crashing that's dangerous.
-The speed of the collision represents the energy of the collision, and therefore the amount of damage delivered to the vehicle and the passengers.
-The speed that the vehicle decelerates to is the speed that is used on Table 17.4: Collision Damage.
-The after-collision speed depends entirely on what the vehicle crashed into.
-Vehicles involved in a head on collision would be reduced to zero speed, while vehicles that scrape up against a embankment may not be slowed at all.
+NOTE: *Driving is safe. Crashing is dangerous.*
 
-*Collision Speed*:The speed at which the vehicle collides determines the severity of the accident.
-The decelerated speed of the vehicle is what is used in the the event of a collision.
-A deceleration of 50% could mean damage to unrestrained passengers.
+=== Relative Speed and Damage
+The speed at which the vehicle collides determines the severity of the accident.
+The vehicle should use its decelerated speed as the collision speed.
+The vehicle speeds are combined to inflict damage to both vehicles.
+
+.*Relative Speeds*
+. Head on add speeds (front 3 facets)
+. Rear on subtract speeds (back 3 facets)
+. Other ons use highest speed
+
+include::ROOT:partial$CH17_Table_Collision_Damage.adoc[]
+
+=== Relative Wate and Damage
+Speed indicates the energy delivered by a collision but that is not the whole picture.
+The relative wates involved in the collision need to be considered.
+If relative wates are ignored problems will arise.
+A moped could ram an 80 ton military tank at high speed and kill the tank crew.
+Or a jet plane crashes into convertible and convertible driver escapes injury.
+There are some faux Newtonian solutions to these potential problems.
+The 
+
+=== Collision Wate Multiplier
+.Damage Multiplier = Larger vehicle wate / Smaller vehicle wate  
+****
+Cannot exceed 4 times damage or  1/4 damage.
+****
+
+If a 1200 kg vehicle collides with a 400 kg vehicle the larger vehicle would take 1/3 damage. 
+The smaller vehicle would take 3 times damage.
+The damage multiplier is rounded to the nearest easy number (1, 2, 3, 4) or (1, 1/2, 1/3. 1/4).
+The damage factor cannot be increased more than 4 times greater, or be reduced by less than 1/4.
+
+== Persona Damage
+Collisions can deliver massive amounts of damage and easily kill personas.
+Collision damage works the same as any other damage inflicted on the persona.
+The indicated damage die roll is made and subtracted from the persona's HPS total.
+The damage can be rolled once for all the personas involved, or individually for each persona.
+
+Every persona involved in the collision takes the HPS damage.
+If two vehicles collide then all the personas in both vehicles take damage.
+A collision at 35 h/u, every passenger in both vehicles would take 6d10 HPs in damage.
+Relative wate can increase the damage by up to 4 times, or decrease it by 1/4.
+
+Pedestrians hit by vehicles will take damage as if they were in an accident with the vehicle.
+A vehicle travelling 35 h/u would do 6d10 to a pedestrian.
+
+=== Unrestrained Personas
+A deceleration of 50% will damage to unrestrained passengers.\
+Technically this could happen without a collision.
 For instance a vehicle that slows down to 50 h/u from 100 h/u means that inertia will carry personas into the bulkhead of the vehicle at 50 h/u.
 Smart explorers wear their seat belts!!
 
-// replace with table 194
-
-=== Persona Damage
-Damage to passengers is very straight forward;
-everyone in the vehicle takes the amount of dice damage indicated by the vehicle's collision speed.
-The amount of damage indicated can be found on the Collision Damage_ T_able.
-One roll may indicate damage for the group, or damage may be re-rolled for each passenger.
-If a vehicle were travelling at 50 h/u, the driver lost control and decelerated to 35 h/u, but still got into an accident, every passenger would take 6d10 HPs in damage.
-If the passengers are in a vehicle that has been hit with a vehicle travelling at high speed then they will take damage as if they were in that vehicle.
-Pedestrians hit by vehicles will take damage as if they were in an accident with the vehicle, thus a vehicle travelling 35 h/u would do 6d10 to a pedestrian.
-
-If the referee feels that it is necessary, the passengers may take damage relative to the wates of the vehicles involved.
-Passengers in a heavier vehicle may take less damage than passengers in a lighter vehicle.
-The wates of the two vehicles are divided, and the resultant ratio is multiplied by the damage.
-Referees will mostly use this system to reduce the damage to personas that are in heavier vehicles.
-The damage adjustment cannot exceed 4 times, nor be less than 4 times.
-
-=== Vehicle Damage
+== Vehicle Damage
+Vehicles do not have hit points.
+They are damaged in a fashion similar to other inorganic objects.
+Vehicle damage resembles robot, exatmo vehicle, and artifact damage.
 The higher the speed of the vehicle has its collision at the more damage that it endures.
-Column three of Table 17.4 Collision Damage determines the number of time the vehicle is damaged.
-Vehicles don't have hit points per se, so the higher the speed of the collision the more vehicle parts that are damaged.
-For example,  a vehicle that has a  collision at 8 h/u will not be damaged.
-A vehicle that has a collision at 28 h/u would make 3 vehicle damage rolls.
-A vehicle that collides at 60 h/u (250 kmh) would make 6 damage table rolls.
-Each roll damages a specific part of the vehicle to a certain extent.
-This is similar to the way a robot is damaged.
-Each damage roll indicates a roll first on Table 17.5: Location of Vehicle Damage;
-and then Table 17.6: Extent of System Damage.
-The decelerated speed of the vehicle is what is used to determine how much damage the vehicle has sustained.
+
+A vehicle in a collision at 8 h/u will not sustain damaged, but the passengers may.
+A vehicle in a collision at 28 h/u would take 3 vehicle damage rolls.
+A vehicle that collides at 60 h/u (250 kmh) would take 6 damage table rolls.
+
+Each vehicle damage roll indicates a location of damage and extent of damage. 
+The location of damage is completely random. 
+The extent of damage can be random or modified depending on the irritation level of the referee.
 
 === Location of Vehicle Damage
 A roll on the Location of Vehicle Damage table must include an Extent of Damage roll.
 The location of damage determines which vehicle function is affected by the accident.
-The extent of damage roll indicates the new level of efficiency of the damaged part.
-If a vehicle's speed interface were to sustain major damage, it would function at 60% its previous efficiency.
-So if the damaged vehicle had a maximum speed of 30 h/u originally, this would be reduced to 18 h/u.
-Note that vehicle damage is cumulative, and further damage to the speed interface would affect the current 18 h/u max speed.
 
-The Location of Vehicle Damage Table is also used if the vehicle is hit with a weapon attack.
-This is discussed in greater detail in chapter 39, Other Vehicle Combat.
+include::ROOT:partial$CH17_Table_Location_of_Vehicle_Damage.adoc[]
 
-// replace with table 195
+=== Extent of Vehicle Damage
+The extent of damage roll indicates the decrease in efficiency of the damaged part.
+Major damage would decrease function by 40% of previous efficiency.
+Damage to the speed system would reduce the vehicle's speed by 40%.
+The maximum speed of 30 h/u would be reduced to 18 h/u.
+Vehicle system damage is cumulative.
+For more details on damage see xref::CH21_Artifact_Damage.adoc[Artifact Damage].
 
-=== Extent of Damage
-The more speed the more damage.
-The amount of damage dealt to the system is determined on Table 17.6: Extent of Vehicle Damage.
-For each system that is identified as damaged on Table 17.5: Location of Damage the extent of damage must be determined.
-Trivial damage indicates mostly cosmetic damage that does not affect the system damaged.
-Critical damage would reduce the performance of the vehicle system to 30% of previous function.
-So a vehicle that has a top speed of 24 h/u taking critical damage to its Speed System would now have a max speed of 8 h/u.
+include::ROOT:partial$CH21_Table_Artifact_Extent_of_Damage.adoc[]
 
-// replace with table 196
-
-Table 17.6: Extent of Vehicle Damage is also used if the vehicle is damaged by a weapon attack.
-In this instance the HPs of damage inflicted is added to the extent of damage die roll.
-This is discussed in greater detail in http://expgame.com/?page_id=322[C]http://expgame.com/?page_id=322[Chapter 39: Other Vehicle Combat].
-
-=== Speed Adjustment
-One would expect that the speed at which a vehicle is involved in an accident would affect the extent of damage it receives.
-It would be unfair to have a vehicle's Speed System destroyed by a collision at 2 h/u.
-However one could easily justify such a disaster.
-If the referee and player's would like to have a speed adjustment to the extent of damage table here you go: 
-
-*Adjust Extent of Damage Roll=  0.5 times speed (h/u) 
-10*
-
-This equation ensures that vehicles travelling very slowly tend to be damaged less than vehicles travelling fast.
-A vehicle travelling at 8 h/u is involved in a collision;
-the extent of damage roll (1d100) would have -6 added to the roll.
-Nothing in this collision could be destroyed at this low speed.
-However for  a vehicle travelling at 40 h/u the referee would add 10 to the extent of damage roll. In a collision at this speed the vehicle would not get lucky with trivial damage and is more likely to have vehicle systems severely broken.
-One could argue that this should be used to protect persona vehicles at low speeds only because high speed collisions already have multiple rolls on the damage table.
-
-
-=== Relative Wate
-If the ref does not take relative wates and speeds into account, the following scenarios are possible: moped rams 80 ton military tank at high speed, tank crew killed;
-jet plane crashes into parked convertible, convertible driver escapes injury due to low speed of convertible.
-There are some Newtonian solutions to these potential gaming inaccuracies.
-Remember to sum the velocities of any two moving vehicles crashing into any of the three front hexes (head on).
-Relative speeds may also be reduced if the colliding vehicles make contact on any of the back three facets (rear ender).
-Relative wate works much the same in vehicular accidents as it does in http://expgame.com/?page_id=306[Chapter 31: Robotic]http://expgame.com/?page_id=306[Combat].
-
-If the referee feels that it is necessary, the passengers may take damage relative to the wates of the vehicles involved.
-Passengers in a heavier vehicle may take less damage than passengers in a lighter vehicle.
-The wates of the two vehicles are divided, and the resultant ratio __is __multiplied by the damage__.
-__Referees will mostly use this system to reduce the damage to personas that are in heavier vehicles.
-The damage adjustment cannot exceed 4 times, nor be less than _4 _times.
+Extent of damage can be modified by the Collision Wate Modifier.
+The referee may multiply the extent of damage roll by the multiplier.
+So if the player rolls 50 on the Extent of Damage Table the roll could be reduced by 1/4.
 
 === Further Complications
 There are further complications that the ref may be interested in.
-The chance of a passenger being trapped in the wreckage of a vehicle is equal to the amount of damage that the passenger takes.
-The chance of a fire is left to be decided by the sadistic ref, but a good system is: there's a 10% chance of fire if the fuel system is critically damaged or destroyed.
-If the situation is very critical, and the players desire that everything be quantified, the ref may have to disregard her colorful ad lib description and use Table 17.7 : Accident Description.
-The results from the table do not affect damage to the vehicles in any way.
-However, other consequences may arise from the described chain of events.
+Passenger entrapment equals to 1% per HPS of damage inflicted on the passenger.
+Post collision fire is dependent on fuel type and damage to fuel system.
+Whether the vehicle is drivable depends on the damage to systems during the collision.
+Final vehicle resting position is entirely up the decision of the referee.
+
+
+

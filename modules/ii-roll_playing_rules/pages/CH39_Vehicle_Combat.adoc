@@ -1,20 +1,21 @@
 = Inatmo Vehicle Combat
 
-This section is dedicated to the complexities that vehicles add to the tactical combat system.
-Inatmo refers to any vehicle based combat that takes place planet side.
-For space vehicle combat jump over to xref::CH38_Space_Vehicle_Combat.adoc[Exatmo Vehicle Combat].
-
-Before destroying vehicles in combat it is recommended to know how to create them. 
-xref:iv-hardware:CH54_Vehicles.adoc[Inatmo Vehicle creation]. 
-
-Inatmo vehicle combat is not a complete vehicle combat system. 
-This section covers the most common interactions that take place during vehicle combat. 
+Inatmo vehicles are the typical vehicles that are found planet side.
+This section is covers using vehicles in the tactical combat system. 
+Inatmo vehicle combat covers how to shoot from, shoot at, and destroy vehicles in combat. 
 Inatmo vehicle combat is cinematic vehicle combat and is persona centered.
 It is intended use when lethal personal combat is combined with driving.
+Before destroying vehicles it is recommended to know how to create them at  xref:iv-hardware:CH54_Vehicles.adoc[Inatmo Vehicle,window=_blank]. 
 
-This section is not for expeditions driving from one place to another. 
-Nor is this section for persona's piloting their vessels recklessly.
-Non-combat driving shenanigans are covered in the xref::CH17_Driving.adoc[Driving Section]. 
+Inatmo vehicle combat works best for land based combat.
+Air, water and submariner combat can be easily accommodated.
+This section does not apply to combat taking place exterior to the atmosphere.
+For space vehicle combat jump over to xref::CH38_Space_Vehicle_Combat.adoc[Exatmo Vehicle Combat].
+
+This section is *not* for expeditions driving from one place to another. 
+This section is *not* for expeditions have car races for fun.
+This section is *not* for drivers who are behaving recklessly.
+All non-combat driving shenanigans are covered under xref::CH17_Driving.adoc[Driving]. 
 
 :art: vehicle_combat_trick_moves.png
 :width: 250px
@@ -25,226 +26,234 @@ Non-combat driving shenanigans are covered in the xref::CH17_Driving.adoc[Drivin
 
 include::ROOT:partial$articulate.adoc[]
 
-The rules presented here are guidelines, as all rules are, and common sense and fun should prevail.
-The referee will need to make many snap judgement calls.
-Some players will adamantly transfer their car experience into the game.
-People are willing to accept faux science rules about lazer cannons but not so when it comes to vehicles.
-Does wind affect my lazer rifle?
-My persona hunted flying womp mice why can't I use my BP?
-Can our supersonic vehicle outrun that sonic pistol attack?
+== Vehicle Combat and the Hex Mat
+Most vehicles will run out of table top combat mat in a unit or two.
+Managing the high movement rates of vehicles in combat is a hex mat challenge.
+A typical vehicle will cross an entire hex max in one combat unit. 
+When using tokens and hexagons full speed vehicles just zip across the field.
 
-The referee and players should not underestimate the power of the Sphincter dice to assist decisions.
+Vehicle racing, or chasing, is another reason to keep track of vehicle location.
+Car chases are fun.
+If there are no persona tokens on the mat it is recommended to grab a smaller scale hex mat.
+The smaller scale mat allows for high speed maneuvers movement and treacherous obstacles.
+Regardless of the reason for tracking vehicles on a hex mat they move like any other persona.
+They just cover more hexes each unit and can have a collision if reckless.
 
-// not for regular driving
-// not for car chases
+Players with flying vehicles must keep track of their elevation. 
+EXP is not responsible for misuse of the https://en.wikipedia.org/wiki/Pythagorean_theorem[Pythagorean theorem,window=_blank].
 
-// table top minis and hexes
-// can these combatants meet table top and minis
-// tremendous distances
-// smaller sized hexes and smaller tokens
-// managing flying or burrowing vehicles
+== Speed
+A vehicle moving at 10 h/u or lower does is not considered to be in vehicle combat.
+This movement rate can be compensated for by the tactical system.
+The vehicle is more about cover and concealment at lower speeds. 
 
-// running away
+Vehicle combat is persona focused and cinematic in nature. 
+However there are speed limits for various actions.
 
-// vehicle to vehicle
-// targeting at vehicle
-// targeting from vehicle
+.*Observations about speed*
+* 1 h/u = 1 m/s
+* 1 h/u = 3.6 kmh
+* 1 h/u = 2.2 mph
+* 25 h/u = Gale force winds
+* 45 h/u = 100 mph
+* 342 h/u = Speed of sound
 
+== Typical Use Cases
+Inatmo vehicle combat is an extension of the tactical combat system. 
+Attack rolls, movement, and damage are detailed throughout the tactical system.
+The rule set here is for combat including moving vehicles.
+The main challenge for vehicle combat is accommodating for relative movement rates.
+Inatmo combat focuses on the most common use cases that occur in vehicle combat.
 
+NOTE: *Parked vehicles are just cover or concealment.*
 
-// alien speed minimum speed
+.*Common Combat Situations*
+. Attack roll at a moving vehicle (attacker essentially still)
+. Attack roll from a moving vehicle (target essentially still)
+. Attack roll between moving vehicles (attacker and target moving)
+. Additional considerations
 
+== Attack roll at a moving vehicle
+The main challenge for the attacker is that their target is moving at high speed.
+The attacker is considered to be relatively motionless.
+The movement rate of the attacker is not considered.
+The speed of the vehicle makes a successful attack roll more difficult.
+The greater the speed differential the harder it is to hit the target.
+This is reflected in the Vehicle's Armour Rating.
+The greater the speed differential the greater the armour rating of the target.
 
+Attacking a moving vehicle increases the target's Armour Rating.
 
+=== Moving Vehicle Armour Rating
+.Vehicle AR = 500 + 10 per h/u 
+****
+A vehicle speeding by at 30 h/u has an AR of 800.
+****
 
+== Attack roll from a moving vehicle
+The main challenge for the attacker is that they are moving at high speed.
+The speed of the vehicle makes a successful attack roll more difficult.
+The target is considered to be relatively motionless.
+The movement rate of the target is not considered.
+The greater the speed differential the harder it is to hit the target.
+This is reflected by an attack roll penalty.
+The greater the speed differential the higher the attack roll penalty.
 
-.*Common combat Situations*
-. Attacking a moving vehicle
-. Vehicle to vehicle
-. Attacking from a moving vehicle
+Attacking from a moving vehicle results in an attack roll penalty.
 
-== Attacking A Vehicle
-Damaging a vehicle requires a to hit roll against the vehicle's armour rating (AR).
-If the player rolls higher than the target vehicle's armour rating then her persona has damaged the vehicle.
-A vehicle's armour rating depends on its structure and its speed.
-Unless the vehicle has been given a special AR when it was randomly generated, its base armour rating is 500 
+=== Attack Roll Speed Penalty
+.Penalty = -15 per h/u of vehicle speed
+****
+The attack roll penalty from a vehicle going 30 h/u is -450.
+****
 
-// vehicle AR
+Attacking from a vehicle moving 25 h/u is equivalent to attacking through a gale force wind.
+Attacking from a vehicle moving 45 h/u is equivalent to attacking through 100 mph wind. 
 
-=== Armour Rating
-500 would be the AR of a parked non-military vehicle.
-A parked vehicle offers nothing more than cover to the personas.
-A hardened combat vehicle may have a higher base armour rating.
-The vehicle's AR increases by 5 for every h/u of speed that it has.
-This armour rating (AR)  adjustment for speed is not relative.
-If a car is travelling at 50 h/u then its armour rating is 750 regardless of whether it is being fired on from another vehicle travelling 50 h/ u, or from a stationary attacker.
+== Attack roll between moving vehicles
+The challenge for attackers include: speed differential, wind drag, vibration, and evasive maneuvers.
+These conditions make a successful attack roll more difficult.
+The greater relative speed of the two vehicles the more difficult it is to score a hit.
 
-*Vehicle Armour Rating = Base Armour Rating (500) plus 5 per h/u of Speed*
+. Attack Roll Speed Penalty
+. Determine differential speed
+. Armour Rating determined by speed differential
 
-=== Driving Skills
-Driving skill is rare, but it can increase the AR of the vehicle by 1 point of armour rating per h/u per point of skill.
-So if a vehicle were being driven at 50 h/u by someone with driving 1 (plus 5 per h/u of speed), the car's AR would be 800.
-This simple adjustment takes into account all the exciting swerves and maneuvers.
+=== Attack Roll Speed Penalty
+.Penalty = -15 per h/u of vehicle speed
+****
+The attack roll penalty from a vehicle going 30 h/u is -450.
+****
 
-=== Weapon Restrictions
-The armour rating of many high speed vehicles will make them impossible to hit with most weapons.
-Trying to hit high speed vehicles requires specialized weapons that can compensate for speed The armour rating adjustment will also make it impossible for combat between vehicles if they are travelling too fast.
-This may not be as much fun, but it is intuitively logical that inter-vehicle combat cannot be possible at higher speeds.
-If a vehicle is specifically designed for high speed combat it will have weapons that compensate for the added velocity.
+If there is still a chance of a successful attack roll there is a Moving Vehicle Armour Ration 
 
-There are also weapon type restrictions depending on the speed of the target vehicle.
-A type A weapon is ineffectual against a vehicle moving more than 20 h/u.
-Personas that still try to attack a moving car with a club will risk personal injury.
-Type B attacks can be used against vehicles at the referee's discretion.
-Any powered attack that scores a hit on a vehicle can damage it.
+=== Attack Differential
+.Differential = Attacker h/u - Target h/u (positive result only)
+****
+If the attacker is moving 30 h/u and the target is moving 50 h/u the differential is 20 h/u.
+****
 
-=== Flanking Attacks
-A vehicle's AR is determined by its velocity;
-the armour rating is unaffected by the location of the attacker relative to the target.
-Regardless whether the attacker is attacking from directly in front of the vehicle, from the side of the vehicle, or even from above the vehicle the attacker is still subject to the displacement effects which create the vehicle's armour rating.
-The anthropomorph eye simply cannot compensate for the rapid change in position regardless of its vantage point.
-When an attacker is so distant from a vehicle that movement is imperceptible, the attacker must remember the movement is still there, and for high velocity vehicles most personal attacks would be out of range.
+=== Differential and Armour Rating
+.Vehicle AR = 500 + 10 per h/u differential
+****
+Speed differential of 20 h/u generates an AR of 700.
+****
+
+== Vehicle Armour Rating
+A non-moving vehicle is merely cover or concealment.
+It is assumed that vehicle combat involves moving vehicles.
+A vehicle's Armour Rating is based on it's speed.
+When making attack rolls at a moving vehicle the AR is <<_attack_roll_at_a_moving_vehicle,calculated based on speed>>. 
+
+=== Driving Skill and AR
+Driving skill is not combat driving skill.
+Driving skill and handling class will keep the vehicle from crashing during combat. 
+A driver may attempt evasive maneuvers by making a Driving Roll.
+
+Combat driving skill will increase the vehicle's moving AR by 50 per combat driving skill level.
+For example, combat driving skill 2 would give the vehicle a base of 600 before adding speed AR adjustment. 
+
+=== Flanking and AR
+We do not bother with flanking in vehicle combat. 
+There is no advantage to flanking when vehicles are completely randomly created.
+A vehicle's flank could be as forbidding as its bow.
+
+== Damaging a Vehicle
+A successful attack roll on a vehicle indicates that it has been damaged.
+Vehicles do not have hit points and are damaged differently from organic personas.
+Vehicles have a random damage location like robots and space vehicles. 
+The process of damaging a vehicle in combat has two steps.
+
+. Location of Damage
+.. targeting components
+.. targeting passengers
+. Extent of Damage
 
 == Location of Vehicle Damage
-A successful to hit roll on a vehicle will damage it in a random location.
-This is done the same as hit location for space vehicles, for robots, and for organics.
-The player makes a roll on Table 39.1: Location of Vehicle Damage to determine which part of the vehicle has been hit.
-The attacker cannot choose which part of the vehicle she is going to hit, and every hit will be on a random location.
-Random hit locations are used because the vehicles are randomly generated and are remarkably varied externally.
-The architecture of the component systems in vehicles is unknown also, and a random location for hitting is the easiest way.
+Hitting the vehicle with a rock, bullet or lazer beam will damage random location.
+The premise of the random location is the same for all inorganic damage location charts.
+Artifacts are randomly created and no one in hyperspace knows where a specific part is.
+The system damaged may be some distance from the damage point.
+Ricochets, power surges and force distribution essentially makes the damage location random.
 
-// insert table 369
+include::ROOT:partial$CH17_Table_Location_of_Vehicle_Damage.adoc[]
+
+Damaging a specific system will impair the vehicle in some fashion. 
+This is described in detail under the section vehicle extent of damage.
 
 === Targeting Components
-Quite often attackers will want to choose their targets on vehicles.
-They may focus their attack on a car's wheels, or the undercarriage of an antigrav vehicle.
-Remember that there is no evidence that the construction of any such vehicle is the same as our present day cars.
-Engines won't always be in the front, the fuel won't always be in the back, and the tires might be just for landing, and not locomotion.
-Not only will the construction of the vehicle be alien, so will its components.
-A hit in one spot might be deflected, conducted, or absorbed in another spot, damaging an entirely unexpected component.
-Personas that are skilled in vehicular combat, and are very familiar with the vehicle that they are attacking may be allowed to adjust their hit location on the Location of Vehicle Damage table.
-The adjustment should equal their BP with the weapon being used divided by 50.
-Thus a persona attacking a vehicle with a BP of 295 could adjust her hit location up 6 points or down 6 points on the Location of Vehicle Damage table.
-She can also add her vehicle combat skill to the adjustment.
-Thus a deci-die roll of 62 (acceleration) could be adjusted up to 68 (still acceleration), or down to 56 (speed).
+Players often want to "shoot out the tires" of a vehicle.
+To even consider targeting a targeting a specific components the persona must have combat driving skill.
+The persona must also be familiar with the vehicle.
+She could be attacking her own vehicle or the vehicle is part of a fleet of well know vehicles.
+If the persona has not Bonus Proficient to add to her Attack Roll she can only inflict random damage.
+
+.*Targeting Specific Components*
+. Combat Driving Skill
+. Knowledge of vehicle
+. Remaining Bonus Proficient
+
+The persona may move her successful attack up or down the Vehicle Damage Location Table.
+So a hit to the fuel system may be targeted to the speed or engine system.
+For more detail on this process see xref::CH36_Hit_Locations.adoc[Hit Locations].
 
 === Targeting Passengers
-One exception to the ineffectiveness of targeting is when the attacker is attempting to hit the passengers.
-Passengers are usually easy to identify inside an unsealed vehicle, and directing an attack against them makes sense.
-Passengers, including the driver, are difficult to hit in a moving vehicle.
-The attacker must first hit the vehicle before an attempt can be made to a passenger.
+Players often want to "shoot the driver" of a vehicle.
+If the point wasn't made well enough above the player's should be happy enough to hit a moving vehicle.
+
+.*Targeting Specific Passengers*
+. Passenger must be visible
+. Attack Roll must beat her AR
+.. Use target's AR or
+.. Use cover AR 
+. Failed Attack Roll inflicts no damage
+
+See Attack Roll adjustments for xref::CH35_Combat_Adjustments.adoc[cover and concealment].
 
 === Random Passengers
-If the hit location rolled indicated that the passenger cabin has been struck (Cargo hold usually), then the attacker can make a to hit roll on a random passenger in the vehicle.
-So the attacker must first get their attack on target and hit the moving vehicle.
-If that attack goes into the passenger zone of the vehicle then they may make a to hit roll against a random persona in the vehicle.
-In most passenger vehicles the cargo hold represents the passenger area since the passengers are the cargo.
-If the weapon has an area of effect it will function just like any other area of effect weapon on all the occupants within range.
-
-=== Specific Passenger
-If the attacker wishes to direct fire at a specific passenger, usually the presumed driver, then they must have some kind of vehicle combat skill or extraordinary luck.
-A specific passenger must first be visible, otherwise the target is enjoying complete concealment and sometimes complete cover.
-The attacker must first score a hit on the vehicle's speed adjusted armour rating.
-If that is successful then they must score a hit against the specific persona's cover and speed adjusted armour rating (AR).
-An unlikely hit indeed.
-A miss on at specific passenger targeted attack does not damage the vehicle or the targeted persona.
+Random passengers can be injured by successful Attack Rolls on the vehicle.
+This is determined by the location of vehicle damage.
+If a passenger is in the cargo hold and the cargo hold is damaged they can be damaged.
+If the vehicle is huge and the cargo hold is huge only an area of effect weapon can harm them.
+If the vehicle is small damage from any weapon could hurt the passengers. 
+This will be up to the referee and likely the Sphincter dice. 
 
 == Extent of Damage
-Once the hit location of the successful attack has been determined the amount of damage is determined on the extent of damage table.
-Vehicles do not have hit points, and their essential components are damaged until they are destroyed.
-Table 39.2, Extent of Damage determines how badly the component has been affected by the hit.
-The component may only sustain trivial damage, which doesn't affect performance at all.
-Or the component may sustain  critical damage where it is reduced to 30% of its previous performance.
+The extent of damage is determined randomly and modified by the HPS of damage delivered.
+Since vehicles and vehicle components don't have HPS they suffer reduced efficiency when damaged.
 
-The percentile roll made on the Extent of Damage table is increased with the severity of the attack by adding the damage to the die roll.
-If an attack were to do 15 HPS of damage to the locomotion, maybe the anti-gray plates, the decidie extent of damage roll would be increased by 15.
-There are no adjustments for velocity of the vehicle affecting the damage of the attack.
-A random die roll on the Extent of Damage table decides how dangerous the attack was.
-A high velocity vehicle may take more damage from an attack because of the increased relative velocity of the projectile.
-This effect is determined by the extent of damage roll, and nothing else.
-High speed air currents can cushion blows, and ricochets can deflect attacks just as easily (well maybe) as a the high velocity could increase damage.
-There are simply too many parameters and possibilities to include, so a random table must suffice to cover such eventualities.
-For a detailed explanation of extent of damage refer to chapter 21, Equipment Damage.
+include::ROOT:partial$CH21_Table_Artifact_Extent_of_Damage.adoc[]
 
-=== Big Damages Small Vehicles
-Attacks that inflict enormous amounts of damage should justifiably inflict more damage than those attacks that inflict small amounts of damage.
-This is reflected in the HPS adjustment to the Extent of Damage table.
-If this adjustment isn't enough, use of the table can be adjusted to include multiple hit locations for a single attack.
-For instance a fusion attack could legitimately damage every component on the vehicle, and not just destroy a single component.
-A single attack can roll once on the table for every 75 hit points in damage, adding no more than 75 to the die roll.
-Large vehicles, and damage hardened vehicles (military ones) may be exempt from this type of vehicle damage.
+The extent of damage is modified upwards by the HPS of damage inflicted on the system.
+For example, 15 HPS of damage would increase the extent of damage roll by 15.
+There are no adjustments for vehicle speed.
+The random die roll is supposed to take all that into account.
+
+=== Big HPS Big Damage
+Referee's may wish to adjust the amount of damage even further.
+This is an optional rule.
+For every 75 HPS in damage an additional roll is made on the location of damage roll.
 Thus a single attack that inflicts 230 HPs in damage to the vehicle would make 3 rolls at +75 and one roll at +5.
-So much for that vehicle.
-
-// insert table 370
+A fusion attack could damage every component on a vehicle, and not just destroy a single component.
 
 === Effect of Damage
-Whenever an vehicle component is damaged anything can happen.
-The component may be trivially damaged, where there is no reduction in efficiency, or the component may be critically damaged where there is a reduction to 30% of previous performance.
-If a vehicle's locomotion (speed) was 20 hexes per unit, and the locomotion component suffered major damage (60% previous) the maximum speed would now be 12 h/u.
-And it would remain at that maximum speed until repaired.
-If  destroyed (less than 10% function), the vehicle would cease to move.
+The extent of damage roll indicates the decrease in efficiency of the damaged part.
+Major damage would decrease function by 40% of previous efficiency.
+Damage to the speed system would reduce the vehicle's speed by 40%.
+The maximum speed of 30 h/u would be reduced to 18 h/u.
+Vehicle system damage is cumulative.
+For more details on damage see xref::CH21_Artifact_Damage.adoc[Artifact Damage].
 
-=== Destroyed Systems
-A vehicle system is considered destroyed once reduced to 10% of its full performance.
+A vehicle system is disable when reduced to 10% of its full performance.
 From a practical standpoint the mechanism may become useless long before it reaches 10%.
-The effects of a disabled, or destroyed, mechanism are detailed on Table 39.1: Location of Vehicle Damage.
-
-=== Cumulative Destruction
 The damaging effects of successful attacks are cumulative, and a system can be destroyed over several attacks.
-If a device were to take major damage (60% performance), and then major damage (60% reduction) again its effective level of function would be 36%.
-A further critical damage (30% performance) would reduce the part to 11% of its previous performance.
-At this point even trivial damage (90% performance) would disable the component.
-
-=== Instantaneous Destruction
 If something is destroyed by a single attack (0% previous performance) the device is considered damaged beyond repair.
-The effects of instantaneous destruction are cataclysmic.
-A destroyed locomotion system would destroy the engine, power system and locomotion.
-There is no chance for repair, and replacement parts will be required.
 
-=== Modifying For Fun
-If the referee and players find that this extent of damage adjustment is destroying their vehicles too quickly then modify it to have more fun.
-Eliminate the HPS Extent of Damage modification.
-Allow the vehicle's armour rating to reduce the extent of damage.
-Regardless of what ruling the referee uses to reduce the damage effect of the attack it should be done only to keep the game fun for everyone.
-If a rule gets in the way of having fun then change it.
-
-== Vehicle to Vehicle Combat
-Vehicle to vehicle attacks require the most concentration of all.
-The persona is not only attacking a moving vehicle, but she is firing from one.
-Previous rules considered what happens when an attacker is attacking a moving vehicle.
-When a persona is attacking from one moving vehicle at another moving vehicle she does not suffer combined attack penalties.
-The to hit adjustments of the faster moving vehicle will be applied to all personas either shooting from or shooting at the faster vehicle.
-Vehicles moving at the same speed have a relative velocity of 0, however the vehicle's armour rating will still include the speed adjustment.
-The speed adjustment still applies because the inherent speed of the vehicle complicates to hit rolls: wind resistance, vibrations, and high speed evasive maneuvers still affect the to hit roll.
-Speed related weapons restrictions are applied with the fastest moving vehicle (not relative speeds) so type B weapons will not work between two vehicles both traveling at 25 h/u.
-
-== Area of Effect Attacks
-Area of effect attacks (grenades and aerosols) must first roll to hit the  vehicle's speed adjusted armour rating.
-The speed adjusted armour rating applies to grenades thrown from a vehicle as well.
-The vehicle's speed adjusted armour rating is used regardless of the direction of the attack.
-The referee may grant some bonus to personas that are attacking a vehicle that is directly behind the attacker.
-This roll ensures that the attacker has correctly compensated for the displacement of the moving vehicle.
-Unlike close in regular hand grenades a vehicle that has been missed cannot be damaged by a grenade.
-
-A hit on the vehicle will allow the attacker to roll for a regular area of effect attack as 
-
-The grenade miss table functions the same except that the target hex will be as far away as the vehicle has traveled in the unit.
-So if the persona misses with a grenade toss in a vehicle moving at 25 h/u the grenade will detonate 25 hexes behind the vehicle.
-
-== Driving PT Check
-Whenever  a vehicle is damaged the driver may be required  to make a driving performance table roll.
-It is assumed that the driver will face some kind of challenge maintaining control of the vehicle after it has been damaged.
-Any vehicle damage that affects the performance of the vehicle will require a driving performance table check.
-The player must roll against whatever maneuver her persona is doing, plus an adjustment for the severity of the damage.
-So if a system is critically damaged it may even be difficult to drive the vehicle in a straight line.
-Use Table 39.3: Vehicle Damage and DPT Adjustment to determine the final DD on the driving performance table.
-
-// driving PT Roll
-
-If a driver were executing a two facet (90°) turn, and her vehicle took major damage to the locomotion she would have to make a DD 12 performance table roll.
-The higher the degree of difficulty the more likely the persona will lose control of the vehicle.
-The Driving Performance Table can be found in http://expgame.com/?page_id=277[Chapter 17: Driving].
+== Driving Roll
+A driver may be forced to make a driving roll during combat.
+The most obvious reason is that she takes damage during combat.
+Severe system malfunctions can warrant a driving roll as well
+All the elements of collision avoidance are covered under xref::CH17_Driving.adoc[Driving]. 
 
 :art: lady_lazer.png
 :width: 250px
@@ -255,35 +264,72 @@ The Driving Performance Table can be found in http://expgame.com/?page_id=277[Ch
 
 include::ROOT:partial$articulate.adoc[]
 
-== Attacking From A Vehicle
-Personas attacking a stationary target from a vehicle are subject to the same displacement problems that high speed targets have.
-A to hit roll launched from a moving vehicle will suffer a penalty of -3 per h/u per h/u if the vehicle speed is greater than 20 h/u.
-Thus an attack from a vehicle travelling 25 h/u would suffer a penalty of -75 to hit.
-If the vehicle is traveling at 15 h/u then there would be no to hit roll penalty.
-Often personas will suffer several to hit roll penalties at once.
-If the player is making a reasonable case to have a chance to hit the referee should offer the player a reasonable chance to score a hit.
-However this reasonable chance to hit should only be allowed under reasonable circumstances.
+== Attack Types
+The wind drag surrounding speeding vehicles has an enormous effect on the function of attacks.
+This is reflected in Attack Roll penalties for speed. 
+Some attacks simply cannot be used at higher speeds.
 
-== Vehicular Weapons
-Vehicle weapons are those weapons built into vehicles, or weapons specifically designed to be used against vehicles.
-Vehicle weapons do not suffer the same vehicle speed differential penalty.
-Built in vehicular weapons have compensating gimbals, and possibly even compensatory software.
-The speed adjusted armour rating is reduced by 4 points for vehicular weapons.
-The normal armour rating adjustment for speed is 5 per h/u.
-Vehicular weapons would reduce this to 1 point per h/u for most vehicles (instead of the regular 5).
-When attacking with a vehicular weapon the armour rating of a vehicle moving 50 h/u would be 550 as opposed to the regular speed adjusted 750 AR.
-Vehicle weapons are an obvious advantage in vehicular combat.
+=== Type A Attacks
+Nope.
+Self powered thrusting and striking are likely to involve a collision between the persona and the vehicle. 
+There is no real system to determining this.  
 
-== Ramming
-Surprisingly ramming has little or nothing to do with vehicular combat rules, and a lot to do with driving rules.
-There are three conditions required for an intentional ram.
-1) the paths of the vehicles must intersect 2) the ramming driver must win initiative 3) the ramming driver must score a to hit roll.
-If both vehicles are trying to ram each other it will be instantly successful.
-If a persona successfully rams a vehicle the hit will result in a collision between the two vehicles.
-The effects of a collision are detailed in http://expgame.com/?page_id=277[Chapter 17: Driving].
+=== Type B Attacks
+Self powered missile attacks do not work beyond 20 h/u.
+Arrows, axes, and shuriken will be harmlessly lost in the wind.
+A type B attack may be used against a moving vehicle by a persona standing on land.
+Ranges of Type B attacks are quickly exceeded by speeding vehicles.
 
-If a driver is attempting to ram a pedestrian the driver must first make a successful to hit roll.
-If ramming driver has hit the pedestrian the target will take damage as though she were a passenger involved in a collision.
-The damage will be determined as if the target were a passenger in a vehicle that crashed at the speed which the attacking vehicle was moving.
-The details of passenger damage are found in Chapter 17.
-A vehicle is a deadly weapon in it's own right.
+=== Type C, D, E, F Attacks
+Powered missile attacks are pretty much the only weapons that can be used with speeding vehicles.
+They are subject to enormous penalties due to differentials, vibrations and wind drag.
+Weapon ranges may become important as great distances are covered in single units.
+
+=== Type AOE Attacks
+AOE weapons are grenades and aerosols.
+Area of effect attacks must score a direct hit on the vehicle to damage the vehicle.
+The AOE Attack Roll must beat the vehicle's speed adjusted AR.
+Grenades (Type B Attack) will be carried away with the wind at >20 h/u speed.
+Due to the unique chemical nature of Aerosols a successful attack roll will hit the vehicle.
+
+=== Vehicle Weapons
+These are bespoke combat accessories baked into the inatmo vehicle.
+They are usually generated during inatmo vehicle creation.
+These weapons are specifically designed to be used against vehicles in vehicle combat.
+Built in vehicular weapons have compensating gimbals, servos, and possibly compensatory software.
+These components greatly reduce the penalties suffered due to wind drag and speed differential.
+
+.*Benefits of Baked in Bang Bangs*
+. Can be used at any vehicle speed
+. Moving Vehicle AR is 500 + 5 per h/u
+. Attack Roll Penalty is -5 per h/u
+. Attack Roll Penalty is 0 if Vehicle Combat skilled
+
+=== Ramming
+Ramming involves an intentional collision between two vehicles.
+Or the intentional collision between a vehicle and a persona.
+Mutual ramming happens automatically and the vehicles and passengers are damaged.
+
+Trying to ram an avoiding target
+
+.*Params of the Ram Rams*
+. Ramming vehicle must be faster or
+. Ramming vehicle has intercept path
+. Ramming vehicle must make an Attack Roll
+. Target vehicle can avoid with Driving Roll
+. Collision result as per xref::CH17_Driving.adoc[Driving]
+
+=== Boarding
+Jumping onto a moving vehicle is fraught with risk.
+Without special effects and camera speed adjustments boarding is nearly impossible.
+Nevertheless players will want to have their personas board moving vehicles.
+
+.*Params of Boarding*
+. use the differential speed to Determine the Vehicle's AR
+. The jump is considered a Type A attack
+. Max speed is 10 h/u plus DEX
+. A miss counts as a pedestrian struck as as per xref::CH17_Driving.adoc[Driving] 
+
+
+
+
