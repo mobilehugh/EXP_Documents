@@ -1,9 +1,50 @@
-= Special Rolls
-
-
+= All Those Rolls
 
 // rework this to HIGH ROLL WINS approach 
 // includes rewrite of CF check for bots.
+
+EXP is replete with a collection of rolls.
+They all are rationalized to "embrace the high roll"
+
+Targeted Rolls the player is trying to roll higher than a fixed number to benefit their persona.
+Attack Rolls, Performance Rolls.
+
+Challenge Rolls the player is trying to roll higher than a dynamic number to benefit their persona.
+Saving Rolls, Attribute Challenge Rolls, Sphincter Dice.
+
+Generative Rolls the player rolls dice to see what happens. 
+May or may not benefit the persona.
+Attributes generation, Mutation Types, TOYs, biomes, skills.
+
+Roll Checks the player or referee roll to see if something particular happens. 
+Sometimes built into another die roll.
+May or may not benefit the persona.
+Critical Checks. Malfunction Checks. Otto Checks. Vehicle Accessories
+
+
+NOTE : *this lends itself to an unnecessary mind map* 
+
+.*Inventory of Rolls*
+* Target Rolls (Fixed target)
+** Attack Rolls
+** Performance Rolls
+** Driving
+* Challenge Rolls (Dynamic target)
+** Attribute vs Roll 
+** Saving Roll
+** Initiative
+** Sphincter Dice
+* Generative Rolls
+** Attributes
+** Hit Points
+** Lists
+* Check Rolls
+** Chance Rolls
+** Critical Results
+** Malfunction Checks
+** Otta This and That
+
+
 
 
 There are all kinds of rolls in EXP.
@@ -18,148 +59,23 @@ This includes rolls that are pitted against a specific persona's attribute, or s
 
 // insert table 186+++<figure id="attachment_1684" aria-describedby="caption-attachment-1684" style="width: 231px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/08/jugglephant.223-231x300.png?resize=231%2C300[No books being juggled here.,231]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/08/jugglephant.223.png)+++<figcaption id="caption-attachment-1684" class="wp-caption-text">+++No books being juggled here.+++</figcaption>++++++</figure>+++
 
-== Attribute Rolls#
 
-Most unusual situations will directly challenge one of a persona's attributes -- catching a valuable egg, for instance, relates to DEX, or  noticing that odd echo every time the leaf merchant opens her mouth pertains to AWE.
-No simulation game can possibly have specific rules for all such eventualities, though -- and if it did, finding any one of those rules on demand would take hours -- so EXP uses a system of attribute rolls to allow the referee to improvise #on demand.
 
-Some situations, like scaling a cliff face, or aging beyond one's natural life span, have a particular attribute roll associated with them;
-except for these few cases, attribute rolls should only be used in genuinely unusual circumstances.
-No persona should have to roll a die just to open a door successfully, but if she is panicking, heavily encumbered, and being shot at by a lumpy fish, it may be fair if she checks for a fumble.
-Similarly, attribute rolls should never infringe on class skills: no persona, whatever her luck, should be able to survive indefinitely without food if she isn't a nomad.#
-
-*Attribute Type*: The referee decides which attribute is most relevant to the situation, and the player tries to roll equal to or less than her persona's attribute value.
-If she succeeds, her persona has also succeeded;
-personas with high attributes are thus somewhat better off than personas with low attributes#.
-Table 16.1: Relevant Attributes gives some example circumstances and which attribute would apply.
-Sometimes, the referee may require more than one attribute roll for a complicated action -- to catch a very heavy valuable egg, for instance, might require attribute rolls for both DEX and PSTR.#
-
-// insert table 183#
-
-*Difficulty*: Not all attribute rolls  have the same level of difficulty. After all, a player will roll under her persona's INT far more easily using #a d10 than using a d1000.
-When assigning an attribute roll, the referee must decide not only which attribute the persona must roll under, but #also on which dice she must do it.
-Table 16.2: Attribute Roll Difficulty++++++, ++++++lists some levels of difficulty and the dice used to challenge the attribute.
-Titles like Easy
-and Improbable
-should indicate how vague these levels are.
-They are not performance table DD's, and hardly describe distinct categories of difficulty.
-The referee can, and should, fiddle with them at will.
-Personas cannot earn EXPS for winning an attribute roll.
-Specific attribute rolls are usually referred to by their difficulty and the name of their relevant attribute: an attribute roll against MSTR on d50 would be called a tough mental strength roll.#
-
-// insert table 184#
-
-*Bonuses*: Like performance rolls and to hit rolls, attribute rolls have bonuses associated with them.
-A persona could have a penalty assigned but usually this is represented by making the roll more difficult.
-All players get to add their persona's level to an attribute roll.
-A 3rd level persona with a 10 INT  would need to roll less than 13 on an intelligence check.
-Other times bonuses are just applied due to a skill or artifact adjustment.
-If a persona's DEX is 12, and she has an attribute roll bonus of 3, #she must roll under 15 on whichever die she's using;
-if it has a penalty of 8, she must roll under 4.
-The most common bonus is the experience level of the persona.#
-
-*Roll Less than = Attribute plus EXPS level*
-
-Let's consider a 3rd level persona with a DEX of 14 and an INT of 5.
-If she needed to catch a falling egg and the ref decided that this was a Normal dexterity challenge the player would need to roll 17 or less on a d20.
-She is almost guaranteed to catch the falling egg.
-Although if she needs to remember what floor of the building the egg was tossed from that might be an easy intelligence challenge, and the player would need to roll 8 or less on a d10.
-
-== Saving Throw
-
-Saving throws, or saves, are special attribute rolls that compete against a specific toxin or attack.
-There are saves versus poison, saves versus radiation and saves versus psionic attack.
-The save represents personas internal against an external attack.
-The saving throw governs those  automatic physical and mental processes over which the persona has no conscious control.
-The body always defends against poison or psionic attack.#
-
-*Intensity*: Saving throws differ from attribute rolls because the attack (poison, radiation, stun, psionic, sleep) has an intensity.
-The higher the intensity the more difficult it is for the persona to defend against the attack.
-Acting against the persona is the intensity #of the attack, a measurement of just how powerful it is.
-Intensities range from 1 to 25, with 1 being mostly harmless and 25 usually fatal.
-In the case of a poison attack, the intensity varies with the type of poison employed.
-(See http://expgame.com/?page_id=347[Chapter 50,]http://expgame.com/?page_id=347[Pharmaceuticals], for descriptions of a wide variety of poisons).
-The intensity of a psionic attack is equal to the MSTR of the attacker.#
-
-*Toxin*: The most common toxins are poison and radiation.
-When a persona is poisoned, her body sets in motion a collection of activities to repel the offending substance.
-If the poison attacks her digestive tract, it may trigger vomiting or diarrhea.
-Other effects depend on the toxin attack#.
-Typical poisons include nerve toxins, radioactive substances, venoms, and drugs, any of which might act through inhalation, digestion, or simply contact with the persona's skin, fur, or scales.
-Only the persona's CON puts up any defense.
-The player must roll less than the save versus toxin using a Normal (1d20) or a difficult (1d30) roll.
-#
-
-*Save versus Toxin = Constitution plus EXPS level minus Poison Intensity*
-
-If the persona fails her save against a poison attack, the poison does her d4 His of damage for every point of its intensity.
-For ease of play, it then leaves her system, and she eventually recovers if she's still alive.
-(In real life, some more insidious poisons can remain in the body for decades, gradually debilitating it until they are removed by operation.
-If the referee really wants to bog down her campaign with the hassle of calculating strontium ratios in the bone tissue, she can, but it's far simpler to assume that all poisons act once, act quickly, and leave within a couple of days.)#
-
-*Psionic Attack*: A psionic attack is any foreign intrusion into the persona's thinkspace (mind).
-This collection of defensive measures cannot be measured by modern instruments.
-All psionic defense  occurs at the subconscious level;
-unless the persona is actively searching for mental interlopers, she will not even know she is under siege until too late.
-Only her MSTR can help.
-The player must roll less than the save versus psionic using a Normal (1d20) or a difficult (1d30) roll.
-#
-
-*Save versus Psionic = MSTR plus EXPS level minus Attacker MSTR*
-
-A failed psionic attack usually results in a specific effect on the target.
-So if a player fails her person's save versus psionic attack anything from having her mind read, to being telekinetically thrown can result.
-Various effects are described in too much detail in http://expgame.com/?page_id=364[Chapter 58: Mental Mutations].
-Unlike toxins, however, no mental attack has partial success.
-The psionic attack is either completely repelled or completely successful#.
-
-*Various Bonuses*: All insectoids get a +1 bonus against psionic attacks for every 4 points of MSTR.
-Myra the bumblebee with an MSTR of 17 would get a +4 bonus versus psionic attack.
-All ursidae get a +1 bonus against poison for every 3 points of CON.
-Gruff the grizzly with an 8 CON would get a +3 bonus against a poison toxin.
-
-== Attribute Competition Rolls#
-
-An attribute competition roll pits two personas against each other in a contest directly related to an attribute.
-They might do battle with PSTR by arm wrestling, or with DEX by skipping rope;
-they might compare MSTR in a staring contest or AWE by hunting for mites in each other's fur.
-Each player involved rolls a d20 and adds the result to her persona's relevant attribute.
-Which ever player's total is highest wins the contest.
-Ties are just that: the personas can continue the #struggle or declare themselves evenly matched and go for a soda.#
-
-Eight macho personas decide to have a duel by bowling, they each must roll a d20 and add the result to their DEX.
-Supposing that the totals are 8, 14, 15, 15, 21, 24, 24, and 24, the first five personas have lost, and will presumably be executed at dawn;
-the last three each rolled a strike, and must move on to the second frame if the duel is to have a lone winner.
-If they bowl again, and their new totals are 19, 28, and 22, the second persona #has won.
-
-== Combining Forces#
-
-Just as personas can form research teams to attempt delicate and complex class procedures, they can join together to perform an attribute-related manoeuvre -- three ursidae combining PSTR to manipulate a battering ram, for example, or five basketball players'
-DEX trying to block a layup.
-On such an occasion, the players should average their personas'
-relevant attributes, and add one to the result for each persona more than one in the group.
-Each player then gets one attribute roll, and if any of them succeeds, the entire group is successful.#
-
-In the case of the ursidae above, if their PSTR, scores are 10, 8, and 15, their average PSTR is 11.
-Since there are three of them, they add two to this average to get 13, and each proceeds to try to roll 13 or lower.
-(Clearly, the first two ursidae are only slowing the third one down: she'd be better off just using her shoulder three times.) The five basketball players, however, if each has a DEX of 13, also have an average DEX of 13;
-adding four because there are five of them, will need to roll under 17 to block the shot.#
-
-== Damage System Shock Roll (DSS)#
+== Damage System Shock Roll (DSS)
 
 The DSS roll, or Damage System Shock roll is a special attribute roll which all anthropomorphic personas must make whenever they lose more than half their current HPS at once.
 Even if a persona has only 2 HPS left and loses one of them, she must make a DSS roll;
 a persona with 3 HPS , however, could lose one HPS with impunity.
 The unfortunate persona must calculate three times her new HPs total, and add her CON to the product;
 she must then roll equal to or less than this number on 1d100, or fall unconscious.
-Thus, for instance, a persona with 18 HPs left after the #blow, and a CON of 9, would need to roll under (3 x 18) + 9 = 63 on 1d100 to avoid being stunned.
+Thus, for instance, a persona with 18 HPs left after the blow, and a CON of 9, would need to roll under (3 x 18) + 9 = 63 on 1d100 to avoid being stunned.
 Only anthropomorphic personas need worry about the DSS roll;
 robots and aliens never fall unconscious.
-If a persona loses all her HPS in one attack, she also does not need to worry about a DSS roll, as she automatically falls unconscious and is dying.#
+If a persona loses all her HPS in one attack, she also does not need to worry about a DSS roll, as she automatically falls unconscious and is dying.
 
 *Damage System Shock (DSS) = (HPS Total times 3) plus Constitution *
 
-== Recovery Roll#
+== Recovery Roll
 
 The REC (or Recovery) roll, is the antidote to a failed damage system shock roll.
 A stunned persona must repeat it until she finally succeeds, at which point her weakened body reawakens.
@@ -167,8 +83,8 @@ Although both are on deci-dice, the REC roll is somewhat easier than the DSS rol
 instead of needing less than thrice her HPS plusher CoN, a persona may roll as high as five times her HPS plus her CON.
 If the persona above described above (18 HPS Total and a CON of 9) needed to make a recovery roll, the player would need to roll under (5 x 18) + 9 = 99 on 1d100.
 She will probably do this on her first try.
-Table 3.1: Constitution & Recovery++++++, ++++++gives a persona's recovery time, the length of time she must languish between attempts at the REC roll.
-A persona with a CON of 22 would be able to try the roll every 4 units until she succeeded, while a persona whose CON is only 4 must wait 16 units between each attempt.#
+Table 3.1: Constitution & Recovery ++++++gives a persona's recovery time, the length of time she must languish between attempts at the REC roll.
+A persona with a CON of 22 would be able to try the roll every 4 units until she succeeded, while a persona whose CON is only 4 must wait 16 units between each attempt.
 
 *Recovery Roll (REC) = (HPS Total times 5) plus Constitution *
 
@@ -176,34 +92,19 @@ A persona with a CON of 22 would be able to try the roll every 4 units until she
 
 Whenever a robot persona performs a task for which it was originally designed -- a janitorial bot cleaning up, a combat bot killing an opponent --it must roll below its control factor or briefly return to it's original programming.
 Control Factor rolls are usually Normal Attribute rolls  (1d20).
-If the janitorial bot were ordered to clean up a room by a charismatic mechanic from the robot's base family, a tough (1d50) Control Factor roll would be need to be made.#
+If the janitorial bot were ordered to clean up a room by a charismatic mechanic from the robot's base family, a tough (1d50) Control Factor roll would be need to be made.
 
 The Control Factor of a robot is the robot's INT plus its experience level, and represents how well it has learned to bypass its programming.
-To fail #a Control Factor roll is to give in to that programming, a persona robot phenomenon known as loss of control.
+To fail a Control Factor roll is to give in to that programming, a persona robot phenomenon known as loss of control.
 A robot that has lost control becomes a helpless automaton, a temporary referee person.
  The persona will continue to perform exactly its programmed function without deviation until it regains control of itself.
-If the failure occurs during #combat, it will last a random number of units determined by the same, die the robot lost control with so failing a tough (d50) CF roll would result in d50 units of boring, non-sentient behaviour.
-Outside of combat, the failure will last a random number of minutes on the same die: failing an improbable (d100) roll might lead to over an hour and a half of tedium.#
+If the failure occurs during combat, it will last a random number of units determined by the same, die the robot lost control with so failing a tough (d50) CF roll would result in d50 units of boring, non-sentient behaviour.
+Outside of combat, the failure will last a random number of minutes on the same die: failing an improbable (d100) roll might lead to over an hour and a half of tedium.
 
 *Control Factor (CF) = Intelligence plus EXPS Level*
 
 // insert table 185+++<figure id="attachment_1685" aria-describedby="caption-attachment-1685" style="width: 209px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/08/monkeybox.224-209x300.png?resize=209%2C300[Raging at the fact it is not a banana machine.,209]](https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/08/monkeybox.224.png)+++<figcaption id="caption-attachment-1685" class="wp-caption-text">+++Raging at the fact it is not a banana machine.+++</figcaption>++++++</figure>+++
 
-== Sphincter Dice
-
-Often a player will want to know some absolutely unpredictable, impossible to prepare, yet entirely relevant piece of data -- did she leave the car door unlocked?
-Did the ammunition pack fall to the left #or to the right?
-Has the cheese gone moldy?
-Does the store have any tents in stock?
-No efficiently prepared campaign could possibly include the answers to such questions, so sphincter dice are used to see whether such milieu minutiae are in #the persona's favour or not.
-
-Sphincter dice are rolled on deci-dice by both the referee and the player simultaneously.
-If the player rolls 10 or less, her request is automatically denied;
-if she rolls 90 or more, it is automatically granted.
-If she rolls between 11 and 89, her request is granted if and only if her roll is equal to or greater #than the referee's.
-If the referee rolls higher than the player, the situation is resolved to the persona's #greatest inconvenience.The referee should only use sphincter dice for true inconsequentialities -- facts that will shape the path of the campaign but not the outcome.
-Certainly, she should never consult them when #personas'
-lives are on the line.
 
 A good example is of a persona searching a hardware store for a size L8 wing nut.
 Wing nuts are kept behind the counter, so she asks the storekeeper if any are in stock.
@@ -212,68 +113,74 @@ replies the referee, I don't know: Let's check the sphincter dice.
 The player and the referee both roll, but the player's roll is a 94, so the part is automatically available.
 She purchases it and leaves.
 A  little later, the persona accidentally steps underneath a powerful electromagnet.
-The referee isn't sure if the wing nut will be attracted to the #magnet or not, so she calls on the sphincter dice once more.
+The referee isn't sure if the wing nut will be attracted to the magnet or not, so she calls on the sphincter dice once more.
 This time, the player rolls a 75, but the referee rolls an 84;
 the electromagnet immediately tries to wrest the wing nut from the persona's grip.
-The rest of the encounter would be determined by #attribute rolls, mutations, or even combat.+++<figure id="attachment_1686" aria-describedby="caption-attachment-1686" style="width: 205px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/08/criticalhit.227-205x300.png?resize=205%2C300[A critical hit.,205]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/08/criticalhit.227.png)+++<figcaption id="caption-attachment-1686" class="wp-caption-text">+++A critical hit.+++</figcaption>++++++</figure>+++
+The rest of the encounter would be determined by attribute rolls, mutations, or even combat.
 
-== Critical Rolls#
+//+++<figure id="attachment_1686" aria-describedby="caption-attachment-1686" style="width: 205px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/08/criticalhit.227-205x300.png?resize=205%2C300[A critical hit.,205]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/08/criticalhit.227.png)+++<figcaption id="caption-attachment-1686" class="wp-caption-text">+++A critical hit.+++</figcaption>++++++</figure>+++
+
+== Critical Rolls
 
 Critical rolls are extreme rolls of the dice -- 001 or 000 on kilo-dice, 1 or 20 on a d20, 00 or 01 on deci-dice.
 As any amateur statistician will point out, such extreme rolls are no more likely than any other roll, an impressive 998 is no more significant than an obscure 452 
 but somehow an air of urgency always accompanies them.
-Players inevitably react hysterically to a roll of 000, because there is something so dramatically fateful about it.#
+Players inevitably react hysterically to a roll of 000, because there is something so dramatically fateful about it.
 
 In gaming terms, critical rolls represent incredibly fluky results that could be either detrimental or beneficial to the persona attempting them.
 Critical rolls add spice to the game, because they always bring that slight chance of the unexpected.
-T#he wimpy little alien stuck in the crevasse might yet beat the arrogant invader in powered #armour if she makes a critical to hit roll.
+The wimpy little alien stuck in the crevasse might yet beat the arrogant invader in powered armour if she makes a critical to hit roll.
 The landlubber mechanic may never have seen an exatmo drive before, but could still manage to patch one together if she makes a critical performance roll.
-EXP is science fantasy, and part of fantasy is the unexpected.#
+EXP is science fantasy, and part of fantasy is the unexpected.
 
 Nevertheless, a well-developed scenario should never be terminated early by a critical roll --they exist to enliven, not to destroy, the campaign.
-Like all rules, they should serve the players, not #the other way around;
-any time a critical roll interferes, the referee should simply manipulate the outcome until everything fits once more.#
+Like all rules, they should serve the players, not the other way around;
+any time a critical roll interferes, the referee should simply manipulate the outcome until everything fits once more.
 
 All critical rolls must be natural.
 If a player rolls 794 to hit, then no matter what bonuses she has, her roll is not a critical one.
-Conversely, if she rolls a natural 01 on a performance roll, all the bonuses in the universe won't keep her from suffering a critical failure.#
+Conversely, if she rolls a natural 01 on a performance roll, all the bonuses in the universe won't keep her from suffering a critical failure.
 
-*Performance Table Rolls*:# PT rolls are made on deci-dice;
+=== Performance Table Rolls
+PT rolls are made on deci-dice;
 the goal is to roll high.
 A natural 00 will thus bring automatic success in whatever procedure was being attempted, however difficult, and a natural 01 automatic failure.
 Some procedures should never have a chance of success -- gall bladder surgery with a meat hook will always result in tragedy --but there's little point in even rolling for these.
-Use your common sense.#
+Use your common sense.
 
 Occasionally, a critical PT roll success will seem to indicate an exorbitant number of EXPS for the persona.
 EXPS are handed out for class skills because of the knowledge gained through the successful maneuver.
-A vet who has managed to accomplish something far beyond her skill by sheer luck has gained nothing from the experience but a healthy llama.The referee should reduce her EXPS award accordingly.#
+A vet who has managed to accomplish something far beyond her skill by sheer luck has gained nothing from the experience but a healthy llama.The referee should reduce her EXPS award accordingly.
 
-*Attribute Rolls*: Critical attribute rolls are redundant.
+=== Attribute Rolls
+Critical attribute rolls are redundant.
 Since the object of an attribute roll is to roll low, a critical success is a roll of 1 --but since all living personas have positive attributes, only dead personas would ever fail on a roll of 1.
-And #dead personas don't make attribute rolls.
+And dead personas don't make attribute rolls.
 Conversely, a critical failure is a maximal roll on whichever die is being used -- 10 on d10, 20 on d20, etc.
-A maximum roll should fail regardless. Otherwise the persona had no chance of failing, and the referee shouldn't have called for an attribute roll in the first place.#
+A maximum roll should fail regardless. Otherwise the persona had no chance of failing, and the referee shouldn't have called for an attribute roll in the first place.
 
-*To Hit  Rolls*:# To hit rolls are made on kilo-dice (1d1000), and like PT rolls, the goal is to roll high.
-Any roll naturally greater than or equal to 990 is thus called a critical hit, and will inflict from 1-4 (d4) times the #rolled damage, a factor known as the damage multiplier.
-A natural roll of 000, aka# 1000 on a d1000, provides an instant kill.
-When calculating the damage from a critical hit, a player first rolls the damage as normal, then multiplies by the damage multiplier, and only then adds her PSTR damage adjustment.#
+=== To Hit  Rolls
+To hit rolls are made on kilo-dice (1d1000), and like PT rolls, the goal is to roll high.
+Any roll naturally greater than or equal to 990 is thus called a critical hit, and will inflict from 1-4 (d4) times the rolled damage, a factor known as the damage multiplier.
+A natural roll of 000, aka 1000 on a d1000, provides an instant kill.
+When calculating the damage from a critical hit, a player first rolls the damage as normal, then multiplies by the damage multiplier, and only then adds her PSTR damage adjustment.
 
 All of this only applies to cases where 990, or 000, would have hit anyway.
 If a critical hit is the only way for the persona to hit her target a critical hit simply means a hit, with damage meted out as normal.
-Similarly, critical hits by the referee are always just hits, with no instant kills and no damage multiplier, for personas are attacked so much more often than their opponents are that any other ruling would kill off personas far too quickly.#
+Similarly, critical hits by the referee are always just hits, with no instant kills and no damage multiplier, for personas are attacked so much more often than their opponents are that any other ruling would kill off personas far too quickly.
 
 A critical miss with a type A or B weapon is any to hit roll less than or equal to 010;
 any player who makes such a roll has dropped, misthrown, misstrung, or otherwise mishandled her weapon.
 If the player rolls below 050 with a type C weapon, the referee should check for a malfunctions.
 A roll of 001 with a type A weapon indicates that the persona has accidentally damaged herself or broken the weapon.
 Any type B weapon attacking with a 001 to hit also automatically breaks, but without damage to the persona;
-type C weapons #subject to a 001 critical miss automatically jam.
-The amount of damage suffered by a malfunctioning weapon can be determined in http://expgame.com/?page_id=286[Chapter 21, Equipment Damage].#
+type C weapons subject to a 001 critical miss automatically jam.
+The amount of damage suffered by a malfunctioning weapon can be determined in http://expgame.com/?page_id=286[Chapter 21, Equipment Damage].
 
-*No Critical Rolls Here*:# There are no critical rolls in DSS rolls, REC rolls, CF rolls, saving throws, attribute challenge rolls, or sphincter dice.
+=== No Critical Rolls Here
+There are no critical rolls in DSS rolls, REC rolls, CF rolls, saving throws, attribute challenge rolls, or sphincter dice.
 The first four cases all govern involuntary reactions, in which the body (or mind) is already doing the best it can;
 the concepts of critical success and failure are meaningless for white blood cells.
 Critical attribute challenge rolls, like critical attribute rolls, are a redundant concept -- if only one persona has a critical success, she's won anyway;
 if two do, they're still tied.
-Sphincter dice, meanwhile, already have critical rolls built in: if the player rolls over 90, events proceed in her favour, and if she rolls under 10, they don't.#
+Sphincter dice, meanwhile, already have critical rolls built in: if the player rolls over 90, events proceed in her favour, and if she rolls under 10, they don't.
