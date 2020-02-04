@@ -1,186 +1,237 @@
 = All Those Rolls
 
-// rework this to HIGH ROLL WINS approach 
-// includes rewrite of CF check for bots.
-
 EXP is replete with a collection of rolls.
-They all are rationalized to "embrace the high roll"
+EXP Roll Playing system is intentionally dice heavy. 
+The Roll Playing system is for groups like to roll dice as much as telling the story.
 
-Targeted Rolls the player is trying to roll higher than a fixed number to benefit their persona.
-Attack Rolls, Performance Rolls.
+NOTE: *EXP version 6.0 introduced major changes to dice mechanics.*
 
-Challenge Rolls the player is trying to roll higher than a dynamic number to benefit their persona.
-Saving Rolls, Attribute Challenge Rolls, Sphincter Dice.
+Embrace the High Roll::
+Rolling a higher number is almost always better for the persona.
+Previous versions of EXP players would use their hope powers on either high or low rolls.
+EXP is now all in for high rolls.
 
-Generative Rolls the player rolls dice to see what happens. 
-May or may not benefit the persona.
-Attributes generation, Mutation Types, TOYs, biomes, skills.
+Clear the Tables::
+Tables have been replaced with equations.
+Tables are used to avoid arithmetic. 
+In previous versions of EXP there were many, many decision tables.
 
-Roll Checks the player or referee roll to see if something particular happens. 
-Sometimes built into another die roll.
-May or may not benefit the persona.
-Critical Checks. Malfunction Checks. Otto Checks. Vehicle Accessories
-
-
-NOTE : *this lends itself to an unnecessary mind map* 
 
 .*Inventory of Rolls*
-* Target Rolls (Fixed target)
+* <<_target_rolls,Target Rolls>> (Fixed target)
 ** Attack Rolls
 ** Performance Rolls
-** Driving
+** Driving Rolls
+** Damage System Shock Rolls
+** Recovery Rolls
+
 * Challenge Rolls (Dynamic target)
-** Attribute vs Roll 
-** Saving Roll
-** Initiative
-** Sphincter Dice
+** Attribute Rolls
+** Saving Rolls
+** Initiative Rolls
+** Ambush Rolls
+** Sphincter Rolls
+** Control Factor Rolls
+
 * Generative Rolls
+** Damage Rolls
 ** Attributes
-** Hit Points
+** Skills
 ** Lists
+** Mutations
+** TOYS
+
 * Check Rolls
-** Chance Rolls
-** Critical Results
+** Critical Roll Checks
 ** Malfunction Checks
-** Otta This and That
+** Otto Checks
+** Chance Tables
 
+== Target Rolls
+When the player rolls the dice in a target roll she has a specific number she wants to roll higher than.
+Success is determined by a die roll higher than or equal to the target number. 
+The higher the roll the more likely the persona will be successful.
+The most famous is the Attack Roll.
+In the attack roll the player wants to roll equal to or higher than the target's Armour Rating.
 
+The target number is usually known to the players before the roll and that is part of the excitement.
+Sometimes a referee opts to keep target rolls secret from the players. 
 
+.*Target Rolls*
+* xref:CH27_Tactical_Combat.adoc[Attack Rolls]
+* xref:CH14_Performance_Tables.adoc[Performance Rolls]
+* xref:CH17_Driving.adoc[Driving Rolls]
+* xref:i-persona_creation:CH03_AttributesCON.adoc[Damage System Shock Rolls]
+* xref:i-persona_creation:CH03_AttributesCON.adoc[Recovery Rolls]
 
-There are all kinds of rolls in EXP.
-It can be a dice heavy game if you so choose.
-The most common rolls made are to hit rolls.
-The success of a to hit roll is determined in http://expgame.com/?page_id=298[Chapter 27: Tactical Combat].
-These are not special rolls.
-Any time a persona is trying to complete some kind of class maneuver the player refers to the appropriate performance roll for her persona's class (see http://expgame.com/?page_id=269[Chapter: 14 Performance Rolls]).
-These are not special rolls.
-This chapter is for rolls that are important but do not warrant a chapter of their own.
-This includes rolls that are pitted against a specific persona's attribute, or saves versus poison attacks, or whether a robot loses control of itself, or any roll that does not fit anywhere.
+=== Attack Rolls
+Attack Rolls are made by the player when her persona is attacking in combat.
+The entire tactical combat system is devoted to calculating both ends of the Attack Roll.
+The Attack Roll is meticulously modified by attributes, vocations, and experience levels.
+The target number is the Armour Rating of the target.
+Any roll that is equal to, or higher than, the target's Armour Rating scores a  
 
-// insert table 186+++<figure id="attachment_1684" aria-describedby="caption-attachment-1684" style="width: 231px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/08/jugglephant.223-231x300.png?resize=231%2C300[No books being juggled here.,231]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/08/jugglephant.223.png)+++<figcaption id="caption-attachment-1684" class="wp-caption-text">+++No books being juggled here.+++</figcaption>++++++</figure>+++
+NOTE: *Previous versions of EXP called the Attack Roll a To Hit Roll.*
 
+=== Performance Rolls
+Performance Rolls are made by the player when her persona is attempting a task.
+These are vocation related tasks.
+These tasks can be called maneuvers, skills, gifts, abilities. 
+The player needs to roll higher than, or equal to, the target roll determined for the task.
+The target roll can be calculated, or quickly determined off of a table. 
+The more difficult the task the higher the roll needed for success.
 
+=== Driving Rolls
+Driving rolls apply to personas that are driving inatmo vehicles. 
+A driving roll is essentially a performance roll dedicated to driving tasks.
+Success is based on the difficulty of the maneuver and the handling class of the vehicle.
+ 
+=== Damage System Shock Rolls
+This is an anthro specific target roll.
+The player rolls dice to keep her persona conscious after a serious blow.
 
-== Damage System Shock Roll (DSS)
+=== Recovery Rolls
+This is an anthro specific target roll.
+The player rolls dice to see if  her persona wakes up after being knocked out.
 
-The DSS roll, or Damage System Shock roll is a special attribute roll which all anthropomorphic personas must make whenever they lose more than half their current HPS at once.
-Even if a persona has only 2 HPS left and loses one of them, she must make a DSS roll;
-a persona with 3 HPS , however, could lose one HPS with impunity.
-The unfortunate persona must calculate three times her new HPs total, and add her CON to the product;
-she must then roll equal to or less than this number on 1d100, or fall unconscious.
-Thus, for instance, a persona with 18 HPs left after the blow, and a CON of 9, would need to roll under (3 x 18) + 9 = 63 on 1d100 to avoid being stunned.
-Only anthropomorphic personas need worry about the DSS roll;
-robots and aliens never fall unconscious.
-If a persona loses all her HPS in one attack, she also does not need to worry about a DSS roll, as she automatically falls unconscious and is dying.
+== Challenge Rolls
+Challenge Rolls the player is trying to roll higher than a dynamic number to benefit their persona.
+A challenge roll is assigned a target for success, and the player must roll higher than that.
+This is not a target roll because another player is rolling dice at the same time.
+Most often this is other player is the referee.
+The winner of the challenge roll is the player that rolls higher. 
 
-*Damage System Shock (DSS) = (HPS Total times 3) plus Constitution *
-
-== Recovery Roll
-
-The REC (or Recovery) roll, is the antidote to a failed damage system shock roll.
-A stunned persona must repeat it until she finally succeeds, at which point her weakened body reawakens.
-Although both are on deci-dice, the REC roll is somewhat easier than the DSS roll;
-instead of needing less than thrice her HPS plusher CoN, a persona may roll as high as five times her HPS plus her CON.
-If the persona above described above (18 HPS Total and a CON of 9) needed to make a recovery roll, the player would need to roll under (5 x 18) + 9 = 99 on 1d100.
-She will probably do this on her first try.
-Table 3.1: Constitution & Recovery ++++++gives a persona's recovery time, the length of time she must languish between attempts at the REC roll.
-A persona with a CON of 22 would be able to try the roll every 4 units until she succeeded, while a persona whose CON is only 4 must wait 16 units between each attempt.
-
-*Recovery Roll (REC) = (HPS Total times 5) plus Constitution *
-
-== Control Factor Roll
-
-Whenever a robot persona performs a task for which it was originally designed -- a janitorial bot cleaning up, a combat bot killing an opponent --it must roll below its control factor or briefly return to it's original programming.
-Control Factor rolls are usually Normal Attribute rolls  (1d20).
-If the janitorial bot were ordered to clean up a room by a charismatic mechanic from the robot's base family, a tough (1d50) Control Factor roll would be need to be made.
-
-The Control Factor of a robot is the robot's INT plus its experience level, and represents how well it has learned to bypass its programming.
-To fail a Control Factor roll is to give in to that programming, a persona robot phenomenon known as loss of control.
-A robot that has lost control becomes a helpless automaton, a temporary referee person.
- The persona will continue to perform exactly its programmed function without deviation until it regains control of itself.
-If the failure occurs during combat, it will last a random number of units determined by the same, die the robot lost control with so failing a tough (d50) CF roll would result in d50 units of boring, non-sentient behaviour.
-Outside of combat, the failure will last a random number of minutes on the same die: failing an improbable (d100) roll might lead to over an hour and a half of tedium.
-
-*Control Factor (CF) = Intelligence plus EXPS Level*
-
-// insert table 185+++<figure id="attachment_1685" aria-describedby="caption-attachment-1685" style="width: 209px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/08/monkeybox.224-209x300.png?resize=209%2C300[Raging at the fact it is not a banana machine.,209]](https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/08/monkeybox.224.png)+++<figcaption id="caption-attachment-1685" class="wp-caption-text">+++Raging at the fact it is not a banana machine.+++</figcaption>++++++</figure>+++
-
-
-A good example is of a persona searching a hardware store for a size L8 wing nut.
-Wing nuts are kept behind the counter, so she asks the storekeeper if any are in stock.
-Hell,
-replies the referee, I don't know: Let's check the sphincter dice.
-The player and the referee both roll, but the player's roll is a 94, so the part is automatically available.
-She purchases it and leaves.
-A  little later, the persona accidentally steps underneath a powerful electromagnet.
-The referee isn't sure if the wing nut will be attracted to the magnet or not, so she calls on the sphincter dice once more.
-This time, the player rolls a 75, but the referee rolls an 84;
-the electromagnet immediately tries to wrest the wing nut from the persona's grip.
-The rest of the encounter would be determined by attribute rolls, mutations, or even combat.
-
-//+++<figure id="attachment_1686" aria-describedby="caption-attachment-1686" style="width: 205px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/08/criticalhit.227-205x300.png?resize=205%2C300[A critical hit.,205]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/08/criticalhit.227.png)+++<figcaption id="caption-attachment-1686" class="wp-caption-text">+++A critical hit.+++</figcaption>++++++</figure>+++
-
-== Critical Rolls
-
-Critical rolls are extreme rolls of the dice -- 001 or 000 on kilo-dice, 1 or 20 on a d20, 00 or 01 on deci-dice.
-As any amateur statistician will point out, such extreme rolls are no more likely than any other roll, an impressive 998 is no more significant than an obscure 452 
-but somehow an air of urgency always accompanies them.
-Players inevitably react hysterically to a roll of 000, because there is something so dramatically fateful about it.
-
-In gaming terms, critical rolls represent incredibly fluky results that could be either detrimental or beneficial to the persona attempting them.
-Critical rolls add spice to the game, because they always bring that slight chance of the unexpected.
-The wimpy little alien stuck in the crevasse might yet beat the arrogant invader in powered armour if she makes a critical to hit roll.
-The landlubber mechanic may never have seen an exatmo drive before, but could still manage to patch one together if she makes a critical performance roll.
-EXP is science fantasy, and part of fantasy is the unexpected.
-
-Nevertheless, a well-developed scenario should never be terminated early by a critical roll --they exist to enliven, not to destroy, the campaign.
-Like all rules, they should serve the players, not the other way around;
-any time a critical roll interferes, the referee should simply manipulate the outcome until everything fits once more.
-
-All critical rolls must be natural.
-If a player rolls 794 to hit, then no matter what bonuses she has, her roll is not a critical one.
-Conversely, if she rolls a natural 01 on a performance roll, all the bonuses in the universe won't keep her from suffering a critical failure.
-
-=== Performance Table Rolls
-PT rolls are made on deci-dice;
-the goal is to roll high.
-A natural 00 will thus bring automatic success in whatever procedure was being attempted, however difficult, and a natural 01 automatic failure.
-Some procedures should never have a chance of success -- gall bladder surgery with a meat hook will always result in tragedy --but there's little point in even rolling for these.
-Use your common sense.
-
-Occasionally, a critical PT roll success will seem to indicate an exorbitant number of EXPS for the persona.
-EXPS are handed out for class skills because of the knowledge gained through the successful maneuver.
-A vet who has managed to accomplish something far beyond her skill by sheer luck has gained nothing from the experience but a healthy llama.The referee should reduce her EXPS award accordingly.
+.*Challenge Rolls*
+*  xref:CH16_Special_Rolls_Attributes.adoc[Attribute Rolls]
+* xref:CH16_Special_Rolls_Saves.adoc[Saving Rolls]
+* xref:CH33_Initiative.adoc[Initiative Rolls]
+* xref:CH34_Ambush.adoc[Ambush Rolls]
+* xref:CH16_Special_Rolls_Asshole.adoc[Sphincter Rolls]
+* xref:i-persona_creation:CH05_Robots_Z_CF.adoc[Control Factor Rolls]
 
 === Attribute Rolls
-Critical attribute rolls are redundant.
-Since the object of an attribute roll is to roll low, a critical success is a roll of 1 --but since all living personas have positive attributes, only dead personas would ever fail on a roll of 1.
-And dead personas don't make attribute rolls.
-Conversely, a critical failure is a maximal roll on whichever die is being used -- 10 on d10, 20 on d20, etc.
-A maximum roll should fail regardless. Otherwise the persona had no chance of failing, and the referee shouldn't have called for an attribute roll in the first place.
+These are the most famous and important of all the challenge rolls.
+An attribute roll involves the player using a specific attribute in a challenge.
+For example, two personas arm wrestling would use PSTR attributes for the Attribute Roll.
+If two personas are trying to out charm each other CHA attributes could be used for the challenge.
 
-=== To Hit  Rolls
-To hit rolls are made on kilo-dice (1d1000), and like PT rolls, the goal is to roll high.
-Any roll naturally greater than or equal to 990 is thus called a critical hit, and will inflict from 1-4 (d4) times the rolled damage, a factor known as the damage multiplier.
-A natural roll of 000, aka 1000 on a d1000, provides an instant kill.
-When calculating the damage from a critical hit, a player first rolls the damage as normal, then multiplies by the damage multiplier, and only then adds her PSTR damage adjustment.
+When the players make equal attribute rolls that would be a tie. 
+Unless a decision must be made a Attribute Challenge tie is just that.
 
-All of this only applies to cases where 990, or 000, would have hit anyway.
-If a critical hit is the only way for the persona to hit her target a critical hit simply means a hit, with damage meted out as normal.
-Similarly, critical hits by the referee are always just hits, with no instant kills and no damage multiplier, for personas are attacked so much more often than their opponents are that any other ruling would kill off personas far too quickly.
+=== Saving Rolls
+Saving rolls are attribute rolls where the player must roll higher than dangerous non-entity.
+Saving throws usually involve a specific attribute versus an attack like poison or radiation.
+The player must roll as high as possible to avoid being injured by the attack.
+A Saving Roll versus poison would have the personas CON challenged by a poison intensity.
+The poison intensity can be a fixed target or a target rolled by the referee.
 
-A critical miss with a type A or B weapon is any to hit roll less than or equal to 010;
-any player who makes such a roll has dropped, misthrown, misstrung, or otherwise mishandled her weapon.
-If the player rolls below 050 with a type C weapon, the referee should check for a malfunctions.
-A roll of 001 with a type A weapon indicates that the persona has accidentally damaged herself or broken the weapon.
-Any type B weapon attacking with a 001 to hit also automatically breaks, but without damage to the persona;
-type C weapons subject to a 001 critical miss automatically jam.
-The amount of damage suffered by a malfunctioning weapon can be determined in http://expgame.com/?page_id=286[Chapter 21, Equipment Damage].
+NOTE: *Previous versions of EXP called the Saving Roll a Saving Throw.*
 
-=== No Critical Rolls Here
-There are no critical rolls in DSS rolls, REC rolls, CF rolls, saving throws, attribute challenge rolls, or sphincter dice.
-The first four cases all govern involuntary reactions, in which the body (or mind) is already doing the best it can;
-the concepts of critical success and failure are meaningless for white blood cells.
-Critical attribute challenge rolls, like critical attribute rolls, are a redundant concept -- if only one persona has a critical success, she's won anyway;
-if two do, they're still tied.
-Sphincter dice, meanwhile, already have critical rolls built in: if the player rolls over 90, events proceed in her favour, and if she rolls under 10, they don't.
+=== Initiative Rolls
+Initiative Rolls are very specialized DEX challenges used to determine action order in tactical combat.
+The higher the player's roll the better the persona is positioned for that combat unit.
+
+=== Ambush Rolls
+Ambush Rolls are very specialized AWE challenges used to see how the persona reacts to an ambush.
+The higher the roll the more more likely the persona will be able to defend themselves in combat.
+
+=== Sphincter Rolls
+Sphincter Rolls are the last line of decision making when players cannot agree.
+The Sphincter Roll is a luck challenge roll between two players. 
+Usually the player competes with the referee when making a Sphincter Roll.
+The roll is made to help with decisions that the referee cannot possibly have prepared for.
+If the player rolls higher than the referee the decision falls in favour of the player.
+
+NOTE: *A Sphincter Roll was previously called Sphincter Dice. Which was previously called Asshole Dice.*
+
+=== Control Factor Roll
+The control factor roll is a challenge roll specific to the family of robots.
+It is called on when the persona is going against it's baked in programming.
+The challenge is between the robot's INT and the depth of the violation of programming.
+The player needs to roll high to stay in control of her robot persona.
+
+== Generative Rolls
+Generative rolls have no target an no competitive aspect to them.
+A generative roll gives a result that is descriptive of an event or item.
+Generative rolls do not predict immediate success or failure for the persona.
+Some generative rolls are extremely important to the player's persona.
+For example a damage roll and attribute rolls are considered generative. 
+
+* xref:i-persona_creation:CH03_Attributes.adoc[Attributes]
+* Descriptors
+* List Rolls
+** Skills
+** Mutations
+** TOYS
+* Damage Rolls
+
+=== Attribute Generation Rolls
+When the player is creating her persona each attribute is assigned a value. 
+These rolls are important in that they define the species, vocation and physiology of the persona.
+However they are purely generative. 
+The persona does not succeed or fail based on the rolls and they help create the persona.
+
+=== Descriptors
+Descriptors are the classic generative die roll.
+They are typically rolled once and recorded on the persona record sheet.
+Descriptions have no outcome for the persona other than generating a description.
+For example alien and robot appearances are randomly rolled. 
+Their appearance is completely neutral to the persona.
+
+Some descriptors impact performance of the persona.
+For example robot and alien wate impacts the damage they inflict.
+
+=== List Rolls
+The player will often find themselves generating something completely random from a list.
+They are typically rolled once and recorded on the persona record sheet.
+These tables infuse randomness and ensure rarity of powerful things.
+
+The most famous list rolls include: mutation tables, skill tables, and the Technological Object Yields System.
+List rolls do not immediately put the persona at risk, but can have a long term impact.
+
+=== Chance Tables
+These are weird tables limited to inatmo and exatmo vehicle generation.
+They are tables where the player makes percent chance checks to see if peripherals or defences are made.
+Technically it is a generative roll, but players always want the peripherals.
+Also the chance table is pure percent chance and a low roll indicates success. 
+Chance tables are the only rolls left where players want to roll low for success.
+
+=== Damage Rolls
+Damage rolls are generative rolls that indirectly benefit the persona when the player rolls high.
+
+
+== Roll Checks
+Roll checks are not rolls of the dice.
+A Roll Check indicates an event that occurs within another roll.
+For example, an attack roll can generate a critical success with a specific number.
+If a players rolls 1000 on an Attack Roll this roll becomes a critical roll.
+While the player does not intend to make a critical roll one is indicated by checking for the 1000.
+
+* Critical Roll Checks
+* Malfunction Checks
+* Otto Checks
+
+=== Critical Checks
+Critical Checks indicate natural die rolls that generate the die's maximum or minimum score.
+Natural indicates that the value was generated without adjustments.
+Natural rolls can also be called raw rolls.
+Critical rolls only apply to target rolls.
+For example, there is no critical roll on a generative roll that is creating a description.
+However a nature 1000 on an attack roll is an exciting thing indeed.
+
+NOTE:*Critical Checks were previously called Extreme Rolls and Critical Rolls and Critical Hits.*
+
+=== Malfunction Checks
+Malfunction Checks are only employed when a player rolls low when using a powered weapon.
+Some guns jam or explode accidentally.
+This is indicated by a low Attack Roll.
+Every weapon has it's own malfunction check. 
+
+=== Otto Check
+These are the equivalent of critical rolls for Performance Rolls.
+If a player has no chance of making a successful Performance Roll there is a chance of success.
+If a player has no chance of failing a successful Performance Roll there is a chance of failure.
+The Otto Check is a second chance offered to players that are willing to role play for good luck.
+
+
+
