@@ -1,75 +1,203 @@
-= Critical Rolls
+= Critical Checks
 
-Critical rolls are extreme rolls of the dice -- 001 or 000 on kilo-dice, 1 or 20 on a d20, 00 or 01 on deci-dice.
-As any amateur statistician will point out, such extreme rolls are no more likely than any other roll, an impressive 998 is no more significant than an obscure 452 
-but somehow an air of urgency always accompanies them.
-Players inevitably react hysterically to a roll of 000, because there is something so dramatically fateful about it.
+[quote]
+____
+*604 and 1000 and 042 all have the same chance of happening.*
+____
+
+Mundane humans love to see patterns where there are none. 
+Players attribute special value to die rolls for fun and persona profit.
+The concept of the critical hit is too much fun to ignore. 
 
 :art: critical_hit_arrow_split.png
 :width: 250px
-:snark: Critcal hit.
+:snark: Robin hit.
 :artist: Warren Oddsson
 :date: 1990
 :license: CC BY-SA 4.0
 
 include::ROOT:partial$articulate.adoc[]
 
+NOTE:*Critical Checks are also called Extreme Rolls, Critical Rolls or Critical Hits.*
 
+When a player rolls either the maximum or minimum value that a die can offer special things may happen.
+Since version 6.0 EXP has pedantically called these special values critical checks.
+A check roll is one where the player checks for a value inside of another roll.
+Critical checks can happen in Attack Rolls, Attribute Rolls, Performance Rolls, Driving Rolls, etc.
+No critical roll is made, but a critical result is checked for. 
 
-In gaming terms, critical rolls represent incredibly fluky results that could be either detrimental or beneficial to the persona attempting them.
-Critical rolls add spice to the game, because they always bring that slight chance of the unexpected.
-The wimpy little alien stuck in the crevasse might yet beat the arrogant invader in powered armour if she makes a critical to hit roll.
-The landlubber mechanic may never have seen an exatmo drive before, but could still manage to patch one together if she makes a critical performance roll.
+Any amateur statistician will point out an impressive 998 is no more significant than an obscure 452. 
+However an air of urgency always accompanies these extreme rolls.
+We all react hysterically to a roll kilodie of 000, but it is no more likely than a roll of 604.
+
+Critical checks are exciting and add randomness to otherwise predestined die rolls.
+Critical rolls spice up the game by adding that rare dose of the unexpected.
+A wimpy little alien may damage that arrogant invader in powered armour.
+A landlubber mechanic actually fix that damaged exatmo drive during space combat.
 EXP is science fantasy, and part of fantasy is the unexpected.
 
-Nevertheless, a well-developed scenario should never be terminated early by a critical roll --they exist to enliven, not to destroy, the campaign.
-Like all rules, they should serve the players, not the other way around;
-any time a critical roll interferes, the referee should simply manipulate the outcome until everything fits once more.
+A well-developed scenario should never be terminated early by a critical roll.
+Critical rolls exist to enliven, not to destroy, a campaign.
 
-All critical rolls must be natural.
-If a player rolls 794 to hit, then no matter what bonuses she has, her roll is not a critical one.
-Conversely, if she rolls a natural 01 on a performance roll, all the bonuses in the universe won't keep her from suffering a critical failure.
+.*Parameters for a critical result*
+* must be a natural roll 
+** no bonuses or penalties can be applied
+* must be on a die roll of substance
+** 1d1000
+** 1d100
+* different effects for different rolls
+** Performance Rolls
+** Attack Rolls
+* must be supported by a role play description
 
-== Performance Table Rolls
-PT rolls are made on deci-dice;
-the goal is to roll high.
-A natural 00 will thus bring automatic success in whatever procedure was being attempted, however difficult, and a natural 01 automatic failure.
-Some procedures should never have a chance of success -- gall bladder surgery with a meat hook will always result in tragedy --but there's little point in even rolling for these.
-Use your common sense.
+== Natural Roll
+Critical rolls must be natural.
+An attack roll of 794 is not a critical roll.
+Even if the persona's bonuses add up to 1000 this is not a critical roll.
+Only a natural 1000 would be a critical roll.
+A performance roll of 01 is a critical failure.
+All the bonuses in the universe will not prevent this critical failure.
 
-Occasionally, a critical PT roll success will seem to indicate an exorbitant number of EXPS for the persona.
-EXPS are handed out for class skills because of the knowledge gained through the successful maneuver.
-A vet who has managed to accomplish something far beyond her skill by sheer luck has gained nothing from the experience but a healthy llama.The referee should reduce her EXPS award accordingly.
+== Dice of Substance
+Critical checks should be limited to die rolls where they are unusual and reasonably infrequent.
+For example, critical results on 1d4 rolls would occur 50% of the time. 
+In EXP even the famous 1d20 is considered too small to warrant critical checks.
 
-== Attribute Rolls
-Critical attribute rolls are redundant.
-Since the object of an attribute roll is to roll low, a critical success is a roll of 1 --but since all living personas have positive attributes, only dead personas would ever fail on a roll of 1.
-And dead personas don't make attribute rolls.
-Conversely, a critical failure is a maximal roll on whichever die is being used -- 10 on d10, 20 on d20, etc.
-A maximum roll should fail regardless. Otherwise the persona had no chance of failing, and the referee shouldn't have called for an attribute roll in the first place.
+=== 1d100
+This die is most commonly being used for Performance and Driving Rolls.
+For the 1d100 a critical roll is activated with the roll of 01, 42 or 100.
 
-== To Hit  Rolls
-To hit rolls are made on kilo-dice (1d1000), and like PT rolls, the goal is to roll high.
-Any roll naturally greater than or equal to 990 is thus called a critical hit, and will inflict from 1-4 (d4) times the rolled damage, a factor known as the damage multiplier.
-A natural roll of 000, aka 1000 on a d1000, provides an instant kill.
-When calculating the damage from a critical hit, a player first rolls the damage as normal, then multiplies by the damage multiplier, and only then adds her PSTR damage adjustment.
+1 is considered a critical failure. 
+Whatever is being attempted does not work.
+There may even be dramatic consequences for the extremely low roll. 
 
-All of this only applies to cases where 990, or 000, would have hit anyway.
-If a critical hit is the only way for the persona to hit her target a critical hit simply means a hit, with damage meted out as normal.
-Similarly, critical hits by the referee are always just hits, with no instant kills and no damage multiplier, for personas are attacked so much more often than their opponents are that any other ruling would kill off personas far too quickly.
+42 is a nod to Mr. Adams and indicated special attention to role playing is indicated. 
+This critical roll is limited to the 1d100 and Performance Rolls. 
+The referee will offer benefits to the player who capitalizes on story with this roll.
 
-A critical miss with a type A or B weapon is any to hit roll less than or equal to 010;
-any player who makes such a roll has dropped, misthrown, misstrung, or otherwise mishandled her weapon.
-If the player rolls below 050 with a type C weapon, the referee should check for a malfunctions.
-A roll of 001 with a type A weapon indicates that the persona has accidentally damaged herself or broken the weapon.
-Any type B weapon attacking with a 001 to hit also automatically breaks, but without damage to the persona;
-type C weapons subject to a 001 critical miss automatically jam.
-The amount of damage suffered by a malfunctioning weapon can be determined in http://expgame.com/?page_id=286[Chapter 21, Equipment Damage].
+100 is a critical success. 
+Whatever being attempted will work.
+There may even be dramatic successes for the extremely high roll.
 
-== No Critical Rolls Here
-There are no critical rolls in DSS rolls, REC rolls, CF rolls, saving throws, attribute challenge rolls, or sphincter dice.
-The first four cases all govern involuntary reactions, in which the body (or mind) is already doing the best it can;
-the concepts of critical success and failure are meaningless for white blood cells.
-Critical attribute challenge rolls, like critical attribute rolls, are a redundant concept -- if only one persona has a critical success, she's won anyway;
-if two do, they're still tied.
-Sphincter dice, meanwhile, already have critical rolls built in: if the player rolls over 90, events proceed in her favour, and if she rolls under 10, they don't.
+=== 1d1000
+This is die is most commonly used for Attack Rolls and Bizarre Attribute Rolls. 
+For the 1d1000 (aka kilodie) a critical roll is activated on 001 to 010 and 990 to 000.
+
+001 to 010 is considered a critical fail, a critical miss, or even a weapon malfunction.
+An Attack Roll in this range is a guaranteed miss.
+A persona cannot damage a target if her player rolls 010 or less on the kilodie.
+The persona does not injure herself. 
+Nothing extreme will happen unless her weapon indicates a malfunction with this low a roll.
+A referee may choose to have a referee persona damage herself on a roll of 001. 
+
+990 to 000 is considered a critical success or the vernacular of a critical hit.
+In Attack Roll this range is a guaranteed hit.
+A persona will damage her target, or succeed bizarrely, with a roll of 990 or higher on the kilodie.
+Referees may elect to have damage multipliers for critical Attack Rolls. 
+
+== Performance Rolls
+Performance Rolls are made on 1d100 (aka deci-dice) the goal is to roll high.
+A natural 00 will bring automatic success.
+A natural 01 will bring automatic failure.
+This is within reason of course.
+Gall bladder surgery with a meat hook will always result in tragedy.
+However a critical success may keep the victim, patient, alive.
+Uncommon sense should prevail.
+
+If a critical performance roll is leading to an exorbitant EXPS award the referee may moderate this.
+For example a persona acquiring 3 levels worth of experience because they rolled 100 is a game imbalance.
+A critical performance roll guarantees success but not excessive EXPS awards.
+Uncommon sense should prevail.
+
+=== Otto Checks
+Otto checks are optional checks for Performance Rolls.
+An Otto check is made when a player's roll is predetermined by the Performance Roll target.
+If a player automatically succeed or automatically fail a performance roll the referee may allow for otto checks.
+
+An Otto Fail check gives the player a chance for success if they roll 42 on the Performance Roll.
+If the player rolls 42 in an Otto Fail situation they are given a second chance to succeed.
+The referee can allow a success if the player makes a solid role playing description of why they succeeded in the face of certain failure. 
+For example, a first level biologist wants to start a fire underwater. 
+She has bonuses of +20 but the Target Roll is 140.
+The Degree of Difficulty exceeds her chance of success.
+If the player rolls 42 and tells a good story she may find her persona is successful.
+
+An Otto Success check gives the player a chance of failure if they roll 42 on the Performance Roll.
+If the player rolls 42 in an Otto Success situation they still have a chance of failure.
+The referee can allow a success if the player makes a solid role playing description of why they succeeded. 
+For example, a 10th level biologist wants to start a fire in a dry forest. 
+She has bonuses of +20 and the Target Roll is only 3.
+She will succeed even if she rolls 01 on the deci-die roll.
+If the player rolls 42 the referee may call an Otto Success check on the player.
+She then must describe why she succeeded with a decent role playing story.
+
+== Damage Rolls
+Attack Rolls are made on kilo-dice (1d1000), and the goal is to roll high.
+A Critical Check on the 1d1000 (aka kilodie) is activated on a roll of 001 to 010 and 990 to 000.
+The Critical Attack Roll is also called a critical hit or critical miss. 
+Critical Hits in RPGs have a long history of inflicting bonus damage. 
+
+=== Critical Miss
+001 to 010 is considered a critical fail, a critical miss, or even a weapon malfunction.
+An Attack Roll in this range is a guaranteed miss.
+A persona cannot damage a target if her player rolls 010 or less on the kilodie.
+The persona does not injure herself. 
+Nothing extreme will happen unless her weapon indicates a malfunction with this low a roll.
+A referee may choose to have a referee persona damage herself on a roll of 001. 
+
+=== Critical Hit
+990 to 000 is considered a critical success or critical hit.
+In Attack Roll in this range is a guaranteed hit.
+A persona will automatically damage her target with an Attack Roll of 990 or higher on the kilodie.
+In some groups a guaranteed damage roll is critical enough.
+
+:art: critical_hit_head_bot.png
+:width: 250px
+:snark: Critically critical hit.
+:artist: Unknown.
+:date: 1990
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+Referees may elect to have damage multipliers for critical Attack Rolls. 
+Here is the suggested Critical Hit damage bonuses suggested for the Tactical Combat System
+
+.*Damage Bonuses for Critical Attack Rolls*
+* 000 (1000) = damage times 4
+* 090-999 = damage times 1d4
+
+NOTE: *Referees do not use critical hit damage adjusters against player personas.*
+
+== Role Playing and Critical Rolls
+Everything in EXP can be enhanced by fun role playing descriptions. 
+Otto Checks expect the player to come up with descriptors to enjoy success or avoid failure.
+Other critical checks are no different.
+The copious dice rolling of the Roll Playing System can lead to mechanisation of dice rolling.
+Employing role playing descriptions to enjoy critical successes is a built in way to avoid calcification.
+
+== No Critical Checks Here
+Critical Checks are limited as described above. 
+There are several die rolls where there are no critical checks at all.
+These can be generative rolls where the benefits are built into the exact roll.
+Others are rolls where success represents physical survival. 
+There is no largess to be delivered beyond being unaffected. 
+
+.*Nothing To Check Here*
+* Damage System Shock Rolls
+* Recovery Rolls
+* Attribute Rolls
+* Saving Rolls
+* Initiative Rolls
+* Ambush Rolls
+* Sphincter Rolls
+* Control Factor Rolls
+* Damage Rolls
+* Attributes (DEX etc)
+* Skill Determination
+* Lists Extractions
+* Mutations
+* TOYS
+* Chance Tables
+
+
