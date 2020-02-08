@@ -1,200 +1,95 @@
 = Performance Rolls
 
-Goodbye performance tables. 
-Hello Performance Rolls.
-Embraces the high roll.
-Makes the game easier and more fun.
-Only for Roll Playing. 
-Role Playing will use System 4d2.
-Theatrical and Tactical versions.
+Performance Rolls are made by players when their persona is attempting a maneuver.
+A Performance Roll is required when the persona is trying to do something. 
+For example, strapping a grommet-sized oscillating refractometer onto a Frederickson di-collating time re-modulator.
+Or steering a hover jeep for the first time. 
+With a single die roll, the player skips directly to the aftermath of her persona's attempt.
+
+The more difficult the maneuver the higher the player needs to roll.
+The difficulty of the maneuver is indicated the Degree of Difficulty (DD).
+The Degree of Difficulty can be determined from a vocation skill list, randomly or arbitrarily by the referee.
 
 :art: monkey_box_anger.png
 :width: 250px
-:snark: Rage at the machine.
+:snark: Failure makes Rage.
 :artist: Andrew Brechin
 :date: 1990
 :license: CC BY-SA 4.0
 
 include::ROOT:partial$articulate.adoc[]
 
+The player rolls a 1d100 to determine success or failure of the maneuver. 
+The player wants to roll high.
+Sometimes a maneuver will be too difficult for the persona to complete on their own. 
 
+Performance Rolls are part of the Roll Playing system.
+A less complicated approach to skills and maneuvers is found in the Role Playing System.
 
-. Determine Skill
-. Determine Bonuses
-. Determine DD
+NOTE: *The Performance Roll system replaces Performance Tables from previous versions.*
+
+.*Steps To Peak Performance Rolls*
+. <<_determine_skill_level,Determine Skill Level>>
+. <<_determine_degree_of_difficulty,Determine Degree of Difficulty>>
+.. Example DDs
 . Determine Target Roll
-.. Calculate
-.. Tabulate
-. Roll 1d100
-.. Auto Win
-.. Auto Fail
-.. So close
+.. Calculated
+.. Tabulated
+. Determine Bonuses
+. Determine 1d100 roll
 
-== Determine Skill
-Almost always exps level plus skills.
 
-== Determine Bonuses
-Bonuses are a big deal.
-TOY bonuses.
-Class computers.
-Attribute bonuses.
-Role play bonuses.
-Research Team bonuses.
+== Determine Skill Level
+The Skill Level is a combination of the persona's EXPS Level and her skills.
+A persona can use her EXPS Level for any maneuver that fits within her vocation.
+If the persona also has an applicable skill she can add this to her Skill Level.
+Persona's attempting maneuvers outside of their vocation have a skill level of zero.
 
-Really high numbers need teams to complete.
-Really high numbers need special equipment to complete.
-
-More skilled more bonus in skill area. 
-Out of skill area unlikely.
-Knites are special and can add MSTR
-
-// Performance Roll Difficulty
-.*Vocation Bonus *
-[width="75%",cols="3*^",frame="all"]
-|===
-3+<|Is it familiar?
-
-s|Aptitude
-s|Vocation
-s|Attribute
-
-s|Knowledge
-|Biologist
-|INT
-
-|
-|Mechanic
-|INT
-
-|
-|Veterinarian
-|INT
-
-s|Combat
-|Knite
-|MSTR
-
-|
-|Mercenary
-|PSTR
-
-|
-|Spie
-|PSTR
-
-s|Gut
-|Nomad
-|AWE
-
-|
-|Nothing
-|CHA
-
-|
-|Alien
-|None
-
-s|Mechanical
-|Driving
-|DEX
-
-|
-|Robot
-|None
-
-|===
+=== Calculating Skill Level
+.Skill Level = EXPS Level + Applicable SKill
+****
+A third level biologist with Herbivore 2 would have a skill level of 5 studying herbivores.
+****
 
 == Determine Degree of Difficulty
-Assigned by tables.
-Vocation maneuver.
-Driving maneuver.
-Assigned by descriptor.
+The more difficult something is to do the higher the Degree of Difficulty (DD).
+Most of the time the DD is clearly define by the maneuver in the personas vocation skill list.
+Any persona can attempt anything.
+However the DD can be so high that it is impossible to make the Performance Roll.
+From the biologist skill table Cloning is DD 42. 
+From the driving maneuver table driving straight ahead is DD 1.
+The lowest DD possible is 1.
+There is no upper limit to a how high a DD can go.
 
-// Performance Roll Difficulty
-.*Performance Roll Difficulty*
-[width="75%",cols="3*^",frame="all"]
-|===
-3+<|The more difficulter the more harder. +
-Add 4 per DD to base of 42.
+Circumstances can increase or decrease the DD of a maneuver.
 
-s|Description
-s|Range
-s|Die Roll
+Degree of Difficulty can also be determined by a description of the maneuver.
+The description is usually assigned by the referee, but negotiation is possible.
+Described Degree of Difficulty is for maneuvers that are not on any list. 
+Player will always be coming up with creative challenges for their personas.
+A trivial maneuver has a DD of 1.
+An impossible maneuver has a DD ranging from 21 to 30 and is randomly rolled.
 
-|Trivial
-|1 
-|Or less than 1
+Referees are also allowed to arbitrarily decide a Degree of Difficulty based on the Descriptor.
 
-|Easy
-|2-5
-|1d4+1
-
-|Normal
-|5-10
-|1d6+4
-
-|Hard
-|10-17
-|1d8+9
-
-|Tough
-|15-24
-|1d10+14
-
-|Impossible
-|20-31
-|1d12+19
-
-|Bizarre
-|31-50
-|1d20+30
-
-s|Description
-s|Range
-s|Die Roll
-|===
+include::ROOT:partial$CH14_Table_DD.adoc[]
 
 == Determine Target Roll
-What is it gonna be calculated or tabulated.
+The target roll is like the armour rating of a procedure.
+The player must roll equal to or higher than the target roll.
+The target roll is determined by Skill Level and Degree of Difficulty.
+The higher the skill level the lower the target roll.
+The higher the DD the higher the target roll.
 
+The target roll can be calculated or tabulated.
+The table is collection of common target rolls pre-calculated for your look up pleasure. 
+Very high skill levels and very high DDs will require calculation.
 
 === Calculated
-Calculate skill value.
-Calculated DD value
+The skill level bonus increases as the persona's level increases.
+Higher EXPS levels have an even greater bonus per EXPS level.
 
-.*Skill Calculation*
-[width="75%",cols="3*^",frame="all"]
-|===
-3+<|The more skillery the more gooder.
-
-s|Aptitude
-s|Level
-s|Bonus
-
-|No
-|Any
-|0
-
-|Yes
-|1-4
-|1 per level
-
-|Yes
-|5-8
-|2 per level
-
-|Yes
-|9-12
-|3 per level
-
-|Yes
-|13 and up
-|4 per level
-
-s|Aptitude
-s|Level
-s|Bonus
-|===
+include::ROOT:partial$CH14_Table_Vocation_Level_Bonus.adoc[]
 
 === Target Roll Calculation
 .Roll = 56 + 4 per DD - Skill
@@ -203,199 +98,130 @@ Must roll 80 or higher to beat a DD6 maneuver with 0 Skill. +
 Must roll 50 or higher to beat a DD6 maneuver with 10 Skill.
 ****
 
-=== Tabulated performance Roll
-No calculations compare DD to skill to get Performance Roll.
+=== Tabulated Target Roll
+No calculations compare DD to skill to get Target Roll.
 
 include::ROOT:partial$CH14_Table_New_Performance.adoc[]
 
+== Determine Bonuses
+Bonuses are added to the player's 1d100 roll.
+Bonuses will often mean the difference between success and failure.
+Bonuses can come from every which way.
+There are TOYs that give Performance Roll bonuses.
+There are computers that give Performance Roll bonuses.
+Many referees will offer Performance Roll bonuses for good role playing descriptions. 
+
+:art: indiana_lizard.png
+:width: 250px
+:snark: This goona be easy.
+:artist: Patrick Redding
+:date: 1990
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+=== Attribute Bonuses
+The most common bonuses are vocation attribute bonuses.
+If the maneuver fits into the vocation's aptitude the player can add an attribute to 1d100 roll.
+For combat maneuvers mercenaries can add their PSTR.
+For knowledge based maneuvers biologists can add their INT. 
+
+include::ROOT:partial$CH14_Table_Vocation_Bonus.adoc[]
+
+=== Role Playing Bonuses
+The more role playing is integrated into the roll playing system the more fun the play is.
+Role playing is incentivised in Performance Rolls by awarding roll bonuses for fun descriptions.
+For example, the player that says, “I’m going to leaf through my notes here, and try to identify this bizarre creature” before making the Performance Roll should get some bonus.
+Or “I summon all the forces of evil beneath me, as I try to apply pressure to this weakling altruist.”
+Or “Taking my favorite tools from my mechanical kit, I proceed to repair this damaged bicycle.”
+Or “I  calmly stalk silently past the sleeping sentry.”
+
+The bonuses should be small.
+For example, +5 added to the Performance Roll would be generous bonus.
+Small bonuses that lead to success generate quite a bit of excitement.
+
 == Roll 1d100
-Player rolls 1d100.
-Player adds bonuses to roll.
-Equal or higher is success. 
+The player rolls the 1d100, adds in the bonuses and hopes to beat the target roll. 
+Any roll equal to or higher than the target roll is a success.
+Any roll less than the target roll is a failure.
 
-=== Otto Failure
-If not possible to make roll 42 = auto success.
-If given good role playing excuse.
+:art: performance_roll_mecha_hammer.png
+:width: 250px
+:snark: Delicate repairs underway.
+:artist: Patrick Redding
+:date: 1991
+:license: CC BY-SA 4.0
 
-=== Otto Success
-If not possible to fail the roll 42 = failure.
-Can avoid failure if good role playing excuse.
+include::ROOT:partial$articulate.adoc[]
 
-=== Otto Try again
-Close is with in 1 or 2 points.
-if really close referee may offer partial success.
-or another chance
-if given a good role playing excuse.
+There are critical checks on Performance Rolls.
+A roll of 100 can mean a success in the face of an impossible task.
+A roll of 01 can indicated a failure in the face of certain victory.
 
 
-Performance tables, or PT's, are used to determine the success or failure of manoeuvres personas try.
-From driving a friend's jeep to strapping a grommet-sized oscillating refractometer onto a Frederickson di-collating time re-modulator.
-In a single die roll, the player can skip hours of painfully detailed explanations and proceed directly to the aftermath of her persona's attempt.
-No player should be forced to specify the #exact frequency at which her knite says, Om,
-in contemplation, and no ref can be expected to know whether Hobergruber's +++<>+++Elements of Cabbage Biology +++</>+++#contains the particular anatomical information a biologist needs.
-Performance Tables should never replace role playing or descriptive passages.
-A few quick, humorous descriptions by the ref or the players can make the difference between dull die rolling and colourful role playing.
-Good descriptions of a persona's actions should earn the player extra experience points, and improve on the chance of success.
- Conversely the result of a performance table roll should not ruin a good story!
-#
 
-A persona's chance of success at a skill is dependent on several factors: the difficulty of the task (DD), her experience level and her skills. The player consults the appropriate table for the manoeuvre and finds a number at the intersection of her persona's experience level and the manoeuvres degree of difficulty (DD).
-If she rolls higher than this number on deci-dice (d100), her persona has succeeded.
-Rolls of 00 automatically succeed and rolls of 01 automatically fail, however, regardless of DD and experience level.
-The result of a performance table roll should not ruin a good story, but an unexpected result could make a story even better.
-#
 
-Class skills, tricks which all members of a class can perform, are all rolled on the performance table for the appropriate class.
-If a persona wants to attempt a class skill of another class than her own, she must roll on the class table for the other class, with a specific degree of difficulty penalty.
-If a vet wanted to perform a mercenary class skill, she would add 6 to the degree of difficulty (DD), while a mercenary wanting to perform a knite class skill must add 42 to the degree of difficulty (DD).#+++<figure id="attachment_1540" aria-describedby="caption-attachment-1540" style="width: 236px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/07/performancetables198-236x300.png?resize=236%2C300[Delicate repairs underway.,236]](https://i0.wp.com/expgame.com/wp-content/uploads/2014/07/performancetables198.png)+++<figcaption id="caption-attachment-1540" class="wp-caption-text">+++Delicate repairs underway.+++</figcaption>++++++</figure>+++
 
-== Assigning Degree of Difficulty (DD)# 
 
-The first step in applying PT's is determining the degree of difficulty of the desired manoeuvre.
-The easiest actions have a DD of 1, with higher values corresponding to more difficult actions.
-There is no upper limit to the degree of difficulty (DD) of a manoeuvre.
-The DD offers some consistency to the utilization of skills across all classes, for the higher the DD the tougher the manoeuvre, the greater the chance of failure, and the greater the reward if success #occurs.
+== Vocations and  Maneuvers 
+Occasionally a persona will wish to attempt a maneuver that is clearly from another class's skill set.
+For example, mercenaries often find themselves wanting to do quick fixes and stabilizations (vet).
+A mechanic may want to work on a security system (spie).
+These are not research team maneuvers.
+The Cross Class Maneuver Penalty Table.
+If a player is trying to use the Cross Class Maneuver Table to game the system, like a mechanic trying to use knite skills, or a mercenary trying to do a major surgery the referee is free to assign degree of difficulty modifiers, and critical successes (rolling 100) would result in unintended consequences.
 
-Learning how to assign DD's is a referee skill acquired by practice.
-As a rough guideline, every performance table includes a list of the DD's of various manoeuvres.
-Often these DD's are random, reflecting the changing circumstances in which a persona might find herself.
-For instance, the nomadic skill of finding shelter has a DD of 1 to 4, while finding a safe passage has a DD from 1 to 12.#
+include::ROOT:partial$CH14_Table_Cross_Class_Maneuvers.adoc[]
 
-The DD is very flexible.
-It can be randomly determined by a die roll, adjusted by the skills of the persona attempting the manoeuvre, or imposed by the referee as play dictates.
-For instance, a relatively unimportant safe passage could be rolled randomly on a d12, as whether it ended up as a 1 DD or a 12 DD manoeuvre would not affect the game's outcome.
-However, if it were a safe passage #through a dangerous area in the referee's milieu, she might assign a 10 DD to the Performance Table (PT) roll.
-If she thought it important that the nomad fail, then she could just as easily assign a 42 DD to the manoeuvre.
-The result of a performance roll should not ruin a referee's wonderful scenario and make an exciting game dull.
-#
-
-Note that the DD is an absolute measure of a task's difficulty, and is unaffected by the persona's experience level.
-If An 8th level biologist finds alien identification easier than a 2nd level biologist does, #it's because she's had more practice identifying them, not because aliens automatically become #less cryptic over time.
-
-== Performance Roll Adjustments
-
-Often, exercising a skill will involve bonuses or penalties to the DD of the manoeuvre or the PT roll itself.
-These adjustments might arise from attributes, qualities of the skill itself, the referee's whim, or the weird glowing force field around that mysterious artifact the persona found a couple of hours ago.
-#
-
-*Attribute Bonuses*: Attribute bonuses allow the persona to add the value of a particular attribute to her PT roll, #increasing her chance of success.
-A performance roll that requires thought could be awarded a INT bonus, or a performance roll that requires dexterity could be awarded a DEX bonus.
-For example a fifth level spie with a DEX of 14 attempting sleight of hand would receive a DEX bonus of +14 added to her performance roll.
-If the maneuver had a Degree of Difficulty of 5 she would need to roll higher than 45 on a d100 to be successful (determined on the spie performance table).
-So the spie would be successful with any roll of 31 or higher.
-Most attribute bonuses are clearly marked where a performance roll is described.
-The referee may adjust an attribute roll depending on circumstance and story.
-#
-
-*Skill Bonuses*: Most classes have assigned skills.
-For example a mechanic may have mending 3, or a biologist may have taxonomy 3 and herbivores 1.
-A skill bonus can either decrease the decrease the degree of difficulty of the maneuver or increase the level of the persona making the performance roll.
-The player may choose whichever benefits the persona more.
-So the a level 2 mechanic  could use her mending skill of 3 to reduce a 4 DD repair to 1 DD or roll as a level 5 mechanic.
-A 17 DD procedure could be reduced to a 14 DD procedure.
-There will always be some leeway in how skill bonuses help out personas.
-Any decent explanation of how a skill could help a maneuver should be considered by the referee.#
-
-*Other  Bonuses*: PT's should never replace any opportunity for role playing.
-EXP is a role playing game, and misuse of the PT system could quickly turn it into an elaborate dice game.
-To avoid this, no PT roll should be made without a brief (or elaborate) description by the player or ref.
-The biologist that says, I'm going to leaf through my notes here, and try to identify this bizarre creature,
-and then rolls the deci-dice, is making good gaming, and should be due for a PT roll bonus--as should those personas who cry, I summon all the forces of evil beneath me, as I try to apply pressure to this weakling altruist,
-or Taking my favorite tools from my mechanical kit, I proceed to repair this damaged bicycle,
-or I 
-calmly 
-stalk silently 
-past #
-the 
-sleeping 
-sentry,
-etc., etc.
-PT's can offer an excellent playing aid for high-technology gaming.
-If not abused, misused, or confused, they will increase the speed and fun of role playing in #EXP.
-Other ways to reduce DD's include the use of tool kits, computers, manuals, enthusiastic descriptions, or bribes to #the referee.
-Putting together a research team is also helpful.
-Research teams have their own description below.+++<figure id="attachment_1541" aria-describedby="caption-attachment-1541" style="width: 201px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/indianalizard.200-201x300.png?resize=201%2C300[Everything is going right until it goes wrong.,201]](https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/indianalizard.200.png)+++<figcaption id="caption-attachment-1541" class="wp-caption-text">+++Everything is going right until it goes wrong.+++</figcaption>++++++</figure>+++
-
-== Success
-
-Success occurs when the persona rolls higher than the prescribed PT roll (after bonuses).
-It does not necessarily indicate perfect execution of the attempted task;
-it merely means that the persona did not toil in vain.
-A successful roll for a biologist would only relinquish some information about the unknown alien;
-a mechanic's success might only keep her bicycle repaired for a short time.
-Regardless of the player's roll, it is always best for the referee to keep given information useful but vague -- e.g., the alien's hide might be tougher than plastix and weaker than plate mail, #but its exact AR would remain a mystery;
-an artifact might be identified as a pump, and its on switch as the bright green button marked ON,
-but whether it pumps water, sand, or blood could remain unknown.
-Success also depends on what the player wanted her persona to do.
-If she said that she was going to fix the inatmo drive of her space vehicle, then a successful PT roll should indicate a repaired inatmo drive.
-If the referee doesn't think something is possible, she should reflect it by choosing a high DD for the manoeuvre, not by changing her mind after the persona succeeds.#
-
-== Failure# 
-
-Failure occurs when the player rolls less than the prescribed PT roll (after bonuses).
-Failure usually results in more than a mere lack of success: spies get caught, veterinarians kill patients, mechanics break things, and nomads starve to death.
-Ultimately the result of a failure depends on the situation that the expedition is in, the lousiness of the die roll, and the mood of the referee.
-A roll like 01, for instance, might indicate effects exactly the reverse of those desired -- a result which would, of #course, always be deleterious.
-
-== Extreme Rolls 
-
-A PT roll greater than 100 indicates that the skill cannot be successfully performed without PT roll bonuses.
-Unless the referee allows critical successes for the manoeuvre (see Chapter 16, Special Rolls), even a natural roll of 100 will not necessarily be sufficient.
-Thus if a first level mechanic wants to repair a bicycle that has sustained major damage (6 DD), she must roll over 105.
-But mechanics receive an INT attribute bonus, and her INN is 16, so the player needs to roll only 89 or higher to repair the bicycle.
-If she were attempting a manoeuvre that required a PT roll of 120, she could not succeed at the task without the chance of a critical roll #success.
-Negative PT rolls, conversely, indicate procedures that are automatically successful for the persona.
-It is very easy to have a PT roll higher than a negative number, and the player will certainly succeed unless penalties apply or a critical failure occurs.#
-
-Occasionally the DD of an action will exceed the bounds of the performance tables.
-When DD is greater than 20, the skill is treated as a 20 DD manoeuvre, but with a PT roll penalty.
-For every DD greater than 20 the referee adds 5 to the roll required at the 20 DD level -- so if the roll needed for a 20 DD procedure were 167, the PT roll needed for a 25 DD procedure would be 167 + 25 = 192.
-A similar system is used for DDs less than 1-- i.e., 5 points are subtracted from the necessary PT roll for each DD below 1.
-(Mind you, it's highly unlikely that a player will ever need such bonuses for a DD that's already negative.)#
-
-== Duration
-
-How long it takes to complete a task generally depends on a combination of common sense and degree of difficulty, although some skills have specifically assigned durations.
-Performing open heart surgery (a difficult task) would always take longer than ten minutes, for instance, while the equally difficult task of a double somersault leap on ice skates would be over for better or worse almost as soon as it began.#
-
-The suggested durations are generally minima -- their DD values represent the persona's being rushed, and so the quality of her workmanship cannot be guaranteed.
-If the duration of the procedure is important, the persona must first sacrifice the time and only then try to make the PT roll.
-A persona working on a project that takes many months may or may not be able to go exploring during this time, and only when the duration is over will she find out if she has succeeded or not.
-#
-
-For example, a biologist trying to determine the armour rating of a particular alien (5 DD) would #first roll 5d4 and  is the number of minutes that she must spend leafing through her notes and contemplating before making a decision.
-If she is interrupted or stopped during this time, her roll may be penalized or forfeited.If a persona wants to complete some procedure quicker than normal, she can certainly increase the degree of difficulty to decrease the duration spent working on the problem.
-The biologist #above could certainly try to identify the alien's armour in under a minute, but she would suffer what ever DD penalty the referee felt was appropriate.
-#
-
-Many class abilities take up no time at all, because they represent inherent abilities that must be performed swiftly -- many knite, mercenary, and spie skills, for instance, are performed during combat and require no research or study.
-Table 14.1, Research Durations only applies as a rough guide for technical activities which require durations in order to appear more realistic.#
-
-// insert table 156
 
 == Required Equipment 
-
 Why is it so difficult for personas to perform class skills?
 The reason is simple: they are operating with virtually their bare hands.
-The various class performance tables indicate the chance of success when operating with a bare minimum of equipment -- that is, with what is listed on Table 14.2: Minimum Equipment+++<>+++.
-+++</i>+++Some of the minimal equipment requirements are facetious, but others are very serious.
-A knite, for instance, must have #at least an 18 MSTR to perform any of her psionic tasks.
+The various class performance tables indicate the chance of success when operating with a bare minimum of equipment  that is, with what is listed on Table 14.2: Minimum Equipment.
++Some of the minimal equipment requirements are facetious, but others are very serious.
+A knite, for instance, must have at least an 18 MSTR to perform any of her psionic tasks.
 If a persona is caught without her minimum equipment, the referee may levy appropriate Performance Table roll penalties.
-#
 
-// insert table 157+++<figure id="attachment_1543" aria-describedby="caption-attachment-1543" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/research_team.202-300x274.png?resize=300%2C274[Many hands makes confusing work.
-,300]](https://i1.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/07/research_team.202.png)+++<figcaption id="caption-attachment-1543" class="wp-caption-text">+++Many hands makes confusing work.+++</figcaption>++++++</figure>+++
+== Vocations and Maneuvers
 
-== Research Teams# 
 
+
+
+// insert table 168+++<figure id="attachment_10167" aria-describedby="caption-attachment-10167" style="width: 196px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2018/06/nomad-196x300.png?resize=196%2C300[Stand by for Mars! Author: Carey Rockwell  Illustrator: Louis Glanzman 1952,196]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/nomad.png)+++<figcaption id="caption-attachment-10167" class="wp-caption-text">+++Throwing shade.+++</figcaption>++++++</figure>+++ IS THIS ELSEWHERE
+
+
+
+
+
+:art: vet_big_hat_idea_desat.png
+:width: 250px
+:snark: I have an idea!
+:artist: StudioStoks, mod HM
+:date: 2010
+:license: StudioStoks Stock Art.
+
+include::ROOT:partial$articulate.adoc[]
+
+
+
+== Research Teams 
 Research teams allow groups of personas to pool their experience for a greater chance of success.
 Several mechanics may share their expertise to solve a scientific problem, or repair a broken warp drive.
 A  team of veterinarians could work  together to save a life.
 The experience level of a research team is the sum of the experience levels of its members, and every player gets a PT roll for success using the combined experience level.
-If any one of them makes a successful PT roll, then the entire team is #successful.
-#
+If any one of them makes a successful PT roll, then the entire team is successful.
 
-*Team Composition*: Every team will have a team leader.
+:art: research_team_biovet.png
+:width: 250px
+:snark: Biologist and vet working together.
+:artist: Kelly Freas
+:date: 1957
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+=== Team Composition
+Every team will have a team leader.
 The team can consist of one persona per level of the team leader.
 So a 5 level veterinarian could lead a team of 5 personas.
 Teams can be composed of only one class, or mixed between classes.
@@ -405,35 +231,55 @@ Since both a mercenary and a spie could have useful input into the maneuver bein
 Veterinarians regularly form research teams in the operating room.
 The team leader might be a 4th level vet, with two 3rd level vets and one 2nd level vet assisting.
 A mechanic and spie may work together to create a spie tool.
-#
 
-*Benefits of Teamwork*: The team's collective experience approaches the  task.
+=== Benefits of Teamwork
+The team's collective experience approaches the  task.
 The collective level of the team is the total of all the team member's levels.
 So an operating room team composed of a 4th level vet (team lead), with two 3rd level vets and one 2nd level vet would have an aggregate experience level of 12.
 Not only does the team make the performance roll as a 12th level veterinarian each of the four players on the team get to make a roll.
+
+:art: research_team_cyborg_repair.png
+:width: 250px
+:snark: Many hands makes confusing work.
+:artist: Unknown
+:date: 1991
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+
+
 So the team would have four chances to be successful.
 When each persona makes her performance roll she may add any attribute, skill or equipment bonuses to her individual roll.
 Even if three players fail their rolls but the 4th roll is successful  the maneuver would be a success.
-Research teams can make even the most #difficult of medical manoeuvres possible.
+Research teams can make even the most difficult of medical manoeuvres possible.
 
-*Experience*: The entire team enjoys in the experience earned for the successful maneuver.
+=== Experience
+The entire team enjoys in the experience earned for the successful maneuver.
 How the experience is divided up depends on the referee's choice.
 One of the simplest ways is to divide the experience by the number of team members plus one.
 Where the one extra share goes to the team lead.
 
-== Cross Class Maneuvers 
 
-Occasionally a persona will wish to attempt a maneuver that is clearly from another class's skill set.
-For example, mercenaries often find themselves wanting to do quick fixes and stabilizations (vet).
-A mechanic may want to work on a security system (spie).
-These are not research team maneuvers.
-The Cross Class Maneuver Penalty Table.
-If a player is trying to use the Cross Class Maneuver Table to game the system, like a mechanic trying to use knite skills, or a mercenary trying to do a major surgery the referee is free to assign degree of difficulty modifiers, and critical successes (rolling 100) would result in unintended consequences.
 
-// insert table 160
+== Duration
+How long it takes to complete a task generally depends on a combination of common sense and degree of difficulty, although some skills have specifically assigned durations.
+Performing open heart surgery (a difficult task) would always take longer than ten minutes, for instance, while the equally difficult task of a double somersault leap on ice skates would be over for better or worse almost as soon as it began.
+
+The suggested durations are generally minima -- their DD values represent the persona's being rushed, and so the quality of her workmanship cannot be guaranteed.
+If the duration of the procedure is important, the persona must first sacrifice the time and only then try to make the PT roll.
+A persona working on a project that takes many months may or may not be able to go exploring during this time, and only when the duration is over will she find out if she has succeeded or not.
+
+For example, a biologist trying to determine the armour rating of a particular alien (5 DD) would first roll 5d4 and  is the number of minutes that she must spend leafing through her notes and contemplating before making a decision.
+If she is interrupted or stopped during this time, her roll may be penalized or forfeited.If a persona wants to complete some procedure quicker than normal, she can certainly increase the degree of difficulty to decrease the duration spent working on the problem.
+The biologist above could certainly try to identify the alien's armour in under a minute, but she would suffer what ever DD penalty the referee felt was appropriate.
+
+Many class abilities take up no time at all, because they represent inherent abilities that must be performed swiftly -- many knite, mercenary, and spie skills, for instance, are performed during combat and require no research or study.
+Table 14.1, Research Durations only applies as a rough guide for technical activities which require durations in order to appear more realistic.
+
+include::ROOT:partial$CH14_Table_Duration_of_Research.adoc[]
 
 == Repeat Offenders 
-
 Players will find that there will be certain rolls that are repeated over and over again.
 It is up to the referee and players to decide how to manage repeat rolls.
 It would certainly be boring to have a lower degree of difficulty roll have to be re rolled over and over again.
@@ -441,43 +287,3 @@ For example a merc may not have to challenge her PT roll for weapon switch if sh
 As one would expect if the maneuver has been automated there would be no experience granted.
 Any of the higher level degree of difficulty maneuvers should not allow for automation.
 A research team can NEVER automate one of their projects.
-
-== Do You Like Arithmetic? 
-
-Performance tables are a convenience.
-They were created back in the day where there were no personal computers.
-Let alone personal handheld, intertube connected computers.
-See http://expgame.com/?page_id=359[Chapter 56: Tech Level].
-If you are inclined most of the performance tables can be calculated.
-If you are inclined to program computers then you could convert all this data into a portable electronic difference engine.
-For the Table 14.3: General Performance Roll the below equation will work.
-
-*Roll Needed = 80 + (DD times 5) 
-(Exps Level times 5) 
-(skill level times 5) *
-
-== General Purpose Performance Rolls 
-
-This is the catch all performance table.
-The performance table of the ridiculous.
-Maneuvers that only need be checked if a persona is impaired, injured, or the referee is being silly.
-However everything need not be ridiculous on this table.
-Anything that does not fit into a performance table for any of the classes would use the General Performance Table.
-The listed maneuvers are mere inspiration.
-The  table shows EXPS Level versus degree of difficulty (DD).
-Each row represents an  EXPS Level and the columns are degree of difficulty (DD).
-So a level 5 persona attempting a DD 5 maneuver would need to roll 80 or higher on d100 to be successful.
-This table can be scrolled left to right and right back left again.
-
-// insert table 158
-
-// insert table 159
-
-// less math less fun
-
-
-
-// insert table 168+++<figure id="attachment_10167" aria-describedby="caption-attachment-10167" style="width: 196px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2018/06/nomad-196x300.png?resize=196%2C300[Stand by for Mars! Author: Carey Rockwell  Illustrator: Louis Glanzman 1952,196]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/nomad.png)+++<figcaption id="caption-attachment-10167" class="wp-caption-text">+++Throwing shade.+++</figcaption>++++++</figure>+++
-
-// insert table 171+++<figure id="attachment_9627" aria-describedby="caption-attachment-9627" style="width: 300px" class="wp-caption aligncenter">+++[.size-medium.wp-image-9627] image::https://i0.wp.com/expgame.com/wp-content/uploads/2018/05/vet_big_hat_idea_desat-300x200.png?resize=300%2C200[studiostoks stock illustration.modified HM ,300]+++<figcaption id="caption-attachment-9627" class="wp-caption-text">+++I got it about what you got.+++</figcaption>++++++</figure>+++
-
