@@ -1,4 +1,40 @@
-== Saving Throw
+= Saving Rolls
+
+[quote]
+____
+*Physiology's automated defence against external attacks.*
+____
+
+Saving Rolls are specialized attribute rolls where the players rolls a die to save her persona from damaging effects.
+Saving Rolls could easily be __rolled__ into the section on Attribute Rolls.
+However there is a long RPG history of the Saving Throw.
+Saving Rolls are EXP's variation on the historic save versus radiation, poison or psionic attack.
+
+Saving Rolls are divided into psionic attacks and toxin attacks.
+Toxin attacks can be further divided into poison and radiation attacks. 
+There are only two attributes involved in Saving Rolls: constitution and mental strength.
+
+.*Saving Roll Checklist*
+. <<_attribute_type,Attribute Type>>
+.. Constitution (CON) versus Toxins
+.. Mental Strength (MSTR) versus Psionics
+. <<_intensity_of_attack,Intensity of Attack>>
+. Determine Target Roll
+.. Target Roll = Intensity of poison, radiation or Psionic Attack
+. <<_make_the_roll,Make the Roll>>
+.. The player is always rolling a 1d20
+
+
+== Attribute Type
+The referee decides which attribute is most relevant for the roll.
+This attribute score is the attribute added to the 1d20 die roll.
+There are only two attributes involved in Saving Rolls: constitution (CON) and mental strength (MSTR).
+
+.*Attribute Type For Save*
+* CON vs Toxin
+** poison or radiation
+* MSTR vs psionic
+** internal or external
 
 Saving throws, or saves, are special attribute rolls that compete against a specific toxin or attack.
 There are saves versus poison, saves versus radiation and saves versus psionic attack.
@@ -6,51 +42,78 @@ The save represents personas internal against an external attack.
 The saving throw governs those  automatic physical and mental processes over which the persona has no conscious control.
 The body always defends against poison or psionic attack.
 
-=== Intensity
-Saving throws differ from attribute rolls because the attack (poison, radiation, stun, psionic, sleep) has an intensity.
-The higher the intensity the more difficult it is for the persona to defend against the attack.
-Acting against the persona is the intensity of the attack, a measurement of just how powerful it is.
-Intensities range from 1 to 25, with 1 being mostly harmless and 25 usually fatal.
-In the case of a poison attack, the intensity varies with the type of poison employed.
-(See http://expgame.com/?page_id=347[Chapter 50,]http://expgame.com/?page_id=347[Pharmaceuticals], for descriptions of a wide variety of poisons).
-The intensity of a psionic attack is equal to the MSTR of the attacker.
+== Intensity of Attack
+The more dangerous the attack the higher the intensity and therefore the higher the target roll.
+The intensity of radiation and poison are usually assigned a value depending on how dangerous they are.
+A normal intensity poison would have an intensity of 18.
+Psionic attacks are assigned an intensity equal to the attacker's MSTR. 
+An average psionic attack intensity would be 12.
 
-=== Toxin
-The most common toxins are poison and radiation.
-When a persona is poisoned, her body sets in motion a collection of activities to repel the offending substance.
-If the poison attacks her digestive tract, it may trigger vomiting or diarrhea.
-Other effects depend on the toxin attack.
-Typical poisons include nerve toxins, radioactive substances, venoms, and drugs, any of which might act through inhalation, digestion, or simply contact with the persona's skin, fur, or scales.
-Only the persona's CON puts up any defense.
-The player must roll less than the save versus toxin using a Normal (1d20) or a difficult (1d30) roll.
+Some example target rolls can be gleaned from the Difficulty and Target Rolls Table.
 
+include::ROOT:partial$CH16_Table_Attribute_Roll_Difficulty.adoc[]
 
-*Save versus Toxin = Constitution plus EXPS level minus Poison Intensity*
+=== Poison Attacks
+Poisons are toxins that need to contact the persona to activate a Saving Roll.
+This can be inhaled, ingested, or contact.
+That is the distinct difference between poison and radiation.
+Radiation can pass through the persona inflicted damage just sitting there.
 
-If the persona fails her save against a poison attack, the poison does her d4 His of damage for every point of its intensity.
-For ease of play, it then leaves her system, and she eventually recovers if she's still alive.
-(In real life, some more insidious poisons can remain in the body for decades, gradually debilitating it until they are removed by operation.
-If the referee really wants to bog down her campaign with the hassle of calculating strontium ratios in the bone tissue, she can, but it's far simpler to assume that all poisons act once, act quickly, and leave within a couple of days.)
+Poisons can have specific effects if the player fails her Saving Roll.
+A knock out poison will knock the persona out.
+A nausea poison will make the persona vomit.
+A pharmaceutical effect poison will have the described pharmaceutical effect.
+A lethal poison will kill the persona dead.
 
-=== Psionic Attack
-A psionic attack is any foreign intrusion into the persona's thinkspace (mind).
-This collection of defensive measures cannot be measured by modern instruments.
-All psionic defense  occurs at the subconscious level;
-unless the persona is actively searching for mental interlopers, she will not even know she is under siege until too late.
-Only her MSTR can help.
-The player must roll less than the save versus psionic using a Normal (1d20) or a difficult (1d30) roll.
+A killing poison inflicts damage depending on the intensity of the poison.
+A killing poison inflicts 1d4 per point of intensity of the poison.
+So an intensity 18 poison would inflict 18d4 HPS of damage if the Saving Roll is missed.
+Pretty much lethal. 
 
+The intensity is determined by the referee in advance, or from the attack.
+Alien poisons may have an intensity related to the alien's constitution. 
+Lethal and killing poisons should have their intensity modified to reflect a fun game. 
 
-*Save versus Psionic = MSTR plus EXPS level minus Attacker MSTR*
+Robots are unaffected by poisons that are aimed at a physiologic system.
+Electric shocks, corrosives and radiation have the same effect on aliens, anthros and robots.
 
-A failed psionic attack usually results in a specific effect on the target.
-So if a player fails her person's save versus psionic attack anything from having her mind read, to being telekinetically thrown can result.
-Various effects are described in too much detail in http://expgame.com/?page_id=364[Chapter 58: Mental Mutations].
-Unlike toxins, however, no mental attack has partial success.
-The psionic attack is either completely repelled or completely successful.
+=== Radiation Attacks
+Radiation is an electromagnetic toxin that needs not contact the persona to activate a Saving Roll.
+Radiation can be inhaled, ingested, or contacted.
+Radiation can also pass through the persona inflicted damage just sitting there.
+Radiation is dangerous just being there.
 
-=== Various Bonuses
-All insectoids get a +1 bonus against psionic attacks for every 4 points of MSTR.
-Myra the bumblebee with an MSTR of 17 would get a +4 bonus versus psionic attack.
-All ursidae get a +1 bonus against poison for every 3 points of CON.
-Gruff the grizzly with an 8 CON would get a +3 bonus against a poison toxin.
+Radiation affects all lifeforms equally. 
+It smashes tissues, chromosomes and circuitry.
+A radiation attack inflicts damage depending on it's intensity.
+A radiation attack inflicts 1d4 per point of intensity of the radiation.
+So an intensity 12 radiation attack would inflict 12d4 HPS of damage if the Saving Roll is missed.
+A successful Saving Roll reduces this damage by half. 
+Radiation is deadly coming and going.
+
+This is fantasy radiation, and fun should replace realism.
+If the referee is feeling like having fun, or the player tells a good story a mutation check can be warranted.
+If a kilodie roll is less than the total damage taken the player gets a chance at mutating.
+This is accomplished by doing a mutation check based on the persona type.
+Robots do not enjoy this mutation check.
+Only anthros and aliens can mutate post radiation attack.
+
+== Psionic Attack
+Psionic attacks are science fantasy manipulations of the persona's mind or the physical plane.
+Most psionic attacks are delivered by mental mutations.
+Some machines carry out attacks that function similar to psionic attacks. 
+
+If the attack is affecting the function of the target through the persona's thinkspace a Saving Roll is granted.
+This means that ESP, telekinesis, memory eradication, and other direct affects indicate a Saving Roll.
+Mental mutations that transform the environment do not get a Saving Roll.
+So a mental attack that changes gravity would affect the persona without a Saving Roll.
+Hopefully these mutation effects have been appropriately divided between mental and physical mutations.
+
+The intensity of the psionic attack is equal to the mental strength of the attacker.
+Player personas may be able to add their EXPS Level to the intensity.
+Referee personas, unless Canon RPs, just use their MSTR unadjusted.
+
+A successful Saving Roll against psionic attack completes negates any effect.
+There is no partial effect like in radiation or killing poisons.
+A failed Saving Roll results in the success for the attacker.
+The persona may have her mind controlled, may be thrown by telekinesis or may fall unconsious.
