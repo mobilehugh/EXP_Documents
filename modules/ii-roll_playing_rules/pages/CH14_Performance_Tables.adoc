@@ -32,12 +32,29 @@ NOTE: *The Performance Roll system replaces Performance Tables from previous ver
 . <<_determine_skill_level,Determine Skill Level>>
 . <<_determine_degree_of_difficulty,Determine Degree of Difficulty>>
 .. Example DDs
-. Determine Target Roll
+. <<_determine_target_roll,Determine Target Roll>>
 .. Calculated
 .. Tabulated
-. Determine Bonuses
-. Determine 1d100 roll
+. <<_determine_bonuses,Determine Bonuses>>
+.. Attribute Bonuses
+.. Role Playing Bonuses
+. <<_roll_1d100,Determine 1d100 roll>>
 
+.*More Performance Roll Rules*
+* <<_example_maneuvers,Example Maneuver DDs>>
+** <<_general_maneuver,General Maneuver>>
+** <<_driving_maneuvers,Driving Maneuvers>>
+** <<_biologist_maneuvers,Biologist Maneuvers>>
+** <<knite,Knite Maneuvers>>
+** <<_mechanic_maneuvers,Mechanic Maneuvers>>
+** <<_mercenary_maneuvers,Mercenary Maneuvers>>
+** <<_nomad_maneuvers,Nomad Maneuvers>>
+** <<_nothing_maneuvers,Nothing Maneuvers>>
+** <<_spie_maneuvers,Spie Maneuvers>>
+** <<_veterinarian_maneuvers,Veterinarian Maneuvers>>
+* <<_cross_vocation_maneuvers,Cross Vocation Maneuvers>>
+* <<_research_teams,Research Teams>>
+* <<_duration_of_maneuvers,Duration of Maneuvers>>
 
 == Determine Skill Level
 The Skill Level is a combination of the persona's EXPS Level and her skills.
@@ -113,7 +130,7 @@ Many referees will offer Performance Roll bonuses for good role playing descript
 
 :art: indiana_lizard.png
 :width: 250px
-:snark: This goona be easy.
+:snark: This gonna be easy.
 :artist: Patrick Redding
 :date: 1990
 :license: CC BY-SA 4.0
@@ -136,6 +153,15 @@ Or “I summon all the forces of evil beneath me, as I try to apply pressure to 
 Or “Taking my favorite tools from my mechanical kit, I proceed to repair this damaged bicycle.”
 Or “I  calmly stalk silently past the sleeping sentry.”
 
+:art: vet_big_hat_idea_desat.png
+:width: 250px
+:snark: I have an idea.
+:artist: StudioStoks, mod HM
+:date: 2010
+:license: StudioStoks Stock Art.
+
+include::ROOT:partial$articulate.adoc[]
+
 The bonuses should be small.
 For example, +5 added to the Performance Roll would be generous bonus.
 Small bonuses that lead to success generate quite a bit of excitement.
@@ -154,61 +180,138 @@ Any roll less than the target roll is a failure.
 
 include::ROOT:partial$articulate.adoc[]
 
-There are critical checks on Performance Rolls.
+There are xref:CH16_Special_Rolls_Critical.adoc[critical checks] on Performance Rolls.
 A roll of 100 can mean a success in the face of an impossible task.
 A roll of 01 can indicated a failure in the face of certain victory.
 
+== Example Maneuvers
+This list is not exhaustive. 
+The most common kinds of maneuvers encountered play testing EXP for a decade are listed here.
+Many are silly. 
+As with all rolls in the Roll Playing system a successful maneuver should not change the course a campaign.
+Successful Performance Rolls are much more granular and represent maneuvers that change a session not a campaign.
 
+IMPORTANT: *These tables are not exhaustive.*
 
+=== General Maneuvers 
+Day to day things that personas may want to do.
+The referee should not apply these Performance Rolls without some kind of fun excuse.
+If a persona needs to bake a cake to eat the persona should just bake a cake.
+If the persona is baking a cake to impress an alien dignitary then a Performance Roll is part of the fun.
 
+include::ROOT:partial$CH14_Table_DD_General.adoc[]
 
+=== Driving Maneuvers
+There is an entire section devoted to xref:CH17_Driving.adoc[driving].
+This table is included here for redundancy and convenience.
 
-== Vocations and  Maneuvers 
-Occasionally a persona will wish to attempt a maneuver that is clearly from another class's skill set.
-For example, mercenaries often find themselves wanting to do quick fixes and stabilizations (vet).
+include::ROOT:partial$CH17_Table_Example_Maneuvers.adoc[]
+
+=== Biologist Maneuvers
+Biologist maneuvers involve anything organic that does not involve healing.
+Most biologist maneuvers are knowledge based unless an obvious physical procedure is involved.
+Knowledge based maneuvers can grant the player an INT Performance Roll bonus.
+
+The minimal equipment required by a biologist is her notebooks. 
+The referee may make a target roll more difficult if the biologist does not have her notebooks.
+
+include::ROOT:partial$CH14_Table_DD_Biologist.adoc[]
+
+=== Knite Maneuvers
+Knite maneuvers are mystical in nature and involve manipulation of the thinkspace.
+Knite maneuvers are considered spiritual gifts or psionic abilities. 
+When in combat the knite may be able to get a MSTR Performance Roll bonus.
+
+A knite must have a MSTR of 18 to perform any of these maneuvers. 
+The knite's MSTR is an essential piece of equipment.
+
+include::ROOT:partial$CH14_Table_DD_Knite.adoc[]
+
+=== Mechanic Maneuvers
+Mechanic maneuvers involve anything inorganic or mechanical in nature.
+These maneuvers are all about fixing, modifying and creating mechanical devices.
+Most mechanic maneuvers are knowledge based and Performance Roll bonuses may reflect this.
+
+A mechanic must have a tool to work with. 
+This can be any kind of tool that is not improvised from the persona's body (slap does not equal hammer).
+The referee may make a target roll more difficult if the mechanic does not have a tool.
+
+include::ROOT:partial$CH14_Table_DD_Mech.adoc[]
+
+=== Mercenary Maneuvers
+Mercenary maneuvers are devoted to combat and harming organic and inorganic targets.
+These maneuvers are all about destroy, destroy, and destroy.
+All mercenary maneuvers are combat maneuvers and allow a PSTR Performance Roll bonus.
+
+A mercenary must have a weapon to work with.
+This must be an actual weapon that is not improvised from the persona's body (a fist is not a mace).
+The referee may make a target roll more difficult if the mercenary does not have a weapon.
+
+include::ROOT:partial$CH14_Table_DD_Merc.adoc[]
+
+=== Nomad Maneuvers
+Nomad maneuvers are about surviving and manipulating the environment surrounding the persona.
+These terrains are called biomes and can be natural, industrial or residential.
+These maneuvers are about personal survival.
+Nomadic maneuvers are mostly Gut maneuvers and the player may enjoy an AWE bonus the Performance Roll.
+
+A nomad has no essential equipment.
+Unlike any other vocation a nomad may be inhibited by survival tools like tents, or fire starters.
+The referee may make a target roll more difficult if the nomad is glamping (glamorous camping).
+
+include::ROOT:partial$CH14_Table_DD_Nomad.adoc[]
+
+=== Nothing Maneuvers
+Nothing maneuvers are about surviving in the social fabric of wealth, fame and luxury.
+Nothing maneuvers do not really exist, as they offer nothing of worth to the expedition.
+If the expedition convinces the referee that a nothing maneuver is possible it will be a Gut maneuver.
+
+The essential equipment for a nothing is any useless item of arbitrary value.
+This could be a some cash, a credit card or a vacation souvenir.
+The referee may make a target roll more difficult if the nothing has nothing.
+
+include::ROOT:partial$CH14_Table_DD_Nothing.adoc[]
+
+=== Spie Maneuvers
+Spie maneuvers are about deception, treachery and sneaky violence.
+Most spie maneuvers are considered Combat maneuvers. 
+Other are considered Gut maneuvers.
+The referee can adjust Performance Roll bonuses depending on where the maneuver lies.
+
+Spies have essential equipment.
+A spie must have some element of deception on their persona.
+This could include a pair of dark sunglasses, a fake ID or a trench coat.
+The referee may make a target roll more difficult if the spie no tools of deception.
+
+include::ROOT:partial$CH14_Table_DD_Spie.adoc[]
+
+=== Veterinarian Maneuvers
+Vet maneuvers involve the healing, repair and enhancement of organic life forms.
+Vet maneuvers can be considered Gut or Knowledge based maneuvers.
+The referee can adjust Performance Roll bonuses depending on where the maneuver lies.
+
+The vet must be able to smile at her patient.
+Personal connection is essential equipment for successful veterinarian maneuvers.
+The referee may make a target roll more difficult if the vet cannot emotionally connect with her patient.
+
+include::ROOT:partial$CH14_Table_DD_Vet.adoc[]
+
+== Cross Vocation Maneuver Penalties 
+Occasionally a persona will wish to attempt a maneuver that is clearly from another vocations's skill set.
+Mercenaries often find themselves wanting to do quick fixes and stabilizations (vet).
 A mechanic may want to work on a security system (spie).
-These are not research team maneuvers.
-The Cross Class Maneuver Penalty Table.
-If a player is trying to use the Cross Class Maneuver Table to game the system, like a mechanic trying to use knite skills, or a mercenary trying to do a major surgery the referee is free to assign degree of difficulty modifiers, and critical successes (rolling 100) would result in unintended consequences.
+
+The cross vocation penalties are for individual personas trying to expand their scope of practice.
+Research teams are rarely effected by these penalties.
 
 include::ROOT:partial$CH14_Table_Cross_Class_Maneuvers.adoc[]
-
-
-== Required Equipment 
-Why is it so difficult for personas to perform class skills?
-The reason is simple: they are operating with virtually their bare hands.
-The various class performance tables indicate the chance of success when operating with a bare minimum of equipment  that is, with what is listed on Table 14.2: Minimum Equipment.
-+Some of the minimal equipment requirements are facetious, but others are very serious.
-A knite, for instance, must have at least an 18 MSTR to perform any of her psionic tasks.
-If a persona is caught without her minimum equipment, the referee may levy appropriate Performance Table roll penalties.
-
-== Vocations and Maneuvers
-
-
-
-
-// insert table 168+++<figure id="attachment_10167" aria-describedby="caption-attachment-10167" style="width: 196px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2018/06/nomad-196x300.png?resize=196%2C300[Stand by for Mars! Author: Carey Rockwell  Illustrator: Louis Glanzman 1952,196]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/nomad.png)+++<figcaption id="caption-attachment-10167" class="wp-caption-text">+++Throwing shade.+++</figcaption>++++++</figure>+++ IS THIS ELSEWHERE
-
-
-
-
-
-:art: vet_big_hat_idea_desat.png
-:width: 250px
-:snark: I have an idea!
-:artist: StudioStoks, mod HM
-:date: 2010
-:license: StudioStoks Stock Art.
-
-include::ROOT:partial$articulate.adoc[]
-
-
 
 == Research Teams 
 Research teams allow groups of personas to pool their experience for a greater chance of success.
 Several mechanics may share their expertise to solve a scientific problem, or repair a broken warp drive.
 A  team of veterinarians could work  together to save a life.
-The experience level of a research team is the sum of the experience levels of its members, and every player gets a PT roll for success using the combined experience level.
+The Skill Level of a research team is the sum of the EXPS levels of its members.
+Every player on the research team gets to make a Performance Roll using the team's combined Skill Level.
 If any one of them makes a successful PT roll, then the entire team is successful.
 
 :art: research_team_biovet.png
@@ -220,23 +323,11 @@ If any one of them makes a successful PT roll, then the entire team is successfu
 
 include::ROOT:partial$articulate.adoc[]
 
-=== Team Composition
-Every team will have a team leader.
-The team can consist of one persona per level of the team leader.
-So a 5 level veterinarian could lead a team of 5 personas.
-Teams can be composed of only one class, or mixed between classes.
-If a 7th level biologist wanted to create a team to determine whether the indigenous people of a planet were going to revolt she could create a team with 7 biologists plus her self.
-She could also form a team with 5 biologists a mercenary and a spie.
-Since both a mercenary and a spie could have useful input into the maneuver being made.
-Veterinarians regularly form research teams in the operating room.
-The team leader might be a 4th level vet, with two 3rd level vets and one 2nd level vet assisting.
-A mechanic and spie may work together to create a spie tool.
-
-=== Benefits of Teamwork
-The team's collective experience approaches the  task.
-The collective level of the team is the total of all the team member's levels.
-So an operating room team composed of a 4th level vet (team lead), with two 3rd level vets and one 2nd level vet would have an aggregate experience level of 12.
-Not only does the team make the performance roll as a 12th level veterinarian each of the four players on the team get to make a roll.
+=== Research Team Composition
+Every research team must have a team leader.
+The EXPS Level of the team leader determines the size of the research team.
+The team can consist of one persona per level of the team leader in addition to themselves.
+A team leader cannot lead a persona with a higher EXPS level than herself.
 
 :art: research_team_cyborg_repair.png
 :width: 250px
@@ -247,43 +338,61 @@ Not only does the team make the performance roll as a 12th level veterinarian ea
 
 include::ROOT:partial$articulate.adoc[]
 
+For example, a 5th level veterinarian could lead a team of 5 veterinarians.
+The maximum level of veterinarian would be 5th level. 
+That could be a combined research team of skill level 30 with 5 Performance Rolls.
+Teams can accomplish amazing things.
+However teams cannot get together to solve intricate campaign puzzles created by the referee.
 
+The team can be composed of different vocations.
+The players must justify each vocation types involvement on the research team.
+For example, a 7th level biologist could lead a team of 5 biologists, a mercenary. and a spie.
+If the research team was trying to determine the chance of alien revolution this team makes sense.
+If the research team was trying to determine the direction of alien migration it would not make sense.
 
-So the team would have four chances to be successful.
-When each persona makes her performance roll she may add any attribute, skill or equipment bonuses to her individual roll.
-Even if three players fail their rolls but the 4th roll is successful  the maneuver would be a success.
-Research teams can make even the most difficult of medical manoeuvres possible.
+=== Research Team Example
+An operating room research team has a 4th level veterinarian team leader.
+The team is composed of two 3rd level vets, a 3rd level biologist and a 2nd level nomad.
+They are working together to fix a famous alien the expedition accidentally ran over with a hover car.
+They need to repair her articulated wing flaps. 
+The Degree of Difficulty of the procedure is 20DD.
 
-=== Experience
-The entire team enjoys in the experience earned for the successful maneuver.
-How the experience is divided up depends on the referee's choice.
-One of the simplest ways is to divide the experience by the number of team members plus one.
-Where the one extra share goes to the team lead.
+The research team's total Skill Level is 15 (4 + 3 + 3 + 3 + 2).
 
+Each team member would get a chance to beat the Target Roll of 76.
+If any of the player's rolled 76 or higher the alien's articulated wing flaps would be repaired.
+Much better chances than the just one veterinarian working solo.
 
+== Maneuver Duration
+How long a maneuver takes depends on a combination of common sense and degree of difficulty (DD).
+Some maneuvers have specifically assigned durations.
+Performing open heart surgery (a difficult task) would always take longer than ten minutes.
+However the equally difficult task of performing a double somersault would take an instant.
 
-== Duration
-How long it takes to complete a task generally depends on a combination of common sense and degree of difficulty, although some skills have specifically assigned durations.
-Performing open heart surgery (a difficult task) would always take longer than ten minutes, for instance, while the equally difficult task of a double somersault leap on ice skates would be over for better or worse almost as soon as it began.
+Combat related maneuvers happen during the unit of combat unless otherwise specified.
+Research team work that requires months of time can pass in an instant with a few Performance Rolls.
 
-The suggested durations are generally minima -- their DD values represent the persona's being rushed, and so the quality of her workmanship cannot be guaranteed.
-If the duration of the procedure is important, the persona must first sacrifice the time and only then try to make the PT roll.
-A persona working on a project that takes many months may or may not be able to go exploring during this time, and only when the duration is over will she find out if she has succeeded or not.
+NOTE: *A maneuver may be completed in an instant but the research and preparation may take months.*
 
-For example, a biologist trying to determine the armour rating of a particular alien (5 DD) would first roll 5d4 and  is the number of minutes that she must spend leafing through her notes and contemplating before making a decision.
-If she is interrupted or stopped during this time, her roll may be penalized or forfeited.If a persona wants to complete some procedure quicker than normal, she can certainly increase the degree of difficulty to decrease the duration spent working on the problem.
-The biologist above could certainly try to identify the alien's armour in under a minute, but she would suffer what ever DD penalty the referee felt was appropriate.
+The player would roll 0-99 (1d100-1) to determine the number of unit her biologist would take to Determine Alien Armour Rating, 5 DD.
+This would reflect the time she must spend leafing through her notes and observing before making a decision.
+During combat time these units may be critical.
+Outside of combat time the maneuver durations pass instantly.
 
-Many class abilities take up no time at all, because they represent inherent abilities that must be performed swiftly -- many knite, mercenary, and spie skills, for instance, are performed during combat and require no research or study.
-Table 14.1, Research Durations only applies as a rough guide for technical activities which require durations in order to appear more realistic.
+The referee will most often use maneuver duration for research teams carrying out complex tasks.
+It could easily take a research team a few months to determine complicated question.
+The time could be integrated into the campaign by having the expedition go on several sorties, or just pass immediately for convenience. 
 
 include::ROOT:partial$CH14_Table_Duration_of_Research.adoc[]
 
-== Repeat Offenders 
-Players will find that there will be certain rolls that are repeated over and over again.
-It is up to the referee and players to decide how to manage repeat rolls.
-It would certainly be boring to have a lower degree of difficulty roll have to be re rolled over and over again.
-For example a merc may not have to challenge her PT roll for weapon switch if she has done it over and over again.
-As one would expect if the maneuver has been automated there would be no experience granted.
-Any of the higher level degree of difficulty maneuvers should not allow for automation.
-A research team can NEVER automate one of their projects.
+The Duration of Research Table is a peculiar one.
+If the player rolls a zero they move down to lower level and roll there. 
+For example a maneuver that takes zero days moves down to the 0-11 hours row.
+If that roll is zero hours then the player rolls on the 0-5 hours row.
+This decreasing of duration allows players to have immediate epiphanies.
+
+The corollary is also true though.
+If the player rolls the maximum duration of a maneuver they referee can move the up to the longer duration row. 
+So something that should have taken 0-5 hours could end up taking months.
+
+NOTE: *Anyone who has done research will find the quirky duration table pragmatic.*
