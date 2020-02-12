@@ -1,68 +1,59 @@
 = Special Terrain
 
-Special terrain is weird terrain that the expedition won't encounter too often.
-Most campaigns will take place in worlds with normal atmospheres, and normal gravity where the players, and the referee, can use the reference of our little blue planet.
+Special terrain is atypical terrain that the expedition won't encounter too often.
+Most campaigns will take place on worlds with normal atmospheres, and normal gravity.
+This allows the players to use our little blue planet for reference.
 
-The terrain effects discussed in this chapter are ones that affect the entire environment of the expedition.
-How these terrains affect role-playing systems like combat, movement and wate are discussed.
-A bit of basic exo-physiology is included for good measure, or confusion.
-The biological effects of high, low and zero gravity are included so that the referee can extrapolate for those situations that are not covered in this chapter.
-The effects of dense and light atmospheres, and liquid environments are discussed also.
-Terrains that the referee must construct on her own, preferably from other EXP systems, are poisonous ones, or ones with constant meteorological effects like wind, rain or snow.
+:art: crew_on_ship_desat.jpg
+:width: 250px
+:snark: Hipsters in space.
+:artist: ImageStoks
+:date: 2015
+:license: ImageStoks
 
-//[.size-medium.wp-image-9623.aligncenter] image::https://i1.wp.com/expgame.com/wp-content/uploads/2018/05/crew_on_ship_desat-300x200.jpg?resize=300%2C200[studiostoks illustration.desaturation HM,300]
+include::ROOT:partial$articulate.adoc[]
 
-== Gravity Effects
-Very briefly, gravity is the attraction between two masses.
-In EXP they are called wates.
+.*Gravity and Pressure*
+. Normal Gravity
+. High Gravity
+. Low Gravity
+. No Gravity
+. Normal Pressure
+. High Pressure
+. Low Pressure
+
+== Gravity
+Gravity is the attraction between two masses.
 The attraction gets stronger as the wates get greater, closer together, or both.
-Gravity is so important that no mechanical or biological process can exist without taking gravity into account.
+In EXP this is called wate.
 
-Walking, flying, falling, and growth are all affected equally by gravity.
-A walking human expects her leg to have a certain wate stuck firmly to the planet's surface.
+Gravity impacts every mechanical and biological process.
+Walking, flying, falling, and growth are dependent on gravity.
+An anthro persona expects her leg to have a certain wate stuck firmly to the planet's surface.
 She also expects the foot she lifts into the air to come crashing back down to earth in a very predictable way.
-Flying animals, and flying machines, are dependant on the atmosphere being held firmly in place by gravity. For anyone who has fallen, the attractive force of the earth has been made painfully obvious.
+Flying animals, and flying machines, are dependant on the atmosphere being held firmly in place by gravity. 
+For anyone who has fallen, the attractive force of the earth has been made painfully obvious.
 
-Gravity is an ever pervasive element, and its total effects in a role-playing game cannot be overemphasized, What the gravity altering referee must remember is that every aspect of this game has been based on a 1G (one gravity) world.
-If you were to change the gravity of a scenario, every wate would be changed, every weapon range would be altered, every fuel consumption would be changed, every persona's movement rate would be altered, and long term biological and mechanical effects would have to be taken into account.
-Such obstacles should not deter any referee with a calculator and an imaginative mind.
-Alternate gravities can be riotous fun, and the following paragraphs are devoted to them.
-What will be covered are the effects with high gravity (greater than 1G), low gravity (less than 1G), and no gravity (less than .1G).
-
-== Falling
-EXP constantly has terrible destructive forces being hurled about indiscriminately, however falling is a still a good old fashioned way to get killed.
-Among the more traditional perils of adventuring is the favoured step on the rotten plank bridge three hundred feet above the jagged rocks and crashing waves.
-The mortal consequence of such a mishap, and failed DEX roll, is hardly in doubt.
-
-=== Voluntary
-In short a persona can safely jump 2 hexes downwards without any concern.
-For somewhat more manageable heights on a 1G world, say two hexes, there might be some question about how well the typical persona would fare.
+=== Jumping
+Jumping is controlled falling.
+A normal sized persona can jump 2 hexes down with little concern.
 If your persona chooses to leap four metres to the ground, has good ankle support and manages to avoid landing on her head, she could make a 2 hex jump without misfortune.
 If, however, that same persona finds herself shoved out of a four metre-tall tree (2 hexes), has no clue what she's going to land on, hitting every branch on the way down she can expect to take some damage she may expect to wake up several hours later, if ever.
 
-Table 19.1: Safe Landing, indicates a degree of difficulty for a jumping DEX roll depending on the height and landing surface.
-Merc Ades, with a DEX of 14, leaps from a third story balcony onto a fig stand below.
-It's an apartment building so we assume 3 metres per floor: Merc is dropping 2 hexes onto a surface that's plenty pliant, but not particularly smooth or flat) Merc Ades needs not make any roll and lands safely  amongst the figs.
-If the landing is complex due to the surface, a change in gravity, being thrown or tossed the nature of the surface becomes more complex and makes the change of landing safely more difficult.
+include::ROOT:partial$CH19_Table_Safe_Landing.adoc[]
+
+=== Falling
+Falling is a failed jump.
+A failed jump inflicts damage during the sudden stop at the end of the fall.
+
+=== Damage From Falling
+.HPS Damage = 1d6-1 per hex of hite
+****
+A 10 hex fall would inflict 0 to 50 HPS of damage on impact.
+****
 
 
-// insert table 203
 
-=== Involuntary
-If a persona is thrown, or unexpectedly succumbs to gravity  she could easily be damaged by a 2 hex (4 meter) fall.
-If the above persona Merc Ade were thrown from the balcony she would need to make a successful DEX attribute roll to avoid getting damaged.
-Merc Ades lands flat on her back, squashing several kgs of figs.
-Since she fell 3 hexes, she takes 3d6 
-3.
-By a complete fluke, she rolls two 1s and a 3, which gives a grand total of 2 points.
-She shakes off the effects and sprints away down the street.
-
-Damage by falling, as any skydiver will blackly attest to, results from the sudden deceleration not the fall.
-In EXP terms, this means that damage from hitting a hard surface at high speed comes in neat little packages of (d6-1) for every hex fallen.
-Those of you readers well-versed in basic physics may be sputtering at this stage, since falling objects accelerate and thus should suffer varying damage rates depending on time.
-We just do not have the resources for such a factor.
-
-*Damage from Falling = 1d6 -1 per hex of height*
 
 Subtracting one point from the damage roll serves to simulate the effects of short drops, where it is entirely possible that by landing spread-eagled on the ground, your persona will completely avoid injury.
 Needless to say, falling uncontrollably onto a soft surface is preferable to falling uncontrollably onto a hard surface.
@@ -76,6 +67,11 @@ It is the fastest an object can fall in 1G normal atmosphere environment.
 Terminal velocity for an anthropomorph is 55 h/u, it takes 78 hexes of free fall to reach terminal velocity.
 So terminal velocity is terminal when the persona catastrophically decelerates for 78d6-78 hit points of damage.
 //+++<figure id="attachment_1862" aria-describedby="caption-attachment-1862" style="width: 244px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/08/cro-walrus.246-244x300.png?resize=244%2C300[Delicately adapted to slightly increased gravity.,244]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/08/cro-walrus.246.png)+++<figcaption id="caption-attachment-1862" class="wp-caption-text">+++Delicately adapted to slightly increased gravity.+++</figcaption>++++++</figure>+++
+
+
+
+
+
 
 == High Gravity 
 How can personas find themselves in a situation of high gravity?
@@ -328,7 +324,6 @@ Because of the reduced wate, wear and tear should decrease, fuel consumption sho
 What is not detailed is the effect of reduced friction required by surface vehicles for movement (cars slide more often), or the effect that reduced gravity has on instrumentation designed for normal gravity.
 
 == No Gravity
-
 No gravity is the absence of any significant gravitational attraction.
 No gravity is also known as zero g, null g, or watelessness.
 The abbreviation chosen here is ZOG, for zero G.
@@ -440,11 +435,9 @@ For example, a XHP revolver inflicts 4 to 48 points of damage.
 When fired the attacker will move at 5 h/u  (max damage is 48 HPS) away from the target.
 Assuming the target was hit for 12 HPS of damage, the wounded target would move in the opposite direction at 1 h/u.
 
-
 === Training
 Unless the persona is trained in zero gravity combat, or is using a weapon specifically designed for zero gravity, she will suffer the following penalties as per Table 19.3: Zero Gravity Combat Penalties.
 If the persona is trained in zero gravity combat all her bonuses will apply as normal.
-
 
 === Range
 There is no change to the accuracy of ranged weapons, but the projectiles will carry on indefinitely.
@@ -625,7 +618,6 @@ Moving one's hand first through the air, and then through water should demonstra
 Adventuring in liquids other than water will affect the buoyancy of objects drastically.
 The density of the liquid determines buoyancy, so liquids less dense than water will support fewer substances (wood or plastic may sink), and liquids more dense than water will float more substances (lead floats in mercury).
 For adventures in liquids other than water, it is up to the referee to do her research.
-.
 
 === Movement
 To say the least, underwater movement is completely foreign.

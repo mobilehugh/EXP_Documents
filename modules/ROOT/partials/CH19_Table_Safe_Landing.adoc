@@ -1,52 +1,52 @@
 // Table 19.1 Safe Landing
 .*Safe Landing*
-[width="75%",cols="4*^",frame="all", stripes="even"]
+[width="75%",cols="3*^",frame="all", stripes="even"]
 |===
-4+<|It's not the fall that kills the persona it is the landing. 
-s|Height (hexes)
-s|Safe
-s|Normal
-s|Complex
+3+<|It's not the fall that kills the persona it is the landing. 
+
+s|Hite (hexes)
+s|Difficulty
+s|Target Roll
 
 |<1
-|--
-|--
-|Easy (1d10)
+|None
+|0
 
-|1-2 
-|--
+|1 
+|Trivial
+|6
+
+|2
 |Easy
-|Normal (1d20)
+|12
 
-|2-3
-|Normal (1d20)
+|3
+|Normal
+|18
+
+|4
 |Hard
-|Tough
+|24
 
-|4-5
-|Hard
+|5
 |Tough
-|Impossible
+|36
 
-|6-7
-|Tough
+|6
 |Impossible
+|48
+
+|7
 |Bizarre
+|96
 
 |8
-|Impossible
-|Bizarre
-|--
+|None
+|Fall only
 
-|>8
-|Bizarre
-|--
-|--
+s|Hite
+s|Difficulty
+s|Target Roll
 
-s|Height (hexes)
-s|Safe
-s|Normal
-s|Complex
-
-
+3+<|Hex adjustment by size. Tiny +2, Small +1, Large -1, Gigantic -2
 |===

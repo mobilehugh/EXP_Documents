@@ -1,353 +1,434 @@
 = Health
 
-The physical health of a persona would be a combination of her hit points and her attributes.
+The physical health of a persona is a combination of her hit points and her attributes.
 Acute damage and injuries are kept track of through hit points (HPS).
-Long term decay is kept track of through dwindling of attributes.
-From the players's standpoint how much damage her persona can withstand, how long it will need to heal, and whether or not the persona will die should be answered here.
-Hit points and attributes are universal values across all three persona types.
-An anthro, an alien and a robot with 20 hit points have the same amount of resistance to damage.
-How each persona type is affected by the damage is quite different.
-Covered here is Damage, Healing, Death and Aging for the three respective persona types.
+This section covers damage, healing, aging and death of personas from all three families.
 
+.*Health Stuff*
+. <<_damage,Damage>>
+. <<_healing,Healing>>
+. <<_aging,Aging>>
+. <<_death,Death>>
 
 == Damage
+Damage represents acute injury to the body of the persona.
+Damage is reflected in dwindling hit points.
+Organic personas (aliens and anthros) can heal their damage through biologic processes.
+Inorganic personas (robots) cannot heal their damage, and must undergo repair.
 
-Hit points, also known as HPS, represent the persona's state of health  the more HPS she has, the harder she is to kill.
-During persona generation, every player rolls a maximum number #of HPS, which her persona can never exceed.
-Personas are assumed to be at maximum HPS at the start of play.
-(After all, who in her right mind would strike out on an adventure with a gill infection?).
-HPS are a dynamic, not a declining attribute, however, and whatever hit points a persona loses she can eventually be gained back again.
+The more HPS the persona has the hardier they are and the harder they are to kill.
+Every persona in the Roll Playing System is assigned a hit points total during creation, evolution or fabrication.
+HPS are a dynamic attribute.
+In most instances a persona can gain back HPS lost to damage via <<_healing,Healing>>.
 
 The most common damage mechanism is combat.
-When the persona is zapped by a plasma rifle, she will be hurt, and incur damage based on a die roll determined by the weapon that scored the hit (in this instance 4 to 48 HPS).
-Damage information is listed with the description of each weapon.
-Personas might also take damage from environmental effects  for instance, breathing poisonous fumes, tripping over a hedgehog, wandering into a lit furnace, or impacting a concrete bunker at terminal velocity.
-Fires, vacuums, hard surfaces, and similar harmful environments are described in http://expgame.com/?page_id=282[Chapter 19: Special Terrain].
-Dangerous substances like poisons and high-radiation ores require a saving throw, and are dealt with in http://expgame.com/?page_id=275[Chapter 16: Special Rolls].#
+A persona zapped with a plasma rifle will lose HPS.
+The amount of HPS is determined by the weapon inflicting the damage.
+Personas can also be damaged by breathing poisonous fumes, tripping over a hedgehog, wandering into a lit furnace, or impacting a concrete bunker at terminal velocity.
+All of these misadventures will subtract HPS from the persona.
+Losing too many HPS results in death.
 
-== Anthro Damage 
+A hit point is a hit point is a hit point.
+There are differences between how aliens, anthros and robots respond to HPS of damage.
 
-After taking damage, the persona will grimace, scream some sort of oath, and fight back or run away to safety.
-If a persona takes too much damage at once she can be stunned from shock, fall into a coma, or even die.
-No matter how the persona loses her HPS the nature of her damage is the same.
-In an extremely detailed tactical system (see http://expgame.com/?page_id=298[Chapter]http://expgame.com/?page_id=298[27, Tactical Combat]), may use hit locations and the persona may have a broken limb or swollen eyelid for a time.
-Mostly he merely has fewer hit points to squander in her next encounter, and as long as her total is still positive, she's fit enough to continue.
-#
+=== Anthro Damage
+Anthro personas have a few unique responses to being damaged.
+The persona may grimace, scream, fight, or run away.
+These are choices made by the player.
 
-=== Damage System Shock# 
+Anthros can be stunned if they take too much damage at once.
+They remain stunned until they spontaneously recover.
+These two responses are unique to anthro personas.
+Getting knocked out during combat is called Damage System Shock (DDS).
+Failing Damage System Shock renders the anthro unconscious.
+Recovering from this unconscious state is aptly called Recovery.
+The player must win a Recovery Roll to get her persona back on her feet.
 
-The DSS Roll is unique to anthros.
-Even personas with positive hit point totals can be incapacitated.
-If a persona loses more than half her current hit points at once, she might fall unconscious from the severity of the blow.
-The Damage System Shock (DSS) roll determines the chance of the anthro collapsing under the wate of an attack.
-It's a deci-die roll, in which the player must roll less than her Cox plus thrice her current HPS 
-current
-meaning what remains after the blow or collapse, stunned, to the pavement.
-Aliens and robots never need to make DSS rolls.
-So an anthro that has a CON of 11 and 9 HPS remaining would need to roll 38 or less on a d100.
-Otherwise thud.#
+These two rolls are described in the Anthro HPS section.
+* xref:i-persona_creation:CH03_AttributesCON.adoc[Damage System Shock Rolls, window=_blank]
+* xref:i-persona_creation:CH03_AttributesCON.adoc[Recovery Rolls, window=_blank]
 
-=== Recovery Roll# 
+When an anthro reaches zero HPS they fall into an unconscious coma and will quickly die from their wounds.
+There are many interventions that can prevent an anthro with negative HPS from expiring.
 
-The REC Roll is unique to anthros.
-If a player fails her persona's DSS roll, she must make a successful Recovery Roll (REC) roll to wake her up again.
-To do so, she must roll less than her CON plus five times her HPS on deci-dice  somewhat easier than the DSS roll to succeed at.
-She cannot, however, attempt the roll every unit, unless her CON is extraordinarily high.
-The time between REC rolls is known as the recovery time, and is determined by the persona's CON.
-The anthro above with a CON of 11 and 9 HPS of damage would need to roll under less than 56 on a d100 to regain consciousness.
-DSS and REC are two of EXP's special attribute rolls, and are described in greater detail in http://expgame.com/?page_id=275[Chapter 16,]http://expgame.com/?page_id=275[Special Rolls].#
+=== Alien Damage
+Alien personas their own unique responses to being damaged.
+The persona may growl, howl, fight, or run away.
+These are choices made by the player.
 
-A unit is a short period of time.
-Even an unconscious persona with 1 HPS and 1 CON, giving her a recovery time of 20 units and the need to roll under 6 on deci-dice, has a 60% chance of awakening within 10 minutes, and an 84% chance of coming to within 20 minutes.
-Seems like forever in combat, but not especially long periods when not in combat.
- It's far easier simply to assume that all stunned personas recover immediately once combat has ended, and can join in once again on the game.
-The referee and players will decide what is the most fun way to play damage system shock and recovery.
-If the group finds that these rules are slowing the game down, ditch them.
+Aliens cannot be knocked unconscious during combat.
+An alien persona can keep persevering in combat until all her HPS are exhausted.
+There is no Damage System Shock or Recover Rolls for aliens.
 
-== Alien Damage 
+There is an important caveat to this combat resistance.
+When an alien reaches zero HPS they are deceased. 
+There is no unconscious state for an alien persona.
+Aliens are not obligated to fight to the death, but they could if the player chose to.
 
-Aliens are biological creatures and take damage much the same way anthropomorphs do.
-However  they never require a DSS roll, and  cannot be knocked unconscious simply by  damage.
-Upon reaching 0 HPS, an alien is dead, rather than entering into a coma as an anthro would.
-This often makes aliens often #easier to kill than anthropomorphs  but such is the folly of playing an alien.
-This does not mean that an alien will always fight to the death, but they could if they chose to.
+=== Robotic Damage
+Robot personas their own unique responses to being damaged.
+The persona may beep, squeak, fight, or run away.
+These are choices made by the player.
 
-== Robotic Damage 
+Robots are not stunned by damage. 
+Robots do not feel pain from damage.
+Robots keep grinding along.
+There are no DSS or REC rolls for robots.
+They take a licking and keep on kicking.
 
-Robots do not heal.
-When one of their peripherals is snapped off at the base, it stays snapped off;
-if their casing is dented or punctured, it stays dented or punctured.
-HPS still represent a universal value of injury.
-10 HPS of damage to an anthro and 10 HPS of damage to a robot represent the same amount of pain and disfigurement.
-However an injured anthro will heal.
-If her finger were injured, could regain its full use by waiting a few days, a robot with a destroyed waldo unit could never use it again.
-Electrical and disintegration attacks do double damage to robots.
-A robot does not have damage system shock and can continue combat until 0 HPS.
-However #
+Robots have an extremely unique response when they reach zero HPS.
+The robot does not die or go unconscious.
+A robot persona falls apart a bit and keeps on functioning.
+Eventually a robot will fall apart and cease to function.
+However it is a very convoluted and drawn out process of xref:i-persona_creation:CH05_Robots_Z_HPS.adoc[mechanical decay, window=_blank].
 
-Robots can, however, reroute their entire internal circuitry around a critically damaged component so while a rodentia without a working heart would be certifiably dead, a robot in a similar predicament would merely malfunction for a while.
-In game terms, robots, upon hitting 0 HPS, do not die they start to fall apart.
-A robot reduced to zero hit points will have some peripheral malfunction which will result in an attribute being decreased.
-When any one of the persona's attributes is reduced to zero is a robot dead.
-Some fatal malfunction represented by an attribute value of zero ends to robot's crazed experience of consciousness.#
+== Healing
+Healing is any process or maneuver that returns HPS to the persona.
+Organic personas like aliens and anthros spontaneously heal under the correct circumstances.
+Inorganic personas like robots do not heal spontaneously.
+Robots do not heal at all.
+They just fall apart.
 
-Which attribute is reduced upon hitting zero hit points is determined on Table 5.27: Robotic System Malfunctions (included here for your convenience).
-+++</i>+++The amount that the affected attribute is reduced is determined on  Table 5.28: Robotic Malfunction Severity (included here for your convenience).
-The robot persona's Maximum HPS decreases by 10% every time she is reduced to 0 HPS.
-So a robot with 110 HPS, upon being reduced to 0, start taking damage again at 99 HPS.
-Once the 99 HPS are depleted the robot would start again with  89 HPS the third time, she would have 80 HPS and then 72, 64, 57, and so on until being consigned to the slag heap.
-Each iteration of zero hit points will also damage some attribute.
-Always round down when calculating a new maximum HPS.
-If a robot with a HPS maximum of 20 has only 5 HPS left, and takes 17 HPS of damage, it will lose those 5 HPS, jump to a new maximum of 18 HPs, and subtract the remaining 12 HPS from that, ending up with 6 HPS and a malfunction once the attack is over.
-Easy Peasy.
-#
 
-// insert table 77
-
-// insert table 78
-
-Even when a specific part of the robot has been hit, the system which malfunctions is determined randomly.
-External and internal injuries do not necessarily correspond: a sharp blow to the robot's anterior infrared antenna could do nothing to the antenna itself but be enough to dislodge a rusty brain component inside.
-Fatal malfunctions almost always claim robots sooner than death by loss of hit points.#
-
-Die rolls proliferate in robotic combat to such an extent that destroying a robot might seem to reduce playability drastically.
-If the players and referee gain particular enjoyment out of killing robots, all this extra consultation of tables might not cause a problem, but in the much more likely circumstance that speed is preferred, the referee should prepare a Robot Demolition Table.
-To facilitate combat, a Robot Demolition Table calculates ahead of time what peripherals and circuits would be damaged, and what effects this would have on attributes, should the robot take a certain level of #damage.
-
-On its top line are the robot's original attributes, including maximum HPS of 16.
-The first 15 HPS of damage this robot takes do nothing to its attributes;
-when it takes a 16th, its locomotion systems are damaged, lowering its DEX to 19, its PSTR.
-to 11, and its maximum HPS to 14.
-When its total damage #exceeds 30 HPS (16  + 14 HPS of damage) #it suffers damage to the brain, and a corresponding lowering of INT to 17 and maximum HPS to 12.
-Decay continues until the robot has taken 99 HPS of damage, at which point the robot is destroyed by a fatal malfunction of its AWE.
-All attribute damage has been rolled up in advance, to save time during play.#
-
-// insert table 79
-
-A completed Robot Demolition Table renders maximum HPS calculations needless.
-If the robot of this example has taken 47 HPS of damage during combat, the referee need only consult its table to find its current attributes, and discover that it can sustain 52 HPS of damage more before malfunctioning  whereas without a table, she would have to subtract 16, the robot's original HPS, from 47;
-calculate the new HPS maximum of 14;
-determine the damaged part and attributes;
-subtract 14 from the 31 remaining HPS of damage;
-calculate a second new HPs maximum of 12;
-determine another damaged part and more damaged attributes;
-subtract 12 from 17;
-calculate a third new HPS maximum of 10;
-determine yet another round of attribute damage;
-and finally subtract the last 5 HPS of damage from a 10 HPS maximum to get 5, the new HPS total.
-Clearly, a table represents the simpler procedure.#
-
-== Healing# 
-
-Healing is the recovery of lost hit points by natural or artificial means, up to the persona's maximum HPS level.
-While robots'
-wounds do not heal, those of both anthros and aliens do.
-With ample rest a body's organic healing processes can mend torn skin and muscle, patch broken bones, and stabilize damaged organs.
-If the persona has a negative hit point total, however, her body is too busy desperately maintaining the brain and other essential organs to waste energy on healing;
-she has suffered serious trauma, and without medical attention will soon die.
-Aliens with a negative Hit points total are already dead.
-As we know from above robots are yet another story.#
-
-== Anthro Healing 
+=== Anthro Healing
+Anthro bodies will spontaneously replenish their HPS under the right circumstances.
+For an anthro to spontaneously heal she must have at least zero HPS and rest completely.
+Anthro personas with less than zero HPS are critically ill and dying. 
+When an anthro's HPS are negative she cannot spontaneously heal.
 
 To heal damage naturally an anthro must rest completely.
-This means no combat, no exertion, no late-night standing watch, no carousing, no alcohol, and no other funny business;
-the persona must remain undisturbed in camp, a hotel room, or# an infirmary.
-If she meets these rest requirements, she will heal 1 HPS of damage upon waking after a good night's sleep.
-If intent on recuperating an anthro persona will heal 1 HPS on each of her first seven days of rest, and 2 HPS on each subsequent day.
-However, even one day's interruption from this regimen of recuperation will start the cycle anew, with seven more days of 1 HPS per day before the faster rate begins.
-No persona can increase her HPS level to greater than her HPS maximum.#
+The persona must remain undisturbed in camp, a hotel room, or infirmary.
+This means no combat, no exertion, no nocturnal sentry work, no carousing, no alcohol, and no other funny business.
+If there is an interruption in this intentional rest the persona will not heal that day.
 
-The persona must have at least 0 HPS to heal.
+The fruits of this lack of labour is +1 to her HPS Total each 24 hour period.
+For example, a resting anthro will go from 8 HPS Total to 9 HPS after a good night's sleep.
+Healing will not increase a persona's HPS Total greater than her HPS Max.
+Once at HPS Max the persona has been returned to full health.
+A veterinarian, or self operating medical device, can speed up persona healing. 
+
 If the persona has negative hit points she is dying, and cannot recuperate without medical attention.
+A veterinarian, or self operating medical device, will be needed or the persona will be dead in minutes.
 
-A persona with a HPS maximum of 26, whose current HPS are 11, decides to take a fortnight off to recover from her wounds.
-For the first week of rest, she would regain 1 HPS each day, until she had 18 HPS.
-If her convalescence continued uninterrupted, her HPS would increase by 2 each day, and by the end of four more days, she would have returned to full health.#
+Lost attribute scores cannot be healed by rest. 
+Rest cannot repair a decreased INT or PSTR attribute.
+Rest cannot reverse aging.
+Combating aging and attribute deterioration are very difficult veterinarian maneuvers.
 
-Lying back and resting is not the only way to regain lost HPS.
-The most common quick fix for wounds is to find a veterinarian, whose class skills include healing procedures, and convince her to help.
-Nomads can also carry out rudimentary first aid.
-#Some pharmaceuticals and other technological gizmos exist to repair damage, but these are almost always accompanied by dangerous side #effects.
-Some mutations can be used to heal personas  but the odds of encountering a being with such a mutation powerful enough to be of any use, compared to those offending a practising vet, are low enough to make the search not that #worthwhile.
+=== Alien Healing 
+Alien bodies will spontaneously replenish their HPS on a daily basis.
+An alien will spontaneously heal every sleep and does not need to intentionally rest.
 
-Trying to repair lost attributes is a completely Repairing lowered attribute scores always requires special medical attention.
-Rest cannot repair a damaged INT or PSTR attribute.
-Nor can any amount of rest reverse aging.
-#
+Alien persona's gain +1 HPS every morning.
+For example, an alien will go from 18 HPS Total to 19 HPS each calendar day.
+Healing will not increase a persona's HPS Total greater than her HPS Max.
+Once at HPS Max the persona has been returned to full health.
+A veterinarian, or self operating medical device, can speed up persona healing. 
 
-== Alien Healing 
-
-Alien healing is rather simple.
-They regain 1 HPS per day regardless of what they are up to.
 If an alien chooses to rest they will heal 2 HPS per day.
 Rest means not  hunting, carousing, running, hiding, but leisurely resting.
-Remember that an alien with 0 HPS is a dead alien.
+If there is an interruption in this intentional rest the alien will only heal one HPS that day.
 
-== Robotic Healing (Repair)# 
+An alien with 0 HPS Total is a dead alien and cannot be healed.
 
-Robots cannot heal.
-Robotic damage actually assists the robot by improving it's Control Factor (CF).
-The more damaged the robot the more insane the robot, and the more insane the robot the more personality it has.
-However excessive damage will start to destroy peripherals and circuitry.
-Robot repairs are dangerous because fixing a robot makes them more like a robot, and less like a persona.
-Robots can be repaired by a qualified mechanic using her class skills.
-A robot will usually avoid repair because the mechanic is more likely to replace the faulty circuits which grant it free will then repair HPS.
-#
+Lost attribute scores cannot be healed by rest. 
+Rest cannot repair a decreased INT or PSTR attribute.
+Rest cannot reverse aging.
+Combating aging and attribute deterioration are very difficult veterinarian maneuvers.
 
-== Death# 
+=== Robotic Healing
+Robots do not heal spontaneously.
+Robot persona's deteriorate in steps, or bounds, as HPS in damage accumulate.
+Damage is a direct form of experience for a robot.
+The EXPS from HPS damage can lead to increased EXPS Levels which leads to a higher CF and more free will.
+The more damage the more free will the robot persona has.
+Eventually accumulated damage will destroy the robot.
 
+Robot repairs are dangerous because fixing a robot makes them more like a robot.
+Robots can be repaired but run the risk of having their free will repaired out of them.
+Most robots will avoid repairs (healing) as they prefer free will. 
+
+Robot attributes and HPS Max deteriorate in a byzantine and complicated fashion.
+Jump to process of xref:i-persona_creation:CH05_Robots_Z_HPS.adoc[mechanical decay, window=_blank] to get the run down on robots running down.
+
+== Aging
+Time consumes everything in time.
+As personas age their attributes deteriorate until they are no more. 
+Personas are far more likely to succumb in combat than in an old folks home.
+Aliens and anthros age in a similar biological fashion. 
+Starting young and eventually getting old.
+Robots do not age at all. 
+
+:art: oldgeneral.png
+:width: 250px
+:snark: Unable and angry.
+:artist: unknown
+:date: 1991
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+All organic personas progress through five age categories: child, adolescent, adult, elder, and aged.
+As a persona's age category changes, her attributes change as well.
+Aliens and anthros pass through these age categories the same. 
+However aliens can have life spans much longer or much shorter than anthro personas.
+
+=== Anthro Aging
+Anthros generate their starting age when being created. 
+This starting age will usually put them in late adolescent or young adult age range.
+Attribute age adjustments are not applied to personas being created. 
+Each anthro type has it's own age categories.
+The implications of these age categories are explained in this section are under <<_aging_and_attributes,Aging and Attributes>>.
+
+include::ROOT:partial$CH13_Table_Anthro_Age_Categories.adoc[]
+
+Most anthro aging will take place due to temporal attacks that age or de-age the persona.
+The vast majority of personas die from everything other than aging.
+
+=== Alien Aging
+Aliens generate their starting age when being evolved. 
+This starting age will usually put them in late adolescent or young adult age range.
+Attribute age adjustments are not applied to personas being created. 
+Each alien species type has it's own age categories.
+The alien lifespan is unique to that species and is generated when evolving the alien.
+The implications of these age categories are explained in this section are under <<_aging_and_attributes,Aging and Attributes>>.
+
+=== Robot Aging
+Robots cannot heal themselves.
+Robots do not age either.
+The nearest equivalent to aging for a robot is the accumulation of malfunctions from damage. 
+A robot that avoids damage will not deteriorate.
+Robots have an age from their fabrication date, but that age bears no relation to their state of disrepair.
+Some referee personas have some level of deterioration built in for story purposes.
+This does not apply to robot player personas.
+
+== Aging and Attributes
+Aliens and anthros are affected by aging in the same fashion.
+The age category attribute affects are the same for both of the organic families.
+There are no numbers attached to the age categories because every species is different.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+It is unlikely that a persona will pass through any of these age categories.
+Most personas die from other means.
+There are chronologic based attacks and accidents that can biologically age unlucky personas.
+
+.*Organic Persona Age Categories*
+. Child
+. Adolescent
+. Adult
+. elder
+. Aged
+. Past Expiry
+
+include::ROOT:partial$CH13_Table_Age_Category_and_Attributes_Impact.adoc[]
+
+=== Child
+The youngest age category is that of child.
+Children are dependent on their elders, and have undeveloped physical and mental faculties.
+Personas will rarely start as children.
+However some referee personas may start as children.
+
+Any persona that descends into the child age category would face the following attribute adjustments.
+AWE	-1, CHA	+4, CON	-3, DEX	+2, INT	-2, MSTR -4, PSTR -3, and HPS Max -20%.
+In general children are cuter and weaker than their elder brethren.
+If these adjustments were to reduce a persona's attribute to zero or less the transition would kill them.
+
+=== Adolescent
+An adolescent is suffering through an age of transformation.
+This transformation can represent reproductive awareness, independence and identity.
+This is the start age of most personas.
+Attribute age category adjustments do not apply to personas being created.
+The changes are reserved for personas moving into the adolescent age category.
+
+A person ascending into adolescence would suffer/enjoy the follow attribute adjustments: AWE +1, CHA -5, CON +2,DEX -3, INT -1, MSTR -2, PSTR	+2, and HPS	+20%.
+In general adolescents are stronger, healthier and more irritating than their younger brethren.
+
+If these attribute changes allow a persona to pursue a vocation that is fine.
+When descending into adolescence from adulthood only the negative adjustments apply.
+If these attribute changes reduce an attribute to zero the persona is dead and that is unfine.
+
+=== Adult
+An adult has reached maturity in all aspects of her biology.
+An adult can fully function as an individual in their respective society.
+Adulthood represents a prolonged period of no physiologic change until things start to fall apart.
+
+A persona ascending to adulthood would enjoy improved wisdom and intelligence.
+Attribute changes are: AWE +0, CHA +1, CON +1, DEX +1, INT +1, MSTR	+2, PSTR +1, and HPS +0%.
+In general adults are stronger, wiser and smarter than their younger brethren.
+
+If these attribute changes allow a persona to pursue a vocation that is fine.
+If descending into adulthood from the elder age category *NO* attribute adjustments apply.
+If these attribute changes reduce an attribute to zero the persona is dead and that is unfine.
+
+=== Elder
+An elder persona has past peak performance and her attributes are beginning to wane.
+An elder persona can fully function as an individual in their respective society.
+She may or may not have earned an element of respect in her culture or society.
+Elderhood represents the beginning of biologically programmed physiologic descent.
+
+A persona ascending to an elder starts to weaken but gains a bit of wisdom and smarts.
+Attribute changes are: AWE -1, CHA +0, CON -2, DEX -2, INT +2, MSTR	+2, PSTR -2, and HPS -10%.
+In general elders are slightly weaker and slightly wiser than their younger brethren.
+
+Passing into elderhood does *NOT* allow a persona to pursue a new vocation.
+If descending into elderhood from the aged age category only negative attribute adjustments apply.
+If these attribute changes reduce an attribute to zero the persona is dead.
+
+=== Aged
+An aged persona is in a state of active deterioration.
+Things are really starting to suck.
+It is hard to imagine an aged persona in combat or traipsing around with an expedition.
+
+A persona ascending to the aged category weakens in most attributes.
+Attribute changes are: AWE -2, CHA +0, CON -3, DEX -4, INT +1, MSTR	+1, PSTR -4, and HPS -20%.
+In general aged personas are much weaker and slightly wiser than their younger brethren.
+
+Passing into aged category does *NOT* allow a persona to pursue a new vocation.
+If descending into aged from the past expiry age category only negative attribute adjustments apply.
+If these attribute changes reduce an attribute to zero the persona is dead.
+Life was long and good. 
+
+==== Annual Aged Checks
+Each calendar year in the aged category the persona faces deterioration.
+There is an unhappy birthday check to see if the persona suffers additional attribute aging penalties.
+If the player fails a Hard CON Attribute Roll (target roll of 24) the persona loses 2 attribute points.
+
+The player may choose which attribute are decreased.
+The player cannot choose to decrease her charisma or mental strength.
+So she could from her AWE, CON, DEX, INT, PSTR, or HPS (-20%).
+For example, the player could drop her AWE 2 points or spread it out between DEX -1 or HPS -20%.
+
+If these attribute changes reduce an attribute to zero the persona is dead.
+It was time. 
+
+=== Past Expiry
+The persona who's age has reached the past expiry point is quickly becoming a burden.
+Any persona that has lived past the upper limit of the aged category is considered past expiry.
+Surviving past the upper limit of aged is truly defying the genetic imperative and things deteriorate rapidly.
+
+Upon entering past expiry, and every calendar year past expiry, each attribute is decreased by 1 and her HPS Max decreased by 20%.
+This annual decrease is the minimum decrease possible each year. 
+There is also an unhappy birthday check to see if the persona suffers additional attribute aging penalties.
+If the player fails a Hard CON Attribute Roll (target roll of 24) the persona doubles the annual loss.
+
+If these attribute changes reduce an attribute to zero the persona is dead.
+Finally. 
+
+=== Quirks
+There are several quirks that come up with the attribute age adjustments.
+
+==== Attached Attribute Penalties
+If a change in INT leads to a change in MSTR does the persona's MSTR change with aging?
+Should a change in CON indicate a change in HPS Max? 
+This is left entirely up to the referee and other players.
+
+==== HPS Max Rounds Down
+When the persona is suffering a decrease in HPS Max the resultant value is rounded down.
+A HPS Max of zero is the same as any other attribute reaching zero and results in death of the persona.
+
+==== Extreme Life Spans
+Really short life spans may require the referee to adjust the years to months or even days.
+The referee and players should use the life span value indicated when the alien is evolved.
+Really long life spans should be affected by changes on the calendar year.
+If the end of life deterioration seems to fast it is up to the referee and players to adjust this.
+
+==== Chronologic Versus Biologic
+Under normal circumstances a personas chronologic age will equal her biologic age.
+The attributes are changes by the persona's biologic age.
+In some unusual cases the persona may need to keep track of two ages.
+
+A persona that spends a century in cryogenic suspension her chronologic age could jump from 35 to 135 without her aging a day biologically.
+Her attributes would still reflect that of a 35 year old persona.
+
+A persona prematurely aged by a chronologic attack her biologic age could jump from 35 to 75 while her chronologic age remains 35.
+She would have a 75 year old body in 35 calendar year old persona.
+
+Biologic age 
+
+== Death 
 Death in EXP is final.
 Persona death is big deal for player's.
 A player could be losing a persona they have played for years.
 The philosophy of killing off personas is not discussed here.
 The mechanics of persona death is discussed here.
-Most personas die through HPS loss, or attribute loss.
-Each of the persona types kicks off in a different fashion.
-Anthros slip into a dramatic coma, aliens drop dead, and robots literally fall apart.
-#
+Most personas die through HPS loss.
+Personas will rarely die of attribute loss.
 
-== Anthro Death # 
+Each family kicks off in a different fashion.
+Anthros slip into a coma, aliens drop dead, and robots fall apart.
 
-When an anthro reaches a negative HPs total, she isn't dead yet, but she is dying.
-A dying anthropomorph loses  1 HPS per game minute (30 units) until she is dead.
-An anthro with negative HPS is comatose slowly declining into oblivion.
-An anthro with a negative HPS total  is hurt beyond her body's healing limit.
-her natural healing processes have been overwhelmed by damage.
+=== Anthro Death 
+Anthros can die from losing HPS in trauma or losing attributes.
+
+When an anthro reaches a negative HPS Total, she isn't dead yet, but she is unconscious and dying.
+A dying anthro loses 1 HPS per game minute (30 units) until she is dead.
+An anthro with a negative HPS total is hurt beyond her body's healing limit.
 Only skilled intervention by a healer can save the anthropomorph's life.
-An anthro is dead once her HPS total reaches negative one half her HPS maximum.#
+An anthro is dead once her HPS total reaches negative one half her HPS maximum.
 
-An anthro dies when her HPS total drops to negative half her HPS maximum.
- A persona whose HPS maximum is 54 would be irrevocably and permanently dead at -26 HPS.
-And since a persona with negative HPS can do nothing other than lie about and bleed, she will very likely lose that final point.
-For example a person whose HPS maximum is 54 was smashed by a Garbling Snarfshanker and was left unconscious with -11 HPS, she would be dead in 15 minutes losing 1 HPS per minute.
-#
+An anthro whose HPS Max is 54 would be irrevocably and permanently dead at -27 HPS Total.
+An anthro with negative HPS can only lie about and bleed.
+For example, an anthro with 54 HPS Max was smashed by a Garbling Snarfshanker.
+She is now lying unconscious with a HPS Total of -12.
+She will lost 1 HPS per minute until 15 minutes passes and she is dead at -27 HPS.
 
-Survival is possible: if the anthro receives appropriate medical attention, she can be stabilized, halting her downward slide.
-Veterinarians are best at performing this stabilization, having a specific class skill for the procedure;
-in a #pinch, biologists and nomads can also tend unconscious personas, although with much greater difficulty.#
+If the anthro receives appropriate medical attention, she can be stabilized, halting her downward slide.
+Veterinarians are best at performing this stabilization, having a specific maneuvers to do so.
+A successfully stabilized persona will cease to lose HPS at the lethal rate of 1 per minute.
+If a stabilization maneuver fails, the vet can immediately try again, but the anthro loses 1 HPS.
 
-A successfully stabilized persona will cease to lose HPS at the lethal rate of 1 per minute, but each day she remains unconscious she must make a difficult (d20) CON roll or lose 1 HPS.
-Once stabilized, however, a persona can be healed as if her HPS total were positive.
-Her body still cannot heal itself through rest until her HPS total is at a least zero, but pharmaceuticals and quick fixes will still work on her.
-If stabilization fails, the vet (or other administer of aid) can try again immediately, but the 1 HPS per minute loss will continue until a successful stabilization has been completed or the persona dies.#
+The anthro cannot start natural biologic healing until her HPS total is zero
 
 Anthros can also die from attribute loss.
-There is no method for healing lost attributes.
-If any anthro's attribute drops to zero they are dead.
-This is most commonly caused by aging, although there are some attacks that reduces attributes directly.
-For example if an anthro with a AWE of 1 were to somehow have this attribute reduced to zero she would be irrevocably dead.
-A zeroed attribute represents a faculty which has completely ceased to function  hence a persona with an AWE of 0 has suffered a fatal collapse of her sensory processing system, cutting her off from all outside stimulus;
-a persona with an INT of 0 has died from a shutdown of the brain.
-#The only exception of this is the attribute of CHA.
-CHA can be reduced to below zero without death of the anthropomorph.
+If any attribute score reaches zero the persona is dead.
+For example, if an anthro with a AWE of 1 were to lose another AWE point she would be irrevocably dead.
+A zeroed attribute represents the complete loss of an essential faculty.
+A persona with an AWE of 0 has suffered a fatal collapse of her sensory processing system.
 
-== Alien Death 
+NOTE: *Charisma less than zero is undesirable but not lethal.*
 
+Attribute loss is usually due to aging.
+There are also some horrible attacks that reduce attributes directly.
+Attribute repair is a very difficult vet maneuver that is often fraught with complications.
+
+=== Alien Death 
 Alien death is not as dramatic as anthro death.
 Once an alien's HPS total reaches zero it is dead.
 There is no unconscious or savable dying state just a final thud to the ground.
-Aliens also are dead if any of their attributes are reduced to zero.
-For example an alien with a MSTR of zero would cease to have any connected consciousness or will and would be irrevocably dead.
-Attribute death for aliens includes CHA as well.
-So if any attribute of an alien is reduced to zero it is dead.
 
-== Robotic Death 
+Aliens can also die from attribute loss.
+If any attribute score reaches zero the alien is dead.
+For example, if an alien with a AWE of 1 were to lose another AWE point she would be irrevocably dead.
+A zeroed attribute represents the complete loss of an essential faculty.
+An alien with an AWE of 0 has suffered a fatal collapse of her sensory processing system.
 
-Robotic death is the most complicated of all the persona types.
-Robotic death is keenly connected to attribute decay and robots are way more likely to die from a destroyed attribute than HPS bashing.
-As described in Robot Damage above robots do not die when they are reduced to zero HPS.
-Each time a robot's HPS total drops to zero she continues to function, however one of her attributes drops.
-Once a peripheral or system of the robot is utterly destroyed the robot stops working forever.
-It is recommended to generate a robotic demolition table for your referee persona robots to improve the flow of the game.+++<figure id="attachment_1496" aria-describedby="caption-attachment-1496" style="width: 198px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/oldgeneral195-198x300.png?resize=198%2C300[Aging can remove the ability but not the desire to fight.,198]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/07/oldgeneral195.png)+++<figcaption id="caption-attachment-1496" class="wp-caption-text">+++Aging can remove the ability but not the desire to fight.+++</figcaption>++++++</figure>+++
+NOTE: *Charisma of zero is fatal for an alien.*
 
-== Aging 
+Attribute loss is usually due to aging.
+There are also some horrible attacks that reduce attributes directly.
+Attribute repair is a very difficult vet maneuver that is often fraught with complications.
 
-Eventually, if they escape destruction by any other means, biological personas will die of old age.
-How old they manage to get depends on three parts 1) persona type 2) their CON attribute and 3) luck.
-Both aliens and anthros age in the same way.
-A year is still a year, no matter what your persona looks like.
-She's just more likely to die young if she's a feline than a florian.
-Robots do not age.
-Their inorganic parts don't decay with time, they just get more personality.
-#
+=== Robotic Death 
+Robotic death is somewhat complicated.
+Robots rarely die from a loss of HPS.
+HPS less than zero have completely unique effects on robots.
+A robot that loses all their HPS simply deteriorate a bit.
+Because of this robots almost always die from attribute loss.
 
-All organic personas progress through five age categories: child, adolescent, adult, older, and aged.
-For anthros each category is detailed in Table 13.1: Anthropomorph Ages__.__ For aliens an alien specific age category is created during persona creation.
-As a persona's category changes, her attributes change as well.
-A child is much physically weaker, although much cuter, than the adolescent she will become.
-These effects of aging are presented in Table 13.2: Age Effects on Attributes.
-These changes are the same for aliens and anthros.
-These changes are not__ __cumulative.
-When an adolescent becomes an adult, her CHA increases by 6, not by 1.
-The start age of a persona, the age at which she first hearkens to the call of adventure, is determined in Section I Persona Generation.
-Age category attribute changes are NOT applied during persona generation and reflect changes in age.
-#
+If any attribute score reaches zero the robot is dead.
+For example, if an robot with a AWE of 1 were to lose another AWE point she would be scrap.
+A zeroed attribute represents the complete loss of an essential system.
+A robot with an AWE of 0 has suffered a fatal collapse of her sensory processing system.
 
-If an attribute change results in the change of another attribute it is up to the referee and players to decide if these effects should come to pass.
-For example an increase in CON also increases the number of dice the persona can roll for HPS.
-An increase in INT could improve mental strength.
+NOTE: *Charisma of zero is fatal for a robot. Robots start with an MSTR of zero.*
 
-Aliens go through the same five age categories as anthropomorphs do, and suffer the same effects, whether an alien's start age be 8 or 2012.
-The age categories for an alien persona are determined with her start age in http://expgame.com/?page_id=241[Chapter 6: Aliens].
-Robots, on the other hand, do not suffer from biological deterioration, as they have no biology to deteriorate.
-The nearest equivalent to aging on a robot is the accumulation of malfunctions it undergoes with the loss of HPS.
-Certainly all robots have an age, but that age bears no relation to their state of disrepair.#
+Attribute loss for robots is due to damage.
+Robots are usually immune to attacks that reduce attributes directly.
+Robots actively avoid repair.
 
-*Child*: The youngest age category is that of child.
-Children are characterized by dependence on their elders, and generally undeveloped physical and mental faculties.
-Personas will rarely start as children.
-If an adolescent were to somehow regress to a child age category her persona would suffer the attribute adjustments listed on Table 13.2.
-If these adjustments were to reduce a persona's attribute to zero or less the transition would kill them.
-#
+Robots do not have a MSTR. 
+This attribute starts at zero and cannot be reduced.
+IF a robot somehow gains a functional MSTR reducing it to zero would be fatal.
 
-*Adolescent*: An adolescent being is suffering through an age of transformation where she becomes sexually mature and begins to assert her independence and identity.
-This is the start age of most personas.
-When else would a persona head out on damn fool adventures?
-If a persona survives into the the Adult age category her attributes will change accordingly.
-She will become smarter and stronger.
-If these attribute changes allow a persona to pursue a new class that is fine.
-#
-
-*Adult and Older*: When she becomes an adult, she has reached maturity in all aspects of her existence, and can fully function as an individual in society.
-So boring.
-Not much happening here.
-The transition from adult to older will result in a weaker but wiser persona.
-The older age category marks the beginning of her biological end, as her health and strength gradually begin to fail.
-#
-
-*Aged*: Well now things start to suck.
-To survive past the older age category is to become aged, and these venerable personas have reached a stage of rapid physical and mental decay.# Once reaching the aged category the persona must apply the attribute changes listed Table 13.2: Age Effects On Attributes.
-So the persona's CON and DEX will drop, but her INT and MSTR will increase.
-But it gets worse.
-For each year in the category of aged the persona must survive a difficult CON roll (3d10).
-If she fails this roll she must subtract 1 point from the attribute of her choice (except CHA and MSTR).
-So a feline aging from 66 to 67 with a CON of 11 would need to make a CON check against 3d10 (see http://expgame.com/?page_id=275[Chapter 16, Special Rolls])#.
-If she rolls 11 or less, she does not deteriorate.
-If she rolls 12 or higher one of her attributes will drop by 1.
-She cannot drop her CHA or MSTR.
-It must be either AWE, CON, DEX, INT, or PSTR.
-She could also choose to drop her HPS maximum  by 10%.
-Whatever age category a persona is in, as soon as any of her attributes reaches zero she is dead.
-This process is the same for aliens and anthros.##
-
-[.s5]Surviving past the upper limit of aged is truly defying the genetic imperative and things deteriorate rapidly.
-#Each year past the upper limit of aged, the player must make a CON attribute roll on 3d10 (see http://expgame.com/?page_id=275[Chapter 16, Special Rolls]).
-If she fails, her persona will lose 1 AWE, 1 CON, 1 DEX, 1 INT, 1 PSTR, and 10% from her HPS maximum.
-If the CON roll is successful, none of her attributes will deteriorate.
-There is a small chance that her MSTR will increase.
-If the persona made a successful CON roll and makes a successful difficult INT roll her MSTR will increase by one by one.
-Whatever age category a persona is in, as soon as any of her attributes reaches zero she is dead.
-This process is the same for aliens and anthros.#
-
-*Chronologic Versus Biologic*: Under normal circumstances a personas chronologic age will equal her biologic age.
-However there are situations where this no longer is the case.
-For example if a persona spends a century in cryogenic suspension her chronologic age could jump from 35 to 135 without her aging a day a day biologically.
-Her attributes would still reflect that of a 35 year old persona.
-Conversely, if she was prematurely aged by a psychic attack, she could become fully adult biologically without changing her biologic age.
-The biological age of a persona, the age her body thinks it is, is the best measure of her lifespan.
-Instant changes in biologic age are relatively rare, but if the persona has been dealt the years in damage by attack, or by living life, they count the same#
-
-// insert table 154
-
-// insert table 155

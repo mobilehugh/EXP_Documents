@@ -27,12 +27,14 @@ Allowing the player to run the robot persona like an irrational player.
 
 NOTE: For a robot *insane* means free willness, not mental illness.
 
-== Control Factor Rolls
-
+== Control Factor Roll
 Robots were not fabricated to exercise their free will and ignore their programmed tasks.
 Whenever a robot is challenged to "get back to work" she must make a control factor check.
 The control factor check is a die roll that the player makes to keep control of her persona.
 If the control factor check fails the player can only do what her robot was programmed to do.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
 
 For example, domestic janitorial bot could be find itself in a messy bathroom.
 The referee could challenge to bot to a Control Factor Check to *not* clean the bathroom.
@@ -41,43 +43,40 @@ The referee and players will decide how frequent control factor rolls are made.
 The frequency of Control Factor Rolls can be frequent or infrequent. 
 Some referees will have the players checking several times a session.
 
-TIP: Rules maintain game balance and assist creativity. +
-*Do not let rules get in the way of the story or the fun.*
+.*CF Roll Checklist*
+. <<_calculate_control_factor,Robot Control Factor>>
+.. Combination of INT, INT range and EXPS Level
+. <<_cf_roll_difficulty,CF Roll Difficulty>>
+. Determine Target Roll
+.. Target Roll = CF Roll Difficulty
+. <<_make_the_roll,Make the Roll>>
+.. The player rolls a 1d20
 
-== Control Factor Roll
-
-Whenever a robot persona performs a task for which it was originally designed -- a janitorial bot cleaning up, a combat bot killing an opponent --it must roll below its control factor or briefly return to it's original programming.
-Control Factor rolls are usually Normal Attribute rolls  (1d20).
-If the janitorial bot were ordered to clean up a room by a charismatic mechanic from the robot's base family, a tough (1d50) Control Factor roll would be need to be made.
-
-The Control Factor of a robot is the robot's INT plus its experience level, and represents how well it has learned to bypass its programming.
-To fail a Control Factor roll is to give in to that programming, a persona robot phenomenon known as loss of control.
-A robot that has lost control becomes a helpless automaton, a temporary referee person.
- The persona will continue to perform exactly its programmed function without deviation until it regains control of itself.
-If the failure occurs during combat, it will last a random number of units determined by the same, die the robot lost control with so failing a tough (d50) CF roll would result in d50 units of boring, non-sentient behaviour.
-Outside of combat, the failure will last a random number of minutes on the same die: failing an improbable (d100) roll might lead to over an hour and a half of tedium.
-
-*Control Factor (CF) = Intelligence plus EXPS Level*
-
-
-
-
-== CF Check Difficulty
+== CF Roll Difficulty
 The difficulty of the CF Check is determined by the referee and player. 
 The more difficult the CF Check the more likely the player will lose control of the robot.
+
 For a domestic janitorial bot to ignore cleaning a messy bathroom would be easy difficulty.
 For a domestic janitorial bot to mess up a clean bathroom would be hard difficulty.
 In the first case the robot could go about her business exhibiting free will.
 In the second case the robot would likely not be able to intentionally mess up the bathroom.
 
-****
-Control Factor rolls are being worked into the High Roll Paradigm. There are no procedural details on CF rolls at present. See  xref:ii-non_combat_rules:CH16_Special_Rolls.adoc[Special Rolls]  for rework in progress.
-****
+include::ROOT:partial$CH16_Table_Attribute_Roll_Difficulty.adoc[]
+
+== Make the Roll
+The player must roll higher than or equal to the target roll for the Control Factor Roll.
+The roll is made on a 1d20 and the persona's control factor (CF) is added to the roll.
+The CF Roll is a specialized Attribute Roll that applies only to robot personas.
 
 == Loss of Control
-A failed CF check will indicate that the player has temporarily lost control of her persona.
+A failed CF Roll will indicate that the player has temporarily lost control of her persona.
+This could be a player or referee robot persona that has reverted to their production state.
 The player still runs the robot persona, but she can only do things that the robot would do
-CF Rolls should be fun. 
+
+On occasions a CF Roll failure has a heavy combot reverting to wanting to kill the expedition.
+CF fails should be fun. 
 They can even be funny.
 CF Checks should add to the story and fun of role playing. 
 It would be an example of extreme __roll playing__ to destroy a robot persona with a CF Check.
+
+
