@@ -7,11 +7,227 @@ Each anthro type is considered a species with names like homo avis, or homo feli
 A homo felis (feline) would be further differentiated as a cat, lion or cougar.
 The final appearance of the anthro type is chosen by the player.
 
-Player can choose their Anthro type and record it on their persona record.
-For Example, Hominidae Canine.
-The player can also roll their Family type if they choose.
+.*Anthro Creation*
+. Attributes
+.. Size
+. Type
+. Vocation
+. Skills
+. Abilities
+. Artifacts
+. Name
+. Appearance
+. History
 
-include::ROOT:partial$CH26_Table_Record_Anthro.adoc[]
+== Anthro Attributes
+The standard attributes of EXP exist in all attributes.
+For the Role Playing System personas only record the attribute that their persona excels at.
+A persona could have a blank attributes section and function fine.
+Another persona may have the attribute intelligence. 
+This indicates that the persona's INT is something she excels at.
+It is also possible for a persona to excel at two attributes.
+For example, INT and DEX.
+
+There is no score assigned to each attribute. 
+If the persona excels at an attribute they benefit when that attribute is being used.
+For example a persona physical strength would have better results than a persona with INT when lifting.
+If two personas grappling both had physical strength then there would be no advantage given.
+However if a persona with PSTR and DEX is grappling a persona with just PSTR they get a DEX advantage.
+
+These advantages are called shifts and are added to the result from the 4D2 Mechanism.
+The attribute of Mental Strength is present but not available to the persona at creation.
+There are no Hit Points, Social Standing or EXPS or EXPS Levels.
+
+The player does not generate numbers for their list of attributes.
+The persona starts with one attribute that she excels in.
+This can be randomly generated or chosen by the player. 
+
+include::ROOT:partial$CH26_Table_Attribute.adoc[]
+
+=== Size
+Size is an attribute assigned to every persona.
+All anthros are size medium.
+The size is recorded under the attributes section of the persona record.
+For example, the persona record sheet could have Medium and INT recorded under 
+
+=== MSTR 
+Mental Strength exists as an attribute.
+MSTR must be acquired through a story set out by the players..
+If the referee would like a band of knites off on damn fool missions then every persona gets MSTR.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+The MSTR attribute can be earned by completing an MSTR testing story line laid out by the players.
+Also MSTR can be assigned by suffering and surviving a mortal wound in combat.
+The players will decide if the MSTR attribute has been earned by the persona.
+
+=== Levels
+There are no EXPS and no EXPS levels. 
+Personas are awarded additional attributes, skills and abilities instead of levels or EXPS.
+When the 4D2 Mechanic generates a natural Immaculate Successes the persona can acquire a new attribute, skill or ability.
+
+=== HPS
+There are no HPS Max or HPS Total.
+Combat is quite absolute and descriptive. 
+There is no quantitative measure of well being like 32 HPS Total out of 42 HPS Max.
+Personas are damaged in combat by losing attributes, skills and abilities instead of HPS.
+When the 4D2 Mechanic generates a Cataclysmic Failure the persona can lose an attribute, skill or ability.
+Extreme failures on the 4D2 Mechanic can mortally wound or kill the persona as well.
+
+== Anthro Type
+There are twelve distinct anthro types to choose from.
+If the player does not feel like choosing she may randomly select her persona type.
+
+include::ROOT:partial$CH26_Table_Role_Anthro_Type.adoc[]
+
+=== Type Abilities
+If the player generates her anthro type randomly she can choose from the abilities listed.
+If the player wishes to choose her anthro type for style and story the abilities are not an option.
+This is an effort to promote diversity.
+
+Aquarian::
+Homo Pisces are anthropomorphized aquatic beings. 
+The player may add the ability water breathing to her aquarian persona.
+
+Avarian::
+Homo Avis are anthropomorphized avarian beings.
+Flying can only be acquired through mutation. 
+The player may add the ability detect ambush her avarian persona.
+
+Canine::
+Homo Canis are anthropomorphized dog beings.
+The player may add the ability radiation sense to her canine persona.
+
+Equine::
+Homo Equus are anthropomorphized hooved beings.
+The player may add either the ability sprinting, or the ability jumping to her equine persona.
+
+Feline::
+Homo Felis are anthropomorphized cat beings.
+The player may add either the ability ambush, or the ability sprinting to her feline persona.
+
+Florian::
+Homo Flora are anthropomorphized plant beings.
+The player may add the ability photosynthesis to her florian persona.
+
+Humanoid::
+Homo Mutabilis can appear any humanoid form.
+For example, simians, hobbits, suidae, dwarves, humans or orcs.
+The player may add an ability from Physical Mutations or Mental Mutations.
+The mutation will be randomly assigned. 
+The player must remove CHA from her attribute list.
+
+Insectoid::
+Homo Insectum are anthropomorphized insect beings.
+The player may add the ability MSTR resistance to her insectoid persona.
+This is not the attribute MSTR, but a defence against MSTR attacks.
+
+Pure Strain::
+Pure Strains are Homo Sapiens (us mundane humans) sporting any imaginable skin colour.
+The player may add the attribute CHA to her Pure Strain persona.
+This persona cannot start with a mutation ability and cannot acquire mutation abilities.
+
+Reptilian::
+Homo Serpens are anthropomorphized reptile beings.
+The player may add either the ability Torpor, or the ability Chameleon to her persona.
+
+Rodentia::
+Homo Rodens are anthropomorphized rodent beings.
+The player may add either the ability Night Vision, or the ability Sprinting to her persona.
+
+Ursidae::
+Homo Ursus are anthropomorphized bear beings.
+The player may add either the ability Frenzy or the ability Hibernation to her persona.
+
+== Anthro Vocation
+A vocation is a calling or innate skill set possessed by the persona.
+If the referee's milieu suits a vocation could also mean training at a school, institute or guild.
+The player may choose from any of the listed vocations or choose one randomly.
+
+include::ROOT:partial$CH26_Table_Role_Vocations.adoc[]
+
+=== Vocation Abilities
+If the player generates her vocation randomly she can choose from the attributes listed.
+If the player wishes to choose her vocation type for style and story the attributes are not an option.
+This is an effort to promote diversity.
+
+Biologist::
+The biologist is dedicated to studying the organic world.
+This ranges from it's denizens to it's cultures.
+The player may add AWE to her personas attributes.
+
+Knite::
+The knite is dedicated to the promoting order, or chaos, by connecting the Physical and Think Spaces. 
+A player cannot choose or randomly generate the vocation knite.
+Before a persona can become a knite she must earn her MSTR attribute.
+The Knite vocation can be earned by completing an Knite testing story line laid out by the players.
+Also Knite can be assigned by suffering and surviving a mortal wound in combat.
+The players will decide if the Knite vocation has been earned by the persona.
+
+Mechanic::
+The mechanic is dedicated to studying the inorganic world.
+This ranges from it's robots to it's scientific systems.
+The player may add INT to her personas attributes.
+
+Mercenary::
+The mercenary is dedicated to promoting order, or change, via violence.
+Mercenaries are not psychotic, violent or cruel.
+They are skilled in the art of war and weapons.
+The player may add PSTR to her persona attributes.
+
+Nomad::
+The nomad is dedicated to surviving and integrating into her surrounding world.
+This includes all aspects of survival, travel and shelter in all terrains.
+The player may add CON to her persona attributes.
+
+Nothing::
+The nothing is dedicated to all things mundane.
+This includes money, appearance and social standing.
+This vocation can be only be chosen by the player.
+A persona may become a nothing if she has no attributes listed.
+A persona has the vocation veterinarian and the attribute CHA.
+If she loses the attribute CHA, leaving her with none, she would become a Nothing.
+
+Spie::
+The spie is devoted to all things deceptive, sneaky and fabricated.
+The includes disguises, sneaking and assassination.
+The player may add DEX to her persona attributes.
+
+Veterinarian::
+The veterinarian is devoted to repairing and improving all organic beings.
+This includes diagnosis, surgery and medications.
+The player may add CHA to her persona attributes. 
+
+== Skills
+Skills are learned aptitudes that are not baked into the persona like an ability.
+A mutation, or anthro type ability, are not skills.
+A persona could master the skill knife throwing but she could not learn photosynthesis.
+
+Every player rolls one Nothing Skill.
+Then they roll one skill from her vocation's skill table. 
+
+// big link list
+
+== Abilities
+Abilities are unlearned aptitudes that are baked into the persona's physiology.
+A persona can only have the ability photosynthesis built into her.
+Anthros abilities come from either anthro abilities or mutations.
+The player must randomly generate their anthro type to score anthro abilities like torpor or frenzy.
+Mutations are assigned to persona depending on the anthro types and attributes of the persona.
+
+.*Mutate Now. Avoid the post bomb rush.*
+* Homo Mutabilis are assigned one completely random mutation.
+* CON attribute personas are assigned one non-defective Physical Mutation.
+* INT attribute personas are assigned one non-defective Mental Mutation.
+
+== TOYS
+Personas get a TOY roll. 
+This can be chosen from the list or generated.
+TOYS is under construction.
+
+include::ROOT:partial$CH20_Table_Class_Specific_Artifacts.adoc[]
+
 
 == Anthro Name
 Random personas are best named at the end of persona generation.
@@ -23,94 +239,6 @@ The most basic observable description must be included here.
 For anthros that means the family anthro and species of choice. 
 Additional descriptors like clothing, personality can also be included here.
 For example, anthro feline tabby wearing a camo kilt carrying a big rifle.
-
-== Anthro Attributes
-The player does not generate numbers for a list of attributes.
-The persona has one attribute that she excels in.
-This can be randomly generated or chosen by the player. 
-
-// attributes not blank size is always present
-// personas get one attribute 
-// that is there good attribute
-
-include::ROOT:partial$CH26_Table_Attribute.adoc[]
-
-=== Size
-Size is an attribute assigned to every persona.
-All anthros are size medium.
-The size is recorded under the attributes section of the persona record.
-For example, the persona record sheet could have medium and INT recorded under 
-
-=== MSTR 
-Mental Strength exists as an attribute.
-MSTR must be acquired through a campaign.
-If the referee would like a band of knites off on damn fool missions then every persona gets MSTR.
-
-TIP: Rules maintain game balance and assist creativity. +
-*Do not let rules get in the way of the story or the fun.*
-
-The MSTR attribute can be earned by completing an MSTR testing story line laid out by the players.
-Also MSTR can be assigned by suffering and surviving a mortal wound in combat.
-The players will decide if the MSTR attribute has been earned by the persona.
-
-=== Levels
-No EXPS no levels. 
-Immaculate successes add attributes, skills or abilities.
-
-=== HPS
-No HPS Max or Total.
-Combat either kills a persona or takes away an attribute, skill or ability.
-Permanently or temporarily.
-
-== Anthro Vocation
-Anyone choose anything from the list.
-
-// consider random or matching attribute
-// what is bonus for vocation linked attribute?
-
-
-include::ROOT:partial$CH26_Table_Role_Vocations.adoc[]
-
-=== Nothing
-The Nothing is a vocation.
-A player can choose to have a nothing persona.
-If a persona loses all of her attributes she becomes a nothing.
-
-=== Knite
-Before a persona can become a knite she must earn her MSTR attribute.
-The Knite vocation can be earned by completing an Knite testing story line laid out by the players.
-Also Knite can be assigned by suffering and surviving a mortal wound in combat.
-The players will decide if the Knite vocation has been earned by the persona.
-
-== Skills
-One nothing skill.
-One skill from vocation.
-One skill from attribute.
-
-Skills hold on if vocation lost.
-
-== Abilities
-Quirks that are baked into the persona.
-These are mutations in the case of anthros.
-Abilities cannot be chosen.
-
-A persona with a CON can pick a physical mutation
-A persona with an INT can pick a mental mutation.
-
-No defects. 
-
-== TOYS
-Personas get a TOY roll. 
-This can be chosen from the list or generated.
-TOYS is under construction.
-
-Biologist - any
-Veterinarian - vet
-Nomad - miscellaneous equipment
-Nothing - treasure
-Spie - miscellaneous weapon
-Mechanic - Any
-Mercenary - Gun
 
 == History
 Keep track of the fun.
