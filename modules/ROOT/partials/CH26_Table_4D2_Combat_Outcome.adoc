@@ -1,8 +1,8 @@
 // Four Dee Two Persona Result
-.*4D2 Combat Outcome Table*
-[width="90%",cols="^,<,<", stripes="even"]
+.*4D2 Combat Outcomes Table*
+[width="90%",cols="^1,2,3", stripes="even"]
 |===
-3+<|2d6-2d6 Result to Descriptor to Outcomes  
+3+<|2d6 minus 2d6. Result, Descriptor and Outcomes  
 
 s|Result
 s|Descriptor
@@ -10,48 +10,65 @@ s|Outcome
 
 s|+10
 |Immaculate Success
-|Choose new skill +
-Double bump maneuver
+|P: Choose new skill +
+A: Kill, Disable, Stun, Mortally wound +
+D: Permanent
 
 s|+9
 |Wonderous Success
-|Assign new skill +
-Bump Maneuver
+|P: Assign new skill +
+A: Kill, Disable, Stun, Mortally wound +
+D: Permanent
 
 s|+8
 |Magnificent Success
-|Choose Temp skill +
-Bump Maneuver
+|P: Choose Temp skill +
+A: Kill, Mortally wound +
+D: Permanent
 
 s|+7
 |Majestic Success
-|Assign Temp skill +
-Bump Maneuver
+|P: Assign Temp skill +
+A: Mortally wound +
+D: Permanent
+
 
 s|+6
 |Masterful Success
-|Random temp skill +
-Bump Maneuver
+|P: Random Temp skill +
+A: Disable +
+D: Entire combat
+
 
 s|+5
 |Extraordinary Success
-|Bump Maneuver 
+|P: --  +
+A: Disable  +
+D: Entire combat
 
 s|+4
 |Outstanding Success
-|
+|P: --  +
+A: Disable +
+D: Two attacks
 
 s|+3
 |Superior Success
-|
+|P: --  +
+A: Disable   +
+D: One attack
 
 s|+2
 |Solid Success
-|
+|P: --  +
+A: Stun   +
+D: Shift 2 attacks
 
 s|+1
 |Barely Successful
-|
+|P: --  +
+A: Stun   +
+D: Shift 1 attack
 
 s|0
 s|Detent
@@ -59,54 +76,67 @@ s|Roll Again
 
 s|-1
 |Minor Failure
-|Minute cool
+|P: --  +
+A: Stunned   +
+D: Shift 1 attack
 
 s|-2
 |Clear Failure
-|Minute cool
+|P: --  +
+A: Stunned   +
+D: Shift 2 attacks
 
 s|-3
 |Major Failure
-|Hour cool
+|P: --  +
+A: Disabled   +
+D: One attack
 
 s|-4
 |Severe Failure
-|Day cool
+|P: --  +
+A: Disabled +
+D: Two attacks
 
 s|-5
 |Massive Failure
-|Week cool
+|P: --  +
+A: Disabled  +
+D: Beyond combat
 
 s|-6
 |Complete Failure
-|Worsen maneuver +
-Week cool
+|P: --  +
+A: Wounded +
+D: Beyond combat
 
 s|-7
 |Grievous Failure
-|Assign Temp loss + 
-Worsen maneuver  +
-Week cool
+|P: Assign Temp Loss  +
+A: Unconscious +
+D: Beyond combat
 
 s|-8
 |Disastrous Failure
-|Random Temp loss + 
-Worsen maneuver +
-Week cool
+|P: Random Temp Loss  +
+A: Mortally Wounded +
+D: Permanent
 
 s|-9
 |Calamitous Failure
-|Assign Perm loss + 
-Worsen maneuver +
-Week cool
+|P: Assign Perm Loss  +
+A: Mortally Wounded +
+D: Permanent
 
 s|-10
 |Cataclysmic Failure
-|Random Perm loss + 
-Double Worsen maneuver +
-Month cool
+|P: Random Perm Loss  +
+A: Dead, Mortally Wounded, Unconscious +
+D: Permanent
 
 s|Result
 s|Descriptor
 s|Outcome
+
+3+<| P = persona outcome, A = action outcome, D = duration of outcome
 |===
