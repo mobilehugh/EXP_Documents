@@ -1,138 +1,145 @@
 // Four Dee Two Persona Result
-.*4D2 Combat Outcomes Table*
-[width="90%",cols="^1,2,3", stripes="even"]
+.*4D2 Example Combat Outcomes Table*
+[width="90%",cols="^1,2,2,2,3", stripes="even"]
 |===
-3+<|2d6 minus 2d6. Result, Descriptor and Outcomes  
+5+<|2d6 minus 2d6. Result, Descriptor and Example Outcomes  
+
+||
+3+<s|Example Outcomes
 
 s|Result
 s|Descriptor
-s|Outcome
+s|Persona
+s|Organic Target
+s|Inorganic Target
 
 s|+10
 |Immaculate Success
-|P: Choose new skill +
-A: Kill, Disable, Stun, Mortally wound +
-D: Permanent
+|Add Chosen skill
+|Fatal Wound
+|Destroy 2 Attributes
 
 s|+9
 |Wonderous Success
-|P: Assign new skill +
-A: Kill, Disable, Stun, Mortally wound +
-D: Permanent
+|Add Random skill
+|Fatal Wound
+|Destroy 1 Attribute
+
 
 s|+8
 |Magnificent Success
-|P: Choose Temp skill +
-A: Kill, Mortally wound +
-D: Permanent
+|Choose Temp skill
+|Mortal Wound
+|Damage Attribute
 
 s|+7
 |Majestic Success
-|P: Assign Temp skill +
-A: Mortally wound +
-D: Permanent
-
+|Random Temp skill
+|Mortal Wound
+|Destroy Peripheral
 
 s|+6
 |Masterful Success
-|P: Random Temp skill +
-A: Disable +
-D: Entire combat
+|
+|Wound
+|Destroy Programming
 
 
 s|+5
 |Extraordinary Success
-|P: --  +
-A: Disable  +
-D: Entire combat
+|
+|Wound
+|Damage Peripheral
 
 s|+4
 |Outstanding Success
-|P: --  +
-A: Disable +
-D: Two attacks
+|
+|Severe Stun
+|Damage Programming
 
 s|+3
 |Superior Success
-|P: --  +
-A: Disable   +
-D: One attack
+|
+|Stun
+|Severe Rattle
 
 s|+2
 |Solid Success
-|P: --  +
-A: Stun   +
-D: Shift 2 attacks
+|
+|Full Backfoot
+|Rattle
 
 s|+1
 |Barely Successful
-|P: --  +
-A: Stun   +
-D: Shift 1 attack
+|
+|Half Backfoot
+|Cosmetic Injury
+
 
 s|0
 s|Detent
 s|Roll Again
+2+<s|Ongoing combat story.
 
 s|-1
 |Minor Failure
-|P: --  +
-A: Stunned   +
-D: Shift 1 attack
+|
+|Nil
+|Nil
 
 s|-2
 |Clear Failure
-|P: --  +
-A: Stunned   +
-D: Shift 2 attacks
+|
+|Half Backfoot
+|Cosmetic Damage
 
 s|-3
 |Major Failure
-|P: --  +
-A: Disabled   +
-D: One attack
+|
+|Full Backfoot
+|Rattle
 
 s|-4
 |Severe Failure
-|P: --  +
-A: Disabled +
-D: Two attacks
+|
+|Stun
+|Severe Rattle
 
 s|-5
 |Massive Failure
-|P: --  +
-A: Disabled  +
-D: Beyond combat
+|
+|Severe Stun
+|Damage Programming
 
 s|-6
 |Complete Failure
-|P: --  +
-A: Wounded +
-D: Beyond combat
+|
+|Wound
+|Damage Peripheral
 
 s|-7
 |Grievous Failure
-|P: Assign Temp Loss  +
-A: Unconscious +
-D: Beyond combat
+|
+|Wound
+|Destroy Programming
 
 s|-8
 |Disastrous Failure
-|P: Random Temp Loss  +
-A: Mortally Wounded +
-D: Permanent
+|Lose Temp skill
+|Mortal Wound
+|Destroy Peripheral
 
 s|-9
 |Calamitous Failure
-|P: Assign Perm Loss  +
-A: Mortally Wounded +
-D: Permanent
+|Lose Chosen skill
+|Mortal Wound
+|Damage Attribute
 
 s|-10
 |Cataclysmic Failure
-|P: Random Perm Loss  +
-A: Dead, Mortally Wounded, Unconscious +
-D: Permanent
+|Lose Random skill
+|Fatal Wound
+|Destroy 1 Attribute
 
 s|Result
 s|Descriptor

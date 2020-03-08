@@ -1,143 +1,124 @@
-// Four Dee Two Persona Result
-.*4D2 Maneuver Outcomes Table*
-[width="90%",cols="^1,2,3", stripes="even"]
+.*4D2 Example Maneuver Outcomes Table*
+[width="90%",cols="^1,2,2,3", stripes="even"]
 |===
-3+<|2d6 minus 2d6. Result, Descriptor and Outcomes  
+4+<|2d6 minus 2d6. Result, Descriptor and Example Outcomes.  
 
 s|Result
 s|Descriptor
+s|Persona
 s|Outcome
 
 s|+10
 |Immaculate Success
-|P: Choose new skill +
-A: Success and Double Bump +
-D: Permanent
+|Add Chosen Skill.
+|Success. Double Bump. Permanent
 
 s|+9
 |Wonderous Success
-|P: Assign new skill +
-A: Success and Double Bump +
-D: Permanent
+|Add Random Skill.
+|Success. Bump. Permanent
 
 s|+8
 |Magnificent Success
-|P: Choose Temp skill +
-A: Success and Bump +
-D: Permanent
+|Choose Temp Skill.
+|Success. Bump. Permanent
 
 s|+7
 |Majestic Success
-|P: Assign Temp skill +
-A: Success and Bump +
-D: Permanent
+|Random Temp Skill.
+|Success. Bump. Permanent.
 
 
 s|+6
 |Masterful Success
-|P: Random Temp skill +
-A: Success and Bump +
-D: Permanent
-
+|
+|Success. Bump. Permanent.
 
 s|+5
 |Extraordinary Success
-|P: --  +
-A: Bump Maneuver  +
-D: Permanent
+|
+|Success. Lasts months.
+
 
 s|+4
 |Outstanding Success
-|P: --  +
-A: Success +
-D: Permanent
+|
+|Success. Last weeks.
 
 s|+3
 |Superior Success
-|P: --  +
-A: Success   +
-D: Days
+|
+|Success. Lasts days.
 
 s|+2
 |Solid Success
-|P: --  +
-A: Success   +
-D: Hours
+|
+|Success. Lasts hours.
 
 s|+1
-|Barely Successful
-|P: --  +
-A: Success   +
-D: Minutes
+|Barely Successful.
+|
+|Success. Lasts minutes.
 
 s|0
 s|Detent
 s|Roll Again
+s|Ongoing effort story. 
 
 s|-1
 |Minor Failure
-|P: --  +
-A: Fail +
-D: Minutes to retry
+|
+|Failure. Wait seconds.
 
 
 s|-2
 |Clear Failure
-|P: --  +
-A: Fail  +
-D: Hours to retry
+|
+|Failure. Wait minutes.
 
 s|-3
 |Major Failure
-|P: --  +
-A: Fail  +
-D: Days to retry
+|
+|Failure. Wait hours.
 
 s|-4
 |Severe Failure
-|P: --  +
-A: Fail  +
-D: Days to retry
+|
+|Failure. Wait days.
 
 s|-5
 |Massive Failure
-|P: --  +
-A: Fail  +
-D: Weeks to retry
+|
+|Failure. Wait days.
 
 s|-6
 |Complete Failure
-|P: --  +
-A: Fail and Complicate +
-D: Weeks to retry
+|
+|Failure. Complicate. Wait weeks.
 
 s|-7
 |Grievous Failure
-|P: Assign Temp Loss  +
-A: Fail and Complicate +
-D: Weeks to retry
+|
+|Failure. Complicate. Wait days.
 
 s|-8
 |Disastrous Failure
-|P: Random Temp Loss  +
-A: Fail and Complicate +
-D: Weeks to retry
+|Lose Temp Skill.
+|Failure. Complicate. Wait weeks.
 
 s|-9
 |Calamitous Failure
-|P: Assign Perm Loss  +
-A: Fail and  Double Complicate +
-D: Months to retry
+|Lose Chosen Skill.
+|Failure. Complicate. Wait weeks.
 
 s|-10
 |Cataclysmic Failure
-|P: Random Perm Loss  +
-A: Fail and Double Complicate +
-D: Months to retry
+|Lose Random Skill. 
+|Fail. Double Complicate. +
+Wait months.
 
 s|Result
 s|Descriptor
+s|Persona
 s|Outcome
-
-3+<| P = persona outcome, A = action outcome, D = duration of outcome
 |===
