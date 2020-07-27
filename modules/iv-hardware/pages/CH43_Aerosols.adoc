@@ -61,42 +61,31 @@ Roll on table 45.6: Aerosol Type to determine aerosol type.
 This table should not be used for generation of TOYs for personas.
 It is not properly balanced for initial artifact rolls.
 
+include::ROOT:partial$CH45_Table_Aerosol_Type.adoc[]
 
+=== Anti Lazer Aerosol 
+[horizontal]
+Range:: 4h
+Area of Effect:: 7h
+Damage:: None
+Wate:: 2kg
+EXPS:: 275
+Value:: 1000
 
-== Antilazer Aerosol 
 The antilazer aerosol will dissipate any lazer bolts which pass through its gaseous field. 
 The antilazer cloud does not obscure vision, but it does cause lazers to flare out into harmless glowing balls. 
 The antilazer aerosol affects lazers, but energy attacks—​fission, fusion, plasma—​are unaffected. 
 There is no limit to the amount of damage that antilazer aerosol can dissipate, and the shimmering cloud will evaporate 1-10 minutes after discharge.
 
-.Antilazer aerosol attributes
-[width="50%",cols="2*<"]
-|===
+=== Attraction Aerosol 
+[horizontal]
+Range:: None
+Area of Effect:: 1 km
+Damage:: None
+Wate:: 2.0kg
+EXPS:: 350
+Value:: 100
 
-s|Range
-|4h
-
-s|Area of effect
-|7h
-
-s|Damage
-|None
-
-s|Wate
-|2kg
-
-s|EXPS
-|275
-
-s|Value
-|1000
-
-|===
-
-
-
-
-== Attraction Aerosol 
 The attraction aerosol is an incredibly potent anti-repellant.
 The attraction aerosol discharges pheromones, vibrations, chemicals, or sounds that attract a particular entity.
 Whatever type of creature is affected by this aerosol will swarm towards the center of the discharge.
@@ -105,35 +94,16 @@ Exactly how many referee personas approach the expedition depends mostly on the 
 The ref should moderate a wholesale onslaught of deadly attackers with lots of harmless aliens.
 This aerosol is also known as a love bomb.
 
-.Attraction Aerosol attribute list
-[width="50%",cols="2*<"]
-|===
-
-s|Range
-|None
-
-s|Area of Effect
-|1 km
-
-s|Damage
-|None
-
-s|Wate
-|2.0kg
-
-s|EXPS
-|250
-
-s|Value
-|100
-
-|===
-
 // insert table 506
 
-== 24) Blinding Aerosol 
-
-// insert table 507
+=== Blinding Aerosol
+[horizontal]
+Range:: 12h
+Area of Effect:: 3h
+Damage:: None
+Wate:: 2 kg
+EXPS:: 300
+Value:: 50
 
 Any target with organic optical sensors must save versus poison or be blinded when subject to this attack.
 Every 3 units spent within the cloud will require the target to make another save versus poison or be blinded.
@@ -144,9 +114,15 @@ The cloud of the aerosol is invisible, and will dissipate in 1 to 12 units.
 Any target entering the cloud must save versus blindness.
 The blinding aerosol is commonly called tear gas.
 
-== 25) Catabolic Dismodulator Aerosol 
+=== Catabolic Dismodulator Aerosol 
+[horizontal]
+Range:: 12h
+Area of Effect:: 3h, special
+Damage:: 5-60 (5d12), special
+Wate:: 2 kg
+EXPS:: 300
+Value:: 25000
 
-// insert table 508
 
 The catabolic dismodulator turns inorganic matter into an opaque, multi-hued, cloud of gas.
 The effects are devastating to equipment, and robots.
