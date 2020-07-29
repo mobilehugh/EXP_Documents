@@ -1,6 +1,5 @@
 = Armour
 
-
 This is the artifact armour section.
 These armour types not only protect the wearer against general damage, but also have special qualities that vary from thermal protection to computerized, servo-aided joints.
 All armour is worn on the body.
@@ -8,260 +7,285 @@ Unless otherwise stated, the armour will include torso, limb, hand, foot, and he
 Shields are not included in armour protection.
 Each separate armour type has several statistics listed.
 These are explained in the following paragraphs.
-For more information about the nature of armour refer to http://expgame.com/?page_id=302[Chapter 29: Armour]#http://expgame.com/?page_id=302[Rating].
-All the artifact armour parameters listed are based on the tactical combat system, and a tech level 10.#
+
+
+All the artifact armour parameters listed are based on the tactical combat system, and a tech level 10.
 
 == Armour Rating 
 
 The higher the armour rating, the better the protection offered to the wearer.
 Not all the armour in this chapter has a high armour rating, but each offers some unique form of special protection.
-Those #armour types without a listed armour rating have a value listed that is added to the armour rating (AR) of regular armour types.
-These armour types are meant to be worn in conjunction with other armour types.#
+Those armour types without a listed armour rating have a value listed that is added to the armour rating (AR) of regular armour types.
+These armour types are meant to be worn in conjunction with other armour types.
 
 The base armour rating of an unarmoured target is 500.
 The armour ratings are related to this base value.
 For instance a suit of armour that has an armour rating of 725 would give the wearer a base armour rating of 725 instead of 500.
 This could also be considered an armour rating (AR) bonus of +225.
-The complexities and confusions of armour rating are discussed-in more detail in http://expgame.com/?page_id=302[Chapter 29: Armour]#http://expgame.com/?page_id=302[Rating].
+The complexities and confusions of armour rating are discussed-in more detail in the tactical combat system.
 
 == Restrictiveness 
-
 The more restrictive a suit of armour is, the more cumbersome, and unyielding it is to normal body movement.
 This is represented by a higher restrictiveness value.
-The less restrictive armour is the more that the persona can use her natural dexterity* *to avoid taking damage.
+The less restrictive armour is the more that the persona can use her natural dexterity to avoid taking damage.
 This operates the same for artifact armour as it does for mundane armour.
-#
 
-== Wate# 
-
+== Wate (Flat Wate)
 The wate of  armour is listed as  percent of body wate.
 % Body WATE is used to determine the wate of the suit of armour.
 Armour is a form of clothing, and it is usually tailored to a particular wearer.
 Thus the wate of armour is related to the wate of the wearer.
 Previously there were no set WATEs for armour for the reason that different amounts of material are required for different body sizes.
 Therefore armour WATE is listed as a percentage the body wate of the persona that the armour was designed for.
+
 A flat wate in kgs is included in brackets based on the % wate.
 The flat wate is based on that of a 70 kilogram anthro.
 The armour's WATE must be recorded and considered part of the persona's encumbrance.
-#Nice referees will conveniently fit found armour to the wate of the persona who found it.
-If the scenario indicates that found armour has been tailored for a specific race, then such a convention cannot apply.#
+Nice referees will conveniently fit found armour to the wate of the persona who found it.
+If the scenario indicates that found armour has been tailored for a specific race, then such a convention cannot apply.
 
 == EXPS 
-
-Experience points for armour are earned when the player identifies the armour's special function.#
+Experience points for armour are earned when the player identifies the armour's special function.
 
 == Value 
-
 Value of armour will be listed in one of two ways: a single value, or a cost per kilogram.
-A #single value represents the flat cost of the armour.
+A single value represents the flat cost of the armour.
 Some armours are composed of material which is very valuable, and the amount of this material reflects the value of the armour.
 These armour types are listed as having values like 590 per kilogram or 750 per kilogram.
 So the value of such armour is directly related to the wate of the armour.
 If the armour had a wate of 2 kilograms, and it were worth 750 eps per kilogram, it would be worth 1500 eps.
-For convenience a value based on the wate armour required for a 70 kilogram anthro will be included in brackets.#
+For convenience a value based on the wate armour required for a 70 kilogram anthro will be included in brackets.
 
-== Armour Types 
+== Armour Type
 
-Use table 42.1 to determine what kind of artifact armour the persona, referee persona, or loot pile has found.
+include::ROOT:partial$CH42_Table_Armour_Type.adoc[]
 
-// insert table 376
+=== Ablative Armour
 
-== 1) Ablative 
-
-// insert table 377
+[horizontal]
+Armour Rating:: 625
+Restrictiveness:: 3
+Wate:: 2.5 (1.5kg)
+EXPS:: 200
+Value:: 590/kg (900)
 
 Ablative armour is designed to negate lazer attacks.
 When hit by a lazer the ablative material vaporizes, producing an anti-lazer gas that dissipates the lazer bolt, keeping the attack from damaging the wearer.
 When hit by a lazer, the wearer will take no damage because of the ablative armour.
 This armour only works against lazers, and cannot affect energy attacks such as fission, fusion, or plasma.
 The armour rating represents how well the armour is at deflecting all other attacks.
-Since the armour vaporizes to disrupt lazers, #it has a limited life-span.
+Since the armour vaporizes to disrupt lazers, it has a limited life-span.
 The armour will lose its ablative effect after disrupting 300 to 1000 (d8+2 times 100) hit points of lazer damage.
-If a lazer attack scores a hit, damage is rolled as normal, but #the damage is subtracted from the armour, not the target.
-Once the ablative effect is worn out the #armour retains its AR of 625, but loses all special defences against lazers.#
+If a lazer attack scores a hit, damage is rolled as normal, but the damage is subtracted from the armour, not the target.
+Once the ablative effect is worn out the armour retains its AR of 625, but loses all special defences against lazers.
 
-== 2) Ballistic
+=== Ballistic Amour
 
-// insert table 378
+[horizontal]
+Armour Rating:: 625
+Restrictiveness:: 3
+Wate:: 2.9 (2kg)
+EXPS:: 200
+Value:: 590/kg (1200)
 
 Ballistic armour is very similar to ablative armour in its function.
 A criss-crossing mat of super-dense polymers is woven to absorb high velocity projectile damage (bullets, fragments, etc.).
-Ballistic armour #is capable of absorbing 100-600 (d6 times 100) hit points of high velocity (Type C attacks) damage.
+Ballistic armour is capable of absorbing 100-600 (d6 times 100) hit points of high velocity (Type C attacks) damage.
 Once the armour has sustained this maximum damage it will be unable to negate projectile damage, but will still act as regular armour.
-Ballistic cloth does not absorb damage from from type A attacks, such as: punches, maces, pipes, flails, etc.#
+Ballistic cloth does not absorb damage from from type A attacks, such as: punches, maces, pipes, flails, etc.
 
-== 3) Combat Armour 
+=== Combat Armour 
 
-// insert table 379
+[horizontal]
+Armour Rating:: 725
+Restrictiveness:: 2
+Wate:: 3.0 (2kg)
+EXPS:: 100
+Value:: 1000/kg (2000)
 
 Combat armour is typical futuristic, militaristic body protection designed for infantry dogmeat.
-It usually composed from such mundane materials as Kevlar weaves and ceramic plates.#
+It usually composed from such mundane materials as Kevlar weaves and ceramic plates.
 
-== 4) Compucrafted 
+=== Compucrafted Armour
 
-// insert table 380
+[horizontal]
+Armour Rating:: Plus 30-120 (3d4 times 10)
+Restrictiveness:: 0-3 (1d4-1)
+Wate:: Halved
+EXPS:: 300 
+Value:: See below
 
 Compucrafted armour is computer designed versions of mundane armour types.
 They are designed to handle stress better, deflect blows better, be less restrictive, and have less wate.
-Compucrafted armour uses special alloys, plastics, and ceramics which are not found in regular mundane armour types.#
+Compucrafted armour uses special alloys, plastics, and ceramics which are not found in regular mundane armour types.
 
-// insert table 381
+include::ROOT:partial$CH42_Table_Compucrafted_Armour_Types.adoc[]
 
-Roll the mundane armour type on Table 42.2: Compucrafted Armour Type.
-The armour rating (AR) is increased from the bas by 30 to 120 (3d4 times 10).
+Roll the mundane armour type on Compucrafted Armour Type Table.
+The armour rating (AR) is increased from the mundane base by 30 to 120 (3d4 times 10).
 This improvement is from construction and stronger materials, offering greater protection.
-Lighter and less cumbersome materials allow for freer body movement, giving the armour a new restrictiveness between 0-3 (d4-1)#.
-The new restrictiveness cannot exceed the previous one.
+Lighter and less cumbersome materials allow for freer body movement, giving the armour a new restrictiveness between 0-3 (d4-1).
+The new restrictiveness cannot exceed the mundane armour's previous restrictiveness.
 The wate of the compucrafted armour is reduced by half and it's value is increased 4 times.
-The Wate and value changes are recorded on Table 42.2 below.
-EXPS value is a flat 300 points for all types of compucrafted armour.#
+EXPS value is a flat 300 points for all types of compucrafted armour.
 
-== 5) Concussion 
+=== Concussion Armour
 
-// insert table 382
+[horizontal]
+Armour Rating:: 625
+Restrictiveness:: 3
+Wate:: 2.9 (2kg)
+EXPS:: 200
+Value:: 590/kg (1200)
 
 Concussion armour appears as a bulky, pillowy crash suit.
 Each of the large fluffy lumps is full of small resilient beads that increase the surface area that concussion force is absorbed over.
 This design reduces crushing damage from explosions, falls, crashes, blunt weapons, squeezing attacks, etc.
 Any of these damages types are reduced by 1/2 when wearing concussion armour.
-Concussion armour has a base AR of 625, and all #attacks must score a hit before any damage can be taken.
-Concussion armour is also known as a g-#suit.
+Concussion armour has a base AR of 625, and all attacks must score a hit before any damage can be taken.
+Concussion armour is also known as a g-suit.
 
-== 6) Flexion 
+=== Flexion Covering
 
-// insert table 383
+[horizontal]
+Armour Rating:: Table
+Restrictiveness:: Table
+Wate:: Table
+EXPS:: 333
+Value:: Table
 
 Flexion coverings are designed to increase protection against specific attacks.
-They offer no #protection against attacks other than the ones they were manufactured to thwart.
+They offer no protection against attacks other than the ones they were manufactured to thwart.
 The various flexion coverings appear as beltless, pocket less ponchos, parkas or trench coats.
 The protection is designed to be worn over all external armour and equipment.
 The flexion coverings can essentially withstand limitless damage.
-If the ref desires to #have the coverings wear out, flexion should only do so after the persona has sustained 500 hit points in damage.
-The referee can arbitrarily wear the flexion suit out if it has been continually abused.
-Roll on Table 42.3: Flexion Covering Type to #determine the covering type, its restrictiveness, its wate, and its value.
-Each covering type is explained in detail in the following the table.#
+If the ref desires to have the coverings wear out, flexion should only do so after the persona has sustained 500 hit points in damage.
+The referee can arbitrarily wear the flexion covering out if it is being abused.
+Roll on the Flexion Covering Type to determine the type, restrictiveness, wate, and value.
+Each covering type is explained in detail in the following the table.
 
-// insert table 384
+include::ROOT:partial$CH42_Table_Flexion_Covering_Type.adoc[]
 
-*1) Concussion*: Concuflect appears as a bulky down parka.
+Concussion::  Concuflect appears as a bulky down parka.
 Concuflect reduces the chance to be hit by all compression, non-puncture, non-energy, attacks.
-When wearing concuflect a player's armour rating (AR) is improved by +150 against such attacks.#
+When wearing concuflect a player's armour rating (AR) is improved by +150 against such attacks.
 
-*2) Electro*:Electroflec coverings reduce the chance of taking damage from electrical attacks by grounding the deadly current.
-When wearing #electroflex the persona's armour rating (AR) is improved by +150 against electrical based attacks, and a bonus of 3 on any electrical related saving throws.#
+Electro:: Electroflec coverings reduce the chance of taking damage from electrical attacks by grounding the deadly current.
+When wearing electroflex the persona's armour rating (AR) is improved by +150 against electrical based attacks, and a bonus of 3 on any electrical related saving throws.
 
-*3) Energy*:Enerflec reduces the chance to be hit #by personal energy weapons (such as fusion, fission and plasma guns).
+Energy:: Enerflec reduces the chance to be hit by personal energy weapons (such as fusion, fission and plasma guns).
 When wearing this shimmering covering the wearer's AR is increased by +150 against energy attacks.
-Damage from energy based area of effect attacks, for example fusion attacks, are reduced one half by Enerflec.#
+Damage from energy based area of effect attacks, for example fusion attacks, are reduced one half by Enerflec.
 
-*4) Inertia*: Inerflec has a slickery covering that makes low velocity striking and puncturing #weapons less likely to hit.
+Inertia::  Inerflec has a slickery covering that makes low velocity striking and puncturing weapons less likely to hit.
 The Inerflec is especially good at hampering Type A and B attacks.
-There is a bonus of +150 to the wearer's armour rating (AR) against such #attacks.
+There is a bonus of +150 to the wearer's armour rating (AR) against such attacks.
 
-*5) Lazer*: Reflec is the most well known of all the #flexion coverings.
+Lazer::  Reflec is the most well known of all the flexion coverings.
 It increases the wearer's armour rating by +150 against lazer attacks.
-The cloak has a matte colour, with a highly reflective underlay to deflect and  misdirect lazers.#
+The cloak has a matte colour, with a highly reflective underlay to deflect and  misdirect lazers.
 
-*6) Projectile*: Proflec is a hardened covering composed of a thin layer of ballistic cloth.
-This flexion covering aids in the deflection of high velocity projectile attacks (type C attacks), and increases the wearer's AR by +150 against them.#
+Projectile::  Proflec is a hardened covering composed of a thin layer of ballistic cloth.
+This flexion covering aids in the deflection of high velocity projectile attacks (type C attacks), and increases the wearer's AR by +150 against them.
 
-*6) Vibro*: Vibroflec is an intricate weave of microscopic (the modern catchphrase is &#8216;nano'), high tensile threads which are #designed to make vibro attacks more likely to &#8216;skip off'
+Vibro::  Vibroflec is an intricate weave of microscopic (the present catchphrase is nano'), high tensile threads which are designed to make vibro attacks more likely to skip off'
 their target without doing damage.
-Vibro attacks have -150 against Vibroflec (increase the AR of the wearer by +150 vs such attacks).#
+Vibro attacks have -150 against Vibroflec (increase the AR of the wearer by +150 vs such attacks).
 
-== 7) Force Field Belt 
+== Force Field 
 
-// insert table 385
+[horizontal]
+Armour Rating:: 0
+Restrictiveness:: 0
+Wate:: Table
+EXPS:: 500
+Value:: Table
 
 Force field belts generate an invisible defensive shield contoured to the wearer's body.
 The electromagically generated field will dissipate kinetic energy over the entire field.
-Any object approaching at high speed will have all its kinetic energy absorbed and dissipated before it hits the belt wearer.#
+Any object approaching at high speed will have all its kinetic energy absorbed and dissipated before it hits the belt wearer.
 
-The belt is triggered by anything that indicates #a relatively high velocity differential between itself and the persona.
-Thus the defensive field will absorb damage from high velocity, high energy attacks (lazers, falls, bullets, grenades, rocks), but anything approaching the player in a passive manner will not be hampered by the force field (injections, gases, kisses).#
+The belt is triggered by anything that indicates a relatively high velocity differential between itself and the persona.
+Thus the defensive field will absorb damage from high velocity, high energy attacks (lazers, falls, bullets, grenades, rocks), but anything approaching the player in a passive manner will not be hampered by the force field (injections, gases, kisses).
 
-Any damage that would have been taken by #the wearer is absorbed by the force field belt.
-The force field belt requires energy to dissipate the force, and when it has absorbed the maximum #amount of damage its batteries are dead.
+Any damage that would have been taken by the wearer is absorbed by the force field belt.
+The force field belt requires energy to dissipate the force, and when it has absorbed the maximum amount of damage its batteries are dead.
 The force field belt cannot be used again until its batteries are replaced.
-See http://expgame.com/?page_id=357[Chapter 55: Support Equipment].
-#Force field belts vary in the number of hit points they absorb, and increase in WATE and value depending on their  capacity to absorb damage.
-#
+Force field belts vary in the number of hit points they absorb, and increase in WATE and value depending on their  capacity to absorb damage.
 
-// insert table 386
+include::ROOT:partial$CH42_Table_Force_Field_Belt_Strength.adoc[]
 
-== 8) Helmet 
+=== Helmet 
 
 // insert table 387
 
 These are specialized helmets that offer not only head protection, but built in equipment also.
 The helmet could have a  gun medical equipment, or scope installed.
 The player rolls once on Table 42.5: Helmet Accessory to determine what is built into the helmet.
-The persona will be able to control the device in her helmet with head movements, tongue connections, or facial expressions.#
+The persona will be able to control the device in her helmet with head movements, tongue connections, or facial expressions.
 
 The base helmet type must be determined by the referee.
-The referee must choose from either a combat armour helmet (armour #3), a compucrafted helmet (armour #4), or a plastix helmet (armour #9).
-There is no effective difference between the 3 helmet types.#
+The referee must choose from either a combat armour helmet (armour 3), a compucrafted helmet (armour 4), or a plastix helmet (armour 9).
+There is no effective difference between the 3 helmet types.
 
 Whichever helmet type is chosen the AR bonus will be +40 if worn without armour, and no bonus if worn with a full suit of armour.
 The helmet offers no increased restrictiveness, as the artifacts will be ergonomically inserted in the helmet.
 The wate of the helmet will be equal to the wate of the toy that is built into it.
-These are the specifications of the helmet, regardless which of the 3 helmet types is chosen.#
+These are the specifications of the helmet, regardless which of the 3 helmet types is chosen.
 
 When using the Helmet Accessory table there are some obvious restrictions as to what type of equipment can be placed within the helmet.
 Very heavy items, such as cloning equipment, or artillery would not only be impractical, but may cause severe neck injury.
 The table is an abbreviated list of equipment that may be useful in a combat helmet.
-It is best to record all information about the helmet now, roll its accessory, and not have to refer to this chapter again.#
+It is best to record all information about the helmet now, roll its accessory, and not have to refer to this chapter again.
 
 // insert table 388
 
-*1) Communication*: The communication device is rolled from the list of communication artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+1) Communication: The communication device is rolled from the list of communication artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
 The device cannot have a wate greater than 6 kg.
 Helmet communications are common, and this does not count as a roll.
-Instruct the player to roll on the Helmet Accessory table #again.
+Instruct the player to roll on the Helmet Accessory table again.
 
-*2) Gun*: The weapon is rolled in http://expgame.com/?page_id=339[Chapter 46: ]http://expgame.com/?page_id=339[Guns], and is limited to a pistol, or a pistol version of the gun rolled.
-The gun is part of the helmet, and it is triggered by the wearer's head actions.#
+2) Gun: The weapon is rolled in http://expgame.com/?page_id=339[Chapter 46: ]http://expgame.com/?page_id=339[Guns], and is limited to a pistol, or a pistol version of the gun rolled.
+The gun is part of the helmet, and it is triggered by the wearer's head actions.
 
-*3) Medical Equipment*:Medical equipment is rolled in http://expgame.com/?page_id=341[Chapter 47: Medical Equipment].
-The only requirement is that the device rolled be reusable #(not a disposable vedi-kit), and it must have a wate less than 6 kg.#
+3) Medical Equipment:Medical equipment is rolled in http://expgame.com/?page_id=341[Chapter 47: Medical Equipment].
+The only requirement is that the device rolled be reusable (not a disposable vedi-kit), and it must have a wate less than 6 kg.
 
-*4) Miscellaneous Equipment*:Any bizarre device could be rolled in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+4) Miscellaneous Equipment:Any bizarre device could be rolled in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
 Again the maximum wate of the artifact is limited to 6 kg, and the mood of the referee.
 For instance a plastix helmet with a built in fire log, may be humorous, but cruel.
-If the device is not reusable, or it has a wate greater than 6 kg, the player should roll another piece of miscellaneous equipment.#
+If the device is not reusable, or it has a wate greater than 6 kg, the player should roll another piece of miscellaneous equipment.
 
-*5) Scope*:Roll from the list of scope artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment]#.
-There is no limit to the type of scope #that is inserted into the helmet.
+5) Scope:Roll from the list of scope artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+There is no limit to the type of scope that is inserted into the helmet.
 The scope will be useable with any weapon of the appropriate type.
-For instance, a scope dedicated to rifles could be used with any rifle that the persona is using.#
+For instance, a scope dedicated to rifles could be used with any rifle that the persona is using.
 
-*6) Visual Aid*:Roll from the list of visual aid artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment]#.
-The mutant will be able to flip the visual aid into and out of place in a stylish visor like #fashion.
+6) Visual Aid:Roll from the list of visual aid artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+The mutant will be able to flip the visual aid into and out of place in a stylish visor like fashion.
 
-== 9) Plastix 
+== 9) Plastix Armour
 
 // insert table 389
 
 Plastix armour is nice, white, ceramic composite plate armour.
 The armour has a tendency to remain clean and white, and is commonly worn by disposable spacefaring infantry.
-This armour type's helmet has a closed face plate with a built in, nearly #opaque, sun visor.
+This armour type's helmet has a closed face plate with a built in, nearly opaque, sun visor.
 If the helmet is worn the player receives a penalty of -114 on her to hit rolls.
 The armour rating is not compromised if the helmet is removed.
-#
 
-== 10) Powered 
+
+== 10) Powered Armour
 
 // insert table 390
 
 Powered armour is servo aided and computer enhanced body armour.
 Typical powered armour is sealed, carries its own power plant is integrated with it's accessories.
 Powered armour enhances the wearer's attributes by electronically amplifying the persona's natural abilities.
-The persona wearing powered armour is neurally wired into the suit giving immediate access to an array of equipment built into her armour.#
+The persona wearing powered armour is neurally wired into the suit giving immediate access to an array of equipment built into her armour.
 
-[.p109]
-=== http://expgame.com/?page_id=3111[Subchapter 42-1]
 
-== 11) Protex 
+== 11) Protex Armour
 
 // insert table 398
 
@@ -272,7 +296,7 @@ The problem is that this armour is not designed for the rigors of combat, and co
 Protex armour is considered destroyed once the persona has withstood 100 HPS of damage while wearing the armour.
 This means any damage from any source.
 Roll on Table 42.6: Protex Armour Type to determine the type of protection offered.
-This protection is total, no damage taken, no saves #necessary
+This protection is total, no damage taken, no saves necessary
 
 // insert table 399
 
@@ -280,7 +304,7 @@ This protection is total, no damage taken, no saves #necessary
 
 // insert table 400
 
-Artifact shields are arm held plates based on the #materials, or technologies, of other TOY armour types.
+Artifact shields are arm held plates based on the materials, or technologies, of other TOY armour types.
 For instance, a plastix shield may be found with a suit of plastix armour.
 The plastix shield will improve the user's armour rating by decreasing the surface area available for effective attack.
 The main point of a shield is that it can only protect one flank of the wearer, and does not cover her whole body.
@@ -288,7 +312,7 @@ A force field wrist band would only place a force field in front of the persona,
 Further rules for shielding can be found under Shielding in http://expgame.com/?page_id=302[Chapter 29: Armour Rating].
 The type of artifact shield and it's benefits are determined on Table 42.7: Shield Armour Type.
 All special properties of the armour that apply to the shield are listed on the table.
-Shields are quite dull, and take some time to roll up since the referee must flip between several parts of this chapter.#
+Shields are quite dull, and take some time to roll up since the referee must flip between several parts of this chapter.
 
 // insert table 401
 
@@ -298,37 +322,37 @@ Shields are quite dull, and take some time to roll up since the referee must fli
 
 The vacuum resistance suit keeps the persona from being simultaneously asphyxiated, boiled and frozen by the harsh environment of deep space (exatmo).
 The vac suit, or space suit, is the standard protection worn by anthropomorphs expecting to survive zero atmosphere.
-There are three separate types of vac suits: civilian, industrial, and military**.
-**Each of which has it's peculiarities.
-#Vac suits will tear only if subject to extreme damaging forces.
-If a persona wearing a vac suit #takes 30 points of damage, there is a 30% chance of vac suit rupture.
+There are three separate types of vac suits: civilian, industrial, and military.
+Each of which has it's peculiarities.
+Vac suits will tear only if subject to extreme damaging forces.
+If a persona wearing a vac suit takes 30 points of damage, there is a 30% chance of vac suit rupture.
 Vac suit rupture will kill the persona very quickly.
-See http://expgame.com/?page_id=282[Chapter 19: Special Terrain].#
+See http://expgame.com/?page_id=282[Chapter 19: Special Terrain].
 
-*Civilian*:The civilian vac suit is the virtual life preserver of outer space.
-It can be adorned quickly, within 1 to 4 units if a normal DEX attribute** **roll is made.
+Civilian:The civilian vac suit is the virtual life preserver of outer space.
+It can be adorned quickly, within 1 to 4 units if a normal DEX attribute roll is made.
 The wearer will be able to function normally for 4 days.
-If the vac suit is worn for greater than 4 days, the #wearer will be preserved cryogenically until revived by medical personnel (DD 5).
+If the vac suit is worn for greater than 4 days, the wearer will be preserved cryogenically until revived by medical personnel (DD 5).
 The civilian vac suit has no movement controls to speak of, and the persona must drag herself around in zero gravity.
 Since the civilian vac suit is only going to be worn in emergency situations is also acts as an all frequency homing device, emitting a locator-distress call to all receivers.
 The vac suit can also be worn to protect against toxins inside an atmosphere.
-The suit will maintain a safe environment for 4 days, and then act as a stasis bag for 4 months.#
+The suit will maintain a safe environment for 4 days, and then act as a stasis bag for 4 months.
 
-*Industrial*:The industrial vac suit was designed to do outside repair work for space vehicles while exatmo.
-The suit can be jumped into by a #skilled wearer in 1 to 4 units.
+Industrial:The industrial vac suit was designed to do outside repair work for space vehicles while exatmo.
+The suit can be jumped into by a skilled wearer in 1 to 4 units.
 An industrial vac suit can be flown around by the wearer.
 It has jets built into the shoes, and gloves, so the wearer can maneuver at 8 h/u.
-The industrial vac suit has a #built in radio, and lots of space for tools, and spare parts.
+The industrial vac suit has a built in radio, and lots of space for tools, and spare parts.
 The industrial vac suit has a mini airlock which can transfer small pieces of equipment to the inside of the suit for delicate hands on work.
-A persona can function normally for 8 days in this vac suit, but beyond this time the wearer will be placed in cryogenic suspension, and an all frequency emergency beacon will begin transmitting.#
+A persona can function normally for 8 days in this vac suit, but beyond this time the wearer will be placed in cryogenic suspension, and an all frequency emergency beacon will begin transmitting.
 
-*Military*:While exatmo, the military vac suit is virtually undetectable to anything other than direct visual sight.
+Military:While exatmo, the military vac suit is virtually undetectable to anything other than direct visual sight.
 The suits have built in lazer communicators, and line of sight must be maintained to converse between two talkers.
 Specially articulated gloves allow the wearer to employ triggered weapons.
 There is also a jet system built into the shoulders and feet of the vac suit.
 The jets allow the wearer to travel at 10 h/u.
-#The military vac suit is designed for quick removal once in atmosphere, and can explode off the wearer in less than a unit.
-A military vac suit cannot be #adorned in an emergency basis.
+The military vac suit is designed for quick removal once in atmosphere, and can explode off the wearer in less than a unit.
+A military vac suit cannot be adorned in an emergency basis.
 A military vac suit will last for 6 days in exatmo, after which the wearer is dead.
 Most military vac suits will immolate after the wearer has died, leaving no useful evidence other than harmless space debris.
-#
+

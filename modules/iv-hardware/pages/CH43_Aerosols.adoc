@@ -4,6 +4,15 @@ When activated, an aerosol will discharge all of its contents, and cannot be use
 Unlike grenades, aerosols lack a history of military use.
 Aerosols  unforeseen methods of conflict, or could merely be maliciously employed industrial devices.
 
+:art: aerosol_face.png
+:width: 250px
+:snark: Ding dong. Facial calling.
+:artist: Michael Jackson
+:date: 1990
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
 == Range 
 Aerosols:The range of an aerosol depends entirely on the pressure of its contents.
 This internal pressure usually ejects the contents of the aerosol a safe distance before exploding with an area of effect blast.
@@ -29,7 +38,7 @@ E.g., 2 kg aerosol is reduced to an empty 200 gm canister.
 
 == EXPS 
 Experience points for identifying a grenade, or aerosol, are earned the same as for any other artifact.
-An equivalent experience point value can be earned after either weapon has been discharged, but these EXPS* *can only be earned by the firer.
+An equivalent experience point value can be earned after either weapon has been discharged, but these EXPS can only be earned by the firer.
 
 == Value 
 The value of a grenade, or aerosol, is the value of one charge.
@@ -40,28 +49,35 @@ Aerosols are even simpler to use than grenades.
 Push the release valve on top of the canister, and all its contents instantly spray out for all their described effects.
 
 == Amount 
-The ref rolls a d8 to determine the number of aerosol canisters found in a package.
+The ref rolls a 1d8 to determine the number of aerosol canisters found in a package.
 For powerful campaign altering aerosols one will suffice.
 
 == Description 
 The aerosol can appears to be an oversized version of today's typical Freon container.
-The aerosol may have a distinctive colour--either the canister, or the jet--that can be rolled on the Grenade Colour table.
+The aerosol may have a distinctive colour--either the canister, or the jet--that can be rolled on the Giant Colour table.
+The Giant Colour Table can offer up a simple colour by rolling a 1d10.
+Fancy colours, affect and patterns can be rolled to create zany colour patterns. 
 
-Aerosol Markings:Since many of the aerosols described in this chapter are non-military in.
+include::ROOT:partial$add_colour_to_your_world.adoc[]
+
+== Aerosol Labelling
+Since many of the aerosols described in this chapter are non-military in.
 nature, many may still have their industrial labelling intact.
-To determine the literacy of an aerosol's labelling roll a d10.
+To determine the literacy of an aerosol's labelling roll a 1d10.
 A roll of 1 indicates unintelligible labelling.
 This is labelling that is either in an alien language, has incorrect instructions, or is somehow damaged.
 A roll of 10 will yield an aerosol with proper markings, and instructions.
 Proper labelling may greatly reduce the ExPs value of an aerosol, but increase its monetary value.
-All other rolls (29) indicate that no markings of any sort are listed on the aerosol canister.
+All other rolls (2-9) indicate that no markings of any sort are listed on the aerosol canister.
 
 == Aerosol Type 
-Roll on table 45.6: Aerosol Type to determine aerosol type.
+Roll on the Aerosol Type Table to determine the aerosol type.
 This table should not be used for generation of TOYs for personas.
 It is not properly balanced for initial artifact rolls.
 
 include::ROOT:partial$CH45_Table_Aerosol_Type.adoc[]
+
+== Aerosol Types 
 
 === Anti Lazer Aerosol 
 [horizontal]
@@ -94,7 +110,7 @@ Exactly how many referee personas approach the expedition depends mostly on the 
 The ref should moderate a wholesale onslaught of deadly attackers with lots of harmless aliens.
 This aerosol is also known as a love bomb.
 
-// insert table 506
+include::ROOT:partial$CH45_Table_Attracted_Personas.adoc[]
 
 === Blinding Aerosol
 [horizontal]
@@ -114,7 +130,8 @@ The cloud of the aerosol is invisible, and will dissipate in 1 to 12 units.
 Any target entering the cloud must save versus blindness.
 The blinding aerosol is commonly called tear gas.
 
-=== Catabolic Dismodulator Aerosol 
+=== Catabolic Dismodulator Aerosol
+
 [horizontal]
 Range:: 12h
 Area of Effect:: 3h, special
@@ -123,20 +140,24 @@ Wate:: 2 kg
 EXPS:: 300
 Value:: 25000
 
-
 The catabolic dismodulator turns inorganic matter into an opaque, multi-hued, cloud of gas.
 The effects are devastating to equipment, and robots.
 If the ref feels that the effects of this weapon may severely disrupt the course of a campaign, she may allow persona robots a save versus intensity 13 to 28 (10+3d6) poison, or be destroyed.
 Note that only solid inorganic matter within the target hex is dismodulated.
 The 3 hex area of effect refers to the cold damage taken by all targets within the area of effect cloud.
-Those organic creatures hit directly with a catabolic dismodulator have a 5% chance of  dismodulating along with their equipment.
+Those organic personas hit directly with a catabolic dismodulator have a 5% chance of  dismodulating along with their equipment.
 If the dice should indicate this, it is only polite to offer the same saving throw awarded to persona robots.
-If the player fails this roll her persona is dead.
-Jump to http://expgame.com/?page_id=275saving-throw[saving throws]  for more information.
 
-== 26) Demagnetizer Aerosol 
 
-// insert table 509
+=== Demagnetizer Aerosol 
+
+[horizontal]
+Range:: 12h
+Area of Effect:: 5h
+Damage:: None
+Wate:: 2kg
+EXPS:: 300
+Value:: 25
 
 The relevance of this aerosol to anything in particular escapes me, it is sort of an industrial strength tape head cleaner which briefly nullifies the weak forces of magnetism.
 The obvious problems that could arise from this are: magnetic buckles detaching themselves;
@@ -148,36 +169,51 @@ and little plastic animals falling off of the fridge.
 Military electronics will get a save versus mental attack, intensity 3 to 18, to avoid being affected by the attack.
 The magnet's battery source, the magnets themselves, or any electronic components will be restored to normal operation after 3-18 units.
 There is a 1% chance per unit of dysfunction of a device being permanently damaged.
-See http://expgame.com/?page_id=286[Chapter 21: Equipment Damage] for what tragedy demagnetization could cause.
 
+=== Disintegrator Aerosol 
 
-== 27) Disintegrator Aerosol 
-
-// insert table 510
+[horizontal]
+Range:: 15h
+Area of Effect:: 1h
+Damage:: Special
+Wate:: 2kg
+EXPS:: 300
+Value:: 12000
 
 The disintegrator aerosol turns inorganic substances into dust.
-More refined, and discerning, than its cousin the http://expgame.com/?page_id=33725-catabolic-dismodulator[catabolic dismodulator aerosol], the disintegrator aerosol will only affect a certain substance.
+More refined, and discerning, than its cousin the catabolic dismodulator aerosol, the disintegrator aerosol will only affect a certain substance.
 The substance type is determined on Table 45.8: Disintegration Type.
 Any amount of this material caught in the 1 hex area of effect will be broken down into a useless dust massing much less than its previous wate.
 
 Any complex equipment, composed of many basic materials, caught in the area of effect has a % chance, determined by the referee, of malfunctioning.
 The malfunction is assumed to have been caused by some integral part of the device disintegrating into dust.
-The chance of this happening can be determined by rolling http://expgame.com/?page_id=275sphincter-dice[Sphincter dice], as described in chapter 16, Special Rolls.
-The extent of the damage should be determined in http://expgame.com/?page_id=286[Chapter 21: Equipment Damage]
+The chance of this happening can be determined by a xref:ii-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Roll].
 
-// insert table 511
+include::ROOT:partial$CH45_Table_Disintegration_Type.adoc[]
 
-== 28) Exploding Aerosol 
+=== Exploding Aerosol 
 
-// insert table 512
+[horizontal]
+Range:: None
+Area of Effect:: 1h
+Damage:: 5-60 (5d12)
+Wate:: 2kg
+EXPS:: 4200
+Value:: 42
 
 This sadistic device explodes like a fragmentation grenade when it is triggered.
 All targets in the 1 hex area of effect take the damage listed.
 The referee should note that it is very impolite to laugh when an exploding aerosol is discharged.
 
-== *29) Foam Aerosol* 
+=== Foam Aerosol 
 
-// insert table 513
+[horizontal]
+Range:: None
+Area of Effect:: 8h by 2h
+Damage:: None
+Wate:: 2kg
+EXPS:: 100
+Value:: 250
 
 The foam aerosol creates a pad of creamy foam 16 hexes across, and 2 hexes deep.
 For the first minute, the foam can be easily travelled through.
@@ -186,39 +222,57 @@ Three minutes after being discharged the foam will be so viscous that movement w
 The pad will be completely solidified 4 minutes after its discharge, and anything caught within it will be completely trapped.
 At no time, even during the solid phase, is breathing hampered in any way by the foam.
 Anything entombed by the foam pad will starve to death before anything else.
-The foam is not much stronger than styrofoam, but only those persons trapped in the outer edges, and those who are particularly industrious will be able to free themselves.
+The foam is not much stronger than Styrofoam, but only those persons trapped in the outer edges, and those who are particularly industrious will be able to free themselves.
 The colour of the foam will be the same as on the outside of the aerosol canister.
 Once solid, the foam is structurally sound, and well insulated.
 This aerosol has been given synonyms such as the insulator, and the homemaker.
 
-== 30) Freezing Aerosol 
+=== Freezing Aerosol 
 
-// insert table 514
+[horizontal]
+Range:: 9h
+Area of Effect:: 8h
+Damage:: 5-60 (5d1)
+Wate:: 2kg
+EXPS:: 300
+Value:: 1000
 
 The freezing aerosol subjects all targets in its area of effect (8 hexes) to an enthalpy attack, coating everything with ice and snow.
 The freezing aerosol has a % chance, equal to the damage inflicted, of entrapping large, or smaller, sized targets in ice.
 This attack also freezes switches in place, triggers in the firing position, pins in grenades, pant zippers closed, etc.
 
-== 31) Gas Aerosol 
+=== Gas Aerosol 
 
-// insert table 515
+[horizontal]
+Range:: 7h
+Area of Effect:: 6h
+Damage:: Special
+Wate:: 2kg
+EXPS:: 250
+Value:: 900
 
 The gas aerosol fills the area of effect with a pall of transparent, but noticeable gas.
-The cloud of gas will affect all within it, and saving throws vs.
+The cloud of gas will affect all within it, and saving roll vs
 poison must be made for every unit within the area of effect.
-The cloud will dissipate in 4 to 16 units.
 The intensity of the poison in the gas cloud varies between 2 and 16.
+The cloud will dissipate in 4 to 16 units.
 Roll on the below table to determine the effect of the gas.
 
-// insert table 488
+include::ROOT:partial$CH44_Table_Gas_Type.adoc[]
 
-== 32) Invisibility Aerosol
+=== Invisibility Aerosol
 
-// insert table 516
+[horizontal]
+Range:: None
+Area of Effect:: 0h
+Damage:: None
+Wate:: 2kg
+EXPS:: 300
+Value:: 250000
 
 The magical invisibility aerosol permeates all visible matter within its area of effect with a substance that does not reflect, or deflect the path of light.
 Everything in the area of effect will be undetectable to sensors that use reflected light.
-Sonar, infravision, ultravision, and other such sensors will detect these &8220;invisible&8221;
+Sonar, infravision, ultravision, and other such sensors will detect these invisible
 objects normally.
 
 Everything within the hex of discharge will be invisible: the ground, walls, equipment, personas, halves of personas.
@@ -227,9 +281,15 @@ Equipment is easily lost, personas still make noise, personas still smell, and e
 The invisibility aerosol can offer a great escape route, but can also cause a lot of trouble for the users.
 The effects of this aerosol will last for 1 to 4 days.
 
-== 33) Matter Detector Aerosol 
+=== Matter Detector Aerosol 
 
-// insert table 517
+[horizontal]
+Range:: 12h
+Area of Effect:: 12h
+Damage:: None
+Wate:: 2kg
+EXPS:: 100
+Value:: 400
 
 The matter detector aerosol is much more useful than its title implies.
 Any solid matter within the area of effect of this aerosol will be affixed with chemicals that emit low levels of heat, light, radiation, and vibrations.
@@ -244,9 +304,15 @@ Hiding maneuvers are 10 DDs more difficult if the persona has been affected by t
 Targets that wish to avoid detection may attempt to disappear after the 1-4 minute duration ends.
 This aerosol is also called a marker aerosol, or a targeting aerosol.
 
-== 34) Mistor Aerosol 
+=== Mistor Aerosol 
 
-// insert table 518
+[horizontal]
+Range:: None
+Area of Effect:: 25h
+Damage:: None
+Wate:: 2kg
+EXPS:: 100
+Value:: 400
 
 The mistor is the complete opposite to the matter detector aerosol.
 The mistor renders all detection equipment--eyes, sonar, infravision, touch, smell, everything--completely useless when within the area of effect.
@@ -256,16 +322,28 @@ Any attacks made are in a random direction, even if the target recently brushed 
 Movement is random, unless the persona has some form of heightened directional sense.
 The suspension will remain cohesive for 16 days.
 
-== 35) Molecular Diffusion Aerosol 
+=== Molecular Diffusion Aerosol 
 
-// insert table 519
+[horizontal]
+Range:: 10h
+Area of Effect:: 7h
+Damage:: 12-96 (12d8)
+Wate:: 2kg
+EXPS:: 300
+Value:: 2500
 
 The molecular diffusion aerosol is a nasty sounding combat weapon that inflicts the prescribed damage to all targets in the area of effect.
 How the aerosol inflicts its damage, and what happens when it is discharged is left to the improvisational talents of the referee.
 
-== 36) Napalm Aerosol 
+=== Napalm Aerosol 
 
-// insert table 520
+[horizontal]
+Range:: 8h
+Area of Effect:: 8h x 2h
+Damage:: 6-60 (6d10)
+Wate:: 2kg
+EXPS:: 300
+Value:: 1900
 
 The napalm aerosol blasts a swath of flaming gas and gel when it is triggered.
 This is definitely not a toy you'd like to mistakenly point backwards.
@@ -274,9 +352,15 @@ Targets that have immolated will burn for an additional 2 to 8 units.
 Burning targets will take an additional 4 to 24 hit points of damage each unit that they are aflame.
 Other than the flaming targets, the napalm aerosol will extinguish itself immediately.
 
-== 37) Paint Aerosol 
+=== Paint Aerosol 
 
-// insert table 521
+[horizontal]
+Range:: 4h
+Area of Effect:: 4h
+Damage:: None
+Wate:: 2kg
+EXPS:: 50
+Value:: 42
 
 The paint aerosol can be used to paint the entire wall of a room with one explosive button push.
 Unfortunately this time saving feature will paint everything in front of the wall also.
@@ -286,16 +370,20 @@ The intensity of the poison will be from 1 to 12.
 The referee may allow the player to use her persona's DEX instead of CON for this saving throw.
 The paint colour will be the same as the colour of the aerosol canister.
 
-// insert table 443
+=== Pharmaceutical Aerosol 
 
-== 38) Pharmaceutical Aerosol 
-
-// insert table 522
+[horizontal]
+Range:: 12h
+Area of Effect:: 1h
+Damage:: None
+Wate:: 2kg
+EXPS:: Double pharma
+Value:: Triple pharma
 
 This aerosol can be used to apply long range prescriptions to groups of patients.
 What sort of plague, military infestation, or Woodstock celebration prompted the invention of such a dispenser is unknown.
-The pharmaceutical type, effect, duration, etc.
-is determined in http://expgame.com/?page_id=347[Chapter 50: ]http://expgame.com/?page_id=347[Pharmaceuticals].
+
+Take a little trip over to xref:iv-hardware:CH50_Pharmaceuticals.adoc#_pharmaceutical_type[pharmaceuticals] 
 
 All targets in the area of effect must fail a save versus poison to be affected by the medication.
 The intensity of the poison (pharmaceutical) is 2 to 20.
@@ -304,21 +392,33 @@ The more potential users, the milder the dose.
 Note that it is possible to make the spray from this aerosol completely ineffective by having too many targets in the area of effect.
 The cloud dissipates immediately after it has been ejected.
 
-== 39) Poison Aerosol 
+=== Poison Aerosol 
 
-// insert table 523
+[horizontal]
+Range:: 12h
+Area of Effect:: 3h x 12h
+Damage:: Death
+Wate:: 2kg
+EXPS:: 300
+Value:: 700
 
 The poison aerosol is a very selective, very lethal, combined nerve gas and respiratory poison.
-Whatever type of creature is poisoned _ _by this aerosol must make a save versus intensity 2 to 24 poison, or die.
+Whatever type of creature is poisoned by this aerosol must make a save versus intensity 2 to 24 poison, or die.
 Creatures that save versus the poison attack will automatically be repulsed by the 12 hex x 3 hex swath, and will not cross, or approach the lingering residue.
 The attack is only lethal to those targets caught within the initial blast, but the repellant effect will linger for 1 to 3 hours.
-These population strength poison aerosols are usually labelled &8220;raid&8221;, or nerve gas canisters.
+These population strength poison aerosols are usually labelled Raid, or nerve gas canisters.
 
-// insert table 488
+include::ROOT:partial$CH45_Table_Poisoned_Personas.adoc[]
 
-== 40) Repellent Aerosol 
+=== Repellent Aerosol 
 
-// insert table 524
+[horizontal]
+Range:: None
+Area of Effect:: 3h
+Damage:: None
+Wate:: 2kg
+EXPS:: 300
+Value:: 50
 
 This is the pacifist's version of the poison aerosol.
 Creatures of the repelled type must save versus poison (intensity 13-28), or not be able to approach anything covered by this aerosol.
@@ -326,13 +426,19 @@ The aerosol will start to repulse creatures at a 10 hex range.
 This repelling effect will last for 1 to 6 days.
 Intelligent creatures may make an additional save each new day in which they approach the repulsive area.
 Unintelligent aliens will most likely bolt in terror when failing to save versus the repellent.
-This aerosol is also called off, repex, or protector.
+This aerosol is also called Oph, Repex, or Protector.
 
-// insert table 1056
+include::ROOT:partial$CH45_Table_Repelled_Personas.adoc[]
 
-== 41) Siren Aerosol 
+=== Siren Aerosol 
 
-// insert table 525
+[horizontal]
+Range:: None
+Area of Effect:: 500h
+Damage:: 2-12 (2d6)
+Wate:: 2kg
+EXPS:: 100
+Value:: 75
 
 This ear splitting siren will wail for 2-8 minutes, inflicting 2-12 hit points of damage to all within the area of effect.
 The siren aerosol will inflict double damage to mutants employing sonar.
@@ -344,9 +450,15 @@ This aerosol has severe environmental effects.
 When used outdoors most of the smaller animals--birds, hares, jackalopes, and rats--in the 1 kilometer radius of effect will be killed.
 The expedition will also have to deal with a considerable number of deaf, confused, and possibly angry local fauna.
 
-== 42) Smoke Aerosol 
+=== Smoke Aerosol 
 
-// insert table 526
+[horizontal]
+Range:: None
+Area of Effect:: 12h
+Damage:: None
+Wate:: 2kg
+EXPS:: 42
+Value:: 100
 
 This smoke aerosol will instantly discharge a 24 hex diameter sphere of dense smoke.
 The smoke will obscure the vision of any visual sensors caught within its field.
@@ -355,9 +467,15 @@ The smoke is so dense that it can only be moved by a gale force wind, or a bulld
 The cloud will disperse in 1 to 8 weeks.
 The colour of the smoke will be the same as the colour of the canister that it was ejected from.
 
-== 43) Web Aerosol 
+=== Web Aerosol 
 
-// insert table 527
+[horizontal]
+Range:: 8h
+Area of Effect:: 8h x 1h
+Damage:: None
+Wate:: 2kg
+EXPS:: 300
+Value:: 1000
 
 The web aerosol splatters the area of effect with a super adhesive goo.
 Anything caught in the area of effect will be trapped until the webby mess dissipates 2-16 minutes later.
