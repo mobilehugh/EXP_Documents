@@ -192,7 +192,7 @@ Vibro::  Vibroflec is an intricate weave of microscopic (the present catchphrase
 their target without doing damage.
 Vibro attacks have -150 against Vibroflec (increase the AR of the wearer by +150 vs such attacks).
 
-== Force Field 
+=== Force Field 
 
 [horizontal]
 Armour Rating:: 0
@@ -217,7 +217,12 @@ include::ROOT:partial$CH42_Table_Force_Field_Belt_Strength.adoc[]
 
 === Helmet 
 
-// insert table 387
+[horizontal]
+Armour Rating:: +40
+Restrictiveness:: 0
+Wate:: Table
+EXPS:: +50
+Value:: Table
 
 These are specialized helmets that offer not only head protection, but built in equipment also.
 The helmet could have a  gun medical equipment, or scope installed.
@@ -238,35 +243,41 @@ Very heavy items, such as cloning equipment, or artillery would not only be impr
 The table is an abbreviated list of equipment that may be useful in a combat helmet.
 It is best to record all information about the helmet now, roll its accessory, and not have to refer to this chapter again.
 
-// insert table 388
+include::ROOT:partial$CH42_Table_Helmet_Accessory.adoc[]
 
-1) Communication: The communication device is rolled from the list of communication artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+Communication:: 
+The communication device is generated at xref:iv-hardware:CH48_Misc_Equip.adoc#_communicators[communicators].
 The device cannot have a wate greater than 6 kg.
 Helmet communications are common, and this does not count as a roll.
 Instruct the player to roll on the Helmet Accessory table again.
 
-2) Gun: The weapon is rolled in http://expgame.com/?page_id=339[Chapter 46: ]http://expgame.com/?page_id=339[Guns], and is limited to a pistol, or a pistol version of the gun rolled.
+Gun:: The weapon is rolled in  xref:iv-hardware:CH46_Guns.adoc#_gun_type[Gun], and is limited to a pistol, or a pistol version of the gun rolled.
 The gun is part of the helmet, and it is triggered by the wearer's head actions.
 
-3) Medical Equipment:Medical equipment is rolled in http://expgame.com/?page_id=341[Chapter 47: Medical Equipment].
+Veterinarian Equipment:: Veterinarian equipment is rolled in xref:iv-hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment].
 The only requirement is that the device rolled be reusable (not a disposable vedi-kit), and it must have a wate less than 6 kg.
 
-4) Miscellaneous Equipment:Any bizarre device could be rolled in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+Miscellaneous Equipment:: Any bizarre device could be rolled in xref:iv-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment].
 Again the maximum wate of the artifact is limited to 6 kg, and the mood of the referee.
 For instance a plastix helmet with a built in fire log, may be humorous, but cruel.
 If the device is not reusable, or it has a wate greater than 6 kg, the player should roll another piece of miscellaneous equipment.
 
-5) Scope:Roll from the list of scope artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+Scope:: Roll from the list of scope artifacts found in xref:iv-hardware:CH48_Misc_Equip.adoc#_scopes[Scopes]
 There is no limit to the type of scope that is inserted into the helmet.
 The scope will be useable with any weapon of the appropriate type.
 For instance, a scope dedicated to rifles could be used with any rifle that the persona is using.
 
-6) Visual Aid:Roll from the list of visual aid artifacts found in http://expgame.com/?page_id=343[Chapter 48: Miscellaneous Equipment].
+Visual Aid:: Roll from the list of visual aid artifacts found in xref:iv-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids]
 The mutant will be able to flip the visual aid into and out of place in a stylish visor like fashion.
 
-== 9) Plastix Armour
+=== Plastix Armour
 
-// insert table 389
+[horizontal]
+Armour Rating:: 800
+Restrictiveness:: 1
+Wate:: 1.0 (0.7kg)
+EXPS:: 75
+Value:: 1000/kg (1000)
 
 Plastix armour is nice, white, ceramic composite plate armour.
 The armour has a tendency to remain clean and white, and is commonly worn by disposable spacefaring infantry.
@@ -275,19 +286,31 @@ If the helmet is worn the player receives a penalty of -114 on her to hit rolls.
 The armour rating is not compromised if the helmet is removed.
 
 
-== 10) Powered Armour
+=== Powered Armour
 
-// insert table 390
+[horizontal]
+Armour Rating:: 750
+Restrictiveness:: 15
+Wate:: 300 (210kg)
+EXPS:: 1000
+Value:: 10000000 + accessories
 
 Powered armour is servo aided and computer enhanced body armour.
 Typical powered armour is sealed, carries its own power plant is integrated with it's accessories.
 Powered armour enhances the wearer's attributes by electronically amplifying the persona's natural abilities.
 The persona wearing powered armour is neurally wired into the suit giving immediate access to an array of equipment built into her armour.
 
+Jump over to the chapter devoted to xref:iv-hardware:CH42_Powered_Armour.adoc[Powered Armour].
 
-== 11) Protex Armour
 
-// insert table 398
+=== Protex
+
+[horizontal]
+Armour Rating:: 600
+Restrictiveness:: +2
+Wate:: None (2kg)
+EXPS:: 900
+Value:: 20000
 
 Suits of protex are industrial under armour designed to protect personas from specific work place hazards.
 The armour-clothing offers complete protection from the hazard described.
@@ -298,28 +321,30 @@ This means any damage from any source.
 Roll on Table 42.6: Protex Armour Type to determine the type of protection offered.
 This protection is total, no damage taken, no saves necessary
 
-// insert table 399
+include::ROOT:partial$CH42_Table_Protex_Armour.adoc[]
 
-== 12) Shield 
+=== Shield 
 
-// insert table 400
+[horizontal]
+Armour Rating:: Table
+Restrictiveness:: Table
+Wate:: Table
+EXPS:: 100
+Value:: Table
 
 Artifact shields are arm held plates based on the materials, or technologies, of other TOY armour types.
 For instance, a plastix shield may be found with a suit of plastix armour.
 The plastix shield will improve the user's armour rating by decreasing the surface area available for effective attack.
 The main point of a shield is that it can only protect one flank of the wearer, and does not cover her whole body.
 A force field wrist band would only place a force field in front of the persona, and attacks from the other flanks would not suffer the shielding bonus.
-Further rules for shielding can be found under Shielding in http://expgame.com/?page_id=302[Chapter 29: Armour Rating].
+
 The type of artifact shield and it's benefits are determined on Table 42.7: Shield Armour Type.
 All special properties of the armour that apply to the shield are listed on the table.
 Shields are quite dull, and take some time to roll up since the referee must flip between several parts of this chapter.
 
-// insert table 401
+include::ROOT:partial$CH42_Table_Shield_Type.adoc[]
 
-== 13) Vac Suit 
-
-// insert table 402
-
+=== Vac Suit
 The vacuum resistance suit keeps the persona from being simultaneously asphyxiated, boiled and frozen by the harsh environment of deep space (exatmo).
 The vac suit, or space suit, is the standard protection worn by anthropomorphs expecting to survive zero atmosphere.
 There are three separate types of vac suits: civilian, industrial, and military.
@@ -327,9 +352,19 @@ Each of which has it's peculiarities.
 Vac suits will tear only if subject to extreme damaging forces.
 If a persona wearing a vac suit takes 30 points of damage, there is a 30% chance of vac suit rupture.
 Vac suit rupture will kill the persona very quickly.
-See http://expgame.com/?page_id=282[Chapter 19: Special Terrain].
 
-Civilian:The civilian vac suit is the virtual life preserver of outer space.
+include::ROOT:partial$CH42_Table_Vac_Suit.adoc[]
+
+==== Civilian
+
+[horizontal]
+Armour Rating:: 500
+Restrictiveness:: 4
+Wate:: 10 (8kg)
+EXPS:: 350
+Value:: 100000
+
+The civilian vac suit is the virtual life preserver of outer space.
 It can be adorned quickly, within 1 to 4 units if a normal DEX attribute roll is made.
 The wearer will be able to function normally for 4 days.
 If the vac suit is worn for greater than 4 days, the wearer will be preserved cryogenically until revived by medical personnel (DD 5).
@@ -338,7 +373,16 @@ Since the civilian vac suit is only going to be worn in emergency situations is 
 The vac suit can also be worn to protect against toxins inside an atmosphere.
 The suit will maintain a safe environment for 4 days, and then act as a stasis bag for 4 months.
 
-Industrial:The industrial vac suit was designed to do outside repair work for space vehicles while exatmo.
+==== Industrial
+
+[horizontal]
+Armour Rating:: 600
+Restrictiveness:: 8
+Wate:: 30 (21kg)
+EXPS:: 350
+Value:: 250000
+
+The industrial vac suit was designed to do outside repair work for space vehicles while exatmo.
 The suit can be jumped into by a skilled wearer in 1 to 4 units.
 An industrial vac suit can be flown around by the wearer.
 It has jets built into the shoes, and gloves, so the wearer can maneuver at 8 h/u.
@@ -346,7 +390,16 @@ The industrial vac suit has a built in radio, and lots of space for tools, and s
 The industrial vac suit has a mini airlock which can transfer small pieces of equipment to the inside of the suit for delicate hands on work.
 A persona can function normally for 8 days in this vac suit, but beyond this time the wearer will be placed in cryogenic suspension, and an all frequency emergency beacon will begin transmitting.
 
-Military:While exatmo, the military vac suit is virtually undetectable to anything other than direct visual sight.
+==== Military
+
+[horizontal]
+Armour Rating:: 700
+Restrictiveness:: 6
+Wate:: 20 (15kg)
+EXPS:: 350
+Value:: 300000
+
+While exatmo, the military vac suit is virtually undetectable to anything other than direct visual sight.
 The suits have built in lazer communicators, and line of sight must be maintained to converse between two talkers.
 Specially articulated gloves allow the wearer to employ triggered weapons.
 There is also a jet system built into the shoulders and feet of the vac suit.
