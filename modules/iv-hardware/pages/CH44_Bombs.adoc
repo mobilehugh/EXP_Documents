@@ -1,30 +1,688 @@
 = Bombs
 
-
 //+++<figure id="attachment_3546" aria-describedby="caption-attachment-3546" style="width: 208px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/09/bombs.414-208x300.png?resize=208%2C300[For pieces and freedoms.,208]](https://i1.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/09/bombs.414.png)+++<figcaption id="caption-attachment-3546" class="wp-caption-text">+++For pieces and freedoms.+++</figcaption>++++++</figure>+++
 
-
-Bombs are a subsection of grenades and aerosols (chapter 45).
+Bombs are a subsection of grenades.
 Bombs are nothing more than great big grenades.
 They have a greater area of effect, inflict more damage, and have longer durations than the grenades, or aerosols, that they are modelled after.
+Many grenades, and aerosols, have special effects.
+These effects are also increased when they are fashioned into bombs.
+Clouds , fires, radioactivity, or ice fields will last 10 times longer.
+The intensities of poisons are amplified by 10 as well.
+The intensity of a bomb attack cannot exceed 25.
 
-Bombs are very deadly--misuse of a fusion bomb would certainly melt an entire expedition in the flash of a hydrogen atom.
-Even previously safe aerosols can become dangerous when amplified to the proportions of a bomb&8211;a foam bomb could easily entomb an entire unsuspecting expedition.
+*Bombs are very deadly.*
+Misuse of a fusion bomb would melt an entire expedition in a flash.
+Even safe aerosols can become dangerous when amplified to the proportions of a bomb.
+A foam bomb could entomb an entire unsuspecting expedition.
 
-There is not a detailed explanation of every deadly bomb.
-Table 44.3: Bomb Type indicates what grenade, or aerosol, type is to be increased to the proportions of which bomb.
-Many grenades, and aerosols, have special effects which are also increased when they are fashioned into bombs, Clouds , fires, radioactivity, or ice fields will last 10 times longer than the durations listed for aerosols, and grenades.
-The intensities of poisons are generated in the same manner as the grenade, or aerosol, type.
-The intensity of a bomb attack cannot exceed 25, unless the base weapon type already can.
+.*Bomb Checklist*
+. <<_bomb_type, Bomb Type>>
+. <<_detonator,Detonator>>
+. <<_description, Description>>
+.. <<_bomb_shape,Shape>>
+.. <<_bomb_shape_deformation,Deformation>>
+.. <<_bomb_adornment,Adornment>>
+.. <<_bomb_colour,Colour>>
+. <<_bomb_attribute_explanations,Bomb Attribute Explanations>>
 
-== Range 
+== Bomb Type 
 
+include::ROOT:partial$CH44_Table_Bomb_Type.adoc[]
+
+== Bomb Types
+
+=== Grand Slam 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_big_bertha_grenade[Big Bertha]
+Area of Effect:: 160h
+Damage:: 120-1440 (12d12 x 10)
+Wate:: 50kg 
+EXPS:: 300
+Value:: 50000
+
+The Grand Slam is a concussion bomb.
+Aside from doing massive damage it is designed to topple targets.
+
+.*Big Bertha Effect*
+* 160h range 12d12 damage
+* 240h range stun
+* 320h range topple
+
+These effects are cumulative.
+Stun is versus intensity 25.
+Topple is versus intensity 25.
+
+== Dissolver 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_corrosive_grenade[Corrosive Grenade]
+Area of Effect:: 60h
+Damage:: 50-400 (50d8)
+Wate:: 25kg
+EXPS:: 200
+Value:: 15000
+
+All targets in the area of effect take the initial damage of 50-400 on detonation.
+Inorganic targets continue to take 20-200 (20d10) hit points per unit in the area of effect.
+The dome of dissolving lasts 1-3 minutes. 
+Designed for clearing out mobs of robotic targets.
+
+=== Polarizer
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_cryoblast_grenade[Cryoblast Grenade]
+Area of Effect:: 160h
+Damage:: 30-300 (30d10)
+Wate:: 25kg
+EXPS:: 300
+Value:: 25000
+
+There is a 1% chance per hit point of damage inflicted of any target being trapped in ice.
+
+=== Black Out Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_energy_drain_grenade[Energy Drain Grenade]
+Area of Effect:: 60h, special
+Damage:: Special
+Wate:: 12kg
+EXPS:: 275
+Value:: 75000
+
+The black out bomb will drain all batteries within 200 hexes.
+The bomb uses the stolen energy for a killing attack with a 60 hex range.
+The damage of the killing attack depends on the amount of energy around to drain.
+If there is a power plant near by, the bomb will be ferocious.
+If there are only batteries around the bomb will merely be lethal.
+
+In a civic area this bomb would deliver 5-200 (50d4) hits points of damage.
+Within 200h of a power plant detonation would do 20-800 (200d4) hit points of damage.
+A middling power source like a robot would be somewhere in between.
+
+The power sources are not destroyed by being drained.
+Thy are only damaged if they are in the explosion range.
+Robots and power plants are shut down unless hardened to such attacks.
+
+=== Land Scraper
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_energy_grenade[Energy Grenade]
+Area of Effect:: 150h x 150h x 10h
+Damage:: 12-480 (12d4 x 10)
+Wate:: 25kg
+EXPS:: 300
+Value:: 250000
+
+Sends a lazer sheet parallel to the ground, travelling with the contours of the terrain, damaging all targets along the way.
+This bomb is also called a trench clearer.
+
+=== Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_fragmentation_grenade[Fragmentation Grenade]
+Area of Effect:: 20h
+Damage:: 50-500 (50d10)
+Wate:: 25kg
+EXPS:: 125
+Value:: 2000
+
+This is the standard drop from the plane, hide in the car type bomb.
+Bringing peace and liberty to innocent civilians everywhere.
+
+//+++<figure id="attachment_9637" aria-describedby="caption-attachment-9637" style="width: 300px" class="wp-caption aligncenter">+++[.size-medium.wp-image-9637] image::https://i0.wp.com/expgame.com/wp-content/uploads/2018/05/bomb_short_fuse-300x300.png?resize=300%2C300[studiostoks stock illustration modified HM,300]+++<figcaption id="caption-attachment-9637" class="wp-caption-text">+++Bad fuse choice for a nuclear device.+++</figcaption>++++++</figure>+++
+
+=== Nuclear Device 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_fusion_grenade[Fusion Grenade]
+Area of Effect:: 200h
+Damage:: 100-1200 (10d12 x 10)
+Wate:: 42kg
+EXPS:: 300
+Value:: 10000
+
+This is the favourite terran device for preserving peace through assured immolation.
+What mad alien race would invent such a sick and twisted weapon?
+
+.*Nuclear Device Areas of Effect*
+* 200h tiny and small sized personas disintegrate
+* 200h medium, large, and gigantic personas take 100-1200 (10d12 x 10) hit points
+* 300h immolation 
+* 400h blinding flash
+* 600h radiation attack
+
+.*Immolation*
+Any flammable object within 300 hexes of the epicenter catches fire.
+This includes personas as well as equipment.
+Anything ignited by the grenade will burn until extinguished.
+This results in burn damage every unit of being on fire.
+
+.*Blinding*
+Any personas within 400 hexes has a chance of being blinded.
+The chance of being blinded is 1/2% per point of damage.
+This attack affects both organic and inorganic personas and devices.
+Vision will be restored in 1-10 (1d10) minutes.
+
+.*Radiation*
+Any target within 600 hexes is subject to a lethal radiation attack.
+The intensity of the attack is 25.
+
+The effects of a nuclear device are cumulative.
+Consider a persona that is within 200 hexes taking 600 HPS of damage.
+First she subtracts 600 HPS from HPS Total (hahahah).
+She catches fire, is blinded and suffers a 25 intensity radiation attack.
+
+.*Residual Radiation*
+For effect the ref can make the 200 hex area of effect a lingering radiation zone.
+The radiation intensity decreases from 25 by one point per week.
+There will always be radiation anomaly detected at the blast site.
+
+=== Nerve Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_gas_grenade[Gas Grenade]
+Area of Effect:: 260h
+Damage:: Varies 
+Wate:: 25kg
+EXPS:: 275 
+Value:: 22500
+
+The nerve bomb discharges a dense mist of poisons.
+The nerve agents are both contact, and respiratory poisons.
+All organic targets must roll vs poison attack or suffer the described affect.
+The gas's intensity will vary from 4-24 (4d6).
+
+The cloud of gas will remain and be poisonous for 1 day per point of intensity.
+Prevailing winds may affect the duration, and intensity of the gas cloud.
+
+include::ROOT:partial$CH44_Table_Gas_Type.adoc[]
+
+=== Gravitas 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_gravruptor_grenade[Gravruptor Grenade]
+Area of Effect:: 250h
+Damage:: Special
+Wate:: 50kg
+EXPS:: 250
+Value:: 300000
+
+The gravitas generates 1-10 (1d10) gravities of anomalous attraction.
+The gravitas bomb produces an instantaneous burst of random acceleration.
+The bomb will either fling targets  into the air or crush them into the ground.
+Newtonian physics conveniently need not apply.
+Objects greater than 100 tonnes in wate are not affected by the bomb's attack.
+
+There is a 75% chance that the gravitas bomb will add 1-10g in the area of effect.
+Targets crash to the ground, weapons are torn from digits, and vehicles grind into the dirt.
+This pressing problem inflicts 1 to 12 (1d12) hit points in damage per extra gravity
+A persona need not hit the ground or be crushed it is the acceleration that hurts.
+For example, 3g would smash targets into the ground for 3-36 (3d12) hit points of damage.
+
+The remaining 25% of the time the gravitas bomb flings everything into the sky.
+The acceleration inflicts 1 to 12 (1d12) hit points in damage per extra gravity.
+The targets will rise 1h per gravity generated.
+They then have to deal with falling damage from that height. 
+For example, a 5g attack would inflict 5-60 (5d12) hit points of damage.
+Then the personas will fall 5 hexes which usually inflicts 5d4 hit points in damage.
+
+In zero gravity (zog) the targets will fly away from the epicenter of the blast.
+The gravitas bomb inflicts the usual acceleration damage (1d12 per gravity).
+The new movement rate will be 1 h/u per 2 points of damage generated by the bomb.
+
+=== Junk Yard 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_magnetic_disruptor_grenade[Magnetic Disruptor Grenade]
+Area of Effect:: 150h
+Damage:: Special
+Wate:: 37kg
+EXPS:: 300
+Value:: 112500
+
+The junk yard bomb acts like an instantaneous super magnet. 
+When detonated this bomb attracts loose items towards it's detonation hex.
+For example, everything inorganic within 150h will fly towards the epicenter.
+These high speed projectiles smash into any persona within the area of effect.
+The further out from the epicenter the target is the less damage is delivered.
+So a persona 150h out from the epicenter would take 1d4 of damage.
+A persona in the target hex would take 150d4.
+The targets closest to the detonation are being hit with more hurtling stuff.
+
+Anything loose will be violently drawn towards the epicenter. 
+This includes anything less than 500kg
+The junk yard bomb will create an instantaneous junkyard.
+It will attract anything inorganic: metals, alloys, plastic, wood, etc.
+Artifacts are left destroyed in a mound resembling an instantaneous junk yard.
+Unless the terrain is intentionally completely barren there will be stuff to attract.
+
+Typically the planet is the nearest and largest object. 
+In zero gravity the bomb will attach to the largest object within range.
+If there is no reference object the junk yard bomb will create a satellite of junk.
+
+=== Space Modulator 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_molecular_disruptor_grenade[Molecular Disruptor Grenade]
+Area of Effect:: Special
+Damage:: Special
+Wate:: 30kg
+EXPS:: 300
+Value:: 500000
+
+Simply put everything within the blast radius is destroyed.
+No saving throw.
+Every thing in the effect radius will take 8d8 hit points of damage.
+There is absolutely no cover offered.
+
+A space modulator bomb is a temperamental disintegration bomb.
+It is the classic total annihilation device of mad scientists the universe over. 
+When detonated this bomb converts matter into a warm, seething cloud.
+The problem is that neither the bomber, nor the bomb, has any idea how much matter is about to be disrupted.
+When a space modulator bomb is used the amount of destruction is randomly determined.
+
+.*Damage*
+The damage area of effect inflicts 8-64 (8d8) hit points of damage. 
+The size of the damage area of effect is rolled on the Disruption Event Table. 
+Damage is caused by slivers of disintegration that escpe from the bomb.
+These slivers punch microscopic holes through anything in the damage area of effect.
+
+.*Disintegration*
+The disintegration area of effect utterly destroys any target within it. 
+Any matter within this area of effect is transformed into homogenous gas.
+There is no explosion, no noise, just a giant cloud of effervescent warm gas.
+The effect of this on matter is devastating, and final.
+All personas, equipment, terrain, and good ideas are utterly destroyed.
+
+include::ROOT:partial$CH45_Table_Modulator_Event.adoc[]
+
+=== Jumping Jack Blast
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_multiple_explosive_grenade[Multiple Explosive Grenade]
+Area of Effect:: Special
+Damage:: Special
+Wate:: 45kg
+EXPS:: 250
+Value:: 25000
+
+The jumping jack blast will detonate multiple times with unpredictable effect.
+There will be a 1 to 10 (1d10) unit pause between explosions.
+The new epicenter will be 20 to 120 (2d6 x 10) hexes away from the last one.
+
+include::ROOT:partial$CH44_Table_Jumping_Jack_Pattern.adoc[]
+
+=== Cremator 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_napalm_grenade[Napalm Grenade]
+Area of Effect:: 40h x 160h
+Damage:: 60-600 (60d10)
+Wate:: 39kg
+EXPS:: 300
+Value:: 50000
+
+When discharged the bomb launches itself into the air, and sprays napalm along its path.
+Additional burning damage will usually be irrelevant to all but the freshest combat robot.
+The path will burn for 20 to 80 units after the attack, inflicting 20 to 240  (20d12) HPS in burning damage each unit.
+
+=== Diversionizer 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_pyrotechnic_grenade[Pyrotechnic Grenade]
+Area of Effect:: 100h
+Damage:: None
+Wate:: 10kg
+EXPS:: 100
+Value:: 8750
+
+The diversionizer is a shock and awe weapon.
+The bomb can be composed smoke, sonic, flash or any combination.
+While it may not be directly lethal it's effects can result in fatalities.
+
+include::ROOT:partial$CH45_Table_Pyro_Combo.adoc[]
+
+Smoke:: 
+The diversionizer's smoke attack fills the area of effect with very dense smoke.
+The smoke will last for 1-10 (1d10) hours.
+For a fancy smoke colour jump to the <<_bomb_colour,Colour Table>>.
+
+Flash:: 
+The diversionizer's flash bomb will  blind any target that has optical sensors.
+The sensors (eyes, cameras) will remain inoperative for 1 to 10 hours.
+There is a saving roll versus intensity 3-24 (3d8) poison.
+
+Sonic:: 
+the diversionizer's sonic boom deliver a painful eardrum numbing howl on discharge.
+Any audio receptors in the area of effect are deafened by the attack.
+Total deafness lasts 1 to 10 hours, followed by days of impaired audio.
+There is no saving throw for the diversionizer's sonic attack.
+
+=== Neutron Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_radiation_grenade[Radiation Grenade]
+Area of Effect:: 240h
+Damage:: 30-180 (30d6)
+Wate:: 55kg
+EXPS:: 200
+Value:: 25000
+
+This hater of all things organic does not damage structures or robots.
+A neutron bomb bathes everything in the area of effect with destructive radiation.
+Only those organics hardened to radiation can avoid the initial wave of damage.
+Anything that survives the initial attack then must roll versus intensity 25 radiation.
+
+The site hot for 25 years.
+Dropping one level of radiation intensity per year.
+The site will remain radioactively anomalous forever.
+What mad alien race would invent such a sick and twisted device?
+
+=== Sky Breaker 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_skylighter_grenade[Skylighter Grenade]
+Area of Effect:: 800h x 600h
+Damage:: 50-500 (40d10)
+Wate:: 70kg
+EXPS:: 300
+Value:: 275000
+
+The sky breaker combines a massive serving of destruction with shock and awe.
+The initial detonation fires straight up apparently having no effect.
+Then 20 to 60 units later the area of effect is hailed with with shards of iridescent glowing ice.
+This grenade depends on complex meteorological mechanisms.
+This grenade is useless if used indoors, underwater, in zero gravity or in a vacuum.
+
+=== Torc Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH45_Grenades.adoc#_torc_grenade[Torc Grenade]
+Area of Effect:: 240h
+Damage:: Special
+Wate:: 45kg
+EXPS:: 275
+Value:: 450000
+
+The torc bomb is the anti-force field bomb.
+A torc bomb does no damage unless the target is within a force field.
+The bomb affects any force field makes contact with the radius of the torc bomb.
+Any tactical, personal, robotic or civic powered force field will instantly be exhausted.
+A force field powered by a renewable power plant is permanently disabled.
+The torc bomb will temporarily shut down a naval forcefield. 
+The torc bomb will have no effect what so ever on force fields greater than 240 hexes in radius.
+The bomb may create a temporary hole in giant force fields to assist the story.
+
+The collapse of the shield delivers 120-1440 (12d12 x 10) hit points of damage.
+The damage is only delivered to targets inside the force field. 
+
+=== Lazer Cover 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_anti_lazer_aerosol[Anti Lazer Aerosol]
+Area of Effect:: 70h
+Damage:: None
+Wate:: 50kg
+EXPS:: 275
+Value:: 50000
+
+The lazer cover bomb dissipates any lazer bolts entering its gaseous field. 
+The antilazer cloud cause lazers to flare out into harmless glowing balls. 
+The cloud does not obstruct vision.
+The lazer cover bomb does not affect other energy attacks like ​fission, fusion, or plasma.
+There is no limit to the amount of damage that lazer cover bomb can dissipate.
+The shimmering cloud evaporates 1-10 hours after detonation.
+
+This bomb is also called the peacemaker.
+
+=== Bot Bomb
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_catabolic_dismodulator_aerosol[Catabolic Dismodulator Aerosol]
+Area of Effect:: 20h, special
+Damage:: 50 to 600 (50d6)
+Wate:: 42kg
+EXPS:: 300
+Value:: 2250000
+
+
+The bot bomb turns inorganic matter into an opaque, iridescent, cloud of freezing gas.
+Any equipment, vehicles, armour, computers or robots within 20h is destroyed.
+This includes persona robots.
+A persona robot gets a  roll versus intensity 13 to 28 (10+3d6) poison or disappears.
+
+Everything within 60h of detonation will take damage from the freezing gas. 
+This includes all organic personas, and any inorganic ones that avoided disintegration.
+The freezing gas cloud inflicts 50 to 600 (50d6) hit points of damage.
+If an organic persona is in the detonation hex of this weapon they too can disintegrate.
+An organic personas suffering a direct hit has a 42% chance of  disappearing along with their equipment.
+A persona gets a  roll versus intensity 13 to 28 (10+3d6) poison.
+
+=== Emperor
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_demagnetizer_aerosol[Demagnetizer Aerosol]
+Area of Effect:: 100h
+Damage:: None
+Wate:: 55kg
+EXPS:: 300
+Value:: 1250
+
+The emperor delivers an electromagnetic wave that incapacitates electronic devices.
+Only military hardware specifically EMC or EMP hardened can avoid shut down.
+Equipment with such hardening gets to roll versus intensity 4 to 24 (4d6) radiation.
+Robotic personas also get to roll versus intensity 4 to 24 (4d6) radiation.
+Equipment will be inoperative for 1 hour per level of intensity.
+There is also a 1% chance per level of intensity of permanent damage. v
+
+Also called an EMP bomb.
+
+=== Foam Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_foam_aerosol[Foam Aerosol]
+Area of Effect:: 160h
+Damage:: None
+Wate:: 75kg
+EXPS:: 100
+Value:: 1237
+
+The foam bomb instantly covers its area of effect with a rapidly hardening blob of foam.
+The foam pad is 10h deep.
+The foam hardens in 20 units. 
+Anything still within the foam after 20 units will be permanently trapped.
+The foam is thick and slows movement by 1/2. 
+Anything flying is grounded by the foam.
+
+Once cured the foam is easily cut away.
+However trapped personas are completely helpless.
+At no time are personas at risk of suffocation. 
+A more likely death is dehydration and starvation.
+
+This is also called an insulator or homemaker.
+
+=== Tracker Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_matter_detector_aerosol[Matter Detector Aerosol]
+Area of Effect:: 120h
+Damage:: None
+Wate:: 49kg
+EXPS:: 300
+Value:: 2000000
+
+All matter will be coated with chemicals that emit heat, vibrations, aromas, light and radiation.
+The effect is immediate exposing all hidden objects within the area of effect.
+This will expose potential ambush, invisible or camouflaged targets within the area of effect.
+
+=== Cover Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_mistor_aerosol[Mistor Aerosol]
+Area of Effect:: 500h
+Damage:: None
+Wate:: 70kg
+EXPS:: 100
+Value:: 2000
+
+The cover bomb renders all senses completely useless.
+Virtually all sensors are dulled through lack of stimuli.
+This includes eyes, ears, touch, cameras, microphones, etc. 
+While not blinded nothing can be seen, yelling is futile, and everything feels cool to the touch.
+Any attacks made are in a random direction, even if the target recently brushed against the attacker.
+Movement is random, unless the persona has some form of directional sense.
+The suspension will remain cohesive for 10-160 (1d6 x 10) days.
+Getting lost within the cover bomb area of effect  is a real possibility.
+
+=== Diffusion Bomb
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_molecular_diffusion_aerosol[Molecular Diffusion Aerosol]
+Area of Effect:: 140h
+Damage:: 120-960 (12d8 x 10)
+Wate:: 100kg
+EXPS:: 300
+Value:: 25000
+
+The massive amount of damage is delivered to everything in the area of effect.
+It is presumed that molecules are slightly diffused.
+This microscopically tears apart everything for the prescribed damage.
+
+=== Paint Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_paint_aerosol[Paint Aerosol]
+Area of Effect:: 80h
+Damage:: None
+Wate:: 50kg
+EXPS:: 50
+Value:: 2250
+
+This bomb colours everything within range to match thee same colour as the bomb's casing.
+A paint bomb could paint everything with range striped, or even plaid.
+Personas caught in the area of effect will be temporarily blinded for 1 minute.
+Unclothed organic personas must save vs intensity 1-6 (1d6) damaging poison. 
+To determine the paint colour and pattern jump to <<_bomb_colour,Bomb Colour>>.
+
+=== Toxin Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_poison_aerosol[Poison Aerosol]
+Area of Effect:: 240h
+Damage:: Death
+Wate:: 50kg
+EXPS:: 300
+Value:: 35000
+
+The toxin bomb is both selective and lethal.
+A combined nerve gas and respiratory poison is spread through the area of effect.
+Whatever type of creature is poisoned by this aerosol must make a save versus intensity 2 to 24 poison, or die.
+Personas that survive the killing attack will still take poison damage.
+The targeted persona type will be repulsed by the lingering residue.
+The repellant effect will last for 1-3 (1d3) weeks.
+The Poisoned Persona Table determines what is affected by the personacide.
+
+include::ROOT:partial$CH45_Table_Poisoned_Personas.adoc[]
+
+=== Bug Bomb 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_repellent_aerosol[Repellent Aerosol]
+Area of Effect:: 60h
+Damage:: None
+Wate:: 50kg
+EXPS:: 300
+Value:: 2500
+
+The bug bomb is a super sized repellent, and is the pacifist's version of the toxin bomb.
+Targets repelled by the bomb must save versus intensity 13-28 (3d6+10).
+A failed saving roll indicates that the persona will irrationally run, fly or hop away.
+If the persona saves versus the repellent they still must leave the area of effect.
+Any recursion into the repellent area of effect indicates another save is required.
+The residue will work repel targets for 1-6 (1d6) weeks.
+
+include::ROOT:partial$CH45_Table_Repelled_Personas.adoc[]
+
+=== Air Raid Siren
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_siren_aerosol[Siren Aerosol]
+Area of Effect:: 500h
+Damage:: 1-20 (1d20)
+Wate:: 2kg
+EXPS:: 100
+Value:: 3750
+
+The ear splitting siren will wail for 2 to 8 minutes.
+This attack will deafen all audio systems for for 1 to 10 days.
+This includes organic ears and inorganic microphones.
+There is 1% chance per day of deafness that the hearing loss becomes permanent.
+There is no saving throw.
+
+=== Smog Machine 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_smoke_aerosol[Smoke Aerosol]
+Area of Effect:: 240h
+Damage:: None
+Wate:: 50kg
+EXPS:: 50
+Value:: 5000
+
+The smog machine creates a gigantic immobile pall of a particular colour.
+The cloud will disperse over 10 to 80 (1d8 x 10) weeks.
+The dense smog can be removed by excavation equipment.
+If the range penalties are being applied the smog counts as opaque.
+The colour of the smog will match the colour of the casing of the bomb.
+To determine the smog colour and pattern jump to <<_bomb_colour,Bomb Colour>>.
+
+=== World Wide Web 
+
+[horizontal]
+Base Weapon:: xref:iv-hardware:CH43_Aerosols.adoc#_web_aerosol[Web Aerosol]
+Area of Effect:: 160h x 20h
+Damage:: None
+Wate:: 50kg
+EXPS:: 300
+Value:: 50000
+
+The world wide web bomb splatters the swath of effect with super adhesive goo. 
+Anything caught in the area of effect will be trapped until the webby mess dissipates.
+Any persona that saunters into the messy web will instantly become entrapped.
+Targets are trapped for 20-160 (2d8 x 10) minutes until the web decomposes.
+A persona can attempt subtle movements, such as pulling a gun trigger, activating an aerosol, or taking a pharmaceutical. 
+To be successful requires difficult DEX (1d20) roll.
+
+Struggling leads to a chance of suffocation. 
+If a persona begins to struggle there is a 1% chance of suffocating in the web.
+
+Procedures such as burning, dissolving or disintegrating the web will have varying chances of success. 
+Each attempt to free a persona from the will has a chance of trapping the rescuer.
+A failed difficult DEX (1d20) roll by a rescuer indicates they are now trapped as well.
+
+The colour of the web will be the same as the colour of the aerosol canister.
+To determine the web colour and pattern jump to <<_bomb_colour,Bomb Colour>>.
+
+== Bomb Attribute Explanations
+
+=== Bomb Creator Template
+
+[horizontal]
+Range:: Not applicable
+Area of Effect:: times 20
+Damage:: times 10
+Wate:: times 25
+EXPS:: No change
+Value:: times 50
+
+=== Range 
 This aerosol statistic does not apply to bombs, even if the bomb is modelled after an aerosol.
 When a bomb is detonated, it destroys itself, and its area of effect reaches out around it.
 It also should be obvious that bombs cannot be thrown any great distance.
 
-== Area of Effect 
-
+=== Area of Effect 
 The area of effect operates similarly to the area of effect of grenades, and aerosols.
 The only difference is that a bomb's area of effect radius is 20 times greater than its base type.
 All incidental area of effect radii are also multiplied by 20.
@@ -39,337 +697,53 @@ In the case of a bomb, only a military bunker may be able to protect the target.
 Bombs are deadly.
 They are designed to destroy large areas effectively and economically.
 
-== Damage 
-
+=== Damage 
 Any damage that the base weapon inflicts is multiplied by 10.
 This is the factor that makes bombs so incredibly deadly, because even the most trivial damage amounts are multiplied to killer proportions.
 If the referee feels that a non-lethal base grenade, or aerosol, has been made too deadly by the change in damage, she may feel free to alter it.
 
-== Wate 
-
+=== Wate 
 A bomb will have a wate 25 times greater than its grenade, or aerosol counterpart.
 
-== EXPS 
-
+=== EXPS 
 Bombs are worth the same number of EXPS of the grenade or aerosol that they are modelled after.
 
-== Value 
-
+=== Value 
 The value of a bomb is 50 times that of its base aerosol, or grenade type.
 
-== Detonators 
 
-Unlike aerosols, bombs are completely self consuming.
-When bombs are detonated, they destroy themselves, and attempt to spread their effects over the greatest possible area.
 
-A bomb's detonator is truly the nitty gritty of the device.
-Unlike grenades and aerosols, none of the bomb's detonators are designed with personal safety in mind.
+
+=== Detonator 
+A bomb's detonator is the nitty gritty of the device.
+Unlike grenades and aerosols, a bomb's detonators is *NOT* designed with persona safety in mind.
 The bombs have radio detonators, fuses, or some other form of long range triggering device which allows for user safety.
 Once the detonator is activated the bomb will explode spreading death all about itself.
 Fooling with a bomb's detonator could very easily annihilate and entire expedition.
 There is a 75% chance that a bomb's detonator will be detached from the bomb itself.
-Safety first.+++<figure id="attachment_3547" aria-describedby="caption-attachment-3547" style="width: 214px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/09/junkfixer.417-214x300.png?resize=214%2C300[For pieces and liberty.,214]](https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/09/junkfixer.417.png)+++<figcaption id="caption-attachment-3547" class="wp-caption-text">+++For pieces and liberty.+++</figcaption>++++++</figure>+++
+Safety first.
 
-== Description 
+//+++<figure id="attachment_3547" aria-describedby="caption-attachment-3547" style="width: 214px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/09/junkfixer.417-214x300.png?resize=214%2C300[For pieces and liberty.,214]](https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/09/junkfixer.417.png)+++<figcaption id="caption-attachment-3547" class="wp-caption-text">+++For pieces and liberty.+++</figcaption>++++++</figure>+++
 
+=== Description 
 Bombs have shapes and colours the same as grenades do.
 Even if the bomb has an aerosol effect, it will have one of the bomb shapes generated in this section.
-Use Table 44.1: Bomb Shape, and Table 44.2: Bomb Colour to determine a random description of the bomb.
 
-// insert table 434
+==== Bomb Shape
 
-// insert table 435
+include::ROOT:partial$CH44_Table_Bomb_Shape.adoc[]
 
-// insert table 436
+==== Bomb Shape Deformation
+This table is optional.
 
-// insert table 437
+include::ROOT:partial$CH44_Table_Bomb_Shape_Adjustment.adoc[]
 
-== Bomb Type 
+==== Bomb Adornment
+These are the most fun and aggravating descriptors for the players to work with. 
 
-include::ROOT:partial$CH44_Table_Bomb_Type.adoc[]
+include::ROOT:partial$CH44_Table_Bomb_Strange_Adornment.adoc[]
 
-== 1) Grand Slam 
+==== Bomb Colour 
+Keep it simple with a 1d10 roll, or make it zany with a 1d100 roll.
 
-// insert table 439
-
-This is the ultimate concussion grenade knocking down and stunning everything in its area of effect.
-
-== 2) Corrosive Bomb 
-
-// insert table 440
-
-Initial damage is rolled on 50d8.
-Eats away at inorganic materials for 10 to 80 units, inflicting 20 to 200 (20d10) hit points of damage each unit.
-Designed for clearing out mobs of robotic targets.
-
-== 3) Polar Bomb 
-
-// insert table 441
-
-There is a 1% chance per hit point of damage inflicted of the target being trapped in ice.
-
-== 4) Black Out Bomb 
-
-// insert table 442
-
-The black out bomb will drain all batteries within 200 hexes and explode for a killing attack within 60 hexes.
-The damage of the killing attack depends on the amount of energy around to drain.
-If there is a power plant near by, the bomb will be ferocious, but if there are not many batteries near by the bomb will only be lethal.
-50d4 would be a good amount of damage for a populated technological area.
-If this bomb were discharged near a nuclear power plant the Black out bomb may function like a http://expgame.com/?page_id=3357-nuclear-device[Nuclear Device].
-A black out bomb would turn off robots, unless they are Combat Robots (type C) and hardened against such attacks.
-
-== 5) Lazer Bomb 
-
-// insert table 443
-
-Sends a lazer sheet parallel to the ground, travelling with the contours of the terrain, damaging all targets along the way.
-This bomb is also called a trench clearer.
-
-
-== 6) Bomb 
-
-// insert table 444
-
-This is the standard drop from the plane, hide in the car type bomb.
-Bringing peace and liberty to innocent civilians everywhere.+++<figure id="attachment_9637" aria-describedby="caption-attachment-9637" style="width: 300px" class="wp-caption aligncenter">+++[.size-medium.wp-image-9637] image::https://i0.wp.com/expgame.com/wp-content/uploads/2018/05/bomb_short_fuse-300x300.png?resize=300%2C300[studiostoks stock illustration modified HM,300]+++<figcaption id="caption-attachment-9637" class="wp-caption-text">+++Bad fuse choice for a nuclear device.+++</figcaption>++++++</figure>+++
-
-== 7) Nuclear Device 
-
-// insert table 445
-
-Anything that is tiny, small, or medium sized within the area of effect, will explode without any saving throw.
-Any flammable object within 300 hexes will instantly immolate.
-Any organic creatures within 400 hexes will be blinded for 1 to 8 hours.
-Any target within 600 hexes (that is 1.2 kilometers) will be irradiated for an intensity equal to 1/10 the blast damage.
-These effects are cumulative as the target gets closer to the epicenter.
-
-== 8) Nerve Bomb 
-
-// insert table 446
-
-Refer to Table 44.4, +++<i>+++Gas Type +++</i>+++to determine the effect of the gas.
-The gas will attack as a poison with an intensity of 4 to 24.
-Note that nerve gas need not be inhaled to have its effect.
-Simply touching the contaminated area may produce the effect.
-The area will remain poisoned for 1 day per intensity of poison attack.
-For more information refer to chapter 45.
-
-// insert table 447
-
-== 9) Grav Bomb 
-
-// insert table 448
-
-The bomb affects anything up to 100 tonnes in wate.
-The bomb will either lift the targets up into the air, to fall 1 to 10 hexes afterward, or smash the targets into the ground with 1 to 10 gravities.
-Either instantaneous acceleration (up or down) will inflict 1-12 hit points in damage per gravity of acceleration.
-If used in zog (zero gravity) the targets will fly away at 1 h/u per 2 hit points of damage.
-This affects everything less than 100 tonnes in wate.
-
-== 10) Junk Yard 
-
-// insert table 449
-
-The bomb cannot be moved from its location, and it will attract anything less than 5 tonnes towards its epicenter.
-The attractor will usually have a penchant for a certain material type of the referee's discretion.
-This could be dirt, skin, or air car hulls.
-
-== 11) Disintegrator 
-
-// insert table 450
-
-Please consult the grenade directly for the details of this peculiar, and unpredictable weapon.
-Anything disintegrated is turned into warm gas, and anything damaged is missing little slivers of itself.
-Simply put everything within the blast radius is destroyed.
-No saving throw.
-Every thing in the effect radius will take 8d8 hit points of damage.
-There is absolutely no cover offered.
-
-// insert table 451
-
-== 12) Jumping Jack 
-
-// insert table 452
-
-The jumping jack bomb will have several explosions with unpredictable effect.
-Roll once on Table 44.6, to determine its method of effect.
-There will be a 1 to 30 unit pause per explosion, and the new epicenter will be 20 to 120 hexes away from the last one.
-The next explosion will be in a random direction from the last one.
-Refer to http://expgame.com/?page_id=304miss-result[Result of Grenade Miss] to  help determine where the next epicenter will be.
-
-
-// insert table 453
-
-== 13) Immolator
-
-// insert table 454
-
-When discharged the bomb launches itself into the air, and sprays napalm along its path.
-Additional burning damage will usually be irrelevant to all but the freshest combat robot.
-The path will burn for 20 to 80 units after the attack, inflicting 20 to 240  (20d12) HPS in burning damage each unit.
-
-== 14) Diversion Bomb 
-
-// insert table 455
-
-This bomb will either be flash, smoke, or sonic.
-The flash bomb will blind all those within the area of effect for 1 to 10 hours.
-A smoke bomb will obscure the area of effect for 1 to 10 hours.
-A sonic bomb will deafen all targets for 1 to 10 hours.
-The targets get a chance to save versus mental attack for blinding and deafening.
-The intensity of the attack is 8 to 24 (8d3).
-For more information about saves refer to http://expgame.com/?page_id=275saving-throw[Saving Throws].
-
-== 15) Neutron Bomb 
-
-// insert table 456
-
-This hater of all things organic does not damage structures or robots.
-A neutron bomb bathes everything in the area of effect with destructive radiation.
-Only those organics hardened to radiation can avoid the initial wave of damage.
-Anything that survives the initial attack them must win a save versus intensity 25 radiation.For more information about saves refer to http://expgame.com/?page_id=275saving-throw[Saving Throws].
-The area will remain &8220;hot&8221;
-for 1 month per point of damage inflicted, likely for many years.
-What mad alien race invented such a sick and twisted device?
-
-== 16) Sky Breaker 
-
-// insert table 457
-
-This bomb combines a massive serving of destruction with it's shock and awe.
-The exploding bomb explodes straight up apparently having absolutely no effect on the surrounding area.
-Then 20 to 60 units later the area of effect is annihilated with shards of iridescent glowing ice raining from the sky.
-This bomb does work exatmo.
-
-== 17) Torc Bomb 
-
-// insert table 458
-
-The torc bomb (aka Forced Field Bomb) does no damage to anything not contained within a force field.
-The bomb makes all force fields implode on themselves for 120 to 1440 (12d12 times 10) hit points in damage.
-The bomb cannot implode a force field which is greater than 240 hexes in diameter.
-
-== 18) Lazer Cover 
-
-// insert table 459
-
-For 1 to 10 hours lazers will have no effect.
-The cover does not obscure vision, or energy weapons, but harmlessly dissipates all lazers.
-This bomb is also called the peacemaker.
-
-
-== 19) Dismodulator 
-
-
-// insert table 460
-
-Everything that is inorganic within a 20 hex radius of effect will be converted into a cloud of freezing, iridescent gas.
-A saving throw versus intensity 13 to 28 (3d6 plus 10) is granted to persona robots.
-All organic creatures within a 60 hex radius will take 50 to 600 (50d6) HPS in damage from the frozen careening dismodulation byproducts.
-For more information about saves refer to http://expgame.com/?page_id=275saving-throw[Saving Throws].
-
-== 20) EMP Bomb 
-
-// insert table 461
-
-The Electromagnetic pulse bomb incapacitates all non-hardened electronic devices within the area of effect.
-Military hardware will get a save versus poison intensity 4 to 24.
-Non-military hardware will cease to function for 15 hours, with a 15% chance of suffering permanent equipment damage.
-See http://expgame.com/?page_id=286[Chapter 21: Equipment Damage].
-For more information about saves refer to http://expgame.com/?page_id=275saving-throw[Saving Throws].
-
-== 21) Foam Bomb 
-
-// insert table 462
-
-The foam bomb instantly covers its area of effect with a rapidly hardening blob of all encompassing foam.
-The foam bomb will entrap any target that remains in the area of effect for more that 20 units.
-Suffocation is not a risk.
-The foam pad is permanent, does not decompose for trapped personas starvation is a real possibility.
-
-== 22) Tracker Bomb 
-
-// insert table 463
-
-All matter will be coated with chemicals that emit heat, vibrations, aromas, light and radiation.
-The effect is immediate exposing all hidden objects within the area of effect.
-This will expose potential ambush, invisible or camouflaged targets within the area of effect.
-
-== 23) Cover Bomb 
-
-// insert table 464
-
-Every sense is dulled to uselessness within this dense cloud.
-Targets are blind, deaf, unable to smell, and must crawl in a  random direction to hopefully escape the area of effect.
-Getting lost within a cover bomb area of effect  for the entire 10 to 60 day duration is a real possibility.
-
-== 24) Diffusion Bomb 
-
-// insert table 465
-
-The massive amount of damage is delivered to everything in the area of effect in a manner that is left to the improvisational talents of the referee.
-
-== 25) Paint Bomb 
-
-// insert table 466
-
-The paint bomb covers everything within range with paint the same colour as the bomb's casing.
-Yes, it can paint everything striped within an 80 hex radius.
-Those personas that don't win a DEX attribute* *roll will be blinded for 1 to 20 minutes.
-The paint will also make an intensity 1-6 poison attack on all organics covered in paint.
-Attribute rolls and saving throws are covered in http://expgame.com/?page_id=275[Chapter 16: Special Rolls].
-
-
-// insert table 436
-
-== 26) Toxin Bomb 
-
-// insert table 467
-
-Use Table 44.8: Cides to determine what target type is exterminated by the toxin bomb.
-Targets must save versus intensity 2 to 24 poison, or die.
-Those that win the save versus death will take poison damage.
-This is a very deadly weapon.
-There is no lasting effect on the terrain.
-For more information about saves refer to http://expgame.com/?page_id=275saving-throw[Saving Throws].
-
-// insert table 468
-
-== 27) Bug Bomb 
-
-// insert table 469 + The repelled type of creature will make every effort to escape from the area of effect of the repellent.
-Personas must win a save versus intensity 13 to 28 (3d6 plus 10) toxin or have to leave the area of effect.
-For more information about saves refer to http://expgame.com/?page_id=275saving-throw[Saving Throws].
-
-// insert table 468
-
-== 28) Sound Bomb
-
-// insert table 470
-
-The ear splitting siren will wail for 2 to 8 minutes.
-This attack will deafen all targets for 1 to 10 days.
-This has severe ecological effects on the environment, since all small animals tend to die of fright.
-
-== 29)  Cloud Maker 
-
-// insert table 471
-
-The cloud maker create a gigantic immobile cloud of a particular colour.
-The cloud will disperse over 10 to 80 (1d8 times 10) weeks, or it can be removed by excavation equipment.
-The colour of the smoke will match the colour of the casing of the bomb.
-The cloud will function like opaque smoke described under http://expgame.com/?page_id=314meteorological-conditions[Meteorological Conditions].
-The colour of smoke is determined on the Color Bomb table below.
-
-
-// insert table 436
-
-== 30) Sticky Bomb 
-
-// insert table 472
-
-The area of effect is covered with a spider web like glue that entraps everything.
-The targets are trapped for at least 20 to 160 (2d8 times 10) minutes until the web decomposes.
-A http://expgame.com/?page_id=275attribute-rolls[bizarre PSTR roll] may free the target.
-There is a 3% chance of gluing one's mouth shut, and suffocating.
+include::ROOT:partial$add_colour_to_your_world.adoc[]

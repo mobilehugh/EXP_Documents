@@ -1,0 +1,61 @@
+// Table 44.6 Gas Type
+.*Pin Toxin Type*
+[width="75%",cols="3*^",frame="all", stripes="even"]
+|===
+3+<|Determine what the pin injects into the target.
+s|Die Roll (1d100)
+s|Gas Effect
+s|Duration
+
+|01-10
+|Blindness
+|1-10 hours
+
+|11-20
+|xref:iv-hardware:CH50_Pharmaceuticals.adoc#_heal[Heal]
+|See pharmaceutical
+
+|21-30
+|Death
+|Forever
+
+|31-40
+|xref:i-persona_creation:CH11_Referee_Personas_Anthro.adoc#_insane[Insanity]
+|1-4 days
+
+|41-50
+|Lethargy
+|1-10 days
+
+|51-60
+|Nausea
+|1-20 hours
+
+|61-70
+|Paralysis
+|1-20 hours
+
+|71-80
+|Attribute
+|1-6 hours
+
+|81-90
+|Unconsciousness
+|1-4 days
+
+|91-99
+|xref:iv-hardware:CH50_Pharmaceuticals.adoc#_pharmaceutical_type[Pharmaceutical]
+|See pharmaceutical
+
+|00
+|Ref's Own Table
+|
+
+s|Die Roll
+s|Gas Effect
+s|Duration
+
+3+<|Lethargy - halve all rolls. 
+3+<|Nausea - halve all attributes. 
+3+<|Attribute - subtract 1d10 from attribute, can be fatal. 
+|===

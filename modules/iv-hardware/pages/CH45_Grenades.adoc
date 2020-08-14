@@ -14,99 +14,24 @@ There is only slim chance that a target will be able to avoid damage, and that i
 There is only a 1 in 1000 chance that a grenade will be a dud.
 Once a grenade is discharged (exploded), it is irretrievably lost.
 
-
-== Range 
-Grenades consume the hex that they explode in, and must be thrown a safe distance to avoid damaging the user.
-The range of a grenade depends entirely on the thrower, and is equal to her PSTR in hexes.
-Close counts in horseshoes and hand grenades. 
-A miss with a grenade can still inflict damage to the target. 
-
-== Area Of Effect 
-Area of effect represents the radius of the sphere affected by the grenade.
-For example, a fragmentation grenade has an area of effect of 1 hex.
-Any target with the target hex and the surrounding hex is affected.
-This includes targets above the target hex because area of effect is spherical.
-Fellow expedition members can be included in this area of effect.
-
-== Damage 
-This is the hit point range that is inflicted upon any target caught within the area of effect.
-Grenades with special effects have no damage range.
-Damage is rolled once, and each target in the area of effect is damaged.
-There is no saving roll against damage.
-The damage is not divided amongst the targets and each takes the same amount.
-
-== Wate 
-This is the wate of the grenade in kilograms.
-
-== EXPS 
-Experience points are earned for identifying the grenade.
-The EXPS award is the whether the grenade is identified before or after detonation
-
-== Value 
-The value of a grenade, or aerosol, is the value of one charge.
-In some cases aerosols can generate more than one charge, but even with these modifications such aerosols still have the same value.
-
-== Amount 
-A grenade cache will contain 1-6 (1d6) grenades.
-For powerful, campaign altering, grenades one will suffice.
-
 .Grenade Checklist
+. <<_grenade_type, Grenade Type>>
 . <<_trigger,Trigger>>
 . <<_description, Description>>
 .. <<_grenade_shape,Shape>>
 .. <<_grenade_shape_deformation,Deformation>>
 .. <<_grenade_adornment,Adornment>>
 .. <<_grenade_colour,Colour>>
-. <<_grenade_type, Grenade Type>>
+. <<_grenade_attribute_explanations,Grenade Attribute Explanations>>
+
 
 // insert table 476+++<figure id="attachment_9841" aria-describedby="caption-attachment-9841" style="width: 257px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2018/06/grenade_loveless-257x300.png?resize=257%2C300[CC0 1.0 Universal (CC0 1.0) possibly made my Liftarn,257]](https://i2.wp.com/expgame.com/wp-content/uploads/2018/06/grenade_loveless.png)+++<figcaption id="caption-attachment-9841" class="wp-caption-text">+++They never look like this.+++</figcaption>++++++</figure>+++
-
-== Trigger 
-To make the subject of grenades a little more confusing there are several different types of fuses.
-For the convenience of the ref 9 out of 10 grenades are detonated by contact with the target hex, or any substantially solid object along its path.
-All other grenades will have timers, and will explode 0 to 3 units after being thrown.
-Before a grenade will detonate, it must be triggered, and thrown.
-A list of several different trigger types are given on Table 45.2: Grenade Trigger.
-The trigger types do not require explanation, and simply indicate what must be done to activate the grenade.
-For example, an inertia trigger is activated when the grenade goes through a throwing motion, and a twist trigger will active when some device is twisted on the grenade.
-
-include::ROOT:partial$CH45_Table_Grenade_Trigger.adoc[]
-
-== Description 
-Not all grenades are created equal. 
-Even the same grenade type may have different shapes and colours.
-The different appearance of the grenades comes from the tech layering in EXP.
-Different companies, species, technologies, and regulations are all mixed together.
-Grenades lack identifying markings.
-Identification must be made by feel, and other indicators.
-Expeditions often blow themselves fiddling with grenades.
-
-=== Grenade Shape
-The bomb shape table is used purely for the convenience of the author.
-
-include::ROOT:partial$CH44_Table_Bomb_Shape.adoc[]
-
-=== Grenade Shape Deformation
-The bomb shape deformation table is used purely for the convenience of the author.
-It is not being lazy it is being efficient.
-This table is optional, but if you don't use it you are the lazy one.
-
-include::ROOT:partial$CH44_Table_Bomb_Shape_Adjustment.adoc[]
-
-=== Grenade Adornment
-The bomb adornment table is used here because this author is efficient and preserves electrons.
-These are the most fun and aggravating descriptors for the players to work with. 
-
-include::ROOT:partial$CH44_Table_Bomb_Strange_Adornment.adoc[]
-
-=== Grenade Colour 
-Keep it simple with a 1d10 roll, or make it zany with a 1d100 roll.
-
-include::ROOT:partial$add_colour_to_your_world.adoc[]
 
 == Grenade Type 
 
 include::ROOT:partial$CH45_Table_Grenades.adoc[]
+
+== Grenade Types
 
 === Big Bertha Grenade 
 
@@ -345,7 +270,7 @@ The gravruptor grenade produces an instantaneous burst of random acceleration.
 Newtonian physics conveniently need not apply.
 Objects greater than 10 tonnes in wate are not affected by this grenade's attack.
 
-There is a 50% chance that the gravruptor grenade will add 1-6 g to the local terrain.
+There is a 75% chance that the gravruptor grenade will add 1-6 g to the local terrain.
 The effects of this should be obvious, as targets crash to the ground, weapons are torn from grasps, and vehicles grind into the dirt.
 This pressing problem will also inflict damage to all targets in the area of effect.
 This damage is 1 to 12 (1d12) hit points in damage per extra gravity.
@@ -376,36 +301,35 @@ The gravruptor grenade is also known as a downer, or a jump bomb.
 
 [horizontal]
 Range:: PSTR
-Area of Effect:: 15h
+Area of Effect:: 12h
 Damage:: Special
 Wate:: 1.5kg
 EXPS:: 300
 Value:: 4500
 
-*What the hell is all this shit?*
+The magnetic disruptor grenade acts like an implosive super magnet. 
+When detonated this grenade attracts loose items towards it's detonation hex.
+For example, everything metal within 15h will fly towards the grenade.
+These high speed projectiles smash into any persona within the area of effect.
+The further out from the epicenter the target is the less damage is delivered.
+So a persona 12h out from the target hex would take 1d4 of damage.
+A persona in the target hex would take 12d4.
+The targets closest to the detonation are being hit with more hurtling stuff.
 
-The magnetic disruptor grenade will generate an attraction for a specific type of material.
-Whatever the grenade attracts will hurtle towards the epicenter of the area of effect at very high speeds.
-Nine times out of ten the grenade will attract metals and alloys.
-The remaining 10% of the time some other obscure material will be drawn towards the grenade (flesh, plastic, lumber, concrete).
+Anything loose will be violently drawn towards the epicenter. 
+The disruptor will attract anything inorganic: metals, alloys, plastic, wood, etc.
+Armour may get ripped off of personas.
+Tools  may be torn from utility belts.
+Weapons can be rended from the paws of personas.
+Unless the terrain is intentionally completely barren there will be stuff to attract.
+The closer to the epicenter the harder it is to hang onto stuff.
+A physical strength attribute roll is required if the referee has targeted something.
+The attribute challenge is versus 24 at the epicenter and 2 at the periphery.
 
-This grenade can have lethal effects, as great big chunks of plastic, or metal, will be racing across the area of effect.
-The referee must decide whether or not a persona is a potential target of flying debris.
-If the grenade were detonated in a junk yard everyone would almost certainly take maximum damage from the flying material.
-Deciding who is hit be the debris is determined by the referee.
-How much damage is inflicted is determined by the wate of the debris.
-
-If a persona is hit by flying debris, she will take at most 20d4, and at the least 1d4 hit points in damage.
-Magnetically attracted junk will inflict 1d4 hit points per hex per unit that it is travelling.
-The wate of the object is divided into the arbitrary number of 20 h/u per kg, and this will determine how fast and how dangerous the projectile is.
-A 2 kg projectile would inflict 10d4, and move at 10 h/ u.
-A 20 kg object would harmlessly tumble along at 1 h/u, possibly inflicting a d4 of damage if it were to roll over a sleeping target.
-Objects that are less than 1 kg in wate may move faster, but cannot inflict more than 20d4 damage.
-Objects greater than 20 kg cannot move slower than 1 h/u, nor inflict less than a d4 of damage.
-Objects which have a wate greater than 500 kg will attract the grenade instead of vice versa.
-The user could employ this grenade to attract herself towards a space vehicle.
-
-A simpler way to determine the damage is each persona will randomly be subject to 1-20 (1d10) 1d4 in damage.
+Typically the planet is the nearest and largest object. 
+In zero gravity the grenade will attach to the largest object nearest the target hex.
+Only tiny personas are at risk of being pulled in the magnetic maelstrom.
+This grenade has been used to draw a persona back to a space vehicle.
 
 === Mini Grenade 
 
@@ -467,41 +391,70 @@ Value:: 10000
 A molecular disruptor is a temperamental disintegration grenade.
 When discharged this grenade converts solid matter into a warm, seething cloud.
 The problem is that neither the thrower, nor the grenade, has any idea how much matter is about to be disrupted.
-Each time a molecular disruptor is used the Extent of Disruption must be determined.
+When a molecular disruptor is used the Extent of Disruption is randomly determined.
 
-The table lists both damage and disintegration values.
-Damage is caused by thin slivers of disintegrated matter, that punch microscopic holes through targets in the given area of effect, inflicting 8 to 64 (8d8) hit points in damage to all targets.
-Disintegration indicates that all matter--this includes personas--has been turned into an effervescent cloud of warm gas.
+.*Damage*
+The damage area of effect inflicts 8-64 (8d8) hit points of damage. 
+The size of the damage area of effect is rolled on the Disruption Event Table. 
+Damage is caused by slivers of disintegration that burst from the grenade.
+These slivers punch microscopic holes through anything in the damage area of effect.
+
+.*Disintegration*
+The disintegration area of effect utterly destroys any target within it. 
+Any matter within this area of effect is transformed into homogenous gas.
+There is no explosion, no noise, just a giant cloud of effervescent warm gas.
 The effect of this on matter is devastating, and final.
-Any organic creatures caught in a disintegration area of effect will be killed.
+All personas, equipment, terrain, and good ideas is utterly destroyed.
 
 The molecular disruption grenade is also known as a disintegration grenade.
 
-// insert table 494
+include::ROOT:partial$CH45_Table_Disruption_Event.adoc[]
 
-== 15) Multiple Explosive Grenade 
+=== Multiple Explosive Grenade 
 
-// insert table 495
+[horizontal]
+Range:: PSTR
+Area of Effect:: Special
+Damage:: Special
+Wate:: 3kg
+EXPS:: 250
+Value:: 1000
 
-The multiple explosive grenade is the exploding cigar of lethal combat.
-This grenade is thrown and will explode like any other normal grenade, but that is where the similarities end.
+The multiple explosive grenade is the "exploding cigar" of lethal combat.
+This grenade initially explodes like any other grenade, but similarities end there.
+After the first explosion the grenade flies into the air, only to land and explode again.
+The number of detonations, area of effect and damage is determined each time. 
 
-Once the first explosion has discharged its deadly casing, the grenade is flung into the air, only to land and explode again.
-The successive explosions will be 0 to 3 units apart, and 1 to 6 hexes in a random facet direction from the previous target hex.
-There are three versions ofthis grenade, use the Grenade Pattern Table to determine which pattern is followed.
-The radius of the area of effect, and the damage are listed for each of the grenade's multiple explosions.
-^&8211;^Such grenades are dangerous to the expedition because they can easily hop their way back to home ranks.
-Unless properly identified, 
+The successive explosions will occur 0 to 3 units apart.
+The location of the explosion is 0-5 (1d6-1) hexes in a random direction. 
+Easiest way to determine is to make a random facet roll.
 
-a multiple explosive grenade is indistinguishable from a regular grenade.
+:art: Figure_grenade_miss_direction_d12.png
+:width: 250px
+:snark: Roll to see where it lands (1d12).
+:artist: HM
+:date: 2010
+:license: CC BY-SA 4.0
+
+include::ROOT:partial$articulate.adoc[]
+
+These grenades are dangerous to the expedition for obvious reasons.
+Unless properly identified a multiple explosive grenade is indistinguishable from a regular grenade.
+If used indoors the grenade will explode each unit bouncing around the room.
 
 Multiple explosive grenades are also known as jumping jacks.
 
-// insert table 496 + &nbsp;
+include::ROOT:partial$CH45_Table_Multiple_Explosions.adoc[]
 
-== 16) Napalm Grenade 
+=== Napalm Grenade 
 
-// insert table 497
+[horizontal]
+Range:: PSTR
+Area of Effect:: 2h x 8h
+Damage:: 6-60 (6d10)
+Wate:: 1.75kg
+EXPS:: 300
+Value:: 2000
 
 The napalm grenade is unique in that it has a swath area of effect as opposed to a spherical area of effect.
 When the grenade is discharged, it launches itself into the air for an 8 hex trip while raining adhesive flammables all along its course.
@@ -510,91 +463,219 @@ If the thrower is unskilled in grenade combat, and rolls less than 200 on her to
 
 Anything caught in this blazing area of effect will take the damage listed, will immolate, and will continue burning for 2-8 units.
 The continued burning will inflict 2-24 hit points of damage each unit.The 2 hex by 8 hex patch of flame will burn itself out in 1 to 10 minutes.
-Referees should also be prepared to consider the effects of smoke inhalation, which is unavoidable when this weapon is used in enclosed spaces.Napalm grenades are also labelled phosphorous grenades and Smoky the Fear bombs.
+Referees should also be prepared to consider the effects of smoke inhalation, which is unavoidable when this weapon is used in enclosed spaces.
+Napalm grenades are also labelled phosphorous grenades and Smoky the Fear bombs.
 
-== 17) Pin Grenade 
+=== Pin Grenade 
 
-// insert table 498
+[horizontal]
+Range:: 1/4 PSTR
+Area of Effect:: 1h
+Damage:: 1-10(1d10) per pin
+Wate:: 0.5kg
+EXPS:: 150
+Value:: 500
 
-The pin grenade is the needier of area of effect combat.
-The pin grenade pierces everything in its 4 hex radius of effect with hollow pins.
-In addition to the damage taken from the shower of pins, each projectile can inject toxins stored in its head.
-This means that organic targets will have to http://expgame.com/?page_id=275saving-throw[make a]http://expgame.com/?page_id=275saving-throw[save vs.
-poison], or be affected by the attack.
+The pin grenade is the needler of area of effect combat.
+The pin grenade pierces everything in 1 hex radius of effect with explosive pins.
+The initial detonation is relatively quiet. 
+The exploding pins are not much noisier. 
 
-Consult Table 45.4: Gas Type to determine what kind of attack the pin grenade has.
-A liquid pharmaceutical could also be placed within the holding well of the pin grenade.
-There is a 20% chance that a pin grenade will not harbor any toxin at all, and this means it can be filled with whatever toxin the persona has available.
+The bigger the target the more pins that stick into it.
+Each pin explodes for 1-10 (1d10) hit points of damage.
+So a Large target could take up to 12-120 (12d10) hit points of damage.
+
+include::ROOT:partial$CH45_Table_Pin_Amount.adoc[]
+
+There is a 20% chance that a pin grenade will not be explosive.
+None explosive pin grenades are loaded with a nerve toxin.
+Th
 
 The intensity of the chemical will vary from 3 to 18.
 The persona must make a saving throw even if a beneficial pharmaceutical has been placed in the pin grenade.
-If the saving throw is successful the drug will have no effect.
-This represents the randomness of dose that the target is receiving.
+
 
 The pin grenade is also known as a porcupine, or inoculator grenade.
 
-// insert table 488
+include::ROOT:partial$CH45_Table_Pin_Effect.adoc[]
 
 === Pyrotechnic Grenade 
 
-// insert table 499
+[horizontal]
+Range:: PSTR
+Area of Effect:: 5h
+Damage:: None
+Wate:: 0.35kg
+EXPS:: 100
+Value:: 175
 
 Pyrotechnic grenades are smoke, sonic, and flash weapons.
-These are not used so much as weapons, but as support devices for military maneuvers, or a magic show.
-Pyrotechnic grenades come in any combination of the above, roll on Table 45.6 Pyro Combo__ __to determine the pyrotechnics.
+The pyrotechnic grenades are used in military actions or violent magic shows.
+Pyro grenades can be devoted to one attack type or a mix of all three. 
+A save must be made for each separate type of pyro attack. 
 
-// insert table 500
+include::ROOT:partial$CH45_Table_Pyro_Combo.adoc[]
 
-*Smoke*: A smoke grenade does nothing more than fill the area of effect with very dense smoke.
-The smoke will settle in 1 to 10 minutes.
+Smoke:: 
+A smoke grenade fills the area of effect with very dense smoke.
+The smoke will dissipate in 1 to 10 minutes.
+For a fancy smoke colour jump to the <<_grenade_colour,Colour Table>>.
 
-*Flash*:Flash grenades will temporarily blind any target that has optical sensors.
+Flash:: 
+Flash grenades will temporarily blind any target that has optical sensors.
 The sensors (eyes, cameras) will remain inoperative for 1 to 10 units.
 There is a saving throw versus intensity 2 to 16 (2d8) poison.
 
-*Sonic*: Sonic grenades have a lovely eardrum numbing boom that accompanies their discharge.
-Any audio receptors in the area of effect will be rendered completely inoperative for 1 to 10 minutes, and ring- fer a good time after that.
+Sonic:: 
+Sonic grenades deliver a painful eardrum numbing howl on discharge.
+Any audio receptors in the area of effect are deafened by the attack.
+Total deafness lasts 1 to 10 minutes, followed by days of tinnitus.
 There is a saving throw versus intensity 2 to 16 (2d8) poison.
 
-== 19) Radiation Grenade 
+=== Radiation Grenade 
 
-// insert table 501
+[horizontal]
+Range:: PSTR
+Area of Effect:: 12h
+Damage:: 3-24 (3d8)
+Wate:: 2.8kg
+EXPS:: 200
+Value:: 1000
 
-The radiation grenade viciously douses its 12 hex area of effect with a variety of lethal radiation types.
-Anyone caught in the bath area will take 3 to 18 HPS of damage, but must also save vs.
-a radiation attack of an intensity equal to the damage rolled.
-The attack will leave the area of effect radioactive for 3-18 days, or 1 day per intensity level of the radiation.
-The radiation zone loses 1 degree of intensity each day until clean.
-The radiation zone will always read anomalous to a radiation detector.
-The radiation grenade is also known as a Neutron grenade, or a micrograve.
+The radiation grenade douses the area of effect with lethal radiation types.
+Any target caught in the bath area will take 3 to 24 hit points of damage.
+There is a simultaneous radiation attack of intensity equal to the damage rolled. 
+If the blast doesn't get you the radiation will.
+The radiation grenade is completely silent. 
+Not unlike the creeper of grenades.
 
-== 20) Skylighter Grenade 
+The grenade attack leaves ongoing lethal residual radioactivity. 
+The area of effect will remain toxic one day per intensity of radiation.
+A radiation intensity 12 attack would remain for 12 days. 
+The intensity decreases by 1 per day until there is no lethal radiation.
+The detonation site will remain anomalous to a radiation detectors forever.
 
-// insert table 502
+The radiation grenade is also known as a Neutron grenade, or a Micrograve.
 
-The sky lighter is a truly outdoorsy type of grenade.
-When it initially discharges, it inflicts no damage, and explodes straight up, disappearing into the sky.
-2 to 6 units later all targets in the rectangular area of effect will be rained upon with piercing ice.
-This grenade depends on complex meteorological mechanisms which are useless if used indoors, in liquid free atmospheres, or in zero gravity.
-The sky lighter grenade is also known as a painmaker, rainmaker, or chicken little bomb.
+=== Skylighter Grenade 
 
-== 21) Torc Grenade 
+[horizontal]
+Range:: PSTR
+Area of Effect:: 40h x 40h rectangle
+Damage:: 4-40 (4d10)
+Wate:: 2.95kg
+EXPS:: 300
+Value:: 5500
 
-// insert table 503
+The sky lighter is an outdoorsy grenade.
+On detonation the grenade launches a projectile into the sky.
+After 2-6 (3d3) unites the enormous area of effect is deluged with jagged hail.
+The initial explosion does no damage, but the hailstorm is like nails that melt.
+This grenade depends on complex meteorological mechanisms.
+This grenade is useless if used indoors, underwater, in zero gravity or in a vacuum.
 
-The torc grenade does no damage to targets not contained within a force field.
-Any force field that comes into contact with the area of effect of a torc grenade will be destroyed, and all occupants will take the allotted damage (12-144 hit points).
-If the force field is less than 12 hexes in radius, the torc grenade will destroy it, and damage all targets with in it.
-The torc grenade cannot knock down a force field greater than 12 hexes in radius, but every target within it will take damage.
+The sky lighter grenade is also known as a Painmaker, Rainmaker, or Chicken Little.
+
+=== Torc Grenade 
+
+[horizontal]
+Range:: PSTR
+Area of Effect:: 12h
+Damage:: 12-144 (12d12)
+Wate:: 1.75
+EXPS:: 275
+Value:: 9000
+
+The torc grenade is the anti-force field grenade.
+A torc grenade does no damage unless the target is within a force field.
+The grenade affects any force field makes contact with the radius of the torc grenade.
+Any tactical, personal or battery powered force field will instantly be exhausted.
+A force field powered by a renewable power plant return in 1 to 10 minutes.
+The torc grenade cannot damage a civic or naval forcefield. 
 The torc grenade will have no effect what so ever on force fields greater than 24 hexes in radius.
-A force field powered by a renewable power plant will stay knocked down for 1 to 10 minutes.
-The torc grenade is also known as a force field disruptor.+++<figure id="attachment_2052" aria-describedby="caption-attachment-2052" style="width: 202px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/08/aerosol.317-202x300.png?resize=202%2C300[Ding.
-Dong.
-Facial calling.
-,202]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/08/aerosol.317.png)+++<figcaption id="caption-attachment-2052" class="wp-caption-text">+++Ding.
-Dong.
-Facial calling.+++</figcaption>++++++</figure>+++
+The grenade may create a temporary hole in such force fields to assist the story.
 
-== 
+The collapse of the shield delivers 12-144 (12d12) hit points of damage.
+The damage is only delivered to targets inside the force field. 
 
+The torc grenade is also known as a force field disruptor.
 
+== Grenade Attribute Explanations
+
+=== Range 
+Grenades consume the hex that they explode in, and must be thrown a safe distance to avoid damaging the user.
+The range of a grenade depends entirely on the thrower, and is equal to her PSTR in hexes.
+Close counts in horseshoes and hand grenades. 
+A miss with a grenade can still inflict damage to the target. 
+
+=== Area Of Effect 
+Area of effect represents the radius of the sphere affected by the grenade.
+For example, a fragmentation grenade has an area of effect of 1 hex.
+Any target with the target hex and the surrounding hex is affected.
+This includes targets above the target hex because area of effect is spherical.
+Fellow expedition members can be included in this area of effect.
+
+=== Damage 
+This is the hit point range that is inflicted upon any target caught within the area of effect.
+Grenades with special effects have no damage range.
+Damage is rolled once, and each target in the area of effect is damaged.
+There is no saving roll against damage.
+The damage is not divided amongst the targets and each takes the same amount.
+
+=== Wate 
+This is the wate of the grenade in kilograms.
+
+=== EXPS 
+Experience points are earned for identifying the grenade.
+The EXPS award is the whether the grenade is identified before or after detonation
+
+=== Value 
+The value of a grenade, or aerosol, is the value of one charge.
+In some cases aerosols can generate more than one charge, but even with these modifications such aerosols still have the same value.
+
+=== Amount 
+A grenade cache will contain 1-6 (1d6) grenades.
+For powerful, campaign altering, grenades one will suffice.
+
+=== Trigger 
+To make the subject of grenades a little more confusing there are several different types of fuses.
+For the convenience of the ref 9 out of 10 grenades are detonated by contact with the target hex, or any substantially solid object along its path.
+All other grenades will have timers, and will explode 0 to 3 units after being thrown.
+Before a grenade will detonate, it must be triggered, and thrown.
+A list of several different trigger types are given on Table 45.2: Grenade Trigger.
+The trigger types do not require explanation, and simply indicate what must be done to activate the grenade.
+For example, an inertia trigger is activated when the grenade goes through a throwing motion, and a twist trigger will active when some device is twisted on the grenade.
+
+include::ROOT:partial$CH45_Table_Grenade_Trigger.adoc[]
+
+=== Description 
+Not all grenades are created equal. 
+Even the same grenade type may have different shapes and colours.
+The different appearance of the grenades comes from the tech layering in EXP.
+Different companies, species, technologies, and regulations are all mixed together.
+Grenades lack identifying markings.
+Identification must be made by feel, and other indicators.
+Expeditions often blow themselves fiddling with grenades.
+
+==== Grenade Shape
+The bomb shape table is used purely for the convenience of the author.
+
+include::ROOT:partial$CH44_Table_Bomb_Shape.adoc[]
+
+==== Grenade Shape Deformation
+The bomb shape deformation table is used purely for the convenience of the author.
+It is not being lazy it is being efficient.
+This table is optional, but if you don't use it you are the lazy one.
+
+include::ROOT:partial$CH44_Table_Bomb_Shape_Adjustment.adoc[]
+
+==== Grenade Adornment
+The bomb adornment table is used here because this author is efficient and preserves electrons.
+These are the most fun and aggravating descriptors for the players to work with. 
+
+include::ROOT:partial$CH44_Table_Bomb_Strange_Adornment.adoc[]
+
+==== Grenade Colour 
+Keep it simple with a 1d10 roll, or make it zany with a 1d100 roll.
+
+include::ROOT:partial$add_colour_to_your_world.adoc[]

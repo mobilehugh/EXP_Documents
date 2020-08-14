@@ -8,57 +8,15 @@ Shields are not included in armour protection.
 Each separate armour type has several statistics listed.
 These are explained in the following paragraphs.
 
-
-All the artifact armour parameters listed are based on the tactical combat system, and a tech level 10.
-
-== Armour Rating 
-
-The higher the armour rating, the better the protection offered to the wearer.
-Not all the armour in this chapter has a high armour rating, but each offers some unique form of special protection.
-Those armour types without a listed armour rating have a value listed that is added to the armour rating (AR) of regular armour types.
-These armour types are meant to be worn in conjunction with other armour types.
-
-The base armour rating of an unarmoured target is 500.
-The armour ratings are related to this base value.
-For instance a suit of armour that has an armour rating of 725 would give the wearer a base armour rating of 725 instead of 500.
-This could also be considered an armour rating (AR) bonus of +225.
-The complexities and confusions of armour rating are discussed-in more detail in the tactical combat system.
-
-== Restrictiveness 
-The more restrictive a suit of armour is, the more cumbersome, and unyielding it is to normal body movement.
-This is represented by a higher restrictiveness value.
-The less restrictive armour is the more that the persona can use her natural dexterity to avoid taking damage.
-This operates the same for artifact armour as it does for mundane armour.
-
-== Wate (Flat Wate)
-The wate of  armour is listed as  percent of body wate.
-% Body WATE is used to determine the wate of the suit of armour.
-Armour is a form of clothing, and it is usually tailored to a particular wearer.
-Thus the wate of armour is related to the wate of the wearer.
-Previously there were no set WATEs for armour for the reason that different amounts of material are required for different body sizes.
-Therefore armour WATE is listed as a percentage the body wate of the persona that the armour was designed for.
-
-A flat wate in kgs is included in brackets based on the % wate.
-The flat wate is based on that of a 70 kilogram anthro.
-The armour's WATE must be recorded and considered part of the persona's encumbrance.
-Nice referees will conveniently fit found armour to the wate of the persona who found it.
-If the scenario indicates that found armour has been tailored for a specific race, then such a convention cannot apply.
-
-== EXPS 
-Experience points for armour are earned when the player identifies the armour's special function.
-
-== Value 
-Value of armour will be listed in one of two ways: a single value, or a cost per kilogram.
-A single value represents the flat cost of the armour.
-Some armours are composed of material which is very valuable, and the amount of this material reflects the value of the armour.
-These armour types are listed as having values like 590 per kilogram or 750 per kilogram.
-So the value of such armour is directly related to the wate of the armour.
-If the armour had a wate of 2 kilograms, and it were worth 750 eps per kilogram, it would be worth 1500 eps.
-For convenience a value based on the wate armour required for a 70 kilogram anthro will be included in brackets.
+.Armour Checklist
+. <<_armour_type, Armour Type>>
+. <<_armour_attribute_explanations,Armour Attribute Explanations>>
 
 == Armour Type
 
 include::ROOT:partial$CH42_Table_Armour_Type.adoc[]
+
+== Armour Types
 
 === Ablative Armour
 
@@ -408,4 +366,51 @@ The military vac suit is designed for quick removal once in atmosphere, and can 
 A military vac suit cannot be adorned in an emergency basis.
 A military vac suit will last for 6 days in exatmo, after which the wearer is dead.
 Most military vac suits will immolate after the wearer has died, leaving no useful evidence other than harmless space debris.
+
+== Armour Attribute Explanations
+
+=== Armour Rating 
+
+The higher the armour rating, the better the protection offered to the wearer.
+Not all the armour in this chapter has a high armour rating, but each offers some unique form of special protection.
+Those armour types without a listed armour rating have a value listed that is added to the armour rating (AR) of regular armour types.
+These armour types are meant to be worn in conjunction with other armour types.
+
+The base armour rating of an unarmoured target is 500.
+The armour ratings are related to this base value.
+For instance a suit of armour that has an armour rating of 725 would give the wearer a base armour rating of 725 instead of 500.
+This could also be considered an armour rating (AR) bonus of +225.
+The complexities and confusions of armour rating are discussed-in more detail in the tactical combat system.
+
+=== Restrictiveness 
+The more restrictive a suit of armour is, the more cumbersome, and unyielding it is to normal body movement.
+This is represented by a higher restrictiveness value.
+The less restrictive armour is the more that the persona can use her natural dexterity to avoid taking damage.
+This operates the same for artifact armour as it does for mundane armour.
+
+=== Wate (Flat Wate)
+The wate of  armour is listed as  percent of body wate.
+% Body WATE is used to determine the wate of the suit of armour.
+Armour is a form of clothing, and it is usually tailored to a particular wearer.
+Thus the wate of armour is related to the wate of the wearer.
+Previously there were no set WATEs for armour for the reason that different amounts of material are required for different body sizes.
+Therefore armour WATE is listed as a percentage the body wate of the persona that the armour was designed for.
+
+A flat wate in kgs is included in brackets based on the % wate.
+The flat wate is based on that of a 70 kilogram anthro.
+The armour's WATE must be recorded and considered part of the persona's encumbrance.
+Nice referees will conveniently fit found armour to the wate of the persona who found it.
+If the scenario indicates that found armour has been tailored for a specific race, then such a convention cannot apply.
+
+=== EXPS 
+Experience points for armour are earned when the player identifies the armour's special function.
+
+=== Value 
+Value of armour will be listed in one of two ways: a single value, or a cost per kilogram.
+A single value represents the flat cost of the armour.
+Some armours are composed of material which is very valuable, and the amount of this material reflects the value of the armour.
+These armour types are listed as having values like 590 per kilogram or 750 per kilogram.
+So the value of such armour is directly related to the wate of the armour.
+If the armour had a wate of 2 kilograms, and it were worth 750 eps per kilogram, it would be worth 1500 eps.
+For convenience a value based on the wate armour required for a 70 kilogram anthro will be included in brackets.
 
