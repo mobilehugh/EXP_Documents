@@ -322,7 +322,7 @@ Wate:: 1.5kg + Battery
 EXPS:: 500
 Value:: 8000 + Battery
 
-The fission pistol creates an energy wave to superheat hydrogen molecules.
+The fission pistol creates an energy wave that superheats hydrogen molecules.
 Obviously this weapon can only be used in hydrogen laden atmospheres (air and water are good examples).
 Charges are still drained if the weapon is fired in the absence of hydrogen.
 This device is thoroughly waterproofed.
@@ -330,11 +330,11 @@ Some cynics call this weapon a kettle-gun.
 
 A malfunctions will indicate a backflash, resulting in damage to the firer.
 
-== 14) Fission Rifle 
+=== Fission Rifle 
 
 [horizontal]
 Weapon Type:: E
-Range:: 11h (-70)
+Range:: 110h (-70)
 Accuracy:: +50
 Damage:: 6-72 (6d12)
 Magazine:: 15 per Battery
@@ -342,7 +342,7 @@ Wate:: 4.25 + Battery
 EXPS:: 950
 Value:: 32000 + Battery
 
-The fission rifle creates an energy wave to superheat hydrogen molecules.
+The fission rifle creates an energy wave that superheats hydrogen molecules.
 Obviously this weapon can only be used in hydrogen laden atmospheres (air and water are good examples).
 Charges are still drained if the weapon is fired in the absence of hydrogen.
 This device is thoroughly waterproofed.
@@ -400,149 +400,256 @@ This weapon is also known as a lazer Gatling, a fair ("faller") gun, or a flotto
 A malfunction of this weapon results in the loss of a charge.
 So 1 charge for weapon type C attack or 15 charges for weapon type F. 
 
-== 17) Full Auto Pistol 
+=== Full Auto Pistol 
 
-// insert table 544
+[horizontal]
+Weapon Type:: C, D, F
+Range:: 60 (-70)
+Accuracy:: 0
+Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
+Magazine:: 15
+Wate:: 	2.0 kg, *1.5 kg*, 1.0 kg (1.5%)
+EXPS:: 350
+Value:: 1000 (1)
 
-A full automatic pistol fires bullets, and tosses out spent cartridges.
-Like all the full auto weapons, this one has a very rapid fire option.
-The "flotto"
-setting will discharge 15 rounds in one unit.
-The rules for "flotto"
-are found in the beginning of this chapter under http://expgame.com/?page_id=339flotto[weapon type].
-When full auto is used the player makes 5 to hit rolls, where each hit indicates 0-3 (d4-1) bullets inflict damage.
+A full automatic pistol fires bullets, and tosses out spent shell casings.
+The F weapon type releases 15 rounds in one unit.
+When flotto is employed the player makes 5 to hit rolls in one unit.
+Each successful to hit roll scores 0-3 (d4-1) rounds of damage.
+For a discussion of full auto (flotto) attacks jump to xref:ii-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
 The rate of fire is determined by trigger squeeze.
+
+The medium powered full auto pistol damage is 2-16 and its wate is 1.5kg
 This weapon is alternately called a machine pistol, or flotto pistol.
+
 Malfunction with this weapon indicates a mechanism jam.
 
-[.s6]The medium powered full auto pistol damage is 2-16 and its wate is 1.5kg, The other listed damages and wates are for higher and lower calibers of this gun type.
-A malfunction results in the loss of a charge.
+=== Full Auto Rifle 
 
-== 18) Full Auto Rifle 
-
-// insert table 545
+[horizontal]
+Weapon Type:: C, D, E, F
+Range:: 90h (-44)
+Accuracy:: +50
+Damage:: 4-48, 4-32, *3-30*, 3-24, 2-20
+Magazine:: 45
+Wate:: 	3.9 kg, *3.6 kg*, 3.3 kg (1.5%)
+EXPS:: 700
+Value:: 4000 (1)
 
 The full auto rifle is the standard weapon of military service.
-It can fire accurately at one shot per unit, or it can be used to suppress an area with fire.
-"Flotto"
-fires 15 rounds in a unit.
-When full auto is used the player makes 5 to hit rolls, where each hit indicates 0-3 (d4-1) bullets inflict damage.
-A malfunction is mechanism jam.
+The F weapon type releases 15 rounds in one unit.
+When flotto is employed the player makes 5 to hit rolls in one unit.
+Each successful to hit roll scores 0-3 (d4-1) rounds of damage.
+For a discussion of full auto (flotto) attacks jump to xref:ii-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+The rate of fire is determined by trigger squeeze.
+
+The medium powered full auto rifle damage is 3-30 and its wate is 3.6kg.
 This weapon is also known as a smig, F.A.R., sub machine gun, Ripley etc.
-The medium powered full auto rifle damage is 3-30 and its wate is 3.6kg, The other listed damages and wates are for higher and lower calibers of this gun type.
 
+A malfunction with this weapon indicates a mechanism jam.
 
-== 19) Fusion Pistol 
+=== Fusion Pistol 
 
-// insert table 546
+[horizontal]
+Weapon Type:: C
+Range:: 60h (-85)
+Accuracy:: -40
+Damage:: Special
+Magazine:: 5 or 3 per Battery
+Wate:: 2.3kg + fuel + Battery
+EXPS:: 550
+Value:: 200000 (2000) + Battery
 
-The fusion pistol is an absolutely vicious weapon.
-When fired, it releases a micro blob of fusion material.
-The firer of this weapon will take 3-30 hit points of damage from a fusion backflash.
-This damage will be inflicted every time the weapon is fired, unless the firer is wearing http://expgame.com/?page_id=3111[powered armour].
-The fusion pistol has built in shielding that will protect the firer, while absorbing some of the gun's charges.
-When the fusion pistol's shielding is being used, the pistol only has three charges.
-The status of the shielding is determined when the batteries are inserted.
+The fusion pistol is a vicious weapon.
+When fired, it launches a miniscule blob of fusion material.
+The first persona damaged by the fusion pistol is the firer.
+The heat blast is so intense that the firer takes 3-30 (3d10) hit points of damage.
+Firing damage is inflicted every time the weapon is fired.
+Self damage can be avoided by turning on fusion pistol shielding.
+When the ammo is loaded shielding can be activated decreasing output to 3 rounds.
+A fusion pistol installed in powered armour does not damage the firer.
 
-The pistol itself inflicts substantial damage to targets in two ways.
-The first is getting caught in the fusion blob's path.
-This does not mean that the persona has been hit by the superheated blob, but that it passed near her.
-The second method is getting hit with the fusion blob proper.
-For this to happen a successful to hit roll must be made.
-No to hit roll is required to get caught in a fusion blob's path, and as long as the attack passes near the target she will take damage.
+If firing the fusion pistol seems dangerous being the target is much worse.
+The fusion pistol has both direct hit damage and area of effect damage.
+A target hit by a fusion pistol has a good chance of simply exploding. 
+The exploding target turns into molten fleshy shrapnel.
 
-All personas and equipment (including the target) along the trajectory of the fusion blob will take 6 to 60 (6d10) hit points in damage.
-This swath of heat damage affects anything within a one hex radius along the fusion blob's path.
-This path of this damage is two hexes wide.
-The fusion blob inflicts additional damage on the target if a hit is scored.
-The amount of damage depends on the target's size.
-See Table 46.3, Fusion Pistol Effects to determine how much damage the targets take.
+include::ROOT:partial$CH46_Table_Fusion_Pistol_Damage.adoc[]
 
-// insert table 547
+Target Size::
+This weapon is the bane of small or tiny personas.
+They are killed instantly if a hit is scored on them.
+Tiny and Small targets explode and turn into collateral damage.
+Medium, Large and Gigantic targets do not explode when hit. 
+However they do both take Swath and Hit damage when hit. 
 
-Using the Fusion Pistol Effects Table it can be determined that a hit on a medium sized target would inflict 14 to 140 (14d10) hit points of damage.
-First 6 to 60 hit points from the heat of the approaching blob, and then 8 to 80 hit points from the blob itself.
+Swath Damage::
+Swath damage is inescapable area of effect damage along the route of the fusion blob.
+Any target within 1 hex of the straight line trajectory takes swath damage.
+The heat blast delivers 6 to 60 (6d10) hit points in damage.
+Medium, Large and Gigantic sized personas take swath damage as well as hit damage.
+The swath damage is delivered first (6-60) and the hit damage (8-80) is added on.
+A medium sized target would take 14 to 140 (14d10) hit points of damage.
 
-If the target is tiny or small sized it will explode if it is hit with a fusion attack.
-Anything within one hex radius of an exploding target will take collateral damage from molten shrapnel and boiling goo.
-This means that anything standing along the fusion blob's path, and within one hex of an exploding target (tiny or small sized) will take both swath damage and collateral damage.
-It should be immediately obvious that this weapon has not been designed for close quarters combat.
-This weapon has been nicknamed GVMB (grossly vicious meat burner), party killer, or the BFG.
-A malfunction will result in an explosion inflicting 6 to 60 hit points of damage to everything within a 3 hex radius.
+Hit Damage::
+A successful to hit roll indicates a direct hit with the fusion pistol.
+A target hit by a fusion pistol takes swath damage as well as hit damage.
+Tiny and Small targets explode and become collateral damage.
+The swath damage is delivered first (6-60) and the hit damage (8-80) is added on.
+A medium sized target would take 14 to 140 (14d10) hit points of damage.
 
-== 20) Fusion Rifle 
+Collateral Damage::
+If a target is exploded by a fusion pistol hit their body parts are weaponized.
+The boiling flesh and bits of bone hurtle outward from hex of the exploded.
+This steaming goo of collateral colleague has a 1 hex radius. 
+A Tiny exploding person inflicts 3-30 (3d10) hit points in a 1 hex radius. 
 
-// insert table 548
+NOTE: *Close only counts in horseshoes and fusion weapons.*
 
-A fusion rifle is the big cousin of the fusion pistol,  and it is an more vicious and disgusting weapon.
-When fired, it releases a micro blob of fusion material.
-The firer of this weapon, and all within 1 hex will take 6 to 60 (6D10) HPS of damage from a fusion backflash.
-This damage will be inflicted every time the weapon is fired, unless the firer is wearing http://expgame.com/?page_id=3111[powered armour].
-The fusion rifle has built in shielding that will prevent the backflash, while absorbing some of the charges.
-When the fusion rifle's shielding is being used, the rifle only has three charges.
-The status of the shielding is determined when the batteries are inserted.
+The fuel for a fusion pistol has negligible wate. 
+This weapon has not been designed for close quarters combat.
+This weapon has been nicknamed GVMB, expedition exterminator, or the BFG.
 
-The rifle itself inflicts substantial damage to targets in three manners.
-The first is getting caught in the fusion blob's swath damage.
-This does not mean that the target has been hit by the blob, but that it passed near her.
-The second method is getting hit with the fusion blob proper.
-For this to happen a successful to hit roll must be made.
-No to hit roll is required to get caught in a fusion blob's path, as long as the target is standing within the swath's area of effect.
-The third method is to get caught within the area of effect of an exploding target (collateral damage).
+A malfunction of this weapon indicates a dangerous explosion.
+An exploding malfunction delivers 6-60 (6d10) hit point to all within 3 hexes.
 
-All personas and equipment (including the target) along the trajectory of the fusion blob will take 8 to 80 (8d10) HPS of damage.
-This swath of heat damage affects anything along the fusion blob's swath, which is 3 hexes wide.
-This fusion blob inflicts additional damage to the target if a hit is scored.
-The amount of damage inflicted depends on the target's size.
-See Table 46.4: Fusion Rifle Effects to determine how much damage the target's take.
+=== Fusion Rifle 
 
-// insert table 549
+[horizontal]
+Weapon Type:: C
+Range:: 90h (-60)
+Accuracy:: -25
+Damage:: Special
+Magazine:: 5 or 3 per Battery
+Wate:: 8kg + fuel + Battery
+EXPS:: 900
+Value:: 800000 (2000) + Battery
 
-Using the Fusion Rifle Effects Table it can be determined that a hit on a large sized target would inflict 18 to 180 (18d10) hit points of damage.
-First 8 to 80 hit points from the heat of the approaching blob, and then 10 to 100 hit points from the blob itself.
+The fusion rifle is a vicious weapon.
+When fired, it launches a miniscule blob of fusion material.
+The first persona damaged by the fusion rifle is the firer.
+The heat blast is so intense that the firer takes 6-60 (6d10) hit points of damage.
+The next personas damage are the ones standing within 1 hex of the firer.
+The head backlash is an area of effect weapon on firing.
 
-If the target is tiny, small, or medium sized it will explode if it is hit with a fusion rifle attack.
-Anything within three hexes of an exploding target will take 8 to 80 hit points of damage from molten shrapnel and boiling goo.
-This means that anything standing along the fusion blob's path, and within one hex of an exploding target (tiny or small sized) will take 16 to 160 hit points of damage.
+Firing damage is inflicted every time the weapon is fired.
+Self damage can be avoided by turning on fusion rifle shielding.
+When the ammo is loaded shielding can be activated decreasing output to 3 rounds.
+A fusion rifle installed in powered armour does not damage the firer.
 
-It should be immediately obvious that this weapon has not been designed for close quarters combat.
-This weapon has been nicknamed GVMB (grossly vicious meat burner), the party killer or the BFG.
-A malfunction will result in an explosion inflicting 8 to 80 hit points of damage to everything within a 5 hex radius.
+If firing the fusion rifle seems dangerous being the target is much worse.
+The fusion rifle has both direct hit damage and area of effect damage.
+A target hit by a fusion rifle has a good chance of simply exploding. 
+The exploding target turns into molten fleshy shrapnel.
 
-== 21) Gauss Pistol 
+include::ROOT:partial$CH46_Table_Fusion_Rifle_Damage.adoc[]
 
-// insert table 550
+Target Size::
+This weapon annihilates any persona medium sized or smaller.
+Medium and smaller personas are killed instantly if a hit is scored on them.
+All anthros are Medium sized. 
+Tiny, Small, and Medium targets explode and turn into collateral damage.
+Large and Gigantic targets do not explode when hit. 
+However they do both take Swath and Hit damage when hit. 
 
-The gauss pistol magnetically hurls special ammunition.
-Each round has a sufficient electrostatic charge to power the firing mechanism.
-The magnetic force stored within the rounds cannot be harnessed for any other procedure, unless a DD20 maneuver is completed by a mechanic.
-Magnetic attacks do affect this weapon.
-It must be noted that this weapon is not silent.
-The medium powered gauss pistol damage is 3-30 (3d10) and its wate is 1.5kg, The other listed damages and wates are for higher and lower calibers of this gun type.
-A malfunction indicates a mechanism jam (very, very rare).
+Swath Damage::
+Swath damage is inescapable area of effect damage along the route of the fusion blob.
+Any target within 2 hexes of the straight line trajectory takes swath damage.
+The heat blast delivers 8 to 80 (8d10) hit points in damage.
+Large and Gigantic sized personas take swath damage as well as hit damage.
+The swath damage is delivered first (8-80) and the hit damage (10-180) is added on.
+A Large sized target would take 18 to 180 (18d10) hit points of damage.
 
+Hit Damage::
+A successful to hit roll indicates a direct hit with the fusion rifle.
+A target hit by a fusion rifle takes swath damage as well as hit damage.
+Tiny, Small and Medium targets explode and become collateral damage.
+The swath damage is delivered first (8-80) and the hit damage (10-180) is added on.
+A Large sized target would take 18 to 180 (18d10) hit points of damage.
 
-== 22) Gauss Rifle 
+Collateral Damage::
+If a target is exploded by a fusion rifle hit their body parts are weaponized.
+The boiling flesh and bits of bone hurtle outward from hex of the exploded.
+This steaming goo of collateral colleague has a 3 hex radius. 
+A Medium exploding persona inflicts 7-70 (7d10) hit points in a 3 hex radius. 
 
-// insert table 551
+NOTE: *Close only counts in horseshoes and fusion weapons.*
 
-With the above alterations noted, the gauss rifle is the same as gun 21, gauss pistol.
-It is not silent and enjoys a to hit bonus due to it's minimal kick back.
-The medium powered gauss rifle damage is 4-48 (4d12) and its wate is 3.5kg, The other listed damages and wates are for higher and lower calibers of this gun type.
-A malfunction indicates a mechanism jam (very, very rare).
+The fuel for a fusion rifle has negligible wate. 
+This weapon has not been designed for close quarters combat.
+This weapon has been nicknamed GVMB, expedition exterminator, or the BFG.
 
+A malfunction of this weapon indicates a dangerous explosion.
+An exploding malfunction delivers 8-80 (8d10) hit point to all within 5 hexes.
 
-== 23) Glass Gun 
+=== Gauss Pistol 
 
-// insert table 552
+[horizontal]
+Weapon Type:: D
+Range:: 100h (-55)
+Accuracy:: +100
+Damage:: 5-50, 4-40, *3-30*, 2-24, 2-16
+Magazine:: 10 
+Wate:: 1.8 kg, *1.5 kg*, 1.0 kg (1.8%)
+EXPS:: 500
+Value:: 3000 (3)
 
-The glass gun sprays clouds of minute ceramic shards.
+The gauss pistol magnetically hurls specialized ammunition.
+Each round is a combination of battery and projectile.
+The battery expends it's energy to propel itself at lethal velocity.
+There are no casings ejected.
+A gauss pistol has no measurable kickback.
+Low kickback helps with the pistol's accuracy and utility in zero gravity.
+The weapon is quite but not entirely silent.
+
+The medium powered gauss pistol damage is 3-30 (3d10) and its wate is 1.5kg.
+
+A malfunction indicates an ammo defect and must be manually removed.
+
+=== Gauss Rifle 
+
+[horizontal]
+Weapon Type:: E
+Range:: 190h (-40)
+Accuracy:: +170
+Damage:: 5-60, 5-50, *4-48*, 3-30, 2-20
+Magazine:: 30
+Wate:: 3.75 kg, *3.5 kg*, 3.25 kg (1.8%)
+EXPS:: 754
+Value:: 12000 (5)
+
+The gauss rifle magnetically hurls specialized ammunition.
+Each round is a combination of battery and projectile.
+The battery expends it's energy to propel itself at lethal velocity.
+There are no casings ejected.
+A gauss rifle has no measurable kickback.
+Low kickback helps with the rifle's accuracy and utility in zero gravity.
+The weapon is quite but not entirely silent.
+
+The medium powered gauss rifle damage is 4-48 (4d12) and its wate is 3.5kg.
+
+A malfunction indicates an ammo defect and must be manually removed.
+
+=== Glass Gun 
+
+[horizontal]
+Weapon Type:: D
+Range:: 100h (-99)
+Accuracy:: Special
+Damage:: 4-48 (4d12)
+Magazine:: 10
+Wate:: 3.75kg (200gm)
+EXPS:: 300
+Value:: 5000 (75)
+
+The glass gun ejects clouds of minute ceramic shards.
 This weapon enjoys a +200 accuracy bonus on to hit rolls against multi-pieced armour.
 Some examples of multi-pieced armour are furs, leather, padded, studded, ring, scale and chain.
 This includes unarmoured targets or most alien hides.
 This weapon does not get its accuracy bonus when it is being used against full piece armour: robots, powered armour, full plate armour, and vac suits.
 Each cartridge has its own power source.
 This power source can only be accessed by the glass gun, unless a mechanic succeeds at a 20 DD maneuver.
+
 A malfunction indicates a mechanism jam.
 
 == 24) Grapple Gun 
