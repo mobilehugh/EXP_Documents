@@ -831,6 +831,9 @@ This is your everyday, run of the mill, coherent light energy weapon.
 The lazer pistol is the staple of sciency fiction everywhere.
 The gun makes the classic pinging, zapping or crackling noise.
 Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
 
 The medium powered lazer pistol damage is 2-20 (2d10) and its wate is 1.15kg.
 The lazer pistol is also called a phaser or blaster.
@@ -945,7 +948,7 @@ Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour].
 
 A malfunction indicates a misfire and this weapon does not jam.
 
-== 33) Plasma Rifle 
+=== Plasma Rifle 
 
 [horizontal]
 Weapon Type:: E
@@ -965,199 +968,462 @@ Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour].
 
 A malfunction indicates a misfire and this weapon does not jam.
 
-== 34) Plastix Pistol 
+=== Plastix Pistol 
 
-// insert table 565
+[horizontal]
+Weapon Type:: D
+Range:: 35h (-85)
+Accuracy:: 0
+Damage:: 4-40, 4-30, *3-30*, 3-24, 2-20
+Magazine:: 15
+Wate:: 1.2 kg, *1.1kg*, 0.9 kg (10% Cylinder)
+EXPS:: 500
+Value:: 2000 (75)
 
 A plastix pistol spits globs of molten plastix.
 This weapon was specifically designed for penetrating plastix armour.
 When attacking a target that is wearing plastix armour the opponent is considered unarmoured (AR 500).
-Any hit scored on plastix armour, will inflict double damage.
-The extra damage is taken from the melting plastix armour.
 The ammunition for this weapon is a solid cylindrical cartridge that contains both the plastix compound, and the energy to charge the gun.
-To employ the energy stored in the cartridge for something other than the plastic weapon, a 20 DD mechanic roll must be successful A malfunction with a plastix pistol indicates a mechanism jam.
 
-The medium powered plastix pistol damage is 3-30 (3d10) and its wate is 1.1kg, The other listed damages and wates are for higher and lower calibers of this gun type.
+The medium powered plastix pistol damage is 3-30 (3d10) and its wate is 1.1kg.
 
+A malfunction with a plastix pistol indicates a mechanism jam from molten plastic.
 
-== 35) Plastix Rifle 
+=== Plastix Rifle 
 
-// insert table 566
+[horizontal]
+Weapon Type:: E
+Range:: 120h (-50)
+Accuracy:: +60
+Damage:: 6-60, 6-40, *4-32*, 3-30, 2-24
+Magazine:: 30
+Wate:: 	4.2 kg, *4.0 kg*, 3.8 kg (10% Cylinder)
+EXPS:: 600
+Value:: 8500 (100)
 
-Except for the above alterations in range, damage, and wate the plastix rifle functions identical to a plastix pistol.
-The medium powered bolt action rifle damage is 4-32 (4d8) and its wate is 4kg, The other listed damages and wates are for higher and lower calibers of this gun type.
+A plastix rifle spits globs of molten plastix.
+This weapon was specifically designed for penetrating plastix armour.
+When attacking a target that is wearing plastix armour the opponent is considered unarmoured (AR 400).
+The ammunition for this weapon is a solid cylindrical cartridge that contains both the plastix compound, and the energy to charge the gun.
 
-== 36) Protein Disrupter 
+The medium powered plastix rifle damage is 4-32 (4d8) and its wate is 4kg.
 
-// insert table 567
+A malfunction with a plastix rifle indicates a mechanism jam from molten plastic.
 
-Hits from a protein disrupter instantly tears apart essential protein structures in organic molecules.
+=== Protein Disrupter 
+
+[horizontal]
+Weapon Type:: C
+Range:: 125h (-60)
+Accuracy:: +150
+Damage:: 5-60, 5-50, *4-40*, 3-30, 3-24
+Magazine:: 9 per Battery
+Wate:: 4.3 kg, *4.2 kg*, 4.1 kg + Battery
+EXPS:: 700
+Value:: 11000 + Battery
+
+The protein disrupter tears apart essential protein structures in organic tissue.
 The beam from the gun unravels collagen, melts bone, and liquifies flesh.
-Wounds from this weapon appear as a gory mush.
-Medical attention must be accompanied with a cauterizing ray (medical equipment 27), or a blood congealater (medical equipment 12), otherwise the veterinarian will suffer a +5DD penalty.
+This weapon is designed to be an anti-organic weapon.
+Inorganic personas are unaffected as the disrupting ray passes through them unimpeded.
+The beam harmlessly passes through robots, walls, Argillan rock women, and armour.
+Machines and personas with organic components can be affected by this attack.
+Target's bearing inorganic armour are considered unarmoured (AR 500) to this beam.
+A to hit roll is still required to damage a target. 
 
-This weapon is specifically designed to be an anti-organic weapon.
-Inorganic objects (robots, walls, machines, Argellian rock women) are unaffected by the attack since the disrupting ray passes through them unimpeded.
-Walls, machines or robots that have organic components can be affected by this attack.
-Inorganic armours have no effect on the attack of a protein disrupter so the target's AR, is essentially 500.
-Note that the firer must still generate a to hit roll to ensure that a hit was made, and to check for a weapon malfunction.
-Malfunction with a protein disrupter will inflict 1 to 10 hit points to anything organic in the firing hex.
+Wounds from this weapon are a gory mush.
+Typical veterinarian quick fixes are ineffective.
+A vet must have access to veterinarian equipment to repair these wounds. 
 
-The medium powered protein disrupter damage is 4-40 (4d10) and its wate is 4,2kg, The other listed damages and wates are for higher and lower calibers of this gun type.
+The medium powered protein disrupter damage is 4-40 (4d10) and its wate is 4.2kg.
 
-== 37) Radiation Gun 
+A malfunction of this weapon attacks the weapon bearer.
+Typically injury will be the firer's hands. 
 
-// insert table 568
+
+=== Radiation Gun 
+
+[horizontal]
+Weapon Type:: D
+Range:: 150h (-70)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 12 per Battery
+Wate:: 3.76kg + Battery
+EXPS:: 900
+Value:: 8500 + Battery
 
 This gun fires beams of lethal radiation.
-Whenever a target is hit, it must http://expgame.com/?page_id=275saving-throw[save vs.
-intensity] 3 to 24 (3d8) radiation.
-The intensity of the radiation must be determined for every hit.
+The intensity of the radiation is 3 to 24 (3d8).
+The intensity of the radiation is random and is determined each attack.
+Radiation damage is 1-4 (1d4) hit points of damage per intensity of radiation.
+An intensity 12 radiation attack would inflict 12-48 (12d4) hit points of damage.
+The radiation beam affects inorganic and organic personas equally.
+For more info about radiation attacks jump to xref:ii-roll_playing_rules:CH16_Special_Rolls_Saves.adoc#_radiation_attacks[Radiation Attacks].
+
 This is also known as an x-ray gun, or a rad rifle.
 A malfunction with this gun will bathe a 3 hex radius with intensity 3 to 24 radiation for one to six units.
 
-== 38) Revolver 
+=== Revolver 
 
-// insert table 569
+[horizontal]
+Weapon Type:: C
+Range:: 80h (-66)
+Accuracy:: 0
+Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
+Magazine:: 5
+Wate:: 1.25 kg, *1.1kg*, 0.75 kg (1.5%)
+EXPS:: 250
+Value:: 200 (1)
 
-This is a pistol version of a bolt action rifle.
-A malfunction indicates dud ammunition, and does not jam the gun__.
-__The medium powered revolver damage is 2-16 (2d8) and its wate is 1.1kg, The other listed damages and wates are for higher and lower calibers of this gun type.
+A revolver launches a projectile powered by a controlled explosion within the ammo.
+The trigger mechanism rotates a barrel loaded with ammunition. 
+Hence the title revolver.
 
-== 39) Semi Auto Lazer Pistol 
+The medium powered revolver damage is 2-16 (2d8) and its wate is 1.1kg.
 
-// insert table 570
+A malfunction of this weapon is a misfire, but does not jam the weapon.
 
-A semi auto lazer pistol can fire once, or twice, a unit.
-This weapon is also called a blaster, or a sotto lazer pistol.
-Malfunctions with this gun indicate optic collator burnout.
-The medium powered semi auto lazer pistol damage is 2-20 (2d10) and its wate is 1.6kg, The other listed damages and wates are for higher and lower calibers of this gun type.
+=== Semi Auto Lazer Pistol 
 
-== 40) Semi Auto Lazer Rifle 
+[horizontal]
+Weapon Type:: C, D
+Range:: 70h (-60)
+Accuracy:: +50
+Damage:: 4-40, 3-30, *2-20*, 2-16, 1-10
+Magazine:: 15 per Battery
+Wate:: 1.8 kg, *1.6 kg*, 1.4 kg + Battery
+EXPS:: 500
+Value:: 2000 + Battery
 
-// insert table 571
+This is your everyday, run of the mill, coherent light energy weapon.
+The semi auto lazer pistol allows for 2 attacks per unit.
+The lazer pistol is the staple of sciency fiction everywhere.
+The gun makes the classic pinging, zapping or crackling noise.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
 
-Except for the above differences, a sotto lazer rifle is the same as a sotto lazer pistol above.
-The medium powered semi auto lazer rifle damage is 3-30 (3d10) and its wate is 3.8kg, The other listed damages and wates are for higher and lower calibers of this gun type.
+The medium powered semi auto lazer pistol damage is 2-20 (2d10) and its wate is 1.6kg.
+This weapon is also called a phaser, blaster or sotto lazer pistol.
 
-== 41) Semi Auto Pistol 
+A malfunction indicates the loss of a charge.
 
-// insert table 572
+=== Semi Auto Lazer Rifle 
 
-A semi auto pistol can fire once, or twice, each unit.
+[horizontal]
+Weapon Type:: C, D, E
+Range:: 
+Accuracy:: 
+Damage:: 
+Magazine:: 
+Wate:: 
+EXPS:: 
+Value:: 
+
+This is your everyday, run of the mill, coherent light energy weapon.
+The semi auto lazer rifle allows for 2 attacks per unit.
+The lazer rifle is the staple of sciency fiction everywhere.
+The gun makes the classic pinging, zapping or crackling noise.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+The medium powered semi auto lazer rifle damage is 3-30 (3d10) and its wate is 3.8kg.
+This weapon is also called a phaser, blaster or sotto lazer rifle.
+
+A malfunction indicates the loss of a charge.
+
+=== Semi Auto Pistol 
+
+[horizontal]
+Weapon Type:: C, D
+Range:: 70h (-60)
+Accuracy:: +40
+Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
+Magazine:: 10
+Wate:: 1.5 kg, *1.25 kg*, 1.4 kg (1.5%)
+EXPS:: 300
+Value:: 750 (1)
+
+This pistol launches a projectile powered by a controlled explosion within the ammo.
+The next round may be chambered by the explosive force or a spring mechanism.
+A semi auto pistol can attack twice each unit.
+
 This weapon is also called a sotto pistol.
+The medium powered semi auto pistol damage is 2-16 (2d8) and its wate is 1.25kg.
+
 When a sotto pistol malfunctions, it has a mechanism jam.
-The medium powered semi auto pistol damage is 2-16 (2d8) and its wate is 1.25kg, The other listed damages and wates are for higher and lower calibers of this gun type
 
-== 42) Semi Auto Rifle 
+=== Semi Auto Rifle 
 
-// insert table 573
+[horizontal]
+Weapon Type:: C, D, E
+Range:: 110h (-44)
+Accuracy:: +60
+Damage:: 4-48, 3-36, *3-30*, 3-24, 2-20
+Magazine:: 45
+Wate:: 3.8 kg, *3.4 kg*, 3.0 kg (1.5%)
+EXPS:: 600
+Value:: 2800(1)
 
-Except for the above alterations in wate damage and range, this gun is identical to a semi auto pistol.
-The medium powered semi auto lazer rifle damage is 3-30 (3d10) and its wate is 3.4kg, The other listed damages and wates are for higher and lower calibers of this gun type.
+This rifle launches a projectile powered by a controlled explosion within the ammo.
+The next round may be chambered by the explosive force or a spring mechanism.
+A semi auto rifle can attack twice each unit.
 
-== 43) Slug Thrower 
+This weapon is also called a sotto rifle.
+The medium powered semi auto rifle damage is 3-30 (3d10) and its wate is 3.4kg.
 
-// insert table 574
+When a sotto rifle malfunctions, it has a mechanism jam.
 
-The slug thrower is a quiet, but not silent, spring fed weapon.
-The self-contained cartridge has an energy supply, and all the slugs needed for an ammunition set.
+=== Slug Thrower 
+
+[horizontal]
+Weapon Type:: C, D
+Range:: 40h (-50)
+Accuracy:: 0
+Damage:: 3-18 (3d6)
+Magazine:: 20
+Wate:: 250 (90gms)
+EXPS:: 300
+Value:: 250(50)
+
+The slug thrower is a quiet, but not silent, spring powered weapon.
+The magazine is a self-contained cartridge with the ammo and mechanical power. 
+Many players are disappointed to find out this weapon does not pitch living slugs.
+
 A malfunction indicates a mechanism jam.
 
-== 44) Sonic Pistol 
+=== Sonic Pistol 
 
-// insert table 575 + The sonic pistol inflicts damage by delivering its energy along low frequency sound waves.
+[horizontal]
+Weapon Type:: C
+Range:: 40h (-211)
+Accuracy:: -50
+Damage:: Special
+Magazine:: 12 per Battery
+Wate:: 1.3kg + Battery
+EXPS:: 630
+Value:: 2000 + Battery
+
+A sonic pistol uses sound waves to damage it's target. 
+The pistol has a variable mechanism that is unnecessarily complicated.
+Some legacy rules just won't go away.
+
 There are a variety of attacks that the firer can choose from.
-The attack options are listed on Table 46.7: Sonic Pistols.
-She can choose from several sonic blast attacks of varying levels.
 The more powerful the attack the greater life drain on her batteries.
-There is also a setting that does little damage, but deafens acoustic sensors.
-The sonic pistol is not an area of effect weapon, and single targets must be chosen by the firer.
+The sonic pistol is not an area of effect weapon.
+An attack roll must be successful to damage the target.
 
-The damaging attacks have no deafening or area of effect attack.
-They simple vibrate the target with sound to inflict their damage.
-The special deafening attack will disable organic audio sensors for 1 to 10 hours, and inorganic ones must await repair.
-The audio sensor gets a save versus poison of intensity 4 to 32.
-A malfunction will result in a blast  of 2-16 hit points of damage to all within a 3 hex radius.
+include::ROOT:partial$CH46_Table_Sonic_Pistol_Volume.adoc[]
 
-// insert table 577
+Damaging attacks vibrate the target with sound to inflict their damage.
+Damage attacks have no other effects like deafness or pain infliction.
 
-== 45) Sonic Rifle 
+A deafening attack will disable organic and inorganic audio sensors.
+The audio sensor gets a roll versus poison of intensity 4 to 32.
+Organic sensors will recover in 1 to 10 hours.
+Inorganic sensors must must await repair.
 
-// insert table 576
+The sonic pistol is also called a screamer, whistle gun, or sonic disruptor.
 
-The sonic rifle is functions on the same principles as the sonic pistol only it has a more powerful attack.
-The damaging attacks have no deafening or area of effect attack.
-They simple vibrate the target with sound to inflict their damage.
-The special deafening attack will shut down organic audio sensors for 1 to 10 hours, and inorganic ones must await repair.
-The audio sensor gets a save versus poison of intensity 4 to 40.
-A malfunction will result in a medium powered blast (3 to 24 hit points of damage) to all within a 3 hex radius.
+A malfunction will result in a low power sonic attack on the user (1d8 HPS).
 
-// insert table 578
 
-== 46) Stun Pistol 
 
-// insert table 579
+=== Sonic Rifle 
 
-A stun pistol can override the central nervous system of organic targets shutting down essential motor centers and leaving the target semiconscious.
-As nasty as this sounds the stun pistol is the weapon of choice for pacifists, disabling targets without harm.
-If a hit is scored the target must http://expgame.com/?page_id=275saving-throw[save vs.]http://expgame.com/?page_id=275saving-throw[intensity] 2 to 16 (2d8) poison, or collapse stunned.
-A stunned target will remain stunned for 3-30 units.
-Another name for a stun pistol is stunner or the slumper.
+[horizontal]
+Weapon Type:: D
+Range:: 80h (-211)
+Accuracy:: -50
+Damage:: Special
+Magazine:: 24
+Wate:: 3.8kg + Battery
+EXPS:: 675
+Value:: 8000 + Battery
+
+A sonic rifle uses sound waves to damage it's target. 
+The rifle has a variable mechanism that is unnecessarily complicated.
+Some legacy rules just won't go away.
+
+There are a variety of attacks that the firer can choose from.
+The more powerful the attack the greater life drain on her batteries.
+The sonic rifle is not an area of effect weapon.
+An attack roll must be successful to damage the target.
+
+include::ROOT:partial$CH46_Table_Sonic_Rifle_Volume.adoc[]
+
+Damaging attacks vibrate the target with sound to inflict their damage.
+Damage attacks have no other effects like deafness or pain infliction.
+
+A deafening attack will disable organic and inorganic audio sensors.
+The audio sensor gets a roll versus poison of intensity 4-40 (4d10).
+Organic sensors will recover in 1-10 (1d10) hours.
+Inorganic sensors must must await repair.
+
+The sonic rifle is also called a screamer, whistle gun, or sonic disruptor.
+
+A malfunction will result in a low power sonic attack on the user (2d10 HPS).
+
+=== Stun Pistol 
+
+[horizontal]
+Weapon Type:: D
+Range:: 80h (-80)
+Accuracy:: +80
+Damage:: Special
+Magazine:: 10
+Wate:: 1.4kg + Battery
+EXPS:: 500
+Value:: 1500 + Battery
+
+The stun pistol overloads the central nervous system of organic.
+A stunned target collapses safely to the ground in a semi-conscious state.
+The stun pistol is the weapon of choice for pacifists.
+To avoid being stunned to player must roll versus 2-16 (2d8) intensity poison.
+The target takes no damage but will remain stunned for 3-30 (3d10) units.
+ 
+Inorganic personas are not stunned, but can be damaged by this weapon.
+Robot personas take 1 hit point of damage per intensity.
+
+Other names for a stun pistol is stunner, pacifier or slumper.
 A malfunction with this weapon results in the loss of a charge.
 
-== 47) Stun Rifle 
+=== Stun Rifle 
 
-// insert table 580
+[horizontal]
+Weapon Type:: D
+Range:: 130h (-35)
+Accuracy:: +170
+Damage:: Special
+Magazine:: 20 per Battery
+Wate:: 3.95kg + Battery
+EXPS:: 700
+Value:: 6000 + Battery
 
-A stun rifle can override the central nervous system of an organic target in the same fashion as a stun pistol.
-When a hit is scored the target must save vs intensity 4 to 24 poison, or collapse stunned.
-A target stunned with a stun rifle will remain stunned for 1-6 minutes (30 units per minute).
-Saving throws are described in http://expgame.com/?page_id=275saving-throw[Chapter 16: Special Rolls].
+The stun pistol overloads the central nervous system of organic.
+A stunned target collapses safely to the ground in a semi-conscious state.
+The stun pistol is the weapon of choice for pacifists.
+To avoid being stunned to player must roll versus 3-24 (3d8) intensity poison.
+The target takes no damage but will remain stunned for 1-3 (1d3) minutes.
+ 
+Inorganic personas are not stunned, but can be damaged by this weapon.
+Robot personas take 1 hit point of damage per intensity.
 
-== 48) Variable Lazer Pistol 
+Other names for a stun pistol is stunner, pacifier or slumper.
+A malfunction with this weapon results in the loss of a charge.
 
-// insert table 581
+=== Variable Lazer Pistol 
 
-This is a multi setting lazer pistol, where the persona using it can adjust the power level of the killing attack or select from three non-lethal settings.
-Flashlight is self explanatory.The lazer flashlight will cast a one hex wide beam up to 50 hexes away.
-The stunning and blinding attacks are given an intensity of 1-10.
-And if the target does not with a http://expgame.com/?page_id=275saving-throw[save versus toxin] she will be stunned or blinded for 1 to 20 units.
-For more information about stun attacks refer to http://expgame.com/?page_id=33946-stun-pistol[stun pistol].
-A dial sets the variable lazer to any of the listed functions.
-It occupies no time to switch from one setting to the next, although an initiative roll may be required to use the weapon before another persona.
-Note that this weapon does not always appear as a pistol, and is commonly disguised as a flashlight.
-A malfunction will result in complete battery drain.
+[horizontal]
+Weapon Type:: C
+Range:: 80h (-80)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 12 per Battery
+Wate:: 1.5kg + Battery
+EXPS:: 700
+Value:: 9000 + Battery
+
+This gun is a coherent light energy weapon with a damper dial.
+The firer can choose from a variety of settings.
+There are three lethal settings and three non-lethal settings.
+The persona dials in one of the six at the beginning of the combat unit.
+
+include::ROOT:partial$CH46_Table_Variable_Lazer_Pistol_Settings.adoc[]
+
+.*Damage Attacks*
+The lethal attacks make the classic pinging, zapping or crackling noises.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+.*Stun and Blind*
+Both stun and blind have to score a hit to stun or blind the target.
+Each have require a roll versus intensity 1-10 (1d10) poison.
+The duration of the either effect will be 1 unit per point of intensity.
+Blind works against any light sensor whether or organic or not.
+Stun delivers 1 hit point of damage per intensity to robots. 
+Robots cannot be stunned.
+
+.*Flashlight*
+Flashlight can light up 1 hex of area up to 50 hexes away.
+There is no beam cast by this lazer light. 
+Targets are illuminated in the dark without giving up the light source.
+
 This weapon is also called a nightstick, or VLP.
 
-// insert table 582
-
-== 49) Variable Lazer Rifle 
-
-// insert table 584
-
-This is a multi-setting lazer rifle.
-The persona can adjust the power level of the rifle's killing attack, or she can select from three non-lethal settings.
-The variable laser rifle does not always appear as a rifle, and can be disguised as a searchlight.
-The lazer searchlight casts a beam 3h wide and 100h range.
-The various settings can be chosen by twisting a dial.
-It occupies no time to switch from one setting to the next, although an initiative roll may be required to use the weapon before another persona.
-The stun and blinding attacks are intensity 1+++<b>++++++</b>+++to 20, and the persona must save versus poison or be stunned/blinded for 3 to 30 units.
-This gun can also be called a VLR or perimeter light.
-A malfunction drains the entire battery set.
+A malfunction will result in complete battery drain.
 
 
-// insert table 583
+=== Variable Lazer Rifle 
 
-== 50)_ _Water Gun 
+[horizontal]
+Weapon Type:: D
+Range:: 130h (-80)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 24 per Battery
+Wate:: 4.1kg + Battery
+EXPS:: 780
+Value:: 36000 + Battery
 
-// insert table 585
+This gun is a coherent light energy weapon with a damper dial.
+The firer can choose from a variety of settings.
+There are three lethal settings and three non-lethal settings.
+The persona dials in one of the six at the beginning of the combat unit.
 
-A watergun synthesizes and then lethally propels droplets of water.
-This gun has no water storage, and it requires at least 5% atmospheric humidity to synthesize water droplets.
-If the relative humidity is not substantial another water source must be found.
-This gun is totally waterproof, but it will not function underwater.
+include::ROOT:partial$CH46_Table_Variable_Lazer_Rifle_Settings.adoc[]
+
+.*Damage Attacks*
+The lethal attacks make the classic pinging, zapping or crackling noises.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+.*Stun and Blind*
+Both stun and blind must score a hit to stun or blind the target.
+Each have require a roll versus intensity 2-20 (2d10) poison.
+The duration of the either effect will be 1 minute per point of intensity.
+Blind works against any light sensor whether or organic or not.
+Stun delivers 1 hit point of damage per intensity to robots. 
+Robots cannot be stunned.
+
+.*Flashlight*
+Flashlight lights up a 3 hex area up to 100 hexes away.
+There is no beam cast by this lazer light. 
+Targets are illuminated in the dark without giving up the light source.
+
+This weapon is also called a nightstick, perimeter light or a VLR.
+
+A malfunction will result in a complete battery drain.
+
+
+=== Water Gun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 50h (-190)
+Accuracy:: 0
+Damage:: 3-18 (3d6)
+Magazine:: 30 per Battery
+Wate:: 0.75 + Battery
+EXPS:: 500
+Value:: 750 + Battery
+
+A water gun condenses and lethally propels droplets of water.
+This gun has no water storage, and draws humidity from the air.
+This weapon does not work in a vacuum, and environs where humidity is absent.
+
+This gun is totally waterproof. 
+If used underwater it's range is reduced to 25 hexes.
 This weapon is also called a squirt gun.
+
 A malfunction indicates a malformed water droplet and the loss of a charge.
 
 == Gun Attribute Explanations
