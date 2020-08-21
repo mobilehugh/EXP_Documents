@@ -36,10 +36,11 @@ Wate:: 2kg
 EXPS:: 275
 Value:: 1000
 
-The antilazer aerosol will dissipate any lazer bolts which pass through its gaseous field. 
-The antilazer cloud does not obscure vision, but it does cause lazers to flare out into harmless glowing balls. 
-The antilazer aerosol affects lazers, but energy attacks like ​fission, fusion, plasma ​are unaffected. 
-There is no limit to the amount of damage that antilazer aerosol can dissipate, and the shimmering cloud will evaporate 1-10 minutes after discharge.
+The antilazer aerosol will dissipate any lazer that passes through its gaseous field. 
+The antilazer cloud dissipates attacks, blinds lazer vision and blocks lazer comms. 
+There is no limit to the amount of damage that an antilazer aerosol can dissipate
+Energy attacks like ​fission, fusion, plasma ​are not affected by this aerosol. 
+The shimmering cloud will evaporate 1-10 (1d10) minutes after discharge.
 
 === Attraction Aerosol 
 [horizontal]
@@ -50,10 +51,10 @@ Wate:: 2.0kg
 EXPS:: 350
 Value:: 100
 
-The attraction aerosol is an incredibly potent anti-repellant.
-The attraction aerosol discharges pheromones, vibrations, chemicals, or sounds that attract a particular entity.
-Whatever type of creature is affected by this aerosol will swarm towards the center of the discharge.
-The creatures will show up hungry, desperately in love, or just plain curious.
+The attraction aerosol is a potent anti-repellant.
+The attraction aerosol generates pheromones, vibrations, chemicals, or sounds that appeal to a particular persona.
+The attracted persona will swarm towards the epicenter of the discharge.
+The creatures will show up hungry, desperately in love, or plain curious.
 How many referee personas approach the expedition depends on the mood of the referee.
 
 This aerosol is also known as a love bomb.
@@ -69,15 +70,16 @@ Wate:: 2 kg
 EXPS:: 300
 Value:: 50
 
-The blinding aerosol
-Any target with organic optical sensors must roll versus poison or be blinded when subject to this attack.
-Every 3 units spent within the cloud will require the target to make another save versus poison or be blinded.
-The save is against intensity 2-20 (2d10) poison.
-If blinded, the target will remain blind for 0 to 9 minutes.
-If the duration of the blindness is less than 1 minute, the target will be blinded for 1 to 20 units.
+The blinding aerosol renders organic optical sensors inoperative
+Any target with organic optical sensors must win a poison roll or be blinded.
+Every 3 units spent within the cloud will require another poison roll or be blinded.
+The blinding poison has an intensity of 2-20 (2d10).
+If blinded, the target will remain blind for 0-9 (1d10-1) minutes.
+If the duration is less than 1 minute, the target will be blinded for 1 to 20 units.
 The cloud of the aerosol is invisible, and will dissipate in 1 to 12 units.
-Any target entering the cloud must save versus blindness.
-The blinding aerosol is commonly called tear gas.
+Any target entering the cloud must make a poison roll.
+
+The blinding aerosol is alternatively called tear gas.
 
 === Catabolic Dismodulator Aerosol
 
@@ -91,12 +93,16 @@ Value:: 25000
 
 The catabolic dismodulator turns inorganic matter into an opaque, multi-hued, cloud of gas.
 The effects are devastating to equipment, and robots.
-If the ref feels that the effects of this weapon may severely disrupt the course of a campaign, she may allow persona robots a save versus intensity 13 to 28 (10+3d6) poison, or be destroyed.
-Note that only solid inorganic matter within the target hex is dismodulated.
-The 3 hex area of effect refers to the cold damage taken by all targets within the area of effect cloud.
-Those organic personas hit directly with a catabolic dismodulator have a 5% chance of  dismodulating along with their equipment.
-If the dice should indicate this, it is only polite to offer the same saving throw awarded to persona robots.
+Only solid inorganic matter within the target hex is dismodulated.
 
+Inorganic personas and equipment must win a poison roll or be destroyed by this attack.
+The poison intensity is 13 to 28 (10+3d6) poison.
+Most equipment has little or no constitution to combat this attack. 
+Organic personas hit directly with a catabolic dismodulator have a 5% chance of  dismodulating along with their equipment.
+If an organic persona can be dismodulated they must win a poison roll or be killed.
+
+The area of effect of the catabolic dismodulator is only the the target hex.
+The 3 hex area of effect is from cold damage to  targets caught in the cloud.
 
 === Demagnetizer Aerosol 
 
@@ -108,16 +114,21 @@ Wate:: 2kg
 EXPS:: 300
 Value:: 25
 
-The relevance of this aerosol to anything in particular escapes me, it is sort of an industrial strength tape head cleaner which briefly nullifies the weak forces of magnetism.
-The obvious problems that could arise from this are: magnetic buckles detaching themselves;
-TV sets going blank;
-magnetic legs (vehicles, and robots) collapsing;
-electronic components ceasing to function;
-computer memories being erased;
-and little plastic animals falling off of the fridge.
-Military electronics will get a save versus mental attack, intensity 3 to 18, to avoid being affected by the attack.
-The magnet's battery source, the magnets themselves, or any electronic components will be restored to normal operation after 3-18 units.
-There is a 1% chance per unit of dysfunction of a device being permanently damaged.
+This aerosol is an industrial strength tape head cleaner.
+Temporarily dissolving the weak forces of magnetism creates chaos for devices.
+The obvious problems that could arise from this are broad.
+Fridge magnets fall of the fridge. 
+Monitors will go blank.
+Magnetic attachments will detach.
+Magnetic levitating legs on vehicles and robots will collapse.
+Electronic memories get erased.
+This attack has no specific damage, but the result of it's attack can lead to damage.
+
+Military devices must win a mental attack roll to avoid being demagnetized.
+The mental strength of the attack is 3-18 (3d6).
+
+Magnetized remains neutralized for 3-18 units.
+There is a 1% chance for each unit of duration that the device  is damaged.
 
 === Disintegrator Aerosol 
 
@@ -130,13 +141,17 @@ EXPS:: 300
 Value:: 12000
 
 The disintegrator aerosol turns inorganic substances into dust.
-More refined, and discerning, than its cousin the catabolic dismodulator aerosol, the disintegrator aerosol will only affect a certain substance.
-The substance type is determined on Table 45.8: Disintegration Type.
-Any amount of this material caught in the 1 hex area of effect will be broken down into a useless dust massing much less than its previous wate.
+More refined, and discerning, than its cousin the catabolic dismodulator aerosol, the disintegrator aerosol will only affect a certain material.
+Any amount of this material, within the area of effect,  is turned into dust.
 
-Any complex equipment, composed of many basic materials, caught in the area of effect has a % chance, determined by the referee, of malfunctioning.
-The malfunction is assumed to have been caused by some integral part of the device disintegrating into dust.
-The chance of this happening can be determined by a xref:ii-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Roll].
+What happens to partially impacted devices and targets.
+For example a piece of equipment may be partially disintegrated by the aerosol.
+To randomly determine this jump to xref:ii-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Rolls].
+A loss in a sphincter roll will indicated that the device is partially disintegrated.
+Jump to xref:ii-roll_playing_rules:CH21_Artifact_Damage.adoc#_extent_of_damage[Equipment Damage] to determine the extent of damage.
+
+
+A malfunction of this weapon disintegrates the aerosol into dust.
 
 include::ROOT:partial$CH45_Table_Disintegration_Type.adoc[]
 
@@ -153,6 +168,7 @@ Value:: 42
 This sadistic device explodes like a fragmentation grenade when it is triggered.
 All targets in the 1 hex area of effect take the damage listed.
 The referee should note that it is very impolite to laugh when an exploding aerosol is discharged.
+This toy would be considered a trap and should not count as a toy roll at start up.
 
 === Foam Aerosol 
 
@@ -169,7 +185,7 @@ For the first minute, the foam can be easily travelled through.
 By the end of the second minute the foam is starting to thicken, and movement is halved.
 Three minutes after being discharged the foam will be so viscous that movement will be reduced to one quarter.
 The pad will be completely solidified 4 minutes after its discharge, and anything caught within it will be completely trapped.
-At no time, even during the solid phase, is breathing hampered in any way by the foam.
+At no time, even during the solid phase, is breathing hampered  by the foam.
 Anything entombed by the foam pad will starve to death before anything else.
 The foam is not much stronger than Styrofoam, but only those persons trapped in the outer edges, and those who are particularly industrious will be able to free themselves.
 The colour of the foam will be the same as on the outside of the aerosol canister.
@@ -186,7 +202,8 @@ Wate:: 2kg
 EXPS:: 300
 Value:: 1000
 
-The freezing aerosol subjects all targets in its area of effect (8 hexes) to an enthalpy attack, coating everything with ice and snow.
+The freezing aerosol subjects all targets in its area of effect (8 hexes) to an enthalpy attack.
+The super cooled temperatures coats everything with ice and snow.
 The freezing aerosol has a % chance, equal to the damage inflicted, of entrapping large, or smaller, sized targets in ice.
 This attack also freezes switches in place, triggers in the firing position, pins in grenades, pant zippers closed, etc.
 
@@ -201,9 +218,10 @@ EXPS:: 250
 Value:: 900
 
 The gas aerosol fills the area of effect with a pall of transparent, but noticeable gas.
-The cloud of gas will affect all within it, and saving roll vs
-poison must be made for every unit within the area of effect.
-The intensity of the poison in the gas cloud varies between 2 and 16.
+The cloud of gas will affect all organic creatures within it.
+Personas must win a poison or be affected by the toxin.
+The poison roll must be repeated for every 3 units within the area of effect.
+The intensity of the poison is 2-16 (2d8).
 The cloud will dissipate in 4 to 16 units.
 Roll on the below table to determine the effect of the gas.
 
@@ -219,16 +237,20 @@ Wate:: 2kg
 EXPS:: 300
 Value:: 250000
 
-The magical invisibility aerosol permeates all visible matter within its area of effect with a substance that does not reflect, or deflect the path of light.
-Everything in the area of effect will be undetectable to sensors that use reflected light.
-Sonar, infravision, ultravision, and other such sensors will detect these invisible
-objects normally.
+The invisibility aerosol prevents matter from deflecting or reflecting visible light.
+This aerosol has a limited area of effect and only works on it's target hex.
+Everything in that are will become undetectable to sensors that use reflected light.
+Sonar, infravision, ultravision, and other such sensors are not affected.
 
-Everything within the hex of discharge will be invisible: the ground, walls, equipment, personas, halves of personas.
-The aerosol does an effective job of making the targets disappear, but remember that these invisible objects still exist.
-Equipment is easily lost, personas still make noise, personas still smell, and eye hand co-ordination is virtually non-existent.
-The invisibility aerosol can offer a great escape route, but can also cause a lot of trouble for the users.
-The effects of this aerosol will last for 1 to 4 days.
+The aerosol does an effective job of making the targets invisible.
+The disguise is only on the visible spectrum.
+Personas still occupy space, exude odors and make noise. 
+
+There are many challenges to being invisible. 
+Eye hand coordination becomes none existent. 
+Equipment dropped remains invisible.
+
+The effects of this aerosol last 1-4  (1d4) days.
 
 === Matter Detector Aerosol 
 
@@ -240,17 +262,20 @@ Wate:: 2kg
 EXPS:: 100
 Value:: 400
 
-The matter detector aerosol is much more useful than its title implies.
-Any solid matter within the area of effect of this aerosol will be affixed with chemicals that emit low levels of heat, light, radiation, and vibrations.
-This allows matter to be detected by any of the more common sensors (eyes, infravision, sonar, etc.).
-The aerosol can also be used to determine whether something is composed of solid matter or not.
-Hence it makes a good hologram detector also.
+The matter detector aerosol brings the material world into clear focus.
+Solid matter within the area of effect is coated with detection chemicals.
+The detection coating emits subtle amounts of heat, light, radiation, and vibration.
+This chemical exposes matter to most common sensors (eyes, infravision, sonar).
+Invisible objects suddenly appear, secret doors are highlighted.
+If something is solid it gets lit up.
+If something is not solid it also stands out.
+The matter detector aerosol is a good hologram detector too.
 
-All matter in the area of effect will glow light blue, and then fade into glowing technicolor for 14 minutes.
-The effect of the matter detector will continue for 1 to 4 minutes, and during that time any target can be seen through smoke, darkness, behind holograms, or in hiding places.
-Any to hit rolls will receive a bonus of +65 to hit on any target hit with a matter detector aerosol.
-Hiding maneuvers are 10 DDs more difficult if the persona has been affected by this aerosol, and ambushes are 10 times easier to detect.
-Targets that wish to avoid detection may attempt to disappear after the 1-4 minute duration ends.
+Attack rolls on lit targets receive a bonus of +65.
+Ambushes are 10 times easier to detect.
+Hiding while lit is 10 DDs more difficult.
+The duration of detection continues for 1 to 4 minutes.
+
 This aerosol is also called a marker aerosol, or a targeting aerosol.
 
 === Mistor Aerosol 
@@ -263,11 +288,13 @@ Wate:: 2kg
 EXPS:: 100
 Value:: 400
 
-The mistor is the complete opposite to the matter detector aerosol.
-The mistor renders all detection equipment--eyes, sonar, infravision, touch, smell, everything--completely useless when within the area of effect.
-No lights can penetrate the cloud, yelling is futile, and everything feels cool to the touch.
+The mistor aerosol disables all sensory modalities ineffective.
+Sensors include: eyes, sonar, infravision, touch, smell, etc.
+Personas within the cloud are not blinded, but there is a barrier between all 5 senses.
+Inside the cloud vision is greyed out, yelling is quiet, and touch is numbed.
 Virtually all sensors are dulled through lack of stimuli.
-Any attacks made are in a random direction, even if the target recently brushed against the attacker.
+Personas have no sense of direction, and combatants may bump into each other 
+Regardless of collisions attack rolls are made in a random direction.
 Movement is random, unless the persona has some form of heightened directional sense.
 The suspension will remain cohesive for 16 days.
 
@@ -281,9 +308,11 @@ Wate:: 2kg
 EXPS:: 300
 Value:: 2500
 
+This delivers microscopic tears to anything in the area of effect. 
+These little micro rends cause the prescribed damage. 
 The massive amount of damage is delivered to everything in the area of effect.
-It is presumed that molecules are slightly diffused.
-This microscopically tears apart everything for the prescribed damage.
+Damaged personas and equipment do not appear to have any obvious damage or injury.
+Only detailed inspection will reveal the microscopic diffusion of the molecules. 
 
 === Napalm Aerosol 
 
@@ -295,11 +324,15 @@ Wate:: 2kg
 EXPS:: 300
 Value:: 1900
 
-The napalm aerosol blasts a swath of flaming gas and gel when it is triggered.
-This is definitely not a toy you'd like to mistakenly point backwards.
-Anything caught in the blazing area of effect will be seared for 6 to 60 (6d10) hit points of damage, and then promptly immolate for further damage.
+The napalm aerosol blasts a swath of flaming gas and gel when triggered.
+This is definitely not a artifact you'd want to mistakenly point backwards.
+The blazing area of effect sears everything for 6 to 60 (6d10) hit points of damage.
+Everything that takes the initial heat damage immolates and continues to be damaged.
 Targets that have immolated will burn for an additional 2 to 8 units.
-Burning targets will take an additional 4 to 24 hit points of damage each unit that they are aflame.
+Burning targets will take an additional 4-24 (4d6) hit points of damage per unit.
+The specially adherent flammable chemicals cannot be extinguished with normal measures.
+Most targets will continued to burn for the full immolation period.
+
 Other than the flaming targets, the napalm aerosol will extinguish itself immediately.
 
 === Paint Aerosol 
@@ -312,13 +345,18 @@ Wate:: 2kg
 EXPS:: 50
 Value:: 42
 
-The paint aerosol can be used to paint the entire wall of a room with one explosive button push.
-Unfortunately this time saving feature will paint everything in front of the wall also.
-The completely indiscriminate nature of the paint aerosol allows it to be used as a weapon.
-When sprayed onto opponents, or expedition members, they must make a successful saving throw versus poison, or be blinded for 1 to 20 units.
-The intensity of the poison will be from 1 to 12.
-The referee may allow the player to use her persona's DEX instead of CON for this saving throw.
-The paint colour will be the same as the colour of the aerosol canister.
+The paint aerosol can be used to paint an entire room with one explosive button push.
+This time saving feature violently paints everything in its way.
+This indiscriminate nature of the paint aerosol allows it to be weaponized.
+If caught in the area of effect personas must win a poison roll or be blinded.
+The blinding affects all visual sensor and lasts 1-20 (1d20) units.
+The intensity of the poison 1-12 (1d12).
+The player may use her persona's DEX or CON for this poison roll.
+
+The paint colour match the aerosol canister colour.
+To get a simple or zany colour jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour].
+
+This aerosol is also called an RBG or Color Your Whirled.
 
 === Pharmaceutical Aerosol 
 
@@ -335,11 +373,13 @@ What sort of plague, military infestation, or Woodstock celebration prompted the
 
 Take a little trip over to xref:iv-hardware:CH50_Pharmaceuticals.adoc#_pharmaceutical_type[pharmaceuticals] 
 
-All targets in the area of effect must fail a save versus poison to be affected by the medication.
+All targets in the area of effect must *lose* a poison roll to be affected.
+For beneficial pharmaceuticals to help the persona she must lose the poison roll.
 The intensity of the poison (pharmaceutical) is 2 to 20.
+
 This intensity is reduced by one for every target in the area of effect.
 The more potential users, the milder the dose.
-Note that it is possible to make the spray from this aerosol completely ineffective by having too many targets in the area of effect.
+It is possible to make this aerosol completely ineffective by having too many targets in the area of effect.
 The cloud dissipates immediately after it has been ejected.
 
 === Poison Aerosol 
@@ -352,11 +392,18 @@ Wate:: 2kg
 EXPS:: 300
 Value:: 700
 
-The poison aerosol is a very selective, very lethal, combined nerve gas and respiratory poison.
-Whatever type of creature is poisoned by this aerosol must make a save versus intensity 2 to 24 poison, or die.
-Creatures that save versus the poison attack will automatically be repulsed by the 12 hex x 3 hex swath, and will not cross, or approach the lingering residue.
-The attack is only lethal to those targets caught within the initial blast, but the repellant effect will linger for 1 to 3 hours.
-These population strength poison aerosols are usually labelled Raid, or nerve gas canisters.
+The poison aerosol is a selective lethal, combination contact an inhalation poisons. 
+The ejected cloud is a mix between nerve gas and pulmonary desiccant.
+Any persona affected by this attack must win a poison roll or die.
+The intensity of the poison is 2-24 (2d12).
+The lethal attack does not linger and only affects those personas indicated.
+
+While the lethal toxin's affect has no duration there is a lingering residue.
+This residue violently repulses susceptible personas. 
+Affected personas cannot approach the swath area unless they win another poison roll.
+The repellent effect last for 1-4 (1d4) days.
+
+The lethal poison aerosol are also called Raid, or nerve gas.
 
 include::ROOT:partial$CH45_Table_Poisoned_Personas.adoc[]
 
@@ -370,13 +417,18 @@ Wate:: 2kg
 EXPS:: 300
 Value:: 50
 
-This is the pacifist's version of the poison aerosol.
-Creatures of the repelled type must save versus poison (intensity 13-28), or not be able to approach anything covered by this aerosol.
-The aerosol will start to repulse creatures at a 10 hex range.
-This repelling effect will last for 1 to 6 days.
-Intelligent creatures may make an additional save each new day in which they approach the repulsive area.
-Unintelligent aliens will most likely bolt in terror when failing to save versus the repellent.
-This aerosol is also called Oph, Repex, or Protector.
+The repellent aerosol employs irritating pheromones, smells, vibrations and emotions.
+These irritations drive the affected personas out the area of effect.
+There is no roll vs poison. 
+The 3 hex area of effect or anything coated by the repellent is unapproachable.
+Unintelligent aliens will bolt far beyond the area of effect.
+
+To approach within 10 hexes of the repellent epicenter a personas must win a poison roll.
+The poison intensity is 13-28 (3d6+10).
+Intelligent creatures may make an attempt to approach once per day.
+The repellent effect lasts 1-6 (1d6) days
+
+This aerosol is also called Oph, Repecks, or Protector.
 
 include::ROOT:partial$CH45_Table_Repelled_Personas.adoc[]
 
@@ -390,15 +442,23 @@ Wate:: 2kg
 EXPS:: 100
 Value:: 75
 
-This ear splitting siren will wail for 2-8 minutes, inflicting 2-12 hit points of damage to all within the area of effect.
-The siren aerosol will inflict double damage to mutants employing sonar.
-There is also a 10% chance per hit point of damage inflicted of that the target will become deaf.
-There is no saving throw granted.
+This ear splitting siren will wail for 2-8 minutes.
+The initial blast of sound inflicts 2-12 (2d6) hit points of damage.
+There is also a 10% chance per hit point of damage of going deaf.
+The screeching will launch a damaging harmonic each minute of duration.
+This indicates another 2-12 (2d6) hit points of damage. 
+Follow up attacks also indicates another chance to be deafened.
+If a persona becomes deaf or unconscious the follow up sonic blasts do no damage.
 Hearing will be restored after 1-10 hours.
-The screeching will continue to inflict 2 to 12 hit points of damage each minute until the hearing target is deafened, unconscious or out of range.
+
+The siren aerosol damages organic and inorganic acoustic sensors.
+Devices or personas that use sonar take double damage from the first blast.
+
 This aerosol has severe environmental effects.
-When used outdoors most of the smaller animals--birds, hares, jackalopes, and rats--in the 1 kilometer radius of effect will be killed.
-The expedition will also have to deal with a considerable number of deaf, confused, and possibly angry local fauna.
+When used outdoors delicate flora and fauna can die from shock. 
+The epicenter may attract dear, confused and angry local fauna.
+
+This aerosol can also be called a whistler or screecher.
 
 === Smoke Aerosol 
 
@@ -415,33 +475,39 @@ The smoke will obscure the vision of any visual sensors caught within its field.
 This means that there is a -230 per hex to hit penalty for ranged attacks, unless the persona has some sort of smoke cutting device.
 The smoke is so dense that it can only be moved by a gale force wind, or a bulldozer.
 The cloud will disperse in 1 to 8 weeks.
-The colour of the smoke will be the same as the colour of the canister that it was ejected from.
+The colour of the smoke will match the colour of the aerosol canister.
+To generate the colour jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour].
+
 
 === Web Aerosol 
 
 [horizontal]
 Range:: 8h
-Area of Effect:: 8h x 1h
+Area of Effect:: 8h
 Damage:: None
 Wate:: 2kg
 EXPS:: 300
 Value:: 1000
 
 The web aerosol splatters the area of effect with a super adhesive goo.
-Anything caught in the area of effect will be trapped until the webby mess dissipates 2-16 minutes later.
-Any persona that saunters into the messy web will instantly become glued.
+Anything caught in the area of effect will be trapped until the webby mess dissipates.
+The web maintains it's grip for  2-16 minutes.
+Any persona that saunters into the goo will instantly become stuck.
 
-To escape the persona must make a bizarre PSTR roll (kilo-die).
-Otherwise she is trapped until the web decomposes.
-During each escape attempt the entrapped persona must ensure that she does not glue her mouth and nose shut risking suffocation.
-There is a 1% chance of this happening each time that she struggles (attempts to break free).
-The colour of the web will be the same as the colour of the aerosol canister.The persona can attempt to make subtle movements, such as pulling a gun trigger, activating an aerosol, or taking a pharmaceutical.
-To this properly she must make a successful difficult DEX (d20) roll, or be unable to move at all.
+A trapped persona can attempt to make subtle movements without risk.
+Small actions like pulling a trigger, firing an aerosol, or taking a pharmaceutical
+Struggling to break free is a different situation.
+There is a chance that the web will block the persona's face and risk suffocation
+There is a 1% chance of suffocation whenever a trapped persona struggles.
 
-Procedures such as burning, dissolving or disintegrating the web will have varying chances of success.
-The chance of an action being successful can be determined by rolling Sphincter dice, as described in chapter 16, Special Rolls.
-Each attempt to free a persona will indicate a chance to entrap the rescuer.
-A web aerosol is also known as silly string.
+Any attempt to free a persona is a chance to entrap the rescuer.
+Procedures such as burning, dissolving or disintegrating will have varying success.
+Consult the xref:ii-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice] to determine if a particular attempt to destroy the web works. 
+
+The colour of the web will be the same as the colour of the aerosol canister.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] to generate a colour of string. 
+
+The web aerosol is also called Killy String or Super Goo. 
 
 == Aerosol Attribute Explanations
 
