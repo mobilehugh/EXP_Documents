@@ -1,0 +1,1539 @@
+= Guns
+
+Guns are weapons designed for lethal personal combat.
+They are designed to destroy targets with whatever means is available.
+
+// +++<figure id="attachment_5323" aria-describedby="caption-attachment-5323" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2014/10/guns_unlabelled-300x213.png?resize=300%2C213[Not so obvious guns.,300]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/10/guns_unlabelled.png)+++<figcaption id="caption-attachment-5323" class="wp-caption-text">+++Not so obvious guns.+++</figcaption>++++++</figure>+++
+
+
+
+//+++<figure id="attachment_5322" aria-describedby="caption-attachment-5322" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/expgame.com/wp-content/uploads/2014/10/guns_labelled-300x201.png?resize=300%2C201[Obvious guns.,300]](https://i2.wp.com/expgame.com/wp-content/uploads/2014/10/guns_labelled.png)+++<figcaption id="caption-attachment-5322" class="wp-caption-text">+++Obvious guns.+++</figcaption>++++++</figure>+++
+
+.*Gun Checklist*
+. <<_gun_type,Gun Type>>
+.. <<_calibre,Calibre>>
+. <<_gun_attribute_explanations,Gun Attribute Explanations>>
+
+
+== Gun Type 
+
+include::ROOT:partial$CH46_Table_Gun_Type.adoc[]
+
+== Gun Types
+
+=== Aerosol Pistol 
+
+[horizontal]
+Weapon Type:: C
+Range:: Double (-1000)
+Accuracy:: -150
+Damage:: Special
+Magazine:: 3
+Wate:: 0.5kg
+EXPS:: 500
+Value:: 2000
+
+An aerosol pistol amplifies range and efficiencies of aerosols.
+The aerosol pistol doubles the range, and triples the number of charges.
+The pistol does not alter area of effect, duration, or damage of an aerosol.
+Aerosol canisters cannot be disconnected from the pistol until all charges are extinguished.
+An aerosol with a 10h range and 3h area of effect would have a 20h range.
+There would be no change to the area of effect.
+The aerosol could be used 3 times instead of the usual single use.
+
+A malfunction indicates a loss of all remaining charges.
+There is a slim chance (determined by the ref) of the weapon exploding on malfunction.
+
+=== Aerosol Rifle 
+
+[horizontal]
+Weapon Type:: C
+Range:: Triple (-1000)
+Accuracy:: -50
+Damage:: Special
+Magazine:: 5
+Wate:: 1.6kg
+EXPS:: 500
+Value:: 8000
+
+An aerosol rifle amplifies range and efficiencies of aerosols.
+The aerosol rifle triples the range, and quintuples the number of charges.
+The rifle does not alter area of effect, duration, or damage of an aerosol.
+Aerosol canisters cannot be disconnected from the rifle until all charges are extinguished.
+An aerosol with a 10h range and 3h area of effect would have a 30h range.
+There would be no change to the area of effect.
+The aerosol could be used 5 times instead of the usual single use.
+
+A malfunction indicates a loss of all remaining charges.
+There is a slim chance (determined by the ref) of the weapon exploding on malfunction.
+
+=== Antimat Pistol
+
+[horizontal]
+Weapon Type:: C
+Range:: 90h (-100)
+Accuracy:: -30
+Damage:: Special
+Magazine:: 1 + Batteries
+Wate:: 2.7kg (5gm)
+EXPS:: 900
+Value:: 100000 (10000)
+
+An antimat pistol launches a micro particle of antimatter suspended in a lattice of electrons.
+This lattice will shatter when it hits a liquid or solid.
+The resulting explosion will instantly annihilate 50 kg of matter.
+The explosion releases a blast of heavy particles and super-heated gases that will affect everything within a ten hex radius regardless of cover.
+Everything in the ten hex radius will take 25 to 70 (5d10+20) hit points of damage.
+
+A malfunction with this weapon means the electron lattice has shattered within the gun.
+This usually means a harmless misfire, but if the ref is in a bad mood the gun will disintegrate itself.
+
+=== Antimat Rifle 
+
+[horizontal]
+Weapon Type:: C
+Range:: 150h (-95)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 2 + Batteries
+Wate:: 5kg (10gm)
+EXPS:: 900
+Value:: 375000 (15000)
+
+An antimat rifle also launches a micro particle of antimatter suspended in a lattice of electrons.
+This lattice will shatter when it hits a liquid or solid.
+The resulting explosion will instantly annihilate 100 kg of matter.
+The explosion releases a blast of heavy particles and super-heated gases that will affect everything within a 25h radius regardless of cover.
+Everything in the 25h radius will take 25-70 (5d10+20) hit points of damage.
+
+A malfunction with this weapon means the electron lattice has shattered within the gun.
+This usually means a harmless misfire, but if the ref is in a bad mood the gun will disintegrate itself.
+
+=== Beegun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 150h (-100)
+Accuracy:: 0
+Damage:: Death
+Magazine:: 1
+Wate:: 2kg (200gm)
+EXPS:: 500
+Value:: 250000 (30000)
+
+The beegun's activation chamber excites a normally docile insect into a poisonous rage.
+After two units of warming up, the beegun is ready to fire as a normal weapon.
+If this weapon scores a hit, the insect will inject a deadly and instantaneous poison.
+The hit victim must save vs intensity 19 to 24 (18+d6) poison, or die.
+If the target does save she will be comatose for 1-4 days.
+The ammunition for a beegun is not reusable.
+
+A malfunction can only occur with the ammo of this weapon.
+If a malfunction occurs, a hit will inflict 1-10 hit points of damage, but it will not be poisonous.
+
+=== Bolt Action rifle
+
+[horizontal]
+Weapon Type:: C
+Range:: 150 (-50)
+Accuracy:: +75
+Damage:: 4-48, 3-36, *3-30*, 3-24, 2-20
+Magazine:: 15
+Wate:: 3.7 kg, *3.4 kg*, 3.1 kg (1.5%)
+EXPS:: 400
+Value:: 500 (1)
+
+This is your familiar terran hunting, or target, rifle.
+This weapon can also be called a pump action, revolving chamber, steam, or pneumo-rifle.
+The medium powered bolt action rifle damage is 3-30 and its wate is 3.4kg.
+
+A malfunction with this weapon is a ammo misfire, and not a jam.
+
+=== Cryogun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 15h (-1000)
+Accuracy:: 0
+Damage:: 4-24 (4d6)
+Magazine:: 10 per Battery
+Wate:: 2kg + Battery
+EXPS:: 700
+Value:: 6000
+
+A cryogun precipitously drops the temperature creating ice, snow and death.
+A hit with the cryogun will both inflict damage and freeze the target in place.
+
+There is also an area of effect attack for all targets along the path of the cold blast.
+Every target within the 15h x 2h blast will take damage.
+Damage is rolled once for the entire attack
+There is also a chance that targets will get frozen in place.
+The chance of being entrapped is 1% per hit point of damage.
+With 15 hit points there is a 15% chance of trapping a medium sized in ice.
+There would also be a 15% chance of freezing swords in scabbards, buttons in the on position, steering wheels straight ahead, etc.
+The chance of freezing must be checked for each target.
+
+The freezing effects of a cryogun will melt away in 6 to 60 units.
+Heating will halve the melting time.
+
+This weapon is also known as a Frigid Aire, or a cop gun (they don't have to yell "freeze" they just pull the trigger).
+
+A malfunction results in the loss of a charge.
+
+=== Death Ray 
+[horizontal]
+Weapon Type:: C
+Range:: 40 (-99)
+Accuracy:: -125
+Damage:: 2-16 (2d8)
+Magazine:: 5 per Battery
+Wate:: 1.25kg (1.5%) + Battery
+EXPS:: 250
+Value:: 200 (1)
+
+The death ray pistol attacks the electrochemical life force of organic creatures.
+The beam attack must score a hit to be effective.
+The death ray inflicts 2-16 (2d8) hit points of damage plus a good chance of death.
+Any target hit by the death ray must save versus intensity 3-24 (3d8) poison or die.
+The intensity of the killing attack is generated every time the weapon is fired.
+
+This weapon is also called a kill-o-zap gun or a terminator.
+
+The malfunction of this weapon will occasionally call for an attack on the firer.
+Normal malfunctions result in the loss of all remaining charges.
+
+=== Derringer 
+
+[horizontal]
+Weapon Type:: C
+Range:: 40h (-99)
+Accuracy:: -125
+Damage:: 2-16 (2d8)
+Magazine:: 5
+Wate:: 1.25 (1.5%)
+EXPS:: 250
+Value:: 200 (1)
+
+The derringer is a compact and concealable weapon pistol.
+It is composed of plastic alloys, and is coated with finger print resistant materials.
+The derringer can be melted to nothing by submerging it in boiling water. 
+When being concealed this weapon will give bonuses of +20 on sneaky PT rolls.
+
+This weapon is also known as a family planner, or a Saturday night special.
+
+A malfunction will jettison dud ammo and jam the weapon.
+
+//+++<figure id="attachment_9851" aria-describedby="caption-attachment-9851" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/pyrotomic_disintegrator_rifle-300x102.png?resize=300%2C102[Patent 170168 G.C.Schaible 1953 (artist unknown),300]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/pyrotomic_disintegrator_rifle.png)+++<figcaption id="caption-attachment-9851" class="wp-caption-text">+++Actual Pyrotomic Disintegrator from 1953 patent for same.+++</figcaption>++++++</figure>+++
+
+=== Disintegration Gun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 100h (-115)
+Accuracy:: 0
+Damage:: 8-64 (8d8); Special
+Magazine:: 5
+Wate:: 4.5kg + Batteries
+EXPS:: 20
+Value:: 500 000 + Batteries
+
+The disintegration gun turns solids into elemental particles. 
+The nicely organized matter turns into a cloud of dust.
+This weapon is very temperamental and outcomes vary each time the trigger is pulled.
+Like all good disintegration weapons it is capable of making a target disappear.
+The cascade of disintegration only begins if a hit is scored on a target.
+A miss will not result in a disintegration cascade.
+Every target hit will take the assigned 8-64 (8d8) hit points in damage.
+If the disintegration cascade starts much more damage follows.
+
+.*Disintegration Cascade*
+Each attack has a chance of disintegrating it's target. 
+The disintegration cascade will affect 1-100 (1d100) kgs of wate.
+The amount of disintegrated matter is unique each time.
+The greater the amount of matter affected the greater the chance the cascade will fail.
+There is a 1% chance per kg of matter that the attack will fail.
+
+So an attack that is affecting 42 kgs of a target has a 42 percent chance of failing.
+Basically the player immediately rolls the 1d100 again. 
+If the second roll is greater than the amount of wate things disintegrate.
+Using the above example of a 42 kg cascade the player immediately rolls again.
+If the roll is 42 or higher the cascade is successful and 42 kgs disappears.
+If the roll is 41 or lower the cascade fails and the weapon inflicts 8-64 hit points.
+
+.*Disintegration Damage*
+If the target has a wate less than the amount of matter disintegrated it disappears.
+If it is a persona she is irrevocably destroyed and suffers classic disintegration.
+Partial disintegration inflicts 1-20 (1d20) hit points in damage per kg destroyed.
+For example, a 100 kg target that has 21 kg disintegrated will take 8-64 plus 20-400.
+Very few personas survive a disintegration event. 
+
+//+++<figure id="attachment_9853" aria-describedby="caption-attachment-9853" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2018/06/pyrotomic_disintegrator_pistol-300x165.png?resize=300%2C165[Patent 168972 G.C.Schaible 1953 (artist unknown),300]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/pyrotomic_disintegrator_pistol.png)+++<figcaption id="caption-attachment-9853" class="wp-caption-text">+++Actual Pyrotomic Disintegrator from 1953 patent for same. Pistol version.+++</figcaption>++++++</figure>+++
+
+.*Other Stuff*
+The disintegrated matter must be semi-contiguous.
+For example, a hit on the backpack, would annihilate the backpack, and send its contents clattering to the floor.
+If hit location is important jump to xref:i-roll_playing_rules:CH36_Hit_Locations.adoc[Hit Location].
+If there is trouble deciding if matter is contiguous or not jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice]
+
+WARNING: Nomenclature overlap could lead to different methods of disintegration. User must be remain wary.
+
+A weapon malfunction indicates an internal disintegration event.
+This will most likely destroy the weapon.
+This gun is also known as a vaporizer, a duster and a dismodulator.
+
+//+++<figure id="attachment_10164" aria-describedby="caption-attachment-10164" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/tom_corbett_pistol-300x197.png?resize=300%2C197[patent 169440 M.Hirsch 1953,300]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/tom_corbett_pistol.png)+++<figcaption id="caption-attachment-10164" class="wp-caption-text">+++Space Cadet's holster weapon.+++</figcaption>++++++</figure>+++
+
+=== Electron Pistol 
+
+[horizontal]
+Weapon Type:: C
+Range:: 100h (-60)
+Accuracy:: 0
+Damage:: 2-24, 2-20, *3-18*, 2-16, 1-15
+Magazine:: 10 per Battery
+Wate:: 1.3 kg, *1.0kg*, 0.8 kg + Battery
+EXPS:: 500
+Value:: 5000 + Battery
+
+The electron pistol releases a beam of electron tearing molecules.
+This pistol's electron beam is unaffected by force fields.
+An electron pistol's beam is not absorbed by the force field and damages the target.
+The damage is subtracted from the  force field as well as the target.
+The medium powered electron pistol damage is 3-30 and its wate is 1 kg.
+
+A malfunction results in a fully drained battery.
+
+//+++<figure id="attachment_10165" aria-describedby="caption-attachment-10165" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/tom_corbett_rifle-300x88.png?resize=300%2C88[Patent 169315 M.Hirsch 1953,300]](https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/tom_corbett_rifle.png)+++<figcaption id="caption-attachment-10165" class="wp-caption-text">+++The space cadet's shoulder weapon.+++</figcaption>++++++</figure>+++
+
+=== Electron Rifle 
+
+[horizontal]
+Weapon Type:: D
+Range:: 170h (-60)
+Accuracy:: +50
+Damage:: 5-50, 4-48, *4-40*, 4-32, 3-30
+Magazine:: 15 per Battery
+Wate:: 4.2 kg, 4.0 kg, 3.8 kg (+ Battery)
+EXPS:: 750
+Value:: 20000 + Battery
+
+A minute organized beam of electrons massacre the target's molecules.
+The beam has the ability to punch holes in force fields.
+If a hit is made the attack damages both the target and the force field.
+The medium powered electron rifle damage is 4-40 and its wate is 4.0kg.
+
+A malfunction results in a fully drained battery.
+
+=== Fission Pistol 
+
+[horizontal]
+Weapon Type:: D
+Range:: 90h (-60)
+Accuracy:: 0
+Damage:: 5-50 (5d10)
+Magazine:: 10 per Battery
+Wate:: 1.5kg + Battery
+EXPS:: 500
+Value:: 8000 + Battery
+
+The fission pistol creates an energy wave that superheats hydrogen molecules.
+Obviously this weapon can only be used in hydrogen laden atmospheres (air and water are good examples).
+Charges are still drained if the weapon is fired in the absence of hydrogen.
+This device is thoroughly waterproofed.
+Some cynics call this weapon a kettle-gun.
+
+A malfunctions will indicate a backflash, resulting in damage to the firer.
+
+=== Fission Rifle 
+
+[horizontal]
+Weapon Type:: E
+Range:: 110h (-70)
+Accuracy:: +50
+Damage:: 6-72 (6d12)
+Magazine:: 15 per Battery
+Wate:: 4.25 + Battery
+EXPS:: 950
+Value:: 32000 + Battery
+
+The fission rifle creates an energy wave that superheats hydrogen molecules.
+Obviously this weapon can only be used in hydrogen laden atmospheres (air and water are good examples).
+Charges are still drained if the weapon is fired in the absence of hydrogen.
+This device is thoroughly waterproofed.
+Some cynics call this weapon a kettle-gun.
+
+A malfunctions will indicate a backflash, resulting in damage to the firer.
+
+=== Full Auto Lazer Pistol 
+
+[horizontal]
+Weapon Type:: C, E, F
+Range:: 80h (-60)
+Accuracy:: +30
+Damage:: 4-40, 3-30, *2-20*, 2-16, 1-10
+Magazine:: 30 per Battery
+Wate:: 	2.3 kg, *2.15 kg*, 2.0 kg + Battery
+EXPS:: 700
+Value:: 8000 + Battery
+
+The full automatic lazer pistol is a hand held lazer weapon with a rapid fire option.
+The F weapon type releases 15 charges in one unit.
+When flotto is employed the player makes 5 to hit rolls in one unit.
+Each successful to hit roll scores 0-3 (d4-1) lazer bolts of damage.
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+
+The medium powered full auto lazer pistol damage is 2-20 and its wate is 1.8kg.
+This weapon can also be dubbed as a flap gun or flotto lazer pistol.
+
+A malfunction of this weapon indicates overheating and shuts down for a few minutes.
+
+
+//+++<figure id="attachment_9808" aria-describedby="caption-attachment-9808" style="width: 300px" class="wp-caption aligncenter">+++[.wp-image-9808.size-medium] image::https://i2.wp.com/expgame.com/wp-content/uploads/2018/06/Copy-of-octo_cannon-300x228.png?resize=300%2C228[,300]+++<figcaption id="caption-attachment-9808" class="wp-caption-text">+++Flying octo-merc suggests you stand still.+++</figcaption>++++++</figure>+++
+
+=== Full Auto Lazer Rifle 
+
+[horizontal]
+Weapon Type:: C, E, F
+Range:: 120h (-60)
+Accuracy:: +70
+Damage:: 5-50, 4-40, *3-30*, 2-20, 2-16
+Magazine:: 45 per Battery
+Wate:: 4.1 kg, *4.0 kg*, 3.9 kg + Battery
+EXPS:: 700
+Value:: 12000 + Battery
+
+The full automatic lazer rifle is a two handed weapon with a rapid fire option.
+The F weapon type releases 15 charges in one unit.
+When flotto is employed the player makes 5 to hit rolls in one unit.
+Each successful to hit roll scores 0-3 (d4-1) lazer bolts of damage.
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+
+The medium powered full auto lazer rifle damage is 3-30 and its wate is 4.0kg
+This weapon is also known as a lazer Gatling, a fair ("faller") gun, or a flotto lazer rifle.
+
+A malfunction of this weapon results in the loss of a charge.
+So 1 charge for weapon type C attack or 15 charges for weapon type F. 
+
+=== Full Auto Pistol 
+
+[horizontal]
+Weapon Type:: C, D, F
+Range:: 60 (-70)
+Accuracy:: 0
+Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
+Magazine:: 15
+Wate:: 	2.0 kg, *1.5 kg*, 1.0 kg (1.5%)
+EXPS:: 350
+Value:: 1000 (1)
+
+A full automatic pistol fires bullets, and tosses out spent shell casings.
+The F weapon type releases 15 rounds in one unit.
+When flotto is employed the player makes 5 to hit rolls in one unit.
+Each successful to hit roll scores 0-3 (d4-1) rounds of damage.
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+The rate of fire is determined by trigger squeeze.
+
+The medium powered full auto pistol damage is 2-16 and its wate is 1.5kg
+This weapon is alternately called a machine pistol, or flotto pistol.
+
+Malfunction with this weapon indicates a mechanism jam.
+
+=== Full Auto Rifle 
+
+[horizontal]
+Weapon Type:: C, D, E, F
+Range:: 90h (-44)
+Accuracy:: +50
+Damage:: 4-48, 4-32, *3-30*, 3-24, 2-20
+Magazine:: 45
+Wate:: 	3.9 kg, *3.6 kg*, 3.3 kg (1.5%)
+EXPS:: 700
+Value:: 4000 (1)
+
+The full auto rifle is the standard weapon of military service.
+The F weapon type releases 15 rounds in one unit.
+When flotto is employed the player makes 5 to hit rolls in one unit.
+Each successful to hit roll scores 0-3 (d4-1) rounds of damage.
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+The rate of fire is determined by trigger squeeze.
+
+The medium powered full auto rifle damage is 3-30 and its wate is 3.6kg.
+This weapon is also known as a smig, F.A.R., sub machine gun, Ripley etc.
+
+A malfunction with this weapon indicates a mechanism jam.
+
+=== Fusion Pistol 
+
+[horizontal]
+Weapon Type:: C
+Range:: 60h (-85)
+Accuracy:: -40
+Damage:: Special
+Magazine:: 5 or 3 per Battery
+Wate:: 2.3kg + fuel + Battery
+EXPS:: 550
+Value:: 200000 (2000) + Battery
+
+The fusion pistol is a vicious weapon.
+When fired, it launches a miniscule blob of fusion material.
+The first persona damaged by the fusion pistol is the firer.
+The heat blast is so intense that the firer takes 3-30 (3d10) hit points of damage.
+Firing damage is inflicted every time the weapon is fired.
+Self damage can be avoided by turning on fusion pistol shielding.
+When the ammo is loaded shielding can be activated decreasing output to 3 rounds.
+A fusion pistol installed in powered armour does not damage the firer.
+
+If firing the fusion pistol seems dangerous being the target is much worse.
+The fusion pistol has both direct hit damage and area of effect damage.
+A target hit by a fusion pistol has a good chance of simply exploding. 
+The exploding target turns into molten fleshy shrapnel.
+
+include::ROOT:partial$CH46_Table_Fusion_Pistol_Damage.adoc[]
+
+Target Size::
+This weapon is the bane of small or tiny personas.
+They are killed instantly if a hit is scored on them.
+Tiny and Small targets explode and turn into collateral damage.
+Medium, Large and Gigantic targets do not explode when hit. 
+However they do both take Swath and Hit damage when hit. 
+
+Swath Damage::
+Swath damage is inescapable area of effect damage along the route of the fusion blob.
+Any target within 1 hex of the straight line trajectory takes swath damage.
+The heat blast delivers 6 to 60 (6d10) hit points in damage.
+Medium, Large and Gigantic sized personas take swath damage as well as hit damage.
+The swath damage is delivered first (6-60) and the hit damage (8-80) is added on.
+A medium sized target would take 14 to 140 (14d10) hit points of damage.
+
+Hit Damage::
+A successful to hit roll indicates a direct hit with the fusion pistol.
+A target hit by a fusion pistol takes swath damage as well as hit damage.
+Tiny and Small targets explode and become collateral damage.
+The swath damage is delivered first (6-60) and the hit damage (8-80) is added on.
+A medium sized target would take 14 to 140 (14d10) hit points of damage.
+
+Collateral Damage::
+If a target is exploded by a fusion pistol hit their body parts are weaponized.
+The boiling flesh and bits of bone hurtle outward from hex of the exploded.
+This steaming goo of collateral colleague has a 1 hex radius. 
+A Tiny exploding person inflicts 3-30 (3d10) hit points in a 1 hex radius. 
+
+NOTE: *Close only counts in horseshoes and fusion weapons.*
+
+The fuel for a fusion pistol has negligible wate. 
+This weapon has not been designed for close quarters combat.
+This weapon has been nicknamed GVMB, expedition exterminator, or the BFG.
+
+A malfunction of this weapon indicates a dangerous explosion.
+An exploding malfunction delivers 6-60 (6d10) hit point to all within 3 hexes.
+
+=== Fusion Rifle 
+
+[horizontal]
+Weapon Type:: C
+Range:: 90h (-60)
+Accuracy:: -25
+Damage:: Special
+Magazine:: 5 or 3 per Battery
+Wate:: 8kg + fuel + Battery
+EXPS:: 900
+Value:: 800000 (2000) + Battery
+
+The fusion rifle is a vicious weapon.
+When fired, it launches a miniscule blob of fusion material.
+The first persona damaged by the fusion rifle is the firer.
+The heat blast is so intense that the firer takes 6-60 (6d10) hit points of damage.
+The next personas damage are the ones standing within 1 hex of the firer.
+The head backlash is an area of effect weapon on firing.
+
+Firing damage is inflicted every time the weapon is fired.
+Self damage can be avoided by turning on fusion rifle shielding.
+When the ammo is loaded shielding can be activated decreasing output to 3 rounds.
+A fusion rifle installed in powered armour does not damage the firer.
+
+If firing the fusion rifle seems dangerous being the target is much worse.
+The fusion rifle has both direct hit damage and area of effect damage.
+A target hit by a fusion rifle has a good chance of simply exploding. 
+The exploding target turns into molten fleshy shrapnel.
+
+include::ROOT:partial$CH46_Table_Fusion_Rifle_Damage.adoc[]
+
+Target Size::
+This weapon annihilates any persona medium sized or smaller.
+Medium and smaller personas are killed instantly if a hit is scored on them.
+All anthros are Medium sized. 
+Tiny, Small, and Medium targets explode and turn into collateral damage.
+Large and Gigantic targets do not explode when hit. 
+However they do both take Swath and Hit damage when hit. 
+
+Swath Damage::
+Swath damage is inescapable area of effect damage along the route of the fusion blob.
+Any target within 2 hexes of the straight line trajectory takes swath damage.
+The heat blast delivers 8 to 80 (8d10) hit points in damage.
+Large and Gigantic sized personas take swath damage as well as hit damage.
+The swath damage is delivered first (8-80) and the hit damage (10-180) is added on.
+A Large sized target would take 18 to 180 (18d10) hit points of damage.
+
+Hit Damage::
+A successful to hit roll indicates a direct hit with the fusion rifle.
+A target hit by a fusion rifle takes swath damage as well as hit damage.
+Tiny, Small and Medium targets explode and become collateral damage.
+The swath damage is delivered first (8-80) and the hit damage (10-180) is added on.
+A Large sized target would take 18 to 180 (18d10) hit points of damage.
+
+Collateral Damage::
+If a target is exploded by a fusion rifle hit their body parts are weaponized.
+The boiling flesh and bits of bone hurtle outward from hex of the exploded.
+This steaming goo of collateral colleague has a 3 hex radius. 
+A Medium exploding persona inflicts 7-70 (7d10) hit points in a 3 hex radius. 
+
+NOTE: *Close only counts in horseshoes and fusion weapons.*
+
+The fuel for a fusion rifle has negligible wate. 
+This weapon has not been designed for close quarters combat.
+This weapon has been nicknamed GVMB, expedition exterminator, or the BFG.
+
+A malfunction of this weapon indicates a dangerous explosion.
+An exploding malfunction delivers 8-80 (8d10) hit point to all within 5 hexes.
+
+=== Gauss Pistol 
+
+[horizontal]
+Weapon Type:: D
+Range:: 100h (-55)
+Accuracy:: +100
+Damage:: 5-50, 4-40, *3-30*, 2-24, 2-16
+Magazine:: 10 
+Wate:: 1.8 kg, *1.5 kg*, 1.0 kg (1.8%)
+EXPS:: 500
+Value:: 3000 (3)
+
+The gauss pistol magnetically hurls specialized ammunition.
+Each round is a combination of battery and projectile.
+The battery expends it's energy to propel itself at lethal velocity.
+There are no casings ejected.
+A gauss pistol has no measurable kickback.
+Low kickback helps with the pistol's accuracy and utility in zero gravity.
+The weapon is quiet but not entirely silent.
+
+The medium powered gauss pistol damage is 3-30 (3d10) and its wate is 1.5kg.
+
+A malfunction indicates an ammo defect and must be manually removed.
+
+=== Gauss Rifle 
+
+[horizontal]
+Weapon Type:: E
+Range:: 190h (-40)
+Accuracy:: +170
+Damage:: 5-60, 5-50, *4-48*, 3-30, 2-20
+Magazine:: 30
+Wate:: 3.75 kg, *3.5 kg*, 3.25 kg (1.8%)
+EXPS:: 754
+Value:: 12000 (5)
+
+The gauss rifle magnetically hurls specialized ammunition.
+Each round is a combination of battery and projectile.
+The battery expends it's energy to propel itself at lethal velocity.
+There are no casings ejected.
+A gauss rifle has no measurable kickback.
+Low kickback helps with the rifle's accuracy and utility in zero gravity.
+The weapon is quiet but not entirely silent.
+
+The medium powered gauss rifle damage is 4-48 (4d12) and its wate is 3.5kg.
+
+A malfunction indicates an ammo defect and must be manually removed.
+
+=== Glass Gun 
+
+[horizontal]
+Weapon Type:: D
+Range:: 100h (-99)
+Accuracy:: Special
+Damage:: 4-48 (4d12)
+Magazine:: 10
+Wate:: 3.75kg (200gm)
+EXPS:: 300
+Value:: 5000 (75)
+
+The glass gun ejects clouds of penetrating ceramic shards.
+The attack is designed to penetrate fur, hide and low tech armour.
+This weapon enjoys a +200 accuracy bonus on to hit rolls against multi-pieced armour.
+Some examples of multi-pieced armour are furs, leather, padded, studded, ring, scale and chain.
+The bonus to hit does not apply for skins like: robots, powered armour, full plate armour, and vac suits.
+Each magazine is a solid chunk of crystalline material that acts as both battery and projectile.
+
+A malfunction of this weapon indicates a magazine malfunction and all remaining rounds are lost.
+
+=== Grapple Gun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 15h (-1000)
+Accuracy:: -100
+Damage:: Special
+Magazine:: 1
+Wate:: 3kg
+EXPS:: 330
+Value:: 1006
+
+The grapple gun fires a sticking device attached to a strong cord.
+The grapple is the mainstay of most every action movie in existence. 
+This weapon offers great opportunities for story progression.
+
+There are two type of grapple guns. 
+Destructive and non-destructive.
+The player can pick either. 
+Otherwise there is a 42% chance the grappled will be destructive.
+
+Both grapples are mechanized and can lift 130kg straight up at 3 h/u.
+An unattached grapple can be power rewound in 1 unit of combat time.
+An attached grapple can only be removed if there is *no* cord tension.
+
+Grapple guns have a off label use of being used to hit and pull in unwilling targets.
+There is no rule set for land fishing.
+A recommended approach would be to first compare wates.
+If wates are comparable (medium sized vs medium sized) then move to physical strength challenges. 
+To compare personas competing by attribute jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Attributes.adoc#_attribute_competition[Attribute Competition].
+
+A malfunction with this weapon indicates a mechanism jam.
+
+.*Destructive Grapple*
+This is the classic metal barbed grapple. 
+The business end appears like a bouquet of alloy barbs.
+The destructive grapple must score a hit.
+When it smashes into the target 4-24 (4d6) hit points of damage is inflicted.
+This could harm a targeted persona or damage a rooftop. 
+There is a 5% chance of adherence per point of damage inflicted.
+Forcefully removing this grapple will inflict a 1-4  (1d4) hit points of damage.
+
+.*Non-destructive Grapple*
+This is the non-destructive sticky grapple.
+The business end appears like a cluster of synthetic grapes.
+The sticky end does no damage, but it will attach to anything that it hits.
+The sticky grapple can only be removed by pushing a button on the gun.
+
+
+=== Gravruptor Gun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 30h (-80)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 10 per Battery
+Wate:: 4.25kg + Battery
+EXPS:: 1000
+Value:: 10000 + Battery
+
+The gravruptor gun inflicts gravitational anomalies to disrupt and damage.
+A hit by the gravruptor subjects the target to a blast of random gravity.
+A miss has no effect on the target or surrounding objects.
+The gravruptor is ineffective against target's with a wate greater than 500kg.
+
+Most often the gravruptor gun will add 1-4 (1d4) gravities to the local terrain.
+The target may crash to the ground, and weapons are torn from grasps.
+This pressing problem will also inflict damage to all targets in the area of effect.
+This damage is 1 to 12 (1d12) hit points in damage per extra gravity.
+E.g., 3 gravities would smash targets into the ground for 3-36 hit points of damage.
+
+Being crushed into the ground, flung into a ceiling or wall, or shot into space the damage is the same.
+It is possible that further damage may follow if the persona flies off a cliff, or lands in a toxic waste pit.
+
+include::ROOT:partial$CH46_Table_Gravruptor_Effects.adoc[]
+
+All of the above effects are described for a normal gravity world.
+What effects this gun has on high gravity and low gravity planets depends entirely on the ref.
+
+The gravruptor gun is designed for zero gravity combat.
+It has no recoil to cause the firer any spin problems, and sends those targets that it hits flying off into space.
+A successful to hit roll will still inflict damage for accelerating the target, and the target will then fly away at 1 h/u per 2 hit points of damage.
+Thus a hit that inflicts 20 hit points of damage would send the target racing off into space at an uncontrolled movement rate of 10 h/u.
+
+The gravruptor gun is also known as an accelerator rifle, or a gravgun.
+
+A malfunction with this weapon will result in a gravitational anomaly attacking the weapon and weapon holder.
+
+=== Job Pistol 
+
+[horizontal]
+Weapon Type:: C
+Range:: 25h (-100)
+Accuracy:: -30
+Damage:: 1-20 (1d20)
+Magazine:: 10 per Battery
+Wate:: 1kg + Battery
+EXPS:: 400
+Value:: 4500 + Battery
+
+The job pistol employs a combination gauss, spring and vacuum chamber mechanism.
+This allows the pistol to turn any solid material into a lethal projectile.
+JOB is an acronym for Jack Of all Bullets.
+To load the weapon dump about 1 kg of loose of material into the chamber.
+Sand, rocks, plastic, batteries, or bullets will hurtle out with lethal velocity.
+Each kilogram of junk is good for 5 shots.
+
+This weapon is not a grenade launcher.
+Most grenades are too heavy to fit in the pistol's junk chamber.
+Grenade launchers arm and fire a grenade.
+Pre-arming and firing a grenade from a job pistol can result in accidental detonation.
+
+A job pistol has no specific ammunition. 
+This weapon is also called a junk gun or garbage pistol.
+
+A malfunction with this weapon indicates a weapon jam. 
+
+=== Job Rifle 
+
+[horizontal]
+Weapon Type:: C
+Range:: 100h (-75)
+Accuracy:: +25
+Damage:: 3-30 (3d10)
+Magazine:: 15 per Battery
+Wate:: 4kg + Battery
+EXPS:: 500
+Value:: 17500 + Battery
+
+The job rifle employs a combination gauss, spring and vacuum chamber mechanism.
+This allows the rifle to turn any solid material into a lethal projectile.
+JOB is an acronym for Jack Of all Bullets.
+To load the weapon dump about at least 2kg of loose of material into the chamber.
+Sand, rocks, plastic, batteries, or bullets will hurtle out with lethal velocity.
+Each 2 kilogram load of detritus is good for 5 shots.
+
+This weapon is not a grenade launcher.
+Most grenades are too heavy to fit in the rifle's junk chamber.
+Grenade launchers arm and fire a grenade.
+Pre-arming and firing a grenade from a job rifle can result in accidental detonation.
+
+A job rifle has no specific ammunition. 
+This weapon is also called a junk gun or garbage rifle.
+
+A malfunction with this weapon indicates a weapon jam. 
+
+//+++<figure id="attachment_9843" aria-describedby="caption-attachment-9843" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2018/06/lazer_pistol-300x178.png?resize=300%2C178[public domain image.illustrator not found.,300]](https://i2.wp.com/expgame.com/wp-content/uploads/2018/06/lazer_pistol.png)+++<figcaption id="caption-attachment-9843" class="wp-caption-text">+++Pew pew pew.+++</figcaption>++++++</figure>+++
+
+=== Lazer Pistol 
+
+[horizontal]
+Weapon Type:: C
+Range:: 80h (-50)
+Accuracy:: +60
+Damage:: 4-40, 3-30, *2-20*, 2-16, 1-10
+Magazine:: 15 per Battery
+Wate:: 1.3 kg, *1.15 kg*, 1.0 kg + Battery
+EXPS:: 400
+Value:: 1500 + Battery
+
+This is your everyday, run of the mill, coherent light energy weapon.
+The lazer pistol is the staple of sciency fiction everywhere.
+The gun makes the classic pinging, zapping or crackling noise.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+The medium powered lazer pistol damage is 2-20 (2d10) and its wate is 1.15kg.
+The lazer pistol is also called a phaser or blaster.
+
+A malfunction indicates the loss of a charge.
+
+=== Lazer Rifle 
+
+[horizontal]
+Weapon Type:: C
+Range:: 150h (-40)
+Accuracy:: +100
+Damage:: 5-50, 4-40, *3-30*, 2-20, 2-16
+Magazine:: 45 per Battery
+Wate:: 	3.7 kg, *3.6 kg*, 3.5 kg + Battery 
+EXPS:: 500
+Value:: 6000 + Battery
+
+This is your everyday, run of the mill, coherent light energy weapon.
+The lazer rifle is the staple of sciency fiction everywhere.
+The gun makes the classic pinging, zapping or crackling noise.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+
+The medium powered lazer rifle damage is 3-30 (3d10) and its wate is 3.6kg.
+The lazer rifle is also called a phaser or blaster.
+
+A malfunction indicates the loss of a charge.
+
+=== Napalm Gun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 15h (-250)
+Accuracy:: -100
+Damage:: 10-100 (10d10)
+Magazine:: 5 
+Wate:: 4.5kg (300gm)
+EXPS:: 900
+Value:: 12000
+
+The napalm gun sprays a jet of flaming adhesive death.
+The jet from the gun is covers a 19 by 1 hex swath area of effect.
+The area of effect is a straight line, and cannot be swept over an arc.
+Everything caught inside the one hex wide path will take 10-100 HPS of damage.
+
+All objects capable of burning have a chance of bursting into flames.
+The percentage chance of immolating is equal to the damage rolled.
+If a target were to take 64 hit points in damage, it would have a 64% chance of bursting into flames.
+Targets that are set alight will burn for 1 to 10 units.
+Each unit of burning will inflict an additional 2 to 20 (2d10) hit points of damage.
+
+This weapon is also labelled the torch, Bick, flame thrower, or a cig weaver.
+
+Usually, a malfunction indicates a mechanism jam, but occasionally it may cause the flame thrower to explode.
+
+=== Needler 
+
+[horizontal]
+Weapon Type:: E
+Range:: 30h (-85)
+Accuracy:: -25
+Damage:: 1-6 (1d6)
+Magazine:: 12
+Wate:: 0.7kg (100gm)
+EXPS:: 300
+Value:: 300 (1000)
+
+A needler is a silent pistol that launches bunches of specialized needles.
+A hit inflicts 1-6 (1d6) hit points of damage. 
+The needles can be coated  in a variety of quick release poisons.
+The poisons will only have an effect on organic targets.
+The player must make a roll versus poison or be incapacitated.
+Regardless of the poison type the target will be incapacitated.
+The intensity of the poison attack is 12 plus 2 per point of damage.
+So a hit for 5 hit points of damage would have a poison intensity of 22.
+
+All of the poison types, except pharma, disable the target completely.
+Nausea is incapacitating and amnesia is total.
+
+include::ROOT:partial$CH46_Table_Needler_Effect.adoc[]
+
+.*Pharma*
+Pharma is a special ammo type that injects a pharmaceutical into the target. 
+In this case the needler is a long range hypodermic needle.
+To determine the med injected jump to xref:iii-hardware:CH50_Pharmaceuticals.adoc#_pharmaceutical_type[Pharmaceuticals].
+If the pharma is beneficial to the persona they can choose to fail their saving roll.
+This way long range healing pharma can still help the persona. 
+The value of the pharmaceutical is multiplied ten fold in this format.
+Powerful pharmaceuticals are limited to one dose only.
+Note that a miss with this weapon has no effect and wastes the pharmaceutical.
+
+Each cartridge is a self-contained unit, containing the needles, toxin and power.
+A malfunction results in a mechanism jam wasting all remaining rounds.
+
+=== Plasma Pistol 
+
+[horizontal]
+Weapon Type:: D
+Range:: 100h (-25)
+Accuracy:: +50
+Damage:: 4-32 (4d8)
+Magazine:: 12 per Battery
+Wate:: 1.6 + Battery
+EXPS:: 500
+Value:: 9000 + Battery
+
+The plasma pistol deploys an organized plasma bolt to inflict damage.
+The damage is inflicted by heat and shock wave. 
+The bolt is discrete in nature and not a beam of energy.
+Each plasma pistol may have an unique bolt colour. 
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour].
+
+A malfunction indicates a misfire and this weapon does not jam.
+
+=== Plasma Rifle 
+
+[horizontal]
+Weapon Type:: E
+Range:: 160h (-50)
+Accuracy:: 0
+Damage:: 4-48 (4d12)
+Magazine:: 30 per Battery
+Wate:: 4kg + Battery
+EXPS:: 700
+Value:: 36000 + Battery
+
+The plasma rifle deploys an organized plasma bolt to inflict damage.
+The damage is inflicted by heat and shock wave. 
+The bolt is discrete in nature and not a beam of energy.
+Each plasma rifle may have an unique bolt colour. 
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour].
+
+A malfunction indicates a misfire and this weapon does not jam.
+
+=== Plastix Pistol 
+
+[horizontal]
+Weapon Type:: D
+Range:: 35h (-85)
+Accuracy:: 0
+Damage:: 4-40, 4-30, *3-30*, 3-24, 2-20
+Magazine:: 15
+Wate:: 1.2 kg, *1.1kg*, 0.9 kg (10% Cylinder)
+EXPS:: 500
+Value:: 2000 (75)
+
+A plastix pistol spits globs of molten plastix.
+This weapon was specifically designed for penetrating plastix armour.
+When attacking a target that is wearing plastix armour the opponent is considered unarmoured (AR 500).
+The ammunition for this weapon is a solid cylindrical cartridge that contains both the plastix compound, and the energy to charge the gun.
+
+The medium powered plastix pistol damage is 3-30 (3d10) and its wate is 1.1kg.
+
+A malfunction with a plastix pistol indicates a mechanism jam from molten plastic.
+
+=== Plastix Rifle 
+
+[horizontal]
+Weapon Type:: E
+Range:: 120h (-50)
+Accuracy:: +60
+Damage:: 6-60, 6-40, *4-32*, 3-30, 2-24
+Magazine:: 30
+Wate:: 	4.2 kg, *4.0 kg*, 3.8 kg (10% Cylinder)
+EXPS:: 600
+Value:: 8500 (100)
+
+A plastix rifle spits globs of molten plastix.
+This weapon was specifically designed for penetrating plastix armour.
+When attacking a target that is wearing plastix armour the opponent is considered unarmoured (AR 400).
+The ammunition for this weapon is a solid cylindrical cartridge that contains both the plastix compound, and the energy to charge the gun.
+
+The medium powered plastix rifle damage is 4-32 (4d8) and its wate is 4kg.
+
+A malfunction with a plastix rifle indicates a mechanism jam from molten plastic.
+
+=== Protein Disrupter 
+
+[horizontal]
+Weapon Type:: C
+Range:: 125h (-60)
+Accuracy:: +150
+Damage:: 5-60, 5-50, *4-40*, 3-30, 3-24
+Magazine:: 9 per Battery
+Wate:: 4.3 kg, *4.2 kg*, 4.1 kg + Battery
+EXPS:: 700
+Value:: 11000 + Battery
+
+The protein disrupter tears apart essential protein structures in organic tissue.
+The beam from the gun unravels collagen, melts bone, and liquifies flesh.
+This weapon is designed to be an anti-organic weapon.
+Inorganic personas are unaffected as the disrupting ray passes through them unimpeded.
+The beam harmlessly passes through robots, walls, Argillan rock women, and armour.
+Machines and personas with organic components can be affected by this attack.
+Target's bearing inorganic armour are considered unarmoured (AR 500) to this beam.
+A to hit roll is still required to damage a target. 
+
+Wounds from this weapon are a gory mush.
+Typical veterinarian quick fixes are ineffective.
+A vet must have access to veterinarian equipment to repair these wounds. 
+
+The medium powered protein disrupter damage is 4-40 (4d10) and its wate is 4.2kg.
+
+A malfunction of this weapon attacks the weapon bearer.
+Typically injury will be the firer's hands. 
+
+
+=== Radiation Gun 
+
+[horizontal]
+Weapon Type:: D
+Range:: 150h (-70)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 12 per Battery
+Wate:: 3.76kg + Battery
+EXPS:: 900
+Value:: 8500 + Battery
+
+This gun fires beams of lethal radiation.
+The intensity of the radiation is 3 to 24 (3d8).
+The intensity of the radiation is random and is determined each attack.
+Radiation damage is 1-4 (1d4) hit points of damage per intensity of radiation.
+An intensity 12 radiation attack would inflict 12-48 (12d4) hit points of damage.
+The radiation beam affects inorganic and organic personas equally.
+For more info about radiation attacks jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Saves.adoc#_radiation_attacks[Radiation Attacks].
+
+This is also known as an x-ray gun, or a rad rifle.
+A malfunction with this gun will bathe a 3 hex radius with intensity 3 to 24 radiation for one to six units.
+
+=== Revolver 
+
+[horizontal]
+Weapon Type:: C
+Range:: 80h (-66)
+Accuracy:: 0
+Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
+Magazine:: 5
+Wate:: 1.25 kg, *1.1kg*, 0.75 kg (1.5%)
+EXPS:: 250
+Value:: 200 (1)
+
+A revolver launches a projectile powered by a controlled explosion within the ammo.
+The trigger mechanism rotates a barrel loaded with ammunition. 
+Hence the title revolver.
+
+The medium powered revolver damage is 2-16 (2d8) and its wate is 1.1kg.
+
+A malfunction of this weapon is a misfire, but does not jam the weapon.
+
+=== Semi Auto Lazer Pistol 
+
+[horizontal]
+Weapon Type:: C, D
+Range:: 70h (-60)
+Accuracy:: +50
+Damage:: 4-40, 3-30, *2-20*, 2-16, 1-10
+Magazine:: 15 per Battery
+Wate:: 1.8 kg, *1.6 kg*, 1.4 kg + Battery
+EXPS:: 500
+Value:: 2000 + Battery
+
+This is your everyday, run of the mill, coherent light energy weapon.
+The semi auto lazer pistol allows for 2 attacks per unit.
+The lazer pistol is the staple of sciency fiction everywhere.
+The gun makes the classic pinging, zapping or crackling noise.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+The medium powered semi auto lazer pistol damage is 2-20 (2d10) and its wate is 1.6kg.
+This weapon is also called a phaser, blaster or sotto lazer pistol.
+
+A malfunction indicates the loss of a charge.
+
+=== Semi Auto Lazer Rifle 
+
+[horizontal]
+Weapon Type:: C, D, E
+Range:: 125h (-50)
+Accuracy:: +90
+Damage:: 5-50, 4-40, *3-30*, 2-20, 2-16
+Magazine:: 24 per Battery
+Wate:: 3.9 kg, *3.8 kg*, 3.7 kg + Battery
+EXPS:: 600
+Value:: 80000 + Battery
+
+This is your everyday, run of the mill, coherent light energy weapon.
+The semi auto lazer rifle allows for 3 attacks per unit.
+The lazer rifle is the staple of sciency fiction everywhere.
+The gun makes the classic pinging, zapping or crackling noise.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+The medium powered semi auto lazer rifle damage is 3-30 (3d10) and its wate is 3.8kg.
+This weapon is also called a phaser, blaster or sotto lazer rifle.
+
+A malfunction indicates the loss of a charge.
+
+=== Semi Auto Pistol 
+
+[horizontal]
+Weapon Type:: C, D
+Range:: 70h (-60)
+Accuracy:: +40
+Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
+Magazine:: 10
+Wate:: 1.5 kg, *1.25 kg*, 1.4 kg (1.5%)
+EXPS:: 300
+Value:: 750 (1)
+
+This pistol launches a projectile powered by a controlled explosion within the ammo.
+The next round may be chambered by the explosive force or a spring mechanism.
+A semi auto pistol can attack twice each unit.
+
+This weapon is also called a sotto pistol.
+The medium powered semi auto pistol damage is 2-16 (2d8) and its wate is 1.25kg.
+
+When a sotto pistol malfunctions, it has a mechanism jam.
+
+=== Semi Auto Rifle 
+
+[horizontal]
+Weapon Type:: C, D, E
+Range:: 110h (-44)
+Accuracy:: +60
+Damage:: 4-48, 3-36, *3-30*, 3-24, 2-20
+Magazine:: 45
+Wate:: 3.8 kg, *3.4 kg*, 3.0 kg (1.5%)
+EXPS:: 600
+Value:: 2800(1)
+
+This rifle launches a projectile powered by a controlled explosion within the ammo.
+The next round may be chambered by the explosive force or a spring mechanism.
+A semi auto rifle can attack twice each unit.
+
+This weapon is also called a sotto rifle.
+The medium powered semi auto rifle damage is 3-30 (3d10) and its wate is 3.4kg.
+
+When a sotto rifle malfunctions, it has a mechanism jam.
+
+=== Slug Thrower 
+
+[horizontal]
+Weapon Type:: C, D
+Range:: 40h (-50)
+Accuracy:: 0
+Damage:: 3-18 (3d6)
+Magazine:: 20
+Wate:: 250 (90gms)
+EXPS:: 300
+Value:: 250(50)
+
+The slug thrower is a quiet, but not silent, spring powered weapon.
+The magazine is a self-contained cartridge with the ammo and mechanical power. 
+Many players are disappointed to find out this weapon does not pitch living slugs.
+
+A malfunction indicates a mechanism jam.
+
+=== Sonic Pistol 
+
+[horizontal]
+Weapon Type:: C
+Range:: 40h (-211)
+Accuracy:: -50
+Damage:: Special
+Magazine:: 12 per Battery
+Wate:: 1.3kg + Battery
+EXPS:: 630
+Value:: 2000 + Battery
+
+A sonic pistol uses sound waves to damage it's target. 
+The pistol has a variable mechanism that is unnecessarily complicated.
+Some legacy rules just won't go away.
+
+There are a variety of attacks that the firer can choose from.
+The more powerful the attack the greater life drain on her batteries.
+The sonic pistol is not an area of effect weapon.
+An attack roll must be successful to damage the target.
+
+include::ROOT:partial$CH46_Table_Sonic_Pistol_Volume.adoc[]
+
+Damaging attacks vibrate the target with sound to inflict their damage.
+Damage attacks have no other effects like deafness or pain infliction.
+
+A deafening attack will disable organic and inorganic audio sensors.
+The audio sensor gets a roll versus poison of intensity 4 to 32.
+Organic sensors will recover in 1 to 10 hours.
+Inorganic sensors must must await repair.
+
+The sonic pistol is also called a screamer, whistle gun, or sonic disruptor.
+
+A malfunction will result in a low power sonic attack on the user (1d8 HPS).
+
+
+
+=== Sonic Rifle 
+
+[horizontal]
+Weapon Type:: D
+Range:: 80h (-211)
+Accuracy:: -50
+Damage:: Special
+Magazine:: 24
+Wate:: 3.8kg + Battery
+EXPS:: 675
+Value:: 8000 + Battery
+
+A sonic rifle uses sound waves to damage it's target. 
+The rifle has a variable mechanism that is unnecessarily complicated.
+Some legacy rules just won't go away.
+
+There are a variety of attacks that the firer can choose from.
+The more powerful the attack the greater life drain on her batteries.
+The sonic rifle is not an area of effect weapon.
+An attack roll must be successful to damage the target.
+
+include::ROOT:partial$CH46_Table_Sonic_Rifle_Volume.adoc[]
+
+Damaging attacks vibrate the target with sound to inflict their damage.
+Damage attacks have no other effects like deafness or pain infliction.
+
+A deafening attack will disable organic and inorganic audio sensors.
+The audio sensor gets a roll versus poison of intensity 4-40 (4d10).
+Organic sensors will recover in 1-10 (1d10) hours.
+Inorganic sensors must must await repair.
+
+The sonic rifle is also called a screamer, whistle gun, or sonic disruptor.
+
+A malfunction will result in a low power sonic attack on the user (2d10 HPS).
+
+=== Stun Pistol 
+
+[horizontal]
+Weapon Type:: D
+Range:: 80h (-80)
+Accuracy:: +80
+Damage:: Special
+Magazine:: 10
+Wate:: 1.4kg + Battery
+EXPS:: 500
+Value:: 1500 + Battery
+
+The stun pistol overloads the central nervous system of organic.
+A stunned target collapses safely to the ground in a semi-conscious state.
+The stun pistol is the weapon of choice for pacifists.
+To avoid being stunned to player must roll versus 2-16 (2d8) intensity poison.
+The target takes no damage but will remain stunned for 3-30 (3d10) units.
+ 
+Inorganic personas are not stunned, but can be damaged by this weapon.
+Robot personas take 1 hit point of damage per intensity.
+
+Other names for a stun pistol is stunner, pacifier or slumper.
+A malfunction with this weapon results in the loss of a charge.
+
+=== Stun Rifle 
+
+[horizontal]
+Weapon Type:: D
+Range:: 130h (-35)
+Accuracy:: +170
+Damage:: Special
+Magazine:: 20 per Battery
+Wate:: 3.95kg + Battery
+EXPS:: 700
+Value:: 6000 + Battery
+
+The stun pistol overloads the central nervous system of organics.
+A stunned target collapses safely to the ground in a semi-conscious state.
+The stun pistol is the weapon of choice for pacifists.
+To avoid being stunned to player must roll versus 3-24 (3d8) intensity poison.
+The target takes no damage but will remain stunned for 1-3 (1d3) minutes.
+ 
+Inorganic personas are not stunned, but can be damaged by this weapon.
+Robot personas take 1 hit point of damage per intensity.
+
+Other names for a stun pistol is stunner, pacifier or slumper.
+A malfunction with this weapon results in the loss of a charge.
+
+=== Variable Lazer Pistol 
+
+[horizontal]
+Weapon Type:: C
+Range:: 80h (-80)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 12 per Battery
+Wate:: 1.5kg + Battery
+EXPS:: 700
+Value:: 9000 + Battery
+
+This gun is a coherent light energy weapon with a damper dial.
+The firer can choose from a variety of settings.
+There are three lethal settings and three non-lethal settings.
+The persona dials in one of the six at the beginning of the combat unit.
+
+include::ROOT:partial$CH46_Table_Variable_Lazer_Pistol_Settings.adoc[]
+
+.*Damage Attacks*
+The lethal attacks make the classic pinging, zapping or crackling noises.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+.*Stun and Blind*
+Both stun and blind have to score a hit to stun or blind the target.
+Each have require a roll versus intensity 1-10 (1d10) poison.
+The duration of the either effect will be 1 unit per point of intensity.
+Blind works against any light sensor whether or organic or not.
+Stun delivers 1 hit point of damage per intensity to robots. 
+Robots cannot be stunned.
+
+.*Flashlight*
+Flashlight can light up 1 hex of area up to 50 hexes away.
+There is no beam cast by this lazer light. 
+Targets are illuminated in the dark without giving up the light source.
+
+This weapon is also called a nightstick, or VLP.
+
+A malfunction will result in complete battery drain.
+
+
+=== Variable Lazer Rifle 
+
+[horizontal]
+Weapon Type:: D
+Range:: 130h (-80)
+Accuracy:: 0
+Damage:: Special
+Magazine:: 24 per Battery
+Wate:: 4.1kg + Battery
+EXPS:: 780
+Value:: 36000 + Battery
+
+This gun is a coherent light energy weapon with a damper dial.
+The firer can choose from a variety of settings.
+There are three lethal settings and three non-lethal settings.
+The persona dials in one of the six at the beginning of the combat unit.
+
+include::ROOT:partial$CH46_Table_Variable_Lazer_Rifle_Settings.adoc[]
+
+.*Damage Attacks*
+The lethal attacks make the classic pinging, zapping or crackling noises.
+Ionized gasses ejected from the emission chamber create a mild kickback.
+The lazer beam itself is continuous and invisible. 
+Often the lazer beam is given a colour to assist in targeting.
+Jump to xref:v-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] if you want a fancy beam colour.
+
+.*Stun and Blind*
+Both stun and blind must score a hit to stun or blind the target.
+Each have require a roll versus intensity 2-20 (2d10) poison.
+The duration of the either effect will be 1 minute per point of intensity.
+Blind works against any light sensor whether or organic or not.
+Stun delivers 1 hit point of damage per intensity to robots. 
+Robots cannot be stunned.
+
+.*Flashlight*
+Flashlight lights up a 3 hex area up to 100 hexes away.
+There is no beam cast by this lazer light. 
+Targets are illuminated in the dark without giving up the light source.
+
+This weapon is also called a nightstick, perimeter light or a VLR.
+
+A malfunction will result in a complete battery drain.
+
+
+=== Water Gun 
+
+[horizontal]
+Weapon Type:: C
+Range:: 50h (-190)
+Accuracy:: 0
+Damage:: 3-18 (3d6)
+Magazine:: 30 per Battery
+Wate:: 0.75 + Battery
+EXPS:: 500
+Value:: 750 + Battery
+
+A water gun condenses and lethally propels droplets of water.
+This gun has no water storage, and draws humidity from the air.
+This weapon does not work in a vacuum, and environs where humidity is absent.
+
+This gun is totally waterproof. 
+If used underwater it's range is reduced to 25 hexes.
+This weapon is also called a squirt gun.
+
+A malfunction indicates a malformed water droplet and the loss of a charge.
+
+== Gun Attribute Explanations
+
+=== Weapon Type 
+Type refers to the weapon type that the gun falls into.
+The separation of these weapon types is detailed in http://expgame.com/?page_id=300[Chapter 28: Weapons].
+A type C weapon can make one attack per unit.
+This means one to hit roll every 2 seconds.
+The delay between attacks is due to items like weapon recharge, weapon re-stabilization, re-aiming, or recalibration.
+
+When using the combat table, as in tactical combat, all weapons in this chapter attack as weapon type C.
+This is the classification for powered weapons.
+All guns attack as weapon type C regardless of whether their type is listed as type D, type E, type F, or Flotto.
+
+==== Attack Types 
+Guns that recharge faster, are better stabilized, or are easier to aim can fire more often.
+For example, type D attacks twice per unit, type E attacks three times each unit, and type F attacks four times a unit.
+Often a gun will have several types listed like C, D, F.
+This means that the persona can set the weapon to make various numbers of attacks each unit.
+This is usually adjusted by trigger squeeze, or some switch setting on the weapon.
+Each attack requires a to hit roll.
+
+==== Flotto 
+Flotto is a full auto feature where the weapon releases at least 15 rounds in less than 2 seconds.
+This full auto burst yields 5 to hit rolls, where the persona can aim at any five contiguous targets in her forward field of vision.
+A hit will score 0 to 3 bullets on the target.
+Each bullet that hits the target will inflict the damage listed for the gun.
+If a gun that inflicts 2-12 HPS of damage, hit with a full auto burst for 2 bullets, the attacker would roll 2d6 twice for damage.
+The full auto is a very lethal attack.
+However, as the rapid fire mode continues, the gun becomes more and more difficult to control, and a cumulative to hit roll penalty of -30 is added for each successive to hit roll.
+
+The flotto attack can bog down combat for inexperienced players.
+The first thing to do if combat is getting slow is to remove the -30 per to hit roll penalty.
+If this doesn't work then replace the 5 to hit rolls with a single to hit roll on one target, that inflicts 1 to 11 bullets of damage if it hits.
+Deadly, but simple.
+
+=== Range 
+The range is the effective range of the weapon itself.
+This does not reflect the skills of the persona in anyway.
+The weapon's range is limited by wavering bullets, dissipating charges, or decaying material.
+If the range is listed as 120 hex, (-230): the gun has no to hit penalties up to 120 hexes, and then a penalty of -230 to hit per hex beyond that range.
+This gun would have -230 to hit a target 121 hexes away.
+Some weapons even have -1000 for any hexes beyond their range, this means that the attack literally stops at that distance.
+Theatrical combat has no range penalties, and any range effects are optional.
+
+=== Accuracy 
+Accuracy very simply reflects the accuracy of the gun.
+The better balanced, and better designed, the weapon, the easier it is to hit the target.
+The accuracy attribute of a gun is simply added to the to hit roll.
+
+=== Damage 
+The damage is the range of hit points that can be removed from a target when the gun scores a hit.
+The more hit points removed, the more damage the gun inflicts.
+The guns are given a range of damage that is randomly generated each time a successful hit is made.
+This randomness accounts for all the unpredictability that is involved in tissue damage and projectile physics.
+This damage range is all the damage that the gun can inflict;
+type C weapons get no damage adjustment.
+When using the combat table all powered weapons whether type C, D, E,+++<b>++++++</b>+++F, or Special attack as type C weapons
+
+*Special*: If the gun's damage is listed as "Special", then the nature of the damage is discussed in the gun description, and it is usually complex or has some special effect (vaporization, death, etc.).
+
+=== Calibre
+If there is a list of damages like 2-24, 2-20, 3-18, 2-16, and 1-15, then this gun has models with various calibres, or power levels.
+The middle damage range (in this case 3-18) is the medium calibre attack and is the standard damage of the weapon type.
+A gun with calibres will only have one damage type.
+For example, the first damage range on the list inflicts the most damage, 2-24, it is the highest calibre (power level), and is called an extra high powered weapon.
+The list goes as follows: XHP, HP, MP, LP, and XLP.
+See Table 46.1: Gun Calibre if the referee chooses to randomly determine calibre.
+
+// insert table 529
+
+=== Magazine 
+
+The magazine of a gun is the maximum ammo amount that can be found in the cartridge, or the maximum number of attacks per battery set.
+When this number of attacks is exhausted, the persona must reload.
+A gun with an ammo listing of 45 could fire 45 rounds before the persona would have to reload.
+Referees should note that artifact guns are rarely found fully loaded.
+
+=== Malfunction 
+
+The malfunction stat is the kilodie chance that the weapon has lost its attack for one reason or another.
+If the weapon has a malfunction stat of 30, any to hit roll less than 30 would indicate a weapon malfunction.
+The lost attack may be due to a dud shell, a battery mischarge, or a mechanism jam.
+Some malfunctions have lethal effects for those standing nearby the weapon.
+The malfunction is checked against the persona's unadjusted kilodie roll.
+The referee should check any unadjusted kilodie roll less than 40.
+
+=== Wate 
+
+The wate is simply the unloaded wate of the gun in kilograms.
+The wate of a gun can be reduced, or increased, depending on the tech level of the device.
+If a list of three wates is given (4.62, 2.75, 1.95), then they refer to the different wates of caliber weapons.
+XHP, and HP use the leftmost value (4.62), MP uses the middle value (2.75), and LP, and XLP use the rightmost value (1.95).
+
+The wate of ammunition is included in brackets beside the gun wate.
+If there is no value listed to the right of the gun wate, then the gun uses batteries, and the battery wate is added instead.
+A set wate, like 20 gm, gives the wate of a complete cartridge.
+A percentage value indicates that the wate of the ammo is a fraction of the wate of the entire gun.
+For example, if a 2.5 kg gun had ammo listed as 1% then one of its shells would have a wate of 25 gm.
+As a ref, I ignore ammo wate completely.
+The information is included for the purists, or for when enormous amounts of ammo are being handled.
+Remember only keep the data that makes the game more fun.
+
+=== EXPS 
+
+This is the amount of experience points awarded to the firer of the gun, or whoever else, identifies the gun's nature.
+
+=== Value 
+
+This is the value of the gun, if it should ever be sold, or appraised.
+There is no guarantee that a gun will be sold for its correct worth.
+The value given that is in brackets indicates the value of the ammo, "b"
+means that the ammo is actually a battery charge.
