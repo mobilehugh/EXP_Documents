@@ -115,7 +115,7 @@ If the robot or alien developed a mutation after fabrication or evolution this b
 
 While under the beam physical mutations shrivel up and fall off the mutant.
 Mental mutations simply stop working.
-If a player feels that her mutation is an ability or evolutionary trait the xref:ii-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice] can be consulted.
+If a player feels that her mutation is an ability or evolutionary trait the xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice] can be consulted.
 
 The persona must fail a poison roll for the mutation to be affected by the beam.
 The intensity of the beam is 2-12 (2d6) plus the vet's experience level and skills.
@@ -237,80 +237,189 @@ ears, eyelids, or damaged physical mutations.
 A vet is not required and there is a 99% chance of attachment success.
 
 The 'plus' part of this artifact is a non-defect physical mutation. 
+This can be a xref:v-wetware:CH59_Physical.adoc#_combat_mutations[Physical Combat Mutation], or a xref:v-wetware:CH59_Physical.adoc#_non_combat_mutations[Physical Non-Combat Mutation].
 If there is no limb to replace the persona will just attach a physical mutation.
 The luxury plus edition is worth 500 EXPS and 5500000 eps.
 
 
 === Biorganic Replacement 
 
-// insert table 596
+[horizontal]
+Duration:: Permanent
+Bonuses:: Nil
+Wate:: 1kg
+EXPS:: 960
+Value:: Special
 
 Biorganic replacements are ready to implant organs, tissues, or glands.
 They can be straight from tissue culture vats, harvested from clones, harvested from criminals, or cybernetically designed.
 The biorganic replacement can be used to enhance an existing system, or to replace an ailing one.
-The nature of each biorganic replacement is discussed in the following paragraphs, as is its value and attribute bonus.
-The replacement type is rolled on Table 47.3: Replacement Type__.__
 
-For any biorganic attachment to work, the vet must properly implant it using surgery.
-This has base difficulty of 15DD.
-The process of biorganic replacement will take 1 to 6 hours, and the persona must be unconscious, yet alive, for the entire time.
-The referee is encouraged to modify the DD of this maneuver to each replacement type and the circumstances surrounding the operation.
+A biorganic attachment must properly implanted with surgery.
+The process of biorganic replacement will take 1 to 6 hours.
+One never knows when a new eye is urgently needed.
+The persona must be unconscious, and alive, for the entire surgery.
 
-For instance if a biorganic replace were being used to replace the sight of a blinded persona then the referee should ensure an almost certain chance for surgery success and tissue e acceptance.
-If the replacement is being used for enhancement of fully functional eyes then the chance for success should be reduced.
+This maneuver has a base difficulty of 15DD.
+If the procedure is to restore the sight of a blinded persona the DD is decreased.
+If the procedure is to improve fully functional eyes then the DD is increased.
+If the procedure is being abused to build super personas there should be consequences.
 
-If the biorganic replacements are being abused to build super personas then the referee should increase the chances of failure, and inflict some of her own side effects.
-For instance too many muscle grafts may result in tissue rejection that includes previous implants and some of the patient's original tissue, leaving her with a PSTR that is less than she began with.
+include::ROOT:partial$CH47_Table_Biorganic_Replacement_Type.adoc[]
 
-// insert table 597
+Blood Filters::
+This replacement represents a super spleen and fortified bone marrow.
+This strengthens the quality of the personas life blood.
+A blood filter could replace a failing blood system, or improve a healthy one.
+A well persona receives a permanent CON increase of +10%.
+This increases the persona's CON by at least 1 and no more than 2 points.
+The player get's a bonus of +2 to win poison rolls.
 
-*1) Blood Filters* (150000):These will assist, or replace, the body's present organs for cleansing the blood.
-If the replacement is added to a persona with a fully functioning system she would improve her CON attribute by 10% (adjustment cannot be less than +1, nor greater than +2), and earn a bonus of +2 when making saving throws against poison attacks.
+The blood filter biorganic attachment is worth 150000 eps.
 
-[.s34]*2) Bone Hardening* (100000):This persona's bones have been treated with microbiological cultures that will lay down a hardening laminate on all of her bones.
-This can only be done on those personas that are at least adult in age.
-When applied to normal strength bones, the persona will earn a HPS maximum bonus of 20%.
-Bone hardening cannot be over laid.
+Bone Hardening:: 
+This persona's bones get coated with a biologically delivered laminate.
+The bone hardening will only take in adult personas.
+This artifact cannot be reapplied. 
+If a player insisted her persona will suffer a 20% DEX penalty and gain no HPS.
 
-*3) Brain Tissue* (1000000):This treatment involves the insertion of additional brain tissue which will give the patient improved mental capacity and memory retrieval.
-When installed in a fully functioning system she would improve her INT attribute by 10% (adjustment cannot be less than +1, nor greater than +2).
+The microbial slurry is drunk by the persona and does not require a vet intervention.
+There is a 20% HPS max bonus granted due to the tougher bone structure.
+
+The bone hardening biorganic attachment is worth 100000 eps.
+
+Brain Tissue::
+The brain tissue biorganic attachment improves mental capacity and memory.
+A vet must successfully insert the proto tissue into the persona's braincase. 
+
+A well persona receives a permanent INT increase of +10%.
+This increases the persona's INT by at least 1 and no more than 2 points.
+This increased intelligence has not impact on mental strength. 
+
 There is a cumulative 15% chance per implant that something will go wrong.
-Initial implants will involve mild insanities, and later implants may involve severe insanities.
-If the persona is abusing brain tissue implants she may find herself comp &big with other thinkspaces for control of her body.
+Multiple implants will lead to insanity or a mixed thinkspace.
+Initial implants may cause mild insanities, and later implants may cause severe insanities.
+Need a quick insanity jump to xref:i-roll_playing_rules:CH11_Referee_Personas_Anthro.adoc#_introverted[mild insanity] to find one.
+There is also a chance that the implanted tissue develops its own consciousness.
+This places the persona in a madness or death struggle for her body.
 
-*4) Conductive Tissue* (500000):Conductive tissue involves the implantation tissue that grows alongside motor neurons producing wider, lower resistance neural pathways.
-These allow for faster reaction times and improved dexterity.
-When installed in a fully functioning nervous system the patient would improve her DEX attribute by 10% (adjustment cannot be less than +1, nor greater than +2).
-The implants will also offer an initiative roll bonus of +2.
+The brain tissue biorganic replacement is worth 1000000 eps.
 
-*5) Contractile Tissue* (100000):Contractile tissue biorganic replacements are muscle tissue plus the necessary neural wiring to make the implants useful.
-The muscle can improve the patient's PSTR attribute by 10% (adjustment cannot be less than +1, nor greater than +2).
-For every 3 points of PSTR increase, representing several muscle grafts, the patient will suffer a -2 DEX penalty, as her fine motor system gets confused amidst the additional tissue.
+Conductive Tissue::
+Conductive tissue biorganic replacement improves the user's nervous system.
+Addition neural tissue grows alongside peripheral neurons improving electrochemical flow.
+This allows for faster reaction times and improved dexterity.
+The self propagating tissue is easily injected into each limb by a veterinarian.
 
-*6) Covering, Encasement* (50000): This is an exatmo hardened body glove that is surgically integrated with the patient.
-Once she is permanently inserted into her new skin she will be unaffected by exatmo pressures, any airborne contact toxins, and her natural armour rating will be 550.
-The patient will also suffer a -5 CHA penalty and a -2 DEX penalty.
-All of the mutant's orifices can be voluntarily sealed, connected to air sources, or whatever.
+A well persona receives a permanent DEX increase of +10%.
+This increases the persona's DEX by at least 1 and no more than 2 points.
 
-*7) Covering, Hardening* (10000): A hardened skin covering involves the plating of the mutant's fat pads, force absorbent inserts, and shock absorbent head moldings.
-The persona suffers a CHA penalty of-2, but enjoys an improved armour rating of +80, and a 10% bonus on her HPS maximum.
-Covering hardening can only be done once.
+The conductive tissue biorganic replacement is worth 500000 eps.
 
-*8) Digestion* (55000): This biorganic replacement can be used to place any malfunctioning organ associated with the digestive tract.
+Contractile Tissue:: 
+Contractile tissue biorganic replacement improves the persona's physical strength.
+Additional muscle tissue and innervation improve the brawn of the  persona.
+The self propagating tissue is easily injected into each limb by a veterinarian.
+
+A well persona receives a permanent PSTR increase of +10%.
+This increases the persona's PSTR by at least 1 and no more than 2 points.
+
+Overuse of this biorganic replacement will impair the persona's dexterity.
+Beyond the first application DEX decreases as PSTR increases.
+If a second contractile tissue is injected and the PSTR increases by 2 the persona's DEX decreases by 2.
+
+The contractile tissue biorganic replacement is worth 100000 eps.
+
+Exoskeleton:: 
+The exoskeleton biorganic replacement seals off the persona's skin from the outside.
+Once the persona has been transformed they will be impermeable and ugly.
+The exoskeleton is so complete it protects the persona from the vacuum of space.
+The persona's skin functions like a civilian vac suit. 
+Immune to space, gas, drowning, etc. 
+
+The persona's base armour rating jumps to 550.
+The strengthened skin has drawbacks as well.
+Charisma drops by 5 (-5 on CHA) and dexterity drops by 2 (-2 on DEX). 
+This persona cannot wear any vac suit or powered armour. 
+The exoskin protects the persona from most vet equipment. 
+Any vet procedures suffer a +8 DD penalty due to the exoskeleton.
+
+No vet is required for installation of this biorganic replacement. 
+The persona smears a smelly boullabaise of biochemistry onto her skin.
+The duration of the process is determined by the milieu of the campaign.
+This biorganic replacement can only be used once.
+
+Each essential orifice of the persona has a disgusting biologic airlock.
+Anything going in must first be piled into a sac which balances pressures before ingestion.
+This is the same for anying going out.
+
+The biorganic replacement exoskeleton is worth 2000000 eps.
+
+Hardening:: 
+The hardening biorganic replacement strengthens the persona's integumen.
+Fat pads are reinforced, bones are plated, and strength is woven into the skin.
+
+No vet is required for installation of this biorganic replacement. 
+The persona smears a smelly boullabaise of biochemistry onto her skin.
+The duration of the process is determined by the milieu of the campaign.
+
+The persona's base armour rating increases to 600. 
+The persona's hit point maximum increases by 10%.
+There is a charisma penalty of 2 (-2 on CHA).
+Hardening can only be done once.
+
+The biorganic replacement of hardening is worth 100000 eps.
+
+Digestion::
+The digestion biorganic replacement upgrades the entire digestive tract.
 This includes teeth, stomach, intestine, and related organs.
-If this system is inserted into a fully functioning patient it will allow her to chew on peculiar items, and consume them without gastric despair.
-This patient would earn a bonus of +5 on saves versus ingested poisons.
+This hardening allows the persona to chew on peculiar items, and consume them without gastric despair.
+No vet is required to activate this biorganic attachment.
+The persona only needs to eat the biomass to be activated.
 
-*9) Heart, Pump* (200000): The vital juices pump replacement can replace an ailing heart, or it can be used to supercharge a fully functioning one.
-The additional heart tissue will improve the persona's CON by 10% (improvement cannot be less than +1, and cannot exceed +2).
+This patient gets of +5 on ingested poison rolls.
+This patient cannot be nauseated by nausea attacks.
 
-*10) Lung* (200000): The additional respiratory tissue is not limited to lung, but can be gills for aquarians, or green leafy material for florians.
-The respiratory tissue will allow healthy individuals to improve their CON by 10% (improvement cannot be less than +1, and cannot exceed +2).
-They will also earn a bonus of +2 on saves versus respiratory poisons, and will[.Apple-converted-space]  be able-hold their breath twice as long as normal.
+The digestion biorganic replacement is worth 550000 eps.
 
-*11) Mental Mutation Insert* (10000000): This is a very bizarre biorganic replacement indeed.
-The operation will insert a single mutation that is determined on the Mental Mutation table in chapter 58.
+Pump:: 
+The pump biorganic replacement improves an anthro's vital fluid pump.
+The pump itself is improved, as are the essential vessels of the vascular system.
+A vet is required to safely implant this biorganic replacement. 
+
+The improved heart and blood vessels improve the persona's constitution.
+The persona receives a permanent CON increase of +10%.
+This increases the persona's CON by at least 1 and no more than 2 points.
+
+The pump biorganic replacement is worth 200000 eps.
+
+Lung::
+The lung biorganic replacement improves the personas respiratory status.
+The improved respiratory tissue can be more lung, better gills, or leaves.
+A vet is required to install this respiration bonus.
+
+The replacement will improve the persona's constitution.
+The persona receives a permanent CON increase of +10%.
+This increases the persona's CON by at least 1 and no more than 2 points.
+There is an improved resistance to repiratory poisons.
+The persona gets a +5 on respiratory poison rolls.
+Breath holding, or the anthro equivalent, is increased by 3 times. 
+
+The lung biorganic replacement is worth 200000 eps.
+
+Mental Mutation Insertion:: 
+This biorganic replacement gives the user a permanent mental mutation.
+The mental mutation should not be a defect. 
+
+
+
+
+
+This is a very bizarre biorganic replacement indeed.
 It is not recommended to insert a defect at such great economic expense.
+
+10000000
+
 
 *12) Physical Mutation Insert* (5000000): A physical mutation attachment will be determined by the +++<i>+++Physical Mutation +++</i>+++table in chapter 59.
 Defects are not to be inserted unless the referee has some how justified the penalty as part of her ongoing campaign.
