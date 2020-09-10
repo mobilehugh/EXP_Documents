@@ -913,13 +913,15 @@ A molecular copy of the sample is stored in the drug analyzer.
 This allows for future reproduction of the analyzed drug
 
 Successful interpretation of the result requires a vet maneuver.
-The degree of difficulty is 1 per tech level of the drug analyzer, and two per tech level of the pharmaceutical.
-Using a tech level 10 analyzer on tech level 10 pharma is a 30 DD maneuver.
-Research teams may be required to properly operate a low tech drug analyzer.
-A failed maneuver does not prevent a molecular copy of the sample to be stored.
-
+xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] may be required to properly operate a low tech drug analyzer.
 The time taken to analyze a sample is story related. 
-Ideally the duration of analysis will be the most exciting possible.
+Ideally the duration of analysis will be the most exciting duration possible.
+
+=== Drug analysis Degree of Difficulty
+.42 - Analyzer Tech Level
+****
+Using a tech level 10 analyzer is a 32 DD maneuver
+****
 
 This device is intimately related to the <<_drug_box,Drug Box>>.
 
@@ -927,254 +929,347 @@ This device is intimately related to the <<_drug_box,Drug Box>>.
 
 [horizontal]
 Duration:: 5 doses per Battery
-Bonuses:: +25 on pharmacologic maneuvers
+Bonuses:: +42 on pharmacologic rolls
 Wate:: 35kg + Battery
 EXPS:: 900
 Value:: 900000
 
-The larger version (35 kg) is a drug analyzer and synthesizer.
-Both boxes have 1000 turns of energy in a battery set.
-An analysis takes 6-60 turns, and a synthesis takes 60-480 turns (1-8 hours).
-The check for success is rolled at the end of this period.
-So the persona must wait until the machine is finished before knowing what has happened.
+A drug box fabricates pharmaceuticals like a pharmacy in a drum.
+The box comes with a random and limited list of pharma.
+There is no limit to the number of pharmaceuticals the drug box can learn.
+The drug box does *not* analyze and copy meds.
+The drug box is not a pharmaceutical photocopier. 
 
+include::ROOT:partial$CH47_Table_Drug_Box_Start.adoc[]
 
+New pharmaceuticals must be added by either a drug analyzer or software.
+There is a 1% chance per tech level of drug box that a <<_drug_analyzer,Drug Analyzer>> is built in.
+A tech level 12 drug box has a 12% of being combined with a drug analyzer.
+The drug analyzer increases the wate and value of the drug box.
 
-Drug Synthesizer +++</strong>+++(EXPS 900 Value 900 000):In addition to determining all of the above information, the drug synthesizer is capable of recreating any pharmaceutical that it has analyzed.
-The larger version of the Drug Box has a wate of 35kg. A veterinarian will receive a bonus of +75 on any pharmaceutical related PT rolls with this machine.
+Successful fabrication of a pharmaceutical does not require a veterinarian.
+However a veterinarian's input decreases the chance of adverse effects.
+xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] may be required for fancy rare medications.
+The difficulty of the maneuver depends on the chance of adverse effects.
 
-To synthesize an analyzed pharmaceutical , a whole dose must be destroyed.
-The chance for success depends on analysis and on the ability of the drug box to synthesize the raw components.
-The device must first correctly analyze each of the 5 components listed in the drug analyzer paragraphs.
-The veterinarian, or biologist can adjust the chance of success, or earn additional rolls by making PT rolls 
+=== Adverse Effect Chance
+.Pharma Tech Level * 2 - Drug Box Tech Level
+****
+A TL 15 pharmaceutical being fabricated by a TL 10 drug box. +
+There is a 20% chance a fresh random adverse effect. +
+A vet maneuver of 20DD would prevent the adverse effect.
+****
 
-*Chance for Synthesis Success*
+A drug box will always make the pharmaceutical.
+An adverse affect is more likely the fancier the pharma and the less skilled the user.
 
-*Tech Level Box plus Vet Level / (Tech Level + 2d8) Maximum 80%*
+Fabricating a pharmaceutical takes 1-8 (1d8) hours per dose.
+Although duration of production can be altered to improve suspense of the story at hand.
 
-If the synthesis is successful, the new drug will be identical to the original sample, although the newly synthesized pharmaceutical will have double the chance of side effects.
-If the synthesis failed the drug box should have fail safes that prevent the production of random pharmaceuticals, or poisons.
-The drug box can keep producing a single dose of the pharmaceutical as often as a successful synthesis roll is made.
+=== Eye Cleanser
 
-== 24) Eye Cleansers 
+[horizontal]
+Duration:: Single Use
+Bonuses:: +10 on eye related rolls
+Wate:: 150gms
+EXPS:: 250
+Value:: 3000
 
-// insert table 616
-
-The eye cleansers look like opaque swimming goggles.
+The eye cleanser looks like a set of oversized opaque swimming goggles.
 When strapped over the eyes they foam up and bathe the eyes in healing chemicals.
-They will negate, and heal, all forms of chemical damage to anthropomorph eyes.
-If hit point damage has been caused by the chemical attack to the eyes, all of those hit points in damage will be restored.
-Eye cleansers can only be used once and will act in one unit.
-The eye cleansers will offer a bonus of +8 for any eye related PT rolls that the veterinarian has to make.
+They will negate, and heal, all forms of physical damage to anthro optical sensors.
+The goggles also heal and hit points of damage inflicted via eye damage.
+The treatment is fast and the persona is back to normal in 1-4 (1d4) units.
 
 === Fever Control Blanket 
 
-// insert table 617
+[horizontal]
+Duration:: Single Use
+Bonuses:: +10 on metabolism rolls
+Wate:: 50gms
+EXPS:: 50
+Value:: 150
 
-The fever control blanket looks like a fragile, highly reflective, translucent sheet.
-It can restore and maintain the proper body temperature of any organic creature.
-Any internal conditions (poison, sickness, mental attack) causing fever can be countered by the blanket.
-It can maintain normal body temperatures against external environments within the range of -10C and +50C.
-A veterinarian or biologist can use the blanket to determine a patient's body temperature.
-They will also receive a +10 bonus when using the blanket for any PT rolls that involve body temperature.
+The fever control blanket maintains the proper body temperature of anthro personas.
+The artifact looks like a fragile, highly reflective, translucent sheet.
+Any conditions (poison, sickness, mental attack) causing fever can be countered by the blanket.
+The blanket can maintain normothermia within air temperatures of -10C and +50C.
+The fever control blanket is well loved by nomads as well as vets.
+
 The blanket will function until it is damaged.
 The blanket can take 3 hit points of damage before it is destroyed.
-An fever control blanket is disposable, and cannot be mended.
-If more than one persona at a time are going to use the blanket, then they must, be of the anthro type.
+A fever control blanket is disposable, and cannot be mended.
 
-== 26) Incubator 
+=== Incubator 
 
-// insert table 618
+[horizontal]
+Duration:: Power Source
+Bonuses:: +20 on any growth related rolls
+Wate:: 100kg
+EXPS:: 300
+Value:: 250000
 
-This incubator can recreate the environment and conditions necessary for the gestation of embryos, seeds and fungi.
-The Incubator will nourish anything up to a state where it can survive outside of a womb, seed or spore sack.
-This does not guarantee survival, only live birth.
-Any life form exceeding 200 kg before it can support itself will be beyond the capacity of the incubator.
+The incubator creates the environment and conditions necessary for the gestation.
+Anything embryonic will flourish inside this tank. 
+This includes nascent clones, embryos, seeds, hyphae, etc.
+All organics are gestated to survival outside of the womb, seed or spore sack.
 
-The duration of gestation is given below.
-Deviations such as multiple births and Siamese twins (or triplets etc.) will be left to the ref's discretion.
-Vets and biologists can adjust the incubator to double or triple the rate of gestation, greatly reducing the embryos time spent in the incubator.
+When combined with a cloning tank the incubator can safely speed up clone growth.
 
-// insert table 620
+The incubator requires a vet or biologist to operate. 
+A nomad can also use an incubator to grow plants quickly.
 
-== 27) Injury Detector 
+include::ROOT:partial$CH47_Table_Incubation_Times.adoc[]
 
-// insert table 619
+=== Injury Detector 
 
-This handy little red box will analyze the body structure of any organic creature for injury.
-When attached to the body, it will detect almost anything from ligament strains to rigor mortis.
-The Injury Detector will aid vets by adding 50 to their PT rolls when dealing with any maneuver that involves physical lesions.
-A battery set is good for one hundred applications to the body.
+[horizontal]
+Duration:: 100 uses per Battery
+Bonuses:: +50 on injury related rolls
+Wate:: 2.5kg
+EXPS:: 2500
+Value:: 100000
+
+This handy little box analyzes organic personas for injury.
+The injury detector buzzes for any trauma from ligament strains to rigor mortis.
+The detector does not make a succinct diagnosis but guides the vet to better treatment.
 
 //+++<figure id="attachment_10194" aria-describedby="caption-attachment-10194" style="width: 300px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/expgame.com/wp-content/uploads/2018/06/danger_in_deep_3-300x249.png?resize=300%2C249[Tom Corbett Space Cadet Adventure: Danger In Deep Space By Carey Rockwell, Tech adviser Willy Ley.Illustrator Louis Glanzman Gosset and Dunlap 1953,300]](https://i0.wp.com/expgame.com/wp-content/uploads/2018/06/danger_in_deep_3.png)+++<figcaption id="caption-attachment-10194" class="wp-caption-text">+++Big screen diagnostics.+++</figcaption>++++++</figure>+++
 
-== 28) Internal Viewer 
+=== Internal Viewer 
 
-// insert table 621
+[horizontal]
+Duration:: Power Source
+Bonuses:: +30 on all vet maneuvers
+Wate:: 55kg
+EXPS:: 3000
+Value:: 950000
 
-This device gives a three dimensional, technicolor, moving picture of the innards of organic creatures.
+This device gives a three dimensional, technicolor, moving picture of the innards of organic personas.
 The paddles of the internal viewer must make contact with the patient.
-The internal views can be taped, and subjected to a host of special effects.
-An Internal Viewer will aid vet diagnostics with +30 on her PT roll.
-This unit is generally not portable (unless its tech level produces a wate is less than 6 kg).
-If the internal viewer is part of a comfy couch then it will assist 10 diagnoses per battery set.
+The internal views can be recorded, and subjected to a host of special effects.
 
-== 29) Life Ray 
+=== Life Ray 
 
-// insert table 622
+[horizontal]
+Duration:: Power Source
+Bonuses:: Nil
+Wate:: 1250kg
+EXPS:: 10000
+Value:: 22100010042
 
-A life ray will resurrect dead organic tissue almost to its original form.
+A life ray will resurrect deceased organic tissue into a living state.
 Enormous energy surges (like lightning) are used to rehydrate desiccated cells, restore chemical equilibriums, and rebalance biological polarities.
-The Life Ray must be employed within 50 hours of death.
-The Life Ray is a machine, and the subject must be placed within it.
+The Life Ray is a machine, and the deceased must be placed within it.
 
+The Life Ray must be employed within 42 hours of death.
 The life ray will faithfully restore the body to the from that is presented to it.
-The ray will not heal or repair anything.
+The ray does not heal or repair the body.
 Any corrective surgery must be completed before the life ray is activated.
 For instance a limb would only be reconnected to the regenerated patient only if her arm were properly reconnected before the restoration procedure.
 
-To properly activate the life ray is a veterinarian maneuver that increases by 1DD per hour since death.
+To properly activate the life ray is a veterinarian only maneuver.
+The difficulty is 1 DD per hour since death. 
 For example, a patient that has been dead for 6 hours would be a DD6 maneuver.
-If a body has been placed in a stasis bag, the time within the bag does not count.
-For instance a patient that had been dead for three days, but was placed in a stasis bag 4 hours after dying would be a 4DD maneuver to resuscitate.
+A <<_stasis_bag,Stasis Bag>> arrests the decomposition of death.
+With a stasis bag the DD is dependent on how long it took to get the body into the bag.
+4 hours after dying would be a 4DD maneuver to operate the life ray.
 
-To be restored, the persona has two chances to make a normal (d20) CON http://expgame.com/?page_id=275attribute-rolls[attribute roll].
-If the player is successful with either of these rolls then the persona will have been successfully restored.
-If the player fails both of the attribute rolls then the persona is permanently dead.
-The veterinarian can carry out maneuvers that will allow the player to make additional attribute rolls.
+The life ray is not a healing device. 
+The persona will be restored to zero HPS and regain consciousness.
+Missing limbs do not grow back. 
+Attributes are not restored. 
+Pain will continue.
 
-If the player fails the attribute rolls then the persona remains dead, since her system is too far along the entropy road to be restored.
-If the vet, or the research team, fails the PT roll involved then the patient can be placed in suspension and an attempt can be made at a later date: Any patient with a zero attribute will die immediately unless the problem is corrected preceding, or during the life ray treatment.
+The life ray cannot restore a persona with a zeroed attribute.
+So a persona who has zero physical strength is permanently dead.
+Charisma is the only attribute that can decrease to zero.
 
-
-The life ray does not return the persona to her exact state of health.
-Since the device does not repair damage that was incurred the persona's attributes will suffer penalties once life is restored.
-All attributes are reduced by at least one point during the process.
-
-It is assumed that all attributes except MSTR will have suffered when the persona died.
+Death leads to decrepitude. 
+Every attribute is damaged by the death experience.
+A rebooted persona suffers the following attribute penalties.
 AWE, CHA, CON, DEX, INT, PSTR and HPS maximum will lose 0 to 3 points (d4-1).
-However, the persona's think space may be enlightened by the potentially spiritual experience and a bonus of 0 to 3 points MSTR is added to her present MSTR.
+If the persona zeroes one of her attributes during a life ray treatment she is permanently dead.
+
+There is a chance that the death experience will increase a persona's mental strength.
+A dead consciousness may develop a stronger link to the thinkspace. 
+The first time a life ray reboots a persona her mental strength may jump by 3 points.
+The personas adds 0-3 (1d4-1) to MSTR.
+Further life ray treatments subject the persona's MSTR to a -1 to +1 (1d-2) attribute adjustment.
+Eventually everything succumbs to entropy and dies. 
+
 If any of the persona's attributes fall below one, she is permanently dead.
 
 Once the body is technically restored by the machine, the persona must be brought back to life.
-Her hit point total will be at negative 1/4 of the maximum hit points.
-For example, a persona with 20 HPS MAX would restart life at -5 HPS total.
-Now a veterinarian must successfully resuscitate the patient, or she will die again.
-Often the referee will allow the vet to automatically succeed at this point.
 
-Unless this machine is employed absolutely ruthlessly (under the premise that all personas will eventually die), it can seriously imbalance the game.
-If a referee has any reason not to allow a life ray to part of her campaign then she simply can replace this device with some other piece of medical equipment.
+Unless the life ray is employed with precision it can seriously imbalance a campaign.
+The premise that all personas who keep dying will eventually die.
+If a life ray does not fit into the milieu of the campaign the referee can discard it and have the player roll a different device.
 
-== 30) Limb Capper 
+=== Limb Capper 
 
-// insert table 623
+[horizontal]
+Duration:: Single Use
+Bonuses:: +5 on tissue preservation rolls
+Wate:: 150gms
+EXPS:: 50  
+Value:: 200
 
-A limb capper is a flexible bowl-shaped super-bandage that is used to preserve the nerve endings, tendons, and muscles of amputated limbs while at the same time preventing further damage, and reducing pain.
-This artifact's prompt use will facilitate automatic biorganic attachment.
-The Limb Capper can only be used once, and will aid the vet with a bonus of +5 for any PT rolls that involve preserving tissue.
+A limb capper consists of a flexible bowl-shaped bio-bandage stored in a convenient bag.
+The capper is slapped onto any sized stump and self molds.
+The amputated part is placed in capper's convenient bag.
+The capper preserves nerve endings, tendons, and muscles of amputations for reinsertion.
+The convenient bag keeps the amputation ready for reimplantation for several days.
 
-== 31) Medi Kit 
+The limb capper is a common artifact in milieus frequented by knites.
+As an aside the convenient bag will store a sandwich indefinitely.
 
-// insert table 624
+=== Vedi Kit 
 
-The medi kit is a disposable one user personal medical aid for veterinarians.
-The kit contains bio electric painkillers, tissue and bone adhesives, organic tissue cutting acids, spray on bandages, and benign fur removers.
-Everything melts into uselessness after the seal has been broken in an effort to prevent unsanitary re-use.
-Medi-kits are also called vedi-kits, med-paks, and first aid kits.
-The Medi-kit awards +20 to pretty much any PT roll.
+[horizontal]
+Duration:: Single Use
+Bonuses:: +20 on healing rolls
+Wate:: 200gms
+EXPS:: 100
+Value:: 215
 
-== 32) Medi Wraps 
+The vedi kit is a disposable single use tool kit for doing quick.
+The kit contains bio electric painkillers, tissue adhesives, cutting acids, spray on bandages, and fur remover.
+To prevent unsanitary re-use the vedi kit melts into a useless blob after the seal is broken.
+The vedi kit is most applicable for vet maneuvers however mercs and nomads can use them as well.
 
-// insert table 625
+Vedi kits are also called medi kits, med packs, veti kits and first aid kits.
+When found in the field there will usually be 1-6 vedi kits 
 
-A medi wrap is patch of synthetic skin that melts onto the wounded skin of the patient.
+=== Vedi Wrap
+
+[horizontal]
+Duration:: Single Use
+Bonuses:: +20 on healing rolls
+Wate:: 100gms
+EXPS:: 100
+Value:: 3000
+
+A vedi wrap is a patch of self adhering synthetic skin that melts onto injured skin.
+The wrap can be easily applied to obvious wounds by personas of any vocation. 
+Once applied the wrap's effect is immediate and any further damage is arrested.
 The wrap will heal up to 30 hit points of specific skin damage.
-Once applied to the injured skin, its effects are immediate and any further damage will be impeded.
-Medi wraps can be used only once.
-If an injury is to a smaller surface area than the medi wrap, a veterinarian can cut the wrap if a 3DD performance table roll is made.
-This procedure will extend the the medi wrap by one use.
 
-A burn medi wrap is only good for heat, friction and flame damage.
-Veterinarians are the only personas capable of criss-crossing medi wrap uses.
-To do this a 1DD maneuver must be made.
-For instance a burn medi-wrap could be used to heal the burn from an acid.
-When cross wrapping is done the wrap will only heal 10 hit points of damage.
-Referees must remember that most of laser and projectile weapon damage is internal, and a medi-wrap will only be able to assist for a small portion of that type of damage.
+include::ROOT:partial$CH47_Table_Medi_Wrap_Type.adoc[]
 
-// insert table 626
+A veterinarian can extending a vedi wrap to cover multiple smaller wounds. 
+This would allow one vedi wrap to be used multiple times.
+This is a flat 3DD maneuver.
+Only veterinarians can extend a vedi wrap.
 
-== 33) Medical Kit 
+A veterinarian can use a vedi wrap to cover different injury types.
+This would allow a chemical burns wrap to be used for a thermal burn.
+This a flat 3DD maneuver.
+Only veterinarians can cross purpose a vedi wrap.
 
-// insert table 627
+NOTE: *A vedi wrap is not a veggie wrap and therefore not edible.*
 
-A Medical Kit is equivalent to the bulk storage of fifty medi kits.
-The medi kits are dispensed by a small diagnostic computer.
-The small diagnostic computer that can aid any persona, whether medically trained or not, in the proper steps to first aid.
-The computer will give vets a +42 bonus on the performance table rolls for any maneuvers that involve acute care (quick fixes, poison cures).
-The computer aids personas who are not vets, but meet the INT requirements of a vet (INT 12)in the area of first aid.
-Any such persona can apply quick fixes (and only quick fixes) when using a medical kit.
-The diagnostic computer runs out of power, and the stores run out of materials, after 50 uses.
+Previous names have included Vedi wraps are also called medi wraps, med packs, veti wraps and first aid wraps.
+
+
+=== Vedical Kit 
+
+[horizontal]
+Duration:: 42 uses.
+Bonuses:: +42 emergency rolls
+Wate:: 10kg
+EXPS:: 2000
+Value:: 500000
+
+The vedical kit combines a simple diagnostic computer and pile of medical supplies.
+The vedical kit is not an autonomous device and assists personas making quick fixes.
+The small diagnostic computer can aid any persona in the proper steps of first aid.
+Vets enjoy a +42 bonus on any acute care maneuvers (quick fixes, poison cures, etc.).
+Other vocations can use the kit, but do not enjoy any bonuses.
+Non-vet personas can apply quick fixes (and only quick fixes) when using a medical kit.
+The diagnostic computer runs out of power, and the stores run out of materials, after 42 uses.
 Recharging a medical kit is left to the improvisational talents of the referee.
 
-== 34) Metab Counter 
+A vedical kit can also been called a medical kit, trauma box or fist aid machine.
 
-// insert table 628
+=== Metab Counter 
 
-A Metab Counter will graphically monitor respiration, blood flow, brain wave activity, and a few other useless metabolic indicators.
+[horizontal]
+Duration:: Unlimited 
+Bonuses:: +10 all vet and biologist rolls
+Wate:: 1kg
+EXPS:: 300
+Value:: 25000
+
+A metab counter graphically monitors respiration, blood flow, brain activity, and other useless metabolic indicators.
 The metab counter is the classic futuristic physician's stethoscope.
-This device has a 10 hex directional range.
+This device has a 10 hex point and snoop range.
 Vets, and biologists, can use the metab counter to locate life forms, and to determine their health.
-Veterinarians get a bonus of +15 on any vet PT rolls when employing a Metab Counter.
-Biologists get +10 on their PT rolls when using a metab counter.
-One battery set will operate for 10000 units.
 
-== 35) Mood Ball 
 
-// insert table 629
+=== Mood Ball 
 
-The mood ball will alter and maintain the disposition of the helder.
+[horizontal]
+Duration:: Unlimited
+Bonuses:: +20 in emotion related rolls
+Wate:: 2.1kg
+EXPS:: 300
+Value:: 25000
+
+The mood ball will alter and maintain the disposition of the persona holding it.
 If they are depressed it will make them happy, if they get angry it will calm them down.
-These moods can also be adjusted by a skilled individual to manipulate the emotions of a single target within 1 hex range.
-There is no saving throw granted since the mood alterations are quite subtle.
 The mood ball is a psychiatric device that employs electrical signals and inaudible sounds to maintain socially acceptable personalities from the user.
 The mood ball is not a mind control device.
 The user is aware that she is employing the ball for her own benefit, since they will be genuinely happier when the ball is activated.
-A veterinarian can use the mood ball to assist her in any psychological performance table rolls.
-These would include calm persona, remove suicidal thoughts, entice a purchase, subliminal suggestion, or pain reduction.
-The veterinarian will earn a bonus of +15 when dealing with emotion, ovitiood related maneuvers.
 
-Other personas can use the mood ball to assist in salesmanship or coercion.
-The mood ball is reflected by a negotiation roll, or PT roll bonus of +10.
 A persona that is frequently subjected to the emotional adjustments of the mood ball may become dependant on the device.
+The mood ball cannot be used to negate reasonable emotions, but may make them more tolerable.
 
-== 36) Mutation Detector 
+When a mood ball is used to manipulate a persona they get a a psionic roll.
+Winning the save roll prevents the mood ball from having any emotional effect.
 
-// insert table 1059
+=== Mutation Detector 
 
-The mutation detector provides a binary answer to the question whether mutations are present and whether the mutations physical or mental.
-Beyond this, the device cannot give any hints what-so-ever regarding the nature of the mutation.
-If a mutant were tested, and she had both physical and mental mutations, the mutation detector would light up brightly.
-A biologist can employ the detector to gain a PT bonus of +20 when attempting to identify mutations.
-The gadget must have an unobstructed line-of-sight, and can be no further than 10 hexes from the specimen.
-One battery set will last 5000 units.
+[horizontal]
+Duration:: Unlimited
+Bonuses:: +25 on mutation related rolls
+Wate:: 1kg
+EXPS:: 300
+Value:: 25000
 
-== 37) Neuro Cap 
+This handy little box analyzes personas to detect mutations.
+There is one light for physical mutations and one light for mental mutations.
+This device does not detect the evolved powers of aliens.
+If the alien has mutated then the detector will sound off.
 
-// insert table 630
+If a target has physical and mental mutations both lights sound off.
+The detector does not reveal anything about the nature of the mutation.
+A mutation detector has a next hex range and does not work through obstructions.
 
-This medical device appears to be an oversized beanie with a yellow blinking light on top.
-The cap constantly generates a think space interference waveform that makes it virtually impossible for any form of psionic intrusion to succeed.
-The neuro cap will not defend against those mental attacks which manipulate the environment around the target.
-It will, however, work very well against the likes of ESP, pyrokinesis, and mental control.
+=== Neuro Cap 
 
-Mental attacks must first make a save against twice the persona's MSTR before they can attack.
-This value (2 times MSTR) cannot be less than 20.
-Thus a persona with a 15 MSTR would have a barrier of mental strength equal to 30.
-If the persona's MSTR were 6, her mental barrier would be 20.
-The Neuro Cap is just a machine;
-it will also obstruct beneficial psionic activity, and any mental mutation used by the persona must save vs 2 times her MSTR before it can be employed.
+[horizontal]
+Duration:: Unlimited
+Bonuses:: Nil
+Wate:: 80gm
+EXPS:: 200
+Value:: 90000
 
-== 38) Poison Detector 
+The cap generates a think space interference that prevents psionic intrusion.
+The device looks like an oversized beanie with a blinking light on top.
+The neuro cap will not defend against mental attacks that manipulate the environment.
+For example cryokinesis and life leech don't pass through the think space to work.
+However, ESP, and mental control would be blocked by the neuro cap.
+
+Mental attacks must first win a roll against a the persona's doubled mental strength.
+A persona with a 15 MSTR would have a psionic barrier 30.
+If the persona's MSTR were 6, her neuro barrier would be 20.
+A  Neuro Cap is just a machine, and offers no other benefits to the persona wearing it. 
+
+A mutant must remove a neuro cap before she can unleash any mental mutation at all.
+While wearing a neuro cap on she must win a psionic roll versus double her MSTR before using a mental mutation.  
+
+=== Poison Detector 
 
 // insert table 631
 
