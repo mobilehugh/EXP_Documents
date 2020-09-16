@@ -1,7 +1,7 @@
 = Pharmaceuticals
 
 The pharmaceuticals described in this chapter are fantastic miracle substances capable of diagnosing, preparing, and administering the proper remedy.
-They can do wonders, but they can also have deadly side effects when not used under the most competent of medical supervision.
+They can do wonders, but they can also have deadly side effects.
 Pharmaceuticals are found in groups of doses called a prescription.
 A prescription may consist of pills, injections or liquids.
 A prescription will normally have a negligible mass.
@@ -11,13 +11,404 @@ Addiction to pharmaceuticals is very rare considering the vicious side effects t
 
 // insert drugs.539.png Say no to pharmacologic interventions.
 
-The pharmaceuticals have many parameters , and some guidelines for generating them should be followed.
+
+.*Pharmaceutical Checklist*
+. <<_pharmaceutical_type,Pharmaceutical Type>>
+. <<_prescription,Prescription>>
+.. <<_labelling,Labelling>>
+.. <<_delivery_method,Delivery Method>>
+.. <<_metabolism,Metabolism>>
+.. <<_adverse_effects,Adverse Effects>>
+.. <<_doses,Doses>>
+. <<_pharmaceutical_attribute_explanations,Pharmaceutical Attribute Explanations>>
+
+== Pharmaceutical Type
+
+include::ROOT:partial$CH50_Table_Pharmaceutical_Type.adoc[]
+
+== Pharmaceutical Types
+
+=== Cures 
+
+[horizontal]
+Duration:: Until next time.
+Safety:: 4
+EXPS:: 100
+Value:: Special
+
+A cure is not an inoculation, and therefore does not reduce the chance of future contraction of an illness.
+A cure will simply arrest the process of a disease, or poison, but it will not heal damage that has already happened.
+Cures restore no damaged attributes, or reduced hit point totals.
+Cures stop the affliction in its tracks and remove it from the persona.
+
+include::ROOT:partial$CH50_Table_Cure_Type.adoc[]
+
+Aging::
+Reduces abnormal aging by 1-10 (1d10) years. 
+If no abnormal aging present life span is increased by 10%.
+Each time an aging cure is used to extend life span the safety level is halved.
+Value is 250000 per dose.
+
+Trauma::
+Repairs any deficit to the persona's Hit Points Max.
+This cure does not restore lost hit points. 
+The trauma cure repairs a persona's hit points max that had been reduced by injury or aging 
+If no hit points max deficit is present the persona's HPS Max is increased by 10%.
+Each time a trauma cure is used to extend HPS Max the pharmaceutical's safety level is halved.
+Value is 250000 per dose.
+
+Infection::
+Infection cure super charges the persona's immune system to remove any infectious invader.
+This includes bacterial, viral, parasitic, prion or other sciency fiction infection.
+This cure will remove multiple infections at once. 
+Infection cure does not harm symbiotic infections like gut flora. 
+Value is 50000 per dose.
+
+Attribute::
+The attribute cure can restore attributes decreased due to aging. 
+A veterinarian can dial in which attribute is repaired with a 10 DD maneuver.
+If there is no veterinarian delivering the pharma the cure will repair the last attribute decreased by 1 point.
+This cure has no effect if there are no degraded attributes.
+Value is 500000 per dose.
+
+Psionics::
+The psionics cure briefly disconnects the persona's consciousness from the think space.
+This reset breaks off any undesired psionic controls being exercised on the persona.
+For example if the persona was being mind controlled she would be freed from mind control for a few hours.
+How long the cure keeps the mind control out is determined by the story. 
+Value is 1000000 per dose.
+
+Mutation::
+This cure will remove the patient's most recent mutation. 
+The cure does not discriminate and removes beneficial or defective mutations.
+A veterinarian can dial in the cure to remove a particular mutation.
+This requires a 20 DD manuever for success.
+Value is 1000000 per dose.
+
+Toxins::
+Toxin cure arrests any poison or toxin from having ongoing effect on the persona.
+This includes organic envenomization, poison gases, chemical exposures etc.
+The cure does not reverse damage or repair a persona's hit points. 
+If used against a killing poison the cure will leave the persona at -1 HPS total instead of being dead.
+It is possible that this pharma's adverse effect may be the same as the poison it cures. 
+That is just bad luck.
+A veterinarian can use this cure to prevent poison damage with a successful 15DD maneuver per dose.
+Value is 50000 per dose.
+
+Radiation::
+A rad cure removes any ongoing effects of radiation from the persona.
+If taken early enough the cure can avoid damage from radiation as well.
+How early is early enough? 
+The persona would have to know that radiation damage is imminent. 
+A veterinarian can use this cure to prevent radiation damage with a successful 15DD maneuver per dose.
+Value is 50000 per dose.
+
+Thermal::
+A thermal cure returns organic flesh to it's original state after cold or heat damage.
+The thermal cure does not heal hit points back but restores any permanent damage due to thermal injury.
+The cure will also arrest any ongoing thermal damage from an active attack.  
+Value is 50000 per dose.
+
+Ubiquitous::
+The ubiquitous cure must be dosed by a vet. 
+The vet and persona can choose whatever they would like cured with this generic cure.
+The vet must win a 10 DD manuever roll regardless of the cure attempted.
+More difficult cures like curing a defective mutation or a mental illness would increase the DD.
+Cures are not heals or inoculations and the ubiquitous cure is no different.
+If an intense discussion were to arise regarding this pharma consult the xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice].
+Value is 4200042 per dose.
+
+Decomposition::
+This cure will place a persona in a state of lethal stasis.
+While the persona will not decompose they are also dead. 
+There is no counter cure for this treatment. 
+The persona must be revived by other veterinarian equipment. 
+This cure has been previously called  "cured ham" or "poison apple."
+Value is 250000 per dose.
+
+=== DNA 
+
+[horizontal]
+Duration:: Until next time.
+Safety:: 1
+EXPS:: 1000
+Value:: 2000000
+
+DNA is a pharmaceutical capable of replacing lost limbs or organs, and reactivating non-functioning ones.
+A dose of DNA activates the growth centers of remaining cells at the site of missing, or inactive, body parts.
+The repair is accelerated, and will be complete in 10-100 (10d10) hours.
+The DNA will replace any missing, damaged, or malfunctioning organ or limb, but it will be especially effective at replacing the part rolled on the table.
+The repaired, or replaced, limb will resemble that of the metabolism type rolled for the drug.
+For example an avarian may have an ursidae arm, but a perfectly good functioning one though.
+The organ, or limb will function absolutely normally regardless of persona type, but there will be an obvious cosmetic effect.
+A DNA dosage may also activate any previously nonfunctional body part--like a mutated extra ear, or limb.
+
+Repairing amputated limbs is not all that common. 
+Unless the campaign is full of limb chopping knites and anti-knites.
+More commonly DNA will be misused to get interesting and occasionally useful body parts.
+
+When using DNA on a persona containing all their body parts an immediate adverse effect is delivered.
+There is a percent chance equal to the persona's CON that they will grow a random new body part.
+The body part will be very random. 
+It will most likely be cosmetic or vestigial.
+There is a percent chance equal to the persona's DEX that she will be able to control the body part. 
+So a persona with an  11 CON and and a 14 DEX has an 11% of growing something new and a 14% chance of controlling it.
+A vet can dial in the misuse of this pharma to get desired parts.
+This would be a 42DD maneuver and a xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] is recommended.
+
+.*Your DNA Checklist*
+. DNA Type
+. Metabolism
+. Location
+
+include::ROOT:partial$CH50_Table_DNA_Type.adoc[]
+
+include::ROOT:partial$CH50_Table_Pharmaceutical_Intended__Metabolism.adoc[]
+
+include::ROOT:partial$CH36_Table_Snap_Hit_Location.adoc[]
+
+If the dice should guide the story to a robotic DNA body part it is easiest to have the persona grow a random peripheral. 
+Robotic DNA attachments are a pathway to cybernetics.
+The referee may feel that a vestigial robotic wheel sticking out of the persona's head is amusing she must be reminded of game balance and player enjoyment. 
+Referees work for story and play balance and do not work directly against players. 
+
+=== Narcotic 
+
+[horizontal]
+Duration:: Special
+Safety:: 5
+EXPS:: -42 (yes minus)
+Value:: 42
+
+Narcotics represent pharma that are intended for recreational use.
+They may represent regular pharma that has gone sour.
+The narcotics are not grouped by any name or class or mechanism of effect. 
+In EXP narcotics do not offer insightful experiences that enhance mental strength.
+There are other pharma that have such effects.
+
+A narcotic has a 42 point EXPS penalty which permanently decreases the persona's EXPS total by a minute amount.
+Narcotics also impair the persona's attributes.
+While impaired AWE, DEX, and INT all suffer a 1-6 (1d6) penalty for the duration of the narcotic effect.
+Since a persona is dead if any attribute is reduced to 0 the referee may limit the minimum attribute decrease to 1.
+It is up to the referee whether or not a narcotic attribute reduction will kill the persona.
+However narcotic misadventures regularly kill humans on terra.
+
+Narcotics wreak havoc on the persona's mental strength.
+A persona's MSTR is halved while under the effect of a narcotic.
+Knites avoid any such excursions into the chaos of the mind.
+
+include::ROOT:partial$CH50_Table_Narcotic_Effect_Duration.adoc[]
+
+include::ROOT:partial$CH50_Table_Narcotic_Effect.adoc[]
+
+=== Heal 
+
+[horizontal]
+Duration:: Until the next injury
+Safety:: 7
+EXPS:: 100
+Value:: Special
+
+Heals are pharmaceuticals that repair physically damaged tissues.
+The majority of healing is for whole body hit point damage.
+There are also heals that repair damaged attributes.
+
+include::ROOT:partial$CH50_Table_Heal_Type.adoc[]
+
+Hit Points Total::
+The results of the healing process are reflected by a change in the persona's hit point total.
+Heals do not alter the persona's hit point maximum, but will improve the present total.
+So a persona with 40 out of 42 hit points will only heal to 42 hit points, and does not exceed their HPS Max.
+
+include::ROOT:partial$CH50_Table_Hit_Points_HPS_Healed.adoc[]
+
+.*Percent Heal* 
+Heals that indicate a % hit point total work in the following fashion: they return the persona the given % of their hit point max.
+So a persona with a HPS max of 50 using a 40% heal would immediately be raised to 20 hit points.
+If the persona has more than 20 hit points when the dose is taken, the heal has no effect.
+
+.*HPS Heal*
+The other type of heal repairs a preset number of hit points.
+A 20 hit point heal would return 20 hit points to a persona regardless of her hit point total.
+However, the persona's hit point total can never exceed her hit point max by taking heals.
+
+Attribute Heals:: 
+Those heals that can repair attributes will repair 1-6 (1d6) points of attribute per dosage.
+Attributes cannot exceed their original values by the use of heals.
+A persona who lost 3 points of CHA (15 down to 12) from a recent burn could never exceed at 15 CHA. 
+
+=== Inoculation 
+
+[horizontal]
+Duration:: Permanent
+Safety:: 8
+EXPS:: 1001
+Value:: 1000000
+
+Inoculations are not cures. 
+Inoculations are not heals.
+They neither repair or fix the persona.
+An inoculation will increase the persona's resistance to future effects.
+
+If a persona is inoculated against paralysis she will double her CON when trying to win a saving throw versus a paralyzing or stunning attack.
+So if her CON were 15 she would save as if her CON were 30.
+
+include::ROOT:partial$CH50_Table_Inoculation_Type.adoc[]
+
+
+=== Mutation
+
+[horizontal]
+Duration:: Permanent
+Safety:: 1/2 (TL / 2)
+EXPS:: 100
+Value:: 6000000
+
+This pharmaceutical gives the persona a mental or physical mutation.
+The mutation will not be a defect.
+The mutation may be accompanied by a radical change in skin or coat colour.
+The player will not know which mutation the persona has taken on.
+Part of the fun, and danger, involve figuring the mutation out.
+
+include::ROOT:partial$CH50_Table_Mutation_Type.adoc[]
+
+Colour::
+Colour deviations are a permanent side effect specific to this pharmaceutical.
+They appear after the mutant's first sleep after dosing.
+Make a jump over to xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] where the persona can have as simple or complex a colour change as needed.
+
+Mental::
+This indicates that the persona has acquired a mental mutation.
+The mental mutation takes hold immediately, but the power is not immediately understood.
+Mental mutations are hard to figure out and may only reveal themselves under duress.
+Jump to xref:v-wetware:CH58_Mental.adoc#_mutation_type[Mental Mutations] to generate a fresh new mutation. 
+This mutation cannot be a defect.
+
+Physical::
+This indicates that the persona has acquired a physical mutation.
+The physical mutation will take a few sleeps to grow in.
+The mutation's growth can be itchy, painful and unseemly.
+Jump to xref:v-wetware:CH59_Physical.adoc[Physical Mutations] to generate the mutation.
+If the player rolls a defect it will be combined with another non-defective physical mutation.
+
+=== Mutation Effect 
+
+[horizontal]
+Duration:: 2-200 (2d100) hours
+Safety:: 1/4 (TL / 4)
+EXPS:: 100
+Value:: 2000000
+
+The mutation effect pharmaceutical aggressively and radically alters the persona.
+They will transiently acquire either a physical or mental mutation.
+The mutation effect comes on with a vengeance and quickly reveals it's power.
+
+include::ROOT:partial$CH50_Table_Mutation_Type.adoc[]
+
+Colour::
+Colour deviations are a *permanent* side effect of this pharmaceutical.
+The colour change immediately appears with a mutation effect.
+This colour change can be as simple or as fancy as the referee desires.
+Make a jump over to xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] to get a colour change.
+
+Mental::
+This indicates that the persona has acquired a mental mutation effect.
+The mental mutation comes on with a ferocious headache and quickly reveals itself.
+Jump to xref:v-wetware:CH58_Mental.adoc#_mutation_type[Mental Mutations] to generate a mutation effect. 
+The mutation effect cannot be a defect.
+When the duration ends the mental mutation fades away.
+
+Physical::
+This indicates that the persona has acquired a physical mutation effect.
+The physical mutation violently explodes out of the persona's body.
+The process is painful and unseemly.
+Jump to xref:v-wetware:CH59_Physical.adoc[Physical Mutations] to generate the mutation.
+The mutation effect cannot be a defect.
+When the duration ends the physical mutation decomposes and falls off. f
+
+=== Transient Intumescence 
+
+[horizontal]
+Duration:: 1-6 (1d6) minutes
+Safety:: 1
+EXPS:: 100
+Value:: 2000000
+
+Transient intumescence rapidly swells an attribute beyond normal bounds.
+This boost is unnatural and temporary.
+A transient intumescence doubles the attribute that it effects.
+An awareness of 15 would become an awareness of 30. 
+The intumescence is not impeded by anthro attribute restrictions.
+Biological maximums remain. 
+
+The intumescence is accompanied by a radical physical transformation.
+A PSTR intumescence transforms the persona into a muscle layered hulk.
+An AWE intumescence dilates the eyes ears and nose of the persona. 
+
+Extreme attributes scores allow for abnormal performance.
+Super awareness may let the persona smell chemical formulas or see microscopic cracks. 
+Super mental strength may let the persona see kirlian auras.
+Spectacular charisma may let the persona woo a large crowd with a glorious oration.
+
+include::ROOT:partial$CH50_Table_Periodic_Intumescent_Type.adoc[]
+
+This pharma is highly addictive and misuse is very attractive to players.
+The referee can keep this pharmaceutical rare or have specific side effects.
+Long recovery times with debilitated attributes is a good method for game balance.
+For example, having a several day recovery period where the boosted attribute is halved. 
+
+
+=== Permanent Intumescence 
+
+[horizontal]
+Duration:: Permanent
+Safety:: 2
+EXPS:: 100
+Value:: 10000000
+
+This complicated pharmaceutical permanently enhances a specific persona attribute.
+Pharma that permanently improves attributes are the most sought after meds of all.
+
+Once the pharmaceutical is taken the persona must work hard to increase the attribute.
+The new attributes do not instantly appear.
+The persona must earn the improved attribute over time.
+This can be through training, pharmaceuticals, or extraordinary events. 
+For example, a physical strength increase would require a regimen of strength training.
+Or a new hit points max would require healing by a veterinarian.
+
+Permanent intumescence should be rare enough that super attributes remain uncommon.
+Players that choose to over use this pharmaceutical risk permanent attribute decay as a side effect.
+
+include::ROOT:partial$CH50_Table_Permanent_Intumescent_Type.adoc[]
+
+=== Poison 
+
+[horizontal]
+Duration:: Special
+Safety:: 0
+EXPS:: 1001
+Value:: 42
+
+Poisons are pharmaceuticals that do nothing but harm the patient.
+They may be intentional poisons or pharma that has gone sour. 
+Poison effects are very, very bad.
+Personas can very easily be killed by poisons.
+Poisons act as a deterrent for personas indiscriminately imbibing pharma.
+
+Because poisons are directly administered into the persona's system there is no save roll.
+If a save roll is granted the intensity of the poison is 6-36 (6d6).
+Players are reminded that reducing an attribute to zero can lead to death.
+None of the poisons are lethal, but their effects can be.
+In addition to being a poison these pharmaceuticals automatically have an adverse effect.
+
+include::ROOT:partial$CH50_Table_Poison_Type.adoc[]
+
+== Pharmaceutical Attribute Explanations
+
 In the immediately following paragraphs the pharmaceutical attributes are described.
-After these paragraphs are the steps to creating a pharmaceutical.
-These parameters can be rolled before the pharmaceutical type is determined.
+After these paragraphs are the steps to creating a prescription.
 
-== Duration 
-
+=== Duration 
 This note describes the length of time that the pharmaceuticals effect will last.
 The onset is instantaneous, and the body will return to normal at the end of the duration.
 Remember that side effects may have a longer duration than the pharmaceutical's effect.
@@ -26,323 +417,132 @@ duration indicates a permanent change in the taker's body.
 All other durations are given in normal time ranges.
 Those drugs that have a range of times listed for a duration must be rolled each time a dose is applied.
 
-== Doses 
-
-This is the number of doses that will usually be found with the prescription.
-A dose represents the number of times the prescription can produce its indicated effect.
-This could represent the number of pills, injections, or spoon fulls that the persona has access to in the prescription.
-The dosage of a prescription cannot be extended in any way unless a veterinarian has made a specific maneuver.
-None of the pharmaceuticals listed here require multiple doses for a single effect.
-For instance a disease curing drug need only be taken once to attain the full effect, and not once a day for 2 weeks.
-
-== Purity 
-
-Purity is simply the chance that the substance has no side effects.
-Purity can be checked for each dose taken, or one roll can reflect the entire prescription.
-Purity is usually equal to the tech level of the pharmaceutical.
+=== Safety 
+Safety is simply the chance that the substance has no side effects.
+Safety can be checked for each dose taken, or one roll can reflect the entire prescription.
+Safety is usually equal to the tech level of the pharmaceutical.
 A tech level 10 pharmaceutical has a 10% chance of no side effects.
-To determine the tech level of any artifact, including pharmaceuticals, refer to http://expgame.com/?page_id=359[Chapter 56: Tech Level].
+If tech level is not part of your rule set the default is TL10.
 
-== EXPS 
-
+=== EXPS 
 EXPS are the experience points granted for identifying the prescription.
-The substance's purpose can either be determined by using the veterinarian performance tables, or by imbibing the pharmaceutical (and correctly guessing the effect).
-If a prescription has more than one dose EXPS will only be granted once for identifying the nature of the prescription.
+The pharmaceutical's effect can be determined by winning a vet performance roll.
+Imbibing the pharma and correctly deducing the effect can also earn the EXPS.
 
-== Value 
-
-The value is an indicator of the pharmaceutical's relative worth.
-The value is the value of a single dose.
+=== Value 
+The value is an indicator of the pharmaceutical's worth in eps.
+The value is for a single dose.
 If a prescription has 3 doses then it is worth 3 times the given value.
 The value of pharmaceuticals can change according to the market's needs.
-Unidentified pharmaceuticals are equally worthless, or valuable depending on requirements.
-
 
 == Prescription 
 
-// insert table 782
+.*Prescription Checklist*
+. <<_labelling,Labelling>>
+. <<_delivery_method,Delivery Method>>
+. <<_metabolism,Metabolism>>
+. <<_adverse_effects,Adverse Effects>>
+. <<_doses,Doses>>
 
-=== 1) Method 
+=== Labelling 
+Prescriptions for us on terra are essentially over labelled.
+Labelling of pharma in EXP is not like this at all.
+The druggists that filled this prescription may have been deceased for a thousand, or the language used no longer exists.
+In short prescription markings are essentially random. 
+A living vet is the best bet for identifying an artifact pharmaceutical.
 
-The method of administration  refers to the manner in which each dose is applied, ingested, injected, or in some way installed into the body.
-A roll on Table 50.1: Method of Administration__ __will determine how the pharmaceutical is administered into the body.
-A completely unhelpful colour can be applied to the prescription.
+include::ROOT:partial$CH50_Table_Prescription_Markings.adoc[]
+
+Labelling includes a completely uninformative colour for the pharmaceutical.
+Jump to xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour] to spice things up.
+
+=== Delivery Method 
+The delivery method indicates the manner in how a dose is delivered to the persona.
+A completely unhelpful colour can be applied to the pharmaceutical as well.
 Pills would sport the colour rolled, and aerosols would be have that colour of case.
-For colour use the Colour Bomb!
-Table supplied below for your convenience.
 
-// drugneedless.544.png Finger poking.
+include::ROOT:partial$CH50_Table_Method_of_Administration.adoc[]
 
+=== Metabolism
+There are many different persona types in EXP.
+Metabolism indicates what persona type the pharmaceutical was developed for.
+This is an anthro centered rule set and anthros are the most common pharmaceutical metabolism.
+This is an optional rule that has been given too much attention.
 
-// insert table 783 /] + [table id=436
-
-=== 2) Metabolism
-
-There are many different persona types in EXP, and to make the pharmaceutical situation a little more interesting we going to consider the metabolisms of the various persona types.
-The metabolism indicates which of the persona types that the pharmaceutical was intended for.
-The effects of using a pharmaceutical designated for another race are not complex.
-
-// insert table 784
+include::ROOT:partial$CH50_Table_Pharmaceutical_Intended__Metabolism.adoc[]
 
 ==== Anthro 
+This pharma is designed, researched and made for anthros.
+Often the players will stop there and not worry about specific anthro types.
 
-If an anthro is imbibing a pharmaceutical meant for her own anthro type the chance of side effect depends entirely on the purity of the pharmaceutical.
-If they are imbibing a pharmaceutical meant for a different anthro type the chance of side effect is doubled.
-If the imbibe a pharmaceutical meant for an alien or robotic metabolism they will automatically have a side effect and be poisoned.
-Robotic pharmaceuticals will only be poisonous to an 
+Taking pharmaceuticals designed for other species increases the likelihood of adverse effects.
+If a canine uses pharma created for avarians the chance of adverse effect is doubled.
+This is calculated by halving the safety attribute of the pharmaceutical.
+So a safety level 4 medicine would be reduced to a safety level 2 medicine. 
+This doubles the chance of adverse effect.
+The safety level is multiplied by the pharmaceutical's tech level to determine the chance of safe usage.
+
+Alien and robotic pharmaceuticals do *not* work on anthros.
+If an anthro uses an alien pharmaceutical it it becomes a <<_poison,poison>>. 
+If an anthro figures how out to use a robotic pharmaceutical it becomes a <<_poison,poison>>.
 
 ==== Alien 
+This pharma is designed, researched and made for an alien species.
+The pharmacology of the medicine will not match any other alien or anthro physiology.
+Alien pharma is designed for a specific alien species and does not work between aliens.
+The method of delivery will match the size of the alien.
+Gigantic aliens would have larger pills and syringes.
 
-Pharmaceuticals that are compatible with an alien metabolism can be imbibed by any alien with the standard purity.
-Pharmaceuticals not compatible with anthros will only automatically have a side effect when ingested by aliens.
-Robotic pharmaceuticals will be poisonous to aliens.
+Taking pharmaceuticals designed for other species increases the likelihood of adverse effects.
+If alien species uses pharma created for another species the chance of adverse effect is tripled.
+This is calculated by dividing the safety attribute by three.
+So a safety level 6 medicine would be reduced to a safety level 2 medicine. 
 
+Anthro and robotic pharmaceuticals do *not* work on aliens.
+If an alien uses an anthro pharmaceutical it it becomes a <<_poison,poison>>. 
+If an alien figures out how to use a robotic pharmaceutical it becomes a <<_poison,poison>>.
 
 ==== Robot 
-
+This pharma is designed for, researched on and fabricated for robots.
 Robot pharmaceuticals are better described as spectacular motor oils, or bizarre fuels.
-Liquid programming
-is another label for robotic materials that cause pharmaceutical effects.
+Liquid programming is another label for robotic materials that cause pharmaceutical effects.
 For example, a robotic injection would appear more like a pneumatic dagger than a hypodermic needle.
 Organic pharmaceuticals have no effect on a robot.
 
+=== Adverse Effects 
+Pharmaceuticals in EXP are complicated technological compounds that both diagnose and remodel the persona's body.
+This make adverse effects very common with pharmaceuticals.
+An adverse effect is an undesirable change in the body's chemistry that arises from taking a pharmaceutical.
+Adverse effects and side effects are interchangeable terms
 
-=== 3) Markings 
+==== Adverse Effect Chance
+The chance of an adverse effect is decreased as it's safety level increases.
+The safety level of a pharmaceutical is multiplied by it's the tech level.
+The most common tech level is 10.
+If the players are not using tech levels then TL 10 is used.
 
-The only safe--only some are those filled out by the local pharmacist.
-Unfortunately the druggists that filled out these prescriptions have not only been dead for thousands of years, but probably spoke a long since deceased language.
-Prescription markings are essentially random. Prescription Markings table is made.
-This will indicate how useful surviving prescription labelling is.
-If the roll indicates none, all labelling has been removed or destroyed.
-Mis-labelled
-indicates that something other than the original prescription markings are on the labelled container.
+=== Chance of No Adverse Effect
+.No adverse = Safety * Tech Level
+****
+Pharma with a safety of 4 and tech level 10 has a 40% chance no adverse effect.
+****
 
-// insert table 785
+Vets can administer pharma to avoid adverse effects. 
+A win versus intensity 5-30 (5d6) poison may deflect an adverse effect.
 
-=== 4) Side Effects 
-
-//remember to update drug box side effects 
-
-Very rarely can pharmaceuticals be expected to invade the physiology of an organism, and achieve the desired effect, without some form of side effect.
-A side effect is an undesirable change in the body's chemistry that arises from taking a pharmaceutical.
-Each pharmaceutical type has a purity value.
-This is the percent chance of no side effects occurring per dose taken.
-A cure with a purity of 18 would have an 18% chance of having no side effect when taken by the prescribed persona type.
-The impact of persona type and side effects is described above under http://expgame.com/?page_id=3472-metabolism[2) Metabolism].
-
+==== Adverse Effect
 A roll on the Side Effect table will determine what side effect the persona will sustain if they have a failure of purity or take a prescription not tuned to their metabolism.
 The side effects themselves are not lethal, but their consequences can be.
 The ref can roll a new side effect each time one occurs, or have a specific one prepared for that pharmaceutical.
 
-The duration of the side effect is decided by the ref.
-Of course, some guidance is given here.
-Pharmaceuticals that enact permanent changes in the taker will have side effects that last for 1-10 days.
-Those pharmaceuticals with none permanent durations shall have side effects that last for 1-10 minutes.
+include::ROOT:partial$CH50_Table_Pharmaceutical_Side_Effect.adoc[]
 
-If the side effects counter the desired effect of the pharmaceutical, this is tough luck.
-This could be considered an allergic reaction to the chemicals which renders the pharmaceutical useless.
-Proper administration of pharmaceuticals by vets can reduce the chance of side effects.
-Side effects are not the end of useful pharmaceuticals.
-The personas get a save vs.
-intensity 5-30 poison (5d6) in an attempt to throw off the undesired effects.
+=== Doses 
+The more expensive the pharmaceutical the less doses per prescription.
+One dose is one effect of the pharmaceutical.
+The number of doses could represent the number of pills in a bottle, or puffs in an inhaler.
 
-// insert table 786
+Vets can extend the number of doses in a prescription.
+The more valuable the dose the harder it is to split a dose. 
 
-== Pharmaceutical Type
-
-include::ROOT:partial$CH50_Table_Pharmaceutical_Type.adoc[]
-
-== 1. Cures 
-
-// insert table 788
-
-A cure is not an inoculation, and therefore does not reduce the chance of future contraction of a disease.
-A cure will simply arrest the process of a disease, or poison, but it will not heal damage that has already happened.
-Cures restore no damaged attributes, or reduced hit point totals.
-Cures stop the affliction in its tracks and remove it from the persona.
-Refer to Table 50.6: Cure Type to see what kind of cure the pharmaceutical is.
-
-// insert table 789
-
-== 2. DNA 
-
-// insert table 790
-
-DNA is a pharmaceutical capable of replacing lost limbs or organs, and reactivating non-functioning ones.
-A dose of DNA activates the growth centers of remaining cells at the site of missing, or inactive, body parts.
-The type of body part replaced can be determined on Table 50.7: DNA Type.
-The repair is accelerated, and will be complete in 10 to 100 hours.
-The DNA will replace any missing, damaged, or malfunctioning organ or limb, but it will be especially effective at replacing the part rolled on the table.
-The repaired, or replaced, limb will resemble that of the metabolism type rolled for the drug.
-The organ, or limb will function absolutely normally regardless of persona type, but there will be an obvious cosmetic effect.
-For example an avarian may have an ursidae arm, but a perfectly good functioning one though.
-A DNA dosage may also activate any previously nonfunctional body part--like a mutated extra ear, or limb.
-
-Any unnecessary dose of DNA, i.e., no missing or damaged parts,  will yield the persona an automatic side effect from the Side Effects Table.
-A purity roll will also be required to avoid the outgrowth of a non-functioning limb, or organ.
-The type of new growth, and its location are determined by the referee.
-For example if a perfectly well humanoid anthro unnecessarily consumed an alien sensory organ DNA pharmaceutical she may find herself with an blind alien eye on her forehead.
-If the referee is looking for randomness the alien part can be rolled on http://expgame.com/?page_id=2418-description[Alien Description] and the location on http://expgame.com/?page_id=316[Hit Location].
-
-
-// insert table 791
-
-== 3. Narcotic 
-
-// insert table 792
-
-Narcotics represent drugs that have been made for illicit recreational use, and those regular pharmaceuticals that have gone sour.
-The narcotics are not grouped by any name or class, but by how they affect the psycho motor system of the user.
-To determine how the user's mental state is affected roll on Table 50.9: Narcotic Effect.__ __Table 50.8: Effect Duration is used to determine how long the narcotic effect lasts.
-
-The narcotic also reduces several of the persona's attributes.
-AWE, DEX, and INT all receive a penalty of 1 to 6 (d6) for the duration of the narcotic effect.
-It is up to the referee whether or not a narcotic attribute reduction will kill the persona.
-Narcotic overdoses regularly kill humans in our realm.
-Persona's will have their MSTR, halved while under the effect of a narcotic.
-Knites will avoid any such excursions into the chaos of the mind.
-
-// insert table 793
-
-// insert table 794
-
-=== Heal 
-
-// insert table 795
-
-Heals are pharmaceuticals that repair physically damaged tissues.
-The results of the healing process are reflected by a change in the persona's hit point total.
-Heals never alter the persona's hit point maximum, but will improve the present total.
-The underlined dosage is the most frequent amount appearing, and the value refers to the value of a single dose.
-
-A heal may have either of  two functions, restoring hit points, or healing attributes and hit points.
-To determine what a heal repairs a roll must be made on Table 50.10: Heal Type__ __and then on Table 50.11:  Hit Points Healed__.__
-
-// insert table 797
-
-*Percent Heal*: Heals that indicate a % hit point total work in the following fashion: they return the persona the given % of their hit point max.
-So a persona with a HPS max of 50 using a 40% heal would immediately be raised to 20 hit points.
-If the persona has more than 20 hit points when the dose is taken, the heal has no effect.
-
-*HPS Heal*: The other type of heal repairs a preset number of hit points.
-A 20 hit point heal would return 20 hit points to a persona regardless of her hit point total.
-However, the persona's hit point total can never exceed her hit point max by taking heals.
-
-*Attribute Healing*: Those heals that can repair attributes will repair 1-6 (1d6) points of attribute per dosage.
-Attributes cannot exceed their original values by the use of heals.
-E.g., a persona who lost 3 points of CHA (15 down to 12) from a recent burn, just happens to inhale a bronchial spray which heals 50% Hps, and CHA.
-A d6 roll indicates that 4 points of CHA are to be returned to the user.
-So the persona's CHA returns to her previous CHA of 15, not a new CHA of 16.
-
-All heals are worth 100 EXPS.
-Those heals that also repair attribute values are worth 100 to 600 times more than the HPS heal value.
-So the healing pharmaceutical used in the latest example has a value of 40 000 000 (100 000 for the HPS heal, times 400 for the 4 points of CHA).
-
-// insert table 796
-
-== 5. Inoculation 
-
-// insert table 1065
-
-Inoculations are not cures, and taking an inoculation will only increase one's resistance to future attacks of the inoculated ailment.
-A roll on Table 50.12: Inoculation Type will reveal what the pharmaceutical inoculates against.
-Multiple inoculations will result in a side effect, and no additional protection.
-If a persona is inoculated against paralysis she will double her CON when trying to win a saving throw versus a paralyzing or stunning attack.
-So if her CON were 15 she would save as if her CON were 30.
-
-
-// insert table 799
-
-== 6. Mutation Permanent 
-
-// insert table 798
-
-This bizarre pharmaceutical will give the persona a single mutation from either of the mutation lists.
-There is also a chance that the persona will have a skin/coat colour change as a side effect.
-The colour deviations are a permanent side effect specific to this pharmaceutical, and appear after the mutant's first night sleep.
-Physical mutations will grow in after 1-4 sleeps, and mental mutations will be ready to use immediately.
-To make the effects of these chemicals a little more challenging, the player will not know what mutation her persona has until she deduces it, or happens across it accidentally.
-Refer to Table 50.12: Mutation Type for the drug's effect
-
-The mental and physical mutations are rolled in their respective chapters.
-The persona cannot get only a defect.
-While a defect is possible it will always be accompanied by a non-defect mutation.
-The colour of the skin or coat colour change will match the colour of the pharmaceutical.
-
-// insert table 800
-
-== 7. Mutation Effect 
-
-// insert table 801
-
-Personas taking a mutation effect pharmaceutical will quickly get some idea that their body and/or thinkspace has changed, and possibly a hint as to what way.
-The persona will function identically to a mutant--setting off detectors--for the duration of the effect.
-Physical mutations will explode from the mutant's body in minutes, and mental mutations will begin with a tremendous headache.
-Due to the limited duration of the mutation effect, the persona should be able to figure out what the mutation is pretty quickly.
-The mutation effect cannot be a defect.
-The pharmaceutical may even cause a skin/coat colour alteration.
-The new colour will last as long as the mutation effect lasts, and matches the colour of the pharmaceutical.
-
-// insert table 802
-
-== 8. Periodic Intumescent 
-
-// insert table 803
-
-Periodic intumescents are also known as boosters.
-They increase the value of a persona's attribute for the duration of effect.
-Which attribute is increased depends on the roll generated on Table 50.14: Periodic Intumescents.
-The attribute is doubled 90% of the time, and tripled the remaining 10% of the time.
-These temporary values can easily exceed race restrictions, but cannot exceed the biological maximums.
-Note that the effects are carried out on the present value of the attribute.
-E.g., HPS total of 20 will be increased to 40 or 60.
-
-Some of the extreme attribute values may allow for special abilities that are otherwise unheard of.
-Personas with very high AWEs may be able to sense through materials that would normally block vision, or hearing.
-High MSTRs may be able to sense kirlian auras, or develop the odd knite ability.
-Spectacular CHAs could mesmerize the general populace with glorious orations.
-
-// insert table 804
-
-== 9. Permanent Intumescent 
-
-// insert table 805
-
-Pharmaceuticals which increase attributes are the most sought after of all the exotic substances in this chapter.
-The attribute increaser chemicals have one catch.
-The catch is that they only increase the maximum value of the persona's attribute, and she must work very hard to raise her attribute to the increased level.
-Permanent intumescents expand the maximum range of the persona's attribute, but the persona must wait for age modifiers, heals, or periodic intumescents to raise the attribute to its new level.
-Periodic intumescents, although not permanent, will recede to the attribute's higher level (provided that the attribute has no damage outstanding).
-
-An increased HPS Maximum must wait for pharmaceutical, or natural healing to reach the new hit point total.
-If a persona has taken an injection that increases her DEX* *by 2 points she would not immediately enjoy the increased attribute.
-If her previous DEX* *were 14 she would not have a 16 DEX* *until she somehow improved her DEX.
-She could do this with a periodic intumescent, a heal, through aging or a training program.
-If none of these avenues are immediately available the referee can arrange a training program for the persona.
-This could be mental exercises, balance practise, or exercise.
-Both natural and mutation abilities come into effect automatically.
-
-
-Permanent intumescents should be so rare that multiple use should not be a problem.
-If personas attempt to employ them--from the same prescription--repeatedly, there are dire consequences.
-For each additional dose taken there is a cumulative 25% chance that there will be a poison effect, in addition to side effects, and attribute increases.
-
-// insert table 806
-
-== 10. Poison 
-
-// insert table 807
-
-Poisons are pharmaceuticals that have gone completely sour, or are poisonous substances mistaken for pharmaceuticals.
-The effects of poison are very, very bad.
-Personas can very easily die from the effects of poison.
-Poisons can be one of the greatest deterrents for keeping personas from using pharmaceuticals indiscriminately.
-Personas expect to get a save vs.
-poison, but since this is a drug administered directly into the system no save is awarded.
-If a save is to be awarded the intensity of the poison is 6 to 36 (6d6).
-The ref, and personas, should remember that when any attribute of a persona is reduced to zero the persona is irrevocably dead (except CHA).
-None of the poisons directly kill, but their effects on the system of the persona can be lethal.
-All poisons automatically have a side effect as well.
-
-
-// insert table 808
+include::ROOT:partial$CH50_Table_Pharma_Dosing.adoc[]
