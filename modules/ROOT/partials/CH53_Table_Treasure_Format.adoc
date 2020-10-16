@@ -1,0 +1,35 @@
+// Table 53.2 Treasure Format
+.*Treasure Type*
+[width="75%",cols="^,<",frame="all", stripes="even"]
+|===
+2+<|One persona's treasure is another persona's junk.
+s|Die Roll
+s|Type
+
+|01-10
+|<<_substance,Substance>>
+
+|11-20
+|<<_crystal,Crystal>>
+
+|21-30
+|<<_ornament,Ornament>>
+
+|31-40
+|<<_info,Info>>
+
+|41-50
+|<<_relic,Relic>>
+
+|51-85
+|<<_cash,Cash>>
+
+|86-99
+|<<_mixed,Mixed>>
+
+|00
+|Ref's Own Table
+
+s|Die Roll
+s|Type
+|===

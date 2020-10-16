@@ -1,32 +1,30 @@
 // Table 55.2.1 Weapon Type
-.*Weapon Type*
+.*Ammunition Type Category*
 [width="75%",cols="^,<",frame="all", stripes="even"]
 |===
-2+<|Determine the weapon type the ammunition is for.
-s|Die Roll (d100) 
-s|Weapon Type
+2+<|Determine ammunition type by generating a weapon category. +
+Then generate a specific weapon type.
 
-|01
-|Artillery
+s|Die Roll (1d100) 
+s|Weapon Category
 
-|02-90
-|Gun
+|01-05
+|xref:iii-hardware:CH43_Artillery.adoc#_artillery_type[Artillery,window=_blank]
 
-|91-96
-|Miscellaneous Weapon
+|06-90
+|xref:iii-hardware:CH46_Guns.adoc#_gun_type[Gun,window=_blank]
 
-|97
-|Robotic Weapon
+|91-97
+|xref:iii-hardware:CH49_Misc_Weapons.adoc#_miscellaneous_weapon_type[Miscellaneous Weapon,window=_blank]
 
-|98
-|Space Vehicle Weapon
-
-|99
-|Vehicle Weapons
+|98-99
+|xref:iii-hardware:CH52_Space_Vehicle.adoc#_naval_artillery[Naval Artillery,window=_blank]
 
 |00
 |Ref's Own Table
 
 s|Die Roll 
-s|Weapon Type
+s|Weapon Category
+
+
 |===
