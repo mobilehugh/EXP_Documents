@@ -106,36 +106,9 @@ This is the proposed nav.adoc for section ii
 
 .*Combat*
 * Tactical Combat System
-** Combat Tables
-** Armour Rating
-** Hit Location
-** Time
-** Movement
-** Initiative
-** Ambush
-** Adjustments
-** Weapons
-** Area of Effect
-** Robot Combat
-** Alien Combat
-** Space Vehicle Combat
-** Ground Vehicle Combat
-** Non Lethal Combat
+** 15 completed
 .*Non-Combat*
-* Health
-* Experience
-* Performance Rolls
-* Saving Rolls
-* Attribute Rolls
-* Special Rolls
-* Sphincter Dice
-* Driving
-* Encumbrance
-* Terrain
-* Negotiations
-* Money
-* Mundane Equipment
-* Artifacts
+* 13 completed
 ** Generation
 ** Artifact Identification
 ** Artifact Damage
@@ -162,21 +135,19 @@ This is the proposed nav.adoc for section ii
 .. Sphincter Dice
 
 == Embrace the KiloDie?
-Not likely. 
-Best done as a fork from the dice heavy game.
+Fine in tactical combat. 
+Not yet for generative tables.  
+Goal is to removed the 1d100 so common on artifact tables. 
+Probably move to kilodie generative tables in 2025.
+Won't be a challenge as automation should be up and running by then.
 
 == Embrace the High Roll
-Things that build the things to break the things.
-
-* variable success
-* player describes success 
-* success desired determines die used
+Completed.
 
 
 // strive for the goal of high rolls always win.
 
 == All rolls are to challenge rolls
-
 * the to hit roll is a specialized challenge roll versus an armour rating with random effect (damage).
 ** 1d1000 vs AR
 * saving throw is against an intensity, random or assigned
@@ -222,9 +193,7 @@ Below is a challenge roll table
 
 include::ROOT:partial$CH16_Table_Challenge_Rolls.adoc[]
 
-
 // below in doc table is irrelevant
-
 
 Below is a difficulty roll table
 
@@ -259,7 +228,7 @@ s|Success
 |Normal
 |1d20 + CON 
 |9 + 13  
-|Player not paralysed.
+|Player not paralyzed.
 
 4+<s|Player projecting illusion psionic attack. 
 s|Difficulty
