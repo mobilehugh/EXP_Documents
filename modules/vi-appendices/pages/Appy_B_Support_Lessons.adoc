@@ -1,5 +1,52 @@
 = Appendix B2: Lessons
+:experimental: true
 
-IMPORTANT: *Welcome friend of EXP. You are in an unfinished section of EXP. Please ignore.*
+IMPORTANT: *Welcome friend of EXP. You are in an unfinished section of EXP. Please infiltrate.*
 
-You must have had appendicitis because there is no appy here.
+Button testing ground.
+Maybe even create a partial like articulate..adoc
+Antora does not support video at this point. 
+Any hacks must be reversible to support eventual video section.
+Buttons require the activation of experimental mode, but there is no documentation on how to activate experimental mode. 
+
+Presently video is stored in an /image folder that lives in the module where the page lives.
+For example, /module/images/\*.mp4 this services only the pages in that module.
+The poster attribute must be in this rogue folder as well.
+This is different from still images.
+Which are located in /ROOT/images/*.png and service the entire website
+
+[source]
+----
+// this is for inserting art
+// attributes are set in the referring adoc
+// using inline image because it allows tooltip 
+// centering by assigning imageblock css
+
+[.imageblock.inlinefix]
+image:ROOT:{art}[width="{width}", alt='{art}-{artist}-{license}', title='Artist: {artist} Date: {date} License: {license}']
+
+[.imageblock]
+*{snark}*
+
+// removing the attributes to avoid polluting next image 
+:art:
+:width:
+:snark:
+:artist:
+:date:
+:license: 
+----
+
+.Shadowrun Promo Excerpt (1990, FASA) 
+video::shorter_run.mp4[width=426, height=240]
+
+.*Smaller Thing*
+video::shorter_run.mp4[width=213, height=120, poster=video.png]
+
+.*Poster and controls*
+video::shorter_run.mp4[width=107, height=60, poster=video.png]
+
+.*Poster and nocontrols*
+video::shorter_run.mp4[width=107, height=60, poster=video.png, options="nocontrols"]
+
+Press this btn:[Button] to find out how to activate experimental mode.

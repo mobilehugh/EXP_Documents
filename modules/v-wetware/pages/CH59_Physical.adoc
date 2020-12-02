@@ -478,23 +478,25 @@ Electricity based attacks inflict half damage on this mutant.
 ===  Enthalpy Attack. 
 
 [horizontal]
-Range:: Special
+Range:: 1h per Adjusted PSTR
 Duration:: Not Applicable
 Frequency:: Alternating Units
 General Bonus:: Combat Ratio +3
 
-This mutant's body operates like a deep freeze due to her brine like blood.
+This mutant has brine like blood and an overactive cardiovascular system.
+Her vascular system forces the briny blood to the surface of her skin, where sweaty evaporation cools it.
+The mutant has a cold body, and being beside her is like being beside an air conditioner on full blast.
+The mutant cools anything within a one hex radius.
+A mutant with enthalpy attack prefers warmer climates, but is not bothered by cold environments.
 
+The mutant can also unleash a blast of freezing cold air.
+Icicles and hail often accompany this freezing breath attack.
+If the player makes a successful attack roll, the enthalpy attack inflicts 2 to 16 (2d8) HPS of damage, plus one hit point per Experience Level.
+The air conditioning is constant, but the breath attack needs one unit of rest.
 
-The mutant's heart constantly pumps the blood at a ferocious pace to vessels near the surface of the mutant's skin.
-This keeps the anti-freeze like blood absorbing heat from the air.
-Consequently every persona within 2 hexes of the mutant will be kept comfortably cool in temperatures up to 50 degrees celsius.
-
-The mutant can also unleash a blast of freezing cold air combined with flying icicles and breath whipped snow.
-This freezing attack will inflict 2 to 16 (2d8) HPS of damage, plus one hit point per level of experience.
-The range of this attack is 1 hex per point of adjusted PSTR.
-It takes a while for the mutant's bellows like lungs to recool, and the breath attack can only be used once every 3 units.
-The mutant takes double damage from cold based attacks, but heat based attacks will inflict half damage.
+Fire and heat-based attacks have their damage reduced for this mutant.
+The mutant's cold production counters the effect of flame and heat attacks.
+Cold based attacks inflict normal damage on a mutant with this mutation.
 
 === Fat Cell Accumulation 
 
@@ -514,278 +516,379 @@ include::ROOT:partial$CH59_Table_Fat_Cell_Accumulation.adoc[]
 
 include::ROOT:partial$Defect_Disclaimer.adoc[]
 
-== 16) Gas Generation 
+=== Gas Generation 
 
-// insert table 906
+[horizontal]
+Range:: Up to 5h radius
+Duration:: 0-3 (1d4-1) units
+Frequency:: 1 per 5 Adjusted CON
+General Bonus:: Combat Ratio *3
 
-//enthalpy is not done
+This mutant can release a noxious spume of gas from her mouth or some other orifice.
+The mutant is impervious to her generated gas type.
+The poison gas intensity is equal to half the persona's constitution score, plus one per Level.
+A 3rd level mutant with a 14 CON would exhale intensity ten poison gas.
+Under extreme duress conditions, or after consuming certain foods, the mutant may release gas unintentionally.
 
-This mutant can release a noxious spume of gas from her mouth, or some other orifice.
-The type of gas released is determined on Table 59.10: Gas Generation.
-The mutant is impervious to attacks from her generated gas type, and receives +2 on all saving throws versus gas.
-The intensity of the poison (gas) is equal to half the persona's CON, plus one intensity point per level.
-Thus a 3rd level mutant with a 14 CON would exhale intensity 10 poison gas.
+The descriptions below all suggest the gas is green in colour.
+The player can choose any noticeable cloud colour they like.
+This mutation cannot generate invisible or undetectable gas, and where the gas emits from is obvious.
+If you need a random xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
 
-The mutant may release varying amounts of gas, but wind conditions must be considered when exactness is desired.
-The rest of the expedition is not immune to the mutant's poison gas.
-Under certain conditions, maybe extreme duress or after the consumption of certain foods, gases may be released without control.
-For more information about the effects of poison gases consult http://expgame.com/?page_id=275[Chapter]http://expgame.com/?page_id=275[16: Special Rolls].
+include::ROOT:partial$CH59_Table_Poison_Gas_Type.adoc[]
 
-// insert table 907
+Death::
+This mutant releases a highly toxic green cloud of death.
+All organic personas within the area of effect must make a poison roll.
+Targets that lose their poison roll take 1-4 (1d4) hit points per level of intensity of the poison.
+Targets that win their poison roll take 1/2 damage.
+Intensity 10 killing poison would inflict 10-14 (10d4) hit points of damage. 
 
-*1) Death*:A highly toxic green cloud of death is released by this mutant.
-The maximum area of effect is a 5 hex by 5 hex patch.
-All organic personas within the area of effect must save versus a poison attack.
-Those who do not save will take damage from the attack, which is a 1d4 hit points in damage per point of poison intensity.
-Those personas which do save will reduce damage by half.
-The lethal cloud will dissipate into uselessness in 0-3 units.
-The Combat Ratio is doubled by this mutation.
+Nausea::
+This mutant releases a highly toxic green cloud of vomit-inducing stench.
+All organic personas within the area of effect must make a poison roll.
+Targets that lose their poison roll immediately start retching with a ferocity that incapacitates them.
+Targets that win their poison roll are also retching but can still run from the cloud.
+Incapacitated targets are defenceless for 1 unit per level of intensity of the attack.
+Intensity level 10 nausea poison would incapacitate the targets for ten units.
 
-*2) Nausea*:This gas effects all organic creatures that inhale the nausea gas.
-Each persona must make a save versus poison each unit that they remain within the cloud.
-Those that save will be unaffected by the gas.
-Those that fail the saving throw will be incapacitated with nausea.
-They will be unable to act for 1 to 8 minutes (30 units).
-The maximum area of effect of this attack is a 3 hex radius around the mutant.
-The duration of the gas cloud's cohesion is 2-8 units.
+Paralysis::
+This mutant releases a highly toxic green cloud of paralyzing gas.
+All organic personas within the area of effect must make a poison roll.
+Targets that lose their poison roll suffer muscle weakness that paralyzes them.
+Targets that win their poison roll can crawl at one h/u.
+Incapacitated targets are defenceless for 1 unit per level of intensity of the attack.
+Intensity level 10 nausea poison would paralyze targets for ten units.
 
-*3) Paralysis*:The paralysis gas leaves its affected targets unable to move any of their voluntary muscles for 3 to 30 (3d10) units.
-A save must be made by anyone that enters the 3 hex by 3 hex fog.
-This patch of foggy gas will break up in 1 to 8 units.
+Pharmaceutical Effect::
+This mutant releases a green cloud with a pharma effect.
+All organic personas within the area of effect must make a poison roll.
+Targets that lose their poison roll are affected by the pharma.
+Targets that win their poison roll are unaffected by the pharma.
+Beneficial pharma is ineffective if the target wins her poison roll.
+The pharma is also ineffective on the mutant spewing it out.
+The duration of effect is determined by the xref:iii-hardware:CH50_Pharmaceuticals.adoc[Pharma,window=_blank]. 
 
-*4) Pharmaceutical Effect*:The pharmaceutical type that the mutant can belch up is generated in http://expgame.com/?page_id=347[C]http://expgame.com/?page_id=347[hapter 50: Pharmaceuticals].
-The pharmaceutical type can be generated once when the persona is generated, or every time the mutation is employed.
+Unconsciousness::
+This mutant releases a highly toxic green cloud of unconscious gas.
+All organic personas within the area of effect must make a poison roll.
+Targets that lose their poison roll fall unconscious immediately.
+Targets that win their poison roll may escape the gas cloud.
+A poison roll must be made every unit the target is within the gas cloud.
+Targets remain unconscious for 1 minute per level of intensity of the attack.
 
-Since pharmaceuticals are so variable in their effect the referee must be prepared to alter the mutation according to each pharmaceutical.
-For instance, a narcotic drug should have an area of effect, and the mutant should be immune to it.
-However, a powerful healing drug would have only one dose, and the mutant would be able to use it herself.
-The frequency of the mutation's use may be altered depending on the pharmaceutical's value.
-The time it takes to synthesize a new dose of the pharmaceutical could be one day for every 1000 eps of value.
+=== Haste 
 
-*5) Unconsciousness*:This hazy orange gas causes instantaneous unconsciousness for those organic creatures who do not save vs poison within the 3 hex radius.
-Targets will remain unconscious until awakened.
-In a normal combat setting this would be 0 to 3 units.
-Otherwise they will lay dormant for days.
-A save versus poison must be made for every unit of exposure to the gas.
-The gas's intensity is higher than normal, being equal to the persona's CON, plus one intensity point per experience level.
-The gas is lighter than water but heavier than air, and dissipates swiftly (1-2 units).
+[horizontal]
+Range:: Persona Only
+Duration:: 1u per Adjusted CON
+Frequency:: 1 per 4 Adjusted CON
+General Bonus:: Combat Ratio *2
 
-== 17) Haste 
+The mutant's nervous system has highly conductive neurons, both centrally and peripherally.
+When haste is activated, the mutant's body with an adrenaline-like super hormone allowing her to operate at double speed.
+The mutant does everything at double speed during the mutation effect.
+Maneuvers can be completed in half the time with no penalty on performance.
+The persona doubles her movement rate with no increased risk of crashing.
+If the weapon is capable of doing so, the mutant can double her attack rolls per unit.
+Once begun, the mutant cannot stop haste, and all activity will be done in double time, or not at all.
+The mutant also burns through pharmaceuticals at double speed when haste is activated.
 
-// insert table 908
-
-//enthalpy is not done
-
-The mutant's nervous system is specially wired with large diameter, low resistance neurons, and a hormonal system that can be flooded with adrenaline.
-Haste depends on the sudden surge of adrenaline which allows the mutant to do everything at double speed.
-Problems can be thought out in 1/2 the time required (if solvable).
-Movement is doubled.
-Swings per round and missile fire are doubled.
-This mutation can be activated for a length of time in units equal to 1/2 the creature's adjusted CON.
-Once begun, haste cannot be halted, and all activity will be engaged in at double time, or not at all.
-The effects of pharmaceuticals, will wear off twice as fast (i.e., 1/ 2 their duration), when haste is being employed.
-After haste has been used, complete rest for 1 hour is required.
-
-== 18) Heat Generation 
-
-// insert table 909
-
-The mutant is a heat generating machine.
-Anything that produces body heat will be operating at a higher than normal pace in this mutant.
-Uncoupled chemical reactions will be producing heat, the friction of the cells in her body, as well as whole body thermal conduction will assist in the heating of this mutant.
-The referee can check, when ever she sees fit, to see if the mutant has accidentally ignited some nearby flammable artifact.
-Check the sphincter dice in http://expgame.com/?page_id=275[Chapter 16: Special Rolls] to determine if something is flammable or not.
-
-Heat generation keeps the mutant nice and toasty warm at all times.
-The mutant is unaffected by cold temperatures as low as twenty degrees below zero celsius.
-The mutant will also heat up any personas within a hex radius.
-This creature's body temperature runs at a minimum of 42°C, and is highly susceptible to infravision and fire attacks.
-Fire and heat attacks inflict double damage.
-In turn this mutation acts as a defense against cold attacks, which do half damage.
-
-During the heat of battle this mutant may launch jets of searing flame from her person, up to the phenomenal distance of 2 hexes per point of adjusted PSTR.
-The flame attacks as a type C weapon.
-If a hit is scored the target will be subject to 3-18 (3d6) hit points of damage, plus 1 hit point per EXPS level.
-The dramatic flame attack can be used every third unit as it takes 2 units to reheat the attack system.
+The mutant cannot use haste continuously, or she would die from using up essential nutrients.
+A bout of haste requires 1 hour of intentional rest or  2 hours of unrestful exertion.
+Haste does not work if the mutant is over-encumbered.
 
 
-== 19) Heightened Attribute 
+=== Heat Generation 
 
-// insert table 910
+[horizontal]
+Range:: 1 per Adjusted CON
+Duration:: Constant
+Frequency:: Alternating Units
+General Bonus:: Combat Ratio +10
 
-With this mutation an attribute of the mutant will be adjusted to bizarre extremes.
-Which of the attributes is affected is determined on Table 59.11: Heightened Attribute, and is described in the following paragraphs.
+Heat generation arises from a dangerously overactive metabolism. 
+This mutant amplifies any process that generates heat. 
+Her body captures the excess energy from cellular chemical reactions and turns it into body heat.
+The mutant is an organic space heater.
+The mutant keeps anything within a one hex radius toasty warm.
 
-// insert table 911
+The heat generation is constant.
+The mutant's body temperature is much higher than usual.
+The mutant is not bothered by hot temperatures but prefers to reside in colder climates. 
+The increased heat signature makes the mutant stand out to thermal detectors. 
 
-*1) Awareness*:The awareness attribute determines how well the mutant's consciousness is interfaced with the environment.
-Heightened AWE will indicate larger than normal ears, big bulging eyes, a long nose, an extremely sensitive palate, and a very delicate sense of touch.
-The mutant's AWE attribute is permanently increased by 2-8 (2d4) points, and her AWE cannot be less than 15.
-She will in addition earn a bonus of +30 on any awareness related PT rolls, and tripled AWE when trying to detect an ambush.
+During the heat of battle, this mutant can launch searing blasts of superheated air. 
+Flammable objects will catch fire for cosmetic and descriptive purposes. 
 
-*2) Charisma*:This mutant can turn on the charm in whatever form it is required.
-Heightened charisma is not just beauty, but also includes persuasiveness and sociability.
-The mutant will automatically adjust her facial structure, hair length and posture to suit what ever goal she wishes to attain.
+Heat attack is a type C attack.
+A successful attack roll is required to inflict damage.
+The damage delivered by the heath attack is 3-18 (3d6) hit points of damage, plus one hit point per EXPS Level.
+The attack requires one unit to recover.
+
+Cold and cold-based attacks have their damage reduced for this mutant.
+The mutant's heat production counters the effect of cold attacks.
+Heat based attacks inflict typical damage on a mutant with heat generation.
+
+
+=== Heightened Attribute 
+
+[horizontal]
+Range:: Persona Only
+Duration:: Constant
+Frequency:: As Needed
+General Bonus:: Special
+
+Heightened attribute pushes one of the mutant's physical dimensions into the stratosphere.
+This mutation transforms the mutant's body to reflect the heightened attribute.
+
+include::ROOT:partial$CH59_Table_Heightened_Attribute.adoc[]
+
+Awareness::
+The awareness attribute determines how well the mutant's consciousness interfaces with her environment.
+The mutant has oversized ears, big bulging eyes, a long nose, an extremely sensitive palate, and a very delicate sense of touch.
+This mutation increases the mutant's awareness by 2-8 (2d4) points, and her AWE cannot be less than 15.
+Also, she earns a bonus of +30 on any awareness related rolls and tripled AWE when trying to detect an ambush.
+The mutant's Combat Ratio is increased by +4.
+
+Charisma::
+Heightened charisma is not just beauty but includes persuasiveness, sociability and leadership.
+The mutant automatically adjusts her facial structure, hair length, and posture to optimize her charisma for each situation.
 If she wishes to be alluring, her pupils will dilate, her hair will lengthen, and her voice will change.
 If she needs to work up a crowd into a frenzy, her posture will be erect, her face will harden, her hair will shorten, and her voice will deepen.
-This mutation offers a permanent CHA bonus of 2 to 8 (2d8) points, and her CHA cannot be less than 15.
-She also has a bonus of +30 on any charisma related PT rolls, and tripled CHA during negotiation rolls.
+This mutation offers a permanent charisma bonus of 2 to 8 (2d8) points, and her CHA cannot be less than 15.
+She also has a bonus of +30 on any charisma related rolls and a tripled CHA during negotiation rolls.
 
-*3) Constitution*:The mutant has superior versions of all those organs that make up the constitution of the persona.
-Her heart is healthy and strong, her blood is resilient, her immune system is ready to go, and she has a  liver that can detoxify anything.
-This mutation offers a permanent CON bonus of 2 to 8 (2d8) points, and her CON cannot be less than 15.
-There are obvious benefits to this mutant when generating her hit points.
-The mutant can re-roll her hit points, using her new CON, but the HPS score cannot decrease.
-The increased CON value will assist the persona in making saving throws, and any save that the mutant makes against an toxin will indicate absolutely no effect.
-In addition to this the mutant has her recovery duration decreased by half.
+Constitution::
+The mutant has superior versions of all those organs that make up the constitution of the persona.
+Her heart is healthy and robust, her blood is resilient, her immune system is ready to go, and she has a liver that can detoxify anything.
+This mutation offers a permanent constitution bonus of 2 to 8 (2d8) points, and her CON cannot be less than 15.
 
-*4) Dexterity*:The mutant has additional cerebellar processors located throughout her body which are connected to an extraordinarily high number of proprioceptors.
-This allows the mutant to carry out amazing feats of balance, agility and speed.
-In the normal course of movement this mutant cannot fall, slip or stagger, and if she should be propelled from a high surface only a d4 per hex is taken for falling damage.
-This mutation offers a permanent DEX bonus of 2 to 8 (2d8) points, and her DEX cannot be less than 15.
-She will in addition earn a bonus of +30 on any dexterity related PT rolls, and tripled DEX during attribute rolls.
+The player must re-roll her persona's hit points, using her new CON, or add hit points based on the additional CON.
+The hit point value cannot decrease when being changed by a heightened constitution.
 
-*5) Intelligence*:This mutant's brain is physically different from that of other personas.
-Her skull is specially adapted to accommodate the oversized and densely packed grey blob of neurons.
-The mutant's head is larger than normal, and has special gills that help cool her overactive brain.
-When she concentrates on some cerebral topic her brain may actually begin to hum from the increased blood flow.
-This mutation offers a permanent INT bonus of 2 to 8 (2d8) points, and her INT cannot be less than 15.
-She will in addition earn a bonus of +30 on any intelligence related PT rolls, and tripled Iwr during attribute rolls.
+This mutant is more resilient to poisons as well. 
+If the player wins her poison roll, the toxin does not affect the mutant. 
+Often winning a poison roll will half the damage or reduce the effect of the poison.
+With the heightened constitution, the mutant will not affect with a poison roll win.
+The mutant's Combat Ratio is increased by +8.
 
-*6) Physical Strength*:This mutant not only has more muscles than normal, but those muscles are better ones.
-The muscle fibers are larger, and more densely packed with the chemicals that make contraction possible.
+Dexterity::
+This mutant's neurologic system is supercharged with extra nerves and specialized spinal cord pre-processing.
+Heightened dexterity allows the mutant to carry out incredible feats of balance, agility and speed.
+Under normal circumstances, this mutant will not trip, fall, stagger.
+Walking on ice is no challenge for this mutant.
+This mutation gives a permanent dexterity bonus of 2 to 8 (2d8) points, and her DEX cannot be less than 15.
+The persona's movement rate should increase accordingly.
+She will also earn a bonus of +30 on any dexterity related rolls and tripled DEX during attribute rolls.
+The mutant's Combat Ratio is increased by +4.
+
+Intelligence::
+This mutant's brain is physically different from that of other personas.
+Her skull is enlarged to accommodate the densely packed blob of neurons.
+Not only is the mutant's head more massive than usual, her head sports cooling gills for the heat produced by the overactive brain.
+When she concentrates on a cerebral topic, her head may hum from increased blood flow.
+This mutation offers a permanent intelligence bonus of 2 to 8 (2d8) points, and her INT cannot be less than 15.
+The mutant has a bonus of +30 on any intelligence-related rolls and tripled INT during attribute rolls.
+The mutant's Combat Ratio is increased by +4.
+
+Physical Strength::
+This mutant has more muscles than usual, and the extra muscles are bigger and better ones. 
+The muscle fibres are larger and more densely packed with the essential chemicals of contraction.
+The mutant has additional new muscles that improve leverage and definition.
 This mutation offers a permanent PSTR bonus of 2 to 8 (2d8) points, and her PSTR cannot be less than 15.
-In addition she will have a tripled PSTR during attribute rolls.
+When making PSTR related attribute rolls the mutants, PSTR is tripled.
+The mutant's Combat Ratio is increased by +4.
 
-*7) Hit Points*:This mutant's body is ready for damage.
-Her blood congeals faster, and can stem a greater hemorrhage than other personas.
-Arteries can seal off, and create alternate blood pathways.
-Her bones are stronger, and her muscles can absorb shock better than normal.
-In general this mutant will look solid and tough.
-The mutant's maximum hit points will be increased by 20% to 80% (2d4 times 10%), and her HPS max cannot be less than 60 hit points.
-This mutant will heal twice as fast as other mutants, and can double her HPS* *when making recovery and damage system shock rolls.
+Hit Points::
+This mutant's body is hardened to all manner of damage.
+Her blood clots faster, her arteries can seal off, and create alternate pathways.
+Her bones are more robust, and her muscles can absorb shock better than average.
+In general, this mutant will look solid and tough.
+This mutation offers a permanent hit point increase of 20% to 80% (2d4 times 10%), and her HPS Max cannot be less than 60.
+This mutant will heal twice as fast as other mutants and doubles her HPS when making a recovery or damage system shock roll.
+The mutant's Combat Ratio is increased by +8.
 
-== 20) Heightened Vision 
+=== Heightened Vision 
 
-// insert table 912
+[horizontal]
+Range:: Special
+Duration:: Until Dead
+Frequency:: As Needed
+General Bonus:: None 
 
-This mutation gives the mutant a special optical ability.
-The heightened vision is in addition to whatever is considered normal vision for the persona.
-She may switch from one form to the other as needed.
-Heightened vision may just be an extension of the normal vision.
-The eyes of this mutant should be visibly different from those of her anthro type.
-Each heightened vision is discussed in the paragraphs following Table 59.12: Heightened Vision__.__
+Heightened vision adds an exotic vision type to the mutant's regular optical sensors.
+The mutant may switch between either vision type as needed.
 
-// insert table 913
+include::ROOT:partial$CH59_Table_Heightened_Vision.adoc[]
 
-*1) Infravision*:This allows the mutant to discern thermal irregularities in objects and the environment.
-Infravision essentially acts as night vision.
-The range of this vision is equal to the mutant's summed MSTR* *and AWE+++<b>+++.
-+++</b>+++If the mutant already has infravision, her infravision range will be extended by that amount.
+Betty Davis::
+Betty Davis eyes will tease and unease personas around the mutant.
+The player must roll dice when using this mutation.
+Other personas will think the mutant is a spie.
+These eyes can expose things but make vision snowy.
+You cannot roll Betty Davis Eyes on the Heightened Vision table. 
 
-*2) Microscopic*:This vision enhancement allows the mutant to adjust the shape of special lenses within her eyes.
-She can magnify the view of items under her nose up to 1000 times.
-This improvers her PT roll by 25 when working with procedures that benefit from microscopy or inspections.
+Infravision::
+Infravision discerns thermal irregularities allowing the mutant to see in darkness.
+This heightened vision is not as detailed as the mutant's mundane vision.
+For example, the mutant cannot separate objects with equal temperature.
+The mutant could easily see a computer monitor in the dark but could not read the monitor's text.
+The range of this heightened vision is equal to the mutant's doubled awareness.
+If the mutant already has infravision, the player can roll again or combine the two infravision ranges.
+Eyes endowed with infravision are highly reflective, like feline eyes.  
 
-*3) Mist Cutting*:This mutant's optical center can filter out the effects of any obscuring particulate matter suspended in the air.
-This includes, smoke, fog, dust, hail, or severe rain.
-This means that the mutant will be able to see through smoke screens, and will not be affected by meteorological conditions.
+Microscopic::
+Microscopic vision allows the mutant to magnify her visual field up to 1000 times.
+To microscopically inspect an object, it must be right under the mutant's beak.
+The mutant enjoys +30 on any rolls that would benefit from the microscopic inspection.
+As the mutant zooms in, her eyes bulge from her face, and her lenses make clicking noises.
 
-*4) Semicircular*:This mutant's eyes are very fish like, overly large, and bulge out of her head.
-These eyes allow her a semicircular view of her surroundings.
-This gives the mutant a +2 on her AWE, and makes it impossible to flank her in combat.
-The mutant's AWE* *is doubled when making an attempt to detect an ambush.
-Any procedure that involves a wide scope of view, like watching for mines during space vehicle combat would benefit from this mutation.
+Mist Cutting::
+Mist cutting allows the mutant to see through particulate matter that would usually obscure her vision.
+Mist cutting sees through smoke, fog, dust, hail, or rain.
+The mutant suffers no attack roll penalties in fog, rain, or smoke.
+When using the mist cutting, a secondary set of translucent eyelids rapidly open and close horizontally.  
 
-*5) Telescopic*:The mutant can clearly read any material up to 10 hexes per point of adjusted AWE+++<b>+++.
-+++</b>+++Her eyes stick out of her head like tubes, and retract with sucking noises as they scan for the correct focus.
-The mutant receives an AWE* *bonus of +1.
-Any attempts to hit with type C weapons are afforded a plus 150 bonus for long range sniping attacks.
+Semicircular::
+Semicircular vision widens the mutant's visual field to nearly 270 degrees.
+This expanded field of vision makes the mutant challenging to ambush.
+The mutant doubles her awareness when detecting an ambush.
+She can also laterally attack without turning her body. 
+This mutant's eyes are enormous and sit closer to her ears than her nose. 
 
-*6) Ultravision*:The mutant's eyes glow red, and are receptive to the ultra-high frequencies of the electromagnetic spectrum.
-This mutation gives the mutant equal night/day vision, the ability to sense radiation, and the ability to visualize electronic circuitry as a live and flowing pattern.
-Ultravision allows the mutant a bonus of +15 on electronic related PT rolls.
+Telescopic::
+The mutant can easily discern text at great distances.
+The mutant's heightened vision has a range of 10 hexes per point of adjusted AWE.
+So a second level mutant with a 12 AWE could easily discern letters at 14 hexes. 
+When using her telescopic eyes, the mutant has +100 on sniping attack rolls.
+The mutant cannot use the telescopic vision with scopes or visual aids.
+This mutant's tube-like eyes stick out past her nose.
+Her eyes make a sucking noise as they continually lengthen and shorten.
 
-*7) X-Ray*:This is classic see through the walls vision.
-The only problem is that the mutant's eyes are radioactive, and expose everything looked into to an intensity 1 radiation attack.
-X-ray vision allows the mutant to see through 1 hex worth of sold material.
-The mutant is familiar with this view of the world, and can recognize her fellow expedition members as collections of radio-opaque bone formations.
+Ultravision::
+Ultravision adds the ultraviolet spectrum to her visual perception.
+This mutation gives the mutant equal night and day vision.
+At close range, she can visualize the activity of electronic circuitry.
+Ultravision gives the mutant a bonus of +15 on any electronic related rolls.
+The mutant's eyes glow bright red in both darkness and daylight.
 
-== 21) Increased Metabolism 
+X-Ray::
+X-Ray vision employs radioactive beams that penetrate otherwise opaque materials.
+The range of x-ray vision is one hex per 8 points of adjusted awareness.
+The mutant can look at bones through flesh, look through concrete walls, and find weapons at a glance.
+The mutant cannot see through metal, discern text on a page, or read a computer monitor.
+Using X-ray vision adds +30 to any rolls that would benefit from an x-ray view. 
+X-Ray eyes are dangerous and radioactive, and using them counts as a radiation attack.
+The intensity of the attack is equal to the range of the mutant's X-ray vision.
+The flesh around this mutant's eyes is thickened and leathery, and her eyeballs are black.
 
-// insert table 914
+=== Launchable Quills 
 
-The metabolism of this mutant operates at a rate 3 times greater than the normal for her anthro type.
-All of her bodily functions are running at 3 times the normal rate.
-This mutation requires an intake of 3 times more food than normal, just to keep from starving to death.
-The mutant will always appear emaciated, no matter how much she eats.
-For example 3 food cultures would have to be consumed by the mutant each day instead of the regular 1.
-This mutation is a defect, and does not count as a start up mutation.
-The player should get another roll on the Physical Mutations Table.
+[horizontal]
+Range:: 1h per Adjusted PSTR
+Duration:: Special
+Frequency:: Special
+General Bonus:: Special
 
-== 22) Launchable Quills 
+The mutant has up to a dozen launchable quills hanging from her chest. 
+In the resting position, the quills hide easily under clothing and armour.
+When activated, the quills elevate into a launching position. 
+Restrictive armour and clothing prevent the launching of the quills.
 
-// insert table 915
+The mutant will have 2-12 (2d6) quills growing from the center of her torso.
+The quills clump together and fire as a salvo.
+There is a small chance that the quills will have poison.
+The percent chance of having poisonous launchable quills is equal to the mutant's constitution. 
+A mutant with a 14 CON has a 14% chance of having poisonous quills.
 
-On this mutant's chest there are 2-12 tightly packed quills.
-These can be elevated into a horizontal position, and launched by pressurized methane gas.
-Initially all quills must be launched at once.
-For each level of experience an additional quill may be held back per attack.
-These missile weapons have a range of 1 hex per point of adjusted PSTR+++<b>+++, +++</b>+++and do 1-8 points of damage.
-Treat each quill as a type B weapon attack.
-One quill will grow back after each 8 hours of sleep.
-The mutant's armour must be appropriately tailored to use this mutation properly .
+The mutant launches the quills by muscular contraction and compressed gas. 
+Launchable quills are attack type B.
+The mutant launches all her quills at once, and a successful attack roll inflicts 1-8 (1d8) per quill launched.
+A mutant that launches six quills would inflict 6d8 damage plus her type B Damage Adjustment.
+Launchable quills can be a fearsome attack with or without poison.
+For poisonous quills, the target must win a poison roll or take killing damage.
+The poison intensity is equal to the mutant's constitution score.
 
-There is a 33% chance that 1 to 4 (d4) of the launchable quills will be poisoned.
-Launchable poisoned quills are similar launchable quills except that each quill delivers a lethal poison.
-The intensity of the poison is equal to the mutant's CON+++<b>+++.
-+++</b>+++If the target fails her saving throw versus poison then she will take poison damage in addition to the d8 of puncture damage.
+The mutant can hold back one quill per EXPS Level.
+A 3rd Level mutant with six quills could launch all six at once, three and then three, etc.
+There is no difference between the intensity of poison or Type B Damage Adjustment made by different sized salvos.
 
+Launchable quills increase the persona's combat ratio by +3.
+If the quills are poisonous, the combat ratio triples.
 
-== 23) Light Generation 
+=== Light Generation 
 
-// insert table 917
+[horizontal]
+Range:: 1h per Adjusted CHA
+Duration:: Special
+Frequency:: 1 per 4 Adjusted CON
+General Bonus:: Combat Ratio *2
 
-This mutant is in a symbiotic relationship with a subdermal light emitting organism.
-The mutant's nervous system can release chemicals which excite and depress the colonies of unicellular organisms.
-They in turn produce vitamins and hormones essential to the mutant's survival.
-This mutant can radiate light in a radius equal to 1/4 her MSTR.
-If desired, the mutant can project a beam emitting from her forehead, extending straight ahead for 1 hex per point of adjusted PSTR.
-All of this is done by exciting certain subdermal colonies, and depressing others.
-Such ambient manipulations of light can be produced as needed
+This mutant is in a symbiotic relationship with subdermal light-emitting organisms.
+The mutant's nervous system releases chemicals that excite or depress the colonies of glowing organisms.
+The mutant controls how she emits the light from her body.
 
-During periods of intense stress, like combat, the mutant can make the light producing colonies strobe violently.
-This is the offensive version of light generation.
-The mutant attacks by strobing a flash of light into the sensors of an opponent.
-The bolt stems from the orbits of the mutant's own eyes, and is focused by her lenses.
-The flash attack has a range of 1 hex per point of adjusted MSTR.
-The flash attack exhausts the organisms, limiting the attacks use.
-The flash mutation can be used no more than once a day per 4 points of adjusted CON.
+.*Steady Glow*
+The mutant glows steadily. 
+She can change the colour and brightness for convenience or mood.
+With regular skin exposure and clothing, she can light up the adjacent hex around her. 
+The mutant can run dark in cases of emergency.
+The symbiotic relationship between the mutant and organisms requires them to glow for the wellbeing of them both.
 
-The flash attack inflicts no damage, but a save vs mental attack must be made or temporary blindness will result.
-Blind targets cannot fight properly, and suffer extreme combat penalties (see http://expgame.com/?page_id=314[C]http://expgame.com/?page_id=314[hapter 17: Combat Adjustments]).
+.*Flashlight*
+The mutant can organize the organisms to locate in a specific part of her body, and she can emit a beam of light from there.
+The flashlight is often the mutant's forehead, but sometimes the palm or knee has been used.
+If desired, the mutant can project a beam emitting from her forehead, extending straight ahead for one hex per point of adjusted PSTR.
+The mutant can produce the flashlight as needed.
+
+NOTE: This mutation variation was previously called "fleshlight." The adult toy market now has this moniker firmly in its grip.
+
+.*Flash Attack*
+The mutant can excite the glowing organisms to emit a violent blast of blinding light.
+The bolt shoots from the mutant's eyes.
+The flash attack is exhausting for the symbiotes, and the mutant can barely glow until they have recuperated. 
+
+The target must win an awareness roll or be temporarily blinded.
+The intensity of the attack is equal to the mutant's charisma attribute.
 Blindness will last 1 to 6 minutes (30 units per minute).
-If the save is successful the opposing creature's vision will still be impaired.
-The blurry vision will last for 2 to 20 (2d10) units . Visually impaired targets suffer from tearing eyes, and light sensitivity, but they can still functions.
-Their penalties are -200 on attack rolls, -200 on armour&8221;
-rating, +2DD on vision requiring PT rolls, half attribute on DEX rolls, and other stumbling sorts of problems.
-This attack will have the same effect on the mutant if it is projected onto a reflective surface.+++<figure id="attachment_5361" aria-describedby="caption-attachment-5361" style="width: 215px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/Refrigererator_man-215x300.png?resize=215%2C300[Cool man.
-,215]](https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/Refrigererator_man.png)+++<figcaption id="caption-attachment-5361" class="wp-caption-text">+++Cool man.+++</figcaption>++++++</figure>+++
+If she wins the awareness roll, she will suffer blurry vision for 2-20 (2d10) units.
+Targets with blurred vision have tearing eyes, light sensitivity, and can barely function.
+Targets with blurred vision suffer -200 on attack rolls, -200 on AR, +8DD performance rolls, half movement, etc.
 
-== 24) Mechanical Insertion 
+//+++<figure id="attachment_5361" aria-describedby="caption-attachment-5361" style="width: 215px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/Refrigererator_man-215x300.png?resize=215%2C300[Cool man.,215]](https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/Refrigererator_man.png)+++<figcaption id="caption-attachment-5361" class="wp-caption-text">+++Cool man.+++</figcaption>++++++</figure>+++
 
-// insert table 918
+=== Mechanical Insertion 
 
-Somewhere along the course of this mutant's life she had a piece of inorganic equipment installed into and integrated with her body.
-It may have been done surgically, she may have fallen on it, her mother might have swallowed it, or it may defy all logical explanation.
+[horizontal]
+Range:: Special
+Duration:: As Needed
+Frequency:: As Needed
+General Bonus:: 
+
+Sometime, somewhere, somehow this mutant's body became integrated with an inorganic device.
+It may have been surgically attached, she may have fallen on it, or her mother might have swallowed it.
+A mutant rarely knows how the device became part of her. 
+
+
+, or it may defy all logical explanation.
 This mutation is hard to prepare since the referee must also generate a random toy to be inserted.
+
+
+
 Whatever the artifact turns out to be, it will be completely integrated with the mutant's nervous system.
-If she has a video cassette player [ed.
+If she has a video cassette player 
+
+[ed.
+
+
 note old video storage system] built into her chest she will be able to control its recording time, rewind, fast forward, scanning, and eject as easily as she could carry out any other bodily function.
 
 The only limit recommended here is that the wate of the artifact not exceed 10% of the mutant's wate.
 All other restrictions are determined by the referee.
-For instance the referee may feel that a fusion bomb would be an inappropriate mechanical insertion.+++<figure id="attachment_5362" aria-describedby="caption-attachment-5362" style="width: 203px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/mechanicalparts.676-203x300.png?resize=203%2C300[Spring in your step.,203]](https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/mechanicalparts.676.png)+++<figcaption id="caption-attachment-5362" class="wp-caption-text">+++Spring in your step.+++</figcaption>++++++</figure>+++
+For instance the referee may feel that a fusion bomb would be an inappropriate mechanical insertion.
+
+//+++<figure id="attachment_5362" aria-describedby="caption-attachment-5362" style="width: 203px" class="wp-caption aligncenter">+++[image:https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/mechanicalparts.676-203x300.png?resize=203%2C300[Spring in your step.,203]](https://i0.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/mechanicalparts.676.png)+++<figcaption id="caption-attachment-5362" class="wp-caption-text">+++Spring in your step.+++</figcaption>++++++</figure>+++
 
 == 25) Mechanical Prosthesis 
 
@@ -832,7 +935,8 @@ If the mutant receives no bonuses from this mutation, it will not count as a sta
 
 // insert table 923
 
-*1) Arms*:The mutant will have 1-4 extra arms protruding from her chest.
+Arms::
+The mutant will have 1-4 extra arms protruding from her chest.
 The arms will always be symmetrically aligned.
 The extra arms are fully functional arms that the mutant can use.
 This will allow her to use her two right arms to attack twice a unit , but she would only be able to attack with two pairs of right and left arms if she were ambidextrous.
@@ -842,12 +946,14 @@ For those mutants with an odd number of arms (meaning one centered limb) handedn
 The extra arm will increase the mutant's CR by one per extra limb.
 A PSTR attribute roll maybe given when it involves holding onto things, or multiple DEX rolls may be given when trying to grab things.
 
-*2) Ears*: 1-6 extra ears sprout from this mutant's head.
+Ears::
+ 1-6 extra ears sprout from this mutant's head.
 Half of them will be useless decorations if more than three are rolled.
 For every functioning extra ear that the mutant has she will get an attribute bonus of +1 on her AWE+++<b>+++.
 +++</b>+++There is also a penalty of -2 on CHA if the mutant has an odd number of ears.
 
-*3) Eyes*:1-6 tiny eyes, in addition to her normal eyes, are found on the mutant's forehead half of these eyes will be blind.
+Eyes::
+1-6 tiny eyes, in addition to her normal eyes, are found on the mutant's forehead half of these eyes will be blind.
 The mutant will earn +42 on her attack rolls, and +1 on AWE for every seeing eye imbedded on her forehead.
 The mutant will suffer a CHA penalty of-3 if the total number of eyes is an odd number.
 CR increases by +1 per extra seeing eye.
@@ -862,7 +968,8 @@ This mutant has a negotiation adjustment penalty of-10%.
 This mutation variant is a defect and does not count as a start up mutation.
 The player should roll again on the Physical Mutations Table, or the Multiple Body Parts Table.
 
-*6) Head*: This diminutive, lifeless, wrinkled head has many of the same neural connections as the mutant's normal head.
+Head::
+ This diminutive, lifeless, wrinkled head has many of the same neural connections as the mutant's normal head.
 So the extra head's facial expressions will mimic those of the mutant.
 There is also a chance that the head will betray the real emotions of the mutant.
 The extra head cannot be covered up, because it will immediately make gasping and coughing noises with its mouth.
@@ -870,20 +977,23 @@ The additional head gives the mutant penalties of-5 on charisma and -30% on nego
 This mutation variant is a defect and does not count as a start up mutation.
 The player should roll again on the Physical Mutations Table, or the Multiple Body Parts Table.
 
-*7) Legs*:This creature has two to seven extra legs (d6 plus 1).
+Legs::
+This creature has two to seven extra legs (d6 plus 1).
 This will increase the mutant's speed by 20% per extra leg.
 Thus a mutant with 5 extra legs would double her movement rate.
 CR increases by in crpased movement percentage.
 E.g., a movement rate increase of +50% would increase the CR by 1/2.
 
-*8) Mouths*:The mutant has 1 to 3 extra mouths.
+Mouths::
+The mutant has 1 to 3 extra mouths.
 These mouths are smaller than the mutant's regular mouth, and they join to it by short oral passages.
 The extra mouths can salivate, chew, spit and eject vomit, but they cannot talk.
 There is a CHA penalty of-1 per extra mouth.
 This mutation variant is a defect and does not count as a start up mutation.
 The player should roll again on the Physical Mutations Table, or the Multiple Body Parts Table.
 
-*9) Noses*:The mutant's face is covered with growths of flesh and cartilage that resemble noses.
+Noses::
+The mutant's face is covered with growths of flesh and cartilage that resemble noses.
 These specialized outcroppings constantly have a mucous like substance dribbling out of them.
 If the mutant should happen to sneeze she is better off covering her whole face with a handkerchief.
 This mutation will make the mutant sneeze often.
@@ -1304,24 +1414,28 @@ The effects of each poison are discussed in the following paragraphs.
 
 // insert table 949
 
-*1) Death*:A highly toxic spittle of death is released by this mutant.
+Death::
+A highly toxic spittle of death is released by this mutant.
 Any organic personas hit by this attack must save versus a poison.
 Those who do not save will take damage from the attack.
 This poison inflicts a 1d4 hit points in damage per point of poison intensity.
 Those targets which do save will only take half damage.
 The poison intensity is 1 to 8 plus experience level
 
-*2) Nausea*:Those that fail their saving throw will be incapacitated with nausea.
+Nausea::
+Those that fail their saving throw will be incapacitated with nausea.
 They will be unable to act for 1 to 8 minutes (30 units).
 Those that make their saving throw will be unaffected by the poison.
 The poison intensity is 1 to 8 plus experience level.
 
-*3) Paralysis*:The paralysis poison leaves its affected targets unable to move any of their voluntary muscles for 3 to 30 (3d10) units.
+Paralysis::
+The paralysis poison leaves its affected targets unable to move any of their voluntary muscles for 3 to 30 (3d10) units.
 The save must be made by anyone that is hit by the spittle.
 Those that make their saving throw will be unaffected by the poison.
 The poison intensity is 1 to 8 plus experience level.
 
-*4) Unconsciousness*:This nasty spittle causes instantaneous unconsciousness for those organic creatures that do not save vs poison.
+Unconsciousness::
+This nasty spittle causes instantaneous unconsciousness for those organic creatures that do not save vs poison.
 Targets will remain unconscious until awakened.
 In a normal combat setting this would be 0 to 3 units.
 Otherwise they will lay dormant for days.
@@ -1348,37 +1462,46 @@ The strange new body parts are discussed in the following paragraphs.
 
 // insert table 952
 
-*1) Antennae*:The mutant has a pair of insectoid like antennae sticking out of the top of her head.
+Antennae::
+The mutant has a pair of insectoid like antennae sticking out of the top of her head.
 There is a 90% chance that the antennae will give the mutant a sensor skill similar in effect to Sonar (Mental Mutation ).
 
-*2) Ears*:The mutant has a pair of unique ears, large elephant ears, or floppy rabbit ears.
+Ears::
+The mutant has a pair of unique ears, large elephant ears, or floppy rabbit ears.
 The ears are purely decorative, and this mutation does not count as a startup mutation.
 The player can roll again on the Physical Mutation Table.
 
-*3) Eyes*: Giant bug out oversized reflective eyes give this mutant a wide angle view of life.
+Eyes::
+ Giant bug out oversized reflective eyes give this mutant a wide angle view of life.
 Improving the chance to notice ambush by doubling her AWE during ambush.
 
-*4) Eyestalks*: The mutant's eyes are now located atop retractable and articulated eyestalks.
+Eyestalks::
+ The mutant's eyes are now located atop retractable and articulated eyestalks.
 The mutant can extend her eyes from her head by about 30 cm.
 She could use these to increase her cover when firing around a corner.
 
-*5) Fins*: The mutant will have a dorsal stabilizing fin, and webbed hands and feet.
+Fins::
+ The mutant will have a dorsal stabilizing fin, and webbed hands and feet.
 This mutation will allow any persona to swim in water at a speed equal to her movement rate on land.
 
-*6) Gills*:These gills are located on the side of the mutant's neck, and offer her an additional breathing apparatus.
+Gills::
+These gills are located on the side of the mutant's neck, and offer her an additional breathing apparatus.
 The gills function both in and out of water, and allow her to breath in liquid.
 
-*7) Horns*:The mutant has a set of horns sticking out of the sides of her head.
+Horns::
+The mutant has a set of horns sticking out of the sides of her head.
 There will be 1 to 4 pairs of horns located on her head.
 The horns are purely decorative, and do not count as a start up mutation.
 The player can roll again on the Physical Mutation Table.
 
-*8) Mouth*:The mutant's mouth is replaced with some other sort of obscure oral access device.
+Mouth::
+The mutant's mouth is replaced with some other sort of obscure oral access device.
 Like a beak, trunk, proboscis, or an osmotic absorptive sheet.
 The strange new mouth is purely decorative, and does not count as a start up mutation.
 The player can roll again on the Physical Mutation Table.
 
-*9) Nose*:This mutant has a strange new nose.
+Nose::
+This mutant has a strange new nose.
 It can be missing, inverted, elephant like, clown like, merely a hole, or some other peculiar variation.
 The strange new nose is purely decorative, and does not count as a start up mutation.
 The player can roll again on the Physical Mutation Table.
@@ -1392,24 +1515,29 @@ The mutant can reel the oral grapple in using her PSTR.
 The oral grapple will be severed if it takes more than 15% of the mutant's hit point maximum in one attack.
 A severed grapple will grow back in 1 to 6 months.
 
-*11) Pincers*:Protruding from the mutant's mouth are a pair of large serrated pincers.
+Pincers::
+Protruding from the mutant's mouth are a pair of large serrated pincers.
 The mutant can dexterously manipulate her food with these pincers, or she can use them to violently attack as a type A weapon.
 If a hit is scored they will inflict 1 to 8 (1d8) hit points in damage.
 
-*12) Spike*:The spike resembles a unicorn's spike sticking from the persona's forehead, and it can be used in the same fashion.
+Spike::
+The spike resembles a unicorn's spike sticking from the persona's forehead, and it can be used in the same fashion.
 The spike can be used as a type A weapon that inflicts 1 to 12 (1d12) HPS in damage.
 
-*13) Tail*: The mutant has a nice long articulated tail protruding from her hindquarters.
+Tail::
+ The mutant has a nice long articulated tail protruding from her hindquarters.
 This tail can be used to manipulate objects, or to lift the mutant from the ground.
 The tail is fully functional and acts as an extra articulation.
 
-*14) Tentacles*:The mutant will have 1 to 6 tentacles replacing 1 to 4 limbs.
+Tentacles::
+The mutant will have 1 to 6 tentacles replacing 1 to 4 limbs.
 Each tentacle rolled will replace one limb.
 If there are 5 or 6 tentacles replacing 4 limbs then the mutant will have 1 or 2 extra limbs.
 She will be able to use the extra limbs as arms or legs depending on what is needed at the time.
 For example, she could have extra attacks, or increase her movement by 10% per extra limb.
 
-*15) Turtle Shell*:This mutant has a fully functional turtle shell into which she can retract her arms, legs, head and what ever other appendages she has.
+Turtle Shell::
+This mutant has a fully functional turtle shell into which she can retract her arms, legs, head and what ever other appendages she has.
 The shell is very strong, and when completely retracted into it the mutant's AR is 777, and she is immune to poisons, gases, and has a doubled CON versus radiation.
 The shell can withstand twice the mutant's HPS Maximum before it will break.
 The turtle shell will heal one quarter the normal healing rate.
@@ -1538,24 +1666,23 @@ Maneuver rolls are discussed in http://expgame.com/?page_id=277[Chapter ]http://
 The mutant would have to be flying faster than 18 h/u to before being required to make driving PT rolls.
 The wingspan of the mutant is such that she is unable to fly indoors, requiring at least a 2 hex wide corridor for maneuvering, and at least a 3 hex ceiling.
 
-
+== Mutation Sub Tables
+When you quickly need a specific type of mutation
 
 === Defective Mutations
-
-The Defective Mutations Subtable:Table 59.2, Defective Physical Mutations Subtable is a very specific subtable used by the referee when she desires to roll a defective mutation, but does not wish to keep rolling the Physical Mutations table until she gets one A roll of 86 on this table would indicate physical mutation 53, Undersized Body Parts.
+Nature, pharma, or side effect. 
+Here is where you unleash biomagical tragedy.
 
 include::ROOT:partial$CH59_Table_Defective_Physical_Mutations.adoc[]
 
 === Combat Mutations
-
-The Combat Physical Mutations is used by the referee when she desires to roll a combat mutation, but does not wish to keep rolling the Physical Mutations table until she gets one.
-Players do not use this table unless they are specifically directed to acquire a combat mutation.
-
+Nature, pharma, malfunction, or evolution.
+Here is where you unleash genetic violence.
 
 include::ROOT:partial$CH59_Table_Combat_Physical_Mutations.adoc[]
 
 === Non Combat Mutations
-
-The Non-Combat Physical Mutations subtable is used by the referee when she desires to roll a non combat mutation, but does not wish to keep rolling the Physical Mutations table until she gets one.
+Nature, pharma, malfunction, or evolution.
+Here is where you unleash genetic curiosity.
 
 include::ROOT:partial$CH59_Table_Non-Combat_Physical_Mutations.adoc[]
