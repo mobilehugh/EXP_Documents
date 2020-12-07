@@ -5,341 +5,196 @@ ____
 *We like dice and arithmetic!*
 ____
 
-Roll playing refers a game system that depends heavily on die rolls.
-Rolling dice does not preclude telling stories, or playing personas with character and passion.
-Those who roll play simply enjoy dice and tables and details.
+Roll playing refers to a game system that depends heavily on dice rolls.
+Rolling dice does not preclude telling stories or playing personas with character and passion.
+The Roll Playing Rules depend on the dice to determine outcomes rather than relying on players to determine effects.
+For example, the Roll Playing Rules determines a failed grenade attack with tables and dice rolls. 
+When using the Role Playing Rules, the players would determine what happens with a failed grenade attack. 
+The storytelling is still up to the players in both rulesets.
+The Roll Playing Rules chance has a more significant impact on the outcomes of the storytelling.
 
-EXP's rule set is written as a roll playing rule set.
-EXP has always rewarded role-playing and story telling within it's roll playing world.
-EXP has always had two combat systems: Tactical for roll playing and theatrical for role-playing. 
-In this version of EXP the two have been teased apart and sit as two separate systems.
+The Roll Playing Rules use the tactical combat system and the xref:i-roll_playing_rules:CH00_kilo_die_mechanic.adoc[Kilodie Mechanic, window=_blank].
+This ruleset works best with hex paper and miniatures on a huge table.
+The Roll Playing Rules have been waiting on the virtual tabletops of today for decades. 
+The Roll Playing Rules employ all kinds of dice in all sorts of unique combinations.
+A lot of arithmetic and reading is required. 
+Onboarding of new players requires patience and supportive teaching. 
 
-NOTE: *Combat in the Roll Playing System is designed for minis and hex paper.*
+.*Roll Playing Rules are for you if...*
+* You play different RPGs
+** If you don't know what an RPG is, Roll Rules are not for you
+* You like to roll dice
+* You are not afraid of arithmetic
+* You like details
 
-using Roll vs Role is a tactical decision.
+NOTE: *Combat in the Roll Playing System works best with miniatures on hex paper.*
 
 
-== Pedantry and Procedures
-The words bonus, penalty, proficiency, skill, and ability are used throughout this text.
-In EXP each has a specific meaning in how it affects the player and her persona.
-A skill is a learned and improvable measure of a procedure.
-An ability is a built in procedure limited to the persona by vocation or species.
-Sadly these are used interchangeably due to lack of vigilance and legacy from the last millennium.
-Hopefully the following glossary will help tease things apart.
+// philosophy of dice 
+// role of the random in the roll
 
-=== Rolling Things
-A bonus is anything added to a die roll that benefits the player and her persona.
-A bonus is different from an adjustment in that an adjustment could be a benefit or a detriment.
-Due to a lack of vigilance and legacy bonus and adjustment are often used interchangeably.
+== Kilodie Mechanic
+The kilodie is a unique die roll unique to EXP.
+This die roll exists in the tactical combat system.
+The tactical combat system is the bespoke combat system for the Roll Playing Rules.
+The kilodie generates a number between 1 and 1000.
+To learn how to use it see xref:i-roll_playing_rules:CH00_kilo_die_mechanic.adoc[Kilodie Mechanic, window=_blank].
+The tactical combat system depends on the kilodie roll.
+All combat adjustments from armour rating to attack rolls use the kilodie mechanic.
 
-Adjustment:: 
-Anything that alters the chances of the player and persona being successful.
+It is conceivable to extend the kilodie mechanic to replace all rolls in EXP.
+However, kilodie rolls do not create a nice curve.
+On a kilodie, 001, 042 and 1000 are equally likely.
+Rolling 3d6 does create a nice curve.
+On 3d6, 3 and 18 are rare, and 9 is very common.
+The 3d6 makes for more organic results with common and uncommon numbers.
+
+== Embrace The High Roll
+The higher a player rolls on the dice, the better it is for her persona.
+When the player is rolling dice to see what happens to her persona, rolling high is almost always her advantage.
+When the referee is rolling dice to see what happens to her referee persona, rolling high is better for the referee persona.
+There are exceptions to embracing the high roll, but the higher number of the better for the vast majority of rolls.
+The gory details of all the possible rolls are discussed in xref:i-roll_playing_rules:CH16_Special_Rolls.adoc[All Those Rolls, window=_blank].
+A quick overview of significant rolls is covered below.
+
+== Adjusting Rolls
+In the Roll Playing Rules, dice rolls can are subject to many adjustments.
+In keeping with embracing the high roll, positive adjustments help the persona, and negative adjustments hinder the persona.
+For example, a bonus of plus three would add points three points to the player's die roll.
+Bonuses make success more likely, but success is not guaranteed.
+Physically strong personas increase their damage when using striking weapons.
+A damage adjustment is a bonus that increases a damage roll.
+
+Adjustments:: 
+Any number that alters a dice roll is an adjustment.
 An adjustment could be beneficial or detrimental.
+
 Bonus:: 
-An adjustment that is beneficial to the player and her persona.
-Usually a number that is added to a die roll to improve (not guarantee) the chance of success.
+A bonus is any adjustment that benefits the player's dice roll by increasing its value.
+Usually, a number is added to the die roll to improve (not guarantee) the chance of success.
+For example, the player increases her attack roll by adding her proficiency bonus to the attack roll. 
+
 Penalty:: 
-An adjustment that is detrimental to the player and her persona.
-Usually a number that is subtracted from a die roll to decrease the chance of success.
-
-=== Doing Things
-Proficient is a linguistically expensive way to say highly skilled. 
-Being proficient guarantees a quality level to the skill.
-In EXP proficiency is exclusively used to represent weapon knowledge.
-Use of this term is legacy from the last millennium. 
-
-Proficiency:: 
-Indicates a knowledge level to perform *well* at something.
-A proficiency can be learned by a persona.
-Proficiencies are binary (on/off).
-A persona is proficient or she is not.
-Proficiencies do not improve like a skill.
-There is no proficiency +4 being better than proficiency +2.
-For example, a persona can be proficient with a spear using it properly in all circumstances.
-
-Ability::
-Indicates a knowledge to be able to perform something.
-An ability is not learnable.
-Abilities are binary (on/off).
-A persona has an ability or she does not.
-Abilities do not improve like a skill.
-There is no ability +4 being better than ability +2.
-For example, a Nomad persona has the ability to try and find water anywhere.
-Find water is a built in nomad ability not possessed by other personas.
-
-Skill::
-Indicates a knowledge to be able to perform something.
-A skill is learnable.
-A skill can be improved over time.
-Skills have levels that represent how skilled the persona is.
-Juggling 4 is better than juggling 2. 
-The higher the skill level the better the chance of success for the persona.
-For example, improving a vet's genetics skill from 2 to 4 would improve her chances of success with genetics procedures.
-
-Gift::
-A gift is a usually an ability that is not explainable on the physical plane.
-A gift cannot be learned, understood or taught by a persona. 
-A gift may be something that is awakened, like a mental mutation.
-A gift could also be a skill or a proficiency but it usually inexplicable.
-For example, the knite ability to use suggestion is an inexplicable gift. 
-The term gift is used interchangeably with skills and abilities.
-
-
-There is a difference between skill, ability and proficiency though.
-A skill can be learned and improved. 
-Most skills can be learned and are assigned levels.
-For example, juggling 2 can advance to juggling 4.
-Most abilities are built in and are not learnable. 
-For example, a nomad can find water it is not a learned skill.
-A proficiency is an on off measure. 
-
-
-
-
-
-== Roll Playing Rules
-// all your rolls are belong to us
-// dice tables outcomes decided by dice and tables.
-
-== List of Roll Playing Rules
-This is the proposed nav.adoc for section ii
-
-.*Combat*
-* Tactical Combat System
-** 15 completed
-.*Non-Combat*
-* 13 completed
-** Generation
-** Artifact Identification
-** Artifact Damage
-
-== Roll Playing
-
-.Success vs Random
-. Success roll 
-.. affects the persona in that moment
-.. have a success, tie fail outcome
-. Random rolls 
-.. deterministic 
-.. randomly decide a skill, Toy or description
-.. may be good, bad or indifferent, but not success fail
-
-.Success Rolls
-. Static Rolls (one roll vs fixed number)
-.. attack roll
-.. Saving Throws
-.. Attribute Checks - within one persona (same as a save?)
-.. PT Rolls
-. Dynamic Rolls (one roll vs one roll)
-.. Attribute Challenge - between 2 personas
-.. Sphincter Dice
-
-== Embrace the KiloDie?
-Fine in tactical combat. 
-Not yet for generative tables.  
-Goal is to removed the 1d100 so common on artifact tables. 
-Probably move to kilodie generative tables in 2025.
-Won't be a challenge as automation should be up and running by then.
-
-== Embrace the High Roll
-Completed.
-
-
-// strive for the goal of high rolls always win.
-
-== All rolls are to challenge rolls
-* the attack roll is a specialized challenge roll versus an armour rating with random effect (damage).
-** 1d1000 vs AR
-* saving throw is against an intensity, random or assigned
-** 1d20 vs intensity
-* performance table special vocation skill roll with success or partial success.
-** 1d100 vs table result
-
-.Steps to a Challenge
-. Determine Challenge type
-.. Attribute
-.. Poison
-.. Psionic
-. Player Rolls Challenge
-.. 1d20 plus attribute plus level
-. Referee Counter Challenge
-.. difficulty fixed
-.. difficulty random
-.. difficulty special
-. Compare Results
-.. player higher, player success
-.. referee higher, player loss
-.. tie is partial success player
-
-
-== data from python test
-Ran average attribute for an anthro and average roll on 1d20 shooting for 60% chance of success.
-
-* attribute 10 v base 18 = 60%
-* attribute 10 v base 19 = 55%
-* attribute 10 v base 24 = 29%
-* attribute 10 v base 32 = 0%
-* attribute 11 v base 32 = 0%
-* attribute 18 v base 32 = 30%
-* change it up
-* attribute 10 v base 18 = 59%
-* attribute 12 v base 18 = 70%
-* attribute 14 v base 18 = 80%
-* attribute 16 v base 18 = 90%
-* attribute 18 v base 18 = 99%
-
-
-Below is a challenge roll table
-
-include::ROOT:partial$CH16_Table_Challenge_Rolls.adoc[]
-
-// below in doc table is irrelevant
-
-Below is a difficulty roll table
-
-include::ROOT:partial$CH16_Table_Attribute_Roll_Difficulty.adoc[]
-
-
-
-// Table 16.2 Attribute Roll Difficulty
-.*Player Centric Challenge Rolls Examples*
-[width="75%",cols="4*",frame="all"]
-|===
-
-4+<|All attributes are leveled. PSTR + EXPS Level
-
-4+<s|Player trying to arm wrestle another persona 
-s|Difficulty
-s|Player
-s|Referee
-s|Success
-
-|Normal
-|1d20 + PSTR 
-|1d20 + PSTR  
-|Player wins wrestle.
-
-4+<s|Paralysis poison attack intensity 13. 
-s|Difficulty
-s|Player
-s|Referee
-s|Success
-
-|Normal
-|1d20 + CON 
-|9 + 13  
-|Player not paralyzed.
-
-4+<s|Player projecting illusion psionic attack. 
-s|Difficulty
-s|Player
-s|Referee
-s|Success
-
-|Normal
-|1d20 + MSTR 
-|1d20 + MSTR  
-|Target sees illusion.
-
-4+<s|Psionic attack (sleep) on player. 
-s|Difficulty
-s|Player
-s|Referee
-s|Success
-
-|Normal
-|1d20 + MSTR 
-|1d20 + MSTR  
-|Player stays awake.
-
-4+<s|Persona breaking down hollow Home Despot door. 
-s|Difficulty
-s|Player
-s|Referee
-s|Success
-
-|Easy
-|1d20 + PSTR 
-|6  
-|Door succumbs.
-
-4+<s|Persona breaking down very secure door. 
-s|Difficulty
-s|Player
-s|Referee
-s|Success
-
-|Easy
-|1d20 + PSTR 
-|6  
-|Door succumbs.
-
-|===
-
-
-== Glossary of Tactical Combat
-
-Bonus non-proficient (BNP):: 
-The to-hit roll bonus used when the persona is using an unfamiliar weapon. 
-This value is less than the regular to-hit roll bonus.
-
-Bonus proficient (BP):: 
-The to-hit roll bonus used for skilled weapons.
-Weapon skills are limited to combat vocations.
-
-Damage Adjustor (DA):: 
-This value is added to the damage roll for certain weapon types. 
-The stronger the persona is, the more damage she will inflict.
-
-
-Amour Rating (AR):: 
-The amour rating of the persona indicates how well she is protected from damage in combat. 
-The higher the armour rating value the less likely she is to be damaged.
-
-Initiative:: 
-Initiative is a way of determining the order of play between the personas. 
-Initiative  includes  speed, skill and luck of the persona.
-
-Maximum Roll (MR):: 
-This is the highest possible to-hit roll that the player can roll. 
-The MR is determined by attributes, experience level and weapon type.
-
-
-Saves:: 
-A save is a special kind of roll that refers to non-combat challenges.
-Saves are using rolled against a unique attack.
-Save vs poison and save vs mental attack are the most famous.
-If the player misses the saving throw their persona is subjected to the attack.
-
-Attack Roll:: 
-Attack roll is a combat term.
-It indicates that an attacker is trying to damage her opponent. 
-The higher the attack roll the more likely to damage the target.
-An attack roll that is higher than the target's armour rating is called a hit.
-An attack roll that is less than the target's armour rating is called a miss.
-
-
-Attack Type A:: 
-Attack Type A are non-powered thrusting and striking attacks. 
-Examples are swords, clubs, daggers, axes, claws, fists, and hooves.
-
-Attack Type B:: 
-Attack Type B are non-powered projectile attacks. 
-These attacks are ranged but are not mechanically powered. 
-Examples are bows, rocks, darts, bolos, shooting quills, or spitting acid.
-
-Attack Type C:: 
-Attack Type C are powered attacks of any sort. 
-Powered weapons require no physical effort by the persona to cause damage. 
-Examples are lasers, rifles, crossbows or aerosols. 
-
-Damage:: 
-Whenever a hit is scored in combat, the persona loses hit points. 
-The amount of hit points lost is the damage. 
-The more lethal an attack, the more damage it inflicts.
-
-Hit:: 
-A hit is a combat term that indicates a target has been damaged. 
-When a hit is scored, the target usually loses hit points.
-
-
+A penalty is any adjustment that impairs the player's dice roll by decreasing its value.
+Usually, a negative number is added to the die roll to decrease the chance of success.
+In heavy fog, the player adds a negative number to her attack roll. 
+
+== Abilities and Skills
+The most common way players adjust their dice rolls is through their persona's attributes, knowledge, and experience.
+Personas have attributes that determine their intelligence and dexterity.
+Personas have family types that determine species-specific abilities.
+Personas can have mutations that grant unique abilities.
+Personas have vocations that determine particular aptitudes and areas of expertise.
+
+=== Ability
+Abilities are innate abilities that only the persona can possess.
+An ability is not learnable and comes baked in with the persona.
+A rodent persona can see in the dark. 
+This ability does not change over time, and another persona cannot learn this ability. 
+A mutation may allow a mutant to vomit poison gas.
+The mutation is an ability unique to that mutant, and another persona cannot learn this ability. 
+Abilities may improve slightly as the persona gains more experience, but abilities don't have scores like skills or proficiencies.
+
+==== Gift
+A gift is the kind of ability that cannot be explained by biology, chemistry or physics in Physical Space.
+A gift is not learnable, teachable or understandable by the persona.
+The mystical warriors called knites have inexplicable powers that are more gifts than abilities.
+A mutant with extrasensory perception may not understand the gift of this extraordinary power. 
+
+=== Skill
+Skills are learnable aptitudes that the persona possesses.
+The mutant's vocation usually determines her skills.
+A persona can learn and intentionally improve a skill.
+Skills usually have scores like climbing two or juggling one.
+A mechanic persona could improve her engines skill from two to three.
+The higher skill score improves her chance of success at engine related rolls and makes her better than a colleague with engines one.
+
+Skills are usually limited to the scope of the persona's vocation.
+A mechanic will not be good at psychotherapy, and a mercenary will not be able to find shelter.
+The skills make it more likely for a player to make a successful roll when attempting maneuvers. 
+
+==== Proficiency
+Proficiency is a particular kind of skill that refers to weapons in the tactical combat system.
+By strict definition, a skill is a proficiency and vice versa.
+The tactical combat system uses a byzantine and archaic system of proficiencies regarding weapons.
+A persona proficient with a sword enjoys more bonuses on her attack roll than if she were to use a mace.
+Attack roll bonuses can become tremendous for the persona who becomes highly proficient with her chosen weapon(s).
+
+Proficiency is a legacy of the last millennium.
+However, the proficiency system in tactical combat is balanced and heavily playtested. 
+
+== All Those Rolls
+The Roll Playing Rules are overflowing with rolls for all kinds of things. 
+The most common types of rolls are covered here.
+The gory details of all the possible rolls are discussed in xref:i-roll_playing_rules:CH16_Special_Rolls.adoc[All Those Rolls, window=_blank].
+
+NOTE: All your rolls are belong to us.
+
+=== Attack Rolls
+Attack rolls are the most common rolls made by players. 
+An attack roll is made every time the persona tries to harm another persona.
+The player will roll the kilodie and compare that value to the target's armour rating.
+If the attack roll plus adjustments are greater than the target's armour rating, the player usually inflicts damage on the target.
+A damage roll follows a successful attack roll.
+The higher the number the player rolls, the more likely her persona will be victorious in combat.
+There are more than fifteen sections under the heading of xref:i-roll_playing_rules:CH27_Tactical_Combat.adoc[Tactical Combat, window=_blank] that cover the finer details. 
+
+=== Attribute Rolls
+Attribute rolls are a collection of rolls that pit the persona's attributes against specific challenges.
+The player usually rolls a twenty-sided die for an attribute roll.
+Two players could make attribute rolls to see who's persona wins an arm wrestle.
+A player could make an attribute roll to see if a poison harms her persona.
+The higher the player rolls, the more likely things will go well for the persona.
+
+.*Example Attribute Rolls*
+* Poison roll pits the persona's physical hardiness against a poison
+* Psionic roll pits the persona's consciousness against a mental invasion
+* Radiation roll tests the persona's physical resilience against radiation
+* Jelly roll tests the player's ability to snack without making a mess on the hex mat
+
+=== Performance Rolls
+These rolls are made by the player when her persona is attempting a skill-based maneuver.
+The player most often rolls percentile dice to determine performance rolls. 
+The higher the player rolls, the more likely the persona will be successful in her task.
+Simple tasks have a low degree of difficulty, and more complex tasks have a higher degree of difficulty.
+The player is competing with this degree of difficulty to determine success.
+
+=== Generative Rolls
+Players make these rolls to generate a purely random outcome.
+They are not competitive, and rolling high or low does not indicate a win or a loss.
+The player uses percentile dice to make generative rolls.
+They either determine if a random event happens or pull random data from a table.
+
+==== Table Rolls
+The player is usually rolling a percentile die to 'generate' data. 
+Generative rolls determine what kind of artifact a persona finds. 
+A high roll does not make a difference when generating an artifact.
+Data tables are in alphabetical order, and a higher roll only indicates the starting letter of the artifact.
+An excellent artifact roll for the persona could be six on one table but fifty-six on another table.
+
+==== Chance Rolls
+Chance rolls determine if a specific event occurs.
+The lower the roll, the more likely the event will occur.
+Sometimes the event is beneficial to the persona, and sometimes it is not.
+For example, there may be a 15% chance of a fire starting. 
+The persona may, or may not, want the fire to start.
+
+
+//.Success vs Random
+//. Success roll 
+//.. affects the persona in that moment
+//.. have a success, tie fail outcome
+//. Random rolls 
+//.. deterministic 
+//.. randomly decide a skill, Toy or description
+//.. may be good, bad or indifferent, but not success fail
+//
+//.Success Rolls
+//. Static Rolls (one roll vs fixed number)
+//.. attack roll
+//.. Saving Throws
+//.. Attribute Checks - within one persona (same as a save?)
+//.. PT Rolls
+//. Dynamic Rolls (one roll vs one roll)
+//.. Attribute Challenge - between 2 personas
+//.. Sphincter Dice
