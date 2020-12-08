@@ -6,6 +6,8 @@ Physical mutations are not subtle and usually alter the mutant's appearance.
 The changes can range from oversized ears to wings to disgusting faux organs.
 Even the most cursory vet exam would expose this mutant as different.
 
+//physical mutations have a tell
+
 .*Physical Mutation Checklist*
 . <<_mutation_type,Any Mutation Type>>
 .. <<_non_combat_mutations,Non Combat Mutations>>
@@ -1146,345 +1148,483 @@ Pus Producing::
 This lucky mutant has a gland that keeps to its constant task of spilling out pus, scum, cur, dregs or any other frothy grossness that the referee can imagine.
 The randomly located opening cannot be plugged, or sewn shut, This mutation does not count as a start up mutation, and the player should receive another roll on the Physical Mutation Table.
 
-== 29) Non Breathing 
+=== Non Breathing 
 
-// insert table 926
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Constant
+General Bonus:: +100 breath holding tantrums
 
-This mutant does not have to exchange gases in order to respire.
-The mutant does not require light nor any particular ambient environmental factor in order to carry out her life processes.
-The mutant does have to consume food, and larger than normal amounts of water.
-At least 5 liters of water a day is needed to supply the mutant's biochemical reactions.
-The mutant carries out all other biochemical processes that her race would, except that she does not breath.
-Digestion is normal, blood is needed to carry nutrients and waste products around.
-The mutant earns a +4 bonus to save on gas attacks that involve inhaled poisons.
+This mutant does not need to exchange gases to respire.
+The mutant does not require light, oxygen, or carbon dioxide to carry out her life processes.
+The mutant only needs food and water to carry out the necessary biochemical reactions.
+In other respects, the mutant is digestion for nutrients and blood to carry energy around, but not lungs or breathing.
+Inhaled poisons do not affect the mutant.
 
-== 30) No Resistance To Disease 
+=== No Resistance To Disease 
 
-// insert table 927
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Constant
+General Bonus:: Defect
 
-Sadly this mutant is subject to who knows what diseases, and even has the pleasure of starting the campaign with one chronic non-terminal disease.
-This mutant is three times as susceptible to diseases as other personas.
-This disability cannot be rolled again, and it does not count as a start up mutation.
+This mutant is subject to all diseases. 
+She has the pleasure of starting the campaign with one chronic non-terminal disease.
+No resistance to disease is not limited to infectious diseases.
+All manner of illness, both real and imagined, afflict the mutant. 
+Her constitution works normally against poison, damage and injury, but offers no resistance to illness checks.
+Instead of using her CON attribute to fight disease the mutant uses a random value of 0 to 3 (d4-1).
 
-== 31) No Resistance To Poison 
+WARNING: Some of these mutations are actual challenges in our terra mundane world.
+The player should re-roll if this mutation causes duress.
 
-// insert table 928
+include::ROOT:partial$Defect_Disclaimer.adoc[]
 
-This mutant now has an effective resistance to poison of 0 to 3 (d4-1).
-This means that when saving against poison she cannot use her CON for defence, but must use this random die roll.
-Any bonuses that would normally be added to her saving throw still apply.
+=== No Resistance To Poison 
+
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Constant
+General Bonus:: Defect
+
+This mutant has no effective resistance to poison attack.
+Poison attacks inflict no additional damage, but are almost certain to effect this mutant.
+Her constitution works normally against illness, damage and injury, but offers no resistance to poison rolls.
+Instead of using her CON attribute to fight disease the mutant uses a random value of 0 to 3 (d4-1).
 Pharmaceuticals that are imbibed have double effect, but the chance of side effects are tripled.
-This disability cannot be rolled again, and it does not count as a start up mutation.
 
-== 32) Oversized Body Parts 
+include::ROOT:partial$Defect_Disclaimer.adoc[]
 
-// insert table 929
+=== Oversized Body Part
 
-This mutation involves grossly oversized body parts that benefit the mutant in some manner.
-The player makes a roll on Table 59.16: Oversized Body Parts.
-The referee should keep in mind that the oversized body body parts will cause trouble for the mutant in the areas of clothing, armour, and public comments.
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Constant
+General Bonus:: Combat Ratio +4
 
-// insert table 930
+This mutation involves grossly oversized body part that cannot be hidden.
+The oversized body part will challenge the mutant with clothing, armour, and social situations. 
+Oversized body part is not a defect. 
+There is an associated benefit to the persona for their oversized body part.
 
-== 33) Photosynthetic Skin 
+include::ROOT:partial$CH59_Table_Oversized_Body_Part.adoc[]
 
-// insert table 931
+=== Photosynthetic Skin 
+
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Constant
+General Bonus:: None
 
 This mutant has light green, hairless, almost translucent skin.
 The chloroplasts in her skin can act as a supplementary source of energy.
-When her skin is exposed to the sun, she need not eat or breath, but she must continue to consume water at her normal rate.
-While using photosynthesis the mutant can wear no covering what so ever, and she cannot photosynthesize in darkness, or artificial light.
-If the conditions are right for photosynthesis the mutant will suffer no damage from bleeding, and she will heal five times faster than normal.
-Damage from cold or heat based attacks add 1/2 damage if the mutant is using her photosynthesis.
+This mutant does not need not to eat or breathe, but she must continue to drink water.
+The mutant must have almost all her skin exposed to use photosynthesis. 
+Photosynthesize does not work in complete darkness.
+The mutant does not move blood throughout her body. 
+The essential nutrients gently ooze along her internal sap lines.
 
-== 34) Phosphorescent Skin 
+When getting restful periods of sleep in bright light, the mutant heals five times faster than other personas.
+If this is an anthro mutation, this mutant bleeds out at half the other anthro mutants' speed. 
+Damage from cold or heat-based attacks adds 1/2 damage if the mutant.
 
-// insert table 932
+=== Phosphorescent Skin 
 
-Through the production °flight retaining materials in the skin, this mutant continually glows some unique colour.
-The light produced is barely enough to read by, but it is sufficient enough to be easily seen at night.
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Constant
+General Bonus:: Defect
+
+Through the production of light-emitting materials in the skin, this mutant continually glows some unique colour.
+The player can choose the colour (not black) or generate it at xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
+The light produced is barely enough to read by, but it is enough to be easily seen at night.
+All but the most extreme efforts to contain the glow fail. 
 The mutant also registers as a radiation anomaly.
 
-== 35) Poor Respiratory System 
+include::ROOT:partial$Defect_Disclaimer.adoc[]
 
-// insert table 933
+=== Pockets 
 
-All the essential components of this mutant's respiratory system are substandard.
-Her lungs are undersized, her blood is lacking in transport molecules, and gas exchange is bad at the tissues.
-In general she will tire sooner in any endurance activities.
-She immediately suffers a penalty of -1 on her CON+++<b>+++, +++</b>+++and -2 to on all saving throws versus poison.
-This mutation is a defect and does not count as a start up mutation.
-The player should make another roll on the Physical Mutations Table.
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: As Needed 
+General Bonus:: +30 on concealment rolls
 
-== 36) Pockets 
+The mutant is capable of creating spontaneous pockets in her flesh.
+The pocket location and size are determined by the player as needed.
+She can create a big pocket on her tummy, like a kangaroo's pouch.
+She can create a dozen smaller pockets all over her body.
+The pockets are sealed from the elements and completely waterproof. 
+This mutation does not offer a perfect hiding place for items.
+The opening of the pocket and storage bulge are visible on the mutant's body.
+Pockets can store 5% of the mutant's body wate.
+A 100kg mutant can store 5kg of equipment. 
 
-// insert table 934
+=== Pressurized Body 
 
-This odd mutation consists of pockets or openings that can be covered by exterior flesh.
-The mutant can manipulate the location, size and shape of the pockets on her body.
-If she wants a big pocket on her tummy like a marsupial pouch, she can do so.
-If she wants a dozen pockets all over her body she can dissipate the large one, and move the openings all over her body.
-Each fleshy covering will create an airtight seal which can hold up to 2% of the mutant's body wate.
-The total amount of stuff concealed in the mutant's body cannot exceed 5% of her body wate.
+[horizontal]
+Range:: Persona Only
+Duration:: 1u per Adjusted PSTR
+Frequency:: 1u per Adjusted CON
+General Bonus:: Combat Ratio +3
 
-== 37) Pressurized Body 
+Pressurized body combines rapid gas production, inflatable body cavities, and resilient skin to increase her body's internal pressure.
+Increasing her body pressure does not harm the mutant.
+Pressurizing her body protects her from concussive, crushing, and force-based attacks.
+The mutant can fall 1h per Adjusted PSTR and sustain no falling damage.
+Falling damage is reduced by half.
+Type A attacks, explosions, pressure waves, and vehicle crashes all halve the damage inflicted.
+Pressurized body protects against high-pressure atmospheres and low-pressure atmospheres.
+This mutation does not protect against anoxia, and the mutant must get oxygen to survive.
 
-// insert table 935
+In rare instances, the pressurized mutant may burst a pressurized cavity when hit with a penetrating projectile.
+The referee may check for this once in a while.
+If the referee rolls 042 on a kilodie, the mutant will explosively decompress one of her many cavities.
+This inflicts 6-36 (6d6) hit points of damage to the mutant.
+The cavity will heal like any other wound, and the mutant can continue to use the mutation.
 
-Throughout the mutant's body are organs that contain pressurized gases.
-The mutant can release these gases into specialized cavities in her body, and puff out like a puffer fish.
-Between this and her thick resilient skin the mutant can increase the pressure of her body to many time that of normal.
+=== Radiating Eyes 
 
-When in the pressurized state the mutant can fall a distance of 1 hex per adjusted PSTR without taking any damage.
-If she falls from a height greater than her PSTR in hexes she will only take a d4 in damage per 2 hexes of distance.
-All damage taken from force attacks (explosions, swords, rocks, car accidents) will be halved.
-The mutant is unaffected by the pressure changes of decreased atmosphere, although she still must find some way to get air.
+[horizontal]
+Range:: 1h per Adjusted AWE
+Duration:: Not Applicable
+Frequency:: Alternating Units
+General Bonus:: Combat Ratio +5
 
-While pressurized there is a 1/1000 (1 per kilo die) chance per 10 HPS of damage taken that the mutant will explode.
-So if this mutant took 20 HPS of damage the referee could check to see if the mutant explosively decompresses (2 in 1000 chance).
-Exploding while pressurized will inflict 7 to 84 (7d12) hit points of damage to the mutant.
-Bystanders are unaffected by explosive decompression of the mutation.
-If the mutant chooses she can also explode right out of her armour inflicting 3 to 18 (3d6) hit points of damage to herself in the process.
+This mutant can launch a visible beam of radiation from her eyes.
+The beam is her head's size and usually has a distinct xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
+Radiating eyes deliver a dose of killing radiation with an intensity of 2-12 (2d6) plus one per experience level.
+The mutant must direct the beam at one target, and it can pass through armour.
+The player needs to win an attack roll, but the target's armour rating is only 500 plus DEX bonus.
+Only armour that protects explicitly against radiation can counter this attack.
+If the attack roll is successful, the target gets a radiation roll to half the damage. 
+This attack takes a unit to recharge, and the mutant must wait for one unit between attacks.
 
-== 38) Radiating Eyes 
+The radiation beam and the mutant herself show up as radioactive.
+This mutant's eyes will glow the same colour as the radiation beam, and the flesh around her eyes is built up and scarred. 
 
-// insert table 936
+=== Regeneration 
 
-This mutant can launch a beam of radiation from her eyes.
-The beam is about 30 cm wide and is two dimensional.
-It appears to onlookers that the mutant has flashed yellow lazers at her targets.
-The radiation beam and the mutant herself will register when detecting radiation.
-The beam is composed of killing radiation with an intensity of 2-12 (2d6) plus one intensity per experience level.
-The attack can be made every second unit of combat.
-If the target's save is successful she will only take half damage from the attack.
-Full damage is 1d4 per intensity of radiation.
-For more information about saving throws and radiation poisoning see http://expgame.com/?page_id=275[Chapter 16: Special Rolls].
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Special
+General Bonus:: Combat Ratio *3
 
-== 39) Regeneration 
+Every cell in this mutant's body is capable of replicating when damaged.
+Regeneration allows the mutant to restore her hit points when damaged.
+The mutant's body is always healing itself.
+While most personas will have to wait days to recuperate back to their hit points maximum, this mutant repairs herself in minutes.
+This mutation quickly knits tissues like bone, skin and muscle back together after traumatic damage.
+Regeneration works well on burnt skin, repairing both acidic and flame damage quickly.
 
-// insert table 937
+Regeneration restores hit points every unit (2 seconds) whether the mutant is in combat or not.
+The mutant heals one hit point for every 5 points of adjusted constitution every unit.
+For example, a 4th level mutant with a 16 CON would heal 4 HPS every unit.
+She will quickly regenerate to HPS Max, appearing as good as new.
 
-Every cell in this mutant's body is capable of recreating its nearest neighbour, and can do so with tremendous speed.
-The mutation cannot regenerate lost limbs, but it can quickly repair the damage inflicted by wounds.
+Regeneration does not work if the mutant has less than 0 hit points.
+So once she is critically unconscious, she can die like any other persona.
+Regeneration will not grow back missing limbs but will heal the stump beautifully.
+This mutation does not reverse the effects of time, and the mutant ages like all other personas.
+Carrying out surgery is much more difficult on this mutant as tissue is healing as the scalpel separates it.
 
-The mutant's body is constantly healing itself.
-As long as she is not comatose (her hit point total is greater than 0) she will heal 1 hit point a unit for every 5 points of adjusted CON+++<b>+++.
-+++</b>+++This means that a 4th level mutant with a 16 +++<b>+++CON +++</b>+++would heal 4 HPS every unit.
-The healing is complete and accurate.
-There is no scarring, and the mutant is as good as new when she is returned to HPS Maximum.
-This form of background regeneration does not work if the persona has less than 0 HPS+++<b>+++, +++</b>+++at this point she is dying like any other persona.
+Once per day, the mutant can carry out a massive regeneration.
+The mutant's body undergoes a total physiologic reset to regenerate an enormous number of hit points at once.
+This regeneration rejects any foreign objects hiding in the mutant.
+For example, her body violently rejects infections, inorganic implants, cybernetics and any pharma.
+Most mutants with regeneration do not have cybernetic implants for this reason.
+Massive regeneration can be done voluntarily by the mutant at any time.
+The body will instinctively carry out massive regeneration if the mutant's HPS total drops below zero.
+Ongoing regeneration is subtle, but massive regeneration is disgusting, violent, loud and messy.
 
-Massive reconstructive regeneration can be carried out automatically by the body, or whenever the mutant wishes.
-Massive reconstruction involves the re-routing of blood, the slapping together of flesh, and the manipulation of other systems.
-When this is done the mutant can instantly heal two HPS per point of adjusted CON+++<b>+++.
-+++</b>+++This can be carried out once a day per 7 points of adjusted CON+++<b>+++.
-+++</b>+++The body will instinctively carry out massive reconstruction if the mutant's HPS total drops below zero.
-A 4th level mutant with a 10 CON could massively reconstruct 28 HPS worth of damage no more than twice a day.
-If massive reconstructions is not sufficient to get the mutant up to a positive HPS total she will die like any other mutant.
-See http://expgame.com/?page_id=267[Chapter 13: Health].
+Massive regeneration heals two HPS per adjusted CON.
+A 4th level mutant with a 10 CON could massively regenerate 28 HPS.
 
-Regeneration will reject any foreign tissue attachments, grafts, or cybernetic connections vigorously.
-The mutation is extremely self protective and will only accept its own reconstructions of its own tissues.
+=== Rubbery Skin 
 
-== 40) Rubbery+++<b>++++++</b>+++Skin 
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead and longer
+Frequency:: Constant 
+General Bonus:: None
 
-// insert table 938
+A rubbery organic equivalent replaces the mutant's skin.
+The player can pick the colour of the mutant's slippery sheath.
+Or the player can let the dice decide by jumping to xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
+The mutant can paint her skin with even the most toxic of paints without harming herself.
+The rubbery skin is impenetrable to infections, parasites, fungi, topical poisons and other little critters.
+The rubbery skin does not appear naked, and clothing is optional.
+The mutant only needs protective clothing in the harshest meteorological or industrial conditions.
 
-The mutant's skin is replaced by rubber.
-This fabulous slippery skin comes in an assortment of wild and wonderful colours.
-These colours, or even meticulous patterns can-be chosen by the player, or rolled randomly be the referee.
-Rubbery skin can even be elaborately painted without any harm coming to the mutant.
-The mutant is also immune to infections, parasites, skin conditions, or common colds.
-The mutant need not wear any protective clothing in all but the harshest meteorological conditions.
+Physical attacks damage the mutant typically, as do inhaled poisons and radiation. 
 Rubber dissolving aerosols will inflict 3 to 30 HPS of damage to this mutant.
 
-== 41) Rust 
+=== Rust 
 
-// insert table 939
+[horizontal]
+Range:: Touch
+Duration:: Permanent
+Frequency:: Constant
+General Bonus:: Combat Ratio +6
 
-Any metal touched by the mutant will instantly rust away.
-This means any metal like substance touched by any part of the mutant will be spontaneously oxidized.
-The mutant oxidizes the metal via an electromagnetic imbalance that is essential for maintaining her existence.
+This mutation is complex and can quickly become complicated.
+What is metallic, and how does her touch affect artifacts?
+Are alloys metallic only? 
+How are composites affected?
+In short, some artifacts are obviously metallic, while others are open to discussion.
+If a fevered discussion brings the players to an impasse, they should consult the xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice,window=_blank].
 
-The body requires the change in electron status of the of metals in order to maintain equilibrium.
-Each time the mutant touches something half her body wate in metal will oxidize into dust.
-Not all metals are effected equally by the mutant, and the damaging effect can vary drastically.
-Many artifacts are combinations of alloys, of metals and plastics, or wholly ceramic.
-The sphincter dice described in http://expgame.com/?page_id=275[Chapter 16: Special]http://expgame.com/?page_id=275[Rolls] will be used to determine the metal content of such items.
-The bottom line is that the mutant is unable to use anything mechanical.
+In combat, anything that inflicts damage on the mutant has assumed to contact the rust mutation.
+So a sword would disintegrate the first time it damages the mutant.
+Bullets inflict their damage but rust instantly on the mutant. 
+Metal armour would rust away if the mutant were to punch it.
+This mutation severely damages robots.
 
-In combat the rust mutation can be quite complicated.
-Swords used against the mutant will only hit once before they are destroyed.
-Bullets will disintegrate on impact, but they will still inflict their damage.
-Robots will take 10 to 100 (10d10) hit points of damage, plus two rolls on the malfunction.
-If a robot demolition table is being used simply move the bot down two levels on the demolition table.
-The mutant need only touch the robot to inflict this damage, and she will receive a +500 bonus on her attack roll.
-Regardless of the wate of the robot, it will take only the damage indicated.
-Robots are composed of many materials, and the rust mutation will severely damage them, not completely disintegrate them.
+If the player wins an attack roll, the robot is subject to the rust mutation.
+The referee may allow the player to have touch-only attack roll bonuses since the mutant does not need to deliver force to do damage.
+Robots will take 10-100 (10d10) hit points of damage, plus two rolls on the malfunction table.
+Rust damage is catastrophic for robots, and most robots will fall back to ranged attacks after the first rust attack.
 
-== 42) Self Destruction 
+=== Self Destruction 
 
-// insert table 940
+[horizontal]
+Range:: 2h per Level
+Duration:: Until Dead
+Frequency:: Once
+General Bonus:: Defect
 
-Within the cells of this mutant's body is a biochemical byproduct of cellular respiration that is quite explosive.
-If the neural signals coming from the mutant's stress center become too great there is a 1 in 1000 chance of the mutant self destructing in glorious technicolor.
-The explosion is a dangerous one, inflicting a d10 in damage per experience level of the mutant.
-The more experience the more of the chemical that has been deposited.
-If by some means this biochemical byproduct is removed from the mutant's cells it will begin to deposit again, reaching explosive levels within hours.
+This mutation causes the mutant's body to store highly hazardous products of respiration between her cells.
+There is enough explosive material to cause the mutant to explode fatally.
+Self destruction kills the mutant and inflicts damage on those within range, not unlike a temperamental grenade.
+Self destruction is the ultimate defective mutation.
 
-Situations where a self destruction check is warranted are going into battle, losing a fellow expedition member, ending a ursidae frenzy, losing a game of checkers, or  if the player throws something at the referee.
-A roll of 042 on kilodice will indicate self destruction.
-This mutation may be kept secret from the player.
-However this would not be nice.
-This mutation is a defect and does not count as a startup mutation.
-The player should get another roll on the Physical Mutations Table.
-This mutant will keep setting off explosives detectors.
+When her stress center's panic signals overwhelm her body, the mutant may self destruct in glorious technicolour.
+Example situations where self destruction may occur are ambush, death of a friend, losing at checkers, or throwing stuff at the referee.
+If the player rolls 042 on a kilodie self destruction kicks in that the mutant immolates in an area of effect attack.
+The mutant is exploded and killed instantly.
+The explosion covers everything in the area of effect with mutant shrapnel.
+Self destruction inflicts 1d20 per experience level of the mutant. 
 
-== 43) Shape Change 
+Self destruction is fatal for the mutant and dangerous for the expedition.
+This mutation is far worse than any other defect.
+While it is fair and fun for referee personas to explode, player personas exploding is a different story.
+Player personas with self destruction should have homebrew alterations to the defect.
+For example, a player persona will only self destruct when they die. 
+Or a player persona would have to roll 042 once per experience level to explode involuntarily.
 
-// insert table 941
+The mutant can self destruct voluntarily.
+The self destruction may be a vainglorious effort to save the empire or an explosive end to a fit of pique.
 
-The mutant can completely rearrange the shape of her body.
-She can change the pigmentation of her skin, and alter its texture to match anything that she has seen.
-She can alter her internal structure to mimic the shape of any shape that she desires.
-Ultimately the mutant can imitate the external structure of anything that she has seen.
-The mutant's thinkspace is not strong enough to shape change into an imagined object, it must be something that she had visualized.
-The mutant could shape change into anything, a large box, another persona, a robot, or an alien.
+The mutant sets off explosives, bombs, and weapon detectors.
+Removing the explosive by-product from the mutant's body will only have a temporary effect.
+The mutant will return to self-destructive levels after one restful sleep.
+Surgery may also result in the accidental detonation of this mutation.
 
-The mutant will not be able to recreate any of the special attacks that creature had, nor will she be able to record information like the previous machine could, nor will she be able to carry out any of the class skills that the persona had.
-The mutant can alter her wate by more than 50% less, or 50% greater.
-If the mimicked creature is much larger than the mutant she may turn herself into a scale replica of it.
+include::ROOT:partial$Defect_Disclaimer.adoc[]
 
-The transformation takes 6 to 60 (6d10) units and is messy and noisy.
-Bones have to be broken, major organs soften and are temporarily pushed out of the body, bodily fluids are released and then recovered, etc.
-During this state the mutant is helpless, and any damage taken will be tripled.
-The shape change being made cannot be adjusted while the transformation is taking place.
+=== Shape Change 
 
-There is a 3% chance that the mutant will get stuck at the transformation phase, and lay unconscious for 0 to 5 (d6-1) days.
-During this period she will slowly return to her normal shape.
-The shape change will last for 1 minute (30 units) per point of adjusted CON.
-At the end of this time the mutant will spontaneously shape change back into her normal form.
+[horizontal]
+Range:: Persona Only
+Duration:: 1 min per Adjusted CHA
+Frequency:: 1 per 5 Adjusted CON
+General Bonus:: +150 on disguise rolls
 
-== 44) Size Manipulation 
+ShShape change allows the mutant to rearrange her body.
+She can change the pigmentation and texture of her skin.
+She can reorganize her internal organs as she desires.
+The mutant can shape change into anything, a large box, another persona, a robot, or an alien.
+She cannot shape change into imaginary objects. 
+She must have seen and observed what she is mimicking.
 
-// insert table 942
+Shape change is entirely cosmetic.
+The mutant may now look like a combot, but she is merely flesh and blood that looks like a combot.
+She may have claws that look razor-sharp, but they will be no stronger than her fists.
+There are also size limitations to the shape change mutation.
+The shape change must be within 50% of her hite and wate. 
+If she is shape-changing into a much larger alien, she could create a smaller replica of that alien.
 
-The mutant can cause the molecules of her body to fall in on each other just enough to decrease her size proportionally.
-She can also cause them to expand slightly and therefore increase her size in a proportional fashion.
-The changes are both immediate and complete.
-The mutant's equipment is unaffected by the change, and this can result in oversized clothing, or tearing ones clothes asunder.
+The shape change transformation takes time, and it is messy, noisy and disgusting.
+Transformation does not harm the mutant, but she breaks her bones, tears her flesh, and takes on an amorphous in-between shape.
+Clothes and equipment are not an option during the shape change.
+During this amorphous state, the mutant is helpless, and any damage inflicted is increased by three times.
 
-Making oneself smaller involves decreasing the space between every molecule in her body.
-The result is proportional decrease is size that can make her up to 75% smaller.
-There is no change in the mutant's body wate.
-The decrease in size does not make her weaker, but it does make her a little bit more dense and harder to hit.
-There is a bonus of +75 on her armour rating when the persona is shorter.
+More complex transformations take longer and make the mutant more vulnerable. 
+Subtle transformations take less time and don't put the mutant at risk.
+Whole-body transformations should take minutes to hours, but changing hair colour is achieved in seconds.
 
-The mutant can increase her size by up to 50% when she slightly increases the space between her molecules.
-There is no change on any of her attributes, a slight change in her density, but she can make herself considerably taller.
-The mutant will receive a bonus of plus whatever percent she increased her size by onto her damage adjustment.
-Note that her physical strength has not increased, but her leverage has.
+Returning to her normal shape is automatic at the end of the mutation's duration. 
+The mutant returns to standard shape four times faster than the transformation took.
+Subtle changes will change back instantly, but more complicated changes will return the mutant to that icky amorphous state.
+For each minute the shape is maintained, there is a 1% chance the mutant will stay in that shape indefinitely.
+To change back to her base shape, she will have to wait until the mutation recharges.
 
-== 45)  Skin Structure Change 
 
-// insert table 943
+=== Size Manipulation 
 
-This skin of this mutant has been radically altered to some genomic anomaly.
-The majority of the skin structure changes are defensive in nature.
-They all function as normal skin except for their described appearance, and change in base armour rating.
-Refer to Table 59.17: Skin Structure Change to determine how the mutant's skin is different.
-None of the skin alterations affect the mutant's CHA.
-The altered skin structure is the mutant's natural skin.
-When not wearing armour a mutant's armour rating is normally 500.
-The Skin Structure Change table lists the changes to the mutant's AR.
-This value is added to the mutant's AR regardless of how she is armoured.
-If the mutant can wear armour with this mutation then her AR will be adjusted by the value.
-Thus an unarmoured mutant with thatched skin would have an AR of 590, and any armour she were wearing would have a bonus  of +90.
-Note that wearing armour may be an insulting idea to a mutant with naturally armoured skin.
+[horizontal]
+Range:: Persona Only
+Duration:: 1 min per Adjusted CHA
+Frequency:: 1 per 3 Adjusted CON
+General Bonus:: 
 
-// insert table 944
+The mutant can force the molecules of her body to snuggle closer together or drift further apart.
+Size manipulation allows her to decrease or increase her size.
+The size change alters her hite, and she keeps her normal proportions.
+The change is immediate and complete.
+The mutant's equipment is unaffected by this transformation resulting in wardrobe malfunctions.
 
-== 46) Smoke Screen 
+The mutant can decrease her size down to 25% of her normal size.
+Shrinking does not alter her wate, attributes or skill performance.
+Besides allowing her to fit into tight spaces, the mutant gets an armour rating bonus of +75.
+Her clothes will drape around her like a tent. 
 
-// insert table 945
+The mutant can increase her size by up to 150%  for her normal size. 
+Enlarging does not alter her wate, attributes or skill performance.
+Besides allowing her to reach the top shelf, the mutant gets a damage adjustment bonus of +50% non-powered attacks. 
 
-This mutant's back can heat up, ignite secretions located on her skin.
-The combusting material will generate thick vision obscuring smoke.
-The mutant can instantly heat up her back to generate the thick smoke.
-The cloud does not inhibit one's ability to breath, but it is completely disorienting and cannot be seen through.
-There is a chance that when the mutant is stressed she will instinctively release the cloud, say while talking to a banker, getting a speeding ticket, or in an argument with another persona.
 
-If the mutant stands still the smoke will create a cloud 2 hexes high with a 5 hex radius.
-If the mutant is moving she will create a wall of smoke 2 hexes high and 1 hex wide.
-The wall of smoke will follow as she moves for 2 units.
+===  Skin Structure Change 
+
+[horizontal]
+Range:: Persona Only
+Duration:: Until Dead
+Frequency:: Constant
+General Bonus:: None
+
+Skin structure change has both a cosmetic and defensive effect on the mutant's skin.
+The skin structure change does not alter any attributes or affect her ability to wear armour.
+The mutant enjoys all the benefits of the armour type and none of the drawbacks.
+For example, skin structure changes have no restrictiveness or encumbrance penalties. 
+The structurally changed skin is simply the mutant's skin.
+The armour rating changes affect the base armour rating of the mutant.
+So plated skin increases the base armour rating from 500 to 650.
+The impact is purely on armour rating, and the skin structure change offers not other special abilities.
+Often mutants with this mutation are averse to wearing armour out of pride or comfort
+
+include::ROOT:partial$CH59_Table_Skin_Structure_Change.adoc[]
+
+=== Smoke Screen 
+
+[horizontal]
+Range:: 1h per Unit Duration
+Duration:: 1u per 3 Adjusted PSTR
+Frequency:: 1 per 2 Adjusted CON
+General Bonus:: Combat Ratio +3
+
+Smoke screen allows the mutant to create a thick smoke that pours off her back.
+The mutant can superheat her back, causing a strong-smelling secretion to smoulder fiercely.
+This mutant's back can heat up and ignite secretions located on her skin.
+The combusting material will generate thick vision-obscuring smoke.
+The mutant can instantly heat her back to generate thick smoke.
+
+The cloud does not inhibit one's ability to breathe, but it is entirely disorienting and vision blocking.
+The plume of smoke can have a strong xref:i-roll_playing_rules:CH06_Aliens_12_Biology.adoc#_aroma[Aroma,window=_blank] and distinct xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
+The player can choose the smell and colour if she prefers.
+
+The mutant can create a smoke cloud by standing still. 
+The smoke cloud has a one hex radius per unit of burn.
+The mutant can create smoke walls by moving and smoking.
+If the mutant moves, she will create a smoke wall, two hexes high and one hex wide.
+The wall of smoke will follow as she moves for two units.
+A 2nd level mutant with a 10 PSTR could create a cloud of 4 hexes in radius.
+The same mutant can use her move of 3 h/u to create a smoke wall 12 hexes long.
+
 The cloud will last for 1 to 12 minutes before settling or being dissipated.
+In situations of extreme stress, the mutant may involuntarily deploy her smoke screen.
 
-There is also a 15% chance that the mutant will have an explosive smoke screen This smoke screen ignite violently when provoked by an open flame (match, gunfire, energy weapons).
-Anything within the smoke screen at that moment will take 1d10 in damage per experience level of the mutant.
+===  Sonic Attack 
 
-== 47)  Sonic Attack 
+[horizontal]
+Range:: 1h per 2 Adjusted PSTR
+Duration:: Special
+Frequency:: 1 per 2 Adjusted CON
+General Bonus:: 
 
-// insert table 946
+Sonic attack allows the mutant to create noises so loud they are destructive. 
+The mutant's neck has obvious bellows that can blast air through specialized vocal cords.
+Immediately before attacking, the mutant's bellows billow out to beyond her nose.
+The scream attack combines high and low-frequency wavelengths that deliver destructive force to the target.
+The further away the target is, the less damage the sonic attack inflicts. 
+A 2nd level mutant with a 10 PSTR has a radius of effect of 6 hexes.
 
-There is a billows in this mutant's neck which allows her blast air through her specialized vocal cords.
-The scream created is composed of high and low frequency wavelengths of damaging sound.
-Immediately before the mutant attacks her neck billows out to beyond her nose.
+include::ROOT:partial$CH59_Table_Sonic_Attack_Volume.adoc[]
 
-The amount of damage inflicted is determined on Table 59.18: Sonic Damage Range.
-The mutant is unaffected by her own sonic attack, unless it is somehow reflected back to her.
-The sonic attack has a radius (in hexes) equal to the mutant's adjusted PSTR.
-A 2nd level mutant with a 10 PSTR have a radius of effect of 12 hexes.
-Organic and inorganic audio systems can be rendered inoperative if they take more than 15 hit points of damage.
-If 15 (or more) hit points of damage is delivered a recovery roll must be made, or &8220;deafness&8221;
-will result.
-Organic systems will remain deaffor 1-8 hours, but inorganic audio systems must await repair.
-Sonic attacks can be launched once a day for every two points of adjusted PSTR.
+The sonic energy damages every target in the area of effect. 
+The player makes one roll for all the targets in the area of effect.
+In addition to damaging the targets, there is a chance of deafening audio sensors.
+The sonic attack can shut down organic and inorganic sensors.
+Objects taking the full force of the attack have a percent chance of going deaf.
+Full force is considered those mutants within the one hex range or less.
+A percentile roll less than or equal to the damage will deafen the target. 
+Organic systems remain deaf for 1-8 (1d8) hours, but inorganic audio systems must await repair.
 
-// insert table 947
+The sonic attack damages everything in the area of effect with a sonic blast of force.
+The mutant's fellow expedition members are also affected by the sonic attack.
+The mutant is unaffected by her sonic attack.
 
-== 48) Spit Poison 
 
-// insert table 948
+=== Spit Poison 
 
-The mutant has poison producing glands that can eject a spittle of poison tremendous distances.
-The gland requires a 3 unit wait period while it recharges itself.
-Thus the mutant can spit poison every 4 units.
-The type of poison generated by the mutant is determined on Table 59.19: Poison Generation.
-The effects of each poison are discussed in the following paragraphs.
+[horizontal]
+Range:: 1h per Adjusted PSTR
+Duration:: Special
+Frequency:: Alternating Units
+General Bonus:: Combat Ratio +9
 
-// insert table 949
+The mutant has poison producing glands that can eject poisonous spittle at tremendous distances.
+The player must win an attack roll on a specific target for the poison to take.
+If the attack roll is successful, the target still gets a poison roll to deflect the poison effect.
+These poisons are organic and do not affect inorganic targets like robots.
 
-Death::
-A highly toxic spittle of death is released by this mutant.
-Any organic personas hit by this attack must save versus a poison.
-Those who do not save will take damage from the attack.
-This poison inflicts a 1d4 hit points in damage per point of poison intensity.
-Those targets which do save will only take half damage.
-The poison intensity is 1 to 8 plus experience level
+include::ROOT:partial$CH59_Table_Poison_Type.adoc[]
+
+Killing::
+Killing poison inflicts damage on the target, and with enough damage, the target can die.
+The killing poison intensity is random for each attack.
+Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+The target takes half damage if she wins a poison roll.
 
 Nausea::
-Those that fail their saving throw will be incapacitated with nausea.
-They will be unable to act for 1 to 8 minutes (30 units).
-Those that make their saving throw will be unaffected by the poison.
-The poison intensity is 1 to 8 plus experience level.
+Nausea poison incapacitates the target with vomiting and dizziness.
+The nausea poison intensity is random for each attack.
+Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+The target is unaffected by the nausea poison if she wins her poison roll.
+If the target loses her poison roll, the nausea poison incapacitates the target for 1-10 units.
 
 Paralysis::
-The paralysis poison leaves its affected targets unable to move any of their voluntary muscles for 3 to 30 (3d10) units.
-The save must be made by anyone that is hit by the spittle.
-Those that make their saving throw will be unaffected by the poison.
-The poison intensity is 1 to 8 plus experience level.
+Paralysis poison incapacitates the target by paralyzing their skeletal muscles.
+The poison does not affect the mutant's breathing or heart muscles. 
+The paralysis poison intensity is random for each attack.
+Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+The target is unaffected by the paralysis poison if she wins her poison roll.
+If the target loses her poison roll, the paralysis poison incapacitates the target for 1-10 units.
 
 Unconsciousness::
-This nasty spittle causes instantaneous unconsciousness for those organic creatures that do not save vs poison.
-Targets will remain unconscious until awakened.
-In a normal combat setting this would be 0 to 3 units.
-Otherwise they will lay dormant for days.
-Those that make their saving throw will be unaffected by the poison.
-The poison intensity is 1 to 8 plus experience level.
+Unconsciousness poison incapacitates the target by rendering her unconscious.
+The poison does not affect the mutant's breathing or heart muscles. 
+The unconsciousness poison intensity is random each attack.
+Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+The target is unaffected by the unconscious poison if she wins her poison roll.
+If the target loses her poison roll, she will remain unconscious until awakened.
+The unconscious target will remain out cold for at least 1-10 units.
+The target will remain unconscious after the initial 1-10 units unless another persona wakes her up.
 
-== 49) Static Quills 
+=== Static Quills 
 
-// insert table 950
+[horizontal]
+Range:: 
+Duration:: 
+Frequency:: 
+General Bonus:: 
 
 This mutant's body is completely covered with quills, spines, thorns and other nasty pointy things.
 The layer of quills is thick and offers an armour rating bonus of +101, but the mutant is unable to wear armour of any sort.
@@ -1494,7 +1634,7 @@ Thus a 5th level mutant with static quills would have an armoured armour rating 
 
 //+++<figure id="attachment_5364" aria-describedby="caption-attachment-5364" style="width: 218px" class="wp-caption aligncenter">+++[image:https://i2.wp.com/expgame.com/wp-content/uploads/2014/10/tentaclesmutation.688-218x300.png?resize=218%2C300[Strange new body parts.,218]](https://i1.wp.com/expgame.com/wp-content/uploads/2014/10/tentaclesmutation.688.png)+++<figcaption id="caption-attachment-5364" class="wp-caption-text">+++Strange new body parts.+++</figcaption>++++++</figure>+++
 
-== 50) Strange New Body Parts 
+== 50) Strange New Body Part
 
 // insert table 951
 
@@ -1615,7 +1755,7 @@ The player has essentially extended her mutant to two personas.
 The attached creature will be freed if the mutant allows her to go, or if the controlling mutant is knocked unconscious.
 If the mutant is knocked unconscious by something that doesn't affect her target the target is free.+++<figure id="attachment_5365" aria-describedby="caption-attachment-5365" style="width: 249px" class="wp-caption aligncenter">+++[image:https://i1.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/detachablehands.690.png?resize=249%2C181[Seeing is in the hands of the beholder.,249]](https://i1.wp.com/35.197.116.248/expgame.com/wp-content/uploads/2014/10/detachablehands.690.png)+++<figcaption id="caption-attachment-5365" class="wp-caption-text">+++Seeing is in the hands of the beholder.+++</figcaption>++++++</figure>+++
 
-== 52) Tearaway Body Parts 
+== 52) Tearaway Body Part
 
 // insert table 954
 
@@ -1637,7 +1777,7 @@ If the body part should start to decompose it will take a 1d8 in hit points each
 If the body part is reduced to zero hit points for any reason it is dead, and the mutant cannot reattach it.
 The mutant does not have any ability whatsoever to regenerate her dead body parts.
 
-== 53) Undersized Body Parts 
+== 53) Undersized Body Part
 
 // insert table 955
 
