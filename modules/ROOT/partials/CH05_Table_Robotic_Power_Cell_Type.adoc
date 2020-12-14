@@ -1,47 +1,60 @@
 // Table 5.8 Robotic Power Cell Type
-.*Robotic Power Source Type*
+.*Robotic Power Cell Type*
 [width="75%",cols="^,<"]
 |===
-2+<|What powers this robot?
-s|Die Roll (d100)
-s|Cell Type
+2+<|Determine power cell type for this robot. 
+|
+s|Power Cell Type 
 
-|01-09
-|Basic - Solid
+s|Die Roll (1d100)
+s|Basic
 
-|10-18
-|Basic - Liquid
+|01-10
+|Gas
 
-|19-27
-|Basic - Gaseous
+|11-20
+|Liquid
 
-|28-38
-|Broadcast
+|21-30
+|Solid
 
-|39-49
-|Dynamo
-
-|50-61
-|Gravitational
-
-|62-72
-|Magnetic
-
-|73-88
-|Nuclear
-
-|89-91
+|31-40
 |Plasmoid
 
-|92
-|Psionic
+|41-50
+|Dynamo
 
-|93-97
+|
+s|Recharging
+
+|51-55
+|Gravitational
+
+|56-65
 |Solar
 
-|98-00
+|66-75
+|Magnetic
+
+|
+s|Continuous
+
+|76-88
+|Broadcast
+
+|89-98
+|Nuclear
+
+|99
+|Psionic (footnote)
+
+|00
 |Ref's Own Table
 
-s|Die Roll (d100)
-s|Cell Type
+s|Die Roll
+s|Power Cell Type  
+2+<|A psionic powered robot would kill nearby organic personas. This fuel type is a campaign choice.
+
 |===
+
+Gravitational

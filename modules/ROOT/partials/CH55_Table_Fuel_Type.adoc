@@ -1,10 +1,13 @@
 // Table 55.5 Fuel Type
-.*Fuel Type*
+.*Vehicle Fuel Type*
 [width="75%",cols="^,<",frame="all", stripes="even"]
 |===
-2+<|Determine the fuel type. This could be used by a vehicle, robot or refillable battery. 
+2+<|Determine fuel type for vehicles.
+|
+s|Fuel Type 
+
 s|Die Roll (1d100)
-s|Type 
+s|Basic
 
 |01-20
 |Gas
@@ -19,20 +22,34 @@ s|Type
 |Plasmoid
 
 |76-85
-|Nuclear
+|Dynamo
 
-|86-90
+|
+s|Recharging
+
+|86-88
 |Solar
 
-|91-95
+|89-91
 |Magnetic
 
-|96-99
+|
+s|Continuous
+
+|92
 |Broadcast
+
+|93-98
+|Nuclear
+
+|99
+|Psionic (footnote)
 
 |00
 |Ref's Own Table
 
 s|Die Roll
-s|Type 
+s|Fuel Type 
+2+<|A psionic powered vehicle would kill all organic occupants. This fuel type is a campaign choice.
+
 |===

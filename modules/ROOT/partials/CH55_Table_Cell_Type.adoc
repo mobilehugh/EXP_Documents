@@ -2,9 +2,12 @@
 .*Cell Type Table* 
 [width="75%",cols="^,<",frame="all", stripes="even"]
 |===
-2+<|Battery type 
-s|Die Roll (d100)
-s|Type 
+2+<|Determine cell type for artifact.
+|
+s|Cell Type 
+
+s|Die Roll (1d100)
+s|Basic
 
 |01-20
 |Gas
@@ -21,11 +24,17 @@ s|Type
 |76-85
 |Dynamo
 
+|
+s|Recharging
+
 |86-90
 |Solar
 
 |91-95
 |Magnetic
+
+|
+s|Continuous
 
 |96-98
 |Broadcast
@@ -37,6 +46,6 @@ s|Type
 |Ref's Own Table
 
 s|Die Roll
-s|Type 
+s|Cell Type 
 
 |===

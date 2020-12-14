@@ -177,8 +177,8 @@ A multicell must have at least two cells per set.
 All batteries, including multicells, have a wate of 0.1 kg (100 gm).
 Power packs have a total wate of 2 kg regardless of the number of cells it stores.
 
-A mundane battery cell is worth 100 eps.
-A powerpack or multicell is worth 200 eps per mundane cell. 
+A basic battery cell is worth 100 eps.
+A powerpack or multicell is worth 200 eps per basic cell. 
 A recharging cell is worth 1000 eps.
 A recharging multicell or powerpack is worth 2000 eps per cell.
 A psionic cell is priceless and dangerous. 
@@ -199,6 +199,47 @@ How this is done is entirely up to the referee.
 If your campaign is about fuel scarcity you can ignore this part of support equipment.
 The story leads the rules, not vice versa
 
+fuel vs battery.
+scarcity vs plenty
+
+.list of energy sources
+. cells are for artifacts
+.. powerpacks
+.. multicells
+. power cells are for robots
+. fuel is for vehicles
+.. inatmo large
+.. exatmo larger
+
+
+
+
+
+== Rationalizing all the fuel types
+
+
+.organize into
+. Basic
+. Recharging
+. Continuous
+
+
+
+
+=== ROBOTS have Power Cells
+Basic 
+
+include::ROOT:partial$CH05_Table_Robotic_Power_Cell_Type.adoc[]
+
+
+=== INATMO vehicles have Engine and Fuel Combined
+
+include::ROOT:partial$CH55_Table_Fuel_Type.adoc[]
+
+=== EXATMO vehicles have Drive Types universal fuels
+
+include::ROOT:partial$CH52_Table_Fuel_Type.adoc[]
+
 
 === Fuel Type 
 While the fuel type is easily decided on Table 55.5: Fuel Type.
@@ -215,6 +256,7 @@ I would not want to stand next to a power broadcast antennae for a space vehicle
 === Fuel Amount 
 
 // explain depot
+// determined by inatmo or exatmo vehicle
 
 However the amount of fuel found is more difficult to determine.
 None of the vehicles in EXP are given a fuel capacity in either liters, kilograms, or solar cells.
@@ -311,7 +353,7 @@ They are essentially useless to anyone other than a mechanic.
 Repair manuals only offer an http://expgame.com/?page_id=284[AID bonus] of +2 to assist the persona in learning and making the artifact work.
 A bonus of +50 on the performance table roll is granted to a mechanic when using a repair manual.
 
-== Software 
+== Programming 
 
 Software is programming for computers, but without the computer.
 Software can be as valuable as it can be useless.
@@ -354,7 +396,7 @@ Determine the computational device that the software is intended for on Table 55
 
 AI Computer::
 AI computer software is designated for the MOM series of artificially intelligent computers described under computers in http://expgame.com/?page_id=343ai-computers[Chapter 48: Miscellaneous Equipment].
-Roll once on Table 55.8: AI Computer Softwareand then refer to the miscellaneous equipment chapter to determine the wate, Exps, and value of the software.
+Roll once on Table 55.8: AI Computer Softwar eand then refer to the miscellaneous equipment chapter to determine the wate, Exps, and value of the software.
 
 // insert table 745+++<figure id="attachment_9640" aria-describedby="caption-attachment-9640" style="width: 300px" class="wp-caption aligncenter">+++[.size-medium.wp-image-9640] image::https://i2.wp.com/expgame.com/wp-content/uploads/2018/05/bio_computer_virus_desat-300x200.png?resize=300%2C200[studiostoks.stock illustration.modified HM,300]+++<figcaption id="caption-attachment-9640" class="wp-caption-text">+++An infected class computer.+++</figcaption>++++++</figure>+++
 
