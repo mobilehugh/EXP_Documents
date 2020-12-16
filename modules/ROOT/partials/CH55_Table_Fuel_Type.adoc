@@ -2,10 +2,7 @@
 .*Vehicle Fuel Type*
 [width="75%",cols="^,<",frame="all", stripes="even"]
 |===
-2+<|Determine fuel type for vehicles.
-|
-s|Fuel Type 
-
+2+<|Determine fuel type for a generic vehicle.
 s|Die Roll (1d100)
 s|Basic
 
@@ -15,31 +12,34 @@ s|Basic
 |21-40
 |Liquid
 
-|41-65
+|41-60
 |Solid
 
-|66-75
+|61-70
 |Plasmoid
 
-|76-85
+|71-75
 |Dynamo
 
 |
 s|Recharging
 
-|86-88
+|76-80
+|Gravitational
+
+|81-85
 |Solar
 
-|89-91
+|86-90
 |Magnetic
 
 |
 s|Continuous
 
-|92
+|91-94
 |Broadcast
 
-|93-98
+|95-98
 |Nuclear
 
 |99
@@ -50,6 +50,6 @@ s|Continuous
 
 s|Die Roll
 s|Fuel Type 
-2+<|A psionic powered vehicle would kill all organic occupants. This fuel type is a campaign choice.
+2+<|A psionic powered vehicle drains mental strength from occupants. This fuel type is a campaign choice.
 
 |===
