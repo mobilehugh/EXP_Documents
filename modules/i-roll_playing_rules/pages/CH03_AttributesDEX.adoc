@@ -6,40 +6,44 @@
 :artist: Warren Oddsson
 :date: 1990
 :license: CC BY-SA 4.0
+:description: Drawing of a human hand.
 
 include::ROOT:partial$articulate.adoc[]
 
-Dexterity represents the connection between the brain and outside world.
+Dexterity represents the connection between the brain and the outside world.
 Agility, balance, eye-hand, reflexes and running speed are components of dexterity.
 A high DEX person could run faster, dance better and quicker reflexes.
 Dexterity would help the persona catch a priceless vase or dive through a closing door.
 
 Anthro dexterity is composed of neurons, reflexes, and cerebellar processing.
 Robot dexterity is composed of wiring, servos, processors and the like.
-Alien dexterity is composed of the alien equivalents of neurons, and reflexes.
+Alien dexterity is composed of the alien equivalents of neurons and reflexes.
 
-Dexterity is connected to a persona's amour rating and movement rate.
-Each persona family has it's own way of calculating Move and AR. 
+Dexterity determines a persona's amour rating and movement rate.
+Each persona family has it's own way of calculating movement and armour rating. 
+
+If a persona's dexterity falls below one, she is irrevocably dead due to complete motor-nervous system failure.
 
 // brand new table for version 6.0
 .*Dexterity by Family*
-[width="75%",cols="<,<,<,<"]
+[width="75%",cols="<,^,^,^"]
+
 |===
 
 |
 s|Anthro
 s|Robot
 s|Alien
-
-s|Die Roll
-|3d6
-|1d4 (level)
-|5d6-5
 
 s|Range
 |3-18
-|1-25
+|Level 1-4
 |0-25
+
+s|Die Roll
+|3d6
+|1d4
+|5d6-5
 
 |
 s|Anthro
@@ -48,15 +52,4 @@ s|Alien
 |===
 
 
-A persona’s movement rate is determined by her DEX.
-Table 3.2 is used to find how fast a persona can move in h/u (equal to m/s).
-So a player character with an 11 DEX could move 4 h/u.
-This means her figure can be moved 4 spaces (hexes) in one play (unit).
-For a more detailed account of movement, refer to Chapter 12.
-Time and Movement.
 
-The dexterity attribute is rolled on 3d6 and this makes its range from 3 to 18.
-If a persona’s dexterity should happen to fall below 1, she is irrevocably dead due to complete motor-nervous system failure.
-
-[#moverate]
-include::ROOT:partial$CH03_Table_Dexterity_and_Movement_Rate.adoc[]

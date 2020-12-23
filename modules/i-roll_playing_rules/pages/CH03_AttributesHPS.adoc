@@ -6,76 +6,73 @@
 :artist: Warren Oddsson
 :date: 1990
 :license: CC BY-SA 4.0
+:description: Drawing of chest with bullet scars.
 
 include::ROOT:partial$articulate.adoc[]
 
-Hit Points reflect the persona’s ability to withstand physical damage.
-HPS is composed of structural integrity, force distribution, resilience and luck.
-How well are essential parts protected, material strength, damage control etc.
-
-//right idea but janky
-Anthro HPS are based on strength of connective tissue, organ padding, coagulation and luck.
-Alien HPS include the above plus stronger hides, shells, fluid redistributions and luck
-Robot HPS are based on inorganic equivalents like tensile strength, alloy hardening, power distribution, and luck.
-
-== A Tale of Two Hit Points
-HPS is a unique attribute.
-Unlike all other attributes Hit Points are dynamic.
-Hit Points decrease and increase.
-A persona could lose Hit Points by getting injured.
-She can immediately regain Hit Points by taking a healing medicine.
-She can gradually regain Hit Points over days by her body repairing itself.
-No other attribute dances around like this.
-In order to keep track of this dynamic process HPS have two elements.
-
-=== Hit Points Maximum
-A persona’s maximum HPS is determined once, while the player is rolling her attributes.
-The HPS Max is a fixed element. 
-A persona with 42 HPS Max will always have 42 HPS max. 
-A persona cannot be healed beyond her HPS Max.
-For example a healing medicine can fully restore a persona to 42 HPS but not beyond. 
-HPS Max is not completely permanent. 
-Age, robot decay, or other nastiness can reduce the HPS Max.
-
-=== Hit Points Total
-HPS Total is how many hit points the persona has at this instant.
-When uninjured the HPS Total is the same as the HPS Max.
-As tragedy befalls the persona her HPS Total decreases. 
-The HPS Total is a damage meter. 
-If this damage meter gets to zero dramatic things things happen to the persona.
-
-== Attribute vs Damage
-The persona has HPS Max and HPS Total. 
-These are the attributes of the persona.
-The term hit points will also be used to indicate damage.
-This damage is measured in Hit Points. 
-To simulate injury HPS are deducted from the persona's HPS.
-Same word different context.
+Hit points reflect the persona's ability to withstand physical damage.
+Hit points are a composition of structural integrity, force distribution, resilience and luck.
+The more hit points a persona has, the more physical injury the persona can endure.
+When a persona runs out of hit points, they go unconscious and quickly die.
 
 NOTE: Hit Points are the currency of combat.
 
-A Hit Point doesn’t convert to some unit of energy – like an erg.
+Anthro hit points are a combination of connective tissue strength, organ padding, bone strength, coagulation and luck.
+Alien hit points include all the elements of anthro hit points plus stronger special hides, unique fluid, and luck.
+Robot hit points have inorganic equivalents like tensile strength, alloy casings, redundancies, power distribution, and luck.
+
+Hitpoints are a unique attribute.
+Unlike all other attributes, hits points are very dynamic.
+A persona's hit points can vary wildly everyday.
+A persona could lose hitpoints by getting injured.
+She could immediately regain those lost hitpoints with a healing pharmaceutical.
+She can gradually regain lost hit points as her body repairs itself.
+No other attribute dances around like this.
+
+To keep track of this attribute, it has two parts. 
+These two parts are the constant hit points maximum, and the dynamic hit points total. 
+
+== Hit Points Maximum
+A persona's hit points maximum is determined once.
+The player calculates her persona's hit points during persona generation.
+Each family calculates its hit points maximum differently.
+
+The hit points max (HPS Max) is a fixed element. 
+A persona with 42 HPS Max will always have 42 HPS max. 
+A persona cannot heal beyond her hit points max.
+For example, a healing pharmaceutical can restore a persona to 42 HPS but not beyond. 
+Hit points max is not completely permanent. 
+Age, robot decay, or other nastiness can reduce the HPS Max.
+
+== Hit Points Total
+HPS Total is the number of hit points the persona has at this instant.
+When uninjured, the hit points total (HPS Total) equals the HPS Max.
+The persona's HPS Total decreases every time she is injured. 
+The HPS Total is like a fuel gauge for damage.
+The lower the fuel gauge, the less damage the persona can withstand. 
+If this damage gauge gets to zero, dramatic things happen to the persona.
+These dramatic things include unconsciousness and death.
+
+== Hit Points
+A Hit Point doesn't convert to a unit of energy – like an erg.
 However, a hit point has a constant value.
-One Hit Point in damage reduces the HPS attribute in all personas equally.
-It is the same for anthros, aliens, robots and inanimate objects. 
+One hit point of damage reduces the hit point total of the persona.
 A hit point is a hit point is a hit point.
+Anthros, aliens, robots, and inanimate objects all lose hit points when damaged.
 
 == Same Hit Point Different Impact
 Robots, aliens and anthros all deduct hit points in the same fashion.
-However the impact of the damage varies between the families.
+However, the impact of a hit point varies between the families.
 Here are some brief examples. 
-Anthros can be knocked out by losing too many HPS at once. 
-Aliens and robots cannot be stunned or knocked out by damage.
-Anthros go into an unconscious shock state when their HPS attribute drops below 1.
-Aliens are dead if their HPS attribute drops below 1. 
-When a robot's HPS attribute drops below one she breaks a little bit and resets her HPS.
-Aliens and anthros can heal HPS by rest and repairs.
-Robots cannot recover HPS without risking their free will. 
+
+Anthros can be stunned if they lose too many hit points at once. Aliens and robots cannot be stunned or knocked out by a bolus of damage.
+Anthros go unconscious and start dying at zero hit points total. Aliens are dead at zero hit points total. Robots break something and decay a bit at zero hit points. 
+Aliens and anthros (organic personas) can spontaneously heal hit points through rest. Robots cannot spontaneously heal hit points and must face dangerous repairs. 
 
 
 // brand new table for version 6.0
 .*Hit Points by Family*
-[width="75%",cols="<,<,<,<"]
+[width="75%",cols="<,^,^,^"]
 
 |===
 
@@ -84,15 +81,16 @@ s|Anthro
 s|Robot
 s|Alien
 
-s|HPS Basis
+s|Range
+|5-90
+|1-500
+|1-750
+
+
+s|Determined by 
 |CON
 |CON and Type
 |CON and Size
-
-s|Range
-|5-90
-|0-500
-|1-750
 
 |
 s|Anthro

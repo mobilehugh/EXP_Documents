@@ -1,10 +1,18 @@
 // not a table.
 // a jump list for cross references
 
+
+// REGEXES
+
+// find and kill ##) --->    \|\d+\)\n
+
+// find art missing :description: ---> (:license:).*\n(?!:)
+
+// INCLUDES not LICNUDES
+
 include::ROOT:partial$Defect_Disclaimer.adoc[]
 
-
-I ROLL PLAYING
+// I ROLL PLAYING
 
 xref:1-roll_playing_rules:CH00_kilo_die_mechanic.adoc[Kilodie Mechanic, window=_blank]
 
@@ -55,10 +63,10 @@ xref:i-roll_playing_rules:CH37_Non_Lethal_Combat.adoc[Non-Lethal Combat,window=_
 xref:i-roll_playing_rules:CH38_Space_Vehicle_Combat.adoc[Space Vehicle Combat,window=_blank]
 
 
-II
+//II ROLL PLAYING
 
 
-III HARDWARE
+//III HARDWARE
 
 xref:iii-hardware:An_index_hardware.adoc#_toy_type[Toy Type,window=_blank]
 
@@ -101,7 +109,7 @@ xref:iii-hardware:CH52_Space_Vehicle.adoc#_naval_artillery[Naval Artillery,windo
 
 
 
-IV
+//IV SOFTWARE
 
 xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank]
 
@@ -112,7 +120,7 @@ xref:iv-software:CH55_Support.adoc[Support Equipment,window=_blank]
 xref:iv-software:CH55_Support.adoc#_fuel[Fuel,window=_blank]
 
 
-V
+// V WETWARE
 
 xref:v-wetware:CH58_Mental.adoc[Mental Mutations,window=_blank]
 
@@ -130,19 +138,16 @@ xref:v-wetware:CH59_Physical.adoc#_defective_mutations[Defective Physical Mutati
 
 xref:v-wetware:CH69_AI.adoc[Artificial Intelligence,window=_blank]
 
-Appendices
+// APPENDICES
 
 xref:vi-appendices:Appy_A_Glossaries.adoc[Glossaries,window=_blank]
 
-xref:vi-appendices:Appy_C_Campaign_Mythos.adoc#_energy_and_power[Energy and Power,window=_blank]
+xref:vi-appendices:Appy_C_Campaign_Mythos.adoc[Generic Mythos,window=_blank]
 
 xref:vi-appendices:Appy_C_Campaign_Mythos.adoc#_energy_and_power[Energy and Power,window=_blank]
 
-==================
 
-regex find and kill ##)     \|\d+\)\n
 
-a poison roll vs a save vs poison
 
 
 

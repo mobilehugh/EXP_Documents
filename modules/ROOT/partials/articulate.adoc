@@ -4,7 +4,7 @@
 // centering by assigning imageblock css
 
 [.imageblock.inlinefix]
-image:ROOT:{art}[width="{width}", alt='{art}-{artist}-{license}', title='Artist: {artist} Date: {date} License: {license}']
+image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
 
 [.imageblock]
 *{snark}*
@@ -16,3 +16,4 @@ image:ROOT:{art}[width="{width}", alt='{art}-{artist}-{license}', title='Artist:
 :artist:
 :date:
 :license: 
+:description:
