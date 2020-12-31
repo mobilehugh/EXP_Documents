@@ -1,8 +1,8 @@
 // Table 4.17 Mutation Frequency Based on Anthro Type
 .*Anthro Mutation Chance Table*
-[width="75%",cols="<,4*^"]
+[width="75%",cols="<1,^2,^1,^2,^1"]
 |===
-5+<|Mutate now avoid the post bomb rush. 
+5+<|Mutate now. Avoid the post bomb rush. 
 
 s|Type
 s|Mental (1d100)
@@ -18,13 +18,13 @@ s|Amount
 
 |Avarian
 |7%
-|1+roll
+|1@roll
 |5%
 |1
 
 |Canine
 |18%
-|1+roll
+|1@roll
 |22%
 |1-6
 
@@ -87,4 +87,6 @@ s|Mental
 s|Amount
 s|Physical
 s|Amount
+
+5+<|1@roll persona gets one mutation per consecutive roll less than the mutation chance
 |===

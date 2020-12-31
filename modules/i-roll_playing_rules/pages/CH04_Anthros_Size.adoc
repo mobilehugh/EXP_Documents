@@ -1,98 +1,102 @@
 = Anthro Size
 
-Anthros are all essentially medium sized beings. 
-Only aliens and robots are classified as tiny or large.
-Size is composed of Hite and Wate. 
+Anthros are human-sized.
+In the vernacular of EXP, anthros are medium-sized. 
+The occasional ursidae anthro may sneak onto the bottom of the large scale.
+Only alien and robot personas can be tiny or gigantic.
+Size has two components, hite and wate. 
+Hite, aka height, is the persona's length in centimetres.
+Wate, aka weight, is the persona's volume/mass in kilograms.
 
 == Hite
-The hite of the anthro is calculated using a base hite and a variation.
-Each anthro type has a base hite.
-The base hite is located to the left of the + sign.
-The base hite is bolded below.
+The player calculates her persona's hite by referencing her anthro type's hite data.
+Each anthro type has an average hite and a hite variation.
 
-// Table 4.16 Ursidae Data
-.*Find the Base Hite*
+The player rolls the hite variation described for her chosen anthro size.
+Next, the player adds the hite variation to her anthro type's base hite.
+The hite variation can be positive or negative, generating a hite above or below the average.
+The following example shows how to generate an ursidae anthro's hite.
+
+.*Find the anthro's average hite*
 [width="75%",cols="<,<,<",frame="all"]
 
 |===
-3+<| Base hite is highlighted: 176 cm
+3+<|Average hite is #highlighted#: 176 cm
 
 s|Size
 s|Hite (cm)
 s|Wate (kg)
 
-|Large
+|Big
 |#176#+(2d20)-20
 |78
 
-
 |===
 
-Hite variation is the located to the right of the + sign.
-
-// Table 4.16 Ursidae Data
-.*Find the Hite Variation*
+.*Determine the anthro's hite variation*
 [width="75%",cols="<,<,<",frame="all"]
 
 |===
-3+<| The hite variation is highlighted : (2d20)-20 cm
+3+<|Hite variation is #highlighted# : (2d20)-20 cm
 
 s|Size
 s|Hite (cm)
 s|Wate (kg)
 
-|Large
+|Big
 |176+#(2d20)-20#
 |78
 
-
 |===
 
-The player rolls the variation and adds it to the base hite. 
-In our example the player rolled 30 on the 2d20.
-Subtracting 20 she arrives a variation of +10
-
-=== Calculate Final Hite
-.Base Hite + hite Variation = final Hite
+=== Calculate Anthro Hite
+.average hite + hite variation = anthro hite
 ****
-The ursidae's base hite is 176 cm. The hite variation is +10 cm. So the persona's final hite is 186 cm.
+The average hite is 176 cm. If hite variation is +10 cm she is 186 cm tall. 
+If the hite variation is -15 cm, she is 161 cm tall.
 ****
 
 == Wate 
-
+The persona's wate is proportional to her hite.
+The taller she is, the greater her wate.
 The wate of the persona is a pure calculation based on the hite of the persona.
-The greater the hite the greater the wate. 
+The greater the hite of the persona, the greater her wate. 
 
-.*Find the Base Wate*
+There are no rolls made when generating a persona wate.
+The player finds her persona's average wate.
+The player calculates her persona's wate variation.
+The player calculates her wate variation by dividing her hite by her average hite. 
+The player multiplies her average wate by wate variation.
+The following example shows how to calculate an ursidae's wate.
+
+.*Find the Average Wate*
 [width="75%",cols="<,<,<",frame="all"]
 
 |===
-3+<| Base wate is highlighted: 78 kg
+3+<| Average wate is #highlighted#: 78 kg
 
 s|Size
 s|Hite (cm)
 s|Wate (kg)
 
-|Large
+|Big
 |176+(2d20)-20
 |#78#
-
 
 |===
 
 === Calculate Wate Variation
-.persona hite / base hite = wate variation
+.persona hite / average hite = wate variation
 ****
-The persona's hite is 186. The persona's base hite is 176 cm. Division gives a wate variation of 1.05
+The persona's average hite is 176 cm. If her hite is 186 cm, she has a wate variation of 1.05. If her hite is 161 cm, she has a hite variation of 0.91.
 ****
 
-
-=== Calculate Final Wate
-.base wate * wate variation =  final wate
+=== Calculate Anthro Wate
+.average wate * wate variation =  anthro wate
 ****
-The base wate is 78 kg.  Multiplied by wate variation of 1.05 gives a final wate of 82 kg.
+The base wate is 78 kg.  A 1.05 wate variation yields an 82 kg anthro. A 0.91 wate variation yields a 71 kg anthro.
 ****
 
 The player records the final hite and final wate on her persona record. 
 She also wonders if it was worth all the arithmetic work.
-Smiling, she remembers that numeracy is a worthy skill.
+Smiling, she remembers that numeracy is an excellent skill.
