@@ -1,54 +1,58 @@
 = Anthro Type Selection
 
-Once an potential anthro's attributes have been generated choices must be made.
-The player and referee go through the Anthro Type Attribute Requirements Table.
-By comparing the generated attributes to this table a list of anthro types is created.
-Each anthro type has a set of attribute minimums.
-The persona must have attributes equal to or greater than the minimum.
-Anthro type maximums do *NOT* apply when choosing an anthro type.
+At this point, the player's anthro is merely a list of numbers.
+Her persona may be strong or smart but has no form.
+Choosing a persona type is the first step in giving the persona a literal shape.
+The player gets to make choices, but as usual, the dice guide her options.
+The persona's attributes determine from which anthro types the player may choose.
+Using the Anthro Type Table represents a bit of a legacy in the ruleset.
+Some anthro types are less common due to their unique abilities and attribute adjustments. 
+A player whose persona has a physical strength less than ten cannot have an equine anthro type. 
+A persona with a dexterity of twelve or less cannot be a feline.
 
-If the referee and player agree this step can be skipped and players can choose whatever anthro type they desire.
-The corollary of this also applies. 
-The referee can designate that all anthro types be the same. 
-Don't let rules get in the way of story or fun.
+In the past, these kinds of creative limitations were commonplace. 
+As role-playing games have matured in the last 40 years, choice restriction seems miserly.
+However, balance in the roll playing system is based on these kinds of limitations.
+One can find a <<_alternate_anthro_type_selection,compromise>> below. 
+Don't let rules get in the way of the story or fun.
 
-//table 4.1
+The player and referee compare the persona's list of attributes to the attribute minimums one the Anthro Type Table. 
+This comparison results in a list of anthro types from which the player can choose.
+
 include::ROOT:partial$CH04_Table_anthro_attributes.adoc[]
 
-== Attribute Requirements
-Anthro attribute minimums have two purposes. 
+== Attribute Minimums
+Anthro attribute minimums serve two purposes. 
 1) organize anthro types based on physical abilities.
 2) ensure a minimum attribute score for the anthro type.
 
-How the anthro attribute minimums are used to select anthro types is detailed previously.
-The restrictions ensure that hardy types have a high CON, that smart types have a high INT and that strong types have a higher PSTR.
+The restrictions ensure that hardy anthro types have a high constitution, that smart anthro types have high intelligence, and that strong anthro types have high physical strength.
 
-The anthro attribute minimums are also protective of the persona being created.
-Many defect mutations can reduce attribute scores. 
-However, while creating a persona, an attribute score cannot drop below an minimum.
-If a feline were to get the mutation Total Carapace, her CHA could not drop below 8.
-Total Carapace has an armour rating benefit and CHA penalty of -4.
-This applies to anything that would drop a persona's attribute during persona creation.
-
-Once in game play the persona attributes are no longer protected by attribute minimums.
-In game play attributes can be decreased by aging, mutations or special damage.
-If a persona's CHA drops because of burns, or her PSTR drops because of aging or her INT drops because of brain damage the attribute minimums will not limit the attribute’s decline.
-This can result in persona attributes permanently dropping and even killing a persona.
+Persona attribute minimums are part of a selection process and do represent a protected attribute score.
+In gameplay, ageing, mutation or injury can drop an attribute score below the anthro type's minimum.
+A persona's charisma score can drop below her anthro type minimum due to burns.
+A persona's physical strength can drop below her anthro type minimum due to ageing or injury.
 
 == Example Anthro Type Selection
 A player has generated a persona with the following attributes:  AWE 6, CHA 15, CON 17, DEX 9, INT 14, MSTR 12, PSTR 6 AND HPS 42.
-This player finds she may choose from avarian, florian, humanoid, insectoid, rodent and PSH (pure strain human).
+The player can choose from the following anthro types avarian, florian, humanoid, insectoid, purestrain and rodentia.
 
-//table 4.2
 include::ROOT:partial$CH04_Table_anthro_type_selection.adoc[]
 
-== Explaining Anthro Delivery Data
-Once the player has chosen her persona's anthro type it is recorded on the persona record.
-Each anthro type has some defining features which are detailed on their respective anthro data sheets.
-Each data sheet includes attribute adjustments, Age, Hite, and Wate. 
-Many anthro types have special abilities that are described in the body of each anthro type's section.
+== Alternate Anthro Type Selection
+Players can skip the arduous procedure of comparing attribute types and choose their anthro type directly.
+The referee and players must give care to game balance if the straight selection model. 
+Expeditions will quickly become overpowered and full of ursidae spies and reptilian knites without some balance.
+If the player chooses an anthro type purely for cosmetic and story reasons, they should forfeit the abilities and attribute adjustments of the anthro type.
+So if a player always wanted to look like a panda bear but lacks the attributes, she can look like a panda bear but does not get hibernation, frenzy or plus two on her physical strength. 
+Choosing appearance over abilities and attributes is called the "I wanna look like" loophole. 
 
-// Table 4.16 Ursidae Data
+== Explaining Anthro Delivery Data
+Once the player has chosen her persona's anthro type, she records it on her persona record sheet.
+Each anthro type has a Delivery Data Table.
+Each table is unique to the anthro type and contains essential information about the type.
+Below we use the  Ursidae Delivery Data table to explain the info.
+
 .*Ursidae Delivery Data*
 [width="75%",cols="<,<,<",frame="all"]
 |===
@@ -69,56 +73,62 @@ s|Size
 s|Hite (cm)
 s|Wate (kg)
 
-|Large
+|Big
 |176+(2d20)-20
 |78
 
-|Larger
+|Bigger
 |208+(2d20)-20
 |139
 
-3+<| <<_hite_and_wate,How to calculate Hite and Wate>>
+3+<| xref:CH04_Anthros_Size.adoc[Calculate Hite and Wate]
 
 |===
 
 === Attribute Minimums
-This is a refresher showing what the minimum attributes for the anthro type are.
-The required attributes for an ursidae are:  DEX 4, INT 4, and PSTR 12.  
+The required attributes for an ursidae are DEX 4, INT 4, and PSTR 12.  
+See above for details ad nauseam.
 
 === Attribute Adjustments
-These are the adjustments made the persona’s attributes depending on their anthro type.
-The ursidae persona would take an INT penalty of -2.
-She would also enjoy a CON bonus of +1 and a PSTR bonus of +2.
-This tends to make ursidae, strong, hardy, but not too smart
+These are the adjustments made to the persona's attributes.
+Strong personas get even stronger, and weak personas may get even weaker.
+The ursidae persona would take an intelligence penalty of -2.
+She would also enjoy a constitution bonus of +1 and a physical strength bonus of +2.
+These attribute adjustments make the ursidae strong, hardy, but not too smart
 An anthro type attribute penalty cannot drop an attribute below the type attribute minimum.
 These attribute adjustments are important because attributes influence a persona's choice of vocation.
-These attribute changes are permanently recorded on the persona record. 
+The player records the adjusted attributes on the persona record sheet. 
 
 === Age
-Used to calculate the starting age of the persona in years.
+The starting age range of the persona in years.
 Ages vary wildly from anthro type to anthro type. 
 Most of the anthro ages fall into the young adult category.
-In the case of an ursidae the player would roll 1d4 and add 8.
-This generates an age between 9 and 12 in years.
-The age is recorded on the persona record sheet.
+In the case of an ursidae, the player would roll 1d4 and add 8.
+The die roll generates an age between 9 and 12 in years.
+The player records her persona's age on the persona record sheet. 
 
 === Abilities
-Special things that the particular anthro type can do. 
+Abilities are cool things that the anthro type can do. 
+Abilities are part of the anthro type, and they are not mutations.
+All ursidae have frenzy and hibernation
+The player can read the details of frenzy and hibernation in the 
  
 === Hite and Wate
-Hite is measured in centimeters (cm) and wate is recorded in kilograms (kg).
-A centimeter is shy of half and inch.
+Hite is in centimetres (cm), and wate is in kilograms (kg).
+A centimetre is shy of half an inch.
 A kilogram is slightly more than 2 pounds. 
-In EXP hite and wate are slightly more representative than mere cm and kg.
-They are both a pain in the butt to calculate.
+The delivery data lists two different sets of hite and wate.
+The player chooses between the sizes big and bigger.
+Their titles are self-explanatory for the ursidae.
+In general, ursidae are big.
 
-Hite and wate often have two categories. 
-The player may choose to be small or large. 
-Gender does not determine hite or wate. 
-It is merely a player's choice.
+Not all anthro types have a choice between larger and smaller sizes. 
+These are the "one size fits all" anthro size.
+Gender does not determine the anthro size in EXP.
+Anthro size a player's choice.
 
-Below we will calculate the hite and wate of a large ursidae.
-If you do not feel like doing math simply use the base hite and base wate of the persona. 
-Don't let rules get in the way of story or fun.
+The hite and wate listed here are average hite and wate.
+To calculate the persona's exact hite and wate, jump to xref:CH04_Anthros_Size.adoc[Calculate Hite and Wate].
+
 
 
