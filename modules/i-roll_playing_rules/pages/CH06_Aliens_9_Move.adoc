@@ -52,3 +52,56 @@ The Example Alien Movement table has the movement rates calculated for an alien 
 Note that none part simply reduces the alien's total movement.
 
 include::ROOT:partial$CH06_Table_Calculating_Alien_Movement.adoc[]
+
+
+== Example One "I like to swim"
+This alien has a base movement rate of 12 h/u.
+
+:art: alien_opossum_none_planaria_manta.png
+:width: 350px
+:snark: Head: opossum, Torso: none, Arms: Planaria, Legs: manta ray
+:artist: Nelson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Drawing of an alien Head: opossum, Torso: none, Arms: Planaria, Legs: manta ray
+
+include::ROOT:partial$articulate.adoc[]
+
+* Head: opossum (l)
+* Torso: none (-)
+* Arms: planaria (w)
+* Legs: manta ray (w)
+
+Having a torso of none reduces the alien's overall speed.
+Visually the torso is composed of all the other parts. 
+Quartering the movement of 12 h/u gives the following movement rates.
+
+* Land: 3 h/u
+* Air: --
+* Water: 6 h/u
+
+== Example Two "I like to run"
+This alien has a base movement rate of 12 h/u.
+
+:art: alien_trex_rabbit_dodo_dodo.png
+:width: 350px
+:snark: Head: t-rex, Torso: rabbit, Arms: dodo, Legs: dodo
+:artist: Nelson
+:date: 1992
+:license: CC BY-SA 4.0
+:description: Drawing of an alien Head: t-rex, Torso: rabbit, Arms: dodo, Legs: dodo
+
+include::ROOT:partial$articulate.adoc[]
+
+* Head: t-rex (l)
+* Torso: rabbit (l)
+* Arms: dodo (la)
+* Legs: dodo (la)
+
+Each of this alien's body parts has a land component. 
+By having 4 land elements all of her movement rate can be used on land. 
+Quartering the movement of 12 h/u gives the following movement rates.
+
+* Land: 12 h/u
+* Air: 6 h/u 
+* Water: --
