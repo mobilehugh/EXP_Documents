@@ -1,7 +1,20 @@
 = Families
 
-// recommended players skip to anthros
-// challenges and benefits
+// variables to correct xrefs for roll vs role 
+// default is Role Playing rules
+:anthrogen: xref:CH04_Anthros_.adoc[Anthros,window=_blank]
+:aliengen: xref:CH06_Aliens_.adoc[Aliens,window=_blank]
+:robotgen: xref:CH05_Robots_.adoc[Robots,window=_blank]
+
+ifeval::["{docname}" == "CH26_Role_Gen_Persona_Families"]
+
+
+// substitution is for Roll Playing Rules
+:anthrogen: xref:CH26_Role_Gen_Anthro.adoc[Anthros,window=_blank]
+:aliengen: xref:CH26_Role_Gen_Alien.adoc[Aliens,window=_blank]
+:robotgen: xref:CH26_Role_Gen_Robot.adoc[Robots,window=_blank]
+endif::[]
+
 
 [quote]
 ____
@@ -54,7 +67,7 @@ Anthros have a shape, structure and physiology most similar to our own.
 Anthros possess language, culture, vocations and norms that are familiar to us from mundane terra. 
 Most player personas will be anthros. 
 Beginning players should only deliver anthro personas.
-To deliver an anthro, walk to xref:CH04_Anthros_.adoc[Anthros,window=_blank]
+To deliver an anthro, walk on over to {anthrogen}.
 
 == Alien Family (Diversidae)
 Aliens are organic creatures that have extremely diverse shapes, sizes, and abilities.
@@ -66,7 +79,7 @@ Most aliens will be referee personas acting as a friend, foe or dinner to player
 
 When creating an alien persona, the player is creating an entire species.
 A player persona alien will only represent one creature, but the generation has all the information for an entire alien species.
-To evolve an alien fly to xref:CH06_Aliens_.adoc[Aliens,window=_blank]
+To evolve an alien hop, swim or fly over to {aliengen}.
 
 == Robot Family (Machinidae)
 Robots are inorganic life-forms intentionally fabricated from inorganic materials.
@@ -78,7 +91,7 @@ Unlike an organic persona, a robot persona can lose her free will if she is subj
 Robot personas are more 'alien' to players than alien personas are.
 Robots have no familiar body parts, no facial expressions, no fatigue, no social pressure, no culture, and no familiar goals or desires.
 Most robot personas will be referee personas. 
-To fabricate a robot, roll to xref:CH05_Robots_.adoc[Robots,window=_blank]
+To fabricate a robot, roll over to {robotgen}.
 
 == AI (Machinidae)
 AI are inorganic life forms intentionally fabricated to have consciousness and free will.
