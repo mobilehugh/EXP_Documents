@@ -1,10 +1,10 @@
 // Table 5.2 Robot Type Determination
 .*Robot Type Determination*
-[width="75%",cols="21*^"]
+[width="75%",cols="^,<,19*<"]
 |===
-21+<|Using robot attribute ranges to determine robotic type. 
+21+<|Use robot prime attributes to determine robotic type. 
 s|ROBOT ID
-s|ROBOT NAME
+s|ROBOT TYPE
 s|CON 1
 s|CON 2
 s|CON 3
@@ -70,7 +70,7 @@ s|PSTR 4
 |C
 
 |D
-|Datalyzer (analog)
+|Datalyzer
 |D
 |D
 |
@@ -226,7 +226,7 @@ s|PSTR 4
 |
 
 |R
-|Rescue (Emergency)
+|Rescue
 |
 |
 |
@@ -248,7 +248,7 @@ s|PSTR 4
 |
 
 |S
-|Social (Relations)
+|Social
 |S
 |S
 |
@@ -292,7 +292,7 @@ s|PSTR 4
 |
 
 |V
-|Veterinarian (Medical)
+|Veterinarian
 |V
 |V
 |
@@ -314,7 +314,7 @@ s|PSTR 4
 |
 
 s|ROBOT ID
-s|ROBOT NAME
+s|ROBOT TYPE
 s|CON 1
 s|CON 2
 s|CON 3

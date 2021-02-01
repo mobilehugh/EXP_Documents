@@ -1,10 +1,10 @@
 // Table 5.2 Robot Type Determination
 .*Example Robot Type Determination*
-[width="75%",cols="21*^"]
+[width="75%",cols="^,<,19*<"]
 |===
-21+<|Using CON range 2, DEX range 2,  INT range 3, PSTR range 4
+21+<|Using prime attributes CON 2, DEX 2,  INT 3, PSTR 4
 s|ROBOT ID
-s|ROBOT NAME
+s|ROBOT TYPE
 s|CON 1
 s|#CON 2#
 s|CON 3
@@ -70,7 +70,7 @@ s|#PSTR 4#
 |#C#
 
 |D
-|Datalyzer (analog)
+|Datalyzer
 |D
 |#D#
 |
@@ -226,7 +226,7 @@ s|#PSTR 4#
 |
 
 |R
-|Rescue (Emergency)
+|Rescue
 |
 |
 |
@@ -248,7 +248,7 @@ s|#PSTR 4#
 |
 
 |S
-|Social (Relations)
+|Social
 |S
 |#S#
 |
@@ -292,7 +292,7 @@ s|#PSTR 4#
 |
 
 |V
-|Veterinarian (Medical)
+|Veterinarian
 |V
 |#V#
 |
@@ -314,7 +314,7 @@ s|#PSTR 4#
 |
 
 s|ROBOT ID
-s|ROBOT NAME
+s|ROBOT TYPE
 s|CON 1
 s|#CON 2#
 s|CON 3
