@@ -1,132 +1,154 @@
 = Robot Defensive Systems
-Defensive systems can be anything that makes the robot harder, to hit, damage or control.
+Defensive systems are anything that makes the robot harder to hit, damage or control.
 Robot defences can be malfunctioning peripherals used as a defence in combat.
-However most are hardenings that protect the robot while doing its work.
+Most defences are hardenings that protect the robot while doing its assigned job.
+The added defence in combat is a bonus.
 
-Unlike the convoluted attack tables there is only one Defensive Systems Table.
-Each robot type has clear direction on how to approach this table. 
-Some robots have no roll on Defensive Systems.
-Others are designated multiple rolls.  
-
+Unlike the convoluted attack tables, there is only one Defensive Systems Table.
+Each robot type has a clear direction on how to approach this table. 
+Some robots have no defensive systems.
+Others are designated multiple systems.  
 
 include::ROOT:partial$CH05_Table_Robotic_Defences.adoc[]
 
-== Anti-Missile
-This defensive system protects the robot from flying attack.
-The defence could be a baked in defense or a peripheral being used creatively.
-Anti-missile is a combination of evasive actions, hardened casing and flechette. 
-Any ranged attack can be thwarted by this defence.
-This includes: type B weapons, guided bombs, missiles, grenades, rockets or directed aerosols.
+== Aunty Missile
+This defensive system protects the robot from flying attacks.
+The defence could be a baked-in defence or creative use of a peripheral.
+Aunty missile is a combination of evasive actions, hardened casing and flechette. 
+This defence can thwart most ranged attacks: type B attacks, guided bombs, missiles, grenades, rockets or directed aerosols.
 The defence does not work against powered small arms attacks like guns or crossbows (type C).
+The robot's armour rating is increased by 50 to 300 (50d6 or 1d6*50) against missile attacks.
 
-The robots AR is increased by 50 to 300 (50d6 or 1d6 times 50) against missile attacks.
-If the attack roll fails the robot has destroyed the incoming attack. 
-This will negate any area of effect damage that the missile could have delivered.
+If the attack roll fails, the robot has destroyed the incoming attack. 
+Destroying the attack also negates any area of effect damage that the missile could have delivered.
+If the attack roll succeeds, the area of effect damage is halved.
 
-A successful attack roll will limit the damage to area of effect damage.
-Any damage delivered will be cut in half.
+== Aunty Personnel
+This defensive system repels clamouring parasites or grappling hordes of attackers.
+The player chooses the descriptive mechanism of the aunty personnel device.
+Regardless of the mechanism, all aunty personnel defensive mechanisms operate the same.
+For example, electric shock, sonic attack, flames, shrapnel, or cotton candy webs all have the same impact on attackers.
 
-== Anti-Personnel
-Designed to remove clamouring parasites or grappling hordes.
-The mechanism of the anti-personnel device is chosen by the player.
-The player can choose the nature of the noxious anti-personnel attack.
-For example, electric shock, sonic attack, flames, shrapnel, or cotton candy webs.
-Regardless of the appearance of the defence all types will function the same.
-
-Anti-personnel affects targets touching the robot or in the robot's immediate area.
+Aunty Personnel affects targets immediately adjacent to or touching the robot.
 The defence has no effective range.
-The anti-personnel does not attack immobilized or incapacitated targets.
-The player rolls 3d6 each time the defence is activated.
-When activated the player can choose between lethal or non-lethal defence.
+When activated, the player chooses between lethal or non-lethal defence.
 
-=== Lethal Anti Personnel
-As a lethal defence every organic target with the limited range takes damage.
-No attack roll is necessary as this is an area of effect attack.
-The close proximity attackers must make a saving throw versus pain.
-The intensity of the attack is equal to the damage delivered. 
-A failed saving throw will cause them to fall back at least one hex from the robot.
+=== Non-Lethal Aunty Personnel
+The non-lethal aunty personnel defensive system places the well being of the attackers over the well being of the robot.
+The player rolls an intensity of 4-24 (4d6) for each use of the defensive system. 
+Any attacker in contact with, or immediately adjacent to, the robot must win a save or jump away. 
+The players may divide up the saving rolls for groups of attackers to save time. 
 
-=== Non Lethal Anti-Personnel
-The none lethal version of this defence effects every organic target within range.
-While no damage is done the target automatically falls back from the robot in pain.
-The referee may allow player persona's a saving throw versus pain to stay on the robot.
-If the player persona successfully stays on the robot they will take 3-18 (3d6) HPS of damage.
+The attackers are subject to intense pain, irritation or distraction.
+None of the attackers can act during the non-lethal response, and those that fail the saving roll will recoil back.
+In the non-lethal mode of aunty personnel, the robot may have restricted movement.
+Ranged attackers are unaffected by this defensive system.
 
-When using non-lethal anti-personnel the robot can move freely through riotous swarm.
+=== Lethal Anti-Personnel
+The lethal aunty personnel defensive system places the robot's escape over the well being of the attackers.
+The player rolls an intensity of 3-18 (3d6) for each use of the defensive system. 
+Any attacker in contact with, or immediately adjacent to, the robot is injured and driven away by the defensive system. 
+Every attacker takes a damage bolus in hit points equal to the aunty personal defensive system's intensity. 
+If the player rolls a 9 for intensity, every attacker loses nine hit points.
+This damage can be lethal to weaker attackers, hence the moniker.
+
+The attackers are subject to intense pain, irritation or distraction, and killing damage.
+None of the attackers can act during the aunty personnel response, and those that fail the saving roll will recoil back.
+In this mode of aunty personnel, the robot can move freely amongst the crowd.
+Ranged attackers are unaffected by this defensive system.
 
 == Increase AR
-The increase in armour rating could be chassis hardening, evasive maneuvers, or some combo.
-The armour rating of the robot increases by 50 to 300 (1d6 times 50).
-The effects of this defence are cumulative. 
-Multiple visits to this defence increases the AR each time.
-This can lead to armour ratings well above the robot's base of 700.
+This defensive system increases the robot's armour rating, making her harder to damage in combat.
+The increase in armour rating could be chassis hardening, evasive maneuvers, or a combination of both.
+Each visit to this defensive system increases the robot's armour rating by 
+50 to 300 (1d6 times 50).
+This defence's effects are cumulative, and multiple visits to this defence increase the AR each time.
 
 == Artifact Armour
-This robot's hull is replaced by fancy armour from xref:iii-hardware:CH42_Armour.adoc[Armour]
-The robot could be covered in relfec, ballistic, a force field, or even powered armour.
-There is a limitation on the armour type.
-The armour type cannot make the robot weaker.
-For example, the armour rating cannot drop below 700.
+This defensive system replaces the robot's usual alloy hull with a specialized artifact armour.
+The player generates the armour type from the xref:iii-hardware:CH42_Armour.adoc[Armour,window=_blank] section in hardware.
+Any armour type can replace the robot's hull, from reflec to powered armour. 
+The only limitation is that the armour type *cannot* make the robot weaker.
+For example, the armour type cannot decrease the robot's armour rating.
 
 == Camouflage
-Often the best defence is being able to hide.
-The defence is combination of colouring and structural changes that allow the robot to blend in.
-The robot can camouflage against any type of sensor that it has.
+Often the best defence is to avoid being found.
+This defensive system combines colour and structural changes with few electronic countermeasures. 
+Camouflage is not invisibility, and it does not hold up to direct vision or inspection.
+This defensive system is for hiding and is not useful for an ambush.
+Ambush is an offensive system. 
+
+The robot can camouflage herself against the sensor types that she has.
 A robot with radar and video sensors could camouflage against radar and video.
-This would make it essentially invisible to those types of vision.
-This is a defensive skill and does not offer any bonus for ambush. 
-A persona will only detect this robot if she is actively searching the area.
+Other vision types, organic ultravision etc., would visualize the robot as usual.
 
 == Detect ambush
 This defence makes it very difficult to surprise this robot.
 The robot is four times more likely to detect something detrimental to it.
-The persona's AWE score is quadrupled (times 4) when detecting an ambush
-The defence includes active and passive ambush situations. 
+The robot quadruples (times 4) her awareness score when detecting an ambush.
+The defence includes active and passive ambushes. 
 A robot with AWE 12 would use an AWE 48 detecting mines, trip wires or traps.
 
 == Diffuse Bombs
-This robot is a demolitions demolishing expert.
-The robot has both the technical and mechanical skills to defuse all types of bombs.
-The robot functions as a 5th level mechanic, plus the robot's EXPS level when diffusing bombs.
-When using the Mechanic PT roll the persona doubles her INT score when diffusing bombs. 
-This defence does not assist the robot in planting or making bombs.
+This robot is a demolition demolishing expert.
+The robot has both the technical and mechanical skills to defuse any bomb type.
+The robot functions as a mechanic when defusing bombs.
+The bomb is assigned a degree of difficulty, and the robot gets to work. 
+This robot has no other mechanic skills what so ever.
+
+When making the performance roll, the player adds 5 to her experience level and doubles her intelligence score.
+This defensive system can also dismantle traps.
+This defensive system cannot assist the robot in planting or making bombs or traps.
+Diffusing bombs is a defensive system.
 
 == Evasive action
-Allows the robot to avoid combat situations entirely, providing it is not engaging combat itself.
-This is essentially a computerized tactical withdrawal mode.
-It allows the robot to move at normal through mine fields, tank traps, phalanx of soldiers and other such detriments to escape.
-Each time the robot encounters an escape obstacle, it can avoid it with a d20 DEX roll.
-No robot can attack while employing this defence (unless it is a combat robot).
+Often the best defence is to run away.
+This defensive system is essentially an automated tactical withdrawal mode.
+In most instances, the robot *cannot* engage in combat while running away.
+Only light and heavy offensive combots (type C) can use their offensive systems while engaging in evasive action.
+
+Evasive action allows the robot to move at her regular movement rate through many obstacles: minefields, tank traps, bot pits and terrain.
+The robot will exploit any cover, including her fellow expedition members, to escape.
+The player cannot use evasive action to escape an essential plot point. 
 
 == Force Field
-This is the classic sciency fiction defensive force field.
-The force field will absorb any HPS in damage that should be taken by the robot.\
-A force field will be able to absorb 25 to 100 HPS of damage (1d4 times 25).
-Multiple force fields are added together and function as a single device.
+This defensive system is the classic sciency fiction damage-absorbing force field.
+The force field may or may not be invisible, but its presence becomes evident when it absorbs damage. 
+The electromagical defensive shield will absorb every hit point of damage from almost every attack type. 
+There are weapon types that specifically avoid force fields. 
+The force only prevents damage and does not stop control attacks or otherwise harmless interventions. 
+
+The force field will absorb any hit points that the robot would have taken.
+A force field will absorb 25 to 100 HPS of damage (1d4*25).
 The force field will shut down for 1 minute per HPS absorbed once depleted.
 
+Force fields are cumulative, and multiple visits to this defensive system increase the force field's strength.
+Robots do not earn experience for damage absorbed by their force field.
+
 == Increase HPS
-This robot just increased it's ability the take damage.
-Increasing HPS makes the robot a bit tougher
-Each time Increase HPS is visited the HPS are increased. 
-The effect is cumulative.
-The robot's HPS are increased by 10% to 60% (d6 times 10%).
-A robot with 100 HPS and an increase HPS of 30% would have 130 HPS.
+This defensive system increases the robot's hit points max.
+The robot does not look too different because most of the improvements are internal. 
+Increasing hit points maximum makes the robot a bit tougher.
 
-== Mental mutation
-This robot has a peripheral that has the same effect as a mental mutation.
-The defence could be a baked in defense or a creatively used peripheral malfunction.
-The player makes  a jump to xref:vi-mutations:CH58_Mental.adoc[Mental Mutations].
+The robot's hit points maximum increases by 10% to 60% (1d6).
+A 30% increase for a robot with 100 HPS  increase her HPS Max to 130.
+Increasing hit points max is cumulative. 
+Each new visit increases the hit points max again.
 
-The mutation should be a defensive mutation.
-The player may spend some time at xref:vi-mutations:CH58_Mental.adoc[Mental Mutations] rolling and rolling.
-If the player wishes to roll a completely random mutation instead then so be it.
-The robot cannot have a defective mutation under any circumstances. 
-The robot cannot have a purely attack mental mutation.
-When attacking the robot uses her INT instead of her MSTR.
+== Mental Mutation
+This robot has a peripheral that functions the same as a non-combat mental mutation.
+The defence could be a baked-in defence or a creative peripheral malfunction.
+If the mental mutation requires mental strength to function, the player uses her personas intelligence score instead.
 
-== Override interrupt
-The robot is immune to robotic override.
-The defence protects against attempt to make her subservient.
-The referee may feel that a global defence to robotic override is too powerful.
-If this is the case this robot can triple her INT vs robotic override and can check 3 times more often 
+To generate the mutation jump to the specific table xref:v-wetware:CH58_Mental.adoc#_non_combat_mutations[Non Combat Mental Mutations,window=_blank].
+Ideally, the mutation will be a defensive one, but any non-combat mental mutation will work if used defensively. 
+Under no circumstances can this defensive system weaken the robot. 
+
+== Override Interrupt
+Robotic override is an attack that mechanics and robot owners use to regain control of a robot.
+This defensive system makes the robot resistant to the robotic override attack.
+The player can use override interrupt to break out of a control factor failure.
+In short, override interrupt is a defensive system that gives the robot a chance to reboot its consciousness.
+
+The referee may allow override interrupt to be automatic or award significant bonuses for resistance.
+A respectable bonus would be tripling the robot's intelligence to interrupt an override or loss of control. 

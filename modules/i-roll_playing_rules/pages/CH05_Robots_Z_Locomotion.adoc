@@ -1,117 +1,131 @@
 = Robot Locomotion
-This is how the robot moves around. 
-Wheels, skis, balloons, tracks move the robot and define it's appearance.
-Every robot rolls on the Primary Locomotion Table below. 
-All types of locomotion perform equally.
-So a robot with 3 pods would move equally to a robot with tracks. 
-The persona's DEX score would be the difference not the locomotion type.
+Locomotion indicates how the robot moves from one location to another. 
+The locomotion type affects the robot's appearance and how it can move in the game. 
+Some locomotion types allow for three-dimensional flight. 
+Some locomotion types are a combination that impacts both its appearance and function in the game.
 
-Some locomotion types require a complementary locomotion type. 
-The complementary locomotion type  
+The player makes a roll on the Primary Locomotion Table. 
+All types of locomotion perform equally.
+The locomotion type indicates if a complementary locomotion type is needed.
+For example, a robot propelled by jets may have wheels as well. 
+This robot would be bound to the ground.
+A robot propelled by jets with a complementary antigrav system would be able to fly around. 
+
+The locomotion type does not determine how fast the robot moves.
+The robot's dexterity score determines her movement rate.
+For more info jump to xref:i-roll_playing_rules:CH05_Robots_Z_Move.adoc[Robot Movement Rate,window=_blank].
+
+All locomotion types function equally.
+So a robot with three pods would move the same as a robot with one track. 
 
 include::ROOT:partial$CH05_Table_Robotic_Primary_Locomotion.adoc[]
 
 include::ROOT:partial$CH05_Table_Robotic_Secondary_Locomotion_Type.adoc[]
 
 == Antigrav
-Antigrav is a classic science fiction term for anti-gravity.
-The robot can travel about as though gravity has no effect upon it.
-The robot can fly and flit about.
+Antigrav is a classic sciency fiction term for anti-gravity.
+The robot can travel about as though gravity does not affect it.
+The robot can fly and flit around the environment.
+The robot has no obvious mechanisms that create its buoyancy in gravity.
 As ideal as antigrav is, it will only function within a gravity well.
-The robot has no obvious mechanisms that create it's buoyancy in gravity.
 
-Complementary antigrav only floats the robot, while the primary locomotion type moves the robot.
+=== Complementary Antigrav
+Complementary antigrav floats the robot, while the primary locomotion type moves the robot.
 For example, a robot with jets and antigrav would float by antigrav and maneuver by the jets.
-The antigrav jet driven robot would look like it is flying by jets, but would float with all jets off.
+The antigrav jet-driven robot would look like it is flying by jets but can float with all jets off.
 
-== Chemical slide
-The chemical slide allows the robot to effortlessly slide along any surface.
-This process leaves a quickly evaporating trail not unlike a slug.
-This comparison does not necessarily imply the bot will be slow.
-A chemical slide will operate just as well up a slope as down a slope.
-Sand, stairs and other difficult terrain may prove to be a challenge for a robot with this locomotive type.
-How difficult such travel is depends entirely on the referee.
+== Chemical Slide
+The chemical slide allows the robot to slide along any surface effortlessly.
+This locomotion leaves a quickly evaporating trail, not unlike a slug from mundane terra.
+A chemical slide does not imply the bot will be slow.
+The robot's dexterity score determines her movement rate.
+A chemical slide operates on any terrain equally well.  
+The chemical residue may be grosser on sand than on a metal floor.
 
-A complementary chemical slide is offering a frictionless surface and the primary locomotion propels it. 
+=== Complementary Chemical Slie
+A complementary chemical slide offers a frictionless surface, and the primary locomotion propels it. 
 For example, a robot with jets and chemical slide would stay grounded and be pushed around by jets. 
 
-== Electromagnetic legs (1d4)
-Electromagnetic legs are visible beams the move the robot around.
-A robot will have 1 to 4 electromagnetic legs.
+== Electromagnetic Legs 
+Electromagnetic legs are visible beams that move the robot around.
+A robot will have 1 to 6 (1d6) electromagnetic legs.
 These legs keep the robot about a meter off the ground. 
 They keep the robot level on varying terrain.
 Electromagnetic legs do not work on water.
 
-== Jets (1d4+1)
+== Jets
 Robotic jets force gases at high speed to generate movement.
-A robot will have 2 to 5 jets.
+A robot will have 1 to 6 (1d6) jets.
 The jets create thrust and maneuverability.
 Robotic jets are intake-less and do not eject dangerous super-heated propellants.
-Whether jets work exatmo or not is up the referee.
+Whether jets work exatmo or not is up to the referee.
 
 == Magnetic
 A magnetic locomotion unit allows the robot to hover above the ground.
-The height of the robot is fixed at no higher than 1 hex.
+The robot can hover no higher than one hex above the ground.
 Magnetic locomotion is not a flying type of locomotion.
 Robots with magnetic locomotion will often float around long after their destruction.
 Magnetic locomotion can travel above any solid or liquid.
 
-== Pistons (1d10)
-Pistons quickly poke up and down keeping the robot balanced and moving.
-A robot has 1 to 10 pistons.
-A single piston looks like a robot on a pogo stick.
+== Pistons
+Pistons quickly poke up and down, keeping the robot balanced and moving.
+A robot has 1 to 10 (1d10) pistons.
 The pistons are immaculately timed and keep the robot stable.
+Even a single-piston robot will be steady and balanced.
 Pistons must have a solid surface to operate.
 
-== Pods (4d4)
-Pods are articulated mechanical legs.
-The robot has 4 to 16 pods.
-These articulated poles will hop, scuttle or patter the robot about.
+== Pods
+Pods are mechanical legs with at least one articulation.
+The robot has 4 to 16 (4d4) pods.
+These articulated poles will hop, scuttle or patter the robot around the terrain.
 Pods require a solid surface to operate.
 
-== Propellers (1d6)
-Robotic propellers are quiet, high-powered and safely encased air screws.
+== Propellers
+Robotic propellers are quiet, high-powered and safely encased airscrews.
 The propellers offer thrust and maneuverability to the robot. 
-There are 1 to 6 propellers.
+There are 1 to 6 (1d6) propellers.
 Propellers combined with antigrav would allow the robot to fly.
-Propellers combined with a chemical slide would propel the slide.
+Propellers combined with a chemical slide would propel the slide but not allow the robot to fly.
 
-== Sails (1d3)
+== Sails
 Sails are very sturdy, electro molecular planes that catch air for movement.
-Robot sails operate perfectly well in raging wind or dead calm.
+Robot sails operate perfectly well in the raging wind or dead calm.
 The sails offer thrust and maneuverability. 
-All locomotion types are equivalent.
-Movement is determined by DEX score. 
-The robot will have 1 to 3 sails.
+The robot will have 1 to 3 (1d3) sails.
 
 
-== Skis (1d4+2)
-Skis are attached to articulated pods that skate the robot over any type of terrain.
-There are 3 to 6 (d4 plus 2) skis.
+== Skis
+Skis are attached to powered stems that skate the robot over any terrain type.
+There are 3 to 6 (1d4+2) skis.
 There is no difference in speed whether the robot is trotting uphill or sliding down slopes.
 
-If the skis are a complementary Locomotion Type they do not function the same.
-The skis are attached to articulated pods and not powered legs.
-The skis would be the surface contact but jets, sails or propellers would drive the robot.
+=== Complementary Skis
+If the skis are a complementary Locomotion Type, they do not function the as above.
+The skis are attached to articulated pods and not powered stems.
+The skis would be the surface contact, but the primary locomotion moves the robot.
+There are 3 to 6 (1d4+2) complementary skis.
 
 == Slog bag
-A slog bag appears as a fluid filled sack attached to the undercarriage of the robot.
-The slog bag undulates and contorts itself along the surface the surface the robot travelling.
-The slog bag moves like a sack of mercury, however it need not contain a liquid.
-The slog bag cannot be during regular combat unless the robot's locomotion is damaged.
+A slog bag appears as a fluid-filled sack attached to the robot's undercarriage.
+The slog bag undulates and contorts itself along the surface on which the robot travels.
+The slog bag moves like a sack of mercury.
+However, the bag need not contain a liquid and is not vulnerable to puncture.
 
-== Tracks (1d6)
-Robotic tracks are nothing more than rubber-coated tank tracks.
-Each track is individually controlled and maneuvers by contorting itself.
-There are 1 to 6 tracks.
-This form of locomotion is rugged, although not especially familiar.
+== Tracks
+Robotic tracks appear as rubber-coated tank tracks.
+Each track operates independently, and they maneuver the robot by contorting themselves.
+There are 1 to 6  (1d6) tracks.
 
-== Wheels (1d12)
+== Wheels
 Robotic wheels are independently powered and controlled.
-They are solid, puncture proof and 
-There are 1 to 12 wheels.
+Wheels are solid, puncture-proof and have individual drives.
+There are 1 to 12 (1d12) wheels.
+The number of wheels has no impact on the robot's maneuverability or stability.
 
-When wheels are complementary locomotion type the Primary Locomotion Type generates the force.
+=== Complementary Wheels
+When wheels are a complementary locomotion type, they do not have individual drives.
+The primary locomotion type generates the force, and the wheels give the direction.
+There are 1 to 12 (1d12) complementary wheels.
 
 == Ref's Own Table
-Referee can insert campaign related locomotion types as she sees fit.
+The referee can insert campaign-related locomotion types as she sees fit.
