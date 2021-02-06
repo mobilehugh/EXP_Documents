@@ -24,6 +24,16 @@ For more info about robot combat jump to xref:i-roll_playing_rules:CH31_Robotic_
 * Roll: automatically gets a roll on the listed table
 ** E.g., 2 rolls Table 2. The player gets two rolls on Table 2.
 
+== Offensive Systems Limitations
+The referee and players should limit the amount and lethality of robotic offensive systems for campaign balance and fun.
+A powerful robot can easily acquire a dozen thrusting and striking weapons.
+The most dangerous attack table could fashion the robot with a long-range fusion bomb, or worse.
+It is okay to limit the impact of powerful weapons creatively. 
+It is okay to say "enough is enough already."
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
 == Ramming 
 Ramming is a robot's most basic attack, and all robots can ram.
 To ram, the robot self-destructively flings itself at a target.
@@ -41,6 +51,9 @@ Ramming is a type A attack.
 
 include::ROOT:partial$CH05_Table_Robotic_Ramming.adoc[]
 
+A robot will only be able to ram opponents with a pre-determined part of its chassis.
+This part will be considered the least vital and can withstand the repeated punishment.
+
 == Attack Table One
 Do not underestimate this attack table. 
 Attack Table One can generate a collection of lethal close combat attacks very quickly.
@@ -49,319 +62,358 @@ Attacks do not require a player to win a control factor roll to misuse them.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_One.adoc[]
 
-=== Deadly Peripheral
-A deadly peripheral is a capability the robot has that is now a deadly weapon. 
-The referee and player must decide which peripheral the robot can use as an attack.
-An air conditioning unit that usually maintains a pleasant atmosphere can blast a freezing air jet. 
+=== Defensive System
+Sometimes the best offence is a good defence. 
+Jump to xref:i-roll_playing_rules:CH05_Robots_Z_Defensive.adoc[Defensive Systems,window=_blank].
+
+=== Striking Peripheral
+The robot may use one of her peripherals as a dangerous striking weapon. 
+If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral. 
+The striking peripheral is a Type A attack. 
 A tool for delicately holding vases can smash a nearby target instead. 
-A lazer printer for making leaflets can flash burn prying eyes. 
-The description is cosmetic.
-The player uses the Deadly Peripheral Table to determine the attack's parameters.
+Multiple visits to striking peripheral are cumulative, and a robot can gather many simultaneous Type A attacks.
 
-
-
-
-
-
-=== Type A Weapon
-These are malfunctioning peripherals that can be used as weapons by the robot.
-Type A weapons are thrusting and striking weapons.
-The Type A weapon is rolled on Type A Weapons.
-A flag pole could attack as a lance.
-A rake could attack as a pike.
-A nail hammer could be used as a head hammer.
+The player rolls on the Striking Peripheral Attack Table below to determine what kind of weapon the peripheral most resembles. 
 
 include::ROOT:partial$CH05_Table_Type_A_Weapon_Type.adoc[]
 
-=== Ramming Skill
-Not all bots are able to nonchalantly crash into objects.
-Normally a robot must make a control factor roll before crashing into things.
-Robots with Ramming Skill from Attack Table One can ram as they please.
-A robot will only be able to ram opponents with a pre-determined section of its chassis.
-This part will be considered the least vital and most able to withstand the repeated punishment.
-Robots with Ramming Skill are not damaged when they ram score a hit.
-Robots with multiple Ramming Skills can use each one per unit of attack. 
+=== Ramming Freedom
+All robots can ram into targets, but they cannot do so casually.
+The player must win a control factor roll before crashing her persona into things.
+Robots with ramming freedom can ram as they please.
+Ramming freedom is cumulative, and repeats of ramming freedom improve the attack.
 
-The shape and damage delivered by the robot part is determined on Ramming Type Table. 
+.*Ramming Freedom Levels*
+. No need for CF Roll to ram
+. No damage to the robot from ram
+. and above, +30 on attack roll per level
 
-include::ROOT:partial$CH05_Table_Robotic_Ramming.adoc[]
-
-=== Roll On Table Two
-This result let's the player roll for a more dangerous attack on Attack Table Two.  
+=== Table Two Attack
+The player makes one roll on the more dangerous Attack Table Two.
 
 == Attack Table Two
-A player gets as many rolls on Attack Table Two as indicated.
-For most robots, these attacks are baked in devices that are being misused by the robot.
+Attacks on this table are slightly more dangerous and further ranging than those on Attack Table One.
+These attacks are a mix of baked-in devices and misusing peripherals.
 Attacks do not require a player to make a control factor roll to misuse them.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Two.adoc[]
 
 === Two Rolls on Table One
-The player gets two rolls on Attack Table One. 
-This can result in multiple attacks.
+The player makes two rolls on Attack Table One. 
+This Attack Table Two result often leads to multiple attacks or improved attacks.
 
-=== Type B Weapon
-Type B weapons are non-powered ranged weapons.
-They are different from guns in that they are not as powerful.
-Most are malfunctioning peripherals. 
-The robot is ejecting or throwing something at it's target.
-Arrows, daggers and bolts could be mail guns or staplers.
-A shuriken could be tin can lids.
-A staff could be a rolling pin.
+=== Ramming Freedom 2
+Robots with ramming freedom can ram as they please.
+This attack functions the same as two levels of <<_ramming_freedom,Ramming Freedom>>.
+If this is the first roll for ramming freedom, it will start at level 2.
+Cumulative rolls here increase the ramming freedom attack by 2 levels.
 
-The referee may limit the robot's type B attack by treating the attacks as ammunition.
-A robot will contain 2 to 2000 (2d1000) charges for it's type B attack.
-Some type B weapons are retrievable and do not run out.
-These are weapons like axes or javelins.
-A robot will have to 1-8 (1d8) copies of the retrievable weapon.
-For example, a robot with 4 axes could throw 4 in a row and then must retrieve them.
+.*Ramming Freedom Levels*
+. No need for CF Roll to ram
+. No damage to the robot from ram
+. and above, +30 on attack roll per level
+
+=== Ranged Peripheral
+The robot may use one of her peripherals as a deadly ranged weapon. 
+If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral. 
+The ranged peripheral is a Type B attack. 
+A tool for putting lids on cans could instead launch them like shurikens.
+Multiple visits to ranged peripheral are cumulative, and a robot can gather many simultaneous ranged attacks.
+
+The player rolls on the Ranged Peripheral Attack Table below to determine what kind of weapon the peripheral most resembles. 
+The ranged peripherals damage and ammunition supply is also on this table.
 
 include::ROOT:partial$CH05_Table_Type_B_Weapon_Type.adoc[]
 
-=== Nauseating Attack
-The nauseating attack makes organic creatures feel unwell.
-If the target fails a saving throw, she will be incapacitated by head-spinning vomit sensations.
-As with other robot attacks the nauseating attack is most likely a malfunction of some sort. 
-The robot may spray lubricants from a fractured joint or squirt industrial products onto targets.
-The attack could also be electromagnetic waves or vibrations from broken peripherals.
+=== Nausea Attack
+The nausea attack temporarily incapacitates organic targets with overwhelming nausea.
+This robotic attack is an area of effect weapon.
+As with other robot attacks, the nausea attack could arise from misusing a peripheral or a baked-in weapon.
+The attack could arise from releasing toxic gases from the robot's power plant.
+The nausea attack uses vapours, sprays or gases, and targets with atmospheric protections are unaffected. 
 
-The range of the attack is 1 hex per 2 points of PSTR.
-The intensity of the attack is randomly generated each time it is activated.
-Nauseating attack has an intensity of 3 to 12 (3d4).
-If the target saves vs poison, the attack has no effect.
-If the persona fails her saving throw, she will be incapacitated for 0 to 3 units (1d4-1).
+.*Range*
+The range of the attack is one hex per point of her PSTR Prime score.
+A robot with a 3 PSTR Prime has a range of 3 hexes from her chassis.
 
-=== Paralyzing Attack
-The paralyzing attack makes organic creatures feel weak.
-If the target fails a saving throw, she will be incapacitated by weakened muscles.
-As with other robot attacks the paralyzing attack is most likely a malfunction of some sort. 
-The robot may spray lubricants from a fractured joint or squirt industrial products onto targets.
-The attack could also be electromagnetic waves or vibrations from broken peripherals.
+.*Intensity*
+The intensity of the attack is random each time it is activated. 
+The intensity of the attack is 3 to 12 (3d4).
+The target must win a saving roll versus poison using her *constitution* or succumb to nausea and vomiting.
+The attack has no effect if the target wins her saving roll. 
+The incapacitation lasts for 0 to 3 units (1d4-1).
 
-The range of the attack is 1 hex per 2 points of PSTR.
-The intensity of the attack is randomly generated each time it is activated.
-Paralyzing attack has an intensity of 3 to 12 (3d4).
-If the target saves vs poison, the attack has no effect.
-If the persona fails her saving throw, she will be incapacitated for 0 to 3 units (1d4-1).
+.*Cumulative*
+The nausea attack is cumulative and repeatedly generating this attack makes it stronger.
+The first appearance of nausea attack is level one. 
+Each level increases the range by one hex and the intensity by 1-4 (1d4).
 
-=== Type A Attacks
-Type A attacks are deadly malfunctioning robotic devices.
-There are four different types energy, inertia, stun and vibro.
-For example, this could be a rake that is accidentally electrified by a short circuit.
-The player will need to jump back to <<_type_a_weapon,Type A Weapon>>.
-The type A weapon will then take on the properties rolled on Attack Table Two.
-These attack types (energy, inertia, stun and vibro) are from xref:iii-hardware:CH49_Misc_Weapons.adoc[Miscellaneous Weapons]
+=== Paralysis Attack
+The paralysis attack temporarily incapacitates organic targets with overwhelming weakness.
+This robotic attack is an area of effect weapon.
+As with other robot attacks, the paralysis attack could arise from misusing a peripheral or a baked-in weapon.
+The attack could arise from releasing a damaging energy blast from the robot's power plant.
+The paralysis attack uses waves, pulsations, and harmonics to penetrate atmospheric protections like vac suits. 
 
-//add real link
-To prevent further jumping around a list of each miscellaneous weapon is included below.
+.*Range*
+The range of the attack is one hex per point of her INT Prime score.
+A robot with a 3 INT Prime has a range of 3 hexes from her chassis.
 
-Energy::
-The type A weapon is energized in some capacity.
-Each hit scores a damage bonus of 2-16 (2d8) HPS of zapping damage per hit.
+.*Intensity*
+The intensity of the attack is random each time it is activated. 
+The intensity of the attack is 3 to 12 (3d4).
+The target must win a saving roll versus poison using her *dexterity* or succumb to incapacitation weakness.
+The attack has no effect if the target wins her saving roll. 
+The paralysis lasts for 0 to 3 units (1d4-1).
+
+.*Cumulative*
+The paralysis attack is cumulative and repeatedly generating this attack makes it stronger.
+The first appearance of paralysis attack is level one. 
+Each level increases the range by one hex and the intensity by 1-4 (1d4).
+
+=== Powered Striking Peripheral
+The robot may use one of her peripherals as a deadly striking weapon.
+In addition to the regular Type A weapon damage, these peripherals are powered with an extra kick.
+Each powered striking peripheral has the properties of a particular miscellaneous weapon.
+To generate these attacks is a bit of a walk, but they are powerful and worth the player's effort.
+
+Use the table at <<_striking_peripheral, Striking Peripheral>> to generate the weapon type.
+
+If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral. 
+A tool for mixing chemicals could become a vibrating mace. 
+Multiple visits to powered striking peripherals are cumulative, and a robot can gather many simultaneous powered striking attacks.
+
+Electro::
+This Type A attack is electrified.
+The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots. 
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_electro_weapon[Electro Weapon,window=_blank].
 
 Inertia::
-The density of this type A weapon is manipulated to increase damage delivery.
-Each hit scores triple damage from the type A weapon plus an additional 10 HPS. 
+This Type A attack increases its density on contact.
+The inertia weapon does triple the weapon damage plus ten hit points.
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_inertia_weapon[Inertia Weapon,window=_blank].
 
 Stun::
-Through some mechanism of electricity or toxin, a successful hit can stun the target.
-The target must save vs intensity 3-18 (3d6) intensity poison when a hit is scored.
-A failed save will leave the target stunned for 3-18 (3d6) units of combat.
+This Type A attack follows up with a debilitating stun attack. 
+The damage of the attack converts from hit points stun intensity.
+If the successful attack is to inflict 12 hit points of damage, it delivers a 12 intensity stun instead.
+The target must win a saving roll against her constitution or be stunned.
+Organic targets are stunned for 1-4 minutes, and inorganic targets are stunned for 1-4 units.
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_stun_weapons[Stun Weapon,window=_blank].
 
 Vibro::
-This type A weapon is oscillating, undulating or vibrating it's way to extra damage.
-Any attack roll made with a vibro weapon has to hit bonus of +100.
-If a hit is scored, there is a damage bonus of +20 HPS.
+This Type A attack vibrates at damaging harmonic frequency. 
+The vibro weapon has a damage bonus of +20 and an attack roll bonus of +100.
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_vibro_weapon[Vibro Weapon,window=_blank].
 
-=== Roll on Attack Table Three
-This is getting dangerous.
-The player rolls for an attack from Attack Table Three.
-
+=== Table Three Attack
+The player makes one roll on the more dangerous Attack Table Three.
 
 == Attack Table Three
-A player gets as many rolls on Attack Table Three as indicated.
-These attacks are a mix of actual weapons and baked in devices that are being misused.
+Attacks on this table are slightly more dangerous and far-ranging than those on Attack Table Two.
+These attacks are a mix of baked-in devices and misusing peripherals.
 Attacks do not require a player to make a control factor roll to misuse them.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Three.adoc[]
 
 === 3 Rolls on Attack Table One
-Yup.
-Three rolls on Attack Table One.
-This can result in a lot of attacks. 
+The player makes three rolls on Attack Table One. 
+This Attack Table Three result leads to multiple attacks or improved attacks.
+This table result can make the persona cumbersome to play or overpowered.
+The referee may limit the total number of attacks to maintain game balance and story. 
 
 === 2 Rolls on Attack Table Two
-Yup.
-Two rolls on Attack Table two.
-This result in a lot of attacks.
+The player makes two rolls on Attack Table Two. 
+This Attack Table Three result often leads to multiple attacks or improved attacks.
+This table result can make the persona cumbersome to play or overpowered.
+The referee may limit the total number of attacks to maintain game balance and story. 
 
-=== Nauseating Attack
-The nauseating attack makes organic creatures feel unwell.
-If the target fails a saving throw, she will be incapacitated by head-spinning vomit sensations.
-As with other robot attacks the nauseating attack is most likely a malfunction of some sort. 
-The robot may spray lubricants from a fractured joint or squirt industrial products onto targets.
-The attack could also be electromagnetic waves or vibrations from broken peripherals.
+=== Nausea Attack 2
+The nausea attack temporarily incapacitates organic targets with overwhelming nausea.
+This robotic attack is an area of effect weapon.
+This attack functions the same as two levels of <<_nausea_attack,Nausea Attack>>.
+If this is the first roll for nausea attack, it will start at level 2.
+Cumulative rolls here increase the nausea attack by 2 levels.
 
-The range of the attack is 1 hex per 2 points of PSTR.
-The intensity of the attack is randomly generated each time it is activated.
-Nauseating attack has an intensity of 5 to 20 (5d4).
-If the target saves vs poison, the attack has no effect.
-If the persona fails her saving throw, she will be incapacitated for 0 to 3 units (1d4-1).
+=== Paralysis Attack 2
+The paralysis attack temporarily incapacitates organic targets with weakness.
+This robotic attack is an area of effect weapon.
+This attack functions the same as two levels of <<_paralysis_attack,Paralysis Attack>>.
+If this is the first roll for paralysis attack, it will start at level 2.
+Cumulative rolls here increase the paralysis attack by 2 levels.
 
-=== Paralyzing Attack
-The paralyzing attack makes organic creatures feel weak.
-If the target fails a saving throw, she will be incapacitated by weakened muscles.
-As with other robot attacks the paralyzing attack is most likely a malfunction of some sort. 
-The robot may spray lubricants from a fractured joint or squirt industrial products onto targets.
-The attack could also be electromagnetic waves or vibrations from broken peripherals.
+=== Powered Ranged Peripherals
+The robot may use one of her peripherals as a deadly ranged weapon.
+In addition to the regular Type B weapon damage, these peripherals include an extra kick.
+Each powered ranged peripheral has the properties of a particular miscellaneous weapon.
+To generate these attacks is a bit of a walk, but they are powerful and worth the player's effort.
 
-The range of the attack is 1 hex per 2 points of PSTR.
-The intensity of the attack is randomly generated each time it is activated.
-Paralyzing attack has an intensity of 5 to 20 (5d4).
-If the target saves vs poison, the attack has no effect.
-If the persona fails her saving throw, she will be incapacitated for 0 to 3 units (1d4-1).
+Use the table at <<_ranged_peripheral,Ranged Peripheral>> to generate the weapon type.
 
-=== Type B Attacks
-Type B attacks are deadly malfunctioning robotic devices.
-There are four different types energy, inertia, stun and vibro.
-For example, this could be a nailing gun that is accidentally electrified by a short circuit.
-The player will need to jump back to <<_type_b_weapon,Type B Weapon>>.
-The type A weapon will then take on the properties rolled on Attack Table Two.
-These attack types (energy, inertia, stun and vibro) are from xref:iii-hardware:CH49_Misc_Weapons.adoc[Miscellaneous Weapons]
+If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral. 
+A tool for inserting power conducers could shoot electrified ceramic balls instead. 
+Multiple visits to powered ranged peripheral are cumulative, and a robot can gather many simultaneous powered ranged attacks.
 
-//add real link
-To prevent further jumping around a list of each miscellaneous weapon is included below.
-
-Energy::
-The type A weapon is energized in some capacity.
-Each hit scores a damage bonus of 2-16 (2d8) HPS of zapping damage per hit.
+Electro::
+This Type B attack is electrified.
+The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots. 
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_electro_weapon[Electro Weapon,window=_blank].
 
 Inertia::
-The density of this type A weapon is manipulated to increase damage delivery.
-Each hit scores triple damage from the type A weapon plus an additional 10 HPS. 
+This Type B attack increases its density on contact.
+The inertia weapon does triple the weapon damage plus ten hit points.
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_inertia_weapon[Inertia Weapon,window=_blank].
 
 Stun::
-Through some mechanism of electricity or toxin, a successful hit can stun the target.
-The target must save vs intensity 3-18 (3d6) intensity poison when a hit is scored.
-A failed save will leave the target stunned for 3-18 (3d6) units of combat.
+This Type B attack follows up with a debilitating stun attack. 
+The damage of the attack converts from hit points stun intensity.
+If the successful attack is to inflict 12 hit points of damage, it delivers a 12 intensity stun instead.
+The target must win a saving roll against her constitution or be stunned.
+Organic targets are stunned for 1-4 minutes, and inorganic targets are stunned for 1-4 units.
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_stun_weapons[Stun Weapon,window=_blank].
 
 Vibro::
-This type A weapon is oscillating, undulating or vibrating it's way to extra damage.
-Any attack roll made with a vibro weapon has to hit bonus of +100.
-If a hit is scored, there is a damage bonus of +20 HPS.
+This Type B attack vibrates at damaging harmonic frequency. 
+The vibro weapon has a damage bonus of +20 and an attack roll bonus of +100.
+For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_vibro_weapon[Vibro Weapon,window=_blank].
 
 === Thermal Blast
-A thermal blast can be extreme cold or heat that is ejected from the robot.
-The player chooses whether the attack is hot or cold for her robot persona.
-The attack has a range of 1 hex per point of DEX.
-The thermal Blast must score a hit to do damage.
-The attack is rolled as a Type B ranged non-powered weapon.
-A thermal blast inflicts 1d6 of damage per point of PSTR.
+A thermal blast can be extreme cold or heat that the robot ejects to damage a target.
+The player must choose between a pyro attack or a cryo attack, which cannot change.
+Both attacks function equally and do not cause fires or freeze things shut.
 
-// is this too dangerous
+The attack has a range of 1 hex per point of dexterity.
+The thermal blast is a Type B attack, and the player must win an attack roll to inflict damage.
+A thermal blast inflicts 1-8 (1d8) hit points of damage per point of prime physical strength.
+
 === Corrosive Mist
-A Corrosive Mist can an acid or alkali haze that is ejected from the robot.
-The player chooses whether the attack is acid or base for her robot persona.
-The attack has a range of 1 hex per point of DEX.
-The Corrosive Mist must score a hit to do damage.
-The attack is rolled as a Type B ranged non-powered weapon.
-A Corrosive Mist inflicts 1d8 of damage per point of PSTR.
+A corrosive mist can be acid or alkali haze that tat the robot ejects to damage a target.
+The player must choose between an acid or alkali mist attack.
+Both attacks function equally.
+
+The attack has a range of 1 hex per point of dexterity.
+The corrosive mist is a Type B attack, and the player must win an attack roll to inflict damage.
+A corrosive mist inflicts 1-8 (1d8) hit points of damage per point of prime constitution.
 
 === Gun
-This is most likely an actual weapon built into the robot.
-If a malfunctioning part that behaves just like a gun is preferred, story rules.
-The player jumps to xref:iii-hardware:CH46_Guns.adoc.adoc[Guns]
-There is one limitation on the gun-type that is generated.
-The gun-type can only be of medium power or less. 
-If a high powered calibre is rolled, the gun must be re-rolled.
-That may be frustrating.
-Robots do not express frustration.
+This attack is most likely an actual weapon built into the robot.
+If the player chooses it to be misused peripheral, the attack will function identical to the gun type.
+To determine the gun type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
 === Aerosol
-This is most likely an actual weapon built into the robot.
-If a malfunctioning part that behaves just like a gun is preferred, story rules.
-The player jumps to xref:iii-hardware:CH45_Grenades_Aerosols.adoc[Aerosols]
-There is one limitation on the aerosol type rolled.
-The aerosol must be a combat aerosol.
-If the player rolls an aerosol that is non-combat but preferred, story rules.
+This attack is most likely an actual weapon built into the robot.
+If the player chooses it to be misused peripheral, the attack will function identical to the aerosol type.
+To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc[Aerosols,window=_blank].
+
+The aerosol type rolled should be limited to a combat aerosol.
+There is no combat sub table for aerosols, and a useful combat aerosol may inflict no damage at all.
+Powerful aerosols may require a 24 hour recharge period.
+
+=== Table Four Attack
+The player makes one roll on the ever so more dangerous Attack Table Four.
 
 == Attack Table Four
-A player gets as many rolls on Attack Table Four as indicated.
-These attacks are actual weapons rather than baked in devices that are being misused.
+This attack table is composed of lethal weapons that can quickly annihilate an entire expedition. 
+The attacks found here are usually baked-in weapons and not malfunctioning peripherals.
+The universal requirement is lethality.
+Soft-touch attacks are not permitted when using Attack Table Four.
 
 include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Four.adoc[]
 
 === 4 Rolls on Attack Table Two
-Yup.
-Four rolls on Attack Table Two.
-This can result in a lot of attacks. 
+The player makes four rolls on Attack Table Two. 
+This Attack Table Four result leads to multiple attacks or improved attacks.
+This table result can make the persona cumbersome to play or overpowered.
+The referee may limit the total number of attacks to maintain game balance and story. 
 
 === 3 Rolls on Attack Table Three
-Yup.
-Three rolls on Attack Table three.
-This can result in a lot of attacks. 
+The player makes three rolls on Attack Table Three. 
+This Attack Table Four result leads to multiple attacks or improved attacks.
+This table result can make the persona cumbersome to play or overpowered.
+The referee may limit the total number of attacks to maintain game balance and story. 
 
-=== Killing Attack
-This is a killing poison attack.
-The killing poison can be a robot peripheral malfunction or a intentional weapon attack.
-A malfunctioning part could spray an essential toxic fluid at the target.
-If the weapon is baked in the robot could shoot a poison dart.
+=== Lethal Jet
+The lethal jet is a killing poison attack. 
+This attack is a baked-in intentional killing tool that the robot ejects from its chassis.
+The lethal jet only works on organic targets.
+The jet is a Type C attack, and the player must win an attack roll for the poison to take.
 
-Killing poison has a range of 1 hex per 2 points of PSTR.
-A attack roll must be successful.
-The killing poison attacks as a type C (powered missile weapon).
-If a hit is scored, the target must save versus poison or start to die.
-The intensity of the poison is 4-16 (4d4).
+A robot cannot have more than one lethal jet attack. 
+A second lethal jet should be replaced by a different Attack Table Four result. 
 
-The killing poison will always harm an organic target.
-If the target fails her saving throw, she immediately drops to -1 HPS Total.
-An anthro persona at -1 HPS is dying, an alien persona at -1 HPS is dead.
-A successful saving throw by the target will still inflict damage.
-If the target saves, the killing poison will do 1d4 HPS damage per point of intensity.
+.*Range*
+The range of the attack is one hex per point of her physical strength score.
+A robot with a 13 PSTR has a  lethal jet range of 13 hexes.
+
+.*Intensity*
+The intensity of the attack is different each time it is activated. 
+The initial poison attack intensity is 1-8 (1d8) per point of prime PSTR.
+A robot with a prime PSTR of 3 has a poison intensity of 3-24.
+
+The organic target must win a poison roll or die.
+Anthros that lose their poison roll fall unconscious and have -1 hit points total.
+Aliens that lose their poison roll fall unconscious and have 1 hit points total.
+Anthros and aliens are dead in ten units without intervention.
+
+Organic targets that win their saving throw take 1-4 hit points (1d4) of damage per point of poison intensity. 
+If this damage proves lethal, the persona may switch her saving throw to a loss. 
 
 === Gun
-This is most likely an actual weapon built into the robot.
-If a malfunctioning part that behaves just like a gun is preferred, story rules.
-The player jumps to xref:iii-hardware:CH46_Guns.adoc.adoc[Guns]
-There is one limitation on the gun-type that is generated.
-The gun-type can only be of medium power or higher. 
-If a low calibre gun is rolled, the gun must be re-rolled.
+On Attack Table Four, a  gun is most likely an actual gun built into the robot.
+There is a minimum lethality required for the gun-type 
+No soft touch guns are allowed. 
+The attack must be a killing attack.
+The gun type will automatically upgrade to the rifle version.
+The gun power (calibre) will automatically upgrade to the highest power version. 
+To determine the gun type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
-=== Grenade/Aerosol
-This is most likely an actual weapon built into the robot.
-If a malfunctioning part that behaves just like a gun is preferred, story rules.
-The player jumps to xref:iii-hardware:CH45_Grenades_Aerosols.adoc[Aerosols]
-There is one limitation on the area of effect weapon type rolled.
-The area of effect weapon must be a combat one.
+=== Grenade
+This attack employs a self-launching lethal grenade attack.
+There is a minimum lethality required for the grenade.
+No soft touch grenades are allowed. 
+The grenade must have a killing attack.
+
+The player must win a Type B attack roll to hit the target hex.
+Like all grenades, close does count.
+The grenade is an area of effect weapon damaging, targets and colleagues alike.
+The attack has a range of 2 hexes per point of physical strength.
+To determine the grenade type jump to xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenades,window=_blank].
 
 === Bomb
-This is most likely an actual weapon built into the robot.
-If a malfunctioning part that behaves just like a gun is preferred, story rules.
-The player jumps to xref:iii-hardware:CH44_Bombs.adoc[Bombs]
-A robot is limited to one bomb attack. 
+The robot has a single bomb that she can launch from her chassis. 
+The range of the attack is 1 kilometre per point of PSTR prime.
+To determine the bomb type jump to to xref:iii-hardware:CH44_Bombs.adoc[Bombs,window=_blank].
 
-=== Corrosive Jet
-A Corrosive Mist can an acid or alkali jet that is ejected from the robot.
-The player chooses whether the attack is acid or base for her robot persona.
-The attack has a range of 1 hex per point of DEX.
-The Corrosive Jet must score a hit to do damage.
-The attack is rolled as a Type C powered missile weapon.
-A Corrosive Jet inflicts 1d12 of damage per point of PSTR.
+=== Aerosol
+On Attack Table Four, an aerosol will be an actual weapon built into the robot.
+The aerosol type rolled must be a killing aerosol.
+No soft touch aerosols are allowed.
+The aerosol can recharge after one minute of non-combat time.
+To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc[Aerosols,window=_blank].
 
-=== Mutation 
+=== Combat Mutation 
 The robot will have a baked-in weapon that functions like a mutation.
-The mutation type can be a Mental Mutation or a Physical Mutation.
-If the player rolls less than her Robot's CON on 1d100 the mutation will a xref:vi-mutations:CH59_Physical.adoc[Physical Mutation].
-If the player rolls higher than her Robot's CON the mutation will be a xref:vi-mutations:CH58_Mental.adoc[Mental Mutation].
+The mutation must be a combat mutation. 
+The mutation cannot be a defect or compromise the persona in any way.
 
-The mutation must be an attack mutation. 
-If the player wishes to roll a completely random mutation instead, then so be it.
-The robot cannot have a defective mutation under any circumstances. 
-When attacking the robot uses her INT instead of her MSTR.
+Robots have a zero mental strength score. 
+The player uses the robot's intelligence score for mutations that depend on mental strength. 
+
+The mutation type can be a Mental Mutation or a Physical Mutation.
+If the player rolls less than her constitution score on 1d100, the attack has a xref:v-wetware:CH59_Physical.adoc#_combat_mutations[Physical Mutation,window=_blank] effect.
+If the 1d100 roll is greater than her constitution score, the attack has a xref:v-wetware:CH58_Mental.adoc#_combat_mutations[Mental Mutation,window=_blank] effect.
 
 === Disregard Fabricator
-This does not count as a roll-on Robotic Attack table Four.
-This robot no longer needs to make a control factor check to harm her fabricator type. 
+This offensive system disengages any connection to the persona's fabricator type.
+Fabricator based commands do not weigh on this robot's programming.
+
+This attack does not count as a roll.
+The player records this programming aberration on her persona record and restarts the Offensive System roll.
+So if the player started at Attack Table Two, she would restart on Attack Table Two.
+This restart may be frustrating to players.
+Robots do not exhibit frustration.
 
 === Ref's Own Table
-Look out world here comes something crazy.
+Look out! Here comes something zany.
+If the referee does not have a Ref's Own Table, she can pick an appropriate level 4 attack for the robot.
+It is up to the referee if the player can pick a level 4 attack for her persona. 
