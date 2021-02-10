@@ -1,111 +1,75 @@
 = Robot Power Source
-All bots operate on electrical power.
-That electrical power comes from many different power sources. 
-All cells work via ingenious advanced technological that is conveniently beyond explanation.
-All robotic power sources are rechargeable.
-Each power source functions equally well
-The power source can go by many names: battery, cell, supercell, etc.
 
-The robot's power source has will last one month per point of CON.
-For convenience we assume that a new persona has a fully charged power source.
-If the persona's CON drops then the duration of the power source drops along with it.
-The robot's power source is proportional to it's use. 
-No variations in use will drain the power faster or slower.
+All robots operate on electrical power.
+The electrical power runs all their systems and gives them life.
+Running out of energy is not a problem for robot personas.
+However, in a resource austere campaign setting, finding power may be the key to robot survival. 
+If a robot runs out of power, she shuts down until the energy flows again. 
+Getting powered down is an extremely vulnerable, but not lethal, state.
 
-If a robot runs out of power, the persona will shut down until recharged.
-The persona is not dead. 
-It is just resting.
-Robot personas will get a one month warning. 
+The robot power sources is a cross between a cell and an engine.
+Each cell works on an ingenious technomagical system that is conveniently beyond explanation.
+Robot power sources can go by many names: batteries, cells, supercells, etc.
 
-It should always be made possible for a robot to recharge its power source.
-Robot personas should not spend all their time searching for fuel.
-One hour must be spent refuelling for each month of recharged.
-Recharging could mean being plugged in, filling with water or being stuffed with materials.
+If the referee and players feel that a robot running out of power is a fun option, consider the following.
+
+.*Robot Power Guidelines*
+* one month of use per point of constitution score
+* player personas start at a full charge
+* one month low battery warning
+* battery use does not affect battery duration
+* all batteries can be restored or regenerated
 
 include::ROOT:partial$CH05_Table_Robotic_Power_Cell_Type.adoc[]
 
-For more information about fuel and energy jump to the generic mythos section -> xref:vi-appendices:Appy_C_Campaign_Mythos.adoc#_energy_and_power[Energy and Power,window=_blank].
+Gas::
+This cell contains chemicals in a gaseous state reacting to create energy.
+A gas cell will cease to function if exposed to extreme cold (like a cryogenic attack).
 
-// should you move this to the generic explanations?
+Liquid::
+This cell contains chemicals in a liquid state reacting to create energy.
+A liquid cell will cease to function if exposed to a vacuum.
 
-== Basic cells
-Basic cells contain chemicals that react to create electricity.
-One would hope that the nature of these chemicals is so advanced an explanation is optional.
-For story telling purposes the chemical could be anything: natural gas, manure, hair, etc.
-Recharging the power cell simply requires replacing the depleted materials.
+Solid::
+This cell contains chemicals in a solid-state reacting to create energy.
+A solid cell will cease to function when exposed to extreme heat (like fusion, napalm or sustained fire).
 
-=== Gas and Liquid Cells
-Gas and liquid cells will cease operation if exposed to a vacuum.
-This does not apply if the robot is exatmo hardened.
-They will function as normal once atmosphere is restored.
+Plasmoid::
+This cell contains chemicals in a plasmoid state, reacting to create energy.
+The plasmoid has a failsafe that prevents its weaponization.
+A plasmoid cell will cease to function when exposed to zero gravity.
 
-=== Solid Cells
-Solid cells function fine in vacuums, but do not function at high temperature.
-Prolonged exposure to temperatures that may not damage the robot may damage its power cell.
-Solid cells will function as normal once they cooled.
-Extreme heat could destroy a bots solid cell.
+Dynamo::
+Internal dynamos manufacture the useable energies of this cell.
+A dynamo cell will cease to function when exposed to high gravity.
 
-== Broadcast
-Broadcast cells are power receivers that convert transmissions from a source into energy.
-The receivers will cease to function if they are electronically jammed or out of range.
-When within range the robot has an endless supply of power.
-Robots using broadcast power can store one month of power per point of CON.
-A robot with a broadcast power source that runs out of stored charge must be placed back in range to recharge.
+Solar::
+A solar cell converts light into energy and stores it for later use.
+A solar cell can recharge itself after one full hour in bright light.
+A solar cell will cease to function if exposed to a violent light attack. 
 
-== Dynamo
-Internal gyros spin up the electricity for this robot.
-The countless dynamos are microscopic and silent. 
-Cells offer no features beyond source.
-Dynamos will not function when exposed to more than 2g.
-The dynamos return to normal once gravity drops below 2g.
-Dynamo cells can be recharged by plugging into the nearest electrical outlet.
+Magnetic::
+A magnetic cell converts magnetic waves into energy and stores it for later use.
+A magnetic cell can recharge itself after one full hour in a natural magnetic field.
+A magnetic cell needs a natural magnetic field created by a planet or moon for recharging.
+These cells cease to function if exposed to magnetic attacks.
 
-== Gravitational 
-This power cell filters gravitational waves into electrical energy.
-An explanation of this technological miracle will not be attempted.
-The gravitational force cannot exceed 3g or be less than one half g.
-The robot will store energy for those instances where gravitational cell cannot function.
-The robot has 1 hour of stored energy per point of CON.
-Once out of power the robot will remain dormant until gravity normalizes.
+Broadcast::
+Broadcast cells are power receivers that convert transmissions from a power source into energy.
+The receivers will cease to function if they are subject to electronic jamming or leave the broadcast range.
+If the broadcast source stops transmitting, broadcast cells stop working.
+The range of broadcast power is up to the referee.
 
-== Magnetic 
-Cellular magnetic forces are amplified to produce electrical power.
-Magnetic cells will be disrupted by any magnetic based attacks or disruptions.
-Severe disruptions may cause the cell to be demagnetized and require recharging.
-This is left to the discretion of the referee.
-Regeneration requires and electrical charge to re-magnetizes the power cells.
-
-== Nuclear 
-The nuclear power sources uses slow burn fusion, fission, etc., to produce electricity.
-It is impossible for a this persona to explode like an atomic weapon.
-The nuclear cell is so efficient that there is no radiation hazard.
-The nuclear power source functions in all many or atmospheres and gravities.
-Fissionable materials are required to replenish the nuclear batteries.
-
-== Plasmoid 
-Superheated gases contained in magnetic bottles fire up the robot for power.
-This should make it virtually impossible for Mechanics to use the plasmoid cell maliciously.
-The plasmoid cells have many safeguards that prevent their weaponization. 
-Recharging plasmoid batteries requires the re-insertion of plasmoid materials.
-
-== Psionic 
-Psionic cells convert the surrounding psychic energy into electrical energy.
-The psionic cell has the most complicated recharge process.
-The batteries last for the usual one month per point of CON.
-When it is time to recharge the cell drains local psionic energy.
-The nearest persona will to the robot will be drained one point of MSTR to fully recharge the robot.
-The persona gets a save vs psionic attack. 
-The robot persona uses her CON as MSTR to calculate the saving throw. 
-If the persona saves the robot moves onto the next persona.
-The process is automated and the robot is unaware of who is attacked when.
-
-== Solar 
-The solar power source will keep the robot operational in any amount of light.
-Artificial light and light from the nearest star work equally well.
-If there is light this robot need not recharge.
-If the robot should be plunged into darkness they will operate on stored power.
-The robot can store 1 hour energy per point of CON.
-A solar powered robot with a 16 CON could run for 16 hours in the dark.
+Psionic::
+Psionic cells tap into the Kirlian energy of consciousness to create energy.
+The psionic cells drain mental strength to recharge themselves.
+The psionic cell will make a psionic attack on the nearest persona.
+If the target wins her psionic roll against a 3-18 (3d6) attack, the battery moves onto the next nearest consciousness.
+The player generates a new attack intensity each time the psionic cell requires recharging.
+The psionic battery will keep doing this until a persona fails her psionic roll.
+That persona loses one point of mental strength, and the psionic battery has recharged.
+If all the nearby personas win their psionic rolls, the battery will stay drained until a new mind comes in range.
+The range of the psionic attack is one hex per intensity.
 
 == Ref's Own Table
-Referee can insert campaign related power sources as she sees fit.
+The referee can insert campaign-related power sources as she sees fit.

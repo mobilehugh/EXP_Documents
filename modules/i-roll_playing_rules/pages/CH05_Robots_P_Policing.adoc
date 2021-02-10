@@ -1,8 +1,8 @@
 = Policing
 
-Policing bots are crime fighting machines.
+Policing bots are crime-fighting machines.
 These bots respect the lives and livelihoods (if legal) of all life forms.
-They are especially protective of their fabricator type.
+They are exceptionally protective of their fabricator type.
 Policing bots can be stationed anywhere.
 They are not limited to underserviced or violent areas.
 
@@ -71,29 +71,30 @@ s|Attributes
 
 Civilian policing bots are constables on patrol in a drum.
 Civils can walk the beat, chase criminals, guard banks, issue tickets, etc.
-By sheer chance this bot's ID is P-C. 
-This robot is the main interface between the 'people' and law enforcement.
+By sheer chance, this bot's ID is P-C. 
+This robot is the primary interface between the 'people' and law enforcement.
 Civilian policing bots have some special skills.
 
 === Commanding Voice
-When necessary the civil bot can unleash booming amplified voice commands.
+When necessary, the civil bot can unleash booming amplified voice commands.
 Classic commands like FREEZE! or DROP IT! can be used.
-The command can be effective or at least distracting to organic ears.
-If a target fails a MSTR challenge vs the bot's doubled CHA they will pause, or obey.
+At the very least, the commanding voice is distracting to organic ears.
+Referee personas with low mental strength may stop in their tracks when hearing the commanding voice.
+Player personas are unaffected by commanding voice.
 
 === Non-Lethal Weapon
 A non-lethal weapon is one that can disable or affect a target without harming it.
-A stun weapon, or a sleep beam, or a nausea attack would be considered non-lethal.
+A stun weapon, a sleep beam, or a nausea attack would be considered non-lethal.
 Less lethal weapons do not count.
 The player has three chances to roll a non-lethal weapon for her robot. 
-If there is no non-lethal weapon after three rolls the persona has no weapon.
+If there is no non-lethal weapon after three rolls, the persona has no weapon.
 
 === Disarm
 A civil bot can disarm a target with a successful attack roll.
 
 === Grapple
-When it is time to 'collar' a suspect or subdue a target the civil bot can grapple.
-Successfully scoring a hit will completely immobilize an organic target.
+When it is time to 'collar' a suspect or subdue a target, the civil policing robot can grapple.
+An attack roll win will completely immobilize an organic target.
 A civil bot is completely invested during a grapple and cannot do anything else.
 To break from this grapple requires a successful bizarre PSTR roll.
 Civil bots will unglamorously drag their grappled collars back to the nearest brig.
@@ -148,75 +149,81 @@ include::ROOT:partial$articulate.adoc[]
 |10% for 1 roll on Primary
 |===
 
-Riot bots are large crowd control operatives.
+Riot bots are big crowd control operatives.
 They often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc.
-There goal is to contain and restrain unruly hordes of anthros.
-They function like an automated paddy wagon with added crowd suppression.
+Their goal is to contain and restrain unruly hordes of anthros.
+They function as a mobile jail with crowd suppression.
 
 === Grapple and Detain
-A riobot can grapple and detain rioters.
-Once a rioter is grappled they can be detained either in or on the riobot.
+Grapple and detain is a two-step process that the riobot employs to apprehend rioters.
+To grapple a target, the player must win an attack roll.e
+The target gets one attempt to break free from the grapple.
+If the target is unsuccessful, she is detained.
+Once detained, it is nearly impossible for a captive to break free.
+Detained protestors are subject to any area of effect weapons that the riobot deploys.
 
 The riobot can grapple one rioter per unit. 
 The riobot can carry out all other operations while grappling a rioter. 
-A successful attack roll will immobilize the rioter and prepare them for detention.
-To break from this grapple requires a successful hard PSTR roll.
-Once detained the target is immobilized and attached to the riobot. 
-To break free from detention requires a bizarre PSTR challenge.
 A riobot can detain one target per point of PSTR.
 So a Riobot with a 20 PSTR can detain 20 targets.
 
-While detained the rioters are subject to any area of effect riobot peripherals employed.
+.*Grapple Detain Checklist*
+. Grapple target: the player must win an attack roll.
+. Break grapple: the target must win a PSTR challenge
+. Break detention: the target must win a bizarre PSTR challenge
 
-=== Riobot Peripherals
-These peripherals are specific attachments designed for crowd control.
-They are not malfunctioning peripherals being used as weapons.
-Riobot peripherals are baked in non-lethal immobilization attacks. 
-Riot Policing Bot Peripheral for every three points of INT.
-So a riobot with a 12 INT score would get 4 rolls on the peripheral table.
+=== Crowd Control Peripherals
+These peripherals are attachments designed for crowd control.
+They are not malfunctioning peripherals. 
+They are bespoke riobot peripherals.
+These peripherals are non-lethal immobilization attacks, but accidents happen. 
+
+Riot Policing Bot Peripheral for every three points of intelligence.
+A riobot with a 12 intelligence score would get four rolls on the Crowd Suppression Peripheral Table.
 Multiple rolls of the same peripheral are intentional riobot redundancy.
-The riobot can use every peripheral every unit.
+The riobot can use every peripheral every unit of combat.
+Multi-tasking is a crucial feature of crowd control.
 
 include::ROOT:partial$CH05_Table_Riot_Policing_Robot_Peripherals.adoc[]
 
-=== Details about the Details
-Each riobot peripheral has 4 parameters.
-The simplest is the name of the attack. 
-The details consists of attack type, range, intensity and effect.
+Water Cannon::
+A powerful jet of water shoots at a target, and an attack roll win knocks the target down. 
+The water cannon's range is one hex per point of physical strength.
 
-==== Attack Type
-The riobot attack peripheral is either target or area of effect. 
-A targeted (*Target*)attack is aimed at one target and has no effect on neighbouring targets.
+Tear Gas::
+A noxious gas causes severe tearing of organic eyeballs.
+The area of effect range is one hex per point of constitution.
+All targets in the area of effect must win a save vs the riobot's constitution or be blind for 1-4 (1d4) units.
 
-An area of effect (*a/e*) affects every target within the area of effect.
-Every target in the area of effect must save vs the attack or suffer the effect.
+Stun Ray::
+A technomagical beam of energy shoots at a target, an attack roll win could incapacitate the target.
+The target must win a saving roll versus the riobot's constitution or be stunned for 1-10 (1d10) units.
 
-==== Range
-For targeted attacks the range is the number of hexes away a target can be from the bot.
-If the range is listed as PSTR the attack can reach a target PSTR hexes away.
-So a riobot with a 10 PSTR could attack a target 10 hexes away.
+Grav Disruptor::
+A wave of gravity disruption causes rioters to fall to the ground.
+The area of effect range is one hex per point of constitution.
+All targets in the area of effect must win a save vs the riobot's constitution or tumble to the ground.
 
-Area of effect range is measured out from the riobot in hexes.
-All targets in that area must save vs the attack or suffer the effects. 
-If the range is listed as half CON every target within that range must save.
-So a riobot with 10 CON would affect every target within 5 hexes of itself.
+Force Beam::
+A technomagical beam of energy shoots at a target, an attack roll win throws the target backwards.
+The target will land 1-4 (1d4) hexes backwards and cannot move or act that unit.
 
-==== Success
-Success is what the player must roll to have the effect take hold. 
-If a attack roll is required the player must make a successful attack roll.
-attack rolls are usually reserved for targeted attacks.
-A successful attack roll vs the target's AR indicates the effect takes hold.
+Weapon Malfunction::
+When activated, all weapons within range of the riobot are 50 times more likely to malfunction.
+For some weapons, this is extremely dangerous. 
+The range of weapon malfunction is one hex per point of the riobot's charisma score.
 
-Intensity level indicates the save the target must make to avoid the effect.
-If success is CON intensity the targets must save vs the riobot's CON or be effected.
+Battery Drain::
+When activated, all batteries in the area of effect must win a saving roll versus the riobot's intelligence score or drain.
+The battery drain defence does not destroy batteries.
+The range of battery drain is one hex for every two points of the riobot's intelligence score.
 
-==== Effect
-The effect of the attack is a simple self explanatory description.
-The effect is non-lethally immobilize targets.
-Once immobilized policing robots can automatically grapple targets. 
+Sleep Beam::
+The sleep beam is a not so gentle "nighty night meat bag" attack.
+The target must win a save versus the riobot's charisma or sleep until woken.
+Someone must intentionally wake the sleeping target—otherwise, Ms. Sleepy-pants will miss the riot.
 
-
-== Detective Policing Robot
+== Detective Policing Robot (P-D)
 
 //  Detective Policing Robot Fabrication Data 
 .*Detective Policing Robot Fabrication Info (P-D)*
@@ -256,9 +263,9 @@ Once immobilized policing robots can automatically grapple targets.
 |100% for 1 roll on Primary
 |===
 
-A detective policing bot is a criminologist in a drum.
+A detective policing robot is a criminologist in a drum.
 A detective can operate as a chief, manager, auditor, or technologist.
-The detective has no grapple or detain methods. 
-A detective depends on civils to make arrests and do the dirty work.
-Detective policing robots are dedicated to the apprehension of criminals.
-If an expedition engages in criminal activities the detective may need to make CF checks.
+The detective does not grapple with or detain methods. 
+A detective directs civil robots to make arrests and do the dirty work.
+Detective policing robots focus on the apprehension of criminals.
+If an expedition engages in criminal activities, the detective may need to make CF checks.
