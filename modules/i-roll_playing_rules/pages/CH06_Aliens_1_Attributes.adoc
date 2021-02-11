@@ -1,18 +1,23 @@
 = Alien Attributes
 
 Alien attributes are very diverse and uniquely generated.
-The attributes are specifically those of the persona created.
-The attributes are also mean attributes of an entire alien species.
-The persona is considered to be a model example of an grown alien.
-Alien attributes are used as is by the player.
-
-Integrating the new alien persona as a species is up to the referee and players.
-Elements like age, gender, and intra species attributes differences represent much work.
-EXP does not account for these elements as is. 
-Forking this project is welcome.
+The player generates the attributes for her specific persona, but there is more to it than just that.
+The attributes also represent the attributes of an entire alien species.
 
 Attribute values are equal amongst the personas, whether anthro, robot or alien.
-An alien's 12 PSTR equals an anthro's 12 PSTR which equals a robot's 12 PSTR.
+An alien's 12 PSTR equals an anthro's 12 PSTR, which equals a robot's 12 PSTR.
+
+The player generates a new score for each alien attribute.
+The player must use the range and die roll prescribed for each attribute score.
+There are no alternate attribute generation systems for aliens.
+The prescribed rolls assure a good statistical curve of all aliens' attributes.
+
+include::ROOT:partial$CH06_Table_Alien_Attributes.adoc[]
+
+== Alien Species
+The player persona is a model citizen from a previously non-existent alien species.
+The attribute scores should represent the average attribute scores of a young adult of that species.
+Integrating the new alien persona as a species is up to the referee and players.
 
 :art: alien_mule_tarantula_trex_paramecium.png
 :width: 250px
@@ -24,36 +29,9 @@ An alien's 12 PSTR equals an anthro's 12 PSTR which equals a robot's 12 PSTR.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Zero Attributes
-It is possible for an alien to have an attribute score of zero.
-This is a rare circumstance indeed.
-There is a 1 in 7776 that an alien's attribute rolls zero.
-It is even less likely that an alien's PSTR would be zero.
-For anthros and robots an attribute of zero means death. 
-Starting with a zero attribute is an entirely different situation.
-How to manage zero score attributes is up to the referee and players.
-
-In the spirit of diversidae the zero attribute is integrated into the alien.
-For example, a 0 DEX, could mean alien is sessile (immobile).
-A back up DEX should be rolled for co-ordination and aiming ability.
-A 0 CON, could mean the alien has no physiology.
-A back up CON should be rolled for HPS representing structural collapse.
-Such explanations could be invented for DEX, INT, MSTR AND PSTR.
-
 == Alien Death and Attributes.
-The alien is irrevocably dead if any attributes are reduced to zero by damage.
-If through age or destruction an alien's attribute reaches zero that persona is dead.
-A persona that starts with a 0 attribute is immune to death from zeroing that attribute.
-For example, an alien with a 0 DEX cannot be die from a poison that attacks DEX score.
+If an alien persona drops any of her attributes to zero, she dies.
+Having an attribute hit zero is lethal for robots, anthros and aliens.
+An alien is dead if her hit points total reaches zero.
+ 
 
-An alien also is dead if her HPS reach zero. 
-
-== Generating Alien Attributes 
-Like other personas, the alien attributes are generated once for each attribute.
-Aliens use the Mean Attribute Table to determine their attributes.
-For example, CON, DEX, INT and MSTR are supposed to be generated on 5d6 -5.
-This means that fixe six-sided dice are rolled and 5 is subtracted from the total.
-It is essential that these attributes be rolled on the number of dice given.
-This assures a good statistical curve of attributes for all aliens generated.
-
-include::ROOT:partial$CH06_Table_Alien_Attributes.adoc[]
