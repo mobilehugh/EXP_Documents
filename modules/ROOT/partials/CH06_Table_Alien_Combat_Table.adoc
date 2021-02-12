@@ -1,58 +1,31 @@
-// Table 11 Anthro attribute bonuses new for 6.0
-.*Anthro Combat Table Attribute Bonuses
-[width="75%",cols="5*^",frame="all", stripes="even"]
+// Alien CT
+.*Alien Combat Table 
+[width="75%",cols="3<",frame="all", stripes="even"]
 |===
-5+<|Anthros calculate BP, MR and DA here.
+3+<|The alien combat table is simple.
 
-s|Weapon
+s|Attack Type
 s|Bonus Proficient (BP)
-s|Bonus Non-Proficient (BNP)
 s|Maximum Roll (MR)
-s|Damage Adjuster (DA)
 
-|*Type A* +
-Non-Powered +
-Thrusting +
-Striking
-|1.5 * AWE +
-2 * DEX +
-1.5 * INT +
-5 * PSTR
 
-|Below
-|625 + BP
-|half PSTR
+|*Type A* (contact)
+|10 * PSTR
+|700 + BP
 
-|*Type B* +
-Non-Powered +
-Throwing +
-Missile
-|1 * AWE +
-4 * DEX +
-1 * INT +
-2 * PSTR
 
-|Below
-|650 + BP
-|quarter PSTR
+|*Type B* (ranged)
+|10 * DEX
+|750 + BP
 
-|*Type C* +
-Powered +
-Missile +
-(guns)
+|*Type C* (powered)
 
-|1 * AWE +
-9 * DEX +
-1 * INT +
-1 * PSTR
+|10 * INT
 
-|Below
-|675 + BP
-|None
+|800 + BP
 
-s|Weapon
+s|Attack Type
 s|Bonus Proficient (BP)
-s|Bonus Non-Proficient (BNP)
 s|Maximum Roll (MR)
-s|Damage Adjuster (DA)
+3+<|The alien CT has no BNP or DA
 |===

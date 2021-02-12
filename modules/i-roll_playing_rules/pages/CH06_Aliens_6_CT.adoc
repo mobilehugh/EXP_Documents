@@ -1,30 +1,29 @@
 = Alien Combat Table
 
-The alien combat table is much simpler than the one for humanoid personas.
-Aliens which have classes should use the regular combat table that is described in TACTICAL COMBAT.
-The combat table here is for the alien's natural attack type.
-If the alien only has a type A, type B or type C natural attack, then the combat table need only include those attack types.
-Tool using aliens should use the combat table detailed as generated for Anthropomorphs.
+The tactical combat system in the roll playing rules uses an attack matrix called the combat table.
+The player refers to the combat table every time she makes an attack roll.
 
-The combat table for alien natural attack is very brief.
-There is no bonus non-proficient (BNP) column because an alien can't be unskilled with its own attack.
-There is also no damage adjustment (DA) because the damage inflicted by natural attacks is moderated by PSTR.
-For example, an alien should not get a PSTR bonus on a Type A natural attack.
-This only applies to natural attacks.
+The alien combat table is for the alien's natural attacks.
+An alien's combat table will only include the alien's natural attack types.
+If the alien only ever bites with a Type A attack, the player only completes the Type A attack on the combat table.  
+If the player shoots deadly sap blobs as a Type B attack, the player only completes the Type B attack on the combat table.
+
+The combat table lacks a bonus non-proficient (BNP) column. 
+An alien can't be unskilled with her natural attack.
+The combat table lacks a damage adjustment (DA) column.
+The alien's damage per hit already includes her physical strength.
+These limitations can make an alien combat table pleasantly simple.
 
 == Type A Attacks
 Thrusting and striking weapons for aliens include their naturally endowed thrusting and striking attacks (bite, punch, claw, beak, gore, stab, rake, slice, gouge, tear, trample).
-Aliens using type A weapons are intelligent enough to warrant using the regular combat table for those weapons.
 
 == Type B Attacks
-This attack type is designed for those aliens that fling objects, shoot quills or spit in an attempt to inflict their natural damage (spit, breath, blast, arc, spray).
-Any alien using a Type B weapon should use the regular combat table for that weapon.
+This attack type is for those aliens that fling objects, shoot quills or spit in an attempt to inflict their natural damage (spit, breath, blast, arc, spray).
 
 == Type C Attacks
-Again, this is directed at those creatures with natural, powered attacks (lasers, sonics, electric arcs, radiation doses).
+This attack type is for those creatures with naturally powered attacks (lasers, sonics, electric arcs, radiation doses).
 Aliens with natural powered attacks are very rare and extremely dangerous.
-They have specially evolved organs that allow them to attack naturally but as a gun from Chapter 46.
-Any creature using powered weapons should use a regular combat table for those weapons.
+They have specially evolved organs that attack like a powered weapon, such as a gun.
 
 include::ROOT:partial$CH06_Table_Alien_Combat_Table.adoc[]
 
@@ -34,7 +33,7 @@ For example, Sal the gigantic alien has a 22 PSTR,  15 DEX,  3 INT and a type B 
 .*Sal the Alien's Combat Table*
 [width="75%",cols="<,4*^",frame="all", stripes="even"]
 |===
-5+<|Example Combat Table for Sal the alien.
+5+<|Example Combat Table for Sal the resin spitting alien.
 
 s|Attack Type
 s|BP
@@ -49,9 +48,9 @@ s|DA
 |--
 
 |B (ranged)
-|50
-|50
-|800
+|150
+|150
+|900
 |4d12
 
 |C (weapons)
@@ -65,4 +64,11 @@ s|BP
 s|BNP
 s|MR
 s|DA
+5+<|Alien DA is the damage range not a bonus.
 |===
+
+== Aliens and Weapons
+If the alien's culture, society and tech level allows her to use a weapon, the player must create a vocation based combat table.
+Technologically advanced tool-using aliens may be able to pursue a vocation. 
+If the alien is a tool used but has no vocation, the alien uses the Nothing vocation combat table when using a weapon.
+If the alien has a vocation, the player will generate another combat table for the alien's vocation type.

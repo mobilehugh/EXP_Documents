@@ -1,13 +1,13 @@
 // Table 6.5 Number of Alien Attacks
 .*Number of Alien Attacks*
-[width="75%",cols="2*^",frame="all", stripes="even"]
+[width="75%",cols="^,<",frame="all", stripes="even"]
 |===
 2+<|Determines how many natural attacks the alien can make each combat unit. 
 s|Die Roll (1d100)
-s|Number of Attacks
+s|Attack Frequency
 
 |01-10
-|1 per 2 units (every other unit)
+|1 per 2 units
 
 |11-80
 |1 per unit
@@ -24,8 +24,7 @@ s|Number of Attacks
 |00
 |Ref's Own Table
 
-s|Die Roll (1d100)
-s|Number of Attacks
-
-
+s|Die Roll
+s|Attack Frequency
+2+<|Add 1/3 DEX score to this roll. 1 per 2 is one attack every other unit.
 |===

@@ -1,53 +1,56 @@
 = Alien Damage Per Attack
 
-Alien damage per attack indicates how many HPS the target loses when the player scores a hit.
-The more damage the more dangerous the alien.
-Damage per hit is determined by the persona's size and PSTR.
-Alien damage is intimately tied with the persona's number of attacks. 
-A small amount of damage delivered frequently can be as dangerous as it's corollary.
+Alien damage per attack indicates how many hit points the target loses when the player wins an attack roll.
+The more damage per attack, the more dangerous the alien.
+The persona's size and physical strength determine damage per hit.
+Alien damage per unit depends on the alien's attack frequency. 
+A small amount of damage delivered frequently can be very dangerous.
 
 == Damage per Hit
-A gigantic alien with a 13 PSTR would inflict 3d12 HPS damage each time it scores a hit.
-Aliens do not get a damage adjustment like anthro personas.
-The amount of damage an alien inflicts already reflects its PSTR.
+The damage per hit represents how deadly an alien's naturalized attack is.
+The bigger and stronger the alien, the more devastating a successful attack roll is.
 
-How the attack delivers the damage must also be determined.
-Does the alien bite, slash, spit, zap or barf it's attack?
-Just because an alien has large pincers it may not attack with said pincers.
-Those pincers may be reserved for tender cuddling. 
-How the alien damage is delivered is determined by the  Alien Attack Type.
+How the alien delivers the damage does not affect the damage per for an attack roll win.
+Does the alien bite, slash, spit, zap or barf its attack?
+The alien's description usually determines the method of attack. 
+If the alien uses a pincer or an open hand slap, the damage range will be the same.
+
+A gigantic alien with a 13 PSTR would inflict 3d12 HPS damage each time the player wins an attack roll.
+Aliens do not get a damage adjustment for physical strength.
+The amount of damage an alien inflicts already reflects its physical strength.
 
 include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
 
 == Alien Attack Type
-The alien attack types parallel the three weapon types found in EXP.
-These non-powered contact (A), non-powered ranged (B), and powered (type C).
-For naturalized alien attacks the weapon types are referred to as attack types. 
+The alien attack type determines how the alien delivers the damage amount.
+Does the alien require physical contact to deliver the destructive force?
+Does the alien launch a ranged attack to hit enemies from afar?
+Is the force of the attack energized by some alien physiologic force?
+The alien's description determines how the attack type works. 
 
-=== Attack Type A
+include::ROOT:partial$CH06_Table_Alien_Attack_Type.adoc[]
+
+=== Type A Attack
 Type A attacks are thrusting, striking attacks powered by the alien's brawn.
 These could be bites, punches, stabs, squishes, slashes, pecks, or scratches.
-Type A attacks are in close combat tentacle to tentacle attacks.
+Type A attacks are in close combat, tentacle to tentacle attacks.
 The vast majority of aliens employ type A attacks.
+Unlike anthros, aliens do not get physical strength damage bonuses for Type A attacks.
 
 === Attack Type B
 Type B attacks are ranged attacks powered by the alien's brawn.
 These could be acidic spittle, flying quills, ejected spines or darts.
-Type B attacks have a range and are shot like an arrow.
-While not a long range attack close combat is not required.
-The range of the alien's type B attack is 1 hex per PSTR.
+Type B attacks have a range and shoot like an arrow, *not* like a bullet.
+Type B attacks are not long range attacks, but close combat is not required.
+The alien's type B attack range is one hex per point of physical strength score.
+An alien with a physical strength of 12 has a 12 hex attack range.
+Unlike anthros, aliens do not get physical strength damage bonuses for Type A attacks.
 
 === Attack Type C
-Type C attacks are the rarest and most alien naturalized attack types.
-The alien has evolved a self propelled powered attack that it controls.
-These are attacks like lazer eyes, or rapid fire bone bullets.
-Type C attacks appear naturalized but function like a weapon from the Gun Section.
-The attack is modelled after the weapon having the same damage, range and rate of fire.
+Type C attacks are the rarest and most alien naturalized attack type.
+The alien has evolved a self-propelled powered attack.
+These are classic sciency fiction attacks like lazer eyes or gas-propelled bone bullets.
+Type C attacks are naturalized but function like a gun.
+The player may turn to the hardware section xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank]for descriptive inspiration. 
 
-include::ROOT:partial$CH06_Table_Alien_Attack_Type.adoc[]
 
-== Multiple Attacks
-Multiple attacks also pose a slight problem.
-If an alien has three attacks, it is unlikely that it claws, bites or kicks three times in one unit (unless, for example, it has three mouths).
-If the ref feels it is necessary or if the description dictates, multiple attacks can be given different damages where the different damages represent different types of attack.
-Normally there is only one attack and that is repeated several times.
