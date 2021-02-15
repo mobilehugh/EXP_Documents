@@ -2,35 +2,31 @@
 .*Calculating Alien Movement*
 [width="75%",cols="4*^",frame="all", stripes="even"]
 |===
-4+<|Base move 16 h/u. Body parts: Sheep (l),Wasp (la), Duck (law) and None (s).
+4+<|16 DEX move unit 4 h/u. Body parts: Sheep (l), Wasp (la), Duck (law) and None (s).
 
-s|Terrain
-s|Score 
-s|Quartered
-s|Move (h/u)
+s|Terrain Type
+s|Score
+s|Move Unit
+s|Move Rate
 
-|Land
+|Land - (l)
 |3
-|3/4
+|4 h/u
 |12 h/u
 
-|Air
+|Air - (a)
 |2
-|2/4
+|4 h/u
 |8 h/u
 
-|Water
+|Water - (w)
 |1
-|1/4
+|4 h/u
 |4 h/u 
 
-|Sessile
-|--
-|--
-|--
-
-s|Terrain
-s|Score 
-s|Quartered
-s|Move (h/u)
+s|Terrain Type
+s|Score
+s|Move Unit
+s|Move Rate
+4+<| The body shape 'none' is sessile and has no movement rate.
 |===

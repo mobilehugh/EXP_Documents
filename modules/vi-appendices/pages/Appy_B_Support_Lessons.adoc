@@ -1,86 +1,6 @@
 = Appendix B3: Roadmap
-:experimental: true
 
 NOTE: *More of garbage collection than a roadmap.*
-
-== Images
-Repair of malformed alt="" has been repaired for accessibility. 
-
-[source]
-----
-// this is for inserting art
-// attributes are set in the referring adoc
-// using inline image because it allows tooltip 
-// centering by assigning imageblock css
-
-  "insert IMAGE": {
-    "prefix": "adoc ins IMAGE",
-    "body": [
-      ":art: $1",
-      ":width: 250px",
-      ":snark: $2",
-      ":artist: $3",
-      ":date: $4",
-      ":license: CC BY-SA 4.0",
-      ":description: $5",
-      "",
-      "include::ROOT:partial\\$articulate.adoc[]"
-    ],
-    "description": "<- do this"
-  }
-
-
-
-articulate.adoc is the include
-
-[.imageblock.inlinefix]
-image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
-
-[.imageblock]
-*{snark}*
-
-// removing the attributes to avoid polluting next image 
-:art:
-:width:
-:snark:
-:artist:
-:date:
-:license: 
-:description:
-----
-
-== Video
-Presently video is stored in an /image folder that lives in the module where the page lives.
-For example, /module/images/\*.mp4 this services only the pages in that module.
-The poster attribute must be in this rogue folder as well.
-This is different from still images.
-Which are located in /ROOT/images/*.png and service the entire website
-
-.Shadowrun Promo Excerpt (1990, FASA) 
-video::shorter_run.mp4[width=426, height=240]
-
-
-== Buttons
-Button testing ground.
-Maybe even create a partial like articulate..adoc
-Antora does not support video at this point. 
-Any hacks must be reversible to support eventual video section.
-Buttons require the activation of experimental mode, but there is no documentation on how to activate experimental mode. 
-
-
-
-.*Smaller Thing*
-video::shorter_run.mp4[width=213, height=120, poster=video.png]
-
-.*Poster and controls*
-video::shorter_run.mp4[width=107, height=60, poster=video.png]
-
-.*Poster and nocontrols*
-video::shorter_run.mp4[width=107, height=60, poster=video.png, options="nocontrols"]
-
-Press this btn:[Button] to find out how to activate experimental mode.
-
-CAUTION: Actual roadmap starts here.
 
 == ERRATA
 Too many to even list here.
@@ -92,11 +12,9 @@ Too many to even list here.
 Mission and vision.
 Accessibility.
 Safe and Supportive.
-
-
 Pulled trigger on HPS splitting into HPM an HPT. 
 requires a massive find and replace. 
-
+SS is now SOC.
 
 Apophenia:: “the tendency to perceive a connection or meaningful pattern between unrelated or random things (such as objects or ideas)”  Greek apo- (away, off, apart) + phainein (to show).
 
@@ -197,10 +115,6 @@ There is still an ability to list influential sciency fiction movies.
 . alphabetical order
 . Include the trailer.
 
-
-
-
-
 == Version 7.0
 Automated persona creation
 Support tools such as persona creation. Online persona storage
@@ -212,3 +126,77 @@ VTT (virtual table top) support.
 Campaign creation and story frameworks. Appendix C Mythos : C2 Creating
 generation: flora fauna ecosystem, corporations, governments, 
 VTT (virtual table top) integration.
+
+
+NOTE: Testing zone and technical trials
+
+== Images
+Repair of malformed alt="" has been repaired for accessibility. 
+
+[source]
+----
+// this is for inserting art
+// attributes are set in the referring adoc
+// using inline image because it allows tooltip 
+// centering by assigning imageblock css
+
+  "insert IMAGE": {
+    "prefix": "adoc ins IMAGE",
+    "body": [
+      ":art: $1",
+      ":width: 250px",
+      ":snark: $2",
+      ":artist: $3",
+      ":date: $4",
+      ":license: CC BY-SA 4.0",
+      ":description: $5",
+      "",
+      "include::ROOT:partial\\$articulate.adoc[]"
+    ],
+    "description": "<- do this"
+  }
+
+
+
+articulate.adoc is the include
+
+[.imageblock.inlinefix]
+image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
+
+[.imageblock]
+*{snark}*
+
+// removing the attributes to avoid polluting next image 
+:art:
+:width:
+:snark:
+:artist:
+:date:
+:license: 
+:description:
+----
+
+[source]
+----
+in file: CH06_Aliens_9_Move.adoc
+
+// tag::Alien_Move[]
+blah blah blah
+// end::Alien_Move[]
+
+// include::CH06_Aliens_9_Move.adoc[tag=Alien_Move]
+inserts blah blah blah
+----
+
+
+
+== Video
+After deliberation I have decided to go with vimeo.
+Antora is supposed to work with vimeo stream directly. 
+Following is the test.
+
+https://vimeo.com/511839207[link to video]
+
+video::511839207[vimeo]
+
+CAUTION: Actual roadmap starts here.
