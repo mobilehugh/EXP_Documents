@@ -6,95 +6,124 @@
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of woman wearing pith helmet using binoculars and computer in the jungle. 
+:description: Drawing of a woman wearing a pith helmet using binoculars and a computer in the jungle. 
 
 include::ROOT:partial$articulate.adoc[]
 
-Biologists are personas which have deep interest in the workings of the organic physical world.
-A biologist has broad interests in the fields of taxonomy, culture and research.
+Biologists are personas with a deep interest in the organic physical world's workings.
+A biologist has broad interests in taxonomy, culture and research.
 Their interests range from creepy crawly bugs to complicated economic systems. 
 The vocation is broad as the organic world. 
-Biologists are more interested in studying the organic world than healing (veterinarians) it.
-Biologists have more interest in organic physiology than inorganic (mechanics) mechanisms.
-Vets, mechs and biologists work well on research teams together. 
+Biologists are more interested in studying the organic world than repairing the organic world.
+Biologists are more interested in organic systems than mechanical systems.
+Vets, mechanics and biologists work well on research teams together. 
 
 Biologists do not have degrees or diplomas or certificates from training programs.
-They are self taught and their knowledge base is haphazard.
-Their knowledge comes from keen observation, gardening books, environmental leaflets, nature shows, sagely advisors, and similar random sources.
+They are self-taught, and their knowledge base is haphazard.
+Their knowledge comes from keen observation, gardening books, environmental leaflets, nature shows, sagely advisors, and personal experience.
+
+== Biologist Performance Rolls 
+A Performance Rolls is made every time the biologist attempts a procedure.
+An example procedure could be to identify if an alien is poisonous.
+The procedure is assigned a degree of difficulty (DD).
+The chance of success is improved the biologist's more skills with the biologist can use with the performance roll.
+For more details jump to xref:i-roll_playing_rules:CH14_Performance_Tables.adoc[Performance Rolls].
+
+include::ROOT:partial$CH08_Vocations_Biologist_Ex_Procs.adoc[]
 
 == Biologist Skills 
-The biologist areas of interest are labeled as skills. 
-The biologist begins with several skills that assist her in the field.
-The player gets one roll per 4 points of INT score.
-So a persona with a 12 INT would get three rolls on the Biologist Skill Stream Table. 
-Another roll is made for each new experience level.
+There are two categories of biologist skills: streams and focuses.
+Streams are broad skills covering three main areas: taxonomy, research and culture. 
+Focuses are specific skills representing a particular procedure, alien type, or interest.
+Biologist skill generation always includes a stream and a focus from that stream.
+Each time the player generates a biologist skill, she makes two rolls. 
 
+NOTE: Skills help the biologist win a performance roll with a procedure. A skill is not required to attempt a procedure.
+
+At startup, the persona gets one skill (stream and focus) per three points of intelligence score.
+A persona with a 12 INT would get three rolls on the Biologist Stream Table. 
+Each stream skill includes an area of focus.
+The persona earns a new skill set (stream and focus) with each new experience level.
+The player can advance an existing skill or roll a new one.
+
+.*Example Three Rolls*
+. Taxonomy 
+** Herbivores, Desert Biome
+. Taxonomy
+** Detritivores, Desert Biome
+.Culture
+** Languages, Verbal
+
+Streams and focuses are cumulative and separated.
+The persona has two taxonomy streams, and the player can use them both on anything related to taxonomy.
+Even if the persona has no chaser/hunter behaviour skills, she will use taxonomy 2 when working out chaser/hunter behaviour.
+When figuring out something about herbivores, she will get a total bonus of 3 (taxonomy 2 and herbivore 1).
+When studying a herbivore in a desert biome, she will get a total bonus of 5  (taxonomy 2, herbivore 1 and desert biome 2).
+This skill layout has no research stream, and researching anthro genetics would get a bonus of 0.
+
+.*Reorganized Skills*
+* Taxonomy - 2 
+** Desert Biome - 2
+** Herbivores - 1
+** Detritivores - 1
+* Culture - 1
+** Languages, Verbal - 1
+
+== Biologist Streams
 The skill streams are broad.
-Any organic biological procedure will enjoy a bonus on the performance roll.
-For example, the Taxonomy Stream will help with any alien identification procedures.
-The Cultural Stream will help with any language related procedures.
-The Research Stream would help with understanding any laboratory experiments.
+Any procedure that falls under a stream gets the stream bonus on the performance roll.
+The Taxonomy Stream will help with any alien identification procedures.
+The Culture Stream will help with any linguistic procedures.
+The Research Stream will help with any laboratory procedures.
 
-Each skill stream indicates another roll on a more specific area of interest within the stream.
-The Taxonomy Skill Stream could focused on Herbivores in Desert Biome. 
-The persona's skills would be recorded as Taxonomy 1, Herbivores 1, Desert Biome 1.
-Her second roll is Taxonomy focused on detritovores in Desert Biomes
-The persona's skills would be recorded as Taxonomy 2, Herbivores 1, Detritovores 1, Desert Biome 2.
-Her third roll is Cultural Verbal Languages.
-Her skill list at first level would be:
-
-.Example First Level Skill List
-* Taxonomy 2
-* Desert Biome 2
-* Herbivores 1
-* Detritovores 1
-* Cultural 1
-* Languages Verbal 1
-
-Skills are cumulative and separated.
-Each part of the skill descriptor counts as one skill level and they can be mixed and matched.
-This biologist trying to identify a Desert Biome Detritovore would have a skill bonus of 5.
-This biologist trying to decode a herbivore's verbal language would have a skill bonus of 3. 
-This biologist trying to measure toxicity on a lab bench would have a skill bonus of 0.
+Each skill stream the biologist has includes an area of focus.
+Her Taxonomy Skill Stream can focus on Herbivores in Desert Biome. 
+Her Culture Stream can focus on verbal languages. 
+Her Research Stream can focus on genetics.
+The Focus Skills are less broad.
+The biologist can use her Taxonomy Stream to identify an alien, but she could only use her focus if the alien is a herbivore. 
 
 include::ROOT:partial$CH08_Table_Biologist_Skill_Stream.adoc[]
 
 === Taxonomy Stream
 Taxonomy is about identifying and categorizing organic species.
-This is the classic naturalist bent of the biologist.
+The Taxonomy Stream is the classic biologist as a naturalist.
 Identifying finches on remote islands can upturn a whole society.
-Each Taxonomy Stream sub skill also includes a biome sub skill as well. 
-So a Taxonomy Stream roll would sound like this: Taxonomy - Herbivore - Desert Biome.
+The player rolls a Taxonomy Focus Skill and a Biome for that Focus Skill.
+A Taxonomy Stream roll would look like this: Taxonomy - Herbivore - Desert Biome.
+The only stream that gets a biome skill is the Taxonomy Stream.
 
 include::ROOT:partial$CH08_Table_Biologist_Taxonomy_Stream.adoc[]
 
 include::ROOT:partial$CH08_Table_Nomadic_Biome.adoc[]
 
+include::ROOT:partial$CH08_Table_Biome_Characteristic.adoc[]
+
 === Research Stream
-Research is lab and study work.
-It includes dissections, figuring of physiology, understanding cross taxonomy processes.
+The Research Stream includes laboratory, invention and extension skills for the biologist.
+Procedures like cloning, immunology, and antitoxin creation are Focus Skills from the Research Stream.
 
 include::ROOT:partial$CH08_Table_Biologist_Research_Stream.adoc[]
 
-=== Cultural Stream
-The cultural stream is the population observation stream of the biologist.
-The cultural stream is most like sociology, economics, anthropology, linguistics etc. 
+=== Culture Stream
+The Culture Stream involves any skills that represent the interaction of a population.
+Understanding languages, family structures, and political nuance are Focus Skills from the Culture Stream.
 
 include::ROOT:partial$CH08_Table_Biologist_Cultural_Stream.adoc[]
 
-== Biologist Performance Rolls 
-Performance rolls are made every time the biologist attempts a procedure.
-An example procedure could be to identify if an alien is poisonous.
-The procedure is assigned a degree of difficulty (DD).
-The chance of success is improved the more skills the biologist can use in the performance roll.
-Many more details are available in the section xref:i-roll_playing_rules:CH14_Performance_Tables.adoc[Performance Rolls].
-
-include::ROOT:partial$CH08_Vocations_Biologist_Ex_Procs.adoc[]
-
 == Biologist EXPS
-The benefits of increasing experience levels are: more skills, increased performance, and marginally better combat skills.
-Biologists earn experience points for successfully completing PT rolls (90 EXPS per DD).
+The benefits of increasing experience levels are more skills, improved performance, and marginally better combat skills.
+Biologists earn experience points for completing procedures rolls (90 EXPS per DD) and role-playing within their vocation.
 Only 20% of combat experience can go towards a biologist's experience point total.
-If a biologist is consistently destroying potential specimens, the ref may forfeit combat experience altogether.
 
 include::ROOT:partial$CH08_Table_Biologist_Experience_Points.adoc[]
+
+== Biologist Maneuvers
+Biologist maneuvers involve anything organic that does not involve healing.
+Most biologist maneuvers are knowledge based unless an obvious physical procedure is involved.
+Knowledge based maneuvers can grant the player an INT Performance Roll bonus.
+
+The minimal equipment required by a biologist is her notebooks. 
+The referee may make a target roll more difficult if the biologist does not have her notebooks.
+
+include::ROOT:partial$CH14_Table_DD_Biologist.adoc[]

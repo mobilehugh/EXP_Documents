@@ -11,44 +11,54 @@
 
 include::ROOT:partial$articulate.adoc[]
 
-Mechanics are personas which have deep interest in the workings of the inorganic physical world.
-The vocation of mechanic encompasses all skills and knowledge of a technical nature -- whether it be electronic, mechanical, structural, etc.
-In general mechanics are handy personas.
-Their skills can range from laser technology to unclogging drains.
+Mechanics are personas with a deep interest in the inorganic physical world's workings.
+The vocation of mechanic encompasses all skills and knowledge of a technical nature, whether electronic, mechanical, structural, etc.
+By definition, mechanics are handy personas.
+Their skills can range from lasers to sink drains.
 Unfortunately, they only have bits and bytes of rudimentary knowledge at their disposal.
-Mechanics are especially beneficial to the expedition when artifacts need identifying.
-They are essential if the expedition expects to repair damaged equipment or attempts to construct unique contraptions.
+Mechanics are exceptionally skilled at identifying artifacts.
+This vocation is essential if the expedition expects to repair equipment or create new contraptions.
 
 == Mechanic Abilities
-The mechanics have some special abilities related to their vocation that other personas cannot attempt.
+The mechanics have some unique abilities related to their vocation.
 An ability is slightly different from a skill.
-A skill could be learned by any persona. 
-These abilities are limited to the vocation mechanic.
+Every mechanic gets every ability on the list and can use them at any time.
+The mechanic could teach another persona one of her skills, but mechanic abilities are for the mechanic persona alone.
+The three mechanic abilities are mnemonic trapping, brainstorming and mental patenting.
 
-=== Mnemonic Trapping (1d8 DD)
-Using finely trained memory skills the mechanic can memorize addresses, instructions, serial numbers, or procedures for later use.
-The referee can adjust the degree of difficulty of the maneuver depending on the complexity of the sequence or its length.
+=== Mnemonic Trapping 
+Mnemonic trapping allows the mechanic to memorize crucial technical information. 
+A mechanic can mnemonically trap dimensions, instructions, serial numbers, or other technical information. 
+To memorize important information, the player must win a performance roll.
+The degree of difficulty (DD) of the performance roll increases with the information's amount and complexity.
+None technical information like people's names or anniversaries is even more difficult to mnemonically trap.
+This ability's typical DD range is 1-8 (1d8).
 
-=== Brainstorming (1d20 DD)
-This ability allows the mechanic to solve complex problems by relating incongruous pieces of information by thinking laterally and by thinking imaginatively.
-If the brainstorming attempt is failed, the persona will most likely come up with a hair brained idea instead of no idea at all.
-The effect of this ability can be to solve a problem completely, partially, or to earn a PT roll bonus of 1 to 4 DDs.
-Brainstorming can be limited by the referee and its degree of difficulty adjusted as needed.
+=== Brainstorming
+This ability allows the mechanic to solve complex problems by thinking laterally and thinking imaginatively.
+Using brainstorming can solve a problem completely, partially, or not at all.
+If the brainstorming attempt fails, the persona will most likely postulate a hair-brained idea instead of no idea.
+The difficulty (DD) of the performance roll increases with the complexity of the mechanical problem.
+Plot points and interpersonal problems are resistant to Brainstorming. 
+This ability's typical DD range is 1-20 (1d20).
 
-=== Mental Patenting (Triple DD)
-The mechanic can memorize a maneuver that she has successfully completed in such a fashion that she can repeat the maneuver flawlessly.
-If the mechanic is upgrading ammo for a mercenary repeatedly she may want to memorize it.
+=== Mental Patenting
+The mechanic can memorize a maneuver that she has successfully completed.
+Mental patenting allows the mechanic to repeat the maneuver flawlessly.
+If the mechanic is upgrading ammo for a mercenary repeatedly, she may want to mentally patent the procedure.
 Successful mental patenting will allow her to upgrade the ammo flawlessly in the future.
-To mentally patent a 4DD maneuver requires a DD12 performance roll.
 Mental patented maneuvers do not work with research teams.
-Mental patented maneuvers do not earn repeat experience points.
+Mental patented maneuvers do not earn experience points.
+This ability's degree of difficulty is three times the maneuver DD.
+To mentally patent a 4DD maneuver requires a DD12 performance roll.
 
 == Mechanic Skills
-Mechanics have gained their knowledge from an array of inconsistent sources: curious observation, tinkering or perusing manuals.
+Mechanic skills are specific areas of expertise, knowledge or aptitude. 
+While all mechanics have the abilities above, skills are random and unconnected. 
+Mechanic skills vary widely from mechanic to mechanic.
 
-The player is entitled to one roll on the Mechanic Skill table for every three points of INT.
-For example, a persona with a 16 INT would get five rolls on the Mechanic Skill table.
-The player rolled Chemistry 3 times, Detectors 1 time and Mending 1 time.
+At startup, the mechanic gets one skill for every three points of intelligence score.
+A persona with a 16 INT would get five rolls on the Mechanic Skill Table.
 
 .Example Mechanic Skill List
 * Chemistry 3
@@ -56,19 +66,26 @@ The player rolled Chemistry 3 times, Detectors 1 time and Mending 1 time.
 * Mending 1
 
 Mechanic skills are cumulative and combinable.
-A maneuver that involved purely chemistry would give the mechanic a skill bonus of +3,
-If the maneuver involved chemistry and a detector her skill bonus would be +4.
-If she were mending a broken chemical detector her skill bonus would be +5.
+A maneuver that involved chemistry would give the mechanic a skill bonus of +3,
+If the maneuver involved chemistry and detectors, her skill bonus would be +4.
+If she were mending a broken chemical detector, her skill bonus would be +5.
+Skills also support abilities.
+If she were trying to mnemonically trap a chemical formula, she would get a bonus of +3.
 
 include::ROOT:partial$CH08_Table_Mechanic_Skills.adoc[]
 
 == Experience
-Successful rolls on the performance table will earn the mechanic experience points.
-How much experience depends on the DD of the accomplished task.
-The mechanic will earn 80 EXPs per DD.
-Mechanics can also gain a portion of combat experience.
-They receive 20% of allotted combat experience.
-As mechanics accumulate experience points, they may advance levels.
-Higher experience levels aid the player on the performance tables and in combat.
+The benefits of increasing experience levels are more skills, improved performance, and somewhat better combat skills. Mechanics earn experience points for completing procedures rolls (80 EXPS per DD) and role-playing within their vocation. Only 20% of combat experience can go towards a mechanic's experience point total.
 
 include::ROOT:partial$CH08_Table_Mechanics_Experience.adoc[]
+
+== Mechanic Maneuvers
+Mechanic maneuvers involve anything inorganic or mechanical in nature.
+These maneuvers are all about fixing, modifying and creating mechanical devices.
+Most mechanic maneuvers are knowledge based and Performance Roll bonuses may reflect this.
+
+A mechanic must have a tool to work with. 
+This can be any kind of tool that is not improvised from the persona's body (slap does not equal hammer).
+The referee may make a target roll more difficult if the mechanic does not have a tool.
+
+include::ROOT:partial$CH14_Table_DD_Mech.adoc[]

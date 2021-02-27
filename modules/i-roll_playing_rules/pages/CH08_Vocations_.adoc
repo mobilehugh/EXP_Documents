@@ -18,61 +18,64 @@ include::ROOT:partial$articulate.adoc[]
 
 A vocation is more of an attitude than a profession.
 Choosing a vocation in EXP does not mean that the persona has had any special training.
-There are no diplomas or degrees granted by professional institutions.
-The information and skills that the persona can utilize have been self-taught.
-This lack of unified training leaves many gaps in their knowledge.
-These training gaps lead to frequent failures of seemingly easy procedures.
+The information and skills that the persona can utilize are self-taught.
+Vocations do not preclude training, and the milieu may have
+diplomas or degrees granted by professional institutions.
+Even in the case of training, the persona is still self-taught.
 
-NOTE: *Vocations were called classes in previous versions of EXP*
+NOTE: *Vocations were previously called classes*
 
-Even in the face of what appears to be continual failure, a persona will still pursue her vocation.
 The vocation represents innate abilities, desire, and personal interest.
-A mechanic doesn't have an anti-grav maintenance diploma.
-A mechanic persona does have a keen sense for interpreting the physical world.
-The mechanic is more like a ms fix-it, or a bicycle repair person.
-A biologist wouldn't have a B.Sc from in clone development.
+Two vocation types are biologist and mechanic.
+The mechanic has a keen sense for interpreting the mechanical world.
+A mechanic likely doesn't have an antigrav maintenance diploma.
+The mechanic is more like a Ms. Fix-it or a bicycle repair person.
 A biologist has an intuitive sense for observing the organic world.
-The bilogist is more like a gardener, a farmer or an environmentalist.
-All of the vocations are designed in this fashion.
-The vocations are a natural aptitude which is backed up by sparse bits of disorganized information.
+A biologist likely doesn't have a degree in genetics.
+The biologist is more like a gardener, a farmer or a bird watcher.
 
-== Robot Vocations
-Robots do not have vocations.
-Robots are vocations.
-During fabrication the player chooses a type-vocation 
-A transport robot's vocation is driving.
-An exploration robot's vocation is exploring.
-A robot's dedication to it's type-vocation is baked in and much stronger than any other persona's.
+All of the vocations behave in this fashion.
+Each vocation represents a natural aptitude that includes sparse bits of disorganized information.
+As the persona increases her experience level in her vocation, she improves her skill set.
 
-It is possible for a robot to have a typical vocation. 
-For example, veterinarian and maintenance robots have a vocation baked in. 
-There are also some peripherals that allow a robot to pursue a vocation. 
-In these circumstances attribute minimums do not apply and the vocation is programmed in.
+Vocations do not preclude training, and the milieu may have
+diplomas or degrees granted by professional institutions.
+Even in the case of training, the persona is still self-taught.
 
-== Alien Vocations
-Aliens do not have vocations.
-An alien can be evolved to have language, and tool using but not have a vocation.
-A vocation is the highest level of social evolution for an alien species.
-An alien's society must have language, culture and education before vocations.
-An alien has about a 1/1000 chance of having vocations.
-If an alien species has vocations the player comes here to choose one.
+.*Vocation Types*
+* xref:i-roll_playing_rules:CH08_Vocations_Biologist.adoc[Biologist,window=_blank]: Studies, observes and records organic things.
+* xref:i-roll_playing_rules:CH08_Vocations_Knite.adoc[Knite,window=_blank]: Mystical warrior of order or chaos.
+* xref:i-roll_playing_rules:CH08_Vocations_Mechanic.adoc[Mechanic,window=_blank]: Repairs and improves mechanical things.
+* xref:i-roll_playing_rules:CH08_Vocations_Mercenary.adoc[Mercenary,window=_blank]: Breaks organic and inorganic things.
+* xref:i-roll_playing_rules:CH08_Vocations_Nomad.adoc[Nomad,window=_blank]: Survives using few things.
+* xref:i-roll_playing_rules:CH08_Vocations_Nothing.adoc[Nothing,window=_blank]: Infatuated with material things. A civilian.
+* xref:i-roll_playing_rules:CH08_Vocations_Spie.adoc[Spie,window=_blank]: Deceiver and breaker of things.
+* xref:i-roll_playing_rules:CH08_Vocations_Veterinarian.adoc[Veterinarian,window=_blank]: Repairs and improves organic things.
 
-WARNING: *Aliens with vocations are extremely powerful and ruin game balance permanently*
+Anthropomorphs are the basis of the entire vocation system.
+EXP is an anthrocentric rules system.
+All anthros have a vocation, even if that vocation is no vocation at all.
+Aliens and robots can have vocations.
+Unlike anthros, robot and alien vocations are very rare.
+The remainder of this section refers to anthros and their vocations. 
+For the edge cases of robots or aliens, jump to <<_robot_vocations,Robot Vocations>> or <<_alien_vocations,Alien Vocations>>.
 
 == Vocation Selection
-The persona's attributes determine her vocation.
+The persona's attribute scores determine her vocation.
 The attribute minimums for vocations are present to maintain game balance.
-For example, vets need charisma, spies need dexterity and mercenaries need hit points.
-The attribute must have a value equal to or greater than on the Vocation Attributes below.
-For example, a biologist must have a combined AWE and INT greater or equal to 18.
-A persona with a 4 INT and a 14 AWE can choose biologist.
-Usually a player will have a list of vocations to choose from. 
+Veterinarians need charisma, and spies need dexterity and mercenaries need hit points.
+The attribute score must be greater than or equal to the vocation requirement.
+For example, a biologist must have a combined awareness and intelligence greater than or equal to 18.
+A persona with a 4 INT and a 14 AWE can become a biologist, but not a mechanic, 
+Usually, a player will have a list of vocations to choose from for her persona.
+The default anthro vocation is the nothing vocation.
 
 include::ROOT:partial$CH08_Table_Persona_Class_Requirements.adoc[]
 
 === Vocation Selection Example
 A persona has the attributes: AWE 6, CHA 15, CON 17, DEX 9, INT 14, MSTR 12, PSTR 6, and HPS 42.
-The player has a wide selection of vocations to choose from.
+The persona's social standing (SOC) is not part of the vocation selection process.
+The player has a wide selection of vocations from which to choose.
 This persona could be any of the following: biologist, mechanic, mercenary, nothing, or veterinarian.
 
 include::ROOT:partial$CH08_Table_Persona_Vocation_Example.adoc[]
@@ -81,56 +84,79 @@ include::ROOT:partial$CH08_Table_Persona_Vocation_Example.adoc[]
 The persona should have at least a keen interest, or possibly an obsession, with her vocation.
 Veterinarians should show compassion and a desire to heal.
 Biologists should show respect, if not awe, for the natural organic world.
-Anti-knites should take on any opportunity to increase the universe's level of entropy.
+Anti-knites should take on any opportunity to increase the universe's entropy level.
 
-Players that do not role-play their persona's vocation should face challenges.
+Players that do not role-play their persona's vocation can face challenges.
 Villainous veterinarians and altruistic anti-knites may see their skills weaken.
-Initially the personas will lose out on key vocation related experience points.
-Worsening transgressions may lead to punitive actions.
-Murdering veterinarians may find that their skills don't work on those who know the truth.
 Nomads living in decadent luxury will find their survival skills starting to rust.
-In rare cases the persona's may find themselves at odds with organizations that informally police them.
 
-If a campaign requires every persona to be a mercenary then so be it.
-If the ref hand players have a system of colleges and training centers all the better.
+Initially, their actions will cost them vocation related experience points.
+Continuing transgressions may make it impossible for the persona to carry out her tasks.
+A murderous veterinarian may find that her skills don't work well on those who know the truth.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
-== Vocation Concentration
-A vocation is a gross generalization of someone that is able to perform a group of procedures.
-Each vocation represents a collection of skills that are similar enough for one persona.
-These skill collections are represented by eight separate vocations.
-If the ref and players prefer a more varied collection of vocations performance rolls can handle this.
+== Multiple Vocations
+A player may want to have a persona with more than one vocation.
+Inexperienced players or referees should avoid multi-vocation personas.
+The persona must have the attribute requirements for both vocations.
 
-== One Is Not Enough
-There are situations where the ref and players may allow for a persona to have more then one vocation.
-A player may wish to change up the player of persona.
-The expedition may need a certain vocation and a player wants to cross train her persona.
-For instance, a mercenary mechanic could be effective in combat and also engage in artifact identification without risking the entire expedition.
-Multi-vocation personas are not recommended for inexperienced players or referees.
-Mixing vocations is challenging to play and keep track of.
-I can see no situation where a player could manage more than two vocations 
+There are situations where the ref and players may allow a persona to have more than one vocation.
+A player may wish to change things up with her persona.
+The expedition may need a particular vocation, and a player volunteers to cross-train her persona.
+A mercenary may wish to add the mechanic vocation to keep a crucial piece of artillery working.  
 
-=== Combined
-The persona carries two vocations at the same time.
-The player runs two _different_ vocations from a persona at once.
-For example, a persona could make performance rolls as a vet or merc.
+The referee is the final arbiter on multi-vocation personas. 
+Less mature players may abuse this privilege.
+The referee decides if the player is combining or switching personas in good faith.
+
+=== Combining Vocations
+Combining vocations is when the player has a persona with two vocations concurrently.
+For example, a biologist mechanic can do biologist and mechanic maneuvers. 
+The persona advances both levels simultaneously and can use skills from both vocations.
+
 The amount of experience required for each new level will be equal to the sum of both vocations plus 10% of the total.
-So a combined knite-biologist would need 4675 EXPS for 2nd level.
-Lastly, nothings can be combined with no vocations and knites cannot be combined with anti-knites.
-The referee is completely in control of what combined vocations are appropriate for her milieu.
+A combined mechanic-biologist would need 4400 EXPS to reach second level.
 
-=== Switching
-Switching vocations is different from combined vocations in that the persona neglects one vocation and begins to start fresh with another.
+Nomads, nothings and spies cannot combine with any other vocation.
+A persona cannot be a combined knite and anti-knite.
+
+=== Switching Vocations
+Switching vocations is when the player moves her persona from one vocation to another. 
+Switching vocations is less demanding than combining vocations.
+If the persona has the vocation's attribute requirements, she can switch any time.
+
 For example, a mercenary may suddenly get a conscience and devote the rest of her life to the study of biology.
-If she has the appropriate attributes, this switch can be done at any time.
-The new vocation is started at zero EXPS and advances in levels and EXPS acquisition as the new vocation.
-The mercenary skills can still be called on but no experience will be earned for their use.
-If the personal does not have the attributes to make a desired switch, she must pursue it through the nothing vocation.
+If she has the appropriate attributes, she can do this switch at any time.
+The persona's mercenary skills freeze at her exit level.
+She begins collecting experience points as a first-level biologist with zero EXPS.
+She can still use her mercenary skills but only collects experience as a biologist.
 
-== Attributes and Play
-Personas that lose attribute points during the generation of mutations or the choosing of a family and consequently cannot pursue a vocation that they desire are out of luck.
-Players are welcome to plan ahead and choose a family that will allow them to be a certain vocation but once the path has been chosen, there should be no turning back.
-Personas cannot be ejected from a vocation for attribute alterations that occur during the play of the campaign.
-For instance, a veterinarian would not have to retire from that vocation because her CHA was reduced due to a facial scar.
+If the persona does not have the attributes to make a vocation, she can follow the nothing vocation until she gets the necessary EXPS.
+
+== Robot Vocations
+Robots do not have vocations.
+Robots are vocations.
+During fabrication, the player chooses a robot type based on the persona's prime attributes. 
+A transport robot's vocation is driving.
+An exploration robot's vocation is exploring. 
+
+Some robot types have a vocation as part of their programmed duties. 
+For example, a veterinarian robot gets skills from the veterinarian vocation, and a maintenance robot gets skills from the mechanic vocation. 
+A robot can also pursue a vocation with unique programmes.
+For example, a robot's secondary peripheral may allow the persona to pursue a vocation.
+
+== Alien Vocations
+Aliens do not have vocations.
+An alien can evolve to have language, culture and tool use but still not have a vocation.
+A vocation is the highest level of societal evolution for an alien species.
+An alien has less than a 1/1000 chance of having a vocation.
+If an alien persona can have a vocation, the player goes through the anthro vetting process above.
+
+WARNING: *Aliens with vocations can be extremely powerful impair game balance.*
+
+== Taking Vocations
+It is a good idea to take a vocation once in a while.
+Relaxing vocations that connect with nature are healthy.
+However, improving one's lifestyle is much more effective at reducing stress than a holiday vocation. 

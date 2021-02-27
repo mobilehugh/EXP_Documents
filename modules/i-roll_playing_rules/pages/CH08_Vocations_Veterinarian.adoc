@@ -11,35 +11,34 @@
 include::ROOT:partial$articulate.adoc[]
 
 Veterinarians are the healers of the organic world.
-Vets are combination doctor, homeopath, surgeon, paramedic, and faith-healer.
+Vets are a combination of doctor, homeopath, surgeon, paramedic, and faith-healer.
 They can utilize whatever odds and ends available to assist organic personas in need.
-Vets are self trained and have *not* been trained at a college or school.
+Vets are self-trained and have *not* suffered at a college or school.
 They learned from oral histories, experimentation, pamphlets or bits of AV material. 
 Their work may be temporary or permanent, incompetent or miraculous.
 
 == Vet Conduct
 Veterinarians need the trust of their patients to function.
-This therapeutic relationship is based on charisma, trust and skill.
-This vocation does not have an oath by any means, but proper conduct makes then better vets.
+The therapeutic relationship depends on charisma, trust and skill.
+This vocation does not have an oath by any means, but proper conduct makes them better veterinarians.
 
+.*Good Person Good Veterinarian*
 * Avoid using weapons that kill or damage life.
-* Avoid using violence as solution unless last resort.
+* Avoid using violence as a solution unless last resort.
 * Make the best choices for their patients
 
-The more the vet strays from these suggested tenets the harder it will be to heal personas.
-It is also possible that a guild, or club may take issue with a violent vet.
+The more the vet strays from these suggested tenets, the harder it will be to heal personas.
+It is also possible that a guild or club may take issue with a violent vet.
 This conduct is a general goal.
 The persona need not be a pacifist or sacrifice their lives senselessly.
 
 == Vet Abilities
-Vet abilities are special aptitudes that a vet can accomplish and other vocations cannot.
+Vet abilities are particular aptitudes that a vet can accomplish and other vocations cannot.
 
-=== Quick Fix (DD varies)
-This ability allows the vet to quickly repair injured personas.
-Quick fixes give the persona a HPS boost. 
-They are most commonly carried out during combat and are completed in units.
-Yup that is quick.
-
+Quick Fix::
+This ability allows the vet to repair injured personas quickly.
+Quick fixes give the patient persona an HPS boost. 
+They are most commonly quickly carried out during combat.
 The difficulty and during of a quick fix depends on the amount of healing desired.
 
 // Vet Quick Fix new for versions 6.0
@@ -50,7 +49,7 @@ The difficulty and during of a quick fix depends on the amount of healing desire
 
 s|Heal Amount
 s|DD
-s|Duration
+s|Time Required
 
 |5%
 |5
@@ -70,64 +69,74 @@ s|Duration
 
 s|Heal Amount
 s|DD
-s|Duration
+s|Time Required
 |===
 
-== Subliminal Suggestion (MSTR  DD)
-Words can be popped into the minds of unsuspecting victims.
-Simple commands such as "`Don't jump`", "`Wait`", and "`Give it`" may be forced upon the victim.
-The more reasonable the suggestion, the more likely that it will succeed.
-There is no save versus a successful PT roll.
+Subliminal Suggestion::
+A veterinarian can pop words into the minds of unsuspecting targets.
+The vet can force simple commands such as don't jump, drop it, or stop on the target.
+The more reasonable that the suggestion is, the more likely that the subliminal suggestion will succeed.
+There is no saving roll for the target if the player wins the performance roll.
+The degree of difficulty depends on the target's mental strength.
+If the target has a 9 MSTR, the DD of the maneuver is 9.
 
-== Paralyzing Pinch (CON DD)
+Paralyzing Pinch::
 The vet can render the target unconscious using a dramatic pinch technique.
-In an unwilling patient a attack roll must be successful.
-The pinch must be applied for 0-2 units (1d3-1).
-A attack roll must be made each unit of holding on. 
+Willing patients do not require the vet to make an attack roll.
+In an unwilling patient, the player must first win an attack roll.
+The vet must apply the pinch for 0-2 units (1d3-1), and each unit indicates the player must win another attack roll. 
 Only after the successful attack rolls is the performance roll made.
-Willing patients do not require the vet to make a attack roll.
-An easier performance roll must still be made on a willing patient. 
-This ability is used as a non-pharmaceutical anesthetic by the vet.
-
-If the performance roll is successful, the target is immobilized for 1 minute.
-The target does not get a saving roll.
 A failed performance roll leaves the target enjoying a harmless shoulder grip.
+There is no saving roll for the target if the player wins the performance roll.
+The degree of difficulty depends on the target's constitution.
+If the target has a 9 CON, the DD of the maneuver is 9.
 
-== Death Pinch (double CON DD)
-Paralyzing pinch plus.
+Death Pinch::
 Death Pinch is the deadly version of the paralyzing pinch.
 There are no voluntary receivers of this attack.
-If the death pinch is successful the persona gets a saving roll vs death.
-The vet must hold on for 0-3 units (1d4-1) in a row.
-This means a successful attack roll for each unit of the death grasp.
+The vet must apply the pinch for 0-2 units (1d3-1), and each unit indicates the player must win another attack roll. 
+Only after the successful attack rolls is the performance roll made.
+A failed performance roll leaves the target enjoying a harmless shoulder grip.
+The target gets a saving throw versus poison.
+The degree of difficulty depends on the target's constitution.
+If the target has a 9 CON, the DD of the maneuver is 18.
 
 == Vet Skills
 Vet skills are random areas of knowledge picked up during their career.
-A vet gets one roll on the Vet Skills Table for every 3 points of INT.
-So a vet with an 18 INT would get 6 rolls on the skills table. 
-Consider the following rolls: Psionics, Surgery, Psionics, Infection, Aging, Surgery.
+A vet gets one roll on the Vet Skills Table for every 3 points of intelligence.
+The player can extend an existing skill or generate a new one for every new experience level.
 
-The vet gets a new roll on the skill table each new EXPS Level.
+A vet with an 18 INT would get six rolls on the skills table. 
 
 .Example Vet Skill List
-* Surgery 2
-* Psionics 2
-* Infection 1
-* Aging 1
+* Surgery - 2
+* Psionics - 2
+* Infection - 1
+* Aging - 1
 
-Vet skills can be combined into better skill bonuses.
+A veterinarian can combine her skills into better skill bonuses.
+Using the example vet skill list above:
 Any surgical procedure would get a skill bonus of +2.
-If the surgery is for an infection the skill bonus would be +3.
-If the surgery vs infection is for an aged persona the skill bonus would be +4.
+If the surgery is for an infection, the skill bonus would be +3.
+If the surgery vs infection on an old persona, the skill bonus would be +4.
 
 include::ROOT:partial$CH08_Table_Veterinarian_Skills.adoc[]
 
 == Vet Experience
-Vets gain experience for successful performance rolls.
-They earn 70 EXPs per DD.
-Since vets are a non-combat vocation, they may only receive 10% of combat experience.
-Gaining experience allows for an increase of experience levels.
-The higher the experience level, the better chance the vet has of having a successful practice in a fashionable part of the universe.
+The benefits of increasing experience levels are more skills, improved performance, and not much else. 
+Veterinarians earn experience points for completing procedures rolls (70 EXPS per DD) and role-playing within their vocation.
+Only 10% of combat experience can go towards a vet's experience point total.
 
 include::ROOT:partial$CH08_Table_Veterinarian_Experience.adoc[]
+
+=== Veterinarian Maneuvers
+Vet maneuvers involve the healing, repair and enhancement of organic life forms.
+Vet maneuvers can be considered Gut or Knowledge maneuvers.
+The referee can adjust Performance Roll bonuses depending on where the maneuver lies.
+
+The vet must be able to smile at her patient.
+Personal connection is essential equipment for successful veterinarian maneuvers.
+The referee may make a target roll more difficult if the vet cannot emotionally connect with her patient.
+
+include::ROOT:partial$CH14_Table_DD_Vet.adoc[]
 
