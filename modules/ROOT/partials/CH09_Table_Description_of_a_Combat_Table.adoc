@@ -1,36 +1,121 @@
 // Table 9.1 Description of a Combat Table
-.*Descriptive of a Combat Table*
-[width="75%",cols="5*^",frame="all", stripes="even"]
+.*Deconstructing the Combat Table*
+[width="95%",cols="6*^",frame="all", stripes="even"]
 |===
-5+<|A table that describes a table using  examples.
+6+<|An example combat table.
+
+
+s|ROW
+5+<|Rows are for explanation and are not part of combat table.
+
+s|1
+s|Attack Type
+s|BP
+s|BNP
+s|MR
+s|DA
+
+s|2
+s|A
+|100
+|50
+|725
+|6
+
+s|3
+s|B
+|125
+|65
+|775
+|3
+
+s|4
+s|C
+|150
+|75
+|825
+|0
+
+|===
+
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 1 lists the combat table headings.
 
 s|Attack Type
-s|Bonus Proficient (BP)
-s|Bonus Non Proficient (BNP)
-s|Maximum Roll (MR)
-s|Damage Adjustment (DA)
+4+|Type of weapon being used. Striking vs projectile vs powered.
 
-|A (contact)
-|Sword
-|Any other hitting weapon
-|Highest roll
-|PSTR increases damage
+s|BP
+4+|Bonus Proficient. Player adds this number to attack roll for familiar weapons.
 
-|B (ranged)
-|Bow
-|Any other throwing weapon
-|Highest roll
-|less PSTR effect on damage
+s|BNP
+4+|Bonus Non Proficient. Player adds this number to attack roll for unfamiliar weapons.
 
-|C (powered)
-|Pistol
-|Any other gun. 
-|Highest roll
-|No PSTR bonus
+s|MR
+4+|Maximum Roll. This is the highest attack roll the player can make.
 
-s|Attack Type
-s|Bonus Proficient (BP)
-s|Bonus Non Proficient (BNP)
-s|Maximum Roll (MR)
-s|Damage Adjustment (DA)
+s|DA
+4+|Damage Adjustment. The player adds this value to the damage roll. 
+|===
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 2 lists data for persona powered thrusting and striking weapons like swords.
+
+s|A
+4+|Type A weapons are thrusting and striking weapons. 
+
+|100
+4+|Player adds this number to attack roll when using her trusty sword.
+
+|50
+4+|Player adds this number to attack roll when using an unfamiliar mace.
+
+|725
+4+|If the player rolls higher than 725 her roll becomes 725.
+
+|6
+4+|The player add 6 hit points of damage when using this weapon type.
+|===
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 3 lists data for persona powered projectile weapons like bows.
+
+s|B
+4+|Type B weapons are non-powered projectile weapons. 
+
+|125
+4+|Player adds this number to attack roll when using her trusty bow.
+
+|65
+4+|Player adds this number to attack roll when using an unfamiliar throwing spear.
+
+|775
+4+|If the player rolls higher than 775 her roll becomes 775.
+
+|3
+4+|The player adds 3 hit points of damage when using this weapon type.
+|===
+
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 4 lists data for powered projectile weapons like guns.
+
+s|C
+4+|Type C weapons are powered projectile weapons. 
+
+|150
+4+|Player adds this number to attack roll when using her trusty lazer pistol.
+
+|75
+4+|Player adds this number to attack roll when using an unfamiliar rifle.
+
+|825
+4+|If the player rolls higher than 825 her roll becomes 825.
+
+|0
+4+|There is no damage adjustment when using this weapon type.
 |===
