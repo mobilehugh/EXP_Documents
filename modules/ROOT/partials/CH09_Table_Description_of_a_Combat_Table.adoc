@@ -6,7 +6,7 @@
 
 
 s|ROW
-5+<|Rows are for explanation and are not part of combat table.
+5+<|Labelled rows are for explanation, and are not part of combat table.
 
 s|1
 s|Attack Type
@@ -43,31 +43,31 @@ s|C
 |===
 5+<|ROW 1 lists the combat table headings.
 
-s|Attack Type
-4+|Type of weapon being used. Striking vs projectile vs powered.
+s|<<_attack_type,Attack Type>>
+4+|Type of attack being used. Striking vs projectile vs powered.
 
 s|BP
-4+|Bonus Proficient. Player adds this number to attack roll for familiar weapons.
+4+|<<_bonus_proficient,Bonus Proficient>>. Player adds this number to attack roll for <<_proficiencies,familiar>> weapons.
 
 s|BNP
-4+|Bonus Non Proficient. Player adds this number to attack roll for unfamiliar weapons.
+4+|<<_bonus_non_proficient,Bonus Non Proficient>>. Player adds this number to attack roll for unfamiliar weapons.
 
 s|MR
-4+|Maximum Roll. This is the highest attack roll the player can make.
+4+|<<_maximum_roll,Maximum Roll>>. This is the highest attack roll the player can make.
 
 s|DA
-4+|Damage Adjustment. The player adds this value to the damage roll. 
+4+|<<_damage_adjustment,Damage Adjustment>>. The player adds this number to the damage roll. 
 |===
 
 [width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
 |===
-5+<|ROW 2 lists data for persona powered thrusting and striking weapons like swords.
+5+<|ROW 2 lists data for persona powered thrusting and striking attacks like swords.
 
-s|A
-4+|Type A weapons are thrusting and striking weapons. 
+s|<<_type_a_attack,A>>
+4+|Type A attacks are thrusting and striking weapons. 
 
 |100
-4+|Player adds this number to attack roll when using her trusty sword.
+4+|Player adds this number to attack roll when using her <<_proficiencies,familiar>> sword.
 
 |50
 4+|Player adds this number to attack roll when using an unfamiliar mace.
@@ -81,13 +81,13 @@ s|A
 
 [width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
 |===
-5+<|ROW 3 lists data for persona powered projectile weapons like bows.
+5+<|ROW 3 lists data for persona powered projectile attacks like bows.
 
-s|B
-4+|Type B weapons are non-powered projectile weapons. 
+s|<<_type_b_attack,B>>
+4+|Type B attacks are non-powered projectile weapons. 
 
 |125
-4+|Player adds this number to attack roll when using her trusty bow.
+4+|Player adds this number to attack roll when using her <<_proficiencies,familiar>> bow.
 
 |65
 4+|Player adds this number to attack roll when using an unfamiliar throwing spear.
@@ -102,13 +102,13 @@ s|B
 
 [width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
 |===
-5+<|ROW 4 lists data for powered projectile weapons like guns.
+5+<|ROW 4 lists data for powered projectile attacks like guns.
 
-s|C
-4+|Type C weapons are powered projectile weapons. 
+s|<<_type_c_attack,C>>
+4+|Type C attacks are powered projectile weapons. 
 
 |150
-4+|Player adds this number to attack roll when using her trusty lazer pistol.
+4+|Player adds this number to attack roll when using her <<_proficiencies,familiar>> lazer pistol.
 
 |75
 4+|Player adds this number to attack roll when using an unfamiliar rifle.
