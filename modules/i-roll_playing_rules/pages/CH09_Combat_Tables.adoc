@@ -21,11 +21,13 @@ include::ROOT:partial$CH09_Table_Tiny_CT.adoc[]
 The tactical combat system is not simple, and the combat table requires an understanding of many acronyms.
 You need to read this section if the following acronyms do not make sense: BP, BNP, MR, DA, AR, Type A, Type B, Type C etc.
 If you know what you are looking for, jump to the combat table you need.
+Below is a list is of player persona combat tables. 
+Referee persona combat tables are detailed in their referee persona sections
 
 .*Jump to the Combat Tables*
-* <<_anthro_combat_table_calculation,Anthro>>
-* <<_robot_combat_table_calculation,Robot>>
-* <<_alien_combat_table_calculation,Alien>>
+* xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank]
+* xref:i-roll_playing_rules:CH05_Robots_Z_CT.adoc[Robot Combat Table,window=_blank]
+* xref:i-roll_playing_rules:CH06_Aliens_6_CT.adoc[Alien Combat Table,window=_blank]
 
 == Deconstruction of a Combat Table
 The example combat table from above is broken down row by row with links to more detailed explanations.
@@ -171,81 +173,8 @@ Mercs also get skills bonuses that can increase their attack rolls even further.
 Nothings:: 
 Nothings are only proficient with one weapon and one weapon only.
 
-== Calculating Combat Tables
-Anthros, robots and aliens all calculate a combat table.
-In the tactical combat system, every persona needs a combat table.
-Referee persona combat tables vary based on the needs of the referee.
-This section starts with how to calculate each family type's combat table. 
-The variations in combat table elements are detailed __after__ their calculations. 
 
-== Anthro Combat Table Calculation
-EXP initially developed the combat table for anthro player personas.
-Robots and aliens came along later.
-The combat table language aligns most efficiently with anthro personas.
-The persona's attributes make up the first component of her bonus proficient.
-The persona's experience level and vocation make up the second component of her bonus proficient.
-The persona's BP determines her BNP and MR on the combat table. 
 
-include::ROOT:partial$CH09_Table_Anthro_CT_Attributes.adoc[]
-
-include::ROOT:partial$CH09_Table_Anthro_CT_Levels.adoc[]
-
-include::ROOT:partial$CH09_Table_Anthro_CT_BNP.adoc[]
-
-=== Anthro Combat Table Example
-Let's walk through the calculation of a combat table for the following persona:
-A second level spie has the following attributes: AWE 12 CHA 11 CON 12 DEX 10 INT 12 MSTR 14 and PSTR 16.
-
-include::ROOT:partial$CH09_Table_Anthro_CT_Xample.adoc[]
-
-== Robot Combat Table Calculation
-Robot attacks are either malfunctioning peripherals or baked-in weapons. 
-The robot combat table is only for offensive systems baked-in during fabrication.
-The player uses the BP for baked-in weapons and the BNP for malfunctioning peripherals.
-
-Robots do not use artifact weapons.
-An android with a vocation will use an artifact weapon as an anthro with that vocation.
-A robot can end up with two combat tables: one for artifact weapons and one for her built-in attacks.
-
-A combot with a baked-in laser pistol would add the Bonus Proficient to her attack roll.
-A janitorial robot with a cleaner that malfunctions as a laser pistol would use her BNP.
-The BNP is zero.
-Robots do not have a limiting Maximum Roll. 
-
-The janitorial robot with the malfunctioning cleaning tool has no BP and no MR.
-The player may roll 32 on the kilodie, which is a disastrous miss.
-However, in the next attack, the player could roll 954, an almost certain hit.
-
-include::ROOT:partial$CH09_Table_Robot_CT.adoc[]
-
-=== Robot Combat Table Example
-A 4th level janitorial robot has the following attributes: AWE 12 CHA 11 CON 12 DEX 10 INT 12 MSTR 0 PSTR 16.
-She three offensive systems.
-Her baked-in pistol would use her BP for type C attacks.
-Her ramming skill would use her BP for type A attacks.
-Her acid squirted from a misused cleaner would use her BNP.
-
-include::ROOT:partial$CH09_Table_Robot_CT_Xample.adoc[]
-
-== Alien Combat Table Calculation
-The alien combat table is for her natural attacks. 
-There is no BNP because the alien is naturally proficient with her evolved attacks.
-Aliens do not have a maximum roll.
-An alien with naturally evolved lasers shooting tentacles would use her BP for Type C attacks. 
-
-Only tool-using aliens can use artifact weapons. 
-An alien does not use her natural attack combat table for artifact weapons.
-If the alien has a vocation, she will use the anthro vocation-based combat table for her artifact combat table.
-An alien can have two combat tables: one for artifact weapons and one for her natural attacks. 
-
-include::ROOT:partial$CH09_Table_Alien_CT.adoc[]
-
-=== Alien Combat Table Example
-An 8th level alien has the following attributes: AWE 12 CHA 11 CON 12 DEX 10 INT 12 MSTR 15 PSTR 16.
-Her naturally evolved energy wave would use her BP for Type C attacks.
-Her ferocious tentacle slap would use her BP for Type A attacks.
-
-include::ROOT:partial$CH09_Table_Alien_CT_Xample.adoc[]
 
 
 

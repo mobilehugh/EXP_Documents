@@ -1,0 +1,175 @@
+A 3rd level robot has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 PSTR.
+Her robotic primes are DEX of 2, INT of 2, and PSTR of 3
+
+
+// CH09 table attribute bonuses new for 6.0
+[width="75%",cols="4*<",frame="all", stripes="even"]
+|===
+4+<s|Bonus Proficient (BP)
+
+|Attack Type A
+3+<|5 * DEX + 5 * INT + Prime * PSTR + Level * Bonus
+
+|Attribute Bonus
+3+<|5 * 12 + 5 * 10 = 110
+
+|Prime Bonus
+3+<|(Prime * PSTR) = 3 * 16 = 48
+
+|Level Bonus
+3+<|(PSTR * Lvl) = 22 * 3 = 66
+
+s|BP for Type A
+2+|110 + 48 + 66
+>s|224
+
+|Attack Type B
+3+<|5 * AWE + 5 * PSTR + Prime * DEX + Level * Bonus
+
+|Attribute Bonus
+3+<|5 * 12 + 5 * 16 = 140
+
+|Prime Bonus
+3+<|(Prime * DEX) = 2 * 12 = 24
+
+|Level Bonus
+3+<|(DEX * Lvl) = 12 * 3 = 36
+
+s|BP for Type B
+2+|140 + 24 + 36
+>s|200
+
+|Attack Type C
+3+<|5 * AWE + 5 * DEX + Prime * INT + Level * Bonus
+
+|Attribute Bonus
+3+<|5 * 12 + 5 * 12 = 120
+
+|Prime Bonus
+3+<|(Prime * INT) = 2 * 10 = 20
+
+|Level Bonus
+3+<|(INT * Lvl) = 10 * 3 = 30
+
+s|BP for Type C
+2+|120 + 20 + 30
+>s|170
+|===
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+
+4+<s|Bonus Non Proficient (BNP)
+
+|Attack Type A
+3+<|Type A BNP = 0
+
+s|BNP for Type A
+2+<|
+>s|0
+
+
+|Attack Type B
+3+<|Type B BNP = 0
+
+s|BNP for Type B
+2+|
+>s|0
+
+|Attack Type C
+3+<|Type C BNP = 0
+
+s|BNP for Type C
+2+|
+>s|0
+|===
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+
+4+<s|Maximum Roll (MR)
+
+|Attack Type A
+3+<|None
+
+s|MR for Type A
+2+<|
+>s|None 
+
+
+|Attack Type B
+3+<|None
+
+s|MR for Type B
+2+<|
+>s|None
+
+|Attack Type C
+3+<|None
+
+|MR for Type C
+2+<|
+>s|None 
+|===
+
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+4+<s|Damage Adjuster (DA)
+
+|Attack Type A
+3+<|PSTR
+
+s|DA for Type A
+2+<|
+>s|16
+
+
+|Attack Type B
+3+<|PSTR * 1/2
+
+s|DA for Type B
+2+<|16 * .5
+>s|8
+
+|Attack Type C
+3+<|PSTR * 0
+
+s|DA for Type C
+2+<|16 * 0
+>s|0 
+|===
+
+.*Putting It All Together*
+[width="55%",cols="5*^",frame="all", stripes="even", grid="all"]
+|===
+5+<|Robot attack table.
+
+s|Type
+s|BP
+s|BNP
+s|MR
+s|DA
+
+
+s|A
+|224
+|0
+|--
+|16
+
+
+s|B
+|200
+|0
+|--
+|8
+
+
+s|C
+|170
+|0
+|--
+|0
+
+|===

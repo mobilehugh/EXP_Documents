@@ -1,1 +1,68 @@
-CH04_Anthros_CT.adoc
+= Anthro Combat Table
+
+The tactical combat system in the roll playing rules uses an attack matrix called the combat table.
+The player refers to the combat table every time she makes an attack roll.
+This section covers the details of how to calculate a combat table for an anthro persona.
+The anthro combat table is the same as a vocation-based combat table.
+Aliens and robots have their combat tables, but they will use the combat table found here if either has a vocation.
+
+This section has cursory explanations and detailed calculations. 
+For more info jump to xref:i-roll_playing_rules:CH09_Combat_Tables.adoc[Combat Tables,window=_blank].
+
+include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
+
+.*Combat Table Checklist*
+. <<_bonus_proficient,Bonus Proficient>>
+.. <<_attribute_bonus,Attribute Bonus>>
+.. <<_level_bonus,Level Bonus>>
+. <<_bonus_non_proficient,Bonus Non Proficient>>
+. <<_maximum_roll,Maximum Roll>>
+. <<_damage_adjustment,Damage Adjustment>>
+
+== Bonus Proficient
+The bonus proficient (BP) is for weapons in which the persona is skilled.
+The player adds the BP to her attack roll when her persona uses a weapon in which she is proficient.
+The BP has two main components: Attributes Bonus and Level bonus.
+The persona's BP increases as the persona gains EXPS levels. 
+
+=== Attribute Bonus
+The persona's attributes determine the majority of the persona's bonus proficient.
+Strong personas wield crushing weapons well.
+Dextrous personas wield projectile weapons well.
+If a persona's attributes increase or decrease, the player should recalculate her combat table.
+
+include::ROOT:partial$CH04_Table_Anthro_CT_BP_Attr.adoc[]
+
+=== Level Bonus
+The persona's vocation determines her level bonus.
+Each vocation has its level bonus.
+The player adds the level bonus for each EXPS level of her persona, including her first level.
+Initially, the level bonus plays a small role in the BP but eventually becomes the most significant contributor to the combat vocations.
+
+include::ROOT:partial$CH04_Table_Anthro_CT_BP_Lvl.adoc[]
+
+== Bonus Non Proficient
+A persona is not effective using unfamiliar weapons.
+When the persona uses unfamiliar weapons, the player can only add a portion of the BP to her attack roll.
+This reduction of her BP depends on her vocation and weapon type.
+The Bonus Non Proficient Table numbers are percentages that the player multiplies the BP by.
+A nomad with a 100 BP would have a 25 BNP for her unskilled weapons.
+
+include::ROOT:partial$CH09_Table_Anthro_CT_BNP.adoc[]
+
+== Maximum Roll
+The maximum roll is the highest roll that a player can make on the kilo-die attack roll.
+There is always a chance to damage an attacker using xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+include::ROOT:partial$CH04_Table_Anthro_CT_MR.adoc[]
+
+== Damage Adjustment
+When the player has won an attack roll, she can add her damage adjustment to her damage roll.
+Powered weapons like guns and rifles have no damage adjustment.
+
+include::ROOT:partial$CH04_Table_Anthro_CT_DA.adoc[]
+
+== Anthro Combat Table Example
+A second level spie has the following attributes: AWE 12 CHA 11 CON 12 DEX 10 INT 12 MSTR 14 and PSTR 16.
+
+include::ROOT:partial$CH04_Table_Anthro_CT_Xample.adoc[]

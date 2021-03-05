@@ -2,73 +2,100 @@
 
 The tactical combat system in the roll playing rules uses an attack matrix called the combat table.
 The player refers to the combat table every time she makes an attack roll.
+The alien combat table is easier to generate and manage than the anthro combat table..
+The calculations are fewer and simpler.
 
 The alien combat table is for the alien's natural attacks.
 An alien's combat table will only include the alien's natural attack types.
 If the alien only ever bites with a Type A attack, the player only completes the Type A attack on the combat table.  
 If the player shoots deadly sap blobs as a Type B attack, the player only completes the Type B attack on the combat table.
 
-The combat table lacks a bonus non-proficient (BNP) column. 
-An alien can't be unskilled with her natural attack.
-The combat table lacks a damage adjustment (DA) column.
-The alien's damage per hit already includes her physical strength.
-These limitations can make an alien combat table pleasantly simple.
+This section has cursory explanations and detailed calculations. 
+For more info jump to xref:i-roll_playing_rules:CH09_Combat_Tables.adoc[Combat Tables,window=_blank].
 
-== Type A Attacks
+== Aliens and Weapons
+The combat table generated here is for the alien's natural attacks and *not* weapons.
+Alien tool users may be able to use a weapon like a sword or gun.
+The player must create a combat table for her tool using alien persona using the xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
+If the alien has a vocation, the player will generate another combat table using the alien's vocation type.
+If the alien does not have a vocation, the player uses the nothing vocation on the xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
+
+
+If the alien's culture, society and tech level allows her to use a weapon, the player must create a vocation-based combat table.
+Technologically advanced tool-using aliens may be able to pursue a vocation. 
+If the alien is a tool used but has no vocation, the alien uses the Nothing vocation combat table when using a weapon.
+
+
+include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
+
+.*Combat Table Checklist*
+. <<_attack_types,Attack Types>>
+. <<_bonus_proficient,Bonus Proficient>>
+.. <<_attribute_bonus,Attribute Bonus>>
+.. <<_level_bonus,Level Bonus>>
+. <<_bonus_non_proficient,Bonus Non Proficient>>
+. <<_maximum_roll,Maximum Roll>>
+. <<_damage_adjustment,Damage Adjustment>>
+
+
+== Attack Types
+Alien attack types are not weapons but natural abilities used as weapons.
+The player only creates a combat table that includes her persona's natural abilities.
+The alien combat table is *not* used for weapon attacks if the persona is a tool-using alien.
+
+
+Type A Attacks::
 Thrusting and striking weapons for aliens include their naturally endowed thrusting and striking attacks (bite, punch, claw, beak, gore, stab, rake, slice, gouge, tear, trample).
 
-== Type B Attacks
+Type B Attacks::
 This attack type is for those aliens that fling objects, shoot quills or spit in an attempt to inflict their natural damage (spit, breath, blast, arc, spray).
 
-== Type C Attacks
+Type C Attacks::
 This attack type is for those creatures with naturally powered attacks (lasers, sonics, electric arcs, radiation doses).
 Aliens with natural powered attacks are very rare and extremely dangerous.
 They have specially evolved organs that attack like a powered weapon, such as a gun.
 
-include::ROOT:partial$CH06_Table_Alien_Combat_Table.adoc[]
+== Bonus Proficient
+The bonus proficient (BP) is for the alien's natural attacks.
+The player adds the BP to her attack roll when her persona is attacking.
+The BP has two main components: Attributes Bonus and Level bonus.
+The persona's BP increases as the persona gains EXPS levels. 
 
-For example, Sal the gigantic alien has a 22 PSTR,  15 DEX,  3 INT and a type B attack (spitting sharp blobs of resin) that attacks three times each unit would have the following combat table:
+=== Attribute Bonus
+The persona's attributes determine the majority of the alien's bonus proficient.
+Strong aliens are good at biting and smashing.
+Dextrous aliens are good at shooting spines.
+If a persona's attributes increase or decrease, the player should recalculate her combat table.
 
-// Sal's Alien Combat Table
-.*Sal the Alien's Combat Table*
-[width="75%",cols="<,4*^",frame="all", stripes="even"]
-|===
-5+<|Example Combat Table for Sal the resin spitting alien.
+include::ROOT:partial$CH06_Table_Alien_CT_BP_Attr.adoc[]
 
-s|Attack Type
-s|BP
-s|BNP
-s|MR
-s|DA
+=== Level Bonus
+The alien's attack type determines her level bonus.
+The player adds the level bonus for each EXPS level of her alien, including her first level.
+Initially, the level bonus plays a small role in the BP, but the contribution grows with EXPS.
 
-|A (contact)
-|--
-|--
-|--
-|--
+include::ROOT:partial$CH06_Table_Alien_CT_BP_Lvl.adoc[]
 
-|B (ranged)
-|150
-|150
-|900
-|4d12
+== Bonus Non Proficient
+An alien cannot be unskilled with her natural attack.
+Alien's bonus non proficient equals her bonus proficient.
+If the alien is a tool user wielding weapons, the player must generate an additional attack table that includes a BNP.
 
-|C (weapons)
-|--
-|--
-|--
-|--
+== Maximum Roll
+The maximum roll is the highest roll that a player can make on the kilo-die attack roll.
+There is always a chance to damage an attacker using xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
 
-s|Attack Type
-s|BP
-s|BNP
-s|MR
-s|DA
-5+<|Alien DA is the damage range not a bonus.
-|===
+include::ROOT:partial$CH06_Table_Alien_CT_MR.adoc[]
 
-== Aliens and Weapons
-If the alien's culture, society and tech level allows her to use a weapon, the player must create a vocation based combat table.
-Technologically advanced tool-using aliens may be able to pursue a vocation. 
-If the alien is a tool used but has no vocation, the alien uses the Nothing vocation combat table when using a weapon.
-If the alien has a vocation, the player will generate another combat table for the alien's vocation type.
+== Damage Adjustment
+Alien damage already includes both the alien's size and physical strength.
+There is no damage adjustment for alien attack roll wins.
+
+include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
+
+== Alien Combat Table Example
+A second-level gigantic alien has a 22 PSTR, 15 DEX, and a 3 INT.
+Her attack is spitting sharp blobs of resin which is Attack Type B.
+
+include::ROOT:partial$CH06_Table_Alien_CT_Xample.adoc[]
+

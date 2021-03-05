@@ -1,1 +1,109 @@
-CH05_Robots_Z_CT.adoc
+= Robot Combat Table
+
+The tactical combat system in the roll playing rules uses an attack matrix called the combat table.
+The player refers to the combat table every time she makes an attack roll.
+The robot combat table is easier to generate and manage than the anthro combat table.
+There are fewer calculations on the robot combat table.
+
+The robot combat table is for attacks baked-in during fabrication.
+A robot's combat table need only include the robot's baked-in attack types.
+However, calculating the complete combat table to future proof the robot persona.
+
+This section has cursory explanations and detailed calculations. 
+For more info jump to xref:i-roll_playing_rules:CH09_Combat_Tables.adoc[Combat Tables,window=_blank].
+
+== Robots and Weapons
+This combat table is for the robot's baked-in attacks generated during robot fabrication.
+Most baked-in attacks come from the robot's offensive systems section.
+The robot combat table is not for external artifact weapons that the robot has picked up to use.
+In most cases, robots will not be able to use weapons like an anthro persona.
+If the robot has a vocation or can use weapons like guns and swords, the player must generate an additional combat table.
+The tool using robot fabricates a combat table from xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
+If the robot has a vocation (like an android), the player will generate the combat table using the alien's vocation type.
+If the robot does not have a vocation, the player uses the nothing vocation on the xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
+
+include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
+
+.*Combat Table Checklist*
+. <<_attack_types,Attack Types>>
+. <<_bonus_proficient,Bonus Proficient>>
+.. <<_attribute_bonus,Attribute Bonus>>
+.. <<_level_bonus,Level Bonus>>
+. <<_bonus_non_proficient,Bonus Non Proficient>>
+. <<_maximum_roll,Maximum Roll>>
+. <<_damage_adjustment,Damage Adjustment>>
+
+
+//baked-in versus random peripheral
+
+== Attack Types
+Robot attack types follow the general principles of the alien and weapon attack types.
+
+Type A Attacks::
+Persona-powered thrusting and striking weapons for robots include their baked-in attacks like swords, clubs, or ramming skills.
+A robot wielding a sword is still a persona-powered attack even though it uses servos or hydraulics.
+Type A attacks for robots are close combat attacks that require direct contact.
+
+Type B Attacks::
+Persona-powered projectile weapons for robots include their baked-in attacks like darts, arrows, or ball bearings.
+A robot shooting an arrow is still a persona-powered attack even though it uses springs or mini catapults.
+Type B attacks for robots are ranged combat attacks that do not use forces like explosions or energy waves.
+
+Type C Attacks::
+Energy-powered projectile weapons for robots include their baked-in attacks like lazers, guns, and energy weapons.
+A type C attack for a robot usually has a bespoke power source generating the damage instead of her hydraulics or servos.
+Most Type C attacks come from the robot's offensive systems section.
+
+== Bonus Proficient
+The bonus proficient (BP) is for the robot's attacks baked-in during fabrication.
+The bonus proficient does not apply to misused peripherals or malfunctioning devices that attack like weapons.
+If the attack is appropriate, the player adds the BP to her attack roll.
+The BP has two main components: Attributes Bonus and Level bonus.
+The persona's BP increases as the persona gains EXPS levels. 
+
+=== Attribute Bonus
+The persona's attributes determine the majority of the robot's bonus proficient.
+Strong robots are good at ramming.
+Dextrous robots are good at firing arrows.
+If a persona's attributes increase or decrease, the player should recalculate her combat table.
+In the case of robots, attributes tend to decrease.
+
+include::ROOT:partial$CH05_Table_Robotic_CT_Attr.adoc[]
+
+=== Prime Bonus
+The robot primes determine the range of the robot's CON, DEX, INT and PSTR attributes.
+The prime bonus is equal to the robotic prime times its attribute.
+
+=== Level Bonus
+The attack type determines the robot's level bonus.
+The player adds the level bonus for each EXPS level of her alien, including her first level.
+Initially, the level bonus plays a small role in the BP, but the contribution grows with EXPS.
+
+include::ROOT:partial$CH05_Table_Robotic_CT_Lvl.adoc[]
+
+== Bonus Non Proficient
+Robots do not have a bonus non proficient. 
+A robot's programming does not allow for unskilled attacks, and the robot's BNP is zero.
+Robot BNP is the easiest of all the combat table elements to calculate.
+
+== Maximum Roll
+Robots do not have a maximum roll.
+There is no upper limit to what the player can generate for her attack roll.
+This techno-malarky is supposed to reflect the robot's lack of nervousness or insecurity.
+
+== Damage Adjustment
+When the player has won an attack roll, she can add her damage adjustment to the damage roll.
+Robots are allowed to contribute a more significant portion of their physical strength to persona-powered attacks.
+Type C attacks do not depend on the robot's physical strength and have no damage adjustment.
+
+include::ROOT:partial$CH05_Table_Robotic_CT_DA.adoc[]
+
+=== Robot Combat Table Example
+A 3rd level robot has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 PSTR.
+Her robotic primes are DEX of 2, INT of 2, and PSTR of 3
+
+Her ramming skill would use her BP for type A attacks.
+Her baked-in pistol would use her BP for type C attacks.
+Acid squirted from a misused cleaner would use her BNP.
+
+include::ROOT:partial$CH05_Table_Robotic_CT_Xample.adoc[]

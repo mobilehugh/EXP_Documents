@@ -1,0 +1,162 @@
+// CH09 table attribute bonuses new for 6.0
+[width="75%",cols="4*<",frame="all", stripes="even"]
+|===
+4+<s|Bonus Proficient (BP)
+
+|Attack Type A
+3+<|1.5 * AWE + 2 * DEX + 1.5 * INT + 5 * PSTR + Level * Bonus
+
+|Attribute Bonus
+3+<|1.5 * 12 + 2 * 10 + 1.5 * 12 + 5 * 16 = 136
+
+|Level Bonus
+3+<|(spie * 2) = 30 * 2 = 60
+
+s|BP for Type A
+2+|
+>s|196
+
+|Attack Type B
+3+<|1 * AWE + 4 * DEX + 1 * INT + 2 * PSTR + Level * Bonus
+
+|Attribute Bonus
+3+<|1 * 12 + 4 * 10 + 1 * 12 + 2 * 16 + = 96
+
+|Level Bonus
+3+<|(spie * 2) = 30 * 2 = 60
+
+s|BP for Type B
+2+|
+>s|156
+
+|Attack Type C
+3+<|1 * AWE + 9 * DEX + 1 * INT + 1 * PSTR + Level * Bonus
+
+|Attribute Bonus
+3+<| 1 * 12 + 9 * 10 + 1 * 12 + 1 * 16 = 130
+
+|Level Bonus
+3+<| spie = 30, level = 2, 30 * 2 = 60
+
+s|BP for Type C
+2+|
+>s|190
+|===
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+
+4+<s|Bonus Non Proficient (BNP)
+
+|Attack Type A
+3+<|Type A BP * spie percentage
+
+s|BNP for Type A
+2+<|196 * 25%
+>s|49 
+
+
+|Attack Type B
+3+<|Type B BP * spie percentage
+
+s|BNP for Type B
+2+<|156 * 25%
+>s|39 
+
+|Attack Type C
+3+<|Type C BP * spie percentage
+
+s|BNP for Type C
+2+<|190 * 25%
+>s|49 
+|===
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+
+4+<s|Maximum Roll (MR)
+
+|Attack Type A
+3+<|Type A BP + 625
+
+s|MR for Type A
+2+<|196 + 625
+>s|821 
+
+
+|Attack Type B
+3+<|Type B BP + 650
+
+s|MR for Type B
+2+<|156 + 650
+>s|806
+
+|Attack Type C
+3+<|Type C BP + 675
+
+|MR for Type C
+2+<|190 + 675
+>s|865 
+|===
+
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+4+<s|Damage Adjuster (DA)
+
+|Attack Type A
+3+<|PSTR * 1/2
+
+s|DA for Type A
+2+<|16 * .5
+>s|8 
+
+
+|Attack Type B
+3+<|PSTR * 1/4
+
+s|DA for Type B
+2+<|16 * .25
+>s|4
+
+|Attack Type C
+3+<|PSTR * 0
+
+s|DA for Type C
+2+<|16 * 0
+>s|0 
+|===
+
+.*Putting It All Together*
+[width="55%",cols="5*^",frame="all", stripes="even", grid="all"]
+|===
+5+<|Combat table for a spie persona.
+
+s|Type
+s|BP
+s|BNP
+s|MR
+s|DA
+
+
+s|A
+|196
+|49
+|821
+|8
+
+
+s|B
+|156
+|39
+|806
+|4
+
+
+s|C
+|190
+|49
+|865
+|0
+
+|===

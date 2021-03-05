@@ -1,6 +1,17 @@
 = Appendix B3: Roadmap
 
-NOTE: *More of garbage collection than a roadmap.*
+.*APOPHENIA*
+====
+ “the tendency to perceive a connection or meaningful pattern
+ between unrelated or random things (such as objects or ideas)”  
+ Greek apo- (away, off, apart) + phainein (to show).
+====
+
+.*RULES*
+====
+are common language for a shared imagination experience.
+====
+
 
 == ERRATA
 Too many to even list here.
@@ -8,15 +19,32 @@ Too many to even list here.
 
 == ROADMAP
 
-== Version 6.0 (this version)
-Mission and vision.
-Accessibility.
-Safe and Supportive.
-Pulled trigger on HPS splitting into HPM an HPT. 
-requires a massive find and replace. 
-SS is now SOC.
+NOTE: *More of garbage collection than a roadmap.*
 
-Apophenia:: “the tendency to perceive a connection or meaningful pattern between unrelated or random things (such as objects or ideas)”  Greek apo- (away, off, apart) + phainein (to show).
+== Version 6.0 (this version)
+
+.*Rule Repairs*
+* Mission and vision.
+* Accessibility.
+* Safe and Supportive.
+* Pulled trigger on HPS splitting into HPM an HPT.
+** requires a massive find and replace. 
+* SS is now SOC.
+* EXPS and diminishing returns 
+** double diminishing. 
+* is AR a value or an adjustment
+
+//baked in for robots
+//high roll FTW
+//tool vs tech vs comp vs AI
+//vocations vs classes
+//Roll vs Role
+//Tale of two systems
+//Skills (knowledge base) procedure (actual act)
+// abilities inherent skills acquirable
+//rules written from the point of challenging players (crazy limitations and examples) 
+
+// needs a milieu section
 
 .*Generic Mythos*
 * time and chronovores hideaways, teleport, time stop and holdaways.
@@ -52,7 +80,6 @@ It is as much an instrument of violence as any weapon.
 The best way to avoid taking damage from combat is to avoid combat, 
 ====
 
-
 ====
 The EXP system is based on complete technological chaos.
 Eons and eons of diverging levels of technology are layered on top of, and beside, each other.
@@ -62,7 +89,6 @@ Any of which may or may not be alien.
 ====
 Go to sleep meat bag. This is frustrating. Robots do not express frustration.
 ====
-
 
 .*Story Telling Methods*
 * campaign is a Story Arch in a Milieu
@@ -81,23 +107,7 @@ Go to sleep meat bag. This is frustrating. Robots do not express frustration.
 * listening to players is LACE
 * persona stories are Three Parts and STEPS
 
-//baked in for robots
-//high roll FTW
-//tool vs tech vs comp vs AI
-//vocation
-//Roll vs Role
-//Tale of two systems
-//Skills (knowledge base) procedure (actual act)
-//rules written from the point of challenging players (crazy limitations and examples) 
-
-// needs a milieu section
-
-
-// these rules are common language for a shared imagination experience.
-
-// is armour a fixed AR or an AR adjustment 
-
-== Movie List
+=== Movie List
 We lost this list from version 5. 
 There was a list of movies and shorts.
 Shorts have now become corporate (Dust) and there general access has been destroyed.
@@ -128,9 +138,9 @@ generation: flora fauna ecosystem, corporations, governments,
 VTT (virtual table top) integration.
 
 
-NOTE: Testing zone and technical trials
+== Testing Zone
 
-== Images
+=== Images
 Repair of malformed alt="" has been repaired for accessibility. 
 
 [source]
@@ -176,27 +186,41 @@ image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} D
 :description:
 ----
 
+
+=== Tags for DRY writing 
+
 [source]
 ----
 in file: CH06_Aliens_9_Move.adoc
 
-// tag::Alien_Move[]
+// tag::blah[]
 blah blah blah
-// end::Alien_Move[]
+// end::blah[]
 
-// include::CH06_Aliens_9_Move.adoc[tag=Alien_Move]
-inserts blah blah blah
+include::i-roll_playing_rules:page$CH06_Aliens_9_Move.adoc[tag=blah] //blah blah blah
+
 ----
 
 
 
-== Video
+=== Video
 After deliberation I have decided to go with vimeo.
 Antora is supposed to work with vimeo stream directly. 
 Following is the test.
 
 https://vimeo.com/511839207[link to video]
 
+
+.*This is a video*
 video::511839207[vimeo]
 
-CAUTION: Actual roadmap starts here.
+
+.*This is the same video*
+video::511839207[vimeo, width="640"]
+
+
+.*This is the same video*
+video::511839207[vimeo, width="640", height="640"]
+
+.*This is the same video*
+video::511839207[vimeo, width="640", height="480"]

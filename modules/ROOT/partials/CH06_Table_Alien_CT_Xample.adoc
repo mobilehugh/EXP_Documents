@@ -1,0 +1,149 @@
+// CH09 table attribute bonuses new for 6.0
+[width="75%",cols="4*<",frame="all", stripes="even"]
+|===
+4+<s|Bonus Proficient (BP)
+
+|Attack Type A
+3+<|10 * PSTR + Level * Bonus
+
+|Attribute Bonus
+3+<|10 * 22 = 220
+
+|Level Bonus
+3+<|(PSTR * Lvl) = 22 * 3 = 66
+
+s|BP for Type A
+2+|(No Type A attack - demo only)
+>s|286
+
+|Attack Type B
+3+<|10 * DEX + Level * Bonus
+
+|Attribute Bonus
+3+<|10 * 15 = 150
+
+|Level Bonus
+3+<|(DEX * Lvl) = 15 * 3 = 45
+
+s|BP for Type B
+2+|
+>s|195
+
+|Attack Type C
+3+<|10 * INT + Level * Bonus
+
+|Attribute Bonus
+3+<|10 * 3 = 30
+
+|Level Bonus
+3+<|(INT * Lvl) = 3 * 3 = 9
+
+s|BP for Type C
+2+|(No Type C attack - demo only)
+>s|39
+|===
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+
+4+<s|Bonus Non Proficient (BNP)
+
+|Attack Type A
+3+<|Type A BNP = Type A BP
+
+s|BNP for Type A
+2+<|(No Type A attack - demo only)
+>s|286 
+
+
+|Attack Type B
+3+<|Type B BNP = Type B BP
+
+s|BNP for Type B
+2+|
+>s|195
+
+|Attack Type C
+3+<|Type C BNP = Type C BP
+
+s|BNP for Type C
+2+|(No Type C attack - demo only)
+>s|39
+|===
+
+[width="65%",cols="4*<",frame="all", stripes="even"]
+|===
+
+4+<s|Maximum Roll (MR)
+
+|Attack Type A
+3+<|Type A BP + 700
+
+s|MR for Type A
+2+<|286 + 700 (example only)
+>s|986 
+
+
+|Attack Type B
+3+<|Type B BP + 750
+
+s|MR for Type B
+2+<|195 + 750
+>s|945
+
+|Attack Type C
+3+<|Type C BP + 800
+
+|MR for Type C
+2+<|39 + 800 (example only)
+>s|839 
+|===
+
+
+[width="65%",cols="<,^,^",frame="all", stripes="even"]
+|===
+3+<s|Damage per Attack replaces DA
+
+s|Alien Size
+s|PSTR
+s|Damage per Attack
+
+|Gigantic
+|22
+|4d12
+
+|===
+
+.*Putting It All Together*
+[width="55%",cols="5*^",frame="all", stripes="even", grid="all"]
+|===
+5+<|Alien attack table for spitting sharp resin chunks.
+
+s|Type
+s|BP
+s|BNP
+s|MR
+s|DA
+
+
+s|A
+|--
+|--
+|--
+|--
+
+
+s|B
+|195
+|195
+|945
+|4d12
+
+
+s|C
+|--
+|--
+|--
+|--
+
+|===
