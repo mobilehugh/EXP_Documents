@@ -1,6 +1,6 @@
 // Table 11.2.2 Anthro RP Attributes
 .*Anthro RP Attributes*
-[width="75%",cols="3*^",frame="all", stripes="even"]
+[width="75%",cols="<,^,^",frame="all", stripes="even"]
 |===
 3+<|Anthro RP attributes are generated differently than player persona anthros. 
 
@@ -8,21 +8,33 @@ s|Attribute
 s|Range
 s|Dice
 
-|AWE + 
-CHA
+|AWE
 |3-18
 |3d6
 
-|CON +
-DEX +
-INT +
-PSTR
+|CHA
 |3-18
-|4d6 drop lowest
+|3d6
+
+|CON
+|3-18
+|4d6DL
+
+|DEX
+|3-18
+|4d6DL
+
+|INT 
+|3-18
+|4d6DL
+
+|PSTR
+|3-18
+|4d6DL
 
 |MSTR
-|4-16
-|4d4
+|3-18
+|3d6
 
 |SS
 |1-1000
@@ -30,9 +42,10 @@ PSTR
 
 |HPS
 |CON dependent
-|special
+|See HPS
 
 s|Attribute
 s|Range
 s|Dice
+3+<|4d6DL = roll 4d6 and drop the lowest value. 6, 4, 1, 3 =S 13 
 |===
