@@ -1,1 +1,0 @@
-CH11_Table_RP_CR_General_Attack_Type.adoc

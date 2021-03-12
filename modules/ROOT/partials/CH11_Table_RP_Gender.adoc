@@ -1,22 +1,25 @@
 // New table for version 6.0
 .*Gender Appearance*
-[width="75%",cols="2*^",frame="all", stripes="even"]
+[width="75%",cols="^,<",frame="all", stripes="even"]
 |===
-2+<|Gender is an appearance and neither physiology or sexuality.
+2+<|Gender is an appearance and neither physiology nor sexuality.
 
-s|Die Roll (1d6)
+s|Die Roll (1d100)
 s|Appearance
 
-|1-2
+|01-42
 |Feminine
 
-|3-5
+|43-84
 |Masculine
 
-|6
+|85-99
 |Neutral
 
-s|Die Roll (1d6)
+|00
+|Ref's Own Table
+
+s|Die Roll
 s|Appearance
 
 |===
