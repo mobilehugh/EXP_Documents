@@ -1,13 +1,13 @@
 // Table 11.3.3 Robot RP Attributes
-.*Robot RP Systems One Roll*
-[width="85%",cols="9*^",frame="all", stripes="even"]
+.*Robot RP Systems Lookup Table*
+[width="85%",cols="^,<,7*^",frame="all", stripes="even"]
 |===
-9+<|Robot RP attributes are base on the robot type.
+9+<|How many rolls on which system tables.
 
 2+|
-4+<s|Offensive Table
-|
-2+<s|Peripheral
+4+s|Offensive System Table
+s|Defensive
+2+s|Peripheral
 
 
 s|ID
@@ -16,7 +16,7 @@ s|One
 s|Two
 s|Three
 s|Four
-s|Defence
+s|System
 s|Primary
 s|Secondary
 
@@ -276,7 +276,14 @@ s|One
 s|Two
 s|Three
 s|Four
-s|Defence
+s|Defensive
 s|Primary
 s|Secondary
+
+2+|
+4+s|Offensive System Table
+s|System
+2+s|Peripheral
+
+
 |===

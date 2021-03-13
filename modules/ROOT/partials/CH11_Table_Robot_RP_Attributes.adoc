@@ -1,8 +1,8 @@
 // Table 11.3.3 Robot RP Attributes
 .*Robot RP Attributes*
-[width="75%",cols="10*^",frame="all", stripes="even"]
+[width="75%",cols="^,<,7*^",frame="all", stripes="even"]
 |===
-10+<|Attributes are based on robot type. MSTR = 0. 
+9+<|Attributes are based on robot type. MSTR = 0. SOC = 1d1000.
 
 s|ID
 s|Name
@@ -13,7 +13,6 @@ s|DEX
 s|INT
 s|PSTR
 s|HPS
-s|SS
 
 |A
 |Android
@@ -24,7 +23,6 @@ s|SS
 |19+1d6
 |19+1d10
 |1d8
-|1d1000
 
 |C-E
 |Expendable
@@ -35,7 +33,6 @@ s|SS
 |1+2d8
 |19+1d10
 |5
-|1d1000
 
 
 |C-D
@@ -47,7 +44,6 @@ s|SS
 |1+2d8
 |19+1d10
 |1d10+20
-|1d1000
 
 
 |C-L
@@ -59,7 +55,6 @@ s|SS
 |1+2d8
 |19+1d10
 |15+1d10
-|1d1000
 
 
 |C-H
@@ -71,7 +66,6 @@ s|SS
 |1+2d8
 |26+1d3
 |15+1d10
-|1d1000
 
 |D
 |Datalyzer
@@ -82,7 +76,6 @@ s|SS
 |19+1d6
 |1d12
 |1d2+2
-|1d1000
 
 
 |E-P
@@ -94,7 +87,6 @@ s|SS
 |1d8
 |15+1d4
 |1d6+10
-|1d1000
 
 
 |E-X
@@ -106,7 +98,6 @@ s|SS
 |23+1d2
 |15+1d4
 |1d6+10
-|1d1000
 
 |H
 |Hobbot
@@ -117,7 +108,6 @@ s|SS
 |13+1d12
 |1d8
 |2d4
-|1d1000
 
 |I-B
 |Builder
@@ -128,7 +118,6 @@ s|SS
 |19+1d10
 |13+1d6
 |1d4+8
-|1d1000
 
 
 |I-L
@@ -140,7 +129,6 @@ s|SS
 |13+1d6
 |19+1d10
 |1d4+8
-|1d1000
 
 |I-M
 |Moving
@@ -151,7 +139,6 @@ s|SS
 |13+1d6
 |13+1d6
 |1d4+8
-|1d1000
 
 |J-C
 |Commercial
@@ -162,7 +149,6 @@ s|SS
 |1d12
 |2d8
 |1d8
-|1d1000
 
 |J-D
 |Domestic
@@ -173,7 +159,6 @@ s|SS
 |12+1d6
 |2d8
 |1d4
-|1d1000
 
 |M
 |Maintenance
@@ -184,7 +169,6 @@ s|SS
 |8+2d8
 |1d8
 |1d4
-|1d1000
 
 |P-C
 |Civilian
@@ -195,7 +179,6 @@ s|SS
 |13+1d6
 |15+1d4
 |3d4
-|1d1000
 
 |P-D
 |Detective
@@ -206,7 +189,6 @@ s|SS
 |13+1d6
 |15+1d4
 |1d3+1
-|1d1000
 
 |P-R
 |Riot
@@ -217,7 +199,6 @@ s|SS
 |13+1d6
 |15+1d4
 |3d4
-|1d1000
 
 |R-C
 |Containment
@@ -228,7 +209,6 @@ s|SS
 |7+1d12
 |7+1d12
 |2d10+5
-|1d1000
 
 |R-R
 |Retrieval
@@ -239,7 +219,6 @@ s|SS
 |7+1d12
 |3d6
 |2d10+5
-|1d1000
 
 |S
 |Social
@@ -250,7 +229,6 @@ s|SS
 |14+1d10
 |1d8
 |1d3+1
-|1d1000
 
 |T-I
 |Inatmo
@@ -261,7 +239,6 @@ s|SS
 |1d8
 |1d8
 |1d4+8
-|1d1000
 
 |T-X
 |Exatmo
@@ -272,7 +249,6 @@ s|SS
 |21+1d4
 |1d8
 |1d4+8
-|1d1000
 
 |V-D
 |Diagnostic
@@ -283,7 +259,6 @@ s|SS
 |14+1d10
 |1d8
 |2
-|1d1000
 
 |V-I
 |Interventional
@@ -294,7 +269,6 @@ s|SS
 |20+1d4
 |1d8
 |2
-|1d1000
 
 s|Type
 s|Type Name
@@ -305,5 +279,4 @@ s|DEX
 s|INT
 s|PSTR
 s|HPS
-s|SS
 |===

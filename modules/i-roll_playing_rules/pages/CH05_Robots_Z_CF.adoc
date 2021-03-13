@@ -18,11 +18,14 @@ The robot's control factor (CF) helps prevent these embarrassing hiccoughs.
 A robot's control factor depends on her intelligence and improves as EXPS levels increase.
 Control factor (CF) is unique to the family Machinidae.
 
+
+// tag::control_factor[]
 == Calculate Control Factor
 .CF= (INT score) + (INT Prime* EXPS Level)
 ****
 A 3rd level robot with a 15 INT score, and a 3 INT Prime has a CF = 24
 ****
+// end::control_factor[]
 
 === Robot Free Will
 Robots are machines that do not have free will. 

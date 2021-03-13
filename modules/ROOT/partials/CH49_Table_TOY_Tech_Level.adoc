@@ -1,72 +1,77 @@
 // Table 49.2 TOY Tech Level
 .*TOY Tech Level*
-[width="75%",cols="5*^",frame="all", stripes="even"]
+[width="85%",cols="^,<,^,^,^",frame="all", stripes="even"]
 |===
 5+<|Determines how technologically advanced (or not) the toy is. 
 
-s|Raw Roll (1d100)
+|
 s|Description
-s|TL Range
-s|Low or High
-s|How to Roll
-
-
+s|Desired
 |
-<s|Lower Tech
-s|1-10
-s|Die Roll
-|
+| 
+
+s|Any TL
+s|Low Tech
+s|Low TL Only
+s|Range TL
+s|TL Die Roll
+
 
 |01-02
 |Monolithic
-|1-2
 |01-15
+s|1-2
 |1d2
+
 
 |03-24
 |Low
-|3-10
 |16-00
+s|3-10
 |1d8+2
 
+
 |
-<s|Normal Tech
-s|10
+s|Normal
 |
 |
+|
+
 
 
 |25-80
-|Normal
-|10
-|No Roll
-|No Roll
+|Mundane
+|
+s|10
+|--
+
 
 |
-<s|Higher Tech
-s|10-25
-s|Die Roll
+s|High Tech
+s|High TL Only
 |
+|
+
 
 |81-95
 |High
-|10-15
 |01-80
+s|10-15
 |1d6+9
+
 
 |96-98
 |Ultra
-|15-20
 |81-95
+s|15-20
 |1d6+14
+
 
 |99-00
 |Magical
-|20-25
 |96-00
+s|20-25
 |1d6+19
 
-s|Die Roll (1d100)
-s|Tech Level Range
-s|How to Roll
+
 |===
