@@ -1,5 +1,5 @@
 // Table 15.3 Combat Results Adjustment
-.*Combat Difficult EXPS Adjustment*
+.*Combat Difficulty EXPS Adjustment*
 [width="75%",cols="2*<",frame="all", stripes="even"]
 |===
 2+<|The more complicated and dangerous the more EXPS.
@@ -7,8 +7,20 @@
 s|Combat Events
 s|EXPS Adjustment
 
-|Personas Killed
+s|Lethality
+|
+
+|Player Personas Killed
 |Add 20% per persona
+
+|Player Personas Injured
+|Add 10% per persona
+
+|No Player Personas Injured
+|Reduce to 90% Total
+
+s|Duration
+|
 
 |Duration <1 unit
 |Reduce to 20% Total

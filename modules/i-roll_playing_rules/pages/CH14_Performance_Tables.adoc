@@ -1,14 +1,17 @@
 = Performance Rolls
 
-Performance Rolls are made by players when their persona is attempting a maneuver.
-A Performance Roll is required when the persona is trying to do something. 
-For example, strapping a grommet-sized oscillating refractometer onto a Frederickson di-collating time re-modulator.
-Or steering a hover jeep for the first time. 
-With a single die roll, the player skips directly to the aftermath of her persona's attempt.
+Performance rolls are made by players when their persona is attempting a maneuver.
+The performance roll is a check for success. 
+If the player wins the performance roll, her persona has succeeded at the maneuver.
 
-The more difficult the maneuver the higher the player needs to roll.
-The difficulty of the maneuver is indicated the Degree of Difficulty (DD).
-The Degree of Difficulty can be determined from a vocation skill list, randomly or arbitrarily by the referee.
+Some maneuvers are mundane, like trying to repair a vehicle engine.
+Some maneuvers are pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Frederickson di-collating time re-modulator.
+Maneuvers include vocation skills, abilities and gifts as well. 
+There is an entire section devoted to the maneuvering maneuvers called xref:i-roll_playing_rules:CH17_Driving.adoc[Driving,window=_blank].
+
+The more complex the maneuver, the more difficult it is for the persona to succeed.
+Every maneuver has its degree of difficulty (DD).
+The more complex the maneuver, the higher the degree of difficulty, and the higher the DD, the higher the performance roll required to succeed.
 
 :art: monkey_box_anger.png
 :width: 250px
@@ -20,114 +23,100 @@ The Degree of Difficulty can be determined from a vocation skill list, randomly 
 
 include::ROOT:partial$articulate.adoc[]
 
-The player rolls a 1d100 to determine success or failure of the maneuver. 
+The player rolls a 1d100 to determine the success or failure of the maneuver. 
 The player wants to roll high.
 Sometimes a maneuver will be too difficult for the persona to complete on their own. 
+<<_research_teams,Research Teams>> are crucial to completing complicated maneuvers.
 
-Performance Rolls are part of the Roll Playing system.
-A less complicated approach to skills and maneuvers is found in the Role Playing System.
 
 NOTE: *The Performance Roll system replaces Performance Tables from previous versions.*
 
 .*Steps To Peak Performance Rolls*
-. <<_determine_skill_level,Determine Skill Level>>
+. <<_determine_skill_level,Determine Skill Score>>
 . <<_determine_degree_of_difficulty,Determine Degree of Difficulty>>
-.. Example DDs
 . <<_determine_target_roll,Determine Target Roll>>
-.. Calculated
-.. Tabulated
 . <<_determine_bonuses,Determine Bonuses>>
-.. Attribute Bonuses
-.. Role Playing Bonuses
 . <<_roll_1d100,Determine 1d100 roll>>
 
-.*More Performance Roll Rules*
-* <<_example_maneuvers,Example Maneuver DDs>>
-** <<_general_maneuver,General Maneuver>>
-** <<_driving_maneuvers,Driving Maneuvers>>
-** <<_biologist_maneuvers,Biologist Maneuvers>>
-** <<knite,Knite Maneuvers>>
-** <<_mechanic_maneuvers,Mechanic Maneuvers>>
-** <<_mercenary_maneuvers,Mercenary Maneuvers>>
-** <<_nomad_maneuvers,Nomad Maneuvers>>
-** <<_nothing_maneuvers,Nothing Maneuvers>>
-** <<_spie_maneuvers,Spie Maneuvers>>
-** <<_veterinarian_maneuvers,Veterinarian Maneuvers>>
-* <<_cross_vocation_maneuvers,Cross Vocation Maneuvers>>
-* <<_research_teams,Research Teams>>
-* <<_duration_of_maneuvers,Duration of Maneuvers>>
-
-== Determine Skill Level
-The Skill Level is a combination of the persona's EXPS Level and her skills.
+== Determine Skill Score
+The Skill Score is a combination of the persona's EXPS Level and her skills.
 A persona can use her EXPS Level for any maneuver that fits within her vocation.
-If the persona also has an applicable skill she can add this to her Skill Level.
-Persona's attempting maneuvers outside of their vocation have a skill level of zero.
+If the persona also has an applicable skill, she can add this to her skill score.
+Persona's attempting maneuvers outside of their vocation have a skill score of zero.
 
-=== Calculating Skill Level
-.Skill Level = EXPS Level + Applicable SKill
+=== Calculating Skill Score
+.Skill Score = EXPS Level + Applicable Skill
 ****
-A third level biologist with Herbivore 2 would have a skill level of 5 studying herbivores.
+A third-level biologist with Herbivore 2 would have a skill score of 5 studying herbivores.
 ****
 
 == Determine Degree of Difficulty
-The more difficult something is to do the higher the Degree of Difficulty (DD).
-Most of the time the DD is clearly define by the maneuver in the personas vocation skill list.
-Any persona can attempt anything.
-However the DD can be so high that it is impossible to make the Performance Roll.
-From the biologist skill table Cloning is DD 42. 
+The more complicated something is to do, the higher the Degree of Difficulty (DD).
+Almost every maneuver has a degree of difficulty associated with it.
 From the driving maneuver table driving straight ahead is DD 1.
 The lowest DD possible is 1.
-There is no upper limit to a how high a DD can go.
+However, the DD can be so high that it is impossible to make the Performance Roll.
+From the biologist skill table, cloning is a DD 42 maneuver. 
+There is no upper limit to how high a DD can go.
 
-Circumstances can increase or decrease the DD of a maneuver.
+If a maneuver does not exist or there is no assigned degree of difficulty, the players and referee must negotiate one.
+The players and referee only need to agree on a qualitative term describing the difficulty of the maneuver.
+A dice roll will randomly determine the actual value of the DD.
 
-Degree of Difficulty can also be determined by a description of the maneuver.
-The description is usually assigned by the referee, but negotiation is possible.
-Described Degree of Difficulty is for maneuvers that are not on any list. 
-Player will always be coming up with creative challenges for their personas.
-A trivial maneuver has a DD of 1.
-An impossible maneuver has a DD ranging from 21 to 30 and is randomly rolled.
-
-Referees are also allowed to arbitrarily decide a Degree of Difficulty based on the Descriptor.
+Let's consider a persona that wants to make some ice from water.
+If there is a freezer, this maneuver should be automatic, but there may be some trivial interference.
+So the referee and players agree that this is maneuver has a trivial difficulty.
+If there is no freezer, and the expedition is on a hot planet where the water is full of sediment, the difficulty should be impossible or bizarre.
 
 include::ROOT:partial$CH14_Table_DD.adoc[]
 
 == Determine Target Roll
-The target roll is like the armour rating of a procedure.
+the target roll is the actual number that the player must roll higher than to win the performance roll.
+The target roll is like the armour rating of a maneuver.
 The player must roll equal to or higher than the target roll.
-The target roll is determined by Skill Level and Degree of Difficulty.
-The higher the skill level the lower the target roll.
-The higher the DD the higher the target roll.
+The higher the persona's skill score (EXPS level plus skills), the lower the target roll.
+The higher the maneuver's degree of difficulty, the higher the target roll.
 
-The target roll can be calculated or tabulated.
-The table is collection of common target rolls pre-calculated for your look up pleasure. 
-Very high skill levels and very high DDs will require calculation.
+The target roll can be tabulated or calculated.
+A tabulated target roll employs a table comparing the degree of difficulty to skill score. 
+A calculated target roll employs simple maths to determine the target roll.
+Very high skill scores and very high DDs require calculation.
 
-=== Calculated
-The skill level bonus increases as the persona's level increases.
-Higher EXPS levels have an even greater bonus per EXPS level.
+=== Tabulated Target Roll
+No calculations are required.
+Compare DD to skill score to get the target roll.
+For example, skill score 5 intersects with DD 5 to yield a target roll of 66.
+The player must roll 66 or higher on a 1d100 to win her performance roll.
+The higher the persona's skill score, the lower the player's target roll.
+Very high skill scores and very high DDs exceed the Target Rolls Table's limits and require calculation.
+
+include::ROOT:partial$CH14_Table_New_Performance.adoc[]
+
+=== Calculated Target Roll
+Players can calculate the target roll using some simple maths and a tiny table.
+The higher the skill score, the greater the impact on the target roll.
+
+A persona with no aptitude indicates that a persona is attempting a maneuver out of her vocation.
+For example, a mercenary trying to identify an alien flower would have no aptitude. 
 
 include::ROOT:partial$CH14_Table_Vocation_Level_Bonus.adoc[]
 
 === Target Roll Calculation
-.Roll = 56 + 4 per DD - Skill
+.Target Roll = 56 + (4 * DD) - (Skill Score * Multiplier)
 ****
-Must roll 80 or higher to beat a DD6 maneuver with 0 Skill. +
-Must roll 50 or higher to beat a DD6 maneuver with 10 Skill.
+DD 10 vs skill score 8 = 56 + (4 * 10) - (8 * 2) = 56 + 40 - 16 = 80 +
+DD 6 vs skill score 11 = 56 + (4 * 6) - (11 * 3) = 56 + 24 - 33 = 47 +
+DD 30 vs skill score 9 = 56 + (4 * 30) - (9 * 2) = 56 + 120 - 18 = 158 +
+DD 2 vs skill score 18 = 56 + (4 * 2) - (18 *4) = 56 + 8 - 64 = -8
 ****
-
-=== Tabulated Target Roll
-No calculations compare DD to skill to get Target Roll.
-
-include::ROOT:partial$CH14_Table_New_Performance.adoc[]
 
 == Determine Bonuses
-Bonuses are added to the player's 1d100 roll.
-Bonuses will often mean the difference between success and failure.
+The player adds bonuses to her 1d100 roll.
+Bonuses often mean the difference between success and failure.
 Bonuses can come from every which way.
-There are TOYs that give Performance Roll bonuses.
-There are computers that give Performance Roll bonuses.
-Many referees will offer Performance Roll bonuses for good role-playing descriptions. 
+Some TOYs give performance roll bonuses.
+Some computers give performance roll bonuses.
+Many referees will offer performance roll bonuses for good role-playing descriptions. 
 
 :art: indiana_lizard.png
 :width: 250px
@@ -141,18 +130,19 @@ include::ROOT:partial$articulate.adoc[]
 
 === Attribute Bonuses
 The most common bonuses are vocation attribute bonuses.
-If the maneuver fits into the vocation's aptitude the player can add an attribute to 1d100 roll.
-For combat maneuvers mercenaries can add their PSTR.
-For knowledge based maneuvers biologists can add their INT. 
+If the maneuver fits into the vocation's aptitude, the player can add an attribute to the 1d100 roll.
+For combat maneuvers, mercenaries can add their PSTR.
+For knowledge-based maneuvers, biologists can add their INT. 
 
 include::ROOT:partial$CH14_Table_Vocation_Bonus.adoc[]
 
 === Role Playing Bonuses
-The more role-playing is integrated into the roll playing system the more fun the play is.
-Role-playing is incentivised in Performance Rolls by awarding roll bonuses for fun descriptions.
-For example, the player that says, “I’m going to leaf through my notes here, and try to identify this bizarre creature” before making the Performance Roll should get some bonus.
+The more role-playing is integrated into the roll playing system, the more fun the play is.
+Role-playing bonuses for performance rolls incentivizes fun descriptions from the players. 
+The following are examples of player descriptions that should earn performance roll bonuses.
+ “I’m going to leaf through my notes here and try to identify this bizarre creature.” 
 Or “I summon all the forces of evil beneath me, as I try to apply pressure to this weakling altruist.”
-Or “Taking my favorite tools from my mechanical kit, I proceed to repair this damaged bicycle.”
+Or “Taking my favourite tools from my mechanical kit, I proceed to repair this damaged bicycle.”
 Or “I  calmly stalk silently past the sleeping sentry.”
 
 :art: vet_big_hat_idea_desat.png
@@ -165,14 +155,17 @@ Or “I  calmly stalk silently past the sleeping sentry.”
 
 include::ROOT:partial$articulate.adoc[]
 
-The bonuses should be small.
-For example, +5 added to the Performance Roll would be generous bonus.
+The role-playing bonuses should be small since role-playing has its benefit.
+A good description could get a 1d4 bonus.
+A description that rocks all the players may get a 1d10 bonus. 
 Small bonuses that lead to success generate quite a bit of excitement.
 
 == Roll 1d100
 The player rolls the 1d100, adds in the bonuses and hopes to beat the target roll. 
 Any roll equal to or higher than the target roll is a success.
 Any roll less than the target roll is a failure.
+
+NOTE: The player rolls a 1d100, also called a deci-die, in her attempt to win her performance roll.
 
 :art: performance_roll_mecha_hammer.png
 :width: 250px
@@ -184,29 +177,35 @@ Any roll less than the target roll is a failure.
 
 include::ROOT:partial$articulate.adoc[]
 
-There are xref:CH16_Special_Rolls_Critical.adoc[critical checks] on Performance Rolls.
-A roll of 100 can mean a success in the face of an impossible task.
-A roll of 01 can indicated a failure in the face of certain victory.
+=== Critical Checks
+A critical check allows for success in the face of certain failure or vice versa.
+A roll of 100 may indicate success in the face of an impossible task.
+A roll of 01 may indicate a failure in the face of sure success.
+For more information about critical checks jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
 
 == Example Maneuvers
 This list is not exhaustive. 
 The most common kinds of maneuvers encountered play testing EXP for a decade are listed here.
 Many are silly. 
-As with all rolls in the Roll Playing system a successful maneuver should not change the course a campaign.
-Successful Performance Rolls are much more granular and represent maneuvers that change a session not a campaign.
+
+Successful Performance Rolls are granular and represent dice rolls that change a session, not a campaign.
+As with all dice rolls in the Roll Playing System, a successful maneuver should not change a campaign's course.
+Plot points are highly resistant to dice rolls. 
 
 IMPORTANT: *These tables are not exhaustive.*
 
 === General Maneuvers 
-Day to day things that personas may want to do.
-The referee should not apply these Performance Rolls without some kind of fun excuse.
-If a persona needs to bake a cake to eat the persona should just bake a cake.
-If the persona is baking a cake to impress an alien dignitary then a Performance Roll is part of the fun.
+General maneuvers represent day-to-day things that personas may want to do.
+Under normal circumstances, there should be no performance roll required for these actions.
+The referee would need some fun excuse to force the player to make a performance roll.
+If a persona needs to bake a cake for her dessert, she should simply bake a cake.
+If the persona is baking a cake to impress an alien dignitary, then a performance roll is part of the fun.
+If the persona needs to bake a cake while recreationally impaired, then a performance roll is part of the fun.
 
 include::ROOT:partial$CH14_Table_DD_General.adoc[]
 
 === Driving Maneuvers
-There is an entire section devoted to xref:CH17_Driving.adoc[driving].
+There is an entire section devoted to xref:i-roll_playing_rules:CH17_Driving.adoc[Driving,window=_blank].
 This table is included here for redundancy and convenience.
 
 include::ROOT:partial$CH17_Table_Example_Maneuvers.adoc[]
@@ -235,24 +234,26 @@ include::i-roll_playing_rules:page$CH08_Vocations_Spie.adoc[tag=spie_maneuvers]
 // veterinarian maneuvers tag
 include::i-roll_playing_rules:page$CH08_Vocations_Veterinarian.adoc[tag=veterinarian_maneuvers]
 
-
-== Cross Vocation Maneuver Penalties 
-Occasionally a persona will wish to attempt a maneuver that is clearly from another vocations's skill set.
+== Cross Vocation Maneuvers  
+Occasionally a persona will wish to attempt a maneuver that is clearly from another vocations' skill set.
 Mercenaries often find themselves wanting to do quick fixes and stabilizations (vet).
 A mechanic may want to work on a security system (spie).
+Research teams are not affected by these penalties.
 
 The cross vocation penalties are for individual personas trying to expand their scope of practice.
-Research teams are rarely effected by these penalties.
-
+These degree of difficulty penalties are in addition to zeroing the skill score by lack of aptitude.
+A Mechanic trying to use the knite gift energy would face a DD of 45 and have zero skill score (target roll of 236).
+The same mechanic trying to use the nothing skill of righteous indignation would have a DD of 4-9 and zero skill score (target roll from 72 to 92).
+ 
 include::ROOT:partial$CH14_Table_Cross_Class_Maneuvers.adoc[]
 
 == Research Teams 
-Research teams allow groups of personas to pool their experience for a greater chance of success.
-Several mechanics may share their expertise to solve a scientific problem, or repair a broken warp drive.
-A  team of veterinarians could work  together to save a life.
-The Skill Level of a research team is the sum of the EXPS levels of its members.
-Every player on the research team gets to make a Performance Roll using the team's combined Skill Level.
-If any one of them makes a successful PT roll, then the entire team is successful.
+Research teams allow groups of personas to pool their experience skills for a greater chance of success.
+Several mechanics may share their expertise to solve a scientific problem or repair a broken warp drive.
+A  team of veterinarians could work together to save a life.
+The skill score of a research team is the sum of the skill scores of all its members.
+Every player with a persona on the research team gets to make a performance roll using the team's combined skill score.
+If any of the players win their performance roll, then the entire team is successful.
 
 :art: research_team_biovet.png
 :width: 250px
@@ -272,7 +273,7 @@ A team leader cannot lead a persona with a higher EXPS level than herself.
 
 :art: research_team_cyborg_repair.png
 :width: 250px
-:snark: Many hands makes confusing work.
+:snark: Many hands make confusing work.
 :artist: Unknown
 :date: 1991
 :license: CC BY-SA 4.0
@@ -281,60 +282,54 @@ A team leader cannot lead a persona with a higher EXPS level than herself.
 include::ROOT:partial$articulate.adoc[]
 
 For example, a 5th level veterinarian could lead a team of 5 veterinarians.
-The maximum level of veterinarian would be 5th level. 
-That could be a combined research team of skill level 30 with 5 Performance Rolls.
+That could be a combined research team of skill score 30 with five five performance rolls.
 Teams can accomplish amazing things.
-However teams cannot get together to solve intricate campaign puzzles created by the referee.
+However, teams cannot get together to solve intricate campaign puzzles created by the referee.
+As always, plot points are dice roll resistant.
 
-The team can be composed of different vocations.
-The players must justify each vocation types involvement on the research team.
-For example, a 7th level biologist could lead a team of 5 biologists, a mercenary. and a spie.
-If the research team was trying to determine the chance of alien revolution this team makes sense.
-If the research team was trying to determine the direction of alien migration it would not make sense.
+A team can be composed of different vocations.
+The players must justify each vocation type's involvement on the research team.
+For example, a 7th level biologist could lead a team of 5 biologists, a mercenary, and a spie.
+If the research team was trying to determine the chance of alien revolution, this team makes sense.
+If the research team were trying to determine the direction of alien migration, including the spie and mercenary would not make sense.
 
 === Research Team Example
 An operating room research team has a 4th level veterinarian team leader.
-The team is composed of two 3rd level vets, a 3rd level biologist and a 2nd level nomad.
-They are working together to fix a famous alien the expedition accidentally ran over with a hover car.
+The team comprises two 3rd level vets, a 3rd level biologist and a 2nd level nomad.
+They are working together to fix a famous alien the expedition accidentally ran over with a hovercar.
 They need to repair her articulated wing flaps. 
 The Degree of Difficulty of the procedure is 20DD.
 
-The research team's total Skill Level is 15 (4 + 3 + 3 + 3 + 2).
+The research team's total skill score is 15 (4 + 3 + 3 + 3 + 2).
 
 Each team member would get a chance to beat the Target Roll of 76.
-If any of the player's rolled 76 or higher the alien's articulated wing flaps would be repaired.
-Much better chances than the just one veterinarian working solo.
+The procedure is a success if any of the five players roll 76 or higher.
 
 == Maneuver Duration
 How long a maneuver takes depends on a combination of common sense and degree of difficulty (DD).
 Some maneuvers have specifically assigned durations.
-Performing open heart surgery (a difficult task) would always take longer than ten minutes.
-However the equally difficult task of performing a double somersault would take an instant.
+Performing open-heart surgery (a difficult task) would always take longer than ten minutes.
+However, the equally difficult task of performing a double somersault would take an instant.
 
-Combat related maneuvers happen during the unit of combat unless otherwise specified.
-Research team work that requires months of time can pass in an instant with a few Performance Rolls.
-
-NOTE: *A maneuver may be completed in an instant but the research and preparation may take months.*
-
-The player would roll 0-99 (1d100-1) to determine the number of unit her biologist would take to Determine Alien Armour Rating, 5 DD.
-This would reflect the time she must spend leafing through her notes and observing before making a decision.
-During combat time these units may be critical.
-Outside of combat time the maneuver durations pass instantly.
-
-The referee will most often use maneuver duration for research teams carrying out complex tasks.
-It could easily take a research team a few months to determine complicated question.
-The time could be integrated into the campaign by having the expedition go on several sorties, or just pass immediately for convenience. 
+Combat-related maneuvers happen during the unit of combat unless otherwise specified.
+Research teamwork that requires months can pass in an instant with a few performance rolls.
 
 include::ROOT:partial$CH14_Table_Duration_of_Research.adoc[]
 
-The Duration of Research Table is a peculiar one.
-If the player rolls a zero they move down to lower level and roll there. 
-For example a maneuver that takes zero days moves down to the 0-11 hours row.
-If that roll is zero hours then the player rolls on the 0-5 hours row.
-This decreasing of duration allows players to have immediate epiphanies.
+A persona carrying out a 4 DD maneuver would require 0-99 units of time.
+At the end of which, the player would make her performance roll.
+Most of the time, this duration information is a nerd fascination.
+If time is not of the essence, then don't play on this table. 
+During combat time, these durations may be critical.
+Outside of combat time, the maneuver durations pass instantly.
 
-The corollary is also true though.
-If the player rolls the maximum duration of a maneuver they referee can move the up to the longer duration row. 
-So something that should have taken 0-5 hours could end up taking months.
+A biologist trying to identify an alien species could take up to 3 minutes to make a decision.
+The duration reflects the time she spent leafing through her notes and observing before making a decision.
 
-NOTE: *Anyone who has done research will find the quirky duration table pragmatic.*
+A mercenary attempting pistol with pistol ambidextrous combat would have no such time duration, and success, or failure, is instantaneous.
+
+NOTE: *The players may win the performance roll in an instant, but the research and preparation may take the personas months.*
+
+Research teams should always check for the duration of maneuvers. 
+A maneuver that takes months to complete could be reflected in gameplay with sub-missions to get materials or other team members.
+
