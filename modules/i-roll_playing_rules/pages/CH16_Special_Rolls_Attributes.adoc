@@ -5,27 +5,88 @@ ____
 *For juggling books or juggling chainsaws.*
 ____
 
-Attribute Rolls is the term for a collection of die rolls that test specific attributes.
-Acts of dexterity, physical strength or will power are examples of attribute tests.
-An attribute test employs a specific attribute is attempting a specific task.
-Catching a valuable egg would be dexterity (DEX) test.
-Listening for a malfunctioning engine noise would be an awareness (AWE) test.
+Attribute rolls are dice rolls that test persona attributes.
+Acts of dexterity, physical strength or willpower are examples of attribute rolls.
+An attribute roll pits a specific attribute against a particular task.
+Catching a valuable egg would be a dexterity (DEX) roll.
+Listening for a malfunctioning engine noise would be an awareness (AWE) roll.
 
-.*Types of Attribute Tests*
-* <<_attribute_type,Attribute Rolls>>
+Attribute rolls should only be employed when a challenging situation arises.
+A player should not have to make an attribute roll to have her persona open a door.
+A persona trying to escape through a complicated door while under fire can warrant an attribute roll.
+A persona that is trying to unlock her front door while impaired can earn an attribute roll.
+An attribute roll should make the evening's role-playing more fun.
+
+As with all rolls, attribute rolls should not decide the course or a campaign.
+Nor should an attribute roll be used to solve a referee's puzzle.
+
+.*Types of Attribute Rolls*
+* <<_attribute_type,Attribute Roll>>
 ** Player rolls once employing one attribute against a target roll that determines success.
 * <<_attribute_competition,Attribute Competition>>
 ** Two players roll dice competing against each other. 
-* xref:CH16_Special_Rolls_Saves.adoc[Attribute Challenge,window=_blank]
-** Player rolls once against an attack. Usually a toxin or psionic attack. 
-** Called a Saving Roll
+*  <<_saving_rolls,Saving Roll>>
+** Specialized attribute roll against a toxin or psionic attack. 
 
-Attribute Rolls are meant to be quick rolls to determine success in non-vocational maneuvers.
-There are many Roll Playing Systems that involve attributes, but they are not replaceable by Attribute Rolls.
-Attribute Rolls do not replace Attack Rolls, Performance Rolls or Driving Rolls.
-xref:CH27_Tactical_Combat.adoc[Attack Rolls] are the basis of Tactical Combat and represent a complex balance of attributes.
-xref:CH14_Performance_Tables.adoc[Performance Rolls] are meant for the maneuvers of specific vocations.
-xref:CH17_Driving.adoc[Driving Rolls] involves both the vehicle handling class and dexterity rolls.
+Attribute rolls and attribute competitions are slightly different.
+The player makes an attribute roll trying to beat a specific target that increases with difficulty.
+The difficulty is a descriptor that usually has a fixed value.
+An attribute challenge involves two players simultaneously rolling against each other.
+The other player is typically the referee but could be another player from the expedition.
+An attribute challenge has the persona's attribute pitted against a floating target intent on harming the persona. 
+An attribute challenge is essentially a saving roll. 
+
+== Attribute Roll
+Attribute rolls are quick dice rolls to determine success in non-vocational maneuvers.
+Attribute rolls do not replace attack rolls, performance rolls or driving rolls.
+Attack rolls are unique to the Tactical Combat System and represent a complex balance of combat skills and armour rating.
+Performance Rolls are for the maneuvers of specific vocations and represent a balance of difficulty and skills.
+Driving Rolls involves both the vehicle handling class and dexterity rolls.
+
+.*Attribute Roll Checklist*
+. <<_attribute_type,Attribute Type>>
+. <<_target_value,Target Value>>
+. <<_make_the_roll,Make the Roll>>
+
+=== Attribute Type
+The referee decides which attribute is most relevant for the roll.
+The player adds the relevant attribute to her chosen attribute to her 1d20 roll.
+For a dexterity attribute roll, the player would add her DEX to her 1d20 attribute roll.
+
+include::ROOT:partial$CH16_Table_Example_Attribute_Rolls.adoc[]
+
+=== Target Value
+Not all attribute rolls are created equal. 
+Some are much harder than others.
+Attribute rolls should be quick and to the point.
+When assigning an attribute target value, the referee determines the difficulty of the task.
+The players and referee decide on a qualitative description of how difficult the task should be.
+The less likely it seems that the persona could be successful, the greater the difficulty.
+For example, kicking open a standard residential door would be an easy or normal difficulty task.
+Kicking open a commercial door would be a hard or tough difficulty task.
+Kicking open a fortified combat door would be an impossible or bizarre difficulty task.
+
+Each difficulty descriptor has a random or static target roll associated with it.
+The numeric portion of the difficulty becomes the target value for the attribute roll.
+For a normal difficulty attribute roll, the referee can roll 1d20 for a random target value or use the static 18.
+The referee can use the random or static target value. 
+Players prefer the random values for very difficult tasks.
+The players and referee should use whichever is faster and more fun.
+
+include::ROOT:partial$CH16_Table_Attribute_Roll_Difficulty.adoc[]
+
+The majority of the time, the player will be rolling against a normal difficulty.
+The bizarre difficulty task is for impossible tasks that the player still wants to try.
+
+=== Make the Roll
+The player must roll equal to or higher than the target value.
+The player rolls a 1d20 and adds her EXPS Level and attribute score to the roll.
+
+=== Attribute Roll 
+.Attribute Roll = 1d20 + Attribute + EXPS Level
+****
+3rd level with 12 CHA rolls 11. Her attribute roll is 26.
+****
 
 :art: elephant_juggling.png
 :width: 250px
@@ -33,118 +94,94 @@ xref:CH17_Driving.adoc[Driving Rolls] involves both the vehicle handling class a
 :artist: Andrew Brechin
 :date: 1990
 :license: CC BY-SA 4.0
-:description: Drawing of four arm humanoid elephant juggling chainsaw, pistol, cat and satellite phone. 
+:description: Drawing of a four-armed humanoid elephant juggling a chainsaw, pistol, cat and satellite phone. 
 
 include::ROOT:partial$articulate.adoc[]
 
-Attribute Rolls and Attribute Competitions are slightly different.
-An Attribute Roll is made by the player challenging a specific target roll that is determined by the difficulty.
-An Attribute Challenge Roll is made by the player against the roll of another player, usually the referee.
-
-An Attribute Rolls should only be employed when a challenging situation arises.
-A player should not have to make an Attribute Roll to have her persona open a door.
-A persona trying to escape through a complicated door while under fire can warrant an Attribute Roll.
-Or a persona trying to unlock their front door while impaired can warrant an Attribute Roll.
-An Attribute Roll should make the evening's role-playing more fun.
-
-As with all rolls Attribute Challenges should not decide the course or a campaign.
-Nor should an Attribute Challenge be used to solve a referee's puzzle.
-
-.*Attribute Roll Checklist*
-. <<_attribute_type,Attribute Type>>
-. <<_difficulty_of_task,Difficulty of Task>>
-. Determine Target Roll
-.. Target Roll = Numeric Difficulty
-. <<_make_the_roll,Make the Roll>>
-.. The player is always rolling a 1d20
-
-== Attribute Type
-The referee decides which attribute is most relevant for the roll.
-This will be the attribute added to the 1d20 die roll.
-A persona with a DEX of 11 would add 11 to her 1d20 Attribute Roll.
-
-include::ROOT:partial$CH16_Table_Example_Attribute_Rolls.adoc[]
-
-== Difficulty of Task
-Not all Attribute Rolls are created equal. 
-Attribute Rolls are meant to be quick and to the point.
-The difficulties are assigned by descriptors.
-When assigning an attribute roll the referee determines the difficulty of the task.
-The more difficult the maneuver the higher the target roll.
-For example, kicking open a standard residential door would be a Normal or Easy difficulty.
-Kicking open a commercial door would be Hard or Tough.
-Kicking open a combat fortified door would be Impossible or Bizarre difficulty.
-
-The majority of the time the player will be rolling against a Normal difficulty.
-The less likely it seems that the persona could be successful the greater the difficulty.
-Bizarre difficulty is left for something impossible but the player still wants to try.
-
-Each difficulty descriptor has a random or static target roll associated with it.
-For a normal difficulty Attribute Roll the referee can roll 1d20 for a random target, or use the static 18.
-
-include::ROOT:partial$CH16_Table_Attribute_Roll_Difficulty.adoc[]
-
-The numeric portion of the difficulty becomes the target roll for the player.
-
-== Make the Roll
-The player must roll equal to or higher than the target roll.
-The numeric portion of the difficulty is the target roll for the player.
-The target roll is either the static, or random, difficulty determined by the referee.
-The player rolls a 1d20 and adds her EXPS Level and Attribute Score to the roll.
-
-=== Attribute Roll 
-.Attribute Roll = 1d20 + Attribute + EXPS Level
-****
-The players rolls 11 for a 3rd level persona with a CHA of 12. The roll is 26. 
-****
-
 == Attribute Competition
 An attribute competition pits two personas against each other in a contest directly related to an attribute.
-Usually the referee rolls for the referee persona.
-Two personas arm wrestling is a PSTR challenge.
-Two personas playing hat snatch is a DEX competition.
-A staring contest is a MSTR competition.
+Usually, the referee rolls for the referee persona.
+Two personas arm wrestling is a physical strength challenge.
+Two personas playing hat snatch is a dexterity competition.
+A staring contest is a mental strength competition.
+
+.*Attribute Competition Checklist*
+. <<_competition_type,Competition Type>>
+. <<_competition_rolls,Competition Rolls>>
+
+NOTE: There is no difficulty or target value in attribute competitions.
+
+=== Competition Type
+The referee decides which attribute is most relevant for the competition.
+The player adds the relevant attribute to her chosen attribute to her 1d20.
+There are many examples of competition types above.
 
 include::ROOT:partial$CH16_Table_Attribute_Challenges.adoc[]
 
+=== Competition Rolls
+The player must roll equal to or higher than her competition's roll.
+The player and the competitor roll a 1d20 add their EXPS Levels and their attribute scores to the roll.
+Whoever is higher is the winner.
+
+=== Competition Roll 
+.Competition Roll = 1d20 + Attribute + EXPS Level
+****
+Both the player and the competitor make a competition roll.
+****
+
+== Saving Rolls
+The saving roll is a unique attribute roll that has its own section due to legacy and importance. 
+Most attribute rolls are not life and death for the persona.
+Most saving rolls are life and death for the persona.
+Jump to xref:CH16_Special_Rolls_Saves.adoc[Saving Rolls,window=_blank] for the deets.
+
 == Combining Forces
-Personas can get together and combine forces to complete a task.
+Personas can get together and combine their attributes to complete a task.
 An example would be a bunch of personas lifting a rock off of an expedition member.
-If there are enough personas the referee should simply allow the lift to happen.
-If there are extenuating circumstances the referee may require a combined Attribute Roll or Competition.
-For example a tug of war between two expeditions would be a combined Attribute Competition.
+If there are enough personas, the referee will allow the lift to be successful without any rolls.
+If there are extenuating circumstances, the referee may require the personas to combine their forces.
+For example, a tug of war between two expeditions would be a combined attribute competition.
+The success states for a combined attribute roll a combined attribute competition remains unchanged.
 
-The difference between an Attribute Roll and an Attribute Competition remains unchanged.
-When personas are competing the players make an Attribute Competition Roll.
+The difference is in the synergy of numbers.
+In a combined attribute roll, every player gets to make a roll. 
+If any of the players are successful, the entire team is successful.
+For example, three personas are trying to push over a flag pole.
+Each player gets an attribute roll against the difficulty of this task.
+A win by any of the players means the flag pole has succumbed to vandalism.
 
-In a combined Attribute Roll each player gets to make a roll. 
-If any of the players are successful the entire team is successful.
-For example, 3 personas are trying to push over a flag pole.
-The target roll is decided by the referee.
-Each player gets to roll against the target roll.
-The success of any of the players means flag pole has succumbed to the vandalism.
+In a combined attribute competition, each player gets to make a roll.
+Success depends on the number of successes made by each team.
+So if two groups of ursidae are having a tug of war, every player gets to roll.
+The referee matches the players by their physical strengths. 
+Whichever team has the most successes wins the tug of war. 
+A tie means that the tug of war is continuing, excitement increases, and the pull-a-thon continues.
+In general, the stronger team will win, but miracles of probability can still occur.
 
-In a combined Attribute Challenge each player gets to make a roll.
-Success depends on the number of successes between each team.
-So if two groups of ursidae are having a tug of war every player gets to roll.
-The referee can match players by descending PSTR. 
-Which ever team has the most successes wins the tug of war. 
-A tie means that the tug of war is continuing, excitement increases and everyone rolls again.
+== Resolving Ties
+Resolving ties has each player rolling a 1d10.
+The 1d10 roll indicates the next decimal place of their roll.
+If both player's total roll were 11, each player would roll a 1d10, adding a decimal place to their result.
+So the player that rolled 11.5 would win the competition versus a player that rolled 11.4.
+If there were another tie, the players would add another decimal place. 
+These decimal place challenges can be pretty exciting.
 
-In general the stronger team will win, but miracles of probability can still occur
+==  Python Generated Comparative Data
+A little python program made thousands of simulated attribute rolls.
+The goal was to determine what intensity gave an average attribute a 60% chance of success.
 
-== Just Some Python Generated Data
-Ran average attribute for an anthro and average roll on 1d20 shooting for 60% chance of success.
+.*Average Attribute vs Ascending difficulty*
+* attribute 10 versus difficulty 18 = 60% chance success
+* attribute 10 versus difficulty 19 = 55% chance success
+* attribute 10 versus difficulty 24 = 29% chance success
+* attribute 10 versus difficulty 32 = 0% chance success
 
-* attribute 10 v base 18 = 60%
-* attribute 10 v base 19 = 55%
-* attribute 10 v base 24 = 29%
-* attribute 10 v base 32 = 0%
-* attribute 11 v base 32 = 0%
-* attribute 18 v base 32 = 30%
-* change it up
-* attribute 10 v base 18 = 59%
-* attribute 12 v base 18 = 70%
-* attribute 14 v base 18 = 80%
-* attribute 16 v base 18 = 90%
-* attribute 18 v base 18 = 99%
+.*Ascending Attribute vs Average Difficulty*
+* attribute 10 versus difficulty 18 = 60% chance success
+* attribute 12 versus difficulty 18 = 70% chance success
+* attribute 14 versus difficulty 18 = 80% chance success
+* attribute 16 versus difficulty 18 = 90% chance success
+* attribute 18 versus difficulty 18 = 99% chance success
+
+.*High Attribute vs High Difficulty*
+* attribute 18 versus difficulty 32 = 30% chance success

@@ -2,106 +2,120 @@
 
 [quote]
 ____
-*Physiology's automated defence against external attacks.*
+*Automated internal defences against external attacks.*
 ____
 
-Saving Rolls are specialized attribute rolls where the players rolls a die to save her persona from damaging effects.
-Saving Rolls could easily be __rolled__ into the section on Attribute Rolls.
-However there is a long RPG history of the Saving Throw.
-Saving Rolls are EXP's variation on the historic save versus radiation, poison or psionic attack.
+Saving rolls are specialized attribute rolls where the players roll a die to protect their persona from damaging effects.
+Saving rolls could easily be __rolled__ into the section on attribute rolls.
+However, there is a long role-playing game history of the saving throw.
+Saving rolls are EXP's variation on the historic saving throw versus radiation, poison or psionic attack.
 
-Saving Rolls are divided into psionic attacks and toxin attacks.
-Toxin attacks can be further divided into poison and radiation attacks. 
+Saving rolls consist of toxin attacks and psionic attacks.
+Toxin attacks can separate into poison and radiation attacks. 
 There are only two attributes involved in Saving Rolls: constitution and mental strength.
 
 .*Saving Roll Checklist*
 . <<_attribute_type,Attribute Type>>
-.. Constitution (CON) versus Toxins
-.. Mental Strength (MSTR) versus Psionics
-. <<_intensity_of_attack,Intensity of Attack>>
-. Determine Target Roll
-.. Target Roll = Intensity of poison, radiation or Psionic Attack
+. <<_target_value,Target Value>>
 . <<_make_the_roll,Make the Roll>>
-.. The player is always rolling a 1d20
-
 
 == Attribute Type
 The referee decides which attribute is most relevant for the roll.
-This attribute score is the attribute added to the 1d20 die roll.
-There are only two attributes involved in Saving Rolls: constitution (CON) and mental strength (MSTR).
+There are only two attributes involved in saving rolls: constitution (CON) and mental strength (MSTR).
+The player adds her persona's attribute score and EXPS Level to the 1d20 die roll.
 
-.*Attribute Type For Save*
-* CON vs Toxin
-** poison or radiation
-* MSTR vs psionic
-** internal or external
+.*Attribute Type For Saving Roll*
+* Poisons use constitution (CON)
+* Radiations use constitution (CON)
+* Psionic attacks use mental strength (MSTR) 
 
-Saving throws, or saves, are special attribute rolls that compete against a specific toxin or attack.
-There are saves versus poison, saves versus radiation and saves versus psionic attack.
-The save represents personas internal against an external attack.
-The saving throw governs those  automatic physical and mental processes over which the persona has no conscious control.
-The body always defends against poison or psionic attack.
+The persona's body will automatically work against these kinds of attacks.
+The constitution primarily defends against unseen attacks originating from the physical space.
+A persona's constitution will repel poisons and infections using her anatomical structures, immune system and hormonal defences.
+The mental strength primarily defends against unseen attacks originating from the think space. 
+A persona's mental strength will harden her consciousness against intrusions, psychic controls and existential threats.
 
-== Intensity of Attack
-The more dangerous the attack the higher the intensity and therefore the higher the target roll.
-The intensity of radiation and poison are usually assigned a value depending on how dangerous they are.
-A normal intensity poison would have an intensity of 18.
+== Target Value
+The more dangerous the attack, the higher the intensity and, therefore, the higher the target value.
+Every toxin or psionic attack is assigned an intensity to reflect how dangerous the attack is.
+This intensity determines the target value directly
+A usual intensity poison has an intensity of 18.
 Psionic attacks are assigned an intensity equal to the attacker's MSTR. 
 An average psionic attack intensity would be 12.
 
-Some example target rolls can be gleaned from the Difficulty and Target Rolls Table.
+=== Target Value
+.Target Value = Intensity of Attack
+****
+Poison, radiation and mental attacks are all assigned an intensity. +
+The player must roll higher than this number to win her saving roll.
+****
 
-include::ROOT:partial$CH16_Table_Attribute_Roll_Difficulty.adoc[]
+.*Example Intensities*
+* poison intensity listed with the weapon.
+* poison intensity based on the attacker's constitution plus level.
+* radiation intensity listed with the weapon.
+* mental attack intensity based on attacker's mental strength plus level
 
-=== Poison Attacks
-Poisons are toxins that need to contact the persona to activate a Saving Roll.
-This can be inhaled, ingested, or contact.
-That is the distinct difference between poison and radiation.
-Radiation can pass through the persona inflicted damage just sitting there.
+== Poison Attacks
+Poisons are toxins that need to contact the persona for effect.
+Poisons can be inhaled, ingested, or contact.
+Some poison attacks require a successful attack roll before they can harm the persona.
+The persona cannot avoid other poison attacks like a gaseous area of effect attack, for instance.
 
-Poisons can have specific effects if the player fails her Saving Roll.
-A knock out poison will knock the persona out.
+Poisons can have specific effects if the player fails her saving roll.
+A knock-out poison will knock the persona out.
 A nausea poison will make the persona vomit.
 A pharmaceutical effect poison will have the described pharmaceutical effect.
-A lethal poison will kill the persona dead.
+A lethal poison will kill the persona.
 
 A killing poison inflicts damage depending on the intensity of the poison.
 A killing poison inflicts 1d4 per point of intensity of the poison.
-So an intensity 18 poison would inflict 18d4 HPS of damage if the Saving Roll is missed.
+An intensity 18 killing poison will inflict 18d4 HPS of damage if the player fails her saving roll.
 Pretty much lethal. 
 
-The intensity is determined by the referee in advance, or from the attack.
+The referee determines the intensity of the poison in advance.
+Poisonous weapons usually have pre-determined intensities
 Alien poisons may have an intensity related to the alien's constitution. 
+Alien poisons may increase their intensity by adding their EXPS Level to the intensity.
 Lethal and killing poisons should have their intensity modified to reflect a fun game. 
 
-Robots are unaffected by poisons that are aimed at a physiologic system.
+Robots are unaffected by poisons that attack organic physiologic systems.
 Electric shocks, corrosives and radiation have the same effect on aliens, anthros and robots.
 
-=== Radiation Attacks
-Radiation is an electromagnetic toxin that needs not contact the persona to activate a Saving Roll.
-Radiation can be inhaled, ingested, or contacted.
-Radiation can also pass through the persona inflicted damage just sitting there.
-Radiation is dangerous just being there.
+== Radiation Attacks
+Radiation is an electromagnetic toxin that need not contact the persona to cause harm.
+Radiation poison can be inhaled, ingested, or contacted.
+Radiation can also harm the persona if she gets too close.
+Radiation is invisible and dangerous.
+The distinct difference between poisons and radiation is that radiation can invisibly and secretly harm any persona in range.
 
 Radiation affects all lifeforms equally. 
 It smashes tissues, chromosomes and circuitry.
-A radiation attack inflicts damage depending on it's intensity.
+A radiation attack inflicts damage depending on its intensity.
 A radiation attack inflicts 1d4 per point of intensity of the radiation.
-So an intensity 12 radiation attack would inflict 12d4 HPS of damage if the Saving Roll is missed.
-A successful Saving Roll reduces this damage by half. 
-Radiation is deadly coming and going.
+An intensity 12 radiation attack would inflict 12d4 HPS of damage if the player misses her saving roll.
+A successful saving roll reduces this damage by half. 
+Radiation is deadly even if the player wins the saving roll for her persona.
 
-This is fantasy radiation, and fun should replace realism.
-If the referee is feeling like having fun, or the player tells a good story a mutation check can be warranted.
-If a kilodie roll is less than the total damage taken the player gets a chance at mutating.
-This is accomplished by doing a mutation check based on the persona type.
-Robots do not enjoy this mutation check.
-Only anthros and aliens can mutate post radiation attack.
+EXP employs fantasy radiation, and fun replaces realism.
+There is no radiation sickness, no thyroid cancer or dysfunction. 
+However, like all good sciency fiction radiation exposure, there is a chance of mutating.
+The chance of mutating from radiation exposure is up to the referee and players.
+Players that intentionally expose themselves to radiation cannot mutate. 
+
+.*Radiation Mutation Exploitation*
+. Involuntary damaging radiation exposure.
+. A compelling story from the player why she should mutate.
+. 1d1000 roll less than the damage inflicted by the exposure
+. If 3 is a win, then a chance to mutate as per persona type.
+.. Robots do not mutate
+. Jump to xref:i-roll_playing_rules:CH07_Mutating.adoc[Mutations,window=_blank]
 
 == Psionic Attack
-Psionic attacks are sciency fiction manipulations of the persona's mind or the physical plane.
-Most psionic attacks are delivered by mental mutations.
-Some machines carry out attacks that function similar to psionic attacks. 
+Psionic attacks are sciency fiction manipulations of the persona's mind or the physical space around the persona.
+The psionic attack, mental attack, psychic attack, and thinkspace attack are all synonymous.
+Mental mutations deliver most psionic attacks.
+Some machines carry out attacks that function similarly to psionic attacks. 
 
 :art: knitevknites.png
 :width: 250px
@@ -113,17 +127,34 @@ Some machines carry out attacks that function similar to psionic attacks.
 
 include::ROOT:partial$articulate.adoc[]
 
-If the attack is affecting the function of the target through the persona's thinkspace a Saving Roll is granted.
-This means that ESP, telekinesis, memory eradication, and other direct affects indicate a Saving Roll.
-Mental mutations that transform the environment do not get a Saving Roll.
-So a mental attack that changes gravity would affect the persona without a Saving Roll.
-Hopefully these mutation effects have been appropriately divided between mental and physical mutations.
+If the attack affects the persona's consciousness through the thinkspace, the player makes a saving roll.
+Mental attacks like  ESP, telekinesis, memory eradication and other direct attacks indicate a saving roll.
+Mental mutations that transform the environment around the persona do not get a saving roll.
+Mental attacks like gravity disruption, mental blast or lazer eyes and other indirect attacks indicate no saving roll.
 
-The intensity of the psionic attack is equal to the mental strength of the attacker.
-Player personas may be able to add their EXPS Level to the intensity.
-Referee personas, unless Canon RPs, just use their MSTR unadjusted.
+The intensity of the psionic attack is equal to the attacker's mental strength plus her EXPS Level. 
 
-A successful Saving Roll against psionic attack completes negates any effect.
-There is no partial effect like in radiation or killing poisons.
-A failed Saving Roll results in the success for the attacker.
-The persona may have her mind controlled, may be thrown by telekinesis or may fall unconsious.
+A successful saving roll against a psionic attack completely negates any effect.
+There is no partial effect for mental attacks.
+A failed saving roll subjects the persona to the details of the mental attack.
+The persona may have her mind-controlled, muscles manipulated or lifted against her will.
+
+== Make The Roll
+The player must roll equal to or higher than the target value (intensity).
+The player rolls a 1d20 and adds her EXPS Level and attribute type to the roll.
+
+=== Saving Roll 
+.Saving Roll = 1d20 + Attribute Type + EXPS Level
+****
+3rd level with 12 CON rolls 11. Her saving roll is 26.
+****
+
+.*Attribute Types For Saving Rolls*
+* Poisons use constitution (CON)
+* Radiations use constitution (CON)
+* Psionic attacks use mental strength (MSTR) 
+
+
+== Example Saving Rolls
+
+include::ROOT:partial$CH16_Table_Saving_Roll_Examples.adoc[]
