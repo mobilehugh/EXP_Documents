@@ -126,19 +126,39 @@ There is still an ability to list influential sciency fiction movies.
 . Include the trailer.
 
 == Version 7.0
-Automated persona creation
-Support tools such as persona creation. Online persona storage
-community building
-VTT (virtual table top) support.
+* Automated persona creation
+* Support tools such as persona creation. Online persona storage
+* community building
+* VTT (virtual table top) rule integration.
 
 == Version 8.0
-3d printing of all personas
-Campaign creation and story frameworks. Appendix C Mythos : C2 Creating
-generation: flora fauna ecosystem, corporations, governments, 
-VTT (virtual table top) integration.
+* 3d printing of personas
+** Anthros
+** Aliens
+** Robots
+* Procedural drawing of personas
+** Anthros
+** Aliens
+** Robots
+* Extended mythos assistance
+** Campaign creation
+** story frameworks
+** flora fauna ecosystem
+** corporations, religions, governments
+* VTT (virtual table top) world integration.
+
+== Version 9.0
+* AI integration
+** generating worlds
+** referee personas
+** scenarios
+* GPT5 maybe? ;)
+
 
 
 == Testing Zone
+Things that have been worked out or are being worked out regarding Antora and the static site.
+
 
 === Images
 Repair of malformed alt="" has been repaired for accessibility. 
@@ -186,8 +206,8 @@ image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} D
 :description:
 ----
 
-
 === Tags for DRY writing 
+These work but beware of the unusual include statement that houses page$
 
 [source]
 ----
@@ -201,26 +221,51 @@ include::i-roll_playing_rules:page$CH06_Aliens_9_Move.adoc[tag=blah] //blah blah
 
 ----
 
-
-
 === Video
 After deliberation I have decided to go with vimeo.
 Antora is supposed to work with vimeo stream directly. 
 Following is the test.
 
-https://vimeo.com/511839207[link to video]
+=== Video as a Link
+
+https://vimeo.com/521640030[Link to Xeno Scrot]
 
 
-.*This is a video*
-video::511839207[vimeo]
+=== Video as a Link in a box 
+
+====
+https://vimeo.com/521640030[Link to Xeno Scrot]
+====
+
+=== Video as an Embed in a box
+
+.*VIDEO AS EMBED - NO ATTRIBUTES*
+====
+video::521640030[vimeo]
+====
+
+=== Video Divider
+
+.*VIDEO AS EMBED - width="640"*
+video::521640030[vimeo, width="640"]
 
 
-.*This is the same video*
-video::511839207[vimeo, width="640"]
+=== Video as an Embed in a box
+
+.*VIDEO AS EMBED - width="640"*
+====
+video::521640030[vimeo, width="640"]
+====
 
 
-.*This is the same video*
-video::511839207[vimeo, width="640", height="640"]
 
-.*This is the same video*
-video::511839207[vimeo, width="640", height="480"]
+
+=== Video Divider
+
+.*VIDEO AS EMBED - width="640", height="640"*
+video::521640030[vimeo, width="640", height="640"]
+
+=== Video Divider
+
+.*VIDEO AS EMBED - width="640", height="480"*
+video::521640030[vimeo, width="640", height="480"]

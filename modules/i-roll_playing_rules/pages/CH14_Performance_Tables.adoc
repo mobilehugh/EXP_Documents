@@ -71,7 +71,7 @@ If there is no freezer, and the expedition is on a hot planet where the water is
 include::ROOT:partial$CH14_Table_DD.adoc[]
 
 == Determine Target Roll
-the target roll is the actual number that the player must roll higher than to win the performance roll.
+The target roll is the actual number that the player must roll higher than to win the performance roll.
 The target roll is like the armour rating of a maneuver.
 The player must roll equal to or higher than the target roll.
 The higher the persona's skill score (EXPS level plus skills), the lower the target roll.
@@ -82,6 +82,9 @@ A tabulated target roll employs a table comparing the degree of difficulty to sk
 A calculated target roll employs simple maths to determine the target roll.
 Very high skill scores and very high DDs require calculation.
 
+xref:i-roll_playing_rules:page$CH14_Performance_Tables.adoc[tag=target_rolls]
+
+// tag::target_rolls[]
 === Tabulated Target Roll
 No calculations are required.
 Compare DD to skill score to get the target roll.
@@ -109,6 +112,8 @@ DD 6 vs skill score 11 = 56 + (4 * 6) - (11 * 3) = 56 + 24 - 33 = 47 +
 DD 30 vs skill score 9 = 56 + (4 * 30) - (9 * 2) = 56 + 120 - 18 = 158 +
 DD 2 vs skill score 18 = 56 + (4 * 2) - (18 *4) = 56 + 8 - 64 = -8
 ****
+// end::target_rolls[]
+
 
 == Determine Bonuses
 The player adds bonuses to her 1d100 roll.

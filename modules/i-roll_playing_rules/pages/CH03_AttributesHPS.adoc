@@ -21,11 +21,11 @@ Anthro hit points are a combination of connective tissue strength, organ padding
 Alien hit points include all the elements of anthro hit points plus stronger special hides, unique fluid, and luck.
 Robot hit points have inorganic equivalents like tensile strength, alloy casings, redundancies, power distribution, and luck.
 
-Hitpoints are a unique attribute.
-Unlike all other attributes, hits points are very dynamic.
+Hit points are a unique attribute.
+Unlike all other attributes, hit points are very dynamic.
 A persona's hit points can vary wildly everyday.
-A persona could lose hitpoints by getting injured.
-She could immediately regain those lost hitpoints with a healing pharmaceutical.
+A persona could lose hit points by getting injured.
+She could immediately regain those lost hit points with a healing pharmaceutical.
 She can gradually regain lost hit points as her body repairs itself.
 No other attribute dances around like this.
 
@@ -38,7 +38,7 @@ The player calculates her persona's hit points during persona generation.
 Each family calculates its hit points maximum differently.
 
 The hit points max (HPS Max) is a fixed element. 
-A persona with 42 HPS Max will always have 42 HPS max. 
+A persona with 42 HPS Max will always have 42 HPS Max. 
 A persona cannot heal beyond her hit points max.
 For example, a healing pharmaceutical can restore a persona to 42 HPS but not beyond. 
 Hit points max is not completely permanent. 
@@ -52,6 +52,8 @@ The HPS Total is like a fuel gauge for damage.
 The lower the fuel gauge, the less damage the persona can withstand. 
 If this damage gauge gets to zero, dramatic things happen to the persona.
 These dramatic things include unconsciousness and death.
+
+WARNING: There is a move afoot to replace HPS Max with HPM and HPS Total with HPT. 
 
 == Hit Points
 A Hit Point doesn't convert to a unit of energy – like an erg.
@@ -78,24 +80,24 @@ Aliens and anthros (organic personas) can spontaneously heal hit points through 
 
 |
 s|Anthro
-s|Robot
 s|Alien
+s|Robot
 
 s|Range
 |5-90
-|1-500
 |1-750
+|1-520
 
 
 s|Determined by 
 |CON
-|CON and Type
 |CON and Size
+|CON and Type
 
 |
 s|Anthro
-s|Robot
 s|Alien
+s|Robot
 
 |===
 
