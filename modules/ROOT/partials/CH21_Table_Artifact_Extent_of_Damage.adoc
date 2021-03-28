@@ -1,41 +1,41 @@
 // Table 21.2 Artifact Extent of Damage
 .*Artifact Extent of Damage*
-[width="75%",cols="4*^",frame="all", stripes="even"]
+[width="75%",cols="^,<,^,^",frame="all", stripes="even"]
 |===
-4+<|How badly is it broke? 
+4+<|How badly is it broke?
 
 s|Die Roll (1d100)
 s|Descriptor
-s|Drop
+s|% Previous
 s|Multiplier
 
 |01-10
 |Trivial
-|0%
-|1
+|100%
+|1.0
 
 |11-60
 |Minor
-|10%
+|90%
 |0.9
 
 |61-90
 |Major
-|40%
+|60%
 |0.6
 
 |91-99
 |Critical
-|70%
+|30%
 |0.3
 
 |00
 |Destroyed
-|99%
+|1%
 |0.01
 
 s|Die Roll
 s|Descriptor
-s|Drop
+s|% Previous
 s|Multiplier
 |===

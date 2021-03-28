@@ -1,52 +1,69 @@
 // Table 19.1 Safe Landing
-.*Safe Landing*
-[width="75%",cols="3*^",frame="all", stripes="even"]
+.*Safe Landing Dexterity Roll*
+[width="75%",cols="^,<,^,^",frame="all", stripes="even"]
 |===
-3+<|It's not the fall that kills the persona it is the landing. 
+4+<|It's not the fall that kills the persona it is the landing. 
+
+2+|
+2+^s|Target Roll
 
 s|Hite (hexes)
 s|Difficulty
-s|Target Roll
+s|Random
+s|Fixed
 
 |<1
 |None
 |0
+|0
 
 |1 
 |Trivial
+|1d6
 |6
 
 |2
 |Easy
+|1d10
 |12
 
 |3
 |Normal
+|1d20
 |18
 
 |4
 |Hard
+|1d30
 |24
 
 |5
 |Tough
+|1d50
 |36
 
 |6
 |Impossible
+|1d100
 |48
 
 |7
 |Bizarre
+|1d1000
 |96
 
-|8
-|None
+|>7
 |Fall only
+|---
+|---
 
-s|Hite
+s|Hite (hexes)
 s|Difficulty
-s|Target Roll
+s|Random
+s|Fixed
 
-3+<|Hex adjustment by size. Tiny +2, Small +1, Large -1, Gigantic -2
+2+|
+2+^s|Target Roll
+
+4+<|Hex adjustment by size. Tiny +2, Small +1, Large -1, Gigantic -2
 |===

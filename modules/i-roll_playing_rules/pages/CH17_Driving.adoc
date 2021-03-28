@@ -102,7 +102,7 @@ The maximum speed that a persona can handle is one h/u per point of DEX.
 .Speed penalty  (DD) = (speed  h/u - dexterity) / 10
 ****
 Driving at 20 h/u with 10 DEX is a +1 DD penalty. +
-Having a bonus for driving slow is up to the referee.
+Having a bonus for slow driving is up to the referee.
 ****
 
 Thus a player with a DEX of 10 could travel at ten h/u (36 km/h) without having a speed penalty.
@@ -125,7 +125,7 @@ A tabulated target roll employs a table comparing the degree of difficulty to sk
 A calculated target roll employs simple maths to determine the target roll.
 Very high skill scores and very high DDs require calculation.
 
-xref:i-roll_playing_rules:page$CH14_Performance_Tables.adoc[tag=target_rolls]
+include::i-roll_playing_rules:page$CH14_Performance_Tables.adoc[tag=target_rolls]
 
 === Roll 1d100
 If the player rolls the target number or higher, they have won the driving roll.
@@ -203,10 +203,10 @@ A 1d6 result of 1 =  0% deceleration. A 1d6 result of 3 = 20% deceleration.
 ****
 
 === Direction
-Finally, the direction of the loss of control is determined by the roll of percentile dice.
+The struggle to control the vehicle is real.
+Once control is lost, the vehicle careens in a random direction.
 The last one, deviation, is left to the discretion of the referee.
-The ref must decide whether the vehicle-deviates left, right, or in some cases up or down;
-this is usually done randomly.
+The ref must decide whether the vehicle-deviates left, right, up or down.
 
 include::ROOT:partial$CH17_Table_Deviation_During_Loss_of_Control.adoc[]
 
@@ -220,13 +220,9 @@ include::ROOT:partial$CH17_Table_Deviation_During_Loss_of_Control.adoc[]
 
 include::ROOT:partial$articulate.adoc[]
 
-____
-*Loss of Control may result in a Collision. Make a Collision Check.*
-____
-
 == Collision Check
-Losing control of a vehicle may result in an collision.
-A collision can only occur if the driver's loss of control causes the vehicle to crash into some obstacle, or careen off the road.
+Losing control of a vehicle may result in a collision.
+A collision can occur if the loss of control causes the vehicle to crash into an obstacle or careen off the road.
 
 .*Collision Indicated*
 * loss of control path crosses:
@@ -238,7 +234,7 @@ A collision can only occur if the driver's loss of control causes the vehicle to
 * parameters decided by the referee
 
 :art: vehicle_collision_imminent.png
-:width: 250px
+:width: 500px
 :snark: Cosmic Highway Patrol
 :artist: Pat Redding
 :date: 1991
@@ -251,103 +247,101 @@ include::ROOT:partial$articulate.adoc[]
 The deadliness of a crash depends on the speed of the vehicle.
 The higher the speed, the more dangerous the collision.
 The speed of the collision determines the energy of the collision.
-The energy of the collision determines the  amount of damage delivered.
-The vehicle and passengers are damaged simultaneously
+The energy of the collision determines the amount of damage delivered.
+The vehicle and passengers are damaged simultaneously.
 
 NOTE: *Driving is safe. Crashing is dangerous.*
 
 === Relative Speed and Damage
 The speed at which the vehicle collides determines the severity of the accident.
 The vehicle should use its decelerated speed as the collision speed.
+If there are multiple vehicles in the collision, the speeds of both vehicles come into play.
 The vehicle speeds are combined to inflict damage to both vehicles.
 
 .*Relative Speeds*
-. Head on add speeds (front 3 facets)
-. Rear on subtract speeds (back 3 facets)
-. Other ons use highest speed
+. Head-on collision (front three  facets): add speeds together
+. Rear-end collision (back three facets): subtract speeds
+. T-bone collision (side facets): Use the higher speed 
 
 include::ROOT:partial$CH17_Table_Collision_Damage.adoc[]
 
 === Relative Wate and Damage
 Speed indicates the energy delivered by a collision, but that is not the whole picture.
-The relative wates involved in the collision need to be considered.
-If relative wates are ignored, problems will arise.
-A moped could ram an 80 ton military tank at high speed and kill the tank crew.
-Or a jet plane crashes into convertible and convertible driver escapes injury.
+The relative wates involved in the collision also affect the damage delivered.
+If the referee ignores relative wates, the referee can expect strange results.
+For example, a moped could ram an 80-ton military tank at high speed and kill the tank crew.
+Or a jet plane could crash into a convertible, and the car driver could escape injury.
 There are some faux Newtonian solutions to these potential problems.
-The 
 
 === Collision Wate Multiplier
 .Damage Multiplier = Larger vehicle wate / Smaller vehicle wate  
 ****
-Cannot exceed 4 times damage or  1/4 damage.
+The multiplier cannot exceed four times or one-quarter.
 ****
 
-If a 1200 kg vehicle collides with a 400 kg vehicle the larger vehicle would take 1/3 damage. 
-The smaller vehicle would take 3 times damage.
-The damage multiplier is rounded to the nearest easy number (1, 2, 3, 4) or (1, 1/2, 1/3. 1/4).
-The damage factor cannot be increased more than 4 times greater, or be reduced by less than 1/4.
+If a 1200 kg vehicle collides with a 400 kg vehicle, the larger vehicle will take 1/3 damage. 
+The smaller vehicle will take three times damage.
+The referee should round the damage multiplier to the nearest manageable number (1, 2, 3, 4) or (1, 1/2, 1/3. 1/4).
+The damage factor cannot be increased more than four times greater or be reduced by less than 1/4.
 
 == Persona Damage
 Collisions can deliver massive amounts of damage and easily kill personas.
 Collision damage works the same as any other damage inflicted on the persona.
-The indicated damage die roll is made and subtracted from the persona's HPS total.
-The damage can be rolled once for all the personas involved, or individually for each persona.
+The referee generates the damage, and the player subtracts the value from her hit points.
+The referee can roll damage once for all the personas in the collision or individually for each persona.
 
 Every persona involved in the collision takes the HPS damage.
 If two vehicles collide, then all the personas in both vehicles take damage.
-A collision at 35 h/u, every passenger in both vehicles would take 6d10 HPs in damage.
-Relative wate can increase the damage by up to 4 times, or decrease it by 1/4.
+In a collision at 35 h/u, every passenger in both vehicles takes 6d10 HPS in damage.
+Relative wate can increase the damage by up to 4 times or decrease it by 1/4.
 
 Pedestrians hit by vehicles will take damage as if they were in an accident with the vehicle.
 A vehicle travelling 35 h/u would do 6d10 to a pedestrian.
 
 === Unrestrained Personas
-A deceleration of 50% will damage to unrestrained passengers.\
-Technically this could happen without a collision.
-For instance a vehicle that slows down to 50 h/u from 100 h/u means that inertia will carry personas into the bulkhead of the vehicle at 50 h/u.
-Smart explorers wear their seat belts!!
+A deceleration of 50% will damage unrestrained passengers.
+Being savagely thrown about in a vehicle could happen without a collision.
+For instance, a vehicle that decelerates to 50 h/u from 100 h/u will throw unrestrained passengers around inside the vehicle.
+Personas can hit the interior bulkheads at 50 h/u.
+Bright explorers wear their seat belts!!
 
 == Vehicle Damage
 Vehicles do not have hit points.
-They are damaged in a fashion similar to other inorganic objects.
+Vehicles suffer damage in a fashion similar to other inorganic objects.
 Vehicle damage resembles robot, exatmo vehicle, and artifact damage.
 The higher the speed of the vehicle has its collision at the more damage that it endures.
 
-A vehicle in a collision at 8 h/u will not sustain damage, but the passengers may.
-A vehicle in a collision at 28 h/u would take 3 vehicle damage rolls.
-A vehicle that collides at 60 h/u (250 kmh) would take 6 damage table rolls.
+A vehicle in a collision at eight h/u will not sustain damage, but the passengers may.
+A vehicle in a collision at 28 h/u would sustain three vehicle damage table rolls.
+A vehicle that collides at 60 h/u (250 km/h) would take six damage table rolls.
 
-Each vehicle damage roll indicates a location of damage and extent of damage. 
-The location of damage is completely random. 
+Each vehicle damage roll indicates a location of damage and the extent of the damage. 
+The location of the damage is entirely random. 
 The extent of damage can be random or modified depending on the irritation level of the referee.
 
 === Location of Vehicle Damage
 A roll on the Location of Vehicle Damage table must include an Extent of Damage roll.
-The location of damage determines which vehicle function is affected by the accident.
+The location of damage determines which vehicle function is affected by the damage.
 
 include::ROOT:partial$CH17_Table_Location_of_Vehicle_Damage.adoc[]
 
 === Extent of Vehicle Damage
-The extent of damage roll indicates the decrease in efficiency of the damaged part.
-Major damage would decrease function by 40% of previous efficiency.
-Damage to the speed system would reduce the vehicle's speed by 40%.
-The maximum speed of 30 h/u would be reduced to 18 h/u.
+The extent of the damage roll indicates the decrease in efficiency of the damaged part.
+Major damage would decrease the system to 60% of the previous function.
+Major damage to the speed system would reduce the vehicle's speed to 60% of the previous function.
+The vehicle's maximum speed of 30 h/u drops to 18 h/u.
 Vehicle system damage is cumulative.
-For more details on damage see xref::CH21_Artifact_Damage.adoc[Artifact Damage].
 
 include::ROOT:partial$CH21_Table_Artifact_Extent_of_Damage.adoc[]
 
-Extent of damage can be modified by the Collision Wate Modifier.
+The Collision Wate Modifier should modify the extent of the damage.
 The referee may multiply the extent of damage roll by the multiplier.
-So if the player rolls 50 on the Extent of Damage Table the roll could be reduced by 1/4.
+If the player rolls 50 on the Extent of Damage Table, this could be multiplied by as much as 4 or 1/4.
 
 === Further Complications
-There are further complications that the ref may be interested in.
-Passenger entrapment equals to 1% per HPS of damage inflicted on the passenger.
-Post collision fire is dependent on fuel type and damage to the fuel system.
+There are further complications that may interest the referee.
+Passenger entrapment equals 1% per HPS of damage inflicted on the passenger.
+Post-collision fire is dependent on fuel type and damage to the fuel system.
+A xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Roll,window=_blank] is required to determine if there is a fire complication.
 Whether the vehicle is drivable depends on the damage to systems during the collision.
-Final vehicle resting position is entirely up to the decision of the referee.
-
-
-
+The final vehicle resting position is entirely up to the decision of the referee.
