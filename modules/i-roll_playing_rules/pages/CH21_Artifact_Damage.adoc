@@ -2,20 +2,19 @@
 
 Personas aren't the only things that get destroyed in EXP.
 Besides the ceaseless battering of personas, inorganic equipment is also subject to the effects of entropy.
-EXP's premise of equipment is that nothing is indestructible, everything wears out, and what can go wrong will.
-Equipment damage is reserved for unique circumstances and is not part of regular game play.
+In EXP, nothing is indestructible, everything wears out, and what can go wrong will.
+Equipment damage is reserved for unique circumstances and is not part of regular gameplay.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
-Equipment do not have HPS Totals like personas.
-It would be total bore to keep track of equipment HPS.
-Equipment HPS are used for unfortunate circumstances where the referee needs to quantify a mishap.
-A crucial artifact that is the center piece of a campaign may warrant a HPS total.
-For example if a persona decided to use her prized plasma rifle to stop a fortified door from closing.
-This would warrant a damage check if it fit the story.
+Equipment does not have hit points like personas.
+It would be a total bore to keep track of equipment HPS.
+Equipment HPS comes into play for unfortunate circumstances where the referee needs to quantify a mishap.
 Non-artifact equipment, aka mundane, equipment is usually just destroyed by incidents.
-If perchance mundane equipment is important then there are some HPS guidelines.
+
+A crucial artifact that is the centrepiece of a campaign may have an HPS total.
+For example, the referee may use the artifact damage if a persona uses her prized plasma rifle as a crowbar.
 
 :art: smashing_brick.png
 :width: 250px
@@ -27,20 +26,24 @@ If perchance mundane equipment is important then there are some HPS guidelines.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Determining Artifact HPS
-Artifact equipment is created using the TOYS. 
-These are useful valuable pieces of equipment.
+== Determining Artifact Hit Points
+The artifact's EXPS is the basis for an artifact's hit points. 
+The higher the tech level, the tougher the artifact
 
-Artifact equipment is based on it's EXPS value, intended use and tech level.
-The more EXPS value the tougher it is.
+=== Artifact Hit Points
+.Artifact HPS = Fraction EXPS + Tech Level
+****
+200 EXPS, TL 10 vet equipment: 16 HPS = 3% x 200 + 10  +
+540 EXPS, TL 20 aerosol: 128 HPS = 20% x 540 + 20
+****
 
 include::ROOT:partial$CH21_Table_Artifact_Hit_Points.adoc[]
 
-For example, a tech level 10 Age Determiner is worth 200 EXPS.
-Medical equipment earns 3% of EXPS for HPS.
-So this device can withstand 16 HPS of damage (3% x 200 + 10) before being damaged.
+A tech level 10 age determiner is worth 200 EXPS.
+Vet equipment earns 3% of EXPS for HPS.
+The age determiner can withstand 16 HPS of damage (3% x 200 + 10) before being damaged.
 
-A tech level 20 napalm grenade is worth 540 ExPs.
+A tech level 20 napalm grenade is worth 540 EXPS.
 Grenades earn 20% of their EXPS value as HPS.
 So this grenade would have 128 HPS (20% x 540 + 20).
 
@@ -62,63 +65,67 @@ include::ROOT:partial$articulate.adoc[]
 
 == Extent of Damage
 Nothing happens to the equipment until it reaches zero HPS.
-When this happens the toy does not go unconscious or die but it is randomly damaged.
+When this happens, the toy does not go unconscious or die, but it suffers damage.
 The extent of damage roll shows what percentage of previous function the toy presently has.
-This can vary from no damage what-so-ever (trivial), to complete destruction (destroyed) of the artifact.
-Complete explanations of these effects are detailed under Extent of Damage in this chapter.
+The extent of damage can vary from trivial (cosmetic only) to the destruction of the artifact.
 
 include::ROOT:partial$CH21_Table_Artifact_Extent_of_Damage.adoc[]
 
-The extent of damage roll can range from trivial to destroyed.
-Massive amounts of damage can generate multiple rolls on the extent of damage table.
-For example an  artifact with 5 HPS taking 15 HPS damage at once would get 3 rolls on the table.
+Massive amounts of damage can generate multiple rolls on the extent of the damage table.
+For example, an artifact with 5 HPS taking 15 HPS damage at once would make three rolls on the extent of damage table.
 The damage would be cumulative likely destroying the artifact.
 Ouch.
 
 === Trivial Damage
 The least detrimental is trivial damage.
-Trivial damage does not affect performance of the device.
-The damage could be cosmetic or a mere annoyance.
-Such as a stuck button or scratched finish.
+Trivial damage does not affect the performance of the artifact.
+The damage could be cosmetic or a mere annoyance, such as a stuck button or scratched finish.
 
 === Minor, Major and Critical Damage
-A toy which has sustained minor damage will function at 90% of previous performance, a device sustaining critical damage will function at 30% of regular performance.
-Successive damaging effects are cumulative, 2 bouts of critical damage, with no interim repairs, would leave an artifact at 9% performance.
+These three damage categories decrease the function of the artifact.
+Unlike the trivial and destroyed damage categories, these categories require some arithmetic.
 
-Cumulative damage rolls can disable a toy without destroying it.
-The results of reduced performance affects all aspects of the device's performance.
-Range, battery duration, duration of effect, area of effect, to hit bonuses, and armour ratings are examples of what is reduced when equipment is damaged.
+Each time an artifact takes damage, its effectiveness drops.
+The results of reduced performance affect all aspects of the device's performance.
+Range, battery duration, duration of effect, area of effect, hit bonuses, and armour ratings are examples of what reduces when an artifact is damaged.
+Cumulative damage rolls can totally disable a toy without destroying it.
 
-If the age determiner discussed earlier were critically damaged (30% of previous performance) its new range would be 1 hex, its new battery life 1.5 years, its value reduced to 1500 eps, and possibly its accuracy reduced to 30% (30% chance of success per use).
+An artifact that sustains minor damage will function at 90% of previous performance.
+A generic artifact that has a range of 100 hexes takes minor damage.
+Minor damage reduces its range to 90% of previous performance or 90 hexes.
+The same artifact now sustains critical damage and will function at 30% of previous performance.
+The generic artifact now has a range of 27 hexes (30% of 90 hex range).
 
-Damaged artifacts can be repaired. 
-The more damage the more difficult the repair.
-Destroyed artifacts cannot be repaired.
+Damaged artifacts are repairable.
+The more damaged the artifact, the more difficult the repair.
+Destroyed artifacts are not repairable.
 
 === Destroyed
-The worst possible damage that a device can sustain is destroyed.
-When equipment is destroyed, it will not function and cannot be repaired.
-Destroyed equipment cannot be repaired, the artifact becomes a dead wate which may only be valuable for a few spare parts.
+Destroyed is the worst possible damage that an artifact can sustain.
+Destroyed artifacts no longer function.
+Destroyed artifacts are unrepairable.
+A destroyed artifact becomes a dead wate which may only be valuable for a few spare parts.
 
-=== Instantaneous Destruction
-When an artifact is destroyed in one blow there may be additional consequences.
-Do destroyed bombs, or grenades, detonate themselves?
-
-Sphincter dice should be consulted to determine if a bomb or grenade is accidentally detonated.
-This would be rare situation, something more likely to happen to an enemy, than an expedition.
-
-NOTE: *Accidental activation adds injury to insult*
+Destroying an artifact in one blow may lead to additional consequences.
+Often players will expect a destroyed bomb or grenade to activate accidentally.
+If a discussion arises about accidental activation the players may need to consult a xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Roll,window=_blank]
 
 === Maintenance
-Maintenance of equipment is for those referees and players working through OCD.
+Maintenance of equipment is for those referees and players working through https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder[OCD].
 
-Equipment that is used, but un-maintained, will deteriorate at a rate of 1 HPS each month it is used.
-A month of use is any month in which the device is deployed.
-Un-maintained toys will lose 1 HPs each month of use until no HPs remain.
-At that point a roll is made on the Extent of Damage table.
-When the extent of damage roll is made, an important component may malfunction, or some unimportant button may get sticky.
+The more moving parts the artifact has, the more maintenance is needed.
+For example, a vehicle needs regular maintenance, but a grenade does not.
+A pharmaceutical tablet may be able to sit around for decades.
+An ointment may require refrigeration and air conditioning.
 
+Un-maintained artifacts will deteriorate.
 Equipment subject to any semblance of routine maintenance is not be affected by wear and tear.
+To avoid deterioration, players merely need to say they are maintaining their artifacts. 
+Complicated vehicles may require a mechanic for maintenance.
+A mercenary can maintain weapons. 
+A veterinarian can maintain vet equipment.
+
+The referee can make an extent of damage roll once a year for unmaintained equipment.
 
 :art: equip_damage_chicken.png
 :width: 250px
@@ -131,14 +138,12 @@ Equipment subject to any semblance of routine maintenance is not be affected by 
 include::ROOT:partial$articulate.adoc[]
 
 == Mundane Equipment Damage
-Personas will often insist on damaging absolutely mundane items that surround them.
+Personas will often insist on damaging mundane items that surround them.
 They may wish to destroy a door, crash through a wall, blow a hole in the road, or destroy a bridge.
-It is impossible for the referee have the HPS of architectural items such as walls, doors, windows and the like prepared for each particular scenario.
+The referee can't have the HPS of architectural items such as walls, doors, windows and the like prepared for each particular scenario.
 
-While specific items, ones expected to be destroyed, may have HPS ready, most sane referees will not have detailed HPS of the chairs and doors in their scenario.
-Mundane items are not treated the same as toys from the technology section of this book.
 Mundane Doors and-walls are destroyed when they lose all their HPS.
 For instance, a mundane door has 30 HPS.
-If a door takes 30 HPS it ceases to be a door and now is an opening with sharp edges.
+If a door takes 30 HPS, it ceases to be a door and now is an opening with sharp edges.
 
 include::ROOT:partial$CH21_Table_Mundane_Artifacts_Hit_Points.adoc[]
