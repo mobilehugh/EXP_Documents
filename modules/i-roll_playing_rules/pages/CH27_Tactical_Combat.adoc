@@ -38,7 +38,6 @@ NOTE: The tactical combat system developed before laptops, handsets or the inter
 * <<_combat_movement,Combat Movement>>
 * <<_combat_time,Combat Time>>
 * <<_initiative,Initiative>>
-* <<_more_stuff,More Stuff>>
 
 == Starting Combat 
 Combat in EXP is perilous for personas. 
@@ -67,316 +66,239 @@ Ten seconds of combat time can take 20 minutes of mundane time to play.
 
 NOTE: If prolonged real-time resolution of combat is unappealing, consider the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank].
 
+== Attack Roll
+Any attempt a persona makes to harm another persona is an attack. 
+When the player wants her persona to attack another persona, she makes an attack roll.
+The higher the attack roll, the better.
+Many elements influence attack rolls, including weapon type, roll bonuses, EXPS levels, weapon proficiencies and luck. 
+
+The attack roll must be greater than the target's defences. 
+These defences are collectively called the armour rating (AR) of the target.
+When the player's attack roll is higher than the target's armour rating (AR), she has won the attack roll and damages her target.
+
+In the Roll Playing Rules' tactical combat system, the players use a kilo-die to make attack rolls.
+The kilo-die is a thousand-sided die, or 1d1000.
+The 1d1000 generates a random number between 1 and 1000.
+The kilo die is not a golf ball with tiny writing on it.
+The player rolls three 1d10s to simulate the 1d1000.
+For more info about the 1d1000 jump to xref:i-roll_playing_rules:CH00_kilo_die_mechanic.adoc[Kilodie Mechanic,window=_blank].
+
 // tag::Attack_Types[]
 == Attack Types
 EXP has an enormous variety of weapons.
-A primer on weapon types is needed to understand attack bonuses.
+A review of attack types is needed to understand combat tables and attack rolls.
+For a more detailed explanation jump to xref:i-roll_playing_rules:CH28_Weapons.adoc[Attack Types,window=_blank].
 
 === Type A
-These are non-powered thrusting and striking weapons.
-Type A weapons depend on the user's muscle power and must contact the target to cause damage.
-The personas must be in adjacent hexes to be able to hit each other.
-Examples are clubs, fists, swords, and axes.
+*Non-powered thrusting and striking attacks.*
+Type A attacks depend on the user's muscle power to inflict damage.
+The personas must be in adjacent hexes to be able to damage each other.
+Examples are clubs, fists, swords, pincers, claws and axes.
 
 === Type B
-These are non-powered projectile weapons.
-Type B weapons depend on the user's muscle power and must contact the target to cause damage.
-The personas must be several hexes apart and still be able to hit each other.
+*Non-powered projectile attacks.*
+Type B attacks depend on the user's muscle power to inflict damage.
+The personas may be several hexes apart and still be able to damage each other.
 Examples are arrows, bolts, rocks, quills and spit.
 
 === Type C
-These are powered weapons.
-Type C weapons do not require the user's muscle power and must contact the target to cause damage.
-The personas can be any distance apart and be able to hit each other.
+*Powered single attack.*
+Type C attacks do not require the user's muscle power to inflict damage. 
+The attack supplies its energy to inflict damage.
+The personas can be many hexes apart and still be able to damage each other.
+Type C attacks are limited to once per combat unit.
 Examples are bullets, laser bolts, energy beams, and crossbow bolts.
 
 === Type D and E
-These are powered weapons with multiple attacks per turn.
-These powered weapons do not require the persona's muscle power and must hit to cause damage.
-The personas can be any distance apart and be able to hit each other.
-Type D and E weapons attack as type C weapons but with extra attacks each turn.
+*Powered multiple attacks.*
+Type D and E attacks do not require the user's muscle power to inflict damage. 
+These attacks supply their energy to inflict damage.
+The personas can be many hexes apart and still be able to damage each other.
+Type D and E attacks function the same as type C attacks.
 Type D weapons get two attacks per turn.
 Type E weapons get three attacks per turn.
-Examples are semi-automatic (sotto) guns and hair-trigger energy weapons.
+Examples are semi-automatic rifles, quill shooting aliens and hair-trigger energy weapons.
 
 === Type F
-These are powered weapons that are fully automated (F stands for fully automatic).
-These powered weapons do not require muscle power of the user, and must hit to cause damage.
-The personas can be any distance apart and be able to hit each other.
+*Powered fully automatic attacks.*
+These attacks are fully automated (F stands for fully automatic).
+Type F attacks do not require the user's muscle power to inflict damage, and one action results in multiple attacks. 
+The attack supplies its energy to inflict damage and make multiple attacks.
+The personas can be many hexes apart and still be able to damage each other.
 Type F weapons attack as type C weapons.
 Type F weapons spray projectiles delivering lots or no damage at all.
 A typical type F weapon will disgorge 15 rounds per trigger pull. 
-Examples are machine guns, Gatling laser rifles, or machine pistols.
-
-NOTE: * EXP formerly called weapon Type F Weapon Type Special*
+Examples are machine guns, Gatling laser rifles, or a multi-mouthed alien vomit attack.
 
 === Type AOE
-These are the area of effect (AOE) weapons. 
-Type AOE weapons do not need to contact the target to cause damage.
-These weapons typically explode and damage everything in their area of effect (AOE). 
-The AOE attack roll is against a location and not a persona.
-So the player targets a specific hex to deliver the AOE weapon.
-Examples are frag grenade, napalm aerosol, or fusion grenade.
+*Area of effect attacks.*
+Type AOE attack blanket an area with damage, and require no effort by the persona.
+Area of effect attacks are unique in that they only need to land near a target to inflict damage.
+The AOE attack roll is against a target hex and not a target's defences.
+Examples are frag grenade, napalm aerosol, skunk spray, or a fusion grenade.
 
-Type AOE weapons attack as type A, B or C depending on delivery method.
+Type AOE attacks as type A, B or C depending on its delivery method.
 The persona throws Type B AOE attacks at the target hex (hand grenade).
 The persona shoots Type C AOE attacks at the target hex (grenade launcher).
 Type A AOE would be a suicide vest.
 
 // end::Attack_Types[]
 
-== Combat Tables
-In the tactical combat system, every persona has a combat table.
-The combat table blends skill level, vocation, weapon type, and attributes into one bonus.
-The player is allowed to add this bonus to every attack that she makes.
-The combat table differentiates between experienced mercenaries and inept civilians.
-The bonus is called a to hit bonus. 
-There are many other kinds of to hit bonuses in the tactical system.
+== Combat Table
+The combat table blends skill level, vocation, and attributes into an attack roll bonus.
+Every persona has a combat table.
+Every attack type has its attack roll bonus, leading to every weapon having an attack roll bonus.
+For a detailed explanation of combat tables jump to xref:i-roll_playing_rules:CH09_Combat_Tables.adoc[Combat Tables,window=_blank].
 
-The combat table is a matrix of numbers.
-Bonus Proficient (BP), Bonus Non-Proficient (BNP), Maximum Roll (MR) and Damage Adjuster (DA), is calculated for each weapon type (A, B, C).
+The combat table is a scary-looking matrix of numbers.
+The matrix is a cross of attack types (A, B, C) and attack roll parameters.
+The attack roll parameters are Bonus Proficient (BP), Bonus Non-Proficient (BNP), Maximum Roll (MR) and Damage Adjuster (DA).
 
-TIP: If the concept of a combat table seems onerous, we recommend the Theatrical Combat System.
+TIP: If the concept of a combat table seems onerous, EXP recommends the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank].
 
-include::ROOT:partial$CH27_Table_CT_Example.adoc[]
-
-We will use the story of a nameless nomad anthro persona who is in a tight spot.
+include::ROOT:partial$CH09_Table_Tiny_CT.adoc[]
 
 === Bonus Proficient (BP)
-The BP value is added to rolls with weapons the persona is skilled with.
-When a persona is proficient with a weapons she 'uses' her BP when attacking
+The player adds the bonus proficient to her attack roll for weapons in which her persona is skilled.
+
+A persona can use any weapon at any time.
 Proficiency means skilled in the context of weapons. 
-
-____
-Our nameless nomad finds herself in a chase over frozen arctic wastes.
-Occasionally she and her pursuers pause to catch their breaths and take a few shots at one another.
-Our nomad is packing her favourite 1.5 metre long harpoon.
-The nomad has used this weapon for years and is proficient with the harpoon.
-She normally uses this for spearing Giant Arctic Sea Slugs.
-One of her pursuers is within range of this weapon, and she lets fly with the wickedly barbed weapon.
-____
-
-The player rolls an attack using a kilodie.
-The player refers to the Combat Table.
-The harpoon must be thrown by the persona and that makes it a Type B attack. 
-The nomad is proficient with the harpoon.
-The player will add the type B Bonus Proficient (BP) to her attack roll.
-So the players attack roll 600 on the kilodie.
-She adds her BP +175 getting a to hit a of 775.
-775 is higher than the target's armour rating (AR) she scores a hit.
-
-=== Weapon Proficiencies
-Any tool using persona can use any weapon at any time.
-If they don't have skill in the weapon, they will not enjoy their bonus proficient.
+If a persona does not have weapon proficiency, the player cannot add her bonus proficient.
 Each persona starts with a few proficiencies and may add more with time.
 Weapon proficiencies vary between persona family and vocation type.
 Aliens are automatically proficient with their natural attacks. 
 Mercenaries are proficient with any weapon that they can identify.
 Robots are whole separate kettle of bolts.
 
+.Combat table narrative
+====
+A nameless nomad finds herself in a chase over a frozen wasteland.
+Occasionally she and her pursuers pause to catch their breaths and take a few shots at one another.
+Our nomad is packing her favourite 1.5-metre long harpoon.
+The nomad has used this weapon for years and is proficient with the harpoon.
+She usually uses the harpoon for spearing giant sea slugs.
+One of her pursuers is within range, and she lets fly with the wickedly barbed weapon.
+====
+
+The player rolls an attack using a kilodie.
+The player refers to the nameless nomad's combat table.
+The harpoon is a Type B attack (self-powered projectile weapon). 
+The nameless nomad is proficient with the harpoon.
+The player will add the type B Bonus Proficient (BP) to her attack roll.
+The player's attack roll is 600 on the kilodie.
+The Type B bonus proficient is +175, and her final attack roll is 775.
+If 775 is higher than the target's armour rating (AR), the player will get to roll damage.
+ 
 === Bonus Non-Proficient (BNP)
-The BNP value is added to rolls with weapons the persona does not know how to use.
-When a persona is non-proficient with a weapons she 'uses' her BNP when attacking
+The player adds the bonus non-proficient to her attack roll for weapons in which her persona is not skilled.
+
+A persona can use any weapon at any time.
 Proficiency means skilled in the context of weapons. 
+If a persona does not have weapon proficiency, the player cannot add her bonus proficient.
+The player adds the bonus non-proficient to her attack roll instead.
 The BNP can be much lower than the persona's BP.
 
-____
-Our nameless nomad is now sans harpoon.
-Her only other weapon she has is a pointy icepick tucked into her boot.
-She slides down an icy incline, running for some cover.
-Unfortunately an enemy is already hiding behind the cover.
-The nomad whips out her icepick, and pokes at the target.
-She only uses the ice pick to break up ice.
-Ice pick fights are strange to her.
-____
+.Combat table narrative
+====
+The nameless nomad slides down an icy incline, looking for some cover.
+Unfortunately, an enemy is already hiding behind the cover.
+Our nameless nomad is no longer has her harpoon.
+The only other weapon she has is a pointy icepick tucked into her boot.
+She whips out her icepick and pokes at the enemy.
+She only uses the ice pick to break up ice, and ice pick fights are strange.
+====
 
 The player rolls an attack using a kilodie.
-The player refers to the Combat Table.
+The player refers to the nameless nomad's combat table.
 The ice pick can only be used in close quarters and is a Type A attack. 
-The nomad is not combat proficient with the ice pick.
-The player will add the type A Bonus Non-Proficient (BNP) to her attack roll.
-So the players attack roll 500 on the kilodie.
-She adds her BNP +35 getting a to hit a of 535.
-535 is higher than the target's armour rating (AR) she scores a hit.
-This enemy will think twice about wearing an unarmoured down jacket to a knife fight.
+The nameless nomad is not proficient with the ice pick.
+The player can only add the persona's bonus non-proficient (BNP) to her attack roll.
+The player's attack roll is  500 on the kilodie.
+The Type A attack bonus non-proficient (BNP) is +35, and her final attack roll is 535.
+If 535 is higher than the target's armour rating (AR), the player will get to roll damage.
 
 === Maximum Roll (MR)
-The Maximum Roll (MR) is the highest roll the player can make when her persona attacks.
-The player's attack roll is capped at the MR for the weapon type.
-The MR increases with experience level and differentiates between experienced and neophyte personas.
-____
-After a few turns fighting with the enemy, our nameless nomad decides the ice pick isn't good enough.
-She flees the fight heading back to get her harpoon.
-In her haste, she trips over a body with a harpoon stuck in it's head.
-The first thing she notices is a laser pistol dropped by the dead referee persona.
-By a lucky twist of fate, the nomad is proficient in laser pistols!
-She grabs the pistol and shoots at her approaching enemy.
-____
+The Maximum Roll (MR) is the highest attack roll the player for her persona.
+The player's attack roll cannot be greater than the maximum roll for the attack type.
+The maximum roll (MR) increases with experience level and differentiates between experienced and neophyte personas.
+If an MR is lower than the target's armour rating, only a critical roll can damage the target.
+For more information about lucky shots jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+.Combat table narrative
+====
+After tiring of her ineffective icepick combat, the nameless nomad runs back to get her harpoon.
+She trips over a body with a harpoon stuck in its head.
+She grabs her harpoon and notices a lazer pistol in the snow.
+The nameless nomad is proficient in laser pistols!
+She grabs the pistol and shoots at the nearest pursuer.
+====
 
 The player rolls an attack using a kilodie.
-The player refers to the Combat Table.
-The laser pistol is clearly a Type C attack. 
-The nomad has proficiency with laser pistol.
-The player will add the type C Bonus Proficient (BP) to her attack roll.
-So the players attack roll 800 on the kilodie.
-She adds her BP +230 getting a to hit a of 1030.
-This is a very high roll. 
-It does not mean the nomad can choose to shoot out the target's left eye.
-The maximum roll kicks in and her 1030 becomes 905.
-This is also a high roll and the target is damaged.
+The player refers to the combat table.
+The laser pistol is a Type C attack. 
+The nomad has proficiency with a laser pistol.
+The player can add the Type C attack bonus proficient (BP) to her attack roll.
+The player's attack roll is 800 on the kilodie.
+The Type C bonus proficient is +230, and her final attack roll is 1030.
 
-Any Type A attack roll higher than 790 would become 790.
-Any Type B attack roll higher than 825 would become 825.
-Any Type C attack roll higher than 905 would become 905.
+1030 is a very high attack roll. 
+The persona's maximum roll limits the player's attack roll.
+In this case, the persona's maximum roll (MR) kicks in, limiting her attack roll to 905. 
 
 === Damage Adjustment (DA)
-Each successful attack roll the player makes delivers damage to the target.
-Damage is subtracted from the target's hit points incapacitating or killing the persona.
-Non-powered weapons inflict more damage the stronger the persona is.
-This amount added to the damage roll is called the damage adjustment. 
+The player adds the persona's damage adjustment when she makes a damage roll.
+When the player wins an attack roll in combat, she makes a damage roll that decreases the target's hit points.
+Decreasing the opponent's hit points is the goal of combat. 
 
-When the nameless nomad hit her target with a harpoon her player would added her Type B DA.
-This Type B Damage Adjustment is +6. 
-If the player rolled 6 points of damage, she would add 6 more and damage the enemy by 12 hit points.
-The nameless nomad is not proficient with the ice pick.
-Proficiency only affects the ability to hit the target, not the damage delivered.
-A hit with an ice pick would add her Type A DA of 12 hit points.
-Her lack of proficiency led to less frequent hits but the same damage as her harpoon.
-Type C attacks have no DA because they do not use physical strength to damage the target.
-A hit with the laser pistol would deliver only the damage specified by the weapon. 
- 
-== Attack Roll
-Any attempt a persona makes to harm another persona is an attack. 
-The paragraphs here focus on attacks using weapons in persona vs persona combat.
-Attacks that involve naval artillery, battling vehicles are covered in other sections.
+The persona's physical strength determines the damage adjustment.
+Type A attacks require physical strength to inflict damage and therefore have the highest damage adjustment.
+Type C attacks are self-powered and have no damage adjustment at all.
 
-A successful attack requires the player to win an attack roll on behalf of her persona.
-The more a player has successful attack rolls, the more damage she delivers to her target.
-The more damage delivered to the target, the better the chance of successful combat.
-Keep in mind that the referee personas will be doing the same thing back.
-The only winners are the ones that survive.
-
-NOTE: *An attacker generates an attack roll by rolling a kilo-die (hence roll
-to hit).*
-
-The higher the attack roll, the better.
-The attack roll must be greater than the target's defences. 
-These defences are collectively called the armour rating of the target.
-Combat is a series of attack rolls rolled by the referee and the players.
-Successful attack rolls damage damage the personas.
-Too much damage results in death. 
-
-Many elements influence attacks, including weapon type, attack roll bonuses, EXPS levels, weapon proficiencies and luck. 
-
-== Kilo Die
-The kilo-die is a thousand-sided die, or 1d1000.
-The 1d1000 generates a random number between 1 and 1000.
-1d1000 rolls are for attack rolls in combat.
-Hence the nickname kill-o-die.
-
-The kilodie allows the referee to assign tiny adjustments for minutiae.
-For example, a player wants an attack roll bonus or making a ferocious face.
-The referee rewards this role-playing choice by giving the player +10 on her attack roll.
-If the player wins the attack roll because of this +10 bonus, there will be much rejoicing and merriment.
-The kilodie allows for more detail and fun in the tactical combat system.
-
-The kilo die is not a golf ball with tiny writing on it.
-The kilo die utilizes three ten-sided dice to create the big number.
-For example, roll a red, a yellow and a green ten sider dice all at once.
-
-* The red die is assigned the hundreds place.
-** 900, 800, 700, 600, 500, 400, 300, 200, 100 and 0 
-* The yellow die is assigned to the tens place.
-** 90, 80, 70, 60, 50, 40, 30, 20, 10 and 0 
-* The green die is assigned to the digits place.
-** 9, 8, 7, 6, 5, 4, 3, 2, 1 and 0 
-
-Rolling six on the red ten sider, six on the yellow ten sider, and four on the green ten sider generates a die roll of 664 on the kilodie.
-These colour choices are arbitrary but must remain consistent.
-
-Players can achieve the same result by rolling 1d10 three times. 
-However, users of the Roll Playing System usually prefer to roll lots of dice.
-
-include::ROOT:partial$CH27_Table_Tactical_Kilo.adoc[]
-
-=== Alternate Dice Systems
-The 1d1000 is used in the tactical system to allow for detail.
-If you don't need detail, then it is possible to scale the game to dice that work for you.
-If the group prefers to use different dice for combat, the rules scale nicely.
-The players should round down all bonuses and penalties.
-
-.*d1000 scales nicely*
-* for 1d100 divide by 10
-* for 1d20 divide by 50
-* for 1d10 divide by 100
-
-If you prefer to use a 1d10 to determine combat, you may enjoy the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank] used in the Roll Playing Rules.
- 
-
-
+When the player wins an attack roll with a Type A weapon (icepick), she adds six hit points to the damage score.
+When the player wins an attack roll with a Type B weapon (harpoon), she adds three hit points to the damage score.
+When the player wins an attack roll with a Type C weapon (lazer pistol), she adds nothing to the damage score.
 
 == Armour Rating
-Almost everything has a defence. 
 Personas wrap all their defences up into one number called Armour Rating (AR).
-The Armour Rating (AR) determines how difficult it is to hit the persona and damage her.
-Dexterity, armour, hide, body structure, and luck are rolled into the Armour Rating (AR).
-
 The armour rating is a quantitative value that represents how difficult it is to damage the target.
 The higher the armour rating, the better the protection it offers.
+Dexterity, armour, hide, body structure, and luck are rolled into the Armour Rating (AR).
+For more details about armour rating jump to xref:i-roll_playing_rules:CH29_Armour_Rating.adoc[Armour Rating,window=_blank].
 
 == Combat Time
 Each turn of combat time in the tactical combat system is called a unit.
+Every player gets a turn to do something for each unit.
 A unit is the smallest measure of time where a persona can get something done.
 Getting something done includes: running, shooting, blasting a mutation, etc.
-A unit of combat time is 2 seconds in EXP.
-The 2 second turn seems rather arbitrary. 
-However, movement rates, mutation durations, artifact effects are all based on this unit of time.
-
-Combat time is different from regular role-playing time.
-When personas are sitting around kibitzing about who has more credits, time passes normally.
-The expedition may skip over months of travel in a space vehicle with the wave of a pen.
-However combat time is the opposite.
-The 2 second unit leads to a time distortion where 10 seconds of combat can take 10 minutes to play.
+Movement rates, mutation durations, and artifact effects are all based on this unit of time.
+A unit of combat time is 2 seconds long.
+You can take the time to learn more by jumping to xref:i-roll_playing_rules:CH12_Combat_Time.adoc[Combat Time,window=_blank].
 
 == Combat Movement
-Combat movement is based on hexes per unit.
-Hexes refers to how many hexes on the mat a token can be moved each unit.
+Combat movement determines how far a persona can move each unit (2 seconds) of combat time.
+The measure of combat distance is the hex, and the size of a hex is 2 meters.
 A slow persona with a movement rate of 3 hexes per unit (3 hu) could move three hex spaces per turn.
 A fast persona with a movement rate of 9 hu could move 9 hex spaces each turn.
-The movement rate of a persona is mostly determined by her dexterity.
-Being able to move great distances per turn is a fabulous combat advantage.
-
-Movement rate only matters on the hex mat in a tactical combat system persona fight.
-A hex is 2 meters and a unit is 2 seconds, so hexes per unit conveniently converts to meters per second.
-All movement rates are recorded in hu. 
-This includes vehicles, robots, aliens and anthros.
+To learn more about movement move over to xref:i-roll_playing_rules:CH12_Combat_Movement.adoc[Combat Movement,window=_blank].
 
 == Initiative
-Initiative is a tactical combat rule system that determines who gets to act first during combat.
-It is not just a simple measure of who goes first. 
+The initiative system determines the order in which players act during the combat unit.
 Initiative is a measure of tactical advantage based on awareness, dexterity and luck.
+Every player rolls for initiative for their persona in every combat unit.  
+Winning initiative is a huge tactical advantage for the persona.
 
-Initiative is checked for every persona every turn (unit) of combat. 
-The personas are all ranked from highest to lowest initiative. 
-The persona with the highest initiative can move and attack first if they wish.
-They are also allowed to wait movement and attack until it suits them best. 
-Winning initiative is a huge tactical advantage in the tactical combat system.
-
-== More Stuff
-These 5 elements cover the basics of tactical combat. 
-Referees and players can pick and choose what works for their milieu.
-There are also many more tactical combat rules that can be added in.
-Terrain and weather adjustments for attack rolls and movement.
-Range adjustments based on weapon type. 
-Attacking from vehicles. 
-Ambush effects.
-Hit locations.
+It is not just a simple measure of who goes first
+Initiative is complex and convoluted.
+Players can choose to attack first, move first or move and attack first. 
+Players can also hold back their attacks and moves to gain a tactical advantage. 
+For more details about initiative, jump to
+xref:i-roll_playing_rules:CH33_Initiative.adoc[Initiative,window=_blank].
 
 == Table Top
 The tactical combat system expects to be used on a hex mat using minis or tokens.
 The combat system does not require mats and minis, but it seems like a lot of calculating for nothing.
 
-TIP: If you do not know what hex paper is or what minis are, we recommend the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank].
+TIP: If you do not know what hex paper is or what minis are, EXP recommends the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank].
 
 === The Mat
 A hex mat is a specially designed mat covered in hexagons.
@@ -404,4 +326,3 @@ VTTs can have everyone in the same room or in different countries.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
-
