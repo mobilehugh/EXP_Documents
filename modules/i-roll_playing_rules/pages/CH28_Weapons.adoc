@@ -2,97 +2,106 @@
 
 [quote]
 ____
-*Sticks and stones may break my bones. A fusion pistol's gonna roast me.*
+*Sticks and stones may break my bones. A fusion pistol roasts me.*
 ____
 
-An attack is anything that intends to injure another persona.
-An attack is when the player makes an attack roll in an attempt to reduce a target's hit points.
-This section focuses on attack rolls using weapons, tentacles or ramming. 
-It includes any action where the attack roll is trying attack a specific target.
-For example the target hex of an area of effect weapon.
-
-Attack types *not* detailed here include: psionic attacks, poisons, or bullying.
+An attack is any action where a persona attempts to injure another persona.
+This section focuses on attacks where the persona is trying to injure the target persona physically.
+The attack types detailed here include weapons, body parts, and explosions. 
+The section does not detail attack types like psionics, poisons, or bullying.
 
 == Attack Types
-EXP has an enormous variety of attack types.
-Attack types go far beyond weapons. 
-Attack types include alien tentacles and robot peripherals.
-A weapon, an evolved ability and a deadly peripheral may all have the same attack type.
-The attack types are organized by power, range, and frequency. 
-There are many edges cases and exceptions.
+Attack types divide the widely various methods of killing off personas into a few basic groups. 
+Attack types separate based on damage mechanism, frequency of attack, and range. 
+An attack type can include weapons, alien attacks and misused robot peripherals.
 
 Each persona deploys each attack type differently depending on their family and vocation.
-These personalized differences are in the xref::CH09_Combat_Tables.adoc[Combat Table] section.
+These personalized differences are in the xref::CH09_Combat_Tables.adoc[Combat Table,window=_blank] section.
 
 include::ROOT:partial$CH28_Table_Attack_Types_Intro.adoc[]
 
 == Type A Attacks
-These are non powered thrusting and striking attacks.
-Type A attacks depend on the muscle power of the attacker, and must connect with target to cause damage.
-The combatants must be in adjacent hexes to be able to damage each other.
-A type A attack roll can be made once per turn (called a unit).
+*Non-powered thrusting and striking attacks. *
 
-Examples are: clubs, fists, claws, bites, swords, and ramming.
-An anthro could use a weapon like a sword or a axe. 
-An alien could use it's natural attack like a bite, or a talon slash.
-A robot could use a malfunctioning peripheral that operates like an club.
+Type A attacks depend on the persona's muscle power to inflict damage. 
+The personas must be in adjacent hexes to be able to damage each other.
+Type A attacks get one attack roll per unit.
+ Examples are clubs, fists, swords, pincers, claws and axes.
 
-Aliens and robots can have multiple attacks per turn with their type A attacks.
-For example an alien may be able to bite three times each turn.
-Or a robot may have multiple pointy things to stab with.
+An anthro could use a weapon like a sword or an axe. 
+An alien could use a natural attack like a bite or a talon slash.
+A robot could use a malfunctioning peripheral that operates as a club.
+
+Aliens and robots can have multiple Type A attacks per unit.
+For example, an alien may have multiple tentacles with which to slap.
+Or a robot may have multiple pointy things with which to stab.
 
 === Type A Weapons
 These are non-powered thrusting and striking weapons.
-Type A weapons are hand held, but can include the hand itself.
+Type A weapons are handheld but can include the hand itself.
 Type A weapons include swords, maces, pole-arms, fists, paws, beaks, spears, etc.
-They are close combat weapons and the target must be in the persona's hex or an adjacent hex.
+They are close combat weapons, and the target must be in the persona's hex or an adjacent hex.
 
 include::ROOT:partial$CH28_Table_Type_A_Weapons.adoc[]
 
-The length and wate of the weapons is self explanatory.
-AR bonus is granted to personas that have a proficiency in the weapon as a shield.
-The AR bonus is added to the persona's armour rating.
-Damage indicates the die roll that is made if the player makes a successful attack roll.
-For type A weapons the damage value is increased by half the persona's PSTR attribute.
+Length::
+Self-explanatory.
+
+Wate::
+Self-explanatory.
+
+Armour Rating Bonus::
+If the persona has proficiency with the weapon, she can add an AR bonus.
+The armour rating bonus only applies when the persona is using the weapon in combat.
+The player multiplies the AR Bonus by the persona's dexterity score and adds it to her armour rating.
+
+Damage::
+Damage indicates how many hit points the weapon removes from the target's hit points.
+The player also adds her damage adjuster for Type A attack to the damage inflicted (one-half her PSTR).
 
 == Type B Attacks
-These are non-powered projectile attacks.
-Type B attacks depend on the muscle power of the user, and are launched the target to cause damage.
-Unlike type A attacks the attacker launches a projectile using their own muscle power.
-The combatants may be several hexes apart and still be able to damage each other.
-A type B attack roll can be made once per turn (called a unit).
+*Non-powered projectile attacks.*
 
-Examples are: arrows, bolts, rocks, quills and spit.
+Type B attacks depend on the persona's muscle power to inflict damage.
+The personas may be several hexes apart and still be able to damage each other. 
+Type B attacks get one attack roll per unit.
+Examples are arrows, bolts, rocks, quills and spit.
+
 An anthro would use a weapon like a bow or a sling. 
 An alien could have an evolved natural attack like spitting rocks or flinging quills.
 A robot could use a malfunctioning peripheral that flings metal shavings.
 
 Aliens and robots can have multiple attacks per turn with their type B attacks.
-For example an alien may be able to spit three times each turn.
+For example, an alien may be able to spit three times each turn.
 Or a robot may have multiple pointy things to fling at her targets.
 
 === Type B Weapons
 These are non-powered projectile weapons.
-Throwing weapons are ones that can inflict damage at a distance.
-Type B weapons include: rocks, daggers, boomerangs, whips, spitting, arrows, darts, etc.
-
-Type B weapons can attack every unit, but they cannot be used at close range.
-Type B weapons are not close combat weapons.
-They cannot be used on targets all up in the persona's grill (in the same hex).
-Some type B weapons must be retrieved before they can be used again. 
+Type B weapons include rocks, daggers, boomerangs, whips, spitting, arrows, darts, etc.
+Type B weapons are not close combat weapons, and there must be at least one hex between the persona and her target.
 
 include::ROOT:partial$CH28_Table_Type_B_Weapon_Data.adoc[]
 
-The Wate is self explanatory.
+Length::
+Self-explanatory.
 
-Range represents how many hexes the weapon can fly true.
-Beyond the range the weapon becomes much less accurate. 
-The decay is a penalty for the attack roll with this weapon for each hex beyond it's range.
-For example, an axe being thrown 10 hexes would have no penalties.
-The same axe being thrown 16 hexes would have a -600 penalty.
+Wate::
+Self-explanatory.
 
-Damage indicates the die roll that is made if the player makes a successful attack roll.
-For type B weapons the damage value is increased by quarter of the persona's PSTR attribute.
+Range::
+The range represents how many hexes the weapon can fly true.
+There are no attack roll penalties within the weapon's range.
+Beyond the range, the weapon becomes much less accurate. 
+
+Decay::
+When attacking a target beyond the weapon's range, the attack roll suffers decay penalties.
+The player subtracts the decay from the attack roll for every hex beyond the weapon's range. 
+For example, an axe thrown ten hexes would have no penalties.
+The same axe thrown 16 hexes would have a -600 penalty.
+
+Damage::
+Damage indicates how many hit points the weapon removes from the target's hit points.
+The player also adds her damage adjuster for Type B attack to the damage inflicted (one-quarter of her PSTR).
 
 :art: cow_moose_antlers_both_front.png
 :width: 350px
@@ -105,128 +114,137 @@ For type B weapons the damage value is increased by quarter of the persona's PST
 include::ROOT:partial$articulate.adoc[]
 
 == Type C Attacks
-These are powered projectile attacks.
-Type C weapons do not require muscle power of the user, and are just pointed at the target to cause damage.
-Combatants can be quite far apart and be able to damage each other.
-A type C attack roll can be made once per turn (called a unit).
+*Powered projectile attack.*
 
-Examples are: bullets, laser bolts, energy beams, and crossbow bolts.
-An anthro using a weapon like a gun or a lazer.
+Type C weapons do not require the muscle power of the persona.
+The attack supplies its energy to inflict damage. 
+For example, the destructive forces may come from a battery or an explosive charge in a bullet.
+The personas can be many hexes apart and still be able to damage each other. 
+Type C attacks are limited to once per combat unit. 
+Examples are bullets, laser bolts, energy beams, and crossbow bolts.
+
+An anthro could use a weapon like a gun or a lazer.
 An alien could have a naturally evolved attack like lazer eyes or gas projected bone chunks.
-A robot could be a combot with a baked in gun or a construction robot misusing a nail gun. 
+A robot could be a combot with a baked-in gun or a construction robot misusing a nail gun. 
 
 === Type C Weapons
 These are powered weapons.
-Powered weapons do not depend on the physical strength of the attacker to inflict damage.
-Type C weapons little physical effort to attack and inflict damage.
-The killing forces are generated by batteries, expanding gases, springs, or other methods that are independent of the persona's PSTR.
-A typical type C weapon can attack every unit without taxing the persona in anyway.
-
+Type C weapons are the classic guns and lazer weapons from sciency fiction and action movies.
 Most type C weapons are artifacts like guns or lasers. 
-Mundane type C weapons are listed here.
 Powered weapons include lasers, crossbows, rifles, fusion guns, death rays, machine pistols, etc.
+Exotic, dangerous tech weapons are described in xref:iii-hardware:CH46_Guns.adoc[Guns,window=_blank].
+Mundane type C weapons are listed below. 
 
 include::ROOT:partial$CH28_Table_Type_C_Weapon_Data.adoc[]
 
-The Wate is self explanatory.
+Length::
+Self-explanatory.
 
-Range represents how many hexes the projectile can fly true.
-Beyond the range the projectile becomes much less accurate. 
-The decay is a penalty for the attack roll with this weapon for each hex beyond it's range.
-For example, a small crossbow being shot 10 hexes would have no penalties.
-The same bolt being shot 28 hexes would have a -375 attack roll penalty.
+Wate::
+Self-explanatory.
 
-Damage indicates the die roll that is made if the player makes a successful attack roll.
-For type C weapons the damage value there is no damage benefit from PSTR.
+Range::
+The range represents how many hexes the weapon can fly true.
+There are no attack roll penalties within the weapon's range.
+Beyond the range, the weapon becomes much less accurate. 
+
+Decay::
+When attacking a target beyond the weapon's range, the attack roll suffers decay penalties.
+The player subtracts the decay from the attack roll for every hex beyond the weapon's range. 
+For example, a small crossbow at a ten hex range would have no penalties.
+The same small crossbow at 28 hexes would have a -375 attack roll penalty.
+
+Damage::
+Damage indicates how many hit points the weapon removes from the target's hit points.
+There are no physical strength adjustments for Type C weapons.
 
 == Type D, E Attacks
-These are powered projectile attacks.
-Type D and E attacks do not require muscle power of the user, and are just pointed at the target to cause damage.
-Type D and E attacks are the same as type C attacks but with extra attacks each turn.
-Combatants can be quite far apart and be able to damage each other.
-Type D attacks get two attacks per turn.
-Type E attacks get three attacks per turn.
+*Powered projectile attacks.*
 
-Examples are: bullets, laser bolts, energy beams, and crossbow bolts.
-An anthro using a weapon like a fission or plasma rifle.
-It would be unusual for an alien to have a type D attack type.
-Aliens tend to have multiple attacks of type A, B or C. 
-A robot with type D or E attacks usually has a baked in weapon that functions like a fission or plasma gun.
+Type D and E attacks function the same as Type C attacks but have more than one attack roll per unit.
+These attack types do not require any physical strength from the persona to inflict damage or make multiple attack rolls.
+Combatants can be quite far apart and be able to damage each other.
+Type D and E attacks are usually artifact weapons found in the xref:iii-hardware:CH46_Guns.adoc[Guns,window=_blank] section.
+It is also possible for an alien to have an evolved attack that functions like a Type D or E attack. 
+
+.*Attack Rolls per Unit*
+. Type C one attack roll per unit
+. Type D two attack rolls per unit
+. Type E three attack rolls per unit
 
 == Type F Attacks
+*Powered fully automated projectile attacks.*
+
 These are powered attacks that are fully automated (F stands for fully automatic).
-Type F attacks are almost always weapons.
-In EXP full auto weapons are often referred to as flotto weapons
-These powered weapons do not require muscle power of the user, and are just pointed to cause damage.
+Type F attacks function the same as Type C attacks but have more than one attack roll per unit.
+These attack types do not require any physical strength from the persona to inflict damage or make multiple attack rolls.
 Combatants can be quite far apart and be able to damage each other.
-A type F weapons functions as a type C attack.
-Type F weapons spray projectiles delivering lots of damage or none at all.
 
-A typical type F weapon will disgorge 15 rounds per trigger pull. 
-The player makes 5 attack rolls each time they pull the trigger.
-For each attack roll that scores a hit the target will be hit with 0-3 rounds (1d4-1).
-Each round then delivers damage to the target.
-Type F attacks are usually spray and pray weapons. 
+NOTE: *The former name of Type F attack was Weapon Type Special*
 
-Examples are: machine gun, Gatling laser rifle, or machine pistol.
-It is very unusual for an alien to have an evolved type F attack.
-However tool using aliens could arm themselves the same as anthros.
+A machine gun that releases a hail of bullets with the pull of a trigger is the most iconic Type F attack.
+Type F attacks are usually artifact weapons found in the xref:iii-hardware:CH46_Guns.adoc[Guns,window=_blank] section.
+It is also possible for an alien to have an evolved attack that functions like a Type F attack. 
 
-NOTE: *Weapon Type F was formerly called Weapon Type Special*
+The player will make five attack rolls per unit when using a Type F weapon.
+Each burst uses 15 rounds of ammunition.
+Each attack roll represents a random number of ammo rounds (bullets, lazer bolts, etc.).
+For each successful attack roll anywhere from 0-3 rounds (1d4-1) damage the target.
+While extremely unlikely, it is possible to win five attack rolls and land zero rounds on the target. 
 
-=== Type D, E, and F Weapons
-These are powerful artifact weapons that are created using the TOYS.
-There may be some mundane rapid firing weapons.
-That would depend on the milieu that the referee has created. 
+A persona fires her medium-powered full auto lazer pistol at a target. 
+A medium-powered full auto lazer pistol inflicts 2-20 (2d10) hit points of damage per lazer bolt.
+The player makes five attack rolls on the target. 
+Three of the attack rolls damage the target, two of the attack rolls miss.
+The weapon discharges 15 rounds of ammunition regardless.
+The player will then roll 1d4-1 three times to see how many lazer bolts damage the target. 
+If the player rolls 2, 0, 3 for how many bolts land on the target, she will roll 10d10 hit points of damage. 
+
+Only mercenaries with flotto skills can "spread" the attack rolls between different targets.
+In EXP, full auto weapons have the nickname of flotto weapons.
 
 == Type AOE Attacks
-These are area of effect (AOE) weapons. 
-Type AOE weapons do not need to contact the target to cause damage.
-These weapons typically explode and  damage everything in their area of effect (AOE). 
-The attack roll is made against a location and not a persona.
-So the player targets a specific hex to deliver the AOE weapon.
-Examples are: frag grenade, napalm aerosol, or fusion grenade.
+*Area of Effect attack*
 
-Type AOE weapons attack as type A, B or C depending on delivery method.
-Type A AOE would be a suicide vest.
-Type B AOE are thrown at the target hex (hand grenade).
-Type C AOE are shot at the target hex (grenade launcher, or aerosol).
+An area of effect attack covers a predetermined area of combat with damage.
+Type AOE attacks are unique because the player does not attack a persona's armour rating but makes an attack roll on a target hexagon.
+The attack roll is against a location and not a persona.
+For the explosive details of area of effect combat jump to 
+xref:i-roll_playing_rules:CH30_Area_of_Effect_Weapons.adoc[Area of Effect,window=_blank].
+
+The player targets a specific hex for the AOE weapon.
+She then makes an attack roll to see if she hits the desired target hex.
+The armour rating of a hexagon is 600.
+The player must win an attack roll versus AR 600 to have her persona's area of effect weapon land where she wants.
+Every persona in the area of effect is damaged.
+There is no saving throw.
 
 === Type AOE Weapons
-Most area of effect weapons are powerful artifacts created using the TOYS.
-There are some mundane area of effect weapons. 
-These are all type B AOE weapons and are thrown by the persona.
-These weapons are volatile and can lead to self harm.
-
-==== Fabrication
-Each mundane area of effect weapon must be constructed by a mechanic.
-These weapons cannot be fabricated during combat.
-The mechanic must make a successful DD7 Performance Roll.
-A critical failure could lead to detonation during construction.
-Detonation during construction can cause nearby mundane AOEs to detonate as well.
-Grab those Sphincter Dice.
-
-==== Activation
-Each device takes one unit of preparation before a attack roll can be made.
-This preparation time could be lighting, shaking or twisting. 
-A attack roll is made like any other type B attack.
-The attack roll is not against a persona target but a specific hex.
-Grenade misses are detailed in xref::CH30_Area_of_Effect_Weapons.adoc[area of effect combat]
-The player can only use the bonus proficient if her persona is proficient with grenades.
-So most personas will only be able to add their bonus non-proficient to the grenade attack roll.
-Using one's BNP makes improvised grenade devices even more dangerous.
-
-==== Detonation
-No one really knows what will happen when the device is thrown.
-The below values are taken from the attack roll.
-
-.*AOE and attack roll (without BP)*
-* 000-042 Detonation in hex of thrower
-* 043-200 No detonation, may be thrown back
-* 201-599 Ineffectual detonation or destroyed
-* >600 Target hex hit boom.
+Most Type AOE attacks are weapons like xref:iii-hardware:CH45_Grenades.adoc[Grenades,window=_blank] or
+xref:iii-hardware:CH43_Aerosols.adoc[Aerosols,window=_blank].
+An alien or robot can have a Type AOE attack.
+Below are the mundane area of effect weapons.
+Mundane Type AOE weapons function as Type B attacks.
 
 include::ROOT:partial$CH28_Table_Type_AOE_Data.adoc[]
 
-// mundane versus artifact
+Wate::
+Self-explanatory.
+
+Range::
+The range of mundane grenades is equal to one hex per point of physical strength.
+A persona with a physical strength of ten could aim at a target ten hexes away. 
+
+AOE::
+Mundane area of effect weapons are unpredictable.
+The player must roll the area of effect each time one of them detonates.
+An AOE of zero indicates only the target hex is damaged.
+The other hex values are the radius of the damage.
+
+Roll::
+What dice to use to generate the AOE radius of effect.
+
+Damage::
+Damage indicates how many hit points the weapon removes from the target's hit points.
+There are no physical strength adjustments for Type AOE weapons.
 
