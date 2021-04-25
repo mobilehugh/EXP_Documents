@@ -1,11 +1,11 @@
 // Table 33.3 Same Unit Third Pass
-.*Unit One. Third Pass*
+.*Unit One. Third Actions.*
 [width="75%",cols="2*^,<",frame="all", stripes="even"]
 |===
-3+<|Dabel and Cable are done. Babel must now move.
+3+<|Action order Babel's forced move action. 
 
 s|Persona
-s|Init Score
+s|Init Order
 s|Actions
 
 |Abel
@@ -15,8 +15,8 @@ Waits Attack
 
 |Babel
 |21
-|Must Move +
-Attack Done
+|*Forced Action* +
+Moves (Attack done)
 
 |Cable
 |--
@@ -27,6 +27,6 @@ Attack Done
 |Done
 
 s|Persona
-s|Init Score
+s|Init Order
 s|Actions
 |===
