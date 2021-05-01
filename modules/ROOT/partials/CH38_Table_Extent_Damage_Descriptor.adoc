@@ -1,13 +1,11 @@
 // Table 38. NEW Descriptor of system damage
 .*Descriptor of Component Damage*
-[width="75%",cols="2*^",frame="all", stripes="even"]
+[width="75%",cols="^,<",frame="all", stripes="even"]
 |===
 2+<|How badly is the part broke? 
 
-s|Percent +
-Function
-s|Function +
-Descriptor
+s|Percent Function
+s|Function Descriptor
 
 |100
 |Fully Operational
@@ -27,9 +25,7 @@ Descriptor
 |<1
 |Destroyed
 
-s|Percent +
-Function
-s|Function +
-Descriptor
-2+<|Hull AR is destroyed when AR = 400. 
+s|Percent Function
+s|Function Descriptor
+2+<|Hull AR is destroyed when AR < 420. 
 |===
