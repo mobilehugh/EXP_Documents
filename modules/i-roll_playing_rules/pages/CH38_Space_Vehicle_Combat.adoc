@@ -5,6 +5,11 @@ ____
 We shall fight them on the beaches. We shall fight them in the troposphere. We shall fight them in the cold, silent darkness of space. 
 ____
 
+// attack rolls vs comp rolls vs pilot rolls
+// need a list of attacks and what can assist them and what can defend against them.
+// maybe a better attack defend counter cycle table
+// what the fuck are counters anyways
+
 Combat in outer space is very deadly.
 The threat to organic life is total.
 The speeds are incredible.
@@ -205,94 +210,92 @@ Init = 1d20 + computer 4 + pilot 3 = 1d20 +7 = 15 + 7 = 22
 Spaceship One (SS One) has the attacks ECM, Ramming, and Artillery. 
 Spaceship Two (SS Two) has the attacks Ramming, Artillery and Grenades. 
 
-.*Example Attack Order and Initiative*
-. SS One can use its ECM unanswered. No initiative roll. 
-. Both vehicles have ramming, 
-. Both vehicles have Ramming and initiative SS Two attacks with 2-Ram, SS One defends with 3-Artillery (used 1-ECM as an attack)
-. SS One and SS Two want to attack with 3-Artillery initiative roll is required
-. Neither ship is trying to 4-Board
-. SS Two fires 5-Grenades as mini-missiles, SS One has no defense (used 1-ECM as an attack)
-
-An ECM unit can be used defensively or offensively each turn. 
-The player pilot must decide which. 
-To do both offensive and defensive ECM, the space vehicle must have two ECM units. 
+.*Turn order and Initiative*
+. SS One attacks with ECM.
+.. No initiative roll. 
+. SS Two makes a ramming attempt.
+.. No initiative roll.
+.. SS One has used up ECM.
+. Both fire their artillery
+.. Initiative rolls required.
+. Neither ship is boarding
+. SS Two fires mini-missile grenades
+.. No initiative roll
+.. SS One has used up ECM.
 
 == Attacks
 Attacks are a collection of electronic, kinetic, and energy weapons that one ship uses to control or damage another ship.
 Some attacks work as defences as well.
 
 .*List of Attacks*
-. ECM
-. Ramming
-. Artillery
-. Boarding
-. Grenades
-. Bombs
-. Naval artillery
+. <<_ecm,ECM>>
+. <<_ramming,Ramming>>
+. <<_artillery,Artillery>>
+. <<_boarding,Boarding>>
+. <<_grenades,Grenades>>
+. <<_bombs,Bombs>>
+. <<_naval_artillery,Naval Artillery>>
 
-// attack rolls vs comp rolls vs pilot rolls
 
-// need a list of attacks and what can assist them and what can defend against them.
-// maybe a better attack defend counter cycle table
 
 == ECM
-ECM is the abbreviation for electronic countermeasures.
+ECM is an abbreviation for electronic countermeasures, and it is pronounced "easy em."
 ECM is the battle for control over the electromagnetic spectrum.
 In space vehicle combat, ECM is the battle for control over the electronics of the target ship.
-Attack ECM can confuse the target ship's defences with false data, control an essential component of the target ship, or be used as defensive instead of attack.
+Attack ECM can confuse the target ship's defences with false data and control the target ship's essential component.
+Or be used as defensive instead of attack.
 The pilot must choose between Attack Assist, Control Attack or Defense for her ECM each turn.
 An ECM attack unit is still an ECM unit and can be used to defend instead.
 One unit cannot do both.
 
 === ECM Attack Assist
-When ECM is being used to assist its own ship's attacks, it will attempt to deceive the target by creating inaccurate or false data for the target ship to deal with.
-This may be done by making single attacks appear as multiple attacks, altering the apparent course of incoming attacks, or confusing the estimated arrival time of an attack.
+When ECM is being used to assist its own ship's attacks, it will attempt to deceive the target by creating inaccurate or false data for the target ship.
+ECM does this by making single attacks appear as multiple attacks, altering the apparent course of incoming attacks, or confusing the estimated arrival time of an attack.
 All such falsified data will increase the chance of success of a ship's attack.
 
-ECM assisted attack rolls receive a bonus of +150 attack per computer level.
+ECM-assisted attack rolls receive a bonus of +150 attack per computer level.
 Percent attacks receive a bonus of +3% of success per computer level.
-Thus a space vehicle with a level 2 computer making a attack roll attack (missiles) assisted by ECM, would get +300 on the attack roll.
-The same space vehicle would enjoy a bonus of +6% for success with percent attacks (ramming) when being assisted by ECM.
+A space vehicle with a level 2 computer making an attack roll attack (missiles) assisted by ECM would get +300 on the attack roll.
+A level 2 computer gives a bonus of +6% for success with percent attacks (ramming) when being assisted by ECM.
 
 === ECM Control Attack
-ECM control is used to manipulate a target ship's onboard systems, play is far more interesting because player input is required.
+ECM control manipulates a target ship's onboard systems.
 The chance of successfully controlling another ship's systems is 8% per level of the attacking spacecraft's computer.
-If an ECM Control Attack should fail, it cannot be re-attempted during this combat session.
-At first glance, the range of effects of the ECM Control Attacks seems quite limited, in reality, the number of targets is virtually limitless.
-If an attempt to reduce drive effectiveness fails, the ECM Control Attack can try to alter the ship's gravity in the next turn.
+If an ECM Control Attack should fail, that particular control attack cannot be re-attempted during the combat session.
+However, a different ECM Control Attacks are still possible. 
+If an attempt to reduce drive effectiveness fails, the ECM Control Attack can attack the ship's gravity in the next turn.
 The pilot can choose to use control attacks until something clicks.
 
-=== ECM Computer Roll
+=== ECM Attack Roll
 .chance = 100 - 8% per computer level
 ****
-Level 6 computer. (100 - 48) = 52. Player must roll 52 or higher. 
+Level 6 computer. (100 - 48) = 52. The player must roll 52 or higher. 
 ****
 
-If control ECM is successful, the targeted component is reduced in capacity.
-This effect will last until the targeted ship's own ECM breaks the attack ECM, the target ship uses its special drives, or the attacking ship ceases its attack.
-An ECM unit is completely occupied while controlling another ship's components.
-Some of the most common ECM controls are described here, however, the referee should be prepared to improvise.
-When improvising, the ref should remember that a successful ECM attack will not destroy a ship, it merely reduces a particular component's effectiveness, and increases the ship's vulnerability to other attacks.
+If control ECM is successful, the targeted component's capacity decreases.
+An ECM unit cannot do anything else while controlling the target ship's components.
+This effect will last until the target ship breaks the ECM, the target ship uses its special drives, or the attacking ship ceases the attack.
 
 include::ROOT:partial$CH38_Table_Example_ECM_Control_Attacks.adoc[]
 
+The referee will often need to improvise the effect of an ECM control attack.
+When improvising, the ref should remember that a successful ECM attack will not destroy a ship.
+An ECM control attack reduces a particular ship component's effectiveness and increases the ship's vulnerability to other attacks.
+
 == Ramming
-Ramming is a method of boarding a target space vehicle where all caution has been thrown to the solar wind.
-A space cruiser capable of ramming will have a specialized airlock which can attach to any part of the target ship's hull.
-Once attached the invading party may breach the hull, airlock, or whatever to gain entry into the ship.
-In procedure, ramming is similar to boarding except that ramming is accompanied with lots of crunching and scraping noises.
-Ramming, requires skill and brute force.
+Ramming is a boarding method.
+Ramming is similar to boarding, except that ramming has lots of crunching and scraping noises.
+Ramming is different from regular boarding because it does not align airlocks.
+A space cruiser with a ramming attack has a specialized fortified airlock that can ram into any part of the target ship's hull.
+Ramming is violent and throws caution to the solar winds.
+Once attached, the invading party may breach the hull to gain entry into the ship.
 
-Ramming can be assisted by ECM. 
-Using ECM as an attack assist for ramming gives +6 bonus per computer level on the Ramming Pilot Roll.
-The same ECM cannot be used for attack and defense in the same turn.
-
-=== Mutual Ramming
-Why ever this would happen, who knows, but if either of the attacking ships is successful in ramming the other ship will automatically be successful.
-If both ships fail their ramming attack, the dance will continue.
+ECM can assist ramming. 
+Using ECM as an attack assist for ramming gives a +6 bonus per computer level on the Ramming Pilot Roll.
+ECM cannot assist ramming while carrying out other ECM attacks or defences.
 
 .*Ramming Checklist*
-. Determine number of ram attempts
+. Determine the number of ram attempts
 . Determine Ramming Pilot Roll
 . Assess Damage Location on target.
 . Extent of Damage to target vessel (max Major)
@@ -301,107 +304,109 @@ If both ships fail their ramming attack, the dance will continue.
 .. Smash and run
 
 === Attempts
-When a ship does not want to be rammed, it can make avoidance maneuvers using its exatmo drives and pilot skill.
-If the below equation is positive, the attacking space vehicle gets that many attempts to ram.
-If the result is negative.
-The attacking ship gets one chance to ram, but subtracts negative number from the Percent Chance Attack.
-So if the attackers drive, computer and pilot level were 7 and the defender's exatmo drives and pilot level were 11  the ramming ship would get 1 chance at 8% per computer level for success.
-If the attacker's total was 11 and the target's total was 7 the attacker would get 4 chances to ram.
-Only one attempt to ram can be made per turn.
-And the number of attempts is the number allowed for that entire battle.
+An attacking vessel only has so many opportunities to ram a target. 
+The target ship's pilot and computer make avoidance maneuvers using the exatmo drives.
+Eventually, the target vessel will become immune to the ramming attacks.
 
 === Number of Ram Attempts
 .Attempts = (attacker drive + computer + pilot levels) - (defender drive + pilot levels)
 ****
-If the value is zero or less, the attacker cannot ram the target vessel.
+The maximum number of ramming attempts is four. 
 ****
 
-=== Chance of Ram Success
-Basically, the ramming vessel's success depends on the attacker's computer level and pilot level.
-A space vehicle with a level 3 computer and a level 2 pilot would have a 39% chance of a successful ram.
+If the number of ramming attempts is positive, the attacker gets that many ram attempts.
+An attacking vessel cannot have more than four ramming attacks per battle.
+If the number of ram attempts is two, the attacker can make two ram attempts during the battle. 
+If the number of ram attempts is six, the attack can make four ram attempts during the battle.
 
-=== Ramming Pilot Roll
+If the number of ramming attempts is zero or less, the attacker only gets one ram attack during the battle.
+This solitary ram attack suffers a penalty equal to the value of the negative number.
+If the number is -3, the attacker gets one ram attempt with a -3 penalty.
+
+=== Ram Begets Ram
+Each time an attacker has a failed ram, the target gets a chance to ram in return.
+The target space vehicle gets one ram attempt per failure.
+If an attacker fails three ramming attempts, the target ship gets three ram attempts. 
+The target vessel gets a chance to ram even if it has no further ram attempts left.
+
+=== Ram Success
+The ramming vessel's success depends on the attacker's computer level and pilot level.
+
+=== Ramming Target Roll
 .success = 100 - (12% + pilot level) * computer level
 ****
-Level 6 computer and level 3 pilot. 100 - (15 * 6) = 10. Player must roll 10 or higher to attach.
+Level 6 computer and level 3 pilot. +
+target = 100 - (12+3) * 6 = 100 - 90 = 10. 
+Player must roll 10 or higher to ram.
 ****
 
 === Smash or Lash
 The players must decide whether they are smashing and running or lashing onto the rammed vessel.
-Smashing is exactly what it sounds like. 
+Smashing is as it sounds.
 The attacker smashes the target ship and backs off like a demo derby near light speed.
 Lashing involves attaching to the target ship and boarding through the breached hull. 
 
 Ramming damages both the ramming and rammed vessels. 
 Hull breach success is automatic and takes 0-3 (1d4-1) combat turns.
 The Damage Location Roll also indicates where the attacking ship will breach the hull.
-For example, if the ramming damage location the target ships drives, the boarding party will enter the ship at the drives.
+For example, if the damage location is the target ship's drives, the boarding party will enter the vessel at the drives.
 
 == Artillery
 The purpose of ship artillery is to damage the target ship so that it ceases to function.
-This goal is achieved by penetrating the hull, and delivering the artillery's destructive force to the internal components of the ship.
+This goal is achieved by penetrating the hull and delivering the artillery's destructive force to the internal components of the ship.
 
-Although artillery cannot be fired exatmo into the atmosphere, it can be used freely when the vessel is within an atmosphere.
-Ship artillery has the same ranges, damages, and effects as the artillery it is modelled after.
-The difference is in the amount of ammunition the fixed gun has access to.
-Energy-based weapons can fire as long as the ship has fuel, and artillery requiring ammo will have 100 times the regular supply.
+Space vehicle artillery has the same damages and effects as the inatmo artillery it is modelled after.
+The two differences are ammunition stores and range. 
+Energy-based weapons can fire as long as the ship has fuel, and ammunition requiring ammo will have 100 times the regular supply.
+There are no range penalties during space vehicle combat. 
+
+The expedition cannot fire space vehicle artillery from exatmo to inatmo.
+This artillery cannot cross into an atmosphere.
+Once the space vehicle is inatmo, the players can use the artillery as usual. 
 
 === Hitting with artillery
-Artillery requires a successful attack roll to damage it's target.
-The artillery weapon must score a hit against the target spaceship's armour rating.
-This means that the attacker must make a kilodie roll higher than her target's AR.
+Artillery requires a successful attack roll to inflict damage.
+The player must win an attack roll against the target spaceship's armour rating.
+The attacker must make a kilodie roll higher than her target's armour rating.
 The target ship's armour rating, including hull strength and ECM, may prove impenetrable to many artillery attacks.
 
 The attacking ship's computer level adjusts the artillery's attack roll.
 A gunnery program will fire the artillery automatically, with a bonus of +50 per level of ship's computer.
-If a skilled gunner persona is firing the artillery, there is a bonus of +100 attack per level of ship's computer.
-The organic firing bonus is mostly due to the unpredictability of an organic life form firing a weapon.
-This bonus only applies to skilled personas, because a ship's artillery cannot be fired without gunnery skill.
+If a skilled gunner persona is firing the artillery, there is a bonus of +100 per level of ship's computer.
+The organic firing bonus is due to the unpredictability of an organic life form firing a weapon.
 
 == Boarding
 Boarding is congenial ramming.
 Boarding lines up airlocks to prepare for a breach and boarding of the target vessel.
-Boarding can only be used to force airlocks together while exatmo (exterior to atmosphere).
-Once connected the attacking crew will breach the airlock of the target ship and then board.
-This method of attack is used because it preserves the target space vehicle, hostages, cargo, and is a lot more fun.
+The attacker can only use boarding to force airlocks together while exatmo (exterior to atmosphere).
+Once connected, the attacking crew will breach the airlock of the target ship and then board.
+Boarding is a preferred attack because it preserves the target space vehicle, hostages, cargo and is a lot more fun.
 
 .*Boarding Checklist*
-. Determine number of board attempts
+. Determine the number of board attempts
 . Make Boarding Pilot Roll.
 . Prepare to board
 
 === Mutual Boarding
 If two ships are trying to board each other, they will be automatically successful.
 Since the goal of both ships is to connect airlocks.
-ECM will recognize that both ships want to connect to each other, and it will happen automatically.
-Counter attacks such as mines or missiles may still be deployed.
-If both ships are attempting to board each other but wish to connect via different airlocks, then the boarding attack is required.
-For example a space vehicle with multiple airlocks may want to attach to another space vehicle with a specific airlock.
-If the pilot wants a specific airlock then regular boarding attacks is required.
+ECM will recognize that both ships want to connect, and it will happen automatically.
+If either the attacker or target vessel wants to direct the mutual boarding to a specific airlock, they must win a boarding roll.
 
 === Attempts
-When a ship does not want to be boarded, it can make avoidance maneuvers using its exatmo drives and pilot skill.
-If the below equation is positive, the attacking space vehicle gets that many attempts to board.
-If the result is negative, the attacking ship get's only one chance to board, but subtracts negative number from the percent chance attack.
-So if the attacker's drive, computer and pilot level were 7 and the defender's drives and pilot level were 9  the boarding ship would get 1 chance at 2% per computer level for success.
-If the attacker's total was 11 and the target's total was 7 the attacker would get 4 chances to board.
-Only one attempt to ram can be made per turn.
-And the number of attempts is the number allowed for that entire battle.
-
-=== Number of Boarding Attempts
-.Attempts = (attacker drive + computer + pilot levels) - (defender drive + pilot levels)
-****
-If the value is zero or less, the attacker cannot board the target vessel.
-****
+The number of boarding attempts is equal to the number of ramming attempts, and the same calculations apply.
 
 === Chance per attempt
-Basically the boarding vessel's chance of being successful is dependent on the attacker's computer level and pilot level.
-A space vehicle with a level 3 computer and a level 2 pilot would have a 18% chance of a successful board.
+Boarding is more delicate and difficult than ramming.
+The success of boarding depends on the computer level and pilot skill of the attacking vessel.
 
-=== Boarding Pilot Roll
+
+=== Boarding Roll
 .success = 100 - (4% + pilot level) * computer level
 ****
-Level 6 computer and level 3 pilot. 100 - (7 * 6) = 58. Player must roll 58 or higher to attach.
+Level 6 computer and level 3 pilot. +
+success = 100 - (4 + 3) * 6 = 7 * 6 = 58.  +
+Player must roll 58 or higher to attach.
 ****
 
 === Success
@@ -732,10 +737,6 @@ A ship will have 100 disposable charges for every 50 tonnes of ship.
 
 == Counters
 What are counters? How do they work? Why do they exist?
-
-
-
-
 
 == Space Vehicle Damage
 When an attack is successful, either by rolling over the target ship's AR (attack roll attack), or rolling under a designated percentage (percent chance attack), the target ship has been damaged.
