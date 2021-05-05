@@ -394,12 +394,11 @@ ECM will recognize that both ships want to connect, and it will happen automatic
 If either the attacker or target vessel wants to direct the mutual boarding to a specific airlock, they must win a boarding roll.
 
 === Attempts
-The number of boarding attempts is equal to the number of ramming attempts, and the same calculations apply.
+The number of boarding attempts equals the number of ramming attempts, and the same calculations apply.
 
 === Chance per attempt
-Boarding is more delicate and difficult than ramming.
+Boarding is more delicate and intricate than ramming.
 The success of boarding depends on the computer level and pilot skill of the attacking vessel.
-
 
 === Boarding Roll
 .success = 100 - (4% + pilot level) * computer level
@@ -409,120 +408,122 @@ success = 100 - (4 + 3) * 6 = 7 * 6 = 58.  +
 Player must roll 58 or higher to attach.
 ****
 
-=== Success
-Even though boarding requires manual breaching of the airlock and good old personal combat (the lining,tit), the two airlocks require tactical maneuvering (exatmo on combat spin) by the ship's computer.
-There is a 4% chance per level of computer of successfully docking with another ship.
-Dice Dice are rolled against this chance by the player whose persona is the pilot.
-A ship may attempt to board once each turn (30 units).
-
 === Once Connected
+If the player wins the boarding roll, the two vessels attach via airlocks.
 Once connected to the target ship, there are a few options.
 The attacking vessel can stay docked, and the boarding party can work on opening the airlock.
-If the target ship is still attempting to dislodge the attacker, combat fuel consumption must be maintained.
-However, combat fuel consumption is the only requirement to remain attached.
-Once a ship has been boarded, it cannot forcefully detach from its attacker.
-The only recourse that the target ship has is to continue maneuvering at combat fuel consumption, and hope that the boarding ship runs out of fuel.
-They would most likely give up long before that occurs.
 Usually, a boarded ship will be resigned to its fate and open the airlock to avoid damage.
-If the victim is being impolite, the the airlock may need to be breached.
+
+Combat fuel consumption is the only requirement to remain attached.
+Once a ship has been boarded, it cannot forcefully detach from its attacker.
+The only recourse that the target ship has is to continue maneuvering at combat fuel consumption and hope that the boarding ship runs out of fuel.
+If the boarding ship can no longer maintain combat maneuvers, the target ship can break away from boarding. 
+
+If the target is unwelcoming, the airlock may require breaching.
 Airlock breaching is left for the referee to run with her players.
-It is recommended that mechanics and spies be more proficient at airlock opening than dumb old mercenaries.
+Mechanics and spies are more proficient at airlock opening than dumb old mercenaries.
 
 == Grenades
-In space vehicle combat grenades explosives delivered by either mini-missile or mini-mine.
-The intent of the grenade is to explode against the hull in an attempt to damage the internal mechanisms of the ship.
+The types of space vehicle grenades are the same as their inatmo counterparts.
+The main difference is that these grenades travel by mini-missile or mini-mines, and they must win an attack roll to damage the target.
+Inatmo personas throw grenades and only need to get close to damage a target.
+
+The grenade is a space vehicle vs a space vehicle weapon.
 A successful attack roll must be made against the space vehicle's armour rating to inflict damage.
-This is in direct contrast to area of effect weapons in tactical inatmo combat.
 If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
 
 Grenade delivery systems have diminutive titles because they only deliver grenades. 
 Proper missiles and mines deliver bombs.
 
-=== Grenade Mini-Missiles
-Mini-missiles are the more frequent of the two delivery types.
-Mini-missiles are ineffective when they are fired at a fleeing spaceship whose exatmo drives are 3 or more levels higher than the exatmo drives of the attacking ship.
-Even though a faster ship can outrun mini-missiles, they receive a chance attack if the faster ship is trying to board or ram the missile-firing ship.
-A ship can launch 3 mini-missiles per level of computer at one once.
-When used inatmo the mini-missiles cannot be outrun, and they can be used against any surface or atmospheric target.
-Mini-missiles function inatmo or exatmo but they cannot survive the hazards of entering an atmosphere.
+=== Mini-Missiles
+Mini-missiles are rocket-propelled space grenades.
+A ship can launch three mini-missiles per level of computer at one once.
+The attacker can use ECM to assist the mini-missile attacks.
+Each individual mini-missile requires an attack roll to damage the target.
 
-=== Grenade Mini-Mines
+Mini-missiles cannot cross into an atmosphere from space but work perfectly well if launched inatmo.
+When used inatmo, the mini-missiles attack like regular grenades as an area of effect weapon.
+
+Space vehicles can outrun mini-missiles.
+If a target's drive is more than two levels higher than the attacking vessel, they can outrun mini-missiles.
+If an attacker is boarding or ramming a slower vessel, they cannot outrun a mini-missiles attack. 
+
+=== Mini-Mines
 Mini-mines are grenades dumped in the path of starships hoping that they will explode for damage.
-Grenades can be dumped in the path of a ship's orbit, dumped in the path of a pursuing ship, or jettisoned against the hull of a boarding or ramming ship.
-Mini-mines are inactive mini-missiles, they do not chase targets, and they can only be dumped.
-The mini-mines are still useful because ECM cannot affect them, they move too slow to be affected by shields, and they cannot be avoided unless they are visually detected.
+Grenades can be dumped in the path of a ship's orbit, dumped in the course of a pursuing ship, or jettisoned against the hull of a boarding or ramming ship.
+Mini-mines are inactive mini-missiles, they do not chase targets, and a ship can only dump them.
+The mini-mines are useful because ECM does not affect them.
+Mini-mines also move too slow to be affected by shields.
+Essentially mini-mines cannot be avoided unless they are visually detected.
 The ability to detect the tiny camouflaged mini-mines requires a bizarre AWE (kilodie) roll.
-Mini mines can be dumped at a rate of 5 mines per unit per level of computer.
-Mini-mines, like mini-missiles, cannot survive the rigors of entry into an atmosphere but can be used to bomb targets inatmo.
+A space vehicle can dump mini mines at a rate of 5 mines per unit per computer level.
+Mini-mines, like mini-missiles, cannot survive the rigours of entry into an atmosphere but can be used to bomb targets once inatmo.
 
 == Bombs
 Bombs are lethal attack weapons.
 Bombs need only explode near the ship's hull to inflict damage to the contents within.
-The number and type of bomb is determined when the space vehicle is created.
-Bombs are delivered by either missiles or mines.
+Space vehicle bombs function the same as their inatmo counterparts, but the delivery is a mine or missile. 
 
 A bomb is guaranteed to damage a target with a successful attack roll.
 Every bomb gets a second chance to damage a vessel just by getting close enough. 
 If the raw roll of a missile or mine is better than 500, the target is still damaged.
-Dangerous destructive devices.
+Dangerous, destructive weapons.
 
 === Bomb Missile
 A bomb missile is also called a naval missile.
-Missiles can be fired at any detectable space vehicle.
-An attacking ship can control one missile per level of ship's computer.
+Missiles can target any detectable space vehicle.
+The attacker can control one missile per level of ship's computer.
 No vessel can outrun a missile.
-This does not mean that a missile automatically hits it's target.
-An attack roll is still required.
+An attack roll is still required to damage the target. 
+Unlike a mini-missile, a target cannot dodge a bomb missile.
 
 Even though a missile will eventually catch up with its target, there is some time before impact.
-The time to impact is determined by the exatmo drives of the battling space vehicles.
+The time to impact is a wonderful sciency fiction plot device.
 If the attacking vessel has a higher drive level than the target ship, the missile arrives in that turn.
 If the target space vehicle's exatmo drive level is higher than the attacker, there is a "calc" for that.
 
 === Turns to Missile Impact
 .Turns = Target's Exatmo Drive Level - Attacker's Exatmo Drive Level
 ****
-Target's drive level is 8 and the attacker's drive is 4. The target has 4 turns to brace for impact.
+Target's drive level is eight, and the attacker's drive is four. The target has four turns to brace for impact.
 ****
 
 Missiles cannot function inatmo.
-A target vessel may escape a missile by hiding inatmo or to jumping with the special drives.
+A target vessel may escape a missile by hiding inatmo or by jumping with the special drives.
 
 === Bomb Mine
 A bomb mine is also called a naval mine.
 A ship may dump one mine per level of ship's computer per unit.
-The mines have no drive components, and are discarded into the flight paths of target starships.
-Such mines may only be used against orbiting, pursuing, boarding, ramming, or unaware targets.
-This bomb mine delivery method has some advantages over its missile counterpart.
-First, the mines are virtually undetectable, and defensive ECM cannot be used against them.
-A mine can only be visually detected by an improbable (d100) AWE attribute roll.
+The mines have no drive components and are discarded into the flight paths of target starships.
+Mines can attack orbiting, pursuing, boarding, ramming, or unaware targets.
+
+This mine delivery method has some advantages over its missile counterpart.
+First, the mines are virtually undetectable.
+Defensive ECM does not work against them.
+Detecting a min in space is an improbable (d100) awareness attribute roll.
 Mines are hardy enough to be deployed in the atmosphere or in orbit to be used as fierce surface attack weapons.
 
 == Naval Artillery
 Naval artillery has only one purpose in mind, to destroy the target ship.
-Naval artillery is not used to soften or assist in the taking over of the target vessel.
+Naval artillery is not a tool to soften or assist in the taking over of the target vessel.
 The sheer force of the weapon accomplishes the destruction.
 One use of naval artillery exhausts a whole day's worth of fuel.
-The naval artillery cannot be idly used; it requires a gunnery program, and two gunners.
-Without this complement, the ship cannot fire its naval artillery.
+Players cannot idly use the naval artillery; it requires a gunnery program and two gunners.
+Without this complement, a ship cannot fire its naval artillery.
 
-Naval artillery is more deadly than the regular deadly artillery.
-Naval artillery inflicts 3 times the damage and has 100 times the range.
-Naval artillery can only be fired exatmo.
+Naval artillery is more deadly than its deadly inatmo companion.
+Naval artillery inflicts three times the damage and has 100 times the range.
+Naval artillery only works exatmo and cannot cross or be used in the atmosphere.
 
-Naval artillery is guaranteed to a direct hit with a successful attack roll.
-A direct hit by naval artillery inflicts 2 damage rolls.
-If the players are using the damage bonus system, each ship location will likely be destroyed.
+The player must win an attack roll, but naval artillery is so powerful a miss may still damage the target.
+A successful attack with naval artillery inflicts two damage rolls.
+A near miss (600 or higher) still inflicts one damage roll.
 If the naval artillery scores a direct hit, the attack cannot be absorbed by the target's shields.
-
-Naval artillery that does not score a direct hit can still inflict near-miss damage.
-A near miss with naval artillery is any raw attack roll that is higher than 600. 
-A near miss only scores 1 damage roll.
-Near miss damage rolls can be absorbed by the target's shields.
+The target's shields can only absorb damage from one attack at a time. 
 
 == Defences
-A space vehicle's defences both defend against attacks, and the hostile environment of outer space.
-Defences are a mix of combat defences and essential exatmo life support protections
+A space vehicle's defences both defend against attacks and the hostile environment of outer space.
+Defences are a mix of combat defences and essential exatmo life support protections.
 
 .*Defences*
 . Life Support
@@ -535,46 +536,49 @@ Defences are a mix of combat defences and essential exatmo life support protecti
 . Actives
 
 == Life Support
-Life support maintains a comfortable environment for the organic, and delicate inorganic, contents of the ship.
-The life support system is intimately integrated with the hull and gravity system of the vessel.
-Life support is distributed, self contained, and is impossible to disable.
+Life support maintains a comfortable environment for the organic and delicate inorganic contents of the ship.
+Life support is a fancy air conditioner that also supplies the air.
+The life support,  gravity control and the ship's hull have an intimate level of integration. 
+Life support is impossible to disable because it is both distributed and self-contained.
 The ship's computer depends on an intact life support system.
-Life support does not malfunction unless it is directly damaged in combat.
+Life support functions correctly unless directly damaged by combat.
 
 Control ECM attacks can manipulate life support and make the inhabitants uncomfortable.
-Control ECM cannot turn off life support or threaten the well being of the ship's contents.
+Control ECM cannot turn off life support or threaten the well-being of the ship's contents.
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 
 Destroying life support is rarely the goal of space vehicle combat. 
 Space vehicles are too valuable to destroy utterly.
 A loss of life support destroys all life on the ship, and more importantly, the ship's computer.
-Life support has onion layer protection and and the outer layers must be destroyed in order.
+Life support has onion layer protection, and the outer layers protect the inner layers. 
+One cannot damage life support without disabling the hull and then gravity control first.
 
-If the life support system is destroyed in one attack, the ship will suffer complete decompression.
-Decompression destroys all organic materials (personas), and delicate inorganic devices (computers, robots, toys).
-A partially damaged life support system will maintain a fraction of atmosphere proportional to its amount of damage.
-A fully operational life support system taking major damage would only have 60% of the atmosphere that it previously had.
-This thin atmosphere will make it more difficult to work, and stay conscious.
+A partially damaged life support system will maintain a fraction of the atmosphere proportional to its amount of damage.
+A fully operational life support system taking major damage would only have 60% of the previously had atmosphere.
+This thin atmosphere will make it more challenging to work and stay conscious.
 
-== Gravity
+If a space vehicle loses all layers of life support at once, the ship will suffer explosive decompression.
+Decompression destroys all organic materials (personas) and delicate inorganic devices (computers, robots, toys).
+
+== Gravity Control
 The gravity system is a crucial component of the life support system.
-The gravity system is intimately integrated with the hull and life support system of the vessel.
-Life support is distributed, self contained, and is impossible to disable.
-Gravity is usually maintained at a constant attraction of 1g.
-This includes walkways, workspaces, cargo holds, cabins, and exterior hull etc.
-This is controlled by the ship's computer, and is uniform throughout the whole ship.
-The gravity can be adjusted between 0.5  and 1.5 gravities.
+The gravity control, life support and the ship's hull have an intimate level of integration. 
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 
-The gravity system maintains a comfortable working gravity regardless of whether the ship is making combat maneuvers near light speed, or banking inatmo at Mach 8.
-Almost any maneuver performed by a space vehicle would destroy all organic materials (personas), and destroy all delicate inorganic devices (computers, robots, toys) without the gravity system.
+Gravity control maintains gravity at a constant attraction of 1g.
+The gravity is uniform across walkways, workspaces, cargo holds, cabins, and hull exterior.
+The ship's computer can adjust the gravity from 0.5 to 1.5 gravities.
 
-NOTE: *The gravity system is a sciency fiction mechanism designed for role-playing fun.*
+Gravity control maintains a comfortable working gravity throughout the ship at all times. 
+Personas onboard will not notice any difference between a stationary ship and one making combat maneuvers near light speed.
+Almost any maneuver performed by a space vehicle would destroy all organic materials (personas) and destroy all delicate inorganic devices (computers, robots, toys) without gravity.
+
+NOTE: *Gravity control is a sciency fiction mechanism designed for role-playing fun.*
 
 The gravity system can be manipulated by control attack ECM.
-However control ECM cannot turn off gravity or make life dangerous for the contents of the vessel.
+However, control ECM cannot turn off gravity or make life dangerous for the vessel's contents.
 Control ECM attacks are an irritation manipulating the gravity to confound, not kill, the crew.
 
 .*Damage to Gravity System*
@@ -583,26 +587,16 @@ Control ECM attacks are an irritation manipulating the gravity to confound, not 
 . Gravity at <1% No gravity
 . Life Support vulnerable
 
-There are three defining stages of failure for the gravity system.
-The gravity system is disabled when it is reduced to <30% function.
-The space vehicle can no longer protect it's contents from the gravitational forces of combat.
-When gravity is disabled, the vessel must drop out of combat.
-This is a victory condition.
+At less than 30% function, gravity control cannot maintain safety during combat maneuvers.
+Without the protection of gravity control, the vessel must drop out of combat.
+Loss of gravity control is a victory condition.
 
-If gravity is reduced to <10%, the system is disabled.
-The vehicle can no longer maneuver using it's exatmo or inatmo drives. 
-A ship could cross into an atmosphere, but it could only beach itself planetside.
+At less than 10% function, gravity control cannot maintain safety during standard exatmo drive maneuvers.
+Without the protection of gravity control, the vessel must crawl through space with limited acceleration.
 
-== Armour Rating aka Hull
-The hull supplies the space vehicle's armour rating used in combat.
-When space vehicles are created, they are assigned an armour rating as part of their hull.
-The hull and armour rating have an intimate relationship.
-In combat Armour Rating can be reduced by absorbing or being damaged.
-The space vehicle's armour rating must be reduced to 400 before the hull is damaged.
-
+== Hull
 The hull is a crucial component of the life support system.
-The hull is intimately integrated with the gravity and life support systems of the vessel.
-Life support is distributed, self contained, and is impossible to disable.
+The ship's hull, gravity control and life support have an intimate level of integration. 
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 
@@ -610,61 +604,69 @@ The hull is the containment and physical defence system of the ship.
 The hull also defends against both hostile environments and attacks.
 The star cruiser's hull is the last line of defence.
 
-NOTE: *The Hull AR protects the Hull. Once the Hull AR is reduced to 420, the Hull takes direct damage rolls.*
+The hull supplies the space vehicle's armour rating used in combat.
+The hull and armour rating have an intimate relationship.
+In combat, the hull absorbs damage decreasing armour rating.
+
+NOTE: *The Hull armour rating (AR) protects the Hull. Once the Hull AR is is less than 420, the Hull takes direct damage rolls.*
 
 Defensive ECM can increase the space vehicle's AR against attack rolls.
-The increase in AR is a transient electronic deception and does not actually alter the Hull AR.
+The increase in AR is a transient electronic deception and does not alter the Hull AR.
 
 == ECM
 Electronic countermeasures (ECM) deceptively manipulate the electromagnetic spectrum to defend the ship.
-The more powerful the ship's computer level, the more effective the electronic countermeasures.
+ECM is more effective as the ship's computer level increases.
 If any personas have skill in ECM, they can add that skill level to the computer level used for the ECM.
 So if a mechanic has ECM level 2 and the computer level is 3, then the ECM will function as a level 5.
 
 ECM is an accessory unit of the ship's computer. 
-It can be utilized as attack ECM or defense ECM.
-One ECM unit cannot do both in the same combat turn.
+Electronic countermeasures are both attack ECM and defence ECM.
+An ECM unit cannot be both at the same time.
 If the space vehicle has only 1 ECM unit, the players must decide how to use it each combat turn.
 
 === ECM AR Boost
-Most often defensive ECM will be used to make the ship harder to attack.
-This is done by creating false images of velocity, trajectory, rotation, size, etc.
-All of this electronic tom-foolery results in a +200 bonus to the ship's armour rating per level of computer.
+Most often, defensive ECM will be used to make the ship harder to attack.
+ECM creates false images of velocity, trajectory, rotation, size, etc.
+All of this electronic tom-foolery results in a +200 bonus to the ship's armour rating per computer level.
 
 === ECM Break Control
-Defensive ECM is especially important when the ship is under attack from control ECM.
-Defensive ECM can identify whether a ship's component is actually malfunctioning, or whether it is malfunctioning due to control ECM.
+Defensive ECM is essential when the ship is under attack from control ECM.
+Defensive ECM can identify whether a ship's component is malfunctioning or whether it is malfunctioning due to control ECM.
 Defensive ECM will use the ship's computer to re-route communications channels and alter security, to defend against control ECM attacks.
 
-For example, if a control ECM attack had reduced the effectiveness of the ship's drives defensive ECM could be used to break this control.
-This would restore the drives to their normal power level.
+For example, if a control ECM attack had reduced the effectiveness of the ship's drives, defensive ECM could be used to break this control.
+Successfully breaking this control restores the drives to their previous level.
 The chance of success is 15% per computer level.
 
 === ECM Break Control Roll
 .success = 100 - 15 * (computer + skill level)
 ****
-Level 3 computer and level 2 engineer. 100 - 75 = 25. Player must roll 25 or higher to break control.
+Level 3 computer and level 2 engineer. + 
+Target = 100 - (15 * 5) = 100 - 75 = 25. +
+Player must roll 25 or higher to break control.
 ****
 
 === ECM Camouflage
 Defensive ECM can be used to hide the ship electromagnetically.
-ECM will make the ship blend in with the background, or appear as some anomaly other than a spaceship.
+ECM will make the ship blend in with the background or appear some anomaly other than a spaceship.
 This aspect of ECM will not hide the ship from a visual inspection, but it will deceive another ship's sensors.
 
 === ECM Camouflage Roll
 .success = 100 - 9 * (computer + skill level)
 ****
-Level 3 computer and level 2 engineer. 100 - 45 = 55. Player must roll 55 or higher to hide.
+Level 3 computer and level 2 engineer. +
+Target 100 - (9 * 5) = 100 - 45 = 55. +
+Player must roll 55 or higher to hide.
 ****
 
 === Damaged ECM
-Damaged ECM is reduced by the percentage indicated on the Extent of Damage table.
-For example, ECM at 50% efficiency could only offer +100 per computer level to the ship's AR.
+Damaged ECM drops its effectiveness by the percentage indicated on the Extent of Damage table.
+For example, ECM at 50% efficiency can only offer +100 per computer level to the ship's armour rating.
 
 == Shields
 The shields protect the hull AR and hull from energy and kinetic attacks.
 A defensive shield may be a force field or a structural mechanism. 
-Both mechanisms work by distributing the damaging force across the entire hull.
+Both mechanisms work by distributing the destructive force across the entire hull.
 This faux scientific diffusion effectively dampers the damage.
 The shields have an active mode that the players turn on to thwart intentional damage.
 Shields also have a passive mode, and when present, they are part of the life support system.
@@ -672,19 +674,17 @@ Shields also have a passive mode, and when present, they are part of the life su
 Shields require energy to distribute attack damage and are powered directly by the exatmo drives.
 The shields can absorb 100 HPS of damage for every level of exatmo drive.
 For example, a ship with a level 4 drive could absorb 400 HPS of damage.
-If an an attacker rolls 429 HPS of damage the space vehicle would only take 29 HPS of damage.
+An attack with 429 HPS of damage against a 400 HPS shield would only deliver 29 HPS damage to the ship.
 
 The shields absorb damage from mini-missiles, naval-missiles, artillery, and naval artillery attacks.
-Shields have no effect on ECM, boarding, ramming, mini-mines or naval-mines. 
-
-// is there a conflict between direct hit and near-miss naval artillery.
+Shields do not affect ECM, boarding, ramming, mini-mines or naval mines. 
 
 Active shield use doubles fuel consumption. 
 Shields usage is optional.
 Players may choose to turn off their shields to conserve fuel.
 
 Passive shielding becomes part of the life support system.
-The shields must be disabled before the Hull AR can be damaged.
+Damage must disable the shields before the Hull AR can be damaged.
 This passive protection does not use any extra fuel.
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
@@ -692,41 +692,41 @@ include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 == Guns
 A gun is a purely defensive element in space vehicle combat.
 A gun does not sound like a defensive tool, but occasionally the best defence is a good offence.
-Guns on space vehicles are anti-personnel air lock defense weapons.
-In ship to ship combat, a gun is an ineffectual weapon.
-However to prevent boarding or airlock intrusion a mounted gun can be very effective.
+Guns on space vehicles are anti-personnel air lock defence weapons.
+In ship-to-ship combat, a gun is an ineffectual weapon.
+However, to prevent boarding or airlock intrusion, a mounted gun can be very effective.
 
 .*Airlock Defensive Guns*
-* operate inside and outside of airlock
-** but not not simultaneously
+* operate inside or outside of the airlock
 * operate inatmo or exatmo
-* can be automated like a turret
-** gunnery software or ship's computer
+* operates autonomously with software
 * Can be controlled by personas
 ** mercenaries do this best
 * has unlimited ammo to defend against boarding
-** ammo can be limited if weapon being abused
+** ammo can be limited to forward plot
 * has an AR equal to the ship's hull
 ** including ECM and shields
 * damaged by Hull AR damage or airlock damage location
 
 == Active Defenses
-Active defences are used against incoming weapons.
+Active defences intercept incoming attacks.
 Active defences are sometimes called actives.
 They can eject missiles, shrapnel, energy blasts, lazer matrices, or crystalline discharges. 
 The goal is to dissipate, prematurely detonate, or destroy incoming attacks.
 All active defences function equally.
-Active defences can be used against grenades, bombs, or artillery.
-Actives have no effect against boarding, ramming, ECM, or naval artillery.
+Active defences can stop grenades, bombs, or artillery.
+Actives defences cannot stop boarding, ramming, ECM, or naval artillery.
 
 === Active Defence Roll
 .success = 100 - 9 * (computer + exatmo drive + skill levels)
 ****
-Level 5 computer and level 3 drives and no gunner. 100 - 56 = 44. The player must roll 44 or higher to block the attack.
+Level 5 computer and level 3 drives. +
+Target 100 - (9 * 8) = 100 - 72 = 28. +
+The player must roll 28 or higher to block the attack.
 ****
 
-A ship can attempt to thwart 1 attack per level of computer per turn.
-A ship will have 100 disposable charges for every 50 tonnes of ship.
+A ship can attempt to thwart one attack per level of computer per turn.
+A ship will have 100 disposable charges for every 50 tonnes of space vessel.
 
 .*Notes about active defences*
 * Active defences are not part of the Life Support Onion
@@ -735,35 +735,40 @@ A ship will have 100 disposable charges for every 50 tonnes of ship.
 * Active defences work inatmo and exatmo
 * Actives cannot be weaponized
 
-== Counters
-What are counters? How do they work? Why do they exist?
+== Counter Attacks
+Counterattacks are opportunities offered by a defending ship.
+Counters are specific defences against specific attacks. 
+For example, a ship being rammed or boarded gets to counterattack with mines or artillery. 
+
 
 == Space Vehicle Damage
-When an attack is successful, either by rolling over the target ship's AR (attack roll attack), or rolling under a designated percentage (percent chance attack), the target ship has been damaged.
-Although the space vehicles do not have hit points, the HPS damage rolled for an attack is important.
-Whenever a ship is damaged, the successful attacker rolls both a hit location, and extent of damage.
-The hit location determines what system of the ship has been damaged.
-The hit location is determined randomly, just like persona hit location, on Table 38.6: Space Vehicle Hit Location.
+When an attack is successful, the ship suffers damage.
+There are many roads to a successful attack.
+The player can win an attack roll by beating the target's armour rating.
+The player can win a percentage roll by beating the target roll.
+
+Space vehicles do not have hit points.
+Whenever a ship is damaged, the successful attacker rolls both a hit location and extent of damage.
+However, the HPS damage rolled for an attack is important.
 
 .*Breaking Down Space Ship Breaking*
-. Successful attack, pilot or comp roll
+. A successful attack
 . Damage Location
 . Damage Severity
 . Damage Effect
 
 Damage to the interior of the ship does not necessarily indicate hull damage.
 Power surges, from one point to another, can also account for random damage locations.
-
 Keep in mind the Life Support Protective Onion when inflicting damage on space vehicles.
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 
 == Damage Location
 Damage location indicates which of the space vehicle's systems is targeted by an attack.
-Damage location in space vehicle combat is completely random.
-The randomness results due to space vehicle diversity, chaos of combat maneuvers, and mystery juice.
-This damage system is similar damage location for robots, and vehicles.
-The damage location must be rolled for every successful attack.
+Damage location in space vehicle combat is entirely random.
+The damage location is random because of space vehicle diversity, the chaos of combat maneuvers, and mystery juice.
+Space vehicle damage is similar to damage location for robots and vehicles.
+Every successful attack generates a random damage location.
 
 The damage location is not the same as a hit location. 
 Power surges, electric disruptions, shields, and ship structure send damage anywhere in the vehicle.
@@ -774,130 +779,144 @@ include::ROOT:partial$CH38_Table_Space_Vehicle_Damage_Location.adoc[]
 
 === Missing Damage Locations
 A space vehicle may not have the damage location rolled.
-The damage location may have never existed on the space vehicle, or it has been destroyed.
+The damage location may have never existed on the space vehicle.
+ For example, a space vehicle may not have a special drive damage location.
+
 There are several approaches to missing damage locations.
 The player can simply roll again to find a different damage location. 
 The referee can move the damage location within the general damage location.
-For example, a hit on the special drives is moved to the exatmo drives with the primary location drives.
-In the primary section defences they are ordered in priority, and the referee could just move down the list.
+For example, a hit on the special drives becomes a hit on the exatmo drives.
 
-In the case of a damage location that has been destroyed, the attack may fall useless onto space rubble.
-A damage location is considered totally destroyed when it's function is <1%. 
-At this point, it doesn't even exist anymore. 
+In the case of a previously destroyed location, the attack falls on useless space junk. 
+A system is destroyed when its function is <1%. 
 
 == Damage Extent
-The Extent of Damage Table is used to determine how badly a system has been damaged by a successful attack.
+The Extent of Damage Table determines how badly the system is damaged.
 Space vehicle weapons inflict damage in HPS, but space vehicles do not have hit points.
-So damage is measured by a decrease in function of the location.
-The extent of damage roll usually reduces the performance levels of onboard equipment. 
-If an exatmo drive is reduced by 50% functionality, the space vehicle loses half it's speed and range. 
-If the exatmo drive is damage by 50% again, the new functionality would be 25% of fully operational. 
-For example, an exatmo drive level of 8 would be reduced to 4 by 50% damage and then 2 by another 50% damage.
+Damage inflicts a decrease in function to the location.
+The extent of damage roll reduces the performance of onboard equipment. 
+If an exatmo drive is reduced by 50% functionality, the space vehicle loses half its speed and range. 
+If the exatmo drive is damaged by 50% again, the new functionality would be 25% fully operational. 
+For example, an exatmo drive level of 8 would be reduced to 4 by 50% damage and then to 2 by another 50% damage.
 
 include::ROOT:partial$CH38_Table_Extent_of_Space_Vehicle_Damage.adoc[]
 
-=== Damage Adjustments
-The extent of damage roll is increased by 1 percentage point for every hit point of damage.
-So an attack inflicting 30 HPS of damage would add 30 to its extent of damage roll.
-When using this damage adjuster space weapons will usually destroy whatever they hit.
+=== Damage Adjustment
+Damage adjustment is an optional rule that increases the severity of damage by hit points of damage. 
+Each hit point of damage increases the extent of damage by one percent.
+An attack inflicting 30 HPS of damage adds 30 to the extent of damage roll.
+If a player rolls 55 on the extent of damage table and inflicts 30 hit points of damage, the final roll is 85. 
+The 30 hit points increased the extent of damage from minor to major.
+When using this damage adjuster, space weapons become way more destructive.
+The players may prefer to adjust the damage adjustment to one percent per 5 hit points of damage.
+Your space milage may vary.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
-If the referee and players find that this extent of damage adjustment is destroying their space vehicles too quickly then modify it to have more fun.
-One could eliminate the HPS Extent of Damage modification altogether.
-One could have the vessel's AR to reduce the extent of damage.
-If a rule gets in the way of having fun, then change it.
-
-=== Damaged Systems
-A space vehicle system is disabled once its performance is reduced to 10%.
-From a practical standpoint, the mechanism may become useless long before it reaches 10%.
-The effects of a damaged system are detailed below.
-
-include::ROOT:partial$CH38_Table_Extent_Damage_Descriptor.adoc[]
-
 ==== Cumulative Destruction
 The damaging effects of successful attacks are cumulative.
-A space vehicle system can become disabled over several attacks.
-A system receiving major damage (60% performance) twice in a row it's level of function would be 36%.
-A further critical damage (30% performance) would reduce the part to 11% of its previous performance.
-At this point even trivial damage (90% performance) would disable the mechanism.
+A space vehicle system can be disabled over several attacks.
+A system taking major damage (60% performance) twice has a 36% level of function. 
+If the already damaged system suffered a critical blow (30% performance), it would drop to 11%.
+A level 10 computer would be functioning as a level one computer. 
+A level 5 exatmo drive would be functioning as a level one drive. 
+Any further damage would decrease the system's performance to less than 10%.
+A system is disabled when it is less than 10% functional.
 
-.*Cumulative Destruction - round down*
+.*Example Cumulative Damage*
 . Undamaged 100% function
 . Major Damage 60% function
 . Major Damage 36% function
 . Critical Damage 10% function
-. Trivial Damage 9% function - disabled
+. Minor Damage 9% function - disabled
 
 ==== Instantaneous Destruction
-If a system  is destroyed in a single attack (<1% previous performance), the device has been damaged beyond repair.
+Instantaneous destruction occurs when an attack destroys a system in a single blow.
+Naval artillery, mine or missile may have hit the location.
+The attack must drop the system from 100% to <1% function in a single attack.
+
 The effects of instantaneous destruction are cataclysmic.
 A destroyed hull would explosively decompress, a destroyed drive will melt down, fuel could explode, etc.
 There is no chance for repair, and a replacement system will be required.
+
+=== Damage Descriptors
+Each time a system is damaged, its performance decreases. 
+The damage descriptors offer another way to describe net damage.
+A system with minor damage is more than 90% functional.
+A disabled system is less than 10% functional.
+
+include::ROOT:partial$CH38_Table_Extent_Damage_Descriptor.adoc[]
 
 == Hull Damage
 The hull is an integral component of the life support and gravity systems.
 The hull helps contain the atmosphere generated by the life support system.
 The hull also acts as the substrate for the gravity system.
-Hull, life support and gravity are intimately integrated
+Hull, life support and gravity are intimately integrated.
 
 === Hull as Armour
-The hull cannot be damaged before the ship's Armour (Hull AR) has been disabled.
-The AR must be reduced to 400 before the hull system can be damaged.
-The referee can move hits on the hull damage locations to Hull AR, or re-roll the damage location.
+The hull cannot take damage until the ship's Armour (Hull AR) has been disabled.
+The armour ratings of hulls are very high. 
+The average armour rating of a space vehicle's hull is 1100.
 
-All initial damage locations on Hull are directed at the Hull AR until the Hull AR <400.
-The Hull AR cannot drop below 400, and that is it's destroyed level of function.
+The armour rating of the hull decreases as it takes damage.
+If a mini-mine explodes against the hull and delivers 75 HPS of damage, the hull armour rating decreases by 75.
+The hull armour rating can absorb massive amounts of damage, protecting the systems below. 
+
+Reducing the armour rating to 420 disables the armour rating of the hull.
+Disabling the armour rating allows damage to pass directly to the hull or the contents below it.
+The Hull AR cannot drop below 420.
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 
 === Hull Compromise
-Hull only becomes a damage location once the Hull AR (armour) is reduced to 400.
-The hull damages as per any system from this point on.
-The hull is  when it's level of function is reduced to less than 10%.
-The hull is destroyed when it's level of function is reduced to <1%.
+Hull only becomes a damage location once the Hull armour rating is exhausted.
+The hull begins to fail like any other system on the space vehicle.
+The hull is disabled once the level of function drops below 10%.
+The hull is destroyed once the level of function drops below 1%.
 
-Hull damage directly affects the ship system it is protecting.
-This is determined by rolling on the damage location again.
-For example, the hull containing the exatmo drives could become compromised.
+When the hull has been disabled or destroyed, further hull damage applies to another ship system.
+If a player rolls a disabled hull as her damage location, she must roll again to determine which system is affected.
+For example, she could hit the exatmo drives through the compromised hull.
 
-A disabled hull (<10%) represents a manageable escape of it's inatmo contents.
-A destroyed hull (<1%) represents an unmanageable escape of it's inatmo contents.
+A disabled hull (<10%) represents a manageable escape of its inatmo contents.
+A destroyed hull (<1%) represents an unmanageable escape of its inatmo contents.
 Both of these hull compromises allow for usual evacuation procedures for the area.
 Instantaneous destruction (<1% in one attack) represents explosive decompression.
+Explosive decompression is lethal to personas and equipment in the damaged location.
 
-The ship can partition off a damaged location using it's automated bulkheads.
-Open concept space vehicles are not recommended.
-
-The location is considered off-limits and disabled until the leak hull can be repaired.
-A destroyed hull cannot be repaired during battle.
-Once the leak is repaired, the life support and gravity systems will replenish the location.
+The ship can partition off a damaged location using its automated bulkheads.
+Naval architecture does not recommend open-concept space vehicles.
+The personas can repair a disabled hull during combat.
+Life support and gravity systems will replenish repaired hull locations.
+Repairing a hull section does not restore its armour rating.
+The personas cannot repair a destroyed hull during combat.
 
 == Drive Damage
 Drives are the whole point of the space vehicle.
-The higher the drive level the better the space vehicle.
-Drive levels are reduced by the extent of damage inflicted.
-If a level 10 exatmo takes major damage (40% reduction) it becomes a level 6 drive.
-This is damage is cumulative. 
+The higher the drive level, the better the space vehicle.
+The extent of damage inflicted reduces drive levels.
+If a level 10 exatmo takes major damage (40% reduction), it becomes a level 6 drive.
+Drive damage is cumulative. 
 
 === Inatmo Drive Damage
 Reduce the drive level of the in atmosphere drive by the percentage indicated.
-This system is disabled when it's level of function is reduced to less than 10%.
+This system is disabled when its level of function is less than 10%.
 A ship with a disabled inatmo drive cannot maneuver in the atmosphere of a planet.
-The pilot may beach the ship planetside, or remain in orbit until repaired.
+The pilot may beach the ship planetside or remain in orbit until repaired.
 
 === Exatmo Drive Damage
 A damaged exatmo drive will have its drive level reduced by the percentage indicated.
 Exatmo drives are disabled when their function is <10%.
 The exatmo drives are the ship's combat drives.
-Without exatmo drives it cannot maintain combat spin.
-When disabled the ship drops out of combat and start floating towards the nearest star.
+Without exatmo drives, it cannot maintain combat spin.
+When disabled, the ship drops out of combat and starts floating towards the nearest star.
 Disabling the exatmo drives is a victory condition.
 
-Exatmo drives also power defence shields, active defences, and boarding evasion.
+Exatmo drives power defence shields, active defences, and boarding evasion.
 Damage to the exatmo drives also impairs these ancillary functions.
-Exatmo drives are not affected by exatmo, however personas running the drives can be.
+Exatmo drives are not affected by exposure exatmo. 
+However, personas running the drives can be.
 
 === Special Drive Damage
 Reduce the drive level of the special drive by the percentage indicated.
@@ -909,79 +928,68 @@ Exatmo is very unhealthy for a special drive.
 Damage to the fuel system represents the drive's inability to access the necessary fuel to function.
 Disabling fuel systems can disable a particular drive or all drives. 
 Sometimes the fuel itself is destroyed or lost in space.
-Other times the fuel is still present, but cannot be accessed.
+Other times the fuel is still present but cannot be accessed.
 During combat, there is no difference.
-If fuel access is disable or destroyed, this is a victory condition.
 
-=== Inatmo, Exatmo, Special Fuel Damage
-This represents damage to the specific fuel system described. 
-So if the Inatmo drive is damaged, the exatmo and special drives are unaffected.
-The damage could indicate fuel released into space, batteries destroyed or power plants malfunctions.
-
-If a specific fuel system is disabled or destroyed then that particular __drive__ is disabled.
-The drive is not damaged, but it can no longer work without fuel.
-In the case of exatmo drives this is a victory condition.
-
-If the 10 months of inatmo fuel takes major damage (40%), the storage is reduced to 6 months.
-This limits the special drive to 6 jumps.
-If the 10 months of exatmo fuel takes major damage (40%), the storage is reduced to 6 months.
-Exatmo fuel is burned at the rate of one week per turn of space vehicle combat.
-So the space vehicle can now only fuel 24 turns of space combat before dropping out.
+When a specific fuel system is disabled or destroyed, then that specific __drive__ is disabled.
+A fuel system will continue to deliver adequate fuel for the drive to function until it is disabled.
+The drive is not damaged, but it cannot work without fuel.
+In the case of exatmo drives, this is a victory condition.
 
 === Amount Damage
 The space vehicle's total fuel storage is damaged.
-All three fuel systems are reduced by the extent of damage.
-The global fuel loss is non-denominational.
-If the Fuel Amount is damaged, reduced by 40% inatmo, exatmo and special drives are all reduced.
+Fuel storage damage indicates a loss of actual fuel
+The global fuel loss is non-denominational as all drives access the same fuel type.
+If the Fuel Amount is damaged, reduced by 40%, all drives have less fuel to burn.
+Inatmo, exatmo and special drives become choked for fuel.
+Decreasing fuel amount indicates fuel is lost to space or destroyed.
+Personas cannot repair fuel amounts lost.
 
-Fuel Amount damage is cumulative. 
-If the exatmo fuel were already damaged to 40% of function a Fuel Amount damage would worsen this.
-A Fuel Amount damage of 40% would reduce the exatmo fuel supply to 16%. 
-This severely reduces how long the space vehicle can remain in combat.
+A ship with ten months of fuel takes major damage (40%), reducing the fuel amount to six months.
+The special drive can now only make six jumps.
+Most importantly, the amount of fuel available for combat maneuvers decreases.
+Combat maneuvers burn fuel at the rate of one week per turn of space vehicle combat.
+So the space vehicle can now only fuel 24 turns of space combat before dropping out.
+Running out of fuel for combat is a victory condition.
 
 === Consumption Damage
-This keeps the space vehicle from accessing fuel.
+Consumption damage impairs the system that divides fuel between the drives.
+The fuel is intact, the drives are intact, and the fuel system is intact.
 All fuel systems drop by the extent of damage, but no fuel is lost.
-One assumes that after combat the consumption system could be repaired and the fuel used later.
-
-Fuel Consumption damage is cumulative. 
-If the exatmo fuel were already damaged to 40% of function a Fuel Consumption damage would worsen this.
-A Fuel Consumption damage of 40% would reduce the exatmo fuel supply to 16%. 
-This severely reduces how long the space vehicle can remain in combat.
+Unless destroyed in combat, the consumption system is repairable.
 
 == Computer Damage
-The computer is the space vehicle.
-It is the most important and second most delicate system on the space vehicle.
+The computer is the space vehicle, and the space vehicle is the computer.
+The ship's computer is the most important and most delicate system on the space vehicle.
 Computer damage impairs nearly every function of the space vehicle.
-If a level 6 computer suffers 40% damage, it is reduced to a level 2 computer.
-Every other system that depends on the ship's computer drops in function.
-ECM, boarding, defences, ramming, targeting are all impaired. 
+If a level 6 computer suffers 40% damage, it becomes a level 2 computer.
+ECM, boarding, defences, ramming, targeting are all impaired by this decrease in function. 
 
 A disabled ship's computer puts everything into a non-functional hibernation state. 
-Persona's may try to manually operate a ship with a disabled computer.
-A destroyed ship's computer leads to an immobilized hulk drifting towards the nearest star.
+Personas may try to operate a ship with a disabled computer manually.
+Usually, a destroyed ship's computer leads to an immobilized hulk drifting towards the nearest star.
 
-The computer is not part of the life support onion.
+The ship's computer is not part of the life support onion.
 Gravity and life support remain operational in the face of a disabled or destroyed ship's computer.
-
-== Computer Level Damage
-This damage is not necessarily a direct hit to the ship's computer.
-The damage could be delivered to the computer via a power surge or a conducted concussion..
-Reduction of a ship's computer is most devastating as it affects the success of all attacks and defences.
 
 === Robot Control Damage
 The ship's robots cease to function or follow the computer's commands.
-Lose control of robots by percentage indicated.
-This does not damage the robot, only the ship's control over the robot.
-Robots may perform gunnery skills, or veterinarian care, at a reduced skill level.
-If robot control is disabled or destroyed the robots may stop functioning all together.
-It would be more fun the robots acquired free will with their new found freedom.
-Robot self awareness could range from irritating behaviours to well deserved robot mutiny.
+The computer loses control of robots by the percentage indicated.
+The ship's control over the robot is damaged. 
+The robot is not damaged at all.
+Robots will perform gunnery skills, or veterinary care, at a reduced skill level.
+Mechanics can try and get the robots functioning through priority commands or robot overrides.
+
+If robot control is disabled or destroyed, the robots stop functioning altogether.
+It would be more fun the robots acquired free will with their newfound freedom.
+Robot self-awareness could range from irritating behaviours to a well-deserved robot mutiny.
 
 === Software Damage
-Specialized ship's software is reduced by the amount indicated in the extent of damage.
-This is not just programming data, but damage to essential peripherals and sensors that run software.
-Software damage does not affect computer level or ECM.
+While the computer level remains intact, its software loses function.
+Ship software has both hardware and software components representing a tight integration with the ship. 
+
+The decrease in function is not only programming data but essential peripherals and sensors as well.
+Software damage does not affect the computer level or ECM.
 Only the extra software packages are damaged.
 For example, crew replacement software damage may remove the ship's galley and cook.
 The software packages can be reduced in effectiveness or simply disabled.
@@ -989,224 +997,227 @@ Players should be able to choose which software packages are lost.
 They may wish to preserve astrogation or gunnery over the entertainment system.
 
 == Cargo Damage
-Cargo hold and any elements related to cargo are damaged.
-This includes storage capacity, contents, airlocks, cargo locks and more.
-The function of these components is reduced by the indicated decrease in function.
-Any damage delivered to the system would also be delivered the contents and personas within it.
+The cargo hold and any elements related to cargo are damaged.
+Cargo elements include storage capacity, contents, airlocks, cargo locks and more.
+Contents include any cargo or personas in the cargo bay.
 
-For example, extent of damage is major (decrease by 40%) andand includes 42 HPS in damage. 
-An airlock may only be able to open to 60% of the previous opening.
+Major (decrease by 40%) damage from an attack delivering 42 HPS in damage hits the cargo bay.
+The cargo airlock can only open to 60% of the previous opening.
 All personas in the cargo area would take 42 HPS in damage. 
-The value of the Profulcinating Hygromodulators (TM) would be reduced to 60% of previous. 
+The damage would reduce the value of the Profulcinating Hygromodulators (TM) to 60% of previous. 
 
 == Crew Damage
-Crew's quarters, and all crew presently within it.
-This is the expedition killer of space vehicle combat.
-Area of effect damage will also be delivered to any personas in the crew area.
+Crew damage is the most dangerous of all the damage locations.
+Crew damage includes the crew's quarters and all crew presently within it.
+Crew damage is the expedition killer of space vehicle combat.
 
-If the crew quarters sustains damage, the amount of space will be reduced.
-Also crew amenities like food production, toilets, and entertainment unit will be damaged.
-Any damage delivered by the attack will be delivered to the personas as well. 
+Apart from the hapless crew in their quarters, the decrease in function reduces berths, food production, hygiene facilities, and entertainment.
+For example, the number of televid channels may decrease from 100 to a mere 60.
 
-== Defences
+== Defence Damage
 Damage to defences reduces the effectiveness of the defensive system by the percentage indicated.
-Life support, gravity, and hull are integrated in the Life Support Onion.
+The defences decrease in effectiveness the same as any other damaged system.
 
-=== Life Support Damage
-A space ship's life support cannot be damaged before the other protective layers of the onion are destroyed.
-This is the reason that life support does not appear on the Damage Location table.
+=== Life Support Onion
+Before damaging life support, the outer layers of the onion must be disabled or destroyed.
+The outermost layer of the onion is the ship's shields. 
+If the ship does not have shields, the outermost layer of the onion is the hull armour rating.
+The hull armour rating must fail before the hull can be damaged.
+The hull must fail before gravity control can be damaged.
+Gravity control must fail before life support can be damaged.
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 
-=== Gravity Damage
-Gravity cannot be damaged unless the ship's hull is disabled.
-A damage location on the gravity system should be redirected to the highest level of the life support onion.
-Once the Hull AR and Hull are disabled, the gravity system can be damaged.
-The effectiveness of gravity is reduced by the percentage indicated by the extent of damage roll.
-Ineffective gravity can lead to space sickness, and difficulty performing tasks.
-Reducing the gravity system to less than 30% forces the ship to drop out of exatmo combat.
+=== Life Support Damage
+Life support keeps the personas comfy and alive within the spaceship.
+Life support does not appear on the damage location table.
+Life support is the most critical defence on a space vehicle.
+Attacks cannot damage life support without first peeling back the life support onion.
+A space vehicle must lose its shields, hull armour, hull and gravity before attacks can damage life support.
+Attacks must destroy gravity control before life support is vulnerable.
+Life support suffers damage the same as any other system once the onion is disabled.
+
+=== Gravity Control Damage
+Gravity control maintains life-saving, plot convenient gravity throughout the space vehicle.
+Gravity cannot be damaged before the ship's hull is disabled.
+Until the hull is disabled, the damage location of gravity control moves to the highest level of the life support onion.
+
+The effectiveness of gravity control drops by the percentage indicated by the extent of damage roll.
+Ineffective gravity control can lead to inconvenient ZOG, space sickness, and difficulty performing tasks.
+If gravity control drops to less than 30%, the ship cannot safely make combat maneuvers.
 Losing gravity is a victory condition.
 
-=== Armour Damage
-Armour and hull are intimately integrated and are part of the life support onion.
-If the space vehicle has shields, they must be disabled (<10%) before armour can be damaged.
-Armour damage specifically reduces the Hull AR of the space vehicle.
+=== Hull Armour Rating Damage
+The hull armour rating represents the hardening of the space ship's hull to prevent combat damage.
+Hull armour rating is part of the life support onion, and unless the space vehicle has shields, hull armour is the outermost layer.
+Until the shields are disabled, the damage location of hull armour moves to the ship's shields.
 
 NOTE: *Hull AR, Armour, and Armour Rating are interchangeable and separate from Hull.*
 
 Armour Rating is an amalgam of many factors. 
 Structurally it includes hull strength, combat hardening, and combat alterations.
-Tactically is includes the ship's computer and drives.
-Architecturally a combat-ready hull is different from a non-combat hull.
-
-The Hull AR is reduced by the percent amount indicated by the extent of damage.
-This Hull AR cannot be reduced below 400.
-When the Hull AR is reduced to 400, it is considered destroyed, and the Hull is vulnerable to damage.
+Tactically is includes the ship's computer, ECM and drives.
 
 ==== Calculating Armour Damage
 Sadly there are two ways to calculate the extent of damage to the armour rating.
-Using the Hull AR of 800 both examples follow.
-The simple method is to multiply 800 times 60% and reduce the new Armour Rating (AR) to 480.
-The lowest a space vehicle's armour rating can get is 400.
+The first simply uses the standard extent of damage drop in effectiveness.
+An 800 armour rating that takes major damage (40% damage) drops to 480.
+The lowest a space vehicle's armour rating can get is 420.
+Once the armour rating is 420, the hull is vulnerable to attack.
 
-The complex method is to subtract 400 from the Armour Rating, and multiply the result by 60%.
-This result is added to the minimum Armour Rating of 400.
-So a vessel with an Armour Rating of 800 and major damage would have a new AR of 640.
-Destroyed armour is reduced to an armour rating of 400.
+The second is more complicated but allows armour rating to last a bit longer.
+The drop in efficiency only affects the portion of the armour rating that is above 400.
+An 800 armour rating would only drop the efficiency of the top 400 points of armour rating.
+So a vessel with an Armour Rating of 800 taking major damage would have a new AR of 640.
+Once the armour rating is 420, the hull is vulnerable to attack.
 
 === Defensive ECM Damage
 Defensive ECM becomes reduced by the percentage indicated by the extent of damage.
 ECM is a bit more resilient than other space vehicle systems.
 Damaged defensive ECM can still function fully as attack ECM.
-If the space vessel has two ECM systems the attack ECM can replace the damaged defensive ECM, and the Attack ECM can be switched to Defensive ECM.
-So the only way to damage Defensive ECM is to damage each of the space vehicle's Defensive ECM.
+If the space vessel has two ECM systems, the attack ECM can replace the damaged defensive ECM, and the defence ECM can replace the damaged attack ECM.
 
 === Shield Damage 
-The shields are reduced by the percentage indicated on the extent of damage roll.
+Shields are the technomagical standard that indicates the health of a space vehicle.
+The shields' effectiveness drops by the percentage indicated on the extent of damage roll.
 Shields are immune to damage bonuses on the Extent of Damage Table.
-So an attack that does 50 HPS Damage would increase the Extent of Damage roll by 50.
-Shields are not affected by this extent of damage bonus.
 If a shield could absorb 400 HPS damage and has sustained major damage (60%), it would only be able to absorb 240 HPS per attack until repaired.
-The shield is disabled at <10% of capacity and attacks on the shield move to the Hull AR.
+The shield is disabled at <10% of capacity, and attacks on the shield move to the Hull AR.
 
 === Gun Damage
-This is the airlock defence gun.
-The gun will have it's range and HPS damage reduced by the extent of damage indicated.
-So an airlock gun that sustained major damage (60%) would have it's range reduced by 60% and each damage attack would be reduced by 60%.
-So if the gun used to fire 100 hexes outside the airlock, it would be reduced to 60 hexes, and every damage roll would be multiplied by 0.6.
+Gun damage represents damage to the airlock defence guns.
+The gun's range and damage drop by the extent of damage indicated.
+So an airlock gun that sustained major damage (40% damage) would have its range reduced by 60%, and each damage roll reduced by 60%.
+A gun with a range of 100 hexes would now have a range of 60 hexes.
+Every damage roll would be multiplied by 0.6.
 A disabled gun stops working.
 
 === Active Damage
 Active defences can look after themselves.
 The active defence will get one chance to stop an attack from damaging the active defence system.
-This active self defence is offered regardless of recent active defence activity.
+This active self-defence is an automatic counterattack regardless of recent activity.
 Depleted active defences cannot defend themselves.
 The active defence has its effectiveness reduced by the percentage indicated by the extent of damage.
 
+== Attack Damage
+
+
 === Attack ECM Damage
-Attack ECM is reduced by the percentage indicated by the extent of damage.
-ECM is a bit more resilient than other space vehicle systems.
-Damaged attack ECM can still function fully as defensive ECM.
-If the space vessel has two ECM systems, the defensive ECM can replace the damaged attack ECM, and the defensive ECM can be switched to attack ECM.
-So the only way to damage attack ECM is to damage each of the space vehicle's ECM systems.
+Attack ECM effectiveness drops by the percentage indicated by the extent of damage.
 
 === Ramming Damage
-The chance of ramming is reduced by the percentage indicated by the extent of damage.
+Ramming success drops by the percentage indicated by the extent of damage.
 The physical plant, sensors, and machinery of ramming become damaged.
 
 Calculating this reduction in ramming effectiveness is a pain in the butt.
 The player must make a successful pilot roll for a successful ramming attack.
 Does one reduce the player's die roll by the extent of damage?
-Therefore reducing the chance of a successful ramming attack.
 Does one increase the value that the player needs to beat?
 Since ramming is such a blunt instrument, this referee prefers to ignore the graduated drop.
-Ramming is either working, or disabled. 
+Ramming is either working or disabled. 
 
-If the Ramming system is disabled this space vehicle may no longer ram.
+If the Ramming system is disabled, this space vehicle may no longer ram.
 A space vehicle with disabled ramming capacity may still use the Boarding attack.
 
 === Artillery Damage
-The artillery will have it's range and HPS damage reduced by the extent of damage indicated.
-An artillery system suffering major damage (40% reduction) would be reduced to 60% effectiveness.
-The artillery's range would be reduced from 500 to 300 hexes.
-The artillery's area of effect had a radius would be reduced from 20 to 12 hexes.
+The artillery drops its range, and HPS damage by the extent of damage indicated.
+Major damage drops the artillery to 60% of its previous effectiveness.
+The artillery's range decreases from 500 to 300 hexes.
+The artillery's area of effect decreases from 20 to 12 hexes.
 Every damage roll would be multiplied by 0.6.
-
 Disabled artillery stops working.
-Instantaneously destroyed (reduced to <1% in one attack) artillery may explode inside the space vehicle
-This should be determined by Sphincter Dice.
-Artillery that explodes inside the ship delivers one location damage roll to the ship.
+
+Instantaneously destroyed (reduced to <1% in one attack), artillery may explode inside the space vehicle.
+Whether the artillery battery explodes in the ship or not should be decided by plot and sphincter dice.
+An artillery explosion inside the ship delivers one location damage roll to the ship.
 
 === Boarding Damage
-The chance of boarding is reduced by the percentage indicated by the extent of damage.
-The physical plant, sensors, and machinery of boarding are damaged by the attack.
+Boarding success drops by the percentage indicated by the extent of damage.
+The physical plant, sensors, and machinery of ramming become damaged.
 
 Calculating the reduction in boarding effectiveness is a pain in the butt.
 The player must make a successful pilot roll for a successful boarding attack.
 Does one reduce the player's die roll by the extent of damage?
-Does one increase the value that the player needs to beat?
-Often it is easier to just accept boarding is either operational or disabled. 
+Does one increase the target roll that the player needs to beat?
+Often it is easier just to accept boarding is either operational or disabled. 
 
 If the Boarding system is disabled, this space vehicle may no longer board.
-A space vehicle with disabled boarding capacity may still use the Ramming attack.
+A space vehicle with a disabled boarding capacity may still use the Ramming attack.
 
 === Grenades Damage
-The number of grenade attacks is reduced by the amount indicated by the extent of damage.
+The number of grenade attacks drops by the amount indicated by the extent of damage.
 This reduction in function impacts both mini-missiles and mini-mines.
 The damage impairs the guidance systems and connectivity to the ship's computer.
 
-The number of mini-missiles and mini-mines deployable per turn is reduced. 
-For example, a grenade system reduced to 60% could only drop 6 mini-mines instead of 10.
+The extent of damage decreases the number of mini-missiles and mini-mines deployable per turn. 
+For example, a grenade system reduced to 60% could only drop six mini-mines instead of 10.
 
-If the grenade system becomes disabled, no more grenades can be launched.
-If the grenade system is instantaneously destroyed there is a chance of accidental detonation.
-The sphincter dice are consulted.
-An accidental detonation results in one damage location roll on the space vehicle.
+Instantaneously destroyed (reduced to <1% in one attack), grenades may explode inside the space vehicle.
+Whether the grenade system explodes in the ship or not should be decided by plot and sphincter dice.
+A grenade detonation inside the ship delivers one location damage roll to the ship.
 
 === Bombs Damage
-The number of bomb and attacks and their effectiveness is indication by the extent of damage.
-The reduction in effectiveness impacts both naval-missiles, and naval-mines.
+The number of bomb attacks drops by the amount indicated by the extent of damage.
+This reduction in function impacts both naval missiles and naval mines.
 The damage impairs the guidance systems and connectivity to the ship's computer.
 
+The extent of damage decreases the number of missiles and mines deployable per turn. 
+For example, a bomb system reduced to 60% could only drop six mines instead of 10.
+
+Instantaneously destroyed (reduced to <1% in one attack), bomb systems may explode inside the space vehicle.
+Whether the bomb system explodes in the ship or not should be decided by plot and sphincter dice.
+A bomb detonation inside the ship delivers two location damage rolls to the vessel.
+
 The bomb delivery system is hardened for combat and is difficult to destroy.
-There are no damage bonuses awarded on the Extent of Damage Table for bomb delivery system.
+There are no damage bonuses awarded on the Extent of Damage Table for the bomb delivery system.
 
-The number of naval-missiles and naval-mines deployable per turn is reduced. 
-For example, a bomb system reduced to 60% could only drop 6 naval-mines instead of 10.
-If the players desire, the effectiveness of the bomb itself can be reduced.
-The bomb's area of effect and damage delivered could be reduced by the effectiveness percentage.
-
-The bomb system is disabled at <10% effectiveness and can no longer deploy bombs
-If the bomb system suffers instantaneous destruction, there may be accidental detonation.
-A Sphincter Dice check will determine if a bomb has a damage location roll on it's own vessel
 
 === Naval Artillery Damage
-The naval artillery will have it's range and HPS damage reduced by the extent of damage indicated.
-An naval artillery system suffering major damage (40% reduction) would be reduced to 60% effectiveness.
-The naval artillery's range would be reduced from 500 to 300 km.
-The naval artillery's area of effect had a radius would be reduced from 500 to 300 hexes.
+The naval artillery drops its range, and HPS damage by the extent of damage indicated.
+Major damage drops naval artillery to 60% of its previous effectiveness.
+The artillery's range decreases from 15000 to 9000 hexes.
+The artillery's area of effect decreases from 200 to 120 hexes.
 Every damage roll would be multiplied by 0.6.
+Disabled artillery stops working.
+
+Instantaneously destroyed naval artillery may explode inside the space vehicle.
+Accidental detonation depends on the plot and Sphincter Dice.
+Detonated naval artillery will inflict three damage rolls on itself.
 
 The naval artillery system is hardened for combat and is difficult to destroy.
 There are no damage bonuses awarded on the Extent of Damage Table for naval artillery.
 
-Disabled naval artillery stops working.
-Instantaneously destroyed naval artillery may explode inside the space vehicle.
-This should be determined by Sphincter Dice.
-Detonated naval artillery will act as if the space vehicle had shot itself once.
-
-=== Ref's Own Table
+== Ref's Own Table
 The referee can use this opportunity to infuse drama and excitement into the campaign.
 It is generally considered bad form to annihilate an expedition using the ref's own table.
 Subjecting the personas to comedic or dramatic challenges that lead to their demise is fair game.
 
 :art: police_space_craft.png
-:width: 250px
+:width: 450px
 :snark: Please have your driver's license ready.
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
 :description: Drawing of spaceship with police written in reverse on bow.
-S
+
 include::ROOT:partial$articulate.adoc[]
 
 == Personas and Damage
 Exatmo space vehicle combat is lethal.
-Personas are fleas perched on battling elephants that can be squashed at any moment.
-Players must be aware that personas can be killed in an instant during space vehicle combat.
-Any personas located in damaged locations will certainly feel the ship's pain as well.
-Minor damage to the space vehicle may be lethal to the anthros, aliens and robots housed in that damage location.
-If a persona is in the cargo hold when it is damaged, they will take area of effect damage.
-If a mechanic is working on the drives, they could be damaged by a hit to the drives.
+Personas are fleas perched on battling elephants, squashable at any moment.
+Players must be aware that space vehicle combat can kill personas in an instant.
+Personas caught in damaged locations will undoubtedly feel the ship's pain as well.
+Minor damage to a space vehicle may be lethal to the anthros, aliens and robots housed in the damaged location.
+Nothing personas showering in the crew quarters are at risk of damage.
+Mechanics working on the drives are at risk of damage.
 
-Hull penetration is not the cause of the persona damage.
-Damaging forces can be communicated into the damage location by shock waves, debris, and energy leaks. 
-Most persona damage is delivered when they throw themselves around when the camera shakes.
+Hull penetration is not the cause of persona damage.
+Destructive forces are communicated into the damage location by shock waves, debris, and energy leaks. 
+Most persona damage is delivered when they throw themselves around as the camera shakes.
 
 Damage from a bomb or naval artillery will certainly annihilate any persona caught in the hit location.
 A direct hit from naval artillery to the crew's quarters would end up in every persona dead.
-
-*Persona Damage = Attack HPS Damage minus  Hull AR divided by 10*
+As the hull armour deteriorates, the risk to crew members increases.
 
 === Persona Damage Mitigation by Hull Armour
 .HPS Damage = Attack HPS - (Hull AR / 10)
@@ -1215,54 +1226,54 @@ A direct hit from naval artillery to the crew's quarters would end up in every p
 ****
 
 == Damage Reports
-The ship's computer will general damage reports about the space vehicle's system.
-For a true combat damage report, the ship must have defensive ECM or a specialized program.
+The ship's computer generates damage reports about the space vehicle's system.
+For an accurate damage report, the ship must have intact defensive ECM or a specialized program.
 ECM attacks can deceive a ship's computer to give false damage reports.
-Without ECM or damage reporting software personas may be left figuring out system damage themselves.
-They will notice that the exatmo drives suck, or that the computer is now dumber.
-To gather any damage report info from an opponent would requires a successful attack ECM probe.
+Without automated damage reports, personas need to run around the ship, figuring ship damage themselves.
+They may notice that the exatmo drives suck or that the computer is now dumber.
 
-From a game standpoint, it is up to the referee and players to decide how much the personas know.
+
+To gather any damage report info from an opponent requires a successful attack ECM probe.
 Some referees will keep all space vehicle damage behind the screen and only letting players know a bit.
 Other groups will have the players keeping track of their own vessel's demise.
 
 == Onboard Crew
-Crew includes any persona that is onboard a space vehicle during combat.
+The crew includes any persona that is onboard a space vehicle during combat.
 They can lend their skills to assist the ship's computer or repair the damaged ship.
 A combat turn lasts 30 units in EXP.
-This is sufficient time for personas to have a lot of fun during combat events.
-Personas are not be able to assist with an attack and repair the ship simultaneously.
+A combat turn is sufficient time for personas to have a lot of fun between combat events.
+Personas are not able to assist with an attack and repair the ship simultaneously.
 
 === Attack Assist
-For example, a mechanic with artillery skill 2 is assisting a level 3 computer.
-This vocation computer team would make attack rolls as a level 5 computer.
-The attack and success roll bonuses are not limited to a particular vocation.
+Crew can help the ship's computer and combat systems improve the chances of success.
+A mechanic with artillery skill two is assisting a level three computer.
+This vocation/computer team makes artillery attacks like a level 5 computer.
 
-If the space vehicle is flush with crew, the computer can work with a research team to pile up bonuses.
-Before a mechanic, a mercenary and spie can work together to assist the computer they must form a research team. 
-Research teams are located somewhere in this book. 
+If the space vehicle is flush with crew members, the computer can work with a research team to pile up bonuses.
+Before a mechanic, a mercenary and a spie must form a research team before assisting the computer. 
+Research teams are located xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_team_composition[somewhere in this book,window=_blank]. 
 
 === Ship Repairs
 There is enough time during combat turns to accomplish ship repairs.
 The goal of ship repairs is to return percentage points of efficiency and restore functionality.
 Ship repairs are entirely under the purvey of the mechanic vocation.
-The personas can form research teams depending on the system being repaired. 
-
-NOTE: *Destroyed systems cannot be repaired during combat.*
+The personas can form research teams depending on which system they are repairing.
 
 These are not maintenance repairs. 
 These are bubble gum and duct tape repairs to get through combat.
 Most of these repairs will fall apart once combat ends.
 
-For example, a mechanic attempts to repair the special drive by 10 percentage points. 
-This would be a 10 DD maneuver for the mechanic.
+NOTE: * Personas cannot repair destroyed systems during combat.*
+
+For example, a mechanic attempts to repair the special drive by ten percentage points. 
+This repair would be a 10 DD maneuver for the mechanic.
 If she is successful, the special drive will move from 8% effectiveness (disabled) to 18% effectiveness.
-The special drive moves from disabled to critically damaged.
-However this let's the expedition jump drive to safety.
+This repairs the special drive moves from disabled to critically damaged.
+While still critically damaged, the expedition special jumps to safety.
 
 The mechanic could also repair an airlock from only opening 40% to opening 60%.
-This would be a 20DD maneuver.
-This also allows the expeditions combot to join in on the boarding attack. 
+To repair this 20% deficiency would be a 20DD maneuver.
+The repair allows the expedition's combot to join in on the boarding attack. 
 
 == Convenience Table Co-Location
 
