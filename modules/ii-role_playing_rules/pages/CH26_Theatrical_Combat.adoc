@@ -5,7 +5,7 @@ _____
 *This failure in communication has escalated quickly.*
 _____
 
-.*Essential Rules*
+.*Core Rules*
 . <<_introduction,Introduction>>
 . <<_4D2_mechanic_primer,4D2 Mechanic Primer>>
 .. <<_number,Number>>
@@ -31,7 +31,7 @@ _____
 . <<_ambush,Ambush>>
 . <<_weather,Weather>>
 . <<_hit_location,Hit Location>>
-. <<_exatmo_vehicle_combat,Exatmo Vehicle Combat>>
+. <<_vehicle_combat,Vehicle Combat>>
 
 
 == Introduction
@@ -89,9 +89,6 @@ If you are familiar with the Roll Playing System of EXP, the 4D2 replaces Attack
 
 WARNING: Do not proceed with this section until mastering an understanding of the xref:ii-role_playing_rules:CH26_Fourdeetwo.adoc[4D2 Mechanic,window=_blank].
 
-There are only two outcome tables included in the Role Playing System.
-There is a Combat Outcomes Table and a Maneuvers Outcome Table.
-
 === Number
 A player generates a number by rolling two pairs of competing six siders.
 The player rolls 2d6, generating a number between 2 and 12.
@@ -120,153 +117,208 @@ include::ROOT:partial$articulate.adoc[]
 
 === Outcome
 The outcome translates the number into a colourful account of the die roll.
-The 4D2 Mechanic Number transforms into an Outcome for fun and efficiency.
+The Outcome from Number Table uses the number to determine the *Outcome* from the 4D2 roll. 
+The outcome arises directly from the 4D2 roll and is untainted by shifts (aka bonuses).
+Often the outcome is enough of a description for the players to decide how things turn out.
 
-Suggested outcomes for the 4D2 Mechanic in the Theatrical Combat System.
-The outcomes are not just about combat, but how the outcome affects the persona.
+The outcome can have a direct effect on the persona.
 A persona can earn a new combat skill for very successful descriptors.
 The combat outcome differs between inorganic and organic targets. 
 
-include::ROOT:partial$CH26_Table_4D2_Descriptors.adoc[]
+include::ROOT:partial$CH26_Table_4D2_Outcomes.adoc[]
+
+=== Learning Skills
+If the player rolls an Immaculate or Wondrous success, her persona earns a skill in the combat maneuver she performs. 
+This skill reward precedes the adding of any shifts.
+A persona cannot earn skills based on shifted rolls. 
+Only the unshifted outcome can earn a skill.
+
+=== Skill Learning
+.Outcome = +10 (Immaculate) or +9 (Wondrous) success
+****
+Persona earns +1 to the combat maneuver she is performing.
+****
 
 === Descriptor
 Often the Outcome gives enough info for the players to tell the story.
-The description of the outcome is easy for Immaculate Success and Cataclysmic Failure.
-For the other 19 Outcomes, the players may need some help.
+Describing an outcome is easy for Immaculate Successes and Cataclysmic Failures.
+The other 19 possible outcomes are more subtle and harder to turn into a description.
 
-include::ROOT:partial$CH26_Table_4D2_Combat_Outcome.adoc[]
+There is a Descriptor Table for Combat when the players can't manage a description or agree on a description. 
+Most players prefer a descriptor table for when a persona's life is on the line.
 
-Aliens and anthros are organic targets and robots are inorganic targets.
-Robots damage differently from organics and the outcomes are descriptively and effectively different.
+include::ROOT:partial$CH26_Table_4D2_Descriptors_Combat.adoc[]
+
+If a player were to roll a Majestic Success (+7), her persona has dealt a mortal wound to her opponent. 
+If a player were to roll a Major Failure (-3), her persona has been knocked back by her opponent.
 
 === Descriptor Descriptions
-Theatrical combat does not have hit points to keep track of. 
-Combat can be decided with a single 4D2 Mechanism Result.
-The 4D2 Combat Outcomes are descriptive more than prescriptive.
+Aliens and anthros are organic targets, and robots are inorganic targets.
+Robots damage differently from organics, and the outcomes are descriptively and effectively different.
 
-The player may choose any success outcome lesser than the one they generated.
-If the outcome indicates a Mortal Wound, the player could choose from Wounded, Stunned or Backfoot if they desire.
+The player may choose any success descriptor lesser than the one generated.
+If the descriptor indicates a Mortal Wound, the player can choose from Wounded, Stunned or Backfoot if she desires.
 
-.*List of Organic Injuries*
-* Backfoot. 
-The player can choose some compromised position for her opponent.
-The opponent suffers no shift for this compromise.
-However it may aid the persona to escape or do some other cunning thing.
-Combat is ongoing.
-* Stun.
-A stunned target has been rattled in the combat. 
-A stunned target is still able to move, fight and think.
-The player earns a stun shift on her next 4D2 Mechanic Result.
-Combat is ongoing.
-* Wound.
-The target has suffered an obvious injury.
-The target may continue to battle if they have the option.
-The attacker enjoys a wound shift on all future 4D2 Mechanic Results in this session.
-* Mortal Wound.
+.*Organic Successes*
+Fatal Wound:: 
+The target has suffered a fatal injury on the battlefield and is dead.
+A Fatal Wound is a victory condition, and the target is dead.
+
+Mortal Wound::
 The target has suffered an injury that will quickly end their life.
-A Mortal Wound is a victory condition and the target is out of combat.
+A Mortal Wound is a victory condition, and the target is out of combat.
 The target will remain alive until combat ends.
-If they do not receive care, they will die.
-* Fatal Wound.
-The target has suffered a fatal injury on the battle field and is dead.
-A Fatal Wound is a victory condition and the target is dead.
+If they do not receive immediate care, they will die.
 
-.*List of Inorganic Injuries*
-* Cosmetic Injury.
+Severe Wound::
+The target has suffered an obvious injury.
+A Severe Wound is a victory condition, and the target is out of combat.
+The target will remain alive even after combat ends.
+If they do not receive eventual care, they may die. 
+
+Wound::
+The target has suffered an obvious injury.
+A Wound is not a victory condition, and the target continues in combat.
+A wounded target is unable to move without physical assistance.
+Often there will be some penalty for being wounded.
+The most manageable penalty is to limit the persona's total shifts when they are wounded.
+More wounds can result in more penalties. 
+Quick fixes can remove wounds and remove penalties.
+
+Severe Stun::
+A Severe Stun rattles the persona but does not include an apparent injury.
+A Severe Stun is not a victory condition, and the target continues in combat.
+A severely stunned target is unable to move without assistance.
+There are no other penalties for a severe stun.
+A Severe Stun remains until combat ends, or the persona gets a quick fix. 
+
+Stun::
+A Stun rattles the persona but does not include an apparent injury.
+A Stun is not a victory condition, and the target continues in combat.
+A stunned target is unable to move without encouragement.
+There are no other penalties for a severe stun.
+A Stun spontaneously resolves at the end of the combat turn. 
+
+Knockback::
+A Knockback pushes the target back in the direction of the attacker's preference.
+The knockback is not a victory condition, and the target continues in combat.
+A knockback does not send a target flying across the battle map. 
+Knockback has no movement or shift penalties.
+
+Backfoot::
+The player can choose some mildly compromised position for her opponent.
+The opponent suffers no shift for this compromise.
+However, it may aid the persona to escape or do some other cunning thing.
+
+.*Organic Failures*
+If the player's 4D2 roll is negative, her persona can suffer the successes described above as failures. 
+Ouch.
+
+.*Inorganic Successes*
+Attribute Loss::
+Attribute Loss is the most severe damage that a robot can sustain.
+Attribute loss indicates permanent damage to a crucial system.
+The robot target must permanently cross the attribute off of her attribute list.
+Attribute Loss destroys the robot if there are no attributes to remove.
+Destruction of attributes is the only victory condition for robot opponents.
+
+Attribute Damage::
+Attribute Damage is a temporary loss of an attribute for the target.
+The target robot will be unable to use the attribute or shift the attribute grants until the end of combat. 
+A damaged attribute cannot lead to robot destruction.
+The attribute is disabled but still present.
+Damaged attributes reboot back to normal when combat is over.
+
+Peripheral Destruction::
+Peripheral Destruction is a very severe injury for the target robot.
+Peripherals are baked-in robot abilities that are a mix of hardware and programmes.
+The player, usually the referee, must choose a peripheral to remove from her persona.
+This peripheral is not repairable after combat.
+Peripheral Destruction has no effect if there are no peripherals to destroy.
+
+Peripheral Destruction::
+Peripheral Destruction is a very severe injury for the target robot.
+Peripherals are baked-in robot abilities that are a mix of hardware and programmes.
+The player, usually the referee, must choose a peripheral to remove from her persona.
+This peripheral is not repairable after combat.
+Peripheral Destruction has no effect if there are no peripherals to destroy.
+
+Peripheral Damage::
+Peripheral Damage is a temporary injury for the target robot.
+Peripherals are baked-in robot abilities that are a mix of hardware and programmes.
+The player, usually the referee, must choose a peripheral to remove from her persona.
+This peripheral is repairable during combat and spontaneously reboots after fighting.
+Peripheral Damage has no effect if there are no peripherals to damage.
+
+Programme Destruction::
+Programme Destruction is a very severe injury for the target robot.
+Programmes are software skills that have no hardware.
+The player, usually the referee, must choose a programme to remove from her persona.
+This programme is not repairable after combat.
+Programme Destruction has no effect if there are no programmes to destroy.
+
+Programme Damage::
+Programme Damage is a temporary injury to the target robot.
+Programmes are software skills that have no hardware.
+The player, usually the referee, must choose a programme to remove from her persona.
+This programme is repairable during combat and spontaneously reboots after the battle.
+Programme Damage has no effect if there are no programmes to damage.
+
+Severe Rattle::
+Severe Rattle is like a cross between stun and knockback from the organic successes.
+There is no impact on the robot's ability to fight or move during combat.
+A Severe Rattle makes the robot more susceptible to priority commands and robotic overrides. 
+The control susceptibility lasts until the end of the battle unless reversed by a mechanic.
+
+Rattle::
+Rattle is like a cross between stun and knockback from the organic successes.
+There is no impact on the robot's ability to fight or move during combat.
+A Rattle makes the robot more susceptible to priority commands and robotic overrides. 
+The control susceptibility spontaneously resolves at the end of the combat turn.
+
+Cosmetic Injury::
 The robot has a new scratch or dent.
-* Rattle.
-The robot has had a screw loosened.
-Similar to an organic stun.
-The robot is still able to move, fight and think.
-The player earns a rattle shift on her next 4D2 Mechanic Result.
-Combat is ongoing.
-* Programming.
-The robot has had a skill compromised by the attack.
-Programming is software and learnable. 
-Damaged programming cannot be used for the rest of combat.
-Destroyed programming is crossed off the persona record.
-* Peripherals.
-The robot has had an ability compromised by the attack.
-Peripherals are parts baked in at fabrication and are not learnable.
-Damaged peripherals are unusable until combat is resolved.
-Destroyed peripherals are crossed of the persona record.
-* Attributes.
-The robot has had an entire robotic system compromised by the attack.
-Attributes are part of the robot's fabrication and cannot be repaired.
-A damages attribute is out of commission for the remainder of the combat.
-A destroyed peripheral is crossed off the persona record.
-If a robot loses are her attributes she has been destroyed.
 
-.*Some Example Descriptors*
-* The descriptor of Immaculate Success (+10) is quite rare.
-The persona earns a new skill. 
-An organic opponent can be killed or suffer any lesser outcome.
-An inorganic opponent would lost two attributes, likely destroying it.
+.*Inorganic Failures*
+If the player's 4D2 roll is negative, her persona can suffer the successes described above as failures. 
+Bonk.
 
-* The descriptor Solid Success (+2) is quite common.
-The persona earns no skills with this outcome.
-An organic opponent will be put on a full backfoot.
-An inorganic opponent will suffer a rattle. 
-
-* The descriptor Cataclysmic Failure (-10) is quite rare.
-The persona has a skill knocked out of their head.
-An organic persona could receive a mortal wound losing combat.
-An inorganic persona would lose an attribute or a peripheral. 
 
 == Shifts
 Shifts are similar to bonuses or penalties.
-A shift is anything that moves the Descriptor of the 4D2 Mechanism Result.
-A Shift moves the Descriptor and changes the Outcome of the Result.
-A Shift of 2 would move a Solid Success (+2) to an Outstanding Success (+4).
+A shift is anything that moves the Descriptor.
+A shift only applies to the descriptor.
+A shift does not apply to an outcome.
 
-Shifts are very important and are the only way players can gain an advantage in the 4D2 system.
+NOTE:: Players cannot use shifts to improve the chance to learn skills.
 
-Some groups immediately add the Shift to the Result that the player generates.
-There is a risk that this shortcut will lead to over-powered personas.
-A shift of +1 triples the chance of the persona learning a new skill in combat.
-A persona has a better chance of combat success using Shifts.
-However, using the adjusted outcome will lead to excessive skill acquisition.
+A Shift moves the Descriptor and benefits the player's persona.
+A Shift of 2 would move a Knockback (+2) to a Severe Stun (+4).
 
-=== Shifts
+Shifts are fundamental and are the only way players can gain an advantage in the Theatrical Combat System.
+
 Shifts come from the persona's attributes, abilities and skills.
-However, literally anything can become a shift if the players accept it.
-In hand to hand combat, a player could use PSTR as a shift.
-When shooting a pistol, the player could use Pistol skill as a shift.
-A glorious description of how a grenade is thrown could earn a shift.
-These shifts are all added together and compared to their opponent's shifts.
+However, anything can become a shift if the players accept it.
+In hand-to-hand combat, a player can use PSTR as a shift.
+When shooting a pistol, a Pistol skill is an obvious shift.
+A glorious description of how the persona throws a grenade can earn a shift.
 
+=== Counter Shifts
+Competing personas or situations can counter the shifts a player can use.
 For example, a persona is in a pistol fight with an opponent. 
-She has Pistol skill and DEX Attribute.
-She can Shift her 4D2 Outcome by +2.
-This Shift of 2 could move a Solid Success (+2) to an Outstanding Success (+4).
+She has a pistol skill and a DEX Attribute.
+She can Shift her descriptor by +2.
 If her opponent has Pistol 2, then the competing Shifts would cancel out.
 
-TIP: Rules maintain game balance and assist creativity. +
-*Do not let rules get in the way of the story or the fun.*
+=== Negative Shifts
+The Theatrical Combat System is player-centric. 
+The worst situation a persona can be in is to make a raw roll.
+An unshifted raw roll is scary enough for a player. 
 
-Negative shifts can be applied if the players feel it is appropriate. 
-This makes a powerful enemy more difficult to defeat in combat. 
-
-.*List of Example Shifts*
-* PSTR attribute and DEX attribute in sword combat (+2 Shift).
-The player generates 7 on the 4D2 Result.
-The outcome is adjusted from Majestic Success (+7) to Wondrous Success (+9).
-The persona deals a fatal wound (+9) to her opponent.
-However, she can only learn a Temporary Skill (+7).
-
-* DEX attribute, Grenade skill and a story about playing skeet ball (+3 shift).
-The player generates -1 on her 4D2 Mechanic Result.
-The outcome is shifted from a Minor Failure (-1) to a Solid Success (+2).
-There are no persona skills listed on any of these outcomes.
-The shift turned failure into success.
-
-* Two personas are shooting arrows at each other. 
-The player persona is out skilled by her opponent.
-The net Shift is -2.
-The player generates a 4D2 Mechanic Result of +10.
-The outcome is shifted down from Immaculate Success (+10) to Magnificent Success (+8).
-Combat outcome prevents the player from dealing a Fatal Wound.
-However the persona would get a new skill from what she learned in the fight.
+An essential referee persona should be toughened by reducing a player's success descriptor and not worsening a failure descriptor.
+A plot-important referee persona can reduce a success descriptor by two but not worsen a failure descriptor.
+A Mortal Wound (+8) wound decreases to a Severe Wound (+6), but a failure Wound (-6) would not worsen to a Mortal Wound (-8).
+This descriptor adjustor acts similarly to armour. 
 
 == Folded Rolls
 A folded 4D2 roll is for when a +/- randomness cannot apply.
@@ -288,276 +340,115 @@ Only detente and good things can happen.
 If the 4D2 roll is folding for a negative outcome, all the numbers become negative.
 The player's roll now ranges from -10 to -10. 
 The outcome and descriptors remain the same. 
-Only detente and bad things can happen..
+Only detente and bad things can happen.
 
 == Attack Types
-Same types names and explanations.
-Ranges are qualitative and descriptive.
-Poly attacks multiple rolls take best result.
+The attack types in the Theatrical Combat System Ranges are qualitative and descriptive.
+There are no irritating letter categories like are found in the Tactical Combat System.
 
-=== Type A Attacks
-These are non powered thrusting and striking attacks.
-Type A attacks depend on the muscle power of the attacker and must connect with a target to cause damage.
+=== Persona Powered Contact Attacks
+These attacks depend on the muscle power of the attacker and must touch a target to cause damage.
 The combatants must be within range of each other to engage in combat.
-In the Theatrical Combat System Type B attacks outrange Type A Attacks.
+Examples are clubs, fists, claws, bites, swords, and ramming.
+The Tactical Combat System calls these Type A attacks.
 
-Examples are: clubs, fists, claws, bites, swords, and ramming.
-An anthro could use a weapon like a sword or a axe. 
-An alien could use it's natural attack like a bite, or a talon slash.
-A robot could use a malfunctioning peripheral that operates like an club.
-
-Aliens and robots can have multiple attacks per turn with their type A attacks.
-For example, an alien may be able to bite three times each turn.
-Or a robot may have multiple pointy things to stab with.
-
-=== Type B Attacks
-These are non-powered projectile attacks.
-Type B attacks depend on the muscle power of the user, and are launched the target to cause damage.
-Unlike type A attacks the attacker launches a projectile using their own muscle power.
+=== Persona Powered Ranged Attacks 
+These attacks depend on the muscle power of the attacker and are flung at the target to cause damage.
 The combatants must be within range to damage each other.
-In the Theatrical Combat System Type C attacks outrange Type B Attacks.
+Examples are arrows, bolts, rocks, quills and spit.
+The Tactical Combat System calls these Type B attacks.
 
-Examples are: arrows, bolts, rocks, quills and spit.
-An anthro would use a weapon like a bow or a sling. 
-An alien could have an evolved natural attack like spitting rocks or flinging quills.
-A robot could use a malfunctioning peripheral that flings metal shavings.
-
-=== Type C Attacks
-These are powered projectile attacks.
-Type C weapons do not require muscle power of the user and are just pointed at the target to cause damage.
+=== Energy Powered Ranged Attacks
+These attacks do not require muscle of the user and are pointed at the target to cause damage.
+The energy comes from a battery, a bullet or some combination.
 Combatants can be quite far apart and be able to damage each other.
-In the Theatrical Combat System rifles outrange pistols. 
+Examples are bullets, laser bolts, energy beams, and crossbow bolts.
+The Tactical Combat System calls these Type C attacks.
 
-Examples are: bullets, laser bolts, energy beams, and crossbow bolts.
-An anthro using a weapon like a gun or a lazer.
-An alien could have a naturally evolved attack like lazer eyes or gas projected bone chunks.
-A robot could be a combot with a baked-in gun or a construction robot misusing a nail gun. 
+=== Area of Effect Attacks 
+Area of effect attacks act upon an area instead of a target.
+Every target in the area of effect is simultaneously attacked. 
+Area of effect attacks do not need direct contact with the target to cause damage.
+Examples are frag grenade, napalm aerosol, or flaming breath.
+The Tactical Combat System calls these Type AOE attacks.
 
-=== Type D, E Attacks
-These are powered projectile attacks.
-Type D and E attacks do not require muscle power of the user and are just pointed at the target to cause damage.
-Combatants can be quite far apart and be able to damage each other.
-In the Theatrical Combat System rifles outrange pistols. 
+The Tactical Combat System has a complex set of rules, using hexagon mats, to determine which personas are in the area of effect.
+The Theatrical Combat System has no such rules.
+The referee and players must quickly decide which targets are in the area of effect. 
 
-Type D and E attacks are the same as type C attacks but with a higher firing rate.
-Type D attacks attack twice as often as Type C Attacks.
-Type D attacks usually allow the player to generate two 4D2 Mechanic Results choosing the best.
-Type E attacks attack thrice as often as Type C Attacks.
-Type E attacks usually allow the player to generate three 4D2 Mechanic Results choosing the best.
+The player makes a 4D2 roll when she launches the attack. 
+Any outcome Detente (0), or better, indicates a successful grenade, aerosol or bomb attack. 
+Any outcome Failure (-1 to -8) indicates a failed area of effect attack.
+A failed attack means "no targets were harmed during the making of this explosion."
+A Calamitous Failure (-9) will harm other expedition members.
+A Cataclysmic Failure (-10) indicates a catastrophic malfunction of the area of effect weapon. 
 
-Examples are: bullets, laser bolts, energy beams, and crossbow bolts.
-An anthro using a weapon like a fission or plasma rifle.
-It would be unusual for an alien to have a type D attack type.
-Aliens tend to have multiple attacks of type A, B or C. 
-A robot with type D or E attacks usually has a baked-in weapon that functions like a fission or plasma gun.
+include::ROOT:partial$CH26_Table_4D2_Descriptors_AOE.adoc[]
 
-=== Type F Attacks
-These are powered attacks that are fully automated (F stands for fully automatic).
-Type F attacks are almost always weapons.
-In EXP full auto weapons are often referred to as flotto weapons
-These powered weapons do not require muscle power of the user and are just pointed to cause damage.
-Combatants can be quite far apart and be able to damage each other.
-
-A type F attack has an unique mechanism in the Theatrical Combat System. 
-Most personas using a Type F attack are engaging in a pray and spray attack.
-The player gets to generate 4 4D2 Mechanic Results picking the top 2.
-Type F attacks are ominous indeed.
-
-NOTE: *Weapon Type F was formerly called Weapon Type Special*
-
-Examples are: machine gun, Gatling laser rifle, or machine pistol.
-It is very unusual for an alien to have an evolved type F attack.
-However tool using aliens could arm themselves the same as anthros.
-
-=== Type AOE Attacks
-These are area of effect (AOE) weapons. 
-Type AOE weapons do not need to contact the target to cause damage.
-These weapons typically explode and  damage everything in their area of effect (AOE). 
-
-In the Theatrical Combat System area of effect weapons are a much blunter weapon.
-A grenade area of effect would affect all personas within the pistol range or closer.
-If the players decide a group of targets are within pistol range of each other the attack affects them all.
-A bomb has an enormous range and would effect every persona in combat. 
-Only those further than rifle range away can escape the blast.
-
-AOE attacks have a unique 4D2 Mechanic. 
-The player generates an Unanswered 4D2 Result.
-The Unanswered 4D2 Mechanic is explained later.
-In short negative results generated by the player do not harm the persona.
-Only a Cataclysmic Failure may result in a grenade drop or accidental early activation.
-The decision by the players will decide whatever is best for the story.
-
-Examples are: frag grenade, napalm aerosol, or fusion grenade.
-
-
+Every target in the area of effect must make a negative folded roll to determine the attack's impact.
+If efficiency is of concern, one roll can determine the impact on all persona's in the area of effect.
 
 == Anthro Combat
 The Theatrical Combat System is based on anthros fighting anthros. 
-There some adjustments to the system for robots and aliens.
 Robots behave slightly differently due to their size and inorganic fabrication.
 Aliens behave slightly differently due to their size.
 
 == Robot Combat
 There are some advantages to being an inorganic life form in combat.
-There are many attacks that are ineffective against robots. 
 Mental attacks like ESP or mental control are not effective on the inorganic brain.
+Robots cannot be stunned or wounded and keep fighting until destroyed.
 
-=== Robot Size
-Size counts as a shift for robots in hand to hand combat.
-Size also counts as a shift in how they are damaged in combat.
-
-With Type A Attacks, including ramming, the robot gets a shift for size.
-For example, a Large sized robot would get a shift of of +1 if she were battling a Medium or smaller opponent.
-A Gigantic sized robot would get a shift of +2 if she were brawling a Medium or smaller sized opponent. 
-If the opponents are the same size, there is no shift allotted.
-
-=== Robot Damage
-Robots can shift 4D2 Mechanic Outcomes in their favour in regards to damage.
-For example a Gigantic robot can shift her damage outcome by 2 decreasing the outcome.
-This does not affect the personal outcomes of the attacker.
-For example a persona is attacking a Gigantic robot.
-The player generates an Wondrous Success (+9) Result on the 4D2 Mechanic.
-Her persona will earn a skill as suggested by the outcome.
-However, the robot will only be Mortally wounded by the attack (+7).
-
-Robots cannot be knocked unconscious or disabled during combat.
-The player running the persona may choose to drop an attribute of choice. 
-A robot is destroyed once it loses all it's attributes. 
-Robots are easy to damage, but hard to destroy
+Size counts as a shift for robots in hand-to-hand combat.
+Ramming is the robotic equivalent of hand-to-hand combat. 
+If the players are using size shifts, larger robots can earn a size advantage.
 
 == Alien Combat
 There are some advantages to being an alien in combat.
-Many aliens have natural attacks that allow for Multiple Mechanic Results and Unanswered Mechanic Results.
-Aliens can also lever their size with Type A Attacks and Mechanic Outcomes.
+Many aliens have natural attacks that do not run out of ammunition or batteries.
+Aliens are not affected by wounds or mortal wounds and will keep fighting without penalties.
+Aliens can be stunned by a combat blow.
 
-=== Alien Size
-Size counts as a shift for aliens in hand to hand combat.
-Size also counts as a shift in how they are damaged in combat.
-
-With Type A Attacks, aliens enjoy a shift for size.
-For example, a Large sized alien would get a shift of of +1 if she were battling a Medium or smaller opponent.
-A Gigantic sized alien would get a shift of +2 if she were brawling a Medium or smaller sized opponent. 
-If the opponents are the same size, there is no shift allotted.
-
-=== Alien Damage
-Aliens can shift 4D2 Mechanic Outcomes in their favour in regards to damage.
-For example a Gigantic alien can shift her damage outcome by 2 decreasing the outcome.
-This does not affect the personal outcomes of the attacker.
-For example a persona is attacking a Gigantic alien.
-The player generates an Wondrous Success (+9) Result on the 4D2 Mechanic.
-Her persona will earn a skill as suggested by the outcome.
-However, the alien will only be Mortally wounded by the attack (+7).
-
-Aliens cannot be knocked unconscious or disabled during combat.
-The player running the persona may choose to drop an attribute of choice. 
-A alien is destroyed once it loses all it's attributes. 
-Aliens are easy to damage, but hard to destroy
+Size counts as a shift for aliens in hand-to-hand combat.
+If the players are using size shifts, larger aliens can earn a size advantage.
 
 == Armour Rating
 There are no Armour Ratings in the Theatrical Combat System.
 Personas gain combat advantage from their skills, abilities, weapons, and size.
-These are called Shifts because they shift the 4D2 Mechanic Result.
-Hopefully the Shift will be in the persona's benefit.
-The term Shift was chosen because the shift represents a summation of bonuses, penalties, abilities and skills.
-
-//protective armour can shift the outcome for the persona  +2 to negatibe roll
-
-A persona that has protective armour and DEX attribute may choose to use these to shift the 4D2 Mechanic Result.
-The player could use the DEX and Armour to get a shift of +2. 
-If the opponent also had DEX and Armour, there would be no shift available.
-
-
-
-
-== Optional Rules
-They are optional but ruley.
+Completely ignoring armour is too unrealistic for even the Theatrical Combat System.
+Armour can shift the persona's descriptor in her favour. 
+A suit of combat armour can decrease a mortal wound to a mere wound.
+More powerful armour may have an even more significant beneficial shift.
+Plus two is the highest possible shift armour can offer. 
 
 == Range
 There are no minis or hex mats rules for the Theatrical Combat System.
-Ranges are descriptive, and the effects of range are qualitative. 
-Each descriptive level indicates how far apart the combatants are and what weapons can be used.
-
-At the range Grapple, the personas are locked in a death grip. 
-Only punches, bites, claws and chokes can be used. 
-There are some close combat weapons that may be used while grappling.
+Ranges are descriptive, and the effects of different ranges are qualitative.
+The ranges help tell the best combat story possible. 
+In most cases, the story will any need for ranges. 
+Each descriptive level indicates how far apart the combatants can be and still engage a target.
 
 .*Theatrical Combat Ranges*
 . Grapple
-. Hand to hand
-. Hand to hand, weapons
-. Hand to hand, missile
-. Powered, Pistol
-. Powered, Rifle
-. Sniping
-. Artillery
-
-include::ROOT:partial$CH26_Table_Theatrical_Range.adoc[]
-
-=== Range Advantage
-Range advantage is very serious in the Theatrical Combat System.
-Range advantage allows for the player to generate Unanswered 4D2 Mechanic Result.
-This advantage almost always occurs when a ranged attack is being used on a hand to hand attack.
-
-Theatrical Combat ranges are qualitative and are used to tell the best combat story possible.
-So a persona firing a pistol on a target that can only punch would get 3 Unanswered 4D2 Mechanic Results.
-
-include::ROOT:partial$CH26_Table_Theatrical_Unanswered.adoc[]
-
-=== AOE and Range
-In the Theatrical Combat System area of effect weapons are a much blunter weapon.
-A grenade area of effect would affect all personas within the pistol range or closer.
-If the players decide a group of targets are within pistol range of each other the attack affects them all.
-A bomb has an enormous range and would effect every persona in combat. 
-Only those further than rifle range away can escape the blast.
-
-AOE attacks have a unique 4D2 Mechanic. 
-The player generates an Unanswered 4D2 Result.
-The Unanswered 4D2 Mechanic is explained later.
-In short negative results generated by the player do not harm the persona.
-Only a Cataclysmic Failure may result in a grenade drop or accidental early activation.
-The decision by the players will decide whatever is best for the story.
-
-include::ROOT:partial$CH26_Table_AOE_Ranges.adoc[]
+. Persona powered contact attacks
+. Persona powered projectile attacks
+. Pistol attacks
+. Rifle attacks
+. Rifle and scope 
+. Artillery attacks
 
 == Attack Frequency
-For personas that have multiple attacks, there are several advantages.
-The player can choose to attack multiple times or attack multiple targets.
+Under normal circumstances, each persona gets one 4D2 roll per turn.
+Some attacks allow for more than one 4D2 roll per turn.
+Some aliens are fast and can make multiple bites per turn.
+Some weapons have fast triggers and can make multiple attacks per turn.
+Some weapons are automated and fire bursts of projectiles.
+The exact nature of the multiple attacks is in the weapon description.
 
-Only Mercenaries can make flexible choices on how they divide their results.
-For example, a mercenary that has 3 attacks could stop one target and move onto another.
-Other vocation types would not be able to shift targets unless they are specially skilled.
+Each attack allows the player one 4D2 roll. 
+The player may choose the best number from the 4D2 rolls.
+So a player whose anthro persona has a plasma rifle (3 attacks per unit) would get three 4D2 rolls and pick the best one.
 
-=== Multiple Times
-Multiple times on one target.
-A player that chooses to use her multiple 4D2 Mechanic Results on one target is attacking multiple times.
-If both personas are within range for their attacks, the usual 4D2 Mechanic Result is generated.
-The persona with more attacks has the option of generating additional 4D2 Mechanic Result rolls.
-The player with the attack advantage can pick the result that works in their favour. 
-
-include::ROOT:partial$CH26_Table_Mulitples.adoc[]
-
-Combining range advantage with attack frequency dominance makes for an unstoppable force.
-
-NOTE: *Some players do not allow persona enhancements like skills when using multiple results.*
-
-Only combat vocations can change their attack configuration during combat.
-For example, a Vet with a Type E attack pistol can only unload all 3 4D2 Results on one target.
-A Mercenary with the same pistol may disable her target and choose to move to other targets. 
-
-=== Multiple Targets
-Multiple targets indicates that the persona is attacking different targets with each 4D2 Mechanic.
-Multiple targets requires all targets to be in range.
-
-For example, a Type D Attack could be split between two different targets.
-The player would generate one 4D2 Mechanic Result with each target.
-This is most effective when there is a range advantage. 
-
-An alien that has three Type A Attacks could claw three different opponents at once.
-If one of the outcomes is fatal for the alien, she will get to generate all three 4D2 Mechanic Results.
-
-Only combat vocations can change their attack configuration during combat.
-For example, a Vet with a Type E attack pistol can only unload all 3 4D2 Results on one target.
-A Mercenary with the same pistol may disable two targets and choose to move another across the room. 
+Only aliens with multiple attacks and mercenaries can spread their attacks between different targets. 
 
 == Size Shifts
 
@@ -565,99 +456,45 @@ include::ROOT:partial$CH26_Table_Size_Shifts.adoc[]
 
 == None Rules
 There are no real rules here, just concepts.
+If any of these rules are crucial to gameplay, then consider using the Tactical Combat System.
+The two combat systems mix and match very well. 
+If detailed initiative and movement are essential, the players can use the tactical versions of these rules. 
 
-== Movement
+=== Movement
 Combat movement is qualitative in the Theatrical Combat System.
 There are no minis, no tokens and no mats.
-There is no movement rate.
-If a situation should arise where movement is critical to the story, the 4D2 Mechanic is called upon.
+There are no movement rates.
+If a movement decision is critical to the story, the 4D2 Mechanic can determine the result.
 
-Two personas can race each other to using the 4D2 Mechanic and employ shifts like DEX or Sprinting. 
+=== Time
+There are no combat turns in the Theatrical Combat System.
+The turns described her are players politely taking turns participating in the combat story.
+If there is a race against time decision vital to the story, the 4D2 Mechanic can determine the result.
 
-If positioning for ranged attacks is important, the players decide ranges that make the best story.
-For example, in a restaurant, the personas sitting at the same table are Hand to Hand Range or closer.
-Everyone in the restaurant is within Powered, Pistol range or closer.
-This would allow everyone to shoot at everyone else in the room.
-Personas with Type A attacks may have to suffer an Unanswered 4D2 Mechanic if they are rushing a persona armed with a pistol, bow or laser rifle. 
-
-Players can move their personas closer to engage in combat. 
-Disengaging combat used the 4D2 Mechanic to see how successful the tactical withdrawal is.
-Depending on the situation, disengaging combat may offer the attacker an Unanswered 4D2 Mechanic Result.
-If a grenade goes off in the dining area every persona is effected.
-
-== Time
-There are no turns in the Theatrical Combat System.
-Players can organize time to what ever is needed to make the best combat story.
-If there is a race against time built into the story, the players may use the 4D2 Mechanic to determine the outcome.
-
-The players can organize their order of decision making to what ever suits the combat story best.
-For example, it may be simplest to go around the table and have each player take a turn.
-If there is a dire situation for a persona, the players may have her player go first or last. 
-The order of combat is decided by what makes the best combat story.
-
-== Initiative
+=== Initiative
 There is no initiative in the Theatrical Combat System.
-Players can organize play order to what ever is needed to make the best combat story.
+The players politely take turns participating in the combat story.
 If there is a race against time built into the story, the players may use the 4D2 Mechanic to determine the outcome.
 
-The players can organize their order of decision making to what ever suits the combat story best.
-For example, it may be simplest to go around the table and have each player take a turn.
-If there is a dire situation for a persona, the players may have her player go first or last. 
-The order of combat is decided by what makes the best combat story.
+=== Ambush
+There is no ambush in the Theatrical Combat System.
+All parties politely take turns participating in the combat story.
+If an ambush is part of the story, the players may use the 4D2 Mechanic to determine the outcome.
 
-== Ambush
-The expedition can be on the receiving, or delivering, side of an ambush.
-The outcome of the ambush is decided by the 4D2 Mechanic.
-The win for an ambush is a number of Unanswered 4D2 Mechanic Results.
-An Immaculate Success would give 2 Unanswered 4D2 Mechanic Results.
-Any other success would give 1 Unanswered 4D2 Mechanic Result.
-
-A Failure would just mean no surprise and no Unanswered 4D2 Mechanic Results.
-If the result is a cataclysmic failure (-10), the players may decide to reverse the ambush effect.
-
-== Weather
+=== Weather
 There are no weather effects in the Theatrical Combat System.
-It is assumed that all personas are affected by the weather equally.
-Weather is a purely descriptive element in this system. 
+Meteorological effects are a purely descriptive element in this system. 
 
-Occasionally a player with an alien may argue for a shift if she is in her element.
-This is decided by the players. 
+=== Hit Location
+Neither the Theatrical Combat System nor the Tactical Combat System uses hit locations.
+Hit locations are a descriptive element in both systems. 
 
-== Hit Location
-There are no hit locations in the Theatrical Combat System.
-There are no hit locations in the Tactical Combat System either.
-Hit locations are a descriptive element in this system. 
+=== Vehicle Combat
+There are neither exatmo nor inatmo vehicle combat systems in the Theatrical Combat System.
+Space ships and terrestrial vehicles should work as needed for the expedition.
+Both are tools to propel the story.
+If transportation shenanigans become part of the story, the players may use the 4D2 Mechanic to determine the outcome.
 
-== Exatmo Vehicle Combat
-Spaceship combat is decided on a single 4D2 Mechanic Result.
-There are no specific outcomes for Exatmo vehicle combat.
-The players will choose the outcomes that represent the best outcome for the story.
-
-A success for the expedition would allow them to board the target ship.
-Boarding and interacting inside the target space vehicle is much more cinematic and storyful.
-For single pilot crafts in an exatmo dog fight a success may mean destruction of the opponent.
-
-A failure could indicate that the target ship escapes or the target ship boards the expedition. 
-A failure would rarely result in destruction of the expedition vessel. 
-As with successes, the players will decide what outcome best suits the story. 
-
-== Combat Tables
+=== Combat Tables
 There are no combat tables in the Theatrical Combat System.
-Personas gain combat advantage from their skills, abilities, weapons, and size.
-These are called Shifts because they shift the 4D2 Mechanic Result.
-Hopefully the Shift will be in the persona's benefit.
-The term Shift was chosen because the shift represents a summation of bonuses, penalties, abilities and skills.
-
-When the player generates a 4D2 Mechanic Result she tries to Shift the result in her favour.
-Our example is a Mercenary with the attributes PSTR INT, the ability Ambidextrous and the skill Hand to Hand.
-When using when attacking with a sword, she would get PSTR and Hand to Hand bonuses. 
-If these bonuses are unopposed, her shift would be +2.
-This would indicate her worst outcome from the 4D2 Mechanic is -8 or Mortally wounded.
-Her chances are markedly __shifted__ towards success. 
-If her opponent had PSTR as well, the two would cancel each other out, and the persona's Shift would be +1.
-This is still helpful.
-
-Persona benefits from the 4D2 Mechanic can only arise from the natural mechanic result.
-A shift of +2 and a natural result of +8 converts to an Immaculate Success and likely death for the opponent.
-However she can only acquire the +8 Magnificent Success personal bonuses. 
-So she will receive a temporary skill attribute, and not a permanent new skill (+10).
+The whole purpose of this combat system is to get away from maths.
