@@ -1,21 +1,39 @@
 = Theatrical Performance System
 
-Everything is an maneuver in EXP.
-In this context a maneuver is any persona action that has an unclear outcome.
-The __unclear__ part of the outcome is determined by randomness.
-Players can guide the randomness by using skills, and attempting maneuvers in their wheelhouse.
+[quote]
+____
+*Life is a series of mistakes until one of them kills you.*
+____
+
+.*Performing Maneuvers*
+. <<_introduction,Introduction>>
+. <<_4D2_mechanic_primer,4D2 Mechanic Primer>>
+.. <<_number,Number>>
+.. <<_outcome,Outcome>>
+.. <<_descriptor,Descriptor>>
+. <<_shifts,Shifts>>
+
+
+== Introduction
+Everything is a maneuver in EXP.
+The maneuvers in combat are precise, and their dire outcomes earn them their section.
+This section is about performing every other kind of maneuver.
+In this context, a maneuver is any persona action that has an unclear outcome.
+For example, it is not immediately evident that the mechanic will adequately fix the malfunctioning control box.
+The core of all roleplaying games is to fill this unknown with randomness.
+The Theatrical Performance System uses the 4D2 Mechanic to generate randomness in maneuvers.
+
+The Performance System should be used when it makes sense.
+Having players make 4D2 rolls for each step they take is cumbersome and not in the spirit of the Role Playing System.
+Simple tasks, even combat ones, should simply succeed. 
+The 4D2 roll should only come up when a decision helps the story.
 
 The name of this section is rooted in legacy and nostalgia. 
 Formerly vocation maneuvers were determined by elaborate Performance Tables.
-The Theatrical Performance System replaces Performance Tables and improves story telling.
+The Theatrical Performance System replaces Performance Tables and improves storytelling.
+The personas are performing maneuvers, not soliloquies.
 
-The Performance System should be used when it makes sense.
-Having players roll dice for each step that they make is extreme.
-Having players talk their way through a campaign changing outcome is equally extreme.
-
-The Theatrical Performance System uses the 4D2 Mechanic to generate randomness in maneuvers.
-
-== 4D2 Mechanic
+== 4D2 Mechanic Primer
 4D2 is both a descriptor and a joke. 
 The 4 indicates that the mechanic uses 4 dice.
 The 4 also indicates that there are 4 steps in the process.
@@ -25,258 +43,186 @@ The joke is that 4D2 sounds like 42.
 Fourty Two is the answer to the question.
 The 4D2 Mechanic gives the answers to questions you don't understand.
 
-The 4D2 Mechanic uses four six sided dice to guide the story in the Role Playing System.
+The 4D2 Mechanic uses four six-sided dice to guide the story in the Role Playing System.
 The 4D2 Mechanic is a bespoke decision tool for EXP's Role Playing System.
 4D2 replaces Attack Rolls, Performance Rolls, Attribute Rolls, Saving Rolls, Sphincter Rolls and more.
 
-In the Theatrical Combat System the 4D2 Mechanism is used to guide the combat story. 
-Players ultimately guide the outcomes that the mechanic generates.
+In the Theatrical Performance System, the 4D2 Mechanism guides the performance story. 
 
-.*Four steps of 4D2 Mechanic*
-. get *Result* from 4D2 mechanic
-. get *Descriptor* from Result
-.. Apply the Shifts
-. get *Outcome* from Descriptor
-. Return to story telling
+.*Four steps of the 4D2 Mechanic*
+. A player rolls dice to get a  *Number*
+. That  *Number* yields an *Outcome*
+. The   *Outcome* produces a *Descriptor*
+.. The *Descriptor* comes from the players or a table.
+. The *Story* is influenced by the *Descriptor*
 
-== 4D2 Mechanic Results
-The result is the number produced by rolling two pairs of competing six siders.
-The player rolls 2d6 and generates a number between 2 and 12.
-Another player rolls 2d6 and generates another number between 2 and 12.
-The second roll is subtracted from the first roll.
-The curve is quite beautiful.
+WARNING: Do not proceed with this section until mastering an understanding of the xref:ii-role_playing_rules:CH26_Fourdeetwo.adoc[4D2 Mechanic,window=_blank].
 
-:art: fourDtwo.png
-:width: 350px
-:snark: Thank you anydice.com
-:artist: Jasper Flick
+=== Number
+A player generates a number by rolling two pairs of competing six siders.
+The player rolls 2d6, generating a number between 2 and 12.
+The player rolls 2d6 again, generating another number between 2 and 12.
+The player subtracts the second roll from the first roll.
+The sum of these two numbers generates the *Number* of the 4D2 Mechanic.
+
+=== 4D2 Number Generation
+.Number = 2d6 - 2d6
+****
+The number is always between +10 to -10. + 
+A positive number gives a positive outcome. +
+A negative number gives a negative outcome. +
+Zero gives a neutral outcome.
+****
+
+:art: 4d2_dice.png
+:width: 250px
+:snark: (6+1) - (4+2) = +1
+:artist: HM
 :date: 2020
-:license: AnyDice.com 
-:description: Graph showing the nice organic curve of the four dice two mechanic.
-
+:license: CC BY-SA 4.0
+:description: Two green dice and two red dice. Total score plus one.
 
 include::ROOT:partial$articulate.adoc[]
 
-=== 4D2 Result Generation
-.Outcome = 2d6 - 2d6
-****
-Range is +10 to -10. Positive is positive. Negative is negative. Zero is neutral.
-****
+=== Outcome
+The outcome translates the number into a colourful account of the die roll.
+The Outcome from Number Table uses the number to determine the *Outcome* from the 4D2 roll. 
+The outcome arises directly from the 4D2 roll and is untainted by shifts (aka bonuses).
+Often the outcome is enough of a description for the players to decide how things turn out.
 
-The 4D2 mechanic generates a smooth curve of results between +10 and -10.
-The result is player centric. 
-Positive numbers indicate success and negative numbers indicate failure.
-The most common result from this mechanic is 0.
-0 represents balance, detent or ongoing struggle.
-+10 represents the epitome of success for the persona.
--10 represents the epitome of failure for the persona.
-
-The 4D2 Mechanism Result is a numeric value.
-Each possible outcome is linked to a descriptor that the player use to guide the story.
-
-=== Example 4D2 Results
-The 4D2 Mechanic Result can be generated by rolling one six sider four times.
-The more dice rolled at once the more efficient the mechanism.
-Most commonly one player rolls two six siders (2d6) and another player rolls the competing two six siders (2d6).
-All four dice can be rolled at once by assigning plus to one coloured pair and minus to another coloured pair.
-
-.*Some example results*
-* The player rolls 2d6 and the sum is 12. 
-The opposing 2d6 roll has a sum of 2.
-The 4D2 Mechanic Result is +10.
-+10 is the best result for the player's persona.
-
-* The player rolls 2d6 and the sum is 9. 
-The opposing 2d6 roll has a sum of 8.
-The net roll is +1.
-This will result in a very slight win for the player's persona.
-
-* The player rolls her 2d6 and the sum is 4. 
-The referee rolls her 2d6 and the sum is 10.
-The net roll is -6.
-This will result in a very bad outcome for the player's persona.
-
-Every group will develop it's style for generating 4D2 Mechanic Results.
-The most common is rolling 2 pairs of different coloured dice.
-One pair is positive and the other pair is negative.
-For example, the positive six siders could be white and the negative six siders could be red.
-
-== 4D2 Mechanic Descriptors
-The 4D2 Mechanic Result can be used as a raw number to determine what happens to the persona.
-There is also a descriptor table that correspondingly dramatic descriptors for every result.
-The 4D2 Mechanic Result is converted to a descriptor for fun and efficiency.
-For example, +10 is an Immaculate Success and -10 is a Cataclysmic Failure.
+The outcome can have a direct effect on the persona.
+A persona can earn a new skill for very successful outcomes.
 
 include::ROOT:partial$CH26_Table_4D2_Outcomes.adoc[]
 
-The descriptors help __guide__ the players describe the outcome of the maneuver.
-A positive result (number) yields a positive success descriptor.
-A negative result (number) yields a negative failure descriptor.
-The descriptor may be all the players need to move the story along. 
-For example, a Vet is trying remove a splinter from a feline's paw.
-An Immaculate Success descriptor would guide the players to tell a story with a happy result.
+=== Learning Skills
+If the player rolls an Immaculate or Wondrous success, her persona earns a skill in the maneuver she performs. 
+This skill reward precedes the adding of any shifts.
+A persona cannot earn skills based on shifted rolls. 
+Only the unshifted outcome can earn a skill.
 
-.*Some Example Descriptors*
-* A result of +10 is an Immaculate Success.
-This descriptor is rare. 
-Immaculate Success represents the best possible outcome for the persona.
-The persona does not just successfully complete her maneuver, but does so with bells on.
-The descriptor guides the players in describing the performance story.
+=== Skill Learning
+.Outcome = Immaculate (+10) or Wondrous (+9) success
+****
+Persona earns +1 for the maneuver she is performing.
+****
 
-* A result of +2 is a Solid Success.
-This descriptor is quite common. 
-Solid Success represents a positive outcome for the persona, but nothing dramatic.
-The maneuver was successfully completed, however it may not last too long.
-The descriptor guides the players in describing the performance story.
+=== Descriptor
+Often the Outcome gives enough info for the players to tell the story.
+Describing an outcome is easy for Immaculate Successes and Cataclysmic Failures.
+The other 19 possible outcomes are more subtle and harder to turn into a description.
 
-* A result of -10 is a Cataclysmic Failure.
-This descriptor is quite rare. 
-Cataclysmic Failure represents the worst possible outcome for the persona.
-The maneuver was a failure and the consequences reach beyond the actual maneuver.
-The descriptor guides the players in describing the performance story.
-
-* A result of 0 is detent.
-This descriptor is the most common. 
-Detent represents a balance between the the procedure and the persona.
-The persona has neither failed nor succeeded and the maneuver is ongoing.
-The descriptor guides the players in describing the performance story.
-
-== 4D2 Mechanic Outcomes 
-Often a descriptor gives adequate guidance to the players telling the story.
-For common 4D2 Mechanic uses there are also Outcome Tables.
-Outcome tables include some common results for their associated descriptors. 
-
-=== 4D2 Performance Outcomes
-Suggested outcomes for the 4D2 Mechanic in the Theatrical Performance System.
-The outcomes are not just about the maneuver, but how the outcome affects the persona.
-A persona can learn a new skill for very successful outcomes.
+There is a Descriptor Table for Performance when the players can't manage a description or agree on a description. 
 
 include::ROOT:partial$CH26_Table_4D2_Descriptors_Performance.adoc[]
 
-=== Bumps
-Bumps are unexpected positives that result from a successful maneuver.
-A bump should mildly improve the outcome of the maneuver.
-Fixing a tyre could accidentally improve the handling class of the vehicle.
-Surgery to remove a bullet may find a tumour that also gets fixed.
+If a player were to roll an Extraordinary Success (+5), her persona has made an engine repair that will last months. 
+If a player were to roll a Major Failure (-3), her persona has not succeeded and must wait hours before trying again.
 
-Bumps should fit into the story and milieu.
-A bump for fixing a tyre should not find a button that adds artillery to the vehicle.
-A bump for surgery to remove a bullet should not result in a mental mutation.
+=== Descriptor Descriptions
+Invention::
+The persona has had an epiphany about the maneuver. 
+If the persona is working on equipment, they may invent an entirely new and better device.
+If the persona is working on an organic lifeform, they may add an attribute or a mutation.
+The players should pick an invention that best supports the story of the campaign.
+Fixing a tyre should not add artillery to a vehicle.
+Surgery to remove a bullet should not result in a mental mutation.
 
-The players should pick the bump that best supports the story of the campaign.
+Enhancement::
+The player can choose some improvement that permanently makes the maneuver's target or the maneuver itself better.
+The players should pick an enhancement that best supports the story of the campaign.
 
-=== Complications
+Shifts::
+The player enjoys a temporary shift while performing this maneuver for a limited amount of time.
+The shift is +1, is cumulative and lasts for the duration described.
+
+Lasts::
+'Lasts' indicates how long the maneuver holds together.
+A Barely Successful (+1) tyre repair will only stay repaired for a few minutes.
+A Masterfully Successful (+6) tyre repair will stay repaired until damaged again. 
+
+Waits::
+In the case of failures, the persona must wait before they can try the maneuver again.
+A Clear Failure (-2) tyre repair leaves the tyre deflated.
+The persona must also wait a few minutes before repairing the tyre again.
+The persona may be so flustered by this failure that they must wait months before trying again.
+
+Complications::
 Complications are unexpected negatives that arise from a failed maneuver.
 A complication should mildly worsen the situation.
 Fixing a tyre could accidentally damage the rim and ground the vehicle.
 Surgery to remove a bullet may leave the bullet in and an instrument.
-
 The players should pick a complication that best supports the story of the campaign.
+Complications do not injure or damage the subject of the maneuver.
+A persona can get out of a complication with further maneuvers.
 
-=== Durations
-Durations are applied to both successes and failures.
-In the case of successes the duration indicates how long the maneuver holds together.
-A Barely Successful (+1) tyre repair will only stay repaired for a few minutes.
-A Masterfully Successful (+6) tyre repair will stay repaired until damaged again. 
+Damage::
+Done broke it.
+The failure directly damages the patient, machine, or device.
+Organic personas are subject to a negative folded roll, and a machine now needs spare parts for repair.
 
-In the case of failures the persona must wait before they can try the maneuver again.
-A Clear Failure (-2) tyre repair obviously leaves the tyre deflated.
-The persona must also wait a few minutes before to repair the tyre again.
-A Cataclysmic Failure (-10) tyre repair is a fail that may further damage the tyre.
-The persona will be so flustered by this failure that they must wait months before trying again.
+Destruction:: 
+Done blew up.
+The patient may die, the entire vehicle can catch fire, the grenade goes off, the gun explodes. 
+Maneuvers resulting in destruction are bad for the persona and her expedition.
 
-Time is fairly meaningless in the Role Playing System.
-The players can choose to have time pass instantaneously.
-So a persona that must wait a month to try programming the robot again can get right back at it.
-These delays are important during combat. 
-Waiting days before attempting to fix a jammed gun during combat is a problem.
-Waiting weeks before repairing a damaged jump drive may lead to the ship being boarded.
+=== Cumulative Descriptors
+A Wondrous Success (+9) results in an enhancement that lasts months and gives the persona a +1 shift for days.
+A Complete Failure (-6) results in a complication and the persona avoiding the maneuver for weeks. 
 
-=== Skills
-There are no EXPS for successes in EXP. 
-Personas become more experienced by gaining skills.
-The most common way to gain a skill is to have a success.
-
-An Immaculate Success (+10) allows the player to choose a new skill for her persona.
-She can choose anything related to the success.
-A combat success could add a weapon skill.
-A maneuver success could add the maneuver as a skill.
-
-A Wondrous Success (+9) allows the persona to earn a less directed skill. 
-The players will decide how to determine the random skill.
-A random skill does not mean useless. 
-This is a benefit to the persona, but it is not completely chosen by the persona.
-
-Temporary skills boost the persona's performance in a specific area for a limited time.
-For example, a temporary skill in armour repair may mean the time to work on armour is now.
-
-Terrible failures can remove skills temporarily or permanently. 
-How this is interpreted and justified is up to the players. 
-
-.*Some Example Outcomes*
-* The descriptor of Immaculate Success (+10) is quite rare.
-The persona can choose a new skill. 
-The success comes with some additional, unexpected benefits. 
-The results of the maneuver will last until unwound.
-
-* The descriptor Solid Success (+2) is quite common.
-The persona earns no skills with this outcome.
-The job gets done.
-However not the best work ever.
-The results of the maneuver will last for hours.
-
-* The descriptor Cataclysmic Failure (-10) is quite rare.
-The persona has a skill knocked out of their head.
-The failure extends beyond the maneuver and has additional complications.
-The persona will be be gun shy from trying again for months. 
-
-==  Shifts
+== Shifts
 Shifts are similar to bonuses or penalties.
-A shift is anything that moves the Descriptor of the 4D2 Mechanism Result.
-A Shift moves the Descriptor and changes the Outcome of the Result.
-A Shift of 2 would move a Solid Success (+2) to an Outstanding Success (+4).
+A shift is anything that moves the Outcome of the 4D2 Mechanism.
+A Shift of +2 would move a Solid Success (+2) to an Outstanding Success (+4).
+Shifts are significant and are the only way personas can gain an advantage in the 4D2 system.
 
-Shifts are very important and are the only way players can gain advantage in the 4D2 system.
-
-Some play groups add the Shift directly to the Result that the player generates.
-There is a risk that this shortcut will lead to over-powered personas.
-A shift of +1 triples the chance of the persona learning a new skill.
-The persona has a better chance of performance success using Shifts.
-However using the adjusted outcome will lead to excessive skill acquisition.
-
-=== Example Shifts
 Shifts come from the persona's attributes, abilities and skills.
-However literally anything can become a shift if the players accept it.
-If her persona is juggling a player could use DEX as a shift.
-When healing a wound she could use her quick fix skill as a shift.
-A glorious description of how a lock is picked could earn a shift.
-These shifts are all added together.
+However, anything can become a shift if the players accept it.
+In hand-to-hand combat, a player could use the PSTR as a shift.
+When shooting a pistol, the player could use a pistol skill as a shift.
+A glorious description of throwing a grenade can earn a shift.
 
-For example, a persona is in a trying to identify an alien. 
-She has Herbivore skill and AWE Attribute.
+=== Shift Maximums
+The maximum number of shifts a player can add to her Outcome is three.
+The maximum Outcome is +10, which is an Immaculate Success.
+A roll of 11, 12 or even 13 becomes +10.
+
+=== Shift Penalties
+Shifts cannot be negative.
+The lowest a player's shift can become is zero.
+Penalties can only take away a player's shift.
+If a persona wanted to use her DEX as a shift, but her hands were tied, she could not use her DEX shift. 
+However, another persona in the same situation without a DEX attribute would not suffer a -1 shift.
+
+=== Shifts and Skills
+When the player rolls a high number, her persona can gain skills.
+A high number is one pathway to earning new skills and strengthening the persona.
+Players cannot use shifts to gain skills. 
+Using shifts to score new skills can lead to rapidly overpowered personas. 
+A +1 shift increases the chance of the persona gaining a new skill three times.
+
+A shift only moves the outcome and not the descriptor.
+For example, a player rolls Masterful Success (+6) when remodulating a tensor refactoring core.
+Her shift is +3 (drive skill, DEX and a good description). 
+Her Outcome is Masterful Success (+6), and her descriptor is Wondrous Success (+9).
+The persona enhances the drives but does not get another drives skill.
+ 
+=== Example Shifts
+A persona is in a pistol shootout. 
+She has pistol skill and DEX attribute.
 She can Shift her 4D2 Outcome by +2.
-This Shift of 2 could move a Solid Success (+2) to an Outstanding Success (+4).
+A Shift of +2 would move a Solid Success (+2) to an Outstanding Success (+4).
+If her opponent has Pistol 2, then the competing Shifts would cancel out.
 
-TIP: Rules maintain game balance and assist creativity. +
-*Do not let rules get in the way of the story or the fun.*
+A persona is repairing an antigrav modulator on a skimmer bike.
+She has engine skill one and an INT attribute.
+The player casts a great yarn about using a piece of wire to reverse the polarity.
+She can shift her 4D2 Outcome by +3 (skill, attribute, good story).
+The shift of +3 moves her Minor Failure (-1) to a Solid Success (+2).
 
-Sometimes there are counter shifts that the player is challenged with. 
-For example, juggling in a strong wind may remove her DEX attribute shift.
-Negative shifts can be applied if the players feel it is appropriate. 
-This makes a powerful enemy more difficult to defeat in combat. 
-
-.*List of Example Shifts*
-* INT attribute and DEX attribute in removing a burrowing worm (+2 Shift).
-The player generates 7 on the 4D2 Result.
-The outcome is adjusted from Majestic Success (+7) to Wondrous Success (+9).
-The persona removes the worm very successfully (+9).
-Wondrous Success (+9) has a bump so the worm lives to study later.
-However she can only learn a Temporary Skill (+7).
-
-* DEX attribute, sprint ability and a story about high school athletics (+3 shift).
-The persona is running to catch a falling vase.
-The player generates -1 on her 4D2 Mechanic Result.
-The outcome is shifted from a Minor Failure (-1) to a Solid Success (+2).
-There are no persona skills listed on any of these outcomes.
-The shift turned failure into success.
-Nothing more.
+A persona is play wrestling in the mud pit of a bar.
+She has no wrestling skills.
+She can use her PSTR and DEX attributes.
+She can shift her 4D2 Outcome by +2 (two attributes).
+The shift of +2 moves her Magnificent Success (+8) to an Immaculate Success (+10).
+The persona earns the accolades of the bar crowd (Outcome = +10) but does not earn a wrestling skill.
