@@ -1,29 +1,24 @@
 = Powered Armour
 
-// must create base explanation of AR, R, Wate etc. 
+// must create a base explanation of AR, R, Wate etc. 
 
-Powered armour is servo aided and computer enhanced body armour.
-Typical powered armour is sealed, carries its own power plant is integrated with it's accessories.
+Powered armour is servo-aided and computer-enhanced body armour.
+Typically powered armour is sealed, carries its power plant and fully integrates with its accessories.
 Powered armour enhances the wearer's attributes by electronically amplifying the persona's natural abilities.
-The persona wearing powered armour is neurally wired into the suit giving immediate access to an array of equipment built into her armour.
-
-== Powered Armour Checklist
-To make the creation of powered armour easier to manage it is best to record all the facts relevant to the armour, and then proceed to the other chapters from which information is needed.
-If the powered armour needs three guns, one piece of medical equipment, and one piece of miscellaneous equipment.
-It is best to finish the entire suit of powered armour first, and then roll the extra accessories without returning to the powered armour.
+Powered armour becomes an anatomical extension of the persona, fully integrating her with the armour and its artifacts.
 
 .Powered Armour Checklist
-. <<_powered_armour_base, Record base armour attributes>>
-.. <<_attribute_adjustments,Attribute Adjustments>>
-. <<_head,Head Accessories>>
-. <<_upper_limbs,Upper Limb Accessories>>
-. <<_torso_accessories,Torso Accessories>>
-. <<_lower_limb_accessories,Lower Limb Accessories>>
+. <<_powered_armour_suit, Powered Armour Suit>>
 . <<_suit_accessories,Suit Accessories>>
-. <<_powering_powered_armour, Power Supply>>
-. <<_powered_armour_attribute_explanations,Powered Armour Attribute Explanations>>
+. <<_head,Head Accessories>>
+. <<_arms,Arm Accessories>>
+. <<_torso_accessories,Torso Accessories>>
+. <<_legs,Leg Accessories>>
+. <<_further_issues,Further Issues>>
+. *Have fun!*
 
-== Powered Armour Base
+
+== Powered Armour Suit
 
 [horizontal]
 Armour Rating:: 750
@@ -32,33 +27,25 @@ Wate:: 300% (210kg)
 EXPS:: 1000
 Value:: 10000000 + accessories
 
-=== Attribute Adjustments 
 Powered joints amplify the force and speed of regular body movements.
-The suit basically adds speed and strength to the persona.
-There are other attribute bonuses that can be earned as other special systems are added to the armour.
-Note that these increases are only in effect when the powered armour is being worn, and is in working order.
+The suit adds speed and strength to the persona.
+The wearer can earn other attribute bonuses as additional systems improve the armour.
+Note that these increases are only in effect when the powered armour is being worn and operational.
 
-Wearers of powered armour enjoy a PSTR  increase of 4-10 points (2d4+2) and a DEX increase of 1-6 (1d6).
-Not only is the sheer physical force of their movements improved, but the speed of their actions also.
-The servo aided power, combined with movement enhancements and computer optimization improves physical strength and dexterity.
-
-Accessories can increase other attributes.
-The physical strength and dexterity attribute increases are standard
-
-==== Base Physical Strength Adjustment
+=== Physical Strength Adjustment
 .PSTR + 4-10 (2d4+2)
 ****
-Powered armour raises the persona's physical strength by plus 4 to 10 points. 
+In armour PSTR = 12 + (2d4+2) = 12 + 8 = 20
 ****
 
-==== Base Dexterity Attribute Adjustment
+=== Base Dexterity Attribute Adjustment
 .DEX + 1-6 (1d6)
 ****
-Powered armour raises the persona's dexterity by 1 to 6 points.
+In armour DEX = 12 + 1d6 = 12 + 4 = 16
 ****
 
 :art: rat_in_the_skull_head.png
-:width: 250px
+:width: 350px
 :snark: No one knows you're a rat.
 :artist: Ed Emshwiller
 :date: 1958
@@ -67,10 +54,114 @@ Powered armour raises the persona's dexterity by 1 to 6 points.
 
 include::ROOT:partial$articulate.adoc[]
 
-=== Head
-Head accessories are ones built into the helmeted head of the suit of powered armour.
-Any guns built into the helmet will fire from there, and communicators will be accessed directly by the persona There are both standard equipment and random accessories that can be fitted into the helmet of the armour.
-Every suit of powered armour has the accessories listed under 
+== Suit Accessories 
+Suit accessories are systems integrated into the entire suit.
+These total suit accessories are composed of protective coverings, specialized computers, or unique servo mechanisms.
+Some of these abilities are standard for all armour (air conditioning and armour hardening).
+There are also some random suit accessories.
+Each suit gets 0 to 3 (d4-1) rolls on the Random Suit Accessories Table.
+
+.*Suit Accessory List*
+* Air-conditioned
+* Armour hardened
+* 0-3 (1d4-1) special suit accessories
+
+include::ROOT:partial$CH42_Table_Powered_Special_Suit_Accessories.adoc[]
+
+Air Conditioned::
+Every suit comes with air conditioning.
+Waltz into lethal mechanized combat within the confines of luxuriously air-conditioned powered armour.
+Air conditioning is more like the life support of a space vehicle than a comfort tool.
+Air Con also keeps the wearer from overheating due to the armour's internal heat generation.
+Additional air condition units layer over each other improving comfort and safety.
+
+Alarm::
+The alarm system will alert the wearer of ambush or sneak attacks, especially while sleeping.
+The alarm system has an AWE of 30 and a 25 hex radius.
+It will alert the wearer to any ambushes that it detects.
+
+Anti-Personnel::
+Anti-personnel prevents costly suits of powered armour from being overwhelmed by hordes of expendable fodder.
+The anti-personnel system blasts a two hex radius with an excruciatingly painful dose of electricity, flame, flash, shrapnel, or sound.
+Anything holding onto the powered armour must make a save versus mental attack or let go of the suit.
+The anti-personnel system will also inflict 2 to 12 (2d6) hit points of damage to everything within range.
+The intensity of the painful repulsion attack is equal to the damage inflicted (2-12).
+The wearer can use the anti-personnel defence every other unit of combat.
+
+Compucammo::
+Trillions of optical sensors and multi-coloured emitters cover the powered suit and allow for classic sciency fiction situational camouflage.
+When in the camouflage mode, the sensors inform the light emitters, via an integrating computer, of the most beneficial shade of camouflage.
+In rare cases, compucammo can disguise itself amongst smells or vibrations.
+Compucammo assists the wearer in carrying out ambushes and is of no use during combat.
+For no practical reason at all, compucammo may change colour to reflect the wearer's mood.
+
+=== Compucammo Charisma Bonus
+.CHA + 1-3 (1d3)
+****
+Wearer CHA =  12 + 1d4 = 12 + 2 = 14
+****
+
+Armour Hardened::
+Hardening is simply an improvement of the toughness of the suit's alloy-ceramic hull.
+Each armour hardening increases the suit's armour rating by 1d100.
+Armour hardenings are cumulative.
+
+Hover::
+Limited antigrav (or rockets) allows the armour to coast down from any height safely.
+Hovering is not flying, but it allows for limited control.
+The wearer can guide her 200 kilograms plus suit the best landing site.
+The persona can use any attack while hovering.
+
+Internal System::
+An internalized system is less like an accessory and more like an entirely different roleplaying game.
+The internal system takes all the attributes of the powered armour and surgically inserts them within the persona's body.
+The persona externally appears to be like any other persona.
+The similarities end as soon as she starts shooting lazers from her fingers and launching grenades from 'where ever.'
+Internalizing a suit of powered armour can only work if the referee permits this within her milieu and story.
+Many accessories are not possible when the suit converts from an exoskeleton to an internal system.
+
+Jump::
+Biomechanical computers combined with limited antigrav and leg servos allow the wearer to make massive jumps.
+The persona's jump distance is five times further than her usual xref:i-roll_playing_rules:CH12_Combat_Movement.adoc#_jumping[Jump,window=_blank]. 
+The player uses her persona's armour-adjusted PSTR to calculate the extended jump.
+The jumps will take 0 to 3 units to complete, covering the desired distance while flying through the air.
+During the jump, the armour wearer will be able to use all weapons and devices at her disposal.
+
+Preprogrammed::
+With preprogramming, the suit's servo system links directly to the wearer's cerebellum.
+This highly invasive connection allows the wearer to turn skills into automated neural programs.
+These neural programs override the wearer's motor control system and turn her complex maneuvers into reflexes.
+The preprogrammed skills must be entirely motor in execution.
+Skills like hand-to-hand combat would be learnable, but find shelter would not.
+The wearer can store one preprogrammed skill per four points of intelligence.
+
+Radar::
+Radar allows for long-range (500 hex radius) sweeps to identify ground terrain and large bodies in motion.
+The info appears in a cinematic heads-up display like any good sciency fiction plot enhancing radar.
+The wearer can turn the radar on and off.
+Radar may also make the persona very detectable. 
+Standing within two hexes of active radar is a 1 to 6 intensity radiation attack.
+
+Radiation Hardened::
+Densely packed waveform absorbing coatings add protection from radiation exposures.
+The radiation hardening doubles the wearer's CON vs killing radiation.
+If the player wins a saving roll, the radiation does not affect her persona.
+If the suit is radiation-hardened more than once or twice, the wearer's CON will be tripled and quadrupled against radiation attacks.
+
+Biologic Hardened::
+Biologic hardening protects the wearer from non-combat environmental conditions.
+This hardening protects against toxic, infectious, and extreme environments.
+The wearer is unaffected by poison gases and biological attacks.
+This hardening does not protect against radiation or exatmo environments.
+This powered armour has a mini airlock that allows small items to transfer into the powered armour's protective environment.
+
+Zero-G Maneuvers::
+Zog maneuver allows the persona to move about as if normal in the wateless three-dimensional terrain of zero gravity.
+
+== Head
+Head accessories are baked-in parts of powered armour's helmet.
+Any guns built into the helmet will fire from it, and communicators will be accessed directly by the persona. 
+There are standard equipment (communicators and visual aids) and random accessories for the helmet.
 
 .*Head Accessories List*
 * One communication
@@ -80,496 +171,360 @@ Every suit of powered armour has the accessories listed under
 include::ROOT:partial$CH42_Table_Powered_Head_Random_Accessory.adoc[]
 
 Communication:: 
-Head communications have a range of 10 kilometers, and can only be used for communication with other radio receivers.
-Head communications cannot be used to jam signals or conduct any electronic countermeasures.
-Multiple communication systems represent redundancy and extension of range and types of communications.
-If this has been rolled as a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_communicators[Communicators].
+Head communications have a range of 10 kilometres and can only with other powered armour radios.
+The wearer cannot use head communications to jam signals or conduct any electronic countermeasures.
+Multiple communication systems represent redundancy and range extension.
+If this is a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_communicators[Communicators,window=_blank].
 
 Aerosol::
-There will be 1-12 (1d12) aerosol charges sprayable from powered armour's helmet.
-To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc#_aerosol_type[Aerosols].
+An aerosol attack can be spray from the powered armour's helmet.
+There will be 1-12 (1d12) aerosol charges available.
+To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc#_aerosol_type[Aerosols,window=_blank].
 
 Grenade::
+The grenade can launch from the helmet of the powered armour.
+Launched grenades are a  Type C  attack, with a range three times the grenade's thrown range.
 There will be 1-6 (1d6) grenades launchable from the head.
-Launched grenades attack as type C weapons, with the range 3 times that of a thrown grenade.
-To determine the grenade type jump to xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenades].
+To determine the grenade type jump to xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenades,window=_blank].
 
 Gun::  
-A pistol is installed, and fires from the powered armour's helmet.
-This gun can only be a pistol.
-If the gun has ammunition it will have triple the regular magazine capacity. 
-Energy weapons have an unlimited power supply from the armour's power plant.
-To determine the pistol type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns].
+A helmet-mounted pistol is under the control of the wearer. 
+If the gun has ammunition, it will have triple the regular magazine capacity. 
+Battery-powered weapons have an unlimited power supply from the armour's power plant.
+To determine the *pistol* type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
 Image Intensifier:: 
-The image intensifier is an external speaker system that is combined with the special helmet moldings, and computerized actions that enhances the wearer's external image.
-A crystal clear synthesized voice, complete with digital overlays, and computerized body language all aid in producing a special image.
-This special powered armour feature is often found in suits of armour used by commanders.
-This system benefits the persona's CHA attribute by increasing it 1-6 points.
+The image intensifier enhances the wearer's external image.
+The image intensifier is an external speaker system that synchronizes with the flexible helmet mouldings.
+A crystal clear synthesized voice, digital overlays, and computerized body language produce an amplified image.
+This unique powered armour feature is usually in suits of armour used by commanders.
+This system benefits the persona's CHA attribute by increasing it by 1-6 points.
 
-==== Image Intensifier Charisma Bonus
+=== Image Intensifier Charisma Bonus
 .CHA + 1-6 (1d6)
 ****
-Image intensifier increases the persona's charisma by 1 to 6 points.
+Wearer CHA = 9 + 1d6 = 9 +5 = 14
 ****
 
 Medical System:: 
-The helmet medical system is  a medical computer which prioritizes the head for blood supply, and protects the neck with special servos.
-This medical system will increase the wearer's constitution by 1-3 points.
-The increase in CON does not allow for more HPS to be rolled, but will increase the chance of the persona surviving constitution related saving rolls.
+The helmet medical system is a medical accessory that prioritizes
+the brain within the skull within the helmet.
+Optimized blood supply and cranial concussion protection keep the wearer's grey matter safe.
+This medical system increases the wearer's constitution by 1-3 points.
+This constitution increase does not increase the persona's hit points.
 
-==== Medical System Constitution Bonus
+=== Medical System Constitution Bonus
 .CON + 1-3 (1d3)
 ****
-Each helmet medical system increases the persona's constitution by 1 to 3 points.
+Wearer CON = 15 + 1d3 = 15 + 3 = 18
 ****
 
 Miscellaneous Equipment::  
-Any piece of miscellaneous equipment that has a wate less than 10 kg can be installed into the suit's helmet.
-The player keeps rolling on the table until a device less than 10 kg is generated.
-To determine the light piece of miscellaneous equipment jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment].
+Miscellaneous equipment is the most diverse random accessory found in the powered armour's helmet.
+The only limitation is that the miscellaneous artifact is less than 10 kgs in wate.
+To determine the light piece of miscellaneous equipment jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank].
 
 Scope:: 
 The helmet has an integrated computer scope.
-If the powered armour helmet has a pistol installed the scope will be dedicated to that weapon.
-To determine the type of scope jump over to xref:iii-hardware:CH48_Misc_Equip.adoc#_scopes[Scopes].
+If the powered armour has a helmet pistol, the scope will is automatically for that weapon.
+To determine the type of scope jump over to xref:iii-hardware:CH48_Misc_Equip.adoc#_scopes[Scopes,window=_blank].
 
 Visual Aid:: 
-Vizauds (visual auditory enhancers) are only found in powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to powered armour.
 These devices enhance hearing, sight, touch and sense of smell.
-Multiple vizauds and systems represent redundancy and further increases in awareness.
-Each vizaud that the powered armour has installed will increase the persona's AWE by 1-3 points.
-If this vizaud has been generated as a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids]
+Multiple vizauds and systems represent redundancy and additional increases in awareness.
+Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+If this vizaud is a random accessory, jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
-==== Visual Aid Awareness Bonus
+=== Visual Aid Awareness Bonus
 .AWE + 1-3 (1d3)
 ****
-Each vizaud increases the persona's awareness by 1 to 3 points.
+Wearer AWE = 15 + 1d3 = 15 + 3 = 18
 ****
 
-=== Upper Limbs 
-Upper limb accessories can be located on the hand, arm or shoulder.
-The player can decide the exact location of an accessory.
-Each upper limb has 1-3 (1d3) peripheral points where accessories can be mounted. 
-Not all peripheral points are occupied during powered armour generation.
+== Arms
+Arm accessories can be on the hand, arm or shoulder.
+Each arm has 1-3 (1d3) accessory points where the persona can mount accessories. 
+Accessory points can be left unfilled during powered armour generation.
 
-Consider a suit of powered armour has 3 peripheral points total on her armour arms.
-She rolls 21, 16, and 86 on a 1d100.
-There are two rolls less than 30 so she would roll twice on Upper Limb Accessory Table.
-The last peripheral point would remain empty for some later attachment.
-Most referees will allow a persona to have at least one roll on the Upper Limb Accessory Table.
-
-Personas with more than two functioning limbs may get extra peripheral points per powered armour limb.
-This comes into play for aliens that have multiple Type A (thrusting and striking attacks) or mutated personas with additional functioning limbs.
-
-.*Limb Accessory List*
-* 1-3 peripheral points per limb
-* 30% chance of random accessory per peripheral point
+.*Arm Accessory List*
+* 1-3 accessory points per arm
+* 30% chance of random accessory per accessory point
 
 include::ROOT:partial$CH42_Table_Powered_Upper_Limb_Random_Accessory.adoc[]
 
 Communication::
-Multiple communication systems represent redundancy and extension of range and types of communications.
-If this communicator has been generated as a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_communicators[Communicators].
+Upper limb communicators have a range of 10 kilometres
+These communicators cannot jam signals or conduct any electronic countermeasures.
+Multiple communication systems represent redundancy and range extension.
+If this is a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_communicators[Communicators,window=_blank].
 
 Detector::
-These instruments may have read-outs on the arm, or inside the helmet.
+These instruments may have read-outs on the arm or inside the helmet.
 Multiple detectors will increase range and offer redundancy.
-Generate the random detector by jumping to xref:iii-hardware:CH48_Misc_Equip.adoc#_detectors[Detectors].
+Generate the random detector by jumping to xref:iii-hardware:CH48_Misc_Equip.adoc#_detectors[Detectors,window=_blank].
 
 Aerosol::
 There will be 1-12 (1d12) aerosol charges sprayable from powered armour's limb.
-To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc#_aerosol_type[Aerosols].
+To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc#_aerosol_type[Aerosols,window=_blank].
 
 Grenade::
 There will be 1-6 (1d6) grenades launchable from the limb.
-Launched grenades attack as type C weapons, with the range 5 times that of a thrown grenade.
-To determine the grenade type jump to xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenades].
+Launched grenades attack as type C weapons, with the range five times that of a thrown grenade.
+To determine the grenade type jump to xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenades,window=_blank].
 
 Gun::  
-A gun is installed, and fires from the powered armour's limb.
-If the gun has ammunition it will have five times the regular magazine capacity. 
+This gun fires from the powered armour's arm.
+If the gun has ammunition, it will have five times the regular magazine capacity. 
 Energy weapons have an unlimited power supply from the armour's power plant.
-To determine the pistol type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns].
+To determine the pistol type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
-Miscellaneous Equipment:: Any bizarre device could be rolled in xref:iii-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment].
-The maximum wate of the artifact is limited to 25 kg, and the mood of the referee.
-If the device is not reusable, or it has a wate greater than 25 kg, the player should roll another piece of miscellaneous equipment.
-While hilarious, a single use fire log, would not be an appropriate limb accessory.
+Miscellaneous Equipment:: 
+Miscellaneous equipment is the most diverse accessory found in the powered armour's arm.
+The only limitation is that the miscellaneous artifact is reusable and less than 20 kgs in wate.
+While hilarious, a single-use fire log would not be an appropriate limb accessory.
+To determine the miscellaneous equipment jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank].
 
-Peripheral Point::
-This allows for an extra piece of equipment to be installed in the upper limb.
-For instance a mercenary could have her favorite gun inserted into her powered armour via one of the arm peripheral points.
-An arm peripheral point is not a pocket, and nothing can be stored within it.
-The wate of the equipment inserted cannot exceed 25 kilograms.
-There is a 42% chance a bonus peripheral point will already be filled with an accessory.
-This would indicate an additional roll on the Upper Limb Random Accessory Table.
+Accessory Point::
+The suit of powered armour has a bonus additional accessory point in its arm.
+The person could fill the empty accessory point with a future artifact.
+The accessory point is not a pocket, and nothing can be stored within it.
+The wate of the equipment inserted cannot exceed 20 kgs.
 
 Veterinarian Equipment:: 
-Veterinarian equipment is rolled in xref:iii-hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment].
-The only requirement is that the device rolled be reusable (not a disposable vedi-kit), and it must have a wate less than 25 kg.
+This powered armour has a built-in veterinary artifact built into its arm.
+Veterinarian equipment is rolled in xref:iii-hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment,window=_blank].
+The artifact must be reusable (not a disposable vedi-kit), and it must have a wate less than 20 kgs.
 
 Visual Aid:: 
-Vizauds (visual auditory enhancers) are only found in powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to powered armour.
 These devices enhance hearing, sight, touch and sense of smell.
-Multiple vizauds and systems represent redundancy and further increases in awareness.
 A vizaud affixed to the hand would allow the wearer to look around corners.
-Each vizaud that the powered armour has installed will increase the persona's AWE by 1-3 points.
-If this vizaud has been generated as a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids]
+Multiple vizauds and systems represent redundancy and additional increases in awareness.
+Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+If this vizaud is a random accessory, jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
-==== Visual Aid Awareness Bonus
+=== Visual Aid Awareness Bonus
 .AWE + 1-3 (1d3)
 ****
-Each vizaud increases the persona's awareness by 1 to 3 points.
+Wearer AWE = 11 + 1d3 = 11 + 3 = 14
 ****
 
-=== Torso Accessories 
-Torso accessories are built into the main body of the armour.
-If a computer were built into the torso the wearer would access it via a keyboard in the chest.
-The powered armour torso is divided into a ventral (front) and dorsal (back) surface.
-The player can decide the exact location of an accessory.
-However there can be no more than four peripheral points on either the ventral or dorsal surface.
-If a powered armour torso had six peripheral points the player could locate no more than four on the ventral or dorsal surface. 
-Two peripheral points would have to go elsewhere.
+== Torso
+Torso accessories are part of the body portion of the armour.
+The 
+A torso computer may have its access via a keyboard on the chest.
+The powered armour torso includes one ventral (front) and dorsal (back) surface.
 
-
-Each powered armour torso has 2-8 (2d4) peripheral points where accessories can be mounted. 
-Not all peripheral points are occupied during powered armour generation.
-There is a 15% chance per torso peripheral point that an accessory is already attached.
-It is good form for referees to ensure at least on accessory on the torso.
-
-Consider a suit of powered armour that has 4 peripheral points on the torso.
-The player rolls 10, 16, 15, and 86 on a 1d100.
-There are two rolls less than 15% so she would roll twice on the Torso Accessory Table.
-The remaining peripheral points would are empty and await attachments.
-
-Extremely large personas, for example an alien, may have more than 2 torso surfaces. 
-For example there could be right and left flanks in addition to dorsal and ventral surfaces.
-
-If a torso has more than a dorsal and ventral surface the referee may allow for extra rolls 
-Aliens can have powered armour too.
+A medium-sized anthro persona cannot have more than four accessory points on either the front or back of the powered armour torso.
+Extremely large personas, like an alien, may have more than two torso surfaces. 
+For example, there could be right and left flanks in addition to dorsal and ventral surfaces.
 
 .*Torso Accessory List*
 * 2 storage compartments 
-* 2-8 peripheral points
-* 15% chance of random accessory per peripheral point
+* 2-8 accessory points
+* 15% chance of random accessory per accessory point
 
 include::ROOT:partial$CH42_Table_Powered_Torso_Random_Accessory.adoc[]
 
 Artillery::
 This mechano-trooper has an artillery piece built into the torso of her powered armour.
-An artillery piece will occupy 4 peripheral points and can be the only accessory on either the ventral or dorsal surface.
-If the powered armour torso has 4 or less peripheral points the artillery piece will be the only accessory on the torso. 
-If the powered armour torso has remaining peripheral points any accessories must be mounted on the opposite surface. 
-No suit of powered armour can support more than one artillery piece, regardless of the number of fronts, backs and flanks the powered armour has. 
-The artillery will have an ammo capacity equivalent to the base gun's magazine size.
-All other aspects of the artillery will function the same. 
-The artillery cannot harm the wearer of the powered armour. 
-To generate the artillery piece jump to xref:iii-hardware:CH43_Artillery.adoc#_artillery_type[Artillery].
+An artillery piece occupies four accessory points and can be the only accessory on either the ventral or dorsal surface.
+If the torso has less than four accessory points, the artillery piece will be the only accessory on the torso. 
+No suit of powered armour can support more than one artillery piece.
+Firing the artillery cannot harm the wearer of the powered armour. 
+To generate the artillery piece jump to xref:iii-hardware:CH43_Artillery.adoc#_artillery_type[Artillery,window=_blank].
 
 Bomb::
-Only one bomb can be built into the torso of the powered armour.
-If a bomb is rolled again the player should make another roll on the Torso Random Accessories Table.
-The bomb will be delivered via a non-descript all-environments functioning, missile with a range of 20 kilometers.
-If there is no missile to launch the bomb, it has been installed as a self-destruct device, or a suicide device.
-If the bomb does not have a missile the persona gets a 1-3 (1d3) increase to their mental strength. To generate the bomb type jump to xref:iii-hardware:CH44_Bombs.adoc#_bomb_type[Bombs].
+This mechano-trooper has an artillery piece built into the torso of her powered armour.
+No suit of powered armour can support more than one bomb.
+There is a 50% chance that a generic missile will deliver the bomb with a 100 km range.
+If there is no missile to launch the bomb, it is a self-destruct for the powered armour.
+If the bomb does not have a missile, the persona gets a 1-3 (1d3) increase to their mental strength. To generate the bomb type jump to xref:iii-hardware:CH44_Bombs.adoc#_bomb_type[Bombs].
 
-==== Walking Bomb Mental Strength Bonus
+=== Walking Bomb Mental Strength Bonus
 .MSTR + 1-3 (1d3)
 ****
-The knowledge of being a walking bomb improves the persona's mental strength by 1 to 3 points.
+Wearer MSTR = 8 + 1d3 = 8 + 2 = 10
 ****
 
 Communication::
-The communication type located in the torso is comprehensive.
-The torso communicator has a range of 50 kilometers, 2 to 12 (2d6) encrypted channels, plus some special tricks.
-There is a 20% chance that one channel can carry computer/robot/AI data.
-There is a 30% chance that one of the channels is a line of site lazer channel that must be physically intercepted as well as decrypted.
-There is a 42% chance that one of the channels can jam another communicator from working. Multiple communication systems represent redundancy and extension of range and channels of communication.
-In addition to the above jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_communicators[Communicators].
+The communicator in the torso is a comprehensive comms device.
+The torso communicator has a range of 500 kilometres, encrypted channels, and three additional particular use channels.
+There is one data channel that can communicate computer/robot/AI data.
+There is one line of site lazer channel that interlopers must physically intercept as well as decrypt.
+There is one jamming signal that can keep other communicators from working. 
+A suit of powered armour can only have one comprehensive comms device.
+For further communication acccessories jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_communicators[Communicators,window=_blank].
 
 Computer Equipment::
-Computer equipment is built into, and powered by the powered armour. 
-It is not fully integrated into the wearer. 
+Computer equipment is built into and powered by the powered armour. 
 The persona must interact with computer equipment via the suit itself.
-For example there may be a keyboard, or a video screen.
-The computer can be anything from a vocation support device to an evil AI.
-To generate the computer equipment jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_computers[Computers].
+For example, there may be a keyboard or a video screen.
+The computer can be anything from a vocation computer to an evil autonomous intelligence.
+To generate the computer equipment jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_computers[Computers,window=_blank].
 
 Computer System::
-The computer system is completely integrated with the wearer.
-The computer system stores personal memory of the wearer in a cybernetic memory system.
-The computer system collates all of the armour's systems into an icon-driven heads up display..
-The computer system will increase the persona's INT by 1-3 points.
-Adjustments to the INT attribute will have no effect on the persona's MSTR.
-A computer system creates an extreme level of wearer and armour integration.
+The computer system integrates fully with the powered armour wearer.
+The computer system enhances the wearer's memory and cognition.
+The computer is not an independent entity but an extension of the persona's intelligence.
+A computer system increases the persona's intelligence by 1-3 points.
+Increasing the persona's intelligence with a computer system does not affect the persona's mental strength.
 A persona will never voluntarily exit a suit with a computer system.
 
-==== Computer System Intelligence Bonus
-.INT + 1-3 (1d3)
+=== Computer System Intelligence Bonus
+.INT + 1-4 (1d4)
 ****
-The computer system improves the persona's intelligence by 1 to 3 points.
+Wearer INT = 16 + 1d4 = 16 + 2 = 18
 ****
 
 Gun::  
-A torso gun will always be a rifle if that option exists.
-If the gun has ammunition it will have ten times the regular magazine capacity. 
+There is a rifle built into the powered armour's torso.
+The rifle can be baked into the torso or on an articulated rifle mount.
+The rifle can fire in direction regardless of the wearer's direction of travel.
+If the gun has ammunition, it will have ten times the regular magazine capacity. 
 Energy weapons have an unlimited power supply from the armour's power plant.
-To determine the rifle type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns].
+To determine the rifle type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
 Medical System::
-The head medical system is not a specific piece of medical equipment, but a medical computer which prioritizes the head for blood supplies, and protects the neck with special servos.
-This medical system will increase the wearer's CON by 1-4 points.
-The increase in CON does not allow for more HPS to be rolled, but will increase the chance of the persona surviving poisoning and staying conscious during combat.
+The torso medical system is a medical accessory that prioritizes
+the cardiorespiratory organs of the wearer.
+Optimized blood supply and thoracic concussion protection keep the wearer's viscera safe.
+This medical system increases the wearer's constitution by 1-6 points.
+This constitution increase does not increase the persona's hit points.
+
+=== Medical System Constitution Bonus
+.CON + 1-6 (1d6)
+****
+Wearer CON = 15 + 1d6 = 15 + 3 = 18
+****
 
 Miscellaneous Equipment:: 
-Any bizarre device could be rolled in xref:iii-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment].
-If the device is not reusable the player should roll again.
-While hilarious, a single use fire log, would not be an appropriate torso accessory.
-However a fireplace with an endless fire log would be worth the grief.
+Miscellaneous equipment is the most diverse accessory found on the powered armour.
+The only limitation is that the miscellaneous artifact is not disposable.
+There is no wate restriction on miscellaneous equipment on the torso of powered armour.
+To determine the miscellaneous equipment jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank].
 
-Peripheral Point::
-This allows for an extra piece of equipment to be installed in the torso.
-For instance a mercenary could have her favorite entertainment system inserted into her powered armour via a peripheral points.
-A torso peripheral point is not a pocket, and nothing can be stored within it.
-The wate of the equipment inserted cannot exceed 50 kilograms.
-There is a 42% chance a peripheral point will already be filled with an accessory.
-This would indicate an additional roll on the Torso Random Accessories Table.
+Accessory Point::
+The suit of powered armour has a bonus additional accessory point on its torso.
+The persona could fill the empty accessory point with a future artifact.
+The accessory point is not a pocket and cannot store anything.
+The wate of the equipment inserted cannot exceed 50 kgs.
 
 Storage::
-This is an internally locked storage compartment.
-The capacity of the compartment is equivalent to twice the persona's in-armour wate allowance.
-Items in the storage compartment are not be considered part of wate allowance.
-For convenience the Wate Allowance Table is included right here.
-
-include::ROOT:partial$CH03_Table_Physical_Strength_and_Wate_Allowance_(kg).adoc[]
+Storage is an additional locked climate-controlled storage compartment.
+The capacity of the compartment is equivalent to twice the wearer's wate allowance.
+Items kept in storage have no bearing on the wearer's encumbrance.
+xref:i-roll_playing_rules:CH18_Encumbrance.adoc[Encumbrance,window=_blank]
 
 Veterinarian Equipment:: 
-Veterinarian equipment is rolled in xref:iii-hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment].
-The only requirements are that the device rolled be reusable (not a disposable vedi-kit), and it must have a minimum wate of 25 kg.
+This powered armour has a built-in veterinary artifact built into its torso.
+Veterinarian equipment is rolled in xref:iii-hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment,window=_blank].
+The artifact must be reusable (not a disposable vedi-kit), and it must have a wate *greater than* 25 kgs.
 
 Visual Aid:: 
-Vizauds (visual auditory enhancers) are only found in powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to powered armour.
 These devices enhance hearing, sight, touch and sense of smell.
-Multiple vizauds and systems represent redundancy and further increases in awareness.
 A dorsally located vizaud could allow the wearer to look backwards.
-Each vizaud that the powered armour has installed will increase the persona's AWE by 1-3 points.
-If this vizaud has been generated as a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids]
+Multiple vizauds and systems represent redundancy and additional increases in awareness.
+Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+If this vizaud is a random accessory, jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
-==== Visual Aid Awareness Bonus
+=== Visual Aid Awareness Bonus
 .AWE + 1-3 (1d3)
 ****
-Each vizaud increases the persona's awareness by 1 to 3 points.
+Wearer AWE = 4+ 1d3 = 4 + 2 = 6
 ****
 
-=== Lower Limb Accessories 
-Lower limb accessories can be located on the thigh, calf or foot.
-Location of the accessory can be determined by the player or the referee.
-The lower limb has standard accessories and a series of random accessories.
-These are generated for both the right and left legs.
-Any additional functional lower limbs may be powered as well.
-Discretion is allowed when assigning lower limb accessories to alien powered armour (consider a centipede).
+== Legs
+Lower limb accessories are on the thigh, calf or foot.
 
-.*Limb Accessory List*
-* 2 peripheral points per limb
+.*Leg Accessory List*
+* 2 accessory points per limb
 * 2 storage compartments
-* 20% chance of a random accessory per peripheral point
+* 20% chance of a random accessory per accessory point
 
 include::ROOT:partial$CH42_Table_Powered_Lower_Limb_Accessories.adoc[]
 
 Detector::
-These instruments may have read-outs on the lower limb, or inside the helmet.
+The detector may have read-outs on the armour's foot or inside the helmet.
 Multiple detectors will increase range and offer redundancy.
-Generate the random detector by jumping to xref:iii-hardware:CH48_Misc_Equip.adoc#_detectors[Detectors].
+Generate the random detector by jumping to xref:iii-hardware:CH48_Misc_Equip.adoc#_detectors[Detectors,window=_blank].
 
 Aerosol::
-There will be 1-12 (1d12) aerosol charges sprayable from powered armour's limb.
-To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc#_aerosol_type[Aerosols].
+There will be 1-12 (1d12) aerosol charges sprayable from powered armour's leg.
+To determine the aerosol type jump to xref:iii-hardware:CH43_Aerosols.adoc#_aerosol_type[Aerosols,window=_blank].
 
 Grenade::
-There will be 1-6 (1d6) grenades launchable from the limb.
-Launched grenades attack as type C weapons, with the range 5 times that of a thrown grenade.
-To determine the grenade type jump to xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenades].
+There will be 1-6 (1d6) grenades launchable from the leg.
+Launched grenades attack as type C weapons, with the range seven times that of a thrown grenade.
+Often players will have the grenade launch be a kicking action.
+To determine the grenade type jump to xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenades,window=_blank].
 
 Gun::  
-A gun is installed, and fires from the powered armour's limb.
-If the gun has ammunition it will have five times the regular magazine capacity. 
+This gun fires from the powered armour's leg.
+If the gun has ammunition, it will have five times the regular magazine capacity. 
 Energy weapons have an unlimited power supply from the armour's power plant.
-To determine the pistol type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns].
+To determine the gun type jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
 Motorized::
-This lower limb accessory allows the suit of powered armour to move at great speed by diverting resources to the lower limbs.
-The persona can only recline and drive when the motorized movement is activated.
+This leg accessory allows the suit of powered armour to move at incredible speed by diverting resources to the legs.
+The persona can only move when the motorized movement is activated.
 A suit of powered armour can only have one motorized movement system installed.
-Motorized movement allows the exoskeleton to run away at triple her movement rate, and not less than 15 hexes per unit.
+Motorized movement allows the exoskeleton to run away at triple xref:i-roll_playing_rules:CH03_AttributesDEX.adoc#_moverate[Movement Rate,window=_blank] rate and not less than 15 hexes per unit.
 
-Peripheral Point::
-This allows for an extra piece of equipment to be installed in the lower limb.
-For instance a mercenary could have her favorite gun inserted into her powered armour via one of the leg peripheral points.
-A lower limb peripheral point is not a pocket, and nothing can be stored within it.
-The wate of the equipment inserted cannot exceed 50 kilograms.
-There is a 42% chance a bonus peripheral point will already be filled with an accessory.
-This would indicate an additional roll on the Upper Limb Random Accessory Table.
-
+Accessory Point::
+The suit of powered armour has a bonus additional accessory point in its leg.
+The person could fill the empty accessory point with a future artifact.
+The accessory point is not a pocket, and nothing can be stored within it.
+The wate of the equipment inserted cannot exceed 30 kgs.
 
 Scope:: 
-The lower limb has an integrated computer scope.
-If the lower limb has a weapon installed the scope will be dedicated to that weapon.
-To determine the type of scope jump over to xref:iii-hardware:CH48_Misc_Equip.adoc#_scopes[Scopes].
+The leg has an integrated computer scope.
+If the powered armour has a leg gun, the scope will is automatically for that weapon.
+To determine the type of scope jump over to xref:iii-hardware:CH48_Misc_Equip.adoc#_scopes[Scopes,window=_blank].
 
 Storage::
-Each lower limb has an internally locked storage compartment.
-The capacity of the compartment is equivalent to half the persona's in-armour wate allowance.
-Items in the storage compartment are not be considered part of wate allowance.
-For convenience the Wate Allowance Table is included right here.
-
-include::ROOT:partial$CH03_Table_Physical_Strength_and_Wate_Allowance_(kg).adoc[]
+Storage is an additional locked climate-controlled storage compartment.
+The capacity of the compartment is equivalent to half the wearer's wate allowance.
+Items kept in storage have no bearing on the wearer's encumbrance.
+xref:i-roll_playing_rules:CH18_Encumbrance.adoc[Encumbrance,window=_blank]
 
 Visual Aid:: 
-Vizauds (visual auditory enhancers) are only found in powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to powered armour.
 These devices enhance hearing, sight, touch and sense of smell.
-Multiple vizauds and systems represent redundancy and further increases in awareness.
-A vizaud installed in the foot would allow the persona to look under a vehicle without bending over.
-Each vizaud that the powered armour has installed will increase the persona's AWE by 1-3 points.
-If this vizaud has been generated as a random accessory jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids]
+Multiple vizauds and systems represent redundancy and additional increases in awareness.
+Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+If this vizaud is a random accessory, jump to xref:iii-hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
-==== Visual Aid Awareness Bonus
+=== Visual Aid Awareness Bonus
 .AWE + 1-3 (1d3)
 ****
-Each vizaud increases the persona's awareness by 1 to 3 points.
+Wearer AWE = 15 + 1d3 = 15 + 3 = 18
 ****
 
-=== Suit Accessories 
-Suit accessories are those systems are integrated into the entire suit.
-Some of these abilities are standard for all armour, and they are listed under Standard Suit Accessories+++<i>+++.
-+++</i>+++There are also special suit accessories that are determined on Table 42.10: Special Suit Accessories+++<i>+++.
-+++</i>+++These are special properties that are composed of protective coverings, specialized computers, or unique servo mechanisms.
-Each suit will have 0 to 3 (d4-1) rolls on Table 42.10: Special Suit Accessories.
+== Further Issues
+Straggly bits of info about powered armour.
 
-.*Suit Accessory List*
-* Air conditioned
-* Exatmo hardened
-* Radiation hardened
-* Armour hardened
-* 0-3 (1d4-1) additional suit accessories
+== Addressing the Dressing
+Powered armour should fit into the referee's milieu and story.
+The armour may be the pinnacle accomplishment of an institutional medico-military laboratory run by a government or corporation.
+The armour may be standard issue general motorized infantry gear.
 
-include::ROOT:partial$CH42_Table_Powered_Special_Suit_Accessories.adoc[]
+The persona may have always had the armour on, not remembering life without it.
+The powered armour may be patiently waiting for someone to step into its savage but convenient auto dresser.
+The powered armour may require multiple life-threatening neurosurgical interventions spread over numerous missions.
 
-Air Conditioned::
-Waltz into lethal mechanized combat within the confines of luxuriously air conditioned powered armour.
-Air conditioning is more like life support of a space vehicle than a comfort tool.
-Air Con also keeps the wearer from overheating due to the armour's internal heat generation.
-Every suit comes with air conditioning in the base.
-Additional air condition units layer over each other improving comfort and safety.
+Undressing powered armour is a difficult task as well.
+The persona is shedding several hundred kilograms of metal, removing direct neural links, and faces a body atrophied by servo dependence.
+Some powered armour accessory prevents the persona from ever wanting to leave their combat cacoon.
 
-Alarm::
-Not all suits of powered armour have enough vizauds to keep the wearer informed of ambush or sneak attack, especially while sleeping.
-The alarm system has an AWE of 30, and a 25 hex radius.
-It will alert the wearer to any ambushes that it detects.
-
-Anti-Personnel::
-Anti-personnel prevents extremely expensive suits of powered armour from being overwhelmed by hordes of expendable fodder.
-The 2 hex radius of effect blasts everything with an excruciatingly painful dose of electricity, flame, flash, shrapnel, or sound.
-Anything holding onto the powered armour must make a save versus mental attack, or let go of the suit.
-The anti-personnel system will also inflict 2 to 12 (2d6) hit points of damage to everything within 2 hexes.
-The intensity of the painful repulsion attack is equal to the damage inflicted (2-12).
-The anti-personnel defence can be used every other unit of combat.
-
-Compucammo::
-The most exterior layer of this armour is coated with trillions of optical sensors and multi-coloured emitters.
-When in the camouflage mode, the sensors are used to inform the light emitters, via an integrating computer, of the most beneficial shade of camouflage.
-The light emitters can also be used to change the colour of the armour to reflect the mood of the wearer.
-The suit allows the persona to become obfuscated its surroundings.
-A difficult AWE rolls must be won to notice the humanoid tank lurking in the shadows.
-This greatly increases the armour wearer's chance of executing a successful ambush.
-Once involved in combat the compucammo is of no use against all but the most terminally unaware.
-The compucammo described above  is primarily visual if the powered armour was fabricated to hide from opponents that primarily used smell or vibration for detection the cammo may reflect olfactory or vibrational camouflage.
-
-==== Compucammo Charisma Bonus
-.CHA + 1-3 (1d3)
-****
-Compucammo increases the persona's charisma by 1 to 3 points.
-****
-
-Armour Hardened::
-This is simply a measure of the toughness of the alloy-ceramic hull that makes up the protective part of the powered armour.
-Each time hardened casing is rolled a 1d100 is added to the powered armour's armour rating.
-
-Hover::
-A limited antigrav generator and retractable fins give the armour the capacity to safely coast down from any height.
-This may sound trivial, but it is pretty impressive to arrange for a several hundred kilogram lump of metal to glide.
-Hover allows for limited control, and the persona can change direction to choose the best landing site.
-The persona can use any attack while hovering.
-
-Internal System::
-// internalizing requires entire rework of powered armour. no misc no equip. limited ports etc.
-This particular accessory can only be used if the referee permits.
-It indicates that the powered armour abilities have been surgically implanted within the persona's body, and she appears no more abnormal than any other anthro in EXP The difference is obvious when lazers leap from her fingers, and grenades launch from her head.
-The complexities of this biological reinforcing cannot be shrugged off by the referee as magic, and she must be ready to justify all the physical.
-alterations.
-Much equipment will be lost on a conversion from an exoskeleton to an internal system.
-
-Jump::
-Biomechanical computers combined with limited anti-gray, and super charged leg servos will launch the mutant a distance up to 5 times her armour adjusted PSTR.
-The jumps will take 0 to 3 units to complete, covering the desired distance while flying through the air.
-During the jump the armour wearer will be able to use all weapons and devices at her disposal.
-
-// add adjusted table here.
-
-Preprogrammed::
-With preprogramming the suit's servo system is directly linked to the persona's cerebellum which is in turn linked to a series of neural programs.
-These neural programs take over the wearer's motor control system, and give her complex mercenary maneuvers as instincts.
-In certain situations the preprogrammed armour will have acted against a target before the target's existence has reached the armour wearer's consciousness.
-
-// how the fuck does this work?
-
-Radar::
-Radar allows for long range (500 hex radius) sweeps that can identify ground terrain and large bodies in motion.
-The info is presented in a cinematic heads up display in the suit's helmet.
-Radar can be turned on and off.
-Radar may also make the persona very detectable. 
-Standing within 2 hexes of active radar is a 1 to 6 intensity radiation attack.
-
-Radiation Hardened::
-Special dense packed waveform absorbing coatings double the wearer's CON vs killing radiation, also ensuring that the personas CON vs radiation cannot be less than 16.
-If the persona saves, the radiation has no effect.
-If the suit is radiation hardened more than once or twice, the wearer's CON will be tripled, and quadrupled against radiation attacks.
-
-Biologic Hardened::
-Immunity from the effects of all non-combat environmental conditions.
-Including lack of atmosphere, infected atmospheres, poisonous atmospheres, and extreme temperatures.
-The seals of the powered armour do not last indefinitely, and will eventually be subject to maintenance damage.
-There is a 10% chance that the powered armour will have a mini airlock  that allows small items to be brought within the powered armour's protective environment.
-
-Zero-G Maneuvers::
-Zog maneuver allows the persona to move about normally in the wateless three dimensional terrain of zero gravity.
-
-== Powered Armour Attribute Explanations
-
-=== Restrictiveness
-When the exoskeleton is  powered up the armour functions with a restrictiveness of 1.
-Unpowered the restrictiveness of the powered armour is 15 and the persona is trapped in a shapely coffin.
-
-=== Suiting Up, Suiting Down, Fitting In 
-Powered armour is a big deal: any persona or referee persona wearing it becomes a lethal robo-human killing machine.
-Since the armour is fully integrated with the persona's nervous system there are some complexities related about how one gets into and out of the powered armour.
-The armour may be patiently waiting for someone to step into its half assembled form, ready to activate or it may required dangerous neurosurgical intervention.
-An artifact of this kind of influence could easily become the focus of a few scenarios and maybe even a campaign.
-
-Leaving powered armour is at the very least a difficult task.
-If there is no automatic release, the persona is faced with shedding several hundred kilograms of metal, removing direct neural links, and dealing with a body atrophied by the use of powered servos.
-Suits of powered armour will often have emergency releases where the persona can explode the armour off of her body.
-This usually destroys the armour, but frees the persona from her personalized tank.
-The referee should remember that psychological obstacles may prevent the persona from shedding her armoured exterior.
-
-Powered armour should fit into the referee's campaign.
-The armour may be patiently waiting for someone to step into its half assembled form, ready to activate or it may required dangerous neurosurgical intervention.
-The armour may be installed by an institutional medico-military laboratory, like a government or corporation.
-The persona may just have always had the armour on, not remembering life without it.
+When fully powered, the exoskeleton has a restrictiveness of one (unrestricted).
+When unpowered, the wearer is trapped in a tight-fitting coffin.
 
 :art: anthro_aquarian_beluga.png
-:width: 250px
-:snark: In space no one can hear you squeal
+:width: 450px
+:snark: In space, no one can hear you squeal
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
@@ -577,55 +532,54 @@ The persona may just have always had the armour on, not remembering life without
 
 include::ROOT:partial$articulate.adoc[]
 
+== Strange Persona Shapes
+The powered armour in this section is for medium-sized anthros with two arms and two legs.
+Many personas do not meet these anthropocentric criteria.
 
-=== Aliens and Robots and Mutants 
-Oh dear.
-A combat robot or a 6 tonne alien suited in powered armour would be a formidable opponent indeed.
-If the referee is willing to follow this crazy path then she must keep in mind that a campaign could easily be imbalanced by such a powerful opponent, or ally.
+=== Aliens
+A 6-tonne alien suited in powered armour would be a formidable opponent indeed.
+If the referee is willing to follow this crazy path, she must keep in mind that a campaign could easily be imbalanced by such a powerful opponent or ally.
 
-==== Aliens
-Alien powered armour would have parts that reflect the number and shape of arms, legs, head and torso of the alien's appearance.
-For example an alien with horse legs would have 4 powered armour lower limbs.
-Would all of them have accessories like weapons?
-Consider a centipede.
-If a torso has more than a dorsal and ventral surface the referee may allow for extra rolls for right and left flanks.
+Alien species that are at the tool use level of creator can have powered armour.
+The shape of the powered armour would match the shape of the alien inside.
+If the alien shape indicates, they may have more than two arms to armour up.
+If the alien is gigantic, they may have two flanks and ventral and dorsal torso parts.
 
-==== Robots
+=== Robots
 The powered armour would be an outer layer of the robot.
 All the enhancements that any persona would benefit from would aid the robot as well.
-Any peripherals or attacks that the robot has would be able to access the exterior of the powered armour through empty peripheral points.
-The robot may shed it's powered armour layer like any other persona.
+Any robot peripherals or systems have to adapt to an empty accessory point.
+A robot may shed its powered armour layer like any other persona.
 
-==== Mutants
-Mutations are extremely unlikely to have a powered armour part created for them.
-They are different from aliens which can represent an entire species.
-For powered armour wearers that have unique appendages like wings, or tails: tails are rolled as a lower limb, wings as upper limbs, and any other extra limbs as extra rolls in their appropriate sections.
+=== Mutants
+Strangely shaped mutants are extremely unlikely to have a powered armour that fits them.
+Mutants are unique anomalies, unlike aliens, which are part of an entire species.
 
-=== Powered Armour In Combat 
-Combat is made more complex by powered armour because one persona now has many options open to her per unit.
-A persona can use all her powered armour devices every unit of combat.
-This means that she can fire all her weapons, look with her radar, and launch a nuclear missile all in two seconds.
-Multi-tasking of weapons only applies to those weapons that are integrated parts of her powered armour.
-This includes items added to peripheral points, but does not include guns being used with armour scopes.
-The persona cannot fire all her weapons and hope to carry out performance table rolls at the same time.
-The powered armour requires the wearer's complete attention.
+== Combat Multitasking 
+Combat is made more complex by powered armour. 
+The player can deploy every combat accessory in every unit of combat. 
+The persona that she can fire all her weapons, check her radar, and launch a nuclear device in two seconds.
+This multitasking only applies to combat weapons built into the powered armour. 
+Multitasking does not apply to vocation skills, vet equipment, detectors, or specialized comms. 
 
-=== Powering Powered Armour 
-Since powered armour is expected to be used continuously it will typically have a power supply that will last a very long time.
-Usually a suit of powered armour will have power for 3-12 (3d12) months of continuous use.
+== Powering Powered Armour 
 Powered armour will not suddenly run out of power.
 There will be lots of indicators and indications that the suit is running low.
-Having personas with powered armour constantly seeking power can be a fun limitation and aspect of any campaign.
-The powered armour will have a power plant similar to that of robots.
-When the armour is fully powered it The Robot Power Plant Table is listed here for convenience.
+Having personas with powered armour constantly seeking power can be a challenging limitation to the powerful artifact.
+Powered armour has a power plant similar to that of robots.
+The Robot Power Plant Table is listed here for convenience.
 
 include::ROOT:partial$CH05_Table_Robotic_Power_Cell_Type.adoc[]
 
+When the exoskeleton is powered up, there is no noticeable restrictiveness.
+When the exoskeleton is powered down, the persona is trapped in a shapely coffin.
 
-=== Value of Powered Armour 
+== Accessory Value
 The base value of a suit of powered armour is 10000000 eps (ten million).
-The value increases with the addition of various accessories.
-Common toys used as powered armour accessories are worth ten times their regular amount (due to defence contract budgeting), and added to the cost of the armour.
-The value of accessories specific to powered armour are listed on the Accessory Value Table.
+The value increases with the addition of accessories.
+Accessory artifacts are worth ten times their typical values (due to defence contract budgeting).
+The value of these accessory artifacts increases the value of the powered armour.
+The value of armour-specific accessories also increases the value of the powered armour.
+The value of these accessories is listed below.
 
 include::ROOT:partial$CH42_Table_Powered_Value_of_Powered_Armour.adoc[]
