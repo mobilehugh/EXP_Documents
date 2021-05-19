@@ -1,11 +1,12 @@
 = Grenades
 
-This is the chapter devoted to the classic area of effect weapon, the grenade.
-Grenades generally act the same instant that they are detonated.
-Only under certain circumstances may a grenade explode later than one unit after being thrown.
+A grenade is any hand, claw, or paw thrown area of effect weapon.
+Grenades are remarkable for their ease of use and even more remarkable for their deadliness.
+The grenade is particularly unintelligent and damages expedition members as indiscriminately as opponents.
+Grenades are imprecise and still manage to impact all targets within their area of effect.
 
 :art: hand_grenade.png
-:width: 250px
+:width: 450px
 :snark: Grenade with hand
 :artist: Andrew Brechin
 :date: 1991
@@ -14,34 +15,12 @@ Only under certain circumstances may a grenade explode later than one unit after
 
 include::ROOT:partial$articulate.adoc[]
 
-A grenade is any hand, claw, or paw thrown area of effect weapon.
-Grenades are remarkable for their ease of use, and even more remarkable for their deadliness.
-The grenade is particularly unintelligent, and will damage expedition members as indiscriminately as opponents.
-No normal armour type can stop the damage of a grenade, and anything caught within the area of effect will be damaged.
-There is only slim chance that a target will be able to avoid damage, and that is when the grenade is a dud.
-There is only a 1 in 1000 chance that a grenade will be a dud.
-Once a grenade is discharged (exploded), it is irretrievably lost.
-
 .Grenade Checklist
 . <<_grenade_type, Grenade Type>>
 . <<_trigger,Trigger>>
+. <<_number,Number>>
 . <<_description, Description>>
-.. <<_grenade_shape,Shape>>
-.. <<_grenade_shape_deformation,Deformation>>
-.. <<_grenade_adornment,Adornment>>
-.. <<_grenade_colour,Colour>>
-. <<_grenade_attribute_explanations,Grenade Attribute Explanations>>
-
-:art: grenade_loveless.png
-:width: 250px
-:snark: They never look like this
-:artist: Unknown
-:date: Unknown
-:license: CC BY-SA 4.0
-:description: Drawing of an old school grenade with pin and release lever.
-
-include::ROOT:partial$articulate.adoc[]
-
+. <<_grenade_parameters,Grenade Parameters>>
 
 == Grenade Type 
 
@@ -60,7 +39,7 @@ EXPS:: 300
 Value:: 1000
 
 The big bertha is a massive concussion grenade.
-Aside from doing massive damage it is designed to topple targets.
+Aside from inflicting massive damage, big bertha stuns and topples targets.
 
 .*Big Bertha Effect*
 * 8h range 12d12 damage
@@ -68,11 +47,11 @@ Aside from doing massive damage it is designed to topple targets.
 * 16h range topple
 
 These effects are cumulative.
-A target within 8h would take damage, get stunned and get toppled.
-To avoid being stunned the player must make a successful Damage System Shock roll (DSS).
-To avoid being toppled the player must make a successful dexterity attribute roll ()
+A target within eight hexes takes damage, gets stunned and gets toppled.
+To avoid being stunned, the player must win a xref:i-roll_playing_rules:CH04_Anthros_HPS.adoc#_damage_system_shock[Damage System Shock,window=_blank] roll (anthros only).
+To avoid being toppled, the player must win a dexterity xref:i-roll_playing_rules:CH16_Special_Rolls_Attributes.adoc[Attribute Roll,window=_blank].
 
-For those interested in the terran history of https://en.wikipedia.org/wiki/Big_Bertha_(howitzer)[Big Bertha^].
+The name big bertha has its roots in mundane terran war history https://en.wikipedia.org/wiki/Big_Bertha_(howitzer)[Big Bertha].
 
 === Chemical Explosive Grenade 
 
@@ -84,8 +63,8 @@ Wate:: 0.75kg
 EXPS:: 100
 Value:: 200
 
-A chemical explosive grenade is more powerful version of the typical fragmentation grenade.
-The chemical explosive is the big sister of the Fragmentation grenade, and the little sister of the Big Bertha.
+A chemical explosive grenade is a more powerful version of the typical fragmentation grenade.
+The chemical explosive is the big sister of the Fragmentation grenade and the little sister of the Big Bertha.
 
 === Corrosive Grenade 
 
@@ -97,16 +76,16 @@ Wate:: 1kg
 EXPS:: 200
 Value:: 300
 
-The corrosive grenade bathes the area of effect with acids, alkalis, or a non-neutralizing combinations of both.
-The corrosive grenade's contents are highly volatile, but neutralize themselves on organic surfaces.
-This makes the weapon selectively more destructive to inorganic materials and personas.
+The corrosive grenade bathes the area of effect with acids, alkalis, or non-neutralizing combinations of both.
+The corrosive grenade's contents are highly volatile but neutralize themselves on organic surfaces.
+This grenade is selectively more destructive to inorganic materials and robot personas.
+Organic targets suffer damage from the initial grenade explosion.
 
-After the initial explosion the residue will continue to eat away at inorganic materials.
-Organic personas are damaged by the initial explosion, but not the ongoing corrosion.
-Metals, plastic, rubber, etc. continue to take damage until washed clean.
+After the initial explosion, the residue will continue to eat away at inorganic materials.
+Metals, plastic, rubber, etc., continue to take damage until washed clean.
 Items such as armour, weapons, or robots will take an additional 2-20 hit points of damage for each of the continuing 1-8 units of reaction.
-E.g., an unwashed robot could take an additional 2-20 HPS for 4 units after the initial blast.
-Corrosive grenades are also known as acid baths, and Drainoh bombs.
+E.g., an unwashed robot could take an additional 2-20 HPS for four units after the initial blast.
+Corrosive grenades are also known as acid baths and Drainoh bombs.
 
 === Cryoblast Grenade 
 
@@ -118,10 +97,10 @@ Wate:: 1kg
 EXPS:: 300
 Value:: 500
 
-The cryoblast grenade subjects everything in its area of effect to a blast of freezing cold.
-The grenade is not only capable of freezing things solid, but it can trap targets in the ice that it produces.
-Medium, or smaller, sized targets have a % chance, equal to the damage inflicted, of being trapped in the ice.
-So a medium sized beasty that took 19 points of damage would have a 19% chance of being frozen immobile.
+The cryoblast grenade freezes everything in its area of effect to a blast of extreme cold.
+The grenade can freeze things solid and can trap personas in ice.
+Medium or smaller, sized targets have a % chance, equal to the damage inflicted, of being trapped in the ice.
+So a medium-sized beasty that took 19 points of damage has a 19% chance of being frozen immobile.
 The cryoblast grenade can also freeze swords in scabbards, render buttons frozen, jam weapons, etc.
 The cryoblast is also known as a cryofrag, a berg bomb, or a rinkmaker.
 
@@ -135,18 +114,18 @@ Wate:: 0.5kg
 EXPS:: 275
 Value:: 3000
 
-An energy drain grenade will suck the life out of nearby potential energy stores (batteries), and then self destruct.
-Any batteries within a 10 hex radius will be instantly devoid of charge.
-The grenade will then shower a smaller 3 hex area of effect with its fragments, and kinetic energy.
+An energy drain grenade will suck the life out of nearby potential energy stores (batteries) and self-destruct.
+Any batteries within a ten hex radius will be instantly devoid of charge.
+The grenade will shower a smaller three hex area of effect with its exploding fragments.
 This explosion will inflict 1d4 hit points of damage for every battery drained.
-If a hapless target has three batteries in her weapon, 4 in her backpack, and a nearby expedition member has a total of 9 on her person, the grenade would explode--in 0 to 3 units--inflicting 16d4 of damage to all within 3 hexes.
+An unlucky target has 16 batteries within the area of effect.
+The grenade explodes in 0 to 3 units--inflicting 16d4 of damage to all within three hexes.
 
-The energy drain grenade cannot affect robot batteries, or power plants.
-Psionic batteries get a save vs.
-mental attack before losing a battery life.
-The psionic attack strength of the grenade attack is 0.
-Note that an energy drain grenade could kill a persona using psionic batteries by reducing her MSTR to 0.
-The energy drain grenade is also known as an Amp-ire grenade, or a Never-ready.
+The energy drain grenade only works on discrete batteries storing potential energy.
+Continuous battery sources like broadcast or psionic batteries are immune.
+The energy drain grenade does not affect robots, powered armour, or vehicle power plants.
+
+The energy drain grenade is also known as an Amp-ire grenade or a Never-ready.
 
 === Energy Grenade 
 
@@ -159,11 +138,10 @@ EXPS:: 300
 Value:: 5000
 
 The energy grenade emits a controlled lazer explosion of the given volume (15h x 15h x 1h).
-Regardless of the terrain in which the grenade is employed, it will always occupy the given volume.
-Note that the 1 hex component will always run parallel to gravity.
+Regardless of the terrain in which the grenade, the detonation always occupies the given volume.
 The grenade's blast area will race along corridors, through open doors, around corners, and down escalators.
 Using this weapon in unfamiliar terrain could have its effects hurtling directly back at the user.
-The energy grenade is also known as an anti-trench grenade, or a mouser.
+The energy grenade is also known as an anti-trench grenade or a mouser.
 
 === Exploding Pin Grenade 
 
@@ -176,11 +154,11 @@ EXPS:: 150
 Value:: 650
 
 The exploding pin grenade is a sadistic version of a micro grenade launcher.
-When an EPG goes off, it showers the 4 hex area of effect with tiny pins.
+When an EPG goes off, it showers the four hex area of effect with tiny pins.
 These tiny pins will stick into the hardest of alloys (AR less than 1000).
-When ever a pin hits, it will immediately explode inflicting the 1d6 damage described above.
-The number of pins which hit a target depends on it's size.
-The larger the target the more pins inflict damage.
+Whenever a pin hits, it will immediately explode, inflicting the 1d6 damage described above.
+The number of pins that hit a target depends on the target's size.
+The larger the target, the more pins inflict damage.
 
 include::ROOT:partial$CH45_Table_Pin_Amount.adoc[]
 
@@ -194,8 +172,8 @@ Wate:: 0.85kg
 EXPS:: 125
 Value:: 75
 
-The fragmentation grenade is your run of the mill shrapnel grenade.
-These are commonly called frags, or grenades.
+The fragmentation grenade is your run-of-the-mill shrapnel grenade.
+These are commonly called frags or grenades.
 
 === Fusion Grenade 
 
@@ -207,7 +185,7 @@ Wate:: 2.5kg
 EXPS:: 300
 Value:: 4000
 
-A fusion grenade delivers a micro nuclear explosion.
+A fusion grenade delivers a micronuclear explosion.
 The explosion includes a host of other nasty effects beyond damage.
 
 .*Fusion Grenade Areas of Effect*
@@ -217,37 +195,39 @@ The explosion includes a host of other nasty effects beyond damage.
 * 30h radiation attack
 
 .*Immolation*
-Any flammable object within 15 hexes of the epicenter has a chance of immolating.
-This includes personas as well as equipment.
-The chance of immolation is equal to 1% per point of damage
+Any flammable object within 15 hexes of the epicentre has a chance of immolating.
+The immolation chance includes personas and equipment.
+The chance of immolation is equal to 1% per point of damage.
 Anything ignited by the grenade will burn until extinguished.
-This results in burn damage every unit of being on fire.
 
 .*Blinding*
-Any personas within 20 hexes has a chance of being blinded.
+Any personas within 20 hexes have a chance of being blinded.
 The chance of being blinded is 1/2% per point of damage.
 This attack affects both organic and inorganic personas and devices.
-Vision will be restored in 1-10 (1d10) minutes.
+Video sensors will restore vision in 1-10 (1d10) minutes.
 
 .*Radiation*
 Any target within 30 hexes is subject to a lethal radiation attack.
 The intensity of the attack is equal to 1/10 of the damage.
 
-The effects of a fusion grenade are cumulative, and lethal.
-Consider a persona that is within 10 hexes taking 60 HPS of damage.
-First she subtracts 60 HPS from HPS Total.
-She has a 60% chance of catching fire, and a 30% chance of being blinded.
-Finally she must make a roll versus intensity 6 lethal radiation.
+The effects of a fusion grenade are cumulative and lethal.
+A persona that is within ten hexes taking 60 HPS of damage.
+First, she subtracts 60 HPS from HPS Total.
+Then she has a 60% chance of catching fire and a 30% chance of being blinded.
+Finally, she must make a roll versus intensity six lethal radiation.
 
 .*Residual Radiation*
-For effect the ref can make the 10 hex area of effect a lingering radiation zone of an intensity equal to 1/10 of the blast damage.
+For effect, the ref can make the ten hex radius of effect become a lingering radiation zone.
+The radiation intensity is 1/10 of the blast damage.
 The radiation zone's intensity level will decrease by one point per hour, day, or week, depending on how dirty the grenade was.
 
-Any reader should have noticed that this is not a close combat weapon, and the even more observant readers have noticed that a fusion grenade cannot be thrown without having some effect on the attacker.
+The reader should have noticed that this is not a close combat weapon.
+More observant readers have noticed that a persona cannot throw a fusion grenade safely out of range.
+
 Fusion grenades are also known as micro-nukes, CQ bombs, and tactical nukes.
 
 :art: stormy_storm_trooper_gas.jpg
-:width: 250px
+:width: 450px
 :snark: It has been a gas gentlemen
 :artist: Rob Miller
 :date: 1950 
@@ -255,8 +235,6 @@ Fusion grenades are also known as micro-nukes, CQ bombs, and tactical nukes.
 :description: Drawing of shadowy humanoid wearing gas mask entering room full of collapsed humanoids. 
 
 include::ROOT:partial$articulate.adoc[]
-
-
 
 === Gas Grenade 
 
@@ -269,14 +247,12 @@ EXPS:: 275
 Value:: 250
 
 The gas grenade discharges a dense mist of poisons.
-The nerve agents are both contact, and respiratory poisons.
-All organic targets must roll vs poison attack or suffer the described affect.
+The nerve agents are both contact and respiratory poisons.
+All organic targets must roll vs poison attack or suffer the described effect.
 The cloud of gas will dissipate in 1-8 units.
-Prevailing winds may affect the duration, and intensity of the gas cloud.
+Prevailing winds may affect the duration and intensity of the gas cloud.
 The gas's intensity will vary from 4-24 (4d6).
 This value is generated once for the entire cloud.
-
-The Gas Type Table determines the effect on the persona if their roll vs poison.
 
 include::ROOT:partial$CH44_Table_Gas_Type.adoc[]
 
@@ -296,32 +272,34 @@ The gravruptor grenade produces an instantaneous burst of random acceleration.
 Newtonian physics conveniently need not apply.
 Objects greater than 2 tonnes in wate are not affected by this grenade's attack.
 
-There is a 75% chance that the gravruptor grenade will add 1-6 g to the local terrain.
-The effects of this should be obvious, as targets crash to the ground, weapons are torn from grasps, and vehicles grind into the dirt.
+.*Up*
+25% of the time, the gravruptor grenades reverses gravity by 1-6 (1d6) gravities.
+Reversing gravity accelerates everything in the opposite direction to the present gravity.
+The general effect is that things go flying into the air.
+All items fly one hex in the air per anomalous gravity.
+There is no damage from flying into the air or accelerating back down to the ground.
+However, the deceleration of hitting the ground inflicts 1-6 (1d6) hit points per gravity.
+Colliding with an immobile object along the path of the toss will also inflict 1-6 (1d6) hit points per gravity.
+
+.*Down*
+The remaining 75% of the time the gravruptor grenade will add 1-6 g to the local terrain.
+Increasing gravity causes personas to crash to the ground and vehicles to grind into the dirt.
 This pressing problem will also inflict damage to all targets in the area of effect.
 This damage is 1 to 12 (1d12) hit points in damage per extra gravity.
-E.g., 3 gravities would smash targets into the ground for 3-36 hit points of damage.
+E.g., three gravities would smash targets into the ground for 3-36 (3d12) hit points of damage.
 
-When the gravruptor grenade is reversing gravity there will be an acceleration of 1-6 gravities in a direction opposite to the present gravity direction.
-The general effect is that things go flying into the air.
-All items are lifted 1 hex in the air per anomalous gravity.
-There is no damage inflicted on the initial toss up, but the subsequent trip down from 1-6 hexes will inflict substantial damage.
-There will be 1-6 hit points of damage inflicted per hex that the target falls through.
-If the targets should hit a ceiling, or some other such covering, on the way up they would take 1 to 6 (1d6) hit points per gravity.
+.*All Around*
+This weapon is a ZOG (zero gravity) combat weapon.
+The gravruptor flings enemy combatants off into space.
+All targets accelerate away from the epicentre at 1-6 (1d6) gravities.
+This acceleration inflicts 1 to 6 (1d6) hit points of damage per gravity of acceleration.
+The targets are also flying away at one h/u for every 2 points of damage.
+Consider a gravruptor grenade that generated five gravities on detonation
+The referee generates 16 HPS of damage using 5d6.
+Each target subtracts 16 HPS from their HPS Total and is flying away at
+eight h/u.
 
-All of the above effects are described for a normal gravity world.
-What effects this grenade has on high gravity and low gravity planets depends entirely on the ref.
-
-This weapon was designed to be used in zero gravity.
-The gravruptor is employed to toss fling enemy combatants off into space.
-All targets are subjected to 1 to 6 (1d6) hit points of damage per gravity of acceleration.
-They also fly away from the grenade's target hex at 1 h/u for every 2 points of damage.
-Consider a gravruptor grenade that generated 5 gravities on detonation
-The referee generates 16 HPS of damage on the 5d6 die roll.
-Each target would subtract 16 HPS their HPS Total.
-They would also fly off at 8 h/u away from the grenade blast. 
-
-The gravruptor grenade is also known as a downer, or a jump bomb.
+The gravruptor grenade is also known as a downer or a jump bomb.
 
 === Magnetic Disruptor Grenade 
 
@@ -348,12 +326,12 @@ Armour may get ripped off of personas.
 Tools  may be torn from utility belts.
 Weapons can be rended from the paws of personas.
 Unless the terrain is intentionally completely barren there will be stuff to attract.
-The closer to the epicenter the harder it is to hang onto stuff.
+The closer to the epicenter, the harder it is to hang onto stuff.
 A physical strength attribute roll is required if the referee has targeted something.
 The attribute challenge is versus 24 at the epicenter and 2 at the periphery.
 
 Typically the planet is the nearest and largest object. 
-In zero gravity the grenade will attach to the largest object nearest the target hex.
+In zero gravity, the grenade will attach to the largest object nearest the target hex.
 Only tiny personas are at risk of being pulled in the magnetic maelstrom.
 This grenade has been used to draw a persona back to a space vehicle.
 
@@ -371,7 +349,7 @@ Mini grenades are so small and light that they cannot be thrown very far.
 A mini grenade must score a direct hit the target to inflict damage.
 A miss with a mini grenade explodes loudly and harmlessly.
 The armour rating of the target is determined by it's size. 
-Like any grenade the mini grenade does damage regardless of the target's armour rating. 
+Like any grenade, the mini grenade does damage regardless of the target's armour rating. 
 
 include::ROOT:partial$CH45_Table_Size_Armour_Rating.adoc[]
 
@@ -400,7 +378,7 @@ To determine the gas type jump to <<_gas_grenade,Gas Grenade>>.
 
 Mini Pyrotechnic Grenades::
 Mini pyrotechnic grenades are harmless but extremely distracting.
-They player need only have the mini grenade land in the target hex. 
+TheThe player need only have the mini grenade land in the target hex. 
 This will imbue that hex with distracting shock and awe.
 To determine the pyrotechnic type jump to <<_pyrotechnic_grenade, Pyrotechnic Grenade>>.
 
@@ -421,7 +399,7 @@ When a molecular disruptor is used the Extent of Disruption is randomly determin
 
 .*Damage*
 The damage area of effect inflicts 8-64 (8d8) hit points of damage. 
-The size of the damage area of effect is rolled on the Disruption Event Table. 
+The size of the damaged area of effect is rolled on the Disruption Event Table. 
 Damage is caused by slivers of disintegration that burst from the grenade.
 These slivers punch microscopic holes through anything in the damage area of effect.
 
@@ -448,12 +426,12 @@ Value:: 1000
 
 The multiple explosive grenade is the "exploding cigar" of lethal combat.
 This grenade initially explodes like any other grenade, but similarities end there.
-After the first explosion the grenade flies into the air, only to land and explode again.
+After the first explosion, the grenade flies into the air, only to land and explode again.
 The number of detonations, area of effect and damage is determined each time. 
 
 The successive explosions will occur 0 to 3 units apart.
 The location of the explosion is 0-5 (1d6-1) hexes in a random direction. 
-Easiest way to determine is to make a random facet roll.
+The easiest way to determine is to make a random facet roll.
 
 :art: Figure_grenade_miss_direction_d12.png
 :width: 250px
@@ -467,7 +445,7 @@ include::ROOT:partial$articulate.adoc[]
 
 These grenades are dangerous to the expedition for obvious reasons.
 Unless properly identified a multiple explosive grenade is indistinguishable from a regular grenade.
-If used indoors the grenade will explode each unit bouncing around the room.
+If used indoors, the grenade will explode each unit bouncing around the room.
 
 Multiple explosive grenades are also known as jumping jacks.
 
@@ -486,7 +464,7 @@ Value:: 2000
 The napalm grenade is unique in that it has a swath area of effect as opposed to a spherical area of effect.
 When the grenade is discharged, it launches itself into the air for an 8 hex trip while raining adhesive flammables all along its course.
 Normally this grenade will launch itself in the same direction that it was thrown.
-If the thrower is unskilled in grenade combat, and rolls less than 200 on her attack roll the napalm grenade will launch itself in a random direction.
+If the thrower is unskilled in grenade combat and rolls less than 200 on her attack roll, the napalm grenade will launch itself in a random direction.
 
 Anything caught in this blazing area of effect will take the damage listed, will immolate, and will continue burning for 2-8 units.
 The continued burning will inflict 2-24 hit points of damage each unit.The 2 hex by 8 hex patch of flame will burn itself out in 1 to 10 minutes.
@@ -508,7 +486,7 @@ The pin grenade pierces everything in 1 hex radius of effect with explosive pins
 The initial detonation is relatively quiet. 
 The exploding pins are not much noisier. 
 
-The bigger the target the more pins that stick into it.
+The bigger the target, the more pins that stick into it.
 Each pin explodes for 1-10 (1d10) hit points of damage.
 So a Large target could take up to 12-120 (12d10) hit points of damage.
 
@@ -582,7 +560,7 @@ A radiation intensity 12 attack would remain for 12 days.
 The intensity decreases by 1 per day until there is no lethal radiation.
 The detonation site will remain anomalous to a radiation detectors forever.
 
-The radiation grenade is also known as a Neutron grenade, or a Micrograve.
+The radiation grenade is also known as a Neutron grenade, or a Microgravity.
 
 === Skylighter Grenade 
 
@@ -595,7 +573,7 @@ EXPS:: 300
 Value:: 5500
 
 The sky lighter is an outdoorsy grenade.
-On detonation the grenade launches a projectile into the sky.
+On detonation, the grenade launches a projectile into the sky.
 After 2-6 (3d3) unites the enormous area of effect is deluged with jagged hail.
 The initial explosion does no damage, but the hailstorm is like nails that melt.
 This grenade depends on complex meteorological mechanisms.
@@ -627,53 +605,27 @@ The damage is only delivered to targets inside the force field.
 
 The torc grenade is also known as a force field disruptor.
 
-== Grenade Attribute Explanations
-
-=== Range 
-Grenades consume the hex that they explode in, and must be thrown a safe distance to avoid damaging the user.
-The range of a grenade depends entirely on the thrower, and is equal to her PSTR in hexes.
-Close counts in horseshoes and hand grenades. 
-A miss with a grenade can still inflict damage to the target. 
-
-=== Area Of Effect 
-Area of effect represents the radius of the sphere affected by the grenade.
-For example, a fragmentation grenade has an area of effect of 1 hex.
-Any target with the target hex and the surrounding hex is affected.
-This includes targets above the target hex because area of effect is spherical.
-Fellow expedition members can be included in this area of effect.
-
-=== Damage 
-This is the hit point range that is inflicted upon any target caught within the area of effect.
-Grenades with special effects have no damage range.
-Damage is rolled once, and each target in the area of effect is damaged.
-There is no saving roll against damage.
-The damage is not divided amongst the targets and each takes the same amount.
-
-=== Wate 
-This is the wate of the grenade in kilograms.
-
-=== EXPS 
-Experience points are earned for identifying the grenade.
-The EXPS award is the whether the grenade is identified before or after detonation
-
-=== Value 
-The value of a grenade, or aerosol, is the value of one charge.
-In some cases aerosols can generate more than one charge, but even with these modifications such aerosols still have the same value.
-
-=== Amount 
-A grenade cache will contain 1-6 (1d6) grenades.
-For powerful, campaign altering, grenades one will suffice.
-
 === Trigger 
-To make the subject of grenades a little more confusing there are several different types of fuses.
-For the convenience of the ref 9 out of 10 grenades are detonated by contact with the target hex, or any substantially solid object along its path.
-All other grenades will have timers, and will explode 0 to 3 units after being thrown.
-Before a grenade will detonate, it must be triggered, and thrown.
-A list of several different trigger types are given on Table 45.2: Grenade Trigger.
-The trigger types do not require explanation, and simply indicate what must be done to activate the grenade.
-For example, an inertia trigger is activated when the grenade goes through a throwing motion, and a twist trigger will active when some device is twisted on the grenade.
+The trigger of the grenade activates the weapon, and the sudden deceleration on the target hex detonates it.
+The grenade can also detonate if it were to hit a solid object after activation.
+Grenade triggers are mainly descriptive.
 
 include::ROOT:partial$CH45_Table_Grenade_Trigger.adoc[]
+
+== Number 
+Grenades come in six-packs, not unlike a famous mundane terran beverage.
+However, only 1-6 (1d6) grenades will be in a pack.
+For powerful campaign-altering grenades, five of the six will be missing.
+
+:art: grenade_loveless.png
+:width: 250px
+:snark: They never look like this
+:artist: Unknown
+:date: Unknown
+:license: CC BY-SA 4.0
+:description: Drawing of an old school grenade with pin and release lever.
+
+include::ROOT:partial$articulate.adoc[]
 
 === Description 
 Not all grenades are created equal. 
@@ -692,7 +644,7 @@ include::ROOT:partial$CH44_Table_Bomb_Shape.adoc[]
 ==== Grenade Shape Deformation
 The bomb shape deformation table is used purely for the convenience of the author.
 It is not being lazy it is being efficient.
-This table is optional, but if you don't use it you are the lazy one.
+This table is optional, but if you don't use it, you are the lazy one.
 
 include::ROOT:partial$CH44_Table_Bomb_Shape_Adjustment.adoc[]
 
@@ -706,3 +658,33 @@ include::ROOT:partial$CH44_Table_Bomb_Strange_Adornment.adoc[]
 Keep it simple with a 1d10 roll, or make it zany with a 1d100 roll.
 
 include::ROOT:partial$add_colour_to_your_world.adoc[]
+
+== Grenade Parameters
+For details on the special elements of grenade combat jump to xref:i-roll_playing_rules:CH30_Area_of_Effect_Weapons.adoc#_grenades[GrenadeCombat,window=_blank].
+
+=== Range 
+The range of a grenade depends entirely on the thrower.
+A persona can throw a grenade one hex per point of physical strength
+There is no guarantee that a persona can throw a grenade further than its area of effect.
+
+=== Area Of Effect 
+The area of effect represents the radius of the sphere affected by the grenade.
+For example, a fragmentation grenade has an area of effect of 1 hex.
+Any target with the target hex and the surrounding hex is affected.
+Personas above the target hex are also impacted because the area of effect is spherical.m
+The area of effect of a grenade is indiscriminate and any fellow expedition members caught in the area of effect are impacted.
+
+=== Damage 
+The damage parameter has a range of hit points and the dice for calculating the damage amount in parentheses. 
+If there is no damage parameter listed, the weapon likely has some other horrible effect.
+
+=== Wate 
+The wate of the grenade in kilograms.
+
+=== EXPS 
+The persona gets this value for identifying the grenade. 
+The player may identify the grenade before or after detonation. 
+
+=== Value 
+The value of the grenade in eps.
+
