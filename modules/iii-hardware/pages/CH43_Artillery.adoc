@@ -1,15 +1,17 @@
 = Artillery
 
-Artillery are a subsection of guns.
+Artillery is a subsection of guns.
 An artillery piece is nothing more than a big rifle with an area of effect.
 Artillery takes guns and multiplies their range, damage and effects.
 
 *Artillery is very deadly.* 
+====
 Misuse of artillery, which is usually guaranteed, can wipe out whole expeditions.
-Unless the players like creating personas artillery should be limited in a campaign.
+Unless the players like creating new personas, the referee should limit artillery in a campaign.
+====
 
 :art: canon_of_the_yeti.png
-:width: 250px
+:width: 450px
 :snark: Don't fire it yeti.
 :artist: John Champlin
 :date: 1881
@@ -21,7 +23,7 @@ include::ROOT:partial$articulate.adoc[]
 
 .*Artillery Checklist* 
 . <<_artillery_type,Artillery Type>>
-. <<_artillery_attribute_explanations,Artillery Attribute Explanations>>
+. <<_artillery_parameters,Artillery Parameters>>
 
 == Artillery Type 
 
@@ -29,55 +31,54 @@ include::ROOT:partial$CH43_Table_Artillery_Type.adoc[]
 
 == Artillery Types
 
-
 === Annihilator
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_antimat_rifle[Antimat Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_antimat_rifle[Antimat Rifle,window=_blank]
 Weapon Type:: C
 Range:: 1500h (15h)
 Area of Effect:: 75h
 Damage:: 105-240 (1d50+90)
 Magazine:: 1 per Battery
-Wate:: 375kg (0.5kg) + Battery
+Wate:: 375kg (0.5kg + Battery)
 EXPS:: 900
 Value:: 37500000(1500000) + Battery
 
 The annihilator fires a blob of antimatter suspended in a lattice of electrons.
 This lattice shatters at range annihilator nearby matter and creating an explosion.
-600 kgs of matter in the target hex is completely destroyed,
-The explosion releases a blast of heavy particles and super-heated gases.
+The artillery destroys the target hex, eliminating 600 kgs of matter.
+The explosion releases a blast of heavy particles and superheated gases.
 Everything within the 75 hex area of effect takes the listed damage.
 
-A malfunction with this weapon means the electron lattice has shattered within the gun.
-The artillery piece explodes and inflicts 25-70 (5d10+20) hit points of damage by 2 hexes.
+A malfunction with this weapon indicates the electron lattice has shattered within the gun.
+The artillery piece explodes and inflicts 25-70 (5d10+20) hit points of damage in a two hex radius.
 
 === Beehive Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_bee_gun[Bee Gun]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_bee_gun[Bee Gun,window=_blank]
 Weapon Type:: C
 Range:: 1500h (15h)
 Area of Effect:: 2-12h (2d6)
 Damage:: Death
 Magazine:: 1
-Wate:: 150kg ()
+Wate:: 150kg (4kg)
 EXPS:: 500
 Value:: 3750000 (1500000)
 
-The beehive's activation chamber excites a hive insects into a poisonous rage.
-The area of effect is bathed in an explosion of deadly venomous insects.
+The beehive's activation chamber excites a hive of insects into a poisonous rage.
+The weapon bathes the area of effect in an explosion of deadly venomous insects.
 Every organic creature in the area of effect must win a poison roll or die.
 The poison intensity is a ridiculous 57-72 (3d6+54).
-Most referees will limit this a poison intensity of 25.
-If a person does save she will be comatose for 1-4 (1d4) days.
+Most referees will limit this to a poison intensity of 25.
+If a persona survives, she will be comatose for 1-4 (1d4) days.
 
 A malfunction with this weapon indicates that the hive has harmlessly disintegrated in transit.
 
 === Howitzer
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_bolt_action_rifle[Bolt Action Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_bolt_action_rifle[Bolt Action Rifle,window=_blank]
 Weapon Type:: C
 Range:: 1200h (12h)
 Area of Effect:: 2-12h (2d6)
@@ -87,27 +88,27 @@ Wate:: 278kg (4.5kg)
 EXPS:: 400
 Value:: 50000 (100)
 
-This is the classic long gun.
-Fed by explosive shells and aimed by cranking furiously.
+The howitzer is a modern take on the classic long gun.
+This cannon is fed with explosive shells and aimed with furious cranking.
 
-A malfunction destroys the weapon and inflicts 12-144 (12d12) hit points of damage in the firing hex..
+A malfunction destroys the weapon and inflicts 12-144 (12d12) hit points of damage to the firing hex.
 
 === Glacier Gun 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_cryogun[Cryogun]
-Weapon Type:: C
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_cryogun[Cryogun,window=_blank]
+Weapon Type:: AOE, C
 Range:: 100h (1h)
 Area of Effect:: 6h wide 
 Damage:: 12-72 (12d6)
 Magazine:: 1 per Battery
-Wate:: 150kg + Battery
+Wate:: 150kg (Battery)
 EXPS:: 700
 Value:: 600000 + Battery
 
-The glacier gun freezes everything within its 6 hex by 100 hex area of effect.
+The glacier gun freezes everything within its six hex by 100 hex area of effect.
 Each point of damage equals a % chance of being entrapped in ice
-So 25 HPS of damage indicates a 25% of being entrapped in the ice.
+So 25 HPS of damage indicates 25% of being trapped in the ice.
 The chance to break free is a Tough physical strength challenge.
 Trapped targets will be cold and trapped until the glacier melts.
 The glacier melts in 18 to 180 units (18d10).
@@ -118,51 +119,46 @@ This weapon is also called a Cryo Cannon.
 
 === Disintegrator 
 
-[horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_disintegration_gun[Disintegration Gun]
+[horizontal,window=_blank]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_disintegration_gun[Disintegration Gun,window=_blank]
 Weapon Type:: C
 Range:: 1000h (10h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 24-192 (24d8)
 Magazine:: 1 per Battery
-Wate:: 338kg + Battery
+Wate:: 338kg (Battery)
 EXPS:: 900
 Value:: 50000000 + Battery 
 
 The disintegrator turns solids into elemental particles. 
-The nicely organized matter is turned into a chaotic cloud of dust.
-This artillery is temperamental and outcomes vary each time it is fired.
-Like all good disintegration weapons it is capable of making a target disappear.
+The nicely organized matter gets violently transformed into a chaotic cloud of dust.
+This artillery is temperamental, and outcomes vary each time it is fired.
+Like all good disintegration weapons, it is capable of making a target disappear.
 Every target in the area of effect takes 24-192 (24d8) hit points in damage.
-If the disintegration cascade starts much more damage follows.
+If the disintegration cascade starts, much more damage follows.
 
 .*Disintegration Cascade*
-Everything in the area of effect has a chance of disintegrating. 
-The disintegration cascade will affect 3-300 (3d100) kgs of wate.
-The amount of disintegrated matter is rolled for each persona in the area of effect.
-The greater the amount of matter affected the greater the chance the cascade will fail.
-There is a 1% chance per kg of matter that the attack will fail.
+. Area of effect inflicts 24-192 (24d8) hit points 
+. Roll for 3-300 (3d100) kgs  of matter for disintegration.
+. Roll percent (1d1000) to check for disintegration.
+. Disintegration fails if the kilodie roll is less than the kgs of matter.
+. If disintegration occurs, inflict catastrophic disintegration damage.
 
-So an attack that is affecting 42 kgs of a target has a 42 percent chance of failing.
-Basically the player immediately rolls the 1d100 again. 
-If the second roll is greater than the amount of wate things disintegrate.
-Using the above example of a 42 kg cascade the player immediately rolls again.
-If the roll is 42 or higher the cascade is successful and 42 kgs disappears.
-If the roll is 41 or lower the cascade fails and the weapon inflicts 24-192 (24d8) hit points.
+.*Disintegration Damage*
+For most personas, disintegration is universally lethal.
+If the persona's wate (kgs) is less than the kgs of matter disintegrated, she suffers total disintegration.
+Total disintegration irrevocably destroys the persona, and she disappears into a cloud of dust.
+If the persona's wate (kgs) is more than the kgs of matter disintegrated, she suffers partial disintegration.
+Partial disintegration inflicts 1-20 (1d20) hit points in damage per kg destroyed.
+For example, a 100 kg target loses 21 kgs of wate takes 24-192 (24d8) hit points of damage plus an additional 21d20 of damage.
+If a persona manages to survive a partial disintegration, she will likely be missing essential body parts. 
 
 The disintegration cascade failure only applies to organic targets. 
 Robots, equipment, walls and structures automatically cascade. 
 So a robot in the area of effect first takes 24-192 (24d8) hit points.
 Then loses 3-300 (3d100) kgs of wate. 
 
-.*Disintegration Damage*
-If the target has a wate less than the amount of matter disintegrated it disappears.
-If it is a persona she is irrevocably destroyed and suffering classic disintegration.
-Partial disintegration inflicts 1-20 (1d20) hit points in damage per kg destroyed.
-For example, a 100 kg target that has 20 kg disintegrated will take 24-192 (24d8) plus 20-400 (20d20).
-Very few personas survive a disintegration event. 
-
-A malfunction of this artillery destroys the weapon and damages the firer.
+A malfunction of this artillery disintegrates the cannon and damages the fire team.
 
 === Electron Cannon 
 
@@ -173,74 +169,71 @@ Range:: 1700h (17h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 15-150 (15d10)
 Magazine:: 2 per Battery
-Wate:: 315kg + Battery
+Wate:: 315kg (Battery)
 EXPS:: 750
 Value:: 2000000 + Battery
 
-An electron cannon blasts a beam of electrons massacre the target's molecules.
+An electron cannon blasts a beam of electrons massacring the target's molecules.
 The cannon inflicts damage to every target in the area of effect.
-An electron cannon's area of effect damage is unaffected by force fields.
-The blast was damages the force field as well as any persona within the force field.
-
+An electron cannon's attack passes through force fields unhindered.
+The blast damage harms both the force field and any target in the area of effect.
 A malfunction of this cannon wastes all remaining charges.
 
 === Fission Artillery 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_fission_rifle[Fission Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_fission_rifle[Fission Rifle,window=_blank]
 Weapon Type:: E
 Range:: 1100h (11h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 18-126 (18d12)
 Magazine:: 3 per Battery
-Wate:: 319kg + Battery
+Wate:: 319kg (Battery)
 EXPS:: 950
 Value:: 32000000 + Battery
 
 Fission artillery creates an energy wave that superheats hydrogen molecules.
-Obviously this weapon can only be used in hydrogen laden atmospheres (air and water are good examples).
-Charges are still drained if the weapon is fired in the absence of hydrogen.
-This device is thoroughly waterproofed.
+This weapon only works in hydrogen-laden atmospheres (air and water).
+Firing the rifle in the absence of hydrogen wastes a charge.
+This device is thoroughly waterproof.
 
-A malfunctions will indicate a backflash, resulting in damage to the firer.
-
+A malfunction will indicate a backflash, resulting in damage to the firer.
 
 === Howglitzer 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_full_auto_lazer_rifle[Full Auto Lazer Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_full_auto_lazer_rifle[Full Auto Lazer Rifle,window=_blank]
 Weapon Type:: C, F
 Range:: 1200h (12h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 15-150 (15d10)
 Magazine:: 15 per Battery
-Wate:: 308kg + Battery
+Wate:: 308kg (Battery)
 EXPS:: 700
 Value:: 12000000 + Battery
 
-The Howglitzer is fully automated lazer cannon.
-Like all artillery each hit represents an area of effect.
-When full auto is activated the amount of damage becomes astronomical. 
+The Howglitzer is a fully automated lazer cannon.
+Like all artillery, each hit represents an area of effect.
+When full auto is activated, the amount of damage becomes astronomical. 
 
 The Howglitzer can fire once a unit (type C) 15 times in a row.
-If there is available battery the Howglitzer can launch a volley of lazer attacks.
-The type F releases 15 charges in one unit.
-The player makes 5 attack rolls in one unit.
+If there is an adequate battery charge, the Howglitzer can launch a volley of lazer attacks.
+The F attack type releases 15 charges in one unit.
+The player makes five attack rolls in one unit.
 Each successful attack roll scores 1-3 (1d3) area of effect attacks.
 It is possible to deliver 225-2250 hit points of damage in the area of effect.
 Personas skilled in artillery may spread the area of effect hits to cover a larger area.
 
-For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks,window=_blank].
 
 A more technical title would be a Full Auto Lazer Cannon or Flotto Lazer Artillery.
 
-A malfunction of this artillery results in a wasted charge.
-So 1 charge for weapon type C attack or 15 charges for weapon type F. 
+A malfunction of this artillery results in wasted charges and overheating damage.
 
 === Howblitzer 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_full_auto_rifle[Full Auto Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_full_auto_rifle[Full Auto Rifle,window=_blank]
 Weapon Type:: C, F
 Range:: 900h (9h)
 Area of Effect:: 2-12h (2d6)
@@ -250,14 +243,14 @@ Wate:: 293kg (4.3kg)
 EXPS:: 700
 Value:: 1200000 (25)
 
-The Howblitzer is a rapid fire howitzer to blitz the enemy with long arcing carnage.
-Like all artillery each hit represents an area of effect.
-When full auto is activated the amount of damage becomes cataclysmic. 
+The Howblitzer is a rapid-fire howitzer to blitz the enemy with long-range carnage.
+Like all artillery, each hit represents an area of effect.
+When full auto is activated, the amount of damage becomes cataclysmic. 
 
 The Howblitzer can fire once a unit (type C) 15 times in a row.
-If there is available ammunition the Howblitzer can launch a volley of lazer attacks.
-The type F releases 15 shells in one unit.
-The player makes 5 attack rolls in one unit.
+If there is enough ammunition, the Howblitzer can launch a barrage of attack rolls.
+The F attack type releases 15 charges in one unit.
+The player makes five attack rolls in one unit.
 Each successful attack roll scores 1-3 (1d3) area of effect attacks.
 It is possible to deliver 180-2160 hit points of damage in the area of effect.
 Personas skilled in artillery may spread the area of effect hits to cover a larger area.
@@ -267,54 +260,50 @@ A malfunction represents a dud shell and a weapon jam.
 === Fusion Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_fusion_rifle[Fusion Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_fusion_rifle[Fusion Rifle,window=_blank]
 Weapon Type:: C
 Range:: 900h (9h)
 Area of Effect:: 9h swath
 Damage:: Special
 Magazine:: 1 per Battery
-Wate:: 600kg (1kg) + Battery
+Wate:: 600kg (1kg + Battery)
 EXPS:: 900
 Value:: 8000000 (200000) + Battery
 
 The fusion cannon launches a blob of fusion that creates a conflagration.
-Fusion artillery casts a 900 by 9 hex swath of incinerating death.
+Fusion artillery casts a 900 by nine hex swath of incinerating death.
 
 The first casualty of a fusion cannon is the battery crew.
-Firing releases a fusion backflash that can delivers tremendous damage.
+Firing releases a fusion backflash that can deliver tremendous damage.
 Those firing the fusion cannon take 18-180 (18d10) hit points in damage.
-The backflash has a 3 hex area of effect.
+The backflash has a three hex area of effect.
 Only personas sporting powered armour or special shielding are safe.
 
 Target Size::
-This weapon annihilates any persona large sized or smaller.
-Large and smaller personas are killed instantly in the area of effect.
-Tiny, Small, Medium and Large targets explode and turn into collateral damage.
+This weapon annihilates any persona large-sized or smaller.
+Tiny, Small, Medium and Large targets explode and create collateral damage.
 Gigantic targets do not explode. 
 Gigantic targets take Swath and Collateral Damage. 
 
 Swath Damage::
-Swath damage is an inescapable area of effect damage along the path of the fusion blob.
-Targets that do not explode first take swath damage.
+Swath damage delivers an inescapable area of effect damage along the path of the fusion blob.
+Targets that do not instantly explode take swath damage.
 The swath delivers 24-240 (24d10) hit points in damage.
 
 Collateral Damage::
 Everything exploded by the fusion cannon swath explodes outwards in collateral damage.
 The boiling flesh and bits of bone hurtle outward from the swath path.
-This steaming goo of collateral colleagues is 3 hexes on either side of the swath. 
+This steaming goo of collateral colleagues is three hexes on either side of the swath. 
 Collateral damage inflicts 21-210 (21d10) hit points of damage.
-This damage is dealt to any person within 3 hexes of the swath.
-It is also dealt to any persona that survives within the swath. 
 
-A gigantic persona in the swath would take a combined swath and collateral damage.
-This would be 45-450 (45d10) hit points of damage.
+A gigantic persona in the swath would take a combined swath and collateral damage, suffering 45-450 (45d10) hit points of damage.
 
 A malfunction with the expedition eradicator will inflict 24-240 hit points of damage to all within 15 hexes.
 
 === Mag Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_gauss_rifle[Gauss Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_gauss_rifle[Gauss Rifle,window=_blank]
 Weapon Type:: E
 Range:: 1900h (19h)
 Area of Effect:: 2-12h (2d6)
@@ -326,20 +315,20 @@ Value:: 1200000 (500)
 
 The mag cannon magnetically hurls specialized ammunition.
 Each round is a combination of battery and projectile.
-The battery expends it's energy to propel itself at lethal velocity.
+The battery expends its energy to propel itself at lethal velocity.
 There are no casings ejected.
 A mag cannon has little kickback.
-Low kickback helps with the cannon's accuracy and utility in zero gravity.
+The low kickback helps with the cannon's accuracy and utility in zero gravity.
 The weapon is quiet but not entirely silent.
 
 The mag cannon is also called a rail gun.
 
-A malfunction indicates an ammo defect and must be manually removed.
+A malfunction indicates an ammo defect and weapon jam.
 
 === Whale Gun 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_grapple_gun[Grapple Gun]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_grapple_gun[Grapple Gun,window=_blank]
 Weapon Type:: C
 Range:: 150h (2h)
 Area of Effect:: None
@@ -350,77 +339,88 @@ EXPS:: 700
 Value:: 400000 (25)
 
 The whale gun fires a giant adherent device attached to a high tensile cable.
-The weapon is designed to impale enormous targets like space vehicles.
-The business end is combination of spikes, barbs and adherent materials.
+The weapon firmly attaches the cable to enormous targets like space vehicles.
+The business end is a combination of spikes, barbs and adherent materials.
 A successful attack roll delivers the damage and connects the cannon to the target.
 
-The whale gun can reel in 10 tonnes of target at 5 hu.
-The whale gun must be mounted to a stable deck or it will fly off.
-If the target is too big the whale gun will reel itself to the target.
+The whale gun can reel in a 10 tonnes object at five hu.
+The whale gun must be mounted to a stable deck, or it will fly off.
+If the target is too big, the whale gun will reel itself to the target.
 
-The grapple end can be reeled back in over 3 units if the attack roll fails.
+The grapple end can be reeled back in over three units if the attack roll fails.
 
 A malfunction with this weapon indicates a mechanism jam.
 
 === Grav Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_gravruptor_gun[Gravruptor Gun]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_gravruptor_gun[Gravruptor Gun,window=_blank]
 Weapon Type:: C
 Range:: 300h (3h)
 Area of Effect:: 2-12h (2d6)
 Damage:: Special
 Magazine:: 1 per Battery
-Wate:: 293kg + Battery
+Wate:: 293kg (Battery)
 EXPS:: 700
 Value:: 400000 + Battery
 
-The grav cannon inflicts gravitational anomalies to disrupt and damage.
-The area of effect is subject to a blast of random gravity.
-The gravruptor is ineffective against target's with a wate greater than 5000kg.
+The grav cannon inflicts 3-12 (3d4) gravities of anomalous attraction.
+The effect will either smash targets into the ground, throw them high into the air, or fling them off into space.
+The grav cannon produces an instantaneous burst of random acceleration.
+Newtonian physics conveniently need not apply.
+The grav cannon is ineffective against targets with a wate greater than 5000kg.
 
-The grav cannon inflicts 3-12 (3d4) gravities to the area of effect.
-The cannon inflicts 1-20 (1d20) hit points per gravity of acceleration.
-The direction of the gravity attack is determined each time the cannon is fired.
-Experienced artillery experts are able to control the direction of the gravities.
+.*Up*
+25% of the time, the grav cannon reverses gravity by  3-12 (3d4) gravities.
+Reversing gravity accelerates everything in the opposite direction to the present gravity.
+The general effect is that things go flying into the air.
+All items fly one hex into the air per anomalous gravity.
+This acceleration inflicts 1 to 12 (1d12) hit points of damage per gravity of acceleration.
+Hitting the ground inflicts an additional 1-6 (1d6) hit points per gravity.
+Colliding with an immobile object along the path of the toss will also inflict 1-6 (1d6) hit points per gravity.
 
-include::ROOT:partial$CH46_Table_Gravruptor_Effects.adoc[]
+.*Down*
+The remaining 75% of the time, the grav cannon will add  3-12 (3d4) gravities to the local terrain.
+Increasing gravity causes personas to crash to the ground and vehicles to grind into the dirt.
+This pressing problem will also inflict damage to all targets in the area of effect.
+This damage is 1 to 12 (1d12) hit points in damage per extra gravity.
+E.g., three gravities would smash targets into the ground for 3-36 (3d12) hit points of damage.
 
-All of the above effects are described for a normal gravity world.
-What effects this gun has on high gravity and low gravity planets depends entirely on the ref.
+.*All Around*
+This weapon is a ZOG (zero gravity) combat weapon.
+The grav cannon flings enemy combatants off into space.
+All targets accelerate away from the epicentre at  3-12 (3d4) gravities.
+This acceleration inflicts 1 to 12 (1d12) hit points of damage per gravity of acceleration.
+The targets are also flying away at one h/u for every 2 points of damage.
+Consider a grav cannon that generated five gravities to the area of effect.
+The referee generates 24 HPS of damage using 5d12.
+Each target subtracts 24 HPS from their HPS Total and is flying away at
+12 h/u.
 
-The grav cannon is designed for zero gravity combat.
-The weapon has no recoil and is designed to launch targets into space.
-In zero gravity (ZOG) targets will are flung away at 1 h/u per 2 hit points of damage.
-Thus a hit that inflicts 20 hit points of damage would send the target racing off into space at an uncontrolled movement rate of 10 h/u.
+The grav cannon is also known as an accelerator or a gravity cannon.
 
-The grav cannon is also known as an accelerator, or a gravity cannon.
-
-A malfunction with this weapon will result in a gravitational anomaly attacking the weapon and weapon holder.
+A malfunction with this weapon will result in a gravitational anomaly attacking the weapon and artillery team.
 
 
 === Garbage Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_job_rifle[Job Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_job_rifle[Job Rifle,window=_blank]
 Weapon Type:: C
 Range:: 1000h (10h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 9-90 (9d10)
 Magazine:: 1 per Battery
-Wate:: 300kg + Battery
+Wate:: 300kg (Battery)
 EXPS:: 500
 Value:: 17500 + Battery
 
 The garbage cannon employs a combination gauss, spring and vacuum chamber mechanism.
-This allows the cannon to turn any solid material into a lethal projectile.
+This complicated mechanism allows the cannon to turn any solid material into a lethal projectile.
 
-To load the weapon dump about at least 10kg of loose of material into the chamber.
+To load the weapon, place 10kg of loose material into the chamber.
 Sand, rocks, plastic, batteries, or bullets will hurtle out with lethal velocity.
-Each 10 kilogram load of detritus is fired all at once.
-
-The garbage cannon can be used to launch grenades.
-These grenades must have a bespoke detonator or they will detonate in the cannon.
+Each 10 kgs load of detritus is fired all at once.
 
 A garbage cannon has no specific ammunition. 
 This weapon is also called a job cannon, junk gun or garbage can.
@@ -431,20 +431,20 @@ A malfunction with this weapon indicates a weapon jam.
 === Lazer Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_lazer_rifle[Lazer Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_lazer_rifle[Lazer Rifle,window=_blank]
 Weapon Type:: C
 Range:: 1500h (15h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 15-150 (15d10)
 Magazine:: 1 per Battery
-Wate:: 278kg + Battery
+Wate:: 278kg (Battery)
 EXPS:: 500
 Value:: 600000 + Battery
 
 The lazer cannon is a giant coherent light energy weapon.
 The lazer cannon is the staple of epic sciency fiction across the galaxy.
 The gun makes the classic pinging, zapping or crackling noise.
-Ionized gasses ejected from the emission chamber create a big kickback.
+Ionized gasses ejected from the emission chamber create a hefty kickback.
 
 The previous version's description of this weapon "Zap Zap. Boom Boom."
 
@@ -454,7 +454,7 @@ A malfunction indicates the loss of a charge.
 === Miscellaneator 
 
 [horizontal]
-Base Weapon:: Some xref:iii-hardware:CH49_Misc_Weapons.adoc[Miscellaneous WeaponS]
+Base Weapon:: Some xref:iii-hardware:CH49_Misc_Weapons.adoc[Miscellaneous Weapons,window=_blank]
 Weapon Type:: Special
 Range:: 10 times (1/10 minimum)
 Area of Effect:: 3 times or 2-12h 
@@ -464,38 +464,38 @@ Wate:: 75 times heaviest Ammo % or 50 times
 EXPS:: Same
 Value:: 100 times
 
-The miscellaneator is a super sized version of a miscellaneous weapon.
-This artillery generates a cartoony mad scientist version of an already odd weapon.
+The miscellaneator is a super-sized version of a miscellaneous weapon.
+This artillery is a cartoony mad scientist version of an already odd weapon.
 The players will have to be deft in finding balance and sanity with this weapon.
-The miscellaneator gets very zany very fast.
+The miscellaneator gets very zany, very fast.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
 Miscellaneator could be a black hole, a gigantic spinning wheel of death, or a flare cannon.
-Depending on the milieu of the campaign certain giantized weapons may not work.
+Depending on the milieu of the campaign, certain giantized weapons may not work.
 For example, a giant compucrafted sword only makes sense in some realities. 
-If this type of weapon would imbalance a campaign or mess up a milieu simply ignore it.
+If this type of weapon would imbalance a campaign or mess up a milieu, simply ignore it.
 Story trumps die rolling chaos.
 
 === Immolator 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_napalm_gun[Napalm Gun]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_napalm_gun[Napalm Gun,window=_blank]
 Weapon Type:: C
 Range:: 150h
-Area of Effect:: 2h swath
+Area of Effect:: 3h swath
 Damage:: 30-300 (10d30)
 Magazine:: 1 
 Wate:: 338kg (15kg)
 EXPS:: 900
 Value:: 1200000 (20000)
 
-This flame thrower, aka the Immolater, bathes everything in a 3 by 150 hex swath with sticky burning goo.
+This flame thrower, aka the Immolator, bathes everything in a three by 150 hex swath with sticky burning goo.
 
 The immolator sprays a jet of flaming adhesive death.
-The jet from the flame thrower covers a 150 by 2 hex swath area of effect.
-The area of effect is a straight line, and cannot be swept over an arc.
+The jet from the flame thrower covers a 150 by three hex swath area of effect.
+The area of effect is a straight line, and the gunnery team cannot sweep the attack over an arc.
 Everything caught inside the one hex wide path will take 30-300 (10d30) hit points of damage.
 
 All objects capable of burning have a chance of bursting into flames.
@@ -506,12 +506,12 @@ Each unit of burning will inflict an additional 2 to 20 (2d10) hit points of dam
 
 This weapon is also labelled the napalm cannon, forest firer and flame thrower.
 
-Usually, a malfunction indicates a mechanism jam, but occasionally it may cause the immolater to explode.
+Usually, a malfunction indicates a mechanism jam, but occasionally it may cause the immolator to explode.
 
 === Plasma Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_plasma_rifle[Plasma Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_plasma_rifle[Plasma Rifle,window=_blank]
 Weapon Type:: E
 Range:: 1600h (16h)
 Area of Effect:: 2-12h (2d6)
@@ -522,17 +522,17 @@ EXPS:: 700
 Value:: 36000000 + Battery
 
 The plasma cannon deploys an organized plasma bolt to inflict damage.
-The damage is inflicted by heat and shock wave. 
-The bolt is discrete in nature and not a beam of energy.
-Each plasma cannon may have an unique bolt colour. 
-Jump to xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour].
+The weapon delivers the damage by heat and shock waves. 
+The bolt is discrete and not a beam of energy.
+Each plasma cannon has a unique bolt colour. 
+Jump to xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
 
-A malfunction indicates a misfire and this artillery does not jam.
+A malfunction indicates a misfire and not a weapon jam.
 
 === Plastifier 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_plastix_rifle[Plastix Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_plastix_rifle[Plastix Rifle,window=_blank]
 Weapon Type:: D
 Range:: 1200h (12h)
 Area of Effect:: 2-12h (2d6)
@@ -543,33 +543,30 @@ EXPS:: 600
 Value:: 850000 (10000)
 
 A plastifier vomits globs of molten plastix.
-The area of effect is doused in molten plastic goo.
-The ammunition for this weapon is a solid cylindrical cartridge that contains both the plastix compound, and the energy to charge the gun.
+The weapon douses the area of effect in molten plastic goo.
+The ammunition for this weapon is a solid cylindrical cartridge that contains both the plastix compound and the energy to charge the gun.
 
 A malfunction with a plastix rifle indicates a mechanism jam from molten plastic.
 
 === Muckmaker
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_protein_disrupter[Protein Disruptor]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_protein_disrupter[Protein Disruptor,window=_blank]
 Weapon Type:: C
 Range:: 1250h (12h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 15-180 (15d12)
 Magazine:: 1 per Battery
-Wate:: 315kg + Battery
+Wate:: 315kg (Battery)
 EXPS:: 700
 Value:: 1100000 + Battery
 
-The muckmaker tears apart essential protein structures in organic tissue.
-The beam from the gun unravels collagen, melts bone, and liquifies flesh.
-This weapon is designed as an anti-organic weapon.
+The muckmaker tears apart protein structures in organic tissue.
+The area of effect blast unravels collagen, melts bone, and liquefies flesh.
+This weapon is an anti-organic weapon.
 Inorganic personas are unaffected as the disrupting ray passes through them unimpeded.
 The beam passes unimpeded through robots, walls, Argillan rock women, and armour.
 Machines and personas with organic components may be affected by this attack.
-Target's bearing inorganic armour are considered unarmoured (AR 500) to this beam.
-A attack roll is still required to damage a target. 
-
 Wounds from this weapon are a gory mush.
 Typical veterinarian quick fixes are ineffective.
 A vet must have access to veterinarian equipment to repair these wounds. 
@@ -579,55 +576,48 @@ A malfunction of this weapon attacks the battery crew.
 === Radiator 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_radiation_gun[Radiation Gun]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_radiation_gun[Radiation Gun,window=_blank]
 Weapon Type:: C
 Range:: 1500h (15h)
 Area of Effect:: 2-12h (2d6)
 Damage:: Special
 Magazine:: 1 per Battery
-Wate:: 293kg + Battery
+Wate:: 293kg (Battery)
 EXPS:: 900
 Value:: 8500000 + Battery
 
 The radiation cannon inflicts 9-72 intensity radiation on everything within the area of effect.
-This is a universally lethal dose of radiation.
+This intensity is a universally lethal dose of radiation.
+Most referees will limit the radiation intensity level to 25.
 There is no duration of effect, just one dissipating blast.
-See http://expgame.com/?page_id=275saving-throw[Saving Throws].
-For more detailed information see the base rifle type in chapter 46.
-
-The radiator lobs blasts of lethal radiation.
-The intensity of the radiation is 9-72 (9d8).
-This is universally lethal to most any persona
-The intensity of the radiation is random and is determined each attack.
-Radiation damage is 1-4 (1d4) hit points of damage per intensity of radiation.
-An intensity 12 radiation attack would inflict 12-48 (12d4) hit points of damage.
 The radiation beam affects inorganic and organic personas equally.
-For more info about radiation attacks jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Saves.adoc#_radiation_attacks[Radiation Attacks].
+For more info about radiation attacks jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Saves.adoc#_radiation_attacks[Radiation Attacks,window=_blank].
 
-This is also known as an x-ray cannon, cobalt gun,  a rad cannon.
-A malfunction with this gun will bathe a 3 hex radius with intensity 3-24 (3d8) radiation.
+Radiation damage is 1-4 (1d4) hit points of damage per intensity level of radiation.
+An intensity 12 radiation attack would inflict 12-48 (12d4) hit points of damage.
+
+The radiator is also known as an x-ray cannon, cobalt gun,  a rad cannon.
+A malfunction with this gun will bathe a three hex radius with intensity 3-24 (3d8) radiation.
 
 === Slotto Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_semi_auto_lazer_rifle[Semi Auto Lazer Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_semi_auto_lazer_rifle[Semi Auto Lazer Rifle,window=_blank]
 Weapon Type:: C, D, E
 Range:: 1250h (13h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 15-150 (15d10)
 Magazine:: 6 per Battery
-Wate:: 299kg + Battery
+Wate:: 299kg (Battery)
 EXPS:: 600
 Value:: 320000 + Battery
 
-Everyone needs a rapid fire coherent light energy weapon.
+Everyone needs a rapid-fire coherent light energy weapon.
 The slotto cannon allows for up to 3 attacks per unit.
-The lazer rifle is the staple of sciency fiction everywhere.
-The gun makes the classic pinging, zapping or crackling noise.
-Ionized gasses ejected from the emission chamber create a mild kickback.
+Ionized gasses ejected from the emission chamber create a hefty kickback.
 The lazer beam itself is continuous and invisible. 
 
-In previous versions all that was written here was "once, twice, three times a lazer."
+In previous EXP versions, all this entry contained was "once, twice, three times a lazer."
 
 This weapon is also called a lazer cannon, sotto lazer cannon.
 
@@ -636,7 +626,7 @@ A malfunction indicates the loss of a charge.
 === Sotto Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_semi_auto_rifle[Semi Auto Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_semi_auto_rifle[Semi Auto Rifle,window=_blank]
 Weapon Type:: C, D, E
 Range:: 1100h (11h)
 Area of Effect:: 2-12h (2d6)
@@ -648,7 +638,7 @@ Value:: 280000 (2500)
 
 This cannon employs an explosion to launch another explosion. 
 The sotto cannon can fire up to 3 rounds per unit.
-The next round may be chambered by explosive force or a spring mechanism.
+This artillery chambers the next round by explosive force or a spring mechanism.
 
 This weapon is also called a cannon.
 When a sotto rifle malfunctions, it has a mechanism jam.
@@ -656,68 +646,67 @@ When a sotto rifle malfunctions, it has a mechanism jam.
 === Rock On Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_sonic_rifle[Sonic Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_sonic_rifle[Sonic Rifle,window=_blank]
 Weapon Type:: C
 Range:: 800h (8h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 15-120 (15d8)
 Magazine:: 3 per Battery
-Wate:: 293kg + Battery
+Wate:: 293kg (Battery)
 EXPS:: 700
 Value:: 800000 + Battery
 
-A rock on cannon uses sound waves to damage it's target. 
+A rock on cannon uses sound waves to inflict damage. 
 Damaging attacks vibrate the target with sound to inflict damage.
-Unlike it's smaller cousin the sonic rifle the rock on cannon has no variability.
-The cannon is a destructive attack and has no other effects.
+Unlike its smaller cousin, the sonic rifle, the rock on cannon has no variability.
 
 The rock on cannon is also called a screamer, sonic cannon, or sonic disruptor.
 
-A malfunction will result in a feedback attack on the user inflicting 2-20 (2d10) hit points of damage.
+A malfunction will result in a feedback attack on the user inflicting 2-20 (2d10) hit points.
 
 === Whale Stunner 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_stun_rifle[Stun Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_stun_rifle[Stun Rifle,window=_blank]
 Weapon Type:: C
 Range:: 1300h (13h)
 Area of Effect:: 2-12h (2d6)
 Damage:: Special
 Magazine:: 2 per Battery
-Wate:: 293kg + Battery
+Wate:: 293kg (Battery)
 EXPS:: 700
 Value:: 600000 + Battery
 
 The whale stunner overloads the central nervous system of organics.
 A stunned target collapses to the ground in a semi-conscious state.
-The whale stunner was supposedly developed to stun really large aliens.
-The weapon is also useful in mass protest situations.
+The weapon is for ending mass protests or stunning giant aliens.
 
 Every organic persona in the area of effect must win a poison roll or collapse.
 The intensity of the poison 12-72 (12d6).
+The referee may limit the stunning intensity to 25.
 Affected targets remain incapacitated for 1-3 (1d3) minutes.
 This cannon is stunning indeed.
 
-The stun artillery is less lethal, but remains very dangerous.
+The stun artillery is less lethal but remains very dangerous.
 The whale cannon dangerously overloads the nervous system of organic personas.
-The electro stun attack damages inorganic personas (robots) as well.
-All personas take 1 hit point of damage per intensity of poison.
-Clearly the whale stunner will kill many of the targets in the area of effect.
+The electro-stun attack damages inorganic personas (robots) as well.
+Inorganic personas take one hit point of damage per the intensity of poison.
+The whale stunner will kill many of the targets in the area of effect.
 
-Other names for a stun cannon, or passive fister.
+Other names for the whale stunner are stun cannon or passive fister.
 
 A malfunction with this weapon results in the loss of a charge.
 
 === Mod Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_variable_lazer_rifle[Variable Lazer Rifle]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_variable_lazer_rifle[Variable Lazer Rifle,window=_blank]
 Weapon Type:: C
 Range:: 1000h (1h)
 Area of Effect:: 2-12h (2d6)
 Damage:: Special
 Magazine:: 12 per Battery
-Wate:: 315 + Battery
+Wate:: 315 (Battery)
 EXPS:: 780
 Value:: 3600000 + Battery
 
@@ -727,29 +716,27 @@ The firer can choose from a variety of settings.
 include::ROOT:partial$CH43_Table_Mod_Cannon.adoc[]
 
 .*Killing*
-The lethal attack make the classic pinging, zapping or crackling noises.
-Ionized gasses ejected from the emission chamber create a solid kickback.
+The lethal attack makes the classic pinging, zapping or crackling noises.
+Ionized gasses ejected from the emission chamber create a substantial kickback.
 The lazer beam itself is continuous and invisible. 
 All targets in the area of effect take 12-144 (12d12) hit points of damage. 
 
 .*Stunning*
-This is more lethal version of artillery stunning found in the <<_whale_stunner,Whale Stunner>>.
 Every organic target in the area of effect must win a poison roll or be stunned.
 The poison intensity is 3-30 (3d10).
-Both organic and inorganic targets take 1 hit point per poison intensity.
+Both organic and inorganic targets take one hit point per poison intensity.
 Organic targets are stunned for 1-10 (1d10) units.
 
 .*Blinding*
 The area of effect is subject to a blinding flash.
 Every target in the area of effect must win a poison roll or be blinded.
 The poison intensity is 3-30 (3d10).
-Both organic and inorganic targets are effected equally.
+Both organic and inorganic targets are affected equally.
 The blindness lasts for 1-10 (1d10) minutes.
 
 .*Lighting*
-Search light mode illuminates a 12 hex radius up to 2 kilometers away.
-There is no beam cast by this lazer light. 
-Targets are lit up without giving up the light source.
+Searchlight mode illuminates a 12 hex radius up to 2 kilometres away.
+This lazer light casts no beam and lights up the target hex without giving up the light source.
 
 This weapon is also called a variable cannon, or mba cannon.
 
@@ -758,30 +745,27 @@ A malfunction will result in a complete battery drain.
 === Water Cannon 
 
 [horizontal]
-Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_water_gun[Water Gun]
+Base Weapon:: xref:iii-hardware:CH46_Guns.adoc#_water_gun[Water Gun,window=_blank]
 Weapon Type:: C
 Range:: 500h (5h)
 Area of Effect:: 2-12h (2d6)
 Damage:: 9-53 (9d6)
 Magazine:: 1 per Battery
-Wate:: 56kg + Battery
+Wate:: 56kg (Battery)
 EXPS:: 500
 Value:: 75000 + Battery
 
 A water cannon condenses and lethally propels buckets of water.
-This gun has no water storage, and draws humidity from the air.
-This weapon does not work in a vacuum, and environs where humidity is absent.
+This gun has no water storage and draws humidity from the air.
+This weapon does not work in a vacuum or environs where humidity is absent.
 
-This cannon is totally waterproof. 
-If used underwater it's range is reduced to 250 hexes.
+This cannon is waterproof. 
+If used underwater, its range decreases to 250 hexes.
 This weapon is also called a bucket bomber, or firefighter.
 
 A malfunction indicates a malformed water bucket and the loss of a charge.
 
-
-== Artillery Attribute Explanations
-
-=== Artillery Creator Template
+== Artillery Creator Template
 
 [horizontal]
 Weapon Type:: Same as gun
@@ -793,77 +777,52 @@ Wate:: 75 times heaviest Ammo % or 50 times
 EXPS:: Same
 Value:: 100 times
 
+== Artillery Parameters
 
 === Range 
-
-Artillery has both a maximum range, and a minimum range.
-The minimum range of an artillery piece is 1/10 of the maximum range listed for the base gun type.
-An artillery piece's maximum range is 10 times the maximum range of the base gun type.
-If the rifle had a range of 80 hexes, it would have a minimum range of 8 hexes and maximum range of 800 hexes.
-Minimum range is unique to artillery, and it means that it simply cannot attack anything closer than that.
-Most artillery would destroy itself, and its crew, if it were used even at the minimum range.
-Targets at less than minimum range and beyond the maximum range cannot be hit accurately, although the large area of effect may accommodate for the restriction.
-The minimum range is included in brackets beside the maximum range.
+Artillery has both a maximum range and a minimum range.
+The first number is the maximum range, and the number in brackets is the minimum range.
+For example, an artillery piece with a range of 800h (8h) could only target hexes between 9 and 800 hexes.
+Minimum range is unique to artillery, and it simply cannot attack anything within that range.
 
 === Area of Effect 
+Artillery launches area of effect attacks over great distances. 
+Every target caught within the area of effect is damaged the same as a grenade or bomb attack.
 
-The area of effect will be 3 times the listed area of effect, or a randomly assigned area of effect of 2 to 12 hexes.
-The value represents a radius of effect taken from the hex that the shell lands in.
-Those artillery listed with a &8216;random'
-area of effect will make a 2d6 dice roll to determine it.
+The area of effect is a radius in hexes. 
+Some artillery areas of effect have a range instead of a specific number.
+The dice needed to generate the range follow in brackets.
 
 === Damage 
-
-The damage inflicted by the artillery will be three times that of the rifle that the cannon is modelled after.
-If only one damage range is shown on the base gun type, the artillery attack will inflict triple that damage.
-For instance a fission rifle inflicts 6 to 72 (6d12) hit points in damage.
-Artillery modelled after this gun would inflict 18 to 216 (18d12) hit points in damage to all targets within the area of effect.
-If the base gun has several damage types the artillery piece will inflict three times the highest damage type listed.
-The full automatic rifle's damage is listed as 4-48, 4-32, 3-30, 3-24, 2-20.
-These damages are for different calibre guns.
-Artillery has its own calibre, and it is big.
-The artillery will inflict three times the largest caliber, or 12 to 144 (12d12) hit points in damage to all targets in the area of effect.
-
-=== Accuracy 
-
-The accuracy statistic of the rifle does not apply to artillery.
-To be able to operate artillery the persona must make a successful Performance Table* *roll to understand the device, aim it, and then make a attack roll.
-Misses with artillery are left to be decided by the referee.
-If a quick and dirty system is needed then consult the Grenade Miss table in http://expgame.com/?page_id=304[Chapter 30: Grenade and]http://expgame.com/?page_id=304[Aerosol Combat].
-The listed table values are multiplied tenfold, of course.
-Personas without artillery skill cannot attack, other than randomly, with an artillery piece.
+Damage lists the number of hit points the area of effect attack inflicts on its unlucky targets.
+The damage parameter has a range, and the dice needed to generate that range following in brackets.
 
 === Magazine 
-
 Artillery has a magazine.
 The magazine size is equivalent to the highest rate of fire capable by the base gun type.
-An artillery piece modelled after a type C base gun type would have a 1 round magazine, so it would have to be reloaded after each shot.
-A fully automatic base weapon would yield an artillery magazine with a capacity of 15 rounds, if it were fired full-auto, it would need to be reloaded each round.
-Reloading of artillery depends entirely on the skill of the firers, but it can never get faster than 1 to 4 units per reload.
-Energy artillery that requires batteries will employ some power plant source, or use 20 times the number of batteries required by the base weapon type.
+An artillery piece modelled after a type C weapon has a 1 round magazine.
+An artillery piece modelled after a type F weapon has a 15 round magazine. 
+The magazine parameter "battery" indicates that the artillery crew must replace all the batteries before firing.
+
+==== Reloading
+Reloading of artillery takes 15 units (half a minute).
+Reloading time takes the same if ramming in a shell, loading fuel or replacing batteries.
 
 === Wate 
+The wate of the artillery has two parts.
+The first part is the wate of the cannon. 
+The number in brackets is the wate of the ammunition.
+The ammo wate could be the wate of a shell, fuel, or battery.
 
-The artillery piece will have a WATE 75 times greater than the base gun type's WATE.
-If the base gun type has several wates listed, the largest one will be multiplied by 75.
-Base gun types that have a % ammo system use the % ammo value for the WATE of their artillery shells.
-Artillery shells modelled after gun ammos which have a standard ammo WATE will be 50 times heavier than the base gun ammo.
-The wate of the ammo is shown in brackets.
-
-=== Malfunction 
-
-Artillery is 1.5 times more likely to malfunction than the base gun type it is modelled after.
-Artillery being used by unskilled firers is 4 times more likely to malfunction than the malfunction chance listed for the artillery.
+If the ammunition states "Battery," then the artillery uses battery energy.
+Battery-powered artillery uses a lot of batteries.
+Battery-powered artillery batteries use 20 times the number of batteries generated in support equipment.
 
 === EXPS 
-
-Artillery weapons are worth the same amount of experience as the base gun type.
+The persona wins this experience point award for identifying the big gun. 
+The player may identify the gun by deduction or by firing. 
 
 
 === Value 
-
-The value of the artillery is equal to 100 times the value of the gun it was modelled after.
-The value of the artillery ammo, shells, pellets, or whatever is 25 times the value the base gun type's.
-The Ammo Value is included in brackets.
-
-// firing mechanism complexity skill level etc.
+The value indicates the MSRP (Money Suggested in RolePlaying) of the gun in eps.
+The value in brackets is the value of the ammunition in eps.

@@ -1,17 +1,14 @@
 = Veterinary Equipment
 
-Veterinary equipment is designed to repair organic machines.
-Each piece of vet equipment performs its own private miracle, but nothing does everything, and some things do nothing.
+Veterinary equipment is for repairing organic machines.
+Each piece of vet equipment performs its private miracle, but nothing does everything, and some things do nothing.
 Even though the equipment is highly advanced, the equipment still requires some input from so-called professionals.
 Veterinarians are the primary users of vet artifacts.
 Most artifacts merely require a single vet to point the device correctly.
-While other artifacts require an entire xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams].
-
-Hopefully, vet equipment will not only be used to repair the wounded from battle, but to heal the sick, aid the needy, and other humanitarian efforts (ha!).
-The attributes of vet equipment are detailed in the following paragraphs.
+While other artifacts require an entire xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams,window=_blank].
 
 :art: medical_equipment_combat.png
-:width: 250px
+:width: 450px
 :snark: Zero responders
 :artist: Patrick Redding
 :date: 1991
@@ -20,10 +17,9 @@ The attributes of vet equipment are detailed in the following paragraphs.
 
 include::ROOT:partial$articulate.adoc[]
 
-
 .*Vet Equipment Checklist*
 . <<_veterinary_equipment_type,Veterinary Equipment Type>>
-. <<_vet_equipment_attribute_explanations,Vet Equipment Attribute Explanations>>
+. <<_vet_equipment_parameters,Vet Equipment Parameters>>
 
 == Veterinary Equipment Type 
 
@@ -40,12 +36,10 @@ Wate:: 1kg
 EXPS:: 200
 Value:: 5000
 
-The age determiner estimates the age of organic personas.
-The biological age of whatever the little black box is pointed at shows on a screen.
-The device would require adjustment to be used on microscopic organisms.
-The age determiner has off label uses that come in handy. 
-The device can help detect a disguise, notice a time space aberration, or detect an ambush.
-
+The age determiner estimates the age and life stage of organic personas.
+The little black box automatically displays the info when pointing at the target.
+The age determiner has off-label uses that come in handy. 
+The device can help detect a disguise, notice a time-space aberration, or detect an ambush.
 
 === Anesthetics Mask 
 
@@ -56,18 +50,11 @@ Wate:: 1.2kg
 EXPS:: 10
 Value:: 6000
 
+The mask renders any organic patient safely unconscious.
+The mask breathes for the patient and puts them into a state ready for surgical interventions.
 An anesthetics mask looks like a gas mask with dials and indicators.
-The mask will render any organic anthro unconscious for the time set on the mask.
-This is a pain free state similar to being maintained under general anesthetic.
-However no pharmacological agents are employed.
-Once applied the mask immediately takes over.
 It is virtually impossible to subject an unwilling patient to the anesthetics mask.
-
-The mask should not be prematurely removed from the subject.
-If the anthro is not returned to consciousness by the mask badness can happen.
-There is a 2% chance that unconsciousness will persist for 1-100 days.
-The mask can only anesthetize one anthro at a time.
-
+The mask does not protect the wearer from submersion or in the vacuum of space.
 
 === Anti Aging Beam 
 
@@ -79,28 +66,19 @@ EXPS:: 200
 Value:: 50000
 
 This machine bastes the organic persona with information encoded energy.
-This data can technomagically reprogram cells that are aging adversely.
-Treatments take place over 1-4 (1d4) days and last an hour each.
+This data can technomagically reprogram cells reversing ageing.
+A complete treatment takes place over 1-4 (1d4) days and lasts an hour each day.
 Any treatment interruptions require the treatment to start over.
 Getting injured in combat would be considered a treatment interruption.
 
 The beam is not a fountain of youth.
-This artifact repairs unnatural aging that the persona has been subject to.
-For instance, aging due to chrono attack weapons, or special drive accidents.
+The anti-ageing beam only removes chronologic years from the persona's lifespan. 
+The beam does not repair any decayed attributes.
+The beam does not change the appearance of the patient.
+So a patient would not change their attributes nor move from one life stage to another.
 
-The anti aging beam heals 3-30 (3d10) years per chronologic damage.
-The de-aging process does not heal lost attributes.
-To repair damaged attributes requires a <<_rejuv_chamber,Rejuv Chamber>>.
-A persona aged to 52 years suffers PSTR and DEX penalties.
-The anti aging beam could repair the chronologic years but not the attribute drops.
-
-The persona remains phenotypically the same.
-The anti-aging beam cannot turn an adult into a child.
-If the persona is accidentally aged to less than 1 year she is dead.
-Over use of the anti-aging beam can easily kill the patient.
-
-A vet can adjust the amount of de-aging carried out. 
-The more control she needs the higher the degree of difficulty.
+The anti-ageing beam heals 3-30 (3d10) years of chronologic damage.
+Accidentally reducing a persona's chronological age to less than one year old is lethal.
 
 === Anti Mutation Beam 
 
@@ -113,31 +91,22 @@ Value:: 200000
 
 This machine bastes the organic persona with information encoded energy.
 This data can technomagically reprogram cells that have mutated.
-The beam can be used to restructure personas into their original organic forms.
+The beam rapidly restructures the patient into its original organic form.
+The beam removes all mutations, not just defective mutations.
+The anti-mutation beam does not affect the mutation-like abilities of robots or aliens.
+If the robot or alien caught the mutation after fabrication or evolution, this beam would work.
+If there is a dispute whether a mutation is a freak of nature or an evolutionary trait, consult the xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice,window=_blank].
 
-The artifact is good for removing defective mutations.
-However it cannot tell the difference between defective and advantaged mutations.
-The beam also only works on mutations.
-It would have no effect on an alien's mutation like natural ability.
-The beam would have no effect on a robotic peripheral that mimics a mutation.
-If the robot or alien developed a mutation after fabrication or evolution this beam would work.
+The anti-mutation beam is a large device, and it surrounds the patient.
+The beam's effect is instantaneous and irreversible.
+While under the beam, physical mutations shrivel up and fall off the mutant.
+Mental mutations stop working.
 
-While under the beam physical mutations shrivel up and fall off the mutant.
-Mental mutations simply stop working.
-If a player feels that her mutation is an ability or evolutionary trait the xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice] can be consulted.
-
-The persona must fail a poison roll for the mutation to be affected by the beam.
-The intensity of the beam is 2-12 (2d6) plus the vet's experience level and skills.
-The player can swap the direction of the poison roll if they do not want to lose the mutation. 
-Anti mutant groups can use the beam to punish mutated anthros.
-The player uses CON for physical mutation and MSTR for mental mutations.
-
-The beam has a 40 cm range, and its effect is instantaneous and irreversible.
-
-If a veterinarian wishes to focus the beam she must win a performance roll.
-Physical mutations add 3DD per physical mutation.
-Mental mutations add 10DD per mental mutation.
-If a vet wanted to eliminate a mutant's pus producing organ, while retaining her symbiotic attachment and pyrokinesis the vet would have to make a 16DD maneuver.
+Veterinarians can manipulate the beam for more exact effects.
+For example, removing one mutation while preserving another is a veterinarian manoeuver.
+Working around a physical mutation is a 3DD maneuver, and a
+mental mutation is a 10DD maneuver.
+If a vet wanted to eliminate a mutant's pus-producing organ while retaining her symbiotic attachment, the player must win a 13DD performance roll.
 
 === Anti Virus Beam 
 
@@ -149,13 +118,12 @@ EXPS:: 1000
 Value:: 100000
 
 The anti-virus beam will damage foreign micro-organisms infiltrating an organic substance.
-This includes viral, bacterial, fungal, or prion infection.
-The beam will not kill symbiotic organisms that are good for the persona.
+The beam eliminates viral, bacterial, fungal, or prion infections.
+More exotic infections like nanomachines or exoplanetary organisms will require a veterinarian's intervention.
+The beam will not kill symbiotic organisms that are healthy for the persona.
 This super-sterilizer has a range of 75 cm.
 
-This usually does *not* include nano machines or exoplanetary micro-organisms.
-Whether this works on a robot with an organic infection requires xref:ii-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice].
-
+Whether the beam works on a robot with computer virus requires xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice,window=_blank].
 
 === Auto Tourniquet 
 
@@ -166,17 +134,20 @@ Wate:: 1.5kg
 EXPS:: 250
 Value:: 750
 
-An automatic tourniquet can be wrapped over or near any major source of blood loss.
+The automatic tourniquet will locate any severe bleeding and control the hemorrhage.
+The persona activates the device and places it on the organic persona.
+The automated tourniquet rolls across the body and gets to work on any bleeding it locates.
 The tourniquet is more than just an automated constricting bandage.
-This artifact employs electrical impulses to constrict the appropriate vessels. 
+This artifact employs electrical impulses to constrict the appropriate vessels and prevent injury from constriction.
 The tourniquet can assist on a severely damaged limb, internal bleed, or head wound.
-If the tourniquet has safety mechanisms to prevent malicious placement.
-The auto tourniquet does not heal damage, but does prevent further damage.
+
+The tourniquet has safety mechanisms to prevent malicious placement.
+The auto tourniquet does not heal damage but does prevent further damage.
 The electric tourniquet will always function (no batteries necessary) if attached to a warm organic creature.
-Veterinarians earn +20 on any PT rolls that involve blood loss (surgery to severe trauma).
+Veterinarians earn +20 on any performance rolls that involve blood loss (surgery to severe trauma).
 
 :art: medical_bot_suturing.png
-:width: 250px
+:width: 450px
 :snark: Automated suturing device
 :artist: Patrick Redding
 :date: 1991
@@ -194,10 +165,10 @@ Wate:: 5kg
 EXPS:: 500
 Value:: 1500
 
-This medical device is more than just a collection of bandages and plasters.
-A bandage box will crawls all over the patient's body sewing, gluing, and bandaging wounds it finds.
-This artifact will clean and change old dressing.
-The treatment takes about 1-6 minutes for a medium sized patient.
+The bandage box is not just a collection of bandages and plasters.
+A bandage box will crawl all over the patient's body, sewing, gluing, and bandaging wounds it finds.
+This artifact will clean and change old dressings.
+The treatment takes about 1-6 minutes for a medium-sized patient.
 
 === Biorganic Attachment 
 
@@ -208,54 +179,52 @@ Wate:: 10kg
 EXPS:: 500
 Value:: Special
 
-A biorganic attachment is a ready to add limb.
-The limb comes in a bag with all the power, technology and invasive tools ready to go.
+A biorganic attachment is a self-attaching limb in a bag.
+The limb comes in a vacuum-sealed bag along with the necessary power, technology and invasive tools.
 A biorganic practically attaches itself in a gory, noisy automated surgical procedure.
 The limb may be from a donor bank, a bio vat, or an unlucky clone.
 
 Once attached be biorganic attachment becomes seamless with the persona.
-If the persona is strong the attachment will grow in strength.
+If the persona is strong, the attachment will grow in strength.
 If the persona is weak the attachment will atrophy.
-Biorganic attachments are relatively easy for a veterinarian, or a biologist to attach.
-Requiring only a 4DD maneuver for success.
+Biorganic attachments are relatively easy for a veterinarian or a biologist to attach.
 Not all attachments are created equal.
 
 include::ROOT:partial$CH47_Table_Biorganic_Attachment_Type.adoc[]
 
 Basic Unit::
-Requires a veterinarian for attachment.
+The basic unit requires a veterinarian for attachment.
 Attaching a basic unit is a DD4 maneuver.
 Reasons for failure could be sizing, anthro type or technique.
-If there is any questions about limb sizing or matching consult the xref:ii-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice].
-The limb can be saved for later use on another persona if the attempt fails.
-Basic unit is worth 2000 EXPS and 75000 eps.
+If there is any questions about limb sizing or matching consult the xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice,window=_blank].
+This attachment only works for anthro arms or legs.
+The biorganic attachment will adjust to the size and anthro type over time.
+The vet or biologist can preserve the limb for later use if the attempt fails.
+The basic unit is worth 2000 EXPS and 75000 eps.
 
 Special Edition::
-This unit is mostly self attaching.
-The biorganic attachment has an 80% chance of successfully self attaching.
-If guided by a vet there is a 100% chance of attachment success. 
-The special edition limb is only limited by upper or lower limb type.
-The biorganic attachment will adjust to size and anthro type over time.
+This unit is primarily self-attaching.
+The biorganic attachment has an 80% chance of successfully self-attaching.
+If guided by a vet, there is a 100% chance of attachment success. 
+This attachment only works for anthro arms or legs.
+The biorganic attachment will adjust to the size and anthro type over time.
 The special edition unit is worth 1000 EXPS and 1500000 eps.
 
 Luxury Edition::
 The luxury edition biorganic looks like a sausage-in-a-bag.
-This lack of definition gives it flexibility to limb type and even family type.
-A luxury edition biorganic attachment can replace fins, wings, noses, trunks,
-ears, eyelids, or damaged physical mutations.
-A vet is not required and there is a 99% chance of attachment success.
+This lack of definition gives it the flexibility to more exotic limb types.
+A luxury edition biorganic attachment can replace fins, wings, noses, trunks, ears, eyelids, or damaged physical mutations.
+A vet is not required, and there is a 99% chance of attachment success.
 The luxury edition is worth 500 EXPS and 2750000 eps.
 
 Luxury Plus::
 The luxury plus biorganic attachment looks like a sausage-in-a-bag.
-This lack of definition gives it flexibility to limb type and even family type.
-A luxury edition biorganic attachment can replace fins, wings, noses, trunks,
-ears, eyelids, or damaged physical mutations.
-A vet is not required and there is a 99% chance of attachment success.
-
-The 'plus' part of this artifact is a non-defect physical mutation. 
-This can be a xref:v-wetware:CH59_Physical.adoc#_combat_mutations[Physical Combat Mutation], or a xref:v-wetware:CH59_Physical.adoc#_non_combat_mutations[Physical Non-Combat Mutation].
-If there is no limb to replace the persona will just attach a physical mutation.
+This lack of definition gives it the flexibility to more exotic limb types.
+A luxury edition biorganic attachment can replace fins, wings, noses, trunks, ears, eyelids, or damaged physical mutations.
+The luxury plus attachment includes a non-defective physical mutation.
+This mutation can be a xref:v-wetware:CH59_Physical.adoc#_combat_mutations[Physical Combat Mutation,window=_blank], or a xref:v-wetware:CH59_Physical.adoc#_non_combat_mutations[Physical Non-Combat Mutation,window=_blank].
+If the persona is not missing a limb, they will still acquire the mutation.
+A vet is not required, and there is a 99% chance of attachment success.
 The luxury plus edition is worth 500 EXPS and 5500000 eps.
 
 
@@ -268,160 +237,106 @@ Wate:: 1kg
 EXPS:: 960
 Value:: Special
 
-Biorganic replacements are ready to implant organs, tissues, or glands.
-They can be straight from tissue culture vats, harvested from clones, harvested from criminals, or cybernetically designed.
-The biorganic replacement can be used to enhance an existing system, or to replace an ailing one.
+A biorganic replacement is a self-inserting organ in a bag. 
+The organs can come from tissue culture vats, harvested from clones or criminals, or alien life forms.
+The biorganic replacement can enhance an existing system or replace an ailing one.
+The new organs possess new and bizarre features, almost always strengthening the persona.
 
-A biorganic attachment must properly implanted with surgery.
-The process of biorganic replacement will take 1 to 6 hours.
-One never knows when a new eye is urgently needed.
-The persona must be unconscious, and alive, for the entire surgery.
+75% of the time, the biorganic replacement will be a basic unit requiring surgical insertion by a veterinarian.
+Correctly inserting this attachment is an 8DD maneuver and requires a surgical theatre and anesthesia.
+The remaining 25% of the time, the biorganic replacement will be a luxury unit that is self-inserting.
+The self-inserting unit still requires a veterinarian, but success is guaranteed and requires no special operating theatre.
+The value of a luxury self-inserting is ten times that of the basic unit.
 
-This maneuver has a base difficulty of 15DD.
-If the procedure is to restore the sight of a blinded persona the DD is decreased.
-If the procedure is to improve fully functional eyes then the DD is increased.
-If the procedure is being abused to build super personas there should be consequences.
+Stacking biorganic replacements is dangerous and leads to bad outcomes.
+Stacking a biorganic replacement always requires a veterinarian and likely an entire research team.
+The degree of difficulty for stacking is 12 per level. 
+So 12DD the first time and 24DD the second time.
+Failure results in an attribute penalty equal to the attribute bonus.  
 
 include::ROOT:partial$CH47_Table_Biorganic_Replacement_Type.adoc[]
 
 Blood Filters::
-This replacement represents a super spleen and fortified bone marrow.
-This strengthens the quality of the personas life blood.
-A blood filter could replace a failing blood system, or improve a healthy one.
-A well persona receives a permanent CON increase of +10%.
-This increases the persona's CON by at least 1 and no more than 2 points.
-The player get's a bonus of +2 to win poison rolls.
-
+The blood filter is a super spleen combined with fortified bone marrow, strengthening the quality of the personas lifeblood.
+A blood filter could replace a failing blood system or improve a healthy one.
+The blood filter gives a permanent constitution increase of +10%.
+The bonus must be at least one point but no more than two points.
+The persona is hardened against poison and gets a bonus of +2 to win poison rolls.
 The blood filter biorganic attachment is worth 150000 eps.
 
 Bone Hardening:: 
-This persona's bones get coated with a biologically delivered laminate.
+Bone hardening coats the persona's skeleton with a strengthening laminate.
 The bone hardening will only take in adult personas.
-This artifact cannot be reapplied. 
-If a player insisted her persona will suffer a 20% DEX penalty and gain no HPS.
-
 The microbial slurry is drunk by the persona and does not require a vet intervention.
+There is no luxury edition of bone hardening.
 There is a 20% HPS max bonus granted due to the tougher bone structure.
-
 The bone hardening biorganic attachment is worth 100000 eps.
 
 Brain Tissue::
 The brain tissue biorganic attachment improves mental capacity and memory.
 A vet must successfully insert the proto tissue into the persona's braincase. 
-
-A well persona receives a permanent INT increase of +10%.
-This increases the persona's INT by at least 1 and no more than 2 points.
-This increased intelligence has not impact on mental strength. 
-
-There is a cumulative 15% chance per implant that something will go wrong.
-Multiple implants will lead to insanity or a mixed thinkspace.
-Initial implants may cause mild insanities, and later implants may cause severe insanities.
-Need a quick insanity jump to xref:i-roll_playing_rules:CH11_Referee_Personas_Anthro.adoc#_introverted[mild insanity] to find one.
-There is also a chance that the implanted tissue develops its own consciousness.
-This places the persona in a madness or death struggle for her body.
-
+The persona receives a permanent intelligence increase of +10%.
+The bonus must be at least one point but no more than two points.
+This increased intelligence has no impact on mental strength. 
 The brain tissue biorganic replacement is worth 1000000 eps.
 
 Conductive Tissue::
 Conductive tissue biorganic replacement improves the user's nervous system.
-Addition neural tissue grows alongside peripheral neurons improving electrochemical flow.
-This allows for faster reaction times and improved dexterity.
-The self propagating tissue is easily injected into each limb by a veterinarian.
-
-A well persona receives a permanent DEX increase of +10%.
-This increases the persona's DEX by at least 1 and no more than 2 points.
-
+Parallel neural tissue grows alongside existing neurons, improving electrochemical flow.
+The persona receives a permanent dexterity increase of +10%.
+The bonus must be at least one point but no more than two points.
 The conductive tissue biorganic replacement is worth 500000 eps.
 
 Contractile Tissue:: 
-Contractile tissue biorganic replacement improves the persona's physical strength.
-Additional muscle tissue and innervation improve the brawn of the  persona.
-The self propagating tissue is easily injected into each limb by a veterinarian.
-
-A well persona receives a permanent PSTR increase of +10%.
-This increases the persona's PSTR by at least 1 and no more than 2 points.
-
-Overuse of this biorganic replacement will impair the persona's dexterity.
-Beyond the first application DEX decreases as PSTR increases.
-If a second contractile tissue is injected and the PSTR increases by 2 the persona's DEX decreases by 2.
-
+Contractile tissue biorganic replacement adds muscle tissue and innervation, improving the persona's brawn. 
+The persona receives a permanent physical strength increase of +10%.
+The bonus must be at least one point but no more than two points.
 The contractile tissue biorganic replacement is worth 100000 eps.
 
 Exoskeleton:: 
-The exoskeleton biorganic replacement seals off the persona's skin from the outside.
-Once the persona has been transformed they will be impermeable and ugly.
-The exoskeleton is so complete it protects the persona from the vacuum of space.
-The persona's skin functions like a civilian vac suit. 
-Immune to space, gas, drowning, etc. 
-
-The persona's base armour rating jumps to 550.
-The strengthened skin has drawbacks as well.
-Charisma drops by 5 (-5 on CHA) and dexterity drops by 2 (-2 on DEX). 
-This persona cannot wear any vac suit or powered armour. 
-The exoskin protects the persona from most vet equipment. 
-Any vet procedures suffer a +8 DD penalty due to the exoskeleton.
-
-No vet is required for installation of this biorganic replacement. 
-The persona smears a smelly boullabaise of biochemistry onto her skin.
-The duration of the process is determined by the milieu of the campaign.
-This biorganic replacement can only be used once.
-
-Each essential orifice of the persona has a disgusting biologic airlock.
-Anything going in must first be piled into a sac which balances pressures before ingestion.
-This is the same for anying going out.
-
+The exoskeleton biorganic replacement seals the persona's body from the outside world by replacing her skin.
+The persona's skin becomes impermeable, and her orifices become unseemly fleshy airlocks.
+Nothing enters or exits her body without first passing through the semi-volitional airlocks.
+The persona's skin functions the same as a xref:CH42_Armour.adoc#_civilian[Civilian Vac Suit,window=_blank]. 
+The persona's charisma drops by 5 points, and her dexterity decreases by two points.
+The persona smears a smelly bouillabaisse of biochemistry onto her skin, and no veterinarian is required.
+There is no luxury edition for this biorganic replacement.
 The biorganic replacement exoskeleton is worth 2000000 eps.
 
 Hardening:: 
-The hardening biorganic replacement strengthens the persona's integumen.
-Fat pads are reinforced, bones are plated, and strength is woven into the skin.
-
-No vet is required for installation of this biorganic replacement. 
-The persona smears a smelly boullabaise of biochemistry onto her skin.
-The duration of the process is determined by the milieu of the campaign.
-
+The hardening biorganic replacement strengthens the persona's integument.
+Fat pads get reinforcements, bones get lamination, and skin gets textile weaves.
 The persona's base armour rating increases to 600. 
-The persona's hit point maximum increases by 10%.
-There is a charisma penalty of 2 (-2 on CHA).
-Hardening can only be done once.
-
+There is a 10% HPS max bonus and a -2 charisma penalty.
+The persona smears a smelly bouillabaisse of biochemistry onto her skin, and no veterinarian is required.
+There is no luxury edition for this biorganic replacement.
 The biorganic replacement of hardening is worth 100000 eps.
 
 Digestion::
 The digestion biorganic replacement upgrades the entire digestive tract.
-This includes teeth, stomach, intestine, and related organs.
-This hardening allows the persona to chew on peculiar items, and consume them without gastric despair.
-No vet is required to activate this biorganic attachment.
-The persona only needs to eat the biomass to be activated.
-
-This patient gets of +5 on ingested poison rolls.
-This patient cannot be nauseated by nausea attacks.
-
+The improvements include teeth, stomach, intestine, and support organs.
+This hardening allows the persona to chew on peculiar items and consume them without gastric despair.
+The persona only needs to eat the smelly biomass to get the biorganic replacement.
+No vet is required to activate this biorganic attachment, and there is no luxury edition.
+This patient gets a bonus of +5 on all toxin poison rolls and cannot suffer nausea.
 The digestion biorganic replacement is worth 550000 eps.
 
 Pump:: 
 The pump biorganic replacement improves an anthro's vital fluid pump.
 The pump itself is improved, as are the essential vessels of the vascular system.
-A vet is required to safely implant this biorganic replacement. 
-
 The improved heart and blood vessels improve the persona's constitution.
-The persona receives a permanent CON increase of +10%.
-This increases the persona's CON by at least 1 and no more than 2 points.
-
+The persona receives a permanent CON increase of +20%.
+The bonus must be at least one and no more than three points.
 The pump biorganic replacement is worth 200000 eps.
 
 Lung::
-The lung biorganic replacement improves the personas respiratory status.
-The improved respiratory tissue can be more lung, better gills, or leaves.
-A vet is required to install this respiration bonus.
-
+The lung biorganic replacement improves the persona's respiratory status.
+The improved respiratory tissue can be more lung, better gills, or hyperphotosynthetic leaves.
 The replacement will improve the persona's constitution.
 The persona receives a permanent CON increase of +10%.
-This increases the persona's CON by at least 1 and no more than 2 points.
-There is an improved resistance to respiratory poisons.
-The persona gets a +5 on respiratory poison rolls.
-Breath holding, or the anthro equivalent, is increased by 3 times. 
-
+The bonus must be at least one and no more than two points.
+The persona gets a +5 on inhaled and gas poison rolls.
+Breath-holding, or the anthro equivalent, is increased by three times. 
 The lung biorganic replacement is worth 200000 eps.
 
 Mental Mutation Insertion:: 
@@ -429,8 +344,7 @@ This biorganic replacement gives the user a permanent mental mutation.
 There is no way to determine what the mental mutation will be in advance.
 Jump to xref:v-wetware:CH58_Mental.adoc#_mutation_type[Mental Mutations]  
 The mental mutation should not be a defect. 
-A vet is required to get this replacement into the brain case of the persona.
-
+A vet is required to get this replacement into the braincase of the persona.
 The mental mutation insertion is worth 10000000 eps.
 
 Physical Mutation Insertion::
@@ -438,46 +352,28 @@ This biorganic replacement gives the user a permanent physical mutation.
 There is no way to determine what the physical mutation will be in advance.
 Jump to xref:v-wetware:CH59_Physical.adoc#_mutation_type[Physical Mutations]  
 The physical mutation should not be a defect. 
-A vet is not required for this replacement.
-A vet is recommended for this process of injecting an enormous needle into the persona's abdomen.
-
 The physical mutation insertion is worth 5000000 eps.
 
 Sensory:: 
 Sensory biorganic replacements enhance the persona's connection to the outside world.
-There is an improvement in vision, hearing, touch taste and smell. 
-This biorganic replacement can be used to replace damaged sensors, or to enhance undamaged sensors.
-A vet is required to implant the sensory biorganic replacement.
-
+There is an improvement in vision, hearing, touch, taste and smell. 
 The improved sensory system improves the persona's awareness.
-The persona receives a permanent AWE increase of +20%.
-This increases the persona's AWE by at least 1 and no more than 3 points.
-Eye hand coordination maneuvers are improved and ambush detection doubles.
-
-There is a legacy version of this biorganic replacement where the senses separated.
-Sight, hearing, touch, and smell all had separate biorganic replacements. 
-There is a lot of fun in dividing up the senses.
-
-This allows the persona's to install 4 separate sense enhancements.
-If this is the case the AWE bonus should be limited to 10%.
-The ambush detection is limited to hearing, sight and smell enhancements.
-
+The persona receives a permanent awareness increase of +20%.
+The bonus must be at least one and no more than three points.
+Eye-hand coordination maneuvers are improved, and ambush detection doubles.
 The sensory biorganic replacement is worth 2000000 eps.
 
 Softening::
 The softening biorganic replacement improves how the persona outwardly appears.
-This is the most complex of all the biorganic replacements.
-While the goal is to improve the persona's charisma how the body is modded varies.
-This replacement accentuates vocal chords, pupil reaction, skin tone, hair colour.
-To apply this properly requires both a vet and a biologist with cultural streams.
-
+Softening is the most complex of all the biorganic replacements.
+While the goal is to improve the persona's charisma, how the body is modded varies.
+This replacement accentuates vocal cords, pupil reaction, skin tone, hair colour.
 The improved appearance of the persona improves her charisma.
-The persona receives a permanent CHA increase of +20%.
-This increases the persona's CHA by at least 1 and no more than 3 points.
-
+The persona receives a permanent charisma increase of +20%.
+The bonus must be at least one and no more than three points.
 The softening biorganic replacement is worth 1000000 eps.
 
-=== Blind Goggles
+=== Vision Goggles
 
 [horizontal]
 Duration:: 12 months per Battery
@@ -486,11 +382,11 @@ Wate:: 500 gm (includes Battery)
 EXPS:: 960
 Value:: 200000 + Battery
 
-Blind goggles will restore sight to an anthro persona struck by visual impairment.
-The goggles do not enhance regular vision, but may be stylish.
-The goggles restore sight up to a range of 1 hex per point of AWE.
-This distance is halved in darkness.
-So a persona with an awareness of 12 could see 12 hexes normally and 6 hexes at night.
+Vision goggles will restore sight to an anthro persona struck by visual impairment.
+The goggles restore sight up to a range of 1 hex per point of awareness.
+The vision goggles
+A persona with an awareness of 12 could see 12 hexes in daylight and complete darkness.
+If the persona has no visual impairment, they still enjoy the night vision effects.
 
 
 === Blood Clot Disruptor 
@@ -502,19 +398,17 @@ Wate:: 2kg + Battery
 EXPS:: 1300
 Value:: 35000 + Battery
 
-This device can be used by any veterinarian to destroy build-ups of organic material that inhibit the flow of blood through normal channels.
-If the vet succeeds with this DD3 maneuver, clotting can be disrupted in any of the anthro types.
-Once the location of a clot is determined, it can be disrupted in 1-3 units.
-There is a standard, whole body 15-unit treatment that will eliminate 99% of malignant clots in the body.
+The blood clot disruptor is for dismantling unwanted clots from the outside of the body.
+The device does not treat any particular medical illness but assists the vet when working with blood.
+A complete treatment uses ten units of battery power.
 
 Weaponizing this device yields unpredictable results.
+The blood clot disruptor is a Type A attack, and it behaves like a dagger.
+A successful attack roll inflicts 2-12 (2d6) hit points of damage.
+There is a 1% chance per hit point of damage of inflicting a major bleed.
+A major bleed will inflict an additional 2-20 (2d10) hit points of damage.
 Each attack drains 30 units of battery power.
 Five attacks would drain a full battery.
-It attacks as a type C weapon with a next hex maximum range.
-A successful attack roll will inflict 2-12 (2d6) hit points of hemorrhage damage.
-A hit is followed by a chance of prolonged bleeding.
-There is 1% chance per hit point of damage of inflicting a major bleed.
-A major bleed will inflicts an additional 5-50 (5d10) hit points of damage.
 
 === Blood Congealer 
 
@@ -525,20 +419,17 @@ Wate:: 1.7kg
 EXPS:: 800
 Value:: 25000 + Battery
 
-The Blood congealer activates the clotting pathways freezing the flow of blood.
-Any persona can use the device can be used to create scabs on surface bleeding.
+The blood congealer helps the body create needed clots from outside of the body. 
+Any persona can use the device can be used to create scabs on superficial bleeding.
 Only a vet can use a blood congealer to control internal bleeding.
-To control internal bleeding is a DD3 maneuver with a blood congealer.
-When combatting blood loss the vet will earn +20 on her PT roll.
+The device does not cure any particular medical condition but assists the vet when working with bleeding or surgery.
 
 Weaponizing this device yields unpredictable results.
+A successful attack roll inflicts 2-12 (2d6) hit points of damage.
+There is a 1% chance per hit point of damage of inflicting a major clot.
+A major clot will inflict an additional 2-20 (2d10) hit points of damage.
 Each attack drains 300 units of battery power.
 Six attacks would drain a full battery.
-It attacks as a type C weapon with a next hex maximum range.
-A successful attack roll will inflict 2-12 (2d6) hit points of clotting damage.
-A hit is followed by a chance of a major embolus.
-There is 1% chance per hit point of damage of causing a major embolus.
-A major embolus will inflicts an additional 5-50 (5d10) hit points of damage.
 
 === Bone Setter 
 
@@ -550,203 +441,169 @@ EXPS:: 1500
 Value:: 3000
 
 The Bone Setter accelerates the repair of any anthro's structural elements.
-Structural elements includes bones, cellulose, exoskeletons or mutated limbs. 
-Fractures, cavities, cancers, deformities, and ligaments are technomagically repaired.
-
-A treatment uses 1-10 minutes of a 90 minute charge.
-Any persona can use the bone setter to heal 1-6 (1d6) of damage to obvious trauma.
+Structural elements include bones, cellulose, exoskeletons or mutated limbs. 
+Fractures, cavities, cancers, deformities, and ligaments repair technomagically.
+A treatment uses 1-10 minutes of battery power.
+Any persona can use the bonesetter to heal 1-6 (1d6) damage to obvious trauma.
 A vet can extend this healing into daily rehab.
-The bone setter cannot be weaponized.
 
 === Breath Ball 
 
 [horizontal]
 Duration:: Single use
-Bonuses:: +25 for resuscitation related procedures.
+Bonuses:: +25 for resuscitation-related procedures.
 Wate:: 500gm
 EXPS:: 1500
 Value:: 3000
 
-The breath ball is a temporary self contained ventilation gas exchanger.
-A conscious persona can stuff the ball into her ventilation orifice to breath safely.
-The ball will offer oxygen or carbon dioxide (florians) to the breathing persona.
-This allows personas to breath under water.
-The breath ball also filters out respiratory poisons from the air. 
-The ball basically will work for a few hours to get the persona through a tight pinch.
-This device does not act as long term life support or protect against exatmo.
-
-A vet can use the ball to both ventilate and oxygenate an unconscious persona.
-
+The breath ball is a temporary self-contained ventilation gas exchanger.
+A conscious persona can stuff the ball into her ventilation orifice to breathe safely.
 A vet can jam the breath ball into an unconscious persona's digestion orifice.
-The ball will take over ventilation and oxygen exchange for hours. 
-In the case of florians carbon dioxide is delivered.
-The breath ball will maintain the persona for a few minutes to get through a tight pinch.
-This device does not act as long term life support or protect against exatmo.
-
-There is no way to weaponize a breath ball.
-
+The ball will take over ventilation and oxygen exchange for many minutes. 
+The ball will offer oxygen or carbon dioxide (florians) to the breathing persona.
+The ball allows personas to breath underwater.
+The breath ball also filters out respiratory poisons from the air. 
+The ball basically will work for a few minutes to get the persona through a tight pinch.
+This device does not act as long-term life support or protect against exatmo.
 
 === Cardio Vest 
 
 [horizontal]
 Duration:: Single use
-Bonuses:: +25 for resuscitation related procedures.
+Bonuses:: +25 for resuscitation-related procedures.
 Wate:: 2.9kg 
 EXPS:: 300
 Value:: 1200
 
 Any persona can put this vest on to regulate and monitor cardiac pump function.
-If needed the cardio vest will rhythmically contract pumping the heart and lungs.
-This will keep vital fluids moving regardless if it is blood or sap.
-The cardio vest will maintain the persona for a few minutes to get through a tight pinch.
-This device does not act as long term life support.
+The cardio vest can rhythmically contract to pump the heart and lungs and keep vital fluids moving, whether blood or sap.
+The cardio vest will maintain the persona for a few hours to get to long-term life support.
+In most circumstances, a cardio vest will synchronize and work in unison with an anesthetics mask.
 
-There is no way to weaponize a breath ball.
 
 === Cerebro Converter 
 
 [horizontal]
 Duration:: Power Source
-Bonuses:: +30 on thinkspace rolls
+Bonuses:: +30 on consciousness rolls
 Wate:: 1000kg
 EXPS:: 10000
 Value:: 11300000000
 
-A cerebro converter can analyze and copy any organic storage device.
-In most cases this will be an anthro brain.
-The information is converted to electrical storage, and becomes  transferrable.
-The cerebro converter switches a consciousness from one brain to another.
-Some of its uses include brainwashing, ultimate disguises, and immortality.
+A cerebral converter can analyze and copy any organic storage device.
+In most cases, this will be an anthro brain.
+The information is converted to electrical storage and becomes transferrable.
+The Cerebro converter can transfer consciousness from one brain to another.
+Some of its uses include brainwashing, ultimate disguise, and immortality.
 
-The cerebro conversion transfers the consciousness of one anthro into another.
-This moves the emotions, memories, skills, and mental strength between brains.
-The brain receiving the consciousness has it's previous consciousness obliterated.
+Consciousness transfer moves the emotions, memories, skills, and mental strength between organic brains.
+The brain receiving the consciousness has its previous consciousness obliterated.
 The body which the consciousness left becomes a vegetative husk.
 The converted consciousness now lives in a new body.
 The physical attributes of the new body do not change. 
 AWE, CHA, CON, DEX, PSTR and HPS remain the same.
 There is a new INT, MSTR, personality, memories, vocation and EXPS in the new brain. 
 
-IMPORTANT: *These actions are ethically dubious and medically dangerous.*
+IMPORTANT: *These actions are both ethically dubious and medically dangerous.*
 
 Cerebro conversion is a dangerous maneuver for the personas, players and the referee.
 For the personas, there is a high chance of death, insanity, and mental loss.
-The users must be aware that the cerebro converter is indiscriminate, and all knowledge (family life, loves, hates, gossip) is transferred into the receiving brain.
-This can cause an infinity of problems. 
+The users must be aware that the cerebro converter is indiscriminate, and all knowledge (family life, loves, hates, gossip) transfers into the receiving brain.
+
+Any procedure failure, like a power failure, interruption by combat, or a failed performance roll, will adversely affect the transfer.
+The adverse effects of Cerebro conversion are drastic.
 If properly exploited by the referee can translate into an endless source of fun.
-Any procedure failure, like a power failure, interruption by combat, or a failed performance roll will result in an adverse effect.
-The adverse effects of cerebro conversion are drastic indeed.
 
-Success::
-The base chance for success of the cerebro conversion is the ratio between the receiver's INT and the donor's combined INT and MSTR.
+.*Success Checklist*
+. Donation Roll
+. Performance Roll
+. Malfunction Roll
+ 
+==== Donation Roll
+The donor consciousness is transferring into the receiver's brain. 
+The receiver brain consciousness is fighting for its existence.
+The more powerful the receiver's consciousness, the more difficult it is to wipe.
+If there is a donation failure, the veterinarian must still make her performance roll.
 
-=== Chance of Cerebro Conversion Success
-.(INT + MSTR of donor) / (INT + MSTR receiver)
+==== Chance of Donation Success
+.(INT + MSTR of donor) / (INT + MSTR + LVL receiver)
 ****
-It is more difficult to wipe a more intelligent mind. +
-The referee may include experience level on either side of the fraction.
+Chance = ( 9 INT + 6 MSTR) / ( 9 INT + 9 MSTR + LVL 3) +
+Chance = (9 + 6) / (9 + 9 + 3) = 15 / 21 = 71%
 ****
 
-For example, the donor has a 6 INT and 6 MSTR and the receiver has a 9 INT and a 9 MSTR.
-There is a 66% (12/18) chance of the cerebro conversion being successful.
-More often than not the chance of successful conversion will be >100% 
-Personas that have inorganic brains and therefore no mental strength have a 25 INT.
+==== Performance Roll
+For the cerebral conversion to be a success,  a vet must also win a performance roll.
+If the donation is successful, the vet can still mess up the procedure.
+It is strongly recommended to build a xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Team,window=_blank] when using a cerebro converter.
 
-.*There are two parts required for success*
-For the cerebro conversion to be a success the vet must also win a performance roll.
-Even if the conversion is successful the vet can still mess up the procedure.
-It is strongly recommended to build xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] for this performance roll.
+The difficulty of the performance roll depends on the tech level of the cerebro converter and the type of donation the vet is doing.
+A typical cerebro converter will be tech level ten.
+Transferring a donor to another anthro is 25DD, and transferring a donor into storage (organic or inorganic) is 30DD.
+Higher tech level cerebro converters decrease the degree of difficulty and allow for more elaborate conversions. 
 
-Failure:: 
-If the conversion roll is a failure there can be no conversion.
-The vet can prevent an adverse effect by winning a performance roll.
-If the conversion fails and the vet fails there is a side effect.
+==== Malfunction Roll
+The cerebro converter has a chance of breaking down under the duress of a conversion.
+The chance of machine failure and damage is 1/2% per DD of maneuver.
+So if the degree of difficulty is 20, there is a 10% chance of machine malfunction.
+If there is a mechanic on the research team, she can prevent malfunction by winning a performance roll set to the conversion's DD.
+Jump to xref:i-roll_playing_rules:CH21_Artifact_Damage.adoc#_extent_of_damage[Equipment Damage,window=_blank]. 
+If the machine suffers critical damage or is destroyed, the conversion is a failure.
 
-If the vet fails her performance roll and conversion was a success nothing happens.
-There is no conversion and there are no side effects
+==== Failures 
+A cerebro conversion failure can lead to side effects like insanity and death.
+A failure at any step (donation, performance or malfunction) prevents conversion.
+A conversion failure may result in a side effect. 
 
-Machine Failure:: 
-The cerebro converter has a chance of breaking under the duress of a failed conversion.
-If both the conversion and the vet fail their rolls the machine may malfunction.
-The chance of machine failure and damage is 1% per DD of maneuver.
-So if the degree of difficulty is 20 there is a 20% chance of machine break down.
-Jump to xref:i-roll_playing_rules:CH21_Artifact_Damage.adoc#_extent_of_damage[Equipment Damage] to see how bad things are.
+If the donation fails, the veterinarian must win her performance roll to prevent a side effect.
+If the machine malfunctions, the mechanic must win her performance roll to prevent a side effect.
 
-Brain Failure:: 
-Many of the cerebro conversion side effects are serious.
-They often involve competition between two partially converted consciousnesses.
-Both consciousnesses are radically altered in preparation for conversion.
-Brain failures affect both of the persona brains and consciousnesses.
+If the donation was successful, but the vet lost her performance roll, there is no side effect.
+If the donation was successful, but there was a machine malfunction, there is a side effect.
 
 include::ROOT:partial$CH47_Table_Cerebro_Converter_Side_Effects.adoc[]
 
-Insanity::
-There is a minor mixing of consciousnesses and a battle for control. 
-This battle is expressed as a fresh new insanity in the mixed up brain.
-Each persona is afflicted with an insanity.
-The referee can force the player to win a MSTR roll or succumb to the insanity.
-Jump to xref:i-roll_playing_rules:CH11_Referee_Personas_Anthro.adoc#_introverted[mild insanity] for some inspiration.
-
-Mind Blank::
-All data banks, levels of experience, memories, skills, are wiped clean.
-This applies to any storage format attached to the cerebro converter.
-Most often a brain gets blanked but computers, robots and AI are susceptible.
-A player persona must win a mental strength roll or get blanked.
-A referee persona getting blanked depends on the story.
-The duration of the fugue is also based on the story.
-Figments of memory can be a wonderful tool to aid story progress.
-
-Dominance::
-Dominance is a confusing mix of two consciousnesses.
-Each consciousness has been copied without the previous one being erased.
-The two consciousnesses coexist in two different brains and battle for dominance.
-
-Dominance calls on the improvisational talents of the referee and the players.
-The most common way to run this adverse effect is as follows:
-The dominant mental strength rules it's own brain most of the time.
-The less dominant consciousness will appear at inopportune moments to improve the story.
-This may swap the bodies between two personas and therefore players.
-So two players, a player and a referee or two referee personas may be swapping back and forth.
-The dominance of their brain and body changing along with their persona record sheets.
-
-This consciousness dominance battle crosses organic and inorganic consciousnesses.
-If a player is trying to dominate her persona she must win an intelligence roll.
-It is possible for dominance to end the playable life of a player persona.
-
-The cerebro converter comes with a warning to personas, players and referees. 
+Confluence::
+Confluence is the mixing of two consciousnesses in the same physical space. 
+The donor consciousness does not thoroughly wipe the receiver consciousness, and a confusing confluence of the two occurs. 
+Whichever consciousness has the higher mental strength tends to dominate the vessel.
+However, the less powerful consciousness (lower mental strength) can regain control during experiences in tune with that persona.
+If the consciousness were a mercenary, a combat experience would be a time to rise to the surface.
+Confluence is an excellent story propelling tool. 
 
 Death::
-Death by cerebro converter is total.
-The persona's consciousness is wiped along with all essential unconscious supports.
-Organics are mind blanked along with all cardiorespiratory autoregulatory mechanisms.
-Inorganics are erased along with all support daemons. 
-All that is left after cerebro converter death is a lifeless husk.
+Death by cerebro converter is the result of wiping too much from the receiver brain or storage medium.
+The consciousness converts into a  dead body and is lost. 
+Death is the most dangerous possible side effect of the cerebro converter.
+The player of the donor consciousness gets a saving roll versus a mental attack or dies.
+The intensity of the mental attack is equal to the DD of the maneuver.
+If the player fails her saving roll, the cerebro converter creates one vegetative husk and one lifeless husk.
 
-Each persona, or device, on the cerebro converter must win a mental strength roll or die.
-Robots use their intelligence as mental strength for this attack.
-The MSTR roll goes against the degree of difficulty of the vet maneuver.
-So lower tech converters are more likely to kill their patients. 
+Insanity::
+The conversion is a failure, and both consciousnesses now have insanity.
+Insanities in EXP are persona performance irritations and not mundane terran mental illnesses.
+Jump to xref:i-roll_playing_rules:CH11_Referee_Personas_Anthro.adoc#_introverted[mild insanity,window=_blank] for some inspiration.
+
+Mind Blank::
+The conversion is a failure, and both consciousnesses are at risk of mind blanking.
+Mind blanking removes all memories, skills and EXPS.
+The blanking most often afflicts brains, but robots, AIs and storage mediums can suffer blanking.
+Each consciousness must win a mental attack roll against the DD of the conversion or lose all EXPS and skills.
+If a player persona suffers mind blanking, the referee will usually have the fugue last for a specific amount of time.
+Memories slowly returning is an excellent opportunity for some storytelling.
 
 Mental Mutation:: 
-Each persona must win a mental strength roll or suffer a xref:v-wetware:CH58_Mental.adoc#_defective_mutations[Defective Mental Mutation].
-The mental strength is up against the DD of the vet maneuver for the converter.
-If a referee is feeling generous the player may roll on the 
-xref:v-wetware:CH58_Mental.adoc#_mutation_type[Mental Mutation Table]. 
+The cerebro conversion fails, and both personas suffer a defective mental mutation.
+The persona must win a mental attack roll or suffer a xref:v-wetware:CH58_Mental.adoc#_defective_mutations[Defective Mental Mutation,window=_blank].
+The intensity of the mental attack is the same as the DD of the maneuver.
 
-.*Less Failure Through Science*
-The higher the tech level of the cerebro converter, the more effective the device is.
-The tech level of the cerebro converter is represented by it's wate.
-The impacts of tech level on artifacts is cover in xref:iv-software:CH56_Tech_Level.adoc[Tech Level].
-The tech level of the cerebro converter is represented by it's wate.
-The lower the converter's wate the higher it's tech level.
+==== Less Failure Through Science
+The higher the tech level of the cerebro converter, the more dependable the artifact's function.
+The lower the converter's wate, the higher its tech level.
+The impacts of tech level on artifacts is cover in xref:iv-software:CH56_Tech_Level.adoc[Tech Level,window=_blank].
 
-When the degree of difficulty to operate the machine is high xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] are recommended.
-A research team can be composed vets and biologists.
-Occasionally other vocations can be added to the research team.
-
-The Cerebro Converter Tech table limits the type of conversion that can be completed.
-A low tech cerebro converter can only transpose a consciousness between similar patients.
-As the tech level increases more complex transfers are possible.
+A typical cerebro converter will be tech level ten.
+Transferring a donor to another anthro is 25DD, and transferring a donor into storage (organic or inorganic) is 30DD.
 
 include::ROOT:partial$CH47_Table_Cerebro_Converter_and_Tech_Level_(TL).adoc[]
 
@@ -760,42 +617,56 @@ EXPS:: 25000
 Value:: 5000000000
 
 Cloning Equipment functions like a biologic printer building an exact organic replica.
-The clone will is a verbatim cellular construct.
-It is an autonomous statue made from made from matching meats and ligaments.
-
-NOTE: *To copy the body and consciousness of a sample requires both cloning equipment and a cerebro converter.*
-
-However the consciousness of the sample is not transferred.
-The fresh body lacks personality, mental strength and training of the cloned brain.
+The clone is a verbatim cellular construct, an autonomous statue with matching meats and ligaments.
+However, cloning does not transfer the consciousness of the source. 
+The new clone body lacks the personality, mental strength and training of the source brain.
 The clone copies the cellular maturity, but not the vocation or experience.
 The sample has no control over the clone.
-The clone cannot speak, and usually becomes a referee persona.
+The clone cannot speak and usually becomes a referee persona.
 
-Sample Size::
-The more advanced the cloning equipment the less of a sample is needed.
-A low tech cloning machine needs to have a living body present for the entire process.
-This is very time  consuming and can be dangerous for the living sample.
-A high tech cloning machine needs only to have a small chunk of the organism present.
-Cloning is a slightly destructive process and the sample can be damaged or destroyed.
-Little bits of the sample are snipped off and homogenized into genetic components.
+WARNING: *Successful cloning does not copy consciousness.*
 
-Cloning Success::
-The cloning process is not automated and requires a xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Team] of vets and biologists.
-The research team rolls are made at the end of the cloning process. 
+To copy a consciousness into a clone requires a <<_cerebro_converter,cerebro converter>>.
 
-Shortening the cloning process introduces an new chance of failure.
-The cloning process takes 1 day per degree of difficulty.
-For example, a 30 DD clone takes 30 days to brew.
-If the team decides to speed up the brewing process to 15 days there a 50% (15/30) chance of failure.
-The team can try and rescue the speed clone by making another roll at double the degree of difficulty.
+.*Success Checklist*
+. Sample Size
+. Performance Roll
+. Malfunction Roll
 
-Most often a clone brew will fail catastrophically.
+==== Sample Size
+The more advanced the cloning equipment, the less of a sample is needed.
+A low-tech cloning machine needs to have a living body present for the entire process.
+Low tech cloning is very time-consuming and dangerous for the living sample.
+A high-tech cloning machine only needs a small chunk of the sample present.
+The typical cloning machine is tech level ten and needs a living copy for a sample.
+Cloning cannot proceed unless the necessary sample size is available.
+
+==== Performance Roll
+For cloning to be a success,  a vet must win a performance roll.
+The difficulty of the performance roll depends on the tech level of the cloning equipment.
+Typically cloning equipment is tech level ten, and cloning is a 20DD maneuver.
+Higher tech level cloning equipment decreases the degree of difficulty of cloning. 
+It is strongly recommended to build a xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Team,window=_blank] when using cloning equipment.
+
+==== Cloning Duration
+The cloning process takes one day per degree of difficulty.
+For example, a 20 DD clone takes 20 days to brew.
+Brewing a clone has a biblical minimum of seven days.
+Speeding up the cloning process increases the chance of failure.
+Each day that the clone brewing is sped up increases the DD by one.
+Speeding up a 20 day clone brew to a ten-day clone brew creates a 30DD maneuver.
+
+==== Malfunction Roll
+The cloning equipment has a chance of breaking down under the complex process of cloning.
+The chance of machine failure is 1% per DD of maneuver.
+So if the degree of difficulty is 20, there is a 20% chance of machine malfunction.
+If there is a mechanic on the research team, she can prevent malfunction by winning a performance roll set to the conversion's DD.
+Jump to xref:i-roll_playing_rules:CH21_Artifact_Damage.adoc#_extent_of_damage[Equipment Damage,window=_blank]. 
+If the machine suffers major damage or worse, the cloning is a failure.
+
+==== Results of Failure
+Most often, a clone brew will fail catastrophically.
 The tank will contain a jumbling blob of bones, tubes, organs and rumpled skin.
-
-Machine Failure::
-If the cloning process fails there is a 1% chance per DD of the maneuver of the machine breaking down.
-So if the degree of difficulty is 20 there is a 20% chance of machine break down.
-Jump to xref:i-roll_playing_rules:CH21_Artifact_Damage.adoc#_extent_of_damage[Equipment Damage] to see how bad things are.
 
 include::ROOT:partial$CH47_Table_Cloning_Machine_and_Tech_Level.adoc[]
 
@@ -808,40 +679,39 @@ Wate:: 5kg + Battery
 EXPS:: 500
 Value:: 7000
 
-A Coma Control Box will regulate an unconscious persona's healing processes.
-The coma control unit does not heal, but stops a persona from dropping further negative.
-A comatose persona is one whose hit point total is less than zero.
-This device ensures that the persona will not lose hit points.
-The persona cannot be easily moved once attached to this device.
-The coma control unit does not halt the effects of poisons or pharmaceuticals.
+A coma control box will stabilize an unconscious persona and prevent their death.
+Only anthro personas suffer the comatose dying state that this device prevents.
+A coma control unit does not heal the persona but freezes their hit points at a negative number.
+The coma control unit only halts hit point decline below zero.
+The device has no impact on the effects of poisons or pharmaceuticals.
 The coma control unit does not prevent further damage from additional attacks.
-
-This device must be attached by a biologist, mechanic, or veterinarian.
+The device is self-attaching, but detachment requires a biologist, mechanic, or veterinarian.
+A veterinarian must resuscitate the person when the device is removed.
 
 === Comfy Couch 
 
 [horizontal]
 Duration:: 15 Days per Battery
 Bonuses:: +10 for stablization rolls
-Wate:: 70kg + Battery
-EXPS:: 700
-Value:: 15000
+Wate:: 70kg + attachments + Battery
+EXPS:: 700 + attachments
+Value:: 15000 + attachments
 
-A comfy couch is an especially mobile medical bed.
-This high tech bed uses antigrav instead of a mattress.
-A comfy couch safely supports the patient.
-The bed can support up to 300kg but only one patient at a time. 
-The patient can be moved around without any effect on the orderly's wate allowance.
-The comfy couch has a maximum speed of 3 h/u.
+A comfy couch is a mobile medical bed stocked with medical attachments.
+The comfy couch uses antigrav instead of a mattress, safely supporting the patient.
+The bed can carry up to 300kg, but only one patient at a time. 
+The couch easily moves around at a maximum speed of 3 h/u.
 
-A comfy couch is not automatically an antigrav stretcher, and may have wheels. 
+A comfy couch uses antigrav to support the patient but is not automatically an antigrav stretcher.
+The comfy couch may still have wheels. 
+The comfy couch does not carry inorganic artifacts and does not like being used as a sled. 
 
-A comfy couch may have built in veterinary equipment that complements vet care.
-Every couch gets 0-3 (d4-1) on the Comfy Couch Attachment Table.
-These additional artifacts add to the wate of the comfy couch.
-The comfy couch's attachments automatically fly into action when the patient thrown on the it.
+A comfy couch may have built-in veterinary equipment to complement vet care.
+The attachments automatically start working on the patient it is supporting.
+Every couch gets 0-3 (d4-1) on the Attachments Table.
+These additional artifacts add to the wate, EXP and value to the comfy couch.
 
-The comfy couch does not carry inorganic artifacts and does not like being used a sled. 
+The comfy couch has the nickname porter plus.
 
 include::ROOT:partial$CH47_Table_Comfy_Couch_Attachments.adoc[]
 
@@ -854,15 +724,14 @@ Wate:: 200gm no battery
 EXPS:: 200
 Value:: 50000
 
-This headband keeps anthros conscious in the face of overwhelming odds.
-Anything that would render a persona unconscious can be countered by the headband.
-The headband jump starts the limbic system if it appears to be failing.
-The headband must be worn constantly to prevent loss of consciousness.
-The device will not jump start and already unconscious brain.
+This headband keeps organic lifeforms conscious in the face of overwhelming odds.
+The headband can counter anything that would render a persona unconscious.
+The headband jump-starts the limbic system before it can fail.
+The persona must wear the headband constantly to prevent loss of consciousness.
+The device cannot jump-start an already unconscious brain.
 Each use will inflict 0-5 (1d6-1) hit points of electrical damage to the persona.
 
-The unit is self contained and disposable.
-Batteries are included.
+The unit is self-contained and disposable.
 
 === Cauterizing Ray 
 
@@ -874,21 +743,19 @@ EXPS:: 1002
 Value:: 220000
 
 The cauterizing ray expertly seals openings that leak vital fluids.
-This can be blood, sap or whatever goo the anthro circulates.
+The vital fluids can be blood, sap or whatever goo the anthro circulates.
 The device assists a vet on both external and internal uses.
 Each use burns through 1 unit of battery storage.
 
-When weaponized the cauterizing ray attacks as a type C weapon.
-The ray has a 1 hex range and burns for 4-24 (4d6) hit points of damage.
-A type C attack drains 8 units of battery per attack roll.
-The bolt from the cauterizing ray affects both organic and inorganic targets.
+Weaponizing this device yields unpredictable results.
+A successful attack roll inflicts 2-12 (2d6) hit points of damage.
+There is a 1% chance per hit point of damage of inflicting enduring damage.
+Enduring damage is immune to rapid healing by regeneration, quick fixes, and pharma heals.
+Enduring damage from a cauterizing ray must wait until after combat for the attention of a veterinarian.
+Each attack drains five units of battery power.
+Four attacks would drain a full battery.
 
-NOTE:
-An old mechanic of this device has been removed. +
-Previously the ray permanently reduced the HPS Max of organic targets. +
-This damage could not be regenerated or healed.
-
-=== Deaf Headphones 
+=== Hearing Headphones 
 
 [horizontal]
 Duration:: Unlimited
@@ -897,17 +764,13 @@ Wate:: 1.2kg
 EXPS:: 275
 Value:: 90000
 
-These headphones allow any hearing impaired persona to hear normally.
-The device is weather resilient, but does not work underwater or exatmo.
+These headphones allow any hearing-impaired persona to hear normally.
+The device is weather resilient but does not work underwater or exatmo.
 The headphones are acoustically powered and do not require batteries.
-Deaf headphones can be used for temporary or permanent hearing loss.
 This device does not work for inorganic personas or machines.
-
-The headphones can be used to enhance hearing for maneuvers.
-A persona can temporarily wear the headphones and enhance their awareness.
-The persona enjoys +2 AWE for hearing based maneuvers with the headphones.
-Such maneuvers include: safe cracking, detecting ambush, machine repairs. 
-When being worn for enhancement sonic attacks inflict double damage to the persona.
+The persona enjoys +2 AWE for hearing-based maneuvers while wearing the headphones.
+Such maneuvers include safe cracking, detecting ambush, machine repairs. 
+When being worn for enhancement, sonic attacks inflict double damage to the persona.
 
 === Drug Analyzer 
 
@@ -919,28 +782,28 @@ EXPS:: 250
 Value:: 50000
 
 The drug analyzer is a somewhat portable pharmacological analyzer.
-The analyzer will analyze a sample and identify it.
-The following information is determined by the machine: type, effects, duration, side effects, and value.
+The analyzer assists a vet in analyzing a sample to identify it.
+The machine determines the type, effects, duration, side effects, and value of pharmaceuticals.
 It can also identify poisons and toxins.
 
 The analyzer prefers a full dose of the pharmaceutical to use for study.
-Analysis is destructive and consumes the entire dose.
+The analysis is destructive and consumes the entire dose.
 The data can be printed out or screened out depending on the milieu.
-A molecular copy of the sample is stored in the drug analyzer. 
-This allows for future reproduction of the analyzed drug
+A drug analyzer will store a molecular copy of the sample, allowing for future reproduction of the analyzed drug.
+A drug analyzer does not fabricate pharma.
 
-Successful interpretation of the result requires a vet maneuver.
-xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] may be required to properly operate a low tech drug analyzer.
-The time taken to analyze a sample is story related. 
-Ideally the duration of analysis will be the most exciting duration possible.
+The degree of difficulty for the performance roll depends on the tech level of the drug analyzer.
+Successful interpretation requires a vet performance roll win.
+It is strongly recommended to build a xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Team,window=_blank] when using analyzing drugs.
 
 === Drug analysis Degree of Difficulty
-.42 - Analyzer Tech Level
+.DD = 42 - Analyzer Tech Level
 ****
-Using a tech level 10 analyzer is a 32 DD maneuver
+DD = 42 - Tech level 10 = 42 - 10 = 32
 ****
 
-This device is intimately related to the <<_drug_box,Drug Box>>.
+The time taken to analyze a sample is story-related. 
+Ideally, the duration of the analysis will be the most exciting duration possible.
 
 === Drug Box 
 
@@ -952,36 +815,35 @@ EXPS:: 900
 Value:: 900000
 
 A drug box fabricates pharmaceuticals like a pharmacy in a drum.
-The box comes with a random and limited list of pharma.
+The box comes with a random and limited list of supplies.
 There is no limit to the number of pharmaceuticals the drug box can learn.
 The drug box does *not* analyze and copy meds.
 The drug box is not a pharmaceutical photocopier. 
-
-include::ROOT:partial$CH47_Table_Drug_Box_Start.adoc[]
-
-New pharmaceuticals must be added by either a drug analyzer or software.
-There is a 1% chance per tech level of drug box that a <<_drug_analyzer,Drug Analyzer>> is built in.
-A tech level 12 drug box has a 12% of being combined with a drug analyzer.
-The drug analyzer increases the wate and value of the drug box.
+To add a new prescription requires a drug analyzer or a veterinarian. 
 
 Successful fabrication of a pharmaceutical does not require a veterinarian.
-However a veterinarian's input decreases the chance of adverse effects.
+However, a veterinarian's input decreases the chance of adverse effects.
+
 xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] may be required for fancy rare medications.
 The difficulty of the maneuver depends on the chance of adverse effects.
 
-=== Adverse Effect Chance
-.Pharma Tech Level * 2 - Drug Box Tech Level
-****
-A TL 15 pharmaceutical being fabricated by a TL 10 drug box. +
-There is a 20% chance a fresh random adverse effect. +
-A vet maneuver of 20DD would prevent the adverse effect.
-****
+==== Existing Prescriptions
+A drug box may come with some existing prescriptions that it is ready to fabricate.
+The drug box has 0-3 (1d4-1) rolls on the Starting Pharma Table.
+There will be 1-10 (1d10) doses of each pharma type.
 
-A drug box will always make the pharmaceutical.
-An adverse affect is more likely the fancier the pharma and the less skilled the user.
+include::ROOT:partial$CH47_Table_Drug_Box_Start.adoc[]
 
+==== A Nice Pairing
+There is a slight chance that a drug box will have a <<_drug_analyzer,Drug Analyzer>> built-in.
+The chance of this nice pairing is 1% per tech level of drug box
+A tech level 12 drug box has a 12% of being combined with a drug analyzer.
+The drug analyzer increases the wate and value of the drug box.
+The multi-tool will come with *no* existing prescriptions if the drug box and drug analyzer are combined.
+
+==== Duration
 Fabricating a pharmaceutical takes 1-8 (1d8) hours per dose.
-Although duration of production can be altered to improve suspense of the story at hand.
+Ideally, the duration of the fabrication will be the most exciting duration possible.
 
 === Eye Cleanser
 
@@ -993,10 +855,10 @@ EXPS:: 250
 Value:: 3000
 
 The eye cleanser looks like a set of oversized opaque swimming goggles.
-When strapped over the eyes they foam up and bathe the eyes in healing chemicals.
-They will negate, and heal, all forms of physical damage to anthro optical sensors.
+When strapped over the eyes, they foam up and bathe the eyes in healing chemicals.
+They will negate and heal all forms of physical damage to anthro optical sensors.
 The goggles also heal and hit points of damage inflicted via eye damage.
-The treatment is fast and the persona is back to normal in 1-4 (1d4) units.
+The treatment is fast, and the persona is back to normal in 1-4 (1d4) units.
 
 === Fever Control Blanket 
 
@@ -1009,34 +871,33 @@ Value:: 150
 
 The fever control blanket maintains the proper body temperature of anthro personas.
 The artifact looks like a fragile, highly reflective, translucent sheet.
-Any conditions (poison, sickness, mental attack) causing fever can be countered by the blanket.
+The blanket can counter any conditions (poison, sickness, mental attack) causing fever.
 The blanket can maintain normothermia within air temperatures of -10C and +50C.
-The fever control blanket is well loved by nomads as well as vets.
+The fever control blanket is well-loved by nomads as well as vets.
 
 The blanket will function until it is damaged.
-The blanket can take 3 hit points of damage before it is destroyed.
-A fever control blanket is disposable, and cannot be mended.
+The blanket is delicate, and a mere three hit points of damage destroys it.
+A fever control blanket is disposable and is disposable.
 
 === Incubator 
 
 [horizontal]
 Duration:: Power Source
 Bonuses:: +20 on any growth related rolls
-Wate:: 100kg
+Wate:: 100kg + vat size
 EXPS:: 300
 Value:: 250000
 
-The incubator creates the environment and conditions necessary for the gestation.
+The incubator creates the environment and conditions necessary for gestation.
 Anything embryonic will flourish inside this tank. 
-This includes nascent clones, embryos, seeds, hyphae, etc.
-All organics are gestated to survival outside of the womb, seed or spore sack.
-
-When combined with a cloning tank the incubator can safely speed up clone growth.
-
+Embryonic includes nascent clones, embryos, seeds, hyphae, etc.
+All organics are grown to survive outside of the womb, seed or spore sack.
 The incubator requires a vet or biologist to operate. 
 A nomad can also use an incubator to grow plants quickly.
 
 include::ROOT:partial$CH47_Table_Incubation_Times.adoc[]
+
+When combined with a cloning tank, the incubator can safely speed up clone growth.
 
 === Injury Detector 
 
@@ -1048,11 +909,11 @@ EXPS:: 2500
 Value:: 100000
 
 This handy little box analyzes organic personas for injury.
-The injury detector buzzes for any trauma from ligament strains to rigor mortis.
-The detector does not make a succinct diagnosis but guides the vet to better treatment.
+The injury detector buzzes for any trauma from ligament strains to rigour mortis.
+The detector does not make an exact diagnosis but guides the vet to better treatment.
 
 :art: danger_in_deep_big_screen.png
-:width: 250px
+:width: 450px
 :snark: Big screen diagnostic computer
 :artist: Louis Glanzman
 :date: 1953
@@ -1060,9 +921,6 @@ The detector does not make a succinct diagnosis but guides the vet to better tre
 :description: Drawing of scientist people standing in front of gigantic computer screen.
 
 include::ROOT:partial$articulate.adoc[]
-
-
-
 
 === Internal Viewer 
 
@@ -1073,9 +931,9 @@ Wate:: 55kg
 EXPS:: 3000
 Value:: 950000
 
-This device gives a three dimensional, technicolor, moving picture of the innards of organic personas.
+This device gives a three-dimensional, technicolour, moving picture of the innards of organic personas.
 The paddles of the internal viewer must make contact with the patient.
-The internal views can be recorded, and subjected to a host of special effects.
+The internal views can be recorded and subjected to a host of special effects.
 
 === Life Ray 
 
@@ -1086,53 +944,39 @@ Wate:: 1250kg
 EXPS:: 10000
 Value:: 22100010042
 
-A life ray will resurrect deceased organic tissue into a living state.
+A life ray will resurrect dead organic tissue into a living state.
 Enormous energy surges (like lightning) are used to rehydrate desiccated cells, restore chemical equilibriums, and rebalance biological polarities.
-The Life Ray is a machine, and the deceased must be placed within it.
+The Life Ray is a machine, and the deceased must be within it.
 
-The Life Ray must be employed within 42 hours of death.
-The life ray will faithfully restore the body to the from that is presented to it.
+The Life Ray only works within 42 hours of death.
+The life ray will faithfully revitalize the sample placed within it.
 The ray does not heal or repair the body.
-Any corrective surgery must be completed before the life ray is activated.
-For instance a limb would only be reconnected to the regenerated patient only if her arm were properly reconnected before the restoration procedure.
+The team must complete life-saving surgery before activating the life ray.
+For instance, a vet must reattach an amputated limb before restoration.
 
-To properly activate the life ray is a veterinarian only maneuver.
-The difficulty is 1 DD per hour since death. 
+To properly operate the life ray requires a successful performance roll.
+The difficulty is 1 DD per hour since the death. 
 For example, a patient that has been dead for 6 hours would be a DD6 maneuver.
-A <<_stasis_bag,Stasis Bag>> arrests the decomposition of death.
-With a stasis bag the DD is dependent on how long it took to get the body into the bag.
-4 hours after dying would be a 4DD maneuver to operate the life ray.
 
 The life ray is not a healing device. 
 The persona will be restored to zero HPS and regain consciousness.
 Missing limbs do not grow back. 
-Attributes are not restored. 
-Pain will continue.
+Attributes do not recover, pain continues, and limbs do not grow back.
 
 The life ray cannot restore a persona with a zeroed attribute.
 So a persona who has zero physical strength is permanently dead.
-Charisma is the only attribute that can decrease to zero.
+Charisma is the only attribute that can drop below zero.
 
 Death leads to decrepitude. 
-Every attribute is damaged by the death experience.
+The death experience damages every attribute.
 A rebooted persona suffers the following attribute penalties.
 AWE, CHA, CON, DEX, INT, PSTR and HPS maximum will lose 0 to 3 points (d4-1).
-If the persona zeroes one of her attributes during a life ray treatment she is permanently dead.
+If the persona zeroes one of her attributes during a life ray treatment, she is permanently dead.
+The life ray is far from perfect, and personas who keep dying will eventually die.
 
-There is a chance that the death experience will increase a persona's mental strength.
-A dead consciousness may develop a stronger link to the thinkspace. 
-The first time a life ray reboots a persona her mental strength may jump by 3 points.
-The personas adds 0-3 (1d4-1) to MSTR.
-Further life ray treatments subject the persona's MSTR to a -1 to +1 (1d-2) attribute adjustment.
-Eventually everything succumbs to entropy and dies. 
-
-If any of the persona's attributes fall below one, she is permanently dead.
-
-Once the body is technically restored by the machine, the persona must be brought back to life.
-
-Unless the life ray is employed with precision it can seriously imbalance a campaign.
-The premise that all personas who keep dying will eventually die.
-If a life ray does not fit into the milieu of the campaign the referee can discard it and have the player roll a different device.
+There is a chance that the death experience will improve a persona's mental strength.
+The first time the life ray resurrects a persona, her mental strength may increase by 0-3 (1d4-1).
+Further life ray treatments may decrease or increase the persona's mental strength by adding -1 to +1 (1d-2) points.
 
 === Limb Capper 
 
@@ -1144,13 +988,14 @@ EXPS:: 50
 Value:: 200
 
 A limb capper consists of a flexible bowl-shaped bio-bandage stored in a convenient bag.
-The capper is slapped onto any sized stump and self molds.
-The amputated part is placed in capper's convenient bag.
+Due to legacy and convention, the storage bag is 'crinkly.'
+The capper moulds itself onto any sized stump. 
+The amputated part fits into the limb capper's crinkly bag.
 The capper preserves nerve endings, tendons, and muscles of amputations for reinsertion.
-The convenient bag keeps the amputation ready for reimplantation for several days.
+The crinkly bag keeps the amputation ready for reimplantation for several days.
 
 The limb capper is a common artifact in milieus frequented by knites.
-As an aside the convenient bag will store a sandwich indefinitely.
+As an aside, the crinkly bag will store a sandwich indefinitely.
 
 === Vedi Kit 
 
@@ -1161,13 +1006,12 @@ Wate:: 200gms
 EXPS:: 100
 Value:: 215
 
-The vedi kit is a disposable single use tool kit for doing quick.
-The kit contains bio electric painkillers, tissue adhesives, cutting acids, spray on bandages, and fur remover.
-To prevent unsanitary re-use the vedi kit melts into a useless blob after the seal is broken.
-The vedi kit is most applicable for vet maneuvers however mercs and nomads can use them as well.
-
+The vedi kit (veterinarian medical kit) is a disposable single-use tool kit for making quick fixes.
+The quick fix is a temporary healing maneuver best done by veterinarians.
+The kit contains bioelectric painkillers, tissue adhesives, cutting acids, spray-on bandages, and fur remover.
+For sanity reasons, vedi kits melt into useless blobs after use.
 Vedi kits are also called medi kits, med packs, veti kits and first aid kits.
-When found in the field there will usually be 1-6 vedi kits 
+When found in the field, there will usually be 1-6 vedi kits. 
 
 === Vedi Wrap
 
@@ -1178,26 +1022,24 @@ Wate:: 100gms
 EXPS:: 100
 Value:: 3000
 
-A vedi wrap is a patch of self adhering synthetic skin that melts onto injured skin.
+A vedi wrap is a patch of self-adhering synthetic skin that melts onto injured skin.
 The wrap can be easily applied to obvious wounds by personas of any vocation. 
-Once applied the wrap's effect is immediate and any further damage is arrested.
+Once applied, the wrap's effect is immediate, and the wrap prevents any further damage.
 The wrap will heal up to 30 hit points of specific skin damage.
 
 include::ROOT:partial$CH47_Table_Medi_Wrap_Type.adoc[]
 
-A veterinarian can extending a vedi wrap to cover multiple smaller wounds. 
-This would allow one vedi wrap to be used multiple times.
-This is a flat 3DD maneuver.
-Only veterinarians can extend a vedi wrap.
+Veterinarians can extend the use of a vedi wrap by winning performance rolls.
+A veterinarian can extend a vedi wrap to cover multiple wounds allowing one vedi wrap multiple uses.
+Extending a vedi wrap is 3DD per extension (3DD then 6DD then 9DD).
 
-A veterinarian can use a vedi wrap to cover different injury types.
-This would allow a chemical burns wrap to be used for a thermal burn.
-This a flat 3DD maneuver.
-Only veterinarians can cross purpose a vedi wrap.
+Veterinarians can extend a vedi wrap to heal different injury types.
+A thermal burn vedi wrap could heal a chemical burn.
+This a 3DD maneuver.
 
-NOTE: *A vedi wrap is not a veggie wrap and therefore not edible.*
+NOTE: *A vedi wrap is not a veggie wrap and is not edible.*
 
-Previous names have included Vedi wraps are also called medi wraps, med packs, veti wraps and first aid wraps.
+Vedi wraps are also called medi wraps, med packs, plasters, veti wraps and first aid wraps.
 
 
 === Vedical Kit 
@@ -1209,16 +1051,15 @@ Wate:: 10kg
 EXPS:: 2000
 Value:: 500000
 
-The vedical kit combines a simple diagnostic computer and pile of medical supplies.
-The vedical kit is not an autonomous device and assists personas making quick fixes.
-The small diagnostic computer can aid any persona in the proper steps of first aid.
+The vedical kit (veterinarian medical kit)combines a simple diagnostic computer and a pile of medical supplies.
+The vedical kit is not an autonomous device but assists any persona in making quick fixes.
+The quick fix is a temporary healing maneuver best done by veterinarians.
+Other persona vocations can use a vedical kit, but they can only do quick fixes and get no bonuses.
 Vets enjoy a +42 bonus on any acute care maneuvers (quick fixes, poison cures, etc.).
-Other vocations can use the kit, but do not enjoy any bonuses.
-Non-vet personas can apply quick fixes (and only quick fixes) when using a medical kit.
-The diagnostic computer runs out of power, and the stores run out of materials, after 42 uses.
+The diagnostic computer runs out of power, and the stores run out of materials after 42 uses.
 Recharging a medical kit is left to the improvisational talents of the referee.
 
-A vedical kit can also been called a medical kit, trauma box or fist aid machine.
+A vedical kit is also called a medical kit, trauma box or fist aid machine.
 
 === Metab Counter 
 
@@ -1231,8 +1072,8 @@ Value:: 25000
 
 A metab counter graphically monitors respiration, blood flow, brain activity, and other useless metabolic indicators.
 The metab counter is the classic futuristic physician's stethoscope.
-This device has a 10 hex point and snoop range.
-Vets, and biologists, can use the metab counter to locate life forms, and to determine their health.
+This device has a ten hex point and snoop range.
+Vets and biologists can use the metab counter to locate life forms and determine their health.
 
 
 === Mood Ball 
@@ -1244,17 +1085,15 @@ Wate:: 2.1kg
 EXPS:: 300
 Value:: 25000
 
-The mood ball will alter and maintain the disposition of the persona holding it.
-If they are depressed it will make them happy, if they get angry it will calm them down.
-The mood ball is a psychiatric device that employs electrical signals and inaudible sounds to maintain socially acceptable personalities from the user.
-The mood ball is not a mind control device.
-The user is aware that she is employing the ball for her own benefit, since they will be genuinely happier when the ball is activated.
+The mood ball will balance and maintain the disposition of the persona holding it.
+If they are depressed, it will make them happy. 
+If they get angry, it will calm them down.
+The mood ball is a psychiatric device that employs electrical signals and inaudible sounds to maintain socially acceptable behaviours from the user.
+The mood ball is not a mind-control device.
+The user is aware that she is employing the ball for her benefit since they will be genuinely happier when the ball is activated.
 
-A persona that is frequently subjected to the emotional adjustments of the mood ball may become dependant on the device.
-The mood ball cannot be used to negate reasonable emotions, but may make them more tolerable.
-
-When a mood ball is used to manipulate a persona they get a a psionic roll.
-Winning the save roll prevents the mood ball from having any emotional effect.
+A persona that frequently uses the emotional adjustments of the mood ball may become dependant on the device.
+The mood ball cannot be used to negate reasonable emotions but may make them more tolerable.
 
 === Mutation Detector 
 
@@ -1267,10 +1106,10 @@ Value:: 25000
 
 This handy little box analyzes personas to detect mutations.
 There is one light for physical mutations and one light for mental mutations.
-This device does not detect the evolved powers of aliens.
-If the alien has mutated then the detector will sound off.
+This device does not detect the evolved powers of aliens or the mutation-like effects of robots.
+If the alien has a mutation, then the detector will sound off.
 
-If a target has physical and mental mutations both lights sound off.
+If a target has physical and mental mutations, both lights sound off.
 The detector does not reveal anything about the nature of the mutation.
 A mutation detector has a next hex range and does not work through obstructions.
 
@@ -1286,16 +1125,15 @@ Value:: 90000
 The cap generates a think space interference that prevents psionic intrusion.
 The device looks like an oversized beanie with a blinking light on top.
 The neuro cap will not defend against mental attacks that manipulate the environment.
-For example cryokinesis and life leech don't pass through the think space to work.
-However, ESP, and mental control would be blocked by the neuro cap.
+For example, cryokinesis and life leech don't pass through the think space to work.
+However, ESP and mental control pass through the thinkspace, and the neuro cap works on them.
+A  neuro cap is just a machine and offers no other benefits to the persona wearing it. 
 
-Mental attacks must first win a roll against a the persona's doubled mental strength.
-A persona with a 15 MSTR would have a psionic barrier 30.
-If the persona's MSTR were 6, her neuro barrier would be 20.
-A  Neuro Cap is just a machine, and offers no other benefits to the persona wearing it. 
-
-A mutant must remove a neuro cap before she can unleash her own  mental mutations.
-While wearing a neuro cap on she must win a psionic roll versus double her MSTR before using a mental mutation.  
+Mental attacks must win a roll against the persona's doubled mental strength.
+The mental defence of the neuro cap has a minimum MSTR of 20.
+A persona with a 15 MSTR would have a psionic barrier of 30.
+If the mental attack passes the neuro cap's psionic barrier, the persona still gets a save versus a mental attack.
+The neuro cap will also block any mental mutation that the persona attempts to emit.
 
 === Poison Detector 
 
@@ -1307,11 +1145,11 @@ EXPS:: 300
 Value:: 25000
 
 This handy little box detects poisonous compounds. 
-The poison detector has a 2 hex range.
+The poison detector has a two hex range.
 There are a few lights and a scale.
 The scale indicates how dangerous the poison is.
-The danger is related to the intensity, but the exact intensity is not revealed.
-The detector can also differentiate between radiation, chemical or biologic poisons.
+The danger is related to the intensity, but the player does not learn the exact intensity of the poison.
+The detector can also differentiate between radiation, chemical or biological poisons.
 
 Nomads and biologists can use the device to assess a poison risk.
 A vet can use the device to assist with treating toxic patients.
@@ -1326,18 +1164,18 @@ EXPS:: 1984
 Value:: 62036049
 
 A poison box can synthesize an antidote from a sample of a poison. 
-If there is no antidote to the poison box acts as a resource for veterinarians. 
-The poison box has no range and the toxic sample must be placed into it.
-A treatment can be either an antidote or a huge performance roll bonus for the vet.
+If there is no antidote to the poison, the box acts as a resource for veterinarians. 
+The poison box has no range, and it requires a toxin sample.
+Treatment can be either an antidote or a performance roll bonus for the vet.
 
 Synthesis of antidote requires 1 to 8 hours of battery use.
-This often means that an initial poisoning will not have an antidote in time.
-If an antidote is fabricated future poison rolls will double the persona's constitution.
+This duration of synthesis often means that an initial poisoning will not have an antidote in time.
+An antidote doubles the persona's constitution for poison saving rolls.
 An antidote or treatment has no effect if the persona is already dead.
 
 Reconfiguring a poison box to make poison is very hard and quite likely will destroy the machine.
-This would require a research team and is at least a 50DD maneuver. 
-A failed attempt at reconfiguring a poison box for nefarious purposes would destroy it.
+Creating a poison box would require a research team and is at least a 42DD maneuver. 
+A failed attempt at reconfiguring a poison box for nefarious purposes would permanently damage the device.
 
 === Psionic Box 
 
@@ -1349,18 +1187,19 @@ EXPS:: 1984
 Value:: 129036049
 
 The psionic box is like a stethoscope for the think space.
-The device contains materials that absorb psionic energy wavelengths, and frequency generators that can constructively, or destructively interfere with think space wave forms.
-The veterinarian can use the psionic box to probe the local area for psionic anomaly.
-The box is an elaborate detector that will betray the presence of any mental mutations (but not physical mutations), or manipulations of a psionic nature.
-For instance the psionic box could be used to eavesdrop on telepathic conversations, or send out simplistic psionic signals.
+The device contains materials, generators and detectors that measure interactions between consciousness and the thinkspace.
+The box is an elaborate detector that will betray the presence of any mental mutations (but not physical mutations) or manipulations of a psionic nature.
+The veterinarian can use the psionic box to probe the local area for a psionic anomaly.
 
-If the hair net like extension of the device is attached to the scalp of a suspected mutant, there is a chance of determining what mental mutations the persona has.
-Time stop mutation would reveal the ability to manipulate time, and not something called time stop.
-If the persona saves versus mental attack of intensity 4 to 24, the psionic box will yield no information.
-The level of the veterinarian making the assessment can be added to the intensity, increasing her chances of success.
-Such a probe will take 1 to 100 units of melodramatic agony.
-This requires a successful maneuver of DD12 for a veterinarian (DD16 for biologists).
-If this device happens to be combined with a cerebro converter, the victim's mind can be searched like a roll-a-dex for vital information.
+For instance, a veterinarian could use the psionic box to eavesdrop on telepathic conversations or generate simplistic psionic signals.
+
+Attaching the psionic box to a mutant's scalp can deduce a mental mutation's effects.
+The psionic box would reveal the ability to manipulate time and not a diagnosis called Time Stop.
+The mutant can defend against the intrusion by winning a mental attack of intensity 4-24 (4d6).
+The level of the veterinarian making the assessment is added to the intensity, increasing her chances of success.
+The probing takes 1 to 100 units of melodramatic agony.
+If the mutant fails their saving roll, the veterinarian must win a 12DD to detect the mutation type (16DD for biologists).
+The psionic box can combine with a Cerebro converter to search the target's mind like a https://en.wikipedia.org/wiki/Rolodex[roll-a-dex].
 
 === Phenotype Detector
 
@@ -1375,20 +1214,19 @@ This handy little box helps detect the taxonomy of organic personas.
 The detector works on deceased specimens as well.
 
 EXP has a sciency fiction taxonomy to separate the three families.
-Jump to xref:i-roll_playing_rules:CH04__Families.adoc[Families] for more info.
-The family level reading will be hominidae (anthros), diversidae (aliens), or inorganic.
-
-The genus level reading for anthros is homo.
-The species level reading for anthros is the anthro type.
-Anthro types are avis (avarian), Canis (canine), Felis (feline), etcetera.
+Jump to xref:i-roll_playing_rules:CH04__Families.adoc[Families,window=_blank] for more info.
+The family level reading will be Hominidae (anthros), diversidae (aliens), or inorganic.
+The genus-level reading for anthros is homo.
+The species-level reading for anthros is the anthro type.
+Anthro types are Avis (avarian), Canis (canine), Felis (feline), etcetera.
 An aquarian would register as Hominidae Homo Pisces.
-It's subspecies would be its appearance shark, goldfish, or octopus.
+The subspecies would be its appearance shark, goldfish, or octopus.
 
-The genus level reading for alien depends on what the referee named it.
-Brand new aliens can be registered and cross referenced to other registered aliens. 
-This would allow a biologist to build a menagerie of sciency fiction names.
-The famous sand worm from Arrakis would register as Diversidae Lumbricalis Arrakis Gigantis.
-Later the sand worm may be renamed Diversidae Lumbricalis Arrakis Melange.
+The genus-level reading for alien depends on what the referee named it.
+Brand new aliens can be registered and cross-referenced to other registered aliens. 
+This detector allows a biologist to build a menagerie of sciency fiction names.
+The famous sandworm from https://en.wikipedia.org/wiki/Sandworms_of_Dune[Arrakis] would register as Diversidae Lumbricalis Arrakis Humongous.
+Later the sandworm may be renamed Diversidae Lumbricalis Arrakis Melange.
 A phenotype detector can add a tremendous amount of work for the referee.
 
 === Rejuv Chamber 
@@ -1401,47 +1239,48 @@ EXPS:: 2000
 Value:: 210000042
 
 The rejuv chamber is a technomagical device that repairs damaged organic personas.
-This is the classic fluid filled tank where the injured are submerged to heal. 
-A deceased persona will only clog up a rejuv chamber. 
+A rejuv chamber is the classic sciency fiction fluid-filled tank where the injured are submerged to heal. 
 This artifact does *not* restore life to the dead and does *not* grow back missing limbs.
+A deceased persona will only clog up a rejuv chamber. 
 The rejuv will remove bullets, replace burned skin, set bones, excise tumours, drain swellings, trephine a skull, fix blood chemistry, filter toxins, and groom the patient's hair, nails and skin.
-After a stint in a rejuv chamber the patient will feel refreshed, clean, and alive.
-Some personas use the precious device as a personal groomer.
+After a stint in a rejuv chamber, the patient will feel refreshed, clean, and alive.
+Some personas use the device as a personal groomer.
 
 The chamber does *not* resurrect deceased personas.
 Nor does the chamber restore missing limbs.
 The chamber does restore hit points and attribute values.
-The rejuv chamber can repair AWE, CHA CON, DEX, PSTR and HPS.
+The rejuv chamber can repair AWE, CHA CON, DEX, PSTR and HPS Total.
 The rejuv chamber cannot repair INT, MSTR or HPS Max. 
-If an attribute is below 1 (except CHA and HPS) the persona is irrevocably dead.
+If an attribute drops below one (except CHA and HPS Total), the persona is irrevocably dead.
 
-The rejuv chamber robs Peter to pay Paul. 
-The chamber spends time moving tissue around to replace and regrow damaged tissue.
-There is a good chance that one attribute will be repaired at the expense of another.
-To enjoy a clean rejuv chamber experience the vet must make a successful performance roll.
-The degree of difficulty of the maneuver is 1 DD per point being rejuvenated.
-So repairing 10 HPS would be a 10 DD maneuver. 
-xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams] are recommended when running a rejuv chamber.
+To have a safe rejuv chamber experience, the vet must win a performance roll.
+The degree of difficulty of the maneuver is 1 DD per point of rejuvenation.
+So repairing 10 HPS would be a 10 DD maneuver, and fixing 1 PSTR point is a 1DD maneuver. 
+xref:i-roll_playing_rules:CH14_Performance_Tables.adoc#_research_teams[Research Teams,window=_blank] are recommended when running a rejuv chamber.
 
 Vet failure will result in the removal of one point from one attribute to repair another. 
-Regardless of how many hit points are being repaired the attribute only counts as 1 point.
-The attribute reduced is randomly determined.
-When repairing tissue the rejuv chamber may damage the patient.
+The rejuv chamber robs Peter to pay Paul. 
+Instead of growing fresh tissue, the chamber moves tissue around instead.
+A failure by the research team leads to the persona loses an attribute to undertake the rejuvenation.
 
-Treating parasites, diseases, poisons, tumours, and pharma does not damage the persona.
-At full health a persona can get a wonderful manicure and hair doo without risk.
+If the vet loses her 20 DD performance roll, the patient loses 1 point off a random attribute and returns to full health. 
+Regardless of what requires rejuvenation, the patient only loses on attribute point.
+The attribute reduced is randomly determined.
 
 include::ROOT:partial$CH47_Table_Rejuv_Damage.adoc[]
 
-Treatment duration is 1 hour per hit point being rejuvenated or 1 day per attribute being rejuvenated. 
-So a persona getting rejuvenated 20 HPS would require 20 hours in the machine.
-If the vet lost her 20 DD performance roll the persona would lose 1 point off a random attribute and return to full health. 
+Only treatments that need point restoration can harm the patient.
+Treating parasites, diseases, poisons, tumours, and pharma side effects will not damage the persona.
+At full health, a persona can get a fabulous manicure and hair doo without risk.
 
+Treatment duration depends on what requires rejuvenation. 
+A patient healing 20 HPS would require 20 hours in the machine.
+A patient undergoing an 8DD maneuver would require 8 hours in the machine.
 Vets can speed up the process by increasing the degree of difficulty of the maneuver.
-The rejuv chamber does not work like a stasis bag and ejects personas once treatments are done. 
+The rejuv chamber does not work like a stasis bag and ejects personas when the treatment finishes. 
 
 :art: omnilingual.png
-:width: 250px
+:width: 450px
 :snark: BIPAP for biohazard
 :artist: Kelly Freas
 :date: 1957
@@ -1460,19 +1299,16 @@ EXPS:: 500
 Value:: 50000
 
 A Respirator will monitor, regulate and maintain respiration in organic personas.
-This includes any anthro persona physiology.
-For example, the respirator moves carbon dioxide for florians. 
+For example, the respirator moves carbon dioxide for florians and oxygen for canines.
 The device snuggles over the mouth and nose.
-It appears like a full face, rounded scuba mask
+It appears like a half-face, rounded scuba mask.
 
-If any breathing irregularities arise the respirator will take over. 
-The device will filter out toxic substances in the air, but does not have its own air supply.
+If any breathing irregularities arise, the respirator will take over. 
+The device will filter out toxic substances in the air but does not have an air supply.
 It protects the persona from toxic air but is not usable underwater.
 
-This artifact can be combined with a <<_cardio_vest,Cardio Vest>> to buy time for personas in cardiopulmonary arrest.
-
 :art: laser_scalpel.png
-:width: 250px
+:width: 350px
 :snark: Smoking edge of the blade
 :artist: Patrick Redding
 :date: 1991
@@ -1490,15 +1326,15 @@ Wate:: 100gm
 EXPS:: 200
 Value:: 1500
 
-This scalpel is blade-less finely adjustable surgical flesh cutting device.
+This scalpel is a blade-less finely adjustable surgical flesh cutting device.
 A scalpel will easily cut through any organic covering.
-Most often it is lazer based, but the scalpel could also be sonic based.
+Most often, the device is lazer based, but the scalpel could also be sonic-based.
 Choose which style is best for the milieu.
 
 Weaponizing this device yields unpredictable results.
 Each attack drains 30 units of battery power.
-Six attacks would drain a full battery.
-It attacks as a type A weapon, but has no PSTR bonus.
+Ten attacks would drain a full battery.
+It attacks as a type A weapon but has no PSTR bonus.
 A successful attack roll will inflict 2-12 (2d6) hit points of cutting damage.
 
 A treatment with this device used 1-20 units of battery.
@@ -1514,57 +1350,50 @@ EXPS:: 200
 Value:: 1500
 
 The stasis bag is the body bag of the future.
-All organic processes are suspended within the bag.
-This means that there is no decomposition, no need for respiration, and no need for food.
-The stasis bag will suspend any organic material in a steady state: lunches,
-bodies, limbs, eyes for the eye bank, and even whole unconscious organisms.
+The stasis bag suspends all organic processes, especially one like decomposition.
+Stasis means that there is no decomposition, no need for respiration, and no need for food.
+The stasis bag will suspend any organic material in a steady state: lunches, bodies, limbs, eyes for the eye bank, and even whole unconscious organisms.
 The auto-embalmer cannot hold an unwilling occupant, and anyone could thrash their way out of the thin opaque bag.
 Stasis bags can be any colour, but they are always opaque. 
-
-A stasis bag requires an atmosphere and a temperature between 80°C and +80°C.
-The bag does not work exatmo, or protect the contents from fire or further damage.
-
-A stasis bag must be properly opened by a vet, biologist or mechanic.
-Failing the 5 DD performance roll results in spoiled contents. 
-Spoiled contents will be dead, suffer accelerated aromatic decomposition.
-Long term storage can lead to explosive spoiling.
-This results in a failed stasis bag acting like a grenade of grossness.
-A stasis bag has a 1% chance per year of storage of explosive spoiling.
-This does not happen if the performance roll is successful.
 
 One bag can hold 150 kg.
 Only one type of organic material per bag is allowed. 
 Two canines would be acceptable.
 A canine and turnips would not.
+A stasis bag requires an atmosphere and a temperature between -80°C and +80°C.
+The bag does not work exatmo.
+
+A vet, biologist or mechanic must properly open a stasis bag.
+The player must win a 5 DD performance roll of the contents rapidly spoil. 
+Spoiled contents are dead and suffer accelerated aromatic decomposition.
+Failure when opening a stasis bag from long-term storage can lead to explosive spoiling.
+Explosive spoiling does not inflict damage but results in a grenade of grossness.
+A stasis bag has a 1% chance per year of storage of explosive spoiling.
+
 Larger bags increase in value (+1000 ) and wate (+200 gm) for every additional 150 kg of capacity.
 
 === Touch Gloves 
 
 [horizontal]
 Duration:: Single use.
-Bonuses:: +20 for touch related rolls
+Bonuses:: +20 for touch-related rolls
 Wate:: 2gm
 EXPS:: 360
 Value:: 25000
 
 Touch gloves are medical safety gloves that also enhance the sense of touch.
 They appear as surgical gloves with visible circuitry and maybe a blinking light.
-When worn they melt into the skin, accentuating the persona's digital sense of touch.
-This produces hypersensitive touch of such clarity that the user can almost feel air molecules careening off her fingertips.
+When worn, they melt into the skin, accentuating the persona's digital sense of touch.
+This hypersensitive touch is so clear that the user can almost feel air molecules careening off her fingertips.
 
-The gloves cannot be removed, and wear off in about 1 to 4 days.
-Typically a vet will remove the gloves after a maneuver is completed.
-The gloves can be scraped off easily with a good paw wash.
+Typically a vet will remove the gloves after completing a  delicate maneuver.
+If the persona does not remove the gloves, they wear off in 1-4(1d4) days.
 
 Touch gloves improve the persona's awareness. 
 There is a general bonus of +1 AWE. 
-There is an addition bonus of +2 AWE when making touch related rolls.
-
-There are additional vet and vocation specific bonuses.
-The gloves will restore the sense of touch to any persona who is "out of touch."
+There is an additional bonus of +2 AWE when making touch-related rolls.
 Mechanics can use the bonus for delicate repairs.
-Veterinarians get an additional +15 on all surgery related rolls.
-Spies can use the bonus for picking pockets, or opening locks.
+Spies can use the bonus for picking pockets or opening locks.
 Pilots and drivers can use the bonus for driving rolls.
 
 === Translinker 
@@ -1576,60 +1405,47 @@ Wate:: 200gms
 EXPS:: 750
 Value:: 1000000
 
-The translinker is a bidirectional neuro machine connector.
-The translinker will allow a veterinarian to directly interface with a piece of vet equipment controlling it as an extension of her own mind.
-The translinker would allow a vet to integrate herself with a rejuv chamber and make medical decisions along the way.
-The translinker allows her to visualize the device's data as part of her own memory structure, and to control the device's controls as part of her own motor system.
-She becomes at one with whatever she translinks with.
-
-A translinker could also be used by a mercenary to fire a piece of artillery, or by a spie to bypass a security lock, or by a mechanic to drive a space vehicle.
-A translinker would allow virtual access to a computer's memory system.
-If the persona starts to use the translinker for things other than simple machines (robots or AI computers) there is a very real risk of the machine gathering some control over the persona, or the persona becoming addicted to the sensations of translinking.
-
-The artifact being connected to must have either data or computational power of some kind.
+The translinker is a bidirectional neuro machine interface.
+The translinker will allow a persona to directly interface with a piece of equipment, controlling it as an extension of her mind.
+The equipment must be more complex than a simple machine and contain electronics and computers for a translinker to connect.
 The translinker could not attach to a vedi-kit or a pistol.
-But it may connect to a vedical kit or a fancy scope.
+But it may connect to a medical kit or a fancy scope.
 
-The translinker can take on any format that the referee wishes.
-One the persona's end there may be a socket in the skull, or it may look like tin foil hat.
-The connector could be a cord, radio link, or a keyboard deck.
-The device could have a plug or a nail that is driven into the side of the machine.
+The translinker allows her to visualize the device's data as part of her memory structure and control the device's controls as part of her motor system.
+The persona becomes one with the device.
+The translinker would allow a vet to integrate herself with a rejuv chamber.
+A translinker allows a mercenary to fire a piece of artillery.
+A spie may gain insight into an electronic lock.
+A mechanic to drive a space vehicle.
+A translinker would allow virtual access to a computer's memory system.
 
+If the persona translinks with consciousness containing machines like robots or AI, there is a risk of the inorganic controlling the organic.
+The competition for control is up to the referee and depends on the machine's intelligence versus the persona's mental strength (not intelligence).
 
-== Vet Equipment Attribute Explanations
+The persona may also become dependent on the translink device.
+Frequent use, or abuse, may prevent the persona from disconnecting from the device.
+If the persona fails a mental attack, she may prefer to view the world through the machine she translinks with rather than her senses.
 
-=== Combining Equipment
+The translinker's appearance depends on the referee's milieu and story.
+There may be a socket in the skull, a tinfoil hat, a keyboard deck, a coily cord, or a nail that punches into the machine.
 
-As veterinarians gather vet equipment their proficiency as healers will increase greatly.
-A low level veterinarian could perform the most amazing of miracles.
-Because of this some referees will want to limit the amount of equipment that he persona will be able to use at once.
-This is entirely the preference of the referee.
-A vet could be limited to using 2 pieces of vet equipment per experience level.
-If additional pieces are desired then the persona must make a successful PT roll to include them.
-Research teams can greatly assist her because each persona can control several artifacts yet all the players rolling will earn PT roll bonuses.
+== Vet Equipment Parameters
 
 === Duration 
+The duration parameter indicates how much use the persona can get from the artifact.
+Single-use and disposable vet equipment improve patient hygiene and corporate profits.
 
-Duration is the amount of use that can be had from a piece of vet equipment before it must be discarded, or its batteries replaced.
-If the duration only has a certain number of uses like One use, or 50 uses, then the device is depleted when that number of uses is reached.
-Many devices only require a freshly charged set of batteries, but other devices are disposable, or require replacement materials.
-Devices that have a time length like 500 units, or 25 hours
-can operate for that length of time before their batteries are depleted.
-If a duration lists a wate like 500kgs This means that the device can process 500 kg of flesh, or materials, before the batteries must be replaced.
-The last duration type is power source.
-This means that ate artifact requires so much power that it must be attached  to an industrial power source, like a nuclear generator, or a hydroelectric power plant.
-It is not uncommon for these artifacts to require a cooling down period, or even a maintenance, between uses.
+Other devices have a time for their duration parameter, like 500 units, 25 hours or 10 kgs of flesh.
+Each treatment depletes the duration by a set amount, and when the duration is all gone, the device needs new batteries.
 
 === Wate 
-
-The wate of medical equipment is the functional wate of the toy excluding batteries.
-For some equipment the wate after tech level adjustment is an indicator of how difficult the machine is to use.
+The wate of medical equipment is the functional wate of the artifact, excluding batteries.
+Wate is also a proxy for tech level, where low tech level machines are bigger and heavier.
 
 === EXPS 
-
-The experience point value is awarded to the persona who correctly identifies the device, or is successfully treated with the artifact and then identifies it.
-Enormous experience point awards are supposed to be granted to entire expeditions, or research teams, not individual personas.
+The experience point value is for the persona, or personas, who correctly identifies the device.
+Identification can occur before or after the device is used.
 
 === Value 
-
-This is the electrum piece value of the device in a regular market, certain devices may be invaluable if a wealthy enough persona's health is on the line.
+The value parameter is how many electrum pieces the device is worth.
+The value of a device may be priceless in certain situations of milieus.

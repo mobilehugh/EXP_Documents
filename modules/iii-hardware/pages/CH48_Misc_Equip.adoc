@@ -3,7 +3,7 @@
 Miscellaneous equipment covers those artifacts that don't have a specific home.
 Examples are visual aids, computers, lights, and special ammunition.
 Miscellaneous equipment also includes some rare and unique devices.
-Examples of these are dehydrators, and tesseract boxes.
+Examples of these are dehydrators and tesseract boxes.
 
 :art: detector_detecting.png
 :width: 250px
@@ -17,7 +17,7 @@ include::ROOT:partial$articulate.adoc[]
 
 .*Miscellaneous Equipment Checklist*
 . <<_miscellaneous_equipment_type,Miscellaneous Equipment Type>>
-. <<_miscellaneous_equipment_attribute_explanations,Miscellaneous Equipment Attribute Explanations>>
+. <<_miscellaneous_equipment_parameterss,Miscellaneous Equipment Parameters>>
 
 == Miscellaneous Equipment Type 
 
@@ -35,17 +35,19 @@ EXPS:: 200
 Value:: Special
 
 Absorbers are capable of eliminating environmental components that are harmful to organic creatures.
-The absorbers are industrial strength air cleaners that counteract harmful agents like radiation, gas, and smoke.
+The absorbers are industrial-strength air cleaners that counteract harmful agents like radiation, gas, and smoke.
 The devices all operate on unknown electrochemical and mechanical principles that allow the referee to ignore any problems regarding the laws of conservation of mass.
 All absorbers have the same specifications and abilities.
 They eliminate the substance in question in a non-violent manner.
 
-They have a 3 hex radius of effect in which the absorbed material will have absolutely no effect.
-For instance a radiation absorber would reduce the effects of radiation within the 3 hex area of effect for the duration of the battery set.
-The absorber will also clean up an area around itself, by drawing in and neutralizing the offending substance.
-The durations of substances like smoke, radiation and gas clouds are reduced to 1/4 if their area of effect and duration.
+They have a three hex radius of effect in which the toxic material will have absolutely no effect.
+For instance, a radiation absorber would reduce the effects of radiation within the three hex area of effect for the duration of the battery set.
+The absorber will also clean up an area around itself by drawing in and neutralizing the offending substance.
+The absorbers reduce the duration and area of effect to 1/4 of expected.
+Substances like smoke, radiation and gas clouds drop to 1/4 of their area of effect and duration.
 For those absorbers that can absorb damage, each HPS of damage absorbed counts as 1 hour of battery life.
 
+//table fix
 include::ROOT:partial$CH48_Table_Absorber_Type.adoc[]
 
 === Aerosol Regulator 
@@ -57,12 +59,14 @@ Wate:: 500gms
 EXPS:: 600
 Value:: Special
 
-The aerosol regulator has no false advertisements in its title, it simply regulates aerosols.
+The aerosol regulator has no false advertisements in its title. 
+It simply regulates aerosols.
 The cap-like device snaps onto an aerosol, restraining its all-in-one-use nature.
-The aerosol regulator will yield 1-4 additional uses for an aerosol which normally only yields one use.
-The aerosol regulator cannot be removed until all charges are spent.
+The aerosol regulator will yield 1-4 additional uses for an aerosol.
+Aerosols typically only yield one use.
+The persona cannot remove the aerosol regulator until she expends all charges.
 The device can also moderate the effect of any non-combat aerosol.
-Paint aerosols will act like normal paint canisters, and foam aerosols will dispense like shaving cream.
+Paint aerosols will act like ordinary paint canisters, and foam aerosols will dispense like shaving cream.
 
 === Ammunition 
 
@@ -73,17 +77,15 @@ Wate:: Doubled
 EXPS:: 100
 Value:: Special
 
-This ammo is special ammunition for guns found in chapter 46.
-It is actually more like bizarre ammo.
-The ammo is designed for bolt action rifles, derringers, semi-automatic weapons, full-auto pistols/rifles, job pistols/rifles and revolvers.
-These are the typical weapons which explosively launch bullets.
+This ammo is unique, more like bizarre, ammunition for guns.
+The ammo is for bolt action rifles, derringers, semi-automatic weapons, full-auto pistols/rifles, job pistols/rifles and revolvers.
+These are the typical weapons that explosively launch bullets.
 Other special weapons (fusion, plasma) do not have special ammo.
-Ammunition for such guns, as with normal ammo, is generated in chapter 55, Support Equipment.
-Roll on Table 48.3, +++<i>+++Special +++</i>++++++<i>+++Ammo +++</i>+++to determine the special ammunition type.
-Generally 1 to 1000 rounds will be found.
-Whether, or not, ammo fits available weapons is determined by the referee.
+An ammo cache has 1 to 1000 rounds.
 Whether or not ammo fits an available weapon can be determined by sphincter-dice
+//link fix
 
+//table fix
 include::ROOT:partial$CH48_Table_Ammunition.adoc[]
 
 
@@ -96,12 +98,12 @@ Wate:: 1kg or 15kg
 EXPS:: 250
 Value:: 10000
 
-The anti grav backpack reduces the wate of equipment stored within it.
-Anything placed inside the backpack will be reduced to one tenth its normal wate.
+The antigrav backpack reduces the wate of equipment stored within it.
+Antigrav load balancing will reduce anything placed inside the backpack to one-tenth its normal wate.
 If the backpack should get turned off, it will have a wate of 15 kg plus the regular wate of all equipment stored within it.
 The backpack has a maximum capacity of 200 kg of equipment.
 This device offers no benefits to the wearer other than wate allowance.
-For instance the anti grav backpack will not allow the persona to fly, fall slowly, or reduce her wate in high gravity atmospheres.
+For instance, the antigrav backpack will not allow the persona to fly, fall slowly, or reduce her wate in high gravity atmospheres.
 
 === Anti Grav Beam 
 
@@ -115,13 +117,10 @@ Value:: 500000
 The antigrav beam generates anomalous gravity in a one hex area of effect, up to 5 hexes away.
 The beam delicately lifts objects into the air and gently sets them back down.
 There is no way to weaponize this device or lift involuntary personas. 
-The box is meant to lift large or delicate objects to ease repair.
-The antigrav beam can be adjusted to rotate objects into any position needed.
-The maximum wate of the object that can be effected is 20 tonnes
-An anti grav beam replaces hoists and lifts for repairs and inspections.
-
-A persona can lift herself into the air with the anti grav beam.
-
+The antigrav beam is for lifting large or delicate objects to ease repair.
+The user can adjust the beam to rotate objects into any position needed.
+The maximum wate supported by the beam is 20 tonnes.
+An antigrav beam replaces hoists and lifts for repairs and inspections.
 
 === Anti Grav Belt 
 
@@ -132,14 +131,14 @@ Wate:: 250gm
 EXPS:: 375
 Value:: 5000
 
-The antigrav belt is a device which shows that even sadistic refs write rules.
-The a-g belt is a support device which keeps a persona's trousers from dropping.
-A similar version of the belt can be used to replace a brassiere.
-So depending on the mood of the ref, the player will have rolled either a a-g pant holder, or an a-g brassiere.
-Refer to antigrav boots for the type of antigrav equipment most personas think of.
+The antigrav belt is a device that shows that cheeky refs write rules.
+The antigrav belt is a support device that keeps a persona's trousers from dropping.
+There is another version of the belt that can replace a brassiere.
+The antigrav belt, or brassiere, does not lift the persona into the air, allowing them to fly around.
+Antigrav boots allow a persona to fly around, defying gravity.
 
 :art: antigravboots.png
-:width: 250px
+:width: 350px
 :snark: Light on your feet
 :artist: Peggy Lynn MacIsaac
 :date: 1991
@@ -157,15 +156,15 @@ Wate:: 8kg each
 EXPS:: 250
 Value:: 250000
 
-Antigrav boots are the typical anti grav unit found in most sciency fiction milieus.
-Anti grav boots allow the wearer to fly about without the worries of gravity.
-The gravity repulsion unit can operate for about 10 days before the battery set runs out.
-The anti grav boots can come in a belt form which has a wate of 16 kg.
-The anti grav boots will work on personas up to 150 kg in wate.
+Antigrav boots are the typical antigrav unit found in most sciency fiction milieus.
+Antigrav boots allow the wearer to fly about without the worries of gravity.
+The gravity repulsion unit can operate for ten days per battery set.
+The antigrav boots can come in a belt form which has a wate of 16 kg.
+The antigrav boots will work on personas up to 150 kg in wate.
 Either antigrav unit (boots or belt) can travel at up to 25 h/u, hover, fly upside down, fly sideways, etc.
 
-If a persona is trying a zany maneuver a driving roll should apply.
-The antigrav device is very maneuverable, and has a handling class equal to the persona's DEX.
+The antigrav device is very maneuverable and has a handling class equal to the persona's DEX.
+If a persona is trying a zany maneuver, a driving roll should apply.
 
 === Anti Anti Grav 
 
@@ -176,25 +175,24 @@ Wate:: 5kg
 EXPS:: 299
 Value:: 90000
 
-The anti anti grav beam is also called an anti grav neutralizer.
-The device normalizes gravity fields that have been manipulated by anti grav devices.
-The beam has the effect of negating anti grav units, gravruptor attacks, or any other non-natural gravity anomalies.
-The device returns manipulated gravity to normal.
+The anti-antigrav beam is also called an antigrav neutralizer.
+The device normalizes gravity fields that antigrav devices have manipulated.
+The beam has the effect of negating antigrav units, gravruptor attacks, or other non-natural gravity anomalies.
+The device maintains normal gravity.
 
 Any devices generating anomalous gravitational fields will instantly shut off.
-Most anti grav will start working again after 1-20 (1d20) units.
-The longer the anti grav is disable the more likely it will remain broken.
-If the neutralizer were used on an antigrav back pack, the back pack would crash to the floor.
+If the beam hits an antigrav backpack, the backpack will crash to the floor.
+The same is for antigrav boots and antigrav belts.
+The persona will crash to the ground, or her pants may fall.
+
+The antigrav units are disabled for 1-20 (1d20) units.
+The longer the antigrav is disabled, the more likely it will remain broken.
 If the pack were disabled for 14 units there would be a 14% chance of the backpack's anti grav unit being xref:i-roll_playing_rules:CH21_Artifact_Damage.adoc#_extent_of_damage[damaged,window=_blank].
 
-Other situations can lead to damaged objects and personas.
-A persona racing along on her anti grav boots may crash to the ground.
-The beam also disables vehicles less than 2 tonnes as well. 
-
-The anti grav neutralizer has a range of 20 hexes.
+The anti-antigrav beam has a range of 20 hexes.
 The maximum wate that it can affect is 2 tonnes. 
 Machines like space ships cannot be knocked out of the sky by this device.
-Mechanics enjoy a +10 bonus on any anti grav related rolls .
+Mechanics enjoy a +10 bonus on any anti grav related rolls.
 
 === Anti Grav Pushcart 
 
@@ -205,17 +203,13 @@ Wate:: 0kg or 75kg
 EXPS:: 100
 Value:: 250000
 
-The anti grav push cart is also called a wheel-less barrow.
+The antigrav push cart is also called a wheel-less barrow.
 The gravity repulser plate will nullify the wate of any object less than 10 tonnes.
-The pushcart must be placed under the object, but it need not be centered to lift.
+The pushcart must be under the object, but it need not be centred to lift.
 The barrow will raise the object about 20 cm off the ground.
-
 The device has safety features that prevent falling damage.
-Balance, while on the plate, is unimportant since there is no gravity to tip the object over.
-The anti grav pushcart can operate for 5 days on one battery set.
-The plate's max speed is 5 h/u.
-
-A PT roll bonus of +14 is granted to any lifting rolls made with this device.
+While on the barrow, balance is unimportant since there is no gravity to tip the object over.
+The pushcart's max speed is five h/u.
 
 === Attractors 
 
@@ -226,100 +220,97 @@ Wate:: 35kg
 EXPS:: 600
 Value:: Special
 
-Attractors are heavy boxes that employ an unusual array of chemical, pheromonal, gravitational, magnetic, and stranger mechanisms to redirect objects in motion.
+Attractors are heavy boxes that employ a fantastical array of chemical, pheromonal, gravitational, magnetic, and even stranger mechanisms to redirect objects in motion.
 The box can attract waves of energy, aliens, or projectiles.
 
 include::ROOT:partial$CH48_Table_Attractor_Type.adoc[]
 
-Ballistic::
-High velocity ballistic projectiles are redirected by this attractor.
-The projectile must pass through the device's area of effect. 
-Any bullets, missiles or gauss slugs are suddenly redirected towards the attractor.
-This would not include low velocity projectiles like arrows or spears.
+==== Ballistic
+The ballistic attractor redirects high-velocity projectiles.
+Bullets, missiles or gauss slugs change direction towards the attractor.
+The attractor does not affect low-velocity projectiles like arrows or spears.
 Expedition ballistics are also affected by the attractor.
 
-The projectiles usually crash harmlessly into the ground around the attractor.
-If the attractor has drawn a rocket propelled grenade the projectile does not impact harmlessly.
-Artillery, bombs, and grenades still have their area of effect attack even if redirected. 
-The attractor can also make a decent targeting device.
+The projectile must pass through the device's area of effect. 
+The projectiles change course and crash harmlessly into the ground around the attractor.
+Artillery, bombs, and grenades may still have their area of effect attack after redirection. 
+The ballistic attractor also makes a decent targeting device.
 
 The ballistic attractor has a 20 hex radius, a value of 33000, and is a mercenary artifact.
 
-Robots::
-Robots are drawn towards the electronic call of this attractor.
-When activated robots from far and wide will venture towards the attractor.
-In most cases the robot will be a referee persona that helps move the story along.
-In other cases it will be hordes of mindless drones.
+==== Robots
+The robot attractor draws robots from far and wide.
+The device has no specific range other than it helps move the story along.
+The attractor creates data and signals that make a robot within the range come and check things out.
+A moving bot may believe the attractor has a delivery for her.
+A combot may believe there is an enemy infiltration.
+A policing bot may believe there is a crime in progress.
+In other cases, it will be hordes of mindless drones.
 Player persona robots must win a control factor roll or head towards the attractor.
-The robot attractor has no specific range, but has a specific impact on story.
-For example, deploying this device on a robot run space vehicle would create chaos.
 
-The robot attractor has a value of 100000, and is a mechanic artifact.
+//table fix
 
-Communications::
+The robot attractor has a value of 100000 and is a mechanic artifact.
+
+==== Communications
 The communications attractor acts like a black hole sucking information into it.
-Any electromagnetic waves transporting data, such as radio or lazer, is redirected to the attractor.
-When deployed the attractor knocks out radio communications and disrupts hard wired data lines.
-All data transfer through the physical space is disrupted. 
-This includes encrypted data, and if close enough organic speech.
+The attractor redirects and disrupts data transfer through the physical space. 
+Any electromagnetic waves transporting data, such as radio or lazer, are redirected to the attractor.
+The field knocks out radio communications, disrupts hard-wired data lines and even face-to-face speech.
 
-When redirecting comms the data is bent out of shape rendering it useless for eavesdropping.
-In an urban center this artifact would devastate the communication system.
-This device does not attract psionic communications, sign language the written word or semaphore. 
+When redirecting comms, the data is randomly bent out of shape, rendering it useless for eavesdropping.
+In an urban center, this artifact would devastate the communication system.
+This device does not attract psionic communications, sign language, the written word or semaphore. 
 
-In a major urban center the energy load on the attractor can become quite high. 
-When used in any communication dense environment the artifact will seep radiation.
-Personas within 5 hexes must win a radiation roll versus intensity 4-24 (4d6) radiation.
-The radius of the comms attractor is 1 kilometer, but story trumps this range.
+In a major urban center, the energy load on the attractor can become dangerous. 
+When used in any dense communication environment, the artifact will seep radiation.
+Personas within five hexes must win a radiation roll versus intensity 4-24 (4d6) radiation.
+The radius of the comms attractor is 1 kilometre, but the story trumps this range.
 
 The communications attractor is has a value of 1000000 and is a mechanic artifact.
 
-Aliens::
-Aliens, and other personas are drawn towards the call of this attractor.
-When activated aliens from far and wide will shuffle, hop and slither towards the attractor.
-In most cases the alien will be a referee persona that helps move the story along.
+==== Aliens
+This device attracts organic lifeforms from the family diversidae.  
+When activated, aliens from far and wide will shuffle, hop and slither towards the attractor.
+In most cases, the alien will be a referee persona that helps move the story along.
 Player persona aliens must win a mental strength roll or head towards the attractor.
-The alien attractor has no specific range, but has a specific impact on story.
+The alien attractor has no specific range but has a specific impact on the story.
 For example, deploying this device in a zoo would create chaos.
 
-The alien attractor has a value of 100000, and is a biologist/nomad artifact.
+The alien attractor has a value of 100000 and is a biologist/nomad artifact.
 
 include::ROOT:partial$CH45_Table_Attracted_Personas.adoc[]
 
-Energy::
+==== Energy
 This attractor specifically draws energy within its area of effect.
-It is very effective at disrupting energy attacks like: fusion, and plasma attacks. 
+It is very effective at disrupting energy attacks like fusion and plasma attacks. 
 The attractor will also draw down power from energy transmission sources like power lines.
-The attractor does not drain batteries, unless the battery is using broadcast power. 
-
-In a high energy situation the  load on the attractor can become quite high. 
-This may cause the attractor to seep radiation.
-Personas within 5 hexes must win a radiation roll versus intensity 4-24 (4d6) radiation.
-
+The attractor does not drain batteries unless the battery is using broadcast power. 
 A mechanic to harness this attracted energy to recharge batteries.
-A win versus at 12 DD performance roll is required to successfully charge a battery.
+Recharging batteries from an energy attractor is an 8DD maneuver.
 A critical loss could result in battery damage. 
+
+In an energy-rich environment, the load on the attractor can become very high. 
+This overload may cause the attractor to seep radiation.
+Personas within five hexes must win a radiation roll versus intensity 4-24 (4d6) radiation.
 
 The energy attractor has a range of 10 hexes, a value of 100000 and is a mechanic artifact.
 
-Lazers::
-All lazer projectiles are redirected by this attractor.
+==== Lazers
+This attractor redirects all lazer projectiles.
 The lazer must pass through the device's area of effect. 
-Any lazer attacks, or lazer communications are redirected towards the attractor.
-This does not include energy attacks like fusion, fission or plasma attacks.
+Any lazer attacks or lazer communications redirect towards the attractor.
+Energy attacks like fusion, fission or plasma attacks are no affected by this device.
 Expedition lazers are also affected by the attractor.
-The lazer beams dissipate harmlessly on the attractor.
+The lazer beams dissipate harmlessly around the attractor.
 
 The lazer attractor has a 20 hex radius, a value of 33000, and is a mercenary artifact.
 
-Projectiles::
-Low velocity projectiles are redirected by this attractor.
+==== Projectiles
+This attractor redirects low-velocity projectiles.
 The projectile must pass through the device's area of effect. 
-Any flying arrows, rocks or daggers are suddenly redirected towards the attractor.
-Non-powered projectile weapons (Type B) are brought down by this attractor. 
-This does not include high velocity projectiles like bullets or gauss slugs.
-Expedition Type B attacks are also affected by the attractor.
-The projectiles usually crash harmlessly into the ground around the attractor.
+The device redirects arrows, rocks or daggers, forcing them to fall safely on the ground.
+Projectiles like bullets or lazers are unaffected by this attractor.
 
 The projectile attractor has a 20 hex radius, a value of 33000, and is a mercenary artifact.
 
@@ -332,17 +323,17 @@ Wate:: 3kg
 EXPS:: 2106
 Value:: 220000
 
-The computerized, automated, robotic lock pick is designed to defeat *mechanical* locks.
-The auto lock pick is not destructive and does not damage the lock or door.
-The lock pick is also covert and avoid setting off alarms if they are detected. 
-This toy works on mechanical locks, or the mechanical part of an electronic lock.
+The computerized, automated, robotic lock pick is for defeating *mechanical* locks.
+The auto-lock pick is non-destructive and does not damage the lock or door.
+The lock pick is also covert and avoids setting off alarms if they are detected. 
+This toy works on mechanical locks or the mechanical part of an electronic lock.
+The lock pick does not work on electronic or computer locks. 
 
-If employed by a spie the auto lock pick will be 90% effective at opening the lock.
-To avoid traps or alarms the player must win a 5 DD performance roll. 
-
+If employed by a spie, the auto lock pick will be 90% effective at opening the lock.
+To avoid traps or alarms, the player must win a 5 DD performance roll. 
 Other persona vocations can deploy the auto lock pick.
-The chance of success is reduced to 42% to opening lock.
-If there is an alarm or trap there is only 21% chance to avoid it.
+The chance of success is 42% to open the lock.
+If there is an alarm or trap, there is only a 21% chance to avoid it.
 
 === Auto Holster 
 
@@ -353,15 +344,15 @@ Wate:: 1 kg
 EXPS:: 200
 Value:: 20000
 
-The auto holster rapidly deploys it's holstered weapon directly into the persona's hand.
+The auto holster rapidly deploys its holstered weapon directly into the persona's hand.
 The persona merely puts their hand into an "I want to shoot my gun" position, and the holster flings the weapon to the ready.
 
-Under normal circumstances the auto pistol will always get the drop on an opponent.
-If two auto holsters are involved in a quick draw a regular dexterity challenge will prevail.
+Under normal circumstances, the auto pistol will always get the drop on an opponent.
+If two auto holsters are involved in a quick draw, the personas have a dexterity challenge.
 The auto holster allows the persona to attack during any stage of an ambush.
-The persona is not allowed to move during an ambush, but will be able to make a pistol attack.
+If the persona is not allowed to move during an ambush, the auto holster allows for a pistol attack.
 
-The auto holster can be modified to rapid reach rifles, detectors or vedi kits.
+Mechanics can modify the auto holster for rifles, detectors or vedi kits.
 
 === Auto Brush 
 
@@ -372,10 +363,10 @@ Wate:: 230gms
 EXPS:: 193
 Value:: 250
 
-The auto brush is a handheld device that sprays chemicals onto surfaces discolouring  them. \
+The auto brush is a handheld device that sprays chemicals onto surfaces, discolouring them. 
 The auto brush is a glorified paint dispenser.
-The colour, texture, and the width of each stroke is manipulated by the grip on the brush.
-This brush is designed for fine arts, and not for commercial structure painting.
+The grip on the brush manipulates the colour, texture, and width of each stroke.
+This brush is for fine arts and not for commercial structure painting.
 
 === Auto Card 
 
@@ -386,18 +377,19 @@ Wate:: 500gms
 EXPS:: 2006
 Value:: 220000
 
-The computerized, automated, auto card is designed to defeat *electronic* locks.
+The computerized autocard is for defeating *electronic* locks.
 The auto card is not destructive and does not damage the lock or door
 The auto card should avoid setting off alarms if they are detected. 
-This toy works on electronic locks, or the electronic part of an mechanical lock.
+The autocard opens electronic locks or the electronic parts of a mechanical lock.
 
-If employed by a spie the auto card will be 90% effective at defeating the lock.
-To avoid traps or alarms the player must win a 9 DD performance roll.
-A mechanic has no benefit when using the auto card to defeat locks, but gains +10 on all lock rolls. 
+If employed by a spie, the auto card will be 90% effective at defeating the lock.
+To avoid traps or alarms, the player must win a 9 DD performance roll.
+A mechanic has no benefit when using the auto card to defeat locks but gains +10 on all lock-related rolls. 
 
 Other persona vocations can deploy the auto card on electronic locks.
-The chance of success is reduced to 42% to opening lock.
-If there is an alarm or trap there is only 11% chance to avoid it.
+Other persona vocations can deploy the auto lock pick.
+The chance of success is 42% to open the lock.
+If there is an alarm or trap, there is only an 11% chance to avoid it.
 
 === Battery Power Plug 
 
@@ -411,8 +403,8 @@ Value:: 5000
 The power plug can attach itself to any power source and recharge most batteries. 
 It looks like a big box with cords and adapters hanging out of it.
 The power plug can recharge any kind of battery except for psionic and broadcast batteries.
-There is a 50% chance that the power plug will have an adapter to for a particular battery.
-Batteries are recharged immediately, but in combat the process takes 1-20 (1d20) units.
+There is a 50% chance that the power plug will have an adapter for a particular battery.
+Batteries immediately recharge, but in combat, the process takes 1-20 (1d20) units.
 Any vocation can use the automated battery power plug.
 
 The toy comes with 1 to 3 attached extension cords.
@@ -422,7 +414,7 @@ A mechanic can adapt the power plug to charge any battery with a 4DD maneuver.
 A mechanic can wire an extension cord to power an artifact indefinitely with a 15DD maneuver.
 For example, a lazer rifle attached to an extension cord would have unlimited ammo when plugged in.  
 
-The battery power plug grants a +15 bonus for any power or battery related rolls.
+The battery power plug grants a +15 bonus for any power or battery-related rolls.
 
 === Battery Slot
 
@@ -433,14 +425,14 @@ Wate:: 5 kg
 EXPS:: 666
 Value:: 5000
 
-The battery slot takes any battery type and converts it into a common output.
-The output can then be used to power another artifact.
-This allows the artifact to use any type of battery and increase its use.
+The battery slot takes any battery type and converts it to a standard output.
+The persona can then use the output to power another artifact.
+The battery slot allows the artifact to get power from any battery type. 
 The battery can hold 3-18 (3d6) batteries of any type.
 
-A 1 battery lazer pistol attached to a battery slot holding 8 batteries could shoot 8 magazines of lazer bolts in succession.
+A one battery lazer pistol attached to a battery slot holding eight batteries could shoot eight magazines of lazer bolts in succession.
 A mechanic is required to connect the battery slot to an artifact.
-This is a 9DD maneuver.
+Connecting a battery slot to an artifact is a 9DD maneuver.
 
 === Battery Recharger 
 
@@ -457,10 +449,10 @@ Non-mechanics using the device must roll 1d100 for each recharge of the battery.
 A roll of 42 indicates the battery has spectacularly expired.
 
 The battery recharger can recharge 3-18 (3d6) batteries at once.
-The battery recharger must be connected to a major power source.
-Recharging  a full set of batteries takes 8 hours.
+The persona must connect the battery recharger to a power source.
+Recharging a full set of batteries takes 8 hours.
 
-=== robot Neutralizer 
+=== Robot Neutralizer 
 
 [horizontal]
 Vocation:: Mechanic
@@ -470,28 +462,26 @@ EXPS:: 850
 Value:: 50000
 
 The robot neutralizer is a portable off switch for robots.
-When robots started to think on their own this aggressive remote off switch was created.
-The neutralizer disconnects a robot from their power source.
-This brings any robot to a grinding halt.
+The neutralizer disconnects a robot from its power source, bringing any robot to a grinding halt.
 Neutralized robots will gently park themselves and power down. 
-The shut down will not allow a robot to harm it's fabricator type, and the robot will ensure their safety before powering down.
+The shutdown will not allow a robot to harm itself or its fabricator type.
 
 The robot neutralizer has a chance of failure equal to the robot's control factor.
-A robot with a 25 control factor has a 25% chance of *not* being neutralized.
+A robot with a 25 control factor has a 25% chance of avoiding neutralization.
 This chance of failure cannot be higher than 80%
-A robot with a 97 control factor has a 80% chance of *not* being neutralized.
+A robot with a 97 control factor has an 80% chance of avoiding neutralization.
 
 Domesticated robots are easier to shut off with the robot neutralizer.
 Combots (type C), exatmo exploration (type E-X), policing (type P) are resistant to being neutralized.
-These robots earn a second chance to *not* be neutralized.
-A datalyzer (type d) *cannot* be turned off with a robot neutralizer.
+These robot types earn a second chance to avoid a shutdown.
+A datalyzers (type D) and hobbots (type H) *cannot* be turned off with a robot neutralizer.
 
-Neutralization is not permanent and the robot will reactivate in 3-300 (3d100) units. 
-In non-combat time the robot will reactivate in 1-10 (1d10) minutes.
-If a robot that has been neutralized is exposed to the neutralizer again it will reactivate.
-This can lead to a game of robots being turned on and off within the area of effect.
+Neutralization is not permanent, and the robot will reactivate in 3-300 (3d100) units. 
+In a  non-combat neutralization, the robot will reactivate in 1-10 (1d10) minutes.
+Using the robot neutralizer on a shutdown robot will cause it to reactivate immediately.
+So turning one robot off may turn another robot on within the three hex area of effect.
 
-Mechanics will earn a bonus of +42 on any robot related PT rolls with this artifact.
+Mechanics will earn a bonus of +42 on any robot-related PT rolls with this artifact.
 
 :art: atomizer.png
 :width: 250px
@@ -514,10 +504,10 @@ EXPS:: 850
 Value:: 50000
 
 The canceller safely disperses matter into its useless components.
-A canceller can disperse 1 hex of matter per use.
-The wate of the dispersed substance is not important, because personas are usually trying to pass by a barrier.
-The device has industrial safeguards which only allow the canceller to disperse homogeneous, or simple substances.
-Complex items such as robots or organics will prevent the canceller from functioning.
+A canceller can disperse one hex of matter per use.
+The wate of the dispersed substance is not crucial because personas are usually trying to pass by a barrier.
+The device has industrial safeguards which only allow the canceller to disperse homogeneous or simple substances.
+The canceller does not affect complex objects such as robots or organics.
 
 include::ROOT:partial$CH48_Table_Cancelled_Substance.adoc[]
 
@@ -530,12 +520,12 @@ Wate:: 900gms
 EXPS:: 80
 Value:: 100000
 
-The climate band is a non-combat, meteorologic force field defends the persona against weather.
-The persona is contained in a form fitting force field that will protect the persona from temperatures between -50°C and +50°C.
-The climate band will counter any meteorological such as: windchill factor, precipitation, hypothermia, heatstroke, sand storms, etc.
+The climate band is a non-combat, meteorologic force field that defends the persona against the weather.
+The climate band creates a form-fitting force field that protects the persona from temperatures between -50°C and +50°C.
+The climate band will counter any meteorological conditions such as wind chill, precipitation, hypothermia, heatstroke, sand storms, etc.
 A battery set will last five days.
 This force field can only operate in inatmo.
-The climate band does effect poison gas, lightning strikes or weaponized attacks.
+The climate band does not block poison gas, radiation, lightning strikes or weaponized attacks.
 
 === Climate Portent
 
@@ -546,10 +536,12 @@ Wate:: Special
 EXPS:: 42
 Value:: Special
 
-The climate portent is a translucent tent shaped force field against the weather.
+The climate portent is a translucent tent-shaped force field against the weather.
 The climate portent can protect its guests from all but the most extreme meteorological conditions.
-The portent will hold anywhere from 2-16 (2d8) anthro (medium sized) personas.
-This force field offers no protection from combat attacks, or poisonous gases.
+The portent protects personas from temperatures between -50°C and +50°C.
+The portent counters meteorological conditions such as wind chill, precipitation, hypothermia, heatstroke, sand storms, etc.
+The portent will hold anywhere from 2-16 (2d8) anthro (medium-sized) personas.
+This force field offers no protection from combat attacks or poisonous gases.
 The climate portent will only work in earth-like atmospheres.
 
 === Clothing 
@@ -561,70 +553,68 @@ Wate:: 4 kg
 EXPS:: 42
 Value:: Special
 
-A clothing set includes socks, pants, shirts, jacket, boot covers, and a hat or hoody.
-If appropriate the above items can be replaced by a onesie or a cloak.
-This clothing is specialized, and has rare and unique properties.
-Clothing cannot be used in conjunction with powered armour.
+A clothing set includes socks, pants, shirts, jacket, boot covers, gloves and a hat or hoody.
+A onesie or a cloak can replace the above items.
+This clothing is specialized and has rare and unique properties.
+The persona cannot use clothing in conjunction with armour.
 
 include::ROOT:partial$CH48_Table_Clothing_Type.adoc[]
 
-Compucammo::
+==== Compucammo
 Compucammo passes light from behind the wearer onto the suit.
-The detectors on one side the suit alter the emitters on the opposite side of the suit.
-This mechanism creates dynamic camouflage making the wearer nearly invisible.
-The compucammo is designed for stealth. 
-While sneaking and hiding motionless compucammo is very effective.
-This advantage is lost during hand to hand combat and the persona is easily perceived.
-
-The compucammo works on optical sensors.
+The detectors on one side of the suit alter the emitters on the opposite side of the suit.
+This mechanism creates dynamic camouflage making the wearer very hard to see with optical sensors.
 The suit cannot defeat radar, sonic eyes, smell or echolocation.
-When hiding a searcher must win a tough AWE roll to notice the persona.
-This is reduced to a normal AWE roll when the persona is moving.
-In close combat the advantage of compucammo is lost
+A searcher must win a tough awareness roll to notice the persona.
+
+The compucammo is for stealth, not invisible combat. 
+While sneaking and hiding motionless compucammo is very effective.
+This advantage disappears during hand-to-hand combat or close inspection.
 
 Spies and nomads enjoy a +42 bonus on sneaky maneuver rolls.
 Compucammo is worth 100000 and is considered a spie or nomad artifact.
 
-Computerized::
-Computerized clothing is a self adjusting, self cleaning tuxedo with situational awareness.
-The autotux is rife with sensors that assess the room for the best affects for its wearer.
-Adjusting filaments alter the suit's shape, and photo emitters that subtlety alter the suit's hue.
-This tux self tailors to the suit the crowd.
+==== Computerized
+Computerized clothing is a self-adjusting, self-cleaning formal wear with situational awareness.
+The autotux is rife with sensors that assess the room for the best effects for its wearer.
+Adjusting filaments alter the suit's shape, and photo emitters subtly change the suit's hue.
+This tux tailors itself 'to suit' the crowd.
+If desired, the formal wear can be an auto gown of flowing distinction.
 
-A nothing earns a +200 on her social standing, and +2 on CHA while wearing the suit.
+A nothing earns a +200 on her social standing and +2 on CHA while wearing the suit.
 The autotux is worth 50000 and is a nothing artifact.
 
-Displacement::
-A displacement suit emits a real time hologram that slightly displaces the persona.
-Attackers may be fooled into attacking the displaced holographic image missing the persona.
+==== Displacement
+A displacement suit emits a real-time hologram that slightly displaces the persona.
+The hologram may fool attackers into attacking the displaced image instead of the persona.
 The hologram is a copy of what the persona looks like and is wearing. 
 A displacement garment is not a disguise.
-It is most effective during combat situations increasing the wearers AR by 200.
-Displacement clothing must be activated by the wearer. 
+It is most effective during combat situations increasing the wearer's AR by 200.
+The wearer must activate displacement clothing before getting the armour rating bonus. 
 
-Displacement clothing is worth 75000 and is a mercenary artifact.
+Displacement clothing is worth 75000 and is a mercenary or spie artifact.
 
-Jump::
-The jump suit maintains a safe gravity for the wearer in the face of gravity increases.
-A jump suit protects the persona from gravities between 0 and 10 g.
-This type of suit is found on test pilots and those working with aberrant gravities
-The jump suit nullifies any weaponized gravity attacks that inflict acceleration damage.
+==== Jump
+The jumpsuit maintains a safe gravity for the wearer in the face of gravity increases.
+A jumpsuit protects the persona from gravities between 0 and 10 g.
+This type of suit is worn by pilots and others working with aberrant gravities.
+The jumpsuit nullifies any weaponized gravity attacks that inflict acceleration damage.
+If desired, a jumpsuit may disrupt personal antigrav devices.
 The suit does not prevent damage from falling or being hit by flying debris. 
 
 A flight suit is worth 10000 and has no assigned vocation.
 
-Stealth::
+==== Stealth
 The stealth suit is a classic black jumper worn by spies, commandos and snazzy anarchists.
-The suit subdues sound and light around the persona.
-Most detection radiations are also absorbed by the suit. 
+The suit subdues sound, light and most detection radiations. 
 Radar, sonar, and infrared don't reflect as off this matte black weave.
-While *not* an invisibility device the suit is ideal for sneaking around. 
-In darkness the stealth suit will offer a +20 bonus on sneaky PT rolls.
+While *not* an invisibility device, the suit is ideal for sneaking around. 
+In the darkness, the stealth suit will offer a +20 bonus on sneaky PT rolls.
 
-The stealth suit is worth 4242 and is considered a spie or nomad or mercenary artifact.
+The stealth suit is worth 4242 and is considered a spie or nomad, or mercenary artifact.
 
 :art: cell_phone_robot_hand.png
-:width: 250px
+:width: 350px
 :snark: Intergalactic cell plan
 :artist: Peggy Lynn MacIsaac
 :date: 1991
@@ -634,7 +624,7 @@ The stealth suit is worth 4242 and is considered a spie or nomad or mercenary ar
 include::ROOT:partial$articulate.adoc[]
 
 
-//23) Communicators reworked for helmet in armour
+//23) Communicators reworked for a helmet in armour
 === Communicators 
 
 [horizontal]
@@ -645,54 +635,60 @@ EXPS:: Special
 Value:: Special
 
 There are several communication transceivers that personas can use to chat.
-They mainly vary in size, which affects transmission range.
-The bigger the transceiver the further the range.
-The smaller the transceiver the larger the number of devices.
-These devices are supposed to be useful and assist the players to help develop story.
+They mainly vary in size, which affects the transmission range.
+The bigger the transceiver is, the further its range.
+The smaller the transceiver is, the more devices.
+These devices are supposed to be useful and assist the players in helping develop the story.
 
-Each communicator has a size and unique utility.
+Each communicator has a unique ability and a size.
 
+==== Unique Ability
 include::ROOT:partial$CH48_Table_Comm_Twist.adoc[]
 
 Data::
-A data enhanced unit can be used by robots to communicate in their electronic tongues.
-Increases the value of the communicator by two times. 
+Robots can use a data-enhanced unit to communicate in their electronic tongues.
+Data ability doubles the value of the communicator.
 
 Encrypted::
-Harder to comprehend when intercepted.
-Also makes it much harder to intercept.
+Harder to comprehend when intercepted and much harder to intercept.
 
 Lazer::
 Line of site communication only. 
-Can only be physically intercepted by line of site.
-Increases the value of the communicator by 10 times.
+Interception is only possible by physically diverting the lazer.
+Lazer comms increase the device's value by ten times.
 
 Telepathic::
 Users can pass their thoughts to each other through the thinkspace.
-These messages are instantaneous and can only be intercepted within the thinkspace.
-Increases the value of the communicator by 100 times. 
+These messages are instantaneous and do no travel through the physical space.
+Interception of telepathic comms requires unique equipment or mental mutations.
+Telepathic comms increase the device's value by 100 times.
 
+==== Communicator Size
 include::ROOT:partial$CH48_Table_Communicator_Type.adoc[]
 
-Dental:: (100/300) Dental communicators are very light, no more than 5 gm, and can be capped over one of the persona's molars.
+Dental::
+Dental communicators are very light, no more than 5 gm, and can hide on one of the persona's molars.
 When in the mouth of the persona, she can communicate with her expedition without speaking aloud.
-The wearer listens to communicators via vibrations of her skull that are transmitted along the jaw.
-These communicators have a 500 meter range, and will number 2 to 12.
+The wearer listens to communicators via vibrations of her skull via the jaw.
+Dental comms have a 500-meter range and are worth 100 EXPS / 300 eps and numbers 2-12 (2d6).
 
-Collar:: (25/200) The collar communicators (lapel) are small adhesive transceivers that the persona can attach anywhere.
-The collar communicator has range of a 1 kilometer, a wate of 30 gm, and will number 3 to 30.
+Collar::
+Collar communicators are small (30 gms) adhesive transceivers that a persona can attach anywhere.
+Collar comms have a 1-kilometre range, are worth 25 EXPS / 200 eps, and will number 3-30 (3d10).
 
-Wrist:: (25/500) Wrist communicators are larger transceivers that can be worn as a bangles on the wrist, as a huge earring, or as a nose ring.
-They have a 12 kilometer range, a 100 gm wate, and will number from 1 to 10.
+Wrist::
+Wrist communicators are 100 gm transceivers that can be worn as a bangle, a hoop earring, or a nose ring.
+They have a 12-kilometre range, are worth 25 EXPS / 500 eps, and will number 1-10 (1d10).
 
-Handheld:: (25/1000) Handheld communicators are the classic transceivers that one expects to find in police dramas.
-These could radios, or cellular telephones, but either way they can communicate amongst each other.
-These communicators are slightly programmable, and have multiple channels.
-Mechanics can engage in security electronic countermeasures (security scrambling of their signals) with a 4DD maneuver.
-These communicators have a 24 kilometer range, a 0.5 kg wate, and will number 1 to 6.
+Handheld::
+Handheld communicators are the classic transceivers that one expects to find in mundane terran police dramas.
+These appear as radios or mobile telephones and weigh 500 gms.
+These communicators are slightly programmable and have multiple channels.
+Mechanics can engage in electronic security countermeasures (security scrambling of their signals) with a 4DD maneuver.
+These communicators have a 24-kilometre range, are worth 25 EXPS / 1000 eps, and will number 1-6 (1d6).
 
 :art: all_hale_radio.png
-:width: 250px
+:width: 450px
 :snark: All hale the radio
 :artist: Rogers
 :date: 1951
@@ -701,27 +697,29 @@ These communicators have a 24 kilometer range, a 0.5 kg wate, and will number 1 
 
 include::ROOT:partial$articulate.adoc[]
 
-Backpack:: (200/10000) The backpack communicator is a portable radio station.
+Backpack::
+The backpack communicator is a portable 15 kg radio station.
 A mechanic using this radio can engage in electronic countermeasures within the range of the backpack.
-This means that a mechanic can use this backpack communicator to camouflage her communications, jam communicators, locate transmissions, and be a general terror on the airwaves.
+A mechanic can use a backpack comms to camouflage her communications, jam communicators, locate transmitters, and create general terror on the airwaves.
 The referee will decide the DD of such maneuvers.
-The backpack communicator will give the any persona a +25 PT roll bonus on communication maneuvers.
-The backpack communicator has a planetary range of 100 to 600 kilometers, a wate of 15 kg, and will come with 0 to 9 (d10-1) handheld communicators.
+The backpack communicator will give any persona a +25 PT roll bonus on communication maneuvers.
+The backpack communicator has a planetary range of 500-kilometres, is worth 200 EXP / 10000 eps, and includes 0-9 (d10-1) handheld communicators.
 
-Vehicle:: (400/20000) A vehicle based communicator will allow the persona to engage in virtually any electronic countermeasures (ECM) that she desires, and mechanics will enjoy a +35 bonus on their PT roll when carrying out ECM maneuvers.
-The vehicle radio must be powered by a vehicle power plant, or some other power source.
-It has a planetary range up to 10000 kilometers, and can also broadcast to space vehicles in orbit.
-The communicator has a wate of 65 kg.
-The vehicle communicator will be accompanied by 0 to 3  (1d4-1) backpack communicators described in the previous paragraph.
+Vehicle::
+A vehicle communicator allows the persona to engage in virtually any electronic countermeasures (ECM) that she desires.
+Mechanics get a +35 bonus ECM maneuvers.
+The vehicle radio is 65 kg in wate and requires vehicle power to operate.
+Vehicle comms an inatmo range of 5000 kilometres and can reach space vehicles in orbit.
+A is worth 400 EXPS / 20000 eps and includes 0 to 3  (1d4-1) backpack communicators.
 
-Space Vehicle:: (600/100000)  The space vehicle communicator is a transmissions lab that allows even the most ridiculous planetary ECM maneuvers to be carried out.
-The communicator can be used to manipulate voices that have been eavesdropped, to synthesize a new and confusing message.
-It is part communicator, part communications computer.
-On the planetary side this transceiver can communicate with 0 to 5 (1d6-1)  vehicle communicators, and all the subsidiary communicators that they control.
-For instance a space vehicle communicator could monitor, encrypt and manipulate the signals of 4 vehicle communicators, 12 back pack communicators, and 63 handheld communicators.
-All of this should be included in the value of the space vehicle communicator.
-The communicator has a wate of 200 kg.
-It can carry out orbital to planetary communications with ease, and it can communicate with another space vehicle communicator up to 2 to 12 light years away.
+Space Vehicle:: (600/100000)  
+The space vehicle communicator is a transmissions laboratory that allows for the most elaborate planetside ECM maneuvers.
+The space vehicle comms can manipulate voices, eavesdrop, decrypt and synthesize fake messages.
+This comms laboratory is part of a space vehicle and requires a ship's computer and a ship's powerplant to operate.
+Exatmo comms has a space vehicle range of 2-12 (2d6) light-years, is worth 600 EXPS and 100000 eps and includes 0 to 5 (1d6-1) vehicle communicators, 
+
+Included comms units are cumulative. 
+For instance, a space vehicle communicator could monitor, encrypt and manipulate the signals of 4 vehicle communicators, 12 backpack communicators, and 63 handheld communicators.
 
 === Compass 
 
@@ -732,12 +730,11 @@ Wate:: 1.5kg
 EXPS:: 93
 Value:: 250
 
-A compass is a direction maintaining device, or anything that attains a constant direction for reference.
-This compass will maintain any direction programmed into it, or any of several standard directional indicators.
+A compass is a direction maintaining device or anything that attains a constant direction for reference.
+This compass will maintain any direction programmed into it or any of several standard directional indicators.
 The compass accounts for any deviations in delineation, gravity, pressure, or climate.
-The compass works underwater, in zero gravity, or in a vacuum.
-This device will aid a nomad with +24 on any travel oriented PT rolls, and +10 on all her nomadic PT rolls.
-
+The compass works underwater, in zero gravity, or a vacuum.
+This device will aid a nomad with +24 on any nomadic PT rolls.
 
 === Compukit 
 
@@ -749,8 +746,8 @@ EXPS:: 40
 Value:: 5000
 
 The compukit is a computerized tool kit.
-Not only does it house essential electronics tools it has a build in helper screen and many sensors.
-This is the ultimate mechanic artifact.
+Not only does it house essential electronics tools, but it also has a built-in helper screen and many fancy-looking sensors.
+The compukit is the mechanic's electronic toolbox.
 Mechanics get a +20 bonus on all mechanic maneuvers using this device. 
 
 === Computers 
@@ -762,20 +759,20 @@ Wate:: Special
 EXPS:: Special
 Value:: Special
 
-Computers are black boxes of information that the persona can access.
-There are two different types of computers that a persona can get a hold of.
-These are vocation computers, and AI computers (artificially intelligent).
+Computers are black boxes of data with which the persona can interact.
+The data and interactions are either general (autonomous intelligence) or specific (vocation computers).
 
 include::ROOT:partial$CH48_Table_Comp_Type.adoc[]
 
-
 ==== AI Computers
-Due to their complexity and centerpiece role in RPG story telling AI computers have their own chapter. 
-The AI computer is closer to a referee persona than a toy.
-Jump to xref:v-wetware:CH69_AI.adoc[aware computers].
+Autonomous Intelligence (AI) is a highly interactive artificial intelligence with both consciousness and immeasurable computational power.
+Artificial general intelligence is one of mundane terra's current obsessions.
+In EXP, AI refers to autonomous intelligence or aware intelligence, and calling it artificial may piss it off. 
+An AI  computer will almost certainly become a referee persona with emotions, personality and goals.
+To fabricate an AI, jump to xref:v-wetware:CH69_AI.adoc[Autonomous Intelligence,window=_blank].
 
 :art: anatomy_book_surgeon_fixed_desat.png
-:width: 250px
+:width: 450px
 :snark: Life long learner
 :artist: Studiostoks
 :date: 2015
@@ -785,36 +782,25 @@ Jump to xref:v-wetware:CH69_AI.adoc[aware computers].
 include::ROOT:partial$articulate.adoc[]
 
 ==== Vocation Computers 
-Vocation computers have a wate of 10 kg, and a technicolor key and screen touch display.
-They appear over wate glorified portable computers.
-They have no print out, and they do not talk.
-The persona uses the machine to access information about her profession.
-The storage of information is arranged by icons in a haphazard hierarchic manner.
-No-one is really certain what information the computer is programmed with.
-The information varies in accuracy.
-It is assumed that the persona will be adding her own information into the vocation computer over time.
-
-Software can be purchased that will assist the persona with particular tasks.
-If a spie were to buy some safecracking software it may allow her to carry out a bypass security maneuver more easily.
-Or software that explains how a vet can treat a certain infection.
-
-The vocation computer can only assist the persona on technical maneuvers.
-Eye hand coordination is up the the player and her persona's attributes.
-A vocation computer assists and does not replace the persona in carrying out maneuvers.
-
-For instance a spie computer would not help a persona sneak or pick a lock.
-However it could give advice on similar locks and ways to sneak.
+Vocation computers have a wate of 10 kg, and a technicolour screen and a touch display.
+They appear as bloated portable computers sporting many strange and exotic ports.
+Vocation computers have no printout, and they do not talk.
+The persona uses the machine to access data about her profession.
+The data hides beneath icons in a haphazard hierarchic manner.
+No one is certain what information a vocation computer contains, and the information varies in accuracy.
+The persona contributes her data into the vocation computer as others have before her.
 
 Vocation computers aid the player when making performance rolls.
-The bonus is a random +3 to 30 on the performance roll being made.
-The more experienced the persona the better she is at using a vocation computer.
-The bonus is always random, but additional rolls are earned in order to get a better bonus.
-Players get 1 roll per 3 levels of EXPS, using the highest of the 3 rolls.
+The bonus is a random 3-30 (3d10) on performance rolls.
+The more experienced the persona, the better she is at using her vocation computer.
+Players get one bonus roll per three EXPS levels.
+The player gets to choose the highest roll for her bonus.
+So a 6th level persona would get three rolls of 3-30 picking the best roll.
 
 include::ROOT:partial$CH48_Table_Vocation_Computers.adoc[]
 
 :art: control_baton.png
-:width: 250px
+:width: 350px
 :snark: Stick it to powered armour
 :artist: Michael Jackson
 :date: 1991
@@ -833,27 +819,26 @@ EXPS:: 631
 Value:: 125000
 
 The control baton is similar in appearance to a field marshal's baton.
-However this baton is used to instantly shut down powered armour.
-There are two buttons located on the rather heavy hand held device.
+However, this baton can instantly shut down powered armour.
+There are two buttons located on the rather heavy handheld device.
 One button will completely immobilize a suit of powered armour.
 The other will re-mobilize it.
 
 The control baton's off button disconnects the armour wearer's physiologic connections to the suit.
-Turning a suit off is instantaneous.
-The baton will not allow the armour wearer to come to harm, but once safety is reached the powered armour will become a prison.
-E.g., the armour's hover would not shut off, and drop a persona to her death.
+Turning a suit off is instantaneous, creating a form-fitting jail.
+The baton will not allow the armour wearer to come to harm.
+E.g., the armour's hover would not shut off and drop a persona to her death.
 
-When control of the suit is returned to the wearer it takes a while to adjust.
+When control returns to the wearer, it takes a while to reconnect.
 There will 5-50 (5d10) units of reconnection time taken before the suit is operational again.
 
-The control baton is a tool meant for powered armour training. 
-The shut off is designed for safety and punishment of trainees.
+A control baton is a tool meant for powered armour training. 
+The shut-off is for the safety and punishment of trainees.
 There is a 42% chance that this will work on a specific suit of powered armour.
 If the baton does work, the persona within the armour is at the mercy of the baton holder.
 
 The baton has a range of 50 hexes.
 A mechanic earns a bonus of +15 when making rolls related to powered armour.
-
 
 === Cords 
 
@@ -865,34 +850,34 @@ EXPS:: 42
 Value:: Special
 
 Cords can be used as rope for climbing, tying things down, making macrame, or whatever.
-These are special cords with special properties useful to the expedition.
+These are special cords with unique properties possibly useful for the expedition.
 
 include::ROOT:partial$CH48_Table_Cord_Type.adoc[]
 
 Alloy::
-Alloy cord is stronger and lighter than normal rope.
+Alloy cord is more robust and lighter than ordinary rope.
 It is composed of supple alloy threads with ceramic elements.
 The cord can support 999kg of wate without special accommodations.
-Alloy cord is found in lengths of 3-300 (3d100) hexes. 
-It's wate is 100gm per hex and is worth 50 per hex. 
+Alloy cord length varies from 3-300 (3d100) hexes. 
+Its wate is 100gm per hex and is worth 50 per hex. 
 
 Grav::
-Anti grav rope can be played into the air and it will suspend itself.
-Parallel to gravity the grav cord can support 250kg.
-Perpendicular to gravity it can support 100kg.
-The grav rope must be fastened to at least one solid surface.
+Grav cord can suspend itself as the persona players it out.
+Parallel to gravity, the cord can support 250kg.
+Perpendicular to gravity, the cord can support 100kg.
+The grav rope must fasten to at least one solid surface.
 The cord cannot hover in the air unsupported.
-Grav cord is found in lengths of 3-90 (3d30) hexes.
+Grav cord length varies from 3-90 (3d30) hexes.
 The grav cord has no wate and is worth 5000 per hex.
 
 Monofilament::
-Monofilament is only a few molecules thick.
-However all the energy of those molecules are focused on keeping the line together.
-The thin cord is dangerous, and will cut a persona mishandling it.
-Monofilament cord is fabricated for commercial use and is not easily weaponized.
+Monofilament cord is only a few molecules thick.
+However, all the energy of those molecules works together, keeping the line very strong.
+The thin cord is dangerous and will cut a persona mishandling it.
+Monofilament cord is not easy to weaponize because of its intended commercial use.
 Monofilament wire can support 1998kg in wate without making special accommodations.
-Monofilament cord is found in lengths of 3-60 (3d20) hexes.
-It's wate is 20gms per hex and is worth 1000 per hex
+Monofilament cord comes in lengths of 3-60 (3d20) hexes.
+Its wate is 10gms per hex and is worth 1000 per hex.
 
 
 === Cutters 
@@ -906,18 +891,12 @@ Value:: Special
 
 Cutters are artifacts designed to cut through most anything.
 A cutter will be able to slice through stone, alloy, ceramics or space vehicle hull.
-A cutter is not a weapon and can only be used on a completely sessile material.
-ALl cutters have safety features that ensures they cannot be used on organic materials.
-The lazer cutter will slice through a suit of armour, but leave the persona inside unharmed.
-This is a safety precaution for a device that is designed for industry, and not combat.
+A cutter is not a weapon and only works on sessile objects.
+All cutters have safety features that prevent injury to organic materials.
+The lazer cutter will slice through a suit of armour but leave the persona inside unharmed.
+Cutters are for industry and not combat.
 
-For example an ambushed robot or suit of powered armour would only get one attack roll to inflict 3d10 damage, but an incapacitated robot or immobilized powered armour could be cut to shreds.
-
-A #$@*ing handsaw?
-All of these cutters are artifacts.
-No regular handsaw could cut through a space vehicle hull. 
-The main differences is speed of cutting and range of cutting.
-They work on all materials equally well.
+An ambushed robot or suit of powered armour is immune to a cutter, but the persona could cut an incapacitated robot or immobilized powered armour to shreds.
 
 include::ROOT:partial$CH48_Table_Cutter_Type.adoc[]
 
@@ -940,10 +919,10 @@ Wate:: 2301kg
 EXPS:: 2069
 Value:: 10000000420
 
-The dehydrator cryogenically suspends an object, and then ejects up to 99.9942% of its  molecular components.
+The dehydrator cryogenically suspends an object and then ejects up to 99.9942% of its molecular components.
 The dehydrator then bags the gray powder in a nondescript cellophane bag.
-The gray powder is injected with a complex memory molecule.
-When water is added the original object is reconstituted. 
+The gray powder includes a complex memory molecule.
+Adding water will reconstitute the original object.
 The dehydrator straddles the edge of sciency fiction and sciency fiction.
 
 Typically the dehydrator is used for storing scrumptious dinners for romantic hikes.
@@ -951,25 +930,24 @@ A dehydrator can shrink any molecular combination (organic or inorganic).
 Many referees will limit the dehydration process to only organic objects. 
 The final product has a wate between 1 and 10 grams (1d10).
 
-A dehydrator requires power source. 
+A dehydrator requires a power source. 
 Batteries are not enough. 
-While dehydrating the machine bathes a 10 hex radius with 1-12 (1d12) intensity radiation.
+While dehydrating, the machine bathes a ten hex radius with 1-12 (1d12) intensity radiation.
 A power failure during dehydration will destroy the specimen in the most disgusting manner possible.
 
 There is a 90% chance that the dehydration will be successful.
 A biologist can increase the chance of success by 1% per DD maneuver.
-Dehydration is never risk free and a 1d100 must be rolled every time.
-If 42 is rolled the dehydration has failed.
+Dehydration is never risk-free, and a 1d100 roll is essential.
+A roll of 42 indicates the dehydration has failed.
 
 Failure of dehydration is not evident until rehydration.
 Failed dehydration affects organic and inorganic objects differently.
-An organic object will grow 0-3 (1d4-1) xref:v-wetware:CH59_Physical.adoc#_defective_mutations[Defective Physical Mutations,window=_blank].
+A failed organic object will acquire 0-3 (1d4-1) xref:v-wetware:CH59_Physical.adoc#_defective_mutations[Defective Physical Mutations,window=_blank].
 The mutations are present on rehydration. 
-An inorganic sample is utterly destroyed.
-A cacophony of random primary materials are rehydrated.
+A failed inorganic sample rehydrates into a cacophony of random primary materials.
 
-Any persona that is dehydrated will lose 1 point of mental strength.
-This penalty is accrued every time the persona separates from the thinkspace.
+Dehydration costs personas 1 point of mental strength.
+The MSTR penalty applies every time the persona dehydrates.
 
 The device can convert up to 750 kg of matter at once.
 Each kilogram takes one minute to dehydrate into gray powder.
@@ -977,7 +955,6 @@ The dehydrator must cool down for 1 hour per kilogram dehydrated.
 
 Mixing bags of dehydrated grey powder does not mix up the objects.
 The complex memory molecule maintains each object's integrity.
-
 
 === Detectors 
 
@@ -989,18 +966,18 @@ EXPS:: 1200
 Value:: 950
 
 Detectors are classic devices for leading expeditions to excitement, fun, and danger.
-All detectors are black boxes with a hand grip and an obvious business end.
+All detectors are black boxes with a pistol grip and an unmistakable business end.
 Most detectors only give a binary answer via a red light on the casing.
-The detectors can yield direction, intensity or number by alterations of the red light.
-The ref should be prepared to be innovative, and have fun with detectors.
+The detectors may also yield direction, intensity or number by alterations of the red light.
+The ref should be ready to improvise and have fun with detectors.
 
 A lie detector may flash red if a lie is detected.
-Or the brightness of the red light may depend on the severity of the lie.
-Directional detectors, like mineral detectors, will light up more brightly when pointed in the direction of the source (aka ongoing story).
+Or the brightness of the red light may increase with the severity of the lie.
+Directional detectors, like mineral detectors, will light up more brightly when pointed in the direction of the source.
 
 Detectors are 90% efficient.
 They will discover the mutant, detect the lie, or find the bomb 90% of the time.
-Detectors will  find the closest detectable thing first.
+Detectors find the closest detectable thing first.
 
 include::ROOT:partial$CH48_Table_Detector_Type.adoc[]
 
@@ -1013,16 +990,17 @@ Wate:: 10.7kg
 EXPS:: 530
 Value:: 10000
 
-A detonator box is used to explode bombs from a safe distance.
-Whenever real time detonation, as opposed to a timer, is required a radio beacon is used.
-The detonator box uses a radio beacon to set off a detonator which in turn detonates the bomb.
-This artifact consists of one detonator box, (the transmitter), and 1-10 detonators.
-The detonators have a wate of 1 kg, and must be attached to the bomb.
-The detonator box and it's detonators are smart, they will activate any bomb in the manner it needs.
+A detonator box explodes bombs from a safe distance.
+The box uses radio beacons for real-time detonations and a vast array of other physical detonators.
+The detonator box (the transmitter) includes 1-10 detonators.
+The detonators have a wate of 1 kg and must be attached to the bomb.
+The detonator box and its detonators are smart. 
+They can detonate any bomb in any manner the demolition requires.
+A mechanic can fashion the detonator box to activate anything remotely. 
+For example, the box could remotely start a vehicle, activate an aerosol, or turn on a robot.
+Off-label use (other than bombs) requires a 6DD performance roll.
 
-The detonator box is responsible for 10 detonators, and hopefully the detonators will be properly marked.
-If the mercenary pushed a button expecting a bridge to blow up, but a grenade explodes in her backpack instead, it could be deathly embarrassing.
-The detonator box offers +15 on PT rolls involving demolitions rolls.
+The detonator box offers +15 on any demolition-related rolls.
 
 === Filters 
 
@@ -1033,39 +1011,35 @@ Wate:: 25gms
 EXPS:: 100
 Value:: 1000
 
-Filters protect the persona's sensory organs from short term hazards.
-The filters consist of nose plugs, ear plugs, or contact lenses.
-The filters allow the the sensor to function normally, but will filter out any damaging effects.
+Filters protect the persona's sensory organs from short-term hazards.
+The filters consist of nose plugs, earplugs, or contact lenses.
+The filters allow the sensor to function normally but will filter out any damaging effects.
 
-// insert table 690
+//table fix missing table 
 
 Ear Filters::
-The ear filter fits snugly in the ear, and does not impair function at all.
-This artifact can be used by any anthro and some aliens.
+The ear filter fits snugly in the ear and does not impair hearing at all.
+Any anthro and some aliens can use the ear filters.
 The filter changes its structure when subject to any deafening attack.
-The spongy ear filter will defend against both the decibels, and the vibrations of sonic attacks.
-The filter negates the attack entirely and is destroyed.
-The filters will last 2 years in place if unused.
-Ear filters are usually found in packs of 1-12 (1d12).
+The spongy ear filter will defend against both the decibels and the vibrations of sonic attacks.
+The filter negates one attack and sacrifices itself.
+Ear filters come in pairs of 1-12 (1d12).
 
 Eye Filters::
-The eye filter is a contact lens, and does blur sight at all. 
-This artifact can be used by any anthro and some aliens.
-The filter changes it's structure when subject to any blinding attack.
-The filter negates the attack entirely and is destroyed.
-The filters will last 2 years in place if unused.
-Eye filters are usually found in pack of 1-6
+The eye filter is a contact lens and does blur sight at all. 
+Any anthro and some aliens can use these safety lenses.
+The filter changes its structure when subject to any blinding attack.
+The filter negates the attack and safely disintegrates.
+Eye filters come in pairs of 1-6 (1d6).
 
 Nose Filter::
-The nose filter is stuffed into both nostrils. 
-The persona can breath normally and is unaffected by the the artifacts.
-This artifact can be used by any anthro and some aliens.
-When subject to a respiratory poison gas the persona can escape without effect.
-The filter changes it's structure and absorbs poison gas.
-The filter negates the attack entirely and is destroyed.
-The filters will last 2 years in place if unused.
-Eye filters are usually found in pack of 1-6
-
+The nose filter a pair of cones that fill the nostrils. 
+The persona can breathe normally wearing nose filters.
+Any anthro and some aliens can use these nose filters.
+When subject to an inhaled poison gas, the persona can escape without effect.
+The filter changes its structure and absorbs poison gas.
+The filter negates the attack entirely and safely disintegrates.
+Eye filters in pairs of 1-6 (1d6).
 
 === Fire Logs 
 
@@ -1076,43 +1050,42 @@ Wate:: 2 kg
 EXPS:: 99
 Value:: Special
 
-Fire logs are a high technology take on the age fireplace log.
-Al fire logs have a rip cord starter.
-They all ignite easily with the pull of a cord.
+Firelogs are a high-technology take on the old fireplace log.
+Al fire logs have a ripcord starter and easily ignite in any weather.
 
 // insert table 692
 
 Wooden::
-A pull of the rip cord produces 2 hours of colourful dancing flames and heat.
+A pull of the ripcord produces 2 hours of colourful dancing flames and heat.
 A compressed wooden fire log has no value.
 Wooden fire logs use up oxygen, create smoke and can start larger fires.
-They are usually found in lots of 2-20 (2d10) logs.
-There is a variant called a Press To log where the rip cord has been replaced by a proprietary button.
+They come in lots of 2-20 (2d10) logs.
+There is a variant called a Press To Log where a proprietary button has replaced the ripcord.
 
 Coalex::
-A pull of the rip cord produces 8 hours of uniform flame and heat.
+A pull of the ripcord produces 8 hours of uniform flame and heat.
 A compressed coal fire log has no value.
 Coal fire logs use up oxygen, create smoke and can start larger fires.
-They are usually found in lots of 1-10 (1d10) logs.
+They come in lots of 1-10 (1d10) logs.
 
 Glow Pro::
 The glow pro is a solid cylinder that emits heat and simulated flame light.
 The glow pro starts to warm the area when removed from its storage bag.
 A glow pro can be re-bagged and re-used later.
-This artifact does not require oxygen to burn, and works exatmo.
-It does not off gas and will not start a larger fire.
-The glow pro will burn for 5 days in total.
-A glow pro is worth 1000 and is found in lots of 1-6 (1d6).
+This artifact does not require oxygen to burn and even works exatmo.
+A glow pro does not off-gas and will not start a larger fire.
+The glow pro will burn for five days in total.
+A glow pro is worth 1000 and comes in lots of 1-6 (1d6).
 
 Synthex::
 The synthex fire log is the stealth heater of the fire log industry.
-It gives off no heat signature, or light, and warms all personas within 2 hexes.
+It gives off no heat signature or light and warms all personas within two hexes.
 The synthex fire-less log emits interference patterns that vibrate nearby molecules.
 All personas in the area of effect are kept nice and warm. 
-This artifact does not require oxygen to burn, and works exatmo.
-It does not off gas and will not start a larger fire.
+This artifact does not require oxygen to burn and even works exatmo.
+It does not off-gas and will not start a larger fire.
 The glow pro will burn for 15 days in total.
-A synthex fire log is worth 10000 and is found in lots of 1 (1d1).
+A synthex fire log is worth 10000 and comes in lots of 1 (1d1).
 
 === Food Culture 
 
@@ -1123,11 +1096,11 @@ Wate:: 1.5kg
 EXPS:: 103
 Value:: 5000
 
-A food culture is a polydodecahedron shaped colony of nutritious fungus on a stick.
-Although it sounds unappetizing the food culture is sanitary, tasty and very nutritious.
-The culture can supply a medium sized anthro persona with a days nutrition.
-The spongy matrix also supplies adequate hydration as well.
-The food culture grows back in about 6 hours, and is ready for breakfast.
+The food culture is a polydodecahedron shaped colony of nutritious fungus on a stick.
+Although it sounds unappetizing, the food culture is sanitary, tasty and very nutritious.
+The culture can supply a medium-sized anthro persona with a day's nutrition.
+The spongy matrix supplies adequate hydration as well.
+The food culture grows back in about 6 hours and is ready for breakfast.
 
 A food culture will not survive drastic changes in temperature or climate.
 The culture cannot grow back from acid attacks or acid bites. 
@@ -1142,7 +1115,7 @@ EXPS:: 45
 Value:: 750
 
 A generator converts fuel energy to battery energy.
-A generator can also be used as power source for larger artifacts.
+A generator can be a power source for larger artifacts.
 A generator will only work with one type of fuel.
 A mechanic is required to connect the generator to an artifact. 
 Power source connection is a 5DD maneuver.
@@ -1164,19 +1137,19 @@ Value:: 2000
 There are two different types of hooks destructive and non-destructive.
 The hooks come with handles and attach themselves to any surface.
 They are most commonly used to climb walls.
-Hooks can be converted to grapples with a cord and a job rifle.
+A mechanic can convert hooks to grapples with a cord and a job rifle.
 The referee can pick between the two hook types.
 
 .*Destructive Hook*
-This is the classic metal barbed hook. 
+This hook is the classic metal barbed hook. 
 The business end appears like a bouquet of alloy barbs.
 The barbed hook does inflict a bit of damage to the surface.
-When used as a weapon the barbed hook acts as a mace.
+When used as a weapon, the barbed hook acts as a mace.
 
 .*Non-destructive Hook*
-This is the non-destructive sticky hook.
+This hook is a non-destructive sticky hook.
 The business end appears like a cluster of synthetic grapes.
-The sticky hook cannot be weaponized.
+The sticky hook does not make a useful weapon.
 
 === Instant Stuff 
 
@@ -1187,14 +1160,14 @@ Wate:: 1-10 (1d10) gms
 EXPS:: 400
 Value:: Add 900000
 
-Instant stuff is a grey powder that comes in transparent a cellophane bag.
+Instant stuff is a grey powder that comes in a transparent cellophane bag.
 Adding water instantly produces a random artifact.
 A complicated memory molecule uses the water to reconstitute an entire object.
-Useful labels have long since been worn off.
-Only the referee knows what will be produced when water is added.
-Instant stuff is usually produced by a <<_dehydrator,Dehydrator>>.
+Proper labels have long since worn away.
+Only the referee knows what will instantly appear when the persona adds water.
+Instant stuff usually comes from a <<_dehydrator,Dehydrator>>.
 
-NOTE: *Mistaking instant stuff for food is disastrous for a hungry persona.*
+WARNING: *Mistaking instant stuff for food is disastrous for a hungry persona.*
 
 include::ROOT:partial$CH48_Table_Instant_Stuff.adoc[]
 
@@ -1207,16 +1180,16 @@ Wate:: 30kg
 EXPS:: 820
 Value:: 110000
 
-Jet boots appears as oversized hiking boots with diminutive jet engines.
+Jet boots appear as oversized hiking boots with miniature jet engines.
 The boots are gyroscopically stabilized and easy to operate.
-The boots move at 21-30 (20+1d10) hexes per unit and can move through the air.
-The persona must have a wate between 40 and 140 kg.
+The boots move at 21-30 (20+1d10) hexes per unit and allow the wearer to fly through the air.
+The wearer must have a wate between 40 and 140 kg.
 
 There are some limitations to jet boots.
 Jet boots do not hover.
 A persona can only use powered weapons while jet booting. 
 Type A and B weapons would unbalance the jet booter.
-If needed the boots have a handling class equal to half the persona's dexterity.
+If needed, the boots have a handling class equal to half the persona's dexterity.
 
 === Jet Backpack 
 
@@ -1229,14 +1202,14 @@ Value:: 110000
 
 The jet backpack appears as a backpack with diminutive jet engines.
 The backpack is gyroscopically stabilized and easy to operate.
-The pack moves at 21-40 (20+1d20) hexes per unit and can move through the air.
+The pack moves at 21-40 (20+1d20) hexes per unit and allows the wearer to fly through the air.
 The backpack can carry 50kg in its storage compartment.
-The user must be have a wate between 40 and 200 kgs. 
+The user must have a wate between 40 and 200 kgs. 
 
 There are some limitations with a jet backpack.
 A persona can only use powered weapons while jet backpacking. 
 Type A and B weapons would unbalance the jet backpack.
-If needed the boots have a handling class equal to half the persona's dexterity.
+If needed, the boots have a handling class equal to half the persona's dexterity.
 
 === Joiners 
 
@@ -1248,22 +1221,22 @@ EXPS:: 100
 Value:: 1000
 
 Joiners are artifacts that join materials together.
-The joiner may be a device, or a substance.
-Glue, tape and soldering irons are all joiners.
+The joiner may be a device or a substance.
+Glue, tape, and soldering irons are all joiners.
 
 All joiners create permanent bonds.
 A permanent bond works as though the substances were always as one.
 To separate the bond is equivalent to breaking apart a solid object.
 Joiners do not reconnect complex components between materials. 
-If a robot's arm is joined back on it will be a non-functional cosmetic arm.
+Haphazardly gluing a robot peripheral back on will yield a non-functional peripheral.
 
-While the bond is permanent the laws of physics still apply to the materials.
-Joining a pole arm to an anthro's head will bond but will most likely pull the flesh off the persona's fore head. 
+While the bond is permanent, the laws of physics still apply to the objects.
+Joining a polearm to an anthro's head will bond but will most likely pull the flesh off the persona's forehead. 
 
-As long as the joiner is being used to connect materials it will not run out.
-If a joiner is being used create de novo objects it will quickly expire.
+If the joiner is connecting materials, it will not run out.
+If the joiner is creating de novo objects it will quickly expire.
 For example, a tube of glue will bond materials endlessly.
-If the goop from the glue is used to construct a bridge it will run out. 
+Using the glue to construct a helmet will cause it to run out. 
 
 include::ROOT:partial$CH48_Table_Joiner_Type.adoc[]
 
@@ -1276,7 +1249,7 @@ Lazer::
 A lazer joiner employs focused lazer light to melt substances together.
 The edges of the substance must be in contact for joining to take place.
 The artifact has a range of 10 cms. 
-This is the only joiner that does not require physical contact to join materials.
+The lazer joiner is the only joiner that does not require physical contact to join materials.
 The lazer can join materials at the rate of 1 hex per unit.
 
 Glue::
@@ -1284,16 +1257,14 @@ The glue joiner is an instantly setting liquid goop.
 This joining requires no setting time and molecularly bonds the items permanently.
 The glue is pretty super. 
 The applicator can be a tube, pump, or spray.
-Materials can be joined at 10 cm per unit.
+The glue can join materials at 10 cm per unit.
 A mechanic can manipulate the setting time, bond strength and bond duration with this joiner.
-The difficulty of this maneuver is determined by the outcome of the effect.
-
 
 Tape::
-Joiner tape is not only adhesive it melts into and joins the materials permanently.
-The lazer can join materials at the rate of 1 hex per unit.
+Joiner tape is adhesive and melts into the materials permanently.
+The tape may come on a roll or a fancy dispenser.
+Tape can join materials at the rate of 1 hex per unit.
 A mechanic can manipulate the setting time, bond strength and bond duration with this joiner.
-The difficulty of this maneuver is determined by the outcome of the effect.
 
 :art: kirlian_talisman.png
 :width: 250px
@@ -1314,30 +1285,25 @@ Wate:: Negligible
 EXPS:: 200
 Value:: Special
 
-The Kirlian Talisman is a concentration symbol employed by xref:i-roll_playing_rules:CH08_Vocations_Knite.adoc[knites,window=_blank], and anti-knites.
-The talisman is tuned to the thinkspace and strengthens knite psionic focus.
+The Kirlian Talisman is a concentration symbol employed by xref:i-roll_playing_rules:CH08_Vocations_Knite.adoc[Knite Vocation,window=_blank].
+The talisman amplifies the Knite's psionic focus.
 A Kirlian Talisman will promote either _order_ (knite) or _chaos_ (anti-knite).
 
-A kirlian talisman can be weaponized against its opposite sect.
-A knite kirlian talisman can injure an anti-knite and vice versa.
-The knite must win an attack roll with her talisman against a the anti-knite.
-A successful attack roll destroys the talisman and reduces the anti-knite's mental strength.
+A Kirlian talisman is a potent weapon against its opposite sect.
+A knite talisman can injure an anti-knite and vice versa.
+A successful attack roll destroys the talisman and reduces the Knite's mental strength by 1-4 (1d4) points.
+While mental strength loss is temporary, if the Knite's MSTR is less than 18, she loses all her Knite abilities.
+The knite, or anti-knite, regains one point of mental strength per night of restful sleep.
 
-The attack reduces the anti-knites MSTR by 1-4 (1d4) points.
-The mental strength loss is temporary, and 1 point is returned per night of restful sleep.
-If the target's MSTR is less than 18 she cannot use any of her psionic knite abilities.
-
-Knites earn a bonus of 15 on psionic related rolls when wearing the talisman.
+Knites earn a bonus of 15 on psionic-related rolls when wearing their talisman.
 This bonus only works if the talisman is openly displayed.
-The talisman will not offer the roll bonus if hidden under clothing or armour.
-A kirlian talisman is invaluable to knites, and worthless to other vocations.
+The talisman does not work if hidden under clothing or armour.
+A Kirlian talisman is invaluable to knites and worthless to other vocations.
 
-If a knite finds a kirlian talisman it will usually be from the opposite sect. 
-
-NOTE: *See wikipedia about https://en.wikipedia.org/wiki/Kirlian_photography[Kirlian Auras,window=_blank].*
+If a knite finds a Kirlian talisman, it will usually be from the opposite sect. 
 
 :art: lazer_pen.png
-:width: 250px
+:width: 350px
 :snark: Not as powerful as a lazer sword
 :artist: Michael Jackson
 :date: 1991
@@ -1345,8 +1311,6 @@ NOTE: *See wikipedia about https://en.wikipedia.org/wiki/Kirlian_photography[Kir
 :description: Drawing of overly thick pen with hazard switch. 
 
 include::ROOT:partial$articulate.adoc[]
-
-
 
 === Lazer Pen 
 
@@ -1359,10 +1323,9 @@ Value:: 29
 
 A lazer pen will burn a crisp black line onto any surface, at any angle in any environment.
 The line width can be varied, and the lazer pen works exatmo.
-The pen can write on flesh, but cannot be weaponized.
+The pen painlessly writes on flesh and is not a weapon.
 The sword is mightier than this pen.
-The pen will require a brief recharge after a thousand word.
-It is a pen not a picture.
+The pen will require a brief recharge after one thousand words.
 
 Nothings have a bonus of +10 on any status rolls when using a lazer pen.
 The EXPS value of the lazer pen is 2042 for nothings.
@@ -1376,18 +1339,16 @@ Wate:: Special
 EXPS:: 10
 Value:: 10000
 
-Artifact lights serve as a electronic torches lighting the darkness.
-Each light will also have a special property built into the light.
-When used for illumination the artifact is indistinguishable from a normal flashlight.
+These lights serve are the electronic torches lighting the darkness.
+Each light will also have a unique property built-in.
+When used for illumination, the artifact is indistinguishable from an everyday flashlight.
 
-For normal illumination purposes the light has a range and terminus diameter. 
-The terminus diameter can be dialed down to half a hex in diameter. 
-In tactical combat the area of illumination can be very important.
-This will also be the range of the light's special illumination.
+For normal illumination purposes, the light has a range and terminus diameter. 
+The user can dial down the terminus diameter to half a hex in diameter. 
+The range of regular illumination is also the range of the light's unique property.
 The width of the light beam spreads as it gets further away from the source.
-The beam width will be less than a hex wide at the light source, and will increase in width by 1 hex per 16 hexes of range.
-Having terminus widths of 1, 2 4, and 8 hexes.
-Thus a wall 64 hexes from the light will be lit 2 hex in radius (4 hexes in diameter).
+The beamwidth will be less than a hex wide at the source and will increase in width by one hex per 16 hexes of range, with terminus widths of 1, 2, 4, or 8 hexes.
+A wall that is 64 hexes away has a circle of light two hexes in radius  (4 hexes in diameter).
 
 include::ROOT:partial$CH48_Table_Light_Power.adoc[]
 
@@ -1405,12 +1366,12 @@ Value:: Special
 These locks are padlocks designed for one persona's personal use.
 The device can be attached to whatever the persona desires.
 Mundane locks require a latch to lock the object in question. 
-Autonomous locks can be placed on an object both locking, protecting and hiding.
+Autonomous locks can be placed on an object, locking, protecting and hiding the valuable.
 Biologic, robotic, and holographic locks are autonomous locks.
 
-Mundane locks are worth 1000, autonomous locks are worth 100000.
+Mundane locks are worth 1000, and autonomous locks are worth 100000.
 
-Spies and mechanics earn a +10 bonus on lock related rolls with this artifact.
+Spies and mechanics earn a +10 bonus on lock-related rolls with this artifact.
 
 include::ROOT:partial$CH48_Table_Lock_Type.adoc[]
 
@@ -1428,11 +1389,11 @@ This artifact is close to being a robot.
 The device will employ acoustics, lazers, radar and photography to develop its map. 
 The mapper does penetrate buildings, but will identify fabricated structures
 E.g., buildings, roads, mines, logging, dredging, canals, dams, irrigation, etc.
-The acoustic mapper can map one earth sized world before refueling.
-The acoustic mapper can plot an earth sized planet in 100 days.
+The acoustic mapper can map one earth-sized world before refueling.
+The acoustic mapper can plot an earth-sized planet in 100 days.
 Smaller map sizes are proportionally faster.
 Small maps that are easily drawn by the referee are the fastest and most accurate.
-This artifact should be used to develop story and not bypass challenges or puzzles. 
+This artifact should be used to develop the story and not bypass challenges or puzzles. 
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
@@ -1459,13 +1420,13 @@ Value:: 195000
 The mindlink allows an organic persona to communicate with electronic equipment.
 A simple computer could be read like a book, while a robot would involve in a conversation.
 The device allows her to peruse files or chat with inorganic consciousnesses.
-Search, and computation, times are limited by the inorganic device.
+Search, and computation times are limited by the inorganic device.
 A mindlink does not bypass encryption or allow the persona to control the machine.
 
 The device that allows for organic brains to control inorganic machines is the xref:iii-hardware:CH47_Medical.adoc#_translinker[Translinker,window=_blank]
 
-The larger the computer, the greater the chance she will be able to plug in.
-When using a mindlink a mechanic will earn a bonus of +42 on computer rolls.
+The larger the computer, the greater the chance she will be able to plugin.
+When using a mindlink, a mechanic will earn a bonus of +42 on computer rolls.
 
 
 === Money Counter 
@@ -1482,12 +1443,12 @@ All of which are devoted solely to the counting of money, and valuation of non-t
 A non-tech artifact would be considered anything useful to any other vocation.
 The money counter could valuate a broach or random junque but *not* a gun or grenade.
 The machine will grind, chunk, and squeak its way through the evaluation.
-When counting currency the device will always get the correct amount.
-If there is enough cultural knowledge the box will detect counterfeit or out dated currency.
+When counting currency, the device will always get the correct amount.
+If there is enough cultural knowledge, the box will detect counterfeit or out dated currency.
 The money counter also acts as a safe storing up to 20 kg of valuable materials.
 
 This is the closest thing to a vocation computer that the nothing could get.
-Nothings enjoy a +42 bonus on money related rolls when using a money counter.
+Nothings enjoy a +42 bonus on money-related rolls when using a money counter.
 The money counter is worth 2142 EXPS to nothings.
 
 === Plastix Explosive 
@@ -1501,11 +1462,11 @@ Value:: 2000
 
 Plastix explosive is an anti-architectural shape charge.
 Each charge is moldable to optimized structural damage.
-The plastix explosive is safe to work with, and can be frozen, or liquefied, without risk of detonation.
+The plastix explosive is safe to work with and can be frozen, or liquefied, without risk of detonation.
 The explosive has no effective range.
 Personas can stand directly beside the explosion with no fear of damage (says the manufacturer).
 The debris field or building collapse would be a different story.
-In short this is the safest, most destructive, commercial explosive made.
+In short, this is the safest, most destructive, commercial explosive made.
 Plastix is nearly impossible to weaponize, but it's effects can be tactical.
 
 One kg of plastix will blow a 1 hex sized hole in whatever it is attached to.
@@ -1553,7 +1514,7 @@ Value:: 10000
 
 A recorder is any device that records data.
 These recorders record, store, edit, analyze and playback data.
-The audio visual spectrum is that which the is detectable by anthropomorphs. 
+The audiovisual spectrum is that which the is detectable by anthropomorphs. 
 Other spectrums are added to challenge the players and move the story along.
 
 Recorders are combined with a <<_detectors,Detector>> as well.
@@ -1575,7 +1536,7 @@ Value:: Special
 
 The persona is in control of a robot.
 Initially this will be a functioning robot that follows the instructions of the persona.
-As the robot becomes more damaged it will likely evolve into a referee persona.
+As the robot becomes more damaged, it will likely evolve into a referee persona.
 Some robots, like Datalyzers and Hobbots, are cheeky from the start.
 
 Regardless of what is created the persona is in control of the robot.
@@ -1597,23 +1558,23 @@ Value:: 994000
 
 The robotic override is a focused AI computer that can reprogram the purpose, and ownership of a target robot.
 The controlling data can be delivered one of two ways.
-Irregardless the robot must win a roll vs poison intensity 3-30 (3d10) or be controlled.
+Irregardless, the robot must win a roll vs poison intensity 3-30 (3d10) or be controlled.
 The robot uses it's intelligence attribute to combat the programming poison.
 Mechanics can increase the intensity of the attack by making performance rolls.
 
 Once controlled the robot is controlled by the user of the robotic override.
 A combot could be forced to clean sidewalks and a hobbot could be used as a ramming device.
 Persona robots get to make a control factor check every day they are under foreign control.
-The more egregious the abuse the more likely the persona robot is to break free from override.
+The more egregious the abuse, the more likely the persona robot is to break free from override.
 
-Mechanics earn a bonus of +20 when making robot related rolls using this device.
+Mechanics earn a bonus of +20 when making robot-related rolls using this device.
 
 The robotic override will be the ranged version (type C) 42% of the time.
 
 ==== Full Contact Override (Type A Attack)
 The mechanic must get up close and personal with the robot.
 A successful type A attack roll must be made to inject the override coding.
-If the pick like device makes contact the robot must save or be overridden.
+If the pick like device makes contact, the robot must save or be overridden.
 The pick does not have an 18kg wate, but the pick, cable and backpack do.
 
 ==== Ranged Override (Type C Attack)
@@ -1635,7 +1596,7 @@ Value:: 12000
 
 Rocket rollerskates propel the persona along the ground faster than regular rollerskates.
 The skates have a gyroscopically stabilized truck system which helps prevents crashes.
-The skates are land locked and do *not* fly.
+The skates are landlocked and do *not* fly.
 They also require a reasonably smooth surface.
 They are best used on proper roads in civilized areas.
 
@@ -1671,7 +1632,7 @@ Value:: Special
 
 A scope is any device which aids the player's attack roll.
 Artifact scopes range from a sight on a rifle to a gyroscope on a sword.
-If the device helps increases the chance of damaging the target it is a scope.
+If the device helps increases the chance of damaging the target, it is a scope.
 There are scopes for all weapon types. 
 Every scope has a attack roll bonus and a specialization.
 
@@ -1682,8 +1643,8 @@ Every scope has a attack roll bonus and a specialization.
 
 ==== Scope Weapon Type
 Each scope was fabricated to work with a specific weapon type. 
-The scope is not interchangeable and the technology only works on it's designated weapon type.
-A scope designed for thrusting an striking weapons would not look like a rifle scope.
+The scope is not interchangeable, and the technology only works on it's designated weapon type.
+A scope designed for thrusting and striking weapons would not look like a rifle scope.
 A scope for type A weapons could be a box on the hilt, or a bracelet.
 The scope would then modify the motion of the blade to improve the attack roll.
 
@@ -1719,10 +1680,10 @@ So a weapon type C scope could be used to see in the dark even when not attached
 
 include::ROOT:partial$CH48_Table_Scope_Specialization.adoc[]
 
-Autostrike::
+Auto strike::
 This scope compensates for virtually any error that the persona can make in combat.
 Basically the persona needs to pull the trigger and point in the general direction.
-Autostrike must have line of sight and cannot shoot through cover or concealment.
+Auto strike must have line of sight and cannot shoot through cover or concealment.
 Obfuscation by weather can also thwart an autoscope.
 
 The player makes an attack roll.
@@ -1730,7 +1691,7 @@ A win on the attack roll becomes a critical hit.
 Jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc#_critical_hit[Critical Hits,window=_blank] for more info.
 Damage can be multiplied by 4 times.
 A miss on the attack roll becomes a regular hit.
-Autostrike changes the entire battle and campaign.
+Auto strike changes the entire battle and campaign.
 
 The player must always make an attack roll, at least to check for a weapon malfunction.
 A weapon jam is a weapon jam, and a therefore a miss.
@@ -1771,10 +1732,10 @@ The maximum attack roll bonus is +200 for a multi-scope.
 The value of a multi-scope is the combined value of the total scopes times 10. 
 
 Pacifist::
-The pacifist scope is a non-lethal autostrike scope.
+The pacifist scope is a non-lethal auto strike scope.
 The scope determines a target's weak vulnerable points.
 Instead of delivering a killing attack, the pacifist delivers a debilitating attack.
-A pacifist scope enjoys an attack roll bonus as do all other scopes.
+A pacifist scope enjoys an attack roll bonus, as do all other scopes.
 After a successful attack roll the players still rolls damage. 
 The pacifist scope will converts the damage into a percent chance to stun the opponent.
 Each point of damage inflicted will have a 2% chance of stunning the target for 0 to 9 (1d10-1) units.
@@ -1824,7 +1785,7 @@ If the machine loses power all charisma bonuses immediately disappear.
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of human women jumping into a cave wearing a skin tight outfit and firing a pistol.
+:description: Drawing of human women jumping into a cave wearing a skin-tight outfit and firing a pistol.
 
 include::ROOT:partial$articulate.adoc[]
 
@@ -1849,7 +1810,7 @@ This device cannot be used in conjunction with powered armour.
 The persona's dexterity attribute is not changed by this device.
 Once removed, or damaged, the persona returns to her normal DEX attribute value.
 The suit is delicate and is damaged every time the persona is damaged. 
-For the purposes of game play the suit usually starts with 1000 hit points.
+For the purposes of gameplay, the suit usually starts with 1000 hit points.
 Once reduced to zero HPS it stops conducting. 
 
 === Support Equipment 
@@ -1890,7 +1851,7 @@ They cannot fire on moving targets, and get no attack roll bonuses.
 Under normal circumstances personas not trained in artillery cannot use it.
 
 A mercenary using a targeting computer can target moving objects like vehicles or whales.
-When firing on a stationary target the mercenary gets an attack roll bonus of +100.
+When firing on a stationary target, the mercenary gets an attack roll bonus of +100.
 There is no bonus awarded when firing on moving targets.
 Computer targeting is much faster than manual targeting, only taking 1-10 (1d10) units.
 The targeting computer gives mercenaries and mechanics +20 on any artillery related rolls.
@@ -1910,14 +1871,14 @@ Value:: Special
 
 A tesseract box is a multi-roomed artifact which appears quite small and mundane on it's outside.
 A tesseract box will only occupy 1 hex in physical space.
-Once entered the box can contain 100s of medium sized rooms. 
+Once entered the box can contain 100s of medium-sized rooms. 
 Needless to say a tesseract box is a campaign altering or producing artifact.
 It would not be uncommon to find other personas within a tesseract box. 
-Such an artifact is worthy of a campaign or even and entire sciency fiction series.
+Such an artifact is worthy of a campaign or even anan entire sciency fiction series.
 
 A tesseract box will have 100 to 1000 (1d10 times 100) rooms arranged in whatever fashion the referee sees fit.
 This paradox of containment is maintained by the manipulation of time and relative dimension sequencing.
-Any items brought into the tesseract box must be brought in through the single exterior opening, and that is a normal sized door.
+Any items brought into the tesseract box must be brought in through the single exterior opening, and that is a normal-sized door.
 
 The box has incalculable wate, but does not tear apart local gravity.
 A tesseract box cannot be moved by any external force.
@@ -2022,7 +1983,7 @@ Nix Magic Multi-Vision Visor is worth 10000000.
 Smoke::
 The smoke cutting visor allows the persona to function as though there was no smoke obscuring her vision.
 The scope works equally well with mist, fog, and other particulate matter.
-The persona wil still be asphyxiated by the smoke, but no visual impairment.
+The persona will still be asphyxiated by the smoke, but no visual impairment.
 The smoke visor is worth 250.
 
 Ultravision:: 
@@ -2032,13 +1993,13 @@ UV visual aids have a value of 500.
 
 X-Ray:: 
 The x-ray goggles can be adjusted to see inside things at various depths.
-They have a range of 1 hex, and can penetrate up to 1 hex of hull metal.
+They have a range of 1 hex and can penetrate up to 1 hex of hull metal.
 These goggles are detectable as radioactive by canines.
 Xray goggles have a value of 15000.
 
 ZBGs::
 The abbreviation G stands for glasses, and ZB are the initials of a universally infamous, cool chicken.
-The glasses always appear as normal glasses, but when they detect the kirlian auras of danger they go opaque (yes they will go black if something is behind the persona).
+The glasses always appear as normal glasses, but when they detect the Kirlian auras of danger they go opaque (yes they will go black if something is behind the persona).
 The glasses are special to nothings, and will count as 4242 EXPS.
 ZBG vizauds have a value of 42042. 
 
@@ -2070,19 +2031,19 @@ There will always be just enough energy for the next disintegration.
 The waste disposer is designed to disintegrate itself if its casing is tampered with.
 
 
-== Miscellaneous Equipment Attributes
+== Miscellaneous Equipment Parameters
 
 === Vocation 
 Vocation represents the persona vocation whom this particular miscellaneous device was designed for.
 If the vocation attribute indicates Mechanic, then the artifact is used by mechanics.
 If the artifact vocation is labelled Spie, then it is an artifact for spying.
-If the vocation is labelled None then it sits in no particular vocation category.
+If the vocation is labelled None, then it sits in no particular vocation category.
 
 === Duration 
 Duration indicates how much use the device can endure before the battery set must be replaced.
 It would be unusual for a battery set to run down, but who knows, it may happen just when the device is most needed!
 Other toys have a predetermined number of uses before the battery set must be replaced.
-Single Use artifacts usually consume themselves to reach their objective.
+Single-Use artifacts usually consume themselves to reach their objective.
 Artifacts with the duration of Power Source need to be connected to a continuous power source.
 These are artifacts that require enormous power plants like nuclear generators, and hydroelectric dams.
 
