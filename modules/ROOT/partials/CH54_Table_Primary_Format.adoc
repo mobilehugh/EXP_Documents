@@ -2,26 +2,27 @@
 .*Vehicle Type*
 [width="75%",cols="^,<",frame="all", stripes="even"]
 |===
-2+<|Determine the basic type of vehicle.
+2+<|Determine the vehicle type.
 
 s|Die Roll (1d100)
-s|Primary Format
+s|Vehicle Type
 
 |01-20
-|Cargo
+|<<_cargo_type,Cargo Type>>
 
 |21-65
-|Leisure
+|<<_leisure_type,Leisure Type>>
 
 |66-90
-|Passenger
+|<<_passenger_type,Passenger Type>>
 
 |91-99
-|Self Powered
+|<<_self_powered_type,Self Powered Type>>
 
 |00
 |Ref's Own Table
 
 s|Die Roll
-s|Primary Format
+s|Vehicle Type
+2+<|Vehicle type was formerly referred to as Primary Format
 |===

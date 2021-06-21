@@ -1,18 +1,18 @@
 // Table 54.11 Vehicle Locomotion
-.*Primary Vehicle Locomotion*
-[width="75%",cols="4*^",frame="all", stripes="even"]
+.*Vehicle Locomotion Type*
+[width="85%",cols="<,3*^",frame="all", stripes="even"]
 |===
-4+<|Primary locomotion type depends on speed and randomness.
+4+<|Roll 1d100 in the appropriate column based on vehicle speed.
 
 s|
-3+s|Speed (h/u)
+s|Vehicle Speed
+s|Vehicle Speed
+s|Vehicle Speed
 
-s|Primary Type +
-(1d100)
-
-s|<15
-s|15 to 110
-s|> 110
+s|Locomotion Type
+s|<15 h/u
+s|15 to 110 h/u
+s|> 110 h/u
 
 
 |Antigrav
@@ -20,7 +20,7 @@ s|> 110
 |01-05
 |01-10
 
-|Chemical Slide ^*^
+|Chemical Slide
 |03-06
 |--
 |--
@@ -85,13 +85,15 @@ s|> 110
 |00
 |00
 
-s|Primary Type
-s|<15
-s|15 to 110
-s|> 110
+s|Locomotion Type
+s|<15 h/u
+s|15 to 110 h/u
+s|> 110 h/u
 
 s|
-3+s|Speed (h/u)
+s|Vehicle Speed
+s|Vehicle Speed
+s|Vehicle Speed
 
 4+<|^*^ indicates roll on Complementary Locomotion Table
 |===

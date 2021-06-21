@@ -1,0 +1,39 @@
+// Table 52.19 Space Vehicle Value
+.*Space Vehicle Value Calculation*
+[width="75%",cols="<1,<2,<2",frame="all", stripes="even"]
+|===
+3+<|Get out the calculator! What's a calculator you ask?
+
+s|System
+s|Factor
+s|Calculation
+
+|Hull Metal
+|1000 per tonne times AR
+|1000*100*700 = 70M
+
+|Exatmo
+|100000 per tonne times level squared
+|100000*100*(100*100) = 100B
+
+s|Fuel
+|25000 per tonne times months
+|25000*100*5 = 12.5M
+
+s|Computer
+|1000000 per level squared
+|1000000*(4*4) = 16M
+
+|Hull AR
+|10000 per point AR
+|10000*700 = 7M
+
+s|Cargo Space
+|25000 per tonne
+|25000*63 = 1.5M
+
+s|Total
+|nearest billion
+s|100B
+
+|===

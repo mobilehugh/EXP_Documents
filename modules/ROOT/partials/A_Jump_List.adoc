@@ -1,25 +1,8 @@
-// not a table.
-// a jump list for cross references
-
-
-// SG t9@k2(N5j1`+
-
-// FTP $2%5c2g16)6
-
-
-// REGEXES
-
-// find and kill ##) --->    \\d+\)\n
-
-// find art missing :description: ---> (:license:).*\n(?!:description:)
-
-// INCLUDES not LICNUDES
-
-include::ROOT:partial$Defect_Disclaimer.adoc[]
-
-// I ROLL PLAYING
+// I ROLL PLAYING ====================================================
 
 xref:1-roll_playing_rules:CH00_kilo_die_mechanic.adoc[Kilodie Mechanic, window=_blank]
+
+xref:i-roll_playing_rules:CH03_AttributesMSTR.adoc[Mental Strength,window=_blank]
 
 xref:i-roll_playing_rules:CH03_AttributesDEX.adoc#_moverate[Movement Rate,window=_blank]
 
@@ -27,9 +10,40 @@ xref:i-roll_playing_rules:CH04__Families.adoc[Families,window=_blank]
 
 xref:i-roll_playing_rules:CH04_Anthros_HPS.adoc#_damage_system_shock[Damage System Shock,window=_blank]
 
+// I ROBOT LIST ====================================================
+xref:i-roll_playing_rules:CH05_Robots_A_Android.adoc[Android,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_expendable_combot[Expendable Combot,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_light_offensive_combot[Light Combot,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_defensive_combot[Defensive Combot,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_heavy_offensive_combot[Heavy Combot,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_D_Datalyzer.adoc[Datalyzer,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_E_Explorations.adoc#_extra_planetary_exploration_robot[Exatmo Explorations,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_E_Explorations.adoc#_planetary_exploration_robot[Planetary Explorations,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_H_Hobbot.adoc[Hobbot,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_I_Industrial.adoc#_industrial_builder_robot[Builder,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_I_Industrial.adoc#_industrial_lifter_robot[Lifter,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_I_Industrial.adoc#_industrial_mover_robot[Mover,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_J_Janitorial.adoc#_commercial_janitorial_robot[Commercial Janitor,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_J_Janitorial.adoc#_domestic_janitorial_robot[Domestic Janitor,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_M_Maintenance.adoc[Maintenance,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_P_Policing.adoc#_civilian_policing_robot[Civilian,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_P_Policing.adoc#_riobot_policing_robot[Riobot,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_P_Policing.adoc#_detective_policing_robot[Detective,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_R_Rescue.adoc#_containment_rescue_robot[Containment,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_R_Rescue.adoc#_retrieval_rescue_robot[Retrieval,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_S_Social.adoc[Social,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_T_Transport.adoc#_inatmo_transport_robot[Inatmo Transport,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_T_Transport.adoc#_exatmo_transport_robot[Exatmo Transport,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_V_Veterinarian.adoc#_diagnostic_vet_robot[Diagnostics,window=_blank]
+xref:i-roll_playing_rules:CH05_Robots_V_Veterinarian.adoc#_interventional_vet_robot[Interventional,window=_blank]
+
+xref:i-roll_playing_rules:CH05_Robots_Z_Power.adoc[Robot Power,window=_blank]
+
 xref:i-roll_playing_rules:CH05_Robots_Z_Defensive.adoc[Defensive Systems,window=_blank]
 
 xref:i-roll_playing_rules:CH05_Robots_Z_CF.adoc[Control Factor,window=_blank]
+
+xref:i-roll_playing_rules:CH05_Robots_Z_Peripherals.adoc[Peripherals,window=_blank]
 
 xref:i-roll_playing_rules:CH06_Aliens_12_Biology.adoc#_aroma[Aroma,window=_blank]
 
@@ -87,65 +101,31 @@ xref:i-roll_playing_rules:CH37_Non_Lethal_Combat.adoc[Non-Lethal Combat,window=_
 
 xref:i-roll_playing_rules:CH38_Space_Vehicle_Combat.adoc[Space Vehicle Combat,window=_blank]
 
+//II ROLE PLAYING ====================================================
 
-// I ROBOT LIST
+//III HARDWARE ====================================================
 
-xref:i-roll_playing_rules:CH05_Robots_A_Android.adoc[Android,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_expendable_combot[Expendable Combot,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_light_offensive_combot[Light Combot,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_defensive_combot[Defensive Combot,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_C_Combat.adoc#_heavy_offensive_combot[Heavy Combot,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_D_Datalyzer.adoc[Datalyzer,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_E_Explorations.adoc#_extra_planetary_exploration_robot[Exatmo Explorations,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_E_Explorations.adoc#_planetary_exploration_robot[Planetary Explorations,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_H_Hobbot.adoc[Hobbot,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_I_Industrial.adoc#_industrial_builder_robot[Builder,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_I_Industrial.adoc#_industrial_lifter_robot[Lifter,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_I_Industrial.adoc#_industrial_mover_robot[Mover,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_J_Janitorial.adoc#_commercial_janitorial_robot[Commercial Janitor,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_J_Janitorial.adoc#_domestic_janitorial_robot[Domestic Janitor,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_M_Maintenance.adoc[Maintenance,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_P_Policing.adoc#_civilian_policing_robot[Civilian,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_P_Policing.adoc#_riobot_policing_robot[Riobot,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_P_Policing.adoc#_detective_policing_robot[Detective,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_R_Rescue.adoc#_containment_rescue_robot[Containment,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_R_Rescue.adoc#_retrieval_rescue_robot[Retrieval,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_S_Social.adoc[Social,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_T_Transport.adoc#_inatmo_transport_robot[Inatmo Transport,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_T_Transport.adoc#_exatmo_transport_robot[Exatmo Transport,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_V_Veterinarian.adoc#_diagnostic_vet_robot[Diagnostics,window=_blank]
-
-xref:i-roll_playing_rules:CH05_Robots_V_Veterinarian.adoc#_interventional_vet_robot[Interventional,window=_blank]
-
-//II ROLE PLAYING
-
-
-//III HARDWARE
+.*TOY Sections*
+* xref:CH43_Aerosols.adoc[Aerosols,window=_blank]
+* xref:CH42_Armour.adoc[Armour,window=_blank]
+** xref:CH42_Powered_Armour.adoc[Powered Armour,window=_blank]
+* xref:CH45_Grenades.adoc[Area of Effect,window=_blank]
+** xref:CH44_Bombs.adoc[Bombs,window=_blank]
+* xref:CH46_Guns.adoc[Guns,window=_blank]
+** xref:CH43_Artillery.adoc[Artillery,window=_blank]
+* xref:CH48_Misc_Equip.adoc[Miscellaneous Equipment,window=_blank]
+** xref:i-roll_playing_rules:CH11_Referee_Personas_Robot.adoc[Robot, window=_blank]
+* xref:CH49_Misc_Weapons.adoc[Miscellaneous Weapon,window=_blank]
+* xref:CH50_Pharmaceuticals.adoc[Pharmaceuticals,window=_blank]
+* xref:CH51_Random_Junque.adoc[Random Junque,window=_blank]
+* xref:CH53_Treasure.adoc[Treasure,window=_blank]
+* xref:CH54_Vehicles.adoc[Vehicles,window=_blank]
+** xref:CH52_Space_Vehicle.adoc[Space Vehicles,window=_blank]
+* xref:CH47_Medical.adoc[Veterinary Equipment,window=_blank]
 
 xref:iii-hardware:An_index_hardware.adoc#_toy_type[Toy Type,window=_blank]
+
+xref:iii-hardware:CH42_Armour.adoc[Armour,window=_blank]
 
 xref:iii-hardware:CH42_Powered_Armour.adoc[Powered Armour,window=_blank]
 
@@ -155,6 +135,8 @@ xref:iii-hardware:CH43_Artillery.adoc#_artillery_type[Artillery,window=_blank]
 
 xref:iii-hardware:CH45_Grenades.adoc#_grenade_type[Grenade Type,window=_blank]
 
+xref:iii-hardware:CH44_Bombs.adoc[Bombs,window=_blank]
+
 xref:iii-hardware:CH48_Misc_Equip.adoc#_communicators[communicators,window=_blank]
 
 xref:iii-hardware:CH46_Guns.adoc#_gun_type[Gun,window=_blank]
@@ -162,6 +144,8 @@ xref:iii-hardware:CH46_Guns.adoc#_gun_type[Gun,window=_blank]
 xref:iii-hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment,window=_blank]
 
 xref:iii-hardware:CH47_Medical.adoc#_translinker[Translinker,window=_blank]
+
+xref:iii-hardware:CH48_Misc_Equip.adoc#_computers[Computers,window=_blank]
 
 xref:iii-hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank]
 
@@ -185,9 +169,7 @@ xref:iii-hardware:CH52_Space_Vehicle.adoc#_special_drives[Special Drives,window=
 
 xref:iii-hardware:CH52_Space_Vehicle.adoc#_naval_artillery[Naval Artillery,window=_blank]
 
-
-
-//IV SOFTWARE
+//IV SOFTWARE ====================================================
 
 xref:iv-software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank]
 
@@ -197,8 +179,7 @@ xref:iv-software:CH55_Support.adoc[Support Equipment,window=_blank]
 
 xref:iv-software:CH55_Support.adoc#_fuel[Fuel,window=_blank]
 
-
-// V WETWARE
+// V WETWARE ====================================================
 
 xref:v-wetware:CH58_Mental.adoc[Mental Mutations,window=_blank]
 
@@ -220,7 +201,7 @@ xref:v-wetware:CH59_Physical.adoc#_defective_mutations[Defective Physical Mutati
 
 xref:v-wetware:CH69_AI.adoc[Autonomous Intelligence,window=_blank]
 
-// APPENDICES
+// APPENDICES ====================================================
 
 xref:vi-appendices:Appy_A_Glossaries.adoc[Glossaries,window=_blank]
 
@@ -231,58 +212,22 @@ xref:vi-appendices:Appy_C_Mythos_Generic.adoc#_the_spaces[The Spaces,window=_bla
 xref:vi-appendices:Appy_C_Campaign_Mythos.adoc#_energy_and_power[Energy and Power,window=_blank]
 
 
-.*TOY Sections*
-* xref:CH43_Aerosols.adoc[Aerosols,window=_blank]
-* xref:CH42_Armour.adoc[Armour,window=_blank]
-** xref:CH42_Powered_Armour.adoc[Powered Armour,window=_blank]
-* xref:CH45_Grenades.adoc[Area of Effect,window=_blank]
-** xref:CH44_Bombs.adoc[Bombs,window=_blank]
-* xref:CH46_Guns.adoc[Guns,window=_blank]
-** xref:CH43_Artillery.adoc[Artillery,window=_blank]
-* xref:CH48_Misc_Equip.adoc[Miscellaneous Equipment,window=_blank]
-** xref:i-roll_playing_rules:CH11_Referee_Personas_Robot.adoc[Robot, window=_blank]
-* xref:CH49_Misc_Weapons.adoc[Miscellaneous Weapon,window=_blank]
-* xref:CH50_Pharmaceuticals.adoc[Pharmaceuticals,window=_blank]
-* xref:CH51_Random_Junque.adoc[Random Junque,window=_blank]
-* xref:CH53_Treasure.adoc[Treasure,window=_blank]
-* xref:CH54_Vehicles.adoc[Vehicles,window=_blank]
-** xref:CH52_Space_Vehicle.adoc[Space Vehicles,window=_blank]
-* xref:CH47_Medical.adoc[Veterinary Equipment,window=_blank]
+
+// not a table.
+// a jump list for cross references
 
 
+// SG t9@k2(N5j1`+
+
+// FTP $2%5c2g16)6
 
 
+// REGEXES
 
+// find and kill ##) --->    \\d+\)\n
 
-//
-// mis-snakes on a plane
-//
+// find art missing :description: ---> (:license:).*\n(?!:description:)
 
-//listened up to 
+// INCLUDES not LICNUDES
 
-// word for birthing a horse in modules\i-roll_playing_rules\pages\CH04_AnthrosType_Equine.adoc
-// word for birthing a cat
-
-// rodentia.png is too small
-
-// 250px is too small for the images 
-
-// how to spell story as in a storey modules\i-roll_playing_rules\pages\CH04_Anthros_Mutations.adoc
-
-
-EXP takes liberties to mix elements of faux science and technomagical thinking to have fun.
-The possibilities of technology is the basis of the sciency fiction milieu of EXP.
-Referees and players must lever the magical power of the opaque black box.
-An aptitude for rational fabrication and post factualization are essential tools.
-
-A referee is free to tailor the hardware section to what best reflects her story.
-She can easily do this by creating a few devices in advance and ignoring all the randomization harboured here.
-Or you could play https://en.wikipedia.org/wiki/Traveller_(role-playing_game)[Traveller] instead.
-
-They may find devices in an ancient destroyed laboratory.
-They may earn devices from combat or cunning stunts. 
-They may be paid in artifacts for a job well done.
-
-Personas can start with artifacts, find artifacts, or get paid with artifacts.
-Austere milieus may start personas with nothing but dust and dreams.
-Creator species may allow the personas to browse the toy categories like an online store.
+include::ROOT:partial$Defect_Disclaimer.adoc[]

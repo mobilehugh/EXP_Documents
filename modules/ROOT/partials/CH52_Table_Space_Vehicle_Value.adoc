@@ -1,6 +1,6 @@
 // Table 52.19 Space Vehicle Value
 .*Space Vehicle Value*
-[width="75%",cols="3*^",frame="all", stripes="even"]
+[width="75%",cols="<,<,^",frame="all", stripes="even"]
 |===
 3+<|Get out the calculator! What's a calculator you ask? 
 
@@ -8,79 +8,75 @@ s|System
 s|Factor
 s|Value per Factor
 
-3+<s|Hull
+3+s|Hull
 
-<|Hull Metal
+|Hull Metal
 |tonnage times AR
 |1000
 
-<|Smart Metal
+|Smart Metal
 |tonnage times AR
 |5000
 
-3+<s|Drives
+3+s|Drives
 
-<|Inatmo
+|Inatmo
 |tonnage times level
 |10 000
 
-<|Exatmo
-|tonnage times +
-level squared
+|Exatmo
+|tonnage times level squared
 |100 000
 
-<|Special
-|tonnage times +
-level cubed
+|Special
+|tonnage times level cubed
 |100 000
 
-<s|Fuel
+s|Fuel
 |tonnage times months
 |25 000
 
-<s|Computer
+s|Computer
 |level times level
 |1 000 000
 
-3+<s|Defences
+3+s|Defences
 
-<|Hull AR
+|Hull AR
 |per point AR
 |10 000
 
-<|Shields
-|tonnage times +
-Drive level
+|Shields
+|tonnage times Drive level
 |50 000
 
-<|Actives
-|tonnage times +
-Drive level
+|Actives
+|tonnage times Drive level
 |50 000
 
-3+<s|Attacks
+3+s|Attacks
 
-<|Artillery
+|Artillery
 |per HPS damage
 |10 000
 
-<|Grenades
+|Grenades
 |per HPS damage
 |10 000
 
-<|Bombs
+|Bombs
 |per HPS damage
 |100 000
 
-<|Naval Artillery
+|Naval Artillery
 |per HPS damage
 |1 000 000
 
-<s|Cargo Space
+s|Cargo Space
 |per tonne
 |25 000
 
-<s|Robot
+s|Robot
 |value 
 |Add value
 

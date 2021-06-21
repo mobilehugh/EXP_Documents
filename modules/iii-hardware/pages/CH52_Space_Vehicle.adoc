@@ -24,6 +24,22 @@ Space vehicles can be found, stolen, rented, lent or inherited by the expedition
 Space travel may be the campaign goal or just to mechanism to expand campaign horizons.
 Either way, access to a spaceship brings the level of fantasy to galactic proportions.
 
+.*Space Vehicle Checklist*
+. <<_nomenclature,Nomenclature>>
+. <<_hull,Hull>>
+. <<_drives,Drives>>
+. <<_fuel,Fuel>>
+. <<_computer,Computer>> 
+. <<_computer_software,Software>>
+. <<_defensive_systems,Defensive Systems>>
+. <<_offensive_systems,Offensive Systems>>
+. <<_crew,Crew>>
+. <<_cargo,Cargo>>
+. <<_space_chattels,Chattels>>
+. <<_exps,EXPS>>
+. <<_value,Value>>
+. <<_operational_costs,Costs>>
+
 == Nomenclature 
 The type of space vehicle reflects its function.
 The space vehicle types starship and airship indicate different functions.
@@ -47,24 +63,6 @@ It is not an end itself.
 The build creates random space vehicles that supply the basic necessities of space travel.
 The only guarantees are a hull, drives, computers, and life support.
 The layout and appearance depend on the referee and players.
-
-.*Space Vehicle Build Checklist*
-. <<_hull,Hull>>
-. <<_drives,Drives>>
-. <<_fuel,Fuel>>
-. <<_computer,Computer>> 
-. <<_computer_software,Software>>
-. <<_defences,Defences>>
-. <<_attacks,Attacks>>
-. <<_crew,Crew>>
-.. Navigator
-.. Pilot
-.. Engineer
-. <<_cargo,Cargo>>
-. <<_space_chattels,Chattels>>
-. <<_exps,EXPS>>
-. <<_value,Value>>
-. <<_operational_costs,Costs>>
 
 == Hull 
 A hull is the outer covering of a seed. 
@@ -148,8 +146,8 @@ The starship does it all.
 A starship can take off and land on a planet's surface, travel from planet to planet and jump from star to star. 
 
 Starcruiser::
-This space vehicle can't enter and atmosphere but can travel anywhere else in space.
-The starcruiser also has the name star bus or cruiser.
+This space vehicle can't enter an atmosphere but can travel anywhere else in space.
+The starcruiser also has the name star bus or simply a cruiser.
 
 Spaceship::
 The spaceship is limited to work within the confines of one star system.
@@ -288,77 +286,62 @@ The more powerful the drive is, the more hull space it occupies.
 
 include::ROOT:partial$CH52_Table_Drive_Level_and_Size.adoc[]
 
-The wate of a ship's drives are determined their level and the space vehicle size.
-The drive wates are cumulative. 
-A space vehicle with a 10 tonnes exatmo drive and a 5 tonne special drive uses 15 tonnes of hull.
+Drive Power Level::
+The player rolls drive power from 1-10 (1d10) for each drive the space vehicle has.
+The player must record the drive power level for each drive type, i.e., Inatmo 4, Exatmo 2 and Special 6.
+The drive power determines the drive size and drive performance.
 
-A level 5 exatmo drive can move at 0.5 C (speed of light) and orbit around 5 G (gravity) planets. 
-On a 100 tonne vessel, the drive would have a wate of 5 tonnes, and occupy 5 tonnes of hull space. 
-On a 10 tonne vessel, the drive would have a wate of 500 kgs and occupy 500 kgs of hull space. 
+Drive Size::
+The more powerful the drive, the more hull space it occupies.
+The larger the space vehicle, the larger the drive that moves it.
+The tonnage of a drive is 1% of the hull size per level of drive power.
+Each drive has its own power level, and therefore each drive occupies a unique amount of hull.
+These individual drive wates are cumulative. 
+A space vehicle with a 100-tonne hull has a power level 10 exatmo drive (zoom zoom) and a power level 5 special drive.
+The drives occupy 15 tonnes of hull space.
 
+Performance::
+Each drive has a metric that each drive's power level multiplies.
+A level 5 exatmo drive can move at 0.5 C (speed of light) and pull 5 G maneuvers. 
+A level 5 inatmo drive can move at Mach 5 through the sky of a 5 G planet.
+A level 5 special drive can jump 100 light-years.
 
-
-==== Inatmo Drive Level
-The inatmo drive level is determined by a 1d10 roll. 
-The player rolls an individual drive level for each drive.
-For each level of inatmo drive the space vehicle can travel 1 Mach in atmosphere.
-For each level of inatmo drive the space vehicle can manage 1 Gravity of planet pull.
-Mach is equal to the speed of sound. 
-In EXP, we ignore the effects of temperature and atmospheric density on the speed of sound.
-It is a given that a level 4 inatmo drive is twice as fast as a level 2 inatmo drive.
-A level 6 inatmo drive can travel at Mach 6, or 6 times the speed of sound
-A level 6 inatmo drive could overcome 6 gravities of planetary pull. 
-
-==== Exatmo Drive Level
-The exatmo drive level is determined by a 1d10 roll. 
-The player rolls an individual drive level for each drive.
-A exatmo drive can travel at 1/10 the speed of light per drive level.
-The space vehicle can maintain an orbit around a planet with 1 gravity per drive level.
-A level 6 exatmo drive can travel at 0.6 the speed of light. 
-A level 6 exatmo drive can close orbit up to 6 gravities of planetary pull.
-
-==== Special Drive Level
-The special drive level is determined by a 1d10 roll. 
-The player rolls an individual drive level for each drive.
+Special Drives are Special::
 The special drive can travel 20 light-years (LY) per level.
 A level 6 special drive can travel 120 light-years in one moment.
-
-During a special drive jump the ship cannot be communicated with.
-A special drive jump cannot be aborted safely.
-The consequences of aborting a special drive run are up the referee.
-
-The special drives must fit into the milieu of the referee's campaign.
-The duration of a jump could be changed from a moment, a day or a week.
-The distance covered can be changed to parsecs, or astronomical units.
+The referee can change to what works best for the milieu and campaign, i.e., parsecs or astronomical units.
+A special drive jump is usually instantaneous.
+The referee can change to what works best for the milieu or campaign, i.e., days or weeks per jump unit.
+Regardless of the special drive type, the vessel travels through xref:vi-appendices:Appy_C_Mythos_Generic.adoc#_the_spaces[hyperspace,window=_blank].. 
+There is no communication within hyperspace or between hyperspace and physical space.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
 == Fuel 
 Fuel seems like a trivial issue for a gallant expedition out to save the universe.
-Energy is the limiter of all, including the space vehicle.
-Fuel is a tool to make gameplay more challenging and the story telling more interesting.
+Energy is the limiter of all things, especially space vehicles.
+Fuel is a tool to make gameplay more challenging and the storytelling more interesting.
+The players can dispense with fuel's rules if desired.
+
+.*Fuel Checklist*
+. <<_fuel_type,Fuel Type>>
+. <<_fuel_level,Fuel Level>>
+. <<_fuel_consumption,Fuel Consumption>>
 
 === Fuel Type
-A space vehicle's fuel type is mostly a fun descriptor.
-It is entirely up to the referee if gas from one ship is compatible with gas from another.
+A space vehicle's fuel type is a fun descriptor.
+It is entirely up to the referee if gas from one vessel is compatible with gas from another vessel.
 A space vehicle will only have one fuel type.
 Each drive type will use the same fuel type.
-The drive types may use the same fuel, but each drive has different needs and rates of consumption.
+The drive types may use the same fuel, but each drive type has different needs and rates of consumption.
+Whether the space vehicle has a full tank, a half tank or vapours is up to the referee and the milieu of the campaign.
 
-// both fusion and gravetic drives drain fuel
+For more information about fuel and energy jump to the generic mythos section -> xref:vi-appendices:Appy_C_Mythos_Generic.adoc#_energy_and_power[Energy and Power,window=_blank].
 
 include::ROOT:partial$CH52_Table_Fuel_Type.adoc[]
 
-For more information about fuel and energy jump to the generic mythos section -> xref:vi-appendices:Appy_C_Campaign_Mythos.adoc#_energy_and_power[Energy and Power,window=_blank].
-
 //.1(5)+.2(10.5)+.2(22)+.3(220)+.1(900)+0.05(3750)+0.04(21000)
-
-//2m cubed = 70 cubic feet
-
-//http://www.themaritimesite.com/a-guide-to-understanding-ship-weight-and-tonnage-measurements/
-
-//http://www.milsf.com/ship-size-tonnage-and-crew/
 
 :art: spacevehicle_gigantic.png
 :width: 450px
@@ -370,368 +353,412 @@ For more information about fuel and energy jump to the generic mythos section ->
 
 include::ROOT:partial$articulate.adoc[]
 
-=== Fuel Amount 
-The amount of fuel is determine by individual die rolls for each drive type.
-The player only rolls for the drive types the space vehicle is configured for.
-The fuel amount occupies hull space on the vessel.
+=== Fuel Level
+The drive types the space vehicle has, the more fuel the space vehicle may have.
+Each drive type contributes an amount to the shared fuel storage.
+The fuel storage occupies hull space on the vessel.
 The fuel amount also determines the range of the space vehicle.
-The higher the fuel level, the more space it occupies and the further the space vehicle's range.
  
 include::ROOT:partial$CH52_Table_Fuel_Storage.adoc[]
 
-For example a space cruiser has the following fuel levels: inatmo 8, exatmo 9 and special 3.
-Regardless of the fuel type, fuel storage occupies 20% of the space cruiser's hull.
-The space cruiser would have a range of 20 months. 
-If this were a 100 tonne spacecruiser 20 months of fuel would occupy 20 tonnes of hull space.
+Fuel Level::
+The fuel level indicates how much fuel each drive type contributes to the total fuel level.
+For example, a spaceship has the following fuel levels: inatmo 8, exatmo 9 and special 3.
+The total fuel level is 20, which determines the fuel storage and fuel range.
 
-=== Fuel Range 
-Calculating light-years, kilometers, or parsecs, was overwhelming, and boring.
-The 30 day month was chosen as a measure of fuel use.
-The month of range refers to that specific space vehicle, it's storage, it's drive and it's size.
-One month of fuel usage equates to one special drive jump.
+Fuel Storage::
+Fuel storage indicates the amount of space that the fuel occupies in the hull of the vessel.
+The total fuel level of all the drive types determines the size of the fuel storage.
+Each fuel level occupies 1% of the hull displacement.
+A fuel level of 20 occupies 20% of the vessel's hull space.
+If this were a 100-tonne spaceship, a fuel level of 20 would occupy 20 tonnes of hull space.
+
+Range::
+The range indicates how long the space vehicle can run until it runs out of fuel.
+The fuel level indicates the number of months that the ship can operate with a full tank.
+A vessel with a fuel level of 20 would have a range of 20 months. 
+The following section on fuel consumption explains the concept of fuel range as months.
+
+=== Fuel Consumption
+Fuel consumption varies with the drive type and how the expedition is using it.
+Combat fuel consumption is much higher than tourist or haulage fuel consumption.
+
+Both fuel consumption and fuel range are in units of time.
+Calculating light-years, kilometres, or parsecs became overwhelming and tedious.
+Using date time for monitoring fuel consumption allows for limits on fuel (if the campaign desires) and allows for more storyful measurements.
+
+Each month of range consists of 30 days of fuel use.
+A month of range is for that specific space vehicle.
+The range takes into account the vessel size and all fuel necessary for the task at hand.
 Choosing a time of fuel burn proved to be the easiest way to keep track of fuel consumption.
-A 10 tonne and 100 tonne spacer would use 1 month of fuel to do a special jump.
-The 100 tonne vessel would use 10 times more fuel in wate, but the month is used to keep track.
+
+Consider a special drive jump as an example.
+A special drive jump uses one month of fuel and moves the ship as many light-years as the special drive level indicates.
+A 10 tonne or a 100-tonne vessel would use one month of their fuel storage to make the jump.
+This method allows the ship to make several jumps before refuelling but does not bog the players down with astronomical calculations.
 
 include::ROOT:partial$CH52_Table_Fuel_Consumption.adoc[]
 
-So a space vehicle with a fuel storage of 5% Inatmo and 10% exatmo would have 15 months of fuel.
-This fuel could be used up in 15 special drive jumps, or 60 turns of space combat.
-A space vehicle cannot jump if there is less than 1 month of fuel onboard.
-A space vehicle drops out of combat if there is less than 1 week of fuel onboard.
-During space combat, the drives cannot sip from the collective fuel storage. 
-Fuel storage is compartmentalized for safety and this can effect fuel access of specific drives.
+So a space vehicle with 15 months of fuel could make 15 special drive jumps or compete in 60 turns of space combat or 90 minutes of inatmo flight.
+A space vehicle drops out of combat if there is less than one week of fuel onboard.
+Running out of fuel during combat is a victory condition for the vessel that does not run out of fuel.
+A space vehicle cannot jump if there is less than one month of fuel onboard.
 
-Refuelling is left to the design of the referee.
-Some fuel types may be innocuous materials which are easily obtained from the local gas giant.
+The nature of refuelling depends on the referee's milieu and campaign.
+Some fuel types may be ubiquitous materials that one skims off the local gas giant.
 Other fuel types may require days of retooling by highly skilled space mechanics.
-Don't forget the power of the sphincter dice when trying to decide complicated and boring issues.
 
 == Computer 
-The computer is the ship and the ship is the computer.
-The computer is deeply integrated with every system on the ship.
-The computer manages special jumps, evasive actions, life support, gravity and more.
+The computer is the vessel, and the vessel is the computer.
+The computer integrates deeply with every system on the space vehicle.
+The computer manages special drive jumps, combat maneuvers, life support, gravity and more.
 A space vehicle requires a computer and crew to function.
 Pilots, navigators and engineers work on the space vehicle through the ship's computer.
-The persona crew can be be replaced by software. 
-There are no manual space vehicles.
+Software can replace the crew of a space vehicle, but there are no manual space vehicles.
 
-Life support protects the vessel's cargo, but is there for the ship's computer.
-A dead computer is as dead space vehicle.
-Cargo and crew come and go.
+Life support protects the vessel's cargo, but it is really there for the ship's computer.
+A dead computer is a dead space vehicle.
+Cargo and crew come and go, but ship's last generations.
 
 .*Installing the ship's computer*
 . Computer Level
-. Computer Wate
-. Computer Software
-.. Crew
-.. Defensive
-.. Miscellaneous
+. Computer Size
 
-The ship's computer is mostly distributed throughout the entire ship.
-Often there will be a central location for interaction. 
-This could be called the ship's bridge.
-Personas acting as ship's crew can be located on the bridge or distributed about the vessel.
+The ship's computer is distributed throughout the entire space vehicle.
+There may be a central location for interaction with the ship's computer.
+This central computer interface could be called the ship's bridge, but a ship's bridge is not strictly necessary.
+Personas acting as the ship's crew can be located on a bridge or distributed about the vessel.
 
-A personality for the ship's computer is recommended.
-It is assumed that there is tremendous Autonomous Intelligence potential in a ship's computer.
+A ship's computer is not an autonomous intelligence. 
+However, it may have attitude and personality.
 The referee may consider the ship's computer a referee persona.
-The ship's computer is intended to be user friendly.
+However, it will be friendly and helpful for vessel operations.
 The expedition may interact with the computer via devices or voice interaction.
-It would not be unreasonable to roll a fabricator type for a space vehicle. 
 
-=== Computer Level and Wate
+=== Computer Level
 The higher the computer level, the more powerful it is.
-A higher the computer level improve everything from the food made to combat maneuvers. 
-Computer level is rolled on one 1d10.
+A higher ship's computer level improves everything from the galley food to combat maneuvers. 
+The higher the level of the computer, the more complicated the software it can manage.
+The computer level ranges from 1-10 (1d10).
 
 The bigger the ship, the larger the computer.
-The higher the level of the computer, the more complicated the software it can manage.
-The die roll also represents the percentage of hull capacity that is occupied by the computer.
-So a 200 tonne starship with a level 4 computer would have 8 tonnes of computer equipment on board.
-The 8 tonnes of computer includes all the wiring, transducers, terminals, and interfaces, as well as memory and processor.
+The computer size and wate represent all components, wiring, peripherals, terminals, processors and doohickeys.
+The ship's computer occupies 1% per level of hull space.
+So a 200-tonne starship with a level 4 computer would have 8 tonnes of computer equipment on board.
 
-== Computer Software 
-Ship's computer software accentuates a computer's skill set in specific areas.
-All space vehicles automagically maintain life support, gravity, and keep things from exploding.
+== Software 
+Computer software broadens the ship's computer skills in specific areas.
+All space vehicles automagically maintain life support, gravity and keep things from exploding.
 A space vehicle needs direction from personas to get up and go.
-The effectiveness of software is determined by the computer level of the space vehicle.
-There is no limit to the amount of software on board. 
-A space vehicle is limited to using 1 software title per level of computer.
+A ship's computer is artificially intelligent but not autonomously intelligent.
+The computer level determines the effectiveness of the software.
 
+The software will include any hardware and connections it needs to function on the vessel.
+A software package may physically bolt onto the space vehicles or be auto-downloaded from https://github.com/misterquetoo/EXP_Documents[GitHub].
 
-How software appears in the game is dependent on the milieu of the referee.
-Software may be hardware that is attached to the ship's computer.
-Or it may be auto-downloaded from GitHub.
-Mechanics making their own software would require a research team and a start DD of 20
+There is no limit to the amount of software a ship's computer can store, but there is a limit to the number of programmes that it can simultaneously operate. 
+A space vehicle is limited to using one software title per level of computer at once.
+Players will have to make choices about what is the most critical package to run.
 
+=== Crew Replacement Software
+Crew replacement software indicates programmes and mechanical devices that can replace essential crew.
+In some circumstances, the crew software replaces the required crewmember completely.
+In other circumstances, the programmes direct a persona or robot on how to operate the system.
 
-// doubled up in software section
-// remember to cut and paste
+A space vehicle is limited to using one software title per level of computer at once.
+Players may have to make choices about what is the most critical software to run.
+A low-level ship's computer may always require a persona crew member to function.
 
-The table for software is a bit different.
-Each software title has a __Chance__ listing. 
-A level 3 computer would have a 60% chance of an astrogation program.
-A roll of 60 or less on 1d100 indicates the software is installed.
-The player rolls for every software title.
-There is no limit to the amount of software that the computer can have on board. 
-A space vehicle is limited to using 1 software title per level of computer at once.
-Players may have to make choices about what is the most important software to run.
-
-=== Crew Replacement
-Crew replacement software indicates programs, and mechanical devices that can replace essential crew.
-In some circumstances the crew software replaces the required crewmember completely.
-In other circumstances the crew software allows even the vocation nothing to operate the system.
-A space vehicle is limited to using 1 software title per level of computer at once.
-Players may have to make choices about what is the most important software to run.
-A low level ship's computer may always require a persona crew member to function.
-
-.*Essential Services*
-. Pilot
-. Astrogator
-. Engineer
-
-Each software title has a __Chance__ listing. 
-A level 3 computer would have a 60% chance of an astrogation program.
-A roll of 60 or less on 1d100 indicates the software is installed.
-The player rolls for each crew replacement software title.
+The table for crew replacement software is a bit different.
+The table used to generate software is a __Chance__ Table. 
+The player rolls decidice (1d100) for every programme, and there is a chance of having it.
+A level 3 computer has a 60% chance of an astrogation programme and a 15% chance of a piloting programme.
+The player rolls once for every item on the chance table, i.e., she makes a separate roll for astrogation, navigation etc.
 
 include::ROOT:partial$CH52_Table_Software_Crew.adoc[]
 
-==== Astrogation
-This software title allows any persona to pilot the special drives.
+Astrogation::
+This programme allows any persona to pilot the special drives.
 The persona works directly with the ship's computer to plot special drive jumps. 
+When an astrogator uses this software, she can reduce fuel usage for jumps (2 weeks) or decrease the duration of time in hyperspace.
 
-When an astrogator uses this software she enjoys some special drive bonuses.
-The special drives are enhanced by 2 LY distance per level of ship's computer. 
-Special drive fuel consumption is reduced to 2 weeks per jump instead of one month.
-
-==== Engineering
+Engineering::
 This software title allows any persona to carry out ship maintenance and repairs. 
-The ship's computer directs personas what needs to be done, where it needs to be done and how to do it.
-
+The ship's computer directs personas what needs doing, where it needs doing and how to do it.
+Combining engineering crew replacement with a robot can make for nearly seamless space vehicle operations.
 A mechanic working with this software gets bonuses on her performance rolls for ship-related maneuvers.
-Ship repair and maintenance performance rolls get a bonus of +5 per level of ship's computer.
+Ship repair and maintenance performance rolls get a bonus of +5 per level of the ship's computer.
 
-==== Navigation
+Navigation::
 This software title allows any persona to pilot the inatmo and exatmo drives.
 The persona works directly with the ship's computer via specialized control devices (steering wheel). 
-
-A pilot or navigator working with navigation software can save fuel during normal travel.
+A pilot or navigator working with this software can optimize the programme, saving fuel or making unorthodox maneuvers.
 Combat fuel usage is unaffected by this teamwork.
 
-==== Piloting
-This software title allows any persona to completely hand over all maneuvers to the ship's computer.
-This includes navigation, astrogation and combat piloting. 
-Piloting software is so advanced that endowing it with an additional personality would be reasonable.
+Piloting::
+This programme allows any persona to hand over all maneuvers to the ship's computer completely.
+Piloting includes navigation, astrogation and combat maneuvers. 
+Piloting software is very advanced, and it may have its own personality that interacts with the personas and ship's computer.
 
-=== Miscellaneous 
-This software can be virtually anything that can be imagined for a ship's computer.
-If the software is relevant to a personas PT roll she can earn a DD bonus of +1 per computer level.
-For instance a nothing making a general performance table roll to successfully cater a fancy dinner would earn a DD bonus if etiquette, diplomacy, or entertainment programs were on board.
-Many of the software devices list a class in which they will assist.
-If this is the case any persona of that class will earn a DD bonus equal to the space vehicle's computer level when working within its environment.
+=== Miscellaneous Software
+Miscellaneous software consists of programmes that vary from functional to sublime.
+The programmes include both the hardware and software that the packages need to operate.
+The programmes allow the ship's computer to carry out the task and help personas perform maneuvers.
+
+When a persona can use the ship's computer for a maneuver, she enjoys a bonus of +1 per computer level.
+For instance, a persona who can use the etiquette programme to help cater a fancy dinner.
+ If the computer level is 5, the persona gets a +5 DD bonus when maki9ng the meal. 
 
 The player makes one roll per level of the ship's computer. 
-What to do with repeat results is determined by the referee and players.
 
 include::ROOT:partial$CH55_Table_Space_Vehicle_Software.adoc[]
 
-
-== Defences 
-A ship's defences are composed of both the ship's computer and machinery within the hull of the ship.
+== Defensive Systems
+A ship's defences comprise anything that protects the contents of the space vehicle.
+The defences include computer programmes and structural protections.
+For example, the computer assists with evasive maneuvers, the hull is fortified, and there is a force field.
 Life support, gravity and hull are considered defensive systems. 
 Life support works together to defend against the harshness of exatmo.
 Intentional defences, like ECM and shields, are designed to protect the ship in combat.
 
-Defences are list on a check table.
-The player checks for each defence listed on the table.
-A space vehicle with a level 5 computer would have a 50% chance of electronic countermeasures, 40% chance of shields, and so on.
+To learn how defensive systems work in combat jump to 
+xref:i-roll_playing_rules:CH38_Space_Vehicle_Combat.adoc[Space Vehicle Combat,window=_blank].
+
+The table used to generate defensive systems is a __Chance__ Table. 
+The player rolls decidice (1d100) for every defence on the list.
+A level 3 computer has a 30% chance of electronic countermeasures and a 6% chance of active defences.
+The player rolls once for every item on the chance table, i.e., she makes a separate roll for ECM, Shields etc.
 
 include::ROOT:partial$CH52_Table_Defences.adoc[]
 
 === Life Support
-Life support maintains a comfortable environment for the organic, and delicate inorganic, contents of the ship.
-Life support is entirely self contained, and is virtually impossible to tamper with.
-The life support system will function completely unknown to the players, until something goes wrong.
+Life support maintains a comfortable environment for the organic and delicate inorganic contents of the ship.
+The most straightforward description is an 'outer space air conditioner.'
+Destroying the life support system exposes all of the hull's contents to the deadly vacuum of space.
 
-Life support, gravity, hull AR and hull are all part of the Life Support Onion.
-Before life support is vulnerable each outer layer of the onion must be destroyed.
-
-include::ROOT:partial$CH38_Table_Order_of_Life_Support_Destruction.adoc[]
+Life support is entirely self-contained and is impossible to tamper with and hard to destroy.
+The life support system functions entirely unknown for the players until something goes wrong.
+Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Gravity System
-The gravity system is a crucial component of the life support system.
-The gravity system is intimately integrated with the hull and life support system of the vessel.
-Life support is distributed, self contained, and is impossible to disable.
-Gravity is usually maintained at a constant attraction of 1g.
-This includes walkways, workspaces, cargo holds, cabins, and exterior hull etc.
-This is controlled by the ship's computer, and is uniform throughout the whole ship.
-The gravity can be adjusted between 0.5  and 1.5 gravities.
+Gravity maintains a safe, comfortable and convenient gravitational force throughout the space vessel.
+The gravity system allows the personas to work in comfort and protects them from extreme maneuvering gravities.
+A space vehicle's exatmo drives generate gravities that would kill any organic or delicate inorganic persona.
 
-=== Armour
-The hull supplies the space vehicle's armour rating used in combat.
-When space vehicles are created, they are assigned an armour rating as part of their hull.
+Gravity works on walkways, workspaces, cargo holds, cabins, and the exterior hull.
+The ship's computer controls gravity at a constant attraction of 1g with local adjustments between 0.5  and 1.5 gravities.
+
+Gravity is entirely self-contained and is difficult to tamper with and hard to destroy.
+The gravity system functions entirely unknown for the players until something goes wrong.
+Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
+
+=== Hull
+The hull defines the space vessel.
+The hull protects the contents of the space vehicle from the lethal vacuum of space.
+Every space vehicle system is part of the hull, and the hull contains every space vehicle system.
+
+The hull also determines the shape of the space vehicle.
+The players decide the shape of their space vehicle.
+Most often, the hull is an oblong spheroid that contains the space vehicle's contents.
+A space vehicle that can enter the atmosphere may have a more streamlined appearance. 
+
+The hull is the structure that maintains the ship's gravity and life support.
+Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
+
+=== Armour Rating 
+The armour rating indicates the strength of the space vehicle's hull.
+The armour rating is in addition to the shape and structure that the hull offers. 
 The hull and armour rating have an intimate relationship.
-In combat Armour Rating can be reduced by absorbing or being damaged.
-The space vehicle's armour rating must be reduced to 400 before the hull is damaged.
+The armour rating protects the hull and makes its appearance as the hull strength during hull creation.
 
-The hull is a crucial component of the life support system.
-The hull is intimately integrated with the gravity and life support systems of the vessel.
-Life support is distributed, self contained, and is impossible to disable.
+The armour rating of the hull determines the structural resilience of the hull during combat. 
+Attack rolls must be higher than the hull's armour rating to damage the vessel.
+Damage reduces armour rating.
+Once the armour rating drops to 420, it no longer protects the hull.
+
+The armour rating is a component of the life support system.
+Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === ECM
-Electronic countermeasures (ECM) deceptively manipulate the electromagnetic spectrum to defend the ship.
-The more powerful the ship's computer level, the more effective the electronic countermeasures.
-If any personas have skill in ECM, they can add that skill level to the computer level used for the ECM.
-So if a mechanic has ECM level 2 and the computer level is 3, then the ECM will function as a level 5.
+Electronic countermeasures (ECM) manipulate the electromagnetic spectrum to defend the ship.
+A more powerful ship's computer makes for more effective electronic countermeasures.
+ECM is a combination of programming and equipment.
+ECM is integrated throughout the ship and connects to every ship system.
 
-ECM is an accessory unit of the ship's computer. 
-It can be utilized as attack ECM or defense ECM.
+ECM uses all kinds of electronic deception to both defend or attack.
+Personas can use the ECM unit to defend the ship or attack another ship.
 One ECM unit cannot do both in the same combat turn.
-If the space vehicle has only 1 ECM unit, the players must decide how to use it each combat turn.
+
+Personas can work in unison with ECM to protect the space vessel.
+For example, a mechanic with ECM 2 working with a level 3 computer creates a total ECM level of 5.
+
+Electronic countermeasures are not part of the life support onion.
 
 === Shields
-The shields protect the hull AR and hull from energy and kinetic attacks.
-A defensive shield may be a force field or a structural mechanism. 
-Both mechanisms work by distributing the damaging force across the entire hull.
+The shields protect the hull armour rating from energy and kinetic attacks.
+These are the classic sciency fiction shields that handsome captains raise just before combat.
+The defensive shield can be a force field or a structural mechanism. 
+Both mechanisms work by distributing the destructive force across the entire hull.
 This faux scientific diffusion effectively dampers the damage.
 The shields have an active mode that the players turn on to thwart intentional damage.
-Shields also have a passive mode, and when present, they are part of the life support system.
+Shields also have a passive mode, and when present, they are part of the life support onion.
+Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Guns
-A gun is a purely defensive element in space vehicle combat.
+A gun is a defensive tool in space vehicle combat.
 A gun does not sound like a defensive tool, but occasionally the best defence is a good offence.
-Guns on space vehicles are anti-personnel air lock defense weapons.
-In ship to ship combat, a gun is an ineffectual weapon.
-However to prevent boarding or airlock intrusion a mounted gun can be very effective.
+Guns on space vehicles are anti-personnel air lock defence weapons.
+In ship-to-ship combat, a gun is an ineffectual weapon.
+However, to prevent boarding or airlock intrusion, a mounted gun can be very effective.
+To create the airlock gun jump to xref:iii-hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank]
 
-The airlock gun is created in the  xref::CH46_Guns.adoc[Guns section]. 
+Guns are not part of the life support onion.
 
 .*Airlock Defensive Guns*
-* operate inside and outside of airlock
-** but not not simultaneously
+* can swap between inside and outside the airlock
 * operate inatmo or exatmo
-* can be automated like a turret
-** gunnery software or ship's computer
-* Can be controlled by personas
-** mercenaries do this best
+* Can be controlled by personas or ship's computer
 * has unlimited ammo to defend against boarding
-** ammo can be limited if weapon being abused
+** ammo may deplete for game balance and fun
 * has an AR equal to the ship's hull
-** including ECM and shields
-* damaged by Hull AR damage or airlock damage location
+* damaged by Hull AR damage or airlock damage
 
 === Active
-Active defences are used against incoming weapons.
+Active defences are fancy mechanisms that attack incoming attacks.
 Active defences are sometimes called actives.
 They can eject missiles, shrapnel, energy blasts, lazer matrices, or crystalline discharges. 
-The goal is to dissipate, prematurely detonate, or destroy incoming attacks.
-All active defences function equally.
-Active defences can be used against grenades, bombs, or artillery.
-Actives have no effect against boarding, ramming, ECM, or naval artillery.
+All active defences function equally, and the description is the player's choice.
+Their goal is to dissipate, prematurely detonate, or destroy incoming attacks.
+Active defences work against grenades, mines, or artillery.
+Actives do not work against boarding, ramming, ECM, or naval artillery.
+
+Active defences are not part of the life support onion.
 
 .*Notes about active defences*
-* Active defences are not part of the Life Support Onion
 * Active defences are automated
 ** Gunnery skilled personas can help
 * Active defences work inatmo and exatmo
 * Actives cannot be weaponized
 
-== Attacks 
-Space vehicle combat is highly discouraged due to the high chance of persona mortality.
-A space vehicle may be fitted with attacks because the crew are pirate scum.
-A space vehicle may be fitted with attacks to fight pirate scum.
+=== Life Support Onion
+The life support onion is the layering of the space vehicle defences that protect the contents of the hull.
+The innermost part of the onion is life support itself. 
+Before anything can damage or impair life support, it must work its way through all the outer layers. 
 
-A military space vehicle is defined by the rolls in this section.
-A vessel that has naval artillery, mines, or missiles is a combat vessel.
+Before damaging life support, the outer layers of the onion must be disabled or destroyed. 
+The outermost layer of the onion is the ship’s shields. 
+If the ship does not have shields, the outermost layer of the onion is the hull armour rating. 
+The hull armour rating must fail before the hull can be damaged. 
+The hull must fail before gravity control can be damaged. 
+Gravity control must fail before life support can be damaged.
 
+include::ROOT:partial$CH52_Table_Life_Support_Onion.adoc[]
 
-All space vehicles can be used to forcibly board another space vehicle.
+== Offensive Systems
+Space vehicle combat is highly discouraged due to the high probability of persona mortality.
+Offensive systems are for damaging and disabling space vehicles. 
+Due to the value of space vehicles, they rarely suffer intentional destruction.
+The offensive systems are tools for weakening a vessel in preparation for boarding.
+
+A space vehicle may have offensive systems because they are pirate scum.
+A space vehicle may have offensive systems to fight pirate scum.
+There is no official EXP military space vehicle.
+A vessel that has naval artillery, mines, or missiles becomes a military space vehicle.
+
+To learn how offensive systems work in combat jump to 
+xref:i-roll_playing_rules:CH38_Space_Vehicle_Combat.adoc[Space Vehicle Combat,window=_blank].
+
+The table used to generate offensive systems is a __Chance__ Table. 
+The player rolls decidice (1d100) for every attack on the list.
 The referee goes down the list rolling once for each attack type.
 So a space vehicle with exatmo drive level 4 would have a 20% chance of ramming, a 16% chance of ECM, and a 2 percent chance of Naval Artillery.
 
 include::ROOT:partial$CH52_Table_Attacks.adoc[]
 
 === Boarding
-All space vehicles can attempt to forcibly dock with another vessel.
-Boarding is congenial ramming.
 Boarding lines up airlocks to prepare for a breach and boarding of the target vessel.
-Boarding can only be used to force airlocks together while exatmo (exterior to atmosphere).
-Once connected the attacking crew will breach the airlock of the target ship and then board.
-This method of attack is used because it preserves the target space vehicle, hostages, cargo, and is a lot more fun.
+All space vehicles can attempt to dock with another vessel forcibly.
+Boarding is congenial ramming.
+Boarding only works exatmo (exterior to atmosphere).
+Once connected, the attacking crew will breach the airlock of the target ship and then board.
+This method of attack preserves the target space vehicle, generating hostages, free cargo, and is a lot more fun.
 
 === Ramming
-Ramming is a method of boarding a target space vehicle where all caution has been thrown to the solar wind.
-A space cruiser capable of ramming will have a specialized airlock which can attach to any part of the target ship's hull.
-Once attached the invading party may breach the hull, airlock, or whatever to gain entry into the ship.
-In procedure, ramming is similar to boarding except that ramming is accompanied with lots of crunching and scraping noises.
-Ramming, requires skill and brute force.
-
-Not all space vehicles can ram.
-There is an element of self preservation that a space vehicle has.
-Many safety layers have to be removed for a ship's computer to consider ramming as an option.
+Ramming is aggressive boarding casting caution to the solar wind.
+A ramming space vehicle has a specialized airlock that can attach to any part of the target ship's hull.
+Once attached, the attacking party must breach the hull or airlock to enter the ship.
+Ramming is similar to boarding, except that ramming has lots of crunching and scraping noises.
 
 === ECM
-ECM is the acronym for electronic counter measures.
-This is the battle for control over the electromagnetic spectrum.
-In space vehicle combat, ECM is the battle for control over the electronics of the target ship.
-Attack ECM can be used to confuse the target ship's defences with false data, to control an essential component of the target ship, or be used as defensive instead of attack.
-The pilot must choose between Attack Assist, Control Attack or Defense for her ECM each turn.
-An ECM attack unit is still an ECM unit and can be used to defend instead.
-One unit cannot do both.
+ECM is the acronym for electronic countermeasures.
+ECM units battle for control over the electromagnetic spectrum.
+In space vehicle combat, ECM is the battle for control over the electronics of the other vessel. 
+
+ECM uses all kinds of electronic deception to both defend or attack.
+So the personas can use the ECM unit to defend the ship or attack another ship.
+One ECM unit cannot do both in the same combat turn.
+
+Personas can work in unison with ECM to protect the space vessel.
+For example, a mechanic with ECM 2 working with a level 3 computer creates a total ECM level of 5.
 
 === Grenades
-In space vehicle combat grenades explosives delivered by either mini-missile or mini-mine.
-The intent of the grenade is to explode against the hull in an attempt to damage the internal mechanisms of the ship.
-A successful attack roll must be made against the space vehicle's armour rating to inflict damage.
-This is in direct contrast to area of effect weapons in tactical inatmo combat.
-If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
+Grenades in space!
+In space vehicle combat, grenades are tiny bombs exploding against the hull to damage the internal mechanisms of the ship.
+Grenades launch their attack by mini-missile or mini-mine.
 
+They do not enjoy the area of effect attack of their terrestrial counterparts.
+Grenades require a successful attack roll to inflict damage.
+If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
 Grenade delivery systems have diminutive titles because they only deliver grenades. 
-Naval missiles and mines deliver bombs.
+Naval missiles and naval mines deliver bombs.
 
 include::ROOT:partial$CH52_Table_Spacer_Grenade_Type.adoc[]
 
 === Bombs
 Bombs are lethal attack weapons.
-Bombs need only explode near the ship's hull to inflict damage to the contents within.
-The number and type of bomb is determined when the space vehicle is created.
-Bombs are delivered by either missiles or mines.
+Bombs are both dangerous and destructive.
+Bombs delivery systems are either missiles or mines.
+Missiles and mines can also be called naval missiles or naval mines.
+Having this type of offensive system indicates a combat vessel of some fashion.
 
+In space, bombs are an area of effect weapon.
+Bombs need only explode near the ship's hull to inflict damage to the contents within.
 A bomb is guaranteed to damage a target with a successful attack roll.
 Every bomb gets a second chance to damage a vessel just by getting close enough. 
-If the raw roll of a missile or mine is better than 500, the target is still damaged.
-Dangerous destructive devices.
+If the raw attack roll of a missile or mine is higher than 500, the target is still damaged.
 
 include::ROOT:partial$CH52_Table_Spacer_Bomb_Type.adoc[]
 
 === Artillery
 The purpose of ship artillery is to damage the target ship so that it ceases to function.
-This goal is achieved by penetrating the hull, and delivering the artillery's destructive force to the internal components of the ship.
+This goal is to wear down shields and armour and directly damaging the hull if necessary.
+In space combat terms, artillery is very tiny and is only in range when vessels are boarding or ramming. 
+Naval artillery is the literal big gun of space combat.
 
-Although artillery cannot be fired exatmo into the atmosphere, it can be used freely when the vessel is within an atmosphere.
+In space combat (exatmo), artillery must win an attack roll to damage the target vessel.
+While inside the atmosphere (inatmo), artillery functions as an area of effect weapon on terrestrial targets.
+Artillery cannot cross into the atmosphere or out of an atmosphere.
+
 Ship artillery has the same ranges, damages, and effects as the artillery it is modelled after.
-The difference is in the amount of ammunition the fixed gun has access to.
 Energy-based weapons can fire as long as the ship has fuel, and artillery requiring ammo will have 100 times the regular supply.
 
 include::ROOT:partial$CH52_Table_Spacer_Artillery_Type.adoc[]
 
 === Naval Artillery
-Naval artillery has only one purpose in mind, to destroy the target ship.
-Naval artillery is not used to soften or assist in the taking over of the target vessel.
-The destruction is accomplished by the sheer force of the weapon.
+Naval artillery is for destroying the target ship.
+Naval artillery is not for softening the target vessel.
+The sheer force of naval artillery leads to the target's destruction.
 One use of naval artillery exhausts a whole day's worth of fuel.
-The naval artillery cannot be idly used; it requires a gunnery program, and two gunners.
+Naval artillery requires a gunnery program and a gunner.
 Without this complement, the ship cannot fire its naval artillery.
 
 NOTE: *Artillery are big guns. Naval artillery are big big big guns.*
 
-Naval artillery is more deadly than the regular deadly artillery.
-Naval artillery inflicts 3 times the damage and has 100 times the range.
-Naval artillery can only be fired exatmo.
+Naval artillery is more deadly than regular deadly artillery.
+Naval artillery inflicts three times the damage and has 100 times the range.
+Naval artillery only works exatmo and cannot fire inatmo or cross into an atmosphere.
 
-The player rolls on the artillery table above and then does arithmetic as directed below.
+The player rolls on the spacer artillery table above and then does arithmetic as directed below.
 
 include::ROOT:partial$CH52_Table_Naval_Artillery.adoc[]
 
@@ -739,18 +766,19 @@ include::ROOT:partial$CH52_Table_Example_Naval_Artillery.adoc[]
 
 == Crew 
 Space vehicles vary in size from personal craft to city-sized leviathans.
-They can have fantastical drives that flit them across the stars, and computers that weigh tonnes.
-The most important element is still the crew.
-They are manufactured to move life forms, and cargo from place to place. 
-Space vehicles can have personalities and attitude, but they are *not* autonomous lifeforms. 
+They can have fantastical drives that flit them across the stars and computers that weigh tonnes.
+An essential element is still the crew.
+EXP is about personas and has a persona focus. 
+Space vehicles are tools to help tell stories by moving personas and cargo from place to place. 
+
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
 The crew of a space vehicle can be composed of aliens, anthros, or robots.
-Every space vehicle has essential crew.
-Without the essential crew a space vehicle will not move.
-A space vehicle will have the essential crew on board, or the software titles to replace them.
+Every space vehicle has an essential crew.
+Without the essential crew, a space vehicle will not move.
+A space vehicle will have the essential crew on board or the software programmes to replace them.
 
 .*Essential Services*
 . Pilot
@@ -759,17 +787,18 @@ A space vehicle will have the essential crew on board, or the software titles to
 
 Some space vehicles will require even more crew. 
 Some space vehicles will require multiple engineers. 
-These three are the essentials needed.
+These three are the essential crew needed.
 
 === Pilot 
-The pilot is an essential crew member and a space vehicle cannot function without one.
+The pilot is an essential crew member, and a space vehicle cannot function without one.
 The pilot is the overseer of all the ship's functions.
-She is responsible for the execution of planetary maneuvers, star system maneuvers, combat maneuvers, ship procedures, and generalship authority.
-All of these tasks require the intimate cooperation of the ship's computer, and the pilot.
-Without a pilot the ship is essentially grounded, orbiting space junk, or stuck in deep space.
-No ship can, unless having a mind of its own, be activated without a pilot.
+She is responsible for executing planetary maneuvers, star system maneuvers, combat maneuvers, ship procedures, and ship authority.
+All of these tasks require the intimate cooperation of the ship's computer and the pilot.
+Without a pilot, the ship is a motionless piece of space opera potential.
+No ship cannot travel without a pilot.
+Space vehicles can have personalities and attitudes, but they are *not* autonomous lifeforms. 
 
-An additional pilot (co-pilot) will be required for every 10 000 tonnes of displacement.
+Every 10000 tonnes of displacement requires an additional pilot (co-pilot).
 
 .*Qualified Pilots*
 . Mechanic vocation with pilot skill
@@ -777,15 +806,9 @@ An additional pilot (co-pilot) will be required for every 10 000 tonnes of displ
 . Exatmo transport bot
 
 === Astrogator 
-The astrogator is an essential crew member and a special drive cannot function without one.
-The astrogator operates the ship's special drive.
-
-The complexities of the special drives are a case of their own.
-The astrogator is responsible for safe programming of the ship's special drive.
-She co-ordinates with the ship's computer to arrange for a safe special drive jump.
-A special drive will not properly activate without an astrogator.
-
-An additional astrogator is required for space vehicles exceed 4200 tonnes.
+The astrogator is an essential crew member if the ship has a special drive.
+The astrogator operates the ship's special drive, and a special drive cannot function without one.
+The astrogator works with the ship's computer to coordinate a safe special drive jump.
 
 .*Qualified Astrogator*
 . Nomad vocation
@@ -795,25 +818,26 @@ An additional astrogator is required for space vehicles exceed 4200 tonnes.
 . Exatmo transport bot
 
 === Engineer
-The engineer is an essential crew member and a space vehicle will  malfunction without one.
+The engineer is an essential crew member, and a space vehicle will malfunction without one.
 The engineer does essential repairs and maintenance on the space vehicle.
-A space vehicle may jump once, or engage in combat once, without an engineer.
-Afterwards it will not function.
-If essential routine maintenance is not carried out, the space vehicle will not operate.
+A space vehicle may jump once or engage in combat once without an engineer.
+Afterwards, it will not function.
+Without maintenance, the space vehicle will cease to operate.
 
-The engineer maintains tonnes of drives, complicated airlocks. There is a lot that will go wrong.
-It is the responsibility of the ship's mechanic to monitor the computer's maintenance programs, to program repairs, and to occasionally pick up the wrench herself
+The engineer maintains tonnes of drives, complicated airlocks. 
+There is a lot that will go wrong.
+It is the responsibility of the ship's mechanic to monitor the computer's maintenance programs, to program repairs, and to pick up the wrench herself occasionally.
 
-An additional mechanic is required for every 9 000 tonnes of hull displacement
+A space vehicle requires an extra engineer for every 9000 tonnes of hull displacement.
 
 .*Qualified Engineer*
 . Mechanic vocation
 . Maintenance robot
 
 === Gunner 
-Gunners are required to operate the combat equipment: artillery, naval artillery, mines, active defences, missiles, and shields.
-None of the listed equipment will function without a gunner, or a software replacement.
-Combat robots can replace a gunner without the need of a gunnery program.
+Gunners operate the combat equipment: artillery, naval artillery, mines, active defences, missiles, and shields.
+None of the listed equipment will function without a gunner or a software replacement.
+Combat robots can replace a gunner without the need for a gunnery program.
 Combat robots can operate one active combat device for every 4 points of intelligence.
 
 .*Qualified Gunner*
@@ -830,7 +854,7 @@ Guests, soldiers, cattle without proper vet attention will get sick in deep spac
 . Diagnostics veterinarian robot
 
 :art: spacevehicle_QE_lots.png
-:width: 250px
+:width: 450px
 :snark: QE 1113
 :artist: Michael Jackson
 :date: 1991
@@ -842,9 +866,9 @@ include::ROOT:partial$articulate.adoc[]
 === Steward 
 Guest laden starships require a ship's steward.
 The steward changes linen, washes clothes, and generally makes space travel bearable for guests.
-Without a steward, guests will certainly be in bad temper, and may even rebel during the trip.
+Without a steward, guests will undoubtedly be in a bad temper and may even rebel during a long trip.
 
-One steward is required for every 50 passengers.
+A space vehicle requires one steward for every 50 passengers.
 
 .*Qualified Steward*
 . Nothing vocation with SOC<400
@@ -852,8 +876,8 @@ One steward is required for every 50 passengers.
 . Domestic janitorial robot
 
 === Administrator 
-One optional crew member which may be actively shunned by the personas, is the ship's administrator.
-The ship's administrator will arrange docking papers, interpret cartage laws, balance accounts, designate cargo allotments, and will fill in as the ship's legal advisor.
+One optional crew member who the expedition may actively shun is the ship's administrator.
+The ship's administrator will arrange docking papers, interpret cartage laws, balance accounts, designate cargo allotments, and fill in as the ship's legal advisor.
 
 .*Qualified Administrator*
 . Nothing vocation with INT <12
@@ -861,229 +885,234 @@ The ship's administrator will arrange docking papers, interpret cartage laws, ba
 . Datalyzer robot
 
 === Diplomat 
-The diplomat is trained at being excruciatingly polite, even to the most horrific of alien species.
+The diplomat is good at being excruciatingly polite, even to the most horrific of alien species.
 A diplomat will attempt to keep the crew, the guests, (and especially the personas) from offending rarely encountered cultures.
 
 .*Qualified Diplomat*
 . Nothing vocation with CHA >12
+. Biologist with culture and sociology
 . Social robot
 
 == Cargo
-Cargo is any tonnage that is not occupied by drives, fuel, or computers.
-The cargo allotment cannot be immediately counted as cargo space, there are several other space vehicle features that occupy hull space.
-These are: cold storage, workspaces, cabins, and corridors.
-The remaining space is cargo space, it indicates how much goods can be transported, and what type of hull access is allowed.
-
-The player allows all cargo space remaining after drives, fuel and computer. 
-This may necessitate a design for the space vehicle.
-Design can be laid out on a graph paper sheet, hex mat, or napkin.
-It need not be fancy.
+Cargo is the tonnage remaining after deducting the space taken up by drives, fuel, and computers.
+The cargo does not immediately become space for cargo.
+Other space vehicle features occupy potential cargo space.
+These are cold storage, workspaces, cabins, and corridors.
+All of these cargo space deductions are essential for an operational space vehicle.
+The player must account for all the following items as she sees fit.
+Plotting out the cargo and operational essentials has the most significant impact on space vehicle design. 
+It is during this process that the players create a simple map of the space vehicle. 
 
 === Access Port (mandatory)
 Allows access to the space vehicle when inatmo. 
-If one is present, the personas may use the airlock instead. 
+If the space vehicle has an airlock, the airlock can function as the inatmo access portal. 
 
-=== Work Spaces (mandatory)
+=== Workspaces (mandatory)
 Workspaces are even more mandatory than the essential crew.
-One half tonne of hull space must be allotted to every member of the working crew.
+Workspaces are not the same as cabins.
+Each crew member (pilot, engineer, astrogator) requires a half tonne of workspace.
 
 === Airlock
-An airlock allows passengers, and stuff, to get in and out without decompressing the space vehicle.
+An airlock allows passengers, crew and stuff to get in and out without decompressing the space vehicle.
 Airlocks work perfectly well inatmo.
 Airlocks are simple, secure and safe.
 Any tool using life form can use an airlock.
 They usually employ pictograms and may even have language assist.
 Airlocks are secure. 
-The ship will only allow identified crew to enter the space vehicle.
+The ship will only allow the identified crew to enter the space vehicle.
 Airlocks are safe.
 It would be nearly impossible to eject a life form from a functioning airlock.
 
-TIP: Rules maintain game balance and assist creativity. +
-*Do not let rules get in the way of the story or the fun.*
+NOTE: Airlocks do not deduct cargo space but do require cargo space.
 
 An airlock takes up no space __inside__ the space vehicle.
-However an airlock requires 5 tonnes of vacant cargo space.
-It is possible a smaller space vehicle does not have enough hull for an airlock.
-If the space vehicle has inatmo drives the vessel is intended to be boarded inatmo.
-If the space vehicle only has exatmo or special drives, it is meant to be boarded inside a larger ship or spaceport. 
-
-A ship can have 1 airlock for every 5 tonnes of vacant cargo space.
+However, an airlock requires 5 tonnes of cargo space.
+Smaller space vehicles do not have enough space for an airlock.
+A ship can have one airlock for every 5 tonnes of vacant cargo space.
 Airlocks are free to be located anywhere on the space vehicle.
-So a ship with a 15 tonnes vacant cargo hold could support 3 airlocks anywhere on its hull.
-A ship with 2 tonnes vacant cargo space would have an inatmo access port.
+So a ship with a 15 tonnes vacant cargo hold could support three airlocks anywhere on its hull.
+A ship with 2 tonnes vacant cargo space would only have an inatmo access port.
+
+A space vehicle without an airlock depends on inatmo boarding either planetside or in a larger space vehicle hanger.
 
 === Cargo Lock
 A larger ship may prefer a cargo lock.
-A cargo lock is not pressurized and can only be used inatmo. 
-A cargo lock requires a minimum 50 tonnes of vacant cargo space.
-However a cargo lock does not occupy any cargo space.
+A cargo lock is not pressurized and can only work inatmo. 
+A cargo lock is a big inatmo access portal.
+A cargo lock requires a minimum of 50 tonnes of vacant cargo space.
+A cargo lock does not occupy any cargo space.
 
-A cargo lock is more than just a door, it is a system.
-A typical cargolock has a capacity of 10 tonnes.
-A 10 tonne cargo lock can load/unload 10 tonnes of cargo per hour or day or whatever.
+A cargo lock is more than just a door; it is a system.
+A typical cargo lock has a capacity of 10 tonnes.
+A 10-tonne cargo lock can load/unload 10 tonnes of cargo per hour or a day or whatever.
 
 === Cargo Airlock
-Cargo airlocks are enormous airlocks that are found on gigantic space vehicles.
+Cargo airlocks are enormous airlocks that only gigantic space vehicles can use.
 The cargo airlock can move cargo or without depressurizing the space vehicle.
 A cargo airlock requires at least 500 tonnes of vacant cargo space.
-The cargo airlock occupies cargo space.
+The cargo airlock also occupies cargo space.
 A space vehicle loses 1 tonne of cargo space per 2 tonnes of cargo airlock size.
 
-There are no open hull force field protected cargo airlocks in EXP.
-Development is ongoing, and this milestone may be reached with expected technological advances.
+There is no open hull force field protected cargo airlocks in EXP.
+Development is ongoing, and EXP users may reach this milestone with expected technological advances.
 
 === Cold Storage 
 Cold storage is for cryogenic suspension of organic material less than 250 kg in wate.
 The freezers will maintain life, with no drain on life support, and will continue to function after life support has failed.
 Cold storage will work until the cold storage box itself is destroyed.
-Each cold storage space occupies one half tonne of hull space.
+Each cold storage space occupies a half tonne of cargo space.
 
 === Cabins 
 Cabins are somewhat of a luxury, but it is impossible to have guests (other than in cold storage) without cabin space.
-Each cabin requires one tonne of hull space, and can comfortably house two passengers.
+Each cabin requires one tonne of hull space and can comfortably house two passengers.
 
 === Corridors 
 Corridors only apply to any passageways that connect luxury cabins, workspaces or ship systems.
 Cabin corridors require 200 kg of hull space per map hex (2 meters) of passage.
-If personas want to quickly run from the artillery bay to the exatmo drives corridors are recommended.
+If personas want to run from the artillery bay to the exatmo drives quickly, corridors are a must.
 
 The entire ship is accessible by utility corridors.
 Utility corridors occupy no significant amount of hull space.
-However they are cramped, claustrophobic and slow to navigate.
+However, they are cramped, claustrophobic and slow to navigate.
 
 === Example Calculation 
 All remaining cargo space is honest to goodness cargo space.
-A ship may have one airlock per 5 tonnes of cargo space, a cargo lock (in atmosphere only) requires 50 to 500 tonnes of cargo space, a cargo airlock requires 500 to 5000 tonnes of cargo space.
+Cargo space is protected from exatmo and allows for the transfer of stuff.
+Often the expedition will earn money for transporting cargo.
+More often, the cargo will become the focus of an exatmo space vehicle adventure.
 
-Let's walk through an example 100 tonne space cruiser.
-Exatmo drive level 10.
+Let's walk through an example 100 tonne spacecruiser (space bus).
+Exatmo drives level 10.
 Fuel storage level 5.
 Computer level 4.
-Carries 20 passengers 16 in cold storage 4 in Cabins.
-A pilot, mechanic, doctor,  and steward.
-No robots.
-This leaves about 63 tonnes cargo space in the vessel.
-This would allow for a cargolock and multiple airlocks.
-60 tonnes is about two 21st century urban dump trucks full of stuff.
+There are 20 passengers, 16 in cold storage and 4 in Cabins.
+The crew consists of a pilot, engineer, doctor, and steward.
+There are no robots and no crew replacement software.
+After all deductions, there are leaves 63 tonnes of cargo space in the vessel.
+The remaining cargo space allows for a cargo lock and multiple airlocks.
+The cargo lock does not work inatmo, so its inclusion is a mystery.
+Sixty tonnes is the capacity of two mundane terran dump trucks.
 
 include::ROOT:partial$CH52_Table_Calculate_Cargo_Space.adoc[]
 
 == Space Chattels 
-Specialized equipment and architecture common to ancient, and future, space travel.
+Space chattels cover equipment and architecture common to ancient and future space travel.
 
 === External Drives 
-The nature of external drives are self explanatory.
-Either the exatmo, or inatmo, drives are located outside of the hull.
-This innovation allows cargo space they occupied to be converted into cargo space.
-The drawback of this system is that the drive units are subject to attack during combat.
-External drives can either be accessed directly through the hull, or via an airlock.
+External drives are self-explanatory.
+Either the exatmo or inatmo drives are on the outside of the hull.
+This innovation converts the hull space they occupied into cargo space.
+The drawback of this system is that the drive units are more vulnerable to attack during combat.
+External drives can either be accessed directly through the hull or via an airlock.
 
 Special drives can never be external.
 
 === Datalocks 
 Datalocks are also called hardpoints.
 Data locks are electronic accesses to the exterior of the hull.
-A datalock is required for every single external contraption that requires exatmo access (guns, missiles, viewers etc).
-A ship will have 10 datalocks per level of computer.
+Every external contraption requiring exatmo access (guns, missiles, viewers, etc.) requires a datalock.
+A ship has ten datalocks per computer level.
 
 === Vac Suits 
 Vac suits allow delicate organic life forms to survive exatmo.
 A spacecraft will have one civilian vac suit per crew member and luxury cabin.
-So a pleasure cruiser with 5 crew and 6 cabins would have 11 civilian vac suits.
+So a pleasure cruiser with five crew and six cabins would have eleven civilian vac suits.
 
 There is a 10% chance per civilian vac suit that there will be an industrial vac suit.
 
-Vac suits are described in the xref::CH42_Armour.adoc[Armour section].
+For more information about vac suits jump xref:iii-hardware:CH42_Armour.adoc#_vac_suit[Vac Suits,window=_blank].
 
-=== Gravity Couches 
+=== Gravity Couches
 Gravity couches are chairs specially designed to save the body from damage during high-g maneuvers.
-They are composed of force absorbing materials, and restraining belts.
-Grav couches are only needed when the starship's gravity system has failed.
-Passengers and crew not in gray couches during high-g maneuvers will almost certainly be killed.
+They are composed of force-absorbing materials and restraining belts.
+Grav couches are only needed when the vessel's gravity system has failed.
+Passengers and crew not in gravity couches during high-g combat maneuvers are dead.
 
-Only combat vessel have grav couches by default. 
-A naval vessel is defined as a space vehicle that is fitted with naval artillery, bombs or grenades.
+Only combat vessels have grav couches by default. 
+A combat vessel is a space vehicle with naval artillery, bombs or grenades.
 
 === Emergency Response 
 Emergency response is part of the ship's life support system.
 Space vehicles will have automated emergency equipment and processes.
-Minor air leaks will be repaired by the ship.
-Small fires are suppressed by the ship.
-The ship will close of bulkheads to contain raging fire, depressurization or radiation leaks.
+The ship will temporarily repair minor air leaks.
+The ship will suppress small fires.
+The ship will close off bulkheads to contain raging fire, depressurization or radiation leaks.
 
 The ship can only look after itself in a limited way.
 Major events must be dealt with by the crew.
 Major hull repair, radiation clean up and passenger rescue need actual personas on board.
 
 === Life Bloat  
-A life bloat will maintain 4 passengers (up to 250 kg in wate each) in cryogenic suspension for an indefinite length of time.
+A life bloat will maintain four passengers (up to 250 kg in wate each) in cryogenic suspension for an indefinite length of time.
 The cryogenic suspension will begin when the balloon-like life bloat is subject to exatmo.
 There will be one life bloat for every four luxury passengers.
 
-=== Sick Bay 
-The sickbay is a vet's place of operation, and personal respite.
-A sickbay can hold four patients and takes up two cabins worth of space.
-A ship with an assigned ship's doc will have a sickbay.
-Otherwise, there is a 1% chance per organic persona that there will a vacant sickbay.
+=== Sickbay 
+The sickbay is the doctor's place of operation and personal respite.
+A sickbay can hold four patients and takes up two cabins (2 tonnes) worth of space.
+There is a 1% chance per organic persona that the space vehicle will include a sickbay.
+If the space vehicle has a doctor, there will automatically be a sickbay.
 
 === Machine Shop
 The machine shop is a mechanic's place of operation and personal respite.
-A machine shop requires two cabins worth of space.
+A machine shop requires two cabins (2 tonnes) worth of space.
 There is a 5% chance per robot on board of having a machine shop.
 
 === Food Machine 
 The food machine will generate nutritionally balanced meals for anything that eats.
-The palatability of said foodstuffs is determined by the referee.
-Most food machines employ algae, or fungal, cultures to create the basic heterotrophic food groups.
-One tonne of machine is required for every 10 eaters supported.
+The referee determines the palatability of said foodstuffs.
+Most food machines employ algae, or fungal, cultures to create the primary heterotrophic food groups.
+One tonne of food machine is required for every ten eaters supported.
 Because of their potential for comic relief, all ships will have a food machine.
-Food machines are also known as compu-cooks, and auto chefs.
-If the food machine is used enough, it would be reasonable to give it a personality.
+Food machines are also known as compu-cooks and auto chefs.
+If the food machine is busy enough, it would be reasonable to give it a personality.
 
 === Robots 
-Robots are a common occurrence on starships.
-This is only the case if robots are suitable to the referee's milieu.
+Robots are a common occurrence on long-haul space vehicles.
+The use of robots must reflect the referee's milieu.
 The robots can be on board to replace crew, to aid crew, or as paying guests.
+The chance of a ship sporting a particular robotic has many factors. 
+The depth of persona fabrication that goes into spacer robots depends on the referee's resources and story needs.
 
-The chance of a ship sporting a particular robotic replacement depends on the level of the space vehicle's computer, what sort of software the computer supports, plus what ever adjustments are appropriate for that type of robot.
+The table used to generate space robots is a __Chance__ Table. 
+The player rolls decidice (1d100) for every robot type, and there is a chance of having it.
+A level 3 computer has a 15% chance of having a maintenance robot on board.
+The player rolls once for every item on the chance table, i.e., she makes a separate roll for combots, social robots etc.
 
-
-A ship may have a whole host of robots, and the relevant ones should be prepared to the last detail as a referee persona hots.
-Insane robots on a space ship could add to the mysteries of a campaign, or scenario.
 
 include::ROOT:partial$CH52_Table_Spacer_Robots.adoc[]
 
 == EXPS 
 The EXPS value of a spacecraft is impossible to assess.
-The expedition is considered to have earned a space vehicle once they have flown it somewhere.
-The accepted EXPS award for an earned spaceship is one complete EXPS level.
-This award is offered to all vocations.
-Nothings are automatically propelled to zero level of their desired class.
+The expedition earns experience for a space vehicle once they have flown it somewhere.
+In austere resource campaigns, the EXPS award for an earned space vehicle is one complete EXPS level.
+If space vehicles are commonplace, this EXPS award only counts once.
 
 == Value 
-A space vehicle's value depends on several basic components: hull, drives, computer, etc.
+A space vehicle's value depends on several components: hull, drives, computer, etc.
 Wear and tear may have reduced a ship to worthlessness in one culture, while another will pay dearly for anything that can get them into orbit.
-Space vehicles are very valuable.
+Space vehicles are precious.
 Space vehicles with powerful computers and special drives are worth enormous amounts.
 
 include::ROOT:partial$CH52_Table_Space_Vehicle_Value.adoc[]
 
-=== Example jump ship value
-.200M eps = computer (10 * 10 * 1M) + special drive (100 * 10 * 10 * 10 * 100k)
-****
-A 100 tonner with level 10 computer and special drive. Only driven on Sundays by a little old alien.
-****
+=== Example Value Calculation
+The following is an example value using the space bus from the <<_example_calculation,cargo space calculation>>.
+The spacecruiser has 100 tonnes displacement, armour rating of 700, exatmo drive 10, fuel level 5, computer level 4
+
+include::ROOT:partial$CH52_Table_Space_Vehicle_Value_Calc.adoc[]
 
 == Operational Costs 
-Space vehicle maintenance and operational cost are boring.
+Space vehicle maintenance and operational cost are tedious.
 The main operational costs of a spaceship are wages and fuel.
-Maintenance carried out by the ship's engineer cost nothing, and are completed properly.
+Maintenance carried out by the ship's engineer costs nothing and is completed correctly.
 Replacing destroyed parts costs the same as the calculated value of the part.
-Upgrading parts costs the same as the calculated value of the part.
-The cost of parts will includes parts and labour.
+Upgrading parts cost the same as the calculated value of the new part.
+The cost of parts includes parts and labour.
+Refitting takes weeks to months. 
 
 :art: busy_bow_prop_repair.jpg
-:width: 250px
+:width: 450px
 :snark: Inatmo drive repair.
 :artist: Ladrimal
 :date: 1887 (yes 1887)
@@ -1093,8 +1122,8 @@ The cost of parts will includes parts and labour.
 include::ROOT:partial$articulate.adoc[]
 
 General refitting is necessary for alloy hulls.
-Refitting will be required after extended travels, or after any combat.
+After extended travels or any combat, the hull will require refitting.
 Not refitting the space vehicle will lead to mechanical failure.
 The refitting will cost between 0.01% and 0.1% (rolled on 1d10) of the ship's total value.
-Woah that is a lot of cargo.
-If the refitting costs were .05% of the ship's value then a space vehicle with a value of 500 000 000 would cost 250 000 to refit.
+Woah, it takes a lot of cargo to refit a bit space vehicle.
+If the refitting costs were .05% of the ship's value, then a space vehicle worth 500000000 would cost 250000 to refit.
