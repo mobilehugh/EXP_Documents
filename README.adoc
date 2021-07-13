@@ -1,52 +1,31 @@
 # EXP The game of technological chaos. 
 
-Another attempt at AsciiDoc markdown static site.
-This time using Antora.
-While the concept of a static site generator is exciting and attractive execution proves very challenging.
-Previous attempts were with Bolt, Grav, Hugo, Jekyll, and a few others. 
-Antora is the one that leaves the documents the most pure. 
-Pure as in I can use them anywhere else. 
-Additionally the community around Antora is nascent and kind.
-
-## What is EXP?
-
 EXP: The Game of Technological Chaos is a paper and dice sciency fiction role-playing game. 
 It is *not* a POV shooter video game, movie, or app. 
-You play EXP with dice and real people all sitting in the same room. 
+You play EXP with dice and people all at the same table. 
 
-This repository is the rule set for a sciency fiction role-playing game. 
+This repository is an a collection of asciidoc markup files converted to a ruleset (http://exp.sciencyfiction.com[EXP version 6.1]) using Antora.
 
 ## Why put an RPG in a repository?
 
 EXP has already been published on the web using a creative commons license.
 https://expgame.com[EXP]
-As the sole author of this text I have craved for version control. 
-There are many benefits of storing a rule set in AsciiDoc on git.
+Wordpress has proven to be bloat rich and unstable over the years.
 
 * Version Control
 * Sharing 
 * Forking
 * Docs as Code
+* local, online or print as desired
 
-## Goals
+## Goal
 
-*Make the world a bit less worse by people playing games together.* 
-
-
-### Personal goals
-
-* Git/GitHub
-* Antora
-* AsciiDoc(tor)
-* Gulp
-* APIs
-* SSH keys
-* The confidence of safe storage
+*Make the world less worse through people playing games together.* 
 
 ### EXP Goals 
 
-* usable document set for playing the game
-* integration with python tools for player support
+* an online, local or printed document
+* integrated tools creating a TTRPG 2.0 
 * translations
 * multiple authors
 
