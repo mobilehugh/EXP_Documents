@@ -36,7 +36,7 @@ Biologist abilties are divided into knacks (gifts), interests, and skills.
 Biologist knacks (gifts) are the hard wired abilities that probably lead to the persona pursuing the biologist vocation. The biologist starts with the first knack and gets a new one every three EXPS levels.
 Knacks are not transferrable between vocations and a player cannot choose a knack.
 
-include::ROOT:partials$CH08_Table_Biologist_Knacks.adoc[]
+include::ROOT:partial$CH08_Table_Biologist_Knacks.adoc[]
 
 === Interests
 Biologist interests are broad areas that cover a swath of the organic world.
@@ -148,7 +148,7 @@ When studying a herbivore in a desert biome, she will get a total bonus of 5  (t
 * Culture - 1
 ** Languages, Verbal - 1
 
-== Example Biologist Tasks
+== Biologist Tasks
 Biologist tasks involve anything organic that does not involve healing.
 Most biologist tasks are knowledge based unless an obvious physical intervention is involved.
 The minimal equipment required by a biologist is her notebooks. 
@@ -158,7 +158,14 @@ include::ROOT:partial$CH14_Table_DD_Biologist.adoc[]
 
 NOTE: the author has no idea why there are two separate tables
 
+
+// for use in performance tables
+// tag::biologist_maneuvers[]
+
+
 include::ROOT:partial$CH08_Vocations_Biologist_Ex_Procs.adoc[]
+
+// end::biologist_maneuvers[]
 
 == Biologist EXPS
 The benefits of increasing experience levels are more skills, improved performance, and marginally better combat skills.
