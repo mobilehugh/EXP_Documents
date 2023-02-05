@@ -22,15 +22,6 @@ Biologists do not have degrees or diplomas or certificates from training program
 They are self-taught, and their knowledge base is haphazard.
 Their knowledge comes from keen observation, gardening books, environmental leaflets, nature shows, sagely advisors, and personal experience.
 
-== Biologist Performance Rolls 
-A Performance Rolls is made every time the biologist attempts a procedure.
-An example procedure could be to identify if an alien is poisonous.
-The procedure is assigned a degree of difficulty (DD).
-The chance of success is improved the biologist's more skills with the biologist can use with the performance roll.
-For more details jump to xref:i-roll_playing_rules:CH14_Performance_Tables.adoc[Performance Rolls,window=_blank].
-
-include::ROOT:partial$CH08_Vocations_Biologist_Ex_Procs.adoc[]
-
 == Biologist Abilities
 The biologist's abilities cover all aspects of the organic world.
 Anything to do with organic life, anthros and aliens, falls under her purvey. 
@@ -48,43 +39,82 @@ Knacks are not transferrable between vocations and a player cannot choose a knac
 include::ROOT:partials$CH08_Table_Biologist_Knacks.adoc[]
 
 === Interests
-Biologist interests are broad areas of that cover a wide swath of the organic world.
+Biologist interests are broad areas that cover a swath of the organic world.
 The interests are: Culture, Research and Taxonomy.
-Any task  that falls under an interest gets the interest bonus on the task roll.
-The Culture interest will help with any linguistic task.
-The Research interest will help with any laboratory task.
-The Taxonomy interest will help with any alien identification task.
-
-
-NOTE: Skills help the biologist win a task roll. A skill is not required to attempt a task.
+Any task that falls under an interest gets the interest bonus on the task roll.
+The Culture interest could help with a linguistic task.
+The Research interest could help with a laboratory task.
+The Taxonomy interest could help with an alien identification task.
 
 At startup, the persona gets one interest per three points of intelligence score.
 A persona with a 12 INT would get three rolls on the Biologist Interest Table. 
-After start up the persona earns another intereset with each new experience level.
+After startup the persona earns another intereset with each new experience level.
 The player can choose to roll on the Biologist Interest Table, or choose a specific interest
 
-.*Example Three Rolls*
-. Taxonomy 
-** Herbivores, Desert Biome
-. Taxonomy
-** Detritivores, Desert Biome
-.Culture
-** Languages, Verbal
+include::ROOT:partial$CH08_Table_Biologist_Skill_Stream.adoc[]
 
-Streams and focuses are cumulative and separated.
-The persona has two taxonomy streams, and the player can use them both on anything related to taxonomy.
-Even if the persona has no chaser/hunter behaviour skills, she will use taxonomy 2 when working out chaser/hunter behaviour.
-When figuring out something about herbivores, she will get a total bonus of 3 (taxonomy 2 and herbivore 1).
-When studying a herbivore in a desert biome, she will get a total bonus of 5  (taxonomy 2, herbivore 1 and desert biome 2).
-This skill layout has no research stream, and researching anthro genetics would get a bonus of 0.
+Each interest has an associated group of skills.
+At startup the player gets one skill per interest.
+After startup the player may roll a new skill on the appropriate table or choose a specific skill.
 
-.*Reorganized Skills*
-* Taxonomy - 2 
-** Desert Biome - 2
-** Herbivores - 1
-** Detritivores - 1
-* Culture - 1
-** Languages, Verbal - 1
+==== Taxonomy Interest
+Taxonomy is about identifying and categorizing organic species.
+The taxonomy interest is the classical biologist as a naturalist.
+Skills like identifying burrowers in toxic biomes or carnivores in the ocean fall under taxonomy.
+Mere categorization of finches on remote islands has changed society.
+
+==== Research Interest
+The research interest includes laboratory, invention and extension interests for the biologist.
+Skills like cloning, immunology, and antitoxin creation are found under the research interest
+
+==== Culture Interest
+The culture interest involves interaction of a population.
+Skills like languages, family structures, and political nuance are found under the culture interest.
+
+=== Skills
+Skills (previously called foci) appear as specific tasks, but have a wider impact on task rolls.
+A skill in aging could be used to assist a task roll for determining a persona's, age or understand the implications of a chronovirus.
+
+Biologist skills are grouped by interest.
+A taxonomy interest could come with skills like: burrowers, hivers or herbivores.
+A culture interest could come with skills like: language, religion or politics 
+The interest and skill abilities are cumulative.
+
+At startup the player gets one skill per interest. 
+So a biologist with taxonomy 2 and culture 1 would get 2 rolls on the taxonomy skills and 1 roll on the culture skills.
+After start up the persona gets one new interest per new experience level. 
+As described above the player can roll or choose the new interest.
+Each new interest includes a new skill.
+The player can choose or roll the new skill.  
+
+==== Culture Skills
+Culture skills are about understanding the interactions of groups of organic life forms. 
+These skills can be used to predict what a pack of aliens might do, or try and predict an election.
+
+include::ROOT:partial$CH08_Table_Biologist_Cultural_Stream.adoc[]
+
+==== Research Skills
+Research skills are about understand the ways of biologic study.
+These skills can be used to make an antivenom, clone an alien, or enhance a mutation.
+
+include::ROOT:partial$CH08_Table_Biologist_Research_Stream.adoc[]
+
+==== Taxonomy Skills
+Taxonomy is about identifying and categorizing organic species.
+Each skill includes a skills and a biome type. 
+A taxonomy skill could look like this: Taxonomy - Herbivore - Desert Biome.
+
+include::ROOT:partial$CH08_Table_Biologist_Taxonomy_Stream.adoc[]
+
+include::ROOT:partial$CH08_Table_Nomadic_Biome.adoc[]
+
+include::ROOT:partial$CH08_Table_Biome_Characteristic.adoc[]
+
+NOTE: Skills help the biologist win a task roll. A skill is not required to attempt a task.
+
+== Optimizing the Abilities
+A biologist can rack up a lot of abilities.
+What follows is a way to keep track of them. 
 
 :art: biologist_footprint_symbol.png
 :width: 350px
@@ -96,47 +126,39 @@ This skill layout has no research stream, and researching anthro genetics would 
 
 include::ROOT:partial$articulate.adoc[]
 
-== Biologist Streams
-The skill streams are broad.
-Any procedure that falls under a stream gets the stream bonus on the performance roll.
-The Taxonomy Stream will help with any alien identification procedures.
-The Culture Stream will help with any linguistic procedures.
-The Research Stream will help with any laboratory procedures.
+.*Example Three Rolls At Startup*
+. Taxonomy interest
+** Herbivores, Desert Biome skill
+. Taxonomy interest
+** Detritivores, Desert Biome skill
+. Culture interest
+** Languages, Verbal skill
 
-Each skill stream the biologist has includes an area of focus.
-Her Taxonomy Skill Stream can focus on Herbivores in Desert Biome. 
-Her Culture Stream can focus on verbal languages. 
-Her Research Stream can focus on genetics.
-The Focus Skills are less broad.
-The biologist can use her Taxonomy Stream to identify an alien, but she could only use her focus if the alien is a herbivore. 
+Interests and skills are cumulative and separated.
+The persona has two taxonomy interest, and the player can use them on any task related to taxonomy.
+Even if the persona has no chaser/hunter behaviour skills, she will use taxonomy 2 when working on a chaser/hunter behaviour.
+When figuring out something about herbivores, she will get a total bonus of 3 (taxonomy 2 and herbivore 1).
+When studying a herbivore in a desert biome, she will get a total bonus of 5  (taxonomy 2, herbivore 1 and desert biome 2).
 
-include::ROOT:partial$CH08_Table_Biologist_Skill_Stream.adoc[]
+.*Reorganized abilities*
+* Taxonomy - 2 
+** Desert Biome - 2
+** Herbivores - 1
+** Detritivores - 1
+* Culture - 1
+** Languages, Verbal - 1
 
-=== Taxonomy Stream
-Taxonomy is about identifying and categorizing organic species.
-The Taxonomy Stream is the classic biologist as a naturalist.
-Identifying finches on remote islands can upturn a whole society.
-The player rolls a Taxonomy Focus Skill and a Biome for that Focus Skill.
-A Taxonomy Stream roll would look like this: Taxonomy - Herbivore - Desert Biome.
-The only stream that gets a biome skill is the Taxonomy Stream.
+== Example Biologist Tasks
+Biologist tasks involve anything organic that does not involve healing.
+Most biologist tasks are knowledge based unless an obvious physical intervention is involved.
+The minimal equipment required by a biologist is her notebooks. 
+The referee may make a target roll more difficult if the biologist does not have her notebooks.
 
-include::ROOT:partial$CH08_Table_Biologist_Taxonomy_Stream.adoc[]
+include::ROOT:partial$CH14_Table_DD_Biologist.adoc[]
 
-include::ROOT:partial$CH08_Table_Nomadic_Biome.adoc[]
+NOTE: the author has no idea why there are two separate tables
 
-include::ROOT:partial$CH08_Table_Biome_Characteristic.adoc[]
-
-=== Research Stream
-The Research Stream includes laboratory, invention and extension skills for the biologist.
-Procedures like cloning, immunology, and antitoxin creation are Focus Skills from the Research Stream.
-
-include::ROOT:partial$CH08_Table_Biologist_Research_Stream.adoc[]
-
-=== Culture Stream
-The Culture Stream involves any skills that represent the interaction of a population.
-Understanding languages, family structures, and political nuance are Focus Skills from the Culture Stream.
-
-include::ROOT:partial$CH08_Table_Biologist_Cultural_Stream.adoc[]
+include::ROOT:partial$CH08_Vocations_Biologist_Ex_Procs.adoc[]
 
 == Biologist EXPS
 The benefits of increasing experience levels are more skills, improved performance, and marginally better combat skills.
@@ -144,18 +166,3 @@ Biologists earn experience points for completing procedures and role-playing wit
 Only 20% of combat experience can go towards a biologist's experience point total.
 
 include::ROOT:partial$CH08_Table_Biologist_Experience_Points.adoc[]
-
-
-// for use in performance tables
-// tag::biologist_maneuvers[]
-== Biologist Maneuvers
-Biologist maneuvers involve anything organic that does not involve healing.
-Most biologist maneuvers are knowledge based unless an obvious physical procedure is involved.
-Knowledge based maneuvers can grant the player an INT Performance Roll bonus.
-
-The minimal equipment required by a biologist is her notebooks. 
-The referee may make a target roll more difficult if the biologist does not have her notebooks.
-
-include::ROOT:partial$CH14_Table_DD_Biologist.adoc[]
-// end::biologist_maneuvers[]
-
