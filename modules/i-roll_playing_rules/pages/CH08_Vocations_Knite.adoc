@@ -159,6 +159,8 @@ Unlike the abilities of other vocations only a knite can use these interests and
 In most cases Knite and Anti-Knite abilities are the same, but their goals are different.
 There are a few abilities that are limited to choas or order. 
 
+NOTE: Knites cannot manipulate Kirlian auras through inorganic media like monitors, cameras or phones.
+
 === Knite Gifts
 Knites are the only vocation that calls their gifts that are called gifts. 
 These gifts are powered by manipulating pervasive Kirlian energy with their mind.
@@ -166,18 +168,100 @@ Gifts are abilities that a knite can call on without having to make a task roll.
 A gift is like a task that persona can simply use. 
 Knite gifts are conveniences and are not meant to destroy plot.
 
+include::ROOT:partial$CH08_Table_Knite_Gifts.adoc[]
+
+A player does not get to choose her knite's gifts.
+They are assigned automatically based on the experience level of the persona. 
+
+=== Knite Interests
+Knites have broad scopes of interest that improve their chance of succeeding at task rolls.
+One knite may have keen interest in manipulating the physical space.
+While another knite may be interested studying society.
+An interest in the Think Space would assist with any task that involves the think space.
+
+At startup, the persona gets one interest per three points of intelligence score.
+A persona with a 12 INT would get three rolls on the Knite Interest Table. 
+After startup the persona earns another interest with each new experience level.
+The player can choose to roll on the Knite Interest Table, or choose a specific interest.
+
+include::ROOT:partial$CH08_Table_Knite_Interests.adoc[]
+
+Each interest has an associated group of skills.
+At startup the player gets one skill per interest.
+After startup the player may roll a new skill on the appropriate table or choose a specific skill.
+
+==== Physical Space
+An interest in the physical space will assist the persona in any task that involves the physical space.
+For example, telekinesis involves manipulating the physical space.
+
+==== Think Space
+An interest in the think space will assist the persona in any task that involves the think space.
+For example, intimidation involves manipulating the think space.
+
+==== Cultural Space
+An interest in the cultural space will assist the persona in any task that involves interacting with populations.
+For example, interacting with a military institution would be assisted by an interest in the cultural space.
+
+=== Knite Skills
+Knites skills are tasks that the persona is particularly good at.
+Not having a skill does not preclude a knite from attempting a task, but the skill makes it more likely to succeed.
+Skills are grouped by interest, and the pesona gets one skill per interest.
+
+At startup the player gets one skill per interest. 
+So a knite with physical space 2 and cultural space 1 would get 2 rolls on the physical skills table and 1 roll on the culture skills table.
+After start up the persona gets one new interest per new experience level. 
+As described above the player can roll or choose the new interest.
+Each new interest includes a new skill.
+The player can choose, or roll, the new skill. 
 
 
+==== Physical Space Skills
+These skills align with actions that impact the physical space.
+
+    range(1, 5): "Amputation",
+    range(5, 16): "Deflection",
+    range(16, 26): "False Rest",
+    range(26, 36): "Induce Silence",
+    range(36, 56): "Mimic",
+    range(56, 76): "Pressure",
+    range(76, 90): "Suggestion",
+    range(90, 95): "Telekinesis",
+    range(95, 101): "Extra Roll",
 
 
+==== Think Space Skills
 
 
-All knite gifts are available to the persona once they ascend to either order or chaos.
-Access to all gifts does not mean they all work well at first level.
-The clarity and refinement of these gifts improve as the persona gains experience levels. 
-The player must win a performance roll for a gift to work as expected.
+    range(1, 15): "Detect Hidden",
+    range(15, 30): "Detect Danger",
+    range(30, 45): "Detect Life",
+    range(45, 60): "Detect Intent",
+    range(60, 75): "Detect Fate",
+    range(75, 95): "Kirlian Defence",
+    range(95, 101): "Extra Roll",
 
-Knites cannot manipulate Kirlian auras through inorganic media like monitors, cameras or phones.
+
+==== Cultural Space SKills
+
+use biologist table
+
+
+// for use in performance tables
+// tag::knite_maneuvers[]
+
+== Knite Tasks
+Knite maneuvers are mystical in nature and involve manipulation of the thinkspace.
+Knite maneuvers are considered spiritual gifts or psionic abilities. 
+When in combat the knite may be able to get a MSTR Performance Roll bonus.
+
+A knite must have a MSTR of 18 to perform any of these maneuvers. 
+The knite's MSTR is an essential piece of equipment.
+
+include::ROOT:partial$CH14_Table_DD_Knite.adoc[]
+
+// end::knite_maneuvers[]
+
+== Task Explanations
 
 === Kirlian Sight
 The glowing, flickering Kirlian auras allow the knite to maneuver easily in darkness.
@@ -392,18 +476,4 @@ Knites earn 100% of combat experience.
 
 include::ROOT:partial$CH08_Table_Knite_Experience.adoc[]
 
-// for use in performance tables
-// tag::knite_maneuvers[]
-
-== Knite Maneuvers
-Knite maneuvers are mystical in nature and involve manipulation of the thinkspace.
-Knite maneuvers are considered spiritual gifts or psionic abilities. 
-When in combat the knite may be able to get a MSTR Performance Roll bonus.
-
-A knite must have a MSTR of 18 to perform any of these maneuvers. 
-The knite's MSTR is an essential piece of equipment.
-
-include::ROOT:partial$CH14_Table_DD_Knite.adoc[]
-
-// end::knite_maneuvers[]
 
