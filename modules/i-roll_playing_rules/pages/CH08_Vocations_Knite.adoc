@@ -216,52 +216,24 @@ The player can choose, or roll, the new skill.
 
 
 ==== Physical Space Skills
-These skills align with actions that impact the physical space.
+These skills align with tasks that impact the physical space.
 
-    range(1, 5): "Amputation",
-    range(5, 16): "Deflection",
-    range(16, 26): "False Rest",
-    range(26, 36): "Induce Silence",
-    range(36, 56): "Mimic",
-    range(56, 76): "Pressure",
-    range(76, 90): "Suggestion",
-    range(90, 95): "Telekinesis",
-    range(95, 101): "Extra Roll",
-
+include::ROOT:partial$CH08_Table_Knite_Phys_Skills.adoc[]
 
 ==== Think Space Skills
+These skills align with tasks that impact the think space.
 
-
-    range(1, 15): "Detect Hidden",
-    range(15, 30): "Detect Danger",
-    range(30, 45): "Detect Life",
-    range(45, 60): "Detect Intent",
-    range(60, 75): "Detect Fate",
-    range(75, 95): "Kirlian Defence",
-    range(95, 101): "Extra Roll",
+include::ROOT:partial$CH08_Table_Knite_Think_Skills.adoc[]
 
 
 ==== Cultural Space SKills
+These skills align with tasks that allow the knite to interact with cultures.
 
-use biologist table
+include::ROOT:partial$CH08_Table_Biologist_Cultural_Stream.adoc[]
 
-
-// for use in performance tables
-// tag::knite_maneuvers[]
-
-== Knite Tasks
-Knite maneuvers are mystical in nature and involve manipulation of the thinkspace.
-Knite maneuvers are considered spiritual gifts or psionic abilities. 
-When in combat the knite may be able to get a MSTR Performance Roll bonus.
-
-A knite must have a MSTR of 18 to perform any of these maneuvers. 
-The knite's MSTR is an essential piece of equipment.
-
-include::ROOT:partial$CH14_Table_DD_Knite.adoc[]
-
-// end::knite_maneuvers[]
-
-== Task Explanations
+== Skill Explanations
+For some reason there is a lot of detail available regarding knite skills. 
+This is probably the because of edge cases with past knite personas. 
 
 === Kirlian Sight
 The glowing, flickering Kirlian auras allow the knite to maneuver easily in darkness.
@@ -468,6 +440,21 @@ If there is a chance of amputation, the player must win a performance roll to re
 Inflicting 15 HPS in damage has a 15% chance of an amputation check.
 The knite must make a performance roll against a DD equal to 1/100 of the target's armour rating.
 A target with a 500 AR would be a 5 DD performance roll.
+
+// for use in performance tables
+// tag::knite_maneuvers[]
+
+== Knite Tasks
+Knite maneuvers are mystical in nature and involve manipulation of the thinkspace.
+Knite maneuvers are considered spiritual gifts or psionic abilities. 
+When in combat the knite may be able to get a MSTR Performance Roll bonus.
+
+A knite must have a MSTR of 18 to perform any of these maneuvers. 
+The knite's MSTR is an essential piece of equipment.
+
+include::ROOT:partial$CH14_Table_DD_Knite.adoc[]
+
+// end::knite_maneuvers[]
 
 == Knite Experience
 The benefits of increasing experience levels are more refined interpretations and manipulations of Kirlian energy and improved combat skills.
