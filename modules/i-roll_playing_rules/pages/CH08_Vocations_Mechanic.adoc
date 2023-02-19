@@ -26,6 +26,14 @@ Every mechanic gets every ability on the list and can use them at any time.
 The mechanic could teach another persona one of her skills, but mechanic abilities are for the mechanic persona alone.
 The three mechanic abilities are mnemonic trapping, brainstorming and mental patenting.
 
+
+mechanic_gifts = {
+    range(1, 4): "Interim Fix",
+    range(4, 7): "Memorization",
+    range(7, 99): "Replacement",
+}
+
+
 === Mnemonic Trapping 
 Mnemonic trapping allows the mechanic to memorize crucial technical information. 
 A mechanic can mnemonically trap dimensions, instructions, serial numbers, or other technical information. 
