@@ -20,19 +20,82 @@ Mechanics are exceptionally skilled at identifying artifacts.
 This vocation is essential if the expedition expects to repair equipment or create new contraptions.
 
 == Mechanic Abilities
-The mechanics have some unique abilities related to their vocation.
-An ability is slightly different from a skill.
-Every mechanic gets every ability on the list and can use them at any time.
-The mechanic could teach another persona one of her skills, but mechanic abilities are for the mechanic persona alone.
-The three mechanic abilities are mnemonic trapping, brainstorming and mental patenting.
+Mechanic abilities focus on the inorganic world. 
+The mechanic is in tune with mechanical processes and fixing and making things are their passion.
+Mechanic abilities are divided into crafts (gifts) that allow the persona to automatically complete mechanical tasks.
+Crafts are the inherent abilities that help define the persona as a mechanic.
+Mechanics also have areas of interest and specific skills based on the those interests. 
+While the player can mix and match interests and skills, crafts are hardwired and can only be acquired level progression.
+
+=== Mechanic Crafts
+A mechanic's crafts (gifts) define the persona as a mechanic. 
+Crafts are the inherent abilities that reflect how the persona is in tune with the organic world. 
+Crafts cannot be chosen, and are added as the persona increases in experience levels.
+
+include::ROOT:partial$CH08_Table_Mechanic_Crafts.adoc[]
+
+=== Mechanic Interests
+Interests are broad approaches to the mechanical world that improve the chance of success when making task rolls.
+An interest in repair will help the player win any task roll that involves repair.
+If the mechanic is trying to make a better mousetrap she would benefit from the enhance interest.
+When building something that doesn't exist, or when trying to combine equipment a research interest is key. 
+
+At startup, the persona gets one interest per three points of intelligence score.
+A persona with a 12 INT would get three rolls on the Mechanic Interest Table. 
+After startup the persona earns another interest with each new experience level.
+The player can choose to roll on the Mechanic Interest Table, or choose a specific interest
+
+include::ROOT:partial$CH08_Table_Mechanic_Interests.adoc[]
+
+==== Repair Interest
+The repair interest assists the mechanic in any task that is returning a mechanism to it's undamaged state.
+Maintenance of artifacts and toys is also assisted by the repair interest.
+By and large a mechanic cannot repair an object that is destroyed. 
+The persona could salvage parts from a destroyed object
+
+==== Enhance Interest
+The enhance interest assists the mechanic in any task where they are improving and existing artifact or toy.
+For example, improving the range of a crossbow falls under the enhance interest. 
+However if that crossbow is broken, the enhance interest does not benefit the task roll. 
+Enhancement does not include miniturization. 
+
+==== Research Interest
+The research interest is used to push the boundaries of engineering, fabrication, physics, and sciency fiction.
+The persona can use the research interest to create a new machine, or process. 
+THe research interest can also be used to make toy smaller, or to combine two toys together.
 
 
-mechanic_gifts = {
-    range(1, 4): "Interim Fix",
-    range(4, 7): "Memorization",
-    range(7, 99): "Replacement",
-}
+=== Mechanic Skills
+Mechanic skills are more specific areas of expertise, knowledge or aptitude. 
+The skills can represent tasks or very focused processes. 
+The player can stack skills and interests 
 
+At startup the player gets one skill per interest. 
+So a mechanic with repair 2 and enhance 1 would get 3 rolls on the mechanic skills table.
+After start up the persona gets one new interest per new experience level. 
+As described above the player can roll or choose the new interest.
+Each new interest includes a new skill.
+The player can choose or roll the new skill.  
+
+include::ROOT:partial$CH08_Table_Mechanic_Skills.adoc[]
+
+== Organizing Mechanic Abilities
+
+.Example Mechanic Skill List
+* Repair 2
+* Enhance 1
+* Chemistry 3
+* Detectors 1
+* Mending 1
+
+Mechanic skills and interests are cumulative and combinable.
+A task that involved improving a hover car lubricant  the mechanic a task roll bonus of +4 (Chemistry 3 and Enhance 1)
+If the task involved chemistry and detectors, her task roll bonus would be at least +4.
+If she were mending a broken chemical detector, her task roll bonus would be +6 (Chemistry 3, Repair 2, Mending 1).
+
+== Skill Explanations
+For some reason there is a lot of detail available regarding mechanic abilities. 
+This is probably the because of edge cases with past mechanic personas. 
 
 === Mnemonic Trapping 
 Mnemonic trapping allows the mechanic to memorize crucial technical information. 
@@ -60,27 +123,21 @@ Mental patented maneuvers do not earn experience points.
 This ability's degree of difficulty is three times the maneuver DD.
 To mentally patent a 4DD maneuver requires a DD12 performance roll.
 
-== Mechanic Skills
-Mechanic skills are specific areas of expertise, knowledge or aptitude. 
-While all mechanics have the abilities above, skills are random and unconnected. 
-Mechanic skills vary widely from mechanic to mechanic.
+// for use in performance tables
+// tag::mechanic_maneuvers[]
 
-At startup, the mechanic gets one skill for every three points of intelligence score.
-A persona with a 16 INT would get five rolls on the Mechanic Skill Table.
+== Mechanic Tasks
+Mechanic tasks involve anything inorganic or mechanical in nature.
+These tasks are all about fixing, modifying and creating mechanical devices.
+Most mechanic tasks are knowledge based and dexterity based task roll bonuses will reflect this.
 
-.Example Mechanic Skill List
-* Chemistry 3
-* Detectors 1
-* Mending 1
+A mechanic must have a tool to work with. 
+This can be any kind of tool that is not improvised from the persona's body (slap does not equal hammer).
+The referee may increase any target if the mechanic does not have a tool.
 
-Mechanic skills are cumulative and combinable.
-A maneuver that involved chemistry would give the mechanic a skill bonus of +3,
-If the maneuver involved chemistry and detectors, her skill bonus would be +4.
-If she were mending a broken chemical detector, her skill bonus would be +5.
-Skills also support abilities.
-If she were trying to mnemonically trap a chemical formula, she would get a bonus of +3.
+include::ROOT:partial$CH14_Table_DD_Mech.adoc[]
 
-include::ROOT:partial$CH08_Table_Mechanic_Skills.adoc[]
+// end::mechanic_maneuvers[]
 
 == Experience
 The benefits of increasing experience levels are more skills, improved performance, and somewhat better combat skills. Mechanics earn experience points for completing procedures rolls (80 EXPS per DD) and role-playing within their vocation. Only 20% of combat experience can go towards a mechanic's experience point total.
@@ -88,18 +145,3 @@ The benefits of increasing experience levels are more skills, improved performan
 include::ROOT:partial$CH08_Table_Mechanics_Experience.adoc[]
 
 
-// for use in performance tables
-// tag::mechanic_maneuvers[]
-
-== Mechanic Maneuvers
-Mechanic maneuvers involve anything inorganic or mechanical in nature.
-These maneuvers are all about fixing, modifying and creating mechanical devices.
-Most mechanic maneuvers are knowledge based and Performance Roll bonuses may reflect this.
-
-A mechanic must have a tool to work with. 
-This can be any kind of tool that is not improvised from the persona's body (slap does not equal hammer).
-The referee may make a target roll more difficult if the mechanic does not have a tool.
-
-include::ROOT:partial$CH14_Table_DD_Mech.adoc[]
-
-// end::mechanic_maneuvers[]
