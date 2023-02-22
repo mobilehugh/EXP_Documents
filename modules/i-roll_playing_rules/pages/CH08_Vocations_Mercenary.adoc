@@ -24,7 +24,7 @@ Interests are broad areas the mercenary is good at like combat or tactics.
 Mercenary skills are item or task specific abilities like pistols or grenades. 
 Interests and skills assist the persona with her tasks.
 
-=== Mercenery Actions
+=== Mercenary Actions
 The mercenary actions (gifts) are abilities that only a mercenary persona has.
 New actions are added when the persona gains a certain level of experience.
 The player cannot choose her personas actions. 
@@ -42,7 +42,7 @@ At startup the player gets one roll per 3 points of INT.
 Each interest includes a skill roll as well.
 After startup the player can roll or choose one additional interest per new EXPS level.
 
-include::ROOT:partial$CH08_Table_Mercenry_Interests.adoc[]
+include::ROOT:partial$CH08_Table_Mercenary_Interests.adoc[]
 
 ==== Combat Interest
 This interest is about weapons. 
@@ -55,16 +55,49 @@ Tactical interests assist the mercenary regarding decisions that do not affect d
 For example, artillery use or planning an ambush is a tactical  interest.
 
 ==== Special Interest
-Specializations are confusing and may be like special ops or cultural stuff.
-Maybe psi ops, drones, etc.
-Really drawing a blank here. ;)
+These are special interests that do not involve combat or tactical interests.
+For example, knocking open a door, or combat in zero gravity can benefit from special interests.
+These are not special ops interests per se, but many of the special skills fall into those categories.
 
 === Mercenary Skills
+Skills are much more specific than interests and can refer to a specific weapon type or a specific task. 
+The skills will assist the persona in completing task rolls related to the skill.
+A mercenary gets one skill per corresponding interest. 
+So combat interest will earn the persona a combat skill as well.
 
+==== Combat Skills
+Combat skills assist the persona on any attack rolls she makes with the described weapon.
+The skill would also help the persona when working with a non-combat task with the weapon.
+The combat skill Pistols, Full Auto would give an attack roll bonus for flotto pistol.
+The Pistols, Full Auto would also give a task bonus when cleaning or unjamming a flotto pistol
 
+The player makes one roll per interest at startup and gets an additional roll for each new EXPS level.
 
+include::ROOT:partial$CH08_Table_Mercenary_Combat_Skills.adoc[]
 
+Combat weapon skills are cumulative and separable. 
+So a persona with Rifles, Full Auto, and Rifles Bolt action would have Rifles +2 and Full auto +1
+This would allow for +3 with flotto rifles, +3 with bolt action rifles and +2 with any other rifle.
 
+When using the tactical combat system and kilodie attack rolls the player adds +20 per combat skill.
+The player adds  +60 with flotto and bolt action rifles attack rolls and +40 with any other rifle attack roll.
+These bonuses can exceed the persona's Maximum Roll. 
+
+==== Tactical Skills
+Tactical skills give the persona a bonus when making task rolls for the specific skill.
+Some of the tactical skills also give weapon bonuses, like artillery or bombs.
+Such skills are not considered weapon attacks because they are not considered personal weapons. 
+Other tactical skills are esoteric and represent "officer type" skills.
+
+include::ROOT:partial$CH08_Table_Mercenary_Tactical_Skills.adoc[]
+
+==== Special Skills 
+Special skills give the persona a bonus on tasks that are neither tactical nor combat.
+However, these skills can definitely be used in combat situations.
+For example, the submersive skill will assist the persona in underwater combat.
+There are not special ops skills per se, but represent specializations that would require specialization beyond a weapon skill.
+
+include::ROOT:partial$CH08_Table_Mercenary_Special_Skills.adoc[]
 
 == Explanations of Abilities
 Due to the importance of combat abilities the following paragraphs shed some light on the more common abilities.
@@ -146,52 +179,12 @@ If the mercenary is trying to snap reload during ambidextrous combat, the DD inc
 A mercenary cannot combine snap reload, ambidextrous combat and divided attacks. 
 If the player loses the performance roll, the mercenary reloads like all other personas.
 
-== Mercenary Skills
-Mercenary skills are weapon and procedure-specific maneuvers.
-The skills improve Performance Rolls and Attack Rolls. 
-The number of start-up skills depends on the persona's intelligence score.
-The player makes one roll on the table per 4 points of intelligence.
-For example, a mercenary with a 12 INT would get three rolls on the Mercenary Skills Table.
-The player can choose to extend an existing skill or make a new random roll for each new experience level.
-
 .*Example Three Rolls*
 * Hand-to-hand, striking
 * Pistol, revolver, XLP (extra-low powered)
 * Pistol, revolver, MP (medium-powered)
 * Extra Roll!
 * Grenades, Buildings
-
-Mercenary skills are cumulative and separable. 
-If the persona is snap reloading a bolt action rifle, she does not get a skill bonus.
-When snap reloading a medium-powered (+1) revolver (+2), which is also a pistol (+2), she has a skill bonus of +5.
-When assessing trench fortifications, she does not get a skill bonus.
-When assessing building (+1) fortifications against grenades (+1), she has a skill bonus of +2.
-
-.*Reorganized Skills*
-* Pistol - 2
-** Revolver - 2
-** XLP - 1
-** MP - 1
-* Hand-to-hand - 1 
-** Striking - 1
-* Grenades - 1
-** Buildings - 1
-
-== Attack Roll Bonuses
-Mercenary skills convert directly into combat skills as Attack Roll bonuses.
-Each skill point adds +20 to the player's Attack Roll. 
-This Attack Roll bonus increases the persona's Bonus Proficient and Maximum Roll.
-
-When making an Attack Roll with a medium-powered (+1) revolver (+2), which is also a pistol (+2), she has a bonus of +100 (5*20).
-When throwing a grenade (+1) in a building (+1), she gets an Attack Roll bonus of +40 (2*20).
-When swinging a sword the which is a striking (+1) hand-to-hand (+1) weapon, she gets an Attack Roll bonus of +40 (2*20).
-
-include::ROOT:partial$CH08_Table_Mercenary_Skills.adoc[]
-
-include::ROOT:partial$CH08_Table_Merc_Calibre.adoc[]
-
-include::ROOT:partial$CH08_Table_Merc_Specialization.adoc[]
-
 
 
 // for use in performance tables
