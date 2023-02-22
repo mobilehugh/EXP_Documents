@@ -17,7 +17,57 @@ They represent the dog-meat essential for the survival of any expedition in comb
 Mercs do not personally regard themselves as dog-meat.
 
 == Mercenary Abilities
-Abilities are maneuvers that only a mercenary can do. 
+Mercenary abilities are mostly concerned with inflicting damage on organic and inorganic objects.
+Their abilities are divided in to actions (gifts), interests and skills.
+Mercenary actions are gifts that help define the persona as a mercenary. 
+Interests are broad areas the mercenary is good at like combat or tactics. 
+Mercenary skills are item or task specific abilities like pistols or grenades. 
+Interests and skills assist the persona with her tasks.
+
+=== Mercenery Actions
+The mercenary actions (gifts) are abilities that only a mercenary persona has.
+New actions are added when the persona gains a certain level of experience.
+The player cannot choose her personas actions. 
+
+include::ROOT:partial$CH08_Table_Mercenry_Actions.adoc[]
+
+=== Mercenary Interests
+These are broad areas of interest that the mercenary has. 
+Combat interests will assist the persona in any combat related tasks she is undertaking.
+For example, shooting a lazer gun or throwing a grenade would benefit from combat interests.
+Tactical interests are the officer side of executing tasks related to the bigger picture of a battle.
+If the mercenary wanted to avoid an ambush, or organize a room entry she calls on her tactical interests.
+
+At startup the player gets one roll per 3 points of INT. 
+Each interest includes a skill roll as well.
+After startup the player can roll or choose one additional interest per new EXPS level.
+
+include::ROOT:partial$CH08_Table_Mercenry_Interests.adoc[]
+
+==== Combat Interest
+This interest is about weapons. 
+Combat interests lead to combat skills that are usually weapon specific.
+Combat interest can assist the persona when making task rolls related to combat tasks.
+For example, if the persona is making a task roll for ambidextrous combat the combat interest will help.
+
+==== Tactical Interest
+Tactical interests assist the mercenary regarding decisions that do not affect direct combat.
+For example, artillery use or planning an ambush is a tactical  interest.
+
+==== Special Interest
+Specializations are confusing and may be like special ops or cultural stuff.
+Maybe psi ops, drones, etc.
+Really drawing a blank here. ;)
+
+=== Mercenary Skills
+
+
+
+
+
+
+== Explanations of Abilities
+Due to the importance of combat abilities the following paragraphs shed some light on the more common abilities.
 
 === Bolstering Armour Rating
 The mercenary can increase her armour rating, making her more difficult to damage in combat.
@@ -142,20 +192,14 @@ include::ROOT:partial$CH08_Table_Merc_Calibre.adoc[]
 
 include::ROOT:partial$CH08_Table_Merc_Specialization.adoc[]
 
-== Experience
-The benefits of increasing experience levels are more weapon skills and improved performance.
-Mercenaries earn experience points for completing maneuvers and role-playing within their vocation.
-Mercenaries gain 110% of combat EXPS earned.
 
-include::ROOT:partial$CH08_Table_Mercenary_Experience.adoc[]
 
 // for use in performance tables
 // tag::mercenary_maneuvers[]
 
-== Mercenary Maneuvers
-Mercenary maneuvers are devoted to combat and harming organic and inorganic targets.
-These maneuvers are all about destroy, destroy, and destroy.
-All mercenary maneuvers are combat maneuvers and allow a PSTR Performance Roll bonus.
+== Mercenary Tasks
+Mercenary tasks are devoted to combat and harming organic and inorganic targets.
+These tasks are all about destroy, destroy, and destroy.
 
 A mercenary must have a weapon to work with.
 This must be an actual weapon that is not improvised from the persona's body (a fist is not a mace).
@@ -164,3 +208,10 @@ The referee may make a target roll more difficult if the mercenary does not have
 include::ROOT:partial$CH14_Table_DD_Merc.adoc[]
 
 // end::mercenary_maneuvers[]
+
+== Experience
+The benefits of increasing experience levels are more weapon skills and improved performance.
+Mercenaries earn experience points for completing maneuvers and role-playing within their vocation.
+Mercenaries gain 110% of combat EXPS earned.
+
+include::ROOT:partial$CH08_Table_Mercenary_Experience.adoc[]
