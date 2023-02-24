@@ -25,14 +25,90 @@ They prefer to sleep in a hollow log or a dumpster rather than a hotel room or t
 There is no penalty for a nomad who uses technology.
 
 == Nomadic Abilities
-Nomads have abilities, not skills.
-Nomads do have areas of expertise in natural areas with which they are familiar.
-The nomad has access to all her abilities immediately. 
-Some of her abilities will be out of reach at lower levels. 
+Nomads have abilities, that are divided between adaptions (gifts), interests and skills.
+Adaptions are nomad specific abilities that the persona acquires at specific experience levels.
+An adaption is a built in task that the nomad can practice without making a task roll.
+The interests are broad areas that the nomad excels in.
+An interest can be applied to many different skills.
+Skills are more specific and can assist very specific task rolls. 
 
-Each ability has an associated degree of difficulty (DD).
-The referee may adjust the degree of difficulty as she sees fit.
-For example, finding water in a vac suit is more demanding than in a rain forest.
+=== Nomad Adaptions
+Adaptions are gifts that the nomad carries with themselves and help define them "being a nomad."
+Adaptions cannot be chosen and are assigned as the persona increases in experience levels. 
+Nomads get new adaptions at 1st, 4th and 7th levels of EXPS.
+
+include::ROOT:partial$CH08_Table_Nomad_Adaptions.adoc[]
+
+=== Nomad Interests
+Interests are broad abilities that can represent experience that can assist skills and tasks. 
+Nomad interests are intentionally wide ranging and can be very loosely applied to most any nomad task.
+
+At startup the persona gets one interest per 4 points of awareness, and one additional interest per new experience level. 
+
+include::ROOT:partial$CH08_Table_Nomad_Interests.adoc[]
+
+==== Biome Interests
+Biomes are the bread and butter of a nomad. 
+A biome is a geographically, ecologically or socially unique biological location.
+When the nomad is in a familiar biome she enjoys task roll bonuses on nearly everything she does in that space.
+Each biome interest earns the player an additional biome skill. 
+Nomads quickly become very competent in their preferred biomes.
+
+==== Survival Interests
+All nomads, and all personas for that matter, are interested in surviving.
+A survival interest will assist the player in any task rolls that represents survival tasks.
+For example, a safe passage task roll would benefit from the survival interest. 
+Whereas trying to domesticate an alien pack mammal would not.
+
+==== Domestication Interests
+Nomads can have an interest in domestication aliens for their personal use. 
+The domestication interest will assist the persona in tasks that are part of domesticating aliens.
+The process of domestication is elaborate and covered below. 
+
+=== Nomad Skills
+Skills are specific abilities that assist with more specific task rolls. 
+A skill could represent knowledge, experience or training. 
+The player rolls one skill per interest, and if the person earns another interest they gain another skill. 
+
+==== Biome Skills
+The nomad is assisted for any task attempted in a familiar biome.
+There is no penalty for acting outside one's biome. 
+The player makes one roll on the biome table per biome interest. 
+The Alien Biome Table is included here for efficiency of the now, and the future. 
+Each biome skill includes a biome and characteristic.
+
+include::ROOT:partial$CH06_Table_Alien_Biome.adoc[]
+
+include::ROOT:partial$CH06_Table_Alien_Biome_Characteristic.adoc[]
+
+:art: nomad.png
+:width: 250px
+:snark: Nomads desert biome.
+:artist: Louis Glanzman
+:date: 1952
+:license: CC BY-SA 4.0
+:description: Drawing of two humans finding shelter from sun in an alien desert.
+
+include::ROOT:partial$articulate.adoc[]
+
+==== Survival Skills
+These are skills that specifically assist the persona in performing survival tasks. 
+They include tasks like finding water, food and shelter.
+Remember to add in biome skills and interests to improve the chance of success of the task.
+
+include::ROOT:partial$CH08_Table_Nomad_Survival_Skills.adoc[]
+
+==== Domestication Skills
+These are skills that help the nomad when working with aliens. 
+The aliens that domestication skills work on are typically flora and fauna. 
+There are details about the complicated process of domesticating an alien below.
+The table is a mix of Biologist taxonomy skills and specific nomadic domestication skills. 
+
+include::ROOT:partial$CH08_Table_Nomad_Domestication_Skills.adoc[]
+
+
+== Nomad Skills and Task Explanations
+Some example explanations to help guide nomad abilities and tasks.
 
 === Water
 This ability allows to nomad to read the environment, do a bit of dowsing, and sniff out some water.
@@ -71,7 +147,7 @@ Crafting camouflage doubles the DD of the performance roll.
 This ability allows the nomad to find sustenance from the local environment. 
 The player must make a  performance roll for every hungry mouth.
 
-.*Shelter Abilities*
+.*Food Abilities*
 * Find 1-8 (1d8) DD
 * Safe preparation 3-10 (1d8+2) DD
 * Yummy preparation 5-12 (1d8+4) DD
@@ -164,51 +240,25 @@ Reverse tracking lets the nomad know that she is being tracked.
 To determine what is tracking her, the player must win a following and finding performance rolls.
 The nomad will have to follow and find what is tracking her using the 
 
-== Nomadic Biomes
-Nomads have several initial biomes.
-A biome is a readily distinguishable subsection of an ecosystem.
-A biome could be a deciduous forest, tropical savanna, or radioactive ruin.
-The biomes are like skills for the nomad.
-The more familiar the biome the nomad finds herself, the more likely she will be successful.
-A biome is a knowledge set, and nomads can function outside of their biomes.
-Biomes are not planetary specific, and a deciduous forest on one planet is a deciduous forest on another planet.
 
-:art: nomad.png
-:width: 250px
-:snark: Nomads desert biome.
-:artist: Louis Glanzman
-:date: 1952
-:license: CC BY-SA 4.0
-:description: Drawing of two humans finding shelter from sun in an alien desert.
+== Rationalizing Nomad Skills
 
-include::ROOT:partial$articulate.adoc[]
-
-The nomad gets one roll on the biome table per 4 points of awareness.
-
-A new biome is acquired each time the nomad earns an EXPS level.
-A new biome can be an extension of a previous biome or randomly assigned.
-If a nomad earns an EXPS level within an unknown biome, she will automatically add that biome to her skill set.
-
-.Example Four Biomes 
+.Example Nomad SKills 
 * Farm, Toxic
 * Forest, Toxic
 * Farm, Underground
 * Coniferous, Normal
 
-Biomes are cumulative and separable. 
-A nomad trying to follow a rogue tractor on a toxic (2) farm (2) would get a bonus of +4 on her performance roll.
-Finding a safe campsite in an underground (1) cave have a bonus of +1.
-
-.Reorganized Biomes
+.Reorganized Skills
 * Farm - 2
 * Toxic - 2
 * Forest - 1
 * Coniferous - 1
 * Underground - 1
 
-include::ROOT:partial$CH08_Table_Nomadic_Biome.adoc[]
-
-include::ROOT:partial$CH08_Table_Biome_Characteristic.adoc[]
+Skills are cumulative and separable. 
+A nomad trying to follow a rogue tractor on a toxic (2) farm (2) would get +4 on her task roll.
+Finding a safe campsite in an underground (1) cave have a bonus of +1.
 
 :art: biome_modern_space.png
 :width: 450px
@@ -220,21 +270,14 @@ include::ROOT:partial$CH08_Table_Biome_Characteristic.adoc[]
 
 include::ROOT:partial$articulate.adoc[]
 
-== Nomadic Experience
-Nomads get half experience for combat and EXPS for successful maneuvers.
-Faithful role-playing of the nomad vocation will earn EXPS for the persona.
-Increasing levels allows the nomad a greater chance of survival in the wild or combat.
-
-include::ROOT:partial$CH08_Table_Nomadic_Experience.adoc[]
-
 // for use in performance tables
 // tag::nomad_maneuvers[]
 
-== Nomad Maneuvers
-Nomad maneuvers are about surviving and manipulating the environment surrounding the persona.
+== Nomad Tasks
+Nomad tasks are about surviving and manipulating the environment surrounding the persona.
 These terrains are called biomes and can be natural, industrial or residential.
-These maneuvers are about personal survival.
-Nomadic maneuvers are mostly Gut maneuvers and the player may enjoy an AWE bonus the Performance Roll.
+These tasks  are about personal survival.
+Nomadic tasks  are mostly Gut tasks  and the player may enjoy an AWE bonus the Performance Roll.
 
 A nomad has no essential equipment.
 Unlike any other vocation a nomad may be inhibited by survival tools like tents, or fire starters.
@@ -243,3 +286,11 @@ The referee may make a target roll more difficult if the nomad is glamping (glam
 include::ROOT:partial$CH14_Table_DD_Nomad.adoc[]
 
 // end::nomad_maneuvers[]
+
+== Nomadic Experience
+Nomads get half experience for combat and EXPS for successful maneuvers.
+Faithful role-playing of the nomad vocation will earn EXPS for the persona.
+Increasing levels allows the nomad a greater chance of survival in the wild or combat.
+
+include::ROOT:partial$CH08_Table_Nomadic_Experience.adoc[]
+
