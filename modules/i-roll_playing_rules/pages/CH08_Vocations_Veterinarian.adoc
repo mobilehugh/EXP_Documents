@@ -34,6 +34,54 @@ The persona need not be a pacifist or sacrifice their lives senselessly.
 
 == Vet Abilities
 Vet abilities are particular aptitudes that a vet can accomplish and other vocations cannot.
+They are divided into approaches (gifts), interests and skills.
+
+=== Approaches
+Approaches (gifts) are the inherent talents that define the persona as a veterinarian.
+The player does not have to roll to succeed with an approach.
+An approach happens immediately unless combat time is activated.
+
+include::ROOT:partial$CH08_Table_Veterinarian_Approaches.adoc[]
+
+=== Interests
+The interests of a veterinarian indicate broad areas of knowledge, skill or comprehension.
+Veterinarian interests are divided into diagnosis, treatment and research. 
+An interest in diagnosis will help with any task roll that involves figuring out what is wrong with a persona.
+Treatment interest helps the player win task rolls that alter (hopefully for the better) the wellness of a persona.
+An interest in research assists the persona when enhancing or inventing procedures and devices related to healing.
+
+At startup the player gets 1 roll on the interest table per 4 points of charisma.
+At each additional experience level the player can roll or choose a new interest.
+
+include::ROOT:partial$CH08_Table_Veterinarian_Interests.adoc[]
+
+=== Skills
+The veterinarian skills are abilities that are focused onto one area of knowledge or procedure. 
+The skills are quite specific and fall under one of the three interests described above.
+
+The player makes one roll on the skill table per interest generated. 
+A new skill is acquired at each new experience level.
+
+==== Diagnostic
+Figuring out what is wrong with an organic persona.
+The task may entirely involve figuring out what is malfunctioning.
+If what is wrong is obvious a diagnosis task can be attempted to assist the treatment task. 
+
+include::ROOT:partial$CH08_Table_Diagnostic_Skills.adoc[]
+
+==== Treatment 
+Treatment skills are abilities that repair or cure or temporize an ailing persona. 
+Diagnosis is figuring out what is wrong treatment is fixing it. 
+
+include::ROOT:partial$CH08_Table_Veterinarian_Treatment_Skills.adoc[]
+
+==== Research
+Research is anything outside the realm of treatment and diagnosis.
+Research skills include enhancements, cybernetics, new pharma, or new previously unknown processes.
+
+include::ROOT:partial$CH08_Table_Veterinarian_Research_Skills.adoc[]
+
+== Explanations of Approaches, Skills and Tasks
 
 Quick Fix::
 This ability allows the vet to repair injured personas quickly.
@@ -101,35 +149,6 @@ The target gets a saving throw versus poison.
 The degree of difficulty depends on the target's constitution.
 If the target has a 9 CON, the DD of the maneuver is 18.
 
-== Vet Skills
-Vet skills are random areas of knowledge picked up during their career.
-A vet gets one roll on the Vet Skills Table for every 3 points of intelligence.
-The player can extend an existing skill or generate a new one for every new experience level.
-
-A vet with an 18 INT would get six rolls on the skills table. 
-
-.Example Vet Skill List
-* Surgery - 2
-* Psionics - 2
-* Infection - 1
-* Aging - 1
-
-A veterinarian can combine her skills into better skill bonuses.
-Using the example vet skill list above:
-Any surgical procedure would get a skill bonus of +2.
-If the surgery is for an infection, the skill bonus would be +3.
-If the surgery vs infection on an old persona, the skill bonus would be +4.
-
-include::ROOT:partial$CH08_Table_Veterinarian_Skills.adoc[]
-
-== Vet Experience
-The benefits of increasing experience levels are more skills, improved performance, and not much else. 
-Veterinarians earn experience points for completing maneuvers and role-playing within their vocation.
-Only 10% of combat experience can go towards a vet's experience point total.
-
-include::ROOT:partial$CH08_Table_Veterinarian_Experience.adoc[]
-
-
 // for performance table
 // tag::veterinarian_maneuvers[]
 
@@ -145,3 +164,10 @@ The referee may make a target roll more difficult if the vet cannot emotionally 
 include::ROOT:partial$CH14_Table_DD_Vet.adoc[]
 
 // end::veterinarian_maneuvers[]
+
+== Vet Experience
+The benefits of increasing experience levels are more skills, improved performance, and not much else. 
+Veterinarians earn experience points for completing maneuvers and role-playing within their vocation.
+Only 10% of combat experience can go towards a vet's experience point total.
+
+include::ROOT:partial$CH08_Table_Veterinarian_Experience.adoc[]
