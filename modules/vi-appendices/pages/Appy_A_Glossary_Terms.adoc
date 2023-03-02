@@ -1,9 +1,8 @@
 = Appendix A2: Glossary of Terms
 
 Ability:: 
-A capacity inherent to the species or vocation.
-Usually an ability cannot be learned like night vision.
-In contrast to skills which can be learned.
+Any capacity that the persona has.
+Abilities include gifts, interests, skills, mutations and baked in features.
 
 Adjusted:: 
 An attribute that is adjusted by the persona's experience level. 
@@ -39,11 +38,12 @@ Attack roll::
 The dice roll that is used to see if a target was successfully attacked.
 The higher the to hit roll the better.
 Usually the to attack roll generated must be higher than an armour rating to indicate success.
-A successful attack roll indicates the target has been damaged.
+A successful attack roll indicates the target has been has been hit.
+A win on the attack roll does not always indicate damage will be inflicted on the target
 
 Attributes:: 
 These are the imaginary divisions of a persona’s physical abilities.
-They are also called statistics.
+They are also called statistics, or stats.
 
 Baked-In:: 
 An indistinguishable part of a system.
@@ -51,12 +51,13 @@ As opposed to bolted on and obviously an after thought.
 Robot peripherals can be baked-in when they are part of the robot's fabrication as opposed to added later.
 
 Bonus non-proficient (BNP):: 
-The to-hit roll bonus used when the persona is using an unfamiliar weapon. 
-This value is less than the regular to-hit roll bonus.
+The attack roll bonus used when the persona is using an unfamiliar weapon. 
+This value is less than the attack roll bonus used for familiar weapons.
 
 Bonus proficient (BP):: 
-The to-hit roll bonus used for skilled weapons.
-Weapon skills are limited to combat vocations.
+The attack roll bonus used for familiar weapons.
+Being familiar with a weapon is called a weapon proficiency.
+
 
 Bot:: 
 Shortened form of robot.
@@ -70,22 +71,11 @@ A campaign can last for months or years.
 Class:: 
 Vocation.
 
-Dice:: 
-* 1d1 - A one sided die. Looks like a mobius strip.
-* 1d2 - A two sided die. Looks like a coin
-* 1d3 - A three sided die. Looks like a risk piece.
-* 1d4 - A four sided die. Looks like a pyramid.
-* 1d6 - A six sided die. The famous cube.
-* 1d8 - An eight sided die. It does not look like an octopus.
-* 1d10 - A ten sided die. This die is used to create 1d100 and 1d1000
-* 1d12 - A twelve sided die. 
-* 1d20 - A twenty sided die. The largest of platonic solids.
-* 1d100 - Two (tens and digits) 1d10 are rolled to create a 1d100.
-* 1d1000 - Three (hundreds, tens and digits) 1d10 are rolled to create a 1d1000.
-* Kilodie - Another name for a 1d1000
+
 
 Damage:: 
-Whenever a hit is scored in combat, the persona loses hit points. 
+Damage is inflicted if a persona is injured.
+Damage is reflected in the persona losing hit points. 
 The amount of hit points lost is the damage. 
 The more lethal an attack, the more damage it inflicts.
 
@@ -96,6 +86,26 @@ The stronger the persona is, the more damage she will inflict.
 Damage Bonus (DB):: 
 This value is added to the damage roll for certain weapon types. 
 The stronger the persona is, the more damage she will inflict.
+
+Decidie::
+See Percentile Dice. 
+A way to generate 1 to 100 by rolling 2d10s.
+
+Dice:: 
+* 1d1 - A one sided die. Looks like a mobius strip.
+* 1d2 - A two sided die. Looks like a coin
+* 1d3 - A three sided die. Looks like a risk piece.
+* 1d4 - A four sided die. Looks like a pyramid.
+* 1d6 - A six sided die. The famous cube.
+* 1d8 - An eight sided die. It does not look like an octopus.
+* 1d10 - A ten sided die. This die is used to create 1d100 and 1d1000
+* 1d12 - A twelve sided die. What a 3d calendar might look like.
+* 1d20 - A twenty sided die. The largest of platonic solids.
+* 1d100 - Two (tens and digits) 1d10 are rolled to create a 1d100.
+* 1d1000 - Three (hundreds, tens and digits) 1d10 are rolled to create a 1d1000.
+* Kilodie - Another name for a 1d1000
+* Percents - Another name for a 1d100
+* Decidie - Another name for a 1d100
 
 Die::
 Usually refers to the singular of dice.
@@ -128,12 +138,21 @@ Fabrication::
 The creation of a robot persona using dice and EXP rules. 
 Not a lie. 
 
+Family:: 
+The three families in EXP are anthro, alien and robot.
+The anthro type pure strain human has different anthro types, not families.
+
 Generation:: 
 The creation of something (persona, artifact, result) by rolling dice and using EXP rules.
 
 Flotto::
 Short form of full-auto which means fully automatic. 
 Usually a machine gun of some type.
+
+Gift::
+A gift is an ability that is baked into the persona.
+A gift cannot be learned by another persona.
+Vocation gifts come by many names like knacks, crafts, approaches or tricks.
 
 Hexes per Unit (h/u):: 
 This is an arbitrary measure of movement EXP. 
@@ -150,7 +169,7 @@ HIG::
 High gravity.
 
 Hit Points (HPS):: 
-The persona’s hit points indicate how much damage she can take. 
+The persona's hit points indicate how much damage she can take. 
 A persona with many hit points can sustain a lot of damage. 
 A persona loses hit points when she is hurt. 
 If a persona loses too many hit points they die.
@@ -161,11 +180,10 @@ Being at hit poits max is the least damage a persona can be.
 The persona cannot exceed her hit points max from healing.
 
 Hit Points Total (HPS Total, HPT):: 
-The present number of hit points that the persona has at the moment.
-When hit points total equals hit points max the persona is least damaged.
-Lowering the hit point total indicates more damage eventually leading to death.
+Deprecated. See Hit Points
 
 Hit:: 
+A hit is usually from a win on an attack roll.
 A hit is a combat term that indicates a target has been damaged. 
 When a hit is scored, the target usually loses hit points.
 
@@ -186,6 +204,11 @@ Intensity::
 Intensity represents how dangerous a poison or psionic attack is. 
 The higher the intensity, the more dangerous the attack.
 
+Interest::
+An interest is a vocation ability that covers a broad number of tasks.
+For example, an interest is research will help a persona do any research task.
+A skill in robot drives would only help with robot drive tasks.  
+
 Kilodie:: 
 A Kilodie generates a random number between 1 and 1000. 
 A kilodie is also called a 1d1000
@@ -203,13 +226,13 @@ A level represents how good a persona is at combat and skills.
 The experience level increases with the persona's experience points.
 
 Maximum Roll (MR):: 
-This is the highest possible to-hit roll that the player can roll. 
+This is the highest possible attack roll that the player can score. 
 The MR is determined by attributes, experience level and weapon type.
 
 Miss:: 
 A miss is any failed roll.
 In combat a miss is a failed attempt to damage the target.
-In a saving through a miss represents being afflicted by the attack.
+In a saving throw a miss represents being afflicted by the attack.
 
 Movement:: 
 Movement is the changing of position of personas during combat. 
@@ -227,7 +250,7 @@ Party::
 Group of adventurers that EXP calls an expedition.
 
 Performance Roll:: 
-See Task Roll. 
+Deprecated. See Task Roll. 
 
 Persona:: 
 The persona is the representation of the player in the imaginary world.
@@ -242,25 +265,32 @@ Also called a character sheet.
 Phenotype::
 Phenotype is the physical appearance of an organism. In EXP life forms are arranged phenotypically by appearance. Anthros are all humanoid, robots look mechanical. This ignores genotype and fabrication for purpose of telling fun stories. 
 
-Post Factualization::
-Reverse improvisation to explain something that happened after it has happened. 
-Commonly needed by referees when story and pseudo science need to be synched.
+Percentile Dice::
+A percentile generates a random number between 1 and 100. 
+A percentile die is also called a 1d100, or decidie.
+A roll of 0, 0, would indicate 100.
+The percentile is composed of two ten sided dice:
+* 1d10 is the 10s
+* 1d10 is the 1s
 
 Player:: 
 You, the reader. 
 The real world persona that controls the fantasy world character called a persona.
 
-Family:: 
-The three families in EXP are anthro, alien and robot.
-The anthro type pure strain human has different anthro types, not families.
+Post Factualization::
+Reverse improvisation to explain something that happened after it has happened. 
+Commonly needed by referees when story and pseudo science need to be synched.
+
+Proficiency::
+A legacy term that indicates that a persona has skill with a weapon.
 
 Ref::
 Short for referee. 
 This is a player that is burdened with creating the milieu and puzzles of the campaign.
 The role of referee is typically one player.
-However the role of referee can be rotated or shared amongst multiple players.
+The role of referee can be rotated or shared amongst multiple players.
 
-Referee Persona(RP):: 
+Referee Persona (RP):: 
 A persona that is generated and played by the referee. 
 It includes aliens, anthropomorphs and robots. 
 These are also called non-player characters.
@@ -307,6 +337,10 @@ If the player misses the saving throw their persona is subjected to the attack.
 Saving Roll:: 
 See saves.
 
+Scene::
+A part of a scenario.
+A scene could be a combat scene, or a negotiation or shopping for spare parts.
+
 Scenarios:: 
 These stories and challenges that take place in the game.
 A scenario could be combat, puzzles, or some combination. 
@@ -326,7 +360,8 @@ A session is also called a run or scenario.
 Skill:: 
 A capacity that can be learned by a persona.
 Usually vocation related maneuver or knowledge like working with robots.
-In contrast to abilities which cannot be learned.
+A skill is focused while an interest is broad. 
+A skill can be learned while a gift cannot.
 
 Sotto::
 Short form of semi-auto which means semi-automatic. 
@@ -345,7 +380,7 @@ A specific die roll where the player must roll high for her persona to succeed a
 Task rolls are typically made on a 1d100.
  
 To Hit roll:: 
-An attack roll.
+Deprecated. An attack roll.
 
 Tool Score:: 
 The tool score is a number that indicates how proficient a species is at using tools and technology.
