@@ -1,90 +1,106 @@
 = Appendix B2: Automation   
 
-There are many tool to assist role-playing games in the 2020s. 
+[quote]
+____
+*Better living through electricity.*
+____
+
+
+== EXP Specific
+There are two EXP specific tools available.
+They both live on github. 
+The Rule Site Builder allows dev savvy folks to create a local HTML copy of EXP using https://docs.antora.org/antora/latest/[Antoradocs].
+The Persona Generator is a partially constructed python application that will help create personas and referee personas for Anthros and Aliens
+You must have https://www.python.org/downloads/[Python] on your machine and like text/PDF outputs.
+
+.*EXP Specific Git Hub Tools* 
+* https://github.com/misterquetoo/EXP_Game_Tools[Python Persona Generators]
+* https://github.com/misterquetoo/EXP_Documents[Rule Site Builder]
+
+== Plague Years
+During the plague years many many new virtual table tops and online aids came into being. 
+Our table became a network and we used  the following configuration. 
+This configuration is no longer suitable and hopefully we will get things sorted by the next plague. 
 
 .*Playing EXP Online*
-. https://shmeppy.com[Shmeppy for Maps]
-. https://rolz.org[Rolls for Dice Rolling, chat and persona records]
-. https://zoom.us[Zoom for Voice and video chat]
-
-.*All In One Virtual Table Tops*
-. https://foundryvtt.com[Foundry VTT - The best one]
-. https://roll20.net[Roll20 - The expensive one]
-
-.*Git Hub Tools* 
-. https://github.com/misterquetoo/EXP_Game_Tools[Python Persona Generators]
-. https://github.com/misterquetoo/EXP_Documents[Antora Builder for version 6.0]
+* https://shmeppy.com[Shmeppy for Maps]
+* https://rolz.org[Rolls for Dice Rolling, chat and persona records] -> dice room 
+* https://zoom.us[Zoom for Voice and video chat]
 
 
+== Post Plague Playability
+If you are Roll Playing and you are going tactical there really isn't much.
+The computer supports that allows complex die rolls don't have hexes or vice versa.
+If you are Role Playing and the theatrical system is all you need there really isn't very much.
+Turns out it is surprisingly hard to get the 4d2 Mechanic to work. 
+Below is list of table tops and what to expect.
 
+.*These should work*
+* https://foundryvtt.com[Foundry - For the devs!]
+* https://roll20.net[Roll20 - For their cash!]
+* https://www.rptools.net/[RPTools - For the FOSS!]
+
+
+== EXP Compatibility Table
+Face it, I just like making asciidoc tables. 
+
+.*Legend*
+* Link - click to activate hypertext anchor magic.
+* Dice - Yes = can do kilodie and 4D2 dice rolls.
+* Map - Yes = can do hexagons on maps.
+* Snark - what I think. FOSS = Free and Open Source Stuff.
 
 // VTT LIST NOT IN partials
-.*Available VTTs as of April 2021*
-[width="85%",cols="1,1,1,1,1,3",frame="all", stripes="even"]
+.*EXP and the VTT*
+[width="85%",cols="<1,^1,^1,<3",frame="all", stripes="even"]
 |===
-6+<|VTTs that are EXP friendly. Can use hexes and complex dice rolls. 
+4+<|VTTs and EXP compatibility. 
 
 s|Link
-s|Cost
-s|Type
-s|Kilodie
-s|Hexes
+s|Dice
+s|Map
 s|Snark
 
-|https://www.rptools.net/
-|Free
-|All
+|https://www.rptools.net/[RPTools]
 |Yes
 |Yes
-|The OG
+|FOSS! Local use only.
 
 
-|http://roll20.net
-|Sub-Ref
-|Online
+|http://roll20.net[Roll20]
 |Yes
 |Yes
 |Apple of VTTs
 
-|http://foundryvtt.net
-|Purch-Ref
-|All
+|http://foundryvtt.net[Foundry]
 |Yes
 |Yes
-|Dev friendly user unfriendly
+|Dev friendly. User unfriendly
 
-|http://shmeppy.com
-|Sub-Ref
-|Online
+|http://shmeppy.com[Shmeppy]
 |No
 |No
-|Lo Fi Maps
+|Lo Fi Maps.
 
-|https://www.owlbear.rodeo/
-|Free
-|Online
-|Yes
+|https://www.owlbear.rodeo/[Owlbear]
 |No
+|Yes
 |Easy onboarding
 
-|https://lets-role.com/
-|Not free
-|Online
+|https://lets-role.com/[Lets Role]
 |Yes
 |Yes
 |tres francais
 
-
 s|Link
-s|Cost
-s|Type
-s|Kilodie
-s|Hexes
+s|Dice
+s|Map
 s|Snark
 |===
 
 
-.*Awaiting EXP Compat Assessment*
+.*Awaiting Assessment*
+* https://www.kloogeinc.com/
 * http://www.epictable.com/
 * https://www.fantasygrounds.com/
 * https://talespire.com/
