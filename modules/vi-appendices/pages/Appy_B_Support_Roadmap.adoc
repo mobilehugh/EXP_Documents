@@ -14,6 +14,160 @@ The roadmap is a collection of stuff to do, both short term and long term.
 This is closer to a collection of aspirations than a roadmap.
 Perspiration has transformed some of these aspirations into rules.
 
+== Nomenclature Change Proposal
+
+Proposed rework of the Combat Table and its ancillary components. Goal is to reduce complexity and improve understanding.
+
+.*Proposed Changes to Weapon Types*
+* Type A -> *Striking*: self powered melee weapons
+* Type B -> *Flinging*: self powered ranged weapons 
+* Type C -> *Shooting*: powered ranged weapons 
+* Type D -> *Sotto*: Semi auto *Shooting* 2 attacks per unit
+* Type E -> *Sotto*: Semi auto *Shooting* 2 attacks per unit
+* Type F -> *Flotto*: Full auto *Shooting* 5 attacks per unit
+* Type AOE -> *Grenade*: *Flinging* at target hex no damage bonus
+
+.*Proposed Changes to Combat Table*
+* Combat Table -> *Attack Table*
+* BP (Bonus Proficient) -> *Profish*
+* BNP (Bonus Non Proficient) -> *Raw*
+* MR (Maximum Roll) -> *Max*
+* DB (Damage Bonus) -> *Force*
+
+// Proposed changes to Combat Table
+.*Attack Table*
+[width="95%",cols="<,^,^,^,^",frame="all", stripes="even"]
+|===
+5+<|What players add to their rolls in combat.
+
+s|Attack Type
+s|Raw
+s|Profish
+s|Max
+s|Force
+
+s|Striking
+|50
+|100
+|725
+|6
+
+s|Flinging
+|65
+|125
+|775
+|3
+
+s|Shooting
+|75
+|150
+|825
+|0
+
+|===
+
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 1 lists the Attack Table headings.
+
+s|Attack Type
+4+|Type of attack being used. Striking vs Flinging vs Shooting.
+
+s|Raw
+4+|Player adds this number to attack rolls for unfamiliar weapons.
+
+
+s|Profish
+4+|Player adds this number to attack rolls for proficient weapons.
+
+s|Max
+4+|This is the highest attack roll the player can make.
+
+s|Force
+4+|The player adds this number to the damage roll. 
+|===
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 2 lists the bonuses for striking attack types.
+
+s|Striking
+4+|Self powered melee weapons like swords, clubs, fists etc.
+
+|Raw
+4+|Player adds 50 to her attack roll when using an unfamiliar bat.
+
+|Profish
+4+|Player adds 100 to her attack roll when using her familiar sword.
+
+|Max
+4+|If the player's attack roll is higher than 725 on her it becomes 725.
+
+|Force
+4+|Player adds 6 hit points of damage to her damage roll.
+|===
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 3 lists the bonuses for flinging attack types.
+
+s|Flinging
+4+|Self powered ranged weapons like daggers, bows, rocks and spears.
+
+|Raw
+4+|Player adds 65 to her attack roll when using an unfamiliar throwing spear.
+
+|Profish
+4+|Player adds 125 to her attack roll when using her favourite bow.
+
+|Max
+4+|If the player's attack roll is higher than 775 her attack roll becomes 775.
+
+|Force
+4+|The player adds 3 hit points of damage to her damage roll.
+|===
+
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|ROW 4 lists the bonuses for shooting attack types.
+
+s|Shooting
+4+|Powered ranged weapons like guns, rifles, pistols. 
+
+|Raw
+4+|Player adds 75 to her attack roll when using an unfamiliar rifle.
+
+|Profish
+4+|Player adds 150 to her attack roll when using her service revolver.
+
+
+|Max
+4+|If the player's attack roll is higher than 825 her roll becomes 825.
+
+|Force
+4+|No force bonus for shooting weapons. 
+|===
+
+[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
+|===
+5+<|Special cases of Sotto, Flotto and Grenade
+
+s|Sotto
+4+|Attack Type *Shooting* with two or three attack rolls per unit. 
+
+s|Flotto
+4+|Attack Type *Shooting* with five attack rolls per unit.
+
+s|Grenade
+4+|Attack Type *Flinging* with no Force bonus. Target is a hex. 
+
+|===
+
+The above information is transient, and has changed since initial email proposal.
+Other suggestions have included: Close Muscle, Ranged Muscle, Ranged Powered, Melee. 
+
 
 == Broad Aspirations
 Elements that remain aspirational. 
