@@ -23,13 +23,13 @@ Proposed rework of the Combat Table and its ancillary components. Goal is to red
 * Type B -> *Flinging*: self powered ranged weapons 
 * Type C -> *Shooting*: powered ranged weapons 
 * Type D -> *Sotto*: Semi auto *Shooting* 2 attacks per unit
-* Type E -> *Sotto*: Semi auto *Shooting* 2 attacks per unit
+* Type E -> *Sotto*: Semi auto *Shooting* 3 attacks per unit
 * Type F -> *Flotto*: Full auto *Shooting* 5 attacks per unit
 * Type AOE -> *Grenade*: *Flinging* at target hex no damage bonus
 
 .*Proposed Changes to Combat Table*
 * Combat Table -> *Attack Table*
-* BP (Bonus Proficient) -> *Profish*
+* BP (Bonus Proficient) -> *Skilled*
 * BNP (Bonus Non Proficient) -> *Raw*
 * MR (Maximum Roll) -> *Max*
 * DB (Damage Bonus) -> *Force*
@@ -42,7 +42,7 @@ Proposed rework of the Combat Table and its ancillary components. Goal is to red
 
 s|Attack Type
 s|Raw
-s|Profish
+s|Skilled
 s|Max
 s|Force
 
@@ -78,7 +78,7 @@ s|Raw
 4+|Player adds this number to attack rolls for unfamiliar weapons.
 
 
-s|Profish
+s|Skilled
 4+|Player adds this number to attack rolls for proficient weapons.
 
 s|Max
@@ -98,7 +98,7 @@ s|Striking
 |Raw
 4+|Player adds 50 to her attack roll when using an unfamiliar bat.
 
-|Profish
+|Skilled
 4+|Player adds 100 to her attack roll when using her familiar sword.
 
 |Max
@@ -118,7 +118,7 @@ s|Flinging
 |Raw
 4+|Player adds 65 to her attack roll when using an unfamiliar throwing spear.
 
-|Profish
+|Skilled
 4+|Player adds 125 to her attack roll when using her favourite bow.
 
 |Max
@@ -139,7 +139,7 @@ s|Shooting
 |Raw
 4+|Player adds 75 to her attack roll when using an unfamiliar rifle.
 
-|Profish
+|Skilled
 4+|Player adds 150 to her attack roll when using her service revolver.
 
 
@@ -431,7 +431,7 @@ A TTRPG or RPG 2.0 is a table top RPG designed for computer support from the gro
 ** scenarios
 * GPT5 maybe? ;)
 
-== Pithy Aphorisms 
+== Code Snippets (VS Code) 
 
 
 [source]
