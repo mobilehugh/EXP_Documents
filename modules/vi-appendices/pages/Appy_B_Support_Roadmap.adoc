@@ -14,6 +14,44 @@ The roadmap is a collection of stuff to do, both short term and long term.
 This is closer to a collection of aspirations than a roadmap.
 Perspiration has transformed some of these aspirations into rules.
 
+== PROPOSAL: A d20 Task Roll 
+Some find the Task Rolls in the Roll Playing system too much effort. 
+It really does require maths and may slow down game play. 
+The d20 Task Roll would align better with Saves and Competitions which are already d20 based.
+
+.*Steps for d20 Task Roll*
+. <<_determine_difficulty,Determine Difficulty>>
+. <<_determine_the_task_roll,Determine the Task Roll>>
+
+=== Determine Difficulty
+Knowing the difficulty of a task is only described generally. 
+The persona would not know the actual number.
+
+.*d20 Difficulty List*
+* Facile - 2
+* Trivial - 4
+* Easy - 8
+* Usual - 16
+* Unusual - 24
+* Hard - 32
+* Really Hard - 38
+* Tough - 64
+* Impossible - 128
+* Plot - 666 
+
+=== Determine the Task Roll
+The player rolls a d20 plus whatever bonuses apply.
+
+.*Roll 1d20 plus...*
+* Appropriate attribute
+* Interests
+* Skills
+* Level
+* Mutations?
+* Fun description (1d4)
+
+Players add all their rolls as part of a research team. 
+
 == PROPOSAL: Attribute Nomenclature Update
 The attributes Mental Strength (MSTR) and Physical Strength (PSTR) are vestiges of Metamorphosis Alpha.
 The terms have avoided updating as they were considered an homage to the OG. 
@@ -31,7 +69,7 @@ ____
 
 .*Proposed Changes to Attributes*
 * Physical Strength (PSTR)-> Strength (STR)
-* Mental Strength (MSTR) -> 
+* Mental Strength (MSTR) -> Mind (MND)
 
 .MSTR Options
 * Acuity
@@ -62,6 +100,10 @@ ____
 Proposed rework of the Combat Table and its ancillary components. 
 Goal is to reduce complexity and improve understanding. 
 Underlying variable names will be unchanged in the tools application. 
+
+These changes are being play tested. 
+So far so good. 
+Some abbreviations have changed on the persona record.
 
 .*Proposed Changes to Weapon Types*
 * Type A -> *Striking*: self powered melee weapons
