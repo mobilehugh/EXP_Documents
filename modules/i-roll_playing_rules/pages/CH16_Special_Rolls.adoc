@@ -34,8 +34,8 @@ include::ROOT:partial$articulate.adoc[]
 * <<_target_rolls,Target Rolls>> (Fixed target)
 * <<_challenge_rolls,Challenge Rolls>> (Dynamic target)
 * <<_generative_rolls,Generative Rolls>> (No target)
-* <<_critical_checks,Critical Checks>> (Look for certain numbers)
-* <<_jelly_rolls,Jelly Rolls>> (Tasty Treats)
+* <<_checks,Checks>> (Look for certain numbers)
+* <<_yummy_rolls,Yummy Rolls>> (Tasty Treats)
 
 == Target Rolls
 Target rolls require the player to make a dice roll higher than a specific number.
@@ -45,10 +45,8 @@ For example, for a player to win an attack roll, she needs to roll higher than t
 
 .*List of Target Rolls
 * <<_attack_rolls,Attack Rolls>>
-* xref:i-roll_playing_rules:CH14_Performance_Tables.adoc[Task Rolls,window=_blank]
-* xref:i-roll_playing_rules:CH17_Driving.adoc[Driving Rolls,window=_blank]
-* xref:i-roll_playing_rules:CH04_Anthros_HPS.adoc#_damage_system_shock[Damage System Shock Roll,window=_blank]
-* xref:i-roll_playing_rules:CH04_Anthros_HPS.adoc#_recovery_roll[Recovery Roll,window=_blank]
+* <<_task_rolls>,Task Rolls>>
+* <<_attribute_rolls>,Attribute Rolls>>
 
 === Attack Rolls
 Attack rolls are made by the player when her persona is attempting to harm another persona.
@@ -57,20 +55,78 @@ The player needs to roll higher than, or equal to, the target's armour rating to
 If she wins the roll, she moves on to damaging the target.
 The tactical combat system is devoted to calculating all aspects of the attack roll.
 
+Attack rolls have a check, previously called a critical check. 
+If the player rolls a __natural__ 990 or higher the attack roll is an automatic hit, and inflicts 1d4 times the damage dice roll.
+If the player rolls a __natural__ 42 the referee can have the weapon malfunction.
+All critical checks are detailed in the section xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+NOTE: *A check is also called a Critical Roll or Critical Check.*
+
 NOTE: *Previous versions of EXP called the Attack Roll a To Hit Roll.*
 
 === Task Rolls
-Task Rolls are made by the player when her persona is attempting to perform a maneuver.
-These maneuvers are vocation-related skills, abilities, tricks or gifts. 
+Task Rolls are made by the player when her persona is attempting to perform a task.
+
+.*Doing Tasks*
+* xref:i-roll_playing_rules:CH14_Performance_Tables.adoc[Task Rolls,window=_blank]
+* xref:i-roll_playing_rules:CH17_Driving.adoc[Driving Rolls,window=_blank]
+
+Task rolls have a check value. 
+Previously called a critical check or critical roll.
+If the player rolls a __natural__ 20 she rolls another 1d20 and adds it to the task roll.
+All critical checks are detailed in the section xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+==== Doing Things
+These tasks are vocation-related skills, abilities, tricks or gifts. 
 The player needs to roll higher than, or equal to, the target roll to win her task roll.
 The target roll gets higher the more complex the maneuver.
 
-=== Driving Rolls
-Driving rolls are made by the player when her persona is attempting to perform a driving maneuver.
+==== Driving Things
+Driving rolls are made by the player when her persona is attempting to perform a driving task.
 A driving roll is a task roll dedicated to driving tasks.
 For fun, these are often called maneuvering maneuvers 
 The target roll gets higher the more complex the maneuver.
- 
+
+=== Attribute Rolls
+Attribute rolls are used when a player's persona is being challenged in a particular way.
+Attribute rolls function the same as task rolls, but there are *NO* bonuses added for abilities or skills.
+The only time an attribute roll is modified is when a specific mutation or ability states that it modifies an attribute roll.
+
+.*Attribute Rolls*
+* xref:i-roll_playing_rules:CH16_Special_Rolls_Saves.adoc[Saving Rolls,window=_blank]
+* xref:i-roll_playing_rules:CH04_Anthros_HPS.adoc#_damage_system_shock[Damage System Shock Roll,window=_blank]
+* xref:i-roll_playing_rules:CH04_Anthros_HPS.adoc#_recovery_roll[Recovery Roll,window=_blank]
+* xref:i-roll_playing_rules:CH05_Robots_Z_CF.adoc[Control Factor Rolls,window=_blank]
+
+Attribute rolls have a check value. 
+Previously called a critical check or critical roll.
+If the player rolls a __natural__ 20 she rolls another 1d20 and adds it to her attribute roll.
+All critical checks are detailed in the section xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+=== Attribute Test
+For example, a persona is trying to lift a heavy weight. 
+The referee may call for a PSTR attribute roll. 
+The weight is fixed and it is a pure test of strength.
+Unlike an arm wrestle which would be a <<_challenge_rolls,Challenge Roll>>
+
+=== Saving Rolls
+A saving roll involves the player trying to roll higher than a floating target to protect her persona from harm.
+Saving rolls pit a specific attribute against an environmental or psionic nastiness.
+The player makes saving rolls against attacks like poison, radiation, and mental attacks.
+The persona's most appropriate attribute modifies the player's diced roll. 
+For example, the persona's constitution fights against poison and radiation attacks, while mental strength fights against psionic attacks. 
+
+The saving roll tries to beat the intensity of the attack. 
+The referee generates the intensity randomly, and that is what makes saving rolls challenge rolls. 
+
+NOTE: *Previous versions of EXP called the Saving Roll a Saving Throw.*
+
+=== Control Factor Roll
+The control factor roll is a challenge roll specific to the family of robots.
+The player makes a control factor roll for her robot persona to keep her from falling back into her baked-in programming.
+The challenge is between the robot's intelligence and the depth of the violation of programming.
+The player needs to roll high to stay in control of her robot persona.
+
 === Damage System Shock Rolls
 A damage system shock roll (DSS) is an anthro-specific target roll.
 The player rolls dice to keep her persona conscious after a severe bolus of damage.
@@ -86,33 +142,22 @@ The player must roll higher than another player rolling dice at the same time.
 Most often, the other player is the referee.
 The winner of the challenge roll is the player that rolls higher. 
 
+There are no checks for challenge rolls. 
+However, it is easy enough to include them if they make things more fun.
+
 .*List of Challenge Rolls*
 * xref:i-roll_playing_rules:CH16_Special_Rolls_Attributes.adoc[Attribute Rolls,window=_blank]
-* xref:i-roll_playing_rules:CH16_Special_Rolls_Saves.adoc[Saving Rolls,window=_blank]
 * xref:i-roll_playing_rules:CH33_Initiative.adoc[Initiative Rolls,window=_blank]
 * xref:i-roll_playing_rules:CH34_Ambush.adoc[Ambush Rolls,window=_blank]
 * xref:i-roll_playing_rules:CH16_Special_Rolls_Asshole.adoc[Sphincter Rolls,window=_blank]
-* xref:i-roll_playing_rules:CH05_Robots_Z_CF.adoc[Control Factor Rolls,window=_blank]
 
-=== Attribute Rolls
+=== Attribute Challenge
 An attribute roll involves the player using a specific attribute in a challenge.
 Two personas arm wrestling would simultaneously roll dice to see who wins.
 The persona's physical strength scores modify the dice rolls.
 Two personas trying to out charm each other would simultaneously roll dice to see who wins.
 The persona's charisma scores modify the dice rolls.
 Hence the title attribute rolls or attribute challenge.
-
-=== Saving Rolls
-A saving roll involves the player trying to roll higher than a floating target to protect her persona from harm.
-Saving rolls pit a specific attribute against an environmental or psionic nastiness.
-The player makes saving rolls against attacks like poison, radiation, and mental attacks.
-The persona's most appropriate attribute modifies the player's diced roll. 
-For example, the persona's constitution fights against poison and radiation attacks, while mental strength fights against psionic attacks. 
-
-The saving roll tries to beat the intensity of the attack. 
-The referee generates the intensity randomly, and that is what makes saving rolls challenge rolls. 
-
-NOTE: *Previous versions of EXP called the Saving Roll a Saving Throw.*
 
 === Initiative Rolls
 Initiative Rolls are specialized dexterity challenges used to determine action order in tactical combat.
@@ -134,12 +179,6 @@ NOTE: *A Sphincter Roll was previously Sphincter Dice which was previously A$$ho
 
 The nomenclature here comes from tortuous conversations that arise from a group of youngish Y chromosomes being positional. 
 A more appropriate term, Drama Roll, is on the horizon for future versions.
-
-=== Control Factor Roll
-The control factor roll is a challenge roll specific to the family of robots.
-The player makes a control factor roll for her robot persona to keep her from falling back into her baked-in programming.
-The challenge is between the robot's intelligence and the depth of the violation of programming.
-The player needs to roll high to stay in control of her robot persona.
 
 == Generative Rolls
 Generative rolls have no target and no competitive aspect to them.
@@ -181,7 +220,7 @@ These chance tables change in future versions of EXP to embrace the high roll.
 === Damage Rolls
 Damage rolls are generative rolls that indirectly benefit the persona when the player rolls high.
 
-== Critical Checks
+== Checks
 Critical checks are not dice rolls at all.
 A Critical check indicates an event that occurs within another roll.
 For example, an attack roll can generate a critical success with a specific number.
@@ -191,7 +230,7 @@ All critical checks are detailed in the section xref:i-roll_playing_rules:CH16_S
 
 NOTE: *Critical checks are also called Extreme Rolls and Critical Rolls or Critical Hits.*
 
-== Jelly Rolls
-Jelly rolls are yummy. 
+== Yummy Rolls
+Jelly, sushi and bread rolls are yummy. 
 EXP does not recommend jelly rolls when playing with hex mats and minis. 
 For more information about these tasty treats jump to https://en.wikipedia.org/wiki/Swiss_roll[Jelly Rolls,window=_blank].
