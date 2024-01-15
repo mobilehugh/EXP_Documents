@@ -7,12 +7,12 @@ While a hit point in damage is still a hit point in damage, its effect on the ro
 The main difference between robotic and organic (anthros and aliens) is that robots do not 'die' at zero hit points.
 A robot at zero hit points (0 HPS) indicates a broken part rather than a dead robot.
 A robot dies when any of its attribute scores falls to zero.
-Zero hit points does not destroy a robot, but a zero constitution does.
+Zero hit points does not destroy a robot, but a zero Constitution does.
 
 == Calculating Robotic Hit Points
 Each robot type has hit points listed on its fabrication info sheet. 
 The player calculates her robot persona's hit points max when the robot type is determined. 
-The player multiplies the robot's constitution score by the hit points listed on the fabrication info sheet.
+The player multiplies the robot's Constitution score by the hit points listed on the fabrication info sheet.
 An explorations robot (E) with a 20 CON could have between 220 and 320 hit points max.
 A datalyzer (D) with a 4 CON could have between 4 and 12 hit points max.
 The robot world is entirely unfair.
@@ -102,12 +102,12 @@ The player rolls to determine the system damaged and rolls to determine its seve
 include::ROOT:partial$CH05_Table_Robotic_System_Malfunction.adoc[]
 
 Damaging the locomotion system does not slow down the robot.
-Damaging the locomotion system does decrease the robot's dexterity and Strength. 
+Damaging the locomotion system does decrease the robot's Dexterity and Strength. 
 The attributes affected by locomotion may slow the robot down, but more importantly, the reduced attributes bring the robot closer to death.
 
 == Attribute Damage
 Every attribute listed under the robot system malfunction gets an individual roll on the malfunction severity table.
-Damaging the robot's articulations indicates two rolls on the severity table, once for awareness and dexterity.
+Damaging the robot's articulations indicates two rolls on the severity table, once for Awareness and Dexterity.
 In the case of control unit damage, every attribute is at risk.
 
 include::ROOT:partial$CH05_Table_Robotic_Malfunction_Severity.adoc[]
@@ -124,21 +124,21 @@ There is a chance to get lucky and suffer no attribute decrease.
 
 If any attribute drops to zero, the robot is dead. 
 
-A critical malfunction to the robot brain would reduce the robot's intelligence score by 2 points.
+A critical malfunction to the robot brain would reduce the robot's Intelligence score by 2 points.
 So a robot with an 11 INT now has a 9 INT.
-The referee and players may choose to recalculate abilities, range effects, etc., due to the lower intelligence score.
+The referee and players may choose to recalculate abilities, range effects, etc., due to the lower Intelligence score.
 It is equally acceptable to ignore doing such arithmetic.
 There is enough arithmetic in robot damage already.
 
 === Attribute Primes
 Attribute damage does not affect the robot's attribute primes.
 The prime attribute scores are between 1 and 4 and help determine the robot type and other calculations.
-A robot with an intelligence prime of 4 will always have an intelligence prime of 4.
+A robot with an Intelligence prime of 4 will always have an Intelligence prime of 4.
 
 === Level Bonus
 If the referee and players deem it appropriate, a robot persona can earn an experience level for critically damaging an attribute.
 This critical damage leading to robotic insight can only happen once per round of robot decay.
-So a robot that critically damages her awareness and intelligence can only earn 1 EXPS level. 
+So a robot that critically damages her Awareness and Intelligence can only earn 1 EXPS level. 
 
 == Robot Demolition Tables
 Robot demolition tables are essential for referee personas. 
