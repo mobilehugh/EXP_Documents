@@ -144,14 +144,14 @@ include::ROOT:partial$CH06_Table_Alien_Size.adoc[]
 Any Tiny alien has a 1 in 6 chance to be *Minute* instead.
 Minute aliens have a WATE of  0 to 999 grams (1d1000-1).
 A Minute alien will never have a WATE greater than a kilogram.
-Being Minute decreases the alien's PSTR and HPS but does not affect other attributes. 
+Being Minute decreases the alien's STR and HPS but does not affect other attributes. 
 
-==== Minute Alien HPS and PSTR adjustment
+==== Minute Alien HPS and STR adjustment
 .HPS = (rolled HPS) * (wate/1000)
-.PSTR = (rolled PSTR) * (wate/1000)
+.STR = (rolled STR) * (wate/1000)
 ****
-An alien with 50 HPS, 12 PSTR, and 500 gm Wate would have 25 HPS and 6 PSTR. +
-The minimum PSTR and HPS of a Minute alien are 1.
+An alien with 50 HPS, 12 STR, and 500 gm Wate would have 25 HPS and 6 STR. +
+The minimum STR and HPS of a Minute alien are 1.
 ****
 
 === Extremely Gigantic
@@ -175,7 +175,7 @@ include::ROOT:partial$CH06_Table_Number_of_Alien_Attacks.adoc[]
 
 == Alien RP Damage per Attack
 Bigger aliens tend to inflict more damage than smaller aliens.
-Minute aliens must apply their PSTR modification before determining their damage per attack.
+Minute aliens must apply their STR modification before determining their damage per attack.
 The damage per attack is only for the alien's naturally evolved attacks and does not apply to equipment weapons.
 
 include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
@@ -449,7 +449,7 @@ The referee must generate an anthro-based vocation combat table for tool users.
 For the vocation based combat table, jump to xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro combat table,window=_blank].
 
 === Alien Combat Table Example
-A second-level gigantic alien has a 22 PSTR, 15 DEX, and a 3 INT.
+A second-level gigantic alien has a 22 STR, 15 DEX, and a 3 INT.
 Her attack is spitting sharp blobs of resin which is Attack Type B.
 
 include::ROOT:partial$CH06_Table_Alien_CT_Xample.adoc[]

@@ -49,10 +49,10 @@ A persona can excel at more than one attribute.
 There is no score assigned to an attribute. 
 The persona either excels at an attribute or not.
 The attributes help the personas when they undertake maneuvers.
-For example, a persona with PSTR would be better at lifting than a persona with INT.
+For example, a persona with STR would be better at lifting than a persona with INT.
 When two personas have the same attribute, then no advantage is given.
-If two personas grappling both had physical strength, then neither gains an advantage.
-However, if a persona with PSTR and DEX is grappling with a persona with just PSTR, they get a DEX advantage.
+If two personas grappling both had Strength, then neither gains an advantage.
+However, if a persona with STR and DEX is grappling with a persona with just STR, they get a DEX advantage.
 
 These advantages are called shifts and increase the chance of success with the 4D2 Mechanism.
 
@@ -108,12 +108,12 @@ Players acquire MND through a story set out by the referee.
 The players will decide if the persona has earned the MND attribute.
 The abbreviation for Mind is MND.
 
-Physical Strength::
-Physical Strength represents force the persona can generate to get work done. 
-PSTR is a combination of leverage, power and physique. 
-Physical Strength determines how much the persona can lift or damage by brute force. 
-PSTR helps kicking open doors, breaking bonds, or crushing beer bottles.
-The abbreviation for physical strength is PSTR.
+Strength::
+Strength represents force the persona can generate to get work done. 
+STR is a combination of leverage, power and physique. 
+Strength determines how much the persona can lift or damage by brute force. 
+STR helps kicking open doors, breaking bonds, or crushing beer bottles.
+The abbreviation for Strength is STR.
 
 Hit Points::
 There are no hit points in the Role Playing System.
@@ -165,7 +165,7 @@ Typically it would require a vet or mechanic to determine their nature.
 Androids are very independent robots and have a high degree of autonomy.
 Androids appear as their fabricator type.
 * Size: Medium
-* Attributes: Add CHA, DEX, INT, CON and PSTR. Choose from CHA, DEX, INT, CON or PSTR
+* Attributes: Add CHA, DEX, INT, CON and STR. Choose from CHA, DEX, INT, CON or STR
 * Vocations: Any. No knite.
 * Peripherals: None.
 * Defensive: None.
@@ -237,7 +237,7 @@ The heavy offensive combot is physically heavy and armed heavy.
 Small arms tend to be higher powered.
 The heavy combot will sport some heavy weapons like a bomb, artillery or missile.
 * Size: Gigantic
-* Attributes: CON, CON, DEX, PSTR. Choose from two from CON, DEX, INT, PSTR
+* Attributes: CON, CON, DEX, STR. Choose from two from CON, DEX, INT, STR
 * Vocations: None.
 * Peripherals: None.
 * Defensive: Two.
@@ -305,7 +305,7 @@ Design usually requires input from a mechanic.
 Once programmed, the builder robot gets right to it. 
 The builder will source supplies and create widgets until out of supplies. In austere environments, it can take a long time to acquire construction materials
 * Size: Medium
-* Attributes: PSTR. Choose from DEX or INT.
+* Attributes: STR. Choose from DEX or INT.
 * Vocations: Nothing only.
 * Peripherals: Two plus Mechano-linguistics (understand mechanics).
 * Defensive: None.
@@ -315,7 +315,7 @@ The builder will source supplies and create widgets until out of supplies. In au
 === Industrial Lifting
 * Lifting robots are wandering cargo hoists from warehouses or department stores.
 * Size: Large
-* Attributes: PSTR. Choose from DEX or PSTR.
+* Attributes: STR. Choose from DEX or STR.
 * Vocations: Nothing only.
 * Peripherals: One plus two lifting articulations.
 * Defensive: None.
@@ -327,7 +327,7 @@ The builder will source supplies and create widgets until out of supplies. In au
 This robot can read maps and understand even the worst directions. 
 An industrial mover robot can always find its 'way' between waypoints (on the same planet).
 * Size: Gigantic
-* Attributes: PSTR twice. Choose from DEX, INT or PSTR.
+* Attributes: STR twice. Choose from DEX, INT or STR.
 * Vocations: Nomad or Nothing.
 * Peripherals: None. Self-loading and navigation
 * Defensive: None.
@@ -389,7 +389,7 @@ They often turn up at labour disputes, surprise sales, food line-ups, rock conce
 Their goal is to contain and restrain unruly hordes of anthros. 
 They are essentially a police van with added crowd suppression.
 * Size: Gigantic
-* Attributes: CON and PSTR.
+* Attributes: CON and STR.
 * Vocations: None.
 * Peripherals: One. Choose from Tear Gas, Grav Disruptor, Weapon Malfunction, or Battery Drain
 * Defensive: One. Choose from Stun Ray, Sleep Beam, Force Beam, or Water Cannon
@@ -416,7 +416,7 @@ Toxic environments include fire, chemicals, radiation, bacteriologic, nanologic,
 They contain and remove toxic or inconvenient elements.
 The referee and players determine what an appropriate toxic danger is. 
 * Size: Gigantic.
-* Attributes: CON. Choose from CON or PSTR
+* Attributes: CON. Choose from CON or STR
 * Vocations: None.
 * Peripherals: One. Exatmo Hardened. Choose from Detect Toxins, Cordoning, Flame Suppression, Toxin Envelopment, or Toxin Storage.
 * Defensive: Two.
@@ -430,7 +430,7 @@ The dangerous situations do not include combat.
 The dangerous enviros are fires, landslides, radioactive areas, outer space, etc. 
 They are capable of performing their duties underwater, in zero-gravity or a vacuum.
 * Size: Large
-* Attributes: CON. Choose from CON, DEX or PSTR.
+* Attributes: CON. Choose from CON, DEX or STR.
 * Vocations: None.
 * Peripherals: One. Exatmo Hardened. Choose from Alerting and Cordoning, Extrication, or Stasis Chambers
 * Defensive: Two.
@@ -622,8 +622,8 @@ include::ROOT:partial$CH26_Table_Role_Vocations.adoc[]
 === Vocation Attributes
 Each vocation is associated with an attribute.
 If the player generates her vocation randomly, her persona gets the designated attribute.
-If the player randomly rolls a mercenary, her persona gets the vocation attribute PSTR added to her attribute list. 
-If the player chooses a mercenary, her persona does not get the vocation attribute PSTR added to her attribute list. 
+If the player randomly rolls a mercenary, her persona gets the vocation attribute STR added to her attribute list. 
+If the player chooses a mercenary, her persona does not get the vocation attribute STR added to her attribute list. 
 
 === Vocation Abilities
 Many vocations are associated with baked-in abilities.
@@ -658,7 +658,7 @@ Mercenary::
 The mercenary works hard to promoting order, or change, via violence.
 Mercenaries are not psychotic, violent or cruel.
 They are skilled in the art of war and weapons.
-The player can add PSTR to her persona's attributes if she randomly chose this vocation. 
+The player can add STR to her persona's attributes if she randomly chose this vocation. 
 The player can add a xref:i-roll_playing_rules:CH08_Vocations_Mercenary.adoc#_mercenary_abilities[mercenary ability,window=_blank] if she randomly chose this vocation. 
 Every mercenary gets two xref:i-roll_playing_rules:CH08_Vocations_Mercenary.adoc#_mercenary_skills[mercenary skills,window=_blank].
 

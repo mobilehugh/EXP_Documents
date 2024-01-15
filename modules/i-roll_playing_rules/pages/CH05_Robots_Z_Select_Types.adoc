@@ -38,7 +38,7 @@ For example, if the total number of *H*s exceeded all other robot type IDs, the 
 include::ROOT:partial$CH05_Table_Robot_Type_Determination.adoc[]
 
 == Example
-A robot persona has the following prime attribute scores: CON 2, DEX 2, INT 3 and PSTR 4.
+A robot persona has the following prime attribute scores: CON 2, DEX 2, INT 3 and STR 4.
 
 include::ROOT:partial$CH05_Table_Robot_Type_Example.adoc[]
 
@@ -46,7 +46,7 @@ include::ROOT:partial$CH05_Table_Robot_Type_Example.adoc[]
 * CON 2 (C, D, I, M, S, V)
 * DEX  2 (D, E, I, J, M, R, S)  
 * INT 3 (C, H, M, P, R, S, V)
-* PSTR 4 (A, C, I)
+* STR 4 (A, C, I)
 
 The player adds up the robot IDs creating a list looking like this: A=1, C=3, D=2, E=1, H=1, I=3, J=1, M=3, P=1, R=2, S=3, and V=2.
 There is a tie between four robot types. 
@@ -72,7 +72,7 @@ We will use the Datalyzer Fabrication Info as an example.
 2+<|*Attributes*
 
 |Required Primes
-|CON 1 or 2; DEX 1 or 2; INT 4; PSTR 1 or 2
+|CON 1 or 2; DEX 1 or 2; INT 4; STR 1 or 2
 
 |Minimum Regular
 |Nil
@@ -114,8 +114,8 @@ All information about the robot's attributes is listed here.
 These are the attribute primes that are required by the robot type.
 They are *NOT* minimums. 
 They are exact numbers. 
-A datalyzer must have a  PSTR Prime of 1 or 2.
-A datalyzer *CANNOT* have a PSTR Prime of 3 or 4.
+A datalyzer must have a  STR Prime of 1 or 2.
+A datalyzer *CANNOT* have a STR Prime of 3 or 4.
 
 === Minimums
 These are the attribute minimums that are required by the robot subtypes.
@@ -124,7 +124,7 @@ Other robot subtypes require specific regular attribute minimums.
 
 Combot has several subtypes.
 The persona's regular attributes determine the subtype of combot.
-For example, a heavy offensive combot needs a PSTR of 27 and a  PSTR prime of 4.
+For example, a heavy offensive combot needs a STR of 27 and a  STR prime of 4.
 
 === Hit Points
 The range of hit points the robot type has is listed here.

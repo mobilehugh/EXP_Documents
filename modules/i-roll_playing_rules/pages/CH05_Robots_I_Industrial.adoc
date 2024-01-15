@@ -17,15 +17,15 @@ s|Attributes
 
 |Builder
 |INT > DEX + 
-INT > PSTR
+INT > STR
 
 |Lifter
-|PSTR > DEX  + 
-PSTR > INT
+|STR > DEX  + 
+STR > INT
 
 |Mover
 |DEX > INT + 
-DEX > PSTR
+DEX > STR
 
 s|Industrial Type
 s|Attributes
@@ -52,10 +52,10 @@ include::ROOT:partial$articulate.adoc[]
 2+<|*Attributes*
 
 |Primes
-|CON any; DEX 2 or 3; INT 1 or 2; PSTR 4
+|CON any; DEX 2 or 3; INT 1 or 2; STR 4
 
 |Minimums
-|INT > DEX and INT > PSTR
+|INT > DEX and INT > STR
 
 |Hit Points
 |9-12 (8+1d4) per point of CON
@@ -115,10 +115,10 @@ include::ROOT:partial$articulate.adoc[]
 2+<|*Attributes*
 
 |Primes
-|CON any; DEX 2 or 3; INT 1 or 2; PSTR 4
+|CON any; DEX 2 or 3; INT 1 or 2; STR 4
 
 |Minimums
-|PSTR > DEX and PSTR > INT
+|STR > DEX and STR > INT
 
 |Hit Points
 |9-12 (8+1d4) per point of CON
@@ -174,10 +174,10 @@ For more info about sudden stops jump to xref:i-roll_playing_rules:CH19_Terrain.
 2+<|*Attributes*
 
 |Primes
-|CON any; DEX 2 or 3; INT 1 or 2; PSTR 4
+|CON any; DEX 2 or 3; INT 1 or 2; STR 4
 
 |Minimums
-|DEX > INT and DEX > PSTR
+|DEX > INT and DEX > STR
 
 |Hit Points
 |9-12 (8+1d4) per point of CON

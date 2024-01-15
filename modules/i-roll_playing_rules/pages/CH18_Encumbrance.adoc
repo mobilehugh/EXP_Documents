@@ -37,8 +37,8 @@ Or how much loot can be carried out before the demolition clock runs down?
 include::ROOT:partial$articulate.adoc[]
 
 == Determining Wate Allowance
-The persona's Physical Strength (PSTR) is what determines how much a persona can carry.
-Each PSTR has its own assigned Wate Allowance. 
+The persona's Strength (STR) is what determines how much a persona can carry.
+Each STR has its own assigned Wate Allowance. 
 Each persona gets assigned a Wate Allowance when being created. 
 The stronger the persona, the more they can carry and lift.
 Did you forget to generate Wate Allowance for your persona?
@@ -59,7 +59,7 @@ Wate Allowance is a solitary number.
 For many groups, the single kilogram value of wate allowance works well enough.
 If the players prefer something more granular, EXP has a complicated and byzantine encumbrance system.
 The Roll Playing System divides the WA into qualitative descriptors that affect performance.
-The persona's Physical Strength (PSTR) is what determines how much a persona can carry.
+The persona's Strength (STR) is what determines how much a persona can carry.
 Encumbrance levels show the impact of carrying too much stuff.
 
 .*Encumbrance Levels*
@@ -80,7 +80,7 @@ Flora and fauna are always free of encumbrance.
 This persona is carrying very little equipment.
 Wate Allowance determines how much equipment the persona can carry with impairing their function.
 A persona is un-encumbered if she is carrying less than 1/4 her wate allowance (WA).
-A persona with an 11 PSTR has a WA of 16 kgs.
+A persona with an 11 STR has a WA of 16 kgs.
 She could carry up to 4 kgs and still be un-encumbered.
 
 === Calculate Un-Encumbered Level
@@ -108,7 +108,7 @@ This persona is carrying too much stuff.
 They are starting to feel the impact of the wate on their ability to function.
 Wate Allowance determines how much equipment the persona can carry with impairing their function.
 An over-encumbered persona is carrying between 1 and 1/2 to 2 and 1/2 times her WA.
-The persona with the 11 PSTR would be over-encumbered when carrying between 24 and 40 kgs of equipment.
+The persona with the 11 STR would be over-encumbered when carrying between 24 and 40 kgs of equipment.
 
 === Calculate Over-encumbered Level
 .wate < Wate Allowance * 2.5
@@ -124,7 +124,7 @@ The wate could be a single object or a rucksack full of random junque.
 Nothing but lifting is going on here.
 
 The persona can only lift any load greater than 2 and 1/2 times the persona's wate allowance.
-To successfully lift this amount requires a successful attribute roll using PSTR.
+To successfully lift this amount requires a successful attribute roll using STR.
 The more the wate exceeds the persona's Lift Only encumbrance level, the more difficult the Attribute Roll.
 
 === No Wait Wate Allowance Table
@@ -173,6 +173,6 @@ Driving rolls will be impaired the same as task rolls by encumbrance levels.
 Some attribute rolls are affected by encumbrance levels.
 The higher the encumbrance level, the more difficult the attribute roll. 
 Encumbrance impacts actions like getting up, balancing, jumping, and climbing.
-Attribute rolls for DEX, PSTR can occasionally be affected by encumbrance levels.
+Attribute rolls for DEX, STR can occasionally be affected by encumbrance levels.
 Actions like doing math, smiling, psionic attacks are less impacted by encumbrance.
 Attribute rolls for  AWE, CHA, INT and MND are less affected by encumbrance levels.

@@ -40,7 +40,7 @@ s|Attributes
 2+<|*Attributes*
 
 |Primes
-|CON 3; DEX 4; INT 3; PSTR 3
+|CON 3; DEX 4; INT 3; STR 3
 
 |Minimums
 |Nil.
@@ -96,7 +96,7 @@ A civil robot can disarm a target with a successful attack roll.
 When it is time to 'collar' a suspect or subdue a target, the civil policing robot can grapple.
 An attack roll win will completely immobilize an organic target.
 A civil robot is completely invested during a grapple and cannot do anything else.
-To break from this grapple requires a successful bizarre PSTR roll.
+To break from this grapple requires a successful bizarre STR roll.
 Civil robots will unglamorously drag their grappled collars back to the nearest brig.
 
 == Riobot Policing Robot
@@ -120,7 +120,7 @@ include::ROOT:partial$articulate.adoc[]
 2+<|*Attributes*
 
 |Primes
-|CON 3; DEX 4; INT 3; PSTR 3
+|CON 3; DEX 4; INT 3; STR 3
 
 |Minimums
 |CON 15
@@ -164,13 +164,13 @@ Detained protestors are subject to any area of effect weapons that the riobot de
 
 The riobot can grapple one rioter per unit. 
 The riobot can carry out all other operations while grappling a rioter. 
-A riobot can detain one target per point of PSTR.
-So a Riobot with a 20 PSTR can detain 20 targets.
+A riobot can detain one target per point of STR.
+So a Riobot with a 20 STR can detain 20 targets.
 
 .*Grapple Detain Checklist*
 . Grapple target: the player must win an attack roll.
-. Break grapple: the target must win a PSTR challenge
-. Break detention: the target must win a bizarre PSTR challenge
+. Break grapple: the target must win a STR challenge
+. Break detention: the target must win a bizarre STR challenge
 
 === Crowd Control Peripherals
 These peripherals are attachments designed for crowd control.
@@ -188,7 +188,7 @@ include::ROOT:partial$CH05_Table_Riot_Policing_Robot_Peripherals.adoc[]
 
 Water Cannon::
 A powerful jet of water shoots at a target, and an attack roll win knocks the target down. 
-The water cannon's range is one hex per point of physical strength.
+The water cannon's range is one hex per point of Strength.
 
 Tear Gas::
 A noxious gas causes severe tearing of organic eyeballs.
@@ -234,7 +234,7 @@ Someone must intentionally wake the sleeping target—otherwise, Ms. Sleepy-pant
 2+<|*Attributes*
 
 |Primes
-|CON 3; DEX 4; INT 3; PSTR 3
+|CON 3; DEX 4; INT 3; STR 3
 
 |Minimums
 |INT 15

@@ -1,5 +1,5 @@
-A 3rd level robot has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 PSTR.
-Her robotic primes are DEX of 2, INT of 2, and PSTR of 3
+A 3rd level robot has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 STR.
+Her robotic primes are DEX of 2, INT of 2, and STR of 3
 
 
 // CH09 table attribute bonuses new for 6.0
@@ -8,23 +8,23 @@ Her robotic primes are DEX of 2, INT of 2, and PSTR of 3
 4+<s|Bonus Proficient (BP)
 
 |Attack Type A
-3+<|5 * DEX + 5 * INT + Prime * PSTR + Level * Bonus
+3+<|5 * DEX + 5 * INT + Prime * STR + Level * Bonus
 
 |Attribute Bonus
 3+<|5 * 12 + 5 * 10 = 110
 
 |Prime Bonus
-3+<|(Prime * PSTR) = 3 * 16 = 48
+3+<|(Prime * STR) = 3 * 16 = 48
 
 |Level Bonus
-3+<|(PSTR * Lvl) = 22 * 3 = 66
+3+<|(STR * Lvl) = 22 * 3 = 66
 
 s|BP for Type A
 2+|110 + 48 + 66
 >s|224
 
 |Attack Type B
-3+<|5 * AWE + 5 * PSTR + Prime * DEX + Level * Bonus
+3+<|5 * AWE + 5 * STR + Prime * DEX + Level * Bonus
 
 |Attribute Bonus
 3+<|5 * 12 + 5 * 16 = 140
@@ -118,7 +118,7 @@ s|MR for Type B
 4+<s|Damage Adjuster (DA)
 
 |Attack Type A
-3+<|PSTR
+3+<|STR
 
 s|DA for Type A
 2+<|
@@ -126,14 +126,14 @@ s|DA for Type A
 
 
 |Attack Type B
-3+<|PSTR * 1/2
+3+<|STR * 1/2
 
 s|DA for Type B
 2+<|16 * .5
 >s|8
 
 |Attack Type C
-3+<|PSTR * 0
+3+<|STR * 0
 
 s|DA for Type C
 2+<|16 * 0

@@ -4,7 +4,7 @@
 4+<s|Bonus Proficient (BP)
 
 |Attack Type A
-3+<|1.5 * AWE + 2 * DEX + 1.5 * INT + 5 * PSTR + Level * Bonus
+3+<|1.5 * AWE + 2 * DEX + 1.5 * INT + 5 * STR + Level * Bonus
 
 |Attribute Bonus
 3+<|1.5 * 12 + 2 * 10 + 1.5 * 12 + 5 * 16 = 136
@@ -17,7 +17,7 @@ s|BP for Type A
 >s|196
 
 |Attack Type B
-3+<|1 * AWE + 4 * DEX + 1 * INT + 2 * PSTR + Level * Bonus
+3+<|1 * AWE + 4 * DEX + 1 * INT + 2 * STR + Level * Bonus
 
 |Attribute Bonus
 3+<|1 * 12 + 4 * 10 + 1 * 12 + 2 * 16 = 96
@@ -30,7 +30,7 @@ s|BP for Type B
 >s|156
 
 |Attack Type C
-3+<|1 * AWE + 9 * DEX + 1 * INT + 1 * PSTR + Level * Bonus
+3+<|1 * AWE + 9 * DEX + 1 * INT + 1 * STR + Level * Bonus
 
 |Attribute Bonus
 3+<| 1 * 12 + 9 * 10 + 1 * 12 + 1 * 16 = 130
@@ -105,7 +105,7 @@ s|MR for Type B
 4+<s|Damage Adjuster (DA)
 
 |Attack Type A
-3+<|PSTR * 1/2
+3+<|STR * 1/2
 
 s|DA for Type A
 2+<|16 * .5
@@ -113,14 +113,14 @@ s|DA for Type A
 
 
 |Attack Type B
-3+<|PSTR * 1/4
+3+<|STR * 1/4
 
 s|DA for Type B
 2+<|16 * .25
 >s|4
 
 |Attack Type C
-3+<|PSTR * 0
+3+<|STR * 0
 
 s|DA for Type C
 2+<|16 * 0
