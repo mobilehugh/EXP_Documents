@@ -1,7 +1,7 @@
 // CH09 table attribute bonuses new for 6.0
 [width="75%",cols="4*<",frame="all", stripes="even"]
 |===
-4+<s|Bonus Proficient (BP)
+4+<s|Skilled Bonus (Skilled)
 
 |Attack Type A
 3+<|10 * STR + Level * Bonus
@@ -12,7 +12,7 @@
 |Level Bonus
 3+<|(STR * Lvl) = 22 * 3 = 66
 
-s|BP for Type A
+s|Skilled for Type A
 2+|(No Type A attack - demo only)
 >s|286
 
@@ -25,7 +25,7 @@ s|BP for Type A
 |Level Bonus
 3+<|(DEX * Lvl) = 15 * 3 = 45
 
-s|BP for Type B
+s|Skilled for Type B
 2+|
 >s|195
 
@@ -38,7 +38,7 @@ s|BP for Type B
 |Level Bonus
 3+<|(INT * Lvl) = 3 * 3 = 9
 
-s|BP for Type C
+s|Skilled for Type C
 2+|(No Type C attack - demo only)
 >s|39
 |===
@@ -46,27 +46,27 @@ s|BP for Type C
 [width="65%",cols="4*<",frame="all", stripes="even"]
 |===
 
-4+<s|Bonus Non Proficient (BNP)
+4+<s|Raw Bonus (Raw)
 
 |Attack Type A
-3+<|Type A BNP = Type A BP
+3+<|Type A Raw = Type A Skilled
 
-s|BNP for Type A
+s|Raw for Type A
 2+<|(No Type A attack - demo only)
 >s|286 
 
 
 |Attack Type B
-3+<|Type B BNP = Type B BP
+3+<|Type B Raw = Type B Skilled
 
-s|BNP for Type B
+s|Raw for Type B
 2+|
 >s|195
 
 |Attack Type C
-3+<|Type C BNP = Type C BP
+3+<|Type C Raw = Type C Skilled
 
-s|BNP for Type C
+s|Raw for Type C
 2+|(No Type C attack - demo only)
 >s|39
 |===
@@ -74,27 +74,27 @@ s|BNP for Type C
 [width="65%",cols="4*<",frame="all", stripes="even"]
 |===
 
-4+<s|Maximum Roll (MR)
+4+<s|Maximum Roll (Max)
 
 |Attack Type A
-3+<|Type A BP + 700
+3+<|Type A Skilled + 700
 
-s|MR for Type A
+s|Max for Type A
 2+<|286 + 700 (example only)
 >s|986 
 
 
 |Attack Type B
-3+<|Type B BP + 750
+3+<|Type B Skilled + 750
 
-s|MR for Type B
+s|Max for Type B
 2+<|195 + 750
 >s|945
 
 |Attack Type C
-3+<|Type C BP + 800
+3+<|Type C Skilled + 800
 
-|MR for Type C
+|Max for Type C
 2+<|39 + 800 (example only)
 >s|839 
 |===
@@ -102,7 +102,7 @@ s|MR for Type B
 
 [width="65%",cols="<,^,^",frame="all", stripes="even"]
 |===
-3+<s|Damage per Attack replaces DA
+3+<s|Damage per Attack replaces Force
 
 s|Alien Size
 s|STR
@@ -120,10 +120,10 @@ s|Damage per Attack
 5+<|Alien attack table for spitting sharp resin chunks.
 
 s|Type
-s|BP
-s|BNP
-s|MR
-s|DA
+s|Skilled
+s|Raw
+s|Max
+s|Force
 
 
 s|A

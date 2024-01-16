@@ -152,18 +152,18 @@ For a detailed explanation of combat tables jump to xref:i-roll_playing_rules:CH
 
 The combat table is a scary-looking matrix of numbers.
 The matrix is a cross of attack types (A, B, C) and attack roll parameters.
-The attack roll parameters are Bonus Proficient (BP), Bonus Non-Proficient (BNP), Maximum Roll (MR) and Damage Adjuster (DA).
+The attack roll parameters are Skilled Bonus (Skilled), Raw Bonus (Raw), Maximum Roll (Max) and Damage Adjuster (Force).
 
 TIP: If the concept of a combat table seems onerous, EXP recommends the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank].
 
 include::ROOT:partial$CH09_Table_Tiny_CT.adoc[]
 
-=== Bonus Proficient (BP)
-The player adds the bonus proficient to her attack roll for weapons in which her persona is skilled.
+=== Skilled Bonus (Skilled)
+The player adds the Skilled Bonus to her attack roll for weapons in which her persona is skilled.
 
 A persona can use any weapon at any time.
 Proficiency means skilled in the context of weapons. 
-If a persona does not have weapon proficiency, the player cannot add her bonus proficient.
+If a persona does not have weapon proficiency, the player cannot add her Skilled Bonus.
 Each persona starts with a few proficiencies and may add more with time.
 Weapon proficiencies vary between persona family and vocation type.
 Aliens are automatically proficient with their natural attacks. 
@@ -184,19 +184,19 @@ The player rolls an attack using a kilodie.
 The player refers to the nameless nomad's combat table.
 The harpoon is a Type B attack (self-powered projectile weapon). 
 The nameless nomad is proficient with the harpoon.
-The player will add the type B Bonus Proficient (BP) to her attack roll.
+The player will add the type B Skilled Bonus (Skilled) to her attack roll.
 The player's attack roll is 600 on the kilodie.
-The Type B bonus proficient is +175, and her final attack roll is 775.
+The Type B Skilled Bonus is +175, and her final attack roll is 775.
 If 775 is higher than the target's armour rating (AR), the player will get to roll damage.
  
-=== Bonus Non-Proficient (BNP)
-The player adds the bonus non-proficient to her attack roll for weapons in which her persona is not skilled.
+=== Raw Bonus (Raw)
+The player adds the Raw Bonus to her attack roll for weapons in which her persona is not skilled.
 
 A persona can use any weapon at any time.
 Proficiency means skilled in the context of weapons. 
-If a persona does not have weapon proficiency, the player cannot add her bonus proficient.
-The player adds the bonus non-proficient to her attack roll instead.
-The BNP can be much lower than the persona's BP.
+If a persona does not have weapon proficiency, the player cannot add her Skilled Bonus.
+The player adds the Raw Bonus to her attack roll instead.
+The Raw can be much lower than the persona's Skilled.
 
 .Combat table narrative
 ====
@@ -212,16 +212,16 @@ The player rolls an attack using a kilodie.
 The player refers to the nameless nomad's combat table.
 The ice pick can only be used in close quarters and is a Type A attack. 
 The nameless nomad is not proficient with the ice pick.
-The player can only add the persona's bonus non-proficient (BNP) to her attack roll.
+The player can only add the persona's Raw Bonus (Raw) to her attack roll.
 The player's attack roll is  500 on the kilodie.
-The Type A attack bonus non-proficient (BNP) is +35, and her final attack roll is 535.
+The Type A attack Raw Bonus (Raw) is +35, and her final attack roll is 535.
 If 535 is higher than the target's armour rating (AR), the player will get to roll damage.
 
-=== Maximum Roll (MR)
-The Maximum Roll (MR) is the highest attack roll the player for her persona.
-The player's attack roll cannot be greater than the maximum roll for the attack type.
-The maximum roll (MR) increases with experience level and differentiates between experienced and neophyte personas.
-If an MR is lower than the target's armour rating, only a critical roll can damage the target.
+=== Maximum Roll (Max)
+The Maximum Roll (Max) is the highest attack roll the player for her persona.
+The player's attack roll cannot be greater than the Maximum Roll for the attack type.
+The Maximum Roll (Max) increases with experience level and differentiates between experienced and neophyte personas.
+If anMax is lower than the target's armour rating, only a critical roll can damage the target.
 For more information about lucky shots jump to xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
 
 .Combat table narrative
@@ -237,22 +237,22 @@ The player rolls an attack using a kilodie.
 The player refers to the combat table.
 The laser pistol is a Type C attack. 
 The nomad has proficiency with a laser pistol.
-The player can add the Type C attack bonus proficient (BP) to her attack roll.
+The player can add the Type C attack Skilled Bonus (Skilled) to her attack roll.
 The player's attack roll is 800 on the kilodie.
-The Type C bonus proficient is +230, and her final attack roll is 1030.
+The Type C Skilled Bonus is +230, and her final attack roll is 1030.
 
 1030 is a very high attack roll. 
-The persona's maximum roll limits the player's attack roll.
-In this case, the persona's maximum roll (MR) kicks in, limiting her attack roll to 905. 
+The persona's Maximum Roll limits the player's attack roll.
+In this case, the persona's Maximum Roll (Max) kicks in, limiting her attack roll to 905. 
 
-=== Damage Adjustment (DA)
-The player adds the persona's damage adjustment when she makes a damage roll.
+=== Force Bonus (Force)
+The player adds the persona's Force Bonus when she makes a damage roll.
 When the player wins an attack roll in combat, she makes a damage roll that decreases the target's hit points.
 Decreasing the opponent's hit points is the goal of combat. 
 
-The persona's Strength determines the damage adjustment.
-Type A attacks require Strength to inflict damage and therefore have the highest damage adjustment.
-Type C attacks are self-powered and have no damage adjustment at all.
+The persona's Strength determines the Force Bonus.
+Type A attacks require Strength to inflict damage and therefore have the highest Force Bonus.
+Type C attacks are self-powered and have no Force Bonus at all.
 
 When the player wins an attack roll with a Type A weapon (icepick), she adds six hit points to the damage score.
 When the player wins an attack roll with a Type B weapon (harpoon), she adds three hit points to the damage score.

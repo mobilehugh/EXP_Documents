@@ -19,7 +19,7 @@ Cannon fodder have the least detailed combat tables.
 include::ROOT:partial$CH09_Table_Tiny_CT.adoc[]
 
 The tactical combat system is not simple, and the combat table requires an understanding of many acronyms.
-You need to read this section if the following acronyms do not make sense: BP, BNP, MR, DA, AR, Type A, Type B, Type C etc.
+You need to read this section if the following acronyms do not make sense: Skilled, Raw, Max, Force, AR, Type A, Type B, Type C etc.
 If you know what you are looking for, jump to the combat table you need.
 Below is a list is of player persona combat tables. 
 Referee persona combat tables are detailed in their referee persona sections
@@ -39,16 +39,16 @@ include::ROOT:partial$CH09_Table_Description_of_a_Combat_Table.adoc[]
 // attack types tag
 include::CH27_Tactical_Combat.adoc[tag=Attack_Types]
 
-== Bonus Proficient
+== Skilled Bonus
 This number is added to the attack rolls when the persona is using familiar weapons.
 Being familiar and skilled with a weapon indicates that the persona is proficient with that weapon.
 Using a proficient weapon allows the persona to bring all her aptitude and skills to bear.
-The higher the bonus proficient (BP), the more likely the player will win her attack roll and damage the target. 
-When the player throws her kilodie attack roll, she adds the BP to the die roll. 
+The higher the Skilled Bonus (Skilled), the more likely the player will win her attack roll and damage the target. 
+When the player throws her kilodie attack roll, she adds the Skilled to the die roll. 
 
-If the persona is using an unfamiliar weapon, she uses her Bonus Non Proficient (BNP).
+If the persona is using an unfamiliar weapon, she uses her Raw Bonus (Raw).
 
-The bonus proficient has two main components: attribute bonuses and level bonuses.
+The Skilled Bonus has two main components: attribute bonuses and level bonuses.
 
 === Attribute Component
 Most of the calculations done on the combat table involve the persona's attributes.
@@ -56,7 +56,7 @@ Each attack type has its own attribute calculation.
 Strong personas have better attack bonuses with thrusting and striking attacks.
 Dextrous personas excel with powered missile attacks.
 
-:art: combat_feline_STR_win.png
+:art: combat_feline_pstr_win.png
 :width: 250px
 :snark: STR helps Type A attacks.
 :artist: Pat Redding
@@ -73,18 +73,18 @@ In general, the persona with the higher level will be better in combat.
 Sometimes exceptional attributes can overshadow experience levels.
 However, if two personas have the same attributes more experienced persona will have an advantage.
 
-== Bonus Non Proficient
-The bonus non proficient is added to an attack roll when the persona is using unfamiliar weapons.
-The bonus non proficient (BNP) is a fraction of the persona's BP. 
-The BNP still benefits the player's attack roll but less so than her BP.
+== Raw Bonus
+The Raw Bonus is added to an attack roll when the persona is using unfamiliar weapons.
+The Raw Bonus (Raw) is a fraction of the persona's Skilled. 
+The Raw still benefits the player's attack roll but less so than her Skilled.
 Personas will prefer to use familiar weapons in which they are proficient.
 
-The persona's vocation determines the persona's  BNP. 
-All anthros have vocations and therefore use the Vocation BNP Table to determine their BNP.
-The more combat-oriented the vocation is, the better their bonus non proficient.
-The less combat-oriented the vocation is, the lower their BNP is relative to their BP.
-A nothing only can use 10% of her bonus proficient with type C attacks.
-A mercenary can use 100% of her BP for all attacks. 
+The persona's vocation determines the persona's  Raw. 
+All anthros have vocations and therefore use the Vocation Raw Table to determine their Raw.
+The more combat-oriented the vocation is, the better their Raw Bonus.
+The less combat-oriented the vocation is, the lower their Raw is relative to their Skilled.
+A nothing only can use 10% of her Skilled Bonus with type C attacks.
+A mercenary can use 100% of her Skilled for all attacks. 
 
 :art: critical_fail_equine_grenade.png
 :width: 250px
@@ -97,16 +97,16 @@ A mercenary can use 100% of her BP for all attacks.
 include::ROOT:partial$articulate.adoc[]
 
 == Maximum Roll
-The maximum roll is the best attack roll that the player can make for her persona.
-If a player's total attack roll is 1042 and her maximum roll (MR) is 884, her attack roll becomes 884.
-As the persona increases in experience levels, her maximum roll increases as well.
-Combat vocations increase their BP and MR faster than non-combat vocations.
-Without the MR, low-level personas are as dangerous as high-level personas.
+The Maximum Roll is the best attack roll that the player can make for her persona.
+If a player's total attack roll is 1042 and her Maximum Roll (Max) is 884, her attack roll becomes 884.
+As the persona increases in experience levels, her Maximum Roll increases as well.
+Combat vocations increase their Skilled andMax faster than non-combat vocations.
+Without the Max, low-level personas are as dangerous as high-level personas.
 
 NOTE: *Critical Checks allow any persona to damage any other persona with pure chance.*
 
 Occasionally a player will be unable to win an attack roll on a target with a high armour rating.
-This limitation of the maximum roll will leave some players feeling helpless and frustrated.
+This limitation of the Maximum Roll will leave some players feeling helpless and frustrated.
 These emotions indicate that it's a good time for their persona to run away.
 
 :art: maximum_roll.png
@@ -119,19 +119,19 @@ These emotions indicate that it's a good time for their persona to run away.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Damage Adjustment
-The player adds the damage adjustment when she wins an attack roll.
-The damage adjustment (DA) represents the impact of Strength on persona-powered attacks.
+== Force Bonus
+The player adds the Force Bonus when she wins an attack roll.
+The Force Bonus (Force) represents the impact of Strength on persona-powered attacks.
 Strength increases the amount of damage that the persona delivers with a striking weapon.
-Powered attacks (type C) do not have a damage adjustment.
+Powered attacks (type C) do not have a Force Bonus.
 
-NOTE: *Damage Adjustment is a legacy term from the last millennium. Damage Bonus seems more appropriate.*
+NOTE: *Force Bonus is a legacy term from the last millennium. Damage Bonus seems more appropriate.*
 
 == Proficiencies
 Proficient indicates that the persona is familiar with the attack type.
-If the persona is familiar with the attack type, the player uses the bonus proficient when attacking.
-If the persona is not proficient with the attack type, she uses her BNP when attacking.
-In all cases, excepting the vocation mercenary, a persona's BNP is much lower than her BP.
+If the persona is familiar with the attack type, the player uses the Skilled Bonus when attacking.
+If the persona is not proficient with the attack type, she uses her Raw when attacking.
+In all cases, excepting the vocation mercenary, a persona's Raw is much lower than her Skilled.
 
 In most cases, proficiency is referring to artifact weapon skill and familiarity.
 An anthro, or a tool-using alien, can be proficient in a technological weapon.
@@ -153,13 +153,13 @@ include::ROOT:partial$CH09_Table_Attack_Proficiencies.adoc[]
 Aliens::
 Aliens are automatically proficient with their natural attacks.
 Aliens that are not tool users can only use their natural attack types in combat.
-So aliens do not have BNPs for their natural attacks. 
-Tool using aliens following vocations use the Vocation BNP Table to determine their BNP.
+So aliens do not have Raws for their natural attacks. 
+Tool using aliens following vocations use the Vocation Raw Table to determine their Raw.
 
 Robots::
 A robot is only proficient with attacks baked-in during fabrication.
-Robots use their BNP for attacks that are malfunctioning peripherals. 
-Robotic BNP is zero.
+Robots use their Raw for attacks that are malfunctioning peripherals. 
+Robotic Raw is zero.
 
 Knites:: 
 Knites are always proficient with their energy sword.

@@ -12,21 +12,21 @@ For more info jump to xref:i-roll_playing_rules:CH09_Combat_Tables.adoc[Combat T
 include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
 
 .*Combat Table Checklist*
-. <<_bonus_proficient,Bonus Proficient>>
+. <<_bonus_proficient,Skilled Bonus>>
 .. <<_attribute_bonus,Attribute Bonus>>
 .. <<_level_bonus,Level Bonus>>
-. <<_bonus_non_proficient,Bonus Non Proficient>>
+. <<_bonus_non_proficient,Raw Bonus>>
 . <<_maximum_roll,Maximum Roll>>
-. <<_damage_adjustment,Damage Adjustment>>
+. <<_damage_adjustment,Force Bonus>>
 
-== Bonus Proficient
-The bonus proficient (BP) is for weapons in which the persona is skilled.
-The player adds the BP to her attack roll when her persona uses a weapon in which she is proficient.
-The BP has two main components: Attributes Bonus and Level bonus.
-The persona's BP increases as the persona gains EXPS levels. 
+== Skilled Bonus
+The Skilled Bonus (Skilled) is for weapons in which the persona is skilled.
+The player adds the Skilled to her attack roll when her persona uses a weapon in which she is proficient.
+The Skilled has two main components: Attributes Bonus and Level bonus.
+The persona's Skilled increases as the persona gains EXPS levels. 
 
 === Attribute Bonus
-The persona's attributes determine the majority of the persona's bonus proficient.
+The persona's attributes determine the majority of the persona's Skilled Bonus.
 Strong personas wield crushing weapons well.
 Dextrous personas wield projectile weapons well.
 If a persona's attributes increase or decrease, the player should recalculate her combat table.
@@ -37,28 +37,28 @@ include::ROOT:partial$CH04_Table_Anthro_CT_BP_Attr.adoc[]
 The persona's vocation determines her level bonus.
 Each vocation has its level bonus.
 The player adds the level bonus for each EXPS level of her persona, including her first level.
-Initially, the level bonus plays a small role in the BP but eventually becomes the most significant contributor to the combat vocations.
+Initially, the level bonus plays a small role in the Skilled but eventually becomes the most significant contributor to the combat vocations.
 
 include::ROOT:partial$CH04_Table_Anthro_CT_BP_Lvl.adoc[]
 
-== Bonus Non Proficient
+== Raw Bonus
 A persona is not effective using unfamiliar weapons.
-When the persona uses unfamiliar weapons, the player can only add a portion of the BP to her attack roll.
-This reduction of her BP depends on her vocation and weapon type.
-The Bonus Non Proficient Table numbers are percentages that the player multiplies the BP by.
-A nomad with a 100 BP would have a 25 BNP for her unskilled weapons.
+When the persona uses unfamiliar weapons, the player can only add a portion of the Skilled to her attack roll.
+This reduction of her Skilled depends on her vocation and weapon type.
+The Raw Bonus Table numbers are percentages that the player multiplies the Skilled by.
+A nomad with a 100 Skilled would have a 25 Raw for her unskilled weapons.
 
 include::ROOT:partial$CH09_Table_Anthro_CT_BNP.adoc[]
 
 == Maximum Roll
-The maximum roll is the highest roll that a player can make on the kilo-die attack roll.
+The Maximum Roll is the highest roll that a player can make on the kilo-die attack roll.
 There is always a chance to damage an attacker using xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
 
 include::ROOT:partial$CH04_Table_Anthro_CT_MR.adoc[]
 
-== Damage Adjustment
-When the player has won an attack roll, she can add her damage adjustment to her damage roll.
-Powered weapons like guns and rifles have no damage adjustment.
+== Force Bonus
+When the player has won an attack roll, she can add her Force Bonus to her damage roll.
+Powered weapons like guns and rifles have no Force Bonus.
 
 include::ROOT:partial$CH04_Table_Anthro_CT_DA.adoc[]
 

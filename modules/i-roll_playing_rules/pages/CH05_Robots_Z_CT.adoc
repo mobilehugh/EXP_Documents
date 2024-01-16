@@ -26,12 +26,12 @@ include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
 
 .*Combat Table Checklist*
 . <<_attack_types,Attack Types>>
-. <<_bonus_proficient,Bonus Proficient>>
+. <<_bonus_proficient,Skilled Bonus>>
 .. <<_attribute_bonus,Attribute Bonus>>
 .. <<_level_bonus,Level Bonus>>
-. <<_bonus_non_proficient,Bonus Non Proficient>>
+. <<_bonus_non_proficient,Raw Bonus>>
 . <<_maximum_roll,Maximum Roll>>
-. <<_damage_adjustment,Damage Adjustment>>
+. <<_damage_adjustment,Force Bonus>>
 
 
 //baked-in versus random peripheral
@@ -54,15 +54,15 @@ Energy-powered projectile weapons for robots include their baked-in attacks like
 A type C attack for a robot usually has a bespoke power source generating the damage instead of her hydraulics or servos.
 Most Type C attacks come from the robot's offensive systems section.
 
-== Bonus Proficient
-The bonus proficient (BP) is for the robot's attacks baked-in during fabrication.
-The bonus proficient does not apply to misused peripherals or malfunctioning devices that attack like weapons.
-If the attack is appropriate, the player adds the BP to her attack roll.
-The BP has two main components: Attributes Bonus and Level bonus.
-The persona's BP increases as the persona gains EXPS levels. 
+== Skilled Bonus
+The Skilled Bonus (Skilled) is for the robot's attacks baked-in during fabrication.
+The Skilled Bonus does not apply to misused peripherals or malfunctioning devices that attack like weapons.
+If the attack is appropriate, the player adds the Skilled to her attack roll.
+The Skilled has two main components: Attributes Bonus and Level bonus.
+The persona's Skilled increases as the persona gains EXPS levels. 
 
 === Attribute Bonus
-The persona's attributes determine the majority of the robot's bonus proficient.
+The persona's attributes determine the majority of the robot's Skilled Bonus.
 Strong robots are good at ramming.
 Dextrous robots are good at firing arrows.
 If a persona's attributes increase or decrease, the player should recalculate her combat table.
@@ -77,24 +77,24 @@ The prime bonus is equal to the robotic prime times its attribute.
 === Level Bonus
 The attack type determines the robot's level bonus.
 The player adds the level bonus for each EXPS level of her alien, including her first level.
-Initially, the level bonus plays a small role in the BP, but the contribution grows with EXPS.
+Initially, the level bonus plays a small role in the Skilled, but the contribution grows with EXPS.
 
 include::ROOT:partial$CH05_Table_Robotic_CT_Lvl.adoc[]
 
-== Bonus Non Proficient
-Robots do not have a bonus non proficient. 
-A robot's programming does not allow for unskilled attacks, and the robot's BNP is zero.
-Robot BNP is the easiest of all the combat table elements to calculate.
+== Raw Bonus
+Robots do not have a Raw Bonus. 
+A robot's programming does not allow for unskilled attacks, and the robot's Raw is zero.
+Robot Raw is the easiest of all the combat table elements to calculate.
 
 == Maximum Roll
-Robots do not have a maximum roll.
+Robots do not have a Maximum Roll.
 There is no upper limit to what the player can generate for her attack roll.
 This techno-malarky is supposed to reflect the robot's lack of nervousness or insecurity.
 
-== Damage Adjustment
-When the player has won an attack roll, she can add her damage adjustment to the damage roll.
+== Force Bonus
+When the player has won an attack roll, she can add her Force Bonus to the damage roll.
 Robots are allowed to contribute a more significant portion of their Strength to persona-powered attacks.
-Type C attacks do not depend on the robot's Strength and have no damage adjustment.
+Type C attacks do not depend on the robot's Strength and have no Force Bonus.
 
 include::ROOT:partial$CH05_Table_Robotic_CT_DA.adoc[]
 
@@ -102,9 +102,9 @@ include::ROOT:partial$CH05_Table_Robotic_CT_DA.adoc[]
 A 3rd level robot has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 STR.
 Her robotic primes are DEX of 2, INT of 2, and STR of 3
 
-Her ramming skill would use her BP for type A attacks.
-Her baked-in pistol would use her BP for type C attacks.
-Acid squirted from a misused cleaner would use her BNP.
+Her ramming skill would use her Skilled for type A attacks.
+Her baked-in pistol would use her Skilled for type C attacks.
+Acid squirted from a misused cleaner would use her Raw.
 
 include::ROOT:partial$CH05_Table_Robotic_CT_Xample.adoc[]
 

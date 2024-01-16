@@ -30,12 +30,12 @@ include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
 
 .*Combat Table Checklist*
 . <<_attack_types,Attack Types>>
-. <<_bonus_proficient,Bonus Proficient>>
+. <<_bonus_proficient,Skilled Bonus>>
 .. <<_attribute_bonus,Attribute Bonus>>
 .. <<_level_bonus,Level Bonus>>
-. <<_bonus_non_proficient,Bonus Non Proficient>>
+. <<_bonus_non_proficient,Raw Bonus>>
 . <<_maximum_roll,Maximum Roll>>
-. <<_damage_adjustment,Damage Adjustment>>
+. <<_damage_adjustment,Force Bonus>>
 
 
 == Attack Types
@@ -55,14 +55,14 @@ This attack type is for those creatures with naturally powered attacks (lasers, 
 Aliens with natural powered attacks are very rare and extremely dangerous.
 They have specially evolved organs that attack like a powered weapon, such as a gun.
 
-== Bonus Proficient
-The bonus proficient (BP) is for the alien's natural attacks.
-The player adds the BP to her attack roll when her persona is attacking.
-The BP has two main components: Attributes Bonus and Level bonus.
-The persona's BP increases as the persona gains EXPS levels. 
+== Skilled Bonus
+The Skilled Bonus (Skilled) is for the alien's natural attacks.
+The player adds the Skilled to her attack roll when her persona is attacking.
+The Skilled has two main components: Attributes Bonus and Level bonus.
+The persona's Skilled increases as the persona gains EXPS levels. 
 
 === Attribute Bonus
-The persona's attributes determine the majority of the alien's bonus proficient.
+The persona's attributes determine the majority of the alien's Skilled Bonus.
 Strong aliens are good at biting and smashing.
 Dextrous aliens are good at shooting spines.
 If a persona's attributes increase or decrease, the player should recalculate her combat table.
@@ -72,24 +72,24 @@ include::ROOT:partial$CH06_Table_Alien_CT_BP_Attr.adoc[]
 === Level Bonus
 The alien's attack type determines her level bonus.
 The player adds the level bonus for each EXPS level of her alien, including her first level.
-Initially, the level bonus plays a small role in the BP, but the contribution grows with EXPS.
+Initially, the level bonus plays a small role in the Skilled, but the contribution grows with EXPS.
 
 include::ROOT:partial$CH06_Table_Alien_CT_BP_Lvl.adoc[]
 
-== Bonus Non Proficient
+== Raw Bonus
 An alien cannot be unskilled with her natural attack.
-Alien's bonus non proficient equals her bonus proficient.
-If the alien is a tool user wielding weapons, the player must generate an additional attack table that includes a BNP.
+Alien's Raw Bonus equals her Skilled Bonus.
+If the alien is a tool user wielding weapons, the player must generate an additional attack table that includes a Raw.
 
 == Maximum Roll
-The maximum roll is the highest roll that a player can make on the kilo-die attack roll.
+The Maximum Roll is the highest roll that a player can make on the kilo-die attack roll.
 There is always a chance to damage an attacker using xref:i-roll_playing_rules:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
 
 include::ROOT:partial$CH06_Table_Alien_CT_MR.adoc[]
 
-== Damage Adjustment
+== Force Bonus
 Alien damage already includes both the alien's size and Strength.
-There is no damage adjustment for alien attack roll wins.
+There is no Force Bonus for alien attack roll wins.
 
 include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
 

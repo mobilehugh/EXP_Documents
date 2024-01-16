@@ -10,10 +10,10 @@ s|ROW
 
 s|1
 s|Attack Type
-s|BP
-s|BNP
-s|MR
-s|DA
+s|Skilled
+s|Raw
+s|Max
+s|Force
 
 s|2
 s|A
@@ -46,17 +46,17 @@ s|C
 s|<<_attack_type,Attack Type>>
 4+|Type of attack being used. Striking vs projectile vs powered.
 
-s|BP
-4+|<<_bonus_proficient,Bonus Proficient>>. Player adds this number to attack roll for <<_proficiencies,familiar>> weapons.
+s|Skilled
+4+|<<_bonus_proficient,Skilled Bonus>>. Player adds this number to attack roll for <<_proficiencies,familiar>> weapons.
 
-s|BNP
-4+|<<_bonus_non_proficient,Bonus Non Proficient>>. Player adds this number to attack roll for unfamiliar weapons.
+s|Raw
+4+|<<_bonus_non_proficient,Raw Bonus>>. Player adds this number to attack roll for unfamiliar weapons.
 
-s|MR
+s|Max
 4+|<<_maximum_roll,Maximum Roll>>. This is the highest attack roll the player can make.
 
-s|DA
-4+|<<_damage_adjustment,Damage Adjustment>>. The player adds this number to the damage roll. 
+s|Force
+4+|<<_damage_adjustment,Force Bonus>>. The player adds this number to the damage roll. 
 |===
 
 [width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
@@ -117,5 +117,5 @@ s|<<_type_c_attack,C>>
 4+|If the player rolls higher than 825 her roll becomes 825.
 
 |0
-4+|There is no damage adjustment when using this weapon type.
+4+|There is no Force Bonus when using this weapon type.
 |===
