@@ -89,44 +89,45 @@ EXP has an enormous variety of weapons.
 A review of attack types is needed to understand combat tables and attack rolls.
 For a more detailed explanation jump to xref:i-roll_playing_rules:CH28_Weapons.adoc[Attack Types,window=_blank].
 
-=== Type A
+=== Strike
 *Non-powered thrusting and striking attack.*
-Type A attacks depend on the user's muscle power to inflict damage.
+Strike attacks depend on the user's muscle power to inflict damage.
 The personas must be in adjacent hexes to be able to damage each other.
 Examples are clubs, fists, swords, pincers, claws and axes.
 
-=== Type B
+=== Fling
 *Non-powered projectile attack.*
-Type B attacks depend on the user's muscle power to inflict damage.
+Fling attacks depend on the user's muscle power to inflict damage.
 The personas may be several hexes apart and still be able to damage each other.
 Examples are arrows, bolts, rocks, quills and spit.
 
-=== Type C
+=== Shoot
 *Powered projectile attack.*
-Type C attacks do not require the user's muscle power to inflict damage. 
+Shoot attacks do not require the user's muscle power to inflict damage. 
 The attack supplies its energy to inflict damage.
 The personas can be many hexes apart and still be able to damage each other.
-Type C attacks are limited to once per combat unit.
+Shoot attacks are limited to once per combat unit.
 Examples are bullets, laser bolts, energy beams, and crossbow bolts.
 
-=== Type D and E
-*Powered projectile attacks.*
-Type D and E attacks do not require the user's muscle power to inflict damage. 
-These attacks supply their energy to inflict damage.
+=== Sotto
+*Powered multiple projectile attacks.*
+Sotto attacks are a subset of Shoot attacks, and use the Shoot row of the Attack Table.
+Sotto attacks do not require the user's muscle power to inflict damage. 
+These attacks supply their own energy to inflict damage.
 The personas can be many hexes apart and still be able to damage each other.
-Type D and E attacks function the same as type C attacks.
-Type D weapons get two attacks per turn.
-Type E weapons get three attacks per turn.
+Sotto-2 weapons get two attacks per turn.
+Sotto-3 weapons get three attacks per turn.
 Examples are semi-automatic rifles, quill shooting aliens and hair-trigger energy weapons.
+The term arises from frequently shortening of semi-auto to sotto. 
 
-=== Type F
+=== Flotto
 *Powered full auto projectile attacks.*
 These attacks are fully automated (F stands for fully automatic).
-Type F attacks do not require the user's muscle power to inflict damage, and one action results in multiple attacks. 
+Flotto attacks do not require the user's muscle power to inflict damage, and one action results in multiple attacks. 
 The attack supplies its energy to inflict damage and make multiple attacks.
 The personas can be many hexes apart and still be able to damage each other.
-Type F weapons attack as type C weapons.
-Type F weapons spray projectiles delivering lots or no damage at all.
+Flotto weapons attack as Shoot weapons.
+Flotto weapons spray projectiles delivering lots or no damage at all.
 A typical type F weapon will disgorge 15 rounds per trigger pull. 
 Examples are machine guns, Gatling laser rifles, or a multi-mouthed alien vomit attack.
 
@@ -137,10 +138,10 @@ Area of effect attacks are unique in that they only need to land near a target t
 The AOE attack roll is against a target hex and not a target's defences.
 Examples are frag grenade, napalm aerosol, skunk spray, or a fusion grenade.
 
-Type AOE attacks as type A, B or C depending on its delivery method.
-The persona throws Type B AOE attacks at the target hex (hand grenade).
-The persona shoots Type C AOE attacks at the target hex (grenade launcher).
-Type A AOE would be a suicide vest.
+Type AOE attacks as Strike, B or C depending on its delivery method.
+The persona throws Fling AOE attacks at the target hex (hand grenade).
+The persona shoots Shoot AOE attacks at the target hex (grenade launcher).
+Strike AOE would be a suicide vest.
 
 // end::Attack_Types[]
 
@@ -182,11 +183,11 @@ One of her pursuers is within range, and she lets fly with the wickedly barbed w
 
 The player rolls an attack using a kilodie.
 The player refers to the nameless nomad's combat table.
-The harpoon is a Type B attack (self-powered projectile weapon). 
+The harpoon is a Fling attack (self-powered projectile weapon). 
 The nameless nomad is proficient with the harpoon.
-The player will add the type B Skilled Bonus (Skilled) to her attack roll.
+The player will add the Fling Skilled Bonus (Skilled) to her attack roll.
 The player's attack roll is 600 on the kilodie.
-The Type B Skilled Bonus is +175, and her final attack roll is 775.
+The Fling Skilled Bonus is +175, and her final attack roll is 775.
 If 775 is higher than the target's armour rating (AR), the player will get to roll damage.
  
 === Raw Bonus (Raw)
@@ -210,11 +211,11 @@ She only uses the ice pick to break up ice, and ice pick fights are strange.
 
 The player rolls an attack using a kilodie.
 The player refers to the nameless nomad's combat table.
-The ice pick can only be used in close quarters and is a Type A attack. 
+The ice pick can only be used in close quarters and is a Strike attack. 
 The nameless nomad is not proficient with the ice pick.
 The player can only add the persona's Raw Bonus (Raw) to her attack roll.
 The player's attack roll is  500 on the kilodie.
-The Type A attack Raw Bonus (Raw) is +35, and her final attack roll is 535.
+The Strike attack Raw Bonus (Raw) is +35, and her final attack roll is 535.
 If 535 is higher than the target's armour rating (AR), the player will get to roll damage.
 
 === Maximum Roll (Max)
@@ -235,11 +236,11 @@ She grabs the pistol and shoots at the nearest pursuer.
 
 The player rolls an attack using a kilodie.
 The player refers to the combat table.
-The laser pistol is a Type C attack. 
+The laser pistol is a Shoot attack. 
 The nomad has proficiency with a laser pistol.
-The player can add the Type C attack Skilled Bonus (Skilled) to her attack roll.
+The player can add the Shoot attack Skilled Bonus (Skilled) to her attack roll.
 The player's attack roll is 800 on the kilodie.
-The Type C Skilled Bonus is +230, and her final attack roll is 1030.
+The Shoot Skilled Bonus is +230, and her final attack roll is 1030.
 
 1030 is a very high attack roll. 
 The persona's Maximum Roll limits the player's attack roll.
@@ -251,12 +252,12 @@ When the player wins an attack roll in combat, she makes a damage roll that decr
 Decreasing the opponent's hit points is the goal of combat. 
 
 The persona's Strength determines the Force Bonus.
-Type A attacks require Strength to inflict damage and therefore have the highest Force Bonus.
-Type C attacks are self-powered and have no Force Bonus at all.
+Strike attacks require Strength to inflict damage and therefore have the highest Force Bonus.
+Shoot attacks are self-powered and have no Force Bonus at all.
 
-When the player wins an attack roll with a Type A weapon (icepick), she adds six hit points to the damage score.
-When the player wins an attack roll with a Type B weapon (harpoon), she adds three hit points to the damage score.
-When the player wins an attack roll with a Type C weapon (lazer pistol), she adds nothing to the damage score.
+When the player wins an attack roll with a Strike weapon (icepick), she adds six hit points to the damage score.
+When the player wins an attack roll with a Fling weapon (harpoon), she adds three hit points to the damage score.
+When the player wins an attack roll with a Shoot weapon (lazer pistol), she adds nothing to the damage score.
 
 == Armour Rating
 Personas wrap all their defences up into one number called Armour Rating (AR).

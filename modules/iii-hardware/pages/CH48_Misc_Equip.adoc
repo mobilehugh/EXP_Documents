@@ -464,9 +464,9 @@ This chance of failure cannot be higher than 80%
 A robot with a 97 control factor has an 80% chance of avoiding neutralization.
 
 Domesticated robots are easier to shut off with the robot neutralizer.
-Combots (type C), exatmo exploration (type E-X), policing (type P) are resistant to being neutralized.
+Combots (Shoot), exatmo exploration (type E-X), policing (type P) are resistant to being neutralized.
 These robot types earn a second chance to avoid a shutdown.
-A datalyzers (type D) and hobbots (type H) *cannot* be turned off with a robot neutralizer.
+A datalyzers (Sotto - 2) and hobbots (type H) *cannot* be turned off with a robot neutralizer.
 
 Neutralization is not permanent, and the robot will reactivate in 3-300 (3d100) units. 
 In a  non-combat neutralization, the robot will reactivate in 1-10 (1d10) minutes.
@@ -1215,7 +1215,7 @@ The wearer must have a wate between 40 and 140 kg.
 There are some limitations to jet boots.
 Jet boots do not hover.
 A persona can only use powered weapons while jet booting. 
-Type A and B weapons would unbalance the jet booter.
+Strike and B weapons would unbalance the jet booter.
 If needed, the boots have a handling class equal to half the persona's Dexterity.
 
 === Jet Backpack 
@@ -1235,7 +1235,7 @@ The user must have a wate between 40 and 200 kgs.
 
 There are some limitations with a jet backpack.
 A persona can only use powered weapons while jet backpacking. 
-Type A and B weapons would unbalance the jet backpack.
+Strike and B weapons would unbalance the jet backpack.
 If needed, the boots have a handling class equal to half the persona's Dexterity.
 
 === Joiners 
@@ -1584,18 +1584,18 @@ NOTE: *Persona robots pronounce overridden as overwritten.*
 
 Mechanics earn a bonus of +20 when making robot-related rolls using this device.
 
-==== Full Contact Override (Type A Attack)
+==== Full Contact Override (Strike Attack)
 The mechanic must get up close and personal with the robot.
 The override is the full contact type 68% of the time.
-The player must win a Type A attack with the override to inject the override coding.
+The player must win a Strike attack with the override to inject the override coding.
 Some robots are very hard to win an attack roll against, making them resistant to override.
 For docile, non-evasive, robots there is no need for the attack roll. 
 The pick does not have an 18kg wate, but the pick, cable and backpack do.
 
-==== Ranged Override (Type C Attack)
+==== Ranged Override (Shoot Attack)
 The mechanic can beam the override computations from up to 10 hexes away.
 The override is the ranged type the remaining 42% of the time.
-The player must win a Type C attack with the override to inject the override coding.
+The player must win a Shoot attack with the override to inject the override coding.
 For docile, non-evasive, robots there is no need for the attack roll.
 
 
@@ -1660,7 +1660,7 @@ Every scope has an attack roll bonus and a specialization.
 Each scope works with a specific attack type. 
 The scope is not interchangeable, and the technology only works on its designated weapon type.
 A scope designed for thrusting and striking weapons would not look like a rifle scope.
-A scope for type A weapons could be a box on the hilt or a bracelet.
+A scope for Strike weapons could be a box on the hilt or a bracelet.
 The scope would then modify the motion of the blade to improve the attack roll.
 
 include::ROOT:partial$CH48_Table_Scope_Weapon_Type.adoc[]
@@ -1743,7 +1743,7 @@ Range scopes increase the effective range of the weapon.
 The range extender scope doubles the weapon's range and halves the decay.
 The scope optimizes a projectile's decay by compensating for wind and gravity effects.
 A weapon with a range of 50 and decay of -100 improves to a range of 100 and a decay of -50.
-For Type A attacks, the range extender allows the weapon to make a Type B attack with a range of STR in hexes.
+For Strike attacks, the range extender allows the weapon to make a Fling attack with a range of STR in hexes.
 There is no increased value for a range extender scope.
 
 Smoke::

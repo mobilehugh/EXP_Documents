@@ -47,7 +47,7 @@ The player must win a control factor roll before allowing her robot persona to r
 If the control factor roll allows for a ramming attempt, the player must win an attack roll to inflict damage.
 The player determines the damage her ramming robot inflicts on the below table. 
 The robot will always ram to inflict this amount of damage. 
-Ramming is a type A attack.
+Ramming is a Strike attack.
 
 include::ROOT:partial$CH05_Table_Robotic_Ramming.adoc[]
 
@@ -69,9 +69,9 @@ Jump to xref:i-roll_playing_rules:CH05_Robots_Z_Defensive.adoc[Defensive Systems
 === Striking Peripheral
 The robot may use one of her peripherals as a dangerous striking weapon. 
 If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral. 
-The striking peripheral is a Type A attack. 
+The striking peripheral is a Strike attack. 
 A tool for delicately holding vases can smash a nearby target instead. 
-Multiple visits to striking peripheral are cumulative, and a robot can gather many simultaneous Type A attacks.
+Multiple visits to striking peripheral are cumulative, and a robot can gather many simultaneous Strike attacks.
 
 The player rolls on the Striking Peripheral Attack Table below to determine what kind of weapon the peripheral most resembles. 
 
@@ -116,7 +116,7 @@ Cumulative rolls here increase the ramming freedom attack by 2 levels.
 === Ranged Peripheral
 The robot may use one of her peripherals as a deadly ranged weapon. 
 If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral. 
-The ranged peripheral is a Type B attack. 
+The ranged peripheral is a Fling attack. 
 A tool for putting lids on cans could instead launch them like shurikens.
 Multiple visits to ranged peripheral are cumulative, and a robot can gather many simultaneous ranged attacks.
 
@@ -173,7 +173,7 @@ Each level increases the range by one hex and the intensity by 1-4 (1d4).
 
 === Powered Striking Peripheral
 The robot may use one of her peripherals as a deadly striking weapon.
-In addition to the regular Type A weapon damage, these peripherals are powered with an extra kick.
+In addition to the regular Strike weapon damage, these peripherals are powered with an extra kick.
 Each powered striking peripheral has the properties of a particular miscellaneous weapon.
 To generate these attacks is a bit of a walk, but they are powerful and worth the player's effort.
 
@@ -184,17 +184,17 @@ A tool for mixing chemicals could become a vibrating mace.
 Multiple visits to powered striking peripherals are cumulative, and a robot can gather many simultaneous powered striking attacks.
 
 Electro::
-This Type A attack is electrified.
+This Strike attack is electrified.
 The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots. 
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_electro_weapon[Electro Weapon,window=_blank].
 
 Inertia::
-This Type A attack increases its density on contact.
+This Strike attack increases its density on contact.
 The inertia weapon does triple the weapon damage plus ten hit points.
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_inertia_weapon[Inertia Weapon,window=_blank].
 
 Stun::
-This Type A attack follows up with a debilitating stun attack. 
+This Strike attack follows up with a debilitating stun attack. 
 The damage of the attack converts from hit points stun intensity.
 If the successful attack is to inflict 12 hit points of damage, it delivers a 12 intensity stun instead.
 The target must win a saving roll against her Constitution or be stunned.
@@ -202,7 +202,7 @@ Organic targets are stunned for 1-4 minutes, and inorganic targets are stunned f
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_stun_weapons[Stun Weapon,window=_blank].
 
 Vibro::
-This Type A attack vibrates at damaging harmonic frequency. 
+This Strike attack vibrates at damaging harmonic frequency. 
 The vibro weapon has a damage bonus of +20 and an attack roll bonus of +100.
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_vibro_weapon[Vibro Weapon,window=_blank].
 
@@ -244,7 +244,7 @@ Cumulative rolls here increase the paralysis attack by 2 levels.
 
 === Powered Ranged Peripherals
 The robot may use one of her peripherals as a deadly ranged weapon.
-In addition to the regular Type B weapon damage, these peripherals include an extra kick.
+In addition to the regular Fling weapon damage, these peripherals include an extra kick.
 Each powered ranged peripheral has the properties of a particular miscellaneous weapon.
 To generate these attacks is a bit of a walk, but they are powerful and worth the player's effort.
 
@@ -255,17 +255,17 @@ A tool for inserting power conducers could shoot electrified ceramic balls inste
 Multiple visits to powered ranged peripheral are cumulative, and a robot can gather many simultaneous powered ranged attacks.
 
 Electro::
-This Type B attack is electrified.
+This Fling attack is electrified.
 The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots. 
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_electro_weapon[Electro Weapon,window=_blank].
 
 Inertia::
-This Type B attack increases its density on contact.
+This Fling attack increases its density on contact.
 The inertia weapon does triple the weapon damage plus ten hit points.
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_inertia_weapon[Inertia Weapon,window=_blank].
 
 Stun::
-This Type B attack follows up with a debilitating stun attack. 
+This Fling attack follows up with a debilitating stun attack. 
 The damage of the attack converts from hit points stun intensity.
 If the successful attack is to inflict 12 hit points of damage, it delivers a 12 intensity stun instead.
 The target must win a saving roll against her Constitution or be stunned.
@@ -273,7 +273,7 @@ Organic targets are stunned for 1-4 minutes, and inorganic targets are stunned f
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_stun_weapons[Stun Weapon,window=_blank].
 
 Vibro::
-This Type B attack vibrates at damaging harmonic frequency. 
+This Fling attack vibrates at damaging harmonic frequency. 
 The vibro weapon has a damage bonus of +20 and an attack roll bonus of +100.
 For more info jump to xref:iii-hardware:CH49_Misc_Weapons.adoc#_vibro_weapon[Vibro Weapon,window=_blank].
 
@@ -283,7 +283,7 @@ The player must choose between a pyro attack or a cryo attack, which cannot chan
 Both attacks function equally and do not cause fires or freeze things shut.
 
 The attack has a range of 1 hex per point of Dexterity.
-The thermal blast is a Type B attack, and the player must win an attack roll to inflict damage.
+The thermal blast is a Fling attack, and the player must win an attack roll to inflict damage.
 A thermal blast inflicts 1-8 (1d8) hit points of damage per point of prime Strength.
 
 === Corrosive Mist
@@ -292,7 +292,7 @@ The player must choose between an acid or alkali mist attack.
 Both attacks function equally.
 
 The attack has a range of 1 hex per point of Dexterity.
-The corrosive mist is a Type B attack, and the player must win an attack roll to inflict damage.
+The corrosive mist is a Fling attack, and the player must win an attack roll to inflict damage.
 A corrosive mist inflicts 1-8 (1d8) hit points of damage per point of prime Constitution.
 
 === Gun
@@ -336,7 +336,7 @@ The referee may limit the total number of attacks to maintain game balance and s
 The lethal jet is a killing poison attack. 
 This attack is a baked-in intentional killing tool that the robot ejects from its chassis.
 The lethal jet only works on organic targets.
-The jet is a Type C attack, and the player must win an attack roll for the poison to take.
+The jet is a Shoot attack, and the player must win an attack roll for the poison to take.
 
 A robot cannot have more than one lethal jet attack. 
 A second lethal jet should be replaced by a different Attack Table Four result. 
@@ -373,7 +373,7 @@ There is a minimum lethality required for the grenade.
 No soft touch grenades are allowed. 
 The grenade must have a killing attack.
 
-The player must win a Type B attack roll to hit the target hex.
+The player must win a Fling attack roll to hit the target hex.
 Like all grenades, close does count.
 The grenade is an area of effect weapon damaging, targets and colleagues alike.
 The attack has a range of 2 hexes per point of Strength.

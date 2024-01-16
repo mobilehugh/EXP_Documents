@@ -7,7 +7,7 @@ Her robotic primes are DEX of 2, INT of 2, and STR of 3
 |===
 4+<s|Skilled Bonus (Skilled)
 
-|Attack Type A
+|Attack Strike
 3+<|5 * DEX + 5 * INT + Prime * STR + Level * Bonus
 
 |Attribute Bonus
@@ -19,11 +19,11 @@ Her robotic primes are DEX of 2, INT of 2, and STR of 3
 |Level Bonus
 3+<|(STR * Lvl) = 22 * 3 = 66
 
-s|Skilled for Type A
+s|Skilled for Strike
 2+|110 + 48 + 66
 >s|224
 
-|Attack Type B
+|Attack Fling
 3+<|5 * AWE + 5 * STR + Prime * DEX + Level * Bonus
 
 |Attribute Bonus
@@ -35,11 +35,11 @@ s|Skilled for Type A
 |Level Bonus
 3+<|(DEX * Lvl) = 12 * 3 = 36
 
-s|Skilled for Type B
+s|Skilled for Fling
 2+|140 + 24 + 36
 >s|200
 
-|Attack Type C
+|Attack Shoot
 3+<|5 * AWE + 5 * DEX + Prime * INT + Level * Bonus
 
 |Attribute Bonus
@@ -51,7 +51,7 @@ s|Skilled for Type B
 |Level Bonus
 3+<|(INT * Lvl) = 10 * 3 = 30
 
-s|Skilled for Type C
+s|Skilled for Shoot
 2+|120 + 20 + 30
 >s|170
 |===
@@ -61,25 +61,25 @@ s|Skilled for Type C
 
 4+<s|Raw Bonus (Raw)
 
-|Attack Type A
-3+<|Type A Raw = 0
+|Attack Strike
+3+<|Strike Raw = 0
 
-s|Raw for Type A
+s|Raw for Strike
 2+<|
 >s|0
 
 
-|Attack Type B
-3+<|Type B Raw = 0
+|Attack Fling
+3+<|Fling Raw = 0
 
-s|Raw for Type B
+s|Raw for Fling
 2+|
 >s|0
 
-|Attack Type C
-3+<|Type C Raw = 0
+|Attack Shoot
+3+<|Shoot Raw = 0
 
-s|Raw for Type C
+s|Raw for Shoot
 2+|
 >s|0
 |===
@@ -89,25 +89,25 @@ s|Raw for Type C
 
 4+<s|Maximum Roll (Max)
 
-|Attack Type A
+|Attack Strike
 3+<|None
 
-s|Max for Type A
+s|Max for Strike
 2+<|
 >s|None 
 
 
-|Attack Type B
+|Attack Fling
 3+<|None
 
-s|Max for Type B
+s|Max for Fling
 2+<|
 >s|None
 
-|Attack Type C
+|Attack Shoot
 3+<|None
 
-|Max for Type C
+|Max for Shoot
 2+<|
 >s|None 
 |===
@@ -117,25 +117,25 @@ s|Max for Type B
 |===
 4+<s|Damage Adjuster (Force)
 
-|Attack Type A
+|Attack Strike
 3+<|STR
 
-s|Force for Type A
+s|Force for Strike
 2+<|
 >s|16
 
 
-|Attack Type B
+|Attack Fling
 3+<|STR * 1/2
 
-s|Force for Type B
+s|Force for Fling
 2+<|16 * .5
 >s|8
 
-|Attack Type C
+|Attack Shoot
 3+<|STR * 0
 
-s|Force for Type C
+s|Force for Shoot
 2+<|16 * 0
 >s|0 
 |===

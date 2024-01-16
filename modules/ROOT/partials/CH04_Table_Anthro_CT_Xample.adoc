@@ -3,7 +3,7 @@
 |===
 4+<s|Skilled Bonus (Skilled)
 
-|Attack Type A
+|Attack Strike
 3+<|1.5 * AWE + 2 * DEX + 1.5 * INT + 5 * STR + Level * Bonus
 
 |Attribute Bonus
@@ -12,11 +12,11 @@
 |Level Bonus
 3+<|(spie * 2) = 30 * 2 = 60
 
-s|Skilled for Type A
+s|Skilled for Strike
 2+|
 >s|196
 
-|Attack Type B
+|Attack Fling
 3+<|1 * AWE + 4 * DEX + 1 * INT + 2 * STR + Level * Bonus
 
 |Attribute Bonus
@@ -25,11 +25,11 @@ s|Skilled for Type A
 |Level Bonus
 3+<|(spie * 2) = 30 * 2 = 60
 
-s|Skilled for Type B
+s|Skilled for Fling
 2+|
 >s|156
 
-|Attack Type C
+|Attack Shoot
 3+<|1 * AWE + 9 * DEX + 1 * INT + 1 * STR + Level * Bonus
 
 |Attribute Bonus
@@ -38,7 +38,7 @@ s|Skilled for Type B
 |Level Bonus
 3+<| spie = 30, level = 2, 30 * 2 = 60
 
-s|Skilled for Type C
+s|Skilled for Shoot
 2+|
 >s|190
 |===
@@ -48,25 +48,25 @@ s|Skilled for Type C
 
 4+<s|Raw Bonus (Raw)
 
-|Attack Type A
-3+<|Type A Skilled * spie percentage
+|Attack Strike
+3+<|Strike Skilled * spie percentage
 
-s|Raw for Type A
+s|Raw for Strike
 2+<|196 * 25%
 >s|49 
 
 
-|Attack Type B
-3+<|Type B Skilled * spie percentage
+|Attack Fling
+3+<|Fling Skilled * spie percentage
 
-s|Raw for Type B
+s|Raw for Fling
 2+<|156 * 25%
 >s|39 
 
-|Attack Type C
-3+<|Type C Skilled * spie percentage
+|Attack Shoot
+3+<|Shoot Skilled * spie percentage
 
-s|Raw for Type C
+s|Raw for Shoot
 2+<|190 * 25%
 >s|49 
 |===
@@ -76,25 +76,25 @@ s|Raw for Type C
 
 4+<s|Maximum Roll (Max)
 
-|Attack Type A
-3+<|Type A Skilled + 625
+|Attack Strike
+3+<|Strike Skilled + 625
 
-s|Max for Type A
+s|Max for Strike
 2+<|196 + 625
 >s|821 
 
 
-|Attack Type B
-3+<|Type B Skilled + 650
+|Attack Fling
+3+<|Fling Skilled + 650
 
-s|Max for Type B
+s|Max for Fling
 2+<|156 + 650
 >s|806
 
-|Attack Type C
-3+<|Type C Skilled + 675
+|Attack Shoot
+3+<|Shoot Skilled + 675
 
-|Max for Type C
+|Max for Shoot
 2+<|190 + 675
 >s|865 
 |===
@@ -104,25 +104,25 @@ s|Max for Type B
 |===
 4+<s|Damage Adjuster (Force)
 
-|Attack Type A
+|Attack Strike
 3+<|STR * 1/2
 
-s|Force for Type A
+s|Force for Strike
 2+<|16 * .5
 >s|8 
 
 
-|Attack Type B
+|Attack Fling
 3+<|STR * 1/4
 
-s|Force for Type B
+s|Force for Fling
 2+<|16 * .25
 >s|4
 
-|Attack Type C
+|Attack Shoot
 3+<|STR * 0
 
-s|Force for Type C
+s|Force for Shoot
 2+<|16 * 0
 >s|0 
 |===

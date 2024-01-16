@@ -46,7 +46,7 @@ include::ROOT:partial$articulate.adoc[]
 === Aerosol Pistol 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: Double (-1000)
 Accuracy:: -150
 Damage:: Special
@@ -77,7 +77,7 @@ include::ROOT:partial$articulate.adoc[]
 === Aerosol Rifle 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: Triple (-1000)
 Accuracy:: -50
 Damage:: Special
@@ -108,7 +108,7 @@ include::ROOT:partial$articulate.adoc[]
 === Antimat Pistol
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 90h (-100)
 Accuracy:: -30
 Damage:: Special
@@ -139,7 +139,7 @@ include::ROOT:partial$articulate.adoc[]
 === Antimat Rifle 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 150h (-95)
 Accuracy:: 0
 Damage:: Special
@@ -171,7 +171,7 @@ include::ROOT:partial$articulate.adoc[]
 === Beegun 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 150h (-100)
 Accuracy:: 0
 Damage:: Death
@@ -203,7 +203,7 @@ include::ROOT:partial$articulate.adoc[]
 === Bolt Action rifle
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 150 (-50)
 Accuracy:: +75
 Damage:: 4-48, 3-36, *3-30*, 3-24, 2-20
@@ -230,7 +230,7 @@ include::ROOT:partial$articulate.adoc[]
 === Cryogun 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 15h (-1000)
 Accuracy:: 0
 Damage:: 4-24 (4d6)
@@ -269,7 +269,7 @@ include::ROOT:partial$articulate.adoc[]
 
 === Death Ray Pistol
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 40 (-99)
 Accuracy:: -125
 Damage:: 2-16 (2d8)
@@ -302,7 +302,7 @@ include::ROOT:partial$articulate.adoc[]
 === Derringer 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 40h (-99)
 Accuracy:: -125
 Damage:: 2-16 (2d8)
@@ -333,7 +333,7 @@ include::ROOT:partial$articulate.adoc[]
 === Disintegration Gun 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 100h (-115)
 Accuracy:: 0
 Damage:: 8-64 (8d8); Special
@@ -399,7 +399,7 @@ include::ROOT:partial$articulate.adoc[]
 === Electron Pistol 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 100h (-60)
 Accuracy:: 0
 Damage:: 2-24, 2-20, *3-18*, 2-16, 1-15
@@ -518,7 +518,7 @@ include::ROOT:partial$articulate.adoc[]
 === Full Auto Lazer Pistol 
 
 [horizontal]
-Attack Type:: C, E, F
+Attack Type:: Shoot, Shoot-2, Shoot-3, Flotto
 Range:: 80h (-60)
 Accuracy:: +30
 Damage:: 4-40, 3-30, *2-20*, 2-16, 1-10
@@ -531,7 +531,7 @@ The full automatic lazer pistol is a hand held lazer weapon with a rapid-fire op
 The F weapon type releases 15 charges in one unit.
 When flotto is employed the player makes 5 attack rolls in one unit.
 Each successful attack roll scores 0-3 (d4-1) lazer bolts of damage.
-For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Flotto Attacks].
 
 The medium powered full auto lazer pistol damage is 2-20 and its wate is 1.8kg.
 This weapon can also be dubbed as a flap gun or flotto lazer pistol.
@@ -552,7 +552,7 @@ include::ROOT:partial$articulate.adoc[]
 === Full Auto Lazer Rifle 
 
 [horizontal]
-Attack Type:: C, E, F
+Attack Type:: Shoot, Shoot-3, Flotto
 Range:: 120h (-60)
 Accuracy:: +70
 Damage:: 5-50, 4-40, *3-30*, 2-20, 2-16
@@ -565,13 +565,13 @@ The full automatic lazer rifle is a two handed weapon with a rapid fire option.
 The F weapon type releases 15 charges in one unit.
 When flotto is employed the player makes 5 attack rolls in one unit.
 Each successful attack roll scores 0-3 (d4-1) lazer bolts of damage.
-For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Flotto Attacks].
 
 The medium powered full auto lazer rifle damage is 3-30 and its wate is 4.0kg
 This weapon is also known as a lazer Gatling, a fair ("faller") gun, or a flotto lazer rifle.
 
 A malfunction of this weapon results in the loss of a charge.
-So 1 charge for weapon type C attack or 15 charges for weapon type F. 
+So 1 charge for weapon Shoot attack or 15 charges for weapon type F. 
 
 :art: pistol_flotto.png
 :width: 250px
@@ -586,7 +586,7 @@ include::ROOT:partial$articulate.adoc[]
 === Full Auto Pistol 
 
 [horizontal]
-Attack Type:: C, D, F
+Attack Type:: Shoot, Shoot-2, Flotto
 Range:: 60 (-70)
 Accuracy:: 0
 Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
@@ -599,7 +599,7 @@ A full automatic pistol fires bullets, and tosses outspent shell casings.
 The F weapon type releases 15 rounds in one unit.
 When flotto is employed the player makes 5 attack rolls in one unit.
 Each successful attack roll scores 0-3 (d4-1) rounds of damage.
-For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Flotto Attacks].
 The rate of fire is determined by trigger squeeze.
 
 The medium powered full-auto pistol damage is 2-16 and its wate is 1.5kg
@@ -620,7 +620,7 @@ include::ROOT:partial$articulate.adoc[]
 === Full Auto Rifle 
 
 [horizontal]
-Attack Type:: C, D, E, F
+Attack Type:: Shoot, Shoot-2, Shoot-3, Flotto
 Range:: 90h (-44)
 Accuracy:: +50
 Damage:: 4-48, 4-32, *3-30*, 3-24, 2-20
@@ -633,7 +633,7 @@ The full-auto rifle is the standard weapon of military service.
 The F weapon type releases 15 rounds in one unit.
 When flotto is employed the player makes 5 attack rolls in one unit.
 Each successful attack roll scores 0-3 (d4-1) rounds of damage.
-For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Type F Attacks].
+For a discussion of full auto (flotto) attacks jump to xref:i-roll_playing_rules:CH28_Weapons.adoc#_type_f_attacks[Flotto Attacks].
 The rate of fire is determined by trigger squeeze.
 
 The medium powered full auto rifle damage is 3-30 and its wate is 3.6kg.
@@ -654,7 +654,7 @@ include::ROOT:partial$articulate.adoc[]
 === Fusion Pistol 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 60h (-85)
 Accuracy:: -40
 Damage:: Special
@@ -729,7 +729,7 @@ include::ROOT:partial$articulate.adoc[]
 === Fusion Rifle 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 90h (-60)
 Accuracy:: -25
 Damage:: Special
@@ -887,7 +887,7 @@ include::ROOT:partial$articulate.adoc[]
 === Grapple Gun 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 15h (-1000)
 Accuracy:: -100
 Damage:: Special
@@ -945,7 +945,7 @@ include::ROOT:partial$articulate.adoc[]
 === Gravruptor Gun 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 30h (-80)
 Accuracy:: 0
 Damage:: Special
@@ -985,7 +985,7 @@ A malfunction with this weapon will result in a gravitational anomaly attacking 
 === Job Pistol 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 25h (-100)
 Accuracy:: -30
 Damage:: 1-20 (1d20)
@@ -1014,7 +1014,7 @@ A malfunction with this weapon indicates a weapon jam.
 === Job Rifle 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 100h (-75)
 Accuracy:: +25
 Damage:: 3-30 (3d10)
@@ -1053,7 +1053,7 @@ include::ROOT:partial$articulate.adoc[]
 === Lazer Pistol 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 80h (-50)
 Accuracy:: +60
 Damage:: 4-40, 3-30, *2-20*, 2-16, 1-10
@@ -1088,7 +1088,7 @@ include::ROOT:partial$articulate.adoc[]
 === Lazer Rifle 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 150h (-40)
 Accuracy:: +100
 Damage:: 5-50, 4-40, *3-30*, 2-20, 2-16
@@ -1120,7 +1120,7 @@ include::ROOT:partial$articulate.adoc[]
 === Napalm Gun 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 15h (-250)
 Accuracy:: -100
 Damage:: 10-100 (10d10)
@@ -1298,7 +1298,7 @@ include::ROOT:partial$articulate.adoc[]
 === Protein Disrupter 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 125h (-60)
 Accuracy:: +150
 Damage:: 5-60, 5-50, *4-40*, 3-30, 3-24
@@ -1372,7 +1372,7 @@ include::ROOT:partial$articulate.adoc[]
 === Revolver 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 80h (-66)
 Accuracy:: 0
 Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
@@ -1402,7 +1402,7 @@ include::ROOT:partial$articulate.adoc[]
 === Semi Auto Lazer Pistol 
 
 [horizontal]
-Attack Type:: C, D
+Attack Type:: Shoot, Shoot-2
 Range:: 70h (-60)
 Accuracy:: +50
 Damage:: 4-40, 3-30, *2-20*, 2-16, 1-10
@@ -1438,7 +1438,7 @@ include::ROOT:partial$articulate.adoc[]
 === Semi Auto Lazer Rifle 
 
 [horizontal]
-Attack Type:: C, D, E
+Attack Type:: Shoot, Shoot-2, Shoot-3
 Range:: 125h (-50)
 Accuracy:: +90
 Damage:: 5-50, 4-40, *3-30*, 2-20, 2-16
@@ -1474,7 +1474,7 @@ include::ROOT:partial$articulate.adoc[]
 === Semi Auto Pistol 
 
 [horizontal]
-Attack Type:: C, D
+Attack Type:: Shoot, Shoot-2
 Range:: 70h (-60)
 Accuracy:: +40
 Damage:: 3-30, 2-20, *2-16*, 2-12, 1-10
@@ -1505,7 +1505,7 @@ include::ROOT:partial$articulate.adoc[]
 === Semi Auto Rifle 
 
 [horizontal]
-Attack Type:: C, D, E
+Attack Type:: Shoot, Shoot-2, Shoot-3
 Range:: 110h (-44)
 Accuracy:: +60
 Damage:: 4-48, 3-36, *3-30*, 3-24, 2-20
@@ -1536,7 +1536,7 @@ include::ROOT:partial$articulate.adoc[]
 === Slug Thrower 
 
 [horizontal]
-Attack Type:: C, D
+Attack Type:: Shoot, Shoot-2
 Range:: 40h (-50)
 Accuracy:: 0
 Damage:: 3-18 (3d6)
@@ -1567,7 +1567,7 @@ include::ROOT:partial$articulate.adoc[]
 === Sonic Pistol 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 40h (-211)
 Accuracy:: -50
 Damage:: Special
@@ -1705,7 +1705,7 @@ include::ROOT:partial$articulate.adoc[]
 === Variable Lazer Pistol 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 80h (-80)
 Accuracy:: 0
 Damage:: Special
@@ -1802,7 +1802,7 @@ include::ROOT:partial$articulate.adoc[]
 === Water Gun 
 
 [horizontal]
-Attack Type:: C
+Attack Type:: Shoot
 Range:: 50h (-190)
 Accuracy:: 0
 Damage:: 3-18 (3d6)
@@ -1835,9 +1835,9 @@ include::ROOT:partial$articulate.adoc[]
 
 === Attack Type 
 The attack types indicate the frequency of attack that the powered projectile weapon has.
-Attack Type C has one attack roll per unit.
+Attack Shoot has one attack roll per unit.
 Attack Types D and E have two and three attack rolls per unit.
-Attack Type F is for Full auto, and the player makes five attack rolls per unit with some special rules. 
+Attack Flotto is for Full auto, and the player makes five attack rolls per unit with some special rules. 
 For all the deets jump to xref:i-roll_playing_rules:CH28_Weapons.adoc[Attack Types,window=_blank].
 
 === Range 
