@@ -10,19 +10,18 @@ s|Attribute
 s|Examples
 
 
-s|<<_type_a_attacks,A>>
+s|<<_strike_attacks,Strike>>
 2+|contact, non-powered +
 thrusting and striking +
 once per unit
 |STR
 |Sword +
-Club +
-Rake +
+Punch +
 Bite +
 Ram
 
 
-s|<<_type_b_attacks,B>>
+s|<<_fling_attacks,Fling>>
 2+|ranged, non-powered +
 hurled objects +
 once per unit
@@ -30,41 +29,60 @@ once per unit
 INT
 |Arrow +
 Rock +
-Quills +
 Spittle +
+Point
 
-s|<<_type_c_attacks,C>> +
-<<_type_d_and_e_attacks,D>> +
-<<_type_d_and_e_attacks,E>>
+
+
+s|<<_shoot_attacks,Shoot>> +
 2+|ranged, powered +
 launched objects +
-varies per unit
-|DEX
-|Bullets +
-Lasers +
-Bolts +
-Laser Eyes
-
-s|<<_type_f_attacks,F>>
-2+|ranged, powered +
-fully automatic +
-many times per unit
-|DEX
-|Bullets +
-Lasers +
-Bolts +
-Laser Eyes
-
-s|<<_type_aoe_attacks,AOE>>
-2+|area of effect +
 once per unit
+|DEX
+|Bullets +
+Lazers Bolts +
+Laser Eyes +
+Spores
+
+
+|
+4+s|includes  <<_sotto_attacks,Sotto>> and <<_flotto_attacks,Flotto>> Attack Types
+
+s|<<_type_aoe_attacks,Area>>
+2+|effects everything in area +
+Fling or Shoot Attack +
+single use only
+
 |DEX + 
 INT 
 |Grenades +
-Aerosols
+Aerosols +
+Farts +
+Blasts
+
+|
+4+s|includes <<_grenade_attacks,Grenade>> and <<_aerosol_attacks,Aerosol>> Attack Types
+
+
+
+s|<<_psionic_attacks,Psionic>>
+2+| non-physical +
+invisible +
+instantaneous
+|MND
+|Telepathy +
+ESP +
+Empathy
+
+
+
+
+
+
 
 s|Type
 2+s|Description
 s|Attribute
 s|Examples
 |===
+

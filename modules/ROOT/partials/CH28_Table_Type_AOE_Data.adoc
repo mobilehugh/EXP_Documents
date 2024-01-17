@@ -1,13 +1,13 @@
 // Table 28.2 Fling and Shoot Weapon Data
-.*Type AOE Weapon Data*
+.*Area Attack Weapons*
 [width="90%",cols="<,4*^",frame="all", stripes="even"]
 |===
 5+<|Area of effect weapons. 
 
 s|Weapon
 s|Wate (kg)
-s|AOE (hexes)
-s|AOE Roll
+s|Radius (hexes)
+s|Miss Roll (hexes)
 s|Damage
 
 |Corrosive Flask
@@ -16,13 +16,11 @@ s|Damage
 |1d2-1
 |2d10
 
-|https://en.m.wikipedia.org/wiki/Molotov_bread_basket[Molotov] Cocktail
+|https://en.m.wikipedia.org/wiki/Molotov_bread_basket[Molotov Cocktail]
 |1
 |0-2
 |1d6 +
-1-2 = 0 h +
-3-5 = 1 h +
-6 = 2 h
+1-2=0, 3-5=1, 6=2
 |3d10
 
 |Pipe Bomb
@@ -33,7 +31,7 @@ s|Damage
 
 s|Weapon
 s|Wate (kg)
-s|AOE (hexes)
-s|AOE Roll
+s|Radius (hexes)
+s|Miss Roll (hexes)
 s|Damage
 |===
