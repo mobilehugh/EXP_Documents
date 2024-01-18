@@ -1,40 +1,41 @@
-= Combat Tables
+= Attack Table
 
 [quote]
 ____
-*A list of numbers that the persona takes into combat.*
+*A list of numbers that follow the persona into combat.*
 ____
 
-The combat table is the centrepiece of the tactical combat system.
+The attack table is the centrepiece of the tactical combat system.
 The tactical combat system allows for players to carry out detailed combat shenanigans using miniatures on a tabletop.
-The Combat Table combines all of the persona's bonuses in one place.
+The Attack Table combines all of the persona's bonuses in one place.
 The matrix lists all the bonuses that the player adds to her attack and damage rolls.
-The combat table combines attributes, vocation, levels, weapon familiarity and tactics to pretend that these elements matter.
+The attack table combines attributes, vocation, levels, weapon familiarity and tactics to pretend that these elements matter.
 
-Each persona has its own combat table. 
+Each persona has its own attack table. 
 The amount of time spent calculating the data depends on the importance of the persona.
-Player personas have the most detailed combat tables.
-Cannon fodder have the least detailed combat tables.
+Player personas have the most detailed attack tables.
+Cannon fodder have the least detailed attack tables.
+
+The tactical combat system is not simple, and the attack table requires an understanding of many acronyms.
+You need to read this section if the following acronyms do not make sense: Skilled, Raw, Max, Force, AR, Strike, Fling, Shoot etc.
+If you know what you are looking for, jump to the attack table you need.
+Below is a list is of player persona attack tables. 
+Referee persona attack tables are detailed in their referee persona sections
 
 include::ROOT:partial$CH09_Table_Tiny_CT.adoc[]
 
-The tactical combat system is not simple, and the combat table requires an understanding of many acronyms.
-You need to read this section if the following acronyms do not make sense: Skilled, Raw, Max, Force, AR, Strike, Fling, Shoot etc.
-If you know what you are looking for, jump to the combat table you need.
-Below is a list is of player persona combat tables. 
-Referee persona combat tables are detailed in their referee persona sections
+.*Jump to the Attack Tables*
+* xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro Attack Table,window=_blank]
+* xref:i-roll_playing_rules:CH05_Robots_Z_CT.adoc[Robot Attack Table,window=_blank]
+* xref:i-roll_playing_rules:CH06_Aliens_6_CT.adoc[Alien Attack Table,window=_blank]
 
-.*Jump to the Combat Tables*
-* xref:i-roll_playing_rules:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank]
-* xref:i-roll_playing_rules:CH05_Robots_Z_CT.adoc[Robot Combat Table,window=_blank]
-* xref:i-roll_playing_rules:CH06_Aliens_6_CT.adoc[Alien Combat Table,window=_blank]
+include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
 
-== Deconstruction of a Combat Table
-The example combat table from above is broken down row by row with links to more detailed explanations.
+== Deconstruction of an Attack Table
+The following sections will demonstrate how to fill in the empty table immediately above.
 
 include::ROOT:partial$CH09_Table_Description_of_a_Combat_Table.adoc[]
 
-// remember anthro, robot CTs are missing in creation alien is present.
 
 // attack types tag
 include::CH27_Tactical_Combat.adoc[tag=Attack_Types]
@@ -51,7 +52,7 @@ If the persona is using an unfamiliar weapon, she uses her Raw Bonus (Raw).
 The Skilled Bonus has two main components: attribute bonuses and level bonuses.
 
 === Attribute Component
-Most of the calculations done on the combat table involve the persona's attributes.
+Most of the calculations done on the attack table involve the persona's attributes.
 Each attack type has its own attribute calculation. 
 Strong personas have better attack bonuses with thrusting and striking attacks.
 Dextrous personas excel with powered missile attacks.
@@ -96,17 +97,17 @@ A mercenary can use 100% of her Skilled for all attacks.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Maximum Roll
-The Maximum Roll is the best attack roll that the player can make for her persona.
-If a player's total attack roll is 1042 and her Maximum Roll (Max) is 884, her attack roll becomes 884.
-As the persona increases in experience levels, her Maximum Roll increases as well.
+== Max Roll
+The Max Roll is the best attack roll that the player can make for her persona.
+If a player's total attack roll is 1042 and her Max Roll (Max) is 884, her attack roll becomes 884.
+As the persona increases in experience levels, her Max Roll increases as well.
 Combat vocations increase their Skilled andMax faster than non-combat vocations.
 Without the Max, low-level personas are as dangerous as high-level personas.
 
 NOTE: *Critical Checks allow any persona to damage any other persona with pure chance.*
 
 Occasionally a player will be unable to win an attack roll on a target with a high armour rating.
-This limitation of the Maximum Roll will leave some players feeling helpless and frustrated.
+This limitation of the Max Roll will leave some players feeling helpless and frustrated.
 These emotions indicate that it's a good time for their persona to run away.
 
 :art: maximum_roll.png
@@ -124,8 +125,6 @@ The player adds the Force Bonus when she wins an attack roll.
 The Force Bonus (Force) represents the impact of Strength on persona-powered attacks.
 Strength increases the amount of damage that the persona delivers with a striking weapon.
 Powered attacks (Shoot) do not have a Force Bonus.
-
-NOTE: *Force Bonus is a legacy term from the last millennium. Damage Bonus seems more appropriate.*
 
 == Proficiencies
 Proficient indicates that the persona is familiar with the attack type.
