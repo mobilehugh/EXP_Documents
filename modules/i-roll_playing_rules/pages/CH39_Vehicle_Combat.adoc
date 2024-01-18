@@ -84,10 +84,10 @@ The main challenge for the attacker is that their target is moving at high speed
 The persona launching the attack is relatively motionless, and only the movement rate of the vehicle applies.
 The speed of the vehicle makes a successful attack roll more difficult.
 The greater the speed differential, the harder it is to hit the target.
-The speed of the vehicle determines its armour rating. 
-Attacking a moving vehicle increases the target's Armour Rating.
+The speed of the vehicle determines its Defence Rating. 
+Attacking a moving vehicle increases the target's Defence Rating.
 
-=== Vehicle Armour Rating
+=== Vehicle Defence Rating
 .Vehicle AR = 500 + 10 per h/u 
 ****
 AR = 500 + (30 h/u * 1) = 500 + 300 = 800.
@@ -123,7 +123,7 @@ The following demonstrates the attack roll penalties between vehicle Eh going 30
 .*Attacks between moving vehicles*
 . Attack Roll Speed Penalty
 . Determine differential speed
-. Armour Rating determined by speed differential.
+. Defence Rating determined by speed differential.
 
 === Attack Roll Speed Penalty
 .Penalty = -15 per h/u of vehicle speed
@@ -134,7 +134,7 @@ Bee penalty = -15 * 50 h/u = -750
 ****
 
 The drag, vibrations and high-velocity forces make it nearly impossible to win an attack roll from vehicle Bee.
-The armour rating of the vehicle increases depending on the speed differential.
+The Defence Rating of the vehicle increases depending on the speed differential.
 
 === Speed Differential
 .Differential = faster speed  - slower speed
@@ -142,7 +142,7 @@ The armour rating of the vehicle increases depending on the speed differential.
 differential = 50 h/u - 30 h/u = 20 h/u
 ****
 
-=== Differential Armour Rating
+=== Differential Defence Rating
 .Vehicle AR = 500 + 10 per h/u differential
 ****
 AR = 500 + (10 * 20) = 500 +300 = 700. +
@@ -152,9 +152,9 @@ Both vehicles have the same AR.
 It is nearly impossible for attackers from the higher speed vehicle to attack the slower speed vehicle, but the reciprocal is not correct.
 
 === Combat Hardened
-The base armour rating of 500 applies to an unarmoured civilian vehicle that has no combat hardening.
-If the vehicle has an armour rating through combat hardening, that value becomes the base instead of 500.
-A vehicle with an armour rating of 700 moving 30 h/u would have an armour rating of 1000.
+The base Defence Rating of 500 applies to an unarmoured civilian vehicle that has no combat hardening.
+If the vehicle has an Defence Rating through combat hardening, that value becomes the base instead of 500.
+A vehicle with an Defence Rating of 700 moving 30 h/u would have an Defence Rating of 1000.
 
 === Driving Skill and AR
 Driving skill is not combat driving skill.
@@ -162,7 +162,7 @@ Driving skills and handling class will keep the vehicle from crashing during com
 A driver may attempt evasive maneuvers by making a Driving Roll.
 
 Combat driving skills will increase the vehicle's moving AR by 50 per combat driving skill level.
-Combat driving skill two increases the vehicle's base armour rating from 500 to 600. 
+Combat driving skill two increases the vehicle's base Defence Rating from 500 to 600. 
 
 === Flanking and AR
 We do not bother with flanking in vehicle combat. 
@@ -200,7 +200,7 @@ She could be attacking her vehicle, or the vehicle is part of a fleet of well-kn
 . Remaining Skilled Bonus
 
 The remaining Skilled Bonus depends on the player's kilodie attack roll.
-If the player's attack roll is 850 and the vehicle's armour rating is 800, her remaining Skilled Bonus is 50.
+If the player's attack roll is 850 and the vehicle's Defence Rating is 800, her remaining Skilled Bonus is 50.
 This value allows her to move the hit location on the vehicle up and down by 50 points. 
 The remaining Skilled Bonus value cannot exceed the persona's Skilled Bonus for the weapon. 
 
@@ -288,7 +288,7 @@ For example, a lazer or energy weapon is much less affected by air turbulence th
 Area weapons include grenades and aerosols.
 Area of effect attacks must score a direct hit on the vehicle to damage the vehicle.
 Typically Area weapons need only target a specific hex.
-In vehicle combat the Area Attack Roll must beat the vehicle's speed-adjusted armour rating.
+In vehicle combat the Area Attack Roll must beat the vehicle's speed-adjusted Defence Rating.
 
 Due to the unique chemical nature of Aerosols, a successful attack roll will hit the vehicle.
 

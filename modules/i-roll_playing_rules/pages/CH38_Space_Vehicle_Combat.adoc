@@ -384,9 +384,9 @@ Once the space vehicle is inatmo, the players can use the artillery as usual.
 
 === Hitting with artillery
 Artillery requires a successful attack roll to inflict damage.
-The player must win an attack roll against the target spaceship's armour rating.
-The attacker must make a kilodie roll higher than her target's armour rating.
-The target ship's armour rating, including hull strength and ECM, may prove impenetrable to many artillery attacks.
+The player must win an attack roll against the target spaceship's Defence Rating.
+The attacker must make a kilodie roll higher than her target's Defence Rating.
+The target ship's Defence Rating, including hull strength and ECM, may prove impenetrable to many artillery attacks.
 
 The attacking ship's computer level adjusts the artillery's attack roll.
 A gunnery program will fire the artillery automatically, with a bonus of +50 per level of ship's computer.
@@ -447,7 +447,7 @@ The main difference is that these grenades travel by mini-missile or mini-mines,
 Inatmo personas throw grenades and only need to get close to damage a target.
 
 The grenade is a space vehicle vs a space vehicle weapon.
-A successful attack roll must be made against the space vehicle's armour rating to inflict damage.
+A successful attack roll must be made against the space vehicle's Defence Rating to inflict damage.
 If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
 
 Grenade delivery systems have diminutive titles because they only deliver grenades. 
@@ -622,11 +622,11 @@ The hull is the containment and physical defence system of the ship.
 The hull also defends against both hostile environments and attacks.
 The star cruiser's hull is the last line of defence.
 
-The hull supplies the space vehicle's armour rating used in combat.
-The hull and armour rating have an intimate relationship.
-In combat, the hull absorbs damage decreasing armour rating.
+The hull supplies the space vehicle's Defence Rating used in combat.
+The hull and Defence Rating have an intimate relationship.
+In combat, the hull absorbs damage decreasing Defence Rating.
 
-NOTE: *The Hull armour rating (AR) protects the Hull. Once the Hull AR is is less than 420, the Hull takes direct damage rolls.*
+NOTE: *The Hull Defence Rating (DEF) protects the Hull. Once the Hull AR is is less than 420, the Hull takes direct damage rolls.*
 
 Defensive ECM can increase the space vehicle's AR against attack rolls.
 The increase in AR is a transient electronic deception and does not alter the Hull AR.
@@ -645,7 +645,7 @@ If the space vehicle has only 1 ECM unit, the players must decide how to use it 
 === ECM AR Boost
 Most often, defensive ECM will be used to make the ship harder to attack.
 ECM creates false images of velocity, trajectory, rotation, size, etc.
-All of this electronic tom-foolery results in a +200 bonus to the ship's armour rating per computer level.
+All of this electronic tom-foolery results in a +200 bonus to the ship's Defence Rating per computer level.
 
 === ECM Break Control
 Defensive ECM is essential when the ship is under attack from control ECM.
@@ -679,7 +679,7 @@ Player must roll 55 or higher to hide.
 
 === Damaged ECM
 Damaged ECM drops its effectiveness by the percentage indicated on the Extent of Damage table.
-For example, ECM at 50% efficiency can only offer +100 per computer level to the ship's armour rating.
+For example, ECM at 50% efficiency can only offer +100 per computer level to the ship's Defence Rating.
 
 == Shields
 The shields protect the hull AR and hull from energy and kinetic attacks.
@@ -762,7 +762,7 @@ For example, a ship being rammed or boarded gets to counterattack with mines or 
 == Space Vehicle Damage
 When an attack is successful, the ship suffers damage.
 There are many roads to a successful attack.
-The player can win an attack roll by beating the target's armour rating.
+The player can win an attack roll by beating the target's Defence Rating.
 The player can win a percentage roll by beating the target roll.
 
 Space vehicles do not have hit points.
@@ -875,20 +875,20 @@ Hull, life support and gravity are intimately integrated.
 === Hull as Armour
 The hull cannot take damage until the ship's Armour (Hull AR) has been disabled.
 The armour ratings of hulls are very high. 
-The average armour rating of a space vehicle's hull is 1100.
+The average Defence Rating of a space vehicle's hull is 1100.
 
-The armour rating of the hull decreases as it takes damage.
-If a mini-mine explodes against the hull and delivers 75 HPS of damage, the hull armour rating decreases by 75.
-The hull armour rating can absorb massive amounts of damage, protecting the systems below. 
+The Defence Rating of the hull decreases as it takes damage.
+If a mini-mine explodes against the hull and delivers 75 HPS of damage, the hull Defence Rating decreases by 75.
+The hull Defence Rating can absorb massive amounts of damage, protecting the systems below. 
 
-Reducing the armour rating to 420 disables the armour rating of the hull.
-Disabling the armour rating allows damage to pass directly to the hull or the contents below it.
+Reducing the Defence Rating to 420 disables the Defence Rating of the hull.
+Disabling the Defence Rating allows damage to pass directly to the hull or the contents below it.
 The Hull AR cannot drop below 420.
 
 include::ROOT:partial$CH38_Table_Life_Support_Chain.adoc[]
 
 === Hull Compromise
-Hull only becomes a damage location once the Hull armour rating is exhausted.
+Hull only becomes a damage location once the Hull Defence Rating is exhausted.
 The hull begins to fail like any other system on the space vehicle.
 The hull is disabled once the level of function drops below 10%.
 The hull is destroyed once the level of function drops below 1%.
@@ -907,7 +907,7 @@ The ship can partition off a damaged location using its automated bulkheads.
 Naval architecture does not recommend open-concept space vehicles.
 The personas can repair a disabled hull during combat.
 Life support and gravity systems will replenish repaired hull locations.
-Repairing a hull section does not restore its armour rating.
+Repairing a hull section does not restore its Defence Rating.
 The personas cannot repair a destroyed hull during combat.
 
 == Drive Damage
@@ -1039,8 +1039,8 @@ The defences decrease in effectiveness the same as any other damaged system.
 === Life Support Onion
 Before damaging life support, the outer layers of the onion must be disabled or destroyed.
 The outermost layer of the onion is the ship's shields. 
-If the ship does not have shields, the outermost layer of the onion is the hull armour rating.
-The hull armour rating must fail before the hull can be damaged.
+If the ship does not have shields, the outermost layer of the onion is the hull Defence Rating.
+The hull Defence Rating must fail before the hull can be damaged.
 The hull must fail before gravity control can be damaged.
 Gravity control must fail before life support can be damaged.
 
@@ -1065,29 +1065,29 @@ Ineffective gravity control can lead to inconvenient ZOG, space sickness, and di
 If gravity control drops to less than 30%, the ship cannot safely make combat maneuvers.
 Losing gravity is a victory condition.
 
-=== Hull Armour Rating Damage
-The hull armour rating represents the hardening of the space ship's hull to prevent combat damage.
-Hull armour rating is part of the life support onion, and unless the space vehicle has shields, hull armour is the outermost layer.
+=== Hull Defence Rating Damage
+The hull Defence Rating represents the hardening of the space ship's hull to prevent combat damage.
+Hull Defence Rating is part of the life support onion, and unless the space vehicle has shields, hull armour is the outermost layer.
 Until the shields are disabled, the damage location of hull armour moves to the ship's shields.
 
-NOTE: *Hull AR, Armour, and Armour Rating are interchangeable and separate from Hull.*
+NOTE: *Hull AR, Armour, and Defence Rating are interchangeable and separate from Hull.*
 
-Armour Rating is an amalgam of many factors. 
+Defence Rating is an amalgam of many factors. 
 Structurally it includes hull strength, combat hardening, and combat alterations.
 Tactically is includes the ship's computer, ECM and drives.
 
 ==== Calculating Armour Damage
-Sadly there are two ways to calculate the extent of damage to the armour rating.
+Sadly there are two ways to calculate the extent of damage to the Defence Rating.
 The first simply uses the standard extent of damage drop in effectiveness.
-An 800 armour rating that takes major damage (40% damage) drops to 480.
-The lowest a space vehicle's armour rating can get is 420.
-Once the armour rating is 420, the hull is vulnerable to attack.
+An 800 Defence Rating that takes major damage (40% damage) drops to 480.
+The lowest a space vehicle's Defence Rating can get is 420.
+Once the Defence Rating is 420, the hull is vulnerable to attack.
 
-The second is more complicated but allows armour rating to last a bit longer.
-The drop in efficiency only affects the portion of the armour rating that is above 400.
-An 800 armour rating would only drop the efficiency of the top 400 points of armour rating.
-So a vessel with an Armour Rating of 800 taking major damage would have a new AR of 640.
-Once the armour rating is 420, the hull is vulnerable to attack.
+The second is more complicated but allows Defence Rating to last a bit longer.
+The drop in efficiency only affects the portion of the Defence Rating that is above 400.
+An 800 Defence Rating would only drop the efficiency of the top 400 points of Defence Rating.
+So a vessel with an Defence Rating of 800 taking major damage would have a new AR of 640.
+Once the Defence Rating is 420, the hull is vulnerable to attack.
 
 === Defensive ECM Damage
 Defensive ECM becomes reduced by the percentage indicated by the extent of damage.

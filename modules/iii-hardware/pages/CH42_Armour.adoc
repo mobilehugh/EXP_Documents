@@ -18,7 +18,7 @@ include::ROOT:partial$CH42_Table_Armour_Type.adoc[]
 === Ablative Armour
 
 [horizontal]
-Armour Rating:: 625
+Defence Rating:: 625
 Restrictiveness:: 3
 Wate:: 2.5 (1.5kg)
 EXPS:: 200
@@ -28,7 +28,7 @@ Ablative armour negates lazer attacks.
 When hit by a lazer, the ablative material vaporizes, producing an anti-lazer gas that dissipates the lazer bolt, keeping the attack from damaging the wearer.
 When hit by a lazer, the wearer will take no damage because of the ablative armour.
 This armour only works against lazers and does not affect energy attacks such as fission, fusion, or plasma.
-The armour rating represents how well the armour is at deflecting all other attacks.
+The Defence Rating represents how well the armour is at deflecting all other attacks.
 Since the armour vaporizes to disrupt lazers, it has a limited lifespan.
 The armour will lose its ablative effect after disrupting 300-1000 (1d8+2 x 100) hit points of lazer damage.
 If a lazer attack scores a hit, the damage score harms the armour, not the wearer.
@@ -37,7 +37,7 @@ Depleted ablative armour retains its AR of 625 but loses all special defences ag
 === Ballistic Amour
 
 [horizontal]
-Armour Rating:: 625
+Defence Rating:: 625
 Restrictiveness:: 3
 Wate:: 2.9 (2kg)
 EXPS:: 200
@@ -52,7 +52,7 @@ Ballistic cloth does not absorb damage from low-velocity attacks such as punches
 === Combat Armour 
 
 [horizontal]
-Armour Rating:: 725
+Defence Rating:: 725
 Restrictiveness:: 2
 Wate:: 3.0 (2kg)
 EXPS:: 100
@@ -64,7 +64,7 @@ It is usually composed of such mundane materials as Kevlar weaves and ceramic pl
 === Compucrafted Armour
 
 [horizontal]
-Armour Rating:: Plus 30-120 (3d4 times 10)
+Defence Rating:: Plus 30-120 (3d4 times 10)
 Restrictiveness:: 0-3 (1d4-1)
 Wate:: Halved
 EXPS:: 300 
@@ -76,7 +76,7 @@ Compucrafted armour uses special alloys, plastics, and ceramics, unlike the mund
 
 include::ROOT:partial$CH42_Table_Compucrafted_Armour_Types.adoc[]
 
-The armour rating (AR) increases by 30-120 (3d4 x 10) from the base armour rating.
+The Defence Rating (DEF) increases by 30-120 (3d4 x 10) from the base Defence Rating.
 Lighter and less cumbersome materials allow for more unrestricted body movement.
 The lighter design decreases the armour's restrictiveness to between 0-3 (1d4-1).
 The new restrictiveness cannot be higher than armour's previous restrictiveness.
@@ -86,7 +86,7 @@ EXPS value is a flat 300 points for all types of compucrafted armour.
 === Concussion Armour
 
 [horizontal]
-Armour Rating:: 625
+Defence Rating:: 625
 Restrictiveness:: 3
 Wate:: 2.9 (2kg)
 EXPS:: 200
@@ -101,7 +101,7 @@ Any of these damages types are reduced by 1/2 when wearing concussion armour.
 === Flexion Covering
 
 [horizontal]
-Armour Rating:: None
+Defence Rating:: None
 Restrictiveness:: Table
 Wate:: Table
 EXPS:: 333
@@ -119,13 +119,13 @@ include::ROOT:partial$CH42_Table_Flexion_Covering_Type.adoc[]
 Concussion::
 Concuflex reduces the chance of being injured by concussion attacks.
 Shockwaves, crushing and gravity attacks are concussive attacks.
-Concuflex increases the persona's armour rating (AR) by +150 against such attacks.
+Concuflex increases the persona's Defence Rating (DEF) by +150 against such attacks.
 This covering appears as a bulky down parka.
 
 Electro:: 
 Electroflex reduces the chance of being injured by electrical attacks.
 Electrical attacks include stun, lightning arcs and electrocution.
-Electroflex increases the persona's armour rating (AR) by +150 against such attacks.
+Electroflex increases the persona's Defence Rating (DEF) by +150 against such attacks.
 This covering appears like a black slicker with tendrils reaching the ground.
 
 Energy:: 
@@ -164,7 +164,7 @@ This covering appears like a rough weave of loose fibres.
 === Force Field 
 
 [horizontal]
-Armour Rating:: 0
+Defence Rating:: 0
 Restrictiveness:: 0
 Wate:: Table
 EXPS:: 500
@@ -186,7 +186,7 @@ include::ROOT:partial$CH42_Table_Force_Field_Belt_Strength.adoc[]
 === Helmet 
 
 [horizontal]
-Armour Rating:: +40
+Defence Rating:: +40
 Restrictiveness:: 0
 Wate:: Special
 EXPS:: 50 + TOY  
@@ -240,7 +240,7 @@ Roll from the list of visual aid artifacts found in xref:iii-hardware:CH48_Misc_
 === Plastix Armour
 
 [horizontal]
-Armour Rating:: 800
+Defence Rating:: 800
 Restrictiveness:: 1
 Wate:: 1.0 (0.7kg)
 EXPS:: 75
@@ -251,14 +251,14 @@ The armour tends to remain clean and white.
 This ceramic plating is the staple uniform of disposable spacefaring infantry.
 This armour's helmet includes a closed faceplate with a nearly opaque sun visor.
 Any persona wearing the helmet suffers a -114 penalty on her attack rolls.
-The armour rating is not compromised if the persona removes this helmet.
+The Defence Rating is not compromised if the persona removes this helmet.
 
 NOTE: *In previous EXP versions, plastix armour had no AR when not wearing the vision-obscuring visor.*
 
 === Powered Armour
 
 [horizontal]
-Armour Rating:: 750
+Defence Rating:: 750
 Restrictiveness:: 15
 Wate:: 300 (210kg)
 EXPS:: 1000
@@ -273,7 +273,7 @@ Jump to xref:iii-hardware:CH42_Powered_Armour.adoc[Powered Armour,window=_blank]
 === Protex
 
 [horizontal]
-Armour Rating:: 600
+Defence Rating:: 600
 Restrictiveness:: +2
 Wate:: None (2kg)
 EXPS:: 900
@@ -294,7 +294,7 @@ include::ROOT:partial$CH42_Table_Protex_Armour.adoc[]
 === Shield 
 
 [horizontal]
-Armour Rating:: Table
+Defence Rating:: Table
 Restrictiveness:: Table
 Wate:: Table
 EXPS:: 100
@@ -309,30 +309,30 @@ include::ROOT:partial$CH42_Table_Shield_Type.adoc[]
 
 Ablative Shield::
 This shield functions like the armour type <<_ablative_armour,Ablative>>. 
-The shield gives an armour rating bonus of +75 and defends against lazer attacks.
+The shield gives an Defence Rating bonus of +75 and defends against lazer attacks.
 The shield negates 10-100 (1d10 x 10) hit points of lazer damage.
 
 Ballistic Shield::
 This shield functions like the armour type <<_ballistic_armour,Ballistic>>.
-The shield gives an armour rating bonus of +75 and defends against ballistic attacks.
+The shield gives an Defence Rating bonus of +75 and defends against ballistic attacks.
 The shield negates 10-100 (1d10 x 10) hit points of ballistic damage.
  
 Combat Armour Shield::
 The shield functions like the armour type <<_combat_armour,Combat>>.
-The shield gives an armour rating bonus of +125.
+The shield gives an Defence Rating bonus of +125.
 
 Compucrafted Shield::
 This shield is base on a <<_compucrafted_armour,Compucrafted>> version of mundane armour.
-The shield improves armour rating by +3-300 (3d10 * 10).
+The shield improves Defence Rating by +3-300 (3d10 * 10).
 
 Concussion Shield::
 This shield functions like the armour type <<_concussion_armour,Concussion>>.
-The shield gives an armour rating bonus of +75 and defends against concussion attacks.
+The shield gives an Defence Rating bonus of +75 and defends against concussion attacks.
 The shield negates 10-100 (1d10 x 10) hit points of concussion damage.
 
 Flexion Shield::
 A flexion shied like an umbrella made of <<_flexion_covering,Flexion>> armour.
-The shield gives an armour rating bonus of +125.
+The shield gives an Defence Rating bonus of +125.
 
 Force Shield::
 A force field shield a defensive wall projected from a wrist band. 
@@ -341,18 +341,18 @@ The force shield absorbs 10-100 (1d10 x 10) hit points per battery.
 
 Plastix Blocker::
 This large white shield functions like the armour type <<_plastix_armour,Plastix>>.
-The shield gives an armour rating bonus of +75 and impairs the user's accuracy.
+The shield gives an Defence Rating bonus of +75 and impairs the user's accuracy.
 Using a plastix shield will inflict an attack roll penalty of -100.
 
 Powered Shield::
 A powered shield is an attachment for an upper limb of xref:iii-hardware:CH42_Powered_Armour.adoc[Powered Armour,window=_blank].
 The shield only works with the peripheral point of a powered armour limb.
-The shield gives an armour rating bonus of +100 and 0-2 (1d3-1) accessories.
+The shield gives an Defence Rating bonus of +100 and 0-2 (1d3-1) accessories.
 The accessories for a powered shield are generated at xref:iii-hardware:CH42_Powered_Armour.adoc#_upper_limbs[Upper Limbs,window=_blank].
 
 Protex Shield::
 A protex shield functions like the armour type <<_protex,Protex>>.
-There is no adjustment of the persona's armour rating. 
+There is no adjustment of the persona's Defence Rating. 
 The shield absorbs 100-400 (1d4x100) hit points of the protex type. 
 
 :art: vac_suit_MiltonLuros_1953.png
@@ -383,7 +383,7 @@ include::ROOT:partial$CH42_Table_Vac_Suit.adoc[]
 ==== Civilian
 
 [horizontal]
-Armour Rating:: 500
+Defence Rating:: 500
 Restrictiveness:: 4
 Wate:: 10 (8kg)
 EXPS:: 350
@@ -423,7 +423,7 @@ include::ROOT:partial$articulate.adoc[]
 ==== Industrial
 
 [horizontal]
-Armour Rating:: 600
+Defence Rating:: 600
 Restrictiveness:: 8
 Wate:: 30 (21kg)
 EXPS:: 350
@@ -445,7 +445,7 @@ An industrial vac suit cannot function inatmo.
 ==== Military
 
 [horizontal]
-Armour Rating:: 700
+Defence Rating:: 700
 Restrictiveness:: 6
 Wate:: 20 (15kg)
 EXPS:: 350
@@ -477,13 +477,13 @@ The suit melts into harmless space debris, leaving no helpful evidence behind.
 
 == Armour Parameters
 
-=== Armour Rating 
-The higher the armour rating, the better the protection offered to the wearer.
-Not all the armour in this chapter has a high armour rating, but each offers some unique form of special protection.
+=== Defence Rating 
+The higher the Defence Rating, the better the protection offered to the wearer.
+Not all the armour in this chapter has a high Defence Rating, but each offers some unique form of special protection.
 
-The base armour rating of an unarmoured target is 500.
+The base Defence Rating of an unarmoured target is 500.
 The armour ratings are related to this base value.
-For instance, a suit of armour with an armour rating of 725 would give the wearer a base armour rating of 725 instead of 500.
+For instance, a suit of armour with an Defence Rating of 725 would give the wearer a base Defence Rating of 725 instead of 500.
 
 === Restrictiveness 
 The more restrictive a suit of armour is, the more cumbersome and unyielding it is to normal body movement.

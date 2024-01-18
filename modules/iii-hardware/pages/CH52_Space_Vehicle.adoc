@@ -109,7 +109,7 @@ include::ROOT:partial$CH52_Table_Hull_Composition.adoc[]
 === Hull Strength 
 Hull strength determines the hull's ability to prevent damage to the ship's interior components.
 It is a mix of composition strength, shape and redundancy.
-The hull strength is also the hull armour rating (AR). 
+The hull strength is also the hull Defence Rating (DEF). 
 The hull cannot be damaged before depleting the hull's AR. 
 This depletion can happen fast in space vehicle combat.
 
@@ -558,7 +558,7 @@ Destroying the life support system exposes all of the hull's contents to the dea
 
 Life support is entirely self-contained and is impossible to tamper with and hard to destroy.
 The life support system functions entirely unknown for the players until something goes wrong.
-Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Gravity System
 Gravity maintains a safe, comfortable and convenient gravitational force throughout the space vessel.
@@ -570,7 +570,7 @@ The ship's computer controls gravity at a constant attraction of 1g with local a
 
 Gravity is entirely self-contained and is difficult to tamper with and hard to destroy.
 The gravity system functions entirely unknown for the players until something goes wrong.
-Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Hull
 The hull defines the space vessel.
@@ -583,21 +583,21 @@ Most often, the hull is an oblong spheroid that contains the space vehicle's con
 A space vehicle that can enter the atmosphere may have a more streamlined appearance. 
 
 The hull is the structure that maintains the ship's gravity and life support.
-Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
-=== Armour Rating 
-The armour rating indicates the strength of the space vehicle's hull.
-The armour rating is in addition to the shape and structure that the hull offers. 
-The hull and armour rating have an intimate relationship.
-The armour rating protects the hull and makes its appearance as the hull strength during hull creation.
+=== Defence Rating 
+The Defence Rating indicates the strength of the space vehicle's hull.
+The Defence Rating is in addition to the shape and structure that the hull offers. 
+The hull and Defence Rating have an intimate relationship.
+The Defence Rating protects the hull and makes its appearance as the hull strength during hull creation.
 
-The armour rating of the hull determines the structural resilience of the hull during combat. 
-Attack rolls must be higher than the hull's armour rating to damage the vessel.
-Damage reduces armour rating.
-Once the armour rating drops to 420, it no longer protects the hull.
+The Defence Rating of the hull determines the structural resilience of the hull during combat. 
+Attack rolls must be higher than the hull's Defence Rating to damage the vessel.
+Damage reduces Defence Rating.
+Once the Defence Rating drops to 420, it no longer protects the hull.
 
-The armour rating is a component of the life support system.
-Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
+The Defence Rating is a component of the life support system.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === ECM
 Electronic countermeasures (ECM) manipulate the electromagnetic spectrum to defend the ship.
@@ -615,14 +615,14 @@ For example, a mechanic with ECM 2 working with a level 3 computer creates a tot
 Electronic countermeasures are not part of the life support onion.
 
 === Shields
-The shields protect the hull armour rating from energy and kinetic attacks.
+The shields protect the hull Defence Rating from energy and kinetic attacks.
 These are the classic sciency fiction shields that handsome captains raise just before combat.
 The defensive shield can be a force field or a structural mechanism. 
 Both mechanisms work by distributing the destructive force across the entire hull.
 This faux scientific diffusion effectively dampers the damage.
 The shields have an active mode that the players turn on to thwart intentional damage.
 Shields also have a passive mode, and when present, they are part of the life support onion.
-Life support, gravity, armour rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Guns
 A gun is a defensive tool in space vehicle combat.
@@ -667,8 +667,8 @@ Before anything can damage or impair life support, it must work its way through 
 
 Before damaging life support, the outer layers of the onion must be disabled or destroyed. 
 The outermost layer of the onion is the ship’s shields. 
-If the ship does not have shields, the outermost layer of the onion is the hull armour rating. 
-The hull armour rating must fail before the hull can be damaged. 
+If the ship does not have shields, the outermost layer of the onion is the hull Defence Rating. 
+The hull Defence Rating must fail before the hull can be damaged. 
 The hull must fail before gravity control can be damaged. 
 Gravity control must fail before life support can be damaged.
 
@@ -1138,7 +1138,7 @@ include::ROOT:partial$CH52_Table_Space_Vehicle_Value.adoc[]
 
 === Example Value Calculation
 The following is an example value using the space bus from the <<_example_calculation,cargo space calculation>>.
-The spacecruiser has 100 tonnes displacement, armour rating of 700, exatmo drive 10, fuel level 5, computer level 4
+The spacecruiser has 100 tonnes displacement, Defence Rating of 700, exatmo drive 10, fuel level 5, computer level 4
 
 include::ROOT:partial$CH52_Table_Space_Vehicle_Value_Calc.adoc[]
 
