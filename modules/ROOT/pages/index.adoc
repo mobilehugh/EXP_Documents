@@ -11,16 +11,15 @@
 
 include::ROOT:partial$articulate.adoc[]
 
-== What is this? 
-EXP: The Game of Technological Chaos is a paper and dice table top sciency fiction role-playing game. 
-EXP is played sitting at a table with a bunch of friends. xref:CH01_playing_exp.adoc[Get started!,window=_blank]
+== A table top sciency fiction role playing game
+EXP: The Game of Technological Chaos is a paper and dice table top sciency fiction role-playing game (RPG). EXP is meant to be played with real people around a real table. Everything you need to know is on this website right here. xref:CH01_playing_exp.adoc[Get started!,window=_blank]
 
 // fix add in links to these
-.*The Game*
-* Play as an anthro, robot or alien
-* Play as a mechanic, biologist, mercenary or mysterious knite 
-* Play with tech like powered armour, fusion pistols, space vehicles, and useless junque
-* Play in a generic mythos to create a shared experience, or build your own
+.*Sales Pitch*
+* Play as an anthro, robot, alien, xref:i-roll_playing_rules:CH04__Families.adoc[and more]
+* Play as a mechanic, biologist, mercenary, knite, xref:i-roll_playing_rules:CH08_Vocations_.adoc[and more] 
+* Play with tech like powered armour, fusion pistols, space vehicles, xref:iii-hardware:An_index_hardware.adoc[and more]
+* Play in a xref:vi-appendices:Appy_C_Mythos_Generic.adoc[generic mythos] creating a shared experience, and more
 
 :art: exp_1990_cover_full.png
 :width: 
@@ -32,18 +31,20 @@ EXP is played sitting at a table with a bunch of friends. xref:CH01_playing_exp.
 
 include::ROOT:partial$articulate.adoc[]
 
-.*Rules 4 Nerds*
-* Randomly generate fleshed out personas with dice rolls galore, or not
-* Resolve combat or tasks with roll over mechanics, or not
-* Settle combat with a tactical war game like system or a story based theatrical one
-* Persona, vocations, combat, toys and mythos are integrated
-* The rule set is reslient and detail can be easily shed without collapsing playability
-
-.*Deets 4 Nerds*
+.*Info 4 RPG Nerds*
 * EXP is a heavily play tested, edited, RPG on its 7 version
 * EXP has a history that stretches from a 1970s homebrew to a yesterday's git push
-* EXP has automation tools for generating referee personas and more
-* EXP is available on github as an Antoradocs ready docs as code static website
+* Settle combat with a tactical war game like system or a story based theatrical one
+* Persona, vocations, combat, toys and mythos are integrated
+* EXP employs xref:i-roll_playing_rules:CH00_kilo_die_mechanic.adoc[the kilodie mechanic], a practical d1000 roll, to create highly granular outcomes, or not
+* Randomly generate fleshed out personas with dice rolls galore, or not
+* Resolve combat or tasks with roll over mechanics, or not
+* The rule set is reslient and detail can be easily shed without collapsing playability
+
+.*Info 4 Data Nerds*
+* EXP has xref:https://github.com/mobilehugh/EXP_Game_Tools[automation tools] for generating referee personas
+* EXP is written in xref:https://asciidoc.org/[asciidoc] in a xref:https://www.writethedocs.org/guide/docs-as-code/[docs as code] style and is ready for static website generation using xref:https://docs.antora.org/antora/latest/[Antoradocs]
+* EXP is xref:https://github.com/mobilehugh/EXP_Documents[available on github]
 * EXP is Free and open source (CC 4.0 share with attribution)
 * EXP is under active development
 

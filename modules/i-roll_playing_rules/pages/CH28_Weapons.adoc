@@ -246,11 +246,11 @@ NOTE: a static hexagon has a Defense of 542
 // fix area attack hexagon defense is 542
 
 === Area Weapons
-Most Type AOE attacks are weapons like xref:iii-hardware:CH45_Grenades.adoc[Grenades,window=_blank] or
+Most Area Attacks are weapons like xref:iii-hardware:CH45_Grenades.adoc[Grenades,window=_blank] or
 xref:iii-hardware:CH43_Aerosols.adoc[Aerosols,window=_blank].
-An alien or robot can have a Area attack.
+An alien or robot can have a Area Attack.
 Below are the mundane area of effect weapons.
-Mundane Area weapons function as Fling attacks.
+Mundane Area Attacks function as Fling attacks.
 
 include::ROOT:partial$CH28_Table_Type_AOE_Data.adoc[]
 
@@ -261,14 +261,14 @@ Range::
 The range of mundane grenades is equal to one hex per point of Strength.
 A persona with a Strength of ten could aim at a target ten hexes away. 
 
-AOE::
+Radius::
 Mundane area of effect weapons are unpredictable.
-The player must roll the area of effect each time one of them detonates.
-An AOE of zero indicates only the target hex is damaged.
+The player must roll the radius of effect each time one detonates.
+An radius of zero indicates only the target hex is damaged.
 The other hex values are the radius of the damage.
 
 Roll::
-What dice to use to generate the AOE radius of effect.
+What dice to use to generate the radius of effect.
 
 Damage::
 Damage indicates how many hit points the weapon removes from the target's hit points.
