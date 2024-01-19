@@ -25,14 +25,13 @@ The entire rule set, and technology system is based on anthros.
 Anthrocentric::
 Same as anthropocentric, but not limited to humans.
 
-Area of effect:: 
-The area in which targets are subjected to damage or special effects. 
-It is measured in hexes.
-The value usually gives a radius for a spherical area of effect.
+Area Attacks::
+An area attack affects an area of effect. 
+Typically a grenade or an aerosol.
+Area Attacks fall under Fling or Shoot Attack Types.
 
-Amour Rating (DEF):: 
-The amour rating of the persona indicates how well she is protected from damage in combat. 
-The higher the Defence Rating value the less likely she is to be damaged.
+Armour Rating::
+Legacy term replaced by Defence Rating.
 
 Attack roll::
 The dice roll that is used to see if a target was successfully attacked.
@@ -45,11 +44,12 @@ Attack table::
 A table that lists the attack information of a persona.
 
 Attack types::
-Attack types are used to define how a weapon attacks and inflicts damage.
-Attack types are in transition. What follows is new name and old name. 
-Strike, Strike: non-powereed thrusting and striking attacks
-Fling, Type B: non-powered projectile attacks
-Shoot, Type C: powered projectile attacks
+Attack types are used to define how a an attack works.
+Attacks are not just weapons, but include natural attacks like bites or punches.
+There are three main attack types.
+Strike: non-powereed thrusting and striking attacks
+Fling: non-powered projectile attacks
+Shoot: powered projectile attacks
 
 Attributes:: 
 These are the imaginary divisions of a persona’s physical abilities.
@@ -60,9 +60,7 @@ An indistinguishable part of a system.
 As opposed to bolted on and obviously an after thought.
 Robot peripherals can be baked-in when they are part of the robot's fabrication as opposed to added later.
 
-Raw Bonus (Raw):: 
-The attack roll bonus used when the persona is using an unfamiliar weapon. 
-This value is less than the attack roll bonus used for familiar weapons.
+
 
 Skilled Bonus (Skilled):: 
 The attack roll bonus used for familiar weapons.
@@ -93,6 +91,10 @@ The stronger the persona is, the more damage she will inflict.
 Damage Bonus (DB):: 
 This value is added to the damage roll for certain weapon types. 
 The stronger the persona is, the more damage she will inflict.
+
+Defence Rating (DEF):: 
+The amour rating of the persona indicates how well she is protected from damage in combat. 
+The higher the Defence Rating value the less likely she is to be damaged.
 
 Decidie::
 See Percentile Dice. 
@@ -141,6 +143,9 @@ The more experience points a persona has the better they are at stuff.
 A persona with higher experience will be more successful at combat and skills. 
 Experience points are earned through successful die rolls and role-playing. 
 
+EXPS::
+Abbreviation for experience points.
+
 Fabrication:: 
 The creation of a robot persona using dice and EXP rules. 
 Not a lie. 
@@ -160,6 +165,7 @@ The creation of something (persona, artifact, result) by rolling dice and using 
 
 Flotto::
 Short form of full-auto which means fully automatic. 
+Flotto Attacks are a subset of Shoot Attacks
 Usually a machine gun of some type.
 
 Gift::
@@ -252,6 +258,10 @@ Movement is the changing of position of personas during combat.
 Each persona has a movement rate in hexes per unit.
 This is the speed of the persona.
 
+Mundane Terra:: 
+The only known inhabited planet. 
+Mundane terra refers to cultural, technological and biological constructs on our planet.
+
 Mutation:: 
 Mutations are imaginary biological adaptations.
 They can give personas imaginary powers or defects.
@@ -296,6 +306,16 @@ Commonly needed by referees when story and pseudo science need to be synched.
 
 Proficiency::
 A legacy term that indicates that a persona has skill with a weapon.
+This has been replaced by Weapon Skill.
+
+Radius of effect:: 
+The area in which targets are subjected to damage or special effects. 
+It is measured in hexes.
+The value usually gives a radius for a spherical area of effect.
+
+Raw Bonus (Raw):: 
+The attack roll bonus used when the persona is using an unfamiliar weapon. 
+This value is less than the attack roll bonus used for familiar weapons.
 
 Ref::
 Short for referee. 
@@ -390,10 +410,18 @@ Strike attacks are limited to one attack roll per combat unit.
 Examples are swords, clubs, daggers, claws, teeth and punches.
 
 Sotto::
-Short form of semi-auto which means semi-automatic. 
+Short form of semi-auto which means semi-automatic.
+Sotto Attacks are a subset of Shoot Attacks 
 Usually a gun that can shoot multiple times per combat turn.
 
-Mundane Terra:: 
+Strike:: 
+A Strike Attack is a classification of attack, also called an attack type.
+Strike Attacks are non-powered thrusting and striking weapons. 
+Non-powered means that the persona must generate the force to inflict damage.
+Strike attacks are limited to one attack roll per combat unit.
+Examples are swords, clubs, daggers, claws, teeth and punches.
+
+Terra::
 The only known inhabited planet. 
 Mundane terra refers to cultural, technological and biological constructs on our planet.
 
@@ -417,43 +445,9 @@ Toys are devices from that personas use to gain strength and power.
 Toys are like magical items from fantasy games.
 Toys are created on the Technological Object Yield System.
 
-Strike:: 
-Type A is a classification of attack, also called an attack type.
-Type A attacks are non-powered thrusting and striking weapons. 
-Non-powered means that the persona must generate the force to inflict damage.
-Strike attacks are limited to one attack roll per combat unit.
-Examples are swords, clubs, daggers, claws, teeth and punches.
-
-Type B:: 
-Type B is a classification of attack, also called an attack type.
-Type B attacks are non-powered ranged weapons. 
-Non-powered means that the persona must generate the force to inflict damage.
-Some examples are bows, rocks, darts, launchable quills, and caustic spit.
-
-Type C:: 
-Type C is a classification of attack, also called an attack type.
-Type C attacks are powered weapons that make one attack roll per combat unit.
-A powered weapon requires no physical effort by the persona to cause damage. 
-Examples are bolt-action rifles, crossbows, aerosols, or lazer eyes. 
-
-Type D:: 
-Type D is a classification of attack, also called an attack type.
-Type D attacks are powered weapons that make two attack rolls per combat unit.
-A powered weapon requires no physical effort by the persona to cause damage. 
-Examples are semi-auto rifle, electron rifle, fission pistol or faster lazer eyes. 
-
-Type E:: 
-Type E is a classification of attack, also called an attack type
-Type E attacks are powered weapons that make three attack rolls per combat unit.
-Powered weapons require no physical effort by the persona to cause damage. 
-Examples are burst lasers, or fission rifle, plastix rifle, or crazy fast lazer eyes. 
-
-Type F:: 
-Type F is a classification of attack, also called an attack type. 
-Type F attacks are powered weapons the fire fully automatic.
-Fully automatic in EXP is 5 attack rolls per combat unit, where each attack represents up to 3 rounds.
-Powered weapons require no physical effort by the persona to cause damage. 
-Examples are full-auto lasers, machine guns, or holy crap dangerous lazer eyes. 
+Type (A,B,C,D,E,F,G,AOE);;
+Legacy terms for Attack Types.
+A = Strike, B = Fling, C = Shoot, D and E = Sotto, F = Flotto, G and AOE = Area.
 
 Unit:: 
 The unit is the smallest component of combat time in EXP. 
