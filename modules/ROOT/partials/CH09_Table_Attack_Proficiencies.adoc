@@ -1,59 +1,45 @@
 // Table 9.7 Attack Proficiencies
-.*Weapon Proficiencies Tables*
+.*EXPS Levels and Weapon Skills.*
 [width="75%",cols="<,3*^",frame="all", stripes="even"]
 |===
-4+<|Levels personas add new weapon proficiencies.
+4+<|EXPS Levels and Weapon Skills.
 
-s|Persona
-s|Attack Strike
-s|Attack Fling
-s|Attack Shoot
+4+<s|Non-Combat Vocations: Biologist, Mechanic, Veterinarian
 
-s|Vocation
-s|Levels
-s|Levels
-s|Levels
+|Type
+|Strike
+|Fling
+|Shoot
 
-|Biologist
-|1, 3, 6, 9, 12
-|1, 5, 8, 11, 14
-|1, 4, 7, 10, 13
+|Levels
+|1, 3, 6, 9
+|1, 5, 8, 11
+|1, 4, 7, 10
 
-|Knite
+4+<s|Combat Vocations: Knite, Mercenary, Nomad, Spie
+
+|Type
+|Strike
+|Fling
+|Shoot
+
+|Levels
 |1, 2, 4, 6, 8 
-|1, 3, 6, 9, 12
+|1, 3, 6, 9
 |1, 2, 4, 6, 8 
 
-|Mechanic
-|1, 3, 6, 9, 12
-|1, 4, 7, 10, 13
-|1, 2, 4, 6, 8 
+4+<s|Special Cases: Alien, Mercenary, Nothing, Robot
+
+|Alien
+3+<|Follows vocation if using none natural attacks
 
 |Mercenary
-3+<|Global proficiency. Add weapon skills.
-
-|Nomad
-|1, 3, 6, 9, 12
-|1+1, 4, 7, 10, 12
-|1, 5, 8, 11, 14
+3+<|Proficiency Action. Always uses Skilled Bonus.
 
 |Nothing
-3+<|Single proficiency only.
+3+<|Single weapon skill only. Choose wisely.
 
-|Spie
-|1, 2, 4, 6, 8 
-|1, 2, 4, 6, 8 
-|1, 2, 4, 6, 8 
-
-|Veterinarian
-|1, 3, 6, 9, 12
-|1, 5, 8, 11, 14
-|1, 4, 7, 10, 13
-
-s|Alien
-3+<|Natural attacks only.
-
-s|Robot
-3+<|Baked in attacks only.
+|Robot
+3+<|Only baked in weapons can be Skilled. All other attacks Raw.
 
 |===
