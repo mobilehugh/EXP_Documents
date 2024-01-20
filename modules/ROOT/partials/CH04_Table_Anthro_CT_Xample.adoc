@@ -3,7 +3,7 @@
 |===
 4+<s|Skilled Bonus (Skilled)
 
-|Attack Strike
+|Strike Attack
 3+<|1.5 * AWE + 2 * DEX + 1.5 * INT + 5 * STR + Level * Bonus
 
 |Attribute Bonus
@@ -16,7 +16,7 @@ s|Skilled for Strike
 2+|
 >s|196
 
-|Attack Fling
+|Fling Attack
 3+<|1 * AWE + 4 * DEX + 1 * INT + 2 * STR + Level * Bonus
 
 |Attribute Bonus
@@ -29,7 +29,7 @@ s|Skilled for Fling
 2+|
 >s|156
 
-|Attack Shoot
+|Shoot Attack
 3+<|1 * AWE + 9 * DEX + 1 * INT + 1 * STR + Level * Bonus
 
 |Attribute Bonus
@@ -48,7 +48,7 @@ s|Skilled for Shoot
 
 4+<s|Raw Bonus (Raw)
 
-|Attack Strike
+|Strike Attack
 3+<|Strike Skilled * spie percentage
 
 s|Raw for Strike
@@ -56,14 +56,14 @@ s|Raw for Strike
 >s|49 
 
 
-|Attack Fling
+|Fling Attack
 3+<|Fling Skilled * spie percentage
 
 s|Raw for Fling
 2+<|156 * 25%
 >s|39 
 
-|Attack Shoot
+|Shoot Attack
 3+<|Shoot Skilled * spie percentage
 
 s|Raw for Shoot
@@ -76,7 +76,7 @@ s|Raw for Shoot
 
 4+<s|Max Roll (Max)
 
-|Attack Strike
+|Strike Attack
 3+<|Strike Skilled + 625
 
 s|Max for Strike
@@ -84,14 +84,14 @@ s|Max for Strike
 >s|821 
 
 
-|Attack Fling
+|Fling Attack
 3+<|Fling Skilled + 650
 
 s|Max for Fling
 2+<|156 + 650
 >s|806
 
-|Attack Shoot
+|Shoot Attack
 3+<|Shoot Skilled + 675
 
 |Max for Shoot
@@ -104,7 +104,7 @@ s|Max for Fling
 |===
 4+<s|Damage Adjuster (Force)
 
-|Attack Strike
+|Strike Attack
 3+<|STR * 1/2
 
 s|Force for Strike
@@ -112,14 +112,14 @@ s|Force for Strike
 >s|8 
 
 
-|Attack Fling
+|Fling Attack
 3+<|STR * 1/4
 
 s|Force for Fling
 2+<|16 * .25
 >s|4
 
-|Attack Shoot
+|Shoot Attack
 3+<|STR * 0
 
 s|Force for Shoot
