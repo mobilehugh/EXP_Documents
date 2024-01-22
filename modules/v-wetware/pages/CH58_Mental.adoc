@@ -35,7 +35,7 @@ General Bonus:: Combat Ratio +4
 This mutant can absorb the assigned force that would typically damage her.
 A laser bolt will dissipate over her entire body, or radiation will pass through her unaffected.
 The damage type that the persona can absorb is determined on the Absorption Table.
-A persona with absorption can absorb an amount of damage equal to her HPS Maximum plus 3 HPS per experience level.
+A persona with absorption can absorb an amount of damage equal to her HPMimum plus 3 HPS per experience level.
 Damage cannot be reduced to less than one point of damage.
 For example, a level 4 persona with 30 HPS could absorb 42 HPS in damage.
 If the attack is supposed to inflict less than 42 HPS of damage, she will take no damage.
@@ -217,8 +217,8 @@ General Bonus:: Combat Ratio *3
 This deadly mutation allows the mutant to drain life from surrounding organic personas.
 Death field generation instantly drains hit points from the target(s) caught in the area of effect.
 If a target persona fails her psionic roll all of her hit points are drained.
-Anthros Hit Points Total is reduced to negative one half her Hit Points Maximum.
-Aliens Hit Points Total is reduced to zero.
+Anthros Hit Points is reduced to negative one half her Hit Points Maximum.
+Aliens Hit Points is reduced to zero.
 Robots are not affected by this mental attack.
 Jump to xref:i-roll_playing_rules:CH13_Health.adoc#_death[Death,window=_blank] for more info about persona death.
 
@@ -818,11 +818,11 @@ This mutant could punch, hug, or iron bar a target to activate life leech.
 
 The life force (hit points) is not wasted, and the life force heals the mutant.
 So if the mutant drains 8 hit points from the target, her HPS Total increased by 8.
-This does not stop until her HPS Total is double her HPS Max.
-So a mutant with an HPS Max of 21 could increase her HPS Total to 42. 
+This does not stop until her HPS Total is double her HPM.
+So a mutant with an HPM of 21 could increase her HPS Total to 42. 
 
 These bonus hit points quickly dissipate after the adrenaline of battle ceases.
-The mutant returns to her HPS Max after a nap or being knocked out.
+The mutant returns to her HPM after a nap or being knocked out.
 
 The mutation is constant. 
 A pat on the back, shake of the paw, or romantic hug will drain hit points.
@@ -1691,7 +1691,7 @@ General Bonus:: Combat Ratio +4, +10 on battery rolls
 Power drain allows the mutant to heal by draining potential energy from batteries.
 Any battery the mutant touches with her bare skin will be completely drained.
 She will restore 1-10 (1d10) hit points per battery she drains.
-Once she is at full health (HPS Max), the mutant still drains the batteries, but she does not heal.
+Once she is at full health (HPM), the mutant still drains the batteries, but she does not heal.
 This mutant must wear gloves when handling batteries, or they will be drained.
 She must protect battery-powered artifacts from her touch as well.
 Power drain only works for healing if the battery is touch directly.
@@ -1870,8 +1870,8 @@ If no skin is readily exposed, the mutant must win an attack roll against the ta
 The attack roll is required even if the target is voluntary. 
 For example, during combat, a persona will readily remove their armour.
 
-Restoration heals an amount of HPS equal to the mutant's hit points total.
-A mutant with 13 hit points total can restore 13 hit points to another by a mere touch.
+Restoration heals an amount of HPS equal to the mutant's hit points.
+A mutant with 13 hit points can restore 13 hit points to another by a mere touch.
 It is in the expedition's interest to keep this mutant healthy.
 Restoration only restores hit points and does not cure diseases or regrow missing limbs. 
 The mutant cannot reverse to inflict damage.
@@ -2147,8 +2147,8 @@ Even though the telekinetic arm is invisible, it must always be within line of s
 The mutant can only generate one telekinetic arm at a time.
 
 The telekinetic arm takes damage from area of effect attacks. 
-A telekinetic arm will dissipate if it takes more than half the mutant's HPS Max.
-A mutant who has 50 HPS Max would lose her telekinetic arm at 25 HPS of damage. 
+A telekinetic arm will dissipate if it takes more than half the mutant's HPM.
+A mutant who has 50 HPM would lose her telekinetic arm at 25 HPS of damage. 
 The mutant takes no damage, but the arm will dissipate and drop any item it is carrying.
 
 === Telekinetic Flight 
@@ -2355,7 +2355,7 @@ Total recuperation allows the mutant to restore her body to a previously undamag
 The mutant repairs her traumatized tissues by comparing them to an undamaged template stored in her consciousness.
 The mutation will not stop the effects of poisons, cancers, infections, or amputations.
 The mutant can instantly restore all her hit points.
-The persona's HPS Total is recuperated to her HPS Max when this mutation is activated.
+The persona's HPS Total is recuperated to her HPM when this mutation is activated.
 Total recuperation can be consciously activated by the mutant or automatically activated when at less than 1 HPS Total.
 There must be remaining uses for total recuperation to automatically activate.  
 

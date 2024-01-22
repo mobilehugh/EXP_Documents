@@ -6,7 +6,7 @@ In turn, her Constitution determines her hit points.
 
 Hit points has two components.
 The first component is the fixed hit point max (HPM).
-The second component is the dynamic hit point total (HPT).
+The second component is the dynamic hit point total (HPS).
 When someone asks how many hit points a persona has, one responds with the hit point max value.
 When someone asks how many hit points a persona has left, one responds with their hit point total. 
 The hit points max is full health, and the hit point total is present health. 
@@ -29,31 +29,31 @@ A persona with a CON of 11 would roll 6d8 and add 11. Rounding benefits the play
 ****
 // end::Anthro_HPS[]
 
-== Hit Points Total (HPT)
-Hit points total reflects the number of hit points the persona has left.
+== Hit Points (HPS)
+Hit Points reflects the number of hit points the persona has left.
 The more hit points the persona has left, the healthier they are.
-If the hit points total drops to zero, bad things start to happen. 
-If the hit points total drops below zero, the persona is dying.
+If the hit points drops to zero, bad things start to happen. 
+If the hit points drops below zero, the persona is dying.
 
 == Hit Points Minimum (Death)
 When the persona loses enough hit points, she is dead.
 Death represents a specific negative hit point total.
 The hit points minimum is "negative half" her hits points maximum.
-A persona with a hit points max of 42 would be irrevocably dead at -21 hit points total. 
+A persona with a hit points max of 42 would be irrevocably dead at -21 hit points. 
 If the persona in this paragraph loses 63 hit points at once, she is instantly dead.
 
-Hit points minimum is also called negative one half of one's HPT.
+Hit points minimum is also called negative one half of one's HPS.
 
-=== Anthro Minimum HPT Calculation
+=== Anthro Minimum HPS Calculation
 .Death = -1 times (1/2 max HPM)
 ****
-For example an anthro persona with 30 HPM would be dead if her HPT dropped to negative 15 (-15).
+For example an anthro persona with 30 HPM would be dead if her HPS dropped to negative 15 (-15).
 ****
 
 Hit points is an attribute that can drop below one without killing the persona.
 A persona with a negative hit point total is unconscious and dying from physical trauma.
 Having a negative hit point total is often referred to as "being negative."
-A persona with a negative hit points total is unconscious and can do nothing other than lay about and bleed.
+A persona with a negative hit points is unconscious and can do nothing other than lay about and bleed.
 
 The persona loses one hit point every five units (10 seconds) while her hit point total is negative.
 A persona at -2 hit points will drop to -3 hit points five units later, and then -4 hits points 10 seconds after that.
@@ -71,11 +71,11 @@ The DSS is a specialized attribute roll that takes into consideration the person
 
 === Damage System Shock Roll (DSS)
 // tag::Anthro_DSS[]
-.1d20 + HPT + CON + LVL > 42
+.1d20 + HPS + CON + LVL > 42
 ****
-A 1st level anthro with 30 HPT and 10 CON  must roll 1 on 1d20.
-A 1st level anthro with 20 HPT and 10 CON  must roll 11 on 1d20.
-A 1st level anthro with 11 HPT and 10 CON  must roll 20 on 1d20
+A 1st level anthro with 30 HPS and 10 CON  must roll 1 on 1d20.
+A 1st level anthro with 20 HPS and 10 CON  must roll 11 on 1d20.
+A 1st level anthro with 11 HPS and 10 CON  must roll 20 on 1d20
 ****
 // end::Anthro_DSS[]
 
@@ -86,14 +86,14 @@ The REC is a specialized attribute roll that takes into consideration the person
 
 === Recovery Roll (REC)
 // tag::Anthro_REC[]
-.1d20 + HPT + CON + LVL > 32
+.1d20 + HPS + CON + LVL > 32
 ****
-A 1st level anthro with 20 HPT and 10 CON  must roll 1 on 1d20.
-A 1st level anthro with 6 HPT and 10 CON  must roll 15 on 1d20.
+A 1st level anthro with 20 HPS and 10 CON  must roll 1 on 1d20.
+A 1st level anthro with 6 HPS and 10 CON  must roll 15 on 1d20.
 ****
 // end::Anthro_REC[]
 
-Recovery rolls only apply to personas with an HPT greater than 0. 
+Recovery rolls only apply to personas with an HPS greater than 0. 
 The player can check every few units during combat or whenever the referee feels a recovery roll is appropriate.
 Once combat has ended, all stunned personas should immediately recover and join in on the game.
 

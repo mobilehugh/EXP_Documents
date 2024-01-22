@@ -54,9 +54,9 @@ Each time an ageing cure extends a persona's life span, the cure's safety level 
 Value is 250000 per dose.
 
 Trauma::
-This cure removes any abnormal decreases to the patient's hit point maximum (HPM or HPS Max).
+This cure removes any abnormal decreases to the patient's hit point maximum (HPM or HPM).
 If there is no injury to the persona's hit points max, the patient's hit point max increases by 10%
-Each time a trauma cure increases the patient's HPS Max, the cure's safety level halves.
+Each time a trauma cure increases the patient's HPM, the cure's safety level halves.
 The trauma cure has no impact on the patient's hit point total.
 Value is 250000 per dose.
 
@@ -219,14 +219,14 @@ The less common heal type restores damaged attributes.
 include::ROOT:partial$CH50_Table_Heal_Type.adoc[]
 
 ==== Hit Points
-Healing pharma instantly improves the persona's hit point total (HPS Total) but does not affect the maximum hit point (HPS Max).
+Healing pharma instantly improves the persona's hit point total (HPS Total) but does not affect the maximum hit point (HPM).
 So a persona with 42 hit points maximum will only heal to 42 hit points and no more.
 
 include::ROOT:partial$CH50_Table_Hit_Points_HPS_Healed.adoc[]
 
 Percent Heal::
 A percent heal pharmaceutical raises the persona's hit point total to a certain percent of her hit point maximum.
-A patient with 50 HPS Max taking a 50% heal jumps right to 25 HPS Total.
+A patient with 50 HPM taking a 50% heal jumps right to 25 HPS Total.
 If that patient had more than 25 hit points, the percent heal has no effect.
 
 Hit Points Heal::

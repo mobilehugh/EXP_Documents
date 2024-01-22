@@ -30,75 +30,52 @@ She can gradually regain lost hit points as her body repairs itself.
 No other attribute dances around like this.
 
 To keep track of this attribute, it has two parts. 
-These two parts are the constant hit points maximum, and the dynamic hit points total. 
+These two parts are the constant hit points maximum (HPM), and the dynamic hit points (HPS). 
+They are often referred to collectively as hit points.
 
-== Hit Points Maximum
-A persona's hit points maximum is determined once.
-The player calculates her persona's hit points during persona generation.
-Each family calculates its hit points maximum differently.
-
-The hit points max (HPS Max) is a fixed element. 
-A persona with 42 HPS Max will always have 42 HPS Max. 
-A persona cannot heal beyond her hit points max.
-For example, a healing pharmaceutical can restore a persona to 42 HPS but not beyond. 
-Hit points max is not completely permanent. 
-Age, robot decay, or other nastiness can reduce the HPS Max.
-
-== Hit Points Total
-HPS Total is the number of hit points the persona has at this instant.
-When uninjured, the hit points total (HPS Total) equals the HPS Max.
-The persona's HPS Total decreases every time she is injured. 
-The HPS Total is like a fuel gauge for damage.
-The lower the fuel gauge, the less damage the persona can withstand. 
-If this damage gauge gets to zero, dramatic things happen to the persona.
-These dramatic things include unconsciousness and death.
-
-WARNING: There is a move afoot to replace HPS Max with HPM and HPS Total with HPT. 
-
-== Hit Points
-A Hit Point doesn't convert to a unit of energy – like an erg.
+A hit point is not like an erg, or some other unit of energy.
 However, a hit point has a constant value.
 One hit point of damage reduces the hit point total of the persona.
 A hit point is a hit point is a hit point.
 Anthros, aliens, robots, and inanimate objects all lose hit points when damaged.
 
-== Same Hit Point Different Impact
+== Hit Points Maximum (HPM)
+A persona's hit points maximum is determined once.
+The player calculates her persona's hit point maximum during persona generation.
+Each family calculates its hit points maximum differently.
+
+The hit points max (HPM) is a fixed element. 
+A persona with 42 HPM will always have a hit points max of 42. 
+A persona cannot heal beyond her hit points max.
+For example, a healing pharmaceutical can restore a persona to 42 HPS but not beyond. 
+Hit points max is not completely permanent. 
+Age, robot decay, or other nastiness can reduce the Hit Points Maximum.
+There are science fiction interventions that can increase a persona's HPM
+
+== Hit Points (HPS)
+HPS is the number of hit points the persona has at this instant.
+When uninjured, the hit points (HPS) equals the hit points max (HPM).
+The persona's HPS Total decreases every time she is injured. 
+The HPS attribute is like a fuel gauge for damage.
+The lower the fuel gauge, the less damage the persona can withstand. 
+If this damage gauge gets to zero, dramatic things happen to the persona.
+These dramatic things include unconsciousness and death.
+
+== Hit Points and Families
 Robots, aliens and anthros all deduct hit points in the same fashion.
 However, the impact of a hit point varies between the families.
-Here are some brief examples. 
+Following are some brief examples. 
 
-Anthros can be stunned if they lose too many hit points at once. Aliens and robots cannot be stunned or knocked out by a bolus of damage.
-Anthros go unconscious and start dying at zero hit points total. Aliens are dead at zero hit points total. Robots break something and decay a bit at zero hit points. 
-Aliens and anthros (organic personas) can spontaneously heal hit points through rest. Robots cannot spontaneously heal hit points and must face dangerous repairs. 
-
-
-// brand new table for version 6.0
-.*Hit Points by Family*
-[width="75%",cols="<,^,^,^"]
-
-|===
-
-|
-s|Anthro
-s|Alien
-s|Robot
-
-s|Range
-|5-90
-|1-750
-|1-520
+.*Points About Hit Points*
+* Anthros can be stunned if they lose too many hit points at once. 
+** Aliens and robots cannot be stunned or knocked out by a bolus of damage.
+* Anthros go unconscious and start dying at zero hit points. 
+** Aliens are dead at zero hit points. 
+** Robots break something and decay a bit at zero hit points. 
+* Spontaneous HPS recovery
+** Organics (aliens and anthros) heal hit points through rest. 
+** Robots do not heal hit points, and the risk of repairs usually exceed benefits. 
 
 
-s|Determined by 
-|CON
-|CON and Size
-|CON and Type
-
-|
-s|Anthro
-s|Alien
-s|Robot
-
-|===
-
+include::ROOT:partial$hit_points_and_families.adoc[]
 

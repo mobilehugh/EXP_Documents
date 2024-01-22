@@ -53,49 +53,49 @@ For a robot, zero hit points indicate some system is damaged.
 When a robot's HPS total drops below zero, several things happen.
 
 .Zero HPS Checklist
-. <<_hps_max_damage,HPS Max Damage>>
+. <<_hps_max_damage,HPM Damage>>
 . <<_system_damage,System Damage>>
 . <<_attribute_damage,Attribute Damage>>
 
 This is sometimes referred to as robot decay, or the decay trifecta.
 
-== HPS Max Damage
-Each time the persona's hit points total drops to zero, the robot takes 10% off her hitpoints max.
-A robot with 110 HPS Max drops by 10% to a new HPS Max of 99.
-The drop in HPS Max rounds down and does not benefit the player.
-The robot is dead when her HPS Max reaches zero.
+== HPM Damage
+Each time the persona's hit points drops to zero, the robot takes 10% off her hitpoints max.
+A robot with 110 HPM drops by 10% to a new HPM of 99.
+The drop in HPM rounds down and does not benefit the player.
+The robot is dead when her HPM reaches zero.
 
-=== HPS Max Decrease
-.New HPS Max = old HPS Max times 0.9
+=== HPM Decrease
+.New HPM = old HPM times 0.9
 ****
-HPS Max of 110 drops to 99. HPS Total resets to new HPS Max. 
+HPM of 110 drops to 99. HPS Total resets to new HPM. 
 Always round down.
 ****
 
 === Rounding Down
-This drop in HPS Max continues until the HPS Max is less than one.
-The robot drops her HPS Max by 10% every time her HPS Total drops to zero.
-Her HPS Max would decrease like so: 110, 99, 89, 80, 72, 64, 57 etc.
-An HPS Max of zero indicates a destroyed robot. 
+This drop in HPM continues until the HPM is less than one.
+The robot drops her HPM by 10% every time her HPS Total drops to zero.
+Her HPM would decrease like so: 110, 99, 89, 80, 72, 64, 57 etc.
+An HPM of zero indicates a destroyed robot. 
 The total damage (using Python models) this robot could sustain is 970 HPS.
 Although it is more likely an attribute will drop to zero and destroy the robot first.
 
 === Carry Over
-What happens if a robot takes more than her HPS Max in one massive attack?
+What happens if a robot takes more than her HPM in one massive attack?
 In this case, the referee must carry over the remaining damage and subtract it from the newly minted hit point total.
 
-Consider a fresh new robot with 110 HPS Max.
+Consider a fresh new robot with 110 HPM.
 She takes 115 HPS of damage all at once.
 The first 110 hit points of damage reduce her hit point total to zero.
 This HPS Total would drop to zero, triggering the robot decay trifecta.
 The referee carries over the remaining five hit points in damage and subtracts them from the new HPS Total.
 
-For example, her new HPS MAX is 99, and the remaining 5 HPS of damage is carried over.
-Her new HPS Max would be 99, and her HPS Total would be 94.
+For example, her new HPM is 99, and the remaining 5 HPS of damage is carried over.
+Her new HPM would be 99, and her HPS Total would be 94.
 A large bolus of damage can run a robot through the decay trifecta several times.
 
 == System Damage 
-When the robot's hit points total drops to zero, the player checks to see which robot system was most damaged.
+When the robot's hit points drops to zero, the player checks to see which robot system was most damaged.
 System damage is similar to a hit location, but the part that malfunctions may be far away from the point of injury. 
 The player rolls to determine the system damaged and rolls to determine its severity.
 
