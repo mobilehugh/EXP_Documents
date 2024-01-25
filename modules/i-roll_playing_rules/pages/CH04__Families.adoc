@@ -8,13 +8,12 @@
 
 ifeval::["{docname}" == "CH26_Role_Gen_Persona_Families"]
 
-
 // substitution is for Roll Playing Rules
+// when called from CH26_Role_Gen_Persona_Families.adoc
 :anthrogen: xref:CH26_Role_Gen_Anthro.adoc[Anthros,window=_blank]
 :aliengen: xref:CH26_Role_Gen_Alien.adoc[Aliens,window=_blank]
 :robotgen: xref:CH26_Role_Gen_Robot.adoc[Robots,window=_blank]
 endif::[]
-
 
 [quote]
 ____
@@ -36,16 +35,31 @@ It is even simpler to use their familiar names: anthro, alien, and robot.
 * *Domains, Kingdom, Phylum, Class, Order:*  are ignored
 * *Family:* 
 ** Hominidae (Anthro)
+*** Genus (Homo Avis, Homo Canis, Homo Felis, etc)
+*** Species (specific appearance - Hawk, Polar Bear, Generis, etc)
 ** Diversidae (Alien)
+*** Genus (Torso faux name)
+*** Species (Head faux name)
 ** Machinidae (Robot)
-* *Genus:*
-** Anthro = Homo
-** Alien = Determined at generation
-** Robotic = Fabricator Name
-* *Species:*
-** Anthro = Avis, Aqua, Canis, Felis, etc.
-** Alien = Determined at generation
-** Robot = Android, Combot, Hobbot, Rescue
+*** Series (Combot, Datatlyzer, etc)
+*** Model (Expendable, Exatmo, Industrial, etc)
+** Autonomidae (Autonomous Intelligence)
+*** Series (Distro)
+*** Model (Mobility)
+
+.*Some examples*
+* *polar bear anthro*
+** Family - Hominidae
+** Genus - Homo Ursis
+** Species - Polaris
+* *alien with a turtle body and a mosquito head*
+** Family - Diversidae
+** Genus - Tortillis
+** Species - Irritii
+* *an expendable combat robot*
+** Family - Mechanidae
+** Genus - Combot
+** Species - Expendable
 
 :art: life_in_colour.svg
 :width: 700px
@@ -61,9 +75,12 @@ The aliens could all be robots.
 The anthros could be aliens.
 Don't let the rules get in the way of a good story.
 
+
+// image needed here
+
 == Anthro Family (Hominidae)
 Anthros are organic upright bipedal humanoids that are immediately relatable to players.
-Anthros have a shape, structure and physiology most similar to our own. 
+Anthros have a shape, structure and physiology to the life form reading this documnet. 
 Anthros possess language, culture, vocations and norms that are familiar to us from mundane terra. 
 Most player personas will be anthros. 
 Beginning players should only deliver anthro personas.
@@ -122,7 +139,6 @@ A player creating an AI persona would require the referee to develop an entire m
 The referee may even need to develop an entire rule system to account for the AI's knowledge base and data acquisition continuum.
 An AI is exclusively in the domain of a referee persona.
 To fabricate and AI port over to xref:v-wetware:CH69_AI.adoc[Autonomous Intelligence,window=_blank].
-
 
 == Random Family 
 Random family determination is usually for referee personas.
