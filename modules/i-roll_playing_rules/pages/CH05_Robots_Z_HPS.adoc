@@ -53,7 +53,7 @@ For a robot, zero hit points indicate some system is damaged.
 When a robot's HPS total drops below zero, several things happen.
 
 .Zero HPS Checklist
-. <<_hps_max_damage,HPM Damage>>
+. <<_hpm_damage,HPM Damage>>
 . <<_system_damage,System Damage>>
 . <<_attribute_damage,Attribute Damage>>
 
@@ -94,7 +94,7 @@ For example, her new HPM is 99, and the remaining 5 HPS of damage is carried ove
 Her new HPM would be 99, and her HPS Total would be 94.
 A large bolus of damage can run a robot through the decay trifecta several times.
 
-== System Damage 
+== System Damage
 When the robot's hit points drops to zero, the player checks to see which robot system was most damaged.
 System damage is similar to a hit location, but the part that malfunctions may be far away from the point of injury. 
 The player rolls to determine the system damaged and rolls to determine its severity.

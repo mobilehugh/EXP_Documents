@@ -24,7 +24,6 @@ include::ROOT:partial$CH26_Table_Record_Alien.adoc[]
 . <<_alien_mutations,Mutations>>
 . <<_alien_abilities,Abilities>>
 . <<_alien_vocation,Vocations>>
-. <<_alien_skills,Skills>>
 . <<_alien_artifacts,Artifacts>>
 . <<_alien_name,Name>>
 . <<_alien_history,History>>
@@ -203,11 +202,12 @@ The Crab (lw) body part has l and w, and the Moth (a) body part only has a.
 The crab can move on land and in water, and the moth can move in the air.
 
 .*Movement as Abilities*
-. l - land borne can move on land
-. a - airborne alien has flying ability
-. w - water-borne alien has swimming ability
+* l - land borne can move on land
+* a - air borne alien has flying ability
+* w - water borne alien has swimming ability
+* s - sessile, non-moving but indigenous
 
-The Mundane Terran phrases air, water and land describe alien movement.
+The Mundane Terran terrains air, water and land describe alien movement.
 Aquatic (w) indicates liquid.
 Aquatic could be water or liquid ammonia.
 Air (a) indicates gaseous.
@@ -223,6 +223,7 @@ Air 2 would fly faster than Air 1 and would enjoy a shift in air combat.
 Alien mutations are natural abilities that the alien has evolved over time or in a vat.
 Alien mutations can only be beneficial or useless. 
 An alien will not evolve themselves a defect.
+Evolved mutations that are part of a species are called Evolutations.
 
 .*Mutate Now. Like Darwin said.*
 * CON attribute personas are assigned one non-defective Phenomic Mutation.
@@ -235,11 +236,11 @@ For more information about mutation types jump to xref:v-wetware:An_index_wetwar
 
 == Alien Abilities
 Alien abilities are natural skills that their species evolved in some primordial state.
-Mutations are the obvious alien abilities. 
+Pretty much anything that differentiates the alien from other species is considered an alien ability.
+Evolutations are abilities.
 Movement types are also abilities. 
-An alien may also have some natural abilities that are part of her species.
 
-Naturally evolved abilities are not compatible with vocation abilities. 
+Naturally evolved abilities do not automatically translate into vocation or weapon skills. 
 For example, an alien with three attacks per unit cannot use a pistol three times per unit. 
 The three attacks are only for her naturally evolved attacks.
 
@@ -303,7 +304,6 @@ For example, choosing a vet does not allow the persona to add CHA or choose one 
 A randomly chosen spie would get the DEX attribute and be able to choose one ability.
 
 include::ROOT:partial$CH26_Table_Role_Vocations.adoc[]
-
 
 === Vocation Attributes
 Each vocation is associated with an attribute.
