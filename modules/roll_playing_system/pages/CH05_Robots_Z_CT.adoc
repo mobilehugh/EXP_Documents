@@ -1,30 +1,30 @@
-= Robot Combat Table
+= Robot Attack Table
 
-The tactical combat system in the roll playing rules uses an attack matrix called the combat table.
-The player refers to the combat table every time she makes an attack roll.
-The robot combat table is easier to generate and manage than the anthro combat table.
-There are fewer calculations on the robot combat table.
+The tactical combat system in the Roll Playing System uses an attack matrix called the attack table.
+The player refers to the attack table every time she makes an attack roll.
+The robot attack table is easier to generate and manage than the anthro attack table.
+There are fewer calculations on the robot attack table.
 
-The robot combat table is for attacks baked-in during fabrication.
-A robot's combat table need only include the robot's baked-in attack types.
-However, calculating the complete combat table to future proof the robot persona.
+The robot attack table is for attacks baked-in during fabrication.
+A robot's attack table need only include the robot's baked-in attack types.
+However, calculating the complete attack table to future proof the robot persona.
 
 This section has cursory explanations and detailed calculations. 
-For more info jump to xref:roll_playing_system:CH09_Combat_Tables.adoc[Combat Tables,window=_blank].
+For more info jump to xref:roll_playing_system:CH09_Combat_Tables.adoc[Attack Tables,window=_blank].
 
 == Robots and Weapons
-This combat table is for the robot's baked-in attacks generated during robot fabrication.
+This attack table is for the robot's baked-in attacks generated during robot fabrication.
 Most baked-in attacks come from the robot's offensive systems section.
-The robot combat table is not for external artifact weapons that the robot has picked up to use.
+The robot attack table is not for external artifact weapons that the robot has picked up to use.
 In most cases, robots will not be able to use weapons like an anthro persona.
-If the robot has a vocation or can use weapons like guns and swords, the player must generate an additional combat table.
-The tool using robot fabricates a combat table from xref:roll_playing_system:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
-If the robot has a vocation (like an android), the player will generate the combat table using the alien's vocation type.
-If the robot does not have a vocation, the player uses the nothing vocation on the xref:roll_playing_system:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
+If the robot has a vocation or can use weapons like guns and swords, the player must generate an additional attack table.
+The tool using robot fabricates a attack table from xref:roll_playing_system:CH04_Anthros_CT.adoc[Anthro Attack Table,window=_blank].
+If the robot has a vocation (like an android), the player will generate the attack table using the alien's vocation type.
+If the robot does not have a vocation, the player uses the nothing vocation on the xref:roll_playing_system:CH04_Anthros_CT.adoc[Anthro Attack Table,window=_blank].
 
 include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
 
-.*Combat Table Checklist*
+.*Attack Table Checklist*
 . <<_attack_types,Attack Types>>
 . <<_skilled_bonus,Skilled Bonus>>
 .. <<_attribute_bonus,Attribute Bonus>>
@@ -65,7 +65,7 @@ The persona's Skilled increases as the persona gains EXPS levels.
 The persona's attributes determine the majority of the robot's Skilled Bonus.
 Strong robots are good at ramming.
 Dextrous robots are good at firing arrows.
-If a persona's attributes increase or decrease, the player should recalculate her combat table.
+If a persona's attributes increase or decrease, the player should recalculate her attack table.
 In the case of robots, attributes tend to decrease.
 
 include::ROOT:partial$CH05_Table_Robotic_CT_Attr.adoc[]
@@ -84,7 +84,7 @@ include::ROOT:partial$CH05_Table_Robotic_CT_Lvl.adoc[]
 == Raw Bonus
 Robots do not have a Raw Bonus. 
 A robot's programming does not allow for unskilled attacks, and the robot's Raw is zero.
-Robot Raw is the easiest of all the combat table elements to calculate.
+Robot Raw is the easiest of all the attack table elements to calculate.
 
 == Max Roll
 Robots do not have a Max Roll.
@@ -98,7 +98,7 @@ Shoot attacks do not depend on the robot's Strength and have no Force Bonus.
 
 include::ROOT:partial$CH05_Table_Robotic_CT_DA.adoc[]
 
-=== Robot Combat Table Example
+=== Robot Attack Table Example
 A 3rd level robot has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 STR.
 Her robotic primes are DEX of 2, INT of 2, and STR of 3
 

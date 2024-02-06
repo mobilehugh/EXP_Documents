@@ -68,7 +68,7 @@ Completion date is 14-June-2024.
 .*Goals of Versions 7.x*
 * move from letters to words 
 ** weapons types become descriptive
-** attack tables instead of combat tables
+** attack tables instead of attack tables
 ** shorten STR and MND
 * pre-roll implementation
 * reorganize ROOT with sub-folders
@@ -92,7 +92,7 @@ Completion date is 14-June-2024.
 .. Type Selection
 .. Mutation creation
 .. Vocation selection
-.. Combat Tables
+.. Attack Tables
 .. Name generators
 ... Anthro for sub types
 ... Aliens given and species
@@ -241,8 +241,8 @@ ____
 * Willforce
 
 
-== PROPOSAL: Combat Table Nomenclature Simplification
-Proposed rework of the Combat Table and its ancillary components. 
+== PROPOSAL: Attack Table Nomenclature Simplification
+Proposed rework of the Attack Table and its ancillary components. 
 Goal is to reduce complexity and improve understanding. 
 Underlying variable names will be unchanged in the tools application. 
 
@@ -259,8 +259,8 @@ Some abbreviations have changed on the persona record.
 * Type F -> *Flotto*: Full auto *Shooting* 5 attacks per unit
 * Type AOE -> *Grenade*: *Flinging* at target hex no damage bonus
 
-.*Proposed Changes to Combat Table*
-* Combat Table -> *Attack Table*
+.*Proposed Changes to Attack Table*
+* Attack Table -> *Attack Table*
 * BP (Skilled Bonus) -> *Skilled*
 * BNP (Raw Bonus) -> *Raw*
 * Max (Max Roll) -> *Max*
@@ -268,7 +268,7 @@ Some abbreviations have changed on the persona record.
 
 NOTE: Raw may change to Unskilled. Raw is shorter and edgier.
 
-// Proposed changes to Combat Table
+// Proposed changes to Attack Table
 .*Attack Table*
 [width="95%",cols="<,^,^,^,^",frame="all", stripes="even"]
 |===
