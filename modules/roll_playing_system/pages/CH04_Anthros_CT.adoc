@@ -1,0 +1,66 @@
+= Anthro Combat Table
+
+The tactical combat system in the roll playing rules uses an attack matrix called the combat table.
+The player refers to the combat table every time she makes an attack roll.
+This section covers the details of how to calculate a combat table for an anthro persona.
+The anthro combat table is the same as a vocation-based combat table.
+Aliens and robots have their combat tables, but they will use the combat table found here if either has a vocation.
+
+This section has cursory explanations and detailed calculations. 
+For more info jump to xref:roll_playing_system:CH09_Combat_Tables.adoc[Combat Tables,window=_blank].
+
+include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
+
+.*Combat Table Checklist*
+. <<_skilled_bonus,Skilled Bonus>>
+.. <<_attribute_bonus,Attribute Bonus>>
+.. <<_level_bonus,Level Bonus>>
+. <<_raw_bonus,Raw Bonus>>
+. <<_max_roll,Max Roll>>
+. <<_force_bonus,Force Bonus>>
+
+== Skilled Bonus
+The Skilled Bonus (Skilled) is for weapons in which the persona is skilled.
+The player adds the Skilled to her attack roll when her persona uses a weapon in which she is proficient.
+The Skilled has two main components: Attributes Bonus and Level bonus.
+The persona's Skilled increases as the persona gains EXPS levels. 
+
+=== Attribute Bonus
+The persona's attributes determine the majority of the persona's Skilled Bonus.
+Strong personas wield crushing weapons well.
+Dextrous personas wield projectile weapons well.
+If a persona's attributes increase or decrease, the player should recalculate her combat table.
+
+include::ROOT:partial$CH04_Table_Anthro_CT_BP_Attr.adoc[]
+
+=== Level Bonus
+The persona's vocation determines her level bonus.
+Each vocation has its level bonus.r attack roll.
+This reduction of her Skilled depends on her vocation and weapon type.
+The Raw Bonus Table numbers are percentages that the player multiplies the Skilled by.
+A nomad with a 100 Skilled would have a 25 Raw for her unskilled weapons.
+
+include::ROOT:partial$CH09_Table_Anthro_CT_BNP.adoc[]
+
+== Raw Bonus
+The Raw Bonus (Raw) is not a wrestling thang.
+A persona's Raw Bonus represents the persona's raw attribute abilities.
+Usually this is reserved for Weapons that the persona is not skilled with.
+
+
+== Max Roll
+The Max Roll is the highest roll that a player can make on the kilo-die attack roll.
+There is always a chance to damage an attacker using xref:roll_playing_system:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+include::ROOT:partial$CH04_Table_Anthro_CT_MR.adoc[]
+
+== Force Bonus
+When the player has won an attack roll, she can add her Force Bonus to her damage roll.
+Powered weapons like guns and rifles have no Force Bonus.
+
+include::ROOT:partial$CH04_Table_Anthro_CT_DA.adoc[]
+
+== Anthro Combat Table Example
+A second level spie has the following attributes: AWE 12, CHA 11, CON 12, DEX 10, INT 12, MND 14 and STR 16.
+
+include::ROOT:partial$CH04_Table_Anthro_CT_Xample.adoc[]

@@ -1,0 +1,336 @@
+= Tactical Combat System
+
+[quote]
+____
+*Mats, minis, mods and many rolls.*
+____
+
+The tactical combat system is the keystone of the Roll Playing Rules.
+All rules within the Roll Playing Rules complement the tactical combat system.
+Artifacts, mutations and vocations complement the tactical combat system.
+The tactical combat system is the bespoke combat system for EXP.
+
+The theatrical combat system from the Role Playing Rules is a careful reduction of the tactical combat system.
+
+The tactical combat system is played out on a hex mat using minis, mods and many rolls.
+Resolving combat using the tactical combat system is a hybrid of old-school wargame and 20th-century role-playing.
+The combat system revolves around a 1d1000 attack roll and all the granularity it allows.
+The tactical combat system is complicated as well as complex.
+If you enjoy detail, dice and tactical fantasy, this system is for you.
+
+The tactical combat system is there to resolve lethal persona combat.
+The system is balanced. 
+Balanced does not mean fair.
+The strong will tend to win, and the weak will tend to lose.
+The system is detailed.
+Detailed does not mean realistic.
+The details are a simulation of terrain, movement, skills, weapons, attributes etc.
+The tactical combat system is a delicate balance between playability and realism.
+It represents the least worst system that met our pre-computer era needs.
+
+NOTE: The tactical combat system developed before laptops, computer phones or the internet. + 
+Calculations were done in real-time with organic brains. 
+
+.*Tactical Combat Checklist*
+* <<_attack_types,Attack Types>>
+* <<_attack_table,Attack Tables>>
+* <<_attack_roll,Attack Rolls>>
+* <<_defence_rating,Defence Rating>>
+* <<_combat_movement,Movement>>
+* <<_combat_time,Time>>
+* <<_initiative,Initiative>>
+
+NOTE: Author thought it would be funny to have initiative go last.
+
+== Starting Combat 
+Game violence occurs due to failed negotiations, self-defence, hunger, or bad problem-solving.
+Many players feel that violence is the simplest solution to a problem.
+The consequences of combat are up to the milieu of the table.
+In EXP, combat is dangerous for personas.
+
+Combat in EXP is perilous for personas. 
+While referee personas come and go losing a player persona is a big deal.
+Combat in EXP is unforgiving, and any battle is dangerous to all personas involved.
+Dead personas stay dead. 
+
+TIP: Any interaction that can harm a persona due to violence is a combat situation.
+
+The referee decides when combat rules are engaged.
+The transformation to combat rules transforms the game from role-playing to solo war game.
+Combat means getting out the mats, the markers, and the minis.
+There is not theatre of the mind for the tactical combat system.
+If an altercation is solvable with a mere paw slap or threatening lazer shot, the personas may avoid combat rules.
+Common sense should prevail.
+
+Combat time stretches 2-second intervals into minutes of decisions and dice rolls.
+Persona tokens move on the hex mat with care and precision.
+Players begin rolling dice to determine who goes first and who hurts who.
+A misplaced token can result in getting squashed by an alien or impaled by a combot.  
+Ten seconds of combat time can take 20 minutes of mundane time to play.
+
+NOTE: If prolonged real-time resolution of combat is unappealing, consider the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank].
+
+== Attack Roll
+Any attempt a persona makes to harm another persona is an attack. 
+When the player wants her persona to attack another persona, she makes an attack roll.
+The higher the attack roll, the better.
+Many elements influence attack rolls, including weapon type, weapon skills roll bonuses, EXPS levels, and luck. 
+
+The attack roll must be greater than the target's Defence (DEF). 
+A target's Defence is composed of armour, dexterity, size, and .
+When the player's attack roll is higher than the target's Defence (DEF), she has won the attack roll and get's to damage her target.
+
+In the Roll Playing Rules' tactical combat system, the players use a kilo-die to make attack rolls.
+The kilo-die is a thousand-sided die, or 1d1000.
+The 1d1000 generates a random number between 1 and 1000.
+The kilo die is not a golf ball with tiny writing on it.
+The player rolls three 1d10s to simulate the 1d1000.
+For more info about the 1d1000 jump to xref:roll_playing_system:CH00_kilo_die_mechanic.adoc[Kilodie Mechanic,window=_blank].
+
+// tag::Attack_Types[]
+== Attack Types
+EXP has an enormous variety of weapons.
+A review of attack types is needed to understand attack tables and attack rolls.
+For a more detailed explanation jump to xref:roll_playing_system:CH28_Weapons.adoc[Attack Types,window=_blank].
+
+=== Strike
+*Non-powered thrusting and striking attack.*
+Strike attacks depend on the user's muscle power to inflict damage.
+The personas must be in adjacent hexes to be able to damage each other.
+Examples are clubs, fists, swords, pincers, claws and axes.
+
+=== Fling
+*Non-powered projectile attack.*
+Fling attacks depend on the user's muscle power to inflict damage.
+The personas may be several hexes apart and still be able to damage each other.
+Examples are arrows, bolts, rocks, quills and spit.
+
+=== Shoot
+*Powered projectile attack.*
+Shoot attacks do not require the user's muscle power to inflict damage. 
+The attack supplies its energy to inflict damage.
+The personas can be many hexes apart and still be able to damage each other.
+Shoot attacks are limited to once per combat unit.
+Examples are bullets, laser bolts, energy beams, and crossbow bolts.
+
+=== Other Attack Types
+Most of the other attack types are built from the core three attack types above. 
+If any of the following attack types don't sound familiar review them at xref:roll_playing_system:CH28_Weapons.adoc[Attack Types,window=_blank].
+
+.*Other Attack Types*
+* Sotto - semi-automatic shoot attacks
+* Flotto - full-automatic shoot attacks
+* Area - for Grenades and Aerosols
+* Psionic - mutation specific and unique 
+
+// end::Attack_Types[]
+
+== Attack Table
+The attack table blends skills, attributes, and experience into nnumbers that are added to the players's Attack Roll.
+The higher the Attack Roll the more likely the player will win an attack roll and damage her target.
+Every persona has a attack table.
+Every attack type has its own attack roll bonus.
+For a detailed explanation of attack tables jump to xref:roll_playing_system:CH09_Combat_Tables.adoc[Attack Tables,window=_blank].
+
+include::ROOT:partial$CH09_Table_Tiny_CT.adoc[]
+
+The attack table is a scary-looking matrix of numbers.
+The matrix is a cross of attack types (A, B, C) and attack roll parameters.
+The attack roll parameters are Skilled Bonus (Skilled), Raw Bonus (Raw), Max Roll (Max) and Damage Adjuster (Force).
+
+TIP: Too many numbers? Try the xref:ii-role_playing_rules:CH26_Theatrical_Combat.adoc[Theatrical Combat System,window=_blank].
+
+=== Skilled Bonus (Skilled)
+Skilled Bonus is added to Attack Rolls for weapons the persona knows how to use.
+
+A persona can try to use any weapon they want.
+The player can only add the Skilled Bonus when her person is skilled with the weapon. 
+If a persona is not skilled with her weapon of choice, the player *cannot* add her Skilled Bonus.
+Anthro weapon skills are depedendent on their vocation. 
+Aliens are automatically skilled with their natural attacks, but may not even be able to recognize tool weapons. 
+Robots are whole separate kettle of bolts.
+
+.Skilled Bonus Narrative
+====
+A Nameless Nomad finds herself in a chase over a frozen wasteland.
+Occasionally she and her pursuers pause to catch their breath and take a few shots at one another.
+Our nomad is packing her favourite 1.5-metre long harpoon.
+The nomad has used this weapon for years and is skilled with the harpoon.
+She usually uses the harpoon for spearing giant sea slugs.
+One of her pursuers is within range, and she lets fly with the wickedly barbed weapon.
+====
+
+The player makes an Attack Roll using a kilodie.
+The player refers to the Nameless Nomad's Attack Table.
+The harpoon is a Fling attack (self-powered projectile weapon). 
+The Nameless Nomad is Skilled with the harpoon.
+The player will add the Fling Skilled Bonus (Skilled) to her Attack Roll.
+The kilodie yields a 600.
+THe persona's Fling Skilled Bonus is +175, and her final Attack Roll is 775.
+If 775 is higher than the target's Defence Rating (DEF), the player will get to roll damage (harm the target).
+
+NOTE: Older versions of EXP used "Proficiency" in the context of weapon skills. It is much easier to spell the word skill. 
+ 
+=== Raw Bonus (Raw)
+Raw Bonus is added to Attack Rolls for improvised or unfamiliar weapons.
+
+A persona can try to use any weapon they want.
+This includes weapons where the persona has no training or experience. 
+The player adds her Raw Bonus to Attack Rolls when the persona is using an unfamiliar attack.
+The Raw Bonus is less than the Skilled Bonus for obvious reasons. 
+This makes the player less likely to win an Attack Roll with an unfamiliar weapon. 
+The Raw Bonus is meant to apply to personal weapons that the persona can focus her basic skills on.
+A persona could not operate artillery and use her Raw Bonus for instance.
+Anthro weapon skills are depedendent on their vocation. 
+None combat vocations have less weapon skills and the players will be using the Raw Bonus more often.
+Aliens are automatically skilled with their natural attacks, but may not even be able to recognize tool weapons. 
+
+.Raw Bonus Narrative
+====
+The Nameless Nomad slides down an icy incline, looking for some cover.
+Unfortunately, an enemy is already hiding behind the cover.
+Our Nameless Nomad is no longer has her harpoon.
+The only other weapon she has is a pointy icepick tucked into her boot.
+She whips out her icepick and pokes at the enemy.
+She only uses the ice pick to break up ice, and ice pick fights are strange.
+====
+
+The makes an Attack Roll using a kilodie.
+The player refers to the Nameless Nomad's Attack Table.
+The ice pick is a Strike attack, and is meant for picking ice (not fights). 
+The Nameless Nomad has skill picking ice but has not ice pick combat skill.
+The player can only add the persona's Raw Bonus (Raw) to her attack roll.
+The player rolls 500 on the kilodie for her Attack Roll.
+The Strike Raw Bonus (Raw) is +35, and the Attack Roll is 535.
+If 535 is higher than the target's Defence Rating (DEF), the player will get to roll damage (harm the target).
+
+=== Max Roll (Max)
+The Max Roll is the highest Attack Roll the player can generate for her persona.
+
+The player's attack roll cannot be greater than the Max Roll of the Attack Type.
+The Max Roll (Max) increases with experience and skill.
+If the Attack Roll exceeds the Max Roll the player uses the Max Roll value. 
+The Max Roll differentiates the neophyte from the skilled combatant. 
+When a persona's Max Roll is less than her target's Defence Rating (DEF) she can run, use Area Attacks or hope for a Critical Roll.
+For more information about lucky shots jump to xref:roll_playing_system:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+.Max Roll Narrative
+====
+After watching her ice pick bend futilely on her opponent's thick parka the Nameless Nomad decides to run.
+Running blindly she trips over a body in the snow.
+The body has a harpoon stuck in its head.
+What a great point of narrative luck.
+====
+
+The referee communicates the futility of the persona's ice pick by describing it's demise. 
+This outcome is determined by the persona's Strike Max Roll on her Attack Table.
+The player rolls 907 on the kilodie, and adds 35, the Strike Raw Bonus.
+Sadly her Attack Roll is not 942.
+Her Strike Max Roll is 790, and her final Attack Roll becomes 790.
+The target's Defence Rating is 842, so the Attack Roll is a fail and the persona misses with her attack.
+The referee made a good narrative choice describing the utter failure of the ice pick.
+Instead of stating your Max Roll is less than your target's Defence Rating of 842, she chose the narrative route. 
+
+TIP: Max Roll can cut down on the amount of maths needed to play. If the player's kilodie roll is greater than her Max Roll no maths are needed. Efficient players also keep track of their Max Roll less their Raw Bonus. This allows them to identify a no maths roll even faster. 
+
+=== Force Bonus (Force)
+The Force Bonus increases the amount of damage delivered.
+
+.A necessary diversion
+====
+To understand the Force Bonus one needs to know a bit about Hit Points and damage.
+Hit Points collectively represent a target's life force, structural integrity and luck.
+Decreasing your opponent's hit points to zero is the entire point of combat.
+Each turn the player gets a chance to reduce her opponent's hit points. 
+The opponent also gets a chance to reduce the persona's hit points.
+These reductions are called damage. 
+The more hit points the target loses the more damage the target has taken. 
+It is a race to the bottom and whoever gets to zero Hit Points first *loses*.
+Get more info at xref:roll_playing_system:CH03_AttributesHPS.adoc[Hit Points]
+====
+
+Whenever the player wins an Attack Roll, she then makes a Damage Roll that decreases the target's hit points.
+The player adds the Force Bonus to the damage roll.
+The damage roll is determined by the weapon being used. 
+A harpoon inflicts more damage than an ice pick.
+A harpoon delivers more damage when wielded by a strong attacker than a weak attacker. 
+This damage difference between weapons is determined by physics.
+The Force Bonus is determined by physiology.  
+// todo add physics to wikexpedia
+
+The Force Bonus reflects how strong the persona is and increases the damage inflicted on the target.
+Strike Attacks depend on the persona's Strength attribute to inflict damage and therefore have the highest Force Bonus.
+Fling Attacks also depend on the persona's Strength, but much of th
+Shoot Attacks are self-powered and have no Force Bonus at all.
+
+.Nameless Nomad and Force Bonus
+* Strike: 1d3 (icepick) + 6 (Force) = 6-9 HPS damage
+* Fling: 1d8 (harpoon) + 3 (Force) = 4-11 HPS damage
+* Shoot: 1d10 (crossbow) + 0 (Force) = 1-10 HPS damage
+
+== Defence Rating
+Personas wrap all their defences up into one number called Defence Rating (DEF).
+The Defence Rating is a quantitative value that represents how difficult it is to damage the target.
+The higher the Defence Rating, the better the protected the target is.
+Dexterity, armour, hide, body structure, experience, and luck are rolled into the Defence Rating (DEF).
+For more details about Defence Rating jump to xref:roll_playing_system:CH29_Armour_Rating.adoc[Defence Rating,window=_blank].
+
+== Combat Time
+Each turn of combat time in the tactical combat system is called a unit.
+Every player gets a turn to do something in each unit.
+A unit is the smallest measure of time where a persona can get something done.
+Getting something done includes: running, shooting, blasting a mutation, etc.
+Movement rates, mutation durations, and artifact effects are all based on this unit of time.
+A unit of combat time is 2 seconds long.
+You can take the time to learn more by jumping to xref:roll_playing_system:CH12_Combat_Time.adoc[Combat Time,window=_blank].
+
+== Combat Movement
+Combat movement determines how far a persona can move each unit (2 seconds) of combat time.
+The measure of combat distance is the hex, and the size of a hex is 2 meters.
+A slow persona with a movement rate of 3 hexes per unit (3 hu) could move three hex spaces per turn.
+A fast persona with a movement rate of 9 hu could move 9 hex spaces each turn.
+To learn more about movement move over to xref:roll_playing_system:CH12_Combat_Movement.adoc[Combat Movement,window=_blank].
+
+== Initiative
+The initiative system determines the order in which players act during the combat unit.
+Initiative is a measure of tactical advantage based on Awareness, Dexterity and luck.
+Every player rolls for initiative for their persona in every combat unit.  
+Winning initiative is a huge tactical advantage for the persona.
+
+It is not just a simple measure of who goes first
+Initiative is complex and convoluted.
+Players can choose to attack first, move first or move and attack first. 
+Players can also hold back their attacks and moves to gain a tactical advantage. 
+For more details about initiative, jump to
+xref:roll_playing_system:CH33_Initiative.adoc[Initiative,window=_blank].
+
+== Table Top
+The tactical combat system expects to be used on a hex mat using minis or tokens.
+The combat system does not require mats and minis, but it seems like a lot of calculating for nothing.
+
+=== The Mat
+A hex mat is a bespoke mat covered in hexagons.
+It looks like graph paper, but for hexagons. 
+The hex mat typically covers the majority of the playing table. 
+There are many wonderful commercial options available.
+The best ones accommodate erasable markers for drawing terrain directly on the mat.
+
+=== The Minis
+Minis are small figurines that represent personas on the mat. 
+The most common scale for these minis is 25mm. 
+This scale of miniature indicates a 6ft human is about 25mm tall on the table. 
+There is an entire industry of miniatures supporting role-playing games.
+During the first draft of this document, all miniatures were lead and tin. 
+By the sixth draft of this document, excellent minis can be 3d printed at home. 
+
+The referee and players can also use tokens to represent personas on the board.
+Minis are just fancy tokens. 
+Tokens can be paper chits, coloured cutouts, and or colourful paper minis.
+
+=== The Future Is Yesterday
+Virtual tabletops (VTTs) are nearly commonplace.
+VTTs allow the players to share the mat and the minis on a computer screen.
+VTTs can have everyone in the same room or in different countries.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*

@@ -1,0 +1,324 @@
+
+= Defence Rating
+
+The Defence Rating (DEF) is a universal measure of how difficult something is to damage in combat.
+The Defence Rating is a collection of hide thickness, Dexterity, armour and luck.
+The Defence Rating represents a single number that determines how difficult a target is to hit and damage.
+The higher the Defence Rating, the more difficult it is to damage the persona.
+
+An attack roll must be greater than, or equal to, the target's Defence Rating to do damage.
+Referees must roll an attack roll higher than the persona's Defence Rating to do damage.
+
+:art: armour_rating_burning_tail.png
+:width: 250px
+:snark: Combining protection, agility and luck.
+:artist: Andrew Brechin
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Drawing of a humanoid squirrel with a burning tail barely jumping out of harm's way.
+
+include::ROOT:partial$articulate.adoc[]
+
+== Naked Defence Rating
+The naked Defence Rating is the persona's base Defence Rating when wearing no protection at all. 
+In this case, naked means wearing no armour and not running around nude.
+Armour increases the persona's Defence Rating and has other effects on the persona.
+
+.Naked Anthro AR = 500 + 6 * DEX
+****
+An anthro with a 15 DEX would have an AR of 590 when naked.
+****
+
+.Naked Alien AR = 500 + 3d100
+****
+Alien AR is random and unaffected by body parts or hide type.
+****
+
+.Naked Robot AR = 700 
+****
+Robots have no AR adjustment. Easy to hit, hard to kill.
+****
+
+=== Dekes and Dodges 
+The persona's Defence Rating includes all the dekes and dodges that one would use to avoid getting damaged in combat.
+Extra descriptions of the perfect defensive move can earn EXPS but do not alter Defence Rating.
+
+== Armour
+Armouring up is the process of wearing specialized clothing to decrease the chance of being damaged in combat.
+Armour deflects, absorbs and distributes the damaging forces.
+The goal of armour is to enhance the persona's naked Defence Rating making them harder to damage.
+
+=== Anthros
+The armour section is anthro-centric.
+Anthro personas will almost always be wearing armour when on an expedition.
+Armour, especially mundane armour, is restrictive and heavy.
+Restrictive armour can slow the persona down, impair her task rolls and impair initiative.
+
+=== Aliens
+Most aliens do not wear clothing, let alone armour. 
+Their naked Defence Rating is their natural Defence Rating. 
+Armour will rarely be better than their skins and natural defences.
+
+Only tool-using aliens can wear armour.
+None tool-using aliens would not understand or tolerate it.
+An alien that is a tool-user may have bespoke armour fashioned for her.
+ 
+=== Robots 
+Robots do not wear armour
+A robot may have defensive systems that improve her Defence Rating or function like artifact armour.
+
+== Mundane Armour
+A brief description of the composition, advantages and disadvantages of each armour type is listed below.
+This data may aid referees and players in deciding if armour is flammable, buoyant (hah!), edible, repairable, etc.
+The ref may alter the composition and wate of these armour types according to her campaign and milieu.
+
+include::ROOT:partial$CH24_Table_Mundane_Body_Armour.adoc[]
+
+=== Defence Rating Bonus
+The whole purpose of armour is to decrease one's chance of being damaged in combat.
+The player adds the Defence Rating bonus to her persona's naked Defence Rating.
+While it seems overly apparent, the persona must be wearing the armour to get the Defence Rating bonus.
+The AR Bonus gives and the <<_restrictiveness,Restrictiveness>>taketh away.
+
+=== Wate
+The armour wate indicates the wate of the suit of armour in kilograms.
+The wate of armour is excluded from the persona's wate allowance when she is wearing it.
+If the persona is carrying her armour, the armour wate increases the wate she is carrying.
+
+A suit of leather armour would have a wate of 3 kilograms.
+A persona carrying her leather armour increases her wate allowance by 3 kg and does not get an Defence Rating bonus.
+A persona wearing her leather armour gets an Defence Rating bonus of +50, and there is no impact on her wate allowance.
+
+=== Armour Types
+Below is a list describing history's most famous mundane armour types.
+
+None::
+No armour, civilian dress or daily attire.
+This armour type has no movement or restrictiveness penalties and grants the maximum Dexterity bonus to the persona's Defence Rating.
+
+Furs/skins::
+Classic Neanderthal wear.
+They are composed of layers of uncured and unpreserved animal hides.
+This armour type is very inexpensive but loses its composition as it rots.
+
+Leather::
+Leather is the preserved hide of some unlucky, thick-skinned animal.
+Leather armour is light and non-restrictive.
+
+Padded::
+Padded armour has two layers of leather sandwiching some form of stuffing.
+The stuffing is often flammable, and the suit is held together with stitching.
+
+Studded::
+Studded armour has two layers of leather sandwiching some form of stuffing.
+The stuffing is often flammable, and the suit is held together with metal studs.
+
+Ring::
+Ring armour has a padded armour base, with large rings covering its exterior.
+Ringmail is NOT chain mail.
+
+Scale::
+Scale mail has a padded armour base with metal strips (or scales) hung loosely on the outer layer of leather.
+
+Cured hide::
+A thick animal hide hardened by curing.
+This armour has low restrictiveness.
+
+Plant Fibre::
+Plant fibre functions like vegan cured hide and is woven from preserved cellulose.
+This armour is light and not very restrictive.
+
+Chain::
+A suit composed of many small interlocked rings.
+Chainmail is different from ringmail, which is composed of much larger loosely fitted metal rings.
+
+Splint::
+Strips of concrete or hardwood affixed to a padded armour base.
+Splintmail can be restrictive.
+
+Banded::
+Overlapping metal strips fastened to cured hide.
+
+Synthetix::
+Any synthetic (Kevlar, fibreglass, plastix) composition arranged in sheet form.
+This armour type has a high Defence Rating bonus and is both light and non-restrictive.
+Synthetix was previously called plastix and now has a new name to decrease confusion with the artifact armour called plastix.
+
+Plate::
+The plate is a solitary metal breastplate covering a suit of padded armour.
+Very, very cumbersome.
+
+Plate Armour::
+Plate armour covers the persona's torso and limbs with pieces of interconnected metal.
+This armour type is exceptionally cumbersome and highly restrictive.
+
+== Cost
+The cost includes body armour, helmet and gauntlets.
+Otherwise self-explanatory.
+
+== Helmets and Gauntlets
+Every suit of armour has a matching set of gauntlets and a helmet.
+The helmet and gauntlets are composed of the same material as the body armour.
+Padded armour would have a padded hat and padded gloves.
+
+Helmets and gauntlets offer no Defence Rating bonus.
+Not wearing a helmet or gauntlets does not affect the Defence Rating bonus.
+Like in the movies, personas can engage in combat with the same Defence Rating with or without a helmet.
+If players choose to leave their persona's noggins unprotected, the hazards of debris and vehicle crashes are worse.
+
+== Shielding
+Shielding is any non-garment device used to reduce the chance of being hit.
+Shielding deflects blows and reduces her exposure to damage.
+Shielding requires the persona to use up a proficiency to use it properly.
+Whichever arm the player is using to manipulate the shielding cannot do anything else.
+
+include::ROOT:partial$CH24_Table_Mundane_Shielding.adoc[]
+
+=== Shielding Types
+
+Chain:: 
+Any flexible tube about half a meter in length constitutes this shielding type.
+This shielding is ineffective against Attack Shoot (powered projectile weapons).
+If an attacker using a Strike weapon critically fails her attack roll, the persona can disarm her with chain shielding.
+The player must win a Strength challenge to disarm her attacker.
+
+Net::
+Any strong sheet can become a shielding net.
+The net mostly entangles an incoming attack but can also deflect and block Strike attacks.
+This shielding is ineffective against Attack Shoot (powered projectile weapons).
+If an attacker using a Strike weapon critically fails her attack roll, the persona can disarm her with chain shielding.
+The player must win a Strength challenge to disarm her attacker.
+
+Shield::
+A shield consists of a piece of metal, wood, or other material manipulated by one arm.
+The shield is the historically famous shielding device
+The persona can use the shield for deflection, cover and deception.
+
+=== Defence Rating Bonus
+The whole purpose of shielding is to protect the persona from being damaged in combat.
+The player adds the Defence Rating bonus of the shielding to her persona's naked Defence Rating.
+
+=== Wate
+The armour wate indicates the wate of the shielding in kilograms.
+Shielding wate adds to the persona's encumbrance regardless of being carried or borne for combat.
+
+== Cost
+The cost includes shielding.
+Otherwise self-explanatory.
+
+== Restrictiveness
+Restrictiveness indicates how cumbersome armour is to wear.
+The higher the restrictiveness, the more cumbersome, binding, and claustrophobic the armour is.
+Restrictiveness impacts the persona when the armour is worn, whether in or out of combat.
+Usually, the heavier the armour is, the more restrictive it is.
+
+The more restrictive the armour, the higher the restrictiveness number.
+Wearing no armour has restrictiveness of 0.
+Plate armour has restrictiveness of 5.
+Deactivated powered armour has restrictiveness of 15.
+Negative restrictiveness is possible with specialized artifact armour. 
+
+=== Strength and Restrictiveness
+Sheer power can overcome the restrictiveness of armour.
+For every 5 points of STR that the persona has, she can reduce the armour restrictiveness by 1.
+The armour still has its restrictiveness, but the persona is strong enough to power through it.
+A persona with an 11 STR wearing plate armour would reduce the restrictiveness from 5 to 3.
+A persona with an 8 STR could wear padded armour as if she were unarmoured.
+
+Reducing restrictiveness by Strength only decreases movement and armour bonus penalties.
+The minimum restrictiveness earned from Strength is zero.
+
+=== Movement and Restrictiveness
+The restrictiveness of armour impairs movement rate.
+
+include::ROOT:partial$CH29_Table_Restrictiveness_and_Movement.adoc[]
+
+A persona wearing studded armour would reduce her movement rate by two h/u because that armour's restrictiveness is three.
+Personas with low movement rates may be unable to wear restrictive armour types.
+The table uses the Strength adjusted restrictiveness. 
+This table does not have negative values, and the minimum restrictiveness is zero.
+A persona with a 16 STR wearing leather armour has a restrictiveness of zero and zero movement penalty.
+
+=== Task Rolls and Restrictiveness
+The restrictiveness of armour impairs task rolls.
+Players must pay attention to the restrictiveness of armour types.
+Vocations that require nimble actions, physical contact, or keen senses do not like to wear restrictive armour.
+
+The Degree of Difficulty (DD) of the maneuver is increased by 1 DD per restrictiveness.
+Scale mail increases the DD of a maneuver by 4.
+If the persona removed her gauntlets for fine motor maneuvers, there would be no penalty.
+
+Strength does not overcome the Task roll penalties of restrictive armour. 
+A very strong persona would have to remove her helmet to listen for an ambush.
+
+=== Defence Rating and Restrictiveness 
+The armour bonus improves the persona's Defence Rating.
+Restrictiveness can reduce the persona's Defence Rating by removing a persona's Dexterity bonus.
+Restrictive armour prevents the persona from dodging and twisting to avoid damage.
+Strength can overcome this restrictiveness penalty.
+
+.Armoured Anthro AR = 500 + AR Bonus + (6 - Restrictiveness) * DEX
+****
+I don't even feel like doing this arithmetic.
+****
+
+Choosing armour in the tactical combat system becomes a balance of Defence Rating bonus and Dexterity bonus.
+A persona with high Dexterity and normal Strength may have a better Defence Rating with lighter armour.
+If the amour's restrictiveness causes her to lose her Dexterity bonus, restrictive armour may decrease her Defence Rating. 
+Strength can overcome this restrictiveness penalty.
+
+== Does it Fit?
+Armour bought by the persona will fit. 
+However, armour found while adventuring will not necessarily fit.
+Before armour can fit, it must meet two criteria: shape and size.
+The previous owner must have the same body shape, and the previous owner's wate must be within 15%.
+
+An anthro could not wear the bespoke armour of a four-armed avarian tripod alien.
+If a persona's wate is 70 kgs, the previous owner's wate must be between 59.5 and 80.5 kg. 
+
+== Suiting Up
+Suiting up for battle is can be time-consuming.
+The more restrictive the armour type, the longer it takes to put on the armour.
+Without help and under no pressure, combat armour takes 1.5 minutes per point of restrictiveness to adorn.
+A suit of chainmail would take about 8 minutes to put on.
+
+== Maintenance
+Well-maintained armour should never wear out.
+Attending to armour after a battle and in a scheduled manner should keep things in working order.
+Inhospitable environments will destroy armour as quickly as any other mundane equipment.
+
+Unattended armour will damage.
+Whatever damage that the persona takes, the armour will take also.
+Armour has one hit point per point of AR.
+A suit of unmaintained studded armour could withstand 575 hit points of damage before being wrecked.
+At zero hit points, the armour loses Defence Rating and structural integrity.
+
+=== Mix and Match
+Scavenging personas will often mix up armour types.
+A persona may have a synthetix helmet, metal breastplate, padded arms and studded leggings.
+The only way that The referee can run mix and match armour is by using the xref:roll_playing_system:CH36_Hit_Locations.adoc[Hit Locations,window=_blank].
+The ref determines where the attack will land and then rolls to hit against the appropriate Defence Rating.
+
+== Alien Armour
+Alien armour is limited to tool-users aliens that can create artifacts. 
+Tool users from a creator species would undoubtedly have armour and protective equipment.
+Their armour would function the same as the mundane armour except for wate.
+
+.Alien Armour Wate = Alien Wate / 70 * Armour Wate
+****
+Leather armour for a 350 kg alien would have a wate of 15 kg.
+****
+
+== Inanimate Objects
+The first thing that referees will realize is that personas like attacking things that she has not prepared to be attacked.
+These include doorknobs, walls, windows, car wheels, and a host of other things that no one can foresee.
+
+The following tables do not reflect combat armour ratings.
+These armour ratings are for targeting non-combat targets, like those described above.
+The tables below are guidelines for assigning an Defence Rating (DEF)  to those items that typically do not have one.
+
+include::ROOT:partial$CH29_Table_Inanimate_Target_Size.adoc[]
+
+include::ROOT:partial$CH29_Table_Inanimate_Target_Toughness.adoc[]
+
+include::ROOT:partial$CH29_Table_Speed_Difference_and_AR.adoc[]

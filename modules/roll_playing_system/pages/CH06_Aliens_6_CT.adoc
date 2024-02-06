@@ -1,0 +1,102 @@
+= Alien Combat Table
+
+The tactical combat system in the roll playing rules uses an attack matrix called the combat table.
+The player refers to the combat table every time she makes an attack roll.
+The alien combat table is easier to generate and manage than the anthro combat table..
+The calculations are fewer and simpler.
+
+The alien combat table is for the alien's natural attacks.
+An alien's combat table will only include the alien's natural attack types.
+If the alien only ever bites with a Strike attack, the player only completes the Strike attack on the combat table.  
+If the player shoots deadly sap blobs as a Fling attack, the player only completes the Fling attack on the combat table.
+
+This section has cursory explanations and detailed calculations. 
+For more info jump to xref:roll_playing_system:CH09_Combat_Tables.adoc[Combat Tables,window=_blank].
+
+== Aliens and Weapons
+The combat table generated here is for the alien's natural attacks and *not* weapons.
+Alien tool users may be able to use a weapon like a sword or gun.
+The player must create a combat table for her tool using alien persona using the xref:roll_playing_system:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
+If the alien has a vocation, the player will generate another combat table using the alien's vocation type.
+If the alien does not have a vocation, the player uses the nothing vocation on the xref:roll_playing_system:CH04_Anthros_CT.adoc[Anthro Combat Table,window=_blank].
+
+
+If the alien's culture, society and tech level allows her to use a weapon, the player must create a vocation-based combat table.
+Technologically advanced tool-using aliens may be able to pursue a vocation. 
+If the alien is a tool used but has no vocation, the alien uses the Nothing vocation combat table when using a weapon.
+
+
+include::ROOT:partial$CH09_Table_Tiny_CT_Blank.adoc[]
+
+.*Combat Table Checklist*
+. <<_attack_types,Attack Types>>
+. <<_skilled_bonus,Skilled Bonus>>
+.. <<_attribute_bonus,Attribute Bonus>>
+.. <<_level_bonus,Level Bonus>>
+. <<_raw_bonus,Raw Bonus>>
+. <<_max_roll,Max Roll>>
+. <<_force_bonus,Force Bonus>>
+
+
+== Attack Types
+Alien attack types are not weapons but natural abilities used as weapons.
+The player only creates a combat table that includes her persona's natural abilities.
+The alien combat table is *not* used for weapon attacks if the persona is a tool-using alien.
+
+
+Strike Attacks::
+Thrusting and striking weapons for aliens include their naturally endowed thrusting and striking attacks (bite, punch, claw, beak, gore, stab, rake, slice, gouge, tear, trample).
+
+Fling Attacks::
+This attack type is for those aliens that fling objects, shoot quills or spit in an attempt to inflict their natural damage (spit, breath, blast, arc, spray).
+
+Shoot Attacks::
+This attack type is for those creatures with naturally powered attacks (lasers, sonics, electric arcs, radiation doses).
+Aliens with natural powered attacks are very rare and extremely dangerous.
+They have specially evolved organs that attack like a powered weapon, such as a gun.
+
+== Skilled Bonus
+The Skilled Bonus (Skilled) is for the alien's natural attacks.
+The player adds the Skilled to her attack roll when her persona is attacking.
+The Skilled has two main components: Attributes Bonus and Level bonus.
+The persona's Skilled increases as the persona gains EXPS levels. 
+
+=== Attribute Bonus
+The persona's attributes determine the majority of the alien's Skilled Bonus.
+Strong aliens are good at biting and smashing.
+Dextrous aliens are good at shooting spines.
+If a persona's attributes increase or decrease, the player should recalculate her combat table.
+
+include::ROOT:partial$CH06_Table_Alien_CT_BP_Attr.adoc[]
+
+=== Level Bonus
+The alien's attack type determines her level bonus.
+The player adds the level bonus for each EXPS level of her alien, including her first level.
+Initially, the level bonus plays a small role in the Skilled, but the contribution grows with EXPS.
+
+include::ROOT:partial$CH06_Table_Alien_CT_BP_Lvl.adoc[]
+
+== Raw Bonus
+An alien cannot be unskilled with her natural attack.
+Alien's Raw Bonus equals her Skilled Bonus.
+If the alien is a tool user wielding weapons, the player must generate an additional attack table that includes a Raw.
+
+== Max Roll
+The Max Roll is the highest roll that a player can make on the kilo-die attack roll.
+There is always a chance to damage an attacker using xref:roll_playing_system:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+
+include::ROOT:partial$CH06_Table_Alien_CT_MR.adoc[]
+
+== Force Bonus
+Alien damage already includes both the alien's size and Strength.
+There is no Force Bonus for alien attack roll wins.
+
+include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
+
+== Alien Combat Table Example
+A second-level gigantic alien has a 22 STR, 15 DEX, and a 3 INT.
+Her attack is spitting sharp blobs of resin which is Attack Fling.
+
+include::ROOT:partial$CH06_Table_Alien_CT_Xample.adoc[]
+
+

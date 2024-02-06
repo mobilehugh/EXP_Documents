@@ -1,0 +1,182 @@
+= Robot Type
+
+The player uses her robotic attribute primes to determine her robot persona type.
+Determining robot type is byzantine, meticulous and painful.
+A player could generate a  heavy offensive combot capable of annihilating entire cities.
+The system is delicate because robot personas can lead to profound game imbalance.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.* 
+
+.List of Robot Types
+* xref:CH05_Robots_A_Android.adoc[A-Android,window=_blank]
+* xref:CH05_Robots_C_Combat.adoc[C-Combat,window=_blank]
+* xref:CH05_Robots_D_Datalyzer.adoc[D-Datalyzer,window=_blank]
+* xref:CH05_Robots_E_Explorations.adoc[E-Explorations,window=_blank]
+* xref:CH05_Robots_H_Hobbot.adoc[H-Hobbot,window=_blank]
+* xref:CH05_Robots_I_Industrial.adoc[I-Industrial,window=_blank]
+* xref:CH05_Robots_J_Janitorial.adoc[J-Janitorial,window=_blank]
+* xref:CH05_Robots_M_Maintenance.adoc[M-Maintenance,window=_blank]
+* xref:CH05_Robots_P_Policing.adoc[P-Policing,window=_blank]
+* xref:CH05_Robots_R_Rescue.adoc[R-Rescue,window=_blank]
+* xref:CH05_Robots_S_Social.adoc[S-Social,window=_blank]
+* xref:CH05_Robots_T_Transport.adoc[T-Transport,window=_blank]
+* xref:CH05_Robots_V_Veterinarian.adoc[V-Veterinarian,window=_blank]
+
+== How To Use the Robot Determination Table
+First, do not be afraid.
+Second, it is as bad as it looks.
+
+Each prime attribute value has its own column. 
+The player reads down each attribute column recording the robot IDs in that column.
+For example, reading down the CON 3 column, the player will encounter a *P* and *T*.
+The player records these letter IDs and repeats the process for all four of her robot's prime attributes.
+Doing this generates a pile of letters representing robot types. 
+The player sums the number of times each letter is present and determines the robot type.
+For example, if the total number of *H*s exceeded all other robot type IDs, the persona would be an H-Hobbot.
+
+include::ROOT:partial$CH05_Table_Robot_Type_Determination.adoc[]
+
+== Example
+A robot persona has the following prime attribute scores: CON 2, DEX 2, INT 3 and STR 4.
+
+include::ROOT:partial$CH05_Table_Robot_Type_Example.adoc[]
+
+.Reading down each column yields the following IDs
+* CON 2 (C, D, I, M, S, V)
+* DEX  2 (D, E, I, J, M, R, S)  
+* INT 3 (C, H, M, P, R, S, V)
+* STR 4 (A, C, I)
+
+The player adds up the robot IDs creating a list looking like this: A=1, C=3, D=2, E=1, H=1, I=3, J=1, M=3, P=1, R=2, S=3, and V=2.
+There is a tie between four robot types. 
+The player may choose between C-Combot, I-Industrial, M-Maintenance, and S-Social robot types. 
+
+== Skip the Tables
+There is a single roll table if you find the byzantine, burdensome, and bloviated mechanism for robot type selection too much.
+The percentage chance of a robot type was calculated by computer programme fabricating 10000 robots. 
+The single roll table makes certain dangerous robot types more likely.
+
+include::ROOT:partial$CH05_Table_Robot_Single_Roll.adoc[]
+
+== Robot Type Fabrication Info
+Each robot type has its own fabrication info.
+The fabrication info details what makes the robot persona unique.
+We will use the Datalyzer Fabrication Info as an example.
+
+//  Datalyzer Data 
+.*Datalyzer Fabrication Info (D)*
+[width="75%",cols="2*<"]
+|===
+2+<|Number crunching, data analyzing, mad machines.
+2+<|*Attributes*
+
+|Required Primes
+|CON 1 or 2; DEX 1 or 2; INT 4; STR 1 or 2
+
+|Minimum Regular
+|Nil
+
+|Hit Points
+|1d2+2 (1-3) HPS per point of CON
+
+|Adaptability
+|15%
+
+|Size
+|Small
+
+|Value
+|10000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|5% 
+
+|Defensive
+|1 Auto
+
+|Peripheral
+|1 Auto. Plus 1 Secondary Peripheral
+|===
+
+== Title
+The title lists the name of the robot type, its ID, and a catchy blurb about it.
+The ID is the letter in brackets.
+The Datalyzer's ID is D. 
+For convenience, the ID is always the first letter of the robot type. 
+
+== Attributes
+All information about the robot's attributes is listed here. 
+
+=== Primes
+These are the attribute primes that are required by the robot type.
+They are *NOT* minimums. 
+They are exact numbers. 
+A datalyzer must have a  STR Prime of 1 or 2.
+A datalyzer *CANNOT* have a STR Prime of 3 or 4.
+
+=== Minimums
+These are the attribute minimums that are required by the robot subtypes.
+A datalyzer has no subtypes, so nil is listed.
+Other robot subtypes require specific regular attribute minimums. 
+
+Combot has several subtypes.
+The persona's regular attributes determine the subtype of combot.
+For example, a heavy offensive combot needs a STR of 27 and a  STR prime of 4.
+
+=== Hit Points
+The range of hit points the robot type has is listed here.
+The player gets one roll per point of Constitution using this value.
+If this datalyzer robot has a 10 CON, she gets to roll 1d2+2 ten times to generate her hit points. 
+For more information, jump to xref:roll_playing_system:CH05_Robots_Z_HPS.adoc[Robot Hit Points,window=_blank].
+
+=== Adaptability
+Adaptability indicates how easy it is to modify the robot type. 
+The higher the adaptability percentage, the easier it is to modify the robot type.
+The datalyzer has an adaptability bonus of 15%, which is a standard adaptability value.
+A heavy offensive combot has an adaptability penalty at  -100%.
+For detailed information jump to  xref:CH05_Robots_Z_Adapt.adoc[Adaptability,window=_blank].
+
+=== Size
+The size of the robot type is self-explanatory.
+A medium-sized robot is about the same hite and wate as an anthro persona.
+The size of the datalyzer is small.
+For more information jump to xref:CH05_Robots_Z_Size.adoc[Size,window=_blank].
+
+=== Value
+The robot value is entirely random and arbitrary.
+The value gives a relative value to other robot types in the same culture and tech level.  
+A datalyzer robot with a 22 INT has a base value of 220000 eps. 
+
+The value listed is the base value. 
+A robot's value can increase dramatically with the installation of valuable systems. 
+For more info jump to to xref:CH05_Robots_Z_Value.adoc[Value,window=_blank].
+
+== Systems
+Robotic systems are random abilities that accompany the robot at the fabrication point.
+The systems indicate weapons, defences, or tools that are part of the robot.
+Systems are baked in. 
+Each robot has a chance at each of the three systems. 
+
+===  Offensive 
+Offensive systems are peripherals that the robot can use in combat to damage targets intentionally. 
+The attack may be a baked-in weapon or a malfunctioning peripheral.
+The data table indicates None, Auto, or a percent chance. 
+The Datalyzer has a 5% chance of having an offensive system from the level 1 Offensive Systems Table. 
+
+=== Defensive
+Defensive systems are peripherals that the robot can use in combat to defend itself from damage. 
+The defence may be a baked-in device or a malfunctioning peripheral.
+The data table indicates None, Auto, or a percent chance. 
+The Datalyzer automatically gets one roll on the defensive peripheral table. 
+There is a 24% chance that the datalyzer will get a second defensive system. 
+
+=== Peripheral 
+Peripheral systems are random peripherals that assist the robot in carrying out its tasks. 
+The peripheral effect may be a baked-in device or a malfunctioning peripheral.
+The data table indicates None, Auto, or a percent chance. 
+The random peripherals vary from the magnificent to the ridiculous.
+The data table indicates None, Auto, or a percent chance. 
+The datalyzer automatically gets two peripherals. 
