@@ -165,7 +165,7 @@ include::ROOT:partial$CH11_Table_Anthro_RP_Anthro_Type_Subs.adoc[]
 
 === Anthro RP Size
 Use this single look-up table to create the anthro's hite and wate. 
-For a refresher on calculating hite and wate jump to xref::CH04_Anthros_Size.adoc[Anthro Size,window=_blank].
+For a refresher on calculating hite and wate jump to xref::anthros:anthro_size.adoc[Anthro Size,window=_blank].
 To choose specific sizes like obese, skinny tall or short, jump to <<_modifications,Modifications>>.
 
 include::ROOT:partial$CH11_Table_Anthro_RP_Hite_and_Wate.adoc[]
@@ -188,16 +188,16 @@ include::ROOT:partial$CH11_Table_Anthro_RP_Attributes.adoc[]
 
 === Anthro RP Hit Points
 A referee persona's Hit Points (HPS) maximum is determined the same as any other anthro persona.
-For more information about anthro hit points jump xref:roll_playing_system:CH04_Anthros_HPS.adoc[here,window=_blank].
+For more information about anthro hit points jump xref:roll_playing_system:anthros:generate_hit_points.adoc[here,window=_blank].
 
 ==== HPMimum
-include::CH04_Anthros_HPS.adoc[tag=Anthro_HPS]
+include::anthros:generate_hit_points.adoc[tag=Anthro_HPS]
 
 ==== Damage System Shock
-include::CH04_Anthros_HPS.adoc[tag=Anthro_DSS]
+include::anthros:generate_hit_points.adoc[tag=Anthro_DSS]
 
 ==== Anthro RP Recovery
-include::CH04_Anthros_HPS.adoc[tag=Anthro_REC]
+include::anthros:generate_hit_points.adoc[tag=Anthro_REC]
 
 === Anthro Type Attribute Corrections
 For RPs, attributes do not select the anthro type.
@@ -211,17 +211,17 @@ include::ROOT:partial$CH11_Table_Anthro_RP_Attribute_Correction_Type.adoc[]
 Movement rate is dependent on DEX and represented in hexes per unit.
 If the referee needs a slow or fast RP, this is modified at <<_modifications,Modifications>>
 
-include::ROOT:partial$CH03_Table_Dexterity_and_Movement_Rate.adoc[]
+include::ROOT:partial$table/movement_rate_and_dexterity.adoc[]
 
 == Anthro RP Defence Rating
 Defence Rating is adjusted using DEX.
 // this in include from Anthro AR
-include::CH04_Anthros_AR.adoc[lines=3..20]
+include::anthros:defence_rating[lines=3..20]
 
 == Anthro RP Wate Allowance
 The better the STR, the more she can lift.
 
-include::ROOT:partial$CH03_Table_Physical_Strength_and_Wate_Allowance_(kg).adoc[]
+include::ROOT:partial$table/wate_allowance_and_strength.adoc[]
 
 == Anthro RP Mutations
 Referee personas mutate the same as other personas. 
@@ -231,7 +231,7 @@ Pure Strains are not vessels for zany mutations.
 Insectoids rarely get phenomic mutations.
 Keep in mind that some mutations are campaign changers and should be appropriately rare.
 
-include::ROOT:partial$CH04_Table_anthro_mutations.adoc[]
+include::ROOT:partial$table/anthro_mutation_chance.adoc[]
 
 == Anthro RP EXPS Level
 Generate an experience level for every anthro RP.
@@ -288,7 +288,7 @@ The attack table keeps track of the persona's combat skills and increases with E
 The referee need not calculate a complete attack table for cannon fodder or canon fodder referee personas.
 Canonical referee personas need a full attack table calculated.
 For general info about attack tables, jump to xref:roll_playing_system:CH09_Combat_Tables.adoc[Attack Tables,window=_blank] in tactical combat.
-For detailed info about the calculations below, jump to xref:roll_playing_system:CH04_Anthros_CT.adoc[Anthro attack table,window=_blank].
+For detailed info about the calculations below, jump to xref:anthros:attack_table[Anthro attack table,window=_blank].
 
 A second level spie has the following attributes: AWE 12 CHA 11 CON 12 DEX 10 INT 12 MND 14 and STR 16.
 
@@ -529,5 +529,5 @@ include::ROOT:partial$CH11_Table_Anthro_RP_Modifiers.adoc[]
 
 == Anthro RP Name
 The anthro should have a name as any anthro player persona does.
-For anthro, naming shenanigans jump to xref:roll_playing_system:CH04_Anthros_Name.adoc[Anthro Name,window=_blank].
+For anthro, naming shenanigans jump to xref:anthros:moniker.adoc[Anthro Name,window=_blank].
 
