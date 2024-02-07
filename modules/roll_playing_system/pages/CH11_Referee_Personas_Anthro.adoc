@@ -165,7 +165,7 @@ include::ROOT:partial$CH11_Table_Anthro_RP_Anthro_Type_Subs.adoc[]
 
 === Anthro RP Size
 Use this single look-up table to create the anthro's hite and wate. 
-For a refresher on calculating hite and wate jump to xref::anthros:anthro_size.adoc[Anthro Size,window=_blank].
+For a refresher on calculating hite and wate jump to xref:anthros:anthro_size.adoc[Anthro Size,window=_blank].
 To choose specific sizes like obese, skinny tall or short, jump to <<_modifications,Modifications>>.
 
 include::ROOT:partial$CH11_Table_Anthro_RP_Hite_and_Wate.adoc[]
@@ -216,7 +216,9 @@ include::ROOT:partial$table/movement_rate_and_dexterity.adoc[]
 == Anthro RP Defence Rating
 Defence Rating is adjusted using DEX.
 // this in include from Anthro AR
-include::anthros:defence_rating[lines=3..20]
+include::anthros:defence_rating.adoc[lines=3..20]
+
+// todo check this include for defence_rating
 
 == Anthro RP Wate Allowance
 The better the STR, the more she can lift.
