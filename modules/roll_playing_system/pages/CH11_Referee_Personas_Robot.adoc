@@ -106,7 +106,7 @@ include::ROOT:partial$CH05_Table_Robot_Single_Roll.adoc[]
 
 === Fabricator Type
 Where fabricator type does play a role is in delivering orders to the robot. If a fabricator type tells a robot what to do, it is more likely to comply. In short, the robot's fabricator type is more successful at bossing the robot around. If a fabricator type makes a reasonable, on mission command to a robot, it would almost certainly result in a control factor roll.
-For more information about the implications of the fabricator type jump to xref:roll_playing_system:robots:fabricator.adoc[Robot Fabricator,window=_blank].
+For more information about the implications of the fabricator type jump to xref:robots:fabricator.adoc[Robot Fabricator,window=_blank].
 
 include::robots:partial$fabricator_type.adoc[]
 
@@ -168,7 +168,7 @@ Robots are twice as fast as those other personas with the same DEX.
 Those robots which move faster than eight h/u must accelerate the same as vehicles.
 Robotic acceleration is one hex per unit per STR prime score.
 
-include::ROOT:partial$CH05_Table_Robotic_Movement_Rate.adoc[]
+include::robots:partial$movement_rate_and_dexterity.adoc[]
 
 == Robot RP Wate Allowance
 Bots are affected by encumbrance, though not as much as other referee personas.
@@ -177,12 +177,12 @@ A robot with a STR level of 3 and a 17 STR would have a wate allowance of 75 kgs
 Robot size does not affect a robot's wate allowance.
 For more information about carry stuff, jump to xref:roll_playing_system:CH18_Encumbrance.adoc[Encumbrance,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Wate_Allowance.adoc[]
+include::robots:partial$wate_allowance_and_prime_strength.adoc[]
 
 == Robot RP EXPS Level
 EXPS Levels improve the RP's Control Factor, assist in saves and robot attributes.
 
-include::ROOT:partial$CH11_Table_Referee_Persona_Level.adoc[]
+include::robots:partial$experience_to_levels.adoc[]
 
 == Robot RP Systems
 Robotic RPs may have offensive, defensive and peripheral systems.
@@ -297,8 +297,6 @@ If a robot RP manages to use a gun, her Skilled is zero.
 If the robot type is Android (A), then the referee must make an anthro-like vocation-based attack table as well.
 For the vocation based attack table, jump to xref:anthros:attack_table[Anthro attack table,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_CT_Xample.adoc[]
-
 :art: bots_bots_bots.png
 :width: 350px
 :snark: Combat ratio can alter numbers.
@@ -336,7 +334,7 @@ Robot sensors allow the robot RP to hear and see like any other persona.
 The higher the RPs Awareness, the more sensors they have. 
 For more detailed information, jump to xref:robots:sensors.adoc[Sensors,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Sensors.adoc[]
+include::robots:partial$sensor_types.adoc[]
 
 === Robot RP Locomotion
 Robot locomotion allows the RP to get anywhere she can fit.
@@ -417,4 +415,4 @@ include::ROOT:partial$CH11_Table_Referee_Persona_Philosophical_Belief.adoc[]
 == Robot RP Name
 The robot should have a name like any other persona.
 Robot names can become complicated because they may need a persona name, model name and fabricator name.
-For more details on naming shenanigans, jump to xref:roll_playing_system:CH05_Robots_Z_Name.adoc[Robot Name,window=_blank].
+For more details on naming shenanigans, jump to xref:robots:moniker.adoc[Robot Name,window=_blank].
