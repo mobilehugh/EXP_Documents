@@ -29,10 +29,8 @@ For more info jump to xref:robots:movement_rate.adoc[Robot Movement Rate,window=
 All locomotion types function equally.
 So a robot with three pods would move the same as a robot with one track. 
 
-include::ROOT:partial$CH05_Table_Robotic_Primary_Locomotion.adoc[]
-
-include::ROOT:partial$CH05_Table_Robotic_Secondary_Locomotion_Type.adoc[]
-
+include::robots:partial$locomotion_types.adoc[]
+include::robots:partial$locomotion_types_complementary.adoc[]
 == Antigrav
 Antigrav is a classic sciency fiction term for anti-gravity.
 The robot can travel about as though gravity does not affect it.
