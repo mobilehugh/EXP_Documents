@@ -68,6 +68,10 @@ If the attack is appropriate, the player adds the Skilled Bonus to her attack ro
 The Skilled Bonus has two main components: Attributes Component and Level Componenent.
 The persona's Skilled Bonus increases as the they gains EXPS levels. 
 
+include::robots:partial$attack_table_robot_skilled_bonus_calculation.adoc[]
+
+TIP: Breaking the Skilled Bonus into components may be helpful
+
 === Attribute Component
 The persona's attributes determine the majority of the robot's Skilled Bonus.
 Strong robots are good at ramming.
@@ -75,11 +79,14 @@ Dextrous robots are good at firing arrows.
 If a persona's attributes increase or decrease, the player should recalculate her attack table.
 In the case of robots, attributes tend to decrease.
 
-include::robots:partial$attack_table_robot_skilled_attributes.adoc[]
+include::robots:partial$attack_table_robot_skilled_attribute_component.adoc[]
 
 === Prime Component
 The robot primes determine the range of the robot's CON, DEX, INT and STR attributes.
 The prime bonus is equal to the robotic prime times its attribute.
+
+include::robots:partial$attack_table_robot_skilled_prime_component.adoc[]
+
 
 === Level Component
 The attack type determines the robot's level bonus.
