@@ -25,8 +25,12 @@ include::anthros:partial$attack_table_blank.adoc[]
 == Skilled Bonus
 The Skilled Bonus (Skilled) is for weapons in which the persona is skilled.
 The player adds the Skilled to her attack roll when her persona uses a weapon in which she is proficient.
-The Skilled has two main components: Attributes Bonus and Level bonus.
+The Skilled Bonus has two main components: Attributes Bonus and Level bonus.
 The persona's Skilled increases as the persona gains EXPS levels. 
+
+include::anthros:partial$attack_table_anthro_skilled_total.adoc[]
+
+TIP: Breaking the Skilled Bonus into components may be helpful
 
 === Attribute Component
 The persona's attributes determine the majority of the persona's Skilled Bonus.
@@ -34,7 +38,7 @@ Strong personas wield crushing weapons well.
 Dextrous personas wield projectile weapons well.
 If a persona's attributes increase or decrease, the player should recalculate her attack table.
 
-include::anthros:partial$attack_table_anthro_skilled_attributes.adoc[]
+include::anthros:partial$attack_table_anthro_skilled_attribute_component.adoc[]
 
 === Level Component
 The persona's vocation determines her level bonus.
@@ -42,9 +46,7 @@ Each vocation has its level bonus.
 The level bonus is added per level of experience that the persona has.
 Adding the level component to the skilled bonus at first level is a matter to be decided by the table.
 
-// fix level bonus or not level bonus
-
-include::anthros:partial$attack_table_anthro_skilled_levels.adoc[]
+include::anthros:partial$attack_table_anthro_skilled_level_component.adoc[]
 
 == Raw Bonus
 The Raw Bonus (Raw) is not a wrestling thang.
