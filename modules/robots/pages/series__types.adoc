@@ -1,16 +1,14 @@
-= Robot Type
+= Robot Series
 
-The player uses her robotic attribute primes to determine her robot persona type.
-Determining robot type is byzantine, meticulous and painful.
-A player could generate a  heavy offensive combot capable of annihilating entire cities.
-The system is delicate because robot personas can lead to profound game imbalance.
+There are many different robot series to choose from. 
+From a heavy offensive combot capable of annihilating entire cities to a delicate hobbyist robot.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.* 
 
 .List of Robot Types
 * xref:robots:series_android.adoc[A-Android,window=_blank]
-* xref:robots:series_combot.adoc[C-Combat,window=_blank]
+* xref:robots:series_combot.adoc[C-Combot,window=_blank]
 * xref:robots:series_datalyzer.adoc[D-Datalyzer,window=_blank]
 * xref:robots:series_exploration.adoc[E-Explorations,window=_blank]
 * xref:robots:series_hobbot.adoc[H-Hobbot,window=_blank]
@@ -23,43 +21,8 @@ TIP: Rules maintain game balance and assist creativity. +
 * xref:robots:series_transport.adoc[T-Transport,window=_blank]
 * xref:robots:series_veterinarian.adoc[V-Veterinarian,window=_blank]
 
-== How To Use the Robot Determination Table
-First, do not be afraid.
-Second, it is as bad as it looks.
 
-Each prime attribute value has its own column. 
-The player reads down each attribute column recording the robot IDs in that column.
-For example, reading down the CON 3 column, the player will encounter a *P* and *T*.
-The player records these letter IDs and repeats the process for all four of her robot's prime attributes.
-Doing this generates a pile of letters representing robot types. 
-The player sums the number of times each letter is present and determines the robot type.
-For example, if the total number of *H*s exceeded all other robot type IDs, the persona would be an H-Hobbot.
-
-include::ROOT:partial$CH05_Table_Robot_Type_Determination.adoc[]
-
-== Example
-A robot persona has the following prime attribute scores: CON 2, DEX 2, INT 3 and STR 4.
-
-include::ROOT:partial$CH05_Table_Robot_Type_Example.adoc[]
-
-.Reading down each column yields the following IDs
-* CON 2 (C, D, I, M, S, V)
-* DEX  2 (D, E, I, J, M, R, S)  
-* INT 3 (C, H, M, P, R, S, V)
-* STR 4 (A, C, I)
-
-The player adds up the robot IDs creating a list looking like this: A=1, C=3, D=2, E=1, H=1, I=3, J=1, M=3, P=1, R=2, S=3, and V=2.
-There is a tie between four robot types. 
-The player may choose between C-Combot, I-Industrial, M-Maintenance, and S-Social robot types. 
-
-== Skip the Tables
-There is a single roll table if you find the byzantine, burdensome, and bloviated mechanism for robot type selection too much.
-The percentage chance of a robot type was calculated by computer programme fabricating 10000 robots. 
-The single roll table makes certain dangerous robot types more likely.
-
-include::ROOT:partial$CH05_Table_Robot_Single_Roll.adoc[]
-
-== Robot Type Fabrication Info
+== Explaining Robot Fabrication Info
 Each robot type has its own fabrication info.
 The fabrication info details what makes the robot persona unique.
 We will use the Datalyzer Fabrication Info as an example.
