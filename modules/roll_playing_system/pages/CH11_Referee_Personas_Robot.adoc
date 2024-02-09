@@ -106,7 +106,7 @@ include::ROOT:partial$CH05_Table_Robot_Single_Roll.adoc[]
 
 === Fabricator Type
 Where fabricator type does play a role is in delivering orders to the robot. If a fabricator type tells a robot what to do, it is more likely to comply. In short, the robot's fabricator type is more successful at bossing the robot around. If a fabricator type makes a reasonable, on mission command to a robot, it would almost certainly result in a control factor roll.
-For more information about the implications of the fabricator type jump to xref:roll_playing_system:CH05_Robots_Z_Fabricator.adoc[Robot Fabricator,window=_blank].
+For more information about the implications of the fabricator type jump to xref:roll_playing_system:robots:fabricator.adoc[Robot Fabricator,window=_blank].
 
 include::robots:partial$fabricator_type.adoc[]
 
@@ -327,14 +327,14 @@ Qualitative details about how the robot moves, sees, and powers itself.
 === Robot RP Power Source
 Robot power sources are sciency fiction supercells that allow the robot to operate.
 Recharging may be necessary.
-For more detailed information, jump to xref:roll_playing_system:CH05_Robots_Z_Power.adoc[Power Source,window=_blank].
+For more detailed information, jump to xref:robots:power_source.adoc[Power Source,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Power_Cell_Type.adoc[]
+include::robots:partial$power_cell_types.adoc[]
 
 === Robot RP Sensors
 Robot sensors allow the robot RP to hear and see like any other persona.
 The higher the RPs Awareness, the more sensors they have. 
-For more detailed information, jump to xref:roll_playing_system:CH05_Robots_Z_Sensors.adoc[Sensors,window=_blank].
+For more detailed information, jump to xref:robots:sensors.adoc[Sensors,window=_blank].
 
 include::ROOT:partial$CH05_Table_Robotic_Sensors.adoc[]
 

@@ -1,4 +1,4 @@
-.*Completed Attack Table*
+.*Completed Anthro Attack Table*
 [width="85%",cols="4*<",frame="all", stripes="even"]
 |===
 4+<s|Skilled Bonus (Skilled)
@@ -6,10 +6,10 @@
 |Strike Attack
 3+<|1.5 * AWE + 2 * DEX + 1.5 * INT + 5 * STR + Level * Bonus
 
-|Attribute Bonus
+|Attribute Component
 3+<|1.5 * 12 + 2 * 10 + 1.5 * 12 + 5 * 16 = 136
 
-|Level Bonus
+|Level Component
 3+<|(spie * 2) = 30 * 2 = 60
 
 s|Skilled for Strike
@@ -19,10 +19,10 @@ s|Skilled for Strike
 |Fling Attack
 3+<|1 * AWE + 4 * DEX + 1 * INT + 2 * STR + Level * Bonus
 
-|Attribute Bonus
+|Attribute Component
 3+<|1 * 12 + 4 * 10 + 1 * 12 + 2 * 16 = 96
 
-|Level Bonus
+|Level Component
 3+<|(spie * 2) = 30 * 2 = 60
 
 s|Skilled for Fling
@@ -32,10 +32,10 @@ s|Skilled for Fling
 |Shoot Attack
 3+<|1 * AWE + 9 * DEX + 1 * INT + 1 * STR + Level * Bonus
 
-|Attribute Bonus
+|Attribute Component
 3+<| 1 * 12 + 9 * 10 + 1 * 12 + 1 * 16 = 130
 
-|Level Bonus
+|Level Component
 3+<| spie = 30, level = 2, 30 * 2 = 60
 
 s|Skilled for Shoot
@@ -43,13 +43,13 @@ s|Skilled for Shoot
 >s|190
 |===
 
-[width="65%",cols="4*<",frame="all", stripes="even"]
+[width="85%",cols="4*<",frame="all", stripes="even"]
 |===
 
 4+<s|Raw Bonus (Raw)
 
 |Strike Attack
-3+<|Strike Skilled * spie percentage
+3+<|Strike Skilled * Spie Fraction
 
 s|Raw for Strike
 2+<|196 * 25%
@@ -57,21 +57,21 @@ s|Raw for Strike
 
 
 |Fling Attack
-3+<|Fling Skilled * spie percentage
+3+<|Fling Skilled * Spie Fraction
 
 s|Raw for Fling
 2+<|156 * 25%
 >s|39 
 
 |Shoot Attack
-3+<|Shoot Skilled * spie percentage
+3+<|Shoot Skilled * Spie Fraction
 
 s|Raw for Shoot
 2+<|190 * 25%
 >s|49 
 |===
 
-[width="65%",cols="4*<",frame="all", stripes="even"]
+[width="85%",cols="4*<",frame="all", stripes="even"]
 |===
 
 4+<s|Max Roll (Max)
@@ -100,7 +100,7 @@ s|Max for Fling
 |===
 
 
-[width="65%",cols="4*<",frame="all", stripes="even"]
+[width="85%",cols="4*<",frame="all", stripes="even"]
 |===
 4+<s|Damage Adjuster (Force)
 

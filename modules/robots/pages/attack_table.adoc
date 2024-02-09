@@ -61,7 +61,6 @@ include::anthros:partial$attack_table_blank.adoc[]
 . <<_max_roll,Max Roll>>
 . <<_force_bonus,Force Bonus>>
 
-
 == Skilled Bonus
 The Skilled Bonus (Skilled) is for the robot's baked-in attacks and malfunctioning peripherals acquired during fabrication.
 If the attack is appropriate, the player adds the Skilled Bonus to her attack roll.
@@ -87,38 +86,40 @@ The prime bonus is equal to the robotic prime times its attribute.
 
 include::robots:partial$attack_table_robot_skilled_prime_component.adoc[]
 
-
 === Level Component
 The attack type determines the robot's level bonus.
 The player adds the level bonus for each EXPS level of her alien, including her first level.
 Initially, the level bonus plays a small role in the Skilled, but the contribution grows with EXPS.
 
-include::ROOT:partial$CH05_Table_Robotic_CT_Lvl.adoc[]
+include::robots:partial$attack_table_robot_skilled_level_component.adoc[]
 
 == Raw Bonus
 Robots do not have a Raw Bonus. 
 A robot's programming does not allow for unskilled attacks, and the robot's Raw is zero.
 Robot Raw is the easiest of all the attack table elements to calculate.
 
+include::robots:partial$attack_table_robot_raw_fraction.adoc[]
+
 == Max Roll
 Robots do not have a Max Roll.
 There is no upper limit to what the player can generate for her attack roll.
 This techno-malarky is supposed to reflect the robot's lack of nervousness or insecurity.
 
+include::robots:partial$attack_table_robot_max_roll.adoc[]
+
 == Force Bonus
 When the player has won an attack roll, she can add her Force Bonus to the damage roll.
-Robots are allowed to contribute a more significant portion of their Strength to persona-powered attacks.
+Robots contribute more of their Strength to the Force Bonus due to the engineering of their inorganic materials. 
+From an attribute standpoint a robot STR of 12 equals an alien STR of 12. 
 Shoot attacks do not depend on the robot's Strength and have no Force Bonus.
 
-include::ROOT:partial$CH05_Table_Robotic_CT_DA.adoc[]
+include::robots:partial$attack_table_robot_force_bonus.adoc[]
 
 === Robot Attack Table Example
-A 3rd level robot has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 STR.
-Her robotic primes are DEX of 2, INT of 2, and STR of 3
+A 3rd level robot (generic) has the following attributes: 12 AWE, 12 DEX, 10 INT, and 16 STR and the following primes 2 Prime DEX, 2 Prime INT and 3 Prime STR
 
-Her ramming skill would use her Skilled for Strike attacks.
-Her baked-in pistol would use her Skilled for Shoot attacks.
-Acid squirted from a misused cleaner would use her Raw.
+The player would use the Skilled Bonus for her baked-in pistol (Shoot Attack) and her battery battery dispenser (Fling).
+This robot has no Ramming Skill and would use her Raw Bonus (Strike Attack) when ramming into things 
 
-include::ROOT:partial$CH05_Table_Robotic_CT_Xample.adoc[]
+include::robots:partial$attack_table_robot_example.adoc[]
 
