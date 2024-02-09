@@ -5,7 +5,7 @@ A robot's Strength of ten is the same as an anthro's Strength of ten.
 However, the player's pathway to generate robot attributes is quite different. 
 Robots have a combination of prime attributes, regular attributes and irregular robot attributes.
 
-include::ROOT:partial$CH05_Table_Robotic_Attributes_All.adoc[]
+include::ROOT:partial$robots:robot_attribute_generation.adoc[]
 
 == Regular Attributes
 The player generates these regular attributes the same as she would for any other persona. 
@@ -37,13 +37,13 @@ The higher the prime score, the higher the final attribute score will be.
 The player records the prime attribute score on the robot persona record. 
 The prime scores are immutable, and while the robot's attribute score deteriorates, her prime score does not.
 
-include::ROOT:partial$CH05_Table_Robotic_Attribute_Levels.adoc[]
+include::robots:partial$prime_attributes_list.adoc[]
 
 A player that rolls a three for STR prime has a STR prime of 3.
 The player will also generate a conventional attribute score based on the prime attribute value.
 Each prime attribute has a prime score (1-4) and an attribute score (1-29).
 
-include::ROOT:partial$CH05_Table_Robotic_Attributes.adoc[]
+include::robots:partial$prime_attributes_translation.adoc[]
 
 == Example 
 The player would first generate her persona's regular attributes. 

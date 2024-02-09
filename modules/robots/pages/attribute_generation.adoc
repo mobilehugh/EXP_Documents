@@ -1,31 +1,16 @@
 = Robot Attributes
 
-Robot persona attribute values are the same as organic persona attribute values.
+Robot persona attribute values are equivalent to organic persona attribute values.
 A robot's Strength of ten is the same as an anthro's Strength of ten.
-However, the player's pathway to generate robot attributes is quite different. 
+The player's pathway to generate robot attributes is quite different. 
 Robots have a combination of prime attributes, regular attributes and irregular robot attributes.
 
-include::ROOT:partial$CH05_Table_Robotic_Attributes_All.adoc[]
+include::robots:partial$robot_attribute_generation.adoc[]
 
 == Regular Attributes
 The player generates these regular attributes the same as she would for any other persona. 
 She rolls the assigned dice and records the score on her persona record sheet.
 The regular attributes are Awareness (AWE), Charisma (CHA) and social standing (SOC).
-
-== Irregular Attributes
-These attributes are specific only to robot personas. 
-The first irregular attribute is the control factor (CF).
-Robot Control Factor determines whether a robot maintains its free will.
-Robot Type may keep a robot from doing where her persona wants.
-For more info about this attribute test jump to xref:roll_playing_system:CH05_Robots_Z_CF.adoc[Control Factor,window=_blank].
-
-The second irregular attribute is Mind (MND).
-Robot personas have a Mind score of zero.
-A zero Mind does not indicate that robots are psionically vulnerable and easily manipulated.
-Robots do not have Mind because their consciousness does not exist within the Think Space.
-Robots are unaffected by mental attacks that function through the Think Space. 
-Robots cannot be mind-controlled or subject to telempathy or have their mind read.
-If a robot must test her MND, she will use her Intelligence score instead. 
 
 == Prime Attributes
 Prime attributes are the robot persona's most important attributes.
@@ -37,13 +22,36 @@ The higher the prime score, the higher the final attribute score will be.
 The player records the prime attribute score on the robot persona record. 
 The prime scores are immutable, and while the robot's attribute score deteriorates, her prime score does not.
 
-include::ROOT:partial$CH05_Table_Robotic_Attribute_Levels.adoc[]
+include::robots:partial$prime_attributes_list.adoc[]
 
 A player that rolls a three for STR prime has a STR prime of 3.
 The player will also generate a conventional attribute score based on the prime attribute value.
 Each prime attribute has a prime score (1-4) and an attribute score (1-29).
 
-include::ROOT:partial$CH05_Table_Robotic_Attributes.adoc[]
+include::robots:partial$prime_attributes_translation.adoc[]
+
+== Irregular Attributes
+These attributes are specific only to robot personas. 
+
+The first irregular attribute is the control factor (CF).
+Robot Control Factor determines whether a robot maintains its free will.
+Robot Type may keep a robot from doing where her persona wants.
+For more info about this attribute test jump to xref:roll_playing_system:CH05_Robots_Z_CF.adoc[Control Factor,window=_blank].
+
+The second irregular attribute is adaptability (ADP).
+Robotic Adaptability determines how easily the robot can be altered. 
+Some robots are very amenable to being altered, and have a high adaptability.
+For example a Hobbot has a very high adaptability, while a heavy offensive combot has a very low adaptability. 
+
+// todo adaptability as an attribute, upgrades and other stuff
+
+The third irregular attribute is Mind (MND).
+Robot personas have a Mind score of zero.
+A zero Mind does not indicate that robots are psionically vulnerable and easily manipulated.
+Robots do not have Mind because their consciousness does not exist within the Think Space.
+Robots are unaffected by mental attacks that function through the Think Space. 
+Robots cannot be mind-controlled or subject to telempathy or have their mind read.
+If a robot must test her MND, she will use her Intelligence score instead. 
 
 == Example 
 The player would first generate her persona's regular attributes. 
