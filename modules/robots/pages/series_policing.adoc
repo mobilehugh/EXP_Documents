@@ -1,0 +1,271 @@
+= Policing
+
+Policing robots are crime-fighting machines.
+These robots respect the lives and livelihoods (if legal) of all life forms.
+They are exceptionally protective of their fabricator type.
+Policing robots can be stationed anywhere.
+They are not limited to underserviced or violent areas.
+
+// new table for 6.0
+//  Robot Attribute Requirements 
+.*Policing Robot Attribute Requirements*
+[width="75%",cols="2*<"]
+|===
+2+<| Attribute requirement for industrial robot type.
+
+s|Policing Type
+s|Attributes
+
+|Civil
+|Nil.
+
+|Riot
+|CON 15
+
+|Detective
+|INT 15
+
+s|Policing Type
+s|Attributes
+|===
+
+== Civil Policing Robot
+
+//  Civil Policing Robot Fabrication Data 
+.*Civil Policing Robot Fabrication Info (P-C)*
+[width="75%",cols="2*<"]
+|===
+2+<|Policing civilian environments.
+
+2+<|*Attributes*
+
+|Primes
+|CON 3; DEX 4; INT 3; STR 3
+
+|Minimums
+|Nil.
+
+|Hit Points
+|3-12 (3d4) per point of CON
+
+|Adaptability
+|-25%
+
+|Size
+|Medium or Small
+
+|Value:
+|100000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|100% roll on Table 1
+
+|Defensive
+|100% for 1 roll
+
+|Peripheral
+|10% for 1 roll on Primary
+|===
+
+Civilian policing robots are constables on patrol in a drum.
+Civils can walk the beat, chase criminals, guard banks, issue tickets, etc.
+By sheer chance, this robot's ID is P-C. 
+This robot is the primary interface between the 'people' and law enforcement.
+Civilian policing robots have some special skills.
+
+=== Commanding Voice
+When necessary, the civil robot can unleash booming amplified voice commands.
+Classic commands like FREEZE! or DROP IT! can be used.
+At the very least, the commanding voice is distracting to organic ears.
+Referee personas with low Mind may stop in their tracks when hearing the commanding voice.
+Player personas are unaffected by commanding voice.
+
+=== Non-Lethal Weapon
+A non-lethal weapon is one that can disable or affect a target without harming it.
+A stun weapon, a sleep beam, or a nausea attack would be considered non-lethal.
+Less lethal weapons do not count.
+The player has three chances to roll a non-lethal weapon for her robot. 
+If there is no non-lethal weapon after three rolls, the persona has no weapon.
+
+=== Disarm
+A civil robot can disarm a target with a successful attack roll.
+
+=== Grapple
+When it is time to 'collar' a suspect or subdue a target, the civil policing robot can grapple.
+An attack roll win will completely immobilize an organic target.
+A civil robot is completely invested during a grapple and cannot do anything else.
+To break from this grapple requires a successful bizarre STR roll.
+Civil robots will unglamorously drag their grappled collars back to the nearest brig.
+
+== Riobot Policing Robot
+
+:art: riobot.png
+:width: 250px
+:snark: Riobot protecting and serving
+:artist: Pat Redding
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Drawing of tank sized robot spraying water cannon.
+
+include::ROOT:partial$articulate.adoc[]
+
+//  Riobot Fabrication Data 
+.*Riobot Fabrication Info (P-R)*
+[width="75%",cols="2*<"]
+|===
+2+<|Keeping the peace when things are in pieces.
+
+2+<|*Attributes*
+
+|Primes
+|CON 3; DEX 4; INT 3; STR 3
+
+|Minimums
+|CON 15
+
+|Hit Points
+|3-12 (3d4) per point of CON
+
+|Adaptability
+|-42%
+
+|Size
+|Gigantic
+
+|Value:
+|1000000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|None
+
+|Defensive
+|100% for 1 roll
+
+|Peripheral
+|10% for 1 roll on Primary
+|===
+
+Riot robots are big crowd control operatives.
+They often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc.
+Their goal is to contain and restrain unruly hordes of anthros.
+They function as a mobile jail with crowd suppression.
+
+=== Grapple and Detain
+Grapple and detain is a two-step process that the riobot employs to apprehend rioters.
+To grapple a target, the player must win an attack roll.e
+The target gets one attempt to break free from the grapple.
+If the target is unsuccessful, she is detained.
+Once detained, it is nearly impossible for a captive to break free.
+Detained protestors are subject to any area of effect weapons that the riobot deploys.
+
+The riobot can grapple one rioter per unit. 
+The riobot can carry out all other operations while grappling a rioter. 
+A riobot can detain one target per point of STR.
+So a Riobot with a 20 STR can detain 20 targets.
+
+.*Grapple Detain Checklist*
+. Grapple target: the player must win an attack roll.
+. Break grapple: the target must win a STR challenge
+. Break detention: the target must win a bizarre STR challenge
+
+=== Crowd Control Peripherals
+These peripherals are attachments designed for crowd control.
+They are not malfunctioning peripherals. 
+They are bespoke riobot peripherals.
+These peripherals are non-lethal immobilization attacks, but accidents happen. 
+
+Riot Policing robot Peripheral for every three points of Intelligence.
+A riobot with a 12 Intelligence score would get four rolls on the Crowd Suppression Peripheral Table.
+Multiple rolls of the same peripheral are intentional riobot redundancy.
+The riobot can use every peripheral every unit of combat.
+Multi-tasking is a crucial feature of crowd control.
+
+include::ROOT:partial$CH05_Table_Riot_Policing_Robot_Peripherals.adoc[]
+
+Water Cannon::
+A powerful jet of water shoots at a target, and an attack roll win knocks the target down. 
+The water cannon's range is one hex per point of Strength.
+
+Tear Gas::
+A noxious gas causes severe tearing of organic eyeballs.
+The area of effect range is one hex per point of Constitution.
+All targets in the area of effect must win a save vs the riobot's Constitution or be blind for 1-4 (1d4) units.
+
+Stun Ray::
+A technomagical beam of energy shoots at a target, an attack roll win could incapacitate the target.
+The target must win a saving roll versus the riobot's Constitution or be stunned for 1-10 (1d10) units.
+
+Grav Disruptor::
+A wave of gravity disruption causes rioters to fall to the ground.
+The area of effect range is one hex per point of Constitution.
+All targets in the area of effect must win a save vs the riobot's Constitution or tumble to the ground.
+
+Force Beam::
+A technomagical beam of energy shoots at a target, an attack roll win throws the target backwards.
+The target will land 1-4 (1d4) hexes backwards and cannot move or act that unit.
+
+Weapon Malfunction::
+When activated, all weapons within range of the riobot are 50 times more likely to malfunction.
+For some weapons, this is extremely dangerous. 
+The range of weapon malfunction is one hex per point of the riobot's Charisma score.
+
+Battery Drain::
+When activated, all batteries in the area of effect must win a saving roll versus the riobot's Intelligence score or drain.
+The battery drain defence does not destroy batteries.
+The range of battery drain is one hex for every two points of the riobot's Intelligence score.
+
+Sleep Beam::
+The sleep beam is a not so gentle "nighty night meat bag" attack.
+The target must win a save versus the riobot's Charisma or sleep until woken.
+Someone must intentionally wake the sleeping target—otherwise, Ms. Sleepy-pants will miss the riot.
+
+== Detective Policing Robot (P-D)
+
+//  Detective Policing Robot Fabrication Data 
+.*Detective Policing Robot Fabrication Info (P-D)*
+[width="75%",cols="2*<"]
+|===
+2+<|Detective, chief, manager, sleuth, criminologist in one.
+
+2+<|*Attributes*
+
+|Primes
+|CON 3; DEX 4; INT 3; STR 3
+
+|Minimums
+|INT 15
+
+|Hit Points
+|2-4 (1+d3) per point of CON
+
+|Adaptability
+|10%
+
+|Size
+|Medium
+
+|Value:
+|100000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|100% roll on Table 1
+
+|Defensive
+|100% for 1 roll
+
+|Peripheral
+|100% for 1 roll on Primary
+|===
+
+A detective policing robot is a criminologist in a drum.
+A detective can operate as a chief, manager, auditor, or technologist.
+The detective does not grapple with or detain methods. 
+A detective directs civil robots to make arrests and do the dirty work.
+Detective policing robots focus on the apprehension of criminals.
+If an expedition engages in criminal activities, the detective may need to make CF checks.

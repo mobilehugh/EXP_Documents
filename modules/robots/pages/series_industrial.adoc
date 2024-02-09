@@ -1,0 +1,218 @@
+= Industrial
+
+Industrial robots have an industry focus.
+This robot type is one of the more focused in its functions.
+The industrial robot has three sub-types: builder, lifter and mover. 
+Their titles explain their functional focus.
+
+// new table for 6.0
+//  Robot Attribute Requirements 
+.*Industrial Robot Attribute Requirements*
+[width="75%",cols="2*<"]
+|===
+2+<| Attribute requirement for industrial robot type
+
+s|Industrial Type
+s|Attributes
+
+|Builder
+|INT > DEX + 
+INT > STR
+
+|Lifter
+|STR > DEX  + 
+STR > INT
+
+|Mover
+|DEX > INT + 
+DEX > STR
+
+s|Industrial Type
+s|Attributes
+|===
+
+:art: industrial_welder.png
+:width: 350px
+:snark: Industrious industrial robot of industry.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Stout robot on tracks sporting a spot welder and a oblong head.
+
+include::ROOT:partial$articulate.adoc[]
+
+== Industrial Builder Robot
+
+//  Construction Fabrication Data 
+.*Industrial Builder Fabrication Info (I-B)*
+[width="75%",cols="2*<"]
+|===
+2+<|It will come. Then you build it.
+
+2+<|*Attributes*
+
+|Primes
+|CON any; DEX 2 or 3; INT 1 or 2; STR 4
+
+|Minimums
+|INT > DEX and INT > STR
+
+|Hit Points
+|9-12 (8+1d4) per point of CON
+
+|Adaptability
+|25%
+
+|Size
+|Medium
+
+|Value:
+|100000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|2 rolls Table 1 *ONLY*
+
+|Defensive
+|15% for 1 roll
+
+|Peripheral
+|100% 1 Primary +
+10% 2nd Primary
+|===
+
+Builder robots are mobile assembly machines.
+A builder robot is usually not part of the design process.
+Designing usually requires input from a mechanic.
+Once programmed, the builder robot gets right to it.
+The builder will source supplies and create widgets until she runs out of stores. 
+It can take a long time to acquire construction materials in austere environments.
+Builders with a 22 INT score can design objects (cups, balls, combs, toys).
+Programming a builder robot is a Mechanic maneuver.
+The more valuable the item, the higher the Degree of Difficulty.
+The builder robot cannot replicate fancy high-tech weaponry or other such goodies.
+A builder robot should offer a massive bonus to mechanics that are building things.
+
+:art: lifter_robot.png
+:width: 350px
+:snark: Uplifting lifter robot.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Large humanoid robot with oversized arms and hands.
+
+include::ROOT:partial$articulate.adoc[]
+
+== Industrial Lifter Robot
+
+//  Lifting Fabrication Data 
+.*Lifter Robot Fabrication Info (I-L)*
+[width="75%",cols="2*<"]
+|===
+2+<|Always gonna lift you up. May let you down.
+
+2+<|*Attributes*
+
+|Primes
+|CON any; DEX 2 or 3; INT 1 or 2; STR 4
+
+|Minimums
+|STR > DEX and STR > INT
+
+|Hit Points
+|9-12 (8+1d4) per point of CON
+
+|Adaptability
+|25%
+
+|Size
+|Large
+
+|Value:
+|100000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|35% for 2 rolls Table 1 *ONLY*
+
+|Defensive
+|15% for 1 roll
+
+|Peripheral
+|100% 1 Primary
+|===
+
+Lifting robots are former cargo hoists from warehouses or department stores.
+Lifting robots are capable of supporting one object per three points of DEX.
+So a lifting robot with a 12 DEX would have four articulations for lifting.
+The objects lifted by one arm cannot exceed three times the robots Weight Allowance.
+If the robot has multiple lifters, they can coordinate to lift a heavier single object.
+The robot can lift objects to a height five times her Hite.
+
+If something does not want "a lift," the lifting must win an attack roll. 
+A robot can make one attack roll per lift articulation.
+This grab is not a damaging attack. 
+Lifting robots will spend a lot of time grabbing and damaging targets by dropping them.
+
+The fabricator did not make lifting robots to drop things.
+A previous owner may have fired the malfunctioning lifting robot for dropping things. 
+The player must win a xref:roll_playing_system:CH05_Robots_Z_CF.adoc[Control Factor,window=_blank] roll to drop an object successfully.
+
+Dropping things leads to them falling. 
+For more info about sudden stops jump to xref:roll_playing_system:CH19_Terrain.adoc#_falling[Falling,window=_blank].
+
+== Industrial Mover Robot
+
+//  Moving Robot Fabrication Data 
+.*Mover Robot Fabrication Info (I-M)*
+[width="75%",cols="2*<"]
+|===
+2+<|Move it. Store it. Catalogue it.
+
+2+<|*Attributes*
+
+|Primes
+|CON any; DEX 2 or 3; INT 1 or 2; STR 4
+
+|Minimums
+|DEX > INT and DEX > STR
+
+|Hit Points
+|9-12 (8+1d4) per point of CON
+
+|Adaptability
+|5%
+
+|Size
+|Gigantic
+
+|Value:
+|100000 times 1d6
+
+2+<|*Systems*
+
+|Offensive
+|2 rolls Table 1 *ONLY*
+
+|Defensive
+|15% for 1 roll
+
+|Peripheral
+|100% 1 Primary
+|===
+
+Mover robots can easily be mistaken for intelligent trucks.  
+A mover robot can carry ten times their robotic wate allowance.
+Moving robots get a bonus of 50% on their movement rate.
+This robot can read maps and understand even the worst directions.
+Mover robots can remember ten waypoints per INT score. 
+An industrial mover robot can always find its 'way' between waypoints. 
+Waypoints do not work from planet to planet.
+
+Moving robots are self-loading. 
+The robot can lift an object twice its wate allowance when loading.
+The robot cannot weaponize her lifting articulation.
+A mover robot cannot force an unwilling target into its cargo hold.
+Lifter and mover robots can make a great team. 
