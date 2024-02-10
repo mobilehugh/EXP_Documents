@@ -1,22 +1,22 @@
-= Robot Offensive Systems
+= Robot Offensive Perihperals
 
-Offensive systems are attacks that the persona can use to inflict damage on targets.
-Most robots have no specific offensive systems, but all robots can ram.
+Offensive peripherals are attacks that the persona can use to inflict damage on targets.
+Most robots have no specific offensive peripherals, but all robots can ram.
 Most robotic attacks are *not* baked in weapons like guns or lazers.
 The robotic persona attacks are more often malfunctioning devices.
 Whether the robot is ramming, misusing a peripheral or firing a lazer rifle, the player must win an attack roll to inflict damage.
 
-include::ROOT:partial$CH05_Table_Robotic_Table_List.adoc[]
+include::robots:partial$peripherals_offensive_categories.adoc[]
 
 All robots can weaponize themselves and ram targets with their chassis.
-The robot type determines if there are any additional offensive systems. 
-The robot type fabrication info has some gibberish on the offensive systems line.
+The robot type determines if there are any additional offensive peripherals. 
+The robot type fabrication info has some gibberish on the offensive peripherals line.
 
 This section does not cover robot combat. 
 This section determines what attacks the robot has when she gets into combat.
 For more info about robot combat jump to xref:roll_playing_system:CH31_Robotic_Combat.adoc[Robotic Combat,window=_blank].
 
-.*Offensive Systems Decode*
+.*Offensive Peripherals Decode*
 * Nil: No offensive system. 
 ** Ramming is the only option.
 * Percent: Percent chance of roll on the listed table
@@ -24,7 +24,7 @@ For more info about robot combat jump to xref:roll_playing_system:CH31_Robotic_C
 * Roll: automatically gets a roll on the listed table
 ** E.g., 2 rolls Table 2. The player gets two rolls on Table 2.
 
-== Offensive Systems Limitations
+== Offensive Peripherals Limitations
 The referee and players should limit the amount and lethality of robotic offensive systems for campaign balance and fun.
 A powerful robot can easily acquire a dozen thrusting and striking weapons.
 The most dangerous attack table could fashion the robot with a long-range fusion bomb, or worse.
@@ -49,7 +49,7 @@ The player determines the damage her ramming robot inflicts on the below table.
 The robot will always ram to inflict this amount of damage. 
 Ramming is a Strike attack.
 
-include::ROOT:partial$CH05_Table_Robotic_Ramming.adoc[]
+include::robots:partial$peripherals_offensive_ramming.adoc[]
 
 A robot will only be able to ram opponents with a pre-determined part of its chassis.
 This part will be considered the least vital and can withstand the repeated punishment.
@@ -60,7 +60,7 @@ Attack Table One can generate a collection of lethal close combat attacks very q
 There is also a chance to elevate to Attack Table Two from this table.
 Attacks do not require a player to win a control factor roll to misuse them.
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_One.adoc[]
+include::robots:partial$peripherals_offensive_1.adoc[]
 
 === Defensive System
 Sometimes the best offence is a good defence. 
@@ -75,7 +75,7 @@ Multiple visits to striking peripheral are cumulative, and a robot can gather ma
 
 The player rolls on the Striking Peripheral Attack Table below to determine what kind of weapon the peripheral most resembles. 
 
-include::ROOT:partial$CH05_Table_Type_A_Weapon_Type.adoc[]
+include::robots:partial$peripherals_offensive_strike.adoc[]
 
 === Ramming Freedom
 All robots can ram into targets, but they cannot do so casually.
@@ -96,7 +96,7 @@ Attacks on this table are slightly more dangerous and further ranging than those
 These attacks are a mix of baked-in devices and misusing peripherals.
 Attacks do not require a player to make a control factor roll to misuse them.
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Two.adoc[]
+include::robots:partial$peripherals_offensive_2.adoc[]
 
 === Two Rolls on Table One
 The player makes two rolls on Attack Table One. 
@@ -123,7 +123,7 @@ Multiple visits to ranged peripheral are cumulative, and a robot can gather many
 The player rolls on the Ranged Peripheral Attack Table below to determine what kind of weapon the peripheral most resembles. 
 The ranged peripherals damage and ammunition supply is also on this table.
 
-include::ROOT:partial$CH05_Table_Type_B_Weapon_Type.adoc[]
+include::robots:partial$peripherals_offensive_fling.adoc[]
 
 === Nausea Attack
 The nausea attack temporarily incapacitates organic targets with overwhelming nausea.
@@ -214,7 +214,7 @@ Attacks on this table are slightly more dangerous and far-ranging than those on 
 These attacks are a mix of baked-in devices and misusing peripherals.
 Attacks do not require a player to make a control factor roll to misuse them.
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Three.adoc[]
+include::robots:partial$peripherals_offensive_3.adoc[]
 
 === 3 Rolls on Attack Table One
 The player makes three rolls on Attack Table One. 
@@ -253,6 +253,8 @@ Use the table at <<_ranged_peripheral,Ranged Peripheral>> to generate the weapon
 If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral. 
 A tool for inserting power conducers could shoot electrified ceramic balls instead. 
 Multiple visits to powered ranged peripheral are cumulative, and a robot can gather many simultaneous powered ranged attacks.
+
+// todo move the actual data here for each type of attack to avoid page flipping
 
 Electro::
 This Fling attack is electrified.
@@ -318,7 +320,7 @@ The attacks found here are usually baked-in weapons and not malfunctioning perip
 The universal requirement is lethality.
 Soft-touch attacks are not permitted when using Attack Table Four.
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Four.adoc[]
+include::robots:partial$peripherals_offensive_4.adoc[]
 
 === 4 Rolls on Attack Table Two
 The player makes four rolls on Attack Table Two. 

@@ -1,35 +1,45 @@
-// New table for 6.0
-.*Robot Wate*
+.*Robot Wate Category Table*
 [width="75%",cols="3*<",frame="all"]
 |===
 3+<|Determine robot Wate based on size. Wate determines ramming damage. 
 
 s|Size
-s|Wate (kg)
+s|Wate (metric)
 s|Die Roll
 
+|Nano
+|1-1000 gms
+|1d1000
 
 |Tiny
-|0-9
+|0-9 kgs 
 |1d10-1
 
 |Small
-|1-50
+|1-50 kgs
 |1d100 halved
 
 |Medium
-|51-100
+|51-100 kgs
 |1d100 halved +50
 
 |Large
-|105-600
+|105-600 kgs
 |5d100+100
 
 |Gigantic
-|606-6600
+|606-6600 kgs
 |6d1000+600
 
+|Giga
+|100-600 tonnes
+|6d100
+
 s|Size
-s|Wate (kg)
+s|Wate (metric)
 s|Die Roll
+
+3+<|Player personas are limited to Small, Medium and Large robot sizes
+
+
 |===

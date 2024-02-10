@@ -555,10 +555,9 @@ Two rolls on the Primary Peripherals Table.
 Specific Peripherals::
 Some robots automatically get specific peripherals in addition to or instead of a roll on the Peripherals Table.
 
-include::ROOT:partial$CH05_Table_Primary_Robotic_Peripherals.adoc[]
+include::robots:partial$peripherals_basic_list.adoc[]
 
-include::ROOT:partial$CH05_Table_Robotic_Secondary_Peripherals.adoc[]
-
+include::robots:partial$peripherals_fancy_list.adoc[]
 === Defensive Systems
 Defensive systems protect the robot from harm.
 These are baked-in devices or programmes that protect the robot.
@@ -577,13 +576,13 @@ Some robots automatically get specific defences in addition to or instead of a r
 
 include::ROOT:partial$CH05_Table_Robotic_Defences.adoc[]
 
-=== Offensive Systems
+=== Offensive Peripherals
 Offensive systems are baked-in devices or peripherals that the robot uses to inflict damage on targets.
 The offensive system could be a bespoke weapon or misused peripheral.
 All robots can ram themselves into targets to inflict damage.
 
 None::
-No roll on the Offensive Systems Tables.
+No roll on the Offensive Peripherals Tables.
 
 None Ever::
 None ever is a special case for robots that can never use offensive weapons.
@@ -601,13 +600,13 @@ For example, One on Two would be one roll on Attack Table Two.
 Specific Peripherals::
 Some robots automatically get specific attacks in addition to or instead of a roll on the attack tables.
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_One.adoc[]
+include::robots:partial$peripherals_offensive_strike.adoc[]
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Two.adoc[]
+include::robots:partial$peripherals_offensive_2.adoc[]
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Three.adoc[]
+include::robots:partial$peripherals_offensive_3.adoc[]
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Four.adoc[]
+include::robots:partial$peripherals_offensive_4.adoc[]
 
 == Robot Vocation
 A vocation is a calling or innate skill set possessed by the persona.

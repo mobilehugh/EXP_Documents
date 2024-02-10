@@ -1,13 +1,13 @@
 = Robot Size
 
-The robot has a general descriptor of its size. 
-The robot sizes are Tiny, Small, Medium, Large and Gigantic.
-The majority of player persona robots will be either Small, Medium or Large.
-The possible robot sizes are somewhat human relatable. 
+The robot has a general descriptor of its size called a size category.
 The size descriptor determines the Hite and Wate of the robot.
+The robot size catergories are Tiny, Small, Medium, Large and Gigantic.
+The majority of player persona robots will be either Small, Medium or Large.
+These robot sizes are human relatable. 
 
 There are two additional robot sizes not available to player personas.
-These are Minute and Humongous. 
+These are Nano and Giga. 
 They only appear for referee personas.
 
 == Wate
@@ -18,7 +18,7 @@ A 100kg robot has the same wate as a 100kg anthro and the same wate as 100kg of 
 Wate is critical to robots as it determines how much damage is when ramming.
 Ramming is the only universal robotic attack.
 
-include::ROOT:partial$CH05_Table_Robotic_Size_Wate.adoc[]
+include::robots:partial$wate_category_to_kgs.adoc[]
 
 == Hite
 The Hite of the robot is a combination of volume and height.
@@ -33,4 +33,14 @@ These rolls do not affect the wate of the robot.
 The player can arrange the dimensions in whatever order works best for the persona.
 If the robot dimensions are ruining a finely tuned player persona, choose story and fun over rules and rolls.
 
-include::ROOT:partial$CH05_Table_Robot_Dimensions.adoc[]
+include::robots:partial$wate_to_hite_estimation.adoc[]
+
+// todo fix the table based on size in kgs tonnes and hexes occupied
+
+== if you need to know
+Wate to Size estimates is based on the following. 
+
+. 1 tonne of computer equipment occupies 3.5 cubic meters
+. 3.5 cubic meters is 1.2 x 1.2 x 2.4 meters of volume
+. very roughly 1 tonne of computer is 1 hex of Hite
+

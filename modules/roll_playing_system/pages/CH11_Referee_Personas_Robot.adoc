@@ -153,7 +153,7 @@ Hite gives an estimation of the volume occupied by the robot.
 The referee rolls dimensions once for each of hite, width and length.
 A hexagon is 200 cm across. 
 
-include::ROOT:partial$CH05_Table_Robot_Dimensions.adoc[]
+include::robots:partial$wate_to_hite_estimation.adoc[]
 
 == Robot RP Defence Rating
 Robot RPs have an AR of 700.
@@ -192,7 +192,7 @@ The lookup table seems scary, but it is scientifically proven to be faster than 
 
 include::ROOT:partial$CH11_Table_Robot_RP_Systems.adoc[]
 
-== Offensive Systems
+== Offensive Peripherals
 These are the systems that harm others.
 On the lower level tables, the robot is misusing and weaponizing malfunctioning peripherals.
 On the higher level tables, the robot is using weapons baked-in during fabrication.
@@ -201,43 +201,43 @@ The referee will dance back and forth between the attack tables, creating a murd
 === Ramming 
 All robots can ram, but not without challenges.
 Only robots with ramming freedom can fling themselves around with self-destructive abandon.
-For more info about robot ramming, ram your way over to xref:roll_playing_system:CH05_Robots_Z_Offensive.adoc#_ramming[Robot Ramming,window=_blank].
+For more info about robot ramming, ram your way over to xref:robots:offensive_peripherals.adoc#_ramming[Robot Ramming,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Ramming.adoc[]
+include::robots:partial$peripherals_offensive_ramming.adoc[]
 
 === Attack Table One
 These attacks include ramming, and the robot is misusing and weaponizing malfunctioning peripherals. 
 It is possible to get a roll on Attack Table Two to get more dangerous weapon systems.
-For details about these attacks jump to  xref:roll_playing_system:CH05_Robots_Z_Offensive.adoc#_attack_table_one[Attack Table One,window=_blank].
+For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#_attack_table_one[Attack Table One,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_One.adoc[]
+include::robots:partial$peripherals_offensive_strike.adoc[]
 
 include::ROOT:partial$CH05_Table_Type_A_Weapon_Type.adoc[]
 
 === Attack Table Two
 Slightly more dangerous attacks, but mainly consist of misused devices.
 It is possible to get several rolls on Attack Table One or move up to Attack Table Three.
-For details about these attacks jump to  xref:roll_playing_system:CH05_Robots_Z_Offensive.adoc#_attack_table_two[Attack Table Two,window=_blank].
+For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#_attack_table_two[Attack Table Two,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Two.adoc[]
+include::robots:partial$peripherals_offensive_2.adoc[]
 
-include::ROOT:partial$CH05_Table_Type_B_Weapon_Type.adoc[]
+include::robots:partial$peripherals_offensive_fling.adoc[]
 
 === Attack Table Three
 Even more dangerous attacks.
 These attacks are a mix of baked-in weapons and misused devices.
 It is possible to get several rolls on Attack Table Two or move up to Attack Table Four.
-For details about these attacks jump to  xref:roll_playing_system:CH05_Robots_Z_Offensive.adoc#_attack_table_three[Attack Table Three,window=_blank].
+For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#_attack_table_three[Attack Table Three,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Three.adoc[]
+include::robots:partial$peripherals_offensive_3.adoc[]
 
 === Attack Table Four
 Even more dangerous attacks.
 These attacks are a mix of baked-in weapons and misused devices.
 It is possible to get several rolls on Attack Table Three.
-For details about these attacks jump to  xref:roll_playing_system:CH05_Robots_Z_Offensive.adoc#_attack_table_four[Attack Table Four,window=_blank].
+For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#_attack_table_four[Attack Table Four,window=_blank].
 
-include::ROOT:partial$CH05_Table_Robotic_Attack_Table_Four.adoc[]
+include::robots:partial$peripherals_offensive_4.adoc[]
 
 == Defences
 Robot defences can arise from misused peripherals or intentionally baked-in defensive systems.
@@ -248,12 +248,11 @@ include::ROOT:partial$CH05_Table_Robotic_Defences.adoc[]
 == Peripherals
 Peripherals are attachments that give the robot some additional flexibility in performing its tasks.
 Peripherals are not weapons. 
-For more detailed explanations jump to xref:roll_playing_system:CH05_Robots_Z_Peripherals.adoc[Peripheral Systems,window=_blank].
+For more detailed explanations jump to xref:robots:peripherals.adoc[Peripheral Systems,window=_blank].
 
-include::ROOT:partial$CH05_Table_Primary_Robotic_Peripherals.adoc[]
+include::robots:partial$peripherals_basic_list.adoc[]
 
-include::ROOT:partial$CH05_Table_Robotic_Secondary_Peripherals.adoc[]
-
+include::robots:partial$peripherals_fancy_list.adoc[]
 == Robot RP Control Factor
 Calculate the persona's control factor here.
 For more details jump to xref:robots:control_factor.adoc[Control Factor,window=_blank].
