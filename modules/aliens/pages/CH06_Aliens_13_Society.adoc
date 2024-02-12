@@ -1,0 +1,371 @@
+= Alien Society
+
+Alien society decides whether the species is local fauna or a galactic empire.
+
+Alien society is something for the referee to consider and prepare for her campaign carefully.
+Alien societies can be the basis for an entire campaign.
+The differences in values, architecture, and social organization are beyond this game's scope.
+This section outlines a light skeleton of an alien's society.
+
+The alien society has no impact on the player's choices with her alien persona.
+Almost all player personas are rogues and outcasts cutting their paths in the dusty universe.
+Alien player personas should be the same. 
+
+The most pressing questions a player will ask are: Do I have language?  Can I use tools?
+Player personas should have a language to communicate with their fellow expedition members. 
+Purist use of aliens would leave this to chance.
+Referees tend to leave tool usage and vocations to chance. 
+Just one gigantic alien anti-knite, and the referee will have to restructure her whole campaign.
+
+== Alien Society Build
+. <<_alien_language,Language>>
+.. make Language Check
+.. make Tool Score Check
+. <<_alien_culture,Culture>>
+.. make Culture Check (*requires Language*)
+.. make Tool Score Check
+.. If cultured make Religion Check
+. <<_alien_education,Education>>
+.. make Education Check (*requires Culture*)
+.. make Tool Score Check
+.. If educated make Politics check
+. <<_alien_vocation,Vocation>>
+.. make Vocation Check (*requires Education*)
+.. make Tool Score Check
+.. if vocation make Philosophy check
+. <<_alien_grouping,Alien Grouping>>
+. <<_tool_usage,Tool Usage>>
+
+For an even more complicated flowchart jump to <<_alien_society_flowchart,Flowchart>>.
+
+:art: cunning_charisma.png
+:width: 350px
+:snark: The universal language of vulnerable.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Cute little bunny like alien crying.
+
+include::ROOT:partial$articulate.adoc[]
+
+== Alien Language
+This die roll determines if the alien species has a natural language or not. 
+For the alien species to have language, the player must roll less than or equal to three times her persona's Intelligence score.
+
+If there is no language, the alien species cannot have a culture, education or vocation.
+An alien species without language can only communicate in the most rudimentary manner amongst their kind.
+Their communications are not translatable and are meaningless to translators.
+An alien species with no language is flora or fauna and dependent on the biome to survive.
+
+Alien species with language can communicate through translators and have concepts beyond eat, drink and love.
+An alien species with language can evolve to have a culture, education and vocations.
+
+An alien species will only have a written language have a tool use score of at least one.  
+
+NOTE: Most referees allow a player persona alien to have language for easier participation in the game.
+
+=== Alien Language Check
+.Chance = 3 * INT score
+****
+An alien with a 12 INT has a 36% chance of having language.
+****
+
+Regardless of the alien language check result, the player makes a tool score check.
+This first tool score check depends on the persona's Dexterity score and not her Intelligence score.
+All other tool score checks depend on the persona's Intelligence.
+To increase the alien species tool score, the player must roll less than or equal to two times her persona's Dexterity score.
+
+=== Tool Score Check
+.Chance = 2 * DEX score
+****
+An alien with a 12 DEX has 24% chance to add +1 to the alien's tool score. 
+****
+
+If an alien species has no language and a tool score of one, the aliens can transiently use simple machines.
+They have no tool memory, and *cannot use devices*. 
+No language tool use is a special case where curiosity and Dexterity lead to random intermittent tool use.
+
+== Alien Culture
+This die roll determines if the alien species has a cultural structure or not. 
+An alien species will not evolve a culture without language.
+For the alien species to have culture, the player must roll less than or equal to three times her persona's Charisma score.
+
+If the alien has no organized culture, it still has a hierarchy within its grouping. 
+The alien group's hierarchy may depend on size, speed, or Charisma. 
+This species does not have a consistent culture from grouping to grouping.
+If the alien species has no culture, it operates in isolation and cannot plan beyond the immediate family unit.
+
+If the alien species has a culture, they can work together from grouping to grouping. 
+Culture allows the aliens to band together and communicate. 
+
+=== Alien Culture Check
+.Chance = 3 * CHA score
+****
+An alien with a 12 CHA has a 36% chance of having a culture.
+****
+
+Regardless of the alien culture check result, the player makes a tool score check.
+To increase the alien species tool score, the player must roll less than or equal to two times her persona's Intelligence score.
+The higher the tool score, the more adept the species is with technology.
+
+=== Tool Score Check
+.Chance = 2 * INT score
+****
+An alien with a 12 INT has 24% chance to add +1 to the alien's tool score. 
+****
+
+There is a chance that an alien species with language and culture will develop a religious persuasion. 
+The religious persuasion's flavour is determined on the table immediately following the religion check. 
+A failed religion check has no impact on the alien species evolving education.
+
+=== Religion Check
+.Chance = 2*INT score - MND score
+****
+An alien with a 12 INT and a 12 MND has 12% chance of having religion. 
+****
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Religious_Belief.adoc[]
+
+== Alien Education
+This die roll determines if the alien species has an educational system or not. 
+An alien species will not evolve education without culture and language.
+For the alien species to have culture, the player must roll less than or equal to three times her persona's Awareness score.
+
+If the alien species has no education system, they tend to learn by trial and error.
+While individual aliens may be bright, the culture will seem less so. 
+This alien species will repeat its failures and forget its victories.
+
+Education indicates that the alien species trains and teaches its members about the biome and beyond. 
+
+=== Alien Education Check
+.Chance = 3 * AWE score
+****
+An alien with a 12 AWE has a 36% chance of having an education system.
+****
+
+Regardless of the alien education check result, the player makes a tool score check.
+To increase the alien species tool score, the player must roll less than or equal to two times her persona's Intelligence score.
+The higher the tool score, the more adept the species is with technology.
+
+=== Tool Score Check
+.Chance = 2 * INT score
+****
+An alien with a 12 INT has 24% chance to add +1 to the alien's tool score. 
+****
+
+There is a chance that an alien species with language, culture and education will develop a political system. 
+The political system's flavour is determined on the table immediately following the politics check. 
+A failed politics check has no impact on the alien species evolving vocations.
+
+=== Politics Check
+.Chance = INT score + CHA score
+****
+An alien with a 12 INT and a 12 CHA has 24% chance of having politics. 
+****
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Political_Belief.adoc[]
+
+== Alien Vocation
+This die roll determines if the alien species can pursue vocations or not. 
+An alien species will not develop vocations with education, culture and language.
+For the alien species to have vocations, the player must roll less than or equal to the total of her persona's Awareness, Dexterity and Intelligence scores.
+
+If the alien species do not have vocations, they lack specialization in their culture. 
+There may be all kinds of Nothing jobs, but there will be no mercenaries, mechanics, or veterinarians.
+Their culture and society may still have healers and warriors, but they will not benefit from a vocation.
+ 
+If the alien species can pursue vocations, the player can choose from any field available to her persona.
+EXP does not differentiate between anthros, aliens or robots pursuing vocations. 
+Keeping in mind that alien persona vocations should be rare is not without hazard.
+The referee may invoke class restrictions she feels are necessary to ensure a game balance.
+An invisible, 900 kg, flying spie alien persona is a possibility.
+
+=== Alien Vocation Check
+.Chance =  AWE + DEX + INT score
+****
+An alien with a 10 AWE, a 12 DEX and a 14 INT has a 36% chance of having vocations.
+****
+
+Regardless of the alien vocation check result, the player makes a tool score check.
+To increase the alien species tool score, the player must roll less than or equal to two times her persona's Intelligence score.
+The higher the tool score, the more adept the species is with technology.
+
+=== Tool Score Check
+.Chance = 2 * INT score
+****
+An alien with a 12 INT has 24% chance to add +1 to the alien's tool score. 
+****
+
+There is a chance that an alien species with language, culture,  education, and vocation will develop a philosophical outlook. 
+The philosophical outlook's flavour is determined on the table immediately following the philosophy check. 
+If the alien species has both religion and philosophy, the referee can decide if they contrast or complement each other.
+
+=== Philosophy Check
+.Chance =  INT + AWE score
+****
+An alien with a 12 INT and a 12 AWE has 24% chance of having philosophy. 
+****
+
+include::ROOT:partial$CH11_Table_Referee_Persona_Philosophical_Belief.adoc[]
+
+:art: alien_grouping.png
+:width: 450px           
+:snark: They are probably coming to play with you.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Many gigantic spider crab monsters rushing the viewer.
+
+include::ROOT:partial$articulate.adoc[]
+
+== Alien Grouping
+The alien grouping indicates how the aliens organize themselves on a granular level.
+More simply put, how is the expedition most likely going to encounter this alien?
+The alien grouping applies to flora, fauna, and advanced civilizations. 
+Alien species with religion, politics and philosophy may find reasons to break up this evolution grouping or adhere to it more stringently.
+
+As for combat encounters in the dangerous wildlands, the referee will consider a fair balance between the expedition and aliens.
+
+include::ROOT:partial$CH06_Table_Alien_Group_Size.adoc[]
+
+== Tool Usage
+The most critical evolutionary advance of any alien species is its relationship with technology.
+In EXP, the alien species tool score determines this relationship.
+The tool score may increase from zero to four as the player checks against her persona's Dexterity and Intelligence scores.
+There is a slight chance that a fully developed alien civilization may have no use for tools at all.
+There is no chance that an undeveloped alien civilization will be technologically advanced.
+The player looks up her alien species' technological adeptness on the Alien Tool Score Table.
+
+include::ROOT:partial$CH06_Table_Alien_Tool_Score.adoc[]
+
+None::
+The alien species has no concept of a tool. 
+They would never consider an artifact as anything other than a rock or branch to step over.
+This tool ignorance transcends language, culture, and education.
+
+Simple::
+Simple tool usage is limited to non-powered tools that require constant physical effort.
+These tools depend on the environment of the alien's biome.
+If the alien species has *no language*, the tools are limited to the temporary use of sticks or rocks. 
+If the alien species has *language*, they can have re-usable tools and employ wind, water and gravity to their advantage.
+
+Tech::
+This alien species utilizes any device that reduces their physical workload. 
+These devices can use electricity, steam, and springs.
+They have complicated clockwork machines but no computational devices. 
+
+Computers::
+This alien species can use electronic devices that can replace all physical work.
+These devices include computers, telecommunications, and encryption.
+There may be rudimentary robots and faux autonomous Intelligence.
+As a species, homo sapiens of mundane terra is at this level.
+
+Creators::
+There is no limit to what creators can make and create.
+Creator alien species have space travel, special drives, autonomous Intelligence, robots, and more.
+Creativity is their only limit. 
+An alien species can reach creator level tool use without evolving vocations.
+
+:art: alien_powered_armour.png
+:width: 350px
+:snark: Alien sporting powered armour.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Tortoise with a cybernetic eye and a machine gun on it's shell.
+
+include::ROOT:partial$articulate.adoc[]
+
+
+=== TOYs as Alien Artifacts
+The player can generate one artifact from TOYs if her species has a Tech or higher tool use score.
+The TOY will be a bespoke artifact tailored to the alien's shape.
+If the alien persona has a vocation, the player generates artifacts from TOYs as per her vocation.
+All vocation based TOYs will be bespoke artifacts tailored to the alien's shape.
+
+NOTE: Alien artifacts come unidentified, the same as anthro artifacts.
+
+:art: alien_creator_class.png
+:width: 450px
+:snark: The equipment will suit the alien.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Blob of tentacles with boots and an helmet running.
+
+include::ROOT:partial$articulate.adoc[]
+
+=== Adapting  Non-Alien Artifacts
+Artifacts and equipment in EXP are anthrocentric. 
+Alien tool users can implement these artifacts through adaptive use.
+Adaptive use is when the alien uses her tongue instead of a finger to manipulate equipment.
+The chance of successfully adapting to an artifact is equal to twice the alien's combined Dexterity and Intelligence scores.
+
+=== Adaptive Use  Check
+.Chance =  2*DEX + 2*INT
+****
+An alien with a 12 DEX and a 12 INT has 48% chance of adapting a stinky anthro device. 
+****
+
+If the player fails this roll, the alien *cannot* use the artifact.
+Biologists and veterinarians can assist the alien in adapting to a  device allowing for another chance at adaptive use.
+ Mechanics can assist the alien by altering the device, allowing for another adaptive use chance.
+
+=== Non-Tool Users and Artifacts
+Most aliens will be non-tool users.
+The referee may automatically allow alien personas to be tool users to increase their involvement in the game.
+The referee should not depend solely on the dice rolling of her players.
+If a player comes up with an ingenious idea about how her persona can manipulate an artifact, the persona should do so.
+Role-Playing should overcome dice rolling.
+
+In past versions of EXP, non-tools users could overcome the technological deficit. 
+This die roll exception is no longer the case, and for a player persona alien to use tools is up to the referee and players. 
+
+== Alien Society Flowchart
+The flowchart below may help navigate the complicated process of creating an alien society.
+Red arrows indicate the failure of the player's die roll.
+Green arrows indicate the success of the player's die roll.
+Black arrows indicate movement that is independent of any die rolls.
+
+:art: deeper_society.png
+:width: 750px
+:snark: Misused flowchart for society
+:artist: HM 
+:date: Feb-2021
+:license: CC BY-SA 4.0
+:description: Flowchart laying out options for alien societies.
+
+include::ROOT:partial$articulate.adoc[]
+
+== What are the chances?
+A Python script using the flowchart above did some rudimentary modelling of alien society compositions.
+The image below shows the outcomes of 10000 iterations of the alien societies. 
+Each iteration used randomly generated attributes. 
+The term creator replaced AI for the tool user score of 4.
+Creators are rare indeed. 
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+:art: alien_society_data_10K.png
+:width: 500px
+:snark: Safety in numbers.
+:artist: HM
+:date: 2019
+:license: CC BY-SA 4.0
+:description: Screen capture showing chances of alien societies after 10000 iterations. 
+include::ROOT:partial$articulate.adoc[]
+
+.Societal Compositions
+* Language 36%
+* Culture 11%
+* Education 4%
+* Vocation 1%
+
+.Tool Usage Frequencies
+* None 52%
+* Simple 38%
+* Tech 8%
+* Comp 1% 
+* Creator 0.1%
+

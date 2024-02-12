@@ -131,14 +131,14 @@ NOTE: *If it's worth playing, it's worth writing down.*
 Alien RP attributes have the same ranges as player persona alien attributes. 
 If the referee is looking for a particular configuration of attributes, she can change them in the <<_alien_rp_modifications,Modifications>> section.
 
-include::ROOT:partial$CH06_Table_Alien_Attributes.adoc[]
+include::aliens:partial$attributes_generation_list.adoc[]
 
 == Alien RP Size
 The size of the alien RP affects its appearance, wate and hits points.
 Alien RPs can have extremely small or large sizes that are not available to player personas.
 These extreme sizes are called Minute and Humongous.
 
-include::ROOT:partial$CH06_Table_Alien_Size.adoc[]
+include::aliens:partial$size_category_list.adoc[]
 
 === Extremely Tiny 
 Any Tiny alien has a 1 in 6 chance to be *Minute* instead.
@@ -163,7 +163,7 @@ Being a humongous alien is just an inconvenience as they have no alteration in t
 Bigger aliens tend to have more hit points than smaller aliens.
 Minute aliens must apply their size modification to the hit points generated here.
 
-include::ROOT:partial$CH06_Table_Alien_Hit_Points_HPS.adoc[]
+include::aliens:partial$hit_points_and_size.adoc[]
 
 // check why 2 tables? I can't see or even find two tables.
 
@@ -171,14 +171,14 @@ include::ROOT:partial$CH06_Table_Alien_Hit_Points_HPS.adoc[]
 The number of attacks indicates the number of attack rolls the referee makes each unit.
 This attack frequency is only for the alien's naturally evolved attacks and does not apply to equipment weapons.
 
-include::ROOT:partial$CH06_Table_Number_of_Alien_Attacks.adoc[]
+include::aliens:partial$attack_frequency_amounts.adoc[]
 
 == Alien RP Damage per Attack
 Bigger aliens tend to inflict more damage than smaller aliens.
 Minute aliens must apply their STR modification before determining their damage per attack.
 The damage per attack is only for the alien's naturally evolved attacks and does not apply to equipment weapons.
 
-include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
+include::aliens:partial$attack_damage_and_size.adoc[]
 
 == Alien Attack Type
 The vast majority of aliens will bite, slap, punch and kick their way through combat.
@@ -187,7 +187,7 @@ For simplicity, the attack type will apply to all of the alien's attacks.
 The referee can make multiple rolls on this table to give her RP alien with multiple attacks different kinds of attacks. 
 For instance, an alien with three attacks per unit could have three Strike attacks or two Strike attacks and one Fling attack.
 
-include::ROOT:partial$CH06_Table_Alien_Attack_Type.adoc[]
+include::aliens:partial$attack_type_options.adoc[]
 
 == Alien RP Defence Rating
 How hard is it to damage this alien in combat?
@@ -441,7 +441,7 @@ include::ROOT:partial$CH41_Table_TOY_Category.adoc[]
 The attack table keeps track of the persona's combat skills and increases with EXPS level.
 The referee may need two attack tables for her tool using aliens.
 For general info about attack tables, jump to xref:roll_playing_system:CH09_Combat_Tables.adoc[Attack Tables,window=_blank] in tactical combat.
-For a detailed explanation of the outline below jump to xref:roll_playing_system:CH06_Aliens_6_CT.adoc[Alien Attack Table,window=_blank].
+For a detailed explanation of the outline below jump to xref:aliens:attack_table.adoc[Alien Attack Table,window=_blank].
 
 === Naturally Evolved Attacks
 The attack table calculated here is for the alien's naturally evolved attacks and is *not* used for any tool using attacks.
@@ -452,7 +452,7 @@ For the vocation based attack table, jump to xref:anthros:attack_table[Anthro at
 A second-level gigantic alien has a 22 STR, 15 DEX, and a 3 INT.
 Her attack is spitting sharp blobs of resin which is Attack Fling.
 
-include::ROOT:partial$CH06_Table_Alien_CT_Xample.adoc[]
+include::aliens:partial$alien_attack_table_example.adoc[]
 
 == Alien RP Biology
 Alien biology assigns terrain, eating habits, reproduction etc.

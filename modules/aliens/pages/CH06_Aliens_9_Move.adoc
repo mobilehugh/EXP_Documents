@@ -1,0 +1,107 @@
+= Alien Movement
+
+Movement rate is one of the most important persona attributes in the tactical combat rules.
+Movement rate determines how fast an alien can move during combat. 
+The faster the persona can move, the better they can evade and the quicker they can get to a target point.
+The movement rate, often just called 'move,' is measured in hexes per unit (h/u or hu). 
+
+The alien's shape determines how she moves, not how fast she moves. 
+Denizens may hop, slither, scuttle, slime or gallop along.
+The type of locomotion does not affect the alien's movement rate.
+For instance, an alien with snail leg parts would move as fast as an alien with leopard leg parts.
+
+.*Alien Movement Rate Checklist*
+. Base movement
+. Terrain types
+. Calculating movement
+
+== Movement Unit
+.move (h/u) = DEX / 4
+****
+An alien with a 12 DEX would have a base movement unit of 3 h/u. 
+****
+
+Determining the movement unit is simple.
+The alien's movement unit is equal to one quarter the alien persona's Dexterity score. 
+When combining the alien's movement unit with its terrain types, the player can determine how fast the alien runs, flys and swims.
+
+NOTE: This was called quartering movement in previous versions of EXP.
+
+== Terrrain Types
+The alien's shape determines in which terrain types that the alien can move.
+Each body part includes some lowercase letters in parenthesis. 
+Goose (law) indicates the body part is shaped like a goose's and works well on land, water and air. 
+Goat (l) indicates the body part is shaped like a goat's and works well on land.
+
+include::ROOT:partial$CH06_Table_Alien_Move_Terrain.adoc[]
+
+Land, air and water are familiar to us on mundane terra.
+In no way does this wording limit aliens to oxygen-based gases or water-based fluids.
+The terrain types allow aliens to run, fly, swim, be amphibious or immobile as a tree. 
+Often there is a mix of several terrain types. 
+
+Alien terrain type is more for determining how the alien moves than its existence.
+An alien with all water body shapes on a planet with no water would move slowly, not suffocate.
+How quickly the alien moves in the various terrains depends on how the base movement rate quarters.
+
+== Calculating Movement
+An alien with mostly land body shapes will move faster on land than an alien with few land body shapes.
+An alien with all water body shapes will move very fast in the water, but not so well on land. 
+
+An alien has a 12 DEX and movement unit of 3 h/u.
+The alien has four land terrain types Head: Ant (l), Torso: Kangaroo (l), Arms: Lemur (l) and Legs: Slug (l).
+The terrain types are 4l, 0a, and 0w. 
+The alien's movement rate is one movement unit (3 h/u) per terrain letter. 
+This alien moves 12 h/u (very fast) on land but cannot fly or swim.
+
+include::ROOT:partial$CH06_Table_Calculating_Alien_Movement.adoc[]
+
+== Illustrated example "I like to swim"
+This alien has a 12 DEX and a movement unit of 3 h/u.
+
+:art: alien_opossum_none_planaria_manta.png
+:width: 350px
+:snark: Head: opossum, Torso: none, Arms: Planaria, Legs: manta ray
+:artist: Nelson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Drawing of an alien Head: opossum, Torso: none, Arms: Planaria, Legs: manta ray
+
+include::ROOT:partial$articulate.adoc[]
+
+* Head: opossum (l)
+* Torso: none (-)
+* Arms: planaria (w)
+* Legs: manta ray (w)
+
+Having a torso of none reduces the alien's overall speed.
+Visually the torso is composed of all the other parts. 
+
+* Land:  (l-1) the alien flops along at 3 h/u
+* Air:  (a-0) the alien cannot fly
+* Water: (w-2) the alien swims at 6 h/u
+
+== Illustrated example  "I like to run"
+This alien has a 14 DEX and a movement unit of 4 h/u.
+
+:art: alien_trex_rabbit_dodo_dodo.png
+:width: 350px
+:snark: Head: t-rex, Torso: rabbit, Arms: dodo, Legs: dodo
+:artist: Nelson
+:date: 1992
+:license: CC BY-SA 4.0
+:description: Drawing of an alien Head: t-rex, Torso: rabbit, Arms: dodo, Legs: dodo
+
+include::ROOT:partial$articulate.adoc[]
+
+* Head: t-rex (l)
+* Torso: rabbit (l)
+* Arms: dodo (la)
+* Legs: dodo (la)
+
+Having a land terrain for every body part makes this alien a swift runner.
+Depending on its size, this alien may be an apex predator moving at nearly 60 km per hour on land.
+
+* Land:  (l-4) the alien races along at 16 h/u
+* Air:  (a-2) the alien flies at 8 h/u
+* Water: (w-0) the alien cannot natively swim

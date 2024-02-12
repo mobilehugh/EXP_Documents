@@ -1,53 +1,21 @@
-= Alien Damage Per Attack
+= Alien Attack Type
 
-Alien damage per attack indicates how many hit points the target loses when the player wins an attack roll.
-The more damage per attack, the more dangerous the alien.
-The persona's size and Strength determine damage per hit.
-Alien damage per unit depends on the alien's attack frequency. 
-A small amount of damage delivered frequently can be very dangerous.
-
-:art: budgie_octopus_bat.png
-:width: 450px
-:snark: Head budgie, torso bat, arms octopus, legs none.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Flying monster with a budgie face, octopus limbs and bat wings.
-
-include::ROOT:partial$articulate.adoc[]
-
-== Damage per Hit
-The damage per hit represents how deadly an alien's naturalized attack is.
-The bigger and stronger the alien, the more devastating a successful attack roll is.
-
-How the alien delivers the damage does not affect the damage per for an attack roll win.
-Does the alien bite, slash, spit, zap or barf its attack?
-The alien's description usually determines the method of attack. 
-If the alien uses a pincer or an open hand slap, the damage range will be the same.
-
-A gigantic alien with a 13 STR would inflict 3d12 HPS damage each time the player wins an attack roll.
-Aliens do not get a Force Bonus for Strength.
-The amount of damage an alien inflicts already reflects its Strength.
-
-include::ROOT:partial$CH06_Table_Alien_Damage_Per_Attack.adoc[]
-
-== Alien Attack Type
 The alien attack type determines how the alien delivers the damage amount.
 Does the alien require physical contact to deliver the destructive force?
 Does the alien launch a ranged attack to hit enemies from afar?
 Is the force of the attack energized by some alien physiologic force?
 The alien's description determines how the attack type works. 
 
-include::ROOT:partial$CH06_Table_Alien_Attack_Type.adoc[]
+include::aliens:partial$attack_type_options.adoc[]
 
-=== Strike Attack
+== Strike Attack
 Strike attacks are thrusting, striking attacks powered by the alien's brawn.
 These could be bites, punches, stabs, squishes, slashes, pecks, or scratches.
 Strike attacks are in close combat, tentacle to tentacle attacks.
 The vast majority of aliens employ Strike attacks.
 Unlike anthros, aliens do not get Strength damage bonuses for Strike attacks.
 
-=== Attack Fling
+== Attack Fling
 Fling attacks are ranged attacks powered by the alien's brawn.
 These could be acidic spittle, flying quills, ejected spines or darts.
 Fling attacks have a range and shoot like an arrow, *not* like a bullet.
@@ -56,11 +24,18 @@ The alien's Fling attack range is one hex per point of Strength score.
 An alien with a Strength of 12 has a 12 hex attack range.
 Unlike anthros, aliens do not get Strength damage bonuses for Strike attacks.
 
-=== Attack Shoot
+== Attack Shoot
 Shoot attacks are the rarest and most alien naturalized attack type.
 The alien has evolved a self-propelled powered attack.
 These are classic sciency fiction attacks like lazer eyes or gas-propelled bone bullets.
 Shoot attacks are naturalized but function like a gun.
 The player may turn to the hardware section xref:hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank]for descriptive inspiration. 
+
+
+
+
+
+
+
 
 

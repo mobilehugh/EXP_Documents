@@ -1,77 +1,69 @@
 // CH09 table attribute bonuses new for 6.0
 [width="75%",cols="4*<",frame="all", stripes="even"]
 |===
+
 4+<s|Skilled Bonus (Skilled)
 
 |Strike Attack
-3+<|10 * STR + Level * Bonus
+3+<|10 * Adjusted STR
 
-|Attribute Bonus
-3+<|10 * 22 = 220
-
-|Level Bonus
-3+<|(STR * Lvl) = 22 * 3 = 66
+|Calculation
+3+<|10 * (22 + 2) = 240
 
 s|Skilled for Strike
 2+|(No Strike attack - demo only)
->s|286
+>s|240
 
 |Fling Attack
-3+<|10 * DEX + Level * Bonus
+3+<|10 * adjusted DEX
 
-|Attribute Bonus
-3+<|10 * 15 = 150
-
-|Level Bonus
-3+<|(DEX * Lvl) = 15 * 3 = 45
+|Calculation
+3+<|10 * (15 + 2) = 170
 
 s|Skilled for Fling
 2+|
->s|195
+>s|170
 
 |Shoot Attack
-3+<|10 * INT + Level * Bonus
+3+<|10 * Adjusted INT
 
-|Attribute Bonus
-3+<|10 * 3 = 30
-
-|Level Bonus
-3+<|(INT * Lvl) = 3 * 3 = 9
+|Calculation
+3+<|10 * (3 + 2) = 50
 
 s|Skilled for Shoot
 2+|(No Shoot attack - demo only)
->s|39
+>s|50
 |===
 
-[width="65%",cols="4*<",frame="all", stripes="even"]
+[width="75%",cols="4*<",frame="all", stripes="even"]
 |===
 
 4+<s|Raw Bonus (Raw)
 
 |Strike Attack
-3+<|Strike Raw = Strike Skilled
+3+<|Ajusted STR
 
 s|Raw for Strike
 2+<|(No Strike attack - demo only)
->s|286 
+>s|24 
 
 
 |Fling Attack
-3+<|Fling Raw = Fling Skilled
+3+<|Adjusted DEX
 
 s|Raw for Fling
 2+|
->s|195
+>s|17
 
 |Shoot Attack
-3+<|Shoot Raw = Shoot Skilled
+3+<|Adjusted INT
 
 s|Raw for Shoot
 2+|(No Shoot attack - demo only)
->s|39
+>s|5
 |===
 
-[width="65%",cols="4*<",frame="all", stripes="even"]
+[width="75%",cols="4*<",frame="all", stripes="even"]
 |===
 
 4+<s|Max Roll (Max)
@@ -80,37 +72,51 @@ s|Raw for Shoot
 3+<|Strike Skilled + 700
 
 s|Max for Strike
-2+<|286 + 700 (example only)
->s|986 
+2+<|240 + 700 (example only)
+>s|940 
 
 
 |Fling Attack
 3+<|Fling Skilled + 750
 
 s|Max for Fling
-2+<|195 + 750
->s|945
+2+<|170 + 750
+>s|920
 
 |Shoot Attack
 3+<|Shoot Skilled + 800
 
 |Max for Shoot
-2+<|39 + 800 (example only)
->s|839 
+2+<|50 + 800 (example only)
+>s|850 
 |===
 
 
-[width="65%",cols="<,^,^",frame="all", stripes="even"]
+[width="75%",cols="<,^,^",frame="all", stripes="even"]
 |===
-3+<s|Damage per Attack replaces Force
+3+<s|Force Bonus
 
-s|Alien Size
-s|STR
-s|Damage per Attack
+|Strike Attack
+2+<|EXPS Level
 
-|Gigantic
-|22
-|4d12
+s|Raw for Strike
+<|(demo only)
+>s|2 
+
+
+|Fling Attack
+2+<|EXPS Level
+
+s|Raw for Fling
+|
+>s|2
+
+|Shoot Attack
+2+<|EXPS Level
+
+s|Raw for Shoot
+<|(demo only)
+>s|2
 
 |===
 
@@ -126,24 +132,24 @@ s|Max
 s|Force
 
 
-s|A
-|--
-|--
-|--
-|--
+|Strike
+|240
+|24
+|940
+|2
 
 
-s|B
-|195
-|195
-|945
-|4d12
+s|Fling
+s|170
+s|17
+s|920
+s|2
 
 
-s|C
-|--
-|--
-|--
-|--
+|Shoot
+|50
+|5
+|850
+|2
 
 |===

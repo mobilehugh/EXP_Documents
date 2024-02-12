@@ -1,0 +1,43 @@
+= Multiple Attacks
+
+NOTE: this is an optional, but recommended, rule
+
+If the alien has multiple attacks the referee and player should consider rationalizing the attack types and attack damage amounts. 
+
+== Rationalizing Attack Types
+When an alien has more than one attack per unit she is a more dangerous foe, and ranged attacks are more dangerous than melee attacks.
+A Gigantic alien with 4 Shoot attacks would be egregiously dangerous, but more importantly not very organic in nature.
+Most biologic creatures with multiple attacks have multiple different attacks for different situations. 
+It is also more fun if an alien has a collection of attack types.
+The most famous would be a dragon that breathes fire, or slashes her claws. 
+
+The automation tools have a simple (when written in Python) mechanism for rationalizing attack types by attack frequency.
+The goal is not to nerf the player's precious alien killing machine, but to make her more organic and play friendly.
+
+include::aliens:partial$attack_type_and_frequency.adoc[]
+
+== Rationalizing Attack Damage
+As with attack type rationalization damage amounts can also be corrected.
+This makes for a more balanced and interesting player persona.
+The process for rationalizing alien damage per attack is simple-ish.
+The player steps down the damage chart in size per attack type that the alien has. 
+The choice in step down is arbitrary and the player may prefer a different order. 
+
+The automation tools have a simple (when written in Python) mechanism for rationalizing attack damage by attack frequency.
+The goal is not to nerf the player's precious alien killing machine, but to make her more organic and play friendly.
+
+include::aliens:partial$attack_damage_and_frequency.adoc[]
+
+== Example Rationalization
+A Large alien with a 15 Strength has a Shoot Type attack and 5 attacks per unit is getting it's butt rationalized. 
+The player rolls a 3 for attack type rationalization for "Sh, Sh, Fl, Fl, St". 
+This indicates two shoot attacks, two fling attacks and one strike attack. 
+The damage rationalization table yields "1) 3d10, 2) d20, 3) d12".
+First attack (Shoot) is 3d10, second attack (Fling) is 1d20 and the third attack (Strike) is 1d12.
+Altering how these elements are valued is up to the player and referee.
+Remember that game balance is a key part of fun for all players involved. 
+
+== An Attack Sentence
+After many rounds of alien arena it was determined that making an "attack sentence" was very helpful.
+This aliens attack sentence would be 2 shoot attacks for 3d10, 2 fling attacks for 1d20 and 1 strike attack for 1d12.
+A very very dangerous alien indeed. 

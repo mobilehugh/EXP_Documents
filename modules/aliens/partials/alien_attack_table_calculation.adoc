@@ -1,5 +1,4 @@
-// CH09 table attribute bonuses new for 6.0
-.*Alien Attribute Bonus for Skilled
+.*Attack Table Skilled Bonus Calculation
 [width="85%",cols="3*<",frame="all", stripes="even"]
 |===
 3+<|The alien Skilled is limited to her natural attack types.
@@ -7,21 +6,21 @@
 |*Strike Attacks*
 2+<|*Persona powered crushing and striking attacks*
 
-|10 * STR + Level * Bonus
+|10 * Adjusted STR
 2+<|Mouths, claws, beaks, hooves, horns, antlers
 
 |*Fling Attacks*
 2+<|*Persona Powered projectile attacks*
 
-|10 * DEX + Level * Bonus
+|10 * Adjusted DEX
 2+<|Quills, spittles, spines, cones, bone spurs
 
 |*Shoot Attacks*
 2+<|*Powered Projectile Weapons*
 
-|10 * INT + Level * Bonus
+|10 * Adjusted INT
 2+<|Lazer eyes, energy bolts, gas propelled chunks
 
-3+<|Level Bonus depends on attack type.
+3+<|Adjusted attribute is Level plus attribute. E.g., 3rd level alien with 7 INT = Adjusted INT of 10. 
 
 |===

@@ -1,4 +1,5 @@
 = Alien Hit Points
+
 The alien's hit points determine how resistant she is to physical damage.
 The more hit points the alien has, the harder it is to kill.
 The alien's size and Constitution determine her hit points.
@@ -7,12 +8,16 @@ The bigger the alien, the bigger the die she rolls.
 The higher the alien's Constitution score, the more dice the player gets to roll.
 A tiny alien with a low Constitution score will have fewer hit points than a large alien with a low Constitution score.
 
-include::ROOT:partial$CH06_Table_Alien_Hit_Points_HPS.adoc[]
+include::aliens:partial$hit_points_and_size.adoc[]
 
-Let's consider a  large sized alien with a 9 Constitution score.
+Let's consider a Large alien with a 9 Constitution.
 The player rolls nine ten-sided dice to determine the alien's hit points. 
 If the player had rolled 4, 5, 2, 6, 8, 3, 5, 6 and 7, her alien would have 46 hit points.
 Forty-six is the alien's hit point max, and the player records this on her persona record sheet.
+It is recommended to roll the total number of dice indicated the personas CON. 
+Rolling the die type once then multiplying by CON is faster but much less biologic.
+
+NOTE: Rolling more dice gives a more biological curve for HPS.
 
 == Alien Death and HPS
 Aliens do not die the same as anthros or robots.
@@ -20,3 +25,5 @@ An alien is dead if her HPS total reaches zero.
 There is no bleeding out shock state like anthros.
 There is no let's start again more broken like robots.
 Aliens are not subject to damage system shock or recovery rolls. 
+
+// todo check for HPM vs HPS in nomenclature
