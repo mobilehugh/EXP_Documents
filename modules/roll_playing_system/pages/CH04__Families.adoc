@@ -1,20 +1,5 @@
 = Families
 
-// variables to correct xrefs for roll vs role 
-// default is Role Playing rules
-:anthrogen: xref:anthros:a_introduction.adoc[Anthros,window=_blank]
-:aliengen: xref:aliens:a_introduction.adoc[Aliens,window=_blank]
-:robotgen: xref:robots:a_introduction.adoc[Robots,window=_blank]
-
-ifeval::["{docname}" == "CH26_Role_Gen_Persona_Families"]
-
-// substitution is for Roll Playing System
-// when called from CH26_Role_Gen_Persona_Families.adoc
-:anthrogen: xref:CH26_Role_Gen_Anthro.adoc[Anthros,window=_blank]
-:aliengen: xref:CH26_Role_Gen_Alien.adoc[Aliens,window=_blank]
-:robotgen: xref:CH26_Role_Gen_Robot.adoc[Robots,window=_blank]
-endif::[]
-
 [quote]
 ____
 *EXP's three families are Anthro, Alien and Robot.*
@@ -31,8 +16,17 @@ The faux taxonomy ignores the first six divisions in the schema and focuses on f
 The families, genus, and species reflect the life form's appearance and function, not its genetics.
 It is even simpler to use their familiar names: anthro, alien, and robot.
 
+:art: life_in_colour.svg
+:width: 700px
+:snark: Life's what you make it. 
+:artist: HM Drawio
+:date: 2023
+:license: CC BY-SA 4.0
+:description: Chart showing the fake persona families that exist in EXP.
+
+include::ROOT:partial$articulate.adoc[]
+
 .*EXP's Faux Taxonomy*
-* *Domains, Kingdom, Phylum, Class, Order:*  are ignored
 * *Family:* 
 ** Hominidae (Anthro)
 *** Genus (Homo Avis, Homo Canis, Homo Felis, etc)
@@ -46,29 +40,6 @@ It is even simpler to use their familiar names: anthro, alien, and robot.
 ** Autonomidae (Autonomous Intelligence)
 *** Series (Distro)
 *** Model (Mobility)
-
-.*Some examples*
-* *polar bear anthro*
-** Family - Hominidae
-** Genus - Homo Ursis
-** Species - Polaris
-* *alien with a turtle body and a mosquito head*
-** Family - Diversidae
-** Genus - Tortillis
-** Species - Irritii
-* *an expendable combat robot*
-** Family - Mechanidae
-** Genus - Combot
-** Species - Expendable
-
-:art: life_in_colour.svg
-:width: 700px
-:snark: Life's what you make it. 
-:artist: HM Drawio
-:date: 2023
-:license: CC BY-SA 4.0
-:description: Chart showing the fake persona families that exist in EXP.
-include::ROOT:partial$articulate.adoc[]
 
 The referee is welcome to use whatever naming structure suits their campaign.
 The aliens could all be robots.
@@ -84,7 +55,12 @@ Anthros have a shape, structure and physiology to the life form reading this doc
 Anthros possess language, culture, vocations and norms that are familiar to us from mundane terra. 
 Most player personas will be anthros. 
 Beginning players should only deliver anthro personas.
-To deliver an anthro, walk on over to {anthrogen}.
+To deliver an anthro, walk on over to xref:anthros:a_introduction.adoc[Anthros].
+
+.*polar bear anthro*
+* Family - Hominidae
+* Genus - Homo Ursis
+* Species - Polaris
 
 :art: lab_critter.png
 :width: 450px
@@ -106,7 +82,12 @@ Most aliens will be referee personas acting as a friend, foe or dinner to player
 
 When creating an alien persona, the player is creating an entire species.
 A player persona alien will only represent one creature, but the generation has all the information for an entire alien species.
-To evolve an alien hop, swim or fly over to {aliengen}.
+To evolve an alien hop, swim or fly over to xref:aliens:a_introduction.adoc[Aliens].
+
+.*alien with a turtle body and a mosquito head*
+* Family - Diversidae
+* Genus - Tortillis
+* Species - Irritii
 
 :art: research_team_cyborg_repair.png
 :width: 450px
@@ -128,7 +109,12 @@ Unlike an organic persona, a robot persona can lose her free will if she is subj
 Robot personas are more 'alien' to players than alien personas are.
 Robots have no familiar body parts, no facial expressions, no fatigue, no social pressure, no culture, and no familiar goals or desires.
 Most robot personas will be referee personas. 
-To fabricate a robot, roll over to {robotgen}.
+To fabricate a robot, roll over to xref:robots:a_introduction.adoc[Robots].
+
+.*an expendable combat robot*
+* Family - Mechanidae
+* Genus - Combot
+* Species - Expendable
 
 == AI (Machinidae)
 AI (Autonomous Intelligences) are inorganic life forms intentionally fabricated to have consciousness and free will.
@@ -145,7 +131,7 @@ Random family determination is usually for referee personas.
 Beginning players should use anthro personas to learn the EXP rule set.
 Advanced players may be up for a unique experience. 
 
-include::ROOT:partial$CH04_Table_Family_Random.adoc[]
+include::role_playing_system:partial$family_list.adoc[]
 
 
 
