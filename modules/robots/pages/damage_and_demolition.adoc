@@ -91,7 +91,7 @@ When the robot's hit points drops to zero, the player checks to see which robot 
 System damage is similar to a hit location, but the part that malfunctions may be far away from the point of injury. 
 The player rolls to determine the system damaged and rolls to determine its severity.
 
-include::ROOT:partial$CH05_Table_Robotic_System_Malfunction.adoc[]
+include::robots:partial$malfunction_location.adoc[]
 
 Damaging the locomotion system does not slow down the robot.
 Damaging the locomotion system does decrease the robot's Dexterity and Strength. 
@@ -102,7 +102,7 @@ Every attribute listed under the robot system malfunction gets an individual rol
 Damaging the robot's articulations indicates two rolls on the severity table, once for Awareness and Dexterity.
 In the case of control unit damage, every attribute is at risk.
 
-include::ROOT:partial$CH05_Table_Robotic_Malfunction_Severity.adoc[]
+include::robots:partial$malfunction_severity.adoc[]
 
 If the player gets lucky, there is no decrease in the attribute. 
 There is a 1 in 6 chance of not having an attribute decrease.
@@ -138,7 +138,7 @@ The demolition table has all the damage effects for the robot persona prepared.
 Player personas usually will visit the system damage tables each time they zero their HPS Total.
 Someday, computers will automatically calculate the demolition table.
 
-include::ROOT:partial$CH05_Table_Example_Robotic_Decay.adoc[]
+include::robots:partial$malfunction_monitoring_decay_table.adoc[]
 
 == Healing and Repairs
 Robots are not self-repairing like organic personas.
