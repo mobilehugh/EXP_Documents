@@ -89,7 +89,7 @@ If the alien has a snake's legs, it slithers about.
 If the alien has fish legs, it may wiggle or fin itself around.
 If the alien has parrot arms and fish legs, it may fly or slither.
 
-include::ROOT:partial$CH06_Table_Alien_Body_Parts.adoc[]
+include::aliens:partial$alien_shape_body_parts.adoc[]
 
 == Adornments
 These are optional accents to the alien's appearance.
@@ -109,15 +109,15 @@ The player chooses the details (amount and size) of the adornments.
 
 include::ROOT:partial$articulate.adoc[]
 
-include::ROOT:partial$CH06_Table_Adornment_Head.adoc[]
+include::aliens:partial$alien_shape_head_adornment.adoc[]
 
 === Alien Torso Adornment
 
-include::ROOT:partial$CH06_Table_Adornment_Torso.adoc[]
+include::aliens:partial$alien_shape_torso_adornment.adoc[]
 
 === Alien Arms Adornment
 
-include::ROOT:partial$CH06_Table_Alien_Adornments_Arms.adoc[]
+include::aliens:partial$alien_shape_arm_adornment.adoc[]
 
 == Alien Coat
 The aliens need not appear as a patchwork of feathers, hide and fur.
@@ -198,4 +198,4 @@ The alien's shape indicates which terrain types the alien is capable of moving o
 The terrain types indicate how the base rate gets split between land, air, and water movement.
 Whether an alien can fly or not is enormously important to the player.
 Keeping track of the terrain types letters (l, a, w, s) is critical when evolving an alien species.
-For a detailed rendering jump to xref:roll_playing_system:CH06_Aliens_9_Move.adoc[Alien Movement,window=_blank].
+For a detailed rendering jump to xref:aliens:movement.adoc[Alien Movement,window=_blank].

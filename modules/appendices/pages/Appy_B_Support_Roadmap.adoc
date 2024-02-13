@@ -610,13 +610,13 @@ These work but beware of the unusual include statement that houses page$
 
 [source]
 ----
-in file: CH06_Aliens_9_Move.adoc
+in file: aliens.adoc
 
 // tag::blah[]
 blah blah blah
 // end::blah[]
 
-include::roll_playing_system:page$CH06_Aliens_9_Move.adoc[tag=blah] //blah blah blah
+include::aliens:page$movement.adoc[tag=blah] //blah blah blah
 ----
 
 

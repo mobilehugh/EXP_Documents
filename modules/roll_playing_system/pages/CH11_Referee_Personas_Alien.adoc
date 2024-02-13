@@ -192,7 +192,7 @@ include::aliens:partial$attack_type_options.adoc[]
 == Alien RP Defence Rating
 How hard is it to damage this alien in combat?
 
-include::CH06_Aliens_7_AR.adoc[tag=Alien_AR]
+include::aliens:defence_rating.adoc[tag=Alien_AR]
 
 == Alien RP Wate Allowance
 The wate allowance is the same for all personas. 
@@ -202,7 +202,7 @@ include::anthros:partial$wate_allowance_and_strength.adoc[]
 
 == Alien RP Shape
 The alien shape is entirely random and makes for very diverse corporeal denizens.
-For more details about alien shape, jump to Detailed explanation exist at xref::CH06_Aliens_8_Shape.adoc[Alien Shape,window=_blank].
+For more details about alien shape, jump to Detailed explanation exist at xref::aliens:alien_shape.adoc[Alien Shape,window=_blank].
 
 The referee makes four rolls on the Alien Body Parts Table.
 One roll for each of the four body parts that compose the alien. 
@@ -216,7 +216,7 @@ It is crucial to record the terrain type along with the shape of the body part.
 . Arms
 . Legs
 
-include::ROOT:partial$CH06_Table_Alien_Body_Parts.adoc[]
+include::aliens:partial$alien_shape_body_parts.adoc[]
 
 === Adornments
 These are optional accents to the alien's appearance.
@@ -224,13 +224,13 @@ Adornments are entirely descriptive.
 Adornments do not detract from or add any abilities to the alien. 
 
 // head adornment
-include::ROOT:partial$CH06_Table_Adornment_Head.adoc[]
+include::aliens:partial$alien_shape_head_adornment.adoc[]
 
 // torso adornment
-include::ROOT:partial$CH06_Table_Adornment_Torso.adoc[]
+include::aliens:partial$alien_shape_torso_adornment.adoc[]
 
 // arms adornment
-include::ROOT:partial$CH06_Table_Alien_Adornments_Arms.adoc[]
+include::aliens:partial$alien_shape_arm_adornment.adoc[]
 
 == Coat and Colour
 The referee can leave the alien as a patchwork of different skin types or choose a particular coat from one body part.
@@ -242,7 +242,7 @@ include::ROOT:partial$add_colour_to_your_world.adoc[]
 == Alien RP Movement Rate
 Alien movement rate is as important as size in regards to combat.
 The shape of the alien determines whether it hops, slithers, flaps, or gallops along.
-More detail is available at xref::CH06_Aliens_9_Move.adoc[Alien Movement,window=_blank]
+More detail is available at xref::aliens:movement.adoc[Alien Movement,window=_blank]
 
 == Movement Unit
 .move (h/u) = DEX / 4
@@ -251,15 +251,15 @@ An alien with a 12 DEX would have a base movement unit of 3 h/u.
 ****
 Add the terrain types (l, a, w) for each body part shape and multiply them by the movement unit.
 
-include::ROOT:partial$CH06_Table_Calculating_Alien_Movement.adoc[]
+include::aliens:partial$movement_calculation.adoc[]
 
 == Alien RP Mutations
-include::roll_playing_system:page$CH06_Aliens_10_Mutations.adoc[tag=alien_mutations]
+include::aliens:page$evolutations.adoc[tag=alien_mutations]
 
 == Alien RP Age
 Life expectancy is defining feature of organic life forms. 
 
-include::ROOT:partial$CH06_Table_Alien_Lifespan.adoc[]
+include::aliens:partial$life_spans.adoc[]
 
 === Extremely Short Life Spans 
 If the alien's life span is less than ten years, there is a 1 in 6 (1d6) chance that the alien will have an extremely short life span.
@@ -283,7 +283,7 @@ This biological process is called prodigy over progeny.
 
 include::ROOT:partial$CH11_Table_Alien_RP_Life_Stage.adoc[]
 
-include::ROOT:partial$CH06_Table_Alien_Life_Stages.adoc[]
+include::aliens:partial$life_span_stages.adoc[]
 
 == Alien RP EXPS Level
 Good for flora, fauna, and vocations.
