@@ -1,4 +1,4 @@
-= Appendix B2: Automation   
+= Automation   
 
 [quote]
 ____
@@ -6,19 +6,30 @@ ____
 ____
 
 
-== EXP Specific
-There are two EXP specific tools available.
+== EXP Tools
+There are two EXP tools available.
 They both live on github. 
-The Rule Site Builder allows dev savvy folks to create a local HTML copy of EXP using https://docs.antora.org/antora/latest/[Antoradocs].
+Both are used locally and have dependencies.
+They are covered by CC 4.0 share and share alike open source license. 
 
-The Persona Generator is a python application that will help create personas and referee personas for Anthros and Aliens
-You must have https://www.python.org/downloads/[Python] on your machine and like text/PDF outputs.
+=== EXP Rule Set
+The rule set allows players to build a static HTML website with all the rules and silliness on their local machine.
+This will require a build tool called https://docs.antora.org/antora/latest/[Antoradocs].
+The rule set lives on Github at https://github.com/mobilehugh/EXP_Documents[EXP Documents].
+The details of building your own local copy of EXP are found on Github.
 
-.*EXP Specific Git Hub Tools* 
-* https://github.com/mobilehugh/EXP_Game_Tools[Python Persona Generator]
-* https://github.com/mobilehugh/EXP_Documents[Rule Site Builder]
+=== EXP Tool Set
+The tool set allows players top create and store player and referee personas.
+The personas are stored in json, can be read on screen or stored as a pdf.
+This will require an up to date install of https://www.python.org/downloads/[Python].
+The tool set lives on Github at https://github.com/mobilehugh/EXP_Game_Tools[EXP Game Tools].
+The details for using the tool set are found on Github.
 
-== Plague Years (2020-2021)
+== Virtual Table Tops (VTT)
+Virtual table tops have been the grognard's computer fantasy since the 1980s.
+Now that they have arrived en force the grognards hate them.
+
+=== Plague Years (2020-2022)
 During the plague years many many new virtual table tops and online aids came into being. 
 Our table became a network and we used  the following configuration. 
 This configuration is no longer suitable and hopefully we will get things sorted by the next plague. 
@@ -29,12 +40,10 @@ This configuration is no longer suitable and hopefully we will get things sorted
 * https://zoom.us[Zoom for Voice and video chat]
 
 
-== Post Plague Playability (2023 onwards)
-If you are Roll Playing and you are going tactical there really isn't much.
-The computer supports that allows complex die rolls don't have hexes or vice versa.
-If you are Role Playing and the theatrical system is all you need there really isn't very much.
-Turns out it is surprisingly hard to get the 4d2 Mechanic to work. 
-Below is list of table tops and what to expect.
+=== EXP Compatibility
+VTTs follow the money, and the money is with Hasbro.
+Very few VTTs are usable with EXP. 
+EXP has several obscure die rolls (4D2 and Kilodie) that make it incompatible.
 
 .*These should work*
 * https://foundryvtt.com[Foundry - For the devs!]
@@ -42,7 +51,7 @@ Below is list of table tops and what to expect.
 * https://www.rptools.net/[RPTools - For the FOSS!]
 
 
-== EXP Compatibility Table
+=== EXP Compatibility Table
 Face it, I just like making asciidoc tables. 
 
 .*Legend*
