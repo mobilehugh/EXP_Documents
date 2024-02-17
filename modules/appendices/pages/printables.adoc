@@ -1,3 +1,5 @@
+:kroki-server-url: https://kroki.io
+
 = Printables
 
 [quote]
@@ -50,10 +52,16 @@ s|Size
 3+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
 |===
 
-below is a test of possible printables replacement.
 
-[kroki, plantuml, format="svg"]
+== diagrams as code
+This little chunk of the effort represents an attempt to get diagrams as code working.
+This has been an utter failure with an entire 2 days ouroboric none learning.
+PlantUML, Antoradocs, and Asciidoctor are just too many layers of abstraction. 
+
+[kroki, plantuml, format="svg", opts="inline"]
 ....
 Alice -> Bob: Hello Bob, how are you?
 Bob --> Alice: I am fine, thanks!
 ....
+
+
