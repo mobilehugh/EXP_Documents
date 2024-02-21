@@ -12,164 +12,21 @@ include::ROOT:partial$articulate.adoc[]
 The roadmap is a combination of actual, aspirational and fantastical goals for EXP.
 The roadmap contains goals for the rules, tools and extended world of EXP.
 Do not mistake desire and creativity for actual commitment or capacity to achieve these goals.
-
-This is closer to a collection of aspirations than a roadmap.
 Perspiration has transformed some of these aspirations into rules.
-
 This appendix is *not* https://docs.google.com/spreadsheets/d/1F9m7keUraYriyFHnk_unvE0gU1-dyO_rqECyTF76prI/edit?usp=sharing[progress].
-Progress is actively being worked at this moment.
-
 
 .*Roadmap Components*
-. Proposals
-. Version Assigned
-. Version Unassigned
+. <<_proposals,Proposals>>
+. <<_version_assigned,Version Assigned>>
+. <<_archive,Archive>>
 
 == Proposals
 
 * avoid double diminishing goals, as in EXPS
 * emphasize safe and supportive play
 * defence rating as a target or an adjustment
-* improv communication tools within rules
-* high roll FTW
 
-
-
-
-
-== Version 6.0 (retired Jan 2024)
-
-=== Progress
-This is version 6.X of EXP The game of technological chaos. 
-Estimated finish date is December 2021. 
-A detailed progress description is available via https://docs.google.com/spreadsheets/d/1F9m7keUraYriyFHnk_unvE0gU1-dyO_rqECyTF76prI/edit?usp=sharing[gdocs].
-A repository of progress is maintained on https://github.com/mobilehugh/EXP_Documents[github].
-
-.*Chronologic Event List*
-* This build 15-June-2021
-* Last build 09-May-2021
-* Future milestone automation due 31-Dec-2021
-* Next milestone infuse new art due 1-July-2021
-* Milestone: all sections refactored 15-June-2021
-* Milestone: all previous art added 03-Jan-2021
-* Milestone: all sections rewritten 09-Dec-2020
-* The pandemic pause ended 16-July-2020
-* The pandemic pause began 13-Mar-2020
-* There was a leap year update on 29-Feb-2020.
-* There was a palindromic update on 20:20-20-02-2020.
-* There was a palindromic update on 2020-0202.
-
-.*Rule Repairs*
-* Mission and vision.
-** Accessibility.
-*** Financially, technologically, ability
-** Safe and Supportive.
-* Pulled trigger on HPS splitting into HPM an HPT.
-** requires a massive find and replace. 
-* EXPS and diminishing returns 
-** double diminishing. 
-* is AR a value or an adjustment
-
-//high roll FTW
-//tool vs tech vs comp vs AI
-//rules written from the point of challenging players (crazy limitations and examples) 
-// word for birthing a cat
-// how to tell story as in a storey modules\roll_playing_system
-
-
-== Version 7.x (this version)
-Active version as of 14-jan-2024.
-This will be the first version as a 0.5 full time developer.
-A detailed progress description is available at (http://expgame.com[expgame.com]).
-A repository of progress is maintained at (http://expgame.com[expgame.com]).
-Completion date is 14-June-2024.
-
-.*Goals of Versions 7.x*
-* move from letters to words 
-** weapons types become descriptive
-** attack tables instead of attack tables
-** shorten STR and MND
-* pre-roll implementation
-* reorganize ROOT with sub-folders
-* aimagination infiltration
-* community building
-* active promotions
-* expansion of automation section
-** how to make personas
-** how to local copy exp
-* move HPT back to HPS
-
-.*Goals of Automation*
-. Persona Record Sheet Generation
-.. Referee vs Player Personas
-... Anthro
-... Alien
-... Robot
-... AI
-. Independent functions utilized by above 
-.. Attribute Generation
-.. Type Selection
-.. Mutation creation
-.. Vocation selection
-.. Attack Tables
-.. Name generators
-... Anthro for sub types
-... Aliens given and species
-... Robot Leet Name, Model and Corp
-.. Toys
-... Per Persona
-... Per Type 
-... Per Cache
-. Online storage for generated data
-. VTT integration
-. Hardcopy generation for TT play
-
-== Version 8.0
-* 3d printing of personas
-** Anthros
-** Aliens
-** Robots
-* Procedural drawing of personas
-** Anthros
-** Aliens
-** Robots
-* Extended mythos assistance
-** Campaign creation
-** story frameworks
-** flora fauna ecosystem
-** corporations, religions, governments
-* VTT (virtual table top) world integration.
-* appendiceal add ons 
-** Alien Arena
-** Space Opera
-** Postapocalypso
-** Mutant fest
-
-
-.*Version 7 punt downs*
-* Automated persona creation
-* Support tools such as persona creation. Online persona storage
-* community building
-* VTT (virtual table top) rule integration.
-* images on or off 
-* aimaginations vs images switch
-* roll vs role switch
-* d1000, 4d2 mechanic switch
-
-
-====
-EXP V7, er V8, um maybe V9, will be the first TTRPG 2.0.
-A TTRPG or RPG 2.0 is a table top RPG designed for computer support from the ground up.
-====
-
-== Version 9.0
-* AI integration
-** generating worlds
-** referee personas
-** scenarios
-* GPT5 maybe? ;)
-
-== PROPOSAL: A d20 Task Roll 
+=== PROPOSAL: A d20 Task Roll 
 Some find the Task Rolls in the Roll Playing system too much effort. 
 It really does require maths and may slow down game play. 
 The d20 Task Roll would align better with Saves and Competitions which are already d20 based.
@@ -187,7 +44,7 @@ Legacy system used three distinct die roll types.
 . <<_determine_difficulty,Determine Difficulty>>
 . <<_determine_the_task_roll,Determine the Task Roll>>
 
-=== Determine Difficulty
+==== Determine Difficulty
 Knowing the difficulty of a task is only described generally. 
 The persona would not know the actual number.
 
@@ -203,7 +60,7 @@ The persona would not know the actual number.
 * Impossible - 128
 * Plot - 666 
 
-=== Determine the Task Roll
+==== Determine the Task Roll
 The player rolls a d20 plus whatever bonuses apply.
 
 .*Roll 1d20 plus...*
@@ -215,229 +72,6 @@ The player rolls a d20 plus whatever bonuses apply.
 * Fun description (1d4)
 
 Players add all their rolls as part of a research team. 
-
-== PROPOSAL: Attribute Nomenclature Update
-Completed. 
-
-The attributes Mental Strength (MSTR) and Physical Strength (PSTR) are vestiges of Metamorphosis Alpha.
-The terms have avoided updating as they were considered an homage to the OG. 
-Times are changing though.
-There is no trouble with changing STR to STR. 
-This attribute change is comprehensible. 
-The challenge is what is MND changed too. 
-
-____
-Mind represents the persona’s will power, psionic ability, and luck. 
-This attribute is a sciency fiction one with no physiologic connection to our mundane terra just yet. 
-A persona with high Mind has excellent will power and resistance to influence. 
-Mind is the crucial attribute powering psionic mutations and psionic events. 
-____
-
-.*Proposed Changes to Attributes*
-* Physical Strength (STR)-> Strength (STR)
-* Mental Strength (MND) -> Mind (MND)
-
-.MND Options
-* Acuity
-* Aura
-* Cognition
-* Flux
-* Fortitude
-* Grit
-* Mastery
-* Metaphysics
-* Mindcraft
-* Potentiality
-* Psyche
-* Psychokinesis
-* Psychomotor
-* Psychonics
-* Radiance
-* Resilience
-* Resonance
-* Serendipity
-* Telekinesis
-* Thoughtforce
-* Volition
-* Willforce
-
-
-== PROPOSAL: Attack Table Nomenclature Simplification
-Proposed rework of the Attack Table and its ancillary components. 
-Goal is to reduce complexity and improve understanding. 
-Underlying variable names will be unchanged in the tools application. 
-
-These changes are being play tested. 
-So far so good. 
-Some abbreviations have changed on the persona record.
-
-.*Proposed Changes to Weapon Types*
-* Type A -> *Striking*: self powered melee weapons
-* Type B -> *Flinging*: self powered ranged weapons 
-* Type C -> *Shooting*: powered ranged weapons 
-* Type D -> *Sotto*: Semi auto *Shooting* 2 attacks per unit
-* Type E -> *Sotto*: Semi auto *Shooting* 3 attacks per unit
-* Type F -> *Flotto*: Full auto *Shooting* 5 attacks per unit
-* Type AOE -> *Grenade*: *Flinging* at target hex no damage bonus
-
-.*Proposed Changes to Attack Table*
-* Attack Table -> *Attack Table*
-* BP (Skilled Bonus) -> *Skilled*
-* BNP (Raw Bonus) -> *Raw*
-* Max (Max Roll) -> *Max*
-* DB (Damage Bonus) -> *Force*
-
-NOTE: Raw may change to Unskilled. Raw is shorter and edgier.
-
-// Proposed changes to Attack Table
-.*Attack Table*
-[width="95%",cols="<,^,^,^,^",frame="all", stripes="even"]
-|===
-5+<|What players add to their rolls in combat.
-
-s|Attack Type
-s|Raw
-s|Skilled
-s|Max
-s|Force
-
-s|Striking
-|50
-|100
-|725
-|6
-
-s|Flinging
-|65
-|125
-|775
-|3
-
-s|Shooting
-|75
-|150
-|825
-|0
-
-|===
-
-
-[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
-|===
-5+<|ROW 1 lists the Attack Table headings.
-
-s|Attack Type
-4+|Type of attack being used. Striking vs Flinging vs Shooting.
-
-s|Raw
-4+|Player adds this number to attack rolls for unfamiliar weapons.
-
-
-s|Skilled
-4+|Player adds this number to attack rolls for proficient weapons.
-
-s|Max
-4+|This is the highest attack roll the player can make.
-
-s|Force
-4+|The player adds this number to the damage roll. 
-|===
-
-[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
-|===
-5+<|ROW 2 lists the bonuses for striking attack types.
-
-s|Striking
-4+|Self powered melee weapons like swords, clubs, fists etc.
-
-|Raw
-4+|Player adds 50 to her attack roll when using an unfamiliar bat.
-
-|Skilled
-4+|Player adds 100 to her attack roll when using her familiar sword.
-
-|Max
-4+|If the player's attack roll is higher than 725 on her it becomes 725.
-
-|Force
-4+|Player adds 6 hit points of damage to her damage roll.
-|===
-
-[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
-|===
-5+<|ROW 3 lists the bonuses for flinging attack types.
-
-s|Flinging
-4+|Self powered ranged weapons like daggers, bows, rocks and spears.
-
-|Raw
-4+|Player adds 65 to her attack roll when using an unfamiliar throwing spear.
-
-|Skilled
-4+|Player adds 125 to her attack roll when using her favourite bow.
-
-|Max
-4+|If the player's attack roll is higher than 775 her attack roll becomes 775.
-
-|Force
-4+|The player adds 3 hit points of damage to her damage roll.
-|===
-
-
-[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
-|===
-5+<|ROW 4 lists the bonuses for shooting attack types.
-
-s|Shooting
-4+|Powered ranged weapons like guns, rifles, pistols. 
-
-|Raw
-4+|Player adds 75 to her attack roll when using an unfamiliar rifle.
-
-|Skilled
-4+|Player adds 150 to her attack roll when using her service revolver.
-
-
-|Max
-4+|If the player's attack roll is higher than 825 her roll becomes 825.
-
-|Force
-4+|No force bonus for shooting weapons. 
-|===
-
-[width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
-|===
-5+<|Special cases of Sotto, Flotto and Grenade
-
-s|Sotto
-4+|Attack Type *Shooting* with two or three attack rolls per unit. 
-
-s|Flotto
-4+|Attack Type *Shooting* with five attack rolls per unit.
-
-s|Grenade
-4+|Attack Type *Flinging* with no Force bonus. Target is a hex. 
-
-|===
-
-The above information is transient, and has changed since initial email proposal.
-Other suggestions have included: Close Muscle, Ranged Muscle, Ranged Powered, Melee. 
-
-
-== Broad Aspirations
-Elements that remain aspirational. 
-
-=== Generic Mythos
-Missing parts from the generic mythos. 
-
-.*Generic Mythos*
-* time and chronovores hideaways, teleport, time stop and holdaways.
-* sciency fiction vs science fiction vs science fantasy
-* Consciousness
-** Organics transfer sentience via reproduction and evolution
-** Robots get sentience by accident unique and isolated
-** Autonomous Intelligence (AI) are fabricated with consciousness
-** Artificial Intelligence is not conscious, but may appear so
 
 === Story Telling and EXP
 Personal thoughts of how improv and role playing intersect.
@@ -459,26 +93,31 @@ Personal thoughts of how improv and role playing intersect.
 * listening to players is LACE
 * persona stories are Three Parts and STEPS
 
-=== Influential Movie List
-We lost this resource when version 5 imploded. 
-There was a list of movies and shorts.
-Shorts have now become corporate (Dust) and there general access has been destroyed.
-There is still an ability to list influential sciency fiction movies. 
+//2m cubed = 70 cubic feet
+//http://www.themaritimesite.com/a-guide-to-understanding-ship-weight-and-tonnage-measurements/
+//http://www.milsf.com/ship-size-tonnage-and-crew/
+// roll playing pithy aphorisms
+// all your rolls are belong to us
+// outcomes decided by dice and tables.
+// outcomes not decided by referee thinkspace
+// justification and post factualization
+// From the outset both methods of play are equally valid.
+// details details details
+// the dice giveth and the dice taketh away
 
-.*Prerequisites*
-. Live action preferred
-. Only seminal movie of franchise
-. No animation (cell or computer) -- flexible
-. No supers -- absolute
-. Described in terms of EXP vocations and snark.
-.. Mechanic meets knite. Critical roll kills 1.25 million. (Star Wars, 1977)
-.. Nomad has telepathic pet and questionable culinary proclivities. (A Boy and His Dog, 1975)
-.. Mercenaries fight aliens and an android. (Aliens, 1985)
-.. Mercenaries lose their powered are but still fight aliens. (Starship Troopers, 1997)
-. alphabetical order
-. Include the trailer.
 
-=== Pithiness
+// role-playing pithy aphorisms
+// the desired story of the ref and players wins
+// less random 
+// EXPS for role-playing
+// theatrical combat rules
+// charisma and privilege tends to win
+// not everyone is articulate enough
+// philosophy of dice 
+// role of the random in the roll
+// a common language for a shared improvised experience
+
+=== Proposed Pithy Aphorisms
 A suite of sweet sayings.
 
 .*Pithy Aphorisms*
@@ -529,7 +168,6 @@ Any of which may or may not be alien.
 Go to sleep meat bag. This is frustrating. Robots do not express frustration.
 ====
 
-
 ====
 EXP takes liberties to mix elements of faux science and technomagical thinking to have fun.
 The possibilities of technology is the basis of the sciency fiction milieu of EXP.
@@ -555,35 +193,188 @@ Austere milieus may start personas with nothing but dust and dreams.
 Creator species may allow the personas to browse the toy categories like an online store.
 ====
 
-=== Images
-[line-though]#Repair of malformed alt="" has been repaired for accessibility.#
+=== Generic Mythos
+Missing parts from the generic mythos. 
 
-//2m cubed = 70 cubic feet
-//http://www.themaritimesite.com/a-guide-to-understanding-ship-weight-and-tonnage-measurements/
-//http://www.milsf.com/ship-size-tonnage-and-crew/
-// roll playing pithy aphorisms
-// all your rolls are belong to us
-// outcomes decided by dice and tables.
-// outcomes not decided by referee thinkspace
-// justification and post factualization
-// From the outset both methods of play are equally valid.
-// details details details
-// the dice giveth and the dice taketh away
+.*Generic Mythos*
+* time and chronovores hideaways, teleport, time stop and holdaways.
+* sciency fiction vs science fiction vs science fantasy
+* Consciousness
+** Organics transfer sentience via reproduction and evolution
+** Robots get sentience by accident unique and isolated
+** Autonomous Intelligence (AI) are fabricated with consciousness
+** Artificial Intelligence is not conscious, but may appear so
 
 
-// role-playing pithy aphorisms
-// the desired story of the ref and players wins
-// less random 
-// EXPS for role-playing
-// theatrical combat rules
-// charisma and privilege tends to win
-// not everyone is articulate enough
-// philosophy of dice 
-// role of the random in the roll
-// a common language for a shared improvised experience
+=== expgamedia
+We lost this resource when version 5 imploded. 
+There was a list of movies and shorts.
+Shorts have now become corporate (Dust) and there general access has been destroyed.
+There is still an ability to list influential sciency fiction movies. 
+
+.*Prerequisites*
+. Live action preferred
+. Only seminal movie of franchise
+. No animation (cell or computer) -- flexible
+. No supers -- absolute
+. Described in terms of EXP vocations and snark.
+.. Mechanic meets knite. Critical roll kills 1.25 million. (Star Wars, 1977)
+.. Nomad has telepathic pet and questionable culinary proclivities. (A Boy and His Dog, 1975)
+.. Mercenaries fight aliens and an android. (Aliens, 1985)
+.. Mercenaries lose their powered are but still fight aliens. (Starship Troopers, 1997)
+. alphabetical order
+. Include the trailer.
 
 
-== Code Snippets (VS Code) 
+NOTE: Everything is different with the advent of LLM, text to image and soon text to moving image. 
+
+== Version Assigned
+
+=== Version 7.x (this version)
+Active version as of 14-jan-2024.
+This will be the first version as a 0.5 FTE developer.
+A blog, progress sheets and repos can be found at(http://expgame.com[expgame.com]).
+Completion date is 14-June-2024.
+
+.*Goals of Versions 7.x*
+* move from letters to words 
+** weapons types become descriptive
+** attack tables instead of attack tables
+** shorten STR and MND
+* pre-roll implementation
+* reorganize ROOT with sub-folders
+* aimagination infiltration
+* community building
+* active promotions
+* expansion of automation section
+** how to make personas
+** how to local copy exp
+* move HPT back to HPS
+
+.*Goals of Automation*
+. Persona Record Sheet Generation
+.. Referee vs Player Personas
+... Anthro
+... Alien
+... Robot
+... AI
+. Independent functions utilized by above 
+.. Attribute Generation
+.. Type Selection
+.. Mutation creation
+.. Vocation selection
+.. Attack Tables
+.. Name generators
+... Anthro for sub types
+... Aliens given and species
+... Robot Leet Name, Model and Corp
+.. Toys
+... Per Persona
+... Per Type 
+... Per Cache
+. Online storage for generated data
+. VTT integration
+. Hardcopy generation for TT play
+
+=== Version 8.0
+* 3d printing of personas
+** Anthros
+** Aliens
+** Robots
+* Procedural drawing of personas
+** Anthros
+** Aliens
+** Robots
+* Extended mythos assistance
+** Campaign creation
+** story frameworks
+** flora fauna ecosystem
+** corporations, religions, governments
+* VTT (virtual table top) world integration.
+* appendiceal add ons 
+** Alien Arena
+** Space Opera
+** Postapocalypso
+** Mutant fest
+
+
+.*Version 7 punt downs*
+* Automated persona creation
+* Support tools such as persona creation. Online persona storage
+* community building
+* VTT (virtual table top) rule integration.
+* images on or off 
+* aimaginations vs images switch
+* roll vs role switch
+* d1000, 4d2 mechanic switch
+
+
+====
+EXP V7, er V8, um maybe V9, will be the first TTRPG 2.0.
+A TTRPG or RPG 2.0 is a table top RPG designed for computer support from the ground up.
+====
+
+=== Version 9.0
+* AI integration
+** generating worlds
+** referee personas
+** scenarios
+* GPT5 maybe? ;)
+
+== Archive 
+Some stuff held here for historic purposes that may or may not mean anything at all. 
+
+=== Version 6.0 (retired Jan 2024)
+This is version 6.X of EXP The game of technological chaos. 
+Estimated finish date is December 2021. 
+A detailed progress description is available via https://docs.google.com/spreadsheets/d/1F9m7keUraYriyFHnk_unvE0gU1-dyO_rqECyTF76prI/edit?usp=sharing[gdocs].
+A repository of progress is maintained on https://github.com/mobilehugh/EXP_Documents[github].
+
+.*Chronologic Event List*
+* This build 15-June-2021
+* Last build 09-May-2021
+* Future milestone automation due 31-Dec-2021
+* Next milestone infuse new art due 1-July-2021
+* Milestone: all sections refactored 15-June-2021
+* Milestone: all previous art added 03-Jan-2021
+* Milestone: all sections rewritten 09-Dec-2020
+* The pandemic pause ended 16-July-2020
+* The pandemic pause began 13-Mar-2020
+* There was a leap year update on 29-Feb-2020.
+* There was a palindromic update on 20:20-20-02-2020.
+* There was a palindromic update on 2020-0202.
+
+=== Mental Strength to Mind planning 
+Proposed Changes to Attributes.
+Physical Strength (STR)-> Strength (STR).
+Mental Strength (MND) -> Mind (MND).
+
+.MND Options
+* Acuity
+* Aura
+* Cognition
+* Flux
+* Fortitude
+* Grit
+* Mastery
+* Metaphysics
+* Mindcraft
+* Potentiality
+* Psyche
+* Psychokinesis
+* Psychomotor
+* Psychonics
+* Radiance
+* Resilience
+* Resonance
+* Serendipity
+* Telekinesis
+* Thoughtforce
+* Volition
+* Willforce
+
+
+=== Code Snippets (VS Code) 
 
 [source]
 ----
@@ -639,4 +430,3 @@ blah blah blah
 
 include::aliens:page$movement.adoc[tag=blah] //blah blah blah
 ----
-
