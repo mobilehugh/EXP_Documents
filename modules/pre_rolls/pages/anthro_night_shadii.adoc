@@ -8,7 +8,7 @@
 :art: RP_night_shadii.jpg
 :width: 500px
 :snark: Bringing light to the dark side.
-:artist: Aimagination_hugh
+:artist: Aimagination prompt HM
 :date: 2023
 :license: CC BY-SA 4.0
 :description: muscular humanoid plant with a flower head wearing a tank top and holding a techno energy sword.
@@ -16,7 +16,30 @@
 image:pre_rolls:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
 
 
-// fix ROOT:images conflict in articulate.adoc
+This page is an proposal page for an anthro pre-roll page. 
+Basic concepts are laid out here.
+Must take into account aliens, robots, cannon fodder, canon fodder, and hardware.
+Causing a core re-imagining of the concept of a persona record. 
+
+.*Anthro Pre Roll*
+. Name (brief descriptor)
+. image 
+.. presently stored in pre_roll/images which changes the URL for Antoradocs
+.. skipping i_n_c_l_u_d_e::ROOT:partial$articulate.adoc[]
+.. and using hand bombed version 
+.. i_m_a_g_e:pre_rolls:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
+.. which is dirty dirty
+. attributes
+. bio info
+. RP Cues
+. combat info
+.. move defence
+.. attack table
+. vocation info
+.. gifts, interests, skills
+. Equipment
+. PDF (should be generated!)
+. json
 
 
 == Attributes
@@ -35,7 +58,7 @@ Labanations: Voice: Flick (Light, Fast, Indirect), Move: Glide (Light, Slow, Dir
 Beliefs: Religion: None, Philosophy: None, Politics: None. + 
 
 == Combat Info
-MOVE:  3 h/u  ARMOUR RATING: 542
+MOVE:  3 h/u  DEFENCE RATING: 542
 
 [width="75%",cols="5*^",frame="all", stripes="even"]
 |===
