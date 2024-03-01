@@ -14,23 +14,22 @@ The player chooses the final appearance of the anthro type.
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of a bald humanoid elf with a butterfly and cute alien. 
-
+:description: A bald humanoid elf with a butterfly and cute alien. 
 include::ROOT:partial$articulate.adoc[]
 
-include::ROOT:partial$CH26_Table_Record_Anthro.adoc[]
+include::role_playing_system:partial$anthro_record_role_playing.adoc[]
 
 .*Anthro Creation*
-. <<_anthro_attributes,Attributes>>
-. <<_anthro_type,Type>>
-. <<_anthro_mutations,Mutations>>
-. <<_anthro_vocation,Vocations>>
-. <<_anthro_artifacts,Artifacts>>
-. <<_anthro_name,Name>>
-. <<_anthro_appearance,Appearance>>
-. <<_anthro_history,History>>
+. <<_attributes,Attributes>>
+. <<_genus_,Genus (Type)>>
+. <<_mutations,Mutations>>
+. <<_vocation,Vocations>>
+. <<_artifacts,Artifacts>>
+. <<_name,Name>>
+. <<_appearance,Appearance>>
+. <<_history,History>>
 
-== Anthro Attributes
+== Attributes
 The standard attributes of EXP are present in all personas.
 In the Role Playing System, players only record those attributes at which the persona excels.
 A persona can have a blank attributes section and function fine.
@@ -66,7 +65,7 @@ For example, the persona record sheet could have Medium and INT recorded under
 Most Excellent Attribute::
 The player rolls once to determine the most excellent attribute of her alien persona.
 
-include::ROOT:partial$CH26_Table_Attribute.adoc[]
+include::role_playing_system:partial$best_attribute_table.adoc[]
 
 Awareness::
 Awareness indicates how aware a persona is of her surroundings. 
@@ -75,16 +74,6 @@ The attribute is a collective measure of the persona's sensors.
 AWE includes senses like hearing, vision, smell, touch and taste. 
 Awareness does not include the sixth sense or a sense of style. 
 The abbreviation for Awareness is AWE.
-
-:art: ursidae_charismatic_leader.png
-:width: 250px
-:snark: Bearing witness
-:artist: Doré, Gustave
-:date: Pre 1883
-:license: CC BY-SA 4.0
-:description: Drawing of a bear standing with arms up and many bears bowing to her.
-
-include::ROOT:partial$articulate.adoc[]
 
 Charisma::
 Charisma is charm, looks and sociability all combined into one value. 
@@ -137,7 +126,7 @@ The abbreviation for hit points is HPS.
 
 Social Standing::
 There is no Social Standing in the Role Playing System.
-The players must roleplay social interactions in the Role Playing System (go figure).
+The players must role play social interactions in the Role Playing System (go figure).
 The abbreviation for Social Standing is SOC.
 
 EXPS and Level::
@@ -147,39 +136,19 @@ The 4D2 Mechanic can generate new attributes, skills or abilities.
 This process replaces experience points and experience levels.
 The abbreviation for experience points is EXPS.
 
-== Anthro Type
+== Genus
 There are twelve distinct anthro types.
 If the player does not feel like choosing, she may randomly select her anthro type.
 
-include::ROOT:partial$CH26_Table_Role_Anthro_Type.adoc[]
+include::role_playing_system:partial$anthro_genus_determination.adoc[]
 
-=== Anthro Type Abilities
+=== Anthro Genus Abilities
 If the player generates her anthro type randomly, she can choose from the abilities listed.
 If the player wishes to choose her anthro type for style and story, the abilities are not an option.
-
-:art: billiard_shark_necklaces.png
-:width: 250px
-:snark: Billiards not pool.
-:artist: JEShields, Modified HM 2021
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Humanoid hammerhead shark holding a pool cue.
-
-include::ROOT:partial$articulate.adoc[]
 
 Aquarian::
 Homo Pisces are anthropomorphized aquatic beings. 
 The player may add the ability of water breathing to her aquarian persona.
-
-:art: sandy_anxious_ostrich.png
-:width: 190px
-:snark: The sky is being gravitied!
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a humanoid ostrich very upset about something.
-
-include::ROOT:partial$articulate.adoc[]
 
 Avarian::
 Homo Avis are anthropomorphized avarian beings.
@@ -189,16 +158,6 @@ The player may add the ability to detect ambush her avarian persona.
 Canine::
 Homo Canis are anthropomorphized dog beings.
 The player may add the ability of radiation sense to her canine persona.
-
-:art: anthro_equine_moose.png
-:width: 250px
-:snark: Beer can con
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a humanoid moose with beer cans and a large wooden sledge hammer.
-
-include::ROOT:partial$articulate.adoc[]
 
 Equine::
 Homo Equus are anthropomorphized hoofed beings.
@@ -224,16 +183,6 @@ Homo Insectum are anthropomorphized insect beings.
 The player may add the ability of neural stability to her insectoid persona.
 Neural stability offers added defence against mental attacks.
 
-:art: purestrain_negotiator.png
-:width: 250px
-:snark: Charisma is the purestrain's forte.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Young woman in cyberpunk clothes kneeling empathically.
-
-include::ROOT:partial$articulate.adoc[]
-
 Pure Strain::
 Pure Strains are Homo Sapiens sporting any imaginable skin colour.
 The player may add the attribute CHA to her Pure Strain persona.
@@ -243,16 +192,6 @@ Reptilian::
 Homo Serpens are anthropomorphized reptile beings.
 The player may add either the ability Torpor or the ability Chameleon to her persona.
 
-:art: anthro_rodent.png
-:width: 250px
-:snark: Rat Patrol
-:artist: Eric Hotz
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a humanoid rat wearing combat armour and leaning on a rifle.
-
-include::ROOT:partial$articulate.adoc[]
-
 Rodentia::
 Homo Rodens are anthropomorphized rodent beings.
 The player may add either the ability Night Vision or the ability Sprinting to her persona.
@@ -261,14 +200,13 @@ Ursidae::
 Homo Ursus are anthropomorphized bear beings.
 The player may add either the ability Frenzy or the ability Hibernation to her persona.
 
-== Anthro Mutations
+== Mutations
 Anthro mutations are fantasy genetic aberrations that offer the persona wondrous, mundane or treacherous abilities. 
 Mutations are abilities.
 If the player wants her persona to mutate, she gets one mutation.
 Pure strain anthros do not get to mutate regardless of the player's wishes.
 If the persona does not want her persona to mutate, her persona does not mutate.
 Humanoid anthros automatically mutate regardless of the player's wishes.
-
 
 .*Mutate Now. Avoid the post-bomb rush.*
 * Homo Mutabilis get two random mutation abilities
@@ -279,7 +217,7 @@ Humanoid anthros automatically mutate regardless of the player's wishes.
 
 The player heads to the designated mutation section and generates a random mutation.
 
-== Anthro Vocation
+== Vocation
 A vocation is a calling or innate skill set possessed by the persona.
 If the referee's milieu indicates, a vocation could mean training at a school, institute or guild.
 The player may choose from any of the listed vocations or pick one randomly.
@@ -287,7 +225,7 @@ Allowing the dice to choose the persona's vocation allows for attributes and abi
 For example, choosing a vet does not allow the persona to add CHA or choose one ability.
 A randomly chosen spie would get the DEX attribute and be able to choose one ability.
 
-include::ROOT:partial$CH26_Table_Role_Vocations.adoc[]
+include::role_playing_system:partial$vocation_selection_table.adoc[]
 
 === Vocation Attributes
 Each vocation is associated with an attribute.
@@ -303,31 +241,11 @@ Abilities are part and parcel of the vocation.
 A persona cannot learn the vet Quick Fix ability. 
 If the player generates her persona vocation randomly, she can choose one vocation ability.
 
-:art: florian_procession.png
-:width: 250px
-:snark: Offering some lo bak go
-:artist: Morey
-:date: 1962
-:license: CC BY-SA 4.0
-:description: Drawing of a helmeted human looking at a procession of radish headed humanoids.
-
-include::ROOT:partial$articulate.adoc[]
-
 Biologist::
 The biologist dedicates herself to studying the organic world.
 These studies range from its denizens to its cultures.
 The player can add AWE to her persona's attributes if she randomly chose this vocation.
 Every biologist gets two xref:vocations:biologist.adoc#biologist_skills[biologist skills,window=_blank].
-
-:art: reptilian.png
-:width: 250px
-:snark: Knee deep in trouble
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of reptilian humanoid knee deep in water wielding an energy sword.
-
-include::ROOT:partial$articulate.adoc[]
 
 Knite::
 The knite dedicates herself to promoting order, or chaos, by connecting the Physical and Think Spaces. 
@@ -337,32 +255,12 @@ A persona can earn the Knite vocation by completing a Knite qualification storyl
 The players will decide if the persona has earned the Knite vocation.
 For more detail about knites jump to xref:vocations:knite.adoc[knites,window=_blank].
 
-:art: gnome_mech.png
-:width: 250px
-:snark: Mechanics come in all sizes.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Long eared tiny gnome mechanic wrenching a large nut.
-
-include::ROOT:partial$articulate.adoc[]
-
 Mechanic::
 The mechanic dedicates herself to studying the inorganic world.
 These studies range from robots to scientific systems.
 The player can add INT to her persona's attributes if she randomly chose this vocation. 
 The player can add a xref:vocations:mechanic.adoc#_mechanic_abilities[mechanic ability,window=_blank] if she randomly chose this vocation. 
 Every mechanic gets two xref:vocations:mechanic.adoc#_mechanic_skills[mechanic skills,window=_blank].
-
-:art: anthro_human_gi_jane.png
-:width: 250px
-:snark: GI Jane
-:artist: Hotz
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a human woman in combat kit with rifle.
-
-include::ROOT:partial$articulate.adoc[]
 
 Mercenary::
 The mercenary works hard to promoting order, or change, via violence.
@@ -372,33 +270,12 @@ The player can add STR to her persona's attributes if she randomly chose this vo
 The player can add a xref:vocations:mercenary.adoc#_mercenary_abilities[mercenary ability,window=_blank] if she randomly chose this vocation. 
 Every mercenary gets two xref:vocations:mercenary.adoc#_mercenary_skills[mercenary skills,window=_blank].
 
-:art: nomad_shelter.png
-
-:width: 250px
-:snark: Simple shelter.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Scraggly dressed human man taking shelter from sandstorm behind ruins.
-
-include::ROOT:partial$articulate.adoc[]
-
 Nomad::
 The nomad prides herself on surviving and integrating into her surrounding world.
 These survival skills include all aspects of survival, travel and shelter in all terrains.
 The player can add CON to her persona's attributes if she randomly chose this vocation. 
 The player can add a xref:vocations:nomad.adoc#_nomadic_abilities[nomad ability,window=_blank] if she randomly chose this vocation. 
 Every nomad gets two xref:vocations:nomad.adoc#_nomadic_biomes[nomad biomes,window=_blank].
-
-:art: what_am_I.png
-:width: 250px
-:snark: Am I a rodent, avarian or humanoid?
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Humanoid platypus in lotus position wearing robes.
-
-include::ROOT:partial$articulate.adoc[]
 
 Nothing::
 The nothing vocation obsesses with all things mundane.
@@ -414,16 +291,6 @@ The player can add DEX to her persona's attributes if she randomly chose this vo
 The player can add a xref:vocations:spie.adoc#_spie_abilities[spie ability,window=_blank] if she randomly chose this vocation. 
 Every spie gets two xref:vocations:spie.adoc#_spie_tricks[spie tricks,window=_blank].
 
-:art: anatomy_book_surgeon_fixed_desat.png
-:width: 250px
-:snark: Life long learner
-:artist: Studiostoks
-:date: 2015
-:license: Copyright Studiostoks
-:description: Drawing of surgeon reading a book during surgery.
-
-include::ROOT:partial$articulate.adoc[]
-
 Veterinarian::
 The veterinarian is devoted to repairing and improving all organic beings.
 This practice includes diagnosis, surgery and medications.
@@ -437,22 +304,22 @@ The table is included here for convenience.
 
 include::vocations:partial$nothing_skills_career.adoc[]
 
-== Anthro Artifacts
+== Artifacts
 Personas get a TOYs roll. 
 It is entirely random, and the player only makes one roll. 
 The result can range from random junque to starcruiser. 
 To generate a toy for the persona jump to xref:hardware:a_introduction.adoc#_toy_type[Hardware,window=_blank].
 
-== Anthro Name
+== Name
 The player should name her anthro persona at the end of its creation.
 The anthro name is entirely up to the player. 
 For more detail than you ever wanted jump to xref:anthros:moniker.adoc[anthro name,window=_blank]
 
-== Anthro Appearance
+== Appearance
 The player should decant her anthro's description down to its most prominent features.
-For example, the player picks the essential defining parts of her anthro: a feline tabby wearing a camo kilt carrying a big rifle.
+For example, the player picks the essential defining parts of her anthro: a feline tabby wearing a cammo kilt carrying a big rifle.
 
-== Anthro History
+== History
 Keep track of the fun.
 Entirely optional.
 
