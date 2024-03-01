@@ -12,24 +12,22 @@ Anthros, aliens and robots fabricate robots.
 :artist: Studiostoks.
 :date: 2017 purchase.
 :license: Copyright Studiostoks.
-:description: Drawing of baby robot being being born like a human baby in hospital.
-
+:description: Baby robot being being born like a human baby in hospital.
 include::ROOT:partial$articulate.adoc[]
 
 include::ROOT:partial$CH26_Table_Record_Robot.adoc[]
 
 .*Robot Fabrication*
-. <<_robot_attributes,Attributes>>
-. <<_robot_type,Robot Type>>
-. <<_robot_abilities,Abilities>>
-. <<_robot_vocation,Vocations>>
-. <<_robot_skills,Skills>>
-. <<_robot_artifacts,Artifacts>>
-. <<_robot_name,Name>>
-. <<_robot_appearance,Appearance>>
-. <<_robot_history,History>>
+. <<_attributes,Attributes>>
+. <<_series,Series (Type)>>
+. <<_abilities,Peripherals>>
+. <<_skills,Skills>>
+. <<_artifacts,Artifacts>>
+. <<_name,Name>>
+. <<_appearance,Appearance>>
+. <<_history,History>>
 
-== Robot Attributes
+== Attributes
 The standard attributes of EXP are present in all personas.
 In the Role Playing System, players only record those attributes at which the persona excels.
 A persona can have a blank attributes section and function fine.
@@ -56,16 +54,10 @@ However, if a persona with STR and DEX is grappling with a persona with just STR
 
 These advantages are called shifts and increase the chance of success with the 4D2 Mechanism.
 
-Size::
-Robots can have variable sizes. 
-The robot type determines its size.
-The player records her size descriptor on her persona record sheet.
-The Role Playing System does not use wate in kgs.
-
 Most Excellent Attribute::
 The player rolls once to determine the most excellent attribute of her alien persona.
 
-include::ROOT:partial$CH26_Table_Attribute.adoc[]
+include::role_playing_system:partial$best_attribute_table.adoc[]
 
 Awareness::
 Awareness indicates how aware a persona is of her surroundings. 
@@ -102,11 +94,8 @@ The higher the Intelligence of the persona, the smarter she is.
 The abbreviation for Intelligence is INT.
 
 Mind::
-Mind exists as an attribute.
-Players cannot roll Mind as a most excellent attribute.
-Players acquire MND through a story set out by the referee.
-The players will decide if the persona has earned the MND attribute.
-The abbreviation for Mind is MND.
+Robots do not have this attribute.
+Mind is an organic connection to Kirlian Space that represents free will and wisdom.
 
 Strength::
 Strength represents force the persona can generate to get work done. 
@@ -124,9 +113,19 @@ When the 4D2 Mechanic generates a Cataclysmic Failure, the persona can lose an a
 Extreme failures on the 4D2 Mechanic can mortally wound or kill the persona.
 The abbreviation for hit points is HPS.
 
+Control Factor::
+Control factor represents how indebted the robot is to it's previous job or task.
+In the role playing system Control Factor can be chosen by a player to make her robot more free willed.
+
+Adaptability::
+This indicates how well the robot can be adjusted, repaired, upgraded or side graded. 
+
+Size::
+Size is considered an attribute and is included with the attributes section of the persona record. 
+
 Social Standing::
 There is no Social Standing in the Role Playing System.
-The players must roleplay social interactions in the Role Playing System (go figure).
+The players must role play social interactions in the Role Playing System (go figure).
 The abbreviation for Social Standing is SOC.
 
 EXPS and Level::
@@ -136,7 +135,7 @@ The 4D2 Mechanic can generate new attributes, skills or abilities.
 This process replaces experience points and experience levels.
 The abbreviation for experience points is EXPS.
 
-== Robot Type
+== Series
 The robot type determines its intended reason to be.
 A robot type describes the primary function of the persona.
 A heavy combot is a very different persona from a domestic janitorial robot.
@@ -148,360 +147,367 @@ Players can choose their robot type if that choice improves the story.
 
 include::ROOT:partial$CH26_Table_Robot_Single_Role.adoc[]
 
-:art: cable_face_desat.png
-:width: 350px
-:snark: Android migraines are the worst
-:artist: Studiostoks
-:date: 2015
-:license: Copyright Studiostoks
-:description: Drawing of an explosion of cables bursting out of a human head.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Android
-* Androids are robots made in the image of their fabricator.
+Androids are robots made in the image of their fabricator.
 They are mostly indistinguishable from their fabricator type.
-Typically it would require a vet or mechanic to determine their nature.
+Typically it would require a vet or mechanic to determine their true nature.
 Androids are very independent robots and have a high degree of autonomy.
 Androids appear as their fabricator type.
+
 * Size: Medium
-* Attributes: Add CHA, DEX, INT, CON and STR. Choose from CHA, DEX, INT, CON or STR
-* Vocations: Any. No knite.
+* Attributes: 
+** CHA, DEX, INT, CON and STR
+** Choose one from CHA, DEX, INT, CON or STR
 * Peripherals: None.
-* Defensive: None.
-* Offensive: None.
 * To read the complete owner's manual jump to xref:robots:series_android.adoc[Android,window=_blank].
 
-:art: expendable_combat_armed.png
-:width: 350px
-:snark: Expendable to others.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Humanoid robot with bladed feet and built in arm weapon.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Combot Expendable
-* These robots are ex-recon, ex-aids or malfunctioning mechanical infantry.
+These robots are ex-recon, ex-aids or malfunctioning mechanical infantry.
 Regardless of what she used to be, the expendable combot has gone freelance.
 Expendable combots can drive military vehicles with combat proficiency.
 Expendables have an excellent memory for combat details.
-An expendable combot will resemble her fabricator type, but there is no question she is a robot.
+An expendable combot may resemble her fabricator type, but there is no question she is a robot.
+
 * Size: Medium
-* Attributes: Choose from DEX or CON
-* Vocations: Mercenary or Nothing.
-* Peripherals: One.
-* Defensive: None.
-* Offensive: One.
+* Attributes: 
+** Choose one from DEX or CON
+* Peripherals: 
+** One Basic Peripheral
+** One Offensive Table One
 * To read the complete owner's manual, jump to xref:robots:series_combot.adoc#_expendable_combot[Expendable Combot,window=_blank].
 
 === Combot Defensive
-* Defensive combots defend positions from enemy attack. 
+Defensive combots defend positions from enemy attack. 
 They are naturally protective of geographical spaces and fellow personas.
+
 * Size: Large
-* Attributes: CON. Choose from AWE, CHA, CON, DEX, or INT.
-* Vocations: Mercenary, Spie or Nothing
-* Peripherals: Choose from Fortify, Intruder Detection, Anti-Anti-Detection Detector, or Weapon Identification.
-* Defensive: Two.
-* Offensive: None.
+* Attributes: 
+** Add CON
+** Choose one from AWE, CHA, CON, DEX, or INT.
+* Peripherals: 
+** Choose from Fortify, Intruder Detection, Anti-Anti-Detection Detector, or Weapon Identification.
+** Two Defensive Peripherals
 * To read the complete owner's manual, jump to xref:robots:series_combot.adoc#_defensive_combot[Defensive Combot,window=_blank].
 
-:art: ex_steaminate.png
-:width: 300px
-:snark: X-steaminate! X-steaminate!
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Cylindrical robot with rounded top floating on stream cloud.
-
-include::ROOT:partial$articulate.adoc[]
-
-=== Combot Light offensive
-* Light offensive combots are attack drones.
-They have many small arms weapons.
+=== Combot Light Offensive
+Light offensive combots are attack drones.
+They have many melee weapons.
 Their deployment is for cities or other close-quarter environments.
 Light combots are tactical machines and are not considered expendable. 
+
 * Size: Large
-* Attributes: CON. Choose from CON, DEX, or INT.
-* Vocations: Mercenary or Spie only.
-* Peripherals: None.
-* Defensive: One.
-* Offensive: One on two.
+* Attributes: 
+** Add CON. 
+** Choose from CON, DEX, or INT.
+* Peripherals:
+** One Defensive Peripheral
+** One Offensive Peripheral Table Two.
 * To read the complete owner's manual, jump to xref:robots:series_combot.adoc#_light_offensive_combot[Light Combot,window=_blank].
 
-=== Combot Heavy offensive
-* The heavy offensive combot is the beast of the robot world.
+=== Combot Heavy Offensive
+The heavy offensive combot is the beast of the robot world.
 Their deployment is for softening, destroying and punching through enemy targets.
 The heavy offensive combot is physically heavy and armed heavy.
 Small arms tend to be higher powered.
 The heavy combot will sport some heavy weapons like a bomb, artillery or missile.
+
 * Size: Gigantic
-* Attributes: CON, CON, DEX, STR. Choose from two from CON, DEX, INT, STR
-* Vocations: None.
-* Peripherals: None.
-* Defensive: Two.
-* Offensive: One on each attack table. Maximum weapon power.
+* Attributes: 
+** Add CON, CON, DEX, STR
+** Choose two from CON, DEX, INT, STR
+* Peripherals:
+** Two Defensive Peripherals
+** One Offensive Peripheral Table One 
+** One Offensive Peripheral Table Two
+** One Offensive Peripheral Table Three
+** One Offensive Peripheral Table Four
 * To read the complete owner's manual, jump to xref:robots:series_combot.adoc#_heavy_offensive_combot[Heavy Combot,window=_blank].
 
+// todo revisit the combot peripheral applications
+
 === Datalyzer
-* Datalyzers used to be called analog monitors. 
+Datalyzers used to be called analog monitors. 
 Datalyzers are tin-can thinkers stuffed with artificial Intelligence. 
 At the core of their Intelligence is a semi-organic, electronically enhanced computing unit. 
 The organic matter and intertwined algos cause them to be emotional.
 Datalyzers can have an actual psionic mutation woven into their semi-organic brain. 
+
 * Size: Small
-* Attributes: INT INT. Choose from AWE, INT.
-* Vocations: Nothing only.
-* Peripherals: One plus one non-defective Psionic Mutation.
-* Defensive: One.
-* Offensive: None.
+* Attributes: 
+** Add INT and INT
+** Choose one from AWE, INT.
+* Peripherals: 
+** One Peripheral Basic 
+** One non-defective Psionic Mutation.
+** One Defensive Peripheral (scaled to size)
 * To read the complete owner's manual jump to xref:robots:series_datalyzer.adoc[Datalyzer,window=_blank].
 
 === Exploration eXtraplanetary
-* Exploration robots are fabricated to map, search, explore, catalogue, and record everything. 
+Exploration robots are fabricated to map, search, explore, catalogue, and record everything. 
 Exploration robots often go by the nickname exobots or exbots.
 Extraplanetary exobots explore new and unknown worlds.
+
 * Size: Medium
-* Attributes: CON. Choose from DEX or INT.
-* Vocations: Biologist or Nomad.
-* Peripherals: One random roll. Exatmo Hardened. Choose from Atmospheric Analysis, Long Range Communication, Mineral Identification, Photography (all spectrum), Poison Detection, Radiation Detection, Comprehend languages, Identify Intelligence, Sample Collection or Map terrain
-* Defensive: One.
-* Offensive: None.
+* Attributes: 
+** Add CON. 
+** Choose one from DEX or INT.
+* Peripherals:
+** Exatmo Hardened
+** Choose from Long Range Communication, Photography (all spectrum), Language Comprehension, or Identify Intelligence 
+** Choose from Atmospheric Analysis, Poison Detection, Radiation Detection, Mineral Identification,Sample Collection or Map terrain
+** One Defensive Peripheral
 * To read the complete owner's manual, jump to xref:robots:series_exploration.adoc#_extra_planetary_exploration_robot[Exatmo Explorations,window=_blank].
 
 === Exploration Planetary
-* Exploration robots are fabricated to map, search, explore, catalogue, and record everything. 
+Exploration robots are fabricated to map, search, explore, catalogue, and record everything. 
 Exploration robots often go by the nickname exobots or exbots.
 Planetary exploration robots work within a single atmosphere of a single planet. 
 They are used to find minerals, observe terrain, record weather and take photographs.
+
 * Size: Medium
 * Attributes: Choose from CON or INT.
-* Vocations: Biologist, Nomad or Nothing.
-* Peripherals: One. Choose two from Atmospheric Analysis, Long Range Communication, Mineral Identification, Photography (all spectrum), Sample Collection, Poison Detection, or Radiation Detection. 
-* Defensive: None.
-* Offensive: None.
+* Peripherals:
+** Choose two from Atmospheric Analysis, Long Range Communication, Mineral Identification, Photography (all spectrum), Sample Collection, Poison Detection, or Radiation Detection. 
+** One Peripheral, Basic
 * To read the complete owner's manual, jump to xref:robots:series_exploration.adoc#_planetary_exploration_robot[Planetary Explorations,window=_blank].
 
 === Hobbot
-* Hobbots are hobbyist robots put together by enthusiastic amateur roboticists.
+Hobbots are hobbyist robots put together by enthusiastic amateur roboticists.
 Hobbots are for companionship, fun or some actual purpose.
 Hobbots are the most easily modified of all the robots.
 They also come with a plethora of Peripherals built-in.
 Hobbots have an unusual degree of uniqueness.
 Like snowflakes, no two hobbots are identical. 
+
 * Size: Choose from Tiny or Small
-* Attributes: Choose from INT or DEX.
-* Vocations: Nothing only.
-* Peripherals: Four.
-* Defensive: Two.
-* Offensive: One.
+* Attributes: 
+** Add Adaptability 
+** Choose one from INT or DEX.
+* Peripherals: 
+** Two Peripherals, Basic
+** Two Peripherals, Fancy
+** Two Defensive Peripherals.
+** One Offensive Peripheral, Table One.
 * To read the complete owner's manual jump to xref:robots:series_hobbot.adoc[Hobbot,window=_blank].
 
 === Industrial Builder
-* Builder robots are mobile assembly machines. 
+Builder robots are mobile assembly machines. 
 A builder robot is usually not part of the design process. 
 Design usually requires input from a mechanic. 
 Once programmed, the builder robot gets right to it. 
-The builder will source supplies and create widgets until out of supplies. In austere environments, it can take a long time to acquire construction materials
+The builder will source supplies and create widgets until out of supplies. In austere environments, it can take a long time to acquire construction materials.
+
 * Size: Medium
-* Attributes: STR. Choose from DEX or INT.
-* Vocations: Nothing only.
-* Peripherals: Two plus Mechano-linguistics (understand mechanics).
-* Defensive: None.
-* Offensive: One.
+* Attributes: 
+** Add STR
+** Choose one from DEX or INT.
+* Peripherals: 
+** Lingua Mechanica, can speak with mechanics
+Two plus Mechanico-linguistics (understand mechanics).
+** Two Peripherals, BasicDefensive: None.
+** One Offensive Peripheral, Table One
 * To read the complete owner's manual jump to xref:robots:series_industrial.adoc#_industrial_builder_robot[Builder,window=_blank].
 
 === Industrial Lifting
-* Lifting robots are wandering cargo hoists from warehouses or department stores.
+Lifting robots are wandering cargo hoists from warehouses or department stores.
+
 * Size: Large
-* Attributes: STR. Choose from DEX or STR.
-* Vocations: Nothing only.
-* Peripherals: One plus two lifting articulations.
-* Defensive: None.
-* Offensive: None.
+* Attributes: 
+** STR
+** Choose one from DEX or STR.
+* Peripherals: 
+** One lifting articulation
+** Two Peripheral, Basic
 * To read the complete owner's manual jump to xref:robots:series_industrial.adoc#_industrial_lifter_robot[Lifter,window=_blank].
 
 === Industrial Moving
-* Mover robots are intelligent trucks. 
+Mover robots are intelligent trucks. 
 This robot can read maps and understand even the worst directions. 
 An industrial mover robot can always find its 'way' between waypoints (on the same planet).
+
 * Size: Gigantic
-* Attributes: STR twice. Choose from DEX, INT or STR.
-* Vocations: Nomad or Nothing.
-* Peripherals: None. Self-loading and navigation
-* Defensive: None.
-* Offensive: None.
+* Attributes: 
+** Add STR and STR
+** Choose one from DEX, INT or STR
+* Peripherals: 
+** Self-loading and Navigation
 * To read the complete owner's manual jump to xref:robots:series_industrial.adoc#_industrial_mover_robot[Mover,window=_blank].
 
 === Janitorial Commercial
-* Janitorial robots clean up. 
+Janitorial robots clean up. 
 Their goal is to decrease the entropy of the universe. 
 Janitorial robots have vacuums, sweepers, cleaners, plungers etc.
+
 * Size: Medium.
-* Attributes: CON.
-* Vocations: Any. Not knite.
-* Peripherals: One. Cleaning tools.
-* Defensive: None.
-* Offensive: None.
+* Attributes: Add CON
+* Peripherals:
+** Commercial Cleaning tools.
+** One Peripheral, Basic
 * To read the complete owner's manual, jump to xref:robots:series_janitorial.adoc#_commercial_janitorial_robot[Commercial Janitor,window=_blank].
 
 === Janitorial Domestic
-* Janitorial robots clean up. 
+Janitorial robots clean up. 
 Their goal is to decrease the entropy of the universe. 
 Janitorial robots have vacuums, sweepers, cleaners, plungers etc.
+
 * Size: Small.
-* Attributes: INT or DEX
-* Vocations: Any. Not knite.
-* Peripherals: One. Cleaning tools.
-* Defensive: None.
-* Offensive: None.
+* Attributes: Choose one of INT or DEX
+** Domestic Cleaning tools.
+** One Peripheral, Basic
 * To read the complete owner's manual, jump to xref:robots:series_janitorial.adoc#_domestic_janitorial_robot[Domestic Janitor,window=_blank].
 
 === Maintenance
-* A maintenance robot is a mechanic in a drum. 
+A maintenance robot is a mechanic in a drum. 
 This robot automatically gets a mechanic vocation. 
 Maint robots are mostly interested in maintaining, repairing and improving inorganic objects.
+
 * Size: Small.
-* Attributes: INT. Choose from INT or DEX.
-* Vocations: Mechanic only.
-* Peripherals: Two plus repair tools.
-* Defensive: None.
-* Offensive: None.
+* Attributes: \
+** Add INT
+** Choose one from INT or DEX.
+* Peripherals: 
+** Repair tools.
+** Two Peripheral, Basic
 * To read the complete owner's manual jump to xref:robots:series_maintenance.adoc[Maintenance,window=_blank].
 
 === Policing Civil
-* Civilian policing robots are constables on patrol in a drum. 
+Civilian policing robots are constables on patrol in a drum. 
 Civils can walk the beat, chase criminals, guard banks, issue tickets, etc. 
 By sheer chance, this bot's ID is PC. 
 This robot is the primary interface between the 'people' and law enforcement. 
+
 * Size: Choose from Small or Medium.
-* Attributes: CHA. Choose from INT or DEX.
-* Vocations: Any. Except for Knite.
-* Peripherals: None. Grapple. Choose from Commanding Voice or Disarm
-* Defensive: None.
-* Offensive: Non-Lethal Weapon.
+* Attributes: 
+** Add CHA 
+** Choose one from INT or DEX.
+* Peripherals:
+** Grapple 
+** Choose one from Commanding Voice, Disarm
+** One Offensive Peripheral, Table Two -- Roll until Non-Lethal Peripheral acquired.
 * To read the complete owner's manual jump to xref:robots:series_policing.adoc#_civilian_policing_robot[Civilian,window=_blank].
 
 === Policing Riot
-* Riobots are large crowd control operatives. 
+Riobots are large crowd control operatives. 
 They often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc. 
 Their goal is to contain and restrain unruly hordes of anthros. 
 They are essentially a police van with added crowd suppression.
+
 * Size: Gigantic
-* Attributes: CON and STR.
-* Vocations: None.
-* Peripherals: One. Choose from Tear Gas, Grav Disruptor, Weapon Malfunction, or Battery Drain
-* Defensive: One. Choose from Stun Ray, Sleep Beam, Force Beam, or Water Cannon
-* Offensive: None.
+* Attributes: Add CON and STR.
+* Peripherals: 
+** Choose from Tear Gas, Grav Disruptor, Weapon Malfunction, or Battery Drain
+** Choose from Stun Ray, Sleep Beam, Force Beam, or Water Cannon
+** One Defensive Peripheral -- Roll until Non-Lethal Peripheral acquired.
 * To read the complete owner's manual jump to xref:robots:series_policing.adoc#_riobot_policing_robot[Riobot,window=_blank].
 
 === Policing Detective
-* A detective policing robot is a criminologist in a drum. 
+A detective policing robot is a criminologist in a drum. 
 A detective can operate as a chief, manager, auditor, or technologist. 
 The detective has no grapple or detainment methods. 
 A detective depends on civils to make arrests and do the dirty work. 
 Detective policing robots focus on the apprehension of criminals. 
+
 * Size: Choose from Small or Medium.
-* Attributes: AWE, INT. Choose from AWE, DEX or INT.
-* Vocations: Any. Except for Knite.
-* Peripherals: None. Grapple.
-* Defensive: None.
-* Offensive: None.
+* Attributes: 
+** Add AWE, INT. 
+** Choose one from AWE, DEX or INT.
+* Peripherals: Grapple.
 * To read the complete owner's manual jump to xref:robots:series_policing.adoc#_detective_policing_robot[Detective,window=_blank].
 
 === Rescue Containment
-* Containment Rescue robots are like janitor robots for toxic environments. 
+Containment Rescue robots are like janitor robots for toxic environments. 
 Toxic environments include fire, chemicals, radiation, bacteriologic, nanologic, or infestations etc. 
 They contain and remove toxic or inconvenient elements.
 The referee and players determine what an appropriate toxic danger is. 
+
 * Size: Gigantic.
-* Attributes: CON. Choose from CON or STR
-* Vocations: None.
-* Peripherals: One. Exatmo Hardened. Choose from Detect Toxins, Cordoning, Flame Suppression, Toxin Envelopment, or Toxin Storage.
-* Defensive: Two.
-* Offensive: One. Web Gun Effect.
+* Attributes: 
+** Add CON
+** Choose one from CON or STR
+* Peripherals:
+** Exatmo Hardened
+** Web Gun Effect
+** Choose one from Detect Toxins, Cordoning, Flame Suppression, Toxin Envelopment, or Toxin Storage.
+** One Peripheral, Basic
+** Two Defensive Peripherals
 * To read the complete owner's manual jump to xref:robots:series_rescue.adoc#_containment_rescue_robot[Containment,window=_blank].
 
 === Rescue Retrieval
-* Retrieval robots remove organic personas, their bodies or their stuff from dangerous situations. 
+Retrieval robots remove organic personas, their bodies or their stuff from dangerous situations. 
 Rescue retrieval includes complicated extrication from wreckage or rubble. 
 The dangerous situations do not include combat. 
 The dangerous enviros are fires, landslides, radioactive areas, outer space, etc. 
 They are capable of performing their duties underwater, in zero-gravity or a vacuum.
+
 * Size: Large
-* Attributes: CON. Choose from CON, DEX or STR.
-* Vocations: None.
-* Peripherals: One. Exatmo Hardened. Choose from Alerting and Cordoning, Extrication, or Stasis Chambers
-* Defensive: Two.
-* Offensive: One.
+* Attributes: 
+** Add CON
+** Choose one from CON, DEX or STR.
+* Peripherals: 
+** Exatmo Hardened
+** Choose one from Alerting and Cordoning, Extrication, or Stasis Chambers
+** Two Defensive Peripherals, Basic
+** One Offensive Peripheral, Table One.
 * To read the complete owner's manual jump to xref:robots:series_rescue.adoc#_retrieval_rescue_robot[Retrieval,window=_blank].
 
-:art: avarian_clever_phil.png
-:width: 250px
-:snark: Avarian relations bot
-:artist: M. Dean
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a humanoid avian robot wearing a fedora.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Social
-* Social robots look after the social needs of organic personas. 
+Social robots look after the social needs of organic personas. 
 They are also called robutlers, relation robots, or protocol droids. 
 Social robots roughly resemble their fabricator type. 
 Soc robots are obviously inorganic, and the resemblance is purely for aesthetics. 
+
 * Size: Medium.
-* Attributes: CHA. Choose from CHA, DEX or INT.
-* Vocations: Biologist, Mechanic, Nomad, Spie, or Vet.
-* Peripherals: One. Choose from Languages, Cultures or Butler Skills.
-* Defensive: None.
-* Offensive: None.
+* Attributes: 
+** Add CHA
+** Choose one from CHA, DEX or INT.
+* Peripherals: 
+** Choose one from Languages, Cultures or Butlering.
 * To read the complete owner's manual jump to xref:robots:series_social.adoc[Social,window=_blank].
 
 === Transport Inatmo
-* Transport robots are the truckers, pilots and chauffeurs from the robot world.
+Transport robots are the truckers, pilots and chauffeurs from the robot world.
 They make every vehicle a self-driving vehicle
 Their goal is to get passengers and cargo safely to the chosen destination.
 Transbots can drive combat vehicles, but they are not versed in vehicle combat.
 Inatmo transport robots can pilot any planetside vehicle. 
 The list includes trains, planes, cars, boats, or submarines. 
 The list does not include non-powered vehicles like bicycles or skateboards.
+
 * Size: Small
-* Attributes: Choose from DEX or INT.
-* Vocations: Any, except Knite.
-* Peripherals: One plus Driving and Navigation.
-* Defensive: None.
-* Offensive: None.
+* Attributes: Choose one from DEX or INT.
+* Peripherals: 
+** Driving and Navigation
+** One Peripheral, Basic
 * To read the complete owner's manual jump to xref:robots:series_transport.adoc#_inatmo_transport_robot[Inatmo Transport,window=_blank].
 
 === Transport Exatmo
-* Transport robots are the truckers, pilots and chauffeurs from the robot world.
+Transport robots are the truckers, pilots and chauffeurs from the robot world.
 Exatmo transport robots can pilot and navigate space vehicles. 
 The list includes spaceships, starships, space cruisers, jump ships, etc.
 They are no adept at driving inatmo, planetside vehicles.
+
 * Size: Small.
-* Attributes: DEX, INT. 
-* Vocations: Any, except knite.
-* Peripherals: One plus Piloting and Astrogation.
-* Defensive: None.
-* Offensive: None.
+* Attributes: Add DEX and INT. 
+* Peripherals: 
+** Piloting and Astrogation
+** One Peripheral, Basic
 * To read the complete owner's manual jump to xref:robots:series_transport.adoc#_exatmo_transport_robot[Exatmo Transport,window=_blank].
 
 === Veterinarian Diagnostic
-* Veterinarian robots are vets in a drum.
+Veterinarian robots are vets in a drum.
 They are also called medibots or vets.
 This robot type values life and well-being beyond all.
 It is challenging for a player to get their vet robot persona to cause harm.
 This dedication to life is not limited to their fabricator type but all organic life.
 This robot automatically gets a mechanic vocation but focuses on diagnosis.
+
 * Size: Medium.
-* Attributes: CHA, INT. Choose from INT or DEX.
-* Vocations: Veterinarian only.
-* Peripherals: One.
-* Defensive: None.
-* Offensive: None ever.
+* Attributes:
+** Add CHA, INT
+** Choose one from INT or DEX.
+* Peripherals: 
+** No harming with peripherals
+** Lingua Veterinaria (can speak with Vets)
 * To read the complete owner's manual jump to xref:robots:series_veterinarian.adoc#_diagnostic_vet_robot[Diagnostics,window=_blank].
 
 === Veterinarian Interventional
@@ -513,189 +519,57 @@ This dedication to life is not limited to their fabricator type but all organic 
 This robot automatically gets a mechanic vocation but focuses on interventions.
 They can perform sciency fiction surgeries.
 They work best under the guidance of their diagnostics brethren or a veterinarian.
+
 * Size: Medium.
-* Attributes: CHA, DEX. Choose from INT or DEX.
-* Vocations: Veterinarian only.
-* Peripherals: One.
-* Defensive: None.
-* Offensive: None ever.
+* Attributes: 
+** Add CHA, DEX 
+** Choose one from INT or DEX.
+* Peripherals: 
+** No harming with peripherals
+** Lingua Veterinaria (can speak with Vets)
+** Veterinarian tool kit
+** One Peripheral, Basic
 * To read the complete owner's manual jump to xref:robots:series_veterinarian.adoc#_interventional_vet_robot[Interventional,window=_blank].
 
-== Robot Mutations
-Robots can get only get mutations if they have a peripheral or programming that functions like a mutation.
-
-== Abilities and Skills
-Robot abilities are hardware-based and can be called peripherals. 
-Abilities are built into the robot and represent baked in hardware and devices.
-
+== Peripherals
+Robot abilities are hardware-based and can also be called peripherals. 
 Robot skills are software-based and can be called programming.
-Skills are maneuvers programmed into the robot.
-Robotic progammes can be erased or possibly transferred.
+Everything a robot can do is lumped into peripherals. 
+Some series and models get specific peripherals automatically.
+The relevant peripheral tables are included here for convenience.
+Players only get rolls on those tables listed under peripherals.
 
-== Robot Abilities
-Robot abilities are also called peripherals. 
-Peripherals represent baked-in hardware that is part of the robot.
-Peripherals require mechanical devices integrated with the robot.
-Only direct damage to the robot's peripheral system can harm a robot's ability.
-
-=== Peripheral Systems
-Peripheral systems are two tables that endow the robot with additional devices and programmes. 
-The peripherals parameter has several options.
-
-None::
-No roll on the Peripheral Systems Table.
-Usually, it is security reasons that keep peripherals off a robot.
-
-One:: 
-One roll on the Primary Peripherals Table.
-
-Two:: 
-Two rolls on the Primary Peripherals Table.
-
-Specific Peripherals::
-Some robots automatically get specific peripherals in addition to or instead of a roll on the Peripherals Table.
+=== Peripherals, Basic
 
 include::robots:partial$peripherals_basic_list.adoc[]
 
+=== Peripherals, Fancy
+
 include::robots:partial$peripherals_fancy_list.adoc[]
-=== Defensive Systems
-Defensive systems protect the robot from harm.
-These are baked-in devices or programmes that protect the robot.
 
-None::
-No roll on the Defensive Systems Table.
-
-One:: 
-One roll on the Defensive Systems Table.
-
-Two:: 
-Two rolls on the Defensive Systems Table.
-
-Specific Defences::
-Some robots automatically get specific defences in addition to or instead of a roll on the Defensive Systems Table.
+=== Defensive Systems Peripherals
 
 include::robots:partial$peripherals_defensive.adoc[]
 
-=== Offensive Peripherals
-Offensive systems are baked-in devices or peripherals that the robot uses to inflict damage on targets.
-The offensive system could be a bespoke weapon or misused peripheral.
-All robots can ram themselves into targets to inflict damage.
+=== Offensive Systems Peripherals
 
-None::
-No roll on the Offensive Peripherals Tables.
+=== Table One
 
-None Ever::
-None ever is a special case for robots that can never use offensive weapons.
+include::robots:partial$peripherals_offensive_1.adoc[]
 
-One:: 
-One roll on Attack Table One.
-
-Two:: 
-Two rolls on Attack Table One.
-
-One on X::
-One roll on the specified attack table.
-For example, One on Two would be one roll on Attack Table Two.
-
-Specific Peripherals::
-Some robots automatically get specific attacks in addition to or instead of a roll on the attack tables.
-
-include::robots:partial$peripherals_offensive_strike.adoc[]
+=== Table Two
 
 include::robots:partial$peripherals_offensive_2.adoc[]
 
+=== Table Three
+
 include::robots:partial$peripherals_offensive_3.adoc[]
+
+=== Table Four
 
 include::robots:partial$peripherals_offensive_4.adoc[]
 
-== Robot Vocation
-A vocation is a calling or innate skill set possessed by the persona.
-If the referee's milieu indicates, a vocation could mean training at a school, institute or guild.
-The player may choose from any of the listed vocations or pick one randomly.
-Allowing the dice to choose the persona's vocation allows for attributes and abilities to be awarded.
-For example, choosing a vet does not allow the persona to add CHA or choose one ability.
-A randomly chosen spie would get the DEX attribute and be able to choose one ability.
-
-include::ROOT:partial$CH26_Table_Role_Vocations.adoc[]
-
-=== Vocation Attributes
-Each vocation is associated with an attribute.
-If the player generates her vocation randomly, her persona gets the designated attribute.
-If the player randomly rolls a mercenary, her persona gets the vocation attribute STR added to her attribute list. 
-If the player chooses a mercenary, her persona does not get the vocation attribute STR added to her attribute list. 
-
-=== Vocation Abilities
-Many vocations are associated with baked-in abilities.
-Abilities are not skills.
-Any persona can acquire a skill.
-Abilities are part and parcel of the vocation.
-A persona cannot learn the vet Quick Fix ability. 
-If the player generates her persona vocation randomly, she can choose one vocation ability.
-
-Biologist::
-The biologist dedicates herself to studying the organic world.
-These studies range from its denizens to its cultures.
-The player can add AWE to her persona's attributes if she randomly chose this vocation.
-Every biologist gets two xref:vocations:biologist.adoc#biologist_skills[biologist skills,window=_blank].
-
-Knite::
-The knite dedicates herself to promoting order, or chaos, by connecting the Physical and Think Spaces. 
-A player cannot choose or randomly generate the vocation knite.
-Before a persona can become a knite, she must first earn her MND attribute.
-A persona can earn the Knite vocation by completing a Knite qualification storyline laid out by the players.
-The players will decide if the persona has earned the Knite vocation.
-For more detail about knites jump to xref:vocations:knite.adoc[knites,window=_blank].
-
-Mechanic::
-The mechanic dedicates herself to studying the inorganic world.
-These studies range from robots to scientific systems.
-The player can add INT to her persona's attributes if she randomly chose this vocation. 
-The player can add a xref:vocations:mechanic.adoc#_mechanic_abilities[mechanic ability,window=_blank] if she randomly chose this vocation. 
-Every mechanic gets two xref:vocations:mechanic.adoc#_mechanic_skills[mechanic skills,window=_blank].
-
-Mercenary::
-The mercenary works hard to promoting order, or change, via violence.
-Mercenaries are not psychotic, violent or cruel.
-They are skilled in the art of war and weapons.
-The player can add STR to her persona's attributes if she randomly chose this vocation. 
-The player can add a xref:vocations:mercenary.adoc#_mercenary_abilities[mercenary ability,window=_blank] if she randomly chose this vocation. 
-Every mercenary gets two xref:vocations:mercenary.adoc#_mercenary_skills[mercenary skills,window=_blank].
-
-Nomad::
-The nomad prides herself on surviving and integrating into her surrounding world.
-These survival skills include all aspects of survival, travel and shelter in all terrains.
-The player can add CON to her persona's attributes if she randomly chose this vocation. 
-The player can add a xref:vocations:nomad.adoc#_nomadic_abilities[nomad ability,window=_blank] if she randomly chose this vocation. 
-Every nomad gets two xref:vocations:nomad.adoc#_nomadic_biomes[nomad biomes,window=_blank].
-
-Nothing::
-The nothing vocation obsesses with all things mundane.
-The mundane includes money, appearance and social standing.
-The vast majority of the civilians of mundane terra are nothings.
-Nothings have no combat skills and no useful maneuvers.
-Nothings lack abilities or skills, but they do have a xref:vocations:nothing.adoc#_career[career,window=_blank] and some xref:vocations:nothing.adoc#_nothing_wealth[money,window=_blank].
-
-Spie::
-The spie is devoted to all things deceptive, sneaky and underhanded.
-The realm of the spie includes disguises, sneaking and assassination.
-The player can add CON to her persona's attributes if she randomly chose this vocation. 
-The player can add a xref:vocations:spie.adoc#_spie_abilities[spie ability,window=_blank] if she randomly chose this vocation. 
-Every spie gets two xref:vocations:spie.adoc#_spie_tricks[spie tricks,window=_blank].
-
-Veterinarian::
-The veterinarian is devoted to repairing and improving all organic beings.
-This practice includes diagnosis, surgery and medications.
-The player can add a xref:vocations:veterinarian.adoc#_vet_abilities[vet ability,window=_blank] if she randomly chose this vocation. 
-Every vet gets two xref:vocations:veterinarian.adoc#_vet_skills[vet skills,window=_blank].
-
-== Robot Skills
-Robot skills are programmes that don't require hardware to work.
-Skills are learnable programmes.
-They are not baked-in like a peripheral.
-A robot could download the program for accounting, but she could not download a flame thrower.
-Robots can lose programmes in the event of cataclysmic failures. 
-
-== Robot Artifacts
+== Artifacts
 Personas get a TOYs roll. 
 It is entirely random, and the player only makes one roll. 
 The result can range from random junque to starcruiser. 
@@ -703,16 +577,16 @@ Robots are not limited to using an artifact by their shape or type.
 This robotic artifact is a bespoke piece of equipment that integrates with the persona.
 To generate a toy for the persona jump to xref:hardware:a_introduction.adoc#_toy_type[Hardware,window=_blank].
 
-== Robot Name
+== Name
 The player should name her robot persona at the end of its fabrication.
 The robot name should include a persona name, a model number and a fabricator. 
 For more detail than you ever wanted jump to xref:robots:moniker.adoc[robot name,window=_blank].
 
-== Robot Appearance
+== Appearance
 The player should decant her robot's description down to its most prominent features.
 For example, the player picks the essential defining parts of her robot: a matte black sphere sitting on wide treads.
 
-== Robot History
+== History
 Keep track of the fun.
 Entirely optional.
 
