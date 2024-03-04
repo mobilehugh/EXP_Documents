@@ -81,6 +81,11 @@ s|Outcome
 [width="75%",cols="^,<", stripes="even"]
 |===
 2+<|you are seeing this because the struggle is real.
+2+<|trying to build a green, yellow and red outcome table
+
+
+|Left Column
+|Right Column#
 
 s|+10
 |Immaculate Success
@@ -88,25 +93,27 @@ s|+10
 s|0
 s|Detent
 
-| [role="green-row"] |
-s|-10
-|Cataclysmic Failure
+s|-10 
+s|Cataclysmic Failure
 
-|+10 |Immaculate Success
+2+<|working with roles.
 
-|0 |Detent
+|+10 
+|Immaculate [line-through]#Success#
 
-|-10 |Cataclysmic Failure
+|0 
+|Detent
 
-| [role="green-row"] | Green row | Content
+|-10 
+m|Cataclysmic Failure
 
-a| pass:[<tr class="green-row"><td>Green row content</td></tr>]
+2+<|working with pass through.
+
+a| pass:[<tr class="green-row"><td>Left</td><td>Right</td></tr>]
 a| pass:[<tr class="red-row"><td>Red row content</td></tr>]
 
-| pass:[<tr class="green-row"><td>Green row content</td></tr>]
-| pass:[<tr class="red-row"><td>Red row content</td></tr>]
 
-|Number
-s|Outcome
+|Left Column
+|Right Column
 
 |===
