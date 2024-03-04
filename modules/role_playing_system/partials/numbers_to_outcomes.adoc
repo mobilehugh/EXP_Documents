@@ -85,7 +85,7 @@ s|Outcome
 
 
 |Left Column
-|Right Column#
+|Right Column
 
 s|+10
 |Immaculate Success
@@ -102,15 +102,15 @@ s|Cataclysmic Failure
 |Immaculate [line-through]#Success#
 
 |0 
-|Detent
+|[yellow-row]#Detent#
 
 |-10 
 m|Cataclysmic Failure
 
 2+<|working with pass through.
 
-a| pass:[<tr class="green-row"><td>Left</td><td>Right</td></tr>]
-a| pass:[<tr class="red-row"><td>Red row content</td></tr>]
+a| pass:[<tr class="green-row"><td class="green-row">Left</td><td>Right</td></tr>]
+a| pass:[<tr><td>Red row content</td><td class="red-row">blafrgh!</td></tr>]
 
 
 |Left Column
