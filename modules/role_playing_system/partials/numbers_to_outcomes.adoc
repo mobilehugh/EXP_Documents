@@ -1,14 +1,19 @@
-// Four Dee Two Persona Result
-.*4D2 Outcome from Number Table*
+.*4D2 Outcome Table*
 [width="75%",cols="^,<", stripes="even"]
 |===
-2+<|4D2 Roll -> Number -> Outcomes.
+2+<|4D2 Roll = Number -> Outcomes.
 
 s|Number
 s|Outcome
 
+| [.background-red] Content 1 | Content 2
+| [.background-blue] Content 3 | Content 4
+
+| .red-row[.background-red] | Content 1 | Content 2
+| .blue-row[.background-blue] | Content 3 | Content 4
+
 s|+10
-|Immaculate Success
+|Immaculate Success{background-color:#00800}
 
 s|+9
 |Wondrous Success
@@ -19,6 +24,7 @@ s|+8
 s|+7
 |Majestic Success
 
+[.green-row]
 s|+6
 |Masterful Success
 
@@ -38,17 +44,19 @@ s|+1
 |Barely Successful
 
 s|0
-s|Detent
+s|Detent{background-color:#ffff00}
 
 s|-1
 |Minor Failure
 
+[.red-row]
 s|-2
 |Clear Failure
 
 s|-3
 |Major Failure
 
+[.red-row]
 s|-4
 |Severe Failure
 
@@ -68,9 +76,11 @@ s|-9
 |Calamitous Failure
 
 s|-10
-|Cataclysmic Failure
+|Cataclysmic Failure{background-color:#ff0000}
 
 s|Number
 s|Outcome
+2+<|2d6 - 2d6 = Number (+10 to -10) -> Outcome.
+
 |===
 
