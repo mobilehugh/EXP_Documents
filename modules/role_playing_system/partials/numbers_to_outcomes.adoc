@@ -7,7 +7,7 @@ s|Number
 s|Outcome
 
 s|+10
-|Immaculate Success
+|[green-row]#Immaculate Success#
 
 s|+9
 |Wondrous Success
@@ -37,7 +37,7 @@ s|+1
 |Barely Successful
 
 s|0
-s|Detent
+|[yellow-row]#Detent#
 
 s|-1
 |Minor Failure
@@ -67,53 +67,10 @@ s|-9
 |Calamitous Failure
 
 s|-10
-|Cataclysmic Failure
+|[red-row]#Cataclysmic Failure#
 
 s|Number
 s|Outcome
 2+<|2d6 - 2d6 = Number (+10 to -10) -> Outcome.
-
-|===
-
-
-
-.testing table
-[width="75%",cols="^,<", stripes="even"]
-|===
-2+<|you are seeing this because the struggle is real.
-2+<|trying to build a green, yellow and red outcome table
-
-
-|Left Column
-|Right Column
-
-s|+10
-|Immaculate Success
-
-s|0
-s|Detent
-
-s|-10 
-s|Cataclysmic Failure
-
-2+<|working with roles.
-
-|+10 
-|Immaculate [line-through]#Success#
-
-|0 
-|[yellow-row]#Detent#
-
-|-10 
-m|Cataclysmic Failure
-
-2+<|working with pass through.
-
-a| pass:[<tr class="green-row"><td class="green-row">Left</td><td>Right</td></tr>]
-a| pass:[<tr><td>Red row content</td><td class="red-row">blafrgh!</td></tr>]
-
-
-|Left Column
-|Right Column
 
 |===
