@@ -13,16 +13,23 @@ For example, a village in a small ruin may only have one set of plastix to sell.
 The scarcity and importance of an item could impact its cost.
 Relative to an artifact, equivalent mundane equipment is valueless.
 
-== Mundane Equipment 
+=== Mundane Equipment 
 Mundane items have a low-tech, underdeveloped, medieval nature. 
 Mundane equipment construction consists of animal parts, poorly smelted metals, shoddy plastics and untreated woods.
+Everything listed here is mundane equipment.
+Most everything listed here can be acquired on mundane terra. 
+Hence mundane. 
 
-== Better Equipment
+All the items on the equipment tables are of the mundane variety.
+Each item has a wate in kilograms and a cost in eps.
+Where possible, the list includes an alternative for the item.
+For example, a wrench could replace a hammer.
+
+=== Better Equipment
 Better mundane equipment is composed of better materials than mundane equipment. 
 Depending on the campaign's milieu, the composition of better equipment could include alloys, polymers, and other synthetics.
 Better equipment functions no better, but it is lighter and more expensive.
 
-.Better Equipment
 * cost times 3
 * wate times 1/2
 * No change in function
@@ -34,12 +41,11 @@ The Defence Rating bonus remains the same at +125.
 Better mundane equipment is not to be confused with artifacts generated in the toy system.
 Better mundane equipment is still mundane equipment and is valueless besides artifacts and toys.
 
-== Bespoke Equipment
+=== Bespoke Equipment
 Bespoke mundane equipment is composed of either mundane or better materials and has a specialized design. 
 Bespoke equipment could include armour for an alien, a fancy-looking sword, or other specialization.
 Bespoke equipment functions no Bespoke, but it is lighter and more expensive.
 
-.Bespoke Equipment
 * Cost times 6
 * Wate unchanged
 * Function unchanged
@@ -50,48 +56,44 @@ A bespoke better suit of the chain mail would cost 1440 eps, have a wate of 3.0 
 Bespoke mundane equipment is not to be confused with artifacts generated in the toy system.
 Bespoke mundane equipment is still mundane equipment and is valueless besides artifacts and toys.
 
-
-== Equipment Tables
-All the items on the equipment tables are of the mundane variety.
-Each item has a wate in kilograms and a cost in eps.
-Where possible, the list includes an alternative for the item.
-For example, a wrench could replace a hammer.
-
-
-=== Essential Equipment
+== Survival Equipment
 The essential equipment consists of items critical to expedition survival.
 
-include::ROOT:partial$CH24_Table_Essential_Mundane_Equipment.adoc[]
+include::hardware:partial$mundane_essentials.adoc[]
 
 === Survival Pack
 The survival pack is a time-saving list of essential equipment.
 The goal of the survival pack is to speed up persona creation.
 The survival pack costs 70 eps and has a wate of 13.5 kg.
 
-include::ROOT:partial$CH24_Table_Survival_Pack.adoc[]
+include::hardware:partial$mundane_survival_pack.adoc[]
 
-=== Non-Essential Equipment
+== Comfort Equipment
 Non-essential equipment consists of items for expedition comfort.
 
-include::ROOT:partial$CH24_Table_Non-Essential_Mundane_Equipment.adoc[]
+include::hardware:partial$mundane_none_essential.adoc[]
 
-=== Vocation Equipment
+== Vocation Equipment
 Vocation equipment is what a persona needs to carry out her vocation maneuvers.
 The vocation equipment list is mostly tongue in cheek.
 
-include::ROOT:partial$CH24_Table_Vocation_Tool_Best.adoc[]
+include::hardware:partial$vocation_tool_kits.adoc[]
 
-=== Armour
+== Armour
 Armour is anything that deflects or dissipates force from the persona's hide.
 The wate of worn armour does not increase the persona's wate allowance.
 If the persona is carrying the same armour, its wate increases her wate allowance.
 For all the gore preventing details jump to xref:roll_playing_system:CH29_Armour_Rating.adoc[Defence Rating,window=_blank].
 
-include::ROOT:partial$CH24_Table_Mundane_Body_Armour.adoc[]
+=== Body Armour
 
-include::ROOT:partial$CH24_Table_Mundane_Shielding.adoc[]
+include::hardware:partial$mundane_armour.adoc[]
 
-=== Weapons 
+=== Shielding
+
+include::hardware:partial$mundane_shielding.adoc[]
+
+== Weapons 
 The weapons included here are non-powered thrusting, striking and projectile weapons. 
 Powered weapons like guns are part of the artifact system.
 The referee must determine the cost, wate and particulars of artifact weapon equipment in advance. 
@@ -103,8 +105,18 @@ For example, using a coat rack as a small lance will work once.
 The player can only add her persona's Raw Bonus to the attack roll.
 If she wins the attack roll the coat rack will inflict 4d4 hit points in damage but be destroyed in the process.
 
-include::ROOT:partial$CH24_Table_Type_A_Weapons.adoc[]
+=== Strike Weapons
 
-include::ROOT:partial$CH24_Table_Type_B_and_C_Weapons.adoc[]
+include::hardware:partial$mundane_weapons_strike.adoc[]
 
-include::ROOT:partial$CH24_Table_Ammunition_for_Type_B_and_C_Weapons.adoc[]
+=== Fling Weapons
+
+include::hardware:partial$mundane_weapons_fling.adoc[]
+
+=== Shoot Weapons
+
+include::hardware:partial$mundane_weapons_shoot.adoc[]
+
+=== Ammunition
+
+include::hardware:partial$mundane_ammuntion.adoc[]
