@@ -1,16 +1,17 @@
 = Theatrical Combat
+:toc: macro
+:toclevels: 2
 
 [quote]
 _____
 *This failure in communication has escalated quickly.*
 _____
 
+toc::[]
+
 .*Core Rules*
-. <<_introduction,Introduction>>
-. <<_4D2_mechanic_primer,4D2 Mechanic Primer>>
-. <<_number,Number>>
-. <<_outcome,Outcome>>
-. <<_descriptor,Descriptor>>
+. <<_4D2_mechanic_refresher,4D2 Mechanic Refresher>>
+. <<_combat_descriptors,Combat Descriptors>>
 
 .*Optional Rules*
 . <<_shifts,Shifts>>
@@ -34,7 +35,6 @@ _____
 . <<_weather,Weather>>
 . <<_hit_location,Hit Location>>
 . <<_vehicle_combat,Vehicle Combat>>
-
 
 == Introduction
 The Theatrical Combat System is the cinematic and storyful sibling of the Tactical Combat Rules.
@@ -66,81 +66,20 @@ The outcomes are descriptive and require a creative description.
 
 The Role Playing System and its combat resolution tool still have dice rolls.
 The dice offer randomness and force the players into unexpected storylines. 
-The Theatrical Combat System only uses on dice mechanic.
+The Theatrical Combat System only uses the 4D2 Mechanic.
 
-== 4D2 Mechanic Primer
-4D2 is both a descriptor and a joke. 
-The 4 indicates that the mechanic uses 4 dice.
-The 4 also indicates that there are 4 steps in the process.
-The D refers to dice, and it a play on "D" in the 4d6 convention.
-The 2 reflects that the mechanic has two directions.
-The joke is that 4D2 sounds like 42.
-Fourty-two is the answer to the wrong question.
-The 4D2 Mechanic gives the answers to questions you can't understand.
-
-The 4D2 Mechanic uses four six-sided dice to guide the story in the Role Playing System.
-The 4D2 Mechanic is a bespoke decision tool for EXP's Role Playing System.
-If you are familiar with the Roll Playing System of EXP, the 4D2 replaces Attack Rolls, Task Rolls, Attribute Rolls, Saving Rolls, Sphincter Rolls and more.
+== 4D2 Mechanic Refresher
 
 .*Four steps of the 4D2 Mechanic*
-. A player rolls dice to get a  *Number*
-. That  *Number* yields an *Outcome*
-. The   *Outcome* produces a *Descriptor*
-.. The *Descriptor* comes from the players or a table.
+. A player rolls dice (2d6 - 2d6) to get a  *Number*
+. That *Number* yields an *Outcome*
+. The *Outcome* produces a *Descriptor*
+.. The *Descriptor* comes from the player or a table.
 . The *Story* is influenced by the *Descriptor*
 
 WARNING: Do not proceed with this section until mastering an understanding of the xref:role_playing_system:four_dee_two_mechanic.adoc[4D2 Mechanic,window=_blank].
 
-=== Number
-A player generates a number by rolling two pairs of competing six siders.
-The player rolls 2d6, generating a number between 2 and 12.
-The player rolls 2d6 again, generating another number between 2 and 12.
-The player subtracts the second roll from the first roll.
-The sum of these two numbers generates the *Number* of the 4D2 Mechanic.
-
-=== 4D2 Number Generation
-.Number = 2d6 - 2d6
-****
-The number is always between +10 to -10. + 
-A positive number gives a positive outcome. +
-A negative number gives a negative outcome. +
-Zero gives a neutral outcome.
-****
-
-:art: 4d2_dice.png
-:width: 250px
-:snark: (6+1) - (4+2) = +1
-:artist: HM
-:date: 2020
-:license: CC BY-SA 4.0
-:description: Two green dice and two red dice. Total score plus one.
-include::ROOT:partial$articulate.adoc[]
-
-=== Outcome
-The outcome translates the number into a colourful account of the die roll.
-The Outcome from Number Table uses the number to determine the *Outcome* from the 4D2 roll. 
-The outcome arises directly from the 4D2 roll and is untainted by shifts (aka bonuses).
-Often the outcome is enough of a description for the players to decide how things turn out.
-
-The outcome can have a direct effect on the persona.
-A persona can earn a new combat skill for very successful descriptors.
-The combat outcome differs between inorganic and organic targets. 
-
-include::role_playing_system:partial$numbers_to_outcomes.adoc[]
-
-=== Learning Skills
-If the player rolls an Immaculate or Wondrous success, her persona earns a skill in the combat maneuver she performs. 
-This skill reward precedes the adding of any shifts.
-A persona cannot earn skills based on shifted rolls. 
-Only the unshifted outcome can earn a skill.
-
-=== Skill Learning
-.Outcome = Immaculate (+10) or Wondrous (+9) success
-****
-Persona earns +1 to the combat maneuver she is performing.
-****
-
-=== Descriptor
+== Combat Descriptors
 Often the Outcome gives enough info for the players to tell the story.
 Describing an outcome is easy for Immaculate Successes and Cataclysmic Failures.
 The other 19 possible outcomes are more subtle and harder to turn into a description.
@@ -284,11 +223,26 @@ The robot has a new scratch or dent.
 If the player's 4D2 roll is negative, her persona can suffer the successes described above as failures. 
 Bonk.
 
+== Learning Skills
+If the player rolls an Immaculate or Wondrous success, her persona earns a skill of her choice. 
+The player must actually roll +10 or +9 on the actual die roll. 
+If a roll has been shifted or folded to +10 or +9 a skill is not earned. 
+
+The new skill should be related to the roll being made.
+If the persona is shooting a rifle she can add a rifle skill to her persona record.
+The next time she is shooting a rifle she can use a shift of plus one. 
+
+=== Skill Learning
+.Number = Immaculate (+10) or Wondrous (+9) success
+****
+Persona may add a skill related to the successful roll.
+****
+
 == Shifts
 Shifts are similar to bonuses or penalties.
 A shift is anything that moves the Descriptor.
 A shift only applies to the descriptor.
-A shift does not apply to an outcome.
+A shift does not change an number or an outcome.
 
 NOTE:: Players cannot use shifts to improve the chance to learn skills.
 
@@ -298,15 +252,15 @@ A Shift of 2 would move a Knockback (+2) to a Severe Stun (+4).
 Shifts are fundamental and are the only way players can gain an advantage in the Theatrical Combat System.
 
 Shifts come from the persona's attributes, abilities and skills.
-However, anything can become a shift if the players accept it.
+However, anything can become a shift if the table accepts it.
 In hand-to-hand combat, a player can use STR as a shift.
-When shooting a pistol, a Pistol skill is an obvious shift.
+When shooting a pistol, a pistol skill is an obvious shift.
 A glorious description of how the persona throws a grenade can earn a shift.
 
 === Counter Shifts
 Competing personas or situations can counter the shifts a player can use.
 For example, a persona is in a pistol fight with an opponent. 
-She has a pistol skill and a DEX Attribute.
+She has a pistol skill and a dexterity Attribute.
 She can Shift her descriptor by +2.
 If her opponent has Pistol 2, then the competing Shifts would cancel out.
 
@@ -315,37 +269,16 @@ The Theatrical Combat System is player-centric.
 The worst situation a persona can be in is to make a raw roll.
 An unshifted raw roll is scary enough for a player. 
 
-An essential referee persona should be toughened by reducing a player's success descriptor and not worsening a failure descriptor.
+An canonical referee persona should be toughened by reducing a player's success descriptor and not worsening a failure descriptor.
 A plot-important referee persona can reduce a success descriptor by two but not worsen a failure descriptor.
 A Mortal Wound (+8) wound decreases to a Severe Wound (+6), but a failure Wound (-6) would not worsen to a Mortal Wound (-8).
 This descriptor adjustor acts similarly to armour. 
 
-== Folded Rolls
-A folded 4D2 roll is for when a +/- randomness cannot apply.
-A persona falling from a great height should not earn a skill from a Wondrous Success.
-A persona winning a lottery should not have become bankrupt from Catastrophic Failure.
-These are examples of where the folded roll comes into play.
-If it is good, how good is it?
-If it is bad, how bad is it?
-
-To create a folded roll, the player makes a regular 4d2 roll generating a number between +10 and -10.
-The mechanic would indicate a positive outcome with a positive number and a negative outcome with a negative number.
-We will avoid any maths here to stay in the spirit of the Role Playing System.
-
-If the 4D2 roll is folding for a positive outcome, all the numbers become positive.
-The player's roll now ranges from +10 to +10. 
-The outcome and descriptors remain the same. 
-Only detente and good things can happen.
-
-If the 4D2 roll is folding for a negative outcome, all the numbers become negative.
-The player's roll now ranges from -10 to -10. 
-The outcome and descriptors remain the same. 
-Only detente and bad things can happen.
-
 == Attack Types
 The attack types in the Theatrical Combat System Ranges are qualitative and descriptive.
-There are no irritating letter categories like are found in the tactical combat rules.
+The details are here to aid in story telling and fun. 
 
+=== Strike Attacks
 :art: type_a_sword.png
 :width: 350px
 :snark: Probably mightier than a pen.
@@ -353,15 +286,15 @@ There are no irritating letter categories like are found in the tactical combat 
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Image of a modern sword with bucket hilt and a hint of energy at base.
-
 include::ROOT:partial$articulate.adoc[]
 
-=== Persona Powered Contact Attacks
+
 These attacks depend on the muscle power of the attacker and must touch a target to cause damage.
 The combatants must be within range of each other to engage in combat.
 Examples are clubs, fists, claws, bites, swords, and ramming.
 The tactical combat rules call these Strike attacks.
 
+=== Fling Attacks
 :art: bow_no_arrow.png
 :width: 250px
 :snark: Fancy bow.
@@ -369,32 +302,29 @@ The tactical combat rules call these Strike attacks.
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Ornate fancy bow.
-
 include::ROOT:partial$articulate.adoc[]
 
-=== Persona Powered Ranged Attacks 
 These attacks depend on the muscle power of the attacker and are flung at the target to cause damage.
 The combatants must be within range to damage each other.
 Examples are arrows, bolts, rocks, quills and spit.
 The tactical combat rules call these Fling attacks.
 
-:art: XHP_rifle.png
+=== Shoot Attacks
 :width: 350px
 :snark: Large bore rifle.
 :artist: JEShields
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Rifle with extra large calibre.
-
 include::ROOT:partial$articulate.adoc[]
 
-=== Energy Powered Ranged Attacks
 These attacks do not require muscle of the user and are pointed at the target to cause damage.
 The energy comes from a battery, a bullet or some combination.
 Combatants can be quite far apart and be able to damage each other.
 Examples are bullets, laser bolts, energy beams, and crossbow bolts.
 The tactical combat rules call these Shoot attacks.
 
+=== Grenade Attacks
 :art: aerosol_aoe.png
 :width: 300px
 :snark: Aerosol attack.
@@ -402,10 +332,8 @@ The tactical combat rules call these Shoot attacks.
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Man throwing spray can onto bbq of another man dressed like a cook.
-
 include::ROOT:partial$articulate.adoc[]
 
-=== Area of Effect Attacks 
 Area of effect attacks act upon an area instead of a target.
 Every target in the area of effect is simultaneously attacked. 
 Area of effect attacks do not need direct contact with the target to cause damage.
@@ -423,7 +351,7 @@ A failed attack means "no targets were harmed during the making of this explosio
 A Calamitous Failure (-9) will harm other expedition members.
 A Cataclysmic Failure (-10) indicates a catastrophic malfunction of the area of effect weapon. 
 
-include::ROOT:partial$CH26_Table_4D2_Descriptors_AOE.adoc[]
+include::role_playing_system:partial$numbers_grenade_descriptors.adoc[]
 
 Every target in the area of effect must make a negative folded roll to determine the attack's impact.
 If efficiency is of concern, one roll can determine the impact on all persona's in the area of effect.
@@ -480,12 +408,14 @@ Each descriptive level indicates how far apart the combatants can be and still e
 
 .*Theatrical Combat Ranges*
 . Grapple
-. Persona powered contact attacks
-. Persona powered projectile attacks
-. Pistol attacks
-. Rifle attacks
-. Rifle and scope 
-. Artillery attacks
+. Strike attacks
+. Fling attacks
+. Shoot attack, pistol
+. Shoot attack, rifle
+. Shoot attack, sniping (scope and spotter)
+. Shoot attack, artillery (cannot see target)
+
+include::role_playing_system:partial$horseshoes_hand_grenades.adoc[]
 
 == Attack Frequency
 Under normal circumstances, each persona gets one 4D2 roll per turn.
@@ -501,9 +431,13 @@ So a player whose anthro persona has a plasma rifle (3 attacks per unit) would g
 
 Only aliens with multiple attacks and mercenaries can spread their attacks between different targets. 
 
-== Size Shifts
+include::role_playing_system:partial$speed_may_matter.adoc[]
 
-include::ROOT:partial$CH26_Table_Size_Shifts.adoc[]
+
+== Size Shifts
+If the player table feels that size should matter.
+
+include::role_playing_table:partial$size_may_matter.adoc[]
 
 == None Rules
 There are no real rules here, just concepts.

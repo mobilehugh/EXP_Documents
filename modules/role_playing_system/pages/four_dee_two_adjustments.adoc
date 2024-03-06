@@ -1,4 +1,5 @@
 = 4D2 Mechanic Adjustments
+
 In its purest form the 4D2 mechanic will operate without adjustments or descriptors.
 However, sometimes a story needs some adjustments.
 Maybe these adjustments are for drama, common sense, just plain fun.
@@ -71,21 +72,24 @@ These are examples of where the folded roll comes into play.
 If it is good, how good is it?
 If it is bad, how bad is it?
 
-To create a folded roll, the player makes a regular 4d2 roll generating a number between +10 and -10.
-The mechanic would indicate a positive outcome with a positive number and a negative outcome with a negative number.
-We will avoid any maths here to stay in the spirit of the Role Playing System.
+To generate a folded roll, the player makes a regular 4d2 roll generating a number between +10 and -10.
+The negative number is ignored and the player looks at either the Folded Success Table or the Folded Failure Table. 
+We will avoid any maths here to maintain the spirit of the Role Playing System.
 
-If the 4D2 roll is folding for a positive outcome, all the numbers become positive.
-The player's roll now ranges from +10 to +10. 
-The outcome and descriptors remain the same. 
-Only detente and good things can happen.
+The obvious immediate problem with the folded rolls is that they tend towards the mundane. 
+The most common outcome is still detente. 
+Remember that these are tools for moving the story forward, not rules that spoil role playing or fun.
 
-If the 4D2 roll is folding for a negative outcome, all the numbers become negative.
-The player's roll now ranges from -10 to -10. 
-The outcome and descriptors remain the same. 
-Only detente and bad things can happen.
+=== Folded Success Outcomes
 
-== A Table No One Asked For 
+include::role_playing_system:partial$numbers_folded_success.adoc[]
+
+=== Folded Failure Outcome
+
+include::role_playing_system:partial$numbers_folded_failure.adoc[]
+
+
+== Adjusting Away From d6 
 What if one wanted to use use another die roll system other than 4D2 for Role Playing.
 Even though this would defeat the purpose of the the qualitative descriptor 4D2 mechanic.
 Below is a table to help with that. 
@@ -95,4 +99,4 @@ Below is a table to help with that.
 * *Percentile* multiply by 10.0
 * *Kilodie* multiply by 42.0
 
-include::ROOT:partial$CH26_Table_Not_Asked_For.adoc[]
+include::role_playing_system:partial$adjustments_not_asked_for.adoc[]

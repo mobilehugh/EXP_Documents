@@ -7,12 +7,9 @@ ____
 
 .*Performing Tasks*
 . <<_introduction,Introduction>>
-. <<_4D2_mechanic_primer,4D2 Mechanic Primer>>
-.. <<_number,Number>>
-.. <<_outcome,Outcome>>
-.. <<_descriptor,Descriptor>>
+. <<_4D2_mechanic_refresher,4D2 Mechanic Refresher>>
+. <<_task_descriptor,Task Descriptors>>
 . <<_shifts,Shifts>>
-
 
 == Introduction
 Everything is a task in EXP.
@@ -40,24 +37,9 @@ The personas are performing maneuvers, not soliloquies.
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Futuristic human woman with holographic keyboard and multiple tools works on internet node.
-
 include::ROOT:partial$articulate.adoc[]
 
-== 4D2 Mechanic Primer
-4D2 is both a descriptor and a joke. 
-The 4 indicates that the mechanic uses 4 dice.
-The 4 also indicates that there are 4 steps in the process.
-The D refers to dice, and it a play on "D" in the 4d6 convention.
-The 2 reflects that the mechanic has two directions.
-The joke is that 4D2 sounds like 42.
-Fourty Two is the answer to the question.
-The 4D2 Mechanic gives the answers to questions you don't understand.
-
-The 4D2 Mechanic uses four six-sided dice to guide the story in the Role Playing System.
-The 4D2 Mechanic is a bespoke decision tool for EXP's Role Playing System.
-4D2 replaces Attack Rolls, Task Rolls, Attribute Rolls, Saving Rolls, Sphincter Rolls and more.
-
-In Theatrical Tasks, the 4D2 Mechanism guides the story. 
+== 4D2 Mechanic Refresher
 
 .*Four steps of the 4D2 Mechanic*
 . A player rolls dice to get a  *Number*
@@ -68,56 +50,9 @@ In Theatrical Tasks, the 4D2 Mechanism guides the story.
 
 WARNING: Do not proceed with this section until mastering an understanding of the xref:role_playing_system:four_dee_two_mechanic.adoc[4D2 Mechanic,window=_blank].
 
-=== Number
-A player generates a number by rolling two pairs of competing six siders.
-The player rolls 2d6, generating a number between 2 and 12.
-The player rolls 2d6 again, generating another number between 2 and 12.
-The player subtracts the second roll from the first roll.
-The sum of these two numbers generates the *Number* of the 4D2 Mechanic.
 
-=== 4D2 Number Generation
-.Number = 2d6 - 2d6
-****
-The number is always between +10 to -10. + 
-A positive number gives a positive outcome. +
-A negative number gives a negative outcome. +
-Zero gives a neutral outcome.
-****
 
-:art: 4d2_dice.png
-:width: 250px
-:snark: (6+1) - (4+2) = +1
-:artist: HM
-:date: 2020
-:license: CC BY-SA 4.0
-:description: Two green dice and two red dice. Total score plus one.
-
-include::ROOT:partial$articulate.adoc[]
-
-=== Outcome
-The outcome translates the number into a colourful account of the die roll.
-The Outcome from Number Table uses the number to determine the *Outcome* from the 4D2 roll. 
-The outcome arises directly from the 4D2 roll and is untainted by shifts (aka bonuses).
-Often the outcome is enough of a description for the players to decide how things turn out.
-
-The outcome can have a direct effect on the persona.
-A persona can earn a new skill for very successful outcomes.
-
-include::role_playing_system:partial$numbers_to_outcomes.adoc[]
-
-=== Learning Skills
-If the player rolls an Immaculate or Wondrous success, her persona earns a skill in the maneuver she performs. 
-This skill reward precedes the adding of any shifts.
-A persona cannot earn skills based on shifted rolls. 
-Only the unshifted outcome can earn a skill.
-
-=== Skill Learning
-.Outcome = Immaculate (+10) or Wondrous (+9) success
-****
-Persona earns +1 for the maneuver she is performing.
-****
-
-=== Descriptor
+== Task Descriptors
 Often the Outcome gives enough info for the players to tell the story.
 Describing an outcome is easy for Immaculate Successes and Cataclysmic Failures.
 The other 19 possible outcomes are more subtle and harder to turn into a description.
@@ -136,7 +71,6 @@ If a player were to roll a Major Failure (-3), her persona has not succeeded and
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Indiana Jones like fellow in fedora about to lift a statuette.
-
 include::ROOT:partial$articulate.adoc[]
 
 === Descriptor Descriptions
@@ -158,7 +92,7 @@ The shift is +1, is cumulative and lasts for the duration described.
 
 Lasts::
 'Lasts' indicates how long the maneuver holds together.
-A Barely Successful (+1) tyre repair will only stay repaired for a few hours.
+A Bare Success (+1) tyre repair will only stay repaired for a few hours.
 A Masterfully Successful (+6) tyre repair will stay repaired for months and give the persona a shift when fixing tyres for the next few hours. 
 
 Waits::
@@ -197,7 +131,6 @@ A Complete Failure (-6) results in a complication and the persona avoiding the m
 :date: 2014
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Steam punk human woman biologist doing autopsy on alien beast.
-
 include::ROOT:partial$articulate.adoc[]
 
 == Shifts
@@ -256,3 +189,18 @@ She can use her STR and DEX attributes.
 She can shift her 4D2 Outcome by +2 (two attributes).
 The shift of +2 moves her Magnificent Success (+8) to an Immaculate Success (+10).
 The persona earns the accolades of the bar crowd (Outcome = +10) but does not earn a wrestling skill.
+
+== Learning Skills
+If the player rolls an Immaculate or Wondrous success, her persona earns a skill of her choice. 
+The player must actually roll +10 or +9 on the actual die roll. 
+If a roll has been shifted or folded to +10 or +9 a skill is not earned. 
+
+The new skill should be related to the roll being made.
+If the persona is shooting a rifle she can add a rifle skill to her persona record.
+The next time she is shooting a rifle she can use a shift of plus one. 
+
+=== Skill Learning
+.Number = Immaculate (+10) or Wondrous (+9) success
+****
+Persona may add a skill related to the successful roll.
+****

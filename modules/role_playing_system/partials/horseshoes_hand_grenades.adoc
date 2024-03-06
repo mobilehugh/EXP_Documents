@@ -1,10 +1,10 @@
-// Ranges
-.*Example AOE Effect Areas*
+.*Is It In Range?*
 [width="90%",cols="<2,2,2,2", stripes="even"]
 |===
-4+<|Close enough is enough.  
+|
+3+<|Area of Effect Type (grenade is typical)  
 
-s|Range
+s|Target Range
 s|Personnel
 s|Grenade
 s|Bomb
@@ -14,33 +14,28 @@ s|In Range.
 s|In Range.
 s|In Range.
 
-|Hand to Hand
+|Strike
 s|In Range.
 s|In Range.
 s|In Range.
 
-|Hand to Hand, weapons
+|Fling
 |NOT In Range.
 s|In Range.
 s|In Range.
 
-|Hand to Hand, missile
+|Shoot, Pistol
 |NOT In Range.
 s|In Range.
 s|In Range.
 
-|Powered, Pistol
+
+|Shoot, Rifle
 |NOT In Range.
 |NOT In Range.
 s|In Range.
 
-
-|Powered, Rifle
-|NOT In Range.
-|NOT In Range.
-s|In Range.
-
-|Sniping
+|Shoot, Sniper
 |NOT In Range.
 |NOT In Range.
 |NOT In Range.
@@ -54,4 +49,7 @@ s|Range
 s|Personnel
 s|Grenade
 s|Bomb
+
+4+<|Target Range: how is the target attacking? Personnel: tiny splash attacks. 
+
 |===
