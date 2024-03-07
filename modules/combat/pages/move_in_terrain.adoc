@@ -1,0 +1,249 @@
+= Terrain and Combat Movement
+
+The surface of the land also influences movement in combat.
+A persona can move faster over solid ground than through a knee-deep swamp.
+The terrain surfaces covered here variations on typical environments.
+Combat movement covers the mundane terrains.
+For exotic terrains like zero gravity or exatmo, jump to  xref:roll_playing_system:CH19_Terrain.adoc[Exotic Terrain,window=_blank].
+
+:art: alien_spaceship_swamp.png
+:width: 250px
+:snark: Alien slogging through terrain.
+:artist: Andrew Bre:chin
+:date: 1990
+:license: CC BY-SA 4.0
+:description: Chicken legged alien walking through a swamp.
+include::ROOT:partial$articulate.adoc[]
+
+== Foliage
+The degree to which grass, plants fungus patches affect movement depends on the persona's size.
+Tiny, Small, Medium, Large, and Gigantic personas can overcome specific foliage depths.
+Anthro personas are Medium-sized.
+Foliage movement costs affect aliens, robots and anthros equally.
+Some aliens can fly over the foliage. 
+Some robots can float over the foliage. 
+Locomotion differences and foliage movement costs are up to referee and player debate.
+If the debate becomes heated, this would be an excellent opportunity to use xref:roll_playing_system:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice,window=_blank]. 
+
+include::ROOT:partial$CH12_Table_Foliage_Movement_Penalties.adoc[]
+
+Regular grass is not a manicured lawn in suburbia. 
+Suburban lawns are, at worst low grass.
+The foliage table is for flora that could impede a persona's movement.
+
+If a persona's movement rate drops to zero, they may make an attack roll or climb, but they cannot move.
+If the result on the table is "climb," then the foliage is considered impassible. 
+
+== Liquids
+Water, or any liquid substance, slows down personas is covered here/ 
+Aliens with water movement rates are not affected by swimming and use their natural movement.
+The liquid table applies to snow, sand, mud or Swedish retail ball pits. 
+When Swim appears on the table, the persona can no longer push through the liquid.
+They then must swim, sink or stick depending on the liquid.
+
+include::ROOT:partial$CH12_Table_Liquids_Movement_Penalties.adoc[]
+
+This table is anthropomorphically centred.
+Ankle deep is our mundane human ankle deep. 
+The measures of depth are related to a normal-sized anthro persona.
+The table evolved to have these descriptive terms instead of heights.
+Sadly we are not playing with aliens or robots at the table just yet. 
+
+=== Swim or Climb 
+Both the Foliage and Liquid Movement cost tables can stop the persona in their hex.
+If the movement cost is greater than the persona's movement rate, then the persona is stopped.
+If the table result is "climb" or "swim," then the persona is stopped.
+
+With foliage, the *climb* result is straightforward or straight upward.
+The persona can change direction or start climbing over the obstacle.
+Climbing has its own <<_climbing,section below>>
+
+With liquid or mud, the consequences are quite different. 
+When a persona cannot wade through a puddle, they must swim or sink.
+Unlike foliage, the referee must know how swimming affects the personas.
+Is the current strong?
+Is there an undertow?
+Will the mud pull personas down?
+How hard is the mud to get out from?
+Do persona's know how to swim?
+Can personas drown? 
+
+=== Sink or Swim
+Whether a persona sinks or swims depends heavily on the family type.
+An alien that has a water movement rate is unaffected by deep liquids. 
+An aquarian anthro can automatically swim. 
+Other anthros may or may not swim. 
+Check those xref:roll_playing_system:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice,window=_blank] if the player can't come up with a good back story.
+Robots will automatically sink unless they have a water compensating locomotion type.
+
+Those persons who can swim need only contend with wate encumbrance, currents, and sea monsters.
+Only personas with evolved swimming abilities (aquarians and aliens) can make attack rolls while swimming.
+
+The consequences of sinking are up to the referee.
+Drowning is an unseemly way to force players to create new personas.
+However, personas who cannot swim and are in the water are in trouble.
+Water immersion will damage any robot lacking terrain or exatmo hardening.
+A flailing anthro will have to shed armour, backpack and toys. 
+
+Alien and anthros that cannot swim can flail about once they dump their equipment.
+Flailing can move the persona to the next water hex if a STR roll is successful.
+Robots do not flail. 
+They simply sink. 
+
+=== Mud
+Muddy liquid could be mud, slime, cesspool, jello or any other dense liquid.
+Mud uses the Liquid Movement Cost Table.
+The thickness of the liquid increases its resistance and increases the movement cost by two levels.
+So Knee-deep water functions as Waist deep mud.
+An anthro persona (medium-sized) would have a four hex cost in mud versus water.
+If their movement rate drops to zero, the persona is "stuck in the mud."
+Tiny and Small personas would automatically be "stuck in the mud."
+
+=== Sand
+Packed sand is not a terrain obstacle. 
+The sand described here is shifting, sinking swirling sand. 
+The hex cost for moving through sand uses the Foliage Movement Cost Table.
+To calculate the movement cost of sand, use foliage table, but increase the cost by two levels.
+If the sand is the depth of normal hite foliage, it has the cost of tall hite foliage.
+A medium-sized persona in normal hite sand has a two hex cost (tall foliage).
+If the persona must 'climb' in the sand, they are stuck in place. 
+
+=== Snow
+Snow or other light particulate matter uses the Liquid Movement Cost Table.
+To simulate snow, the referee uses the liquid movement cost and increases the cost by one level.
+So Knee-deep snow has the movement cost of Leg deep water.
+A medium-sized persona would have a three hex cost penalty in knee-deep snow.
+If the persona must "swim" in the snow, they are stuck in a snowbank. 
+
+== Ice
+Ice, or any frictionless surface, is a source of slippery fun for referees.
+Unless the persona has special tires, claws or skills, the frictionless surface will wreak havoc.
+Ice will offer a 1d4-1 hex cost for all personas for every combat unit on the ice.
+Some personas will be unable to move on ice and use their entire movement rate to avoid falling over.
+
+Whether ice over liquid can support larger personas must be decided by the referee in advance.
+If the cracking ice is an off the cuff terrain modification the xref:roll_playing_system:CH16_Special_Rolls_Asshole.adoc[Sphincter Dice,window=_blank] come into play.
+
+== Movement and Actions
+Some actions take less than a unit but still require attention from the persona.
+These actions result in minor movement rate adjustments.
+The table is included here for convenience.
+
+NOTE: *There is no movement cost for an attack roll.*
+
+include::combat:partial$action_costs_in_combat.adoc[]
+
+== Actions That Stop Movement
+The only action that is guaranteed to fit into the combat unit is an attack. 
+Some things require too much attention for a persona to keep moving.
+The persona can complete some actions within a unit.
+Other actions require too much attention to either move or attack. 
+
+include::combat:partial$CH12_Table_Example_Activities.adoc[]
+
+== Doors
+Personas travelling at high speeds can move through *unlatched push doors* with only a two hex cost.
+So a persona with a five h/u movement rate could go through an unlatched push door and move three hexes that unit.
+Latched or pull doors will stop the persona completely.
+
+== Climbing
+Vertical movement that does not involve flying, telekinesis or antigrav requires climbing. 
+Personas engaged in climbing make far more predictable targets than otherwise.
+Attack rolls on climbing targets gain bonuses.
+Attack rolls made by climbing personas suffer penalties.
+
+NOTE: *Under uncombat circumstances, personas just climb things.*
+
+Robots do not climb. 
+Alien flora and fauna do not climb. 
+Tool using aliens and anthros may try their paws at climbing. 
+
+=== Climbing, Free
+Free climbing is free of ropes, pitons, and carabiners.
+The referee determines if a surface can be free climbed. 
+Free climbing requires all the persona's attention.
+The player cannot combine free climbing with attack rolls or unrelated task rolls.
+Attack rolls made on free climbing personas enjoy a bonus of +666. 
+
+Free climbing is slow and requires many attributes.
+There are three steps to moving in a free climb.
+
+.*Free Climbing Steps*
+. Find the hold (AWE)
+. Reach the hold (DEX)
+. Move to the hold (STR)
+
+If all rolls are successful, the persona moves 1-2 hexes towards their goal. 
+This goal could be upwards or sideways, or downwards. 
+
+The persona is at risk of falling if her player fails the DEX or STR rolls. 
+The consequences of falling are up to the referee. 
+The fall is harmless, but the sudden stop at the bottom inflicts 1d4 damage per hex of fall.
+
+=== Climbing, Equipped
+Equipped climbing uses ropes, pitons, and carabiners.
+Setting up climbing equipment cannot happen during combat.
+This section is if the personas are climbing and then get into combat.
+
+Equipped climbing requires all the persona's attention.
+The player cannot combine equipped climbing with attack rolls or unrelated task rolls.
+Attack rolls made on equipped climbing personas enjoy a bonus of +333. 
+A persona can stop equipped climbing to make combat rolls or task rolls.
+When hanging around and shooting back, the player suffers a -180 attack roll penalty. 
+
+There are a few steps to moving upwards in a free climb.
+
+.*Equipped Climb Steps*
+. Find the hold (AWE)
+. Reach the hold (Easy DEX)
+. Move to the hold (Easy STR)
+
+If all rolls are successful, the persona moves 1-3 hexes towards their goal. 
+This goal could be upwards or sideways, or downwards. 
+
+Equipped climbers do not suffer the same fall risks as free climbers.
+However, equipment damage or failure could lead to a date with gravity.
+
+=== Climbing, Rope
+For rope climbing, the referee must consider rope strength.
+Personas climbing ropes cannot engage in any other actions other than climbing rope.
+
+The persona can move up one hex per successful STR roll each unit. 
+Targeting a persona climbing up a rope earns a +333 attack roll bonus.
+The persona can move down 1-3 hexes per successful DEX roll each unit.
+Targeting a persona climbing down a rope earns a +180 attack roll bonus.
+
+A referee can consider a fall risk if the player fails one of the attribute rolls. 
+
+=== Climbing, Ladder
+Climbing by ladder requires no attribute rolls.
+A persona may climb a ladder 1d2 hexes each unit.
+A persona may descend a ladder 1d4 hexes each unit. 
+Unless there are extenuating circumstances, the referee should allow personas to navigate ladders safely.
+These rules only apply during combat, so the situation is likely dangerous enough already.
+
+
+
+== Up Hills
+This guide refers to hills on a hex map and not climbing up walls. 
+Personas moving uphill suffer a one hex cost per hex rise in the terrain.
+If a persona climbed two hexes in altitude over two hexes of distance, she would face a two hex cost. 
+If the persona's move is decreased to zero by the rise in the terrain, she may stop and make an attack roll or start to climb.
+Usually, the referee will assign the hex cost penalty to a specific hill on the hex mat.
+However, those who enjoy arithmetic can use the calculation below.
+
+== Hex cost for uphill travel
+.slope = rise over run. Cost = run in hexes
+****
+If the slope is 45% and the persona wants to travel ten hexes, they will have a ten hex move cost. 
+****
+
+So walking up that hill will allow the persona to keep making attack rolls and possibly other actions. 
+Running up that hill will only allow you to make an attack roll or just run up the hill.
+
+== Down Hills
+This guide refers to hills on a hex map and not jumping off cliffs. 
+Personas can move down hills safely as long as they move slower than their movement rate. 
+If a persona wants a speed boost, she may add the rise she travels through to her movement rate.
+The hex distance bonus and does not add any attacks or actions. 
+There is also a chance that the persona will faceplant due to the added speed.

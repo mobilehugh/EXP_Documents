@@ -20,25 +20,33 @@ The tactical combat rules are not simple, and the attack table requires an under
 You need to read this section if the following acronyms do not make sense: Skilled, Raw, Max, Force, DEF, Strike, Fling, Shoot etc.
 If you know what you are looking for, jump to the attack table you need.
 Below is a list is of player persona attack tables. 
-Referee persona attack tables are detailed in their referee persona sections
+Referee persona attack tables are detailed in their referee persona sections.
 
-include::ROOT:partial$CH09_Table_Tiny_CT.adoc[]
+include::combat:partial$attack_table_blank.adoc[]
 
-.*Jump to the Attack Tables*
+== Deconstruction of an Attack Table
+The attack table is a matrix of numbers that inject some faux realism into combat.
+It does not need to be memorized, and understanding it does take a few steps.
+Below is a generic attack table.
+The meaning of each number, column and row is explained. 
+How the values are calculated depends on the family of the persona.
+
+include::combat:partial$attack_table_example.adoc[]
+
+If you are ready to fill in an attack table you can jump right to the calculations.
+Remember that there is a Python program that automates this process (version 6). https://github.com/mobilehugh/EXP_Game_Tools[Automate!]
+
+.*Got it? Jump to your Attack Table*
 * xref:anthros:attack_table[Anthro Attack Table,window=_blank]
 * xref:robots:attack_table.adoc[Robot Attack Table,window=_blank]
 * xref:aliens:attack_table.adoc[Alien Attack Table,window=_blank]
 
-include::anthros:partial$attack_table_blank.adoc[]
+If you don't "got it" yet continue on.
 
-== Deconstruction of an Attack Table
-The following sections will demonstrate how to fill in the empty table immediately above.
+include::combat:partial$attack_table_deconstruction.adoc[]
 
-include::ROOT:partial$CH09_Table_Description_of_a_Combat_Table.adoc[]
-
-
-// attack types tag
-include:combat:a_introduction.adoc[tag=Attack_Types]
+// todo check your work
+// todo video explanation
 
 == Skilled Bonus
 This number is added to the attack rolls when the persona is using familiar weapons.
@@ -63,8 +71,7 @@ Dextrous personas excel with powered missile attacks.
 :artist: Pat Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of humanoid feline walking away from destroyed carnival game.
-
+:description: Humanoid feline walking away from destroyed carnival game.
 include::ROOT:partial$articulate.adoc[]
 
 === Level Component
@@ -93,15 +100,14 @@ A mercenary can use 100% of her Skilled for all attacks.
 :artist: Peggy Lynn McIsaac
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of a humanoid horse throwing away a pin and holding a grenade.
-
+:description: Humanoid horse throwing away a pin and holding a grenade.
 include::ROOT:partial$articulate.adoc[]
 
 == Max Roll
 The Max Roll is the best attack roll that the player can make for her persona.
 If a player's total attack roll is 1042 and her Max Roll (Max) is 884, her attack roll becomes 884.
 As the persona increases in experience levels, her Max Roll increases as well.
-Combat vocations increase their Skilled andMax faster than non-combat vocations.
+Combat vocations increase their Skilled andMax faster than uncombat vocations.
 Without the Max, low-level personas are as dangerous as high-level personas.
 
 NOTE: *Critical Checks allow any persona to damage any other persona with pure chance.*

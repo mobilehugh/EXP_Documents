@@ -58,7 +58,7 @@ So a persona with pistol-3 would get +84 added to her Attack Roll based on pure 
 At some tables this skill bonus can increase the persona's Max Roll. 
 This allows a master archer the ability to hit above their Max Roll. 
 
-include::ROOT:partial$CH09_Table_Attack_Proficiencies.adoc[]
+include::combat:partial$vocation_weapon_skills.adoc[]
 
 At 1st level a player with a Nomad persona can choose 1 Strike, 1 Fling, and 1 Shoot weapon skill. 
 The player chooses dagger-1, bow-1 and pistol-1 skills.
@@ -78,6 +78,8 @@ The player could increase to bow-2 or broaden her weapon skills by adding thrown
 The player has found some compucrafted daggers that are great for stabbin' and throwin', so the player chooses thrown dagger-1
 Her weapon skills are now dagger-2, bow-1, throw dagger-1, pistol-1 and rifle-1.
 
+== Edge Cases
+
 === Aliens
 Aliens are automatically skilled with their natural attacks and use Skilled Bonus for the Attack Type.
 Aliens that are not tool users (flora or fauna) cannot comprehend weapons and do not use them.
@@ -88,31 +90,26 @@ Tool using aliens will require a vocation to use tech weapons.
 Tech weapons would include mundane terran weapons like swords and bows.
 Weapon using aliens must generate an attribute based Attack Table to use weapons. 
 
-=== Robots
-A robot is only Skilled with attacks baked-in during fabrication.
-Robots use their Raw Bonus for attacks that are malfunctioning peripherals. 
-Most robot attacks are malfunctioning peripherals. 
-On a robot Attack Table the Raw Bonus is zero.
-There is a to be decided edge case of whether a robot that has a vocation can use an attribute Attack Table.
-
-=== Vocation Quirks 
-The following edge cases are discusse in the appropriate vocations, but are listed here for convenience.
-
-Knites:: 
+=== Knites
 Knites are alway skilled with their energy sword.
 They are not skilled with any energy sword, but only the bespoke one related to their calling.
 The personal energy sword of a Knite does not count as a weapon skill.
 So a first level knite with a bespoke energy sword would still have access to 3 first level weapon skills.
 The player can choose to increase her bespoke energy sword skill with advancements. 
 
-Mercenaries:: 
+=== Mercenaries 
 Mercenaries are efficient with anything that is a personal weapon.
 This is a built into their starting gift called weapon proficiency. 
 If the weapon is a high tech artifact that does not look like a weapon the persona must identify it as a weapon first.
 Mercenaries still get weapon skills and increase skill levels to help with tasks and improve Attack Rolls.  
 
-Nothings:: 
+=== Nothings:
 Nothings are only skilled with one weapon and one weapon only.
 Choose wisely.
 
-// fix this needs to be in combat rules when created
+=== Robots
+A robot is only Skilled with attacks baked-in during fabrication.
+Robots use their Raw Bonus for attacks that are malfunctioning peripherals. 
+Most robot attacks are malfunctioning peripherals. 
+On a robot Attack Table the Raw Bonus is zero.
+There is a to be decided edge case of whether a robot that has a vocation can use a Vocation Attack Table.

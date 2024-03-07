@@ -16,7 +16,7 @@ Attack types separate based on damage mechanism, frequency of attack, and range.
 An attack type can include weapons, alien attacks and misused robot peripherals.
 
 Each persona deploys each attack type differently depending on their family and vocation.
-These personalized differences are in the xref:roll_playing_system:CH09_Combat_Tables.adoc[Attack Table,window=_blank] section.
+These personalized differences are in the xref:combat:attack_table_details.adoc[Attack Table,window=_blank] section.
 
 include::combat:partial$attack_types_details.adoc[]
 
@@ -30,14 +30,6 @@ Strike attacks get one attack roll per unit.
 An anthro could use a weapon like a sword or an axe. 
 An alien could use a natural attack like a bite or a talon slash.
 A robot could use a malfunctioning peripheral that operates as a club.
-
-=== Multiple Attacks
-Under certain circumstances a persona can have multiple Strike Attacks per unit.
-An alien may have multiple tentacles with which to slap.
-A robot may have multiple pointy things with which to stab.
-A mercenary can split their Skilled Strike Attack Bonus amongst several attacks per unit.
-A spie may have multiple martial arts attacks per unit. 
-There is no special nomenclature for having multiple Strike Attacks per unit. 
 
 === Strike Weapons
 These are non-powered thrusting and striking weapons.
@@ -62,6 +54,14 @@ Damage::
 Damage indicates how many hit points the weapon removes from the target's hit points.
 The player adds one half her Strength Attribute as a Force Bonus to her damage roll.
 
+=== Multiple Attacks
+Under certain circumstances a persona can have multiple Strike Attacks per unit.
+An alien may have multiple tentacles with which to slap.
+A robot may have multiple pointy things with which to stab.
+A mercenary can split their Skilled Strike Attack Bonus amongst several attacks per unit.
+A spie may have multiple martial arts attacks per unit. 
+There is no special nomenclature for having multiple Strike Attacks per unit. 
+
 == Fling Attacks
 *Non-powered projectile attacks*
 
@@ -72,14 +72,6 @@ Fling attacks get one attack roll per unit.
 An anthro would use a weapon like a bow or a sling. 
 An alien may have evolved natural attack like spitting rocks or flinging quills.
 A robot could use a malfunctioning peripheral that throw used batteries.
-
-=== Multiple Attacks
-Under certain circumstances a persona can have multiple Fling Attacks per unit.
-An alien may be able spit more than one crystal spore per unit. 
-Multiple alien Fling Attacks arise from evolutionary process and are natural to the being.
-A robot may have multiple levers that allow it to pitch batteries and silicon chunks at their foe.
-A mercenary can split their Skilled Fling Attack Bonus between 2 arrow attacks per unit, but this is rare thing.
-There is no special nomenclature for having multiple Fling Attacks per unit. 
 
 === Fling Weapons
 These are non-powered projectile weapons.
@@ -118,6 +110,14 @@ The player adds one quarter her Strength Attribute as a Force Bonus to her damag
 :description: Humanoid moose wearing a rcmp hat and holding two six shooters.
 include::ROOT:partial$articulate.adoc[]
 
+=== Multiple Attacks
+Under certain circumstances a persona can have multiple Fling Attacks per unit.
+An alien may be able spit more than one crystal spore per unit. 
+Multiple alien Fling Attacks arise from evolutionary process and are natural to the being.
+A robot may have multiple levers that allow it to pitch batteries and silicon chunks at their foe.
+A mercenary can split their Skilled Fling Attack Bonus between 2 arrow attacks per unit, but this is rare thing.
+There is no special nomenclature for having multiple Fling Attacks per unit. 
+
 == Shoot Attacks
 *Powered projectile attack*
 
@@ -130,18 +130,7 @@ Examples are bullets, laser bolts, energy beams, and crossbow bolts.
 
 An anthro could use a weapon like a gun or a lazer.
 An alien could have evolved lazer eyes or gas propelled bone chunks.
-A robot could have an actual baked-in gun or be misusing a construction nail gun. 
-
-=== Multiple Attacks
-Typically Shoot Attacks are limited to one Attack Roll per unit. 
-Due to their powered nature Shoot Attacks commonly have multiple attacks per unit.
-A robot or alien with multiple Shoot Attacks per unit simply enjoys that many attack rolls per unit.
-
-Weapons with multiple attacks allow anthros (or any other persona kind using them) to make multiple Attack Rolls per unit.
-These weapons have special names and rules attached to them.
-A semi-automatic weapon is called a Sotto Type Weapon. 
-A full-automatic weapon is called a Flotto Type Weapon.
-The Sotto and Flotto weapons are both sub types of Shoot Weapons.
+A robot could have an actual baked-in gun or be misusing a construction nail gun.
 
 === Shoot Weapons
 These are powered weapons.
@@ -172,6 +161,17 @@ The same small crossbow at 28 hexes would have a -375 attack roll penalty.
 Damage::
 Damage indicates how many hit points the weapon removes from the target's hit points.
 There are no Strength adjustments for Shoot weapons.
+
+=== Multiple Attacks
+Typically Shoot Attacks are limited to one Attack Roll per unit. 
+Due to their powered nature Shoot Attacks commonly have multiple attacks per unit.
+A robot or alien with multiple Shoot Attacks per unit simply enjoys that many attack rolls per unit.
+
+Weapons with multiple attacks allow anthros (or any other persona kind using them) to make multiple Attack Rolls per unit.
+These weapons have special names and rules attached to them.
+A semi-automatic weapon is called a Sotto Type Weapon. 
+A full-automatic weapon is called a Flotto Type Weapon.
+The Sotto and Flotto weapons are both sub types of Shoot Weapons.
 
 === Sotto Attacks
 *Semi-automatic powered projectile attacks*
@@ -205,7 +205,6 @@ Each attack roll represents a random number of ammo rounds (bullets, lazer bolts
 For each successful attack roll anywhere from 0-3 rounds (1d4-1) damage the target.
 While extremely unlikely, it is possible to win five attack rolls and land zero rounds on the target. 
 Each attack roll expends 15 rounds of ammunition.
-
 
 NOTE: Only a mercenary with flotto skill can "spread" the attack rolls between different targets.
 
