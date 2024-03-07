@@ -5,33 +5,35 @@ ____
 *Technology is indistinguishable from magic as soon as the manual goes missing.*
 ____
 
-. <<_introduction,Introduction>>
-. <<_toy_type,Toy Type>>
-. <<_support_equipment,Support Equipment>>
-. <<_tech_level,Tech Level>>
-. <<_toy_record,TOY Record>>
-. <<_startifacts,Startifacts>>
-. *Have fun!*
-
-****
-*Need some tech right now? Jump to* <<_toy_type,Toy Type>>.
-****
-
-== Introduction
-EXP, The game of technologic chaos, is a sciency fiction role-playing game.
-This section focuses on the technological part of the game.
-The chaos of technology arises from the core canon that anything from anywhere can appear at any time.
-Long lost civilizations, alien detritus, corporate misadventure, and electroevolution combine to create a potpourri of technological chaos.
-
 :art: temple_trouble.png
 :width: 350px
 :snark: 
 :artist: Rogers
 :date: 1951
 :license: CC BY-SA 4.0
-:description: Drawing montage of oil derricks, atom symbol, gun and bow.
-
+:description: Montage of oil derricks, atom symbol, gun and bow.
 include::ROOT:partial$articulate.adoc[]
+
+****
+*Less talk more TOYs? Jump to* <<_toy_type,Toy Type>>.
+****
+
+EXP's headline is "The Game of Technological Chaos."
+This title reflects a rule system where one can expect any device to exist alongside any other device.
+Is the laser pen mightier than the vibro sword?
+Can a low-tech culture devote all its resources to make a time machine?
+Can a high-tech culture devote all its resources to make itself feel sad and pathetic?
+Add a bit of humour, and these explorations are what EXP is all about.
+
+NOTE: *Technology represents a mix of unknown devices.*
+
+In our mundane terra's olden daze, there was a game show dedicated to https://en.wikipedia.org/wiki/What_in_the_World[identifying things,window=_blank].
+This game show broadcast on a one-way colourless video device called a television.
+The artifact system in EXP is like a simulated version of that game show. 
+
+More than 70 years later, neither this game show nor the TV device exists.
+A handheld piece of glass with high-resolution full colour moving pictures has replaced the television. 
+This evolution of the television took four generations on mundane terra.
 
 The chaos arises from the randomness of the system that generates technological objects in EXP.
 The hardware section has sixteen equipment categories, and they are ready for random equipment generation. 
@@ -42,7 +44,13 @@ The TOY System generates random artifacts.
 These artifacts can vary from worthless junque to sun hopping starships.
 The randomness is the root premise of The Game of Technological Chaos.
 
-.*Technology Nomenclature*
+== Nomenclature
+Calling technological devices artifacts is a twist on the archeological nature of their discovery.
+These discovered artifacts represent the detritus of a technologically advanced civilization.
+Everything old is new again.
+EXP artifacts are usually found by personas while on an expedition.
+There is no reason that the expedition could not purchase them from a local junk store, print catalogue or computer store.
+
 TOYS or TOYs:: 
 Technological Object Yield System. 
 The TOY system is the ruleset for generating random tech.
@@ -60,6 +68,10 @@ An unidentified potentially technological device.
 An artifact can be powerful or useless.
 Most artifacts are somewhere in between.
 Useless artifacts can be called mundane equipment.
+
+Startifact::
+Start plus artifact.
+An artifact that the persona starts the game with.
 
 Mundane Equipment:: 
 Mundane equipment is the boring practical stuff of life.
@@ -79,7 +91,7 @@ From this table, the referee jumps to the appropriate category and generates the
 The player rolls 64 on the 1d100 indicating the Pharmaceutical category.
 The referee jumps to pharmaceuticals and generates the specific pharma type.
 
-include::ROOT:partial$CH41_Table_TOY_Category.adoc[]
+include::hardware:partial$toys_categories.adoc[]
 
 == Support Equipment
 Support Equipment is stuff that is needed to run the equipment.
@@ -131,29 +143,3 @@ An artifact can also be a tool for explaining the culture from which it hails.
 Most artifacts will simply be equipment, but some artifacts will become part of the campaign itself.
 Some artifacts have Intelligence and attitude.
 
-== Startifacts
-There is a legacy rule in EXP of newly minted personas starting the game with a few artifacts.
-Starting artifacts are called startifacts.
-Startifacts must match the referee's story and milieu.
-
-Startifacts are usually secret.
-Players get to roll their persona's startifacts, but the referee records the info with an alloy-clad poker face.
-
-=== Startifact Number 
-Players get *three* startifacts, maybe. 
-Personas can end up with more or less than three items.
-
-Random Junque and minimal Treasure do not count as startifacts.
-In this case, the persona may get more than three items, although some are useless.
-Spaceships, vehicles, robots and other powerful items stop startifact generation.
-In this case, the persona may get less than three items because of the item's power.
-
-=== Vocation Limits
-Personas are not allowed to amass artifacts related to their vocation.
-Vocation toy limits is a legacy rule within a legacy rule.
-This rule prevents personas from being overpowered with startifacts.
-It also encourages the expedition to work together from startup.
-The player should stop generating startifacts according to the below table.
-For example, a player rolling startifacts for her mercenary persona would stop once she generates a weapon.
-
-include::ROOT:partial$CH41_Table_Vocation_TOYS.adoc[]
