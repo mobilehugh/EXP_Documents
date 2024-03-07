@@ -1,5 +1,4 @@
-// Table 9.1 Description of a Attack Table
-.*Overview of Attack Types*
+.*Attack Types Table*
 [width="85%",cols="^,4*<",frame="all", stripes="even"]
 |===
 5+<|Typing Attack Types.
@@ -30,7 +29,7 @@ INT
 |Arrow +
 Rock +
 Spittle +
-Point
+Dagger
 
 
 
@@ -40,17 +39,18 @@ launched objects +
 once per unit
 |DEX
 |Bullets +
-Lazers Bolts +
-Laser Eyes +
-Spores
+Plasma Bolts +
+Lazer Eyes +
+Rocket Spores
 
 
 |
 4+s|includes  <<_sotto_attacks,Sotto>> and <<_flotto_attacks,Flotto>> Attack Types
 
 s|<<_type_aoe_attacks,Area>>
-2+|effects everything in area +
+2+|effects everything in area of effect +
 Fling or Shoot Attack +
+Target a hex +
 single use only
 
 |DEX + 
@@ -58,7 +58,7 @@ INT
 |Grenades +
 Aerosols +
 Farts +
-Blasts
+Explosions
 
 |
 4+s|includes <<_grenade_attacks,Grenade>> and <<_aerosol_attacks,Aerosol>> Attack Types
@@ -73,12 +73,6 @@ instantaneous
 |Telepathy +
 ESP +
 Empathy
-
-
-
-
-
-
 
 s|Type
 2+s|Description

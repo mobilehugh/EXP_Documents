@@ -18,7 +18,7 @@ An attack type can include weapons, alien attacks and misused robot peripherals.
 Each persona deploys each attack type differently depending on their family and vocation.
 These personalized differences are in the xref::CH09_Combat_Tables.adoc[Attack Table,window=_blank] section.
 
-include::ROOT:partial$CH28_Table_Attack_Types_Intro.adoc[]
+include::combat:partial$attack_type_details.adoc[]
 
 == Strike Attacks
 *Non-powered thrusting and striking attacks*
@@ -45,7 +45,7 @@ Strike weapons are handheld but can include the hand itself.
 Strike weapons include swords, maces, pole-arms, fists, paws, beaks, spears, etc.
 They are close combat weapons, and the target must be in the persona's hex or an adjacent hex.
 
-include::ROOT:partial$CH28_Table_Type_A_Weapons.adoc[]
+include::hardware:partial$mundane_strike_weapons.adoc[]
 
 Length::
 Self-explanatory.
@@ -86,7 +86,7 @@ These are non-powered projectile weapons.
 Fling weapons include rocks, daggers, boomerangs, whips, spitting, arrows, darts, etc.
 Fling weapons are not close combat weapons, and there must be at least one hex between the persona and her target.
 
-include::ROOT:partial$CH28_Table_Type_B_Weapon_Data.adoc[]
+include::hardware:partial$mundane_fling_weapons.adoc[]
 
 Length::
 Self-explanatory.
@@ -115,8 +115,7 @@ The player adds one quarter her Strength Attribute as a Force Bonus to her damag
 :artist: unknown, Helen Field, HM
 :date: 1948, Unknown, 2018
 :license: CC BY-SA 4.0 (sheriff), Helen Field Stock Art (moose)
-:description: Drawing of a humanoid moose wearing an rcmp hat and holding two six shooters.
-
+:description: Humanoid moose wearing a rcmp hat and holding two six shooters.
 include::ROOT:partial$articulate.adoc[]
 
 == Shoot Attacks
@@ -151,7 +150,7 @@ They are typical artifacts from the Hardware section of EXP.
 Exotic, dangerous tech weapons are described in xref:hardware:CH46_Guns.adoc[Guns,window=_blank].
 Mundane Shoot Type Weapons are listed below. 
 
-include::ROOT:partial$CH28_Table_Type_C_Weapon_Data.adoc[]
+include::hardware:partial$mundane_shoot_weapons.adoc[]
 
 Length::
 Self-explanatory.

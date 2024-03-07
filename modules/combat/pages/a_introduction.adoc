@@ -31,17 +31,6 @@ It represents the least worst system that met our pre-computer era needs.
 NOTE: The tactical combat rules developed before laptops, computer phones or the internet. + 
 Calculations were done in real-time with organic brains. 
 
-.*Tactical Combat Checklist*
-* <<_attack_types,Attack Types>>
-* <<_attack_table,Attack Tables>>
-* <<_attack_roll,Attack Rolls>>
-* <<_defence_rating,Defence Rating>>
-* <<_combat_movement,Movement>>
-* <<_combat_time,Time>>
-* <<_initiative,Initiative>>
-
-NOTE: Author thought it would be funny to have initiative go last.
-
 == Starting Combat 
 Game violence occurs due to failed negotiations, self-defence, hunger, or bad problem-solving.
 Many players feel that violence is the simplest solution to a problem.
@@ -87,11 +76,10 @@ The kilo die is not a golf ball with tiny writing on it.
 The player rolls three 1d10s to simulate the 1d1000.
 For more info about the 1d1000 jump to xref:roll_playing_system:kilo_die_mechanic.adoc[Kilodie Mechanic,window=_blank].
 
-// tag::Attack_Types[]
 == Attack Types
 EXP has an enormous variety of weapons.
 A review of attack types is needed to understand attack tables and attack rolls.
-For a more detailed explanation jump to xref:roll_playing_system:CH28_Weapons.adoc[Attack Types,window=_blank].
+For a more detailed explanation jump to xref:combat:attack_types.adoc[Attack Types,window=_blank].
 
 === Strike
 *Non-powered thrusting and striking attack.*
@@ -113,17 +101,23 @@ The personas can be many hexes apart and still be able to damage each other.
 Shoot attacks are limited to once per combat unit.
 Examples are bullets, laser bolts, energy beams, and crossbow bolts.
 
-=== Other Attack Types
+=== Grenade
+*Area of effect attack*
+Grenade attacks cover multiple hexes, and hence targets, with a distributed attack.
+An area of effect attack supplies its own energy to inflict damage.
+The target is a specific hex on the mat. 
+Targets can be hexes apart and be damaged regardless of the their Defence.
+Examples are frag grenades, aerosols, and bombs.
+A grenade attack can be thrown (Fling attack), or launched (Shoot attack).
+
+=== Other
 Most of the other attack types are built from the core three attack types above. 
-If any of the following attack types don't sound familiar review them at xref:roll_playing_system:CH28_Weapons.adoc[Attack Types,window=_blank].
+If any of the following attack types don't sound familiar review them at xref:combat:attack_types.adoc[Attack Types,window=_blank].
 
 .*Other Attack Types*
 * Sotto - semi-automatic shoot attacks
 * Flotto - full-automatic shoot attacks
-* Area - for Grenades and Aerosols
 * Psionic - mutation specific and unique 
-
-// end::Attack_Types[]
 
 == Attack Table
 The attack table blends skills, attributes, and experience into nnumbers that are added to the players's Attack Roll.
@@ -140,17 +134,17 @@ The attack roll parameters are Skilled Bonus (Skilled), Raw Bonus (Raw), Max Rol
 
 TIP: Too many numbers? Try the xref:role_playing_system:combat_rules.adoc[Theatrical Combat System,window=_blank].
 
-=== Skilled Bonus (Skilled)
-Skilled Bonus is added to Attack Rolls for weapons the persona knows how to use.
+=== Skilled Bonus
+Skilled Bonus (SKILL) is added to Attack Rolls for weapons the persona knows how to use.
 
 A persona can try to use any weapon they want.
 The player can only add the Skilled Bonus when her person is skilled with the weapon. 
 If a persona is not skilled with her weapon of choice, the player *cannot* add her Skilled Bonus.
-Anthro weapon skills are depedendent on their vocation. 
+Anthro weapon skills are dependent on their vocation. 
 Aliens are automatically skilled with their natural attacks, but may not even be able to recognize tool weapons. 
 Robots are whole separate kettle of bolts.
 
-.Skilled Bonus Narrative
+.Narrative example for SKILL
 ====
 A Nameless Nomad finds herself in a chase over a frozen wasteland.
 Occasionally she and her pursuers pause to catch their breath and take a few shots at one another.
@@ -171,8 +165,8 @@ If 775 is higher than the target's Defence Rating (DEF), the player will get to 
 
 NOTE: Older versions of EXP used "Proficiency" in the context of weapon skills. It is much easier to spell the word skill. 
  
-=== Raw Bonus (Raw)
-Raw Bonus is added to Attack Rolls for improvised or unfamiliar weapons.
+=== Raw Bonus
+Raw Bonus (RAW) is added to Attack Rolls for improvised or unfamiliar weapons.
 
 A persona can try to use any weapon they want.
 This includes weapons where the persona has no training or experience. 
@@ -181,11 +175,11 @@ The Raw Bonus is less than the Skilled Bonus for obvious reasons.
 This makes the player less likely to win an Attack Roll with an unfamiliar weapon. 
 The Raw Bonus is meant to apply to personal weapons that the persona can focus her basic skills on.
 A persona could not operate artillery and use her Raw Bonus for instance.
-Anthro weapon skills are depedendent on their vocation. 
+Anthro weapon skills are dependent on their vocation. 
 None combat vocations have less weapon skills and the players will be using the Raw Bonus more often.
 Aliens are automatically skilled with their natural attacks, but may not even be able to recognize tool weapons. 
 
-.Raw Bonus Narrative
+.Narrative example for RAW
 ====
 The Nameless Nomad slides down an icy incline, looking for some cover.
 Unfortunately, an enemy is already hiding behind the cover.
@@ -204,17 +198,17 @@ The player rolls 500 on the kilodie for her Attack Roll.
 The Strike Raw Bonus (Raw) is +35, and the Attack Roll is 535.
 If 535 is higher than the target's Defence Rating (DEF), the player will get to roll damage (harm the target).
 
-=== Max Roll (Max)
-The Max Roll is the highest Attack Roll the player can generate for her persona.
+=== Max Roll
+The Max Roll (MAX) is the highest Attack Roll the player can generate for her persona.
 
 The player's attack roll cannot be greater than the Max Roll of the Attack Type.
-The Max Roll (Max) increases with experience and skill.
+The Max Roll increases with experience and skill.
 If the Attack Roll exceeds the Max Roll the player uses the Max Roll value. 
 The Max Roll differentiates the neophyte from the skilled combatant. 
 When a persona's Max Roll is less than her target's Defence Rating (DEF) she can run, use Area Attacks or hope for a Critical Roll.
 For more information about lucky shots jump to xref:roll_playing_system:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
 
-.Max Roll Narrative
+.Narrative example for MAX
 ====
 After watching her ice pick bend futilely on her opponent's thick parka the Nameless Nomad decides to run.
 Running blindly she trips over a body in the snow.
@@ -233,20 +227,20 @@ Instead of stating your Max Roll is less than your target's Defence Rating of 84
 
 TIP: Max Roll can cut down on the amount of maths needed to play. If the player's kilodie roll is greater than her Max Roll no maths are needed. Efficient players also keep track of their Max Roll less their Raw Bonus. This allows them to identify a no maths roll even faster. 
 
-=== Force Bonus (Force)
-The Force Bonus increases the amount of damage delivered.
+=== Force Bonus
+The Force Bonus (FORCE) increases the amount of damage delivered.
 
-.A necessary diversion
+.An important point
 ====
-To understand the Force Bonus one needs to know a bit about Hit Points and damage.
+To understand the Force Bonus one needs to understand Hit Points and damage.
 Hit Points collectively represent a target's life force, structural integrity and luck.
 Decreasing your opponent's hit points to zero is the entire point of combat.
-Each turn the player gets a chance to reduce her opponent's hit points. 
+Each combat turn the player gets a chance to reduce her opponent's hit points. 
 The opponent also gets a chance to reduce the persona's hit points.
 These reductions are called damage. 
 The more hit points the target loses the more damage the target has taken. 
 It is a race to the bottom and whoever gets to zero Hit Points first *loses*.
-Get more info at xref:attributes:hit_points.adoc[Hit Points]
+to get more information about hit points and damage xref:attributes:hit_points.adoc[jump here.,window=_blank]
 ====
 
 Whenever the player wins an Attack Roll, she then makes a Damage Roll that decreases the target's hit points.
@@ -269,6 +263,7 @@ Shoot Attacks are self-powered and have no Force Bonus at all.
 * Shoot: 1d10 (crossbow) + 0 (Force) = 1-10 HPS damage
 
 == Defence Rating
+Defence Rating (DEF) represents how difficult it is to damage the target.
 Personas wrap all their defences up into one number called Defence Rating (DEF).
 The Defence Rating is a quantitative value that represents how difficult it is to damage the target.
 The higher the Defence Rating, the better the protected the target is.
@@ -290,19 +285,6 @@ The measure of combat distance is the hex, and the size of a hex is 2 meters.
 A slow persona with a movement rate of 3 hexes per unit (3 hu) could move three hex spaces per turn.
 A fast persona with a movement rate of 9 hu could move 9 hex spaces each turn.
 To learn more about movement move over to xref:roll_playing_system:CH12_Combat_Movement.adoc[Combat Movement,window=_blank].
-
-== Initiative
-The initiative system determines the order in which players act during the combat unit.
-Initiative is a measure of tactical advantage based on Awareness, Dexterity and luck.
-Every player rolls for initiative for their persona in every combat unit.  
-Winning initiative is a huge tactical advantage for the persona.
-
-It is not just a simple measure of who goes first
-Initiative is complex and convoluted.
-Players can choose to attack first, move first or move and attack first. 
-Players can also hold back their attacks and moves to gain a tactical advantage. 
-For more details about initiative, jump to
-xref:roll_playing_system:CH33_Initiative.adoc[Initiative,window=_blank].
 
 == Table Top
 The tactical combat rules are meant to be used on a hex mat using minis or tokens.
@@ -327,10 +309,25 @@ The referee and players can also use tokens to represent personas on the board.
 Minis are just fancy tokens. 
 Tokens can be paper chits, coloured cutouts, and or colourful paper minis.
 
-=== The Future Is Yesterday
+=== VTTs
 Virtual tabletops (VTTs) are nearly commonplace.
 VTTs allow the players to share the mat and the minis on a computer screen.
 VTTs can have everyone in the same room or in different countries.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
+
+== Initiative
+The initiative system determines the order in which players act during each combat unit.
+Initiative is a measure of tactical advantage based on Awareness, Dexterity and luck.
+Every player rolls for initiative for their persona in every combat unit.  
+Winning initiative is a huge tactical advantage for the persona.
+
+It is not just a simple measure of who goes first
+Initiative is complex and convoluted.
+Players can choose to attack first, move first or move and attack first. 
+Players can also hold back their attacks and moves to gain a tactical advantage. 
+For more details about initiative, jump to
+xref:roll_playing_system:CH33_Initiative.adoc[Initiative,window=_blank].
+
+NOTE: Author thought it would be funny to have initiative go last.
