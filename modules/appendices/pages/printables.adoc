@@ -1,5 +1,3 @@
-:kroki-server-url: https://kroki.io
-
 = Printables
 
 [quote]
@@ -7,14 +5,51 @@ ____
 *It is harder to burn history than delete it.*
 ____
 
-Things that may be helpful when playing at a table. 
-All content here is formatted for printing.
-Formatted for printing is code for PDFs.
+== Introduction
+EXP is a table top sciency fiction role playing game.
+Printables is the section where you can get the files for printing the necessary stuff to play.
+If you are feeling old school you can snag a copy of EXP v4. 
+If you only have 6 sided dice to use you can snag a 4D2 Mechanic One Pager. 
 
-NOTE: record sheets are completely out of date and useless
+All version 7 PDFs will have their accompanying docs as code ADOC companion downloadable as well.
+An ADOC file is a markdown file that can be converted into a PDF using Asciidoc-pdf tools. 
+Not only does this stay in EXP's docs as code goals, but allows players to style their PDFs as they see fit. 
+All the tools are free and open source.
+
+
+== Persona Record Sheets
+A collection of PDFs that are used to keep track of personas with pencil and paper.
+Download, print and play.
 
 // Table Download for Print
-.*Downloads for Print*
+.*Persona Records*
+[width="85%",cols="<5,^2,^2",frame="all", stripes="even"]
+|===
+3+<|PDF persona record sheets. Yes it is lonely right now. 
+s|Printable
+s|Type
+s|Size
+
+|xref:ROOT:attachment$anthro_record_v7.pdf[Anthro Record v7]
+|PDF
+|74k
+
+|xref:ROOT:attachment$campaign_sheet_v7.pdf[Campaign Record v7]
+|PDF
+|30k
+
+s|Printable
+s|Type
+s|Size
+3+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
+|===
+
+== Supports
+If it isn't a record sheet but is printable, here you go.
+The ADOC files correspond with the PDF of the same name.
+They can be run through asciidoc-pdf to build the corresponding PDF.
+
+.*Support Files*
 [width="85%",cols="<5,^2,^2",frame="all", stripes="even"]
 |===
 3+<|Mostly PDFs. Some relevant. Some historical.
@@ -22,29 +57,55 @@ s|Printable
 s|Type
 s|Size
 
-|xref:ROOT:attachment$Role_Playing.pdf[4D2 Mechanic One Pager  V6.1]
+|xref:ROOT:attachment$4d2_mechanic_v61.pdf[4D2 Mechanic v6.1]
 |PDF
 |177k
 
-|xref:ROOT:attachment$anthropomorph_record_sheet.pdf[Anthro Record Sheet V5.0]
+|xref:ROOT:attachment$anthro_record.adoc[Anthro Record v7 Code]
+|ADOC
+|6k
+
+|xref:ROOT:attachment$campaign_sheet_v7[Campaign Sheet v7 Code]
+|ADOC
+|3k
+
+s|Printable
+s|Type
+s|Size
+3+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
+|===
+
+== Historical
+Things from the past that may be useful. 
+For example, using persona record sheets from v5 (2010) that are missing in v7. 
+
+.*Historical Downloads*
+[width="85%",cols="<5,^2,^2",frame="all", stripes="even"]
+|===
+3+<|Mostly PDFs. Some relevant. Some historical.
+s|Printable
+s|Type
+s|Size
+
+|xref:ROOT:attachment$exp_game_v401.pdf[EXP Game v4.01 (1993)]
+|PDF
+|32M
+
+|xref:ROOT:attachment$anthro_record_sheet_v5.pdf[Anthro Record v5]
 |PDF
 |287k
 
-|xref:ROOT:attachment$robot_record_sheet.pdf[Robot Record Sheet V5.0]
+|xref:ROOT:attachment$robot_record_v5.pdf[Robot Record v5]
 |PDF
 |112k
 
-|xref:ROOT:attachment$alien_record_sheet.pdf[Alien Record Sheet V5.0]
+|xref:ROOT:attachment$alien_record_sheet_v5.pdf[Alien Record v5]
 |PDF
 |112K
 
-|xref:ROOT:attachment$toy_record_sheet.pdf[TOY Record Sheet V5.0]
+|xref:ROOT:attachment$toy_record_v5.pdf[TOY Record v5]
 |PDF
 |123k
-
-|xref:ROOT:attachment$expgame.pdf[EXP Hardcopy V4.01 (1993 Historical Doc.)]
-|PDF
-|32M
 
 s|Printable
 s|Type
@@ -53,15 +114,5 @@ s|Size
 |===
 
 
-== diagrams as code
-This little chunk of the effort represents an attempt to get diagrams as code working.
-This has been an utter failure with an entire 2 days ouroboric none learning.
-PlantUML, Antoradocs, and Asciidoctor are just too many layers of abstraction. 
-
-[kroki, plantuml, format="svg", opts="inline"]
-....
-Alice -> Bob: Hello Bob, how are you?
-Bob --> Alice: I am fine, thanks!
-....
-
-
+// fix theme.yml file is missing for PDF
+// fix .svg are missing for PDFs
