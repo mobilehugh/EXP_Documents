@@ -469,10 +469,10 @@ The hull supplies the space vehicle's Defence Rating used in combat.
 The hull and Defence Rating have an intimate relationship.
 In combat, the hull absorbs damage decreasing Defence Rating.
 
-NOTE: *The Hull Defence Rating (DEF) protects the Hull. Once the Hull AR is is less than 420, the Hull takes direct damage rolls.*
+NOTE: *The Hull Defence Rating (DEF) protects the Hull. Once the Hull DEF is is less than 420, the Hull takes direct damage rolls.*
 
 Defensive ECM can increase the space vehicle's AR against attack rolls.
-The increase in AR is a transient electronic deception and does not alter the Hull AR.
+The increase in AR is a transient electronic deception and does not alter the Hull DEF.
 
 == Defencive ECM
 Electronic countermeasures (ECM) deceptively manipulate the electromagnetic spectrum to defend the ship.
@@ -546,7 +546,7 @@ Shields usage is optional.
 Players may choose to turn off their shields to conserve fuel.
 
 Passive shielding becomes part of the life support system.
-Damage must disable the shields before the Hull AR can be damaged.
+Damage must disable the shields before the Hull DEF can be damaged.
 This passive protection does not use any extra fuel.
 
 include::combat:partial$life_support_onion.adoc[]
@@ -568,7 +568,7 @@ However, to prevent boarding or airlock intrusion, a mounted gun can be very eff
 ** ammo can be limited to forward plot
 * has an AR equal to the ship's hull
 ** including ECM and shields
-* damaged by Hull AR damage or airlock damage location
+* damaged by Hull DEF damage or airlock damage location
 
 == Active Defenses
 Active defences intercept incoming attacks.
@@ -598,7 +598,6 @@ target = 100 - success = 100 - 72 = 28 Player must beat 28 to actively defend.
 
 A ship can attempt to thwart one attack per level of computer per turn.
 
-
 .*Notes about active defences*
 * Active defences are not part of the Life Support Onion
 * Active defences are automated
@@ -607,10 +606,27 @@ A ship can attempt to thwart one attack per level of computer per turn.
 * *Actives cannot be weaponized*
 
 == Counter Attacks
-Counterattacks are opportunities offered to a defending ship.
+Counter attacks are not defences per se, but they do offer defencive capacity to a vessel.
 Counters are specific defences against specific attacks. 
 For example, a ship being rammed or boarded gets to counterattack with mines or artillery. 
 Counters are detailed on the the Attack Defend Counter Attack Table.
 Said table is repeated here for convenience. 
 
 include::combat:partial$exatmo_vehicle_turn_order.adoc[]
+
+== Table Co-Location
+For your surfing convenience.
+
+include::combat:partial$exatmo_vehicle_damage_location.adoc[]
+
+include::combat:partial$exatmo_vehicle_damage_amount.adoc[]
+
+include::combat:partial$exatmo_system_dysfunction.adoc[]
+
+
+
+== Vessel Damage
+What happens when an attack is successful or a defence is unsuccessful.
+To find out how it breaks jump to xref:combat:combat_and_exatmo_vehicle_damages.adoc[Examto Vehicle Damage]
+
+
