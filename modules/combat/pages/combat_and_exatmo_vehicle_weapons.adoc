@@ -1,0 +1,616 @@
+= Exatmo Vehicle Combat Tools
+
+These are the details of exatmo vehicle attacks and defences function. 
+The actual devices are brought into being when the exatmo vehicle is generated. 
+Space vehicles are created in the xref:hardware:CH52_Space_Vehicle.adoc[Space Vehicles] section.
+Players and referees should understand space vehicles before blowing them up.
+
+== Attacks
+Attacks are a collection of electronic, kinetic, and energy weapons that one ship uses to control or damage another ship.
+Some attacks work as defences as well.
+
+.*List of Attacks*
+. <<_ecm,ECM>>
+. <<_ramming,Ramming>>
+. <<_artillery,Artillery>>
+. <<_boarding,Boarding>>
+. <<_grenades,Grenades>>
+. <<_bombs,Bombs>>
+. <<_naval_artillery,Naval Artillery>>
+
+== Attack ECM
+*Electronic Counter Measures is Turn Order 1*
+
+ECM is an abbreviation for electronic countermeasures, and it is pronounced "easy em."
+ECM is the battle for control over the electromagnetic spectrum.
+In space vehicle combat, ECM is the battle for control over the electronics of the target ship.
+Attack ECM can confuse the target ship's defences with false data and manipulate the target ship's essential components.
+ECM can be used defensively instead.
+An ECM is only capable of doing one of each per turn.
+The pilot must choose between Attack Assist, Attack Control or Defense each turn.
+
+ECM only applies to the turn it is utilized for. 
+
+.*ECM Choices*
+. Attack Assist
+. Attack Control
+. Defence
+
+=== Attack Assist
+When ECM is being used to assist its own ship's attacks, it will attempt to deceive the target by creating inaccurate or false data for the target ship.
+ECM does this by making single attacks appear as multiple attacks, altering the apparent course of incoming attacks, or confusing the estimated arrival time of an attack.
+All such falsified data will increase the chance of success of a ship's attack.
+
+.*Attack Assist*
+* Attack Rolls (physical) +150 per Computer Level
+* Success Rolls (electronic) *3% per Computer Level
+
+Consider a space vehicle with a level 2 computer employing ECM Attack Assist.
+The player would get +300 on Attack Rolls when attacking with physical elements like missiles, mines and artillery.
+When making Success Rolls for electronic or navigational elements like Attack Control or Ramming Attempts the player would a bonus of +6.
+
+=== Attack Control
+ECM control manipulates a target ship's onboard systems.
+The chance of successfully controlling another ship's systems is 8% per level of the attacking spacecraft's computer.
+If an ECM Control Attack should fail, that particular control attack cannot be re-attempted during the combat session.
+However, a different ECM Control Attacks are still possible. 
+If an attempt to reduce drive effectiveness fails, the ECM Control Attack can attack the ship's gravity in the next turn.
+The pilot can choose to use control attacks until something clicks.
+
+If control ECM is successful, the targeted component's capacity decreases.
+An ECM unit cannot do anything else while controlling the target ship's components.
+This effect will last until the target ship breaks the ECM, the target ship uses its special drives, or the attacking ship ceases the attack.
+
+The referee will often need to improvise the effect of an ECM control attack.
+When improvising, the ref should remember that a successful ECM attack will not destroy a ship.
+An ECM control attack reduces a particular ship component's effectiveness and increases the ship's vulnerability to other attacks.
+
+include::combat:partial$exatmo_vehicle_ecm_control.adoc[]
+
+=== Defence
+ECM goes both ways.
+ECM can be used for both attack and defence.
+The particulars are divided between the Attacks and Defences sections for organizational reasons. 
+To go over all the details of ECM defence jump to <<_defencive_ecm, Defencive ECM>>
+
+
+=== ECM Success Roll Target
+.100 - (8% per ECM Computer Level)
+****
+target = 100 - 24 (comp level 3) = 76. Player must beat 76.
+****
+
+:art: aggressive_boarding.png
+:width: 350px
+:snark: Some sailors can't wait for boarding.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Human woman with cybernetic parts jumping out of spaceship hull opening.
+include::ROOT:partial$articulate.adoc[]
+
+== Ramming
+*Ramming is Turn Level 2*
+
+Ramming is a boarding method.
+Ramming is similar to boarding, except that ramming has lots of crunching and scraping noises.
+Ramming is different from regular boarding because it does not align airlocks.
+A space cruiser with a ramming attack has a specialized fortified airlock that can ram into any part of the target ship's hull.
+Ramming is violent and throws caution to the solar winds.
+Once attached, the invading party may breach the hull to gain entry into the ship.
+
+ECM can assist ramming. 
+Using ECM as an attack assist for ramming gives a +6 bonus per computer level on the Ramming Pilot Roll.
+ECM cannot assist ramming while carrying out other ECM attacks or defences.
+
+.*Ramming Checklist*
+. Determine the number of ram attempts
+. Determine Ramming Pilot Roll
+. Assess Damage Location on target.
+. Extent of Damage to target vessel (max Major)
+. Damage (one level less) to ramming vessel
+.. Lash and board 0-3 (1d4-1) turns
+.. Smash and run
+
+=== Attempts
+An attacking vessel only has so many opportunities to ram a target. 
+The target ship's pilot and computer make avoidance maneuvers using the exatmo drives.
+Eventually, the target vessel will become immune to the ramming attacks.
+
+Maximum number of attempts is 
+
+=== Calculate Attempt Number
+.Attempts = (attacker drive + computer + pilot levels) - (defender drive + pilot levels)
+****
+attempts = 5 (drive 5) + 2 (computer 3) + 1 (pilot 1) - 4 (drive 4) - 2 (pilot 2) = 2 
+****
+
+==== Positive Ramming Attempts
+If the number of ramming attempts is positive, the attacker gets that many ram attempts.
+An attacking vessel cannot have more than four ramming attacks per turn.
+If the number of ram attempts is two, the attacker can make two ram attempts during the turn. 
+If the number of ram attempts is six, the attack can make four ram attempts during the turn.
+
+==== Zero Ramming Attempts
+The ships are at equipoise and the ramming ship gets one ramming attempt that turn.
+
+==== Negative Ramming Attempts
+The ramming vessel is inferior to the target vessel and is only allowed one single ramming attempt for the entire battle.
+In some cultures this is called a Hale Mary. 
+The ramming vessel suffers a penalty equal to the ramming attempts number.
+The penalty is not built into the Ramming Success Roll, and cause the ramming vessel to lose pilot and computer levels. 
+
+If the ramming attempt number is -3, the attacker must remove 3 levels from her pilot level.
+This can often lead to a success roll >100. 
+In this instance the player must roll 100 to successfully ram. 
+
+=== Ramming Success Target
+.100 - (12% + pilot level) * computer level
+****
+success = (12 + 3 (pilot 3)) times 6 (comp 6) = 15 * 6 = 90 +
+target = 100 - success = 10. Player must roll 10 or higher to ram.
+****
+
+=== Ram Begets Ram
+Each time an attacker has a failed ram, the target gets a chance to ram in return.
+The target space vehicle gets one ram attempt per failure.
+If an attacker fails three ramming attempts, the target ship gets three ram attempts. 
+
+=== Ram Location
+Ram location is randomly determined as both ships are writhing at nearly light speed.
+The ram location determines where the ram connects.
+This location determines vessel damage or boarding location. 
+How to determine the location of a successful ram jump to <<_damage_location,Damage Location>>.
+
+== Smash or Lash
+The players must decide whether they are smashing and running or lashing onto the rammed vessel.
+Smashing is as it sounds.
+The attacker smashes the target ship and backs off like a demo derby near light speed.
+Lashing involves attaching to the target ship and boarding through the breached hull. 
+
+Ramming damages both the ramming and rammed vessels. 
+Hull breach success is automatic and takes 0-3 (1d4-1) combat turns.
+The Damage Location Roll also indicates where the attacking ship will breach the hull.
+For example, if the damage location is the target ship's drives, the boarding party will enter the vessel at the drives.
+
+== Artillery
+The purpose of ship artillery is to damage the target ship so that it ceases to function.
+This goal is achieved by penetrating the hull and delivering the artillery's destructive force to the internal components of the ship.
+
+Space vehicle artillery has the same damages and effects as the inatmo artillery it is modelled after.
+The two differences are ammunition stores and range. 
+Energy-based weapons can fire as long as the ship has fuel, and ammunition requiring ammo will have 100 times the regular supply.
+There are no range penalties during space vehicle combat. 
+
+The expedition cannot fire space vehicle artillery from exatmo to inatmo.
+This artillery cannot cross into an atmosphere.
+Once the space vehicle is inatmo, the players can use the artillery as usual. 
+
+=== Attack Roll
+Artillery requires a successful attack roll to inflict damage.
+The player must win an attack roll against the target spaceship's Defence Rating.
+The attacker must make a kilodie roll higher than her target's Defence Rating.
+The target ship's Defence Rating, including hull strength and ECM, may prove impenetrable to many artillery attacks.
+
+The attacking ship's computer level adjusts the artillery's attack roll.
+A gunnery program will fire the artillery automatically, with a bonus of +50 per level of ship's computer.
+If a skilled gunner persona is firing the artillery, there is a bonus of +100 per level of ship's computer.
+The organic firing bonus is due to the unpredictability of an organic life form firing a weapon.
+
+== Boarding
+*Boarding is Turn Order 4*
+
+Boarding is congenial ramming.
+Boarding lines up airlocks to prepare for a breach and boarding of the target vessel.
+The attacker can only use boarding to force airlocks together while exatmo (exterior to atmosphere).
+Once connected, the attacking crew will breach the airlock of the target ship and then board.
+Boarding is a preferred attack because it preserves the target space vehicle, hostages, cargo and is a lot more fun.
+
+.*Boarding Checklist*
+. Determine the number of board attempts
+. Make Boarding Pilot Roll.
+. Prepare to board
+
+=== Mutual Boarding
+If two ships are trying to board each other, they will be automatically successful.
+Since the goal of both ships is to connect airlocks.
+ECM will recognize that both ships want to connect, and it will happen automatically.
+If either the attacker or target vessel wants to direct the mutual boarding to a specific airlock, they must win a boarding roll.
+
+=== Attempts
+The number of boarding attempts equals the number of ramming attempts, and the same calculations apply.
+Table is included here for convenience.
+There is a maximum of 1 attempt at boarding per turn.
+If the number of boarding attempts is less than one the vessel *CANNOT* board.
+
+=== Calculate Attempt Number
+.Attempts = (attacker drive + computer + pilot levels) - (defender drive + pilot levels)
+****
+attempts = 5 (drive 5) + 2 (computer 3) + 1 (pilot 1) - 4 (drive 4) - 2 (pilot 2) = 2 
+****
+
+=== Boarding Success Target
+.100 - (4% + pilot level) * computer level
+****
+success = (4 + 3 (pilot 3)) times 6 (comp 6) = 7 * 6 = 42 +
+target = 100 - success = 58. Player must roll 58 or higher to board.
+****
+
+=== Once Connected
+If the player wins the boarding roll, the two vessels attach via airlocks.
+Once connected to the target ship, there are a few options.
+The attacking vessel can stay docked, and the boarding party can work on opening the airlock.
+Usually, a boarded ship will be resigned to its fate and open the airlock to avoid damage.
+
+Combat fuel consumption is the only requirement to remain attached.
+Once a ship has been boarded, it cannot forcefully detach from its attacker.
+The only recourse that the target ship has is to continue maneuvering at combat fuel consumption and hope that the boarding ship runs out of fuel.
+If the boarding ship can no longer maintain combat maneuvers, the target ship can break away from boarding. 
+
+If the target is unwelcoming, the airlock may require breaching.
+Airlock breaching is left for the referee to run with her players.
+Mechanics and spies are more proficient at airlock opening than dumb old mercenaries.
+
+== Grenades
+*Grenades are Turn Order 5*
+
+The types of space vehicle grenades are the same as their inatmo counterparts.
+The main difference is that these grenades travel by mini-missile or mini-mines, and they must win an attack roll to damage the target.
+Inatmo personas throw grenades and only need to get close to damage a target.
+
+The grenade is a space vehicle vs a space vehicle weapon.
+A successful attack roll must be made against the space vehicle's Defence Rating to inflict damage.
+If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
+
+Grenade delivery systems have diminutive titles because they only deliver grenades. 
+Proper missiles and mines deliver bombs.
+
+=== Mini-Missiles
+Mini-missiles are rocket-propelled space grenades.
+Each mini-missile must win an attack roll to damage their target.
+Attack Assist ECM can be used to help the Attack Roll. 
+The mini-missile attack lands in same turn as launched.
+It is acceptable to have mini-missiles land in the following turn.
+
+*A vessel can launch 2 mini-missiles per computer level per turn* 
+
+Mini-missiles cannot cross an atmosphere.
+They must stay exatmo or inatmo.
+When used inatmo, the mini-missiles attack like regular grenades as an area of effect weapon.
+
+Targeted vessels can outrun mini-missiles.
+The targeted vessel must have a exatmo drive that is two levels higher than the attacking vessels. 
+When outrunning mini-missiles the targeted vessel cannot make any physical attacks, boarding or ramming. 
+
+Targeted vessels can use ECM to impair mini-missiles. 
+Defensive ECM, or Attack Control ECM can mess up mini-missile targeting and drive power.
+
+=== Mini-Mines
+Mini-mines are thruster powered space grenades.
+They do not have rockets like mini-missiles and do not chase targets. 
+The can make short burns to punt themselves within range of targets.
+They can be dumped in the path of a chasing vessel or launched against the hull of ramming vessel.
+
+*A vessel can dump 4 mini-mines per computer level per turn*
+
+Mini-mines, like mini-missiles, cannot survive the rigours of crossing into an atmosphere but can be used to bomb targets once inatmo.
+
+The mini-mines are useful because ECM does not affect them.
+Mini-mines also move too slow to be blocked by shields.
+Essentially mini-mines cannot be avoided unless they are visually detected.
+The ability to detect the tiny camouflaged mini-mines in space requires a bizarre AWE (kilodie) roll.
+
+== Bombs
+*Bombs are Turn Order 6*
+
+Space vehicle bombs function the same as their inatmo counterparts, but the delivery is a mine or missile. 
+The prefix naval is used to reflect the military nature of these weapons and their vessel destroying purpose.
+
+Bombs need only explode near the ship's hull to inflict damage to the contents within.
+A bomb is guaranteed to damage a target with a successful attack roll.
+Every bomb gets a second chance to damage a vessel just by getting close enough. 
+If the raw roll of a missile or mine is better than 542, the target is still damaged.
+Dangerous, destructive weapons.
+
+=== Missile
+A missile delivering a bomb is a bespoke weapon for destroying target vessels.
+The term naval missile, bomb missile and missile are interchangeable.
+Using a missile is about destroying a target vessel.
+
+*A vessel can control 1 missile per 3 computer levels.*
+
+Missiles can target any detectable space vehicle.
+No vessel can outrun a missile, but they can buy some time.
+This allows for time to impact countdowns and story building.
+ECM can impair a missile's ability to function.
+
+=== Time to Impact
+.Target's Exatmo Drive Level - Attacker's Exatmo Drive Level
+****
+impact time = 5 (target drive 5) - 2 (attackers' drive 2) = 3 turns of tension
+****
+
+The time to impact is the minimum time to impact. 
+The attacking vessel can hold off impact longer than the time to impact if so desired. 
+This could be done for negotiation, dramatic, or some other dirty reason.
+If the attacker's drive exceeds the target's drive the time to impact can be in the same turn as launch.
+
+NOTE:*time to impact is a wonderful sciency fiction plot device*
+
+An attack roll is still required to damage the target.
+However even a miss can still damage the target. 
+If the raw roll of the kilodie is higher than 442 the bomb still damages the target.  
+
+Missiles cannot function inatmo.
+A target vessel may escape a missile by hiding inatmo or by jumping with the special drives.
+
+=== Mine
+A mine delivering a bomb is a bespoke weapon for destroying target vessels.
+The term naval mine, bomb mine and mine are interchangeable.
+Using a mine is about destroying a target vessel.
+
+Mines have minimal drive capabilities and are meant be dumped into the path of a pursuing vessel, or dropped from space onto planetside targets.
+
+*A vessel can control 1 mine per computer level*
+
+Mines are virtually undetectable.
+Defensive ECM does not work against them.
+Visually detecting a mine in space is an improbable (d100) Awareness attribute roll.
+Mines are hardy enough to be deployed in the atmosphere or in orbit to be used as fierce surface attack weapons.
+
+== Naval Artillery
+*Naval Artillery is Turn Order 7*
+
+Naval artillery is a bespoke weapon for destroying target vessels and it's accompanying life forms.
+This weapon is not used to soften a target for boarding, or fire warning shots. 
+Naval artillery has only one purpose in mind, to destroy the target vessel.
+
+Naval artillery is more deadly than its deadly inatmo companion, inflicting many times more damage and many many times more range.
+One use of naval artillery exhausts a whole day's worth of fuel.
+For dramatic effect naval artillery can only be fired once a turn. 
+Players cannot idly use their naval artillery; it requires a gunnery program and gunners.
+Without this complement, a ship cannot fire its naval artillery.
+
+The player must win an attack roll to damage the target.
+However a miss with naval artillery may still inflict damage on the target vessel.
+A successful attack roll is considered a direct hit and inflicts *two* damage rolls on the target.
+A near miss still does one damage roll on the target. 
+A near miss is a raw attack roll greater than 442.
+
+Shields can only absorb damage from one damage roll in the case of a direct hit. 
+
+Naval artillery only works exatmo and cannot cross or be used in the atmosphere.
+Keeping in mind that a vessel cannot escape into the atmosphere in time to avoid this attack.
+
+== Defences
+A space vehicle's defences both defend against attacks and the hostile environment of outer space.
+Defences are a mix of combat defences and essential exatmo life support protections.
+
+.*Defences*
+. Life Support
+. Gravity Control
+. Hull
+. Armour
+. ECM
+. Shields
+. Guns
+. Actives
+
+== Life Support
+Life support maintains a comfortable environment for the organic and delicate inorganic contents of the ship.
+Life support is a fancy air conditioner that also supplies the air.
+The life support, gravity control and the ship's hull have an intimate level of integration. 
+Life support is impossible to disable because it is both distributed and self-contained.
+The ship's computer depends on an intact life support system.
+Life support functions correctly unless directly damaged by combat.
+
+ECM Control Attacks can manipulate life support and make the inhabitants uncomfortable.
+Control ECM cannot turn off life support or threaten the well-being of the ship's contents.
+
+include::combat:partial$life_support_onion.adoc[]
+
+Destroying life support is rarely the goal of space vehicle combat. 
+Space vehicles are too valuable to destroy utterly.
+A loss of life support destroys all life on the ship, and more importantly, the ship's computer.
+Life support has onion layer protection, and the outer layers protect the inner layers. 
+One cannot damage life support without disabling the hull and then gravity control first.
+
+A partially damaged life support system will maintain a fraction of the atmosphere proportional to its amount of damage.
+A fully operational life support system taking major damage would only have 60% of the previously had atmosphere.
+This thin atmosphere will make it more challenging to work and stay conscious.
+
+If a space vehicle loses all layers of life support at once, the ship will suffer explosive decompression.
+Decompression destroys all organic materials (personas) and delicate inorganic devices (computers, robots, toys).
+
+== Gravity Control
+The gravity system is a crucial component of the life support system.
+The gravity control, life support and the ship's hull have an intimate level of integration. 
+
+include::combat:partial$life_support_onion.adoc[]
+
+Gravity control maintains gravity at a constant attraction of 1g.
+The gravity is uniform across walkways, workspaces, cargo holds, cabins, and hull exterior.
+The ship's computer can adjust the gravity from 0.5 to 1.5 gravities.
+
+Gravity control maintains a comfortable working gravity throughout the ship at all times. 
+Personas onboard will not notice any difference between a stationary ship and one making combat maneuvers near light speed.
+Almost any maneuver performed by a space vehicle would destroy all organic materials (personas) and destroy all delicate inorganic devices (computers, robots, toys) without gravity.
+
+NOTE: *Gravity control is a sciency fiction mechanism designed for role-playing fun.*
+
+The gravity system can be manipulated by control attack ECM.
+However, control ECM cannot turn off gravity or make life dangerous for the vessel's contents.
+ECM Control Attacks are an irritation manipulating the gravity to confound, not kill, the crew.
+
+.*Damage to Gravity System*
+. Gravity at <30% No combat
+. Gravity at <10% No exatmo or inatmo movement 
+. Gravity at <1% No gravity
+. Life Support vulnerable
+
+At less than 30% function, gravity control cannot maintain safety during combat maneuvers.
+Without the protection of gravity control, the vessel must drop out of combat.
+Loss of gravity control is a victory condition.
+
+At less than 10% function, gravity control cannot maintain safety during standard exatmo drive maneuvers.
+Without the protection of gravity control, the vessel must crawl through space with limited acceleration.
+
+== Hull
+The hull is a crucial component of the life support system.
+The ship's hull, gravity control and life support have an intimate level of integration. 
+
+include::combat:partial$life_support_onion.adoc[]
+
+The hull is the containment and physical defence system of the ship.
+The hull also defends against both hostile environments and attacks.
+The star cruiser's hull is the last line of defence.
+
+The hull supplies the space vehicle's Defence Rating used in combat.
+The hull and Defence Rating have an intimate relationship.
+In combat, the hull absorbs damage decreasing Defence Rating.
+
+NOTE: *The Hull Defence Rating (DEF) protects the Hull. Once the Hull AR is is less than 420, the Hull takes direct damage rolls.*
+
+Defensive ECM can increase the space vehicle's AR against attack rolls.
+The increase in AR is a transient electronic deception and does not alter the Hull AR.
+
+== Defencive ECM
+Electronic countermeasures (ECM) deceptively manipulate the electromagnetic spectrum to defend the ship.
+ECM is more effective as the ship's computer level increases.
+If any personas have skill in ECM, they can add that skill level to the computer level used for the ECM.
+So if a mechanic has ECM level 2 and the computer level is 3, then the ECM will function as a level 5.
+
+ECM is an accessory unit of the ship's computer. 
+Electronic countermeasures are both attack ECM and defence ECM.
+An ECM unit cannot be both at the same time.
+If the space vehicle has only 1 ECM unit, the players must decide how to use it each combat turn.
+
+ECM can be used to attack or defend. 
+For more info about attack ECM jump to <<_attack_ecm,Attack ECM>>
+
+=== AR Boost
+Most often, defensive ECM will be used to make the ship harder to attack.
+ECM creates false images of velocity, trajectory, rotation, size, etc.
+All of this electronic tom-foolery results in a +200 bonus to the ship's Defence Rating per computer level.
+
+=== Break Control
+Defensive ECM is essential when the ship is under attack from control ECM.
+Defensive ECM can identify whether a ship's component is malfunctioning or whether it is malfunctioning due to control ECM.
+Defensive ECM will use the ship's computer to re-route communications channels and alter security, to defend against ECM Control Attacks.
+
+For example, if a control ECM attack had reduced the effectiveness of the ship's drives, defensive ECM could be used to break this control.
+Successfully breaking this control restores the drives to their previous level.
+The chance of success is 15% per computer level.
+
+==== Break Control Success Roll Target
+.100 - 15 * (computer + skill level)
+****
+success = 15 times (comp 3 + engineer 2) = 75 +
+target = 100 - success = 100 - 75 = 25  Player must roll 25 or higher to break control.
+****
+
+=== ECM Camouflage
+Defensive ECM can be used to hide the ship electromagnetically.
+ECM will make the ship blend in with the background or appear some anomaly other than a spaceship.
+This aspect of ECM will not hide the ship from a visual inspection, but it will deceive another ship's sensors.
+
+==== ECM Camouflage Roll Target
+.success = 100 - 9 * (computer + skill level)
+****
+success = 9 times (comp 3 + engineer 2) = 45 +
+target = 100 - success = 100 - 45 = 55  Player must roll 55 or higher to break control.
+****
+
+=== Damaged ECM
+Damaged ECM drops its effectiveness by the percentage indicated on the Extent of Damage table.
+For example, ECM at 50% efficiency can only offer +100 per computer level to the ship's Defence Rating.
+
+== Shields
+The shields protect the hull AR and hull from energy and kinetic attacks.
+A defensive shield may be a force field or a structural mechanism. 
+Both mechanisms work by distributing the destructive force across the entire hull.
+This faux scientific diffusion effectively dampers the damage.
+The shields have an active mode that the players turn on to thwart intentional damage.
+Shields also have a passive mode, and when present, they are part of the life support system.
+
+Shields require energy to distribute attack damage and are powered directly by the exatmo drives.
+The shields can absorb 100 HPS of damage for every level of exatmo drive.
+For example, a ship with a level 4 drive could absorb 400 HPS of damage.
+An attack with 429 HPS of damage against a 400 HPS shield would only deliver 29 HPS damage to the ship.
+
+The shields absorb damage from mini-missiles, naval-missiles, artillery, and naval artillery attacks.
+Shields do not affect ECM, boarding, ramming, mini-mines or naval mines. 
+
+Active shield use doubles fuel consumption. 
+Shields usage is optional.
+Players may choose to turn off their shields to conserve fuel.
+
+Passive shielding becomes part of the life support system.
+Damage must disable the shields before the Hull AR can be damaged.
+This passive protection does not use any extra fuel.
+
+include::combat:partial$life_support_onion.adoc[]
+
+== Guns
+A gun is a purely defensive element in space vehicle combat.
+A gun does not sound like a defensive tool, but occasionally the best defence is a good offence.
+Guns on space vehicles are anti-personnel air lock defence weapons.
+In ship-to-ship combat, a gun is an ineffectual weapon.
+However, to prevent boarding or airlock intrusion, a mounted gun can be very effective.
+
+.*Airlock Defensive Guns*
+* operate inside or outside of the airlock
+* operate inatmo or exatmo
+* operates autonomously with software
+* Can be controlled by personas
+** mercenaries do this best
+* has unlimited ammo to defend against boarding
+** ammo can be limited to forward plot
+* has an AR equal to the ship's hull
+** including ECM and shields
+* damaged by Hull AR damage or airlock damage location
+
+== Active Defenses
+Active defences intercept incoming attacks.
+Active defences are sometimes called actives.
+They can eject micro-missiles, shrapnel, energy blasts, lazer matrices, or crystalline discharges. 
+The goal is to dissipate, prematurely detonate, or destroy incoming attacks.
+All active defences function equally.
+Active defences can stop grenades, bombs, or artillery.
+Actives defences cannot stop boarding, ramming, ECM, or naval artillery.
+
+.*Active Defence Types
+* micro-missiles
+* shrapnel clouds
+* ceramic bullets
+* crystalline discharges
+* lazer matrices
+* energy hoses
+* phalanx
+
+[discrete]
+=== Active Defence Success Roll Target
+.success = 100 - 9 * (computer + exatmo drive + skill levels)
+****
+success = 9 times (comp 5 + drive 3 + skill 0) = 72
+target = 100 - success = 100 - 72 = 28 Player must beat 28 to actively defend. 
+****
+
+A ship can attempt to thwart one attack per level of computer per turn.
+
+
+.*Notes about active defences*
+* Active defences are not part of the Life Support Onion
+* Active defences are automated
+** Gunnery skilled personas can help
+* Active defences work inatmo and exatmo
+* *Actives cannot be weaponized*
+
+== Counter Attacks
+Counterattacks are opportunities offered to a defending ship.
+Counters are specific defences against specific attacks. 
+For example, a ship being rammed or boarded gets to counterattack with mines or artillery. 
+Counters are detailed on the the Attack Defend Counter Attack Table.
+Said table is repeated here for convenience. 
+
+include::combat:partial$exatmo_vehicle_turn_order.adoc[]
