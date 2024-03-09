@@ -38,6 +38,11 @@ s|Size
 |PDF
 |30k
 
+|xref:ROOT:attachment$4d2_mechanic_v61.pdf[4D2 Mechanic v6.1]
+|PDF
+|177k
+
+
 s|Printable
 s|Type
 s|Size
@@ -47,7 +52,9 @@ s|Size
 == Supports
 If it isn't a record sheet but is printable, here you go.
 The ADOC files correspond with the PDF of the same name.
-They can be run through asciidoc-pdf to build the corresponding PDF.
+The ADOC can be run through asciidoc-pdf to build the corresponding PDF.
+The pdf_theme.yml will be needed. 
+As well as the zip of SVGs.
 
 .*Support Files*
 [width="85%",cols="<5,^2,^2",frame="all", stripes="even"]
@@ -57,9 +64,14 @@ s|Printable
 s|Type
 s|Size
 
-|xref:ROOT:attachment$4d2_mechanic_v61.pdf[4D2 Mechanic v6.1]
-|PDF
-|177k
+|xref:ROOT:attachments$pdf_theme.yml[ADOC to PDF]
+|YML
+|600b
+
+|xref:ROOT:attachment$pdf_svgs.zip[SVG ZIP file]
+|SVGs
+|1.6k
+
 
 |xref:ROOT:attachment$anthro_record_v7.adoc[Anthro Record v7 Code]
 |ADOC

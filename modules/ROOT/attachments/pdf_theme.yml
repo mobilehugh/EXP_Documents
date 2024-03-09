@@ -1,0 +1,26 @@
+# a theme for the persona record pdf
+page:
+  size: letter # Set the page size. Common sizes include A4, Letter, etc.
+  margin: [0.25in, 0.25in, 0.25in, 0.25in] # Set the page margins as [top, right, bottom, left].
+
+base:
+  font_family: Helvetica
+  font_size: 14pt
+
+role:
+  small:
+    font_size: 9pt
+
+  headerbox:
+    font-color: #000 
+    background-color: #D3D3D3
+    # font-style: bold
+    font-size: 16
+    border-color: #000
+    border-offset: 2.5 # Spacing between the border and the content
+    border-radius: 2 # Rounded corners of the border
+    border-width: 1 # Thickness of the border
+    margin: [30, 30, 30, 30]
+
+
+
