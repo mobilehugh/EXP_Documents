@@ -1,0 +1,324 @@
+= Inatmo Vehicle Combat
+
+Inatmo vehicles are the atypical vehicles that one finds planetside.
+This section covers using vehicles in the tactical combat rules. 
+Inatmo vehicle combat covers how to shoot from, shoot at, and destroy vehicles in battle. 
+Inatmo vehicle combat is cinematic vehicle combat and is persona centered.
+This section is for when lethal personal combat combines with driving.
+Before destroying vehicles, you should learn how to create them first.
+Jump to xref:hardware:CH54_Vehicles.adoc[Inatmo Vehicle,window=_blank]. 
+
+Inatmo vehicle combat works best for land-based combat.
+These rules can accommodate air, water and submariner combat.
+This section does not apply to combat taking place exterior to the atmosphere.
+For space vehicle combat, jump  to xref:combat:combat_and_exatmo_vehicle_intro.adoc[Exatmo Vehicle Combat,window=_blank].
+
+This section is *not* for expeditions driving from one place to another. 
+This section is *not* for expeditions racing cars for fun.
+This section is *not* for drivers who are behaving recklessly.
+For uncombat driving shenanigans jump to  xref::CH17_Driving.adoc[Driving, window=_blank]. 
+
+:art: vehicle_combat_trick_moves.png
+:width: 450px
+:snark: Seat belts please.
+:artist: Pat Redding
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Multilane flying car chase scene with guns akimbo.
+include::ROOT:partial$articulate.adoc[]
+
+== Table Top
+Most vehicles will run out of tabletop hex mat in a unit or two.
+Managing the high movement rates of vehicles in combat is a hex mat challenge.
+A typical vehicle will cross an entire hex max in one combat unit. 
+When using tokens and hexagons, full-speed vehicles just zip across the field.
+
+Vehicle racing, or chasing, is another reason to keep track of vehicle location.
+Car chases are fun.
+If there are no persona tokens on the mat, try a smaller scale hex mat.
+The smaller scale mat allows for high-speed maneuvers, movement and treacherous obstacles.
+Regardless of the reason for tracking vehicles on a hex mat, they move like any other persona.
+They just cover more hexes each unit and can have a collision if reckless.
+
+Players with flying vehicles must keep track of their elevation. 
+EXP is not responsible for misuse of the https://en.wikipedia.org/wiki/Pythagorean_theorem[Pythagorean theorem,window=_blank].
+
+== Typical Use Cases
+Inatmo vehicle combat is an extension of the tactical combat rules. 
+Attack rolls, movement, and damage parallel the tactical system.
+The ruleset here is for tactical combat, including moving vehicles.
+The main challenge for vehicle combat is accommodating relative movement rates.
+Inatmo combat focuses on the most common use cases that occur in vehicle combat.
+
+NOTE: *Parked vehicles are cover or concealment.*
+
+.*Common Combat Situations*
+* Attack roll targeting a moving vehicle (attacker essentially still)
+* Attack roll from a moving vehicle (target essentially still)
+* Attack roll between moving vehicles (attacker and target moving)
+* Additional considerations
+
+== Speed
+A vehicle moving at twenty h/u or less is moving too slow for vehicle combat.
+This movement rate works within the tactical combat system.
+The vehicle becomes mobile cover or concealment and not something that requires a whole combat section. 
+
+Vehicle combat is persona-focused and cinematic. 
+The vehicle combat ruleset is faux realistic and designed for dice-rolling fun.
+
+.*Various Speeds*
+* 1 h/u = 1 m/s
+* 1 h/u = 3.6 kmh
+* 1 h/u = 2.2 mph
+* 10 h/u = fastest mundane terran
+* 25 h/u = Gale force winds
+* 28 h/u = 100 kmh
+* 31 h/u = mundane terran spotted cat
+* 45 h/u = 100 mph
+* 80 h/u = speed of an arrow
+* 342 h/u = Speed of sound
+
+=== Stationary Attacker
+The main challenge for the attacker is that their target is moving at high speed.
+The persona launching the attack is relatively motionless, and only the movement rate of the vehicle applies.
+The speed of the vehicle makes a successful attack roll more difficult.
+The greater the speed differential, the harder it is to hit the target.
+The speed of the vehicle adjusts its Defence Rating. 
+
+[discrete]
+=== Speed Attack Penalty
+.Attack Roll - 10 per h/u 
+****
+Attack Roll = 500 (kilodie) - (30 h/u * 10) = 500 - 300 = 200 +
+The attacker can add their Skilled or Raw Bonus to this roll.
+****
+
+=== Moving Attacker
+The main challenge for the attacker is that they are moving at high speed.
+The target is relatively motionless, and only the movement rate of the vehicle applies.
+The speed of the vehicle makes a successful attack roll more difficult.
+The greater the speed differential, the harder it is to hit the target.
+The speed of the vehicle improves the Defence Rating of the stationary target. 
+
+[discrete]
+=== Speeder Attack Penalty
+.Attack Roll - 15 per h/u
+****
+Attack Roll = 500 (kilodie) - (30 h/u * 15) = 500 - 450 = 50 +
+The attacker can add their Skilled or Raw Bonus to this roll.
+****
+
+Attacking from a vehicle moving 25 h/u is equivalent to attacking through a gale-force wind.
+Attacking from a vehicle moving 45 h/u is equivalent to attacking through 100 mph wind. 
+
+=== All Moving
+The challenge for attackers includes speed differential, drag, vibration, and evasive maneuvers.
+These conditions make a successful attack roll more difficult.
+The greater the relative speed of the two vehicles, the more difficult it is to score a hit.
+The slower moving vehicle has less penalties. 
+
+The following demonstrates the attack roll penalties between vehicle Eh going 30 h/u and vehicle Bee going 50 h/u
+
+[discrete]
+=== All Moving Speeding Attack Penalty
+.Attack Roll - 5 per h/u
+****
+Speeding Attack Penalty for attackers in Eh  = (30 h/u * 5) = 150 +
+Speeding Attack Penalty for attackers in Bee = (50 h/u * 5) = 250
+****
+
+[discrete]
+=== All Moving Speeder Attack Penalty
+.Attack Roll - 10 per h/u differential
+****
+Differential = Bee Speed - Eh Speed = 50 - 30 = 20 +
+Faster Attack Penalty = (20 h/u * 10) = 200 +
+Bee's attack penalty is worse at -450.
+****
+
+It is much harder for attackers from the higher speed vehicle (-450) to attack the slower speed vehicle (-150).
+
+== Defence Rating
+*Vehicle Defence Rating is 500*
+
+Inatmo vehicles do not have armour unless otherwise specified.
+Most vehicles are easy to hit, but hard to damage.
+The defence rating represents the attack roll needed to damage a target.
+That roll is difference from actually hitting a target. 
+
+The Defence Rating of a target inside a vehicle is different yet again.
+A target inside a vehicle has it's own defence rating.
+This defence rating is likely improved by partial cover and concealment from their ride. 
+
+=== Flanking
+We do not bother with flanking in vehicle combat. 
+There is no advantage to flanking when vehicles are entirely randomly created.
+A vehicle's flank could be as forbidding as its bow.
+
+== Vehicle Damage
+A successful attack roll on a vehicle indicates damage.
+Vehicles do not have hit points and are damaged differently from organic personas.
+Vehicles have a random damage location like robots and space vehicles. 
+
+.*Breaking Down Vehicle Breakage*
+. A successful attack roll
+. Location
+. Severity
+. Effect
+
+=== Location
+Hitting the vehicle with a rock, bullet or lazer beam will damage a random location.
+The premise of the random location is the same for all inorganic damage location charts.
+The system damaged may be some distance from the damage point.
+Ricochets, power surges and force distribution essentially make the damage location random.
+
+include::combat:partial$damage_location_inatmo_vehicle.adoc[]
+
+If the vehicle does not have the location generated the player can roll again, or move to nearest damageable hit location.
+
+=== Extent
+The extent of damage is determined randomly and modified by the hit points of the damage delivered.
+Since vehicles and vehicle components don't have HPS, they suffer reduced efficiency when damaged.
+
+include::combat:partial$exatmo_vehicle_damage_amount.adoc[]
+
+=== Force Bonus
+The extent of damage is modified upwards by the HPS of damage inflicted on the system.
+For example, 15 HPS of damage would increase the extent of damage roll by 15.
+If the player rolls 08 on the 1d100 roll with 15 hit points of damage, she moves the extent of damage from Trivial to Minor.
+
+Referees may wish to adjust the amount of damage even further.
+For every 75 HPS in damage, the attacker makes an additional extent of damage roll.
+Thus a single attack that inflicts 230 HPs in damage to the vehicle would make three extent of damage rolls at +75 and one roll at +5.
+A fusion grenade attack could damage every component on a vehicle and not just destroy a single component.
+MUltiple damage rolls allows big hit point totals to do big damage.
+Big HPS Big Damage rules are optional. 
+
+=== Cumulative Destruction
+The damaging effects of successful attacks are cumulative.
+A vehicle system can become disabled over several attacks.
+A system taking two major damage (40% performance drop) is now functioning at 36%. 
+For example, a vehicle's speed would be reduced from 100 kmh to 36 kmh.
+
+A system is disabled when it is reduced to less than 10% function.
+
+Instantaneous destruction occurs when an attack destroys a system in a single blow.
+The attack must drop the system from 100% to <1% function in a single attack.
+
+=== Damage Descriptors
+Each time a system is damaged, its performance decreases. 
+The damage descriptors offer another way to describe net damage.
+A system with minor damage is functioning at 90% capacity.
+A system with less than 10% of capacity if disable. 
+
+include::combat:partial$exatmo_system_dysfunction.adoc[]
+
+== Targeting Components
+Players often want to "shoot out the tires" of a vehicle.
+Inatmo vehicles in EXP are randomly created and do not follow mundane terran car tropes.
+To target a specific component of a vehicle (like tires, or engine) the persona must know the vehicle, and have Combat Driving Skills.
+This rule applies to moving vehicles in combat, not when vandalizing the neighbour's car. 
+
+The player may move her Vehicle Hit location up or down the table depending on her Combat Driving Skill.
+Combat Driving 1 would allow the player to move her random hit location of fuel to either speed or engine. 
+
+== Targeting Passengers
+Players often want to "shoot the driver" of a vehicle.
+Inatmo vehicles in EXP are randomly created and do not follow mundane terran car tropes.
+To target a specific passenger a vehicle the attacker must know the vehicle, and have Combat Driving Skills.
+This rule applies to moving vehicles in combat, not when ambushing a car stopped at a drive thru.
+
+As with targeting components player may move her Vehicle Hit location up or down the table depending on her Combat Driving Skill.
+Combat Driving 1 would allow the player to move her random hit location Locomotion or Engine into the Crew space.
+This would allow the player to make an attack roll on a random passenger in the crew space.
+However with the right weapon (grenade or aerosol) every target in the crew space may be damaged.
+
+To directly target a specific passenger in a moving vehicle during combat is incredibly difficult.
+The player would first have to score a hit on the Cargo Crew area and then target that persona's defence rating applying xref:combat:attack_adjustments.adoc#_cover[cover penalties].
+Only an attacker with Combat driving, weapon skills, high level and special scope support will find this possible. 
+
+:art: lady_lazer.png
+:width: 450px
+:snark: Rear gunner.
+:artist: Alex Schumberg
+:date: 1948
+:license: CC BY-SA 4.0
+:description: Humanoid woman firing lazer cannon through canopy of vehicle.
+include::ROOT:partial$articulate.adoc[]
+
+== Driving Skills
+Driving skill is not combat driving skill.
+Driving skill and handling class will keep the vehicle from crashing during combat. 
+Driving skill may allow the expedition to make zany maneuvers without crashing their vehicle.
+Mundane driving skill does not improve attack rolls or defence ratings.
+
+Combat driving skill can be used to improve a player's attack roll, or protect a vehicle from attack. 
+The driver can transfer her combat driving skill to any other persona doing combat in the vehicle.
+Combat driving skills may be covered elsewhere, but in this section the players get +42 on attack rolls and +2 on Task rolls for each skill level. 
+
+To learn collision avoidance rules jump to  xref::CH17_Driving.adoc[Driving,window=_blank]. 
+
+== Attack Types
+The wind drag surrounding speeding vehicles has an impact on every attack type.
+The Attack Roll penalty for speed combines all the challenges into one faux realistic value. 
+
+=== Strike Weapons
+Nope.
+Strike weapons are self-powered thrusting and striking weapons. 
+Attacks with swords, axes, or lances are usually precluded by range in vehicle combat.
+Strike weapons used against high speed vehicles will usually result in a pedestrian collision before vehicle damage.
+
+=== Fling Weapons
+Nope.
+Fling attacks are self-powered projectile attacks.
+Arrows, axes, and shuriken cannot compete with the winds of high-speed vehicles.
+The attack roll penalty for speed effectively eliminates all Fling attacks from vehicles.
+
+=== Shoot Weapons
+Shoot weapons are powered projectile attacks. 
+It is assumed that personas fighting between moving vehicles are using shoot weapons. 
+These attack types are still subject to enormous penalties due to differentials, vibrations and wind drag.
+Individual weapons may reduce the penalties applied due to the wind effect.
+For example, a lazer or energy weapon is much less affected by air turbulence than a bullet. 
+
+=== Area Weapons
+Area weapons are grenades and aerosols.
+Area of effect attacks must score a hit on the vehicle to inflict damage.
+Typically Area weapons need only target a specific hex.
+In vehicle combat the Area Attack Roll must beat the vehicle's Defence Rating.
+
+=== Vehicle Weapons
+These are bespoke combat accessories baked into the inatmo vehicle.
+Vehicle weapons are generated during vehicle fabrication.
+Built-in vehicular weapons may have gimbals, servos, and software to compensate for high-speed combat.
+These components significantly reduce the penalties suffered due to drag and speed differential.
+
+.*Baked-in Bang Bang Benefits*
+. Speeder and Speeding Penalties are reduced to  -5 per h/u
+. Baked in weapon plus Vehicle Combat Skill eliminates all penalties. 
+
+== Ramming
+Ramming involves an intentional collision between two vehicles.
+Or the intentional collision between a vehicle and a persona.
+Mutual ramming happens automatically, and the vehicles and passengers are damaged.
+
+.*Params of the Ram Rams*
+. Ramming vehicle must be faster or
+. Ramming vehicle has intercept path
+. Ramming vehicle must make an Attack Roll
+. Target vehicle can avoid with Driving Roll
+. Collision result as per xref::CH17_Driving.adoc[Driving,window=_blank]
+
+== Boarding
+Jumping onto a moving vehicle is fraught with risk.
+Without special effects and camera speed adjustments, boarding is nearly impossible.
+Nevertheless, players will want to have their personas board moving vehicles.
+
+.*Params of Boarding*
+. Navigate to jump range xref::CH17_Driving.adoc[Driving,window=_blank]
+. Attack Roll as Strike Attack
+.. Win attack roll
+... Pedestrian struck at differential speed (remember head on speed is different)
+... If survives = successful boarding
+.. Miss attack roll
+... Pedestrian thrown at differential speed (remember head on speed is different)
