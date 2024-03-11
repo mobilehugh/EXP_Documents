@@ -14,57 +14,82 @@ The players can use non-lethal and lethal personal combat simultaneously.
 
 .*Pugilistic Parameters*
 . Strike attacks only (fists, clubs, feet, sticks)
-. Anthros and educated aliens only.
+. Anthros and advanced aliens only.
 . Subduer must be of comparable size.
 
 The attacker can use only certain attacks in non-lethal combat.
 Strike attacks like Fists, feet, hooves and flippers are allowed.
 Fling attacks like rocks, plates, bottles, and cheese wheels are allowed.
 Pointy Fling attacks like arrows and daggers are not allowed.
-There are no Shoot, D, E, F, or AOE weapons allowed. 
+There are no Shoot, Sotto, Flotto or Area attacks allowed. 
 The only exception is powered stun weapons specifically designed to be non-lethal.
 
 The combatants must be able to grasp the concept of surrender.
 Flora, fauna and robots do not understand surrender and beating them does not help.
-Flora and fauna do not understand surrender and only lethally fight for their lives.
+In turn they do not understand surrender and will lethally fight for their lives.
 Robots may attack non-lethally, but non-lethal combat has no emotional impact on them.
+
+.*Non-Lethal Combat Cycle*
+. Attack Rolls based on xref:combat:initiative.adoc[Initiative]
+. Each successful hit
+.. Roll Non-Lethal Damage
+.. Stun Check (DSS Roll): against non-lethal damage
+.. Inflict actual damage: using 10% of non-lethal damage
+.. Oops Damage Check: accidentally deliver full damage
 
 == Attack Rolls
 Non-lethal combat is part of the tactical combat rules and attack rolls and attack types function the same.
 Players make attack rolls with kilodie and must beat the target's Defence Rating.
-Proficiency in hand-to-hand combat is required to use one's Strike Skilled Bonus.
+Proficiency in hand-to-hand combat is required to use one's Skilled Bonus.
 
 == Non-Lethal Damage
 Combatants in non-lethal combat are not eye-gouging, throat punching, or intentionally snapping bones.
 They attack non-lethal but sensitive body locations.
 The attacker is not trying to kill the target, and she will be pulling her punch at the last millisecond.
 
-The player rolls damage after a successful attack roll.
-This damage value becomes the potential damage.
-The potential damage determines the chance of knocking the opponent out, the amount of actual damage, and the chance of severe damage.
+Strike weapons can be used in non-lethal combat. 
+When using a Strike weapon (club, hammer, etc) the player must add the Force Bonus to the damage rolled.
+Only personas with hand-to-hand combat skill can hold back the Force Bonus when using a normally lethal weapon.
 
-Personas can hold back their Strike Force Bonus and only generate the non-lethal damage of the weapon type.
-The player must choose to use, or not use, her Strike Force Bonus. 
-She cannot use part of the Force Bonus.
-Only personas with hand-to-hand combat skill can choose how much Force Bonus to add to their non-lethal damage score.
+The player rolls damage as per normal after a successful attack roll.
+In non-lethal combat this damage is applied differently and is called Non-Lethal Damage
+Sorry there is no acronym.
 
-.*Non_Lethal Damage Effect*
-. Stun Check using non-lethal damage.
-. Oops Damage chance = non-lethal damage as %
-. Damage using 10% of non-lethal damage
-
+An angry pugilist wins her attack roll and generates 20 HPS of Non-Lethal Damage.
+She is attacking a Level 2 Nothing with a CON of 8 and HPS of 40.
+This unlucky nothing's name is Socmob.
+Let's follow that damage bolus through the next three steps.
 
 == Stun Check 
 A damage system shock check determines if the persona is stunned by the non-lethal blow.
-The stun could either be a knock-out blow or a collapse from compounded hammering.
 The target must win a damage system shock roll (DSS) against the non-lethal damage value or be stunned. 
+The stun could either be a knock-out blow or a collapse from compounded hammering.
+Either way failing the DSS Check is a losing condition.
 
+When the target is hit she must win a DSS Roll __as if__ her HPS were reduced by the Non-Lethal Damage.
+A target with 44 HPS being delivered 22 HPS of Non-Lethal Damage would use the DSS check with 22 HPS remaining.
+Her HPS total does not change at this point. 
+
+[discrete]
 === Damage System Shock Roll (DSS)
 .1d20 + HPS + CON + LVL > 42
 ****
-A 1st level anthro with 30 HPS and 10 CON  must roll one on 1d20. +
-A 1st level anthro with 20 HPS and 10 CON  must roll 11 on 1d20. +
-A 1st level anthro with 11 HPS and 10 CON  must roll 20 on 1d20
+If Socmob DSS Check = 12 (1d20) + 20 (HPS - Non-Lethal Damage) + 8 (CON) + 2 (Level) = 12 + 20 + 8 + 2 = 42. > 42 so no stun +
+If Socmob DSS Check = 8 (1d20) + 20 (HPS - Non-Lethal Damage) + 8 (CON) + 2 (Level) = 8 + 20 + 8 + 2 = 38. < 42 so Socmob goes down
+****
+
+== Actual Damage
+Every non-lethal damage roll inflicts a smaller amount of actual damage. 
+Ten percent of the non-lethal damage causes actual damage to the target.
+The target's hit point total (HPS) loses that amount for every successful attack roll.
+Eventually, non-lethal combat will drop the target.
+
+[discrete]
+=== Actual Damage Calculation
+.Damage = 10% of Non-Lethal Damage (round up)
+****
+Socmob was hit with 20 HPS of Non-Lethal Damage. Her HPS from from 40 to 38. +
+Her next DSS Check is with 38 HPS, so she is softened a bit.
 ****
 
 == Oops Damage
@@ -79,25 +104,13 @@ For example, 15 HPS of non-lethal damage has a 15% chance of becoming 15 HPS of 
 === Oops Damage 
 .Chance Lethal = 1% per point of Non-Lethal Damage
 ****
-Lethal = 15 HPS non-lethal = 15% chance of inflicting 15 HPS damage
+Angry pugilist's 20 HPS of Non-Lethal Damage has a 20% of converting to 20 HPS full damage.
 ****
-A player can combine lethal and non-lethal attacks. 
-This method softens up a target and makes her easier to subdue.
 
-== Damage
-Every non-lethal damage roll inflicts a smaller amount of actual damage. 
-Ten percent of the non-lethal damage causes actual damage to the target.
-The target's hit point total (HPS) loses that amount for every successful attack roll.
-Eventually, non-lethal combat will drop the target.
-
-If the attacker messed up and did accidental lethal damage, this section does not apply. 
-
-=== Actual Damage 
-.Damage = 10% of Non-Lethal Damage (round up)
-****
-Damage = 0.1 * 15 HPS non-lethal =  2 HPS damage.
-Damage = 0.1 * 12 HPS non-lethal = 1 HPS damage.
-****
+If the player running the angry pugilist rolls under 20 on deci-die Socmob would take 20 HPS of damage. 
+This would drop her HPS to 20. 
+Socmob would be very softened by this blow.
+Later in the brawl such a blow could be lethal.
 
 == Victory Conditions
 A persona may have had enough and calls it quits.
@@ -105,30 +118,13 @@ A persona may be stunned by a failed DSS Roll.
 A persona may be knocked unconscious by an accidental damage bolus.
 A persona may die from accidental damage.
 
-== Example Non-Lethal Combat
-A persona punches a 2nd level target with 23 HPS Total and a ten Constitution.
-The attacker's player wins her attack roll, and she rolls 7 HPS of non-lethal damage.
-
-The target's player must win versus damage system shock or be stunned.
-The DSS calculation uses the target's temporary HPS of 16 (23 - 7).
-This temporary HPS is only for DSS.
-The HPS + CON + LEVEL score is 28, and the player must roll 14 or higher on the 1d20 not to be stunned. 
-The player rolls a 15 and merely develops an angry disposition.
-
-The attacker's player must check to see if she delivers some oops damage.
-There is only a 7% chance of that happening, and it does not.
-
-Getting punched delivers some real damage to the target. 
-10% of the non-lethal damage is deducted from the target's HPS.
-The target takes 1 HPS damage, and her HPS drops from 23 to 22.
-This combat continues until victory conditions occur.
-
 == Grapples, Pins and Tackles
 Grappling is any non-lethal hand-to-hand attack that is intending to hold a target in one place.
-Tackles, headlocks, full nelsons, father nelsons, pins, and wrap-arounds are all considered grapples.
+Tackles, headlocks, full nelsons, father nelsons, and pins are all considered grapples.
 Like any attack, a grapple requires an attack roll against the target's Defence Rating.
 The attacking player can add whatever adjustments are appropriate to her attack roll.
 Only personas with hand-to-hand skills can use their Skilled Bonus when grappling.
+
 If the attack roll is successful, the grapple is successful.
 A grappled target can try to break free, attack, or reverse the grapple.
 Personas can use only close-range weapons like daggers and pistols in grapple combat.
@@ -137,31 +133,30 @@ Armour ratings apply as combatants are in combat and doin' the jiggly wiggly com
 
 .*Grasping the Grapple*
 . Attack roll
-. Strength competition
-. Break Checks
+. Overpower 
+. Break Check
 
 === Attack Roll
 The player makes a usual attack roll made against the target's Defence Rating.
 Grappling is a Strike attack.
 The player must use her Raw Bonus unless she has hand-to-hand combat skill.
 
-=== Strength Competition
-The player must win a Strength vs Strength challenge to immobilize the target.
-If she loses this roll, she cannot make any other attack or move during the combat unit.
-The target may move or attack, but there are no attack roll bonuses.
-IF the player wins this roll, both the target and the attacker are immobilized. 
+=== Overpower
+The player must overpower the target to have the grapple stick.
+Overpowering is determined by a Strength Challenge between the personas.
+If the player wins the Strength Challenge the target is incapacitated by the grapple.
+The target cannot accomplish anything other than psionic attacks and yelling while grappled.
+The successful grappler has slightly more freedom and may undertake the simplest of tasks.
 
 === Break Checks
 The target can make a break check every unit.
 Per unit break checks may seem too frequent, but the assumption is that the grappling parties are writhing back and forth, rolling around, etc.
-If the grappled target wins the Strength challenge, they can break free, move and attack.
+If the target wins the Strength Challenge, they can break free, move and attack.
 
-=== Strength Competition
-.1d20 + STR + Level both personas
+=== Strength Challenge
+.1d20 + STR + Level vs 1d20 + STR + Level
 ****
-Whichever player rolls higher wins the challenge. +
-Grappler wins; the target is grappled. +
-Grappler loses; the target can move and attack.
+Whichever total is higher wins. 
 ****
 
 == Weapon Snatching
@@ -182,39 +177,24 @@ The player makes a usual attack roll made against the target's Defence Rating.
 Weapon grappling is a Strike attack.
 The player must use her Raw Bonus unless she has hand-to-hand combat skill.
 
-=== Dexterity Competition
+=== Dexterity Challenge
 The gun grabber must win a Dexterity competition to get ahold of the weapon. 
 If the grabber fails this Dexterity competition, they have placed themselves in grave danger.
 If the target persona has an attack remaining, they get a +242 attack roll bonus on their attacker.
 
-=== Dexerity Competition
-.1d20 + DEX + Level both personas
+=== Dexterity Challenge
+.1d20 + DEX + Level vs 1d20 + DEX + Level
 ****
-Whichever player rolls higher wins the challenge. +
-Grappler wins; move onto the STR competition. +
-Grappler loses; the target gets +242 on her attack roll.
-****
-
-=== Strength Competition
-If the persona has successfully grappled the weapon, she must now overpower the target's grip on her weapon.
-If the grabber fails this Strength competition, they have placed themselves in danger.
-If the target persona has an attack remaining, they get a +141 attack roll bonus on their attacker.
-
-=== Strength Competition
-.1d20 + STR + Level both personas
-****
-Whichever player rolls higher wins the challenge. +
-Grappler wins; the target is disarmed. +
-Grappler loses; the target gets +141 on her attack roll.
+Whichever total is higher wins. 
 ****
 
 == Tripping
-Tripping a persona before getting to the giant red activation switch is more common than one would expect.
+Tripping a target before they get to the giant red activation switch is more common than one would expect.
 Tripping is another non-lethal attack.
 The player must win an attack roll and a Strength competition to get a chance to trip.
 The target then has a chance to dodge the trip by winning a normal Dexterity roll. 
-Too bad the target is not an Italian soccer player.
+Too bad the target is not an European soccer player.
 
 For trips to work, the target and the attacker should be about the same size. 
-The target must also be trippable.
+The target must also be tippable.
 The attacker cannot trip a robot with treads.
