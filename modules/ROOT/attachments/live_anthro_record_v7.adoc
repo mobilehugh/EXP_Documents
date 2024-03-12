@@ -1,16 +1,20 @@
 // requires pdf_theme.yml, line_divider.svg, box.svg, line_skill.svg
 
+// asciidoctor-pdf -a pdf-theme=pdf_theme.yml -a include_this="milli_vinilli" anthro_record_v7.adoc
+
+include::{include_this}.adoc[]
+
 [width="100%",cols="<3,<.>1", frame="none", grid ="none",  stripes="none"]
 |===
-|[.headerbox]#Persona Name#
-|Player:
+|[.headerbox]#Persona Name# *{persona_name}*
+|Player: {player_name}
 |===
 
 image::line_divider.svg[]
 
 [width="100%",cols="<1,<1", frame="none", grid ="none",  stripes="none"]
 |===
-2+|[.headerbox]#Description#
+2+|[.headerbox]#Description# {description}
 |===
 
 image::line_divider.svg[]
@@ -30,15 +34,15 @@ image::line_divider.svg[]
 |SOC
 |HPM
 
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]image:box.svg[]
+|{awe}
+|{cha}
+|{con}
+|{dex}
+|{int}
+|{mnd}
+|{str}
+|{soc}
+|{hpm}
 
 |[.small]#awareness#
 |[.small]#charisma#
@@ -62,15 +66,15 @@ image::line_divider.svg[]
 5+s|ATTACK TABLE
 s|DEF
 s|MOVE
-s|HPS image:box.svg[]image:box.svg[]image:box.svg[]
+|*HPS:* {hpm} 
 
 <|Type
 <|Skilled
 <|Raw
 <|Max
 |Force
-|image:box.svg[]image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]land
+|{def}
+|{move} h/u land
 .4+|image:box_hps.svg[]
 
 |Strike
@@ -79,7 +83,7 @@ s|HPS image:box.svg[]image:box.svg[]image:box.svg[]
 |image:box.svg[]image:box.svg[]image:box.svg[]
 |image:box.svg[]image:box.svg[]
 |image:box.svg[]image:box.svg[]image:box.svg[]
-|image:box.svg[]image:box.svg[]air
+|0 air
 
 |Fling
 |image:box.svg[]image:box.svg[]image:box.svg[]
@@ -87,7 +91,7 @@ s|HPS image:box.svg[]image:box.svg[]image:box.svg[]
 |image:box.svg[]image:box.svg[]image:box.svg[]
 |image:box.svg[]image:box.svg[]
 |
-|image:box.svg[]image:box.svg[]water
+|0 water
 
 |Shoot
 |image:box.svg[]image:box.svg[]image:box.svg[]
@@ -110,9 +114,8 @@ image::line_divider.svg[]
 
 5+<|[.headerbox]#Task Info#
 
-2+s|Vocation:
-s|Level:
-2+s|EXPS:
+2+|*Vocation:* {vocation}
+3+|*Level:* {level} ({exps})
 
 s|Gifts
 s|Interests
@@ -149,13 +152,13 @@ image::line_divider.svg[]
 
 6+<|[.headerbox]#Biologic Info#
 
-2+<s|Family:
-2+<s|Genus:
-2+<s|Species:
+2+<|*Family:* {family}
+2+<|*Genus:* {genus}
+2+<|*Species:* {species}
 
-2+<s|Age:
-2+<s|Hite:
-2+<s|Wate:
+2+<|*Age:* {age} {age_suffix}
+2+<|*Hite:* {hite} {hite_suffix}
+2+<|*Wate:* {wate} {wate_suffix}
 
 6+<s|MUTATIONS:
 
