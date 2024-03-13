@@ -20,8 +20,7 @@ In EXP, a critical hit is a roll of 990 or higher on 1d1000.
 :artist: Warren Oddsson
 :date: 1990
 :license: CC BY-SA 4.0
-:description: Drawing of arrow splitting another arrow inside a bullseye. 
-
+:description: An arrow splitting another arrow inside a bullseye. 
 include::ROOT:partial$articulate.adoc[]
 
 When a player rolls the maximum or minimum value of dice, exciting things can happen.
@@ -42,47 +41,67 @@ Critical checks exist to revitalize, not to destroy, a campaign.
 .*Parameters for a critical check*
 * must be a natural roll 
 * must be on a die roll of substance
-
+* must be on a roll of relevance
+** attack roll
+** task roll
+** attribute roll
 
 == Natural Roll
-Critical rolls must be natural.
-An attack roll of 794 is not a critical roll.
+Critical check must arise from a natural roll.
+No modifiers can cause a player generate a critical check.
 If the persona's bonuses add up to 1000, this does not count for a critical check.
-Only a natural 1000 would warrant a critical check.
-A task roll of 01 is a critical failure.
-All the bonuses in the universe will not prevent this critical failure.
+Only a natural 990 or higher on the kilodie roll would make a critical check.
 
 == Dice of Substance
 Critical checks should be limited to die rolls where they are unusual and reasonably infrequent.
-For example, critical results on 1d4 rolls would occur 50% of the time. 
-In EXP, even the famous 1d20 is considered too small to warrant critical checks.
+For example, critical results on 1d4 rolls would occur 25% of the time.
+
+NOTE: *Critical check, roll, hit result are synonymous*
+
+== 1d1000
+The kilodie only has critical checks when it is being rolled as an attack roll.
+A 1d1000, also called a kilo-die, has two critical checks.
+There one critical range and one critical value.
+The critical range is 990 to 000 (1000).
+The critical value is 042.
+42 is a nod to https://en.wikipedia.org/wiki/Douglas_Adams[Mr. Adams,windows=_blank]. 
+
+.Attack Roll Critical Checks
+* a __natural__ 990, or higher, is a critical hit
+** the player's persona automatically hits
+** 990-999 has a damage multiplier of 1d4
+** 000 (1000) has a damage multiplier of 4 
+* a __natural__ 42 is critical check
+** the referee may consider a weapon malfunction
+* there are no critical fails with attack rolls
+
+NOTE: *Referees do not use critical hit damage adjusters against player personas.*
 
 === 1d100
+The decidie only has critical checks when making a task roll.
 A 1d100, also called a deci-die, has three critical checks.
-The critical values of a 1d100 are 01, 42 and 00 (100).
-01 is considered a critical failure. 
-00 is a critical success. 
-42 is a nod to https://en.wikipedia.org/wiki/Douglas_Adams[Mr. Adams,windows=_blank] and often indicates shenanigans are afoot. 
+There are two critical values and one critical range.
+The critical range is 99-00 (100), and the critical checks are 01 and 42.
 
-=== 1d1000
-A 1d1000, also called a kilo-die, has three critical checks.
-There are two critical ranges and one critical value.
-The ranges are 001 to 010 and 990 to 000 (1000).
-The critical value is 042.
-001 is an absolute critical failure.
-002-010 is a critical failure.
-990-999 is a critical success.
-000 is an absolute critical success.
-042 is a nod to https://en.wikipedia.org/wiki/Douglas_Adams[Mr. Adams,windows=_blank] and often indicates shenanigans are afoot. 
+.Task Roll Critical Checks
+* a __natural__ 99, or higher, is a critical success
+** the player rolls another 1d100 and adds it to the Task Roll.
+** there is no automatic success
+* a __natural__ 42 is a critical chaos injection
+** if the roll is a fail it is weird bad
+** if the roll is a success it is weird good
+* a __natural__ 01 must fail.
+** the persona gets EXPS for a critical fail
 
-== Task Rolls
-Task Rolls use a 1d100, and the goal is to roll high.
-A natural 00 will bring automatic success.
-A natural 01 will bring automatic failure.
+=== 1d20
+A twenty sider only has critical checks when making attribute rolls. 
+A 1d20 has 1 critical check.
+The critical check is 20. 
 
-While a critical result should result in something exciting, it should not alter crucial plot or story points. 
-A critical result should not result in exorbitant EXPS awards that create game imbalance.
-Uncommon sense should prevail.
+.Attribute Roll Critical Check
+* a __natural__ 20 is a critical success
+** the player rolls another 1d20 and adds it to her attribute roll
+** there is no automatic success
 
 === Otto Checks
 Otto checks are when a player rolls the dice for a task roll even if the outcome is predetermined.
@@ -107,26 +126,6 @@ The referee may ask players to make a task roll regardless.
 Under these circumstances, the player should not fail even if she rolls 01 on the deci-die.
 However, with otto checks, if she rolls 42, she must tell a good story of why she succeeded.
 
-== Attack Rolls
-Attack rolls use a kilo-dice (1d1000), and the goal is to roll high.
-A  natural roll between 001 and 010 will bring failure.
-A natural roll between 990 and 000 (1000) will bring success.
-The critical check for an attack roll is called a critical hit or critical miss. 
-Critical hits in RPGs have a long history of inflicting bonus damage. 
-
-=== Critical Miss
-001 to 010 is considered a critical fail, a critical mass, or even a weapon malfunction.
-An attack roll in this range is a guaranteed miss.
-A persona cannot damage a target if her player rolls 010 or less on the kilodie.
-The persona does not injure herself. 
-Nothing extreme will happen unless her weapon indicates a malfunction with this low a roll.
-A referee may choose to have something extreme happen to the persona on a roll of 001. 
-
-=== Critical Hit
-990 to 000 is considered a critical success or critical hit.
-An Attack Roll in this range is a guaranteed hit.
-A persona will automatically damage her target with an Attack Roll of 990 or higher on the kilodie.
-In some groups, a guaranteed damage roll is critical enough.
 
 :art: critical_hit_head_bot.png
 :width: 250px
@@ -138,32 +137,14 @@ In some groups, a guaranteed damage roll is critical enough.
 
 include::ROOT:partial$articulate.adoc[]
 
-Referees may elect to have damage multipliers for critical hits. 
-Here are the suggested Critical Hit damage bonuses proposed for the tactical combat rules
-
-.*Damage Bonuses for Critical Attack Rolls*
-* 000 (1000) = damage times 4
-* 990-999 = damage times 1d4
-
-NOTE: *Referees do not use critical hit damage adjusters against player personas.*
-
 == No Critical Checks Here
 Critical Checks are limited as described above. 
-There are several die rolls where there are no critical checks at all.
 
 .*Nothing To Check Here*
-* Damage System Shock Rolls
-* Recovery Rolls
-* Attribute Rolls
-* Saving Rolls
 * Initiative Rolls
 * Ambush Rolls
 * Sphincter Rolls
 * Control Factor Rolls
 * Damage Rolls
 * Attributes Rolls
-* Skill Determination
-* Lists Extractions
-* Mutations
-* TOYS
-* Chance Tables
+* Any generative table roll
