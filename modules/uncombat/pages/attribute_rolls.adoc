@@ -7,7 +7,7 @@ ____
 
 :art: elephant_juggling.png
 :width: 250px
-:snark: Juggling the books.
+:snark: What could go wrong?
 :artist: Andrew Brechin
 :date: 1990
 :license: CC BY-SA 4.0
@@ -20,6 +20,18 @@ An attribute roll pits a specific attribute against a particular task.
 Catching a valuable egg would be a dexterity (DEX) roll.
 Listening for a malfunctioning engine noise would be an awareness (AWE) roll.
 
+== Attribute Roll
+.1d20 + Attribute + Level
+****
+Dexterity roll = 11 (1d20) + 11 (DEX score) + 3 (3rd level Nomad) = 25 +
+Strength roll = 4 (1d20) + 9 (STR score) + 5 (5th level Veterinarian) = 18
+****
+
+*The attribute roll must beat the target.*
+
+include::uncombat:partial$task_difficulty.adoc[]
+
+== When To Use
 Attribute rolls should only be employed when a challenging situation arises.
 A persona trying to open a door should not have to make an attribute roll.
 A persona trying to open a complicated door while under fire in combat may require an attribute roll.
@@ -27,8 +39,9 @@ A persona trying to unlock her apartment door should not require an attribute ro
 A persona trying to unlock her front door after drinking a https://en.wikipedia.org/wiki/Zaphod_Beeblebrox#Pan-Galactic_Gargle_Blaster[PGGB] may require an attribute roll.
 An attribute roll should make the evening's role-playing more fun.
 
-As with all rolls, attribute rolls should not decide the course or a campaign.
+As with all rolls, attribute rolls should not decide the course of a campaign.
 Nor should an attribute roll be used to solve a referee's puzzle.
+
 
 .*Types of Attribute Rolls*
 * <<_attribute_type,Attribute Roll>>
@@ -83,7 +96,7 @@ The referee can use the random or static target value.
 Players prefer the random values for very difficult tasks.
 The players and referee should use whichever is faster and more fun.
 
-include::ROOT:partial$CH16_Table_Attribute_Roll_Difficulty.adoc[]
+include::uncombat:partial$task_difficulty.adoc[]
 
 The majority of the time, the player will be rolling against a normal difficulty.
 The bizarre difficulty task is for impossible tasks that the player still wants to try.
