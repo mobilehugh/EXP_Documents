@@ -65,22 +65,20 @@ Task Rolls are made by the player when her persona is attempting to perform a ta
 They should only be required for tasks that are important.
 If the player is making a task roll to open a fridge door then you are doing this wrong. 
 
-[discrete]
 ==== Doing Things
 These tasks are vocation-related skills, abilities, tricks or gifts. 
 The player needs to roll higher than, or equal to, the target roll to win her task roll.
 The target roll gets higher the more complex the maneuver.
 Jump to xref:roll_playing_system:CH14_Performance_Tables.adoc[Task Rolls,window=_blank]
 
-[discrete]
 ==== Driving Things
 Driving rolls are made by the player when her persona is attempting to perform a driving task.
 A driving roll is a task roll dedicated to driving tasks.
 For fun, these are often called maneuvering maneuvers 
 The target roll gets higher the more complex the maneuver.
-Jump to * xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank]
+Jump to xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank]
 
-WARNING: Tasks are in flux 1d100 may be replaced by a 1d20 this under dev.
+WARNING: Tasks are in flux 1d100 may be replaced by a 1d20 this is under dev.
 
 === Attribute Rolls
 *Roll a 1d20*
@@ -88,12 +86,7 @@ WARNING: Tasks are in flux 1d100 may be replaced by a 1d20 this under dev.
 Attribute rolls are used when a player's persona is being challenged in a particular way.
 Attribute rolls function the same as task rolls, but there are *NO* bonuses added for abilities or skills.
 The only time an attribute roll is modified is when a specific mutation or ability states that it modifies an attribute roll.
-
-.*Attribute Rolls*
-* xref:roll_playing_system:CH16_Special_Rolls_Saves.adoc[Saving Rolls,window=_blank]
-* xref:anthros:generate_hit_points.adoc#_damage_system_shock[Damage System Shock Roll,window=_blank]
-* xref:anthros:generate_hit_points.adoc#_recovery_roll[Recovery Roll,window=_blank]
-* xref:robots:control_factor.adoc[Control Factor Rolls,window=_blank]
+Attribute rolls have there own subsection, jump there xref:CH16_Special_Rolls_Attributes.adoc[Attribute Rolls]
 
 ==== Attribute Test
 For example, a persona is trying to lift a heavy weight. 
@@ -110,22 +103,27 @@ For example, the persona's Constitution fights against poison and radiation atta
 
 The saving roll tries to beat the intensity of the attack. 
 The referee generates the intensity randomly, and that is what makes saving rolls challenge rolls. 
+For more about saving rolls jump here xref:CH16_Special_Rolls_Saves.adoc[Saving Rolls,window=_blank]
 
-NOTE: *Previous versions of EXP called the Saving Roll a Saving Throw.*
+NOTE: *Saving Roll, Saving Throw, Save are synonymous*
 
 ==== Control Factor
 The control factor roll is a challenge roll specific to the family of robots.
 The player makes a control factor roll for her robot persona to keep her from falling back into her baked-in programming.
 The challenge is between the robot's Intelligence and the depth of the violation of programming.
 The player needs to roll high to stay in control of her robot persona.
+Would you like to know more?
+Jump to xref:robots:control_factor.adoc[Control Factor,window=_blank].
 
 ==== Damage System Shock
 A damage system shock roll (DSS) is an anthro-specific target roll.
 The player rolls dice to keep her persona conscious after a severe bolus of damage.
+For knock out info about DSS jump to xref:anthros:generate_hit_points.adoc#_system_shock[Damage System Shock,window=_blank]
 
 ==== Recovery
 A recovery roll (REC) is an anthro-specific target roll.
 The player rolls dice to have her persona regain consciousness after failing a damage system shock roll.
+For more info about DSS jump to xref:anthros:generate_hit_points.adoc#_recovery[Damage System Shock,window=_blank]
 
 == Challenge Rolls
 Challenge Rolls the player is trying to roll higher than a dynamic number to benefit their persona.
@@ -133,31 +131,26 @@ The main difference between a challenge roll and a target roll is that the numbe
 The player must roll higher than another player rolling dice at the same time.
 Most often, the other player is the referee.
 The winner of the challenge roll is the player that rolls higher. 
+Challenge rolls with attributes are covered with excoriating detail elsewhere, jump there xref:CH16_Special_Rolls_Attributes.adoc[Attribute Rolls]
 
-There are no checks for challenge rolls. 
-However, it is easy enough to include them if they make things more fun.
-
-.*List of Challenge Rolls*
-* xref:roll_playing_system:CH16_Special_Rolls_Attributes.adoc[Attribute Rolls,window=_blank]
-* xref:combat:initiative.adoc[Initiative Rolls,window=_blank]
-* xref:combat:ambush.adoc[Ambush Rolls,window=_blank]
-* xref:roll_playing_system:CH16_Special_Rolls_Asshole.adoc[Sphincter Rolls,window=_blank]
-
-=== Attribute
+=== Battling Attribute
 An attribute roll involves the player using a specific attribute in a challenge.
 Two personas arm wrestling would simultaneously roll dice to see who wins.
-The persona's Strength scores modify the dice rolls.
-Two personas trying to out charm each other would simultaneously roll dice to see who wins.
-The persona's Charisma scores modify the dice rolls.
-Hence the title attribute rolls or attribute challenge.
+Each persona rolls separately adding their strength attribute to the 1d20 roll.
+The higher roll wins the arm wrestle.
+A tie indicated detente and ongoing arm wrestling.
 
 === Initiative
 Initiative Rolls are specialized Dexterity challenges used to determine action order in tactical combat.
 The higher the player's roll, the better the persona is positioned for that combat unit.
+Initiative rolls are complex and have their own section under combat.
+Jump there xref:combat:initiative.adoc[Initiative,window=_blank]
 
 === Ambush
 Ambush Rolls are specialized Awareness challenges used to see how well the persona reacts to an ambush.
 The higher the roll, the more likely the persona will be able to defend themselves in combat.
+Ambush rules are detailed and have their own section under combat.
+Jump there xref:combat:ambush.adoc[Ambush,window=_blank]
 
 == Generative Rolls
 Generative rolls have no target and no competitive aspect to them.
@@ -205,7 +198,8 @@ A Critical check indicates a special event occurs within a normal roll.
 Humans attribute special value to numbers that have no statistical significance.
 For instance, rolling 20 on a 1d20 is as likely as rolling an 18, but it is special to us.
 To honour humanity's superstitious traits we have critical checks.
-Crits are so import they have their own section, jump to xref:roll_playing_system:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
+Crits are so import they have their own section.
+Jump there xref:roll_playing_system:CH16_Special_Rolls_Critical.adoc[Critical Checks,window=_blank].
 
 NOTE: *Critical check, roll, hit result are synonymous*
 

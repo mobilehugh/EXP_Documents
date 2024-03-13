@@ -101,6 +101,7 @@ Personas with hand-to-hand combat skill can avoid oops damage.
 There is a 1% chance per HPS of damage that the non-lethal attack will convert to an accidental lethal attack.
 For example, 15 HPS of non-lethal damage has a 15% chance of becoming 15 HPS of oops lethal damage.
 
+[discrete]
 === Oops Damage 
 .Chance Lethal = 1% per point of Non-Lethal Damage
 ****
@@ -118,7 +119,7 @@ A persona may be stunned by a failed DSS Roll.
 A persona may be knocked unconscious by an accidental damage bolus.
 A persona may die from accidental damage.
 
-== Grapples, Pins and Tackles
+== Grapples
 Grappling is any non-lethal hand-to-hand attack that is intending to hold a target in one place.
 Tackles, headlocks, full nelsons, father nelsons, and pins are all considered grapples.
 Like any attack, a grapple requires an attack roll against the target's Defence Rating.
@@ -153,12 +154,6 @@ The target can make a break check every unit.
 Per unit break checks may seem too frequent, but the assumption is that the grappling parties are writhing back and forth, rolling around, etc.
 If the target wins the Strength Challenge, they can break free, move and attack.
 
-=== Strength Challenge
-.1d20 + STR + Level vs 1d20 + STR + Level
-****
-Whichever total is higher wins. 
-****
-
 == Weapon Snatching
 Weapons snatching is a classic cinema trick to turn the tables on dastardly pikers!
 Weapon snatching is part of non-lethal personal combat.
@@ -182,11 +177,9 @@ The gun grabber must win a Dexterity competition to get ahold of the weapon.
 If the grabber fails this Dexterity competition, they have placed themselves in grave danger.
 If the target persona has an attack remaining, they get a +242 attack roll bonus on their attacker.
 
-=== Dexterity Challenge
-.1d20 + DEX + Level vs 1d20 + DEX + Level
-****
-Whichever total is higher wins. 
-****
+=== Strength Challenge
+The attacking persona must now overpower the persona holding the weapon. 
+If this attribute challenge fails the persona is open to an attack with the weapon regardless of the combat unit cycle.
 
 == Tripping
 Tripping a target before they get to the giant red activation switch is more common than one would expect.
@@ -198,3 +191,31 @@ Too bad the target is not an European soccer player.
 For trips to work, the target and the attacker should be about the same size. 
 The target must also be tippable.
 The attacker cannot trip a robot with treads.
+
+=== Attack Roll
+Attacker must win an attack roll vs the target's defence.
+The player misses the attack roll the target does not even notice the attempted trip.
+
+=== Dodge the Trip
+The attacker must win a Dexterity Challenge, or the target dodges the trip attempt.
+If the target dodges they are not impeded by the trip attempt at all. 
+
+=== Overpower
+The player must overpower the target to trip them.
+The attacker must win a Strength Challenge to down the target.
+If the attacker loses this challenge the target is stopped, but not tripped.
+
+== Table Convenience
+Strength and Dexterity challenge rolls are listed here 
+
+=== Strength Challenge
+.attacker 1d20 + STR + Level vs target 1d20 + STR + Level
+****
+Whichever total is higher wins. 
+****
+
+=== Dexterity Challenge
+.attacker 1d20 + DEX + Level vs target 1d20 + DEX + Level
+****
+Whichever total is higher wins. 
+****

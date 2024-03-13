@@ -12,7 +12,9 @@ When someone asks how many hit points a persona has left, one responds with thei
 The hit points max is full health, and the hit point total is present health. 
 
 
-== Hit Point Max (HPM)
+== Hit Point Max
+*aka HPM*
+
 A persona's hit points is determined by rolling d8s.
 A player rolls 1d8 for every two points of CON.
 The sum of these d8s comprises the largest component of the HPS. 
@@ -21,21 +23,23 @@ The player then adds one hit point per one point of Constitution her persona has
 The persona described in this paragraph would get 5d8 + 10 hit points.
 Rolling the eight siders and adding her Constitution is how the player determines her persona's hit points maximum.
 
-=== Anthro Hit Points Max Calculation
-// tag::Anthro_HPS[]
+=== Calculation
 .HPS = (1/2 CON x 1d8) + CON
 ****
 A persona with a CON of 11 would roll 6d8 and add 11. Rounding benefits the player.
 ****
-// end::Anthro_HPS[]
 
-== Hit Points (HPS)
+== Hit Points
+*aka HPS*
+
 Hit Points reflects the number of hit points the persona has left.
 The more hit points the persona has left, the healthier they are.
 If the hit points drops to zero, bad things start to happen. 
 If the hit points drops below zero, the persona is dying.
 
-== Hit Points Minimum (Death)
+== Hit Points Min
+*aka Death*
+
 When the persona loses enough hit points, she is dead.
 Death represents a specific negative hit point total.
 The hit points minimum is "negative half" her hits points maximum.
@@ -44,10 +48,10 @@ If the persona in this paragraph loses 63 hit points at once, she is instantly d
 
 Hit points minimum is also called negative one half of one's HPS.
 
-=== Anthro Minimum HPS Calculation
-.Death = -1 times (1/2 max HPM)
+=== Calculation
+.Death = zero - (1/2 max HPM)
 ****
-For example an anthro persona with 30 HPM would be dead if her HPS dropped to negative 15 (-15).
+A persona with 30 HPM is dead when her HPS get to negative 15 (-15).
 ****
 
 Hit points is an attribute that can drop below one without killing the persona.
@@ -64,12 +68,14 @@ For more information about healing and death jump to xref:roll_playing_system:CH
 
 NOTE: Damage system shock and recovery rolls are optional rules. 
 
-== Damage System Shock
-Damage system shock (DSS) checks to see if a persona is incapacitated by a bolus of damage.
-Whenever a persona loses more than half her hit point total in one attack, she must make a DSS roll or fall unconscious.
+== System Shock
+*aka DSS*
+
+Damage system shock checks to see if a persona is incapacitated by a bolus of damage.
+Whenever a persona loses more than half her hit point total (HPS) in one attack, she must make a DSS roll or fall unconscious.
 The DSS is a specialized attribute roll that takes into consideration the persona's hit point total.
 
-=== Damage System Shock Roll (DSS)
+=== System Shock Roll
 // tag::Anthro_DSS[]
 .1d20 + HPS + CON + LVL > 42
 ****
@@ -79,19 +85,19 @@ A 1st level anthro with 11 HPS and 10 CON  must roll 20 on 1d20
 ****
 // end::Anthro_DSS[]
 
-== Recovery Roll
+== Recovery
+*aka REC*
+
 A recovery roll (REC) is a check to see if a persona awakens from their trauma-induced slumber. 
 The persona remains inactive until she makes a successful recovery roll.
 The REC is a specialized attribute roll that takes into consideration the persona's hit point total.
 
-=== Recovery Roll (REC)
-// tag::Anthro_REC[]
+=== Recovery Roll
 .1d20 + HPS + CON + LVL > 32
 ****
 A 1st level anthro with 20 HPS and 10 CON  must roll 1 on 1d20.
 A 1st level anthro with 6 HPS and 10 CON  must roll 15 on 1d20.
 ****
-// end::Anthro_REC[]
 
 Recovery rolls only apply to personas with an HPS greater than 0. 
 The player can check every few units during combat or whenever the referee feels a recovery roll is appropriate.
