@@ -226,6 +226,51 @@ The player has an attack roll bonus of +90 when attacking from behind and +60 wh
 The persona cannot earn flanking bonuses by simply maneuvering around her target.
 The target must be unable to turn or be occupied by something other than the attacker.
 
+== Penalties vs Defence
+EXP cannot decide whether adjustments should count as penalties on the attack roll or bonuses to the defence rating. 
+Consider a penalty of 100 points against hitting a target in a rain storm.
+This is supposed to reflect the difficulty of making a successful to hit roll on a target in the rain.
+One could subtract 100 from the player's attack roll, or one could add 100 to the target's defence rating. 
+Both would make the chance of success 100 point more difficult. 
+
+WARNING: This section is full on RPG rule nerdism. 
+
+When the penalty acts on the attack roll it is possible to get a negative attack roll. 
+Even though the minimal roll in the tactical combat system is 001 this still seems dirty.
+When the penalty is added to the defence rating of the target this feels more elegant.
+The attack roll is untainted and the target is harder to hit.
+
+However changing the defence rating of the target may push it beyond the persona's maximum roll.
+So the chance of a scoring a hit with the attack roll is left to a critical check. 
+
+|===
+
+5+<|DEF 742, Penalty 150
+
+|Vocation   |Skilled |Max |new DEF |new Skilled
+|Mercenary  |242     |842 |892     |108
+
+3+>|Hit Chance
+|1% crit only
+|35% decent roll
+
+|Nothing
+|42
+|842
+|892
+|-108
+
+3+>|Hit Chance
+|1% crit only
+|1% crit only
+
+5+<|Minimum attack roll is 001
+5+<|Adding penalty to attack roll respects combat skills
+|===
+
+
+
+
 == Further Points
 Take all these adjustments with a tablespoon of salt.
 The attack roll adjustments are part of the faux realistic tactical combat rules.
