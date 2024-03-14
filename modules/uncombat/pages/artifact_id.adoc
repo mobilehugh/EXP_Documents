@@ -19,16 +19,14 @@ The players should not use the AID Flowchart to roll themselves through a scenar
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
-== Using the Flowchart
+== Flowchart
 The flowchart should be fun to use. 
-Consider it a descriptive mini-game used to replace a process that is too complex to role play.
+Consider it a *descriptive mini-game* used to replace a process that is too complex to role play.
 Role-playing has an impact on the flowchart.
 The more role-playing the players invest, the less likely they will blow themselves up.
 Experience level, persona Intelligence, tech level, and luck also influence the AID flowchart. 
 
 The player navigates the flowchart with a series of *1d10 rolls*. 
-
-// duration per roll
 
 :art: aid_table.png
 :width: 650px
@@ -37,32 +35,19 @@ The player navigates the flowchart with a series of *1d10 rolls*.
 :date: 2010
 :license: CC BY-SA 4.0
 :description: Flowchart show process for identifying, activating and damaging artifacts.
-
 include::ROOT:partial$articulate.adoc[]
 
-== Duration of Artifact ID
-Each roll on the AID Flowchart takes a variable amount of game time. 
-A complicated low-tech cloning machine should not be sorted out in a few minutes by a persona.
-An obvious gun-looking gun should not take a mercenary ten days to figure out.
 
-To make the AID Flowchart more faux realistic, the referee can change the duration of each roll.
-For example, can the fusion rifle be identified in time for the mercenary to use it?
-Or can the rejuvenation chamber be activated before the dead persona starts to smell?
-
-Each roll on the flowchart can represent minutes, hours, days or even weeks.
-The referee may alter the flowchart such that each 1d10 roll represents a year of research and several adventures.
-In the end, the flowchart should be fun to use.
-
-== Start
+=== Start
 The player starts on this location once they have committed to identifying the artifact.
 
-=== Restarting 
+==== Restarting 
 If a persona stops the identification process, she may be able to pick up where she left off.
 A persona can restart where she left off as long she continues in less than 24 hours.
 A player may elect to stop rolling if they feel things are going badly.
 For example, if the artifact is making scary accidental activation noises, it may be best to stop.
 
-== Colour Positions A to F
+=== Colour Positions
 The colourful circles are for adding colour commentary to the flowchart process. 
 The referee may associate each circle with a particular sound or mechanism position.
 These embellishments can be for fun, or be they can be used as clues.
@@ -74,7 +59,7 @@ A player can exit the process at any colour position.
 The player cannot exit the flowchart if they land on a decision point. 
 She can return the next day to start at the same colour position, wait longer to start fresh at Start.
 
-== Identified!
+=== Identified!
 The Identified! flowchart endpoint indicates the person has figured out what the artifact is.
 
 :art: bot_tv_hand_win.png
@@ -84,7 +69,6 @@ The Identified! flowchart endpoint indicates the person has figured out what the
 :date: 2018
 :license: Copyright by StudioStoks
 :description: Robot hand with green win sign on palm.
-
 include::ROOT:partial$articulate.adoc[]
 
 The artifact can no longer accidentally harm the persona.
@@ -93,8 +77,6 @@ If the artifact is simple, a successful artifact identification can include info
 Identification should protect the persona from immediate harm.
 For example, a nuclear device is no longer trying to be used as a portable oven.
 Successful identification does not mean the persona is skilled at using the artifact, knows its value, or knows its tech level.
-
-
 
 Identification of an artifact can mean many things.
 The referee must remember that Identification is a __positive__ result.
@@ -106,7 +88,7 @@ Some artifacts have specific vocation designations.
 For example, mercenaries can identify bombs, aerosols, and weapons.
 A nomad best identifies climbing equipment.
 
-== Activated!
+=== Activated!
 The Activated! flowchart endpoint indicates that the persona has unwittingly turned on the artifact.
 
 :art: bot_tv_hand_activated.png
@@ -134,7 +116,7 @@ The bonuses for accidental activation are cumulative.
 Another accidental activation increased the bonus to +4.
 Damage! and Activation! bonuses are cumulative.
 
-== Damaged!
+=== Damaged!
 The Damaged! flowchart endpoint indicates that the persona has injured the artifact.
 
 :art: bot_tv_hand_damaged.png
@@ -150,7 +132,7 @@ include::ROOT:partial$articulate.adoc[]
 The referee can announce arrival at this endpoint with horrible crunching noises or tragic beeping.
 The artifact suffers an artifact damage roll, and the persona returns to Start.
 
-include::ROOT:partial$CH21_Table_Artifact_Extent_of_Damage.adoc[]
+include::combat:partial$exatmo_vehicle_damage_amount.adoc[]
 
 Artifact damage requires the subtle intervention of the referee.
 Some artifacts just can't be broken.
@@ -164,10 +146,10 @@ The bonuses for damaging an artifact are cumulative.
 Another artifact damage improves the bonus to +2.
 Damage! and Activation! bonuses are cumulative.
 
-== AID Flowchart Adjustments
+== Adjustments
 Many factors affect the persona's navigation through artifact identification.
 
-=== Vocation Adjustments
+=== Vocation
 Mechanics enjoy a particular advantage over all other vocations.
 A player with a mechanic persona uses 1d12 instead of the 1d10 roll when making AID rolls.
 Mechanics can also lead a research team, and their ideas (rolls) are not subject to Charisma competitions.
@@ -181,13 +163,13 @@ A persona-centred version of the AID Flowchart allows the player to add her EXPS
 
 include::ROOT:partial$CH20_Table_Class_Specific_Artifacts.adoc[]
 
-== Tech Level Adjustments 
+=== Tech Level 
 Tech level is a term that loosely represents the artifact's level of technological development.
 A persona from the middle ages would be at a loss in a modern kitchen.
 A persona from the modern world would be lost in a middle ages kitchen.
 The further the tech level is from the personas native tech level, the harder it is to identify the artifact.
 
-include::ROOT:partial$CH20_Table_Tech_Level_and_AID.adoc[]
+include::uncombat:partial$aid_tech_level.adoc[]
 
 Some high-tech artifacts are combined devices called multi-toys. 
 Multi equipment is common with very high-tech TOYS.
@@ -196,12 +178,12 @@ The persona may identify one part of a multi-toy and not another part.
 There is also the possibility that high-tech devices will come with baked-in instructions.
 Whether these are linguistically helpful or confusing is determined by the referee's milieu.
 
-== Role-Playing Adjustments 
+=== Role-Playing 
 Adjustments are added depending on how the persona conducts her study of the artifact.
 If the player says that her persona is being very careful, she will add 3 to roll in circle E.
 If the player says that her persona is in a reckless rush, she will subtract two from her roll in circle  E.
 
-include::ROOT:partial$CH20_Table_AID_Style_Adjustment.adoc[]
+include::uncombat:partial$aid_role_playing.adoc[]
 
 == Research Teams
 Personas can get together to improve their chances of successful identification.
@@ -218,3 +200,17 @@ A more exciting approach is to have all the players roll at once.
 The highest roll pairs with the lowest roll, and those two personas argue over who is correct.
 A Charisma attribute competition decides which 'idea' moves the team forward.
 While this seems completely insane, it is how teams commonly proceed on Mundane Terra.
+
+== Duration of Artifact ID
+Each roll on the AID Flowchart takes a variable amount of game time. 
+A complicated low-tech cloning machine should not be sorted out in a few minutes by a persona.
+An obvious gun-looking gun should not take a mercenary ten days to figure out.
+
+To make the AID Flowchart more faux realistic, the referee can change the duration of each roll.
+For example, can the fusion rifle be identified in time for the mercenary to use it?
+Or can the rejuvenation chamber be activated before the dead persona starts to smell?
+
+Each roll on the flowchart can represent minutes, hours, days or even weeks.
+The referee may alter the flowchart such that each 1d10 roll represents a year of research and several adventures.
+In the end, the flowchart should be fun to use.
+
