@@ -12,8 +12,7 @@ The age-old questions of which is more difficult to carry, 2 kgs of oxygen, or 2
 :artist: Patrick Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of sweaty human carrying overloaded pack in the desert.
-
+:description: Sweaty humanoid carrying overloaded pack in the desert.
 include::ROOT:partial$articulate.adoc[]
 
 Encumbrance is a role-playing tool to afford some faux realism to carrying and lifting stuff.
@@ -26,17 +25,16 @@ Occasionally encumbrance rule can be the center of a scenario or puzzle.
 If a single persona cannot lift the essential artifact, which persona can?
 Or how much loot can be carried out before the demolition clock runs down?
 
-:art: ecumbrance_hurdle.png
+:art: encumbrance_hurdle.png
 :width: 250px
 :snark: Free vs Encumbered.
 :artist: Andrew Brechin
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of lightly dressed humanoid antelope out maneuvering heavily encumbered humanoid panda. 
-
+:description: Lightly dressed humanoid antelope out maneuvering heavily encumbered humanoid panda. 
 include::ROOT:partial$articulate.adoc[]
 
-== Determining Wate Allowance
+== Wate Allowance
 The persona's Strength (STR) is what determines how much a persona can carry.
 Each STR has its own assigned Wate Allowance. 
 Each persona gets assigned a Wate Allowance when being created. 
@@ -48,11 +46,11 @@ Did you forget to generate Wate Allowance for your persona?
 * xref:robots:wate_allowance.adoc[Robot Wate Allowance, window=_blank]
 * xref:aliens:wate_allowance.adoc[Alien Wate Allowance, window=_blank]
 
-=== Persona Size and Wate Allowance
+=== Size Adjustment
 Bigger personas can lift more stuff. 
 The player multiplies her persona's  Wate Allowance by the WA Adjustment.
 
-include::ROOT:partial$CH18_Table_Alien_Size_and_Encumbrance.adoc[]
+include::uncombat:partial$wa_and_size.adoc[]
 
 == Encumbrance Levels
 Wate Allowance is a solitary number.
@@ -83,7 +81,7 @@ A persona is un-encumbered if she is carrying less than 1/4 her wate allowance (
 A persona with an 11 STR has a WA of 16 kgs.
 She could carry up to 4 kgs and still be un-encumbered.
 
-=== Calculate Un-Encumbered Level
+==== Calculate Un-Encumbered Level
 .wate < Wate Allowance / 4 
 ****
 20 kgs WA. The persona to carry up to 5 kgs of stuff and remain unencumbered.
@@ -97,7 +95,7 @@ Encumbered personas carry anywhere from 1/4 to 1 and a 1/2 times their wate allo
 So the persona with a wate allowance of 16 kgs could carry up to 24 kgs and only be encumbered.
 Carrying any more wate will have a detrimental effect on the persona's function.
 
-=== Calculate Encumbered Level
+==== Calculate Encumbered Level
 .wate < Wate Allowance * 1.5
 ****
 20 kgs WA. The persona to carry up to 30 kgs of stuff and remain encumbered.
@@ -110,7 +108,7 @@ Wate Allowance determines how much equipment the persona can carry with impairin
 An over-encumbered persona is carrying between 1 and 1/2 to 2 and 1/2 times her WA.
 The persona with the 11 STR would be over-encumbered when carrying between 24 and 40 kgs of equipment.
 
-=== Calculate Over-encumbered Level
+==== Calculate Over-encumbered Level
 .wate < Wate Allowance * 2.5
 ****
 20 kgs WA. The persona to carry up to 50 kgs of stuff and remain over-encumbered.
@@ -127,17 +125,11 @@ The persona can only lift any load greater than 2 and 1/2 times the persona's wa
 To successfully lift this amount requires a successful attribute roll using STR.
 The more the wate exceeds the persona's Lift Only encumbrance level, the more difficult the Attribute Roll.
 
-=== No Wait Wate Allowance Table
-If you do not want to do arithmetic, this table is available for quick determinations of encumbrance levels.
-If a large or gigantic persona has exceeded the table's values, then arithmetic is still required.
-
-include::ROOT:partial$CH18_Table_Wate_Allowance_and_Encumbrance.adoc[]
-
 == Encumbrance Effects
 The encumbrance categories are neat and interesting, but how they affect the persona is what matters.
 All of the tables are optional, but reading through them should give the impression that the more you carry, the worse off you are.
 
-=== Task Rolls
+=== Tasks
 Carrying too much equipment has a detrimental effect on the persona's ability to perform maneuvers.
 The higher the encumbrance level, the more difficult maneuvers become.
 Encumbrance is not just about wate. 
@@ -147,7 +139,7 @@ A 6DD maneuver attempted while encumbered would become a 9DD maneuver.
 
 When encumbrance rules are due to high gravity environments, personas cannot escape the penalties.
 
-include::ROOT:partial$CH18_Table_Encumbrance_and_Performance_Rolls.adoc[]
+include::uncombat:partial$encumbrance_and_tasks.adoc[]
 
 === Movement
 Encumbrance has its most significant effect on combat movement.
@@ -162,7 +154,7 @@ The less encumbered persona will get to act first.
 A persona loaded down with equipment will have a hampered response time.
 An over-encumbered persona that rolled 18 on her initiative roll would have it reduced to 15.
 
-include::ROOT:partial$CH18_Table_Encumbrance_and_Initiative.adoc[]
+include::uncombat:partial$encumbrance_and_initiative.adoc[]
 
 === Driving
 Personas must be free or unencumbered to drive or pilot any vehicle.
@@ -176,3 +168,11 @@ Encumbrance impacts actions like getting up, balancing, jumping, and climbing.
 Attribute rolls for DEX, STR can occasionally be affected by encumbrance levels.
 Actions like doing math, smiling, psionic attacks are less impacted by encumbrance.
 Attribute rolls for  AWE, CHA, INT and MND are less affected by encumbrance levels.
+
+=== No Wait WA Table
+If you do not want to do arithmetic, this table is available for quick determinations of encumbrance levels.
+If a large or gigantic persona has exceeded the table's values, then arithmetic is still required.
+This table will also fall short for robots. 
+
+
+include::uncombat:partial$encumbrance_calculated.adoc[]
