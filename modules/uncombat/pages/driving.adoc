@@ -1,36 +1,24 @@
 = Driving
 
+[quote, Edgar A. Guest (kinda)]
+____
+She was right, dead right, as she sped along +
+She is just as dead as if she'd been wrong.
+____
+
 Driving involves the manual control of any inatmo vehicle.
 An inatmo vehicle is any vehicle that is not a space vehicle.
-The central assumption is that a persona controls the vehicle and as the vehicle's driver.
+The central assumption is that a persona controls the vehicle as the vehicle's driver.
 This section is not for autonomous vehicles or vehicles driven by transportation robots.  
 This section is for the tactical driving of vehicles from xref:hardware:CH54_Vehicles.adoc[Inatmo Vehicles,window=_blank].
 
-This section applies to the aggressive and dangerous driving of cars, tractors, boats, planes or skateboards.
 The basic assumption made about driving is that it is safe.
+This section applies to the aggressive and dangerous driving of cars, tractors, boats, planes or skateboards.
 Drivers that obey traffic regulations and employ reasonable amounts of common sense will be fine.
 The driving system only comes into play when personas speed, engage in combat or make reckless choices. 
 Under normal circumstances, a vehicle allows an expedition to get from A to C to advance the story.
 
-== Observations about Speed
-* 1 h/u = 1 m/s
-* 1 h/u = 3.6 kmh
-* 1 h/u = 2.2 mph
-* 25 h/u = Gale force winds
-* 45 h/u = 100 mph
-* 54 h/u = Anthro terminal velocity
-* 120 h/u = Bullet from a pistol
-* 342 h/u = Speed of sound
-
-== Driving and the Hex Mat
-Inatmo vehicles travel at tremendous speeds.
-Most vehicles will run out of tabletop combat mat in a unit or two.
-Vehicle racing, or chasing, is another reason to keep track of vehicle location.
-Car chases are fun.
-If there are no persona tokens on the mat, grab a smaller scale hex mat.
-The smaller scale mat allows for high-speed maneuvers and treacherous obstacles.
-Regardless of the scale of the hex mat, vehicles move like any other persona.
-They cover way more hexes every unit and can have lethal collisions.
+include::uncombat:partial$observations_on_speed.adoc[]
 
 :art: cool_cat_cool_car.png
 :width: 250px
@@ -38,17 +26,10 @@ They cover way more hexes every unit and can have lethal collisions.
 :artist: Kelly Freas
 :date: 1955
 :license: CC BY-SA 4.0
-:description: Drawing of feline quadruped staring at box shaped hover car.
-
+:description: Feline quadruped staring at box shaped hover car.
 include::ROOT:partial$articulate.adoc[]
 
-.*Collision Checklist*
-. Driving Roll (vehicle-based)
-. Rally Roll (driver-based)
-. Control Loss
-. Collision Check
-
-== When to Check for Collision
+== Collisions?
 Vehicular mishaps should be rare.
 The control check is the first step in losing control of a vehicle.
 Losing control can result in a collision that injures or kills passengers.
@@ -66,31 +47,37 @@ When to make a control check is usually the referee's decision.
 * wilfully attempting a hazardous maneuver
 ** drifting, high-speed turn, barrel roll
 
+.*Collision Checklist*
+. Driving Roll (vehicle-based)
+. Rally Roll (driver-based)
+. Control Loss
+. Collision Check
+
 == Driving Roll 
 The driving roll is a xref:uncombat:task_rolls.adoc[Task Roll,window=_blank] where the player must beat a target on 1d100 or lose control of her vehicle.
 The driving roll functions like other task rolls in that it compares a skill level to a degree of difficulty to determine a target roll.
 The player must roll higher than the target roll or lost control of her vehicle.
 
-.*Driving Roll Checklist*
-. <<_determine_driving_skill_score,Determine Driving Skill Score>>
-. <<_determine_degree_of_difficulty,Determine Degree of Difficulty>>
+.*Steps to Driving Roll*
+. <<_competency,Determine Driving Competency>>
+. <<_difficulty,Determine Difficulty>>
 . <<_determine_target_roll,Determine Target Roll>>
 . <<_roll_1d100,Make the Roll>>
 
-=== Determine Driving Skill Score
+=== Competency
 The driving skill score is a combination of the vehicle's handling level and the persona's driving skill.
 Every inatmo vehicle created has a handling level.
 If a persona has no driving skill, the skill score is entirely dependent on the vehicle's handling level.
 A persona's Dexterity has no role in driving skill score.
 The driver's Dexterity comes into play if they need to regain control of their vehicle.
 
-=== Driving Skill Score
-.Skill Score = Vehicle Handling Level + Driver Skills
+==== Calculate Driving Competency
+.Competency = Vehicle Handling Level + Driver Skills
 ****
-Handling level 5 and driving skill 2 gives a driving skill score of 7.
+Handling level 5 and driving skill 2 gives a driving competency of 7.
 ****
 
-=== Determine Degree of Difficulty
+=== Difficulty
 Like all task rolls, the more difficult the task, the more difficult it is to succeed.
 The degree of difficulty (DD) is maneuver-specific for driving. 
 The base degree of difficulty increases with increasing speed.
@@ -100,24 +87,23 @@ Speed effects are dependent on the persona's Dexterity.
 High Dexterity reflects good eye-hand coordination, agility, and reaction time, all of which aids in avoiding accidents.
 The maximum speed that a persona can handle is one h/u per point of DEX.
 
-=== Speed Penalty
+==== Speed Penalty
 .Speed penalty  (DD) = (speed  h/u - Dexterity) / 10
 ****
 Driving at 20 h/u with 10 DEX is a +1 DD penalty. +
 Having a bonus for slow driving is up to the referee.
 ****
 
-Thus a player with a DEX of 10 could travel at ten h/u (36 km/h) without having a speed penalty.
+A persona with a DEX of 10 can travel at ten h/u (36 km/h) without a speed penalty.
 For every ten h/u (36 km/h) over this driver's maximum speed, any maneuver increases by 1DD.
-A  persona with a 10 DEX is cruising at 40 h/u (144 km/h). 
-The degree of difficulty has a speed penalty of +3DD.
+A  persona with a 10 DEX is cruising at 40 h/u (144 km/h) has a speed penalty of +3DD.
 Even trying to drive straight can be dangerous at high speeds.
 
-=== Maneuver Difficulty
+=== Maneuvers
 
-include::ROOT:partial$CH17_Table_Example_Maneuvers.adoc[]
+include::uncombat:partial$driving_maneuvers.adoc[]
 
-=== Determine Target Roll
+=== Target Roll
 The target roll can be calculated or tabulated. 
 The table is included here for quick target roll checks. 
 The tables below are connected copies from the section on task tables. 
@@ -127,7 +113,7 @@ A tabulated target roll employs a table comparing the degree of difficulty to sk
 A calculated target roll employs simple maths to determine the target roll.
 Very high skill scores and very high DDs require calculation.
 
-=== Roll 1d100
+=== Make the Roll
 If the player rolls the target number or higher, they have won the driving roll.
 A successful driving roll indicates the driver has maintained control and exits the collision checklist.
 No one in the vehicles notices anything at all.
@@ -136,14 +122,18 @@ The vehicle and passengers are one step closer to a collision, and the player no
 Tension mounts.
 
 == Rally Roll
+*Failed Driving Roll*
+
 If a player fails her driving roll, all is not lost.
 The driver has a chance to recover from her driving error through Dexterity and skill.
 The rally roll is a modified attribute roll using the persona's Dexterity and driving skills.
 The degree of difficulty is the same DD from the driving roll.
+So a persona is unlikely to rally from a mishap at very high speeds. 
+The Difficulty of the rally roll can also use the following table. 
 
-include::ROOT:partial$CH17_Table_Recovery_DEX_Roll.adoc[]
+include::uncombat:partial$task_difficulty.adoc[]
 
-A successful rally roll indicates the driver has maintained control and exits the collision checklist.
+A successful rally roll indicates the driver has regained control and exits the collision checklist.
 A rally roll represents actions that are obvious to everyone in the vehicle.
 There may be some dramatic overcompensation or even profanity from the driver.
 A failed driving rally roll moves the expedition further down the collision checklist.
@@ -151,22 +141,18 @@ The driver has lost control of the vehicle, and the dice are taking over the sto
 Tension mounts even more.
 
 == Loss of Control
+*Failed Driving Roll and Rally Roll*
+
 To arrive here, the player has lost both her driving roll and her rally roll.
 The loss of control could be just plain unlucky, but the vehicle was going too fast more often.
 Things are now getting dangerous.
 Loss of control of the vehicle allows it to travel in a somewhat random direction.
 The loss of control is temporary, and if there still is a chance that no collision will occur.
 
-Loss of control has three elements. 
-
-.*Loss of Control*
+.*Elements of Loss of Control*
 . Duration
 . Deceleration
 . Direction
-
-====
-These three elements may or may not lead to a collision. 
-====
 
 === Duration
 The loss of control of the vehicle will last for 0 to 3 units (1d4-1).
@@ -177,7 +163,7 @@ If the vehicle is travelling ten h/u and loses control for three units, the vehi
 Deceleration and deviation simulate the vehicle careening out of control every unit. 
 This period is when everyone in the vehicle is screaming in fear, especially the nothing personas.
 
-=== Duration of Loss of Control
+==== Duration of Loss of Control
 .Duration = 1d4-1 units (0-3 units)
 ****
 A result of  0  indicates this unit only.  +
@@ -196,10 +182,11 @@ A 50% deceleration indicates that the vehicle will be travelling at half its ori
 The deceleration can be quite hazardous to the passengers if they lack proper restraints (aka seat belts).
 The decelerated speed is the one that determines the damage if an accident should result.
 
-=== Deceleration In Loss of Control
+==== Deceleration In Loss of Control
 .Deceleration = 1d46-1 times 10%
 ****
-A 1d6 result of 1 =  0% deceleration. A 1d6 result of 3 = 20% deceleration.
+A 1d6 result of 1 =  0% deceleration. + 
+A 1d6 result of 3 = 20% deceleration.
 ****
 
 === Direction
@@ -217,7 +204,6 @@ include::ROOT:partial$CH17_Table_Deviation_During_Loss_of_Control.adoc[]
 :date: 2010
 :license: CC BY-SA 4.0
 :description: Diagram of hexagon demonstrating turn radius and difficulty.
-
 include::ROOT:partial$articulate.adoc[]
 
 == Collision Check
@@ -229,7 +215,7 @@ A collision can occur if the loss of control causes the vehicle to crash into an
 ** another vehicle's path
 ** an obstacle
 ** goes off the road
-* change of grade by 1/2 a hex
+* change of grade by >1/2 a hex
 * confined space with no other option
 * parameters decided by the referee
 
@@ -239,8 +225,7 @@ A collision can occur if the loss of control causes the vehicle to crash into an
 :artist: Pat Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of three space age vehicles in a tussle on a futuristic highway.
-
+:description: Three futuristic hover vehicles in a tussle on a futuristic highway.
 include::ROOT:partial$articulate.adoc[]
 
 == Collision Damage 
@@ -252,7 +237,7 @@ The vehicle and passengers are damaged simultaneously.
 
 NOTE: *Driving is safe. Crashing is dangerous.*
 
-=== Relative Speed and Damage
+=== Speed
 The speed at which the vehicle collides determines the severity of the accident.
 The vehicle should use its decelerated speed as the collision speed.
 If there are multiple vehicles in the collision, the speeds of both vehicles come into play.
@@ -263,9 +248,9 @@ The vehicle speeds are combined to inflict damage to both vehicles.
 . Rear-end collision (back three facets): subtract speeds
 . T-bone collision (side facets): Use the higher speed 
 
-include::ROOT:partial$CH17_Table_Collision_Damage.adoc[]
+include::uncombat:partial$inatmo_collision_damage.adoc[]
 
-=== Relative Wate and Damage
+=== Wate
 Speed indicates the energy delivered by a collision, but that is not the whole picture.
 The relative wates involved in the collision also affect the damage delivered.
 If the referee ignores relative wates, the referee can expect strange results.
@@ -273,7 +258,7 @@ For example, a moped could ram an 80-ton military tank at high speed and kill th
 Or a jet plane could crash into a convertible, and the car driver could escape injury.
 There are some faux Newtonian solutions to these potential problems.
 
-=== Collision Wate Multiplier
+==== Collision Wate Multiplier
 .Damage Multiplier = Larger vehicle wate / Smaller vehicle wate  
 ****
 The multiplier cannot exceed four times or one-quarter.
@@ -332,7 +317,7 @@ Major damage to the speed system would reduce the vehicle's speed to 60% of the 
 The vehicle's maximum speed of 30 h/u drops to 18 h/u.
 Vehicle system damage is cumulative.
 
-include::ROOT:partial$CH21_Table_Artifact_Extent_of_Damage.adoc[]
+include::combat:partial$exatmo_vehicle_damage_amount.adoc[]
 
 The Collision Wate Modifier should modify the extent of the damage.
 The referee may multiply the extent of damage roll by the multiplier.
@@ -345,3 +330,13 @@ Post-collision fire is dependent on fuel type and damage to the fuel system.
 A xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank] is required to determine if there is a fire complication.
 Whether the vehicle is drivable depends on the damage to systems during the collision.
 The final vehicle resting position is entirely up to the decision of the referee.
+
+== Hex Mat
+Inatmo vehicles travel at tremendous speeds.
+Most vehicles will run out of tabletop combat mat in a unit or two.
+Vehicle racing, or chasing, is another reason to keep track of vehicle location.
+Car chases are fun.
+If there are no persona tokens on the mat, grab a smaller scale hex mat.
+The smaller scale mat allows for high-speed maneuvers and treacherous obstacles.
+Regardless of the scale of the hex mat, vehicles move like any other persona.
+They cover way more hexes every unit and can have lethal collisions.

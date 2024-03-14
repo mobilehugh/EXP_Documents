@@ -16,7 +16,7 @@ For space vehicle combat, jump  to xref:combat:combat_and_exatmo_vehicle_intro.a
 This section is *not* for expeditions driving from one place to another. 
 This section is *not* for expeditions racing cars for fun.
 This section is *not* for drivers who are behaving recklessly.
-For uncombat driving shenanigans jump to  xref:roll_playing_system:CH17_Driving.adoc[Driving, window=_blank]. 
+For uncombat driving shenanigans jump to  xref:uncombat:driving.adoc[Driving, window=_blank]. 
 
 :art: vehicle_combat_trick_moves.png
 :width: 450px
@@ -66,17 +66,7 @@ The vehicle becomes mobile cover or concealment and not something that requires 
 Vehicle combat is persona-focused and cinematic. 
 The vehicle combat ruleset is faux realistic and designed for dice-rolling fun.
 
-.*Various Speeds*
-* 1 h/u = 1 m/s
-* 1 h/u = 3.6 kmh
-* 1 h/u = 2.2 mph
-* 10 h/u = fastest mundane terran
-* 25 h/u = Gale force winds
-* 28 h/u = 100 kmh
-* 31 h/u = mundane terran spotted cat
-* 45 h/u = 100 mph
-* 80 h/u = speed of an arrow
-* 342 h/u = Speed of sound
+include::uncombat:partial$observations_on_speed.adoc[]
 
 === Stationary Attacker
 The main challenge for the attacker is that their target is moving at high speed.
@@ -256,7 +246,7 @@ Combat driving skill can be used to improve a player's attack roll, or protect a
 The driver can transfer her combat driving skill to any other persona doing combat in the vehicle.
 Combat driving skills may be covered elsewhere, but in this section the players get +42 on attack rolls and +2 on Task rolls for each skill level. 
 
-To learn collision avoidance rules jump to  xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank]. 
+To learn collision avoidance rules jump to  xref:uncombat:driving.adoc[Driving,window=_blank]. 
 
 == Attack Types
 The wind drag surrounding speeding vehicles has an impact on every attack type.
@@ -307,7 +297,7 @@ Mutual ramming happens automatically, and the vehicles and passengers are damage
 . Ramming vehicle has intercept path
 . Ramming vehicle must make an Attack Roll
 . Target vehicle can avoid with Driving Roll
-. Collision result as per xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank]
+. Collision result as per xref:uncombat:driving.adoc[Driving,window=_blank]
 
 == Boarding
 Jumping onto a moving vehicle is fraught with risk.
@@ -315,7 +305,7 @@ Without special effects and camera speed adjustments, boarding is nearly impossi
 Nevertheless, players will want to have their personas board moving vehicles.
 
 .*Params of Boarding*
-. Navigate to jump range xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank]
+. Navigate to jump range xref:uncombat:driving.adoc[Driving,window=_blank]
 . Attack Roll as Strike Attack
 .. Win attack roll
 ... Pedestrian struck at differential speed (remember head on speed is different)

@@ -1,25 +1,24 @@
-// Table 17.4 Collision Damage
-.*Collision Damage*
+.*Vehicle Collision Damage Table*
 [width="75%",cols="4*^",frame="all", stripes="even"]
 |===
 4+<|Speed and damage to vehicle and passengers.
 
-2+|
+2+s|Damage Speed
 2+s|Damage
 
-s|Speed (h/u)
-s|Metric (km/h)
+s|h/u
+s|km/h
 s|Vehicle
 s|Passenger
 
 |01-05
 |0-18
-|0
+|Cosmetic
 |1d8
 
 |06-10
 |18-36
-|Cosmetic
+|Obvious Damage
 |1d10
 
 |11-15
@@ -97,13 +96,13 @@ s|Passenger
 |13
 |16d30
 
-s|Speed (h/u)
-s|Metric (km/h)
-s|Vehicle
-s|Passenger
+s|h/u
+s|km/h
+s|Table Rolls
+s|HPS Damage
 
-2+|
+2+|Damage Speed
 2+s|Damage
 
-4+<|100 km/h = 60 mp/h
+4+<|Damage speed may not be vehicle speed.
 |===
