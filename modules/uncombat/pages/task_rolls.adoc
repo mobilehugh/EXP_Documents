@@ -4,6 +4,8 @@ Task rolls are made by players when their persona is attempting something.
 The task roll is a check for success. 
 If the player wins the task roll, her persona has succeeded at the something.
 
+NOTE: *Task Rolls have replaced Performance Tables from previous versions.*
+
 Tasks can be mundane, like trying to repair a vehicle engine.
 Other tasks are pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Fredericton di-collating time re-modulator.
 Task rolls are used for vocation skills, abilities and gifts as well. 
@@ -26,7 +28,7 @@ include::ROOT:partial$articulate.adoc[]
 Sometimes a task will be too difficult for one persona to complete on their own. 
 <<_research_teams,Research Teams>> are crucial to completing highly complicated tasks.
 
-NOTE: *The Task Roll system is a rename of Performance Tables from previous versions.*
+== Task Roll 
 
 .*Steps To Task Rolls*
 . <<_competency,Determine Competency>>
@@ -35,18 +37,19 @@ NOTE: *The Task Roll system is a rename of Performance Tables from previous vers
 . <<_bonuses,Determine Bonuses>>
 . <<_make_the_roll,Make the Roll>>
 
-== Competency
+=== Competency
 The Competency is a combination of the persona's EXPS Level and her skills.
-A persona can use her EXPS Level for any maneuver that fits within her vocation.
+A persona can use her EXPS Level for any task that fits within her vocation.
 If the persona also has an applicable skill, she can add this to her Competency.
 
 If the persona does not have aptitude in the task area they cannot have competence. 
 Aptitude is a 
 
-=== Calculation
-.Competency = EXPS Level + Interests + Skills
+==== Calculation
+.Competency = EXPS Level + Interests + Skills * 2
 ****
-A third-level biologist with Herbivore 2 would have a skill score of 5 studying herbivores.
+3rd biologist Research interest 1, Herbivore skill 2 +
+Competency 6 studying herbivores. 
 ****
 
 // lots of examples to add here
@@ -104,7 +107,7 @@ Using the <<_tabulated,table>> is much faster.
 Difficulty and competency are needed.
 Aptitude refers to how close the task is to th
 
-A persona with no aptitude indicates that a persona is attempting a maneuver out of her vocation.
+A persona with no aptitude indicates that a persona is attempting a task out of her vocation.
 For example, a mercenary trying to identify an alien flower would have no aptitude. 
 
 include::uncombat:partial$task_aptitude_competency_multiplier.adoc[]
@@ -137,9 +140,9 @@ include::ROOT:partial$articulate.adoc[]
 
 === Attributes
 The most common bonuses are vocation attribute bonuses.
-If the maneuver fits into the vocation's aptitude, the player can add an attribute to the 1d100 roll.
-For combat maneuvers, mercenaries can add their STR.
-For knowledge-based maneuvers, biologists can add their INT. 
+If the task fits into the vocation's aptitude, the player can add an attribute to the 1d100 roll.
+For combat tasks, mercenaries can add their STR.
+For knowledge-based tasks, biologists can add their INT. 
 
 include::uncombat:partial$vocation_attribute_bonus.adoc[]
 
@@ -171,8 +174,6 @@ The player rolls the 1d100, adds in the bonuses and hopes to beat the target rol
 Any roll equal to or higher than the target roll is a success.
 Any roll less than the target roll is a failure.
 
-NOTE: The player rolls a 1d100, also called a deci-die, in her attempt to win her task roll.
-
 :art: performance_roll_mecha_hammer.png
 :width: 250px
 :snark: Delicate repairs underway.
@@ -182,29 +183,9 @@ NOTE: The player rolls a 1d100, also called a deci-die, in her attempt to win he
 :description: Small human hammering repairs on top of giant mech suit.
 include::ROOT:partial$articulate.adoc[]
 
-== Example Maneuvers
-This list is not exhaustive. 
-The most common kinds of maneuvers encountered play testing EXP for a decade are listed here.
-Many are silly. 
 
-Successful Task Rolls are granular and represent dice rolls that change a session, not a campaign.
-As with all dice rolls in the Roll Playing System, a successful maneuver should not change a campaign's course.
-Plot points are highly resistant to dice rolls. 
-
-IMPORTANT: *These tables are not exhaustive.*
-
-=== General Maneuvers 
-General maneuvers represent day-to-day things that personas may want to do.
-Under normal circumstances, there should be no task roll required for these actions.
-The referee would need some fun excuse to force the player to make a task roll.
-If a persona needs to bake a cake for her dessert, she should simply bake a cake.
-If the persona is baking a cake to impress an alien dignitary, then a task roll is part of the fun.
-If the persona needs to bake a cake after drinking a https://en.wikipedia.org/wiki/Zaphod_Beeblebrox#Pan-Galactic_Gargle_Blaster[uncombat:task_rolls.adoc], then a task roll is part of the fun.
-
-include::ROOT:partial$CH14_Table_DD_General.adoc[]
-
-== Cross Vocation Maneuvers  
-Occasionally a persona will wish to attempt a maneuver that is clearly from another vocations' skill set.
+== Cross Vocation Tasks  
+Occasionally a persona will wish to attempt a task that is clearly from another vocations' skill set.
 Mercenaries often find themselves wanting to do quick fixes and stabilizations (vet).
 A mechanic may want to work on a security system (spie).
 Research teams are not affected by these penalties.
@@ -274,23 +255,23 @@ The research team's total skill score is 15 (4 + 3 + 3 + 3 + 2).
 Each team member would get a chance to beat the Target Roll of 76.
 The procedure is a success if any of the five players roll 76 or higher.
 
-== Maneuver Duration
-How long a maneuver takes depends on a combination of common sense and degree of difficulty (DD).
-Some maneuvers have specifically assigned durations.
+== Task Duration
+How long a task takes depends on a combination of common sense and degree of difficulty (DD).
+Some tasks have specifically assigned durations.
 Performing open-heart surgery (a difficult task) would always take longer than ten minutes.
 However, the equally difficult task of performing a double somersault would take an instant.
 
-Combat-related maneuvers happen during the unit of combat unless otherwise specified.
+Combat-related tasks happen during the unit of combat unless otherwise specified.
 Research teamwork that requires months can pass in an instant with a few task rolls.
 
 include::ROOT:partial$CH14_Table_Duration_of_Research.adoc[]
 
-A persona carrying out a 4 DD maneuver would require 0-99 units of time.
+A persona carrying out a 4 DD task would require 0-99 units of time.
 At the end of which, the player would make her task roll.
 Most of the time, this duration information is a nerd fascination.
 If time is not of the essence, then don't play on this table. 
 During combat time, these durations may be critical.
-Outside of combat time, the maneuver durations pass instantly.
+Outside of combat time, the task durations pass instantly.
 
 A biologist trying to identify an alien species could take up to 3 minutes to make a decision.
 The duration reflects the time she spent leafing through her notes and observing before making a decision.
@@ -299,34 +280,53 @@ A mercenary attempting pistol with pistol ambidextrous combat would have no such
 
 NOTE: *The players may win the task roll in an instant, but the research and preparation may take the personas months.*
 
-Research teams should always check for the duration of maneuvers. 
-A maneuver that takes months to complete could be reflected in gameplay with sub-missions to get materials or other team members.
+Research teams should always check for the duration of tasks. 
+A task that takes months to complete could be reflected in gameplay with sub-missions to get materials or other team members.
 
-== Convenience Tables
+== Example Tasks
+This list is not exhaustive. 
+The most common kinds of tasks encountered play testing EXP for a decade are listed here.
+Many are silly. 
 
-== Tabulated
-include::uncombat:partial$task_target_rolls.adoc[]
+Successful Task Rolls are granular and represent dice rolls that change a session, not a campaign.
+As with all dice rolls in the Roll Playing System, a successful task should not change a campaign's course.
+Plot points are highly resistant to dice rolls. 
 
-// Biologist maneuvers tag
-include::vocations:page$biologist.adoc[tag=biologist_maneuvers]
+IMPORTANT: *These tables are not exhaustive.*
 
-// Knite maneuvers tag
-include::vocations:page$knite.adoc[tag=knite_maneuvers]
+=== General 
+General tasks represent day-to-day things that personas may want to do.
+Under normal circumstances, there should be no task roll required for these actions.
+The referee would need some fun excuse to force the player to make a task roll.
+If a persona needs to bake a cake for her dessert, she should simply bake a cake.
+If the persona is baking a cake to impress an alien dignitary, then a task roll is part of the fun.
+If the persona needs to bake a cake after drinking a https://en.wikipedia.org/wiki/Zaphod_Beeblebrox#Pan-Galactic_Gargle_Blaster[uncombat:task_rolls.adoc], then a task roll is part of the fun.
 
-// Mechanic maneuvers tag
-include::vocations:page$mechanic.adoc[tag=mechanic_maneuvers]
+include::uncombat:partial$general_tasks.adoc[]
 
-// Mercenary maneuvers tag
-include::vocations:page$mercenary.adoc[tag=mercenary_maneuvers]
+=== Biologist
+include::vocations:partial$biologist_tasks.adoc[]
 
-// nomad maneuvers tag
-include::vocations:page$nomad.adoc[tag=nomad_maneuvers]
+=== Knite
+Only a knite can accomplish knite tasks. 
+include::vocations:partial$knite_tasks.adoc[]
 
-// nothing maneuvers tag
-include::vocations:page$nothing.adoc[tag=nothing_maneuvers]
+=== Mechanic
+include::vocations:partial$mechanic_tasks.adoc[]
 
-// spie maneuvers tag
-include::vocations:page$spie.adoc[tag=spie_maneuvers]
+=== Mercenary
+include::vocations:partial$mercenary_tasks.adoc[]
 
-// veterinarian maneuvers tag
-include::vocations:page$veterinarian.adoc[tag=veterinarian_maneuvers]
+=== Nomad
+include::vocations:partial$nomad_tasks.adoc[]
+
+=== Nothing
+Other vocations have little or no concept of these irrelevant skills.
+include::vocations:partial$nothing_tasks.adoc[]
+
+=== Spie Tasks
+include::vocations:partial$spie_tasks.adoc[]
+
+=== Veterinarian
+include::vocations:partial$veterinarian_tasks.adoc[]
+
