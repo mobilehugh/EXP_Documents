@@ -1,11 +1,10 @@
-// Table 14.3 Cross Class Maneuvers
-.*Cross Vocation DD Penalties*
-[width="75%",cols="<,8*^,>",frame="all", stripes="even"]
+.*Vocation Task Compatibility Table*
+[width="75%",cols="<,8*^",frame="all", stripes="even"]
 |===
-10+<|Not everyone can do everything. 
+9+<|Not everyone can do everything. 
 
 s|Vocation
-s|Bio
+s|Biologist
 s|Knite
 s|Mech
 s|Merc
@@ -13,10 +12,9 @@ s|Nomad
 s|Nothing
 s|Spie
 s|Vet
-s|Vocation
 
 |Biologist
-|0
+|--
 |42
 |5
 |6
@@ -24,51 +22,49 @@ s|Vocation
 |2
 |5
 |3
-|Biologist
 
 |Knite
 |5
-|0
+|--
 |5
 |2
 |4
 |42
 |4
 |5
-|Spie
+
 
 |Mechanic
 |3
 |42
-|0
+|--
 |5
 |2
 |3
 |5
 |3
-|Mech
 
 |Mercenary
 |6
 |42
 |6
-|0
+|--
 |4
 |2
 |3
 |6
-|Merc
+
 
 |Nomad
 |3
 |42
 |3
 |4
-|0
+|--
 |2
 |4
 |3
-|Nomad
+
 
 |Nothing
 |6
@@ -76,10 +72,10 @@ s|Vocation
 |5
 |5
 |4
-|0
+|--
 |6
 |5
-|Nothing
+
 
 |Spie
 |6
@@ -88,9 +84,8 @@ s|Vocation
 |4
 |3
 |2
-|0
+|--
 |4
-|Spie
 
 |Veterinarian
 |3
@@ -100,11 +95,11 @@ s|Vocation
 |3
 |2
 |5
-|0
-|Vet
+|--
+
 
 s|Vocation
-s|Bio
+s|Biologist
 s|Knite
 s|Mech
 s|Merc
@@ -112,5 +107,5 @@ s|Nomad
 s|Nothing
 s|Spie
 s|Vet
-s|Vocation
+
 |===

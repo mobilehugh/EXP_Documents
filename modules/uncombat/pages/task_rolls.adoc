@@ -43,7 +43,8 @@ A persona can use her EXPS Level for any task that fits within her vocation.
 If the persona also has an applicable skill, she can add this to her Competency.
 
 If the persona does not have aptitude in the task area they cannot have competence. 
-Aptitude is a 
+Aptitude can be as simple as staying in your vocation's lane, or more nuanced.
+For a more nuanced view jump to <<_aptitude,Aptitude>>.
 
 ==== Calculation
 .Competency = EXPS Level + Interests + Skills * 2
@@ -54,7 +55,7 @@ Competency 6 studying herbivores.
 
 // lots of examples to add here
 
-== Difficulty
+=== Difficulty
 The more complicated something is the higher the Degree of Difficulty (DD).
 Almost every task has a degree of difficulty associated with it.
 While the lowest DD possible is 1 there is no limit to how high a DD can go.
@@ -72,7 +73,7 @@ If there is no freezer, and the expedition is on a hot planet where the water is
 
 include::uncombat:partial$task_difficulty.adoc[]
 
-== Target Roll
+=== Target Roll
 The target roll is the actual number that the player must roll higher than to win the task roll.
 The target roll is like the Defence Rating of a task.
 The player must roll equal to or higher than the target roll.
@@ -84,7 +85,7 @@ A tabulated target roll employs a table comparing the degree of difficulty to sk
 A calculated target roll employs simple maths to determine the target roll.
 Very high skill scores and very high DDs require calculation.
 
-=== Tabulated
+==== Tabulated
 No calculations are required.
 Compare DD to skill score to get the target roll.
 For example, skill score 5 intersects with DD 5 to yield a target roll of 66.
@@ -92,9 +93,10 @@ The player must roll 66 or higher on a 1d100 to win her task roll.
 The higher the persona's skill score, the lower the player's target roll.
 Very high skill scores and very high DDs exceed the Target Rolls Table's limits and require calculation.
 
-NOTE: author is unable to html this table properly. Please jump to <<_tabulated,Tabulated>>
+Table needs a bigger page.
+Jump to the xref:uncombat:task_target_tabulated.adoc[Task Target Table]
 
-=== Calculated
+==== Calculated
 Players can calculate the target roll using some simple maths and a tiny table.
 The higher the skill score, the greater the impact on the target roll.
 Using the <<_tabulated,table>> is much faster.
@@ -112,7 +114,7 @@ For example, a mercenary trying to identify an alien flower would have no aptitu
 
 include::uncombat:partial$task_aptitude_competency_multiplier.adoc[]
 
-=== Target Roll Calculation
+==== Target Roll Calculation
 .Target Roll = 56 + (4 * DD) - (Skill Score * Multiplier)
 ****
 DD 10 vs Comp 8 = 56 + (4 * 10) - (8 * 2) = 56 + 40 - 16 = 80 +
@@ -121,7 +123,7 @@ DD 30 vs Comp 9 = 56 + (4 * 30) - (9 * 2) = 56 + 120 - 18 = 158 +
 DD 2 vs Comp 18 = 56 + (4 * 2) - (18 *4) = 56 + 8 - 64 = -8
 ****
 
-== Bonuses
+=== Bonuses
 The player adds bonuses to her 1d100 roll.
 Bonuses often mean the difference between success and failure.
 Bonuses can come from every which way.
@@ -138,7 +140,7 @@ Many referees will offer task roll bonuses for good role-playing descriptions.
 :description: Humanoid lizard wearing a beloved fedora about to lift a treasure artifact.
 include::ROOT:partial$articulate.adoc[]
 
-=== Attributes
+==== Attribute Bonuses
 The most common bonuses are vocation attribute bonuses.
 If the task fits into the vocation's aptitude, the player can add an attribute to the 1d100 roll.
 For combat tasks, mercenaries can add their STR.
@@ -146,7 +148,7 @@ For knowledge-based tasks, biologists can add their INT.
 
 include::uncombat:partial$vocation_attribute_bonus.adoc[]
 
-=== Role Playing
+==== Role Playing Bonuses
 The more role-playing is integrated into the roll playing system, the more fun the play is.
 Role-playing bonuses for task rolls incentivize fun descriptions from the players. 
 The following are examples of player descriptions that should earn task roll bonuses.
@@ -169,7 +171,7 @@ A good description could get a 1d4 bonus.
 A description that rocks all the players may get a 1d10 bonus. 
 Small bonuses that lead to success generate quite a bit of excitement.
 
-== Make the Roll
+=== Make the Roll
 The player rolls the 1d100, adds in the bonuses and hopes to beat the target roll. 
 Any roll equal to or higher than the target roll is a success.
 Any roll less than the target roll is a failure.
@@ -183,19 +185,19 @@ Any roll less than the target roll is a failure.
 :description: Small human hammering repairs on top of giant mech suit.
 include::ROOT:partial$articulate.adoc[]
 
+== Aptitude
+I can do that.
 
-== Cross Vocation Tasks  
-Occasionally a persona will wish to attempt a task that is clearly from another vocations' skill set.
-Mercenaries often find themselves wanting to do quick fixes and stabilizations (vet).
-A mechanic may want to work on a security system (spie).
-Research teams are not affected by these penalties.
+Often personas will want to accomplish a task that is not within the realm of their vocation.
+Mercenaries often need the vet skills quick fix and stabilization.
+A mechanic may want to to do spie stuff on a security system.
 
 The cross vocation penalties are for individual personas trying to expand their scope of practice.
 These degree of difficulty penalties are in addition to zeroing the skill score by lack of aptitude.
 A Mechanic trying to use the knite gift energy would face a DD of 45 and have zero skill score (target roll of 236).
 The same mechanic trying to use the nothing skill of righteous indignation would have a DD of 4-9 and zero skill score (target roll from 72 to 92).
- 
-include::ROOT:partial$CH14_Table_Cross_Class_Maneuvers.adoc[]
+
+include::uncombat:partial$task_vocation_lanes.adoc[]
 
 == Research Teams
 Research teams allow groups of personas to pool their experience skills for a greater chance of success.
@@ -215,7 +217,7 @@ If any of the players win their task roll, then the entire team is successful.
 
 include::ROOT:partial$articulate.adoc[]
 
-=== Research Team Composition
+=== Composition
 Every research team must have a team leader.
 The EXPS Level of the team leader determines the size of the research team.
 The team can consist of one persona per level of the team leader in addition to themselves.
@@ -243,7 +245,7 @@ For example, a 7th level biologist could lead a team of 5 biologists, a mercenar
 If the research team was trying to determine the chance of alien revolution, this team makes sense.
 If the research team were trying to determine the direction of alien migration, including the spie and mercenary would not make sense.
 
-=== Research Team Example
+=== Example
 An operating room research team has a 4th level veterinarian team leader.
 The team comprises two 3rd level vets, a 3rd level biologist and a 2nd level nomad.
 They are working together to fix a famous alien the expedition accidentally ran over with a hovercar.
@@ -264,7 +266,7 @@ However, the equally difficult task of performing a double somersault would take
 Combat-related tasks happen during the unit of combat unless otherwise specified.
 Research teamwork that requires months can pass in an instant with a few task rolls.
 
-include::ROOT:partial$CH14_Table_Duration_of_Research.adoc[]
+include::uncombat:partial$task_durations.adoc[]
 
 A persona carrying out a 4 DD task would require 0-99 units of time.
 At the end of which, the player would make her task roll.
@@ -278,7 +280,7 @@ The duration reflects the time she spent leafing through her notes and observing
 
 A mercenary attempting pistol with pistol ambidextrous combat would have no such time duration, and success, or failure, is instantaneous.
 
-NOTE: *The players may win the task roll in an instant, but the research and preparation may take the personas months.*
+NOTE: *A task roll is won in an instant, but the research and prep may take months.*
 
 Research teams should always check for the duration of tasks. 
 A task that takes months to complete could be reflected in gameplay with sub-missions to get materials or other team members.
