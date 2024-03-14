@@ -1,17 +1,18 @@
 = Task Rolls
 
-Task rolls are made by players when their persona is attempting a maneuver.
+Task rolls are made by players when their persona is attempting something.
 The task roll is a check for success. 
-If the player wins the task roll, her persona has succeeded at the maneuver.
+If the player wins the task roll, her persona has succeeded at the something.
 
-Some maneuvers are mundane, like trying to repair a vehicle engine.
-Some maneuvers are pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Fredericton di-collating time re-modulator.
-Maneuvers include vocation skills, abilities and gifts as well. 
-There is an entire section devoted to the maneuvering maneuvers called xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank].
+Tasks can be mundane, like trying to repair a vehicle engine.
+Other tasks are pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Fredericton di-collating time re-modulator.
+Task rolls are used for vocation skills, abilities and gifts as well. 
+Task rolls do not cover driving. 
+There is an entire section devoted to xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank].
 
-The more complex the maneuver, the more difficult it is for the persona to succeed.
-Every maneuver has its degree of difficulty (DD).
-The more complex the maneuver, the higher the degree of difficulty, and the higher the DD, the higher the task roll required to succeed.
+The more complex the task, the more difficult it is to succeed.
+Every task has its degree of difficulty (DD).
+The more complex the task, the higher the difficulty, and the higher the DD, the higher the task roll required to succeed.
 
 :art: monkey_box_anger.png
 :width: 250px
@@ -19,74 +20,68 @@ The more complex the maneuver, the higher the degree of difficulty, and the high
 :artist: Andrew Brechin
 :date: 1990
 :license: CC BY-SA 4.0
-:description: Drawing of humanoid baboon getting mad at technological box.
-
+:description: Humanoid baboon getting mad at a technological box.
 include::ROOT:partial$articulate.adoc[]
 
-The player rolls a 1d100 to determine the success or failure of the maneuver. 
-The player wants to roll high.
-Sometimes a maneuver will be too difficult for the persona to complete on their own. 
-<<_research_teams,Research Teams>> are crucial to completing complicated maneuvers.
-
+Sometimes a task will be too difficult for one persona to complete on their own. 
+<<_research_teams,Research Teams>> are crucial to completing highly complicated tasks.
 
 NOTE: *The Task Roll system is a rename of Performance Tables from previous versions.*
 
 .*Steps To Task Rolls*
-. <<_determine_skill_score,Determine Skill Score>>
-. <<_determine_degree_of_difficulty,Determine Degree of Difficulty>>
-. <<_determine_target_roll,Determine Target Roll>>
-. <<_determine_bonuses,Determine Bonuses>>
-. <<_roll_1d100,Determine 1d100 roll>>
+. <<_competency,Determine Competency>>
+. <<_difficulty,Determine Difficulty>>
+. <<_target_roll,Determine Target Roll>>
+. <<_bonuses,Determine Bonuses>>
+. <<_make_the_roll,Make the Roll>>
 
-== Determine Skill Score
-The Skill Score is a combination of the persona's EXPS Level and her skills.
+== Competency
+The Competency is a combination of the persona's EXPS Level and her skills.
 A persona can use her EXPS Level for any maneuver that fits within her vocation.
-If the persona also has an applicable skill, she can add this to her skill score.
-Persona's attempting maneuvers outside of their vocation have a skill score of zero.
+If the persona also has an applicable skill, she can add this to her Competency.
 
-=== Calculating Skill Score
-.Skill Score = EXPS Level + Applicable Skill
+If the persona does not have aptitude in the task area they cannot have competence. 
+Aptitude is a 
+
+=== Calculation
+.Competency = EXPS Level + Interests + Skills
 ****
 A third-level biologist with Herbivore 2 would have a skill score of 5 studying herbivores.
 ****
 
-== Determine Degree of Difficulty
-The more complicated something is to do, the higher the Degree of Difficulty (DD).
-Almost every maneuver has a degree of difficulty associated with it.
-From the driving maneuver table driving straight ahead is DD 1.
-The lowest DD possible is 1.
-However, the DD can be so high that it is impossible to win the Task Roll.
-From the biologist skill table, cloning is a DD 42 maneuver. 
-There is no upper limit to how high a DD can go.
+// lots of examples to add here
 
-If a maneuver does not exist or there is no assigned degree of difficulty, the players and referee must negotiate one.
-The players and referee only need to agree on a qualitative term describing the difficulty of the maneuver.
+== Difficulty
+The more complicated something is the higher the Degree of Difficulty (DD).
+Almost every task has a degree of difficulty associated with it.
+While the lowest DD possible is 1 there is no limit to how high a DD can go.
+However, the DD can be so high that it is impossible to win the Task Roll.
+For example, cloning is a DD 42 task. 
+
+If a task does not exist or there is no assigned degree of difficulty, the players and referee must negotiate one.
+The players and referee only need to agree on a qualitative term describing the difficulty of the task.
 A dice roll will randomly determine the actual value of the DD.
 
 Let's consider a persona that wants to make some ice from water.
-If there is a freezer, this maneuver should be automatic, but there may be some trivial interference.
-So the referee and players agree that this is maneuver has a trivial difficulty.
+If there is a freezer, this task should be automatic, but there may be some trivial interference.
+So the referee and players agree that this is task has a trivial difficulty.
 If there is no freezer, and the expedition is on a hot planet where the water is full of sediment, the difficulty should be impossible or bizarre.
 
-include::ROOT:partial$CH14_Table_DD.adoc[]
+include::uncombat:partial$task_difficulty.adoc[]
 
-== Determine Target Roll
+== Target Roll
 The target roll is the actual number that the player must roll higher than to win the task roll.
-The target roll is like the Defence Rating of a maneuver.
+The target roll is like the Defence Rating of a task.
 The player must roll equal to or higher than the target roll.
 The higher the persona's skill score (EXPS level plus skills), the lower the target roll.
-The higher the maneuver's degree of difficulty, the higher the target roll.
+The higher the task's degree of difficulty, the higher the target roll.
 
 The target roll can be tabulated or calculated.
 A tabulated target roll employs a table comparing the degree of difficulty to skill score. 
 A calculated target roll employs simple maths to determine the target roll.
 Very high skill scores and very high DDs require calculation.
 
-xref:roll_playing_system:page$CH14_Performance_Tables.adoc[tag=target_rolls]
-
-// tag::target_rolls[]
-
-=== Tabulated Target Roll
+=== Tabulated
 No calculations are required.
 Compare DD to skill score to get the target roll.
 For example, skill score 5 intersects with DD 5 to yield a target roll of 66.
@@ -94,30 +89,36 @@ The player must roll 66 or higher on a 1d100 to win her task roll.
 The higher the persona's skill score, the lower the player's target roll.
 Very high skill scores and very high DDs exceed the Target Rolls Table's limits and require calculation.
 
-include::ROOT:partial$CH14_Table_New_Performance.adoc[]
+NOTE: author is unable to html this table properly. Please jump to <<_tabulated,Tabulated>>
 
-=== Calculated Target Roll
+=== Calculated
 Players can calculate the target roll using some simple maths and a tiny table.
 The higher the skill score, the greater the impact on the target roll.
+Using the <<_tabulated,table>> is much faster.
+
+.Data Needed
+. Difficulty (DD)
+. Competency (Comp)
+. Aptitude 
+
+Difficulty and competency are needed.
+Aptitude refers to how close the task is to th
 
 A persona with no aptitude indicates that a persona is attempting a maneuver out of her vocation.
 For example, a mercenary trying to identify an alien flower would have no aptitude. 
 
-include::ROOT:partial$CH14_Table_Vocation_Level_Bonus.adoc[]
+include::uncombat:partial$task_aptitude_competency_multiplier.adoc[]
 
 === Target Roll Calculation
 .Target Roll = 56 + (4 * DD) - (Skill Score * Multiplier)
 ****
-DD 10 vs skill score 8 = 56 + (4 * 10) - (8 * 2) = 56 + 40 - 16 = 80 +
-DD 6 vs skill score 11 = 56 + (4 * 6) - (11 * 3) = 56 + 24 - 33 = 47 +
-DD 30 vs skill score 9 = 56 + (4 * 30) - (9 * 2) = 56 + 120 - 18 = 158 +
-DD 2 vs skill score 18 = 56 + (4 * 2) - (18 *4) = 56 + 8 - 64 = -8
+DD 10 vs Comp 8 = 56 + (4 * 10) - (8 * 2) = 56 + 40 - 16 = 80 +
+DD 6 vs Comp 11 = 56 + (4 * 6) - (11 * 3) = 56 + 24 - 33 = 47 +
+DD 30 vs Comp 9 = 56 + (4 * 30) - (9 * 2) = 56 + 120 - 18 = 158 +
+DD 2 vs Comp 18 = 56 + (4 * 2) - (18 *4) = 56 + 8 - 64 = -8
 ****
 
-// end::target_rolls[]
-
-
-== Determine Bonuses
+== Bonuses
 The player adds bonuses to her 1d100 roll.
 Bonuses often mean the difference between success and failure.
 Bonuses can come from every which way.
@@ -131,21 +132,20 @@ Many referees will offer task roll bonuses for good role-playing descriptions.
 :artist: Patrick Redding
 :date: 1990
 :license: CC BY-SA 4.0
-:description: Drawing of humanoid about to grab glowing treasure artifact.
-
+:description: Humanoid lizard wearing a beloved fedora about to lift a treasure artifact.
 include::ROOT:partial$articulate.adoc[]
 
-=== Attribute Bonuses
+=== Attributes
 The most common bonuses are vocation attribute bonuses.
 If the maneuver fits into the vocation's aptitude, the player can add an attribute to the 1d100 roll.
 For combat maneuvers, mercenaries can add their STR.
 For knowledge-based maneuvers, biologists can add their INT. 
 
-include::ROOT:partial$CH14_Table_Vocation_Bonus.adoc[]
+include::uncombat:partial$vocation_attribute_bonus.adoc[]
 
-=== Role Playing Bonuses
+=== Role Playing
 The more role-playing is integrated into the roll playing system, the more fun the play is.
-Role-playing bonuses for task rolls incentivizes fun descriptions from the players. 
+Role-playing bonuses for task rolls incentivize fun descriptions from the players. 
 The following are examples of player descriptions that should earn task roll bonuses.
  “I'm going to leaf through my notes here and try to identify this bizarre creature.” 
 Or “I summon all the forces of evil beneath me, as I try to apply pressure to this weakling altruist.”
@@ -158,8 +158,7 @@ Or “I  calmly stalk silently past the sleeping sentry.”
 :artist: StudioStoks, mod HM
 :date: 2010
 :license: StudioStoks Stock Art.
-:description: Drawing of human medical woman getting a brilliant idea.
-
+:description: Humanoid medical woman getting a brilliant idea.
 include::ROOT:partial$articulate.adoc[]
 
 The role-playing bonuses should be small since role-playing has its benefit.
@@ -167,7 +166,7 @@ A good description could get a 1d4 bonus.
 A description that rocks all the players may get a 1d10 bonus. 
 Small bonuses that lead to success generate quite a bit of excitement.
 
-== Roll 1d100
+== Make the Roll
 The player rolls the 1d100, adds in the bonuses and hopes to beat the target roll. 
 Any roll equal to or higher than the target roll is a success.
 Any roll less than the target roll is a failure.
@@ -180,15 +179,8 @@ NOTE: The player rolls a 1d100, also called a deci-die, in her attempt to win he
 :artist: Patrick Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of small human hammering repairs on top of giant mech suit.
-
+:description: Small human hammering repairs on top of giant mech suit.
 include::ROOT:partial$articulate.adoc[]
-
-=== Critical Checks
-A critical check allows for success in the face of certain failure or vice versa.
-A roll of 100 may indicate success in the face of an impossible task.
-A roll of 01 may indicate a failure in the face of sure success.
-For more information about critical checks jump to xref:uncombat:critical_checks.adoc[Critical Checks,window=_blank].
 
 == Example Maneuvers
 This list is not exhaustive. 
@@ -207,39 +199,9 @@ Under normal circumstances, there should be no task roll required for these acti
 The referee would need some fun excuse to force the player to make a task roll.
 If a persona needs to bake a cake for her dessert, she should simply bake a cake.
 If the persona is baking a cake to impress an alien dignitary, then a task roll is part of the fun.
-If the persona needs to bake a cake while recreationally impaired, then a task roll is part of the fun.
+If the persona needs to bake a cake after drinking a https://en.wikipedia.org/wiki/Zaphod_Beeblebrox#Pan-Galactic_Gargle_Blaster[uncombat:task_rolls.adoc], then a task roll is part of the fun.
 
 include::ROOT:partial$CH14_Table_DD_General.adoc[]
-
-=== Driving Maneuvers
-There is an entire section devoted to xref:roll_playing_system:CH17_Driving.adoc[Driving,window=_blank].
-This table is included here for redundancy and convenience.
-
-include::ROOT:partial$CH17_Table_Example_Maneuvers.adoc[]
-
-// Biologist maneuvers tag
-include::vocations:page$biologist.adoc[tag=biologist_maneuvers]
-
-// Knite maneuvers tag
-include::vocations:page$knite.adoc[tag=knite_maneuvers]
-
-// Mechanic maneuvers tag
-include::vocations:page$mechanic.adoc[tag=mechanic_maneuvers]
-
-// Mercenary maneuvers tag
-include::vocations:page$mercenary.adoc[tag=mercenary_maneuvers]
-
-// nomad maneuvers tag
-include::vocations:page$nomad.adoc[tag=nomad_maneuvers]
-
-// nothing maneuvers tag
-include::vocations:page$nothing.adoc[tag=nothing_maneuvers]
-
-// spie maneuvers tag
-include::vocations:page$spie.adoc[tag=spie_maneuvers]
-
-// veterinarian maneuvers tag
-include::vocations:page$veterinarian.adoc[tag=veterinarian_maneuvers]
 
 == Cross Vocation Maneuvers  
 Occasionally a persona will wish to attempt a maneuver that is clearly from another vocations' skill set.
@@ -340,4 +302,31 @@ NOTE: *The players may win the task roll in an instant, but the research and pre
 Research teams should always check for the duration of maneuvers. 
 A maneuver that takes months to complete could be reflected in gameplay with sub-missions to get materials or other team members.
 
+== Convenience Tables
 
+== Tabulated
+include::uncombat:partial$task_target_rolls.adoc[]
+
+// Biologist maneuvers tag
+include::vocations:page$biologist.adoc[tag=biologist_maneuvers]
+
+// Knite maneuvers tag
+include::vocations:page$knite.adoc[tag=knite_maneuvers]
+
+// Mechanic maneuvers tag
+include::vocations:page$mechanic.adoc[tag=mechanic_maneuvers]
+
+// Mercenary maneuvers tag
+include::vocations:page$mercenary.adoc[tag=mercenary_maneuvers]
+
+// nomad maneuvers tag
+include::vocations:page$nomad.adoc[tag=nomad_maneuvers]
+
+// nothing maneuvers tag
+include::vocations:page$nothing.adoc[tag=nothing_maneuvers]
+
+// spie maneuvers tag
+include::vocations:page$spie.adoc[tag=spie_maneuvers]
+
+// veterinarian maneuvers tag
+include::vocations:page$veterinarian.adoc[tag=veterinarian_maneuvers]

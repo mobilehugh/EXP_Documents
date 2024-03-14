@@ -1,14 +1,14 @@
-// New table for calculated task rolls
-.*Target Roll Table*
+.*Task Target Roll Table*
 [width="75%",cols="22*^",frame="all", stripes="even"]
 |===
-22+<|Skill Score vs DD. Beat target roll with 1d100. Skill score = EXPS + Skills. 
+22+<|Competency (Comp) vs Difficulty gives target roll.
+22+<|If no Aptitude Competency = 0. Success depends on bonuses.
 
-s|Skill
-20+^s|Degree of Difficulty (DD)
-s|Skill
+|
+20+^s|Difficulty (DD)
+|
 
-s|Score
+s|Comp
 s|1
 s|2
 s|3
@@ -29,7 +29,7 @@ s|17
 s|18
 s|19
 s|20
-s|Score
+s|Comp
 
 s|0|60|64|68|72|76|80|84|88|92|96|100|104|108|112|116|120|124|128|132|136 s|0
 s|1|59|63|67|71|75|79|83|87|91|95|99|103|107|111|115|119|123|127|131|135 s|1
@@ -48,7 +48,7 @@ s|13|8|12|16|20|24|28|32|36|40|44|48|52|56|60|64|68|72|76|80|84 s|13
 s|14|4|8|12|16|20|24|28|32|36|40|44|48|52|56|60|64|68|72|76|80 s|14
 s|15|0|4|8|12|16|20|24|28|32|36|40|44|48|52|56|60|64|68|72|76 s|15
 
-s|Skill
+s|Comp
 s|1
 s|2
 s|3
@@ -69,9 +69,9 @@ s|17
 s|18
 s|19
 s|20
-s|Skill
+s|Comp
 
-s|Score
-20+^s|Degree of Difficulty (DD)
-s|Score
+|
+20+^s|Difficulty (DD)
+|
 |===
