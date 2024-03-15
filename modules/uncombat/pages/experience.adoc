@@ -18,26 +18,19 @@ These levels represent improvements in combat, skills and attribute challenges.
 :artist: Kelly Freas
 :date: 1957
 :license: CC BY-SA 4.0
-:description: Drawing of two humans working together on delicate project.
-
+:description: Two humans working together on delicate project.
 include::ROOT:partial$articulate.adoc[]
 
 The amount of EXPS required to increase levels varies from vocation to vocation.
 Anthros put their experience towards improving their vocations. 
 Robots and aliens also can acquire EXPS and increase their EXPS Levels.
 
-.*Sources of EXPS*
-* Combat
-* Identifying artifacts
-* Successful maneuvers
-* Role-playing fun
-
 Experience points are the personas reward for successes.
 There is no reason why failure should be any less educational.
 Granting EXPS for failure is up to the referee.
 There is no system for failure experience in EXP.
 
-== Player vs. Persona Experience 
+== Player Experience 
 As a player does more and more role-playing, her skill level at role-playing improves.
 No longer the incompetent neophyte she once was, an experienced player won't even consider actions that might have sorely tempted her previous personas.
 Her current persona will exhibit an increased level of consciousness in even the simplest of her actions.
@@ -50,6 +43,12 @@ However, it would be perfectly acceptable if the persona, on a hunch, acted in a
 
 The persona has no concept of gaining these points for activities. 
 The persona is just living their life, and likely won't even notice that they are better and finding shelter or fixing robots. 
+
+.*Sources of EXPS*
+* Combat
+* Identifying artifacts
+* Successful maneuvers
+* Role-playing fun
 
 == Experience Points 
 As the expedition progresses through each scenario, the referee keeps track of earned EXPS.
@@ -82,16 +81,16 @@ Task rolls, attack rolls, saving rolls, attribute rolls all reflect a bit of EXP
 The experience point is a universal value like the hit point. 
 One EXPS is one EXPS is one EXPS.
 
-== Anthro Experience
+=== Anthro
 Every anthro pursues a vocation.
 The anthro experience level is the same as the anthro's vocation level.
 Even the venerable nothing can earn EXPS and become a better nothing.
 
-== Robot Experience 
+=== Robot 
 EXPS is the same for robots and they can improve their ability to win control factor rolls and increase their free will.
 Robots are uniquely positioned to collect EXPS for taking damage.
 
-== Alien Experience 
+=== Alien 
 Aliens gain experience by succeeding at their natural abilities. 
 The higher the EXPS level of the alien, the better they are at being an alien.
 An alien that is following a vocation must choose between her vocation or being primal.
@@ -99,15 +98,70 @@ An alien with a vocation functions the same as any other persona in that vocatio
 
 Aliens can range from unintelligent planetary denizens to important dignitaries of intergalactic empires.
 
-== Experience for Money
-Personas do not gain EXPS for acquiring wealth.
-Aliens and robots do not earn EXPS for gaining money, but they may gain EXPS for the process.
-For example, there may be an EXPS award for robbing a bank. Stealing 1M or 1K is no different.
+== Sources
 
-There is one exception to this rule. 
-The nothing vocation can earn experience for earning money.
+.*Sources of EXPS*
+* Combat
+* Tasks
+* Artifacts
+* Role-playing fun
 
-== Experience for Task Rolls 
+=== Combat 
+The best way to gain combat experience is to fight.
+Personas gain EXPS for vanquishing opponents in heroic battles.
+Vanquishing includes knocking unconscious, paralyzing, stunning, killing, or otherwise rendering inoperative and non-threatening.
+
+:art: combat_experience.png
+:width: 250px
+:snark: Pwned.
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Smug police officer with shotgun standing over subdued humanoid feline.
+
+include::ROOT:partial$articulate.adoc[]
+
+Simply engaging a target in lethal combat does not guarantee the earning of EXPS.
+The opponent must have posed a threat to the expedition.
+Slaughtering the kittens in the local pet store would not result in EXPS for combat.
+An anti-knite may get some vocation experience for doing this, but no combat EXPS.
+Players cannot farm experience for their personas by engaging in frequent one-sided battles. 
+It is possible that farming for experience may weaken combat skills leading to  EXPS penalties.
+
+==== Calculating Combat EXPS
+Every referee persona created has a combat ratio (CR).
+The combat ratios calculations are in their respective referee persona sections.
+The higher the combat ratio, the more dangerous the persona to the expedition.
+Combat ratio loosely represents the number of first-level personas needed for a fair fight.
+A weak but aggressive alien has a combat ratio of 1/2.
+This combat ratio indicates two of these aliens versus one first-level persona is a balanced fight.
+A powerful combot has a combat ratio of 200.
+This combat ratio indicates this one combot would need to fight an army of 200 personas for a fair fight.
+
+==== Combat Ratio to EXPS
+.EXPS = (100 + HPS Total) * Combat Ratio
+****
+30 HPS and CR of 5 = (100 +30) * 5 = 130 *5 = 650 EXPS. +
+40 HPS and CR of 14 = (100 +40) * 14 = 140 * 14 = 1960 EXPS. +
+350 HPS and CR of 29 = (100 + 350) * 29 = 450 * 29 = 13050 EXPS.
+****
+
+The referee may wish to adjust combat EXPS based on the nature of the difficulty of the battle.
+Combat that is riskier to the expedition earns more EXPS. 
+Combat that faced little risk to the expedition earns less EXPS.
+
+include::uncombat:partial$exps_combat_adjustments.adoc[]
+
+==== Combat EXPS and Vocation
+Non-combat vocations do not glean as much practical knowledge from the combat.
+The referee can choose to modify combat EXPS by vocation. 
+A veterinarian will learn something about healing from combat but not as much as healing the wounded.
+For example, a mechanic whose share of combat experience was 400 EXPS would earn only 20% or 80 EXPS
+
+include::uncombat:partial$exps_combat.adoc[]
+
+
+=== Tasks 
 The most straightforward and honest way to earn EXPS is to practise one's vocation.
 Whenever a player wins a task roll, her persona gets EXPS.
 Biologists get EXPS for identifying aliens, nomads get EXPS for finding shelter, and nothings get EXPS for collecting cash.
@@ -117,13 +171,21 @@ NOTE: Some vocations have a bespoke EXPS value per DD.
 The amount of experience awarded depends on the degree of difficulty of the Task Roll.
 The persona earns 42 EXPS per DD of the maneuver.
 
-=== EXPS for Task Rolls
+==== EXPS for Task Rolls
 .42 EXPS per 1 Degree of Difficulty
 ****
 A persona succeeding at a 10DD maneuver would earn 420 EXPS.
 ****
 
-== Experience for Practice
+=== Money
+Personas do not gain EXPS for acquiring wealth.
+Aliens and robots do not earn EXPS for gaining money, but they may gain EXPS for the process.
+For example, there may be an EXPS award for robbing a bank. Stealing 1M or 1K is no different.
+
+There is one exception to this rule. 
+The nothing vocation can earn experience for earning money.
+
+=== Practice
 The referee may allow for personas to improve themselves with a period of intentional practice.
 Personas cannot earn EXPS for practice.
 Personas cannot improve attributes from practice.
@@ -132,14 +194,14 @@ If things line up in the story, a persona may be able to improve their skills.
 During a prolonged persona downtime, the referee may allow a persona to study and practice a particular skill.
 The downtime could be a long space voyage or a savage winter.
 The most a persona could add is one new skill level.
-For example, a biologist left alone in a zoo for two months may add skill in zookeeping.
+For example, a biologist left alone in a zoo for two months may add skill in zoo keeping.
 However, a mercenary with a part-time job counting money would learn nothing.
 
 Acquiring new skills should not be abused by the players or the referee.
 Personas automatically earn new skills with new EXPS Levels.
 Earning new skills the old-fashioned way maintains game balance and is more fun.
 
-== Experience for Artifact Identification
+=== Artifacts
 Personas in EXP will be encountering unknown technological devices of great mystery regularly.
 When these items are unidentified, they are artifacts.
 Once identified, they become toys or equipment.
@@ -153,7 +215,7 @@ The veterinarian rubs it on an infected wound.
 The nothing attempts to eat it with curry.
 Eventually, the slippery white cylinder hatches and its predator parent comes looking for the baby.
 
-If there is no time for role-playing shenanigans artifact identification can be turned into a dice laden flow charty mini-game at xref:uncombat:artifact_id.adoc[Artifact ID,window=_blank].
+If there is no time for role-playing shenanigans artifact identification can be turned into a dice laden flow chart mini-game at xref:uncombat:artifact_id.adoc[Artifact ID,window=_blank].
 
 Every artifact has an EXPS Value listed with it.
 Hopefully, more powerful and exciting TOYs have higher EXPS values.
@@ -166,61 +228,7 @@ Nor would they earn EXPS for finding a second fusion rifle in the wilds.
 Some artifacts have enormous EXPS values.
 The personas should acquire such artifacts through more complicated puzzles over many gaming sessions. 
 
-== Experience for Combat 
-The best way to gain combat experience is to fight.
-Personas gain EXPS for vanquishing opponents in heroic battles.
-Vanquishing includes knocking unconscious, paralyzing, stunning, killing, or otherwise rendering inoperative and non-threatening.
-
-:art: combat_experience.png
-:width: 250px
-:snark: Pwned.
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of smug police officer with shotgun standing over subdued humanoid feline.
-
-include::ROOT:partial$articulate.adoc[]
-
-Simply engaging a target in lethal combat does not guarantee the earning of EXPS.
-The opponent must have posed a threat to the expedition.
-Slaughtering the kittens in the local pet store would not result in EXPS for combat.
-An anti-knite may get some vocation experience for doing this, but no combat EXPS.
-Players cannot farm experience for their personas by engaging in frequent one-sided battles. 
-It is possible that farming for experience may weaken combat skills leading to  EXPS penalties.
-
-=== Calculating Combat EXPS
-Every referee persona created has a combat ratio (CR).
-The combat ratios calculations are in their respective referee persona sections.
-The higher the combat ratio, the more dangerous the persona to the expedition.
-Combat ratio loosely represents the number of first-level personas needed for a fair fight.
-A weak but aggressive alien has a combat ratio of 1/2.
-This combat ratio indicates two of these aliens versus one first-level persona is a balanced fight.
-A powerful combot has a combat ratio of 200.
-This combat ratio indicates this one combot would need to fight an army of 200 personas for a fair fight.
-
-=== Combat Ratio to EXPS
-.EXPS = (100 + HPS Total) * Combat Ratio
-****
-30 HPS and CR of 5 = (100 +30) * 5 = 130 *5 = 650 EXPS. +
-40 HPS and CR of 14 = (100 +40) * 14 = 140 * 14 = 1960 EXPS. +
-350 HPS and CR of 29 = (100 + 350) * 29 = 450 * 29 = 13050 EXPS.
-****
-
-The referee may wish to adjust combat EXPS based on the nature of the difficulty of the battle.
-Combat that is riskier to the expedition earns more EXPS. 
-Combat that faced little risk to the expedition earns less EXPS.
-
-include::ROOT:partial$CH15_Table_Combat_Results_Adjustment.adoc[]
-
-=== Combat EXPS and Vocation
-Non-combat vocations do not glean as much practical knowledge from the combat.
-The referee can choose to modify combat EXPS by vocation. 
-A veterinarian will learn something about healing from combat but not as much as healing the wounded.
-For example, a mechanic whose share of combat experience was 400 EXPS would earn only 20% or 80 EXPS
-
-include::ROOT:partial$CH15_Table_EXPS_Vocation_Combat.adoc[]
-
-== Experience for Role Playing 
+=== Role Playing 
 Role-playing is the single most entertaining aspect of playing an RPG.
 The clue to this is that the words role and playing are in its title.
 Role-playing informs the mood, strengthens the thread of reality, and provides essential comic relief.
@@ -233,8 +241,7 @@ EXPS for role-playing incentivizes role-playing for even the shyest player.
 :artist: Unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of canine humanoid sporting rocket pack, pistol and energy sword.
-
+:description: Canine humanoid sporting rocket pack, pistol and energy sword.
 include::ROOT:partial$articulate.adoc[]
 
 [quote]
@@ -254,7 +261,7 @@ ____
 The above  is more fun than "I attack."
 Such a description should earn her an EXPS award.
 
-include::ROOT:partial$CH15_Table_EXPS_For_Role-Playing.adoc[]
+include::uncombat:partial$exps_role_playing.adoc[]
 
 Properly assigning role-playing EXPS by the referee is an epic refereeing challenge.
 The ref must be aware of the player's choices.
@@ -263,7 +270,7 @@ Enthusiastic descriptions may not always be clear ones.
 The referee and players should be comfortable with asking for more info.
 Role-playing is a collective experience.
 
-== Shared Experience
+== Sharing
 Role-playing is a shared experience.
 How should the referee share experience points between players?
 Every referee will develop their method for keeping track of EXPS during a session.
