@@ -12,19 +12,12 @@ The health section is all about acute trauma and how personas heal from that tra
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Woman on medical bed attached to monitors and tubes.
-
 include::ROOT:partial$articulate.adoc[]
 
 The persona's hit points monitor her body's response to acute damage and injury.
 The persona's attributes monitor the impact of permanent physical damage from ageing or attribute-based attacks.
 
 This section covers damage, healing, ageing and death of personas in each family (anthro, alien, robot).
-
-.*Health Stuff*
-. <<_damage,Damage>>
-. <<_healing,Healing>>
-. <<_aging,Aging>>
-. <<_death,Death>>
 
 == Damage
 Damage represents acute injury to the body of the persona.
@@ -49,7 +42,7 @@ Losing too many HPS will result in death.
 A hit point is a hit point is a hit point.
 There are differences between how aliens, anthros and robots respond to HPS of damage.
 
-=== Anthro Damage
+=== Anthro
 Anthro personas have a few unique responses to being damaged.
 The persona may grimace, scream, fight, or run away.
 These are choices made by the player.
@@ -65,7 +58,7 @@ For more details about anthro HPS, DSS and REC, jump to xref:anthros:generate_hi
 
 When an anthro reaches zero HPS, they fall into an unconscious coma and quickly die from their wounds.
 
-=== Alien Damage
+=== Alien
 Alien personas have a few unique responses to being damaged.
 The persona may growl, howl, fight, or run away.
 These are choices made by the player.
@@ -79,7 +72,7 @@ When an alien reaches zero HPS, they are deceased.
 There is no unconscious state for an alien persona.
 Aliens are not obligated to fight to the death, but they could if the player chose to.
 
-=== Robot Damage
+=== Robot
 Robot personas have a few unique responses to being damaged.
 The persona may beep, squeak, fight, or run away.
 These are choices made by the player.
@@ -94,7 +87,7 @@ Robots have a unique response when they reach zero HPS.
 The robot does not die or go unconscious.
 A robot keeps functioning but falls apart a little bit.
 Eventually, a robot will fall apart and cease to function.
-To learm more about this convoluted and drawn-out process jump to xref:robots:damage_and_demolition.adoc[mechanical decay, window=_blank].
+To learn more about this convoluted and drawn-out process jump to xref:robots:damage_and_demolition.adoc[mechanical decay, window=_blank].
 
 == Healing
 Healing is any process or maneuver that returns HPS to the persona.
@@ -103,7 +96,7 @@ Inorganic personas like robots do not heal spontaneously.
 Robots do not heal at all.
 They just fall apart.
 
-=== Anthro Healing
+=== Anthro
 Anthro bodies will spontaneously replenish their HPS under the right circumstances.
 For an anthro to spontaneously heal, she must have at least zero HPS and rest completely.
 Anthro personas with less than zero HPS are critically ill and dying. 
@@ -128,7 +121,7 @@ Rest cannot repair a decreased INT or STR attribute.
 Rest cannot reverse ageing.
 Combating ageing and attribute deterioration are complicated veterinarian maneuvers.
 
-=== Alien Healing 
+=== Alien 
 Alien bodies will spontaneously replenish their HPS daily.
 An alien will heal every sleep and does not need to rest intentionally.
 
@@ -149,7 +142,7 @@ Rest cannot repair a decreased INT or STR attribute.
 Rest cannot reverse ageing.
 Combating ageing and attribute deterioration are complicated veterinarian maneuvers.
 
-=== Robot Healing
+=== Robot
 Robots do not heal spontaneously.
 Robots cannot repair their damage without compromising their consciousness.
 So robots are destined to deteriorate, and as they deteriorate, they improve their consciousness.
@@ -180,7 +173,7 @@ Robots do not age at all.
 :artist: unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of very old military man leaning on cane and waving a saber.
+:description: Very old military man leaning on cane and waving a saber.
 include::ROOT:partial$articulate.adoc[]
 
 All organic personas progress through five age categories: child, adolescent, adult, elder, and aged.
@@ -188,7 +181,7 @@ As a persona's age category changes, her attributes change as well.
 Aliens and anthros pass through these age categories the same. 
 However, aliens can have life spans much longer or much shorter than anthro personas.
 
-=== Anthro Aging
+=== Anthro
 Anthros generate their starting age when being created. 
 Most anthros start age is an adolescent or young adult.
 Attribute age adjustments do not apply during anthro creation. 
@@ -198,16 +191,16 @@ Initially, the anthro gets smarter and stronger.
 With more time, the anthro gets wiser and weaker.
 Eventually, the anthro starts to fail in all attributes and dies.
 
-include::ROOT:partial$CH13_Table_Anthro_Age_Categories.adoc[]
+include::uncombat:partial$anthro_age_categories.adoc[]
 
-=== Alien Aging
+=== Alien
 Aliens generate their starting age when being evolved. 
 This starting age will usually put them in the late adolescent or young adult age range.
 Attribute age adjustments do not apply during alien evolution. 
 Each alien species type has its unique age categories and lifespan.
 The player generates the alien lifespan and alien age categories during the evolution of the persona.
 
-=== Robot Aging
+=== Robot
 Robots do not age.
 The nearest equivalent to ageing for a robot is the accumulation of malfunctions from damage. 
 A robot that avoids damage will not deteriorate.
@@ -215,7 +208,7 @@ Robots have an age from their fabrication date, but that age bears no relation t
 Some referee personas have deterioration built-in for story purposes.
 Deterioration does not apply to robot player personas.
 
-== Aging and Attributes
+== Biological Aging
 Aliens and anthros are affected by ageing in the same fashion.
 The age category attribute effects are the same for both of the organic families.
 
@@ -234,7 +227,7 @@ Some chronologic-based attacks and accidents can biologically age unlucky person
 . Aged
 . Past Expiry
 
-include::ROOT:partial$CH13_Table_Age_Category_and_Attributes_Impact.adoc[]
+include::uncombat:partial$biological_aging_impact.adoc[]
 
 === Child
 The youngest age category is that of a child.
@@ -364,7 +357,7 @@ Most personas die through HPS loss.
 Each family shuffles off their mortal coil differently.
 Anthros slip into a coma, aliens drop dead, and robots fall apart.
 
-=== Anthro Death 
+=== Anthro
 Anthros can die from losing HPS in trauma or losing attributes.
 
 A negative hit point total indicates more damage than her body can heal.
@@ -374,7 +367,7 @@ An anthro is dead once her HPS total reaches negative one-half her HPMimum.
 
 An anthro whose HPM is 54 would be irrevocably and permanently dead at -27 HPS Total.
 An anthro with negative HPS can only lie about and bleed.
-For example,  a Garbling Snarfshankeran bites an anthro with 54 HPM.
+For example, a Garbling Snarfshankeran bites an anthro with 54 HPM.
 The anthro is now lying unconscious with an HPS Total of -12.
 She will lose 1 HPS per minute until 15 minutes passes and she is dead at -27 HPS.
 
@@ -395,7 +388,7 @@ A persona with an AWE of 0 has suffered a fatal collapse of her sensory processi
 
 NOTE: *Charisma less than zero is undesirable but not lethal.*
 
-=== Alien Death 
+=== Alien
 Alien death is not as dramatic as anthro death.
 Once an alien's HPS total reaches zero, it is dead.
 There is no unconscious or salvageable dying state, just a final thud to the ground.
@@ -407,7 +400,7 @@ For example, if an alien with an Awareness score of 1 were to lose an AWE point,
 A zeroed attribute represents the complete loss of an essential faculty.
 An alien with an AWE of 0 has suffered a fatal collapse of her sensory processing system.
 
-=== Robotic Death
+=== Robotic
 Robotic death is somewhat complicated.
 Robots rarely die from a loss of hit points.
 Dropping a robot's HPS to less than zero has a completely unique effect on robots.
@@ -420,7 +413,7 @@ For example, if a robot with an Awareness score of 1 were to lose an AWE point, 
 A zeroed attribute represents the complete loss of an essential system.
 A robot with an AWE of 0 has suffered a fatal collapse of her sensory processing system.
 
-NOTE: *Charisma of zero is fatal for a robot. Robots start with an MND of zero.*
+NOTE: *Charisma of zero is fatal for a robot.*
 
 Attribute loss for robots is due to damage.
 Robots actively avoid repair.

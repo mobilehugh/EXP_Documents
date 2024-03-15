@@ -19,26 +19,14 @@ This common terrain experience allows the players to use our little blue planet 
 :date: 2015
 :license: ImageStoks
 :description: Human man and woman in cockpit of spaceship experiencing zero gravity. 
-
 include::ROOT:partial$articulate.adoc[]
-
-.*Types of Special Terrain*
-* <<_normal_gravity,Normal Gravity>>
-** <<_high_gravity,High Gravity>>
-** <<_low_gravity,Low Gravity>>
-* <<_atmosphere,Atmosphere>>
-** <<_high_atmospheric_pressure,High Atmospheric Pressure>>
-** <<_low_atmospheric_pressure,Low Atmospheric Pressure>>
-** <<_low_atmospheric_pressure,Vacuum>>
-* <<_water,Water>>
-* <<_fire,Fire>>
 
 == Normal Gravity
 Gravity is the attraction between two masses.
 The attraction gets stronger as the wates get greater, closer together, or both.
 EXP has a very simplistic system to accommodate for gravities other than our mundane terran 1G.
 
-NOTE: *Familiarity with xref:CH18_Encumbrance.adoc[Encumbrance,window=_blank] is essential for understanding the effects of Gravity*
+NOTE: *Familiarity with xref:uncombat:encumbrance.adoc[Encumbrance,window=_blank] is essential for understanding the effects of Gravity*
 
 Gravity impacts every mechanical and biological process.
 Walking, flying, falling, and growth is dependent on gravity.
@@ -56,7 +44,7 @@ If a persona chooses to leap four metres to the ground, she could make the two h
 Violently throwing the same persona four meters to the ground could lead to damage and injury.
 Under the influence of combat, impairment, or injuries, the referee may require a Dexterity attribute roll.  
 
-include::ROOT:partial$CH19_Table_Safe_Landing.adoc[]
+include::uncombat:partial$safe_landing_dex_test.adoc[]
 
 If the player fails her persona's safe landing Dexterity roll, they take damage as if they fell the distance.
 
@@ -66,7 +54,7 @@ The persona may have voluntarily jumped into or involuntarily tossed into the gr
 The persona will always get the chance to have a safe landing as if it were a jump.
 A failed jump inflicts damage during the sudden deceleration at the end of the fall.
 
-=== Damage From Falling
+==== Damage From Falling
 .HPS Damage = 1d6-1 per hex of hite
 ****
 A 10 hex fall would inflict 0 to 50 HPS of damage on impact.
@@ -77,7 +65,7 @@ Heavier gravity would be worse, and lower gravity less worse.
 Any persona that can fly in any capacity will not take falling damage.
 Unconscious falling personas succumb to gravity even if they have the capacity for movement in the air.
 
-=== Terminal Velocity
+==== Terminal Velocity
 Terminal velocity is the fastest an object can fall in standard atmosphere and gravity.
 Terminal velocity is 55 h/u.
 It takes 78 hexes of free fall to reach terminal velocity.
@@ -91,14 +79,14 @@ High gravity is any gravity between 1G and 3G.
 Beyond 3G personas cannot function.
 The 3G limitation includes aliens, anthros and robots.
 
-The most common source of high gravity (HIG) is the increased surface gravity of an object with a great wate (typically a planet).
+The most common source of high gravity (HIG) is the increased surface gravity of an object with a great wate  (a planet).
 The acceleration of a vehicle could create high gravity (typically a spaceship).
 Some of the more bizarre high gravity terrains arise from gravitational anomalies produced by gravity attacks from gravruptor grenades or gravity spills.
 
 An increase in gravity will generally make things worse off for the personas.
 The high gravity will reduce their movement rates, their equipment will have a higher wate, and they will take more damage from falling.
 
-=== Wate and HIG
+=== Wate Effect
 The most significant impact on the persona is that they will be carrying extra wate.
 The wate of the persona and all her equipment increases under higher gravity.
 The persona's wate increases regardless of diet and exercise.
@@ -106,7 +94,7 @@ Gravity changes affect all equipment: pistols, armour, detectors, bandages, clot
 These wate increases worsen the encumbrance of the persona
 The encumbrance load increases in higher gravity while carrying the same amount of equipment.
 
-=== Additional Wate
+==== Additional Wate
 .additional wate = (Persona + Equipment Wate) * (G-1)
 ****
 A 100 kg persona carrying 50 kg of equipment in 1.5G would add 75 kilograms to her encumbrance.
@@ -119,7 +107,7 @@ The engine has to carry an invisible 500 kg payload.
 
 include::uncombat:partial$encumbrance_calculated.adoc[]
 
-=== Movement and HIG
+=== Movement Effect
 The additional wate of HIG acts like an encumbrance on movement.
 A 65 kg persona in 1.5G would increase by body wate by 32.5 kg. 
 Her musculoskeletal system is designed to carry 65 kg.
@@ -133,19 +121,19 @@ Her additional body wate would exceed her maximum wate allowance.
 
 include::combat:partial$movement_and_encumbrance.adoc[]
 
-=== Combat and HIG
+=== Combat
 HIG  makes combat very challenging for personas that have a 1G upbringing.
 Encumbrance affects weapons impairing all attack rolls.
 
 // encumbrance and attack roll penalties
 
-=== Range and HIG
+==== Range and HIG
 Any projectile that has mass is affected by HIG.
 Gravity does not affect attacks that involve lazers, sonics, and fission.
 Attacks that involve bullets, arrows, rocks are affected by gravity.
 In addition to substantial attack roll penalties, the ranges of these weapons a reduced.
 
-=== Gravity Range Double whammy
+==== Gravity Range Double whammy
 .new range = range / gravity
 .new decay = range * gravity
 ****
@@ -163,7 +151,7 @@ Area of effect weapons have their area of effect reduced by high gravity.
 An AOE grenade with a six hex radius of effect would decrease to three hexes in 2G.
 Aerosols are unaffected by changes in gravity.
 
-=== Task Rolls and HIG
+=== Tasks
 Task Rolls are impacted based on the level of encumbrance the persona suffers.
 Task Rolls for maneuvers unaffected by gravity suffer no penalty. 
 Purely mental processes are affected the least. 
@@ -171,7 +159,7 @@ Highly dextrous processes are affected the most.
 
 include::uncombat:partial$encumbrance_and_tasks.adoc[]
 
-=== Long Term Biological Effects
+=== Long Term
 Personas can adapt to high gravities if exposed over a long time (months to years).
 There is no training effect if a persona is in the free, unencumbered, or encumbered categories.
 A persona's STR may increase until it adapts to her new body wate.
@@ -182,8 +170,7 @@ A persona's STR may increase until it adapts to her new body wate.
 :artist: Andrew Brechin
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of humanoid walrus sitting on ground wearing a dotted sash.
-
+:description: Humanoid walrus sitting on ground wearing a dotted sash.
 include::ROOT:partial$articulate.adoc[]
 
 A 65 kg persona with a 12 STR is on a 1.5 g planet would be over-encumbered with the increase of her body wate.
@@ -201,7 +188,7 @@ The ref can shorten the time needed for STR increases with special high gravity 
 The ref can also create barriers for personas that are abusing the benefits of high gravity training.
 There are no other attribute bonuses to be obtained by exposure to high gravity.
 
-=== Extreme High Gravity
+=== Extreme HIG
 Extreme high gravity is lethal to personas used to a comfortable 1G.
 Gravity can become so high that the wate of a mammal's chest cavity will expunge the air from her lungs, and she will suffocate.
 The essential fluids (blood, sap, oil) that move through the persona's body can be brought to a halt by extreme gravities.
@@ -222,7 +209,7 @@ An expedition may find low gravity (LOG) surroundings on small planets or astero
 There are even some devices that develop anomalous low gravities.
 Low gravity is generally beneficial to the persona because it reduces the strains of Wate Allowance.
 
-=== Wate and LOG
+=== Wate
 Low gravity offers the best wate reduction plan possible.
 Because wate is dependant on gravity, all items within a low gravity field have less wate than usual.
 A persona with a wate of 80 kg would have a wate of 40 kilograms in 0.5G.
@@ -231,13 +218,13 @@ The low gravity has the effect of making the persona appear even stronger becaus
 Vehicles would also miraculously have power for an additional amount of cargo.
 A 2000 kg vehicle would have the capacity for an extra 1000 kg of cargo on a 0.5G planet.
 
-=== Wate Reduction in LOG
+==== Wate Reduction in LOG
 .wate = (persona + equipment wate) * G
 ****
 A 100 kg persona carrying 50 kg of equipment in 0.5G would add 75 kilograms to her wate allowance.
 ****
 
-=== Movement in LOG
+=== Movement
 Low gravity doesn't immediately yield faster movement rates.
 LOG does allow personas to move at the same speed they usually do with greater amounts of equipment.
 A persona with an 80 kg wate could add 40 kg to her wate allowance in 0.5G. 
@@ -249,7 +236,7 @@ The movement benefit of low gravity is in the reduced encumbrance effect on move
 A persona may be able to sprint in low gravity while carrying more stuff than she could in normal gravity.
 The usual encumbrance penalties apply in low gravity.
 
-=== Combat in LOG
+=== Combat
 The changes in trajectories, wate of weapons, and body balance all affect LOG combat.
 Any changes to the parameters of one's combat skills are not good.
 Fling attacks may fly further, but they don't follow the same trajectory.
@@ -265,7 +252,7 @@ A persona with a Skilled of 142 can only add 71 to her attack roll when in 0.5G.
 Attack Types Strike, Fling, and Area, suffer the low gravity Skilled Bonus (Skilled) penalty.
 Attack Types Shoot, Sotto and Flotto are unaffected by this penalty. 
 
-=== Range and LOG
+==== Range and LOG
 The distance a ranged attack travels increases, but the effective range does not.
 Just because the projectile won't fall to the planet's surface any faster doesn't make the weapon any more accurate.
 The accurate ranges of weapons do not change in low gravity, but the projectile will travel much farther than usual.
@@ -281,10 +268,10 @@ Shrapnel area of effect weapons are unaffected by low gravity.
 The attack's shrapnel will travel further, but it is only effective within its usual area of effect.
 For example, if the radius of a grenade's effect is six hexes and used on a 0.5 g world, the shrapnel would travel twice as far, but the damage area would still be six hexes.
 
-=== Task Rolls and LOG
+=== Tasks
 Low gravity does not affect task rolls.
 
-=== Low Gravity Sickness
+=== Sickness
 Low gravity sickness is disabling nausea and balance disruption that incapacitates organic personas.
 Robots are unaffected by LOG sickness.
 There is a percentage chance equal to the gravity in a location that the persona will NOT suffer from low gravity sickness.
@@ -300,7 +287,7 @@ A failed Mind roll incapacitates the persona with nausea, unbalance and malaise.
 Low Gravity sickness lasts for 2 to 24 (2d12) hours.
 After which, the persona will spontaneously recover.
 
-==== Long Term LOG Effects
+=== Long Term
 The long-term effects of low gravity are hazardous to the persona.
 The lessened gravity will atrophy muscles, reducing STR, and dilute the blood, reducing CON.
 These effects take a long time to develop, and personas recover once back in normal gravity.
@@ -328,12 +315,11 @@ Personas can regain the lost CON at a rate of 1 point for every 24 hours at full
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Humanoid floating in space ship reaching for suspicious looking device with a timer.
-
 include::ROOT:partial$articulate.adoc[]
 
-== No Gravity (ZOG)
+== No Gravity
 No gravity is the absence of any significant gravitational attraction.
-No gravity is also known as zero-g, null g, or watelessness.
+No gravity (ZOG) is also known as zero-g, null g, or watelessness.
 The abbreviation chosen here is ZOG, for zero-G.
 An expedition will almost always encounter ZOG while in outer space.
 ZOG has detrimental long-term health effects identical to those of low gravity (LOG).
@@ -343,14 +329,14 @@ The added complexity of 3d movement is challenging.
 ZOG is not just an extension of low gravity rules.
 There are additional complications involved in zero gravity.
 
-=== Wate and ZOG
+=== Wate
 When gravity is absent, wate is absent also.
 In a ZOG environment, a persona can lift virtually anything.
 The problem becomes one of inertia as opposed to wate.
 Personas cannot send orbiting space stations into the atmosphere with a flex of their muscles.
 The question about pushing or lifting something in zero gravity is whether the object or the persona moves.
 
-=== Movement and ZOG
+=== Movement
 It's not that ZOG affects movement, but that in zero gravity, everything affects movement.
 Aside from the persona's movement efforts, hits and attacks may also send the persona spinning.
 Normal walking doesn't work in zero gravity.
@@ -379,7 +365,7 @@ If a 100kg persona tries to push off from a 50kg object (possibly another person
 The object will move away in the opposite direction at 50% of her movement rate.
 Coordinating push-offs to optimize movement in ZOG can only be carried out by personas with skill in ZOG.
 
-=== Combat and ZOG
+=== Combat
 In zero gravity, combat forces generate unintended movement.
 Punching a target may cause the target to fly away. 
 Not all attacks generate movement forces.
@@ -397,13 +383,7 @@ A punch delivering 20 HPS in damage will send the target flying away at two h/u.
 
 Translational motion in zero gravity is cumulative, and if a persona is flying away at 8 h/u and gets shot in the back (how callous) for 40 HPS of damage, she will now move at 12 h/u.
 
-==== Rotational Motion from damage
-The target may not just comfortably float away.
-There is a change that the movement will be chaotic and include undesired rotational motion.
-Rotational movement can be end over end, side to side, or a combination of both.
-Such spin may cause the spinning persona to suffer an attack of low gravity sickness.
-
-==== Rotational Motion Sickness
+=== Vertigo Sickness
 .chance = 1% per h/u
 ****
 A persona spinning away at 12 h/u has a 12% chance of LOG sickness.
@@ -412,7 +392,13 @@ A persona spinning away at 12 h/u has a 12% chance of LOG sickness.
 She will then have a 12% chance of getting sick from the rotational motion.
 Rotational motion sickness will incapacitate the persona for the remainder of the combat session.
 
-=== Non-powered Attacks
+==== Rotational Motion from damage
+The target may not just comfortably float away.
+There is a change that the movement will be chaotic and include undesired rotational motion.
+Rotational movement can be end over end, side to side, or a combination of both.
+Such spin may cause the spinning persona to suffer an attack of low gravity sickness.
+
+==== Non-powered Attacks
 Strike attacks (thrusting and striking) are very difficult to use in zero gravity.
 The forces required to do damage result in unintended rotational forces.
 The persona throws herself off-balance, trying to generate the damaging forces of thrusting and striking weapons.
@@ -427,8 +413,8 @@ This system of resultant translational motion is accurate for personal combat am
 Fling attacks (non-powered projectile weapons) will not generate any translational or rotational motions for the attacker.
 However, the target will suffer one h/u of translational movement for every 10 HPS of damage.
 
-=== Powered Attacks
-Shoot, D, E and F attacks are powered projectile weapons.
+==== Powered Attacks
+Shoot attacks are powered projectile weapons.
 Most guns generate significant translational motion for the firer.
 All guns will produce kickback in zero gravity unless stated explicitly in the weapon description.
 Skills like ZOG combat can negate these effects.
@@ -445,7 +431,7 @@ For example, an extra high-powered revolver inflicts 4 to 48 points of damage.
 When fired, the attacker will move away from the target at five h/u.
 If the target takes 12 HPS of damage, she moves in the opposite direction at one h/u.
 
-=== Mechanical Effects and ZOG
+=== Mechanicals
 ZOG can have drastic effects on mechanical equipment.
 Artifacts that depend on friction, levers, or balances may not function correctly in zero gravity.
 The malfunction does not mean nothing will happen, but that nothing expected will happen.
@@ -458,13 +444,8 @@ Many mechanical devices have proven their worth in zero gravity: knives, golf cl
 ZOG function of an artifact is a discussion for the players and referee.
 These discussions can also result in the need for a xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank].
 
-=== Other ZOG Effects
-The ZOG and LOG rules are the same in the following situations.
-
-* Ranges
-* Damage
-* Task Rolls
-* Biologic Effects
+=== Biologicals
+All the same biological problems that afflict land lovers in low gravity affect them in zero gravity.
 
 == Atmosphere
 This section is devoted to the differences in atmospheric pressure.
@@ -478,8 +459,7 @@ The atmospheric pressure is our mundane terra of 1 Atmosphere.
 :artist: Unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of humanoid wearing safety suit in toxic environment. 
-
+:description: Humanoid wearing safety suit in toxic environment. 
 include::ROOT:partial$articulate.adoc[]
 
 The atmosphere has both the correct chemical composition and the correct pressure for breathing.
@@ -502,12 +482,12 @@ Physical properties are unaffected by the quality of the atmosphere.
 Attack Rolls are unaffected, damages are identical, and ranges are the same regardless of the atmosphere in which combat occurs.
 Many Shoot attacks will not function in a vacuum because they depend on the atmosphere to operate.
 
-=== Task Rolls 
+=== Tasks
 Task  Rolls are unaffected unless a bulky spacesuit protects the persona.
 If the persona is protected, then the restrictiveness of the vac suit will hamper task rolls.
 If the persona is not wearing a vac suit, then survival is more important than task rolls.
 
-== High Atmospheric Pressure
+== High Pressure
 High atmospheric pressure will cause increased wate on the persona because more gas is resting on the persona's head.
 In a typical planetary atmosphere, a persona is supporting a column of air on her head.
 In 1.5 ATMs, an additional 225 kg of wate would be pressing down on the persona.
@@ -524,19 +504,22 @@ Essentially a high atmospheric pressure quickly crushes the persona, alien or ro
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Humanoid in NASA space suit playing a flute.
-
 include::ROOT:partial$articulate.adoc[]
 
-== Low Atmospheric Pressure
+== Low Pressure
 The effects of low atmospheric pressures separate into categories based on fractions of  1 ATM.
 The categories are hypoxia, dysbaria, anoxia, and ebullia.
 They represent progressively worse conditions of exposure to low ATM.
 These effects are cumulative and explosive decompression requires a persona to every category.
 
-=== Normal (1 ATM to 0.70 ATM)
+=== Normal
+*1 ATM to 0.70 ATM*
+
 The standard atmosphere has no detrimental effects on personas.
 
-=== Hypoxia (0.7 ATM to 0.41 ATM)
+=== Hypoxia
+*0.7 ATM to 0.41 ATM*
+
 The partial pressure of the gases needed to get into the vital fluids (blood, sap, etc.) is too low.
 The system is having trouble exchanging the persona's essential gases.
 Lungs can't exchange oxygen into blood or CO2 into sap. 
@@ -547,7 +530,9 @@ A normal MND attribute roll is be required to avoid fainting when engaging in vi
 Vigorous activity includes standing up too fast, running, or combat.
 A missed attribute roll will result in a swoon or blackout that lasts 1 to 20 units (1d20).
 
-=== Dysbaria (0.40 ATM to 0.12 ATM)
+=== Dysbaria
+*0.40 ATM to 0.12 ATM*
+
 In low-pressure, gases begin to expand as gases lacking pressure are wont to do.
 Dysbaria is the formation of undesired gas bubbles in the fluids and tissues of the persona.
 
@@ -572,7 +557,8 @@ If the player loses the saving roll, her persona loses 27 HPS.
 
 Personas suffering a dysbaria attack also suffer a hypoxia attack.
 
-=== Anoxia (0.12 ATM to 0.06 ATM)
+=== Anoxia
+*0.12 ATM to 0.06 ATM*
 Anoxia is the lethal advance of hypoxia.
 In this atmospheric category, there is no gas exchange at all, and life is not sustainable.
 Any organic persona exposed to this low atmospheric pressure is suffocating.
@@ -582,7 +568,7 @@ If the persona is suffering anoxia due to a drop in atmospheric pressure, a dysb
 If the persona is suffering anoxia due to immersion, there is no dysbaria attack.
 
 ==== Anoxia Attack
-Anoxia attack is a euphamism for suffocation.
+Anoxia attack is a euphemism for suffocation.
 The anoxia attack inflicts death and not damage.
 A suffocating persona will struggle to stay conscious.
 The player must win a normal MND attribute roll for her persona to remain conscious.
@@ -604,7 +590,9 @@ During this time, she tries to restore the airlock pressure.
 She cannot fix the malfunction within 12 units (about half a minute), and she goes unconscious. 
 The expedition has 3 minutes to rescue her, or she is dead. 
 
-=== Ebullia (0.05 ATM to 0 ATM)
+=== Ebullia
+*0.05 ATM to 0 ATM*
+
 Ebullia results when the persona is subject to a total vacuum.
 Bodily fluids start roiling into a gaseous form as there is no pressure to keep them liquid.
 Body fluids vaporize and escape through the skin and respiratory structures.
@@ -627,7 +615,7 @@ During this time, she tries to get her safe suit on.
 She is unable to do so within three units, and she goes unconscious. 
 The expedition has 12 units to rescue her, or she is dead. 
 
-=== Explosive Decompression
+== Decompression
 Explosive decompression is the instantaneous passing from a normal atmosphere to the extremities of space.
 Exatmo is the EXP term for the void of space, and it is short for "exterior to atmosphere."
 When a persona is exposed to exatmo instantly, she is as dead as being exposed to it slowly.
@@ -646,7 +634,7 @@ Below is the suggested approach for explosive decompression.
 .. Normal MND Roll vs unconsciousness (yes, a third one)
 .. Death after CON units
 
-=== Extreme Cold 
+== Exatmo Cold 
 Outer space is cold. 
 Exatmo is very, very cold.
 There is almost no heat energy in space atoms nearly stop agitating.
@@ -657,7 +645,7 @@ The damage inflicted by dysbaria, anoxia and ebullia will eventually kill vacuum
 The recovery of the body is that of a frozen solid body.
 
 In the rare extreme cold situation within an atmosphere, the persona suffers an ebullia attack. 
-In this case, the ebullia attack is from denaturating body tissues by crystallization instead of evaporation. 
+In this case, the ebullia attack is from denaturing body tissues by crystallization instead of evaporation. 
 Freezing tissue is as damaging as burning tissue.
 
 === Robot Effects
@@ -749,7 +737,7 @@ These weapons do not work underwater.
 The density of water offers too significant a drag for the weapon to be of any use.
 Aliens can use naturally evolved underwater Fling attacks underwater.
 
-=== Shoot, D, E, F  Attacks
+=== Shoot Attacks
 Shoot weapons are powered weapons such as guns, pistols, and rifles.
 Projectile firing weapons only have a range of a few hexes and have drastically reduced damage.
 Energy firing weapons do not work underwater unless specifically described to do so.
@@ -763,7 +751,7 @@ They just cannot be thrown any distance.
 A specialized underwater grenade launcher (torpedo) can deliver grenades.
 Aerosols do not work underwater unless described to do so. 
 
-=== Task Rolls
+=== Tasks
 Water has a dampening effect on maneuvers.
 Touch is hampered, vision is affected, and smell and taste are useless.
 The persona must also deal with equipment that wants to float away, sink, or dissolve.
@@ -801,7 +789,7 @@ If personas still insist on going this deep, or if something else is insisting, 
 A persona suffers 1d4 damage per unit for every five hexes they are below the 25 hex limit.
 The pressures of deep water will certainly crush personas and equipment.
 
-=== Under Pressure
+==== Under Pressure
 .damage per unit = 1d4 per (depth - 25 hexes)
 ****
 At 30 hexes underwater, the persona will take 5d4 HPS every unit.
@@ -814,7 +802,7 @@ Rapidly depressurizing personas will suffer a dysbaria attack.
 Dysbaria is the formation of gaseous bubbles in the blood and tissues.
 A dysbaria attack requires the player to win a saving roll versus intensity 4 to 16 (4d4) toxin.
 
-=== Mechanical Effects
+=== Mechanicals
 Equipment hardened for EXATMO, underwater or high pressure is not damaged by water immersion.
 Whether water-hardened equipment works in water can depend on a xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank].
 Any item with bespoke use or underwater purpose will work underwater.
