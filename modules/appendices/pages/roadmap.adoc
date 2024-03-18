@@ -126,6 +126,8 @@ A suite of sweet sayings.
 * Find the least number of rules necessary and use one less
 * the EXPedition EXPlores for EXPeriences.
 * EXP is the game of technological chaos, and the dice deliver the chaos.
+* let the table decide
+* it's always a play test
 
 === Pithy Paragraphs
 A posse of pithy paragraphs
@@ -195,13 +197,6 @@ Missing parts from the generic mythos.
 ** Robots get sentience by accident unique and isolated
 ** Autonomous Intelligence (AI) are fabricated with consciousness
 ** Artificial Intelligence is not conscious, but may appear so
-
-
-=== expgamedia
-We lost this resource when version 5 imploded. 
-There was a list of movies and shorts.
-Shorts have now become corporate (Dust) and general access has been destroyed.
-There is still an ability to list influential sciency fiction movies. 
 
 .*Prerequisites*
 . Live action preferred
@@ -407,16 +402,4 @@ image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} D
 :description:
 ----
 
-=== Tags for DRY 
-These work but beware of the unusual include statement that houses page$
 
-[source]
-----
-in file: aliens.adoc
-
-// tag::blah[]
-blah blah blah
-// end::blah[]
-
-include::aliens:page$movement.adoc[tag=blah] //blah blah blah
-----
