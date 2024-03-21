@@ -5,42 +5,53 @@ Personas brought to life by the referee are called referee personas.
 The referee persona could be from any family: anthro, robot, alien or AI.
 Referee personas can be friends, foes, flora, or fauna.
 
-NOTE: *A referee persona is also called a non-player character. RP=NPC*
+NOTE: *A referee persona is also called a non-player character. RP = NPC*
+
+== I Want A ...
+Referee personas are essential to the core of role-playing games.
+The expedition needs to hire an ursidae mercenary for protection in the wilds.
+Those wilds are full of ferocious alien flora and fauna.
+The radioactive ruin in the center of the wilds is the home of an angry explorations robot. 
+
+A referee could generate completely random referee personas.
+However, it is unlikely that a completely random persona will fit the milieu.
+The referee should massage the RP creation to fit into her milieu.
+The RP toolset is for helping creativity, not replacing it.
+
+TIP: Rules maintain game balance and assist creativity. +
+*Do not let rules get in the way of the story or the fun.*
+
+Each family has its section for RP creation.
+Each section has most of the essential data in one place.
+Moving from top to bottom will create a persona most efficiently.
+Filling in a persona record sheet as you create the persona will save precious time.
+Creating referee personas can be as much fun as playing them. 
 
 == Referee Persona Checklist
-Referee-run personas require more details than player-run personae.
-The Referee Persona Creation Checklist indicates the extra info needed for a referee persona. 
+Referee personas require more details than player personae.
+Randomly generating the infill data for a referee persona helps the referee explore unexpected interactions.
 
 .*Referee Persona Creation Checklist*
-* *ROLL PLAYING INFO (Data)*
-. Modifications (i want a ...)
+. I Want A Rando
 .. <<_family,Determine Family>>
 .. <<_relevance,Determine Relevance>>
-. xref:appendices:printables.adoc[Persona Record Sheet]
-. follow generation steps 
+. I Want A ...
+.. xref:appendices:printables.adoc[Persona Record Sheet]
 .. xref:referee_personas:anthro_rp.adoc[Anthro]
 .. xref:referee_personas:alien_rp.adoc[Alien]
 .. xref:referee_personas:robot_rp.adoc[Robot]
 .. xref:wetware:CH69_AI.adoc[AI]
-. Combat Ratio
-* *ROLE PLAYING INFO (Fun)*
-. Story
-. Personality
-. Appearance
-. Beliefs
-. Name
-. Have Fun!
+. xref:referee_personas:rp_story_cues.adoc[Story Cues]
+. xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio]
 
-// todo link up all the elements on this list
-
-== Family
+=== Family
 The referee starts the process of RP generation by picking a family for the RP.
 Often the referee will need a certain kind of RP and can jump right to that section.
 If inspiration is needed, then roll on the Referee Persona Family Determination Table. 
 
 include::referee_personas:partial$family_randomization.adoc[]
 
-== Relevance
+=== Relevance
 
 include::referee_personas:partial$persona_relevance.adoc[]
 
@@ -57,25 +68,12 @@ Collaborative role-playing groups will often have players represent referee pers
 Player-run referee personas work well for personas that are friendly or neutral to the expedition.
 A player could run a cranky shopkeeper that likes to haggle.
 A player could run an adorable alien that begs for scraps of plastic.
-A player should *not* play a Heavy Combot RP that is attacking the expedition.
-A player should *not* play a spie feline RP that knows crucial campaign secrets. 
+A player should *not* play a Heavy Combot that is attacking the expedition.
+A player should *not* play a spie feline that knows plotful campaign secrets. 
 
-== Generation
-Referee personas are so essential to the core of role-playing games that the referee will be generating many of them.
-The expedition need's an ursidae mercenary for protection in the wilds.
-Those wilds are full of ferocious alien flora and fauna.
-The radioactive ruin in the center of the wilds is the home of an explorations robot collecting specimen with lethal prejudice.
-
-A referee could generate completely random referee personas.
-However, it is unlikely that a completely random persona will fit the milieu.
-The referee should massage the RP creation to fit into her milieu.
-The RP toolset is for helping creativity, not replacing it.
-
-TIP: Rules maintain game balance and assist creativity. +
-*Do not let rules get in the way of the story or the fun.*
-
-Each family has its section for RP creation.
-Each section has most of the essential data in one place.
-Moving from top to bottom will create a persona most efficiently.
-Filling in a persona record sheet as you create the persona will save precious time.
-Creating referee personas can be as much fun as playing them. 
+== Automation
+There is a Python tool set that allows players to generate fresh, rando and bespoke personas. 
+It works very well for anthros and aliens. 
+The tool set is based on version 6.1 of EXP Game. 
+You need to install Python locally, download the scripts and run it on your machine. 
+If you wanna prevent your dice being worn down jump to https://github.com/mobilehugh/EXP_Game_Tools[EXP Game Tools].

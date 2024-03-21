@@ -1,49 +1,31 @@
 = Anthro Referee Personas
 
 Anthros are upright, bipedal humanoids.
-In the fake taxonomy, anthros are of the family Hominidae and the genus homo.
-Referees are most familiar with playing this type of referee persona.
+In the faux taxonomy, anthros are of the family Hominidae and the genus homo.
+Referees are most familiar with playing this kind of referee persona.
 They have hands, heads and faces.
 The referee should massage the anthro RP to fit her milieu.
 This section is for helping creativity, not replacing it.
 
-.*Anthro RP Delivery Checklist*
-\. <<_anthro_rp_roll_playing,Roll Playing>>
-. <<_anthro_rp_relevance,Relevance>>
-. <<_anthro_rp_record_sheet,Persona Record Sheet>>
-. <<_anthro_rp_type,Anthro Type>>
-. <<_anthro_rp_size,Size>>
-. <<_anthro_rp_age,Age>>
-. <<_anthro_rp_attributes,Attributes>>
-. <<_anthro_rp_movement_rate,Move>>
-. <<_anthro_rp_defence_rating,Defence Rating>>
-. <<_anthro_rp_wate_allowance,Wate Allowance>>
-. <<_anthro_rp_mutations,Mutations>>
-. <<_anthro_rp_exps_level,EXPS Level>>
-. <<_anthro_rp_vocation,Vocation>>
-. <<_anthro_rp_equipment,Equipment>>
-. <<_anthro_rp_combat_table,Attack Table>>
-. <<_anthro_rp_combat_ratio,Combat Ratio>>
-. <<_modifications,Modifications>>
-.. attributes
-.. size
-.. age
-. <<_anthro_rp_name,Name>>
-. Have Fun!
+== Record Sheet
+You will not be able to keep track of everything that is needed for a referee persona.
+It is recommended that you print out a persona record sheet to keep track of stuff.
+Download the bare bones PDF (75K) at xref:ROOT:attachment$anthro_record_v7.pdf[Anthro Record v7]
 
-== Anthro RP Roll Playing
-Roll playing is a play on words that honours the dice rolling required to create a  referee persona.
-The roll playing here generates the data that a referee needs to play a referee persona.
-The referee should massage the roll results to reflect the milieu of her campaign.
-There is less massaging to do in this section than the role-playing section.
+NOTE: *If it's worth creating, it's worth writing down.*
 
-== Anthro RP Relevance
+The referee persona record sheet is just another persona record sheet.
+There are few bonus elements of which the referee must keep track.
+Most player personas do not have elements like personality, politics or religion.
+The referee can also use the persona record sheet to keep track of interactions with the expedition.
+
+== Relevance
 Not all RPs are created equal.
 Some personas are less important than others.
 The referee usually knows the importance of the persona before she starts generation.
 An RP's relevance increases the more entangled they are with the expedition.
 
-include::ROOT:partial$CH11_Table_RP_Relevance.adoc[]
+include::referee_personas:partial$persona_relevance.adoc[]
 
 === Cannon Fodder
 Cannon fodder are the movie extras that fill in the background.
@@ -63,7 +45,7 @@ ____
 The referee can create sidewalk civilians on the fly. 
 Any numerical value needed is 6.
 Anthro cannon fodder have 6 HPS, 6 DEX, and 6 MND.
-The anthro type can is nondescript as in a mutt for canines. 
+The anthro genus is generalis, as in a mutt for canines. 
 Cannon fodder only transiently exists, and no persona record sheet is needed.
 You can stop here if you randomly rolled cannon fodder. 
 
@@ -73,7 +55,7 @@ Police forces and superheroes spend most of their time protecting cannon fodder.
 
 === Canon Fodder
 Canon fodder may have bit parts in the story, but they do not make the story. 
-Anthro canon fodder are minions, soldiers, or security staff.
+Anthro canon fodder are minions, soldiers, and security staff.
 
 .*Canon Fodder* 
 . could act in opposition to the expedition's goals
@@ -101,116 +83,94 @@ These referee personas utilize every step of persona creation.
 They have all attributes, vocations, mutations and goals.
 Only the player personas are more important to the story.
 
-== Anthro RP Record Sheet
-The referee persona record sheet is just another persona record sheet.
-There are few bonus elements of which the referee must keep track.
-Most player personas do not have elements like personality, politics or religion.
-The referee can also use the persona record sheet to keep track of interactions with the expedition.
-
-NOTE: *If it's worth playing, it's worth writing down.*
-
 :art: aquarium_not_aquarian.png
 :width: 250px
 :snark: An aquarium not an aquarian
 :artist: Imagestoks 
 :date: 2017
 :license: Copyright Imagestoks 2015
-:description: Drawing of a space suit with fish swimming in the helmet.
-
+:description: A space suit with fish swimming in the helmet.
 include::ROOT:partial$articulate.adoc[]
 
-== Modifications
-Modifications are descriptors that make changes to the referee personas attributes and size.
+== Genus
+The anthro genus should reflect the referee's milieu.
 
-include::ROOT:partial$CH11_Table_Anthro_RP_Modifiers.adoc[]
+include::referee_personas:partial$anthro_genus_determination.adoc[]
 
+=== Species
+The anthro species should reflect the referee's milieu.
+The most common species is generalis.
+Generalis is the typical non-descript anthro species.
+On mundane terra a canine generalis is called a __mutt__.
 
-== Anthro RP Type
-The anthro RP type should reflect the referee's milieu.
-The anthro type table is for inspiration only. 
+include:referee_personas:partial$anthro_species_determination.adoc[]
 
-include::ROOT:partial$CH11_Table_Anthro_RP_Anthro_Type.adoc[]
+Anthro species are phenotypical, not scientific.
+Anthros are appearance only and are unfaithful to mundane terran science.
 
-=== Anthro Subtypes
-The anthro subtype should reflect the referee's milieu.
-The anthro subtype table is for inspiration only. 
-
-Anthro subtypes are phenotypical, not scientific.
-Anthros are appearance only and are faithful to mundane terran science.
-
-Non-descript anthro types are also called mutts. 
-A canine mutt is a canine, but no more distinct than that.
-
-include::ROOT:partial$CH11_Table_Anthro_RP_Anthro_Type_Subs.adoc[]
-
-.source links for anthro subtypes
+.*Mundane terran examples*
 * https://en.wikipedia.org/wiki/List_of_fish_common_names[Aquarian]
 * https://en.wikipedia.org/wiki/List_of_dog_breeds[Canine]
 * https://en.wikipedia.org/wiki/List_of_horse_breeds[Equine]
-* https://en.wikipedia.org/wiki/Ungulate[Equine]
+* https://en.wikipedia.org/wiki/Ungulate[Equine, even more]
 * https://en.wikipedia.org/wiki/Felidae[Feline]
 * https://en.wikipedia.org/wiki/Reptile[Reptilian]
 * https://en.wikipedia.org/wiki/Rodent[Rodentia]
 * https://en.wikipedia.org/wiki/Bear[Ursidae]
 
-=== Anthro RP Size
+== Size
 Use this single look-up table to create the anthro's hite and wate. 
+All anthros are considered to have the size category of Medium. 
 For a refresher on calculating hite and wate jump to xref:anthros:anthro_size.adoc[Anthro Size,window=_blank].
-To choose specific sizes like obese, skinny tall or short, jump to <<_modifications,Modifications>>.
+To choose specific sizes like obese, skinny tall or short, jump to <<_strong_descriptors,Strong Descriptors>>.
 
-include::ROOT:partial$CH11_Table_Anthro_RP_Hite_and_Wate.adoc[]
+include::referee_personas:partial$anthro_size_quick_table.adoc[]
 
-=== Anthro RP Age
-Most often, the lifespan category is enough of a descriptor for the referee persona.
-If the story needs an exact age, EXP has a table that has you covered.
+== Age
+First generate the age category of the referee persona and then hone in on an exact age in years.
 
-include::ROOT:partial$CH11_Table_Anthro_RP_Lifespan_Category.adoc[]
+include::referee_personas:partial$anthro_age_categories.adoc[]
 
-include::ROOT:partial$CH11_Table_Anthro_RP_Age.adoc[]
+include::referee_personas:partial$anthro_years_old.adoc[]
 
-== Anthro RP Attributes
-Referee persona attributes are slightly better than player persona attributes and do not affect the persona's anthro type or vocation.
+== Attributes
+Referee persona attributes are slightly better than player persona attributes and do not affect the persona's genus or vocation.
 The referee generates initial attributes for the referee persona using the attributes table below.
-The attributes are then modified to reflect the anthro type and vocation.
-To choose descriptive attributes like slow, weak, or dumb jump to <<_modifications,Modifications>>.
+The attributes are then modified to reflect the anthro genus and vocation.
+To choose descriptive attributes like slow, weak, or dumb jump to <<_strong_descriptors,Strong Descriptors>>.
 
-include::ROOT:partial$CH11_Table_Anthro_RP_Attributes.adoc[]
+include::anthros:partial$anthro_attribute_generation.adoc[]
 
-=== Anthro RP Hit Points
+=== 4d6DL
+For attributes with ranges of 3-18 can replace the 3d6 roll with a 4d6DL roll.
+With 4d6DL the player rolls 4d6 and drops the lowest die roll. 
+If a player rolls 4, 3, 5, and 2, she drops the 2, and her total is 12. 
+The impact on the nature of the game using drop the lowest is astounding. 
+Using 4d6DL allows for powerful vocations like spies and knites to be more frequent.
+
+=== Hit Points
 A referee persona's Hit Points (HPS) maximum is determined the same as any other anthro persona.
 For more information about anthro hit points jump xref:anthros:generate_hit_points.adoc[here,window=_blank].
 
-=== Anthro Type Attribute Corrections
-For RPs, attributes do not select the anthro type.
-The attributes are modified to reflect the anthro type.
+==== Calculation
+.HPS = (1/2 CON x 1d8) + CON
+****
+A persona with a CON of 11 would roll 6d8 and add 11. Rounding benefits the persona.
+****
+
+=== Genus Adjustment
+For player personas the attributes determine the choice of anthro genus.
+For referee personas the anthro genus alters the attributes
 Attributes are never corrected down. 
-However, if the referee needs a clumsy feline, she can achieve this at <<_modifications,Modifications>>
+If the referee needs a clumsy feline, she can achieve this using the <<_strong_descriptors,Strong Descriptors>>.
 
-include::ROOT:partial$CH11_Table_Anthro_RP_Attribute_Correction_Type.adoc[]
+include::referee_personas:partial$anthro_genus_attribute_correction.adoc[]
 
-== Anthro RP Movement Rate
-Movement rate is dependent on DEX and represented in hexes per unit.
-If the referee needs a slow or fast RP, this is modified at <<_modifications,Modifications>>
-
-include::anthros:partial$movement_rate_and_dexterity.adoc[]
-
-== Anthro RP Defence Rating
-Defence Rating is adjusted using DEX.
-// this in include from Anthro AR
-include::anthros:defence_rating.adoc[lines=3..20]
-
-// todo check this include for defence_rating
-
-== Anthro RP Wate Allowance
-The better the STR, the more she can lift.
-
-include::anthros:partial$wate_allowance_and_strength.adoc[]
-
-== Anthro RP Mutations
+== Mutations
 Referee personas mutate the same as other personas. 
 The referee can push for mutations by doubling the chance.
-The table should be used as a guide if mutations are to be assigned.
-Pure Strains are not vessels for zany mutations.
+The table is be used as a guide if mutations are to be assigned.
+Purestrain anthros are not vessels for zany mutations.
 Insectoids rarely get phenomic mutations.
 Keep in mind that some mutations are campaign changers and should be appropriately rare.
 
@@ -227,22 +187,49 @@ include::ROOT:partial$CH11_Table_Referee_Persona_Level.adoc[]
 All anthros get a vocation. 
 The referee should choose the vocation that best suits the needs of the story and milieu.
 
-include::ROOT:partial$CH11_Table_Referee_Persona_Class.adoc[]
+include::referee_personas:partial$vocation_determination.adoc[]
 
-=== Vocation Attribute Correction
+=== Attribute Correction
 RP attributes do not select the persona's vocation type.
 The attributes are modified to reflect the vocation type.
 Attributes are never corrected down. 
-However, if the referee needs a clumsy spie, she can achieve this at <<_modifications,Modifications>>
+However, if the referee needs a clumsy spie, she can achieve this at <<_strong_descriptors,Strong Descriptors>>
 
-include::ROOT:partial$CH11_Table_Referee_Persona__Vocation_Supercharge.adoc[]
+include::referee_personas:partial$vocation_attribute_correction.adoc[]
 
-== Anthro RP Equipment
+== Strong Descriptors
+The following table gives guidelines for numerical changes that various descriptors represent.
+This table can be used to spice up an entirely random referee persona. 
+Not everyone is great. 
+It largely lives at the end of this section for ease of calculations. 
+Strong descriptors can lead to anomalies like weak mercenaries, or clumsy spies. 
+
+include::referee_personas:partial$strong_descriptors.adoc[]
+
+== Movement Rate
+Movement rate is dependent on DEX and represented in hexes per unit.
+If the referee needs a slow or fast RP, this is modified at <<_strong_descriptors,Strong Descriptors>>
+
+include::anthros:partial$movement_rate_and_dexterity.adoc[]
+
+== Defence Rating
+Defence Rating is adjusted using DEX.
+// this in include from Anthro AR
+include::anthros:defence_rating.adoc[lines=3..20]
+
+// todo check this include for defence_rating
+
+== Wate Allowance
+The better the STR, the more she can lift.
+
+include::anthros:partial$wate_allowance_and_strength.adoc[]
+
+== Equipment
 Referee personas carry equipment.
 They have food, survival equipment, funds, and toys.
 RPs get one TOYs roll for every experience level.
 
-=== Mundane Equipment
+=== Mundane
 Referee personas usually have what is necessary to survive in the local terrain.
 The persona's survival equipment will vary with the terrain and the referee's milieu.
 
@@ -266,9 +253,9 @@ A lower-level RP is more likely to be carrying around an artifact.
 
 include::hardware:partial$toys_categories.adoc[]
 
-== Anthro RP Attack Table
+== Attack Table
 The attack table keeps track of the persona's combat skills and increases with EXPS level.
-The referee need not calculate a complete attack table for cannon fodder or canon fodder referee personas.
+The referee need not calculate a complete attack table for cannon, or canon, fodder referee personas.
 Canonical referee personas need a full attack table calculated.
 For general info about attack tables, jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank] in tactical combat.
 For detailed info about the calculations below, jump to xref:anthros:attack_table[Anthro attack table,window=_blank].
@@ -277,8 +264,17 @@ A second level spie has the following attributes: AWE 12 CHA 11 CON 12 DEX 10 IN
 
 include::anthros:partial$attack_table_anthro_example.adoc[]
 
-
-== Anthro RP Name
+== Name
 The anthro should have a name as any anthro player persona does.
 For anthro, naming shenanigans jump to xref:anthros:moniker.adoc[Anthro Name,window=_blank].
+
+== Story Cues
+There are all manner of story cues that the referee may wish to generate.
+All are optional. 
+For setting up story cues for this referee persona jump to xref:referee_personas:rp_story_cues.adoc[Story Cues].
+
+== Combat Ratio
+The combat ratio determines how dangerous a referee persona is.
+Combat ratio is partially optional, but plays a roll in assigning combat experience. 
+To generate a danger number for this persona jump to xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio].
 
