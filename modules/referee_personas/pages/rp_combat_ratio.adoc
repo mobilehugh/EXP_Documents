@@ -1,0 +1,92 @@
+= Combat Ratio
+
+== Anthro RP Combat Ratio
+// tag::Combat_Ratio[]
+Combat Ratio  (CR) is how tough the referee persona is.
+The CR is a number that pretends to measure how dangerous an RP is in combat.
+The higher the combat ratio, the more powerful an adversary the referee persona is.
+The CR is used to determine the EXPS value and number of attackers.
+
+The Combat Ratio number indicates how many player personas represent a fair fight.
+For this process, a player persona is a level one anthro persona with a typical attack table. 
+
+A CR of 20 indicates that the solitary referee persona could handle 20 player personas.
+This referee persona is very dangerous.
+A CR of 1/10 indicates that ten referee personas are needed to fight one player persona.
+This referee persona is very weak in combat.
+
+The combat ratio does not determine precisely how many referee personas show up in an encounter.
+The milieu and the story determine the number of referee personas., not the CR.
+
+=== Calculating a Combat Ratio
+. RPs initial CR is 1
+. Add all the Pluses to the CR
+. Multiply all the Times to the CR
+. Combat ratio does not follow https://en.wikipedia.org/wiki/Order_of_operations#Mnemonics[BODMAS]
+
+.CR = (1 + all Pluses) * all Times
+****
+An RP with a Plus 1, Plus 4, Plus 2, Times 1.25, and Times 2.0 +
+(1 + 1 + 4 + 2) * 1.25 * 2.0 = 20
+****
+
+// end::Combat_Ratio[]
+
+=== Anthro RP Combat Ratio Adjustments
+Anthro RP Combat Ratio is tricky to calculate because anthros are soggy bags of mostly water.
+However, their weapons and vocations can make them the most dangerous RPs in the game.
+
+When preparing an anthro combat ratio, the referee should consider all of the RP's equipment.
+A nothing canine with a fusion pistol is more dangerous than a nomad feline with a bow and arrows.
+
+.*Combat Ratio Checklist*
+. Anthro Specific
+. Skilled Bonus
+. Attack Type
+. Number of Attacks
+. Damage per Unit
+. Movement Rate
+. Hit Points
+. Mind
+
+=== Anthro Specific
+
+include::ROOT:partial$CH11_Table_RP_CR_Anthro.adoc[]
+
+//collection of general CR tables
+include::ROOT:partial$CH11_Table_RP_CR_General.adoc[]
+
+
+
+== Alien RP Combat Ratio
+// boilerplate is from anthro RP
+
+.*Combat Ratio Checklist*
+. Alien Specific
+. Skilled Bonus
+. Attack Type
+. Number of Attacks
+. Damage per Unit
+. Movement Rate
+. Hit Points
+. Mind
+
+=== Alien Specific
+include::ROOT:partial$CH11_Table_RP_CR_Alien.adoc[]
+
+//collection of general CR adjustments
+include::ROOT:partial$CH11_Table_RP_CR_General.adoc[]
+
+
+
+== Robot RP Combat Ratio
+// boilerplate is from anthro RP
+
+
+=== Robot Specific
+
+include::ROOT:partial$CH11_Table_RP_CR_Robot.adoc[]
+
+// general CR adjustments list of tables.
+// heading is === for each table
+include::ROOT:partial$CH11_Table_RP_CR_General.adoc[]
