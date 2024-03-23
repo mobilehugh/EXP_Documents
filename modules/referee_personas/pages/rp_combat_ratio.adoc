@@ -1,7 +1,5 @@
 = Combat Ratio
 
-== Anthro RP Combat Ratio
-// tag::Combat_Ratio[]
 Combat Ratio  (CR) is how tough the referee persona is.
 The CR is a number that pretends to measure how dangerous an RP is in combat.
 The higher the combat ratio, the more powerful an adversary the referee persona is.
@@ -9,84 +7,93 @@ The CR is used to determine the EXPS value and number of attackers.
 
 The Combat Ratio number indicates how many player personas represent a fair fight.
 For this process, a player persona is a level one anthro persona with a typical attack table. 
+The larger the combat ratio the more dangerous the referee persona.
 
-A CR of 20 indicates that the solitary referee persona could handle 20 player personas.
-This referee persona is very dangerous.
-A CR of 1/10 indicates that ten referee personas are needed to fight one player persona.
-This referee persona is very weak in combat.
+A referee persona with a CR of 20 should be able to handle 20 player personas.
+This is a dangerous RP indeed.
+A referee persona with a CR of 1/4 would need 3 other friends for a fair fight against 1 player persona.
+This RP is very weak in combat.
 
-The combat ratio does not determine precisely how many referee personas show up in an encounter.
-The milieu and the story determine the number of referee personas., not the CR.
+The combat ratio applies to personal combat and is used to guide encounters and reward combat experience. 
 
-=== Calculating a Combat Ratio
-. RPs initial CR is 1
-. Add all the Pluses to the CR
-. Multiply all the Times to the CR
-. Combat ratio does not follow https://en.wikipedia.org/wiki/Order_of_operations#Mnemonics[BODMAS]
+== Example
+The referee goes through the following tables collecting Pluses and Multipliers. 
+A referee persona may collect 4 Pluses and 2.5 Multipliers. 
+The multiplies the total Pluses (4) by the combined multipliers.
+This anonymous referee persona's combat ratio is 10.
 
-.CR = (1 + all Pluses) * all Times
+.CR = Pluses times Multipliers
 ****
-An RP with a Plus 1, Plus 4, Plus 2, Times 1.25, and Times 2.0 +
-(1 + 1 + 4 + 2) * 1.25 * 2.0 = 20
+Plus 1, Plus 4, Plus 3, 1.25 Multiplier, and 2.0 Multiplier +
+(1 + 4 + 3) times (1.25 * 2.0) = 8 times 2.5 = 20
 ****
 
-// end::Combat_Ratio[]
+== Attack Table
+The highest skill bonus on the RPs attack table is used for the combat ratio.
 
-=== Anthro RP Combat Ratio Adjustments
+include::referee_personas:partial$combat_ratio_skilled_bonus.adoc[]
+
+== Attack Type
+The most dangerous attack type the RP has is used for the combat ratio.
+This includes the attack type of a weapon being used. 
+
+include::referee_personas:partial$combat_ratio_attack_type.adoc[]
+
+== Attacks
+The total number of possible attacks per unit.
+
+include::referee_personas:partial$combat_ratio_attack_frequency.adoc[]
+
+== Damage
+The maximum amount of damage that could be inflicted at once. 
+Choose the most powerful weapon to adjust the combat ratio.
+
+include::referee_personas:partial$combat_ratio_damage.adoc[]
+
+== Movement
+Fast opponents are more dangerous. 
+Vehicle speeds do not count. 
+
+include::referee_personas:partial$combat_ratio_movement.adoc[]
+
+== Hit Points
+The harder to break the more dangerous.
+Only use hit points max if referee persona is at full hit points. 
+
+include::referee_personas:partial$combat_ratio_hit_points.adoc[]
+
+== Attributes
+Higher attributes can make for a more difficult opponent.
+The RPs highest attribute is used on this table.
+Social Standing (SOC) does not count.
+If the RP is using her Charisma to lead cannon fodder then CHA can be used.
+If the RPs most excellent attribute is not being used then it should not adjust the CR.
+
+include::referee_personas:partial$combat_ratio_attributes.adoc[]
+
+== Defence
+The harder to hit. 
+
+include::referee_personas:partial$combat_ratio_defence.adoc[]
+
+== Vocations
+Some vocations more dangerous than others.
+
+include::referee_personas:partial$combat_ratio_vocation.adoc[]
+
+== Anthros
 Anthro RP Combat Ratio is tricky to calculate because anthros are soggy bags of mostly water.
 However, their weapons and vocations can make them the most dangerous RPs in the game.
-
 When preparing an anthro combat ratio, the referee should consider all of the RP's equipment.
 A nothing canine with a fusion pistol is more dangerous than a nomad feline with a bow and arrows.
 
-.*Combat Ratio Checklist*
-. Anthro Specific
-. Skilled Bonus
-. Attack Type
-. Number of Attacks
-. Damage per Unit
-. Movement Rate
-. Hit Points
-. Mind
+== Aliens
+These are for evolved alien abilities if the alien is in combat without tools.
+A tiny creator alien with a fusion pistol would have a high CR regardless.
 
-=== Anthro Specific
+include::referee_personas:partial$combat_ratio_aliens.adoc[]
 
-include::ROOT:partial$CH11_Table_RP_CR_Anthro.adoc[]
+== Robots
 
-//collection of general CR tables
-include::ROOT:partial$CH11_Table_RP_CR_General.adoc[]
+include::referee_personas:partial$combat_ratio_robots.adoc[]
 
-
-
-== Alien RP Combat Ratio
-// boilerplate is from anthro RP
-
-.*Combat Ratio Checklist*
-. Alien Specific
-. Skilled Bonus
-. Attack Type
-. Number of Attacks
-. Damage per Unit
-. Movement Rate
-. Hit Points
-. Mind
-
-=== Alien Specific
-include::ROOT:partial$CH11_Table_RP_CR_Alien.adoc[]
-
-//collection of general CR adjustments
-include::ROOT:partial$CH11_Table_RP_CR_General.adoc[]
-
-
-
-== Robot RP Combat Ratio
-// boilerplate is from anthro RP
-
-
-=== Robot Specific
-
-include::ROOT:partial$CH11_Table_RP_CR_Robot.adoc[]
-
-// general CR adjustments list of tables.
-// heading is === for each table
-include::ROOT:partial$CH11_Table_RP_CR_General.adoc[]
