@@ -10,34 +10,14 @@ The referee may visit this section to evolve some flora and fauna for her milieu
 The referee should massage the alien RP to fit her milieu.
 The Alien RP section is for helping creativity, not replacing it.
 
-.*Alien RP Evolution Checklist*
-. <<_alien_rp_relevance,Relevance>>
-. <<_alien_rp_attributes,Attributes>>
-. <<_alien_rp_size,Size>>
-. <<_alien_rp_hit_points,Hit Points>>
-. <<_alien_rp_attack_frequency,Attack Frequency>>
-. <<_alien_rp_damage_per_attack,Damage per Attack>>
-. <<_alien_attack_type,Attack Type>>
+== Record Sheet
+You will not be able to keep track of everything that is needed for a referee persona.
+It is recommended that you print out a persona record sheet to keep track of stuff.
+Download the bare bones PDF (75K) at xref:ROOT:attachment$alien_record_v7.pdf[Alien Record v7]
 
-. <<_alien_rp_defence_rating,Defence Rating>>
-. <<_alien_rp_wate_allowance,Wate Allowance>>
-. <<_alien_rp_shape,Shape>>
-. <<_alien_rp_movement_rate,Move>>
-. <<_alien_rp_mutations,Mutations>>
-. <<_alien_rp_age,Age>>
-. <<_alien_rp_exps_level,EXPS Level>>
-. <<_alien_rp_society,Society>>
-. <<_alien_rp_tool_usage,Tool Usage>>
-. <<_alien_rp_combat_table,Attack Table>>
-. <<_alien_rp_biology,Biology>>
-. <<_alien_rp_combat_ratio,Combat Ratio>>
+NOTE: *If it's worth creating, it's worth writing down.*
 
-
-. <<_alien_rp_modifications,Modifications>>
-. <<_alien_rp_name,Name>>
-. Have Fun!
-
-== Alien RP Relevance
+== Relevance
 Not all RPs are created equal.
 Some personas are less important than others.
 The referee usually knows the importance of the persona before she starts generation.
@@ -63,7 +43,7 @@ It is possible to create new cannon fodder members from an existing alien specie
 If the expedition is tearing things up in an alien city, there will be the equivalent of sidewalk civilians.
 The generic attribute for alien sidewalk civilians depends on the size of the alien. 
 
-include::ROOT:partial$CH11_Table_Alien_RP_Cannon.adoc[]
+include::referee_personas:partial$alien_cannon_fodder_attributes.adoc[]
 
 Cannon fodder does not mean expendable without consequence.
 Hunting flora and fauna may be against the law.
@@ -102,43 +82,20 @@ Canonical referee persona aliens usually require background on their species as 
 In the case of recurring flora and fauna, the species background can be brief.
 In the case of a tool using creator society, the species background represents serious work. 
 
-=== Species vs Solitary
-The alien created is usually a member of a species. 
-The species could be mundane flora and fauna, an invading alien horde, or a solo first encounter.
-The species may define everything about the referee persona. 
-Every member of the species may all have the same size, shape, belief and personality.
-A homogeneous alien species is undoubtedly the easiest pathway for the referee.
-How the referee persona fits into this depends on her campaign milieu and back story.
-
-An alien referee persona need not be part of an entire species. 
-There are many story-based explanations of solitary aliens.
-The alien may be the sole member of an alien species so distant they will never be part of the story.
-The alien may be the sole survivor of a species that suffered some cataclysm.
-The alien may have been grown in a mad biologist's vat for nefarious purposes.
-
-== Alien RP Record Sheet
-The referee persona record sheet is just another persona record sheet.
-There are few bonus elements of which the referee must keep track.
-Most player personas do not have elements like personality, politics or religion.
-The referee can also use the persona record sheet to keep track of interactions with the expedition.
-Alien RPs have a lot of essential data, and a complete persona record is best.
-
-NOTE: *If it's worth playing, it's worth writing down.*
-
-== Alien RP Attributes
+== Attributes
 Alien RP attributes have the same ranges as player persona alien attributes. 
-If the referee is looking for a particular configuration of attributes, she can change them in the <<_alien_rp_modifications,Modifications>> section.
+If the referee is looking for a particular configuration of attributes, she can change them in the <<_strong_descriptors,Strong Descriptors>> section.
 
 include::aliens:partial$attributes_generation_list.adoc[]
 
-== Alien RP Size
+== Size
 The size of the alien RP affects its appearance, wate and hits points.
 Alien RPs can have extremely small or large sizes that are not available to player personas.
 These extreme sizes are called Minute and Humongous.
 
 include::aliens:partial$size_category_list.adoc[]
 
-=== Extremely Tiny 
+=== Minute 
 Any Tiny alien has a 1 in 6 chance to be *Minute* instead.
 Minute aliens have a WATE of  0 to 999 grams (1d1000-1).
 A Minute alien will never have a WATE greater than a kilogram.
@@ -152,12 +109,12 @@ An alien with 50 HPS, 12 STR, and 500 gm Wate would have 25 HPS and 6 STR. +
 The minimum STR and HPS of a Minute alien are 1.
 ****
 
-=== Extremely Gigantic
+=== Humongous
 Any Gigantic alien has a 1 in 6 chance to be *Humongous* instead.
 Humongous aliens have a WATE of 6 to 300 tons (1d50 times 6).
 Being a humongous alien is just an inconvenience as they have no alteration in their attributes or hit points.
 
-== Alien RP Hit Points
+=== Adjust Hit Points
 Bigger aliens tend to have more hit points than smaller aliens.
 Minute aliens must apply their size modification to the hit points generated here.
 
@@ -165,20 +122,13 @@ include::aliens:partial$hit_points_and_size.adoc[]
 
 // check why 2 tables? I can't see or even find two tables.
 
-== Alien RP Attack Frequency
+== Attacks
 The number of attacks indicates the number of attack rolls the referee makes each unit.
 This attack frequency is only for the alien's naturally evolved attacks and does not apply to equipment weapons.
 
 include::aliens:partial$attack_frequency_amounts.adoc[]
 
-== Alien RP Damage per Attack
-Bigger aliens tend to inflict more damage than smaller aliens.
-Minute aliens must apply their STR modification before determining their damage per attack.
-The damage per attack is only for the alien's naturally evolved attacks and does not apply to equipment weapons.
-
-include::aliens:partial$attack_damage_and_size.adoc[]
-
-== Alien Attack Type
+== Attack Type
 The vast majority of aliens will bite, slap, punch and kick their way through combat.
 Other attack types exist.
 For simplicity, the attack type will apply to all of the alien's attacks. 
@@ -187,18 +137,19 @@ For instance, an alien with three attacks per unit could have three Strike attac
 
 include::aliens:partial$attack_type_options.adoc[]
 
-== Alien RP Defence Rating
+== Damage
+Bigger aliens tend to inflict more damage than smaller aliens.
+Minute aliens must apply their STR modification before determining their damage per attack.
+The damage per attack is only for the alien's naturally evolved attacks and does not apply to equipment weapons.
+
+include::aliens:partial$attack_damage_and_size.adoc[]
+
+== Defence Rating
 How hard is it to damage this alien in combat?
 
 include::aliens:defence_rating.adoc[tag=Alien_AR]
 
-== Alien RP Wate Allowance
-The wate allowance is the same for all personas. 
-The WA indicates how much the alien can carry without being encumbered.
-
-include::anthros:partial$wate_allowance_and_strength.adoc[]
-
-== Alien RP Shape
+== Shape
 The alien shape is entirely random and makes for very diverse corporeal denizens.
 For more details about alien shape, jump to Detailed explanation exist at xref:aliens:alien_shape.adoc[Alien Shape,window=_blank].
 
@@ -230,66 +181,67 @@ include::aliens:partial$alien_shape_torso_adornment.adoc[]
 // arms adornment
 include::aliens:partial$alien_shape_arm_adornment.adoc[]
 
-== Coat and Colour
-The referee can leave the alien as a patchwork of different skin types or choose a particular coat from one body part.
-The colour can be as complicated or as simple as desired. 
-The referee can massage the alien colour to match the terrain or reflect its abilities.
-The referee can generate a random colour from the Giant Colour Table. 
-include::ROOT:partial$add_colour_to_your_world.adoc[]
-
-== Alien RP Movement Rate
+== Movement
 Alien movement rate is as important as size in regards to combat.
 The shape of the alien determines whether it hops, slithers, flaps, or gallops along.
 More detail is available at xref:aliens:movement.adoc[Alien Movement,window=_blank]
 
-== Movement Unit
+[discrete]
+=== Movement Quarter
 .move (h/u) = DEX / 4
 ****
-An alien with a 12 DEX would have a base movement unit of 3 h/u. 
+An alien with a 12 DEX would have a Movement Quarter of 3 h/u. 
 ****
 Add the terrain types (l, a, w) for each body part shape and multiply them by the movement unit.
 
 include::aliens:partial$movement_calculation.adoc[]
 
-== Alien RP Mutations
+== Evolutations
 include::aliens:page$evolutations.adoc[tag=alien_mutations]
 
-== Alien RP Age
+== Life Span
 Life expectancy is defining feature of organic life forms. 
 
 include::aliens:partial$life_spans.adoc[]
 
-=== Extremely Short Life Spans 
+=== Short Life Spans 
 If the alien's life span is less than ten years, there is a 1 in 6 (1d6) chance that the alien will have an extremely short life span.
 Extremely short life spans should influence the alien RP's biology and society.
 Short-lived species often depend on large numbers of offspring requiring minimal energy exertion.
 This biological process is called progeny over prodigy.
 
-include::ROOT:partial$CH11_Table_Alien_RP_Age_Short_Lifespan.adoc[]
+include::referee_personas:partial$alien_short_life_span.adoc[]
 
-=== Extremely Long Life Spans
+=== Long Life Spans
 If the alien's life span is more than 10000 years, there is a 1 in 6 (1d6) chance that the alien will have an extremely long life span.
 Extremely long life spans should influence the alien RP's biology and society.
 Long-lived species often devote increased energy to fewer, more advanced offspring.
 This biological process is called prodigy over progeny.
 
+[discrete]
 ==== Extremely Long Life Spans
 .100000 - 100000000 (100000 * 1d1000) years 
 ****
 500 on the 1d1000 yields a life span of 50 million years.
 ****
 
-include::ROOT:partial$CH11_Table_Alien_RP_Life_Stage.adoc[]
+== Age Categories
+The amount of time spent in each age category 
 
 include::aliens:partial$life_span_stages.adoc[]
 
-== Alien RP EXPS Level
+
+
+include::referee_personas:partial$age_categories.adoc[]
+
+
+== EXPS Level
 Good for flora, fauna, and vocations.
 An alien predator with a high experience level will be more dangerous than a low-level predator of the same species.
 
 include::referee_personas:partial$experience_levels.adoc[]
 
-== Alien RP Society
+== Society
 Alien society is something for the referee to consider and prepare for her campaign carefully.
 A single alien society can be the basis for an entire campaign.
 The process for determining an alien player persona's society is complex and time-consuming.
@@ -362,7 +314,7 @@ Aliens with vocation have education, culture, and language as well.
 This alien species will certainly embrace technology, but there is no guarantee that they have unleashed their full technological creativity.
 Only tool usage decides if the species has reached the coveted creator level.
 
-==== Alien RP Vocation
+==== Vocation
 Aliens at the societal level of vocation roll a vocation type.
 This vocation type is for the specific alien referee persona, and the species will have all vocations. 
 
@@ -371,7 +323,7 @@ Other than the Mind limitation, no other attribute limitations or adjustments ap
 
 include::referee_personas:partial$vocation_determination.adoc[]
 
-== Alien RP Tool Usage
+== Tool Usage
 Alien tool usage is absolute. 
 For a refresher on the implications of alien society jump to xref:aliens:society.adoc[Alien Society,window=_blank].
 
@@ -435,7 +387,14 @@ Creator aliens can amass great wealth as well as deadly weapons.
 
 include::hardware:partial$toys_categories.adoc[]
 
-== Alien RP Attack Table
+
+=== Wate Allowance
+The wate allowance is the same for all personas. 
+The WA indicates how much the alien can carry without being encumbered.
+
+include::anthros:partial$wate_allowance_and_strength.adoc[]
+
+== Attack Table
 The attack table keeps track of the persona's combat skills and increases with EXPS level.
 The referee may need two attack tables for her tool using aliens.
 For general info about attack tables, jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank] in tactical combat.
@@ -452,7 +411,7 @@ Her attack is spitting sharp blobs of resin which is Attack Fling.
 
 include::aliens:partial$alien_attack_table_example.adoc[]
 
-== Alien RP Biology
+== Biology
 Alien biology assigns terrain, eating habits, reproduction etc.
 The referee should always massage the alien biology to work best within her campaign milieu.
 Many alien species will have evolved beyond the most primal aspects of their biology.
@@ -498,14 +457,12 @@ include::aliens:partial$habitation_list.adoc[]
 Do they hang out in groups or solo?
 include::aliens:partial$grouping_types.adoc[]
 
-
-
 === Aroma
 What a wonderful smell you have discovered.
 
 include::aliens:partial$aroma_list.adoc[]
 
-== Alien RP Modifications
+== Strong Descriptors
 Often a referee will want a tiny alien, a dumb alien, a slow alien, or even a stupid, slow, small alien (prey).
 Alien attributes tend to be higher than other personas. 
 Descriptors such as tough, smart and strong give attribute values relative to anthro personas.
@@ -514,7 +471,27 @@ The downwards attribute modifications are most helpful.
 
 include::referee_personas:partial$strong_descriptors.adoc[]
 
-== Alien RP Name
+== Coat and Colour
+The referee can leave the alien as a patchwork of different skin types or choose a particular coat from one body part.
+The colour can be as complicated or as simple as desired. 
+The referee can massage the alien colour to match the terrain or reflect its abilities.
+The referee can generate a random colour from the Giant Colour Table. 
+
+== Species vs Solitary
+The alien created is usually a member of a species. 
+The species could be mundane flora and fauna, an invading alien horde, or a solo first encounter.
+The species may define everything about the referee persona. 
+Every member of the species may all have the same size, shape, belief and personality.
+A homogeneous alien species is undoubtedly the easiest pathway for the referee.
+How the referee persona fits into this depends on her campaign milieu and back story.
+
+An alien referee persona need not be part of an entire species. 
+There are many story-based explanations of solitary aliens.
+The alien may be the sole member of an alien species so distant they will never be part of the story.
+The alien may be the sole survivor of a species that suffered some cataclysm.
+The alien may have been grown in a mad biologist's vat for nefarious purposes.
+
+== Name
 The alien should have a name as any other player persona does.
 The referee may have to name both a referee persona and an alien species. 
 For alien, naming shenanigans jump to xref:aliens:moniker.adoc[Alien Name,window=_blank].
