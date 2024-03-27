@@ -25,62 +25,22 @@ An RP's relevance increases the more entangled they are with the expedition.
 
 include::referee_personas:partial$persona_relevance.adoc[]
 
-=== Cannon Fodder
-Cannon fodder are like movie extras that fill in the background.
-Alien cannon fodder are the harmless flora and fauna of a forest.
-Alien cannon fodder are also the sidewalk civilians of an advanced society.
-Alien sidewalk civilians fill the streets of a city, village, or spacecraft.
+== Species vs RP
+The alien being evolved is usually a member of a species. 
+The species could be mundane flora and fauna, an invading alien horde, or a close encounter of the 3.14th kind.
+The species may define everything the referee requires for her RP. 
+Every member of the species may all have the same size, shape, belief and personality.
+A homogeneous alien species is undoubtedly the easiest pathway for the referee.
 
-.*Cannon Fodder* 
-. offer no opposition
-. have no useful information
-. have no nutritional value, monetary value or useful parts.
+An alien referee persona need not be part of an entire species. 
+There are many story-based explanations of solitary aliens.
+The alien may be the sole member of an alien species so distant they will never be part of the story.
+The alien may be the sole survivor of a species that suffered some cataclysm.
+The alien may have been grown in a mad biologist's vat for nefarious purposes.
 
-Unlike anthro cannon fodder, the referee cannot generate alien cannon fodder on the fly.
-An alien has too many parts, literally, for the referee to create them on the fly.
-
-It is possible to create new cannon fodder members from an existing alien species.
-If the expedition is tearing things up in an alien city, there will be the equivalent of sidewalk civilians.
-The generic attribute for alien sidewalk civilians depends on the size of the alien. 
-
-include::referee_personas:partial$alien_cannon_fodder_attributes.adoc[]
-
-Cannon fodder does not mean expendable without consequence.
-Hunting flora and fauna may be against the law.
-Alien societies may have laws protecting their defenceless comrades.
-
-=== Canon Fodder
-Canon fodder may have bit parts in the story but does not make the story. 
-Alien canon fodder are usually dangerous flora or fauna or adversarial alien combatants.
-
-.*Canon Fodder* 
-. could act in opposition to the expedition's goals
-. could injure or kill a player persona
-. could accidentally alter the story of a campaign
-. could have nutritional, financial or information value
-
-The referee usually predetermines the goal of canon fodder.
-The referee creates as much information as needed.
-The alien could be an indigenous predator that eats anthros.
-The alien could be a one-off monster in some post-apocalyptic wasteland.
-
-Canon fodder can be extremely dangerous to the expedition.
-They are there to get in the way of the player's goals. 
-The referee should complete a persona record sheet for alien canon fodder. 
-There are too many moving parts with alien RPs to make them on the fly.
-
-=== Canonical Persona
-Canonical personas are like supporting actors that make the story possible.
-These referee personas are integral participants in the campaign story.
-They can be powerful recurring enemies or comrades in arms.
-Canonical referee personas are the real deal.
-These referee personas utilize every step of persona creation.
-They have all the dressings of a player persona.
-Only the player personas are more important to the story.
-
-Canonical referee persona aliens usually require background on their species as well as the specific persona.
-In the case of recurring flora and fauna, the species background can be brief.
-In the case of a tool using creator society, the species background represents serious work. 
+If an alien is part of a larger alien species she may have her own way of partaking in that species.
+The RP Story Cues represent the individual quirks of the alien. 
+These may set the persona apart from her species predominant smell, religion or political beliefs.
 
 == Attributes
 Alien RP attributes have the same ranges as player persona alien attributes. 
@@ -114,13 +74,11 @@ Any Gigantic alien has a 1 in 6 chance to be *Humongous* instead.
 Humongous aliens have a WATE of 6 to 300 tons (1d50 times 6).
 Being a humongous alien is just an inconvenience as they have no alteration in their attributes or hit points.
 
-=== Adjust Hit Points
+== Hit Points Max
 Bigger aliens tend to have more hit points than smaller aliens.
 Minute aliens must apply their size modification to the hit points generated here.
 
 include::aliens:partial$hit_points_and_size.adoc[]
-
-// check why 2 tables? I can't see or even find two tables.
 
 == Attacks
 The number of attacks indicates the number of attack rolls the referee makes each unit.
@@ -144,7 +102,7 @@ The damage per attack is only for the alien's naturally evolved attacks and does
 
 include::aliens:partial$attack_damage_and_size.adoc[]
 
-== Defence Rating
+== Defence
 How hard is it to damage this alien in combat?
 
 include::aliens:defence_rating.adoc[tag=Alien_AR]
@@ -167,6 +125,7 @@ It is crucial to record the terrain type along with the shape of the body part.
 
 include::aliens:partial$alien_shape_body_parts.adoc[]
 
+[discrete]
 === Adornments
 These are optional accents to the alien's appearance.
 Adornments are entirely descriptive.
@@ -180,6 +139,12 @@ include::aliens:partial$alien_shape_torso_adornment.adoc[]
 
 // arms adornment
 include::aliens:partial$alien_shape_arm_adornment.adoc[]
+
+=== Coat and Colour
+The referee can leave the alien as a patchwork of different skin types or choose a particular coat from one body part.
+The colour can be as complicated or as simple as desired. 
+The referee can massage the alien colour to match the terrain or reflect its abilities.
+The referee can generate a random colour from the xref:referee_personas:rp_story_cues.adoc#_colour[Giant Colour Table,window=_blank]. 
 
 == Movement
 Alien movement rate is as important as size in regards to combat.
@@ -197,14 +162,38 @@ Add the terrain types (l, a, w) for each body part shape and multiply them by th
 include::aliens:partial$movement_calculation.adoc[]
 
 == Evolutations
-include::aliens:page$evolutations.adoc[tag=alien_mutations]
+Aliens can enjoy all the special abilities that psionic and phenomic mutations offer.
+However when a player is generating an alien they are generating an entire genus and species.
+These mutation abilities are evolved abilities and not point mutations. 
+Hence the naming convention of evolutation.
+
+Adding powerful mutations to an entire species requires consideration to plot and milieu.
+An evolutation may only appear at certain life stages, or only certain members of the species have the evolutation.
+An army of gigantic flying aliens with death field generation would be a world breaker. 
+However, a species of tiny aliens with weak telekinesis would be make for an interesting culture. 
+
+Aliens are biological in nature and can acquire unique mutations from radiation or cheeky pharma.
+
+=== Psionic
+The chance of an alien having a psionic mutation is equal to the alien's Mind attribute score.
+An alien with a 15 MND would have a 15% chance of having a psionic mutation.
+Player personas cannot start with a defect.
+Aliens do not have multiple psionic mutations.
+To determine the evolutation jump to xref:wetware:CH58_Mental.adoc[Psionic Mutations,window=_blank].
+
+=== Phenomic
+The chance of a creature having evolved a phenomic mutation is equal to the alien's Constitution attribute score.
+An alien with a 10 CON has a 10% chance of having a phenomic mutation.
+Player personas cannot start with a defect.
+Aliens do not have multiple phenomic mutations.
+To determine the evolutation jump to xref:wetware:CH59_Physical.adoc[Phenomic Mutations,window=_blank].
 
 == Life Span
 Life expectancy is defining feature of organic life forms. 
 
 include::aliens:partial$life_spans.adoc[]
 
-=== Short Life Spans 
+=== Short Life
 If the alien's life span is less than ten years, there is a 1 in 6 (1d6) chance that the alien will have an extremely short life span.
 Extremely short life spans should influence the alien RP's biology and society.
 Short-lived species often depend on large numbers of offspring requiring minimal energy exertion.
@@ -212,7 +201,7 @@ This biological process is called progeny over prodigy.
 
 include::referee_personas:partial$alien_short_life_span.adoc[]
 
-=== Long Life Spans
+=== Long Life
 If the alien's life span is more than 10000 years, there is a 1 in 6 (1d6) chance that the alien will have an extremely long life span.
 Extremely long life spans should influence the alien RP's biology and society.
 Long-lived species often devote increased energy to fewer, more advanced offspring.
@@ -225,19 +214,97 @@ This biological process is called prodigy over progeny.
 500 on the 1d1000 yields a life span of 50 million years.
 ****
 
-== Age Categories
+=== Life Categories
 The amount of time spent in each age category 
 
 include::aliens:partial$life_span_stages.adoc[]
 
+== Age 
+To determine the persona age the referee must determine the age category  first.
+All biological life forms have the same age categories.
+
 include::referee_personas:partial$age_categories.adoc[]
 
+Once the age category is determined the referee can just assign any age that fits into the age category.
+It is very common to just use the age category for aliens, skipping all the maths. 
 
 == EXPS Level
 Good for flora, fauna, and vocations.
 An alien predator with a high experience level will be more dangerous than a low-level predator of the same species.
 
 include::referee_personas:partial$experience_levels.adoc[]
+
+== Strong Descriptors
+Often a referee will want a tiny alien, a dumb alien, a slow alien, or even a stupid, slow, small alien (prey).
+Alien attributes tend to be higher than other personas. 
+Descriptors such as tough, smart and strong give attribute values relative to anthro personas.
+This table may fall short if the referee is trying to generate an alien persona stronger than other aliens in her species.
+The downwards attribute modifications are most helpful.
+
+include::referee_personas:partial$strong_descriptors.adoc[]
+
+== Wate Allowance
+The wate allowance is the same for all personas. 
+The WA indicates how much the alien can carry without being encumbered.
+For tool users this could be weapons and computers. 
+For flora and fauna wate allowance represents what they can push around for no good reason.
+
+include::anthros:partial$wate_allowance_and_strength.adoc[]
+
+== Attack Table
+The attack table keeps track of the persona's combat skills and increases with EXPS level.
+The referee may need two attack tables for her tool using aliens.
+For general info about attack tables, jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank] in tactical combat.
+
+The attack table calculated here is for the alien's naturally evolved attacks and is *not* used for any tool using attacks.
+For a detailed explanation of alien attack tables jump to xref:aliens:attack_table.adoc[Alien Attack Table,window=_blank].
+Aliens that are tool users do not use their alien attack table when using weapons. 
+The referee must generate another vocation attack table for tool users.
+For the vocation based attack table, jump to xref:anthros:attack_table[Anthro attack table,window=_blank].
+
+== Biology
+Alien biology assigns terrain, eating habits, reproduction etc.
+The referee should always massage the alien biology to work best within her campaign milieu.
+Many alien species will have evolved beyond the most primal aspects of their biology.
+It would be unlikely for a creator tool user to still ambush prey in the desert, but their restaurants may reflect this biological history.
+
+=== Biome
+The biome is an alien's naturally evolved terrain type.
+Flora and fauna would not venture beyond their terrain type.
+More advanced alien species are not limited to their biome.
+
+include::aliens:partial$biome_list.adoc[]
+
+=== Food Source
+Nom noms.
+
+include::aliens:partial$energy_sources.adoc[]
+
+=== Food Procurement
+How does the alien get its nom noms?
+
+include::aliens:partial$energy_procurement.adoc[]
+
+=== Reproduction
+Where do little aliens come from?
+
+include::aliens:partial$reproduction_method_list.adoc[]
+
+=== Dwelling
+Typical living space.
+Tool usage may allow the alien species to live in architecture informed by this biological history.
+
+include::aliens:partial$habitation_list.adoc[]
+
+=== Grouping
+Do they hang out in groups or solo?
+
+include::aliens:partial$grouping_types.adoc[]
+
+=== Aroma
+What a wonderful smell you have discovered.
+
+include::aliens:partial$aroma_list.adoc[]
 
 == Society
 Alien society is something for the referee to consider and prepare for her campaign carefully.
@@ -252,14 +319,7 @@ The society levels are cumulative.
 If the alien has Education, she automatically has Culture and Language.
 For a refresher on the implications of alien society jump to xref:aliens:society.adoc[Alien Society,window=_blank].
 
-include::ROOT:partial$CH11_Table_RP_Alien_Society.adoc[]
-
-=== No Language
-Aliens with no language are the flora and fauna of the world. 
-The abilities, size and life-span of the alien determine where they fit in on the food chain.
-Aliens can always communicate amongst themselves.
-The lack of language prevents higher-level organization or communications across the species.
-If an alien with no language is a canonical referee persona, she will have some way to communicate with her expedition members.
+include::referee_personas:partial$society_and_tool_usage.adoc[]
 
 === Language
 Aliens with language can communicate amongst themselves and with expedition members. 
@@ -267,7 +327,15 @@ This language has no impact on tool usage.
 An alien with the ability to communicate may still lack any concept of using a tool.
 If the referee wishes, she can burden the alien with a religious belief.
 
+==== No Language
+Aliens with no language are the flora and fauna of the world. 
+The abilities, size and life-span of the alien determine where they fit in on the food chain.
+Aliens can always communicate amongst themselves.
+The lack of language prevents higher-level organization or communications across the species.
+If an alien with no language is a canonical referee persona, she will have some way to communicate with her expedition members.
+
 ==== Religious Belief
+Aliens with language may have religious beliefs.
 The list here describes the structure of the religious belief. 
 The referee and her milieu determine the nomenclature, structure, hypocrisy, and corruption of the political system.
 This belief applies explicitly to the alien referee persona.
@@ -323,11 +391,11 @@ include::referee_personas:partial$vocation_determination.adoc[]
 
 == Tool Usage
 Alien tool usage is absolute. 
-For a refresher on the implications of alien society jump to xref:aliens:society.adoc[Alien Society,window=_blank].
+For a refresher on the implications of alien tool usage to xref:aliens:society.adoc[Alien Society,window=_blank].
 
 include::aliens:partial$tool_use_categories.adoc[]
 
-=== None Tool User
+=== None
 The alien species has no concept of a tool. 
 They would never consider an artifact as anything other than a rock or branch to step over.
 This tool ignorance transcends language, culture, and education.
@@ -335,7 +403,7 @@ This alien can only solve a problem using its body parts.
 This alien only drinks water. 
 She would never collect water.
 
-=== Simple Tool User
+=== Simple 
 Simple tool usage is limited to non-powered tools that require constant physical effort.
 These tools depend on the environment of the alien's biome.
 If the alien species has *no language*, the tools are limited to the temporary use of sticks or rocks. 
@@ -346,7 +414,7 @@ This alien would only ever use her natural attacks in combat.
 This alien may use a rock to smash something.
 This alien could use a stick to reach something.
 
-=== Tech Tool User
+=== Tech
 This alien species utilizes any device that reduces their physical workload. 
 These devices can use electricity, steam, and springs.
 They have complicated clockwork machines but *no computational devices.* 
@@ -358,7 +426,7 @@ High-tech artifacts may be mistaken for magic.
 A tech tool using alien RP gets *one roll* on the Limited TOY Table below.
 The tech level of the toy rolled cannot exceed TL 10.
 
-=== Comp Tool User
+=== Computer
 This alien species can use electronic devices that can replace all physical work.
 These devices include computers, telecommunications, and encryption.
 There may be rudimentary robots and faux autonomous Intelligence.
@@ -368,8 +436,6 @@ As a species, homo sapiens of mundane terra are at this level.
 This alien can use all mundane tools, but she will prefer to use toys.
 A comp tool user gets one roll per two EXPS levels on the Limited TOY Table below. 
 The tech level of the toy rolled cannot exceed TL 10.
-
-include::ROOT:partial$CH41_Table_TOY_System_Limited.adoc[]
 
 === Creator
 There is no limit to what creators can make and create.
@@ -383,113 +449,24 @@ Creators get one roll on the regular TOYS table per EXPS Level.
 Treasure and Random Junque do not count as a TOYS roll for creators. 
 Creator aliens can amass great wealth as well as deadly weapons.
 
-include::hardware:partial$toys_categories.adoc[]
-
-
-=== Wate Allowance
-The wate allowance is the same for all personas. 
-The WA indicates how much the alien can carry without being encumbered.
-
-include::anthros:partial$wate_allowance_and_strength.adoc[]
-
-== Attack Table
-The attack table keeps track of the persona's combat skills and increases with EXPS level.
-The referee may need two attack tables for her tool using aliens.
-For general info about attack tables, jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank] in tactical combat.
-For a detailed explanation of the outline below jump to xref:aliens:attack_table.adoc[Alien Attack Table,window=_blank].
-
-=== Naturally Evolved Attacks
-The attack table calculated here is for the alien's naturally evolved attacks and is *not* used for any tool using attacks.
-The referee must generate an anthro-based vocation attack table for tool users.
-For the vocation based attack table, jump to xref:anthros:attack_table[Anthro attack table,window=_blank].
-
-=== Alien Attack Table Example
-A second-level gigantic alien has a 22 STR, 15 DEX, and a 3 INT.
-Her attack is spitting sharp blobs of resin which is Attack Fling.
-
-include::aliens:partial$alien_attack_table_example.adoc[]
-
-== Biology
-Alien biology assigns terrain, eating habits, reproduction etc.
-The referee should always massage the alien biology to work best within her campaign milieu.
-Many alien species will have evolved beyond the most primal aspects of their biology.
-It would be unlikely for a creator tool user to still ambush prey in the desert, but their restaurants may reflect this biological history.
-
-.*Alien Biology Checklist*
-. <<_biome,Biome>>
-. <<_energy_source,Energy Source>>
-.. <<_energy_procurement,Procurement>>
-. <<_reproduction,Reproduction>>
-. <<_dwelling,Dwelling>>
-. <<_grouping,Grouping>>
-
-=== Biome
-The biome is an alien's naturally evolved terrain type.
-Flora and fauna would not venture beyond their terrain type.
-More advanced alien species are not limited to their biome.
-
-include::aliens:partial$biome_list.adoc[]
-
-=== Energy Source
-Nom noms.
-
-include::aliens:partial$energy_sources.adoc[]
-
-==== Energy Procurement
-How does the alien get its nom noms?
-
-include::aliens:partial$energy_procurement.adoc[]
-
-=== Reproduction
-Where do little aliens come from?
-
-include::aliens:partial$reproduction_method_list.adoc[]
-
-=== Dwelling
-Typical living space.
-Tool usage may allow the alien species to live in architecture informed by this biological history.
-
-include::aliens:partial$habitation_list.adoc[]
-
-=== Grouping
-Do they hang out in groups or solo?
-include::aliens:partial$grouping_types.adoc[]
-
-=== Aroma
-What a wonderful smell you have discovered.
-
-include::aliens:partial$aroma_list.adoc[]
-
-== Strong Descriptors
-Often a referee will want a tiny alien, a dumb alien, a slow alien, or even a stupid, slow, small alien (prey).
-Alien attributes tend to be higher than other personas. 
-Descriptors such as tough, smart and strong give attribute values relative to anthro personas.
-This table may fall short if the referee is trying to generate an alien persona stronger than other aliens in her species.
-The downwards attribute modifications are most helpful.
-
-include::referee_personas:partial$strong_descriptors.adoc[]
-
-== Coat and Colour
-The referee can leave the alien as a patchwork of different skin types or choose a particular coat from one body part.
-The colour can be as complicated or as simple as desired. 
-The referee can massage the alien colour to match the terrain or reflect its abilities.
-The referee can generate a random colour from the Giant Colour Table. 
-
-== Species vs Solitary
-The alien created is usually a member of a species. 
-The species could be mundane flora and fauna, an invading alien horde, or a solo first encounter.
-The species may define everything about the referee persona. 
-Every member of the species may all have the same size, shape, belief and personality.
-A homogeneous alien species is undoubtedly the easiest pathway for the referee.
-How the referee persona fits into this depends on her campaign milieu and back story.
-
-An alien referee persona need not be part of an entire species. 
-There are many story-based explanations of solitary aliens.
-The alien may be the sole member of an alien species so distant they will never be part of the story.
-The alien may be the sole survivor of a species that suffered some cataclysm.
-The alien may have been grown in a mad biologist's vat for nefarious purposes.
+== Startifacts
+Alien RPs get startifacts like any other persona. 
+RPs are typically awarded one roll per EXPS Level. 
+High level RPs can be very dangerous by way of their TOYs alone.
+For Startifacts jump to xref:hardware:startifacts.adoc[Startifacts,window=_blank]
 
 == Name
 The alien should have a name as any other player persona does.
 The referee may have to name both a referee persona and an alien species. 
 For alien, naming shenanigans jump to xref:aliens:moniker.adoc[Alien Name,window=_blank].
+
+== Story Cues
+There are all manner of story cues that the referee may wish to generate.
+All are optional. 
+For setting up story cues for this referee persona jump to xref:referee_personas:rp_story_cues.adoc[Story Cues,window=_blank].
+
+== Combat Ratio
+The combat ratio determines how dangerous a referee persona is.
+Combat ratio is partially optional, but plays a roll in assigning combat experience. 
+To generate a danger number for this persona jump to xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio,,window=_blank].
+

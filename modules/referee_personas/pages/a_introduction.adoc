@@ -27,41 +27,113 @@ Moving from top to bottom will create a persona most efficiently.
 Filling in a persona record sheet as you create the persona will save precious time.
 Creating referee personas can be as much fun as playing them. 
 
-== Referee Persona Checklist
 Referee personas require more details than player personae.
 Randomly generating the infill data for a referee persona helps the referee explore unexpected interactions.
 
 .*Referee Persona Creation Checklist*
-. I Want A Rando
+. Grab a xref:appendices:printables.adoc[Persona Record Sheet]
+. I want a rando RP
 .. <<_family,Determine Family>>
 .. <<_relevance,Determine Relevance>>
-. I Want A ...
-.. xref:appendices:printables.adoc[Persona Record Sheet]
+. I want a bespoke RP
 .. xref:referee_personas:anthro_rp.adoc[Anthro]
 .. xref:referee_personas:alien_rp.adoc[Alien]
 .. xref:referee_personas:robot_rp.adoc[Robot]
 .. xref:wetware:CH69_AI.adoc[AI]
-. xref:referee_personas:rp_story_cues.adoc[Story Cues]
-. xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio]
+. <<_story_cues,Story Cues>>
+. <<_combat_ratio,Combat Ratio>>
+. <<_collaborate,Collaborate>>
+. <<_automate,Automate>>
 
-=== Family
+== Persona Record
+Grab the appropriate persona record sheet by jumping to xref:appendices:printables.adoc[Persona Record Sheets].
+There you can choose the best persona record for your referee persona.
+The persona record can help generate the referee persona as each element on it helps with character and story.  
+
+NOTE: *If it's worth playing, it's worth writing down.*
+
+== Family
 The referee starts the process of RP generation by picking a family for the RP.
 Often the referee will need a certain kind of RP and can jump right to that section.
 If inspiration is needed, then roll on the Referee Persona Family Determination Table. 
 
 include::referee_personas:partial$family_randomization.adoc[]
 
-=== Relevance
+== Relevance
+Not all RPs are created equal.
+Some personas are less important than others.
+The referee usually knows the importance of the persona before she starts generation.
+An RP's relevance increases the more entangled they are with the expedition.
 
 include::referee_personas:partial$persona_relevance.adoc[]
 
-=== Persona Record
-Grab the appropriate persona record sheet. 
+=== Cannon Fodder
+Cannon fodder are like movie extras that fill in the background.
+Cannon fodder are the harmless flora and fauna of a forest.
+They can also be the sidewalk civilians of an advanced society.
+Anthro cannon fodder can be created on the fly.
+Alien and robot cannon fodder are a bit more involved. 
 
-NOTE: *If it's worth playing, it's worth writing down.*
+.*Cannon Fodder* 
+. offer no opposition
+. have no useful information
+. have no nutritional value, monetary value or useful parts.
 
+Cannon fodder does not mean expendable without consequence.
+Hunting flora and fauna may be against the law.
+Alien societies may have laws protecting their defenceless comrades.
 
-== Role-Playing
+=== Canon Fodder
+Canon fodder have bit parts in the story but does not make the story. 
+Alien canon fodder are can be dangerous or nutritional flora or fauna.
+Alien canon fodder could also be the minions of an invading space army.
+Anthro canon fodder may be the armed forces of this month's enemy continent.
+Robot canon fodder may a collection of easily knocked out sentry bots. 
+
+.*Canon Fodder* 
+. could act in opposition to the expedition's goals
+. could injure or kill a player persona
+. could accidentally alter the story of a campaign
+. could have nutritional, financial or information value
+
+The referee usually predetermines the goal of canon fodder.
+The referee creates as much information as needed.
+The alien could be an indigenous predator that eats anthros.
+The alien could be a one-off monster in some post-apocalyptic wasteland.
+
+Canon fodder can be extremely dangerous to the expedition.
+They are there to get in the way of the expedition's goals. 
+The referee should complete a persona record sheet for alien canon fodder. 
+There are too many moving parts with alien and robot RPs to make them on the fly.
+
+=== Canonical Persona
+Canonical personas are like supporting actors that make the story possible.
+These referee personas are integral participants in the campaign story.
+They can be powerful recurring enemies or comrades in arms.
+Canonical referee personas are the real deal.
+These referee personas utilize every step of persona creation.
+They have all the dressings of a player persona.
+Only the player personas are more important to the story.
+
+Canonical referee persona aliens usually require background on their species as well as the specific persona.
+In the case of recurring flora and fauna, the species background can be brief.
+In the case of a tool using creator society, the species background represents serious work. 
+
+== Story Cues
+Story cues are random curiousities that flesh out the history, reactions and plans of referee personas. 
+While primarily intended for referees' use, all players can utilize these tables to add random elements to their personas.
+Story cues are generic and help push players and referees into new areas of RPG exploration.
+Jump right to xref:referee_personas:rp_story_cues.adoc[Story Cues].
+
+== Combat Ratio
+Combat Ratio (CR) is an abstract measure of the referee persona's toughness.
+The CR is a number that pretends to measure how dangerous an RP is in combat.
+The higher the combat ratio, the more powerful the adversary.
+The CR is used to determine the EXPS value and number of attackers.
+The CR is optional. 
+Before jumping to xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio] you need a fully generated referee persona. 
+
+== Collaboration
 It is the responsibility of the referee to role-play referee personas to the best of her ability.
 Intelligent aliens must seem and act intelligently.
 Nomads will prefer their biome over luxury.
@@ -69,13 +141,15 @@ Anti-knites must not stray from the righteous path of entropy.
 Robots lack facial expressions and body language.
 In short, the referee must be able to make even the temporary personas as authentic as possible.
 
-== Players
+This burden on the referee leads to referee burn out. 
+Referee large language models are not there yet. 
+
 Collaborative role-playing groups will often have players represent referee personas.
 Player-run referee personas work well for personas that are friendly or neutral to the expedition.
 A player could run a cranky shopkeeper that likes to haggle.
 A player could run an adorable alien that begs for scraps of plastic.
-A player should *not* play a Heavy Combot that is attacking the expedition.
-A player should *not* play a spie feline that knows plotful campaign secrets. 
+A player should *not* play a Heavy Combot that will annihilate the expedition.
+A player should *not* play a spie feline that has plotful campaign secrets. 
 
 == Automation
 There is a Python tool set that allows players to generate fresh, rando and bespoke personas. 
