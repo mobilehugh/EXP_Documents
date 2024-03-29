@@ -1,18 +1,17 @@
-// Table 11.3.3 Robot RP Attributes
-.*Robot RP Attributes*
-[width="75%",cols="^,<,7*^",frame="all", stripes="even"]
+.*Robot Series/Model to Attributes Table*
+[width="90%",cols="^,<,7*^",frame="all", stripes="even"]
 |===
-9+<|Attributes are based on robot type. MND = 0. SOC = 1d1000.
+9+<|Attributes based on robot series and model
 
 s|ID
-s|Name
+s|Series/Model
 s|AWE
 s|CHA
 s|CON
 s|DEX
 s|INT
 s|STR
-s|HPS
+s|HPM
 
 |A
 |Android
@@ -270,13 +269,21 @@ s|HPS
 |1d8
 |2
 
-s|Type
-s|Type Name
+s|ID
+s|Series/Model
 s|AWE
 s|CHA
 s|CON
 s|DEX
 s|INT
 s|STR
-s|HPS
+s|HPM
+
+9+<|MND  = 0 
+9+<|SOC = 1d1000
+9+<|HPM is amount per CON
+
+
+
+
 |===

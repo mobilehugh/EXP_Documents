@@ -34,9 +34,15 @@ The robots here are referee persona robots fabricated by the referee.
 . <<_robot_rp_name,Name>>
 . Have Fun!
 
-// fix . _robot_rp_modifications,Modifications
+== Record Sheet
+You will not be able to keep track of everything that is needed for a referee persona.
+It is recommended that you print out a persona record sheet to keep track of stuff.
+Download the bare bones PDF (75K) at xref:ROOT:attachment$robot_record_v7.pdf[Robot Record v7]
 
-== Robot RP Relevance
+NOTE: *If it's worth creating, it's worth writing down.*
+
+
+== Relevance
 Not all RPs are created equal.
 Some personas are less important than others.
 The referee usually knows the importance of the persona before she starts generation.
@@ -44,51 +50,7 @@ An RP's relevance increases the more entangled they are with the expedition.
 
 include::referee_personas:partial$persona_relevance.adoc[]
 
-
-=== Cannon Fodder
-Cannon fodder are like movie extras that fill in the background.
-Robot cannon fodder are inorganic machines operating in the background.
-These robots are delivery drones, cashiers, or elevators.
-
-.*Cannon Fodder* 
-. offer no opposition
-. have no useful information
-. have no nutritional value, monetary value or useful parts.
-
-Any combat contact will utterly destroy robotic cannon fodder.
-Destroying robotic cannon fodder is not without consequence.
-Cannon fodder is always property, and destroying it may anger a corporation or a powerful entity. 
-
-=== Canon Fodder
-Canon fodder may have bit parts in the story but does not make the story. 
-Robot canon fodder can be security sentries, attack drones, or angry shopping carts.
-
-.*Canon Fodder* 
-. could act in opposition to the expedition's goals
-. could injure or kill a player persona
-. could accidentally alter the story of a campaign
-. could have information or treasure
-
-The referee usually predetermines the goal of canon fodder.
-The referee creates as much information as needed.
-For example, security sentries protecting a plantation may only have a lazer and Skilled Bonus on her attack table.
-The security sentries may all look the same, but with different id numbers.
-
-Canon fodder can be extremely dangerous to the expedition.
-They are there to get in the way of the player's goals. 
-The referee should complete a persona record sheet for robot canon fodder. 
-There are too many moving parts with robot RPs to make them on the fly.
-
-=== Canonical Persona
-Canonical personas are like supporting actors that make the story possible.
-These referee personas are integral participants in the campaign story.
-They can be powerful recurring enemies or comrades in arms.
-Canonical referee personas are the real deal.
-These referee personas utilize every step of persona creation.
-They have all the dressings of a player persona.
-Only the player personas are more important to the story.
-
-== Robot RP Type
+== Series
 For player personas determining their robot type is a laborious process.
 The referee can use the Single Roll Robot Type Table below.
 One roll using a 1d1000 chooses the robot RP type.
@@ -96,48 +58,50 @@ The referee should massage the robot type to suit her campaign's milieu.
 
 include::robots:partial$series_selection_single_roll.adoc[]
 
-=== Fabricator Type
+== Fabricator
 Where fabricator type does play a role is in delivering orders to the robot. If a fabricator type tells a robot what to do, it is more likely to comply. In short, the robot's fabricator type is more successful at bossing the robot around. If a fabricator type makes a reasonable, on mission command to a robot, it would almost certainly result in a control factor roll.
 For more information about the implications of the fabricator type jump to xref:robots:fabricator.adoc[Robot Fabricator,window=_blank].
 
 include::robots:partial$fabricator_type.adoc[]
 
-== Robot RP Attributes
-Inverse to player personas, the RP robot's type determines her attributes.
+== Attributes
+Inverse to player personas, the RP robot's series and model determines her attributes.
 While the table looks imposing, it is much faster than the player personas process.
 The attribute lookup table gives the direct attribute scores.
 The referee determines the robot's prime attributes after her regular attributes. 
 
-include::ROOT:partial$CH11_Table_Robot_RP_Attributes.adoc[]
+include::referee_personas:partial$robot_attributes_from_series.adoc[]
 
-=== Robot RP Prime Attributes
+=== Primes
 Some robot abilities depend on the robot's prime attribute. 
 For robot RPs the robot type determines the attribute ranges. 
 Consult the lookup table below to record the attribute ranges.
 
-include::ROOT:partial$CH11_Table_Robot_RP_Prime_Reversal.adoc[]
+include::referee_personas:partial$robot_primes_from_attributes.adoc[]
 
-== Robot RP Size
+== Size
 The robot size consists of the robot's wate and the robot's hite.
 The wate of the robot plays a role in ramming damage. 
 Heavier robots inflict more damage.
 The hite of the robot determines its rough volume. 
 Bigger robots don't fit as well into anthro-sized spaces.
 
-include::ROOT:partial$CH11_Table_Robot_RP_Wate.adoc[]
+=== Wate
 
-=== Extremely Tiny Robots
+include::referee_personas:partial$robot_wate_by_series.adoc[]
+
+==== Nano Bots
 Any robot that has a wate of 4.2 kg or less has a chance of becoming an extremely small nano bot.
 The chance of the robot becoming a nano bot is 1 in 6 (1d6)
 Nano bots have a wate of  0 to 999 grams (1d1000-1).
 A nano bot cannot have a wate greater than a kilogram.
 Nano robots have no change to their attributes, abilities or combat values.
 
-==== Extremely Gigantic Robots
+==== Mighty Machines
 Any robot with a wate of 4200 kg or more has a chance of becoming a mighty machine.
 The chance of the robot becoming a mighty machine is 1 in 6 (1d6).
 Mighty machines have a wate of 6 to 600 tons (1d100 times 6).
-MIghty machines have no change to their attributes, abilities or combat values.
+Mighty machines have no change to their attributes, abilities or combat values.
 However, in regards to ramming, mighty machines can increase their ramming ratio to 12 (versus 4).
 
 === Hite
@@ -147,14 +111,14 @@ A hexagon is 200 cm across.
 
 include::robots:partial$wate_to_hite_estimation.adoc[]
 
-== Robot RP Defence Rating
+== Defence Rating
 Robot RPs have an AR of 700.
 A robot AR is the same as any other persona AR.
 A successful attack roll damages the robot as it would any other persona.
 Robots are different from organic personas and damage differently.
 Robot RPs are easy to hit but hard to destroy.
 
-== Robot RP Movement Rate
+== Movement
 The robot's Dexterity score determines her movement rate.
 Robots are twice as fast as those other personas with the same DEX.
 Those robots which move faster than eight h/u must accelerate the same as vehicles.
@@ -162,7 +126,7 @@ Robotic acceleration is one hex per unit per STR prime score.
 
 include::robots:partial$movement_rate_and_dexterity.adoc[]
 
-== Robot RP Wate Allowance
+== Wate Allowance
 Bots are affected by encumbrance, though not as much as other referee personas.
 Strength determines the weight allowance of the robot.
 A robot with a STR level of 3 and a 17 STR would have a wate allowance of 75 kgs.
