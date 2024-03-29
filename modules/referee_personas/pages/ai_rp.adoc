@@ -7,9 +7,7 @@
 :date: 2015
 :license: Copyright ImageStoks 2015
 :description: Robotic hand with pen spelling AI ADERATA.
-
 include::ROOT:partial$articulate.adoc[]
-
 
 AI is the acronym for Autonomous Intelligence. 
 Autonomous Intelligence is the fourth family of EXP consciousnesses.
@@ -27,7 +25,7 @@ Even several players running an AI would not do service to its abilities.
 Autonomously intelligent (AI) computers simultaneously have numerous conversations, operate businesses, carry out complex calculations, and consume copious data.
 AI are exclusively in the realm of referee personas.
 
-== EXP AI Mythos
+== EXP Mythos
 The referee can choose from any number of sciency fiction tropes on which to base her AI technology. 
 Examples include pico-circuitry (1000 times better than nano), positronic brains, quantum shenanigans or bio-computation.
 Regardless of what sciency fiction black box the referee chooses to explain her AI, EXP has a basic AI mythos. 
@@ -66,12 +64,13 @@ The next model has one level of generalization and is G one model or a GMOM (occ
 Not surprisingly, the G two model is occasionally called a great grand mom.
 The highest generalization level is G six model, which is occasionally called a matriarch AI.
 
-include::ROOT:partial$CH48_Table_Artificial_Intelligence_Level_of_the_Multitasking_Open_Memory_System.adoc[]
+include::referee_personas:partial$ai_mom_level.adoc[]
 
-=== Intelligence
+=== INT
 Each AI has an Intelligence (INT) attribute.
 The higher the generalization of the AI, the higher her Intelligence score.
 
+[discrete]
 === AI Intelligence (INT)
 .INT = 20 + 0-3 (1d4-1) per Generalization
 ****
@@ -89,7 +88,7 @@ Distribution determines how the AI is built and structured in the physical space
 The distribution of an AI often is the most crucial element of its description. 
 Distribution determines how challenging it is for personas to steal, destroy, find, or chat with the AI.
 
-include::ROOT:partial$CH48_Table_AI_Type.adoc[]
+include::referee_personas:partial$ai_distro.adoc[]
 
 Centralized, Sessile:: 
 This AI is the classic sciency fiction giant blinking light room-sized computer. 
@@ -127,7 +126,6 @@ For more information about the spaces in EXP jump to xref:appendices:generic_myt
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Mammal brain floating in jar with support equipment.
-
 include::ROOT:partial$articulate.adoc[]
 
 == Peripherals
@@ -139,7 +137,7 @@ Without peripherals, the AI must convince others to carry out her plans.
 A sessile AI that has a banking peripheral could be an entire bank.
 A mobile AI that has a hotel peripheral could move about in a motel.
 
-include::ROOT:partial$CH48_Table_AI_Data.adoc[]
+include::referee_personas:partial$ai_peripherals_amount.adoc[]
 
 An AI that has no peripherals and has no direct means of manipulating the Physical Space.
 An AI with no peripherals would work through agents such as anthros, aliens or robots to fulfill her goals. 
@@ -148,7 +146,7 @@ However, the AI does not enjoy direct control over the vault or room bookings.
 The AI must direct others to carry out those tasks.
 An AI peripheral operates without incompetent organic matter interference.
 
-include::ROOT:partial$CH48_Table_AI_Computer_Peripherals.adoc[]
+include::referee_personas:partial$ai_peripheral_list.adoc[]
 
 == Personality
 MOM AI computers are incredibly complex, and personalities can randomly appear through all the algorithms.
@@ -173,7 +171,7 @@ The query difficulty should not render an AI useless.
 The query difficulty described above is to limit AI abuse by players.
 In the end, an AI should be a fun, possibly dangerous addition to a campaign or milieu.
 
-== EXPS and Value
+== Value
 AIs are usually referee personas, and there is no award of experience points for finding or interacting with one.
 However, mechanics and biologists can certainly earn skill levels if they are working with an AI.
 
@@ -181,6 +179,7 @@ Controlling and selling an AI is an unusual event.
 It is far more likely that an AI would be controlling and selling the expedition personas instead.
 The AI value is included here as a matter of interest. 
 
+[discrete]
 === AI Value (eps)
 .Value = 1 000 000 * G level (minimum 1) * Intelligence
 ****

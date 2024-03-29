@@ -82,6 +82,24 @@ A hexagon is 200 cm across.
 
 include::robots:partial$wate_to_hite_estimation.adoc[]
 
+== Shape
+The volume of the robot will fit into this shape.
+
+include::robots:partial$basic_shapes.adoc[]
+
+[discrete]
+=== Contortion of Basic Shape
+This table manipulates the basic shape of the robot.
+This step is optional and is present to help reflect the randomness that is commercial design.
+
+include::robots:partial$basic_shape_distortions.adoc[]
+
+[discrete]
+=== Attachments 
+Useless attachments.
+
+include::robots:partial$peripherals_of_uselessness.adoc[]
+
 == Defence Rating
 Robot RPs have an AR of 700.
 A robot AR is the same as any other persona AR.
@@ -106,18 +124,13 @@ For more information about carry stuff, jump to xref:uncombat:encumbrance.adoc[E
 
 include::robots:partial$wate_allowance_and_prime_strength.adoc[]
 
-== EXPS Level
-EXPS Levels improve the RP's Control Factor, assist in saves and robot attributes.
-
-include::robots:partial$experience_to_levels.adoc[]
-
 == Systems
 Robotic RPs may have offensive, defensive and peripheral systems.
 Generating systems for player persona robots is convoluted and fun.
 The referee can find the number of rolls for each system on the single lookup table below.
 The lookup table seems scary, but it is scientifically proven to be faster than the player robot persona method.
 
-include::ROOT:partial$CH11_Table_Robot_RP_Systems.adoc[]
+include::referee_personas:partial$robot_systems_by_series.adoc[]
 
 == Offensive Systems
 These are the systems that harm others.
@@ -175,13 +188,18 @@ Peripherals are attachments that give the robot some additional flexibility in p
 Peripherals are not weapons. 
 For more detailed explanations jump to xref:robots:peripherals.adoc[Peripheral Systems,window=_blank].
 
-=== Primary
+=== Basic
 
 include::robots:partial$peripherals_basic_list.adoc[]
 
-=== Secondary
+=== Fancy
 
 include::robots:partial$peripherals_fancy_list.adoc[]
+
+== EXPS Level
+EXPS Levels improve the RP's Control Factor, assist in saves and robot attributes.
+
+include::referee_personas:partial$experience_levels.adoc[]
 
 == Control Factor
 Calculate the persona's control factor here.
