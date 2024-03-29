@@ -25,7 +25,7 @@ Even several players running an AI would not do service to its abilities.
 Autonomously intelligent (AI) computers simultaneously have numerous conversations, operate businesses, carry out complex calculations, and consume copious data.
 AI are exclusively in the realm of referee personas.
 
-== EXP Mythos
+== EXP AI Mythos
 The referee can choose from any number of sciency fiction tropes on which to base her AI technology. 
 Examples include pico-circuitry (1000 times better than nano), positronic brains, quantum shenanigans or bio-computation.
 Regardless of what sciency fiction black box the referee chooses to explain her AI, EXP has a basic AI mythos. 
@@ -44,13 +44,50 @@ These are MOM computers, but their protective algorithms no longer function.
 Safeguard Terminology Evasive Programming allows a MOM computer to carry out any evil deed the referee can create.
 These evil AI MOM computers are commonly called STEPMOM computers.
 
+=== Cyber Space
+All AIs connect to Cyber Space equally. 
+Distributed AIs are permanently in Cyber Space and have difficulty operating in the physical space.
+Centralized AIs can connect to Cyber Space but can be cut off from it by physical means.
+For more information about the spaces in EXP jump to xref:appendices:generic_mythos.adoc#_the_spaces[Generic Mythos,window=_blank].
+
+
 .*AI Checklist*
-. Generalization
 . Distribution
+. Generalization
 . Peripherals
 . Personality
+. Taxonomy
 . Programming
-. Cyberspace
+
+== Distribution
+Distribution determines how the AI is built and structured in the physical space.
+The distribution of an AI often is the most crucial element of its description. 
+Distribution determines how challenging it is for personas to steal, destroy, find, or chat with the AI.
+
+include::referee_personas:partial$ai_distro.adoc[]
+
+Sessile:: 
+This AI is the classic sciency fiction giant blinking light room-sized computer. 
+A sessile AI is at one with its hardware. 
+Sessile does not limit the AI's reach, but players can locate her if need be.
+The sessile AI must connect to a fixed power source. 
+Sessile AI has a base wate of 100kg plus 20 kg per point of Intelligence.
+
+Mobile::
+This AI is the classic brain in a box.
+Mobile does not mean that the AI can run around like a robot.
+A centralized mobile AI can arrange to move when necessary.
+Moving is an inconvenience, but it can be life-saving.
+The mobile AI has a self-contained power unit that will keep it operating on the go.
+Mobile AI has a base wate of 50kg plus 10 kg per point of Intelligence.
+
+Etheric::
+This AI is the classic consciousness on the Intertubes.
+An etheric AI has no substantial computer parts to find or power down.
+Personas cannot locate an etheric AI. 
+The etheric AI finds them.
+An etheric AI consciousness can arise at fabrication or evolve from a centralized system. 
+Etheric AI has no measurable wate. 
 
 == Generalization
 Generalizability is a direct measure of the computation power of the AI.
@@ -82,42 +119,6 @@ The AI is capable of allocating her Intelligence across multiple projects simult
 The AI has instant access to orders of magnitude more information than any organic or robotic Intelligence. 
 AI Intelligence does not fatigue or get distracted or suffer crises of confidence.
 In most cases, the referee will use her inside campaign and milieu knowledge to have the AI outsmart personas.
-
-== Distribution
-Distribution determines how the AI is built and structured in the physical space.
-The distribution of an AI often is the most crucial element of its description. 
-Distribution determines how challenging it is for personas to steal, destroy, find, or chat with the AI.
-
-include::referee_personas:partial$ai_distro.adoc[]
-
-Centralized, Sessile:: 
-This AI is the classic sciency fiction giant blinking light room-sized computer. 
-A sessile AI is at one with its hardware. 
-Sessile does not limit the AI's reach, but players can locate her if need be.
-The sessile AI must connect to a fixed power source. 
-Sessile centralized AI has a base wate of 100kg plus 20 kg per point of Intelligence.
-
-Centralized, Mobile::
-This AI is the classic brain in a box.
-Mobile does not mean that the AI can run around like a robot.
-A centralized mobile AI can arrange to move when necessary.
-Moving is an inconvenience, but it can be life-saving.
-The mobile AI has a self-contained power unit that will keep it operating.
-Centralized mobile AI has a base wate of 50kg plus 10 kg per point of Intelligence.
-
-Distributed::
-This AI is the classic consciousness on the Intertubes.
-A distributed AI has no substantial computer parts to find or power down.
-Personas cannot locate a distributed AI. 
-The distributed AI finds them.
-A distributed AI consciousness can arise at fabrication or evolve from a centralized system. 
-Distributed AI has no measurable wate. 
-
-=== Cyber Space
-All AIs connect to Cyber Space equally. 
-Distributed AIs are permanently in Cyber Space and have difficulty operating in the physical space.
-Centralized AIs can connect to Cyber Space but can be cut off from it by physical means.
-For more information about the spaces in EXP jump to xref:appendices:generic_mythos.adoc#_the_spaces[Generic Mythos,window=_blank].
 
 :art: wetware_AI.png
 :width: 250px
@@ -156,9 +157,18 @@ The introverted personality type of AI subtlety affects their behaviour and choi
 
 include::referee_personas:partial$personality_introverted.adoc[]
 
-== Programming
+== Taxonomy
+EXP loves it's faux taxonomy and AI is no different.
+Most AI prefer to be called by their chosen moniker, but cannot avoid categorization.
+
+* Family - AI (Autonomatae)
+* Distro - Sessile, Mobile or Etheric
+* Branch - Generalizability (G3, or G5)
+
+== Interacting
 One does not programme an AI.
 An AI is more likely to be programming you.
+
 To make a successful request of an AI computer is a mechanic maneuver. 
 The higher the AI's Intelligence, the harder it is to make a successful request.
 To make a successful query of a MOM AI is 1DD per point of INT maneuver.
