@@ -1,22 +1,21 @@
-// Table 11.3.3 Robot RP Attributes
-.*Robot RP Systems Lookup Table*
+.*Robot Systems By Series Table*
 [width="85%",cols="^,<,7*^",frame="all", stripes="even"]
 |===
-9+<|How many rolls on which system tables.
+9+<|How many rolls on each system table.
 
 2+|
-4+s|Offensive System Table
-s|Defensive
-2+s|Peripheral
-
+4+s|Offensive Systems
+.2+s|Defensive +
+Systems
+2+<s|Peripheral Systems
 
 s|ID
-s|Name
+s|Series/Model
 s|One
 s|Two
 s|Three
 s|Four
-s|System
+// missing for 2 row defensive system
 s|Primary
 s|Secondary
 
@@ -271,19 +270,19 @@ s|Secondary
 |--
 
 s|ID
-s|Name
+s|Series/Model
 s|One
 s|Two
 s|Three
 s|Four
-s|Defensive
+|
 s|Primary
 s|Secondary
 
 2+|
-4+s|Offensive System Table
-s|System
-2+s|Peripheral
+4+s|Offensive
+s|Defensive
+2+<s|Peripheral
 
 
 |===

@@ -6,41 +6,12 @@ Machinidae are life forms that are inorganic and fabricated.
 Anthros, Aliens or other Robots can fabricate robots.
 The robots here are referee persona robots fabricated by the referee.
 
-.*Robot RP Fabrication Checklist*
-. <<_robot_rp_relevance,Relevance>>
-. <<_robot_rp_type,Select Type>>
-. <<_fabricator_type,Fabricator Type>>
-. <<_robot_rp_attributes,Attributes>>
-. <<_robot_rp_size,Size>>
-. <<_robot_rp_defence_rating,Defence Rating>>
-. <<_robot_rp_movement_rate,Movement Rate>>
-. <<_robot_rp_wate_allowance,Wate Allowance>>
-. <<_robot_rp_exps_level,EXPS Level>>
-. <<_robot_rp_systems,Systems>>
-.. Offensive
-.. Defensive
-.. Peripheral
-. <<_robot_rp_control_factor,Control Factor>>
-. <<_robot_rp_adaptability,Adaptability>>
-. <<_robot_rp_value,Value>>
-. <<_robot_rp_tech_level,Tech Level>>
-. <<_robot_rp_age,Age>>
-. <<_robot_rp_combat_table,Attack Table>>
-. <<_robot_rp_combat_ratio,Combat Ratio>>
-. <<_robot_rp_technology,Technology>>
-.. Power Source
-.. Sensors
-.. Locomotion
-. <<_robot_rp_name,Name>>
-. Have Fun!
-
 == Record Sheet
 You will not be able to keep track of everything that is needed for a referee persona.
 It is recommended that you print out a persona record sheet to keep track of stuff.
 Download the bare bones PDF (75K) at xref:ROOT:attachment$robot_record_v7.pdf[Robot Record v7]
 
 NOTE: *If it's worth creating, it's worth writing down.*
-
 
 == Relevance
 Not all RPs are created equal.
@@ -135,12 +106,12 @@ For more information about carry stuff, jump to xref:uncombat:encumbrance.adoc[E
 
 include::robots:partial$wate_allowance_and_prime_strength.adoc[]
 
-== Robot RP EXPS Level
+== EXPS Level
 EXPS Levels improve the RP's Control Factor, assist in saves and robot attributes.
 
 include::robots:partial$experience_to_levels.adoc[]
 
-== Robot RP Systems
+== Systems
 Robotic RPs may have offensive, defensive and peripheral systems.
 Generating systems for player persona robots is convoluted and fun.
 The referee can find the number of rolls for each system on the single lookup table below.
@@ -148,7 +119,7 @@ The lookup table seems scary, but it is scientifically proven to be faster than 
 
 include::ROOT:partial$CH11_Table_Robot_RP_Systems.adoc[]
 
-== Offensive Peripherals
+== Offensive Systems
 These are the systems that harm others.
 On the lower level tables, the robot is misusing and weaponizing malfunctioning peripherals.
 On the higher level tables, the robot is using weapons baked-in during fabrication.
@@ -161,14 +132,14 @@ For more info about robot ramming, ram your way over to xref:robots:offensive_pe
 
 include::robots:partial$peripherals_offensive_ramming.adoc[]
 
-=== Attack Table One
+=== Table One
 These attacks include ramming, and the robot is misusing and weaponizing malfunctioning peripherals. 
 It is possible to get a roll on Attack Table Two to get more dangerous weapon systems.
 For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#_attack_table_one[Attack Table One,window=_blank].
 
 include::robots:partial$peripherals_offensive_strike.adoc[]
 
-=== Attack Table Two
+=== Table Two
 Slightly more dangerous attacks, but mainly consist of misused devices.
 It is possible to get several rolls on Attack Table One or move up to Attack Table Three.
 For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#_attack_table_two[Attack Table Two,window=_blank].
@@ -177,7 +148,7 @@ include::robots:partial$peripherals_offensive_2.adoc[]
 
 include::robots:partial$peripherals_offensive_fling.adoc[]
 
-=== Attack Table Three
+=== Table Three
 Even more dangerous attacks.
 These attacks are a mix of baked-in weapons and misused devices.
 It is possible to get several rolls on Attack Table Two or move up to Attack Table Four.
@@ -185,7 +156,7 @@ For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#
 
 include::robots:partial$peripherals_offensive_3.adoc[]
 
-=== Attack Table Four
+=== Table Four
 Even more dangerous attacks.
 These attacks are a mix of baked-in weapons and misused devices.
 It is possible to get several rolls on Attack Table Three.
@@ -193,34 +164,44 @@ For details about these attacks jump to  xref:robots:offensive_peripherals.adoc#
 
 include::robots:partial$peripherals_offensive_4.adoc[]
 
-== Defences
+== Defensive Systems
 Robot defences can arise from misused peripherals or intentionally baked-in defensive systems.
 For more detailed explanations jump to xref:robots:defensive_peripherals.adoc[Defensive Systems,window=_blank].
 
 include::robots:partial$peripherals_defensive.adoc[]
 
-== Peripherals
+== Peripheral  Systems
 Peripherals are attachments that give the robot some additional flexibility in performing its tasks.
 Peripherals are not weapons. 
 For more detailed explanations jump to xref:robots:peripherals.adoc[Peripheral Systems,window=_blank].
 
+=== Primary
+
 include::robots:partial$peripherals_basic_list.adoc[]
 
+=== Secondary
+
 include::robots:partial$peripherals_fancy_list.adoc[]
-== Robot RP Control Factor
+
+== Control Factor
 Calculate the persona's control factor here.
 For more details jump to xref:robots:control_factor.adoc[Control Factor,window=_blank].
 
-// todo something broke regarding RP = speed of use
+[discrete]
+=== Calculate Control Factor
+.CF= (INT score) + (INT Prime* EXPS Level)
+****
+A 3rd level robot with a 15 INT score, and a 3 INT Prime has a CF = 24
+****
 
-== Robot RP Adaptability
+== Adaptability
 If there is a need to know the referee persona's adaptability check the fabrication info for the robot type.
 
-== Robot RP Value
+== Value
 Most referee persona robots do not like to talk about their value. 
 If there is a need to know the referee persona's value check the fabrication info for the robot type.
 
-== Robot RP Tech Level
+== Tech Level
 Tech level alters the wate and size of artifacts.
 There is no mechanism in EXP for altering robots based on their tech level. 
 Is a high tech level robot less able to ram because it is now lighter? 
@@ -230,15 +211,15 @@ For more info and the effects of altering tech levels, jump to xref:software:CH5
 
 include::ROOT:partial$CH49_Table_TOY_Tech_Level.adoc[]
 
-== Robot RP Age
+== Age
 Robots do not age.
 Unlike organic life forms, robots only decay from damage and not time. 
 The longer it has been since fabrication allows for an estimate of how much damage the robot has experienced.
 The robot age table was previously called the decrepitude table.
 
-include::ROOT:partial$CH11_Table_Robot_RP_Age.adoc[]
+include::referee_personas:partial$robot_wear_appearance.adoc[]
 
-== Robot RP Attack Table
+== Attack Table
 The attack table keeps track of the persona's combat skills and increases with EXPS level.
 The referee may need two attack tables for her tool using aliens.
 For general info about attack tables, jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank] in tactical combat.
@@ -260,33 +241,41 @@ For the vocation based attack table, jump to xref:anthros:attack_table[Anthro at
 
 include::ROOT:partial$articulate.adoc[]
 
-
-
-== Robot RP Technology
+== Spec Sheet
 Qualitative details about how the robot moves, sees, and powers itself.
 
-=== Robot RP Power Source
+=== Power Source
 Robot power sources are sciency fiction supercells that allow the robot to operate.
 Recharging may be necessary.
 For more detailed information, jump to xref:robots:power_source.adoc[Power Source,window=_blank].
 
 include::robots:partial$power_cell_types.adoc[]
 
-=== Robot RP Sensors
+=== Sensors
 Robot sensors allow the robot RP to hear and see like any other persona.
 The higher the RPs Awareness, the more sensors they have. 
 For more detailed information, jump to xref:robots:sensors.adoc[Sensors,window=_blank].
 
 include::robots:partial$sensor_types.adoc[]
 
-=== Robot RP Locomotion
+=== Locomotion
 Robot locomotion allows the RP to get anywhere she can fit.
 For more detailed information, jump to xref:robots:locomotion.adoc[Locomotion,window=_blank].
 
 include::robots:partial$locomotion_types.adoc[]
 include::robots:partial$locomotion_types_complementary.adoc[]
 
-== Robot RP Name
+== Name
 The robot should have a name like any other persona.
 Robot names can become complicated because they may need a persona name, model name and fabricator name.
 For more details on naming shenanigans, jump to xref:robots:moniker.adoc[Robot Name,window=_blank].
+
+== Story Cues
+There are all manner of story cues that the referee may wish to generate.
+All are optional. 
+For setting up story cues for this referee persona jump to xref:referee_personas:rp_story_cues.adoc[Story Cues,window=_blank].
+
+== Combat Ratio
+The combat ratio determines how dangerous a referee persona is.
+Combat ratio is partially optional, but plays a roll in assigning combat experience. 
+To generate a danger number for this persona jump to xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio,,window=_blank].
