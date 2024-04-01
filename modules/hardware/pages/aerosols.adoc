@@ -1,7 +1,4 @@
 = Aerosols
-An aerosol is a cylindrical canister that violently ejects a pressurized, gaseous solution through a push-button valve.
-An aerosol ejects all of its contents instantly, leaving a spent container.
-Unlike grenades, aerosols lack a history of military use.
 
 :art: aerosol_face.png
 :width: 450px
@@ -9,24 +6,27 @@ Unlike grenades, aerosols lack a history of military use.
 :artist: Michael Jackson
 :date: 1990
 :license: CC BY-SA 4.0
-:description: Drawing of aerosol melting away a humanoid face.
-
+:description: Aerosol spray melting away a humanoid face.
 include::ROOT:partial$articulate.adoc[]
 
+An aerosol is a cylindrical canister that violently ejects a pressurized, gaseous solution through a push-button valve.
+An aerosol ejects all of its contents instantly, leaving a spent container.
+Unlike grenades, aerosols lack a history of military use.
+
 .*Aerosol Checklist*
-. <<_aerosol_type, Aerosol Type>>
+. <<_generate_type, Aerosol Type>>
 . <<_trigger,Trigger>>
 . <<_number,Number>>
 . <<_description, Description>>
-. <<_aerosol_parameters,Aerosol Parameters>>
+. <<_parameters,Parameters>>
 
-== Aerosol Type
+== Generate Type
 
-include::ROOT:partial$CH45_Table_Aerosol_Type.adoc[]
+include::hardware:partial$list_of_aerosols.adoc[]
 
-== Aerosol Types 
+== Aerosol Catalogue 
 
-=== Anti Lazer Aerosol 
+=== Antilazer
 [horizontal]
 Range:: 4h
 Area of Effect:: 7h
@@ -41,7 +41,7 @@ There is no limit to the amount of damage that an antilazer aerosol can dissipat
 Energy attacks like ​fission, fusion, plasma ​are not affected by this aerosol. 
 The shimmering cloud will evaporate 1-10 (1d10) minutes after discharge.
 
-=== Attraction Aerosol 
+=== Attraction
 [horizontal]
 Range:: None
 Area of Effect:: 1 km
@@ -58,9 +58,9 @@ How many referee personas approach the expedition depends on the mood of the ref
 
 This aerosol is also known as a love bomb.
 
-include::ROOT:partial$CH45_Table_Attracted_Personas.adoc[]
+include::hardware:partial$effected_persona_type.adoc[]
 
-=== Blinding Aerosol
+=== Blinding
 [horizontal]
 Range:: 12h
 Area of Effect:: 3h
@@ -80,7 +80,7 @@ Any target entering the cloud must make a poison roll.
 
 The blinding aerosol is alternatively called tear gas.
 
-=== Catabolic Dismodulator Aerosol
+=== Catabolic Dismodulator
 
 [horizontal]
 Range:: 12h
@@ -103,7 +103,7 @@ If an organic persona can be dismodulated, they must win a poison roll or die.
 The area of effect of the catabolic dismodulator is only the target hex.
 The three hex area of effect is from cold damage to targets caught in the shimmering cloud.
 
-=== Demagnetizer Aerosol 
+=== Demagnetizer
 
 [horizontal]
 Range:: 12h
@@ -129,7 +129,7 @@ The Mind of the attack is 3-18 (3d6).
 Magnetized items remain neutralized for 3-18 units.
 There is a 1% chance for each unit of duration that the device is damaged.
 
-=== Disintegrator Aerosol 
+=== Disintegrator
 
 [horizontal]
 Range:: 15h
@@ -153,9 +153,9 @@ If the player wins the sphincter roll the artifact suffers a xref:combat:equipme
 
 A malfunction of this weapon disintegrates the aerosol into dust.
 
-include::ROOT:partial$CH45_Table_Disintegration_Type.adoc[]
+include::hardware:partial$effected_material.adoc[]
 
-=== Exploding Aerosol 
+=== Exploding
 
 [horizontal]
 Range:: None
@@ -170,7 +170,7 @@ All targets in the one hex area of effect take the damage listed.
 The referee should note that it is very impolite to laugh when a persona detonates an exploding aerosol.
 This artifact would be considered a trap and should not count as a toy roll at startup.
 
-=== Foam Aerosol 
+=== Foam
 
 [horizontal]
 Range:: None
@@ -196,7 +196,7 @@ The colour of the foam will be the same as on the outside of the aerosol caniste
 Once solid, the foam is structurally sound and well insulated.
 This aerosol has synonyms such as the insulator and the homemaker.
 
-=== Freezing Aerosol 
+=== Freezing
 
 [horizontal]
 Range:: 9h
@@ -211,7 +211,7 @@ The supercooled temperatures coat everything with ice and snow.
 The freezing aerosol has a % chance, equal to the damage inflicted, of entrapping large or smaller, sized targets in ice.
 This attack also freezes switches in place, triggers in the firing position, pins in grenades, pant zippers closed, etc.
 
-=== Gas Aerosol 
+=== Gas
 
 [horizontal]
 Range:: 7h
@@ -229,9 +229,9 @@ The intensity of the poison is 2-16 (2d8).
 The cloud will dissipate in 4 to 16 units.
 Roll on the below table to determine the effect of the gas.
 
-include::ROOT:partial$CH44_Table_Gas_Type.adoc[]
+include::hardware:partial$gas_effect_type.adoc[]
 
-=== Invisibility Aerosol
+=== Invisibility
 
 [horizontal]
 Range:: None
@@ -256,7 +256,7 @@ Equipment dropped remains invisible.
 
 The effects of this aerosol last 1-4  (1d4) days.
 
-=== Matter Detector Aerosol 
+=== Matter Detector
 
 [horizontal]
 Range:: 12h
@@ -281,7 +281,7 @@ The duration of detection continues for 1 to 4 minutes.
 
 This aerosol is also called a marker aerosol or a targeting aerosol.
 
-=== Mistor Aerosol 
+=== Mistor
 
 [horizontal]
 Range:: None
@@ -300,7 +300,7 @@ Attack rolls are random swings and shots.
 Movement is random unless the persona has some form of heightened directional sense.
 The suspension will remain cohesive for 16 days.
 
-=== Molecular Diffusion Aerosol 
+=== Molecular Diffusion
 
 [horizontal]
 Range:: 10h
@@ -315,7 +315,7 @@ This micro rending of molecular connections causes severe damage.
 Personas and equipment do not appear to have any apparent damage or injury.
 Only a detailed inspection of equipment, or bodies, will reveal the microscopic tears. 
 
-=== Napalm Aerosol 
+=== Napalm
 
 [horizontal]
 Range:: 8h
@@ -336,7 +336,7 @@ Most targets will continue to burn for the entire immolation period.
 
 Other than the flaming targets, the napalm swath extinguishes itself immediately.
 
-=== Paint Aerosol 
+=== Paint
 
 [horizontal]
 Range:: 4h
@@ -359,7 +359,7 @@ To get a simple or zany colour jump to xref:software:CH55_Appearances.adoc#_colo
 
 This aerosol is also called RBG or Color Your Whirled.
 
-=== Pharmaceutical Aerosol 
+=== Pharm
 
 [horizontal]
 Range:: 12h
@@ -382,7 +382,7 @@ The more potential users, the milder the dose.
 It is possible to make this aerosol completely ineffective by having too many targets in the area of effect.
 The pharma cloud has no duration and dissipates instantly.
 
-=== Poison Aerosol 
+=== Poison  
 
 [horizontal]
 Range:: 12h
@@ -405,9 +405,9 @@ The repellent effect lasts for 1-4 (1d4) days.
 
 The lethal poison aerosol is also called Raid, or nerve gas.
 
-include::ROOT:partial$CH45_Table_Poisoned_Personas.adoc[]
+include::hardware:partial$effected_persona_type.adoc[]
 
-=== Repellent Aerosol 
+=== Repellent  
 
 [horizontal]
 Range:: None
@@ -427,9 +427,9 @@ The repellent effect lasts 1-6 (1d6) days.
 
 This aerosol is also called Oph, Repecks, or Protector.
 
-include::ROOT:partial$CH45_Table_Repelled_Personas.adoc[]
+include::hardware:partial$effected_persona_type.adoc[]
 
-=== Siren Aerosol 
+=== Siren  
 
 [horizontal]
 Range:: None
@@ -452,7 +452,7 @@ The epicentre may attract deaf, confused and angry local fauna.
 
 This aerosol can also be called a whistler or screecher.
 
-=== Smoke Aerosol 
+=== Smoke  
 
 [horizontal]
 Range:: None
@@ -470,7 +470,7 @@ The cloud will disperse in 1 to 8 weeks.
 The colour of the smoke will match the colour of the aerosol canister.
 To generate the colour jump to xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
 
-=== Web Aerosol 
+=== Web  
 
 [horizontal]
 Range:: 8h
@@ -500,27 +500,29 @@ Jump to xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_
 
 The web aerosol is also called Killy String or Super Goo. 
 
-== Trigger
+== Aerosol Data
+
+=== Trigger
 Aerosols are much simpler to use than grenades.
 Pushing the release valve on the top of the canister activates the aerosol.
 Where to direct the aerosol is clearly marked.
 Aerosol triggers are safe and cannot accidentally activate.
 
-== Number
+=== Number
 Aerosols come in six-packs, not unlike a famous mundane terran beverage.
 However, only 1-6 (1d6) aerosols will be in a pack.
 For powerful campaign-altering aerosols, one aerosol will suffice.
 
-== Description
+=== Description
 The aerosol appears to be an oversized version of mundane terra's typical gas-powered container.
-Each pack of aerosols will have a distinctive cannister xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
+Each pack of aerosols will have a distinctive canister xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
 
 Aside from their distinct colouring, aerosols lack labelling and safety information.
 
-== Aerosol Parameters
+=== Parameters
 For details on the special elements of aerosol combat jump to xref:combat:area_attacks.adoc#_aerosols[Aerosol Combat,window=_blank].
 
-=== Range
+==== Range
 The range parameter for an aerosol is either 'None' or a hex range.
 A range of none indicates the aerosol's epicentre is the aerosol itself, and the area of effect reaches out from the aerosol.
 Less lethal aerosols tend to have a range of None.
@@ -530,21 +532,21 @@ The first is that a blob shoots up to the hex range, and the epicentre is the ta
 Hopefully, the radius of the area of effect does not consume the origin of the aerosol.
 The second is that the range indicates a swath effect that sprays outwards from the aerosol.
 
-=== Area of Effect 
+==== Area of Effect 
 The area of effect is a radius in hexes unless the aerosol has a swath attack.
 
-=== Damage 
+==== Damage 
 The damage parameter has a range of hit points and the dice for calculating the damage amount in parentheses. 
 If there is no damage parameter listed the weapon likely has some other horrible effect.
 
-=== Wate 
+==== Wate 
 The wate of an unfired aerosol is 2 kgs. 
 The wate of a fired aerosol is 200 gms. 
 The wate of a spent aerosol is 10% of its charged wate.
 
-=== EXPS 
+==== EXPS 
 The persona gets this value for identifying the aerosol. 
 The player may identify the aerosol before or after discharge. 
 
-=== Value 
+==== Value 
 The value of the aerosol in eps.
