@@ -14,10 +14,6 @@ ____
 :description: Montage of oil derricks, atom symbol, gun and bow.
 include::ROOT:partial$articulate.adoc[]
 
-****
-*Less talk more TOYs? Jump to* <<_toy_type,Toy Type>>.
-****
-
 EXP's headline is "The Game of Technological Chaos."
 This title reflects a rule system where one can expect any device to exist alongside any other device.
 Is the laser pen mightier than the vibro sword?
@@ -25,18 +21,19 @@ Can a low-tech culture devote all its resources to make a time machine?
 Can a high-tech culture devote all its resources to make itself feel sad and pathetic?
 Add a bit of humour, and these explorations are what EXP is all about.
 
-NOTE: *Technology represents a mix of unknown devices.*
+NOTE: *Technological indicates a mix of unknown devices.*
 
 In our mundane terra's olden daze, there was a game show dedicated to https://en.wikipedia.org/wiki/What_in_the_World[identifying things,window=_blank].
 This game show broadcast on a one-way colourless video device called a television.
-The artifact system in EXP is like a simulated version of that game show. 
+Hardware in EXP is like a similar to that ancient game show. 
+Personas do not know what they are looking at.
 
-More than 70 years later, neither this game show nor the TV device exists.
-A handheld piece of glass with high-resolution full colour moving pictures has replaced the television. 
+More than 70 years later, neither this game show nor the television exists.
+A handheld piece of glass with high-resolution full colour interactive text and pictures has replaced the television. 
 This evolution of the television took four generations on mundane terra.
 
 The chaos arises from the randomness of the system that generates technological objects in EXP.
-The hardware section has sixteen equipment categories, and they are ready for random equipment generation. 
+The hardware section has many equipment categories, and they are designed for random artifact generation. 
 The hardware section also makes a decent reference catalogue for technomagical devices. 
 
 The Technological Object Yield System (TOYS) is where the technological chaos begins.
@@ -78,20 +75,10 @@ Mundane equipment is the boring practical stuff of life.
 Personas can usually purchase mundane equipment in a local shop.
 Sometimes what was once an artifact is demoted to mundane equipment.
 
-== Toy Type
-Let the chaos begin.
+== Toy Types
+A quick introduction into the types of artifacts that the TOY system can yield. 
 
-The referee can make the plethora of 1d100 (decidie) rolls needed to generate an artifact.
-The referee will often involve the players to make the decidie rolls. 
-Hence the constant reference to the 'player' is rolling.
-The referee usually secretly records the toy information to preserve the element of the unknown.
-
-The player rolls on the Toy Category Table to determine the artifact category.
-From this table, the referee jumps to the appropriate category and generates the specific toy type.
-The player rolls 64 on the 1d100 indicating the Pharmaceutical category.
-The referee jumps to pharmaceuticals and generates the specific pharma type.
-
-include::hardware:partial$toys_categories.adoc[]
+include::hardware:partial$toy_department_descriptions.adoc[]
 
 == Support Equipment
 Support Equipment is stuff that is needed to run the equipment.
@@ -126,16 +113,19 @@ If the device was worth generating, it is worth writing down.
 Keeping artifact records results in quicker gameplay and fewer 'oops' moments.
 
 .*Example Toy Record*
-* *Owner*: Gilberne Freyte (canine) *Date*: 19/Oct/64 *Serial*: yrul2
+* *Desc*: dark blue pipe with button and dial setting
 * *Toy*: Gun, 16 full-auto lazer rifle (flotto) 
 * *Wate*: 4.0kg *EXPS*: 760 *Value:*
 * *Tech Level*: 19 (see below Adjustments)
 * *Wate*: 0.8kg *EXPS*: 1120 *Value*: 85000 (adjusted to tech level)
 * *Support Eq.*.: 3 x Liquid batteries.
-* *Info*: Shoot, F; 120h 60; 3-30 MP; +50; Malfunction <30.
-* *Desc*: dark blue pipe with button and dial setting
+* *Info*: Shoot, Flotto; 120h 60; 3-30 MP; +50
+* *Owner*: Ester Drone (canine) *Date*: 19/Oct/64 *Serial*: yrul2
 
 If the spirit of the unknown artifact is part of the milieu, the players will only know the description and wate of the equipment. 
+
+// todo make a toy record pdf
+// todo does malfunction still apply here?
 
 === Toy Story
 The referee can use post factualization to explain the how and why of an artifact.
