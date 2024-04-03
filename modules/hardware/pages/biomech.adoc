@@ -1,24 +1,38 @@
-= Powered Armour
+= Biomech Armour
 
-// must create a base explanation of AR, R, Wate etc. 
+:art: powered_amour_puppy.png
+:width: 450px
+:snark: In dog we trust.
+:artist: aimage. Dolly 3. prompt HM 
+:date: 2024
+:license: CC BY-SA 4.0
+:description: Humanoid in biomech armour suit kneeling over and engaging skinny dog on leash.
+include::ROOT:partial$articulate.adoc[]
 
-Powered armour is servo-aided and computer-enhanced body armour.
-Typically powered armour is sealed, carries its power plant and fully integrates with its accessories.
-Powered armour enhances the wearer's attributes by electronically amplifying the persona's natural abilities.
-Powered armour becomes an anatomical extension of the persona, fully integrating her with the armour and its artifacts.
+// todo must create a base explanation of AR, R, Wate etc. 
 
-.Powered Armour Checklist
-. <<_powered_armour_suit, Powered Armour Suit>>
-. <<_suit_accessories,Suit Accessories>>
-. <<_head,Head Accessories>>
-. <<_arms,Arm Accessories>>
-. <<_torso_accessories,Torso Accessories>>
-. <<_legs,Leg Accessories>>
-. <<_further_issues,Further Issues>>
+Biomech is a specialized form of armour that is servo-aided, computer-enhanced and intimately integrated with the wearer.
+Typically biomech armour is sealed, carries its power plant and fully integrates with its accessories.
+Biomech armour enhances the wearer's attributes by electronically amplifying the persona's natural abilities.
+Biomech armour becomes an anatomical extension of the persona, fully integrating her with the armour and its artifacts.
+
+NOTE: *Biomech was formerly Powered Armour.*
+
+== Suit Fabrication
+Every biomech suit is uniquely appointed with it's own accessories.
+Kind of like lethal snow flakes. 
+
+.Biomech Fabrication Checklist
+. <<_core_suit, Core Suit>>
+. <<_suit_accessories,Core Accessories Check>>
+. <<_head,Head Accessories Check>>
+. <<_arms,Arm Accessories Check>>
+. <<_body_accessories,Body Accessories Check>>
+. <<_legs,Leg Accessories Check>>
 . *Have fun!*
 
 
-== Powered Armour Suit
+== Core Suit
 
 [horizontal]
 Defence Rating:: 750
@@ -29,51 +43,41 @@ Value:: 10000000 + accessories
 
 Powered joints amplify the force and speed of regular body movements.
 The suit adds speed and strength to the persona.
-The wearer can earn other attribute bonuses as additional systems improve the armour.
-Note that these increases are only in effect when the powered armour is being worn and operational.
+The wearer can earn other attribute bonuses as additional accessories improve the armour.
+Attribute increases are only in effect when the biomech armour is being worn and operational.
 
-=== Strength Adjustment
+=== Strength Bonus
 .STR + 4-10 (2d4+2)
 ****
-In armour STR = 12 + (2d4+2) = 12 + 8 = 20
+persona STR + 4-10 = 12 + (2d4+2) = 12 + 8 = 20 STR in suit
 ****
 
-=== Base Dexterity Attribute Adjustment
+=== Dexterity Bonus
 .DEX + 1-6 (1d6)
 ****
-In armour DEX = 12 + 1d6 = 12 + 4 = 16
+persona DEX + 1-6 = 12 + 1d6 = 12 + 4 = 16 DEX in suit
 ****
 
-:art: rat_in_the_skull_head.png
-:width: 350px
-:snark: No one knows you're a rat.
-:artist: Ed Emshwiller
-:date: 1958
-:license: CC BY-SA 4.0
-:description: Drawing of rat inside robot head with controls and levers.
+.*Suit Accessory List*
+* Air-conditioned (automatic)
+* Armour hardened (automatic)
+* 0-3 (1d4-1) additional core accessories
 
-include::ROOT:partial$articulate.adoc[]
-
-== Suit Accessories
+=== Core Accessories
 Suit accessories are systems integrated into the entire suit.
 These total suit accessories are composed of protective coverings, specialized computers, or unique servo mechanisms.
 Some of these abilities are standard for all armour (air conditioning and armour hardening).
 There are also some random suit accessories.
 Each suit gets 0 to 3 (d4-1) rolls on the Random Suit Accessories Table.
 
-.*Suit Accessory List*
-* Air-conditioned
-* Armour hardened
-* 0-3 (1d4-1) special suit accessories
-
-include::ROOT:partial$CH42_Table_Powered_Special_Suit_Accessories.adoc[]
+include::hardware:partial$biomech_accessories_core.adoc[]
 
 Air Conditioned::
 Every suit comes with air conditioning.
-Waltz into lethal mechanized combat within the confines of luxuriously air-conditioned powered armour.
+Waltz into lethal mechanized combat within the confines of luxuriously air-conditioned biomech armour.
 Air conditioning is more like the life support of a space vehicle than a comfort tool.
 Air Con also keeps the wearer from overheating due to the armour's internal heat generation.
-Additional air condition units layer over each other improving comfort and safety.
+Additional air conditioning units layer over each other improving comfort and safety.
 
 Alarm::
 The alarm system will alert the wearer of ambush or sneak attacks, especially while sleeping.
@@ -81,9 +85,9 @@ The alarm system has an AWE of 30 and a 25 hex radius.
 It will alert the wearer to any ambushes that it detects.
 
 Anti-Personnel::
-Anti-personnel prevents costly suits of powered armour from being overwhelmed by hordes of expendable fodder.
+Anti-personnel prevents costly suits of biomech armour from being overwhelmed by hordes of expendable fodder.
 The anti-personnel system blasts a two hex radius with an excruciatingly painful dose of electricity, flame, flash, shrapnel, or sound.
-Anything holding onto the powered armour must make a save versus mental attack or let go of the suit.
+Anything holding onto the biomech armour must make a save versus mental attack or let go of the suit.
 The anti-personnel system will also inflict 2 to 12 (2d6) hit points of damage to everything within range.
 The intensity of the painful repulsion attack is equal to the damage inflicted (2-12).
 The wearer can use the anti-personnel defence every other unit of combat.
@@ -95,6 +99,7 @@ In rare cases, compucammo can disguise itself amongst smells or vibrations.
 Compucammo assists the wearer in carrying out ambushes and is of no use during combat.
 For no practical reason at all, compucammo may change colour to reflect the wearer's mood.
 
+[discrete]
 === Compucammo Charisma Bonus
 .CHA + 1-3 (1d3)
 ****
@@ -114,10 +119,10 @@ The persona can use any attack while hovering.
 
 Internal System::
 An internalized system is less like an accessory and more like an entirely different roleplaying game.
-The internal system takes all the attributes of the powered armour and surgically inserts them within the persona's body.
+The internal system takes all the attributes of the biomech armour and surgically inserts them within the persona's body.
 The persona externally appears to be like any other persona.
 The similarities end as soon as she starts shooting lazers from her fingers and launching grenades from 'where ever.'
-Internalizing a suit of powered armour can only work if the referee permits this within her milieu and story.
+Internalizing a suit of biomech armour can only work if the referee permits this within her milieu and story.
 Many accessories are not possible when the suit converts from an exoskeleton to an internal system.
 
 Jump::
@@ -127,8 +132,8 @@ The player uses her persona's armour-adjusted STR to calculate the extended jump
 The jumps will take 0 to 3 units to complete, covering the desired distance while flying through the air.
 During the jump, the armour wearer will be able to use all weapons and devices at her disposal.
 
-Preprogrammed::
-With preprogramming, the suit's servo system links directly to the wearer's cerebellum.
+Neural Synched::
+With neural synchronization, the suit's servo system links directly to the wearer's cerebellum.
 This highly invasive connection allows the wearer to turn skills into automated neural programs.
 These neural programs override the wearer's motor control system and turn her complex maneuvers into reflexes.
 The preprogrammed skills must be entirely motor in execution.
@@ -153,36 +158,38 @@ Biologic hardening protects the wearer from uncombat environmental conditions.
 This hardening protects against toxic, infectious, and extreme environments.
 The wearer is unaffected by poison gases and biological attacks.
 This hardening does not protect against radiation or exatmo environments.
-This powered armour has a mini airlock that allows small items to transfer into the powered armour's protective environment.
+This biomech armour has a mini airlock that allows small items to transfer into the biomech armour's protective environment.
 
 Zero-G Maneuvers::
 Zog maneuver allows the persona to move about as if normal in the wateless three-dimensional terrain of zero gravity.
 
-== Head
-Head accessories are baked-in parts of powered armour's helmet.
+== Helmet
+Head accessories are baked-in parts of biomech armour's helmet.
 Any guns built into the helmet will fire from it, and communicators will be accessed directly by the persona. 
 There are standard equipment (communicators and visual aids) and random accessories for the helmet.
 
-.*Head Accessories List*
-* One communication
-* One visual aid
-* 0-3 (1d4-1) Random Accessories
+.*Helmet Accessories List*
+* One communication (automatic)
+* One visual aid (automatic)
+* 0-3 (1d4-1) additional helmet accessories
 
-include::ROOT:partial$CH42_Table_Powered_Head_Random_Accessory.adoc[]
+=== Helmet Accessories
+
+include::hardware:partial$biomech_accessories_helmet.adoc[]
 
 Communication:: 
-Head communications have a range of 10 kilometres and can only with other powered armour radios.
+Head communications have a range of 10 kilometres and can only with other biomech armour radios.
 The wearer cannot use head communications to jam signals or conduct any electronic countermeasures.
 Multiple communication systems represent redundancy and range extension.
 If this is a random accessory jump to xref:hardware:CH48_Misc_Equip.adoc#_communicators[Communicators,window=_blank].
 
 Aerosol::
-An aerosol attack can be spray from the powered armour's helmet.
+An aerosol attack can be spray from the biomech armour's helmet.
 There will be 1-12 (1d12) aerosol charges available.
 To determine the aerosol type jump to xref:hardware:aerosols.adoc#_generate_type[Aerosols,window=_blank].
 
 Grenade::
-The grenade can launch from the helmet of the powered armour.
+The grenade can launch from the helmet of the biomech armour.
 Launched grenades are a  Shoot  attack, with a range three times the grenade's thrown range.
 There will be 1-6 (1d6) grenades launchable from the head.
 To determine the grenade type jump to xref:hardware:CH45_Grenades.adoc#_grenade_type[Grenades,window=_blank].
@@ -197,61 +204,66 @@ Image Intensifier::
 The image intensifier enhances the wearer's external image.
 The image intensifier is an external speaker system that synchronizes with the flexible helmet mouldings.
 A crystal clear synthesized voice, digital overlays, and computerized body language produce an amplified image.
-This unique powered armour feature is usually in suits of armour used by commanders.
+This unique biomech armour feature is usually in suits of armour used by commanders.
 This system benefits the persona's CHA attribute by increasing it by 1-6 points.
 
+[discrete]
 === Image Intensifier Charisma Bonus
 .CHA + 1-6 (1d6)
 ****
-Wearer CHA = 9 + 1d6 = 9 +5 = 14
+persona CHA + 1-6 = 9 + 1d6 = 9 + 5 = 14 CHA when in suit
 ****
 
-Medical System:: 
+Biorepair System:: 
 The helmet medical system is a medical accessory that prioritizes
 the brain within the skull within the helmet.
 Optimized blood supply and cranial concussion protection keep the wearer's grey matter safe.
 This medical system increases the wearer's Constitution by 1-3 points.
 This Constitution increase does not increase the persona's hit points.
 
-=== Medical System Constitution Bonus
+[discrete]
+=== Biorepair Constitution Bonus
 .CON + 1-3 (1d3)
 ****
-Wearer CON = 15 + 1d3 = 15 + 3 = 18
+persona CON + 1-3 = 15 + 1d3 = 15 + 3 = 18 CON when in suit
 ****
 
-Miscellaneous Equipment::  
-Miscellaneous equipment is the most diverse random accessory found in the powered armour's helmet.
+Device::  
+Miscellaneous equipment is the most diverse random accessory found in the biomech armour's helmet.
 The only limitation is that the miscellaneous artifact is less than 10 kgs in wate.
-To determine the light piece of miscellaneous equipment jump to xref:hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank].
+To determine the light piece of miscellaneous equipment jump to xref:hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Device,window=_blank].
 
 Scope:: 
 The helmet has an integrated computer scope.
-If the powered armour has a helmet pistol, the scope will is automatically for that weapon.
+If the biomech armour has a helmet pistol, the scope will is automatically for that weapon.
 To determine the type of scope jump over to xref:hardware:CH48_Misc_Equip.adoc#_scopes[Scopes,window=_blank].
 
 Visual Aid:: 
-Vizauds (visual-auditory enhancers) are bespoke to powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to biomech armour.
 These devices enhance hearing, sight, touch and sense of smell.
 Multiple vizauds and systems represent redundancy and additional increases in Awareness.
-Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+Each vizaud that the biomech armour has installed increases the persona's AWE by 1-3 points.
 If this vizaud is a random accessory, jump to xref:hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
+[discrete]
 === Visual Aid Awareness Bonus
 .AWE + 1-3 (1d3)
 ****
-Wearer AWE = 15 + 1d3 = 15 + 3 = 18
+persona AWE + 1-3 = 15 + 1d3 = 15 + 3 = 18 AWE when in suit
 ****
 
 == Arms
 Arm accessories can be on the hand, arm or shoulder.
 Each arm has 1-3 (1d3) accessory points where the persona can mount accessories. 
-Accessory points can be left unfilled during powered armour generation.
+Accessory points can be left unfilled during biomech armour generation.
 
 .*Arm Accessory List*
 * 1-3 accessory points per arm
-* 30% chance of random accessory per accessory point
+* 10% chance of accessory point being filled
 
-include::ROOT:partial$CH42_Table_Powered_Upper_Limb_Random_Accessory.adoc[]
+=== Arm Accessories
+
+include::hardware:partial$biomech_accessories_arms.adoc[]
 
 Communication::
 Upper limb communicators have a range of 10 kilometres
@@ -265,7 +277,7 @@ Multiple detectors will increase range and offer redundancy.
 Generate the random detector by jumping to xref:hardware:CH48_Misc_Equip.adoc#_detectors[Detectors,window=_blank].
 
 Aerosol::
-There will be 1-12 (1d12) aerosol charges sprayable from powered armour's limb.
+There will be 1-12 (1d12) aerosol charges sprayable from biomech armour's limb.
 To determine the aerosol type jump to xref:hardware:aerosols.adoc#_generate_type[Aerosols,window=_blank].
 
 Grenade::
@@ -274,139 +286,144 @@ Launched grenades attack as Shoot weapons, with the range five times that of a t
 To determine the grenade type jump to xref:hardware:CH45_Grenades.adoc#_grenade_type[Grenades,window=_blank].
 
 Gun::  
-This gun fires from the powered armour's arm.
+This gun fires from the biomech armour's arm.
 If the gun has ammunition, it will have five times the regular magazine capacity. 
 Energy weapons have an unlimited power supply from the armour's power plant.
 To determine the pistol type jump to xref:hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
 Miscellaneous Equipment:: 
-Miscellaneous equipment is the most diverse accessory found in the powered armour's arm.
+Miscellaneous equipment is the most diverse accessory found in the biomech armour's arm.
 The only limitation is that the miscellaneous artifact is reusable and less than 20 kgs in wate.
 While hilarious, a single-use fire log would not be an appropriate limb accessory.
 To determine the miscellaneous equipment jump to xref:hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank].
 
 Accessory Point::
-The suit of powered armour has a bonus additional accessory point in its arm.
+The suit of biomech armour has a bonus additional accessory point in its arm.
 The person could fill the empty accessory point with a future artifact.
 The accessory point is not a pocket, and nothing can be stored within it.
 The wate of the equipment inserted cannot exceed 20 kgs.
 
-Veterinarian Equipment:: 
-This powered armour has a built-in veterinary artifact built into its arm.
-Veterinarian equipment is rolled in xref:hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment,window=_blank].
+Biorepair:: 
+This biomech armour has a built-in veterinary artifact built into its arm.
+Veterinarian equipment is rolled in xref:hardware:CH47_Medical.adoc#_veterinary_equipment_type[Biorepair,window=_blank].
 The artifact must be reusable (not a disposable vedi-kit), and it must have a wate less than 20 kgs.
 
 Visual Aid:: 
-Vizauds (visual-auditory enhancers) are bespoke to powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to biomech armour.
 These devices enhance hearing, sight, touch and sense of smell.
 A vizaud affixed to the hand would allow the wearer to look around corners.
 Multiple vizauds and systems represent redundancy and additional increases in Awareness.
-Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+Each vizaud that the biomech armour has installed increases the persona's AWE by 1-3 points.
 If this vizaud is a random accessory, jump to xref:hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
+[discrete]
 === Visual Aid Awareness Bonus
 .AWE + 1-3 (1d3)
 ****
-Wearer AWE = 11 + 1d3 = 11 + 3 = 14
+persona AWE + 1-3 = 15 + 1d3 = 15 + 3 = 18 AWE when in suit
 ****
 
-== Torso Accessories
-Torso accessories are part of the body portion of the armour.
-The 
-A torso computer may have its access via a keyboard on the chest.
-The powered armour torso includes one ventral (front) and dorsal (back) surface.
+== Body
+Body accessories are part of the body portion of the armour.
+A body computer may have its access via a keyboard on the chest.
+The biomech armour body includes one ventral (front) and dorsal (back) surface.
 
-A medium-sized anthro persona cannot have more than four accessory points on either the front or back of the powered armour torso.
-Extremely large personas, like an alien, may have more than two torso surfaces. 
+A medium-sized anthro persona cannot have more than four accessory points on either the front or back of the biomech armour body.
+Extremely large personas, like an alien, may have more than two body surfaces. 
 For example, there could be right and left flanks in addition to dorsal and ventral surfaces.
 
-.*Torso Accessory List*
+.*Body Accessory List*
 * 2 storage compartments 
 * 2-8 accessory points
-* 15% chance of random accessory per accessory point
+* 15% chance of accessory point being filled
 
-include::ROOT:partial$CH42_Table_Powered_Torso_Random_Accessory.adoc[]
+=== Body Accessories
+
+include::hardware:partial$biomech_accessories_body.adoc[]
 
 Artillery::
-This mechano-trooper has an artillery piece built into the torso of her powered armour.
+This mechano-trooper has an artillery piece built into the body of her biomech armour.
 An artillery piece occupies four accessory points and can be the only accessory on either the ventral or dorsal surface.
-If the torso has less than four accessory points, the artillery piece will be the only accessory on the torso. 
-No suit of powered armour can support more than one artillery piece.
-Firing the artillery cannot harm the wearer of the powered armour. 
+If the body has less than four accessory points, the artillery piece will be the only accessory on the body. 
+No suit of biomech armour can support more than one artillery piece.
+Firing the artillery cannot harm the wearer of the biomech armour. 
 To generate the artillery piece jump to xref:hardware:artillery.adoc#_artillery_type[Artillery,window=_blank].
 
 Bomb::
-This mechano-trooper has an artillery piece built into the torso of her powered armour.
-No suit of powered armour can support more than one bomb.
+This mechano-trooper has an artillery piece built into the body of her biomech armour.
+No suit of biomech armour can support more than one bomb.
 There is a 50% chance that a generic missile will deliver the bomb with a 100 km range.
-If there is no missile to launch the bomb, it is a self-destruct for the powered armour.
+If there is no missile to launch the bomb, it is a self-destruct for the biomech armour.
 If the bomb does not have a missile, the persona gets a 1-3 (1d3) increase to their Mind. To generate the bomb type jump to xref:hardware:CH44_Bombs.adoc#_bomb_type[Bombs].
 
+[discrete]
 === Walking Bomb Mind Bonus
 .MND + 1-3 (1d3)
 ****
-Wearer MND = 8 + 1d3 = 8 + 2 = 10
+Persona MND + 1-3 = 8 + 1d3 = 8 + 2 = 10 MND when in suit
 ****
 
 Communication::
-The communicator in the torso is a comprehensive comms device.
-The torso communicator has a range of 500 kilometres, encrypted channels, and three additional particular use channels.
+The communicator in the body is a comprehensive comms device.
+The body communicator has a range of 500 kilometres, encrypted channels, and three additional particular use channels.
 There is one data channel that can communicate computer/robot/AI data.
 There is one line of site lazer channel that interlopers must physically intercept as well as decrypt.
 There is one jamming signal that can keep other communicators from working. 
-A suit of powered armour can only have one comprehensive comms device.
-For further communication acccessories jump to xref:hardware:CH48_Misc_Equip.adoc#_communicators[Communicators,window=_blank].
+A suit of biomech armour can only have one comprehensive comms device.
+For further communication accessories jump to xref:hardware:CH48_Misc_Equip.adoc#_communicators[Communicators,window=_blank].
 
 Computer Equipment::
-Computer equipment is built into and powered by the powered armour. 
+Computer equipment is built into and powered by the biomech armour. 
 The persona must interact with computer equipment via the suit itself.
 For example, there may be a keyboard or a video screen.
 The computer can be anything from a vocation computer to an evil autonomous Intelligence.
 To generate the computer equipment jump to xref:hardware:CH48_Misc_Equip.adoc#_computers[Computers,window=_blank].
 
 Computer System::
-The computer system integrates fully with the powered armour wearer.
+The computer system integrates fully with the biomech armour wearer.
 The computer system enhances the wearer's memory and cognition.
 The computer is not an independent entity but an extension of the persona's Intelligence.
 A computer system increases the persona's Intelligence by 1-3 points.
 Increasing the persona's Intelligence with a computer system does not affect the persona's Mind.
 A persona will never voluntarily exit a suit with a computer system.
 
+[discrete]
 === Computer System Intelligence Bonus
 .INT + 1-4 (1d4)
 ****
-Wearer INT = 16 + 1d4 = 16 + 2 = 18
+persona INT + 1-4 = 16 + 1d4 = 16 + 2 = 18 INT when wearing suit
 ****
 
 Gun::  
-There is a rifle built into the powered armour's torso.
-The rifle can be baked into the torso or on an articulated rifle mount.
+There is a rifle built into the biomech armour's body.
+The rifle can be baked into the body or on an articulated rifle mount.
 The rifle can fire in direction regardless of the wearer's direction of travel.
 If the gun has ammunition, it will have ten times the regular magazine capacity. 
 Energy weapons have an unlimited power supply from the armour's power plant.
 To determine the rifle type jump to xref:hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
-Medical System::
-The torso medical system is a medical accessory that prioritizes
-the cardiorespiratory organs of the wearer.
+Biomedical System::
+The body medical system is a medical accessory that prioritizes
+the cardio respiratory organs of the wearer.
 Optimized blood supply and thoracic concussion protection keep the wearer's viscera safe.
 This medical system increases the wearer's Constitution by 1-6 points.
 This Constitution increase does not increase the persona's hit points.
 
-=== Medical System Constitution Bonus
-.CON + 1-6 (1d6)
+[discrete]
+=== Biomedical Constitution Bonus
+.CON + 1-3 (1d3)
 ****
-Wearer CON = 15 + 1d6 = 15 + 3 = 18
+persona CON + 1-3 = 15 + 1d3 = 15 + 3 = 18 CON when in suit
 ****
 
-Miscellaneous Equipment:: 
-Miscellaneous equipment is the most diverse accessory found on the powered armour.
+Device:: 
+Miscellaneous equipment is the most diverse accessory found on the biomech armour.
 The only limitation is that the miscellaneous artifact is not disposable.
-There is no wate restriction on miscellaneous equipment on the torso of powered armour.
+There is no wate restriction on miscellaneous equipment on the body of biomech armour.
 To determine the miscellaneous equipment jump to xref:hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank].
 
 Accessory Point::
-The suit of powered armour has a bonus additional accessory point on its torso.
+The suit of biomech armour has a bonus additional accessory point on its body.
 The persona could fill the empty accessory point with a future artifact.
 The accessory point is not a pocket and cannot store anything.
 The wate of the equipment inserted cannot exceed 50 kgs.
@@ -417,23 +434,24 @@ The capacity of the compartment is equivalent to twice the wearer's wate allowan
 Items kept in storage have no bearing on the wearer's encumbrance.
 xref:uncombat:encumbrance.adoc[Encumbrance,window=_blank]
 
-Veterinarian Equipment:: 
-This powered armour has a built-in veterinary artifact built into its torso.
+Biorepair Equipment:: 
+This biomech armour has a built-in veterinary artifact built into its body.
 Veterinarian equipment is rolled in xref:hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment,window=_blank].
 The artifact must be reusable (not a disposable vedi-kit), and it must have a wate *greater than* 25 kgs.
 
 Visual Aid:: 
-Vizauds (visual-auditory enhancers) are bespoke to powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to biomech armour.
 These devices enhance hearing, sight, touch and sense of smell.
 A dorsally located vizaud could allow the wearer to look backwards.
 Multiple vizauds and systems represent redundancy and additional increases in Awareness.
-Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+Each vizaud that the biomech armour has installed increases the persona's AWE by 1-3 points.
 If this vizaud is a random accessory, jump to xref:hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
+[discrete]
 === Visual Aid Awareness Bonus
 .AWE + 1-3 (1d3)
 ****
-Wearer AWE = 4+ 1d3 = 4 + 2 = 6
+persona AWE + 1-3 = 15 + 1d3 = 15 + 3 = 18 AWE when in suit
 ****
 
 == Legs
@@ -442,9 +460,11 @@ Lower limb accessories are on the thigh, calf or foot.
 .*Leg Accessory List*
 * 2 accessory points per limb
 * 2 storage compartments
-* 20% chance of a random accessory per accessory point
+* 20% chance of an accessory point being filled
 
-include::ROOT:partial$CH42_Table_Powered_Lower_Limb_Accessories.adoc[]
+=== Leg Accessories
+
+include::hardware:partial$biomech_accessories_legs.adoc[]
 
 Detector::
 The detector may have read-outs on the armour's foot or inside the helmet.
@@ -452,7 +472,7 @@ Multiple detectors will increase range and offer redundancy.
 Generate the random detector by jumping to xref:hardware:CH48_Misc_Equip.adoc#_detectors[Detectors,window=_blank].
 
 Aerosol::
-There will be 1-12 (1d12) aerosol charges sprayable from powered armour's leg.
+There will be 1-12 (1d12) aerosol charges sprayable from biomech armour's leg.
 To determine the aerosol type jump to xref:hardware:aerosols.adoc#_generate_type[Aerosols,window=_blank].
 
 Grenade::
@@ -462,26 +482,26 @@ Often players will have the grenade launch be a kicking action.
 To determine the grenade type jump to xref:hardware:CH45_Grenades.adoc#_grenade_type[Grenades,window=_blank].
 
 Gun::  
-This gun fires from the powered armour's leg.
+This gun fires from the biomech armour's leg.
 If the gun has ammunition, it will have five times the regular magazine capacity. 
 Energy weapons have an unlimited power supply from the armour's power plant.
 To determine the gun type jump to xref:hardware:CH46_Guns.adoc#_gun_type[Guns,window=_blank].
 
 Motorized::
-This leg accessory allows the suit of powered armour to move at incredible speed by diverting resources to the legs.
+This leg accessory allows the suit of biomech armour to move at incredible speed by diverting resources to the legs.
 The persona can only move when the motorized movement is activated.
-A suit of powered armour can only have one motorized movement system installed.
+A suit of biomech armour can only have one motorized movement system installed.
 Motorized movement allows the exoskeleton to run away at triple xref:anthros:movement_rate.adoc[Movement Rate,window=_blank] rate and not less than 15 hexes per unit.
 
 Accessory Point::
-The suit of powered armour has a bonus additional accessory point in its leg.
+The suit of biomech armour has a bonus additional accessory point in its leg.
 The person could fill the empty accessory point with a future artifact.
 The accessory point is not a pocket, and nothing can be stored within it.
 The wate of the equipment inserted cannot exceed 30 kgs.
 
 Scope:: 
 The leg has an integrated computer scope.
-If the powered armour has a leg gun, the scope will is automatically for that weapon.
+If the biomech armour has a leg gun, the scope will is automatically for that weapon.
 To determine the type of scope jump over to xref:hardware:CH48_Misc_Equip.adoc#_scopes[Scopes,window=_blank].
 
 Storage::
@@ -491,36 +511,27 @@ Items kept in storage have no bearing on the wearer's encumbrance.
 xref:uncombat:encumbrance.adoc[Encumbrance,window=_blank]
 
 Visual Aid:: 
-Vizauds (visual-auditory enhancers) are bespoke to powered armour.
+Vizauds (visual-auditory enhancers) are bespoke to biomech armour.
 These devices enhance hearing, sight, touch and sense of smell.
 Multiple vizauds and systems represent redundancy and additional increases in Awareness.
-Each vizaud that the powered armour has installed increases the persona's AWE by 1-3 points.
+Each vizaud that the biomech armour has installed increases the persona's AWE by 1-3 points.
 If this vizaud is a random accessory, jump to xref:hardware:CH48_Misc_Equip.adoc#_visual_aids[Visual Aids,window=_blank].
 
-=== Visual Aid Awareness Bonus
-.AWE + 1-3 (1d3)
-****
-Wearer AWE = 15 + 1d3 = 15 + 3 = 18
-****
-
-== Further Issues
-Straggly bits of info about powered armour.
-
-== Addressing the Dressing
-Powered armour should fit into the referee's milieu and story.
+== Suiting Up
+Biomech armour should fit into the referee's milieu and story.
 The armour may be the pinnacle accomplishment of an institutional medico-military laboratory run by a government or corporation.
 The armour may be standard issue general motorized infantry gear.
 
 The persona may have always had the armour on, not remembering life without it.
-The powered armour may be patiently waiting for someone to step into its savage but convenient auto dresser.
-The powered armour may require multiple life-threatening neurosurgical interventions spread over numerous missions.
+The biomech armour may be patiently waiting for someone to step into its savage but convenient auto dresser.
+The biomech armour may require multiple life-threatening neurosurgical interventions spread over numerous missions.
 
-Undressing powered armour is a difficult task as well.
+Undressing biomech armour is a difficult task as well.
 The persona is shedding several hundred kilograms of metal, removing direct neural links, and faces a body atrophied by servo dependence.
-Some powered armour accessory prevents the persona from ever wanting to leave their combat cacoon.
+Some biomech armour accessory prevents the persona from ever wanting to leave their combat cocoon.
 
 When fully powered, the exoskeleton has a restrictiveness of one (unrestricted).
-When unpowered, the wearer is trapped in a tight-fitting coffin.
+When powered down, the wearer is trapped in a tight-fitting coffin.
 
 :art: anthro_aquarian_beluga.png
 :width: 450px
@@ -532,41 +543,39 @@ When unpowered, the wearer is trapped in a tight-fitting coffin.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Strange Persona Shapes
-The powered armour in this section is for medium-sized anthros with two arms and two legs.
-Many personas do not meet these anthropocentric criteria.
+== Shapes
 
 === Aliens
-A 6-tonne alien suited in powered armour would be a formidable opponent indeed.
+A 6-tonne alien suited in biomech armour would be a formidable opponent indeed.
 If the referee is willing to follow this crazy path, she must keep in mind that a campaign could easily be imbalanced by such a powerful opponent or ally.
 
-Alien species that are at the tool use level of creator can have powered armour.
-The shape of the powered armour would match the shape of the alien inside.
+Alien species that are at the tool use level of creator can have biomech armour.
+The shape of the biomech armour would match the shape of the alien inside.
 If the alien shape indicates, they may have more than two arms to armour up.
-If the alien is gigantic, they may have two flanks and ventral and dorsal torso parts.
+If the alien is gigantic, they may have two flanks and ventral and dorsal body parts.
 
 === Robots
-The powered armour would be an outer layer of the robot.
+The biomech armour would be an outer layer of the robot.
 All the enhancements that any persona would benefit from would aid the robot as well.
 Any robot peripherals or systems have to adapt to an empty accessory point.
-A robot may shed its powered armour layer like any other persona.
+A robot may shed its biomech armour layer like any other persona.
 
-=== Mutants
-Strangely shaped mutants are extremely unlikely to have a powered armour that fits them.
+=== Anthros
+Strangely shaped mutants are extremely unlikely to find biomech armour that fits them.
 Mutants are unique anomalies, unlike aliens, which are part of an entire species.
 
-== Combat Multitasking 
-Combat is made more complex by powered armour. 
+== Combat
+Combat is made more complex by biomech armour. 
 The player can deploy every combat accessory in every unit of combat. 
 The persona that she can fire all her weapons, check her radar, and launch a nuclear device in two seconds.
-This multitasking only applies to combat weapons built into the powered armour. 
+This multitasking only applies to combat weapons built into the biomech armour. 
 Multitasking does not apply to vocation skills, vet equipment, detectors, or specialized comms. 
 
-== Powering Powered Armour 
-Powered armour will not suddenly run out of power.
+== Power Source 
+Biomech armour will not suddenly run out of power.
 There will be lots of indicators and indications that the suit is running low.
-Having personas with powered armour constantly seeking power can be a challenging limitation to the powerful artifact.
-Powered armour has a power plant similar to that of robots.
+Having personas with biomech armour constantly seeking power can be a challenging limitation to the powerful artifact.
+Biomech armour has a power plant similar to that of robots.
 The Robot Power Plant Table is listed here for convenience.
 
 include::robots:partial$power_cell_types.adoc[]
@@ -574,12 +583,21 @@ include::robots:partial$power_cell_types.adoc[]
 When the exoskeleton is powered up, there is no noticeable restrictiveness.
 When the exoskeleton is powered down, the persona is trapped in a shapely coffin.
 
-== Accessory Value
-The base value of a suit of powered armour is 10000000 eps (ten million).
+== Suit Value
+The base value of a suit of biomech armour is 10000000 eps (ten million).
 The value increases with the addition of accessories.
 Accessory artifacts are worth ten times their typical values (due to defence contract budgeting).
-The value of these accessory artifacts increases the value of the powered armour.
-The value of armour-specific accessories also increases the value of the powered armour.
+The value of these accessory artifacts increases the value of the biomech armour.
+The value of armour-specific accessories also increases the value of the biomech armour.
 The value of these accessories is listed below.
 
-include::ROOT:partial$CH42_Table_Powered_Value_of_Powered_Armour.adoc[]
+include::hardware:partial$biomech_suit_value.adoc[]
+
+:art: rat_in_the_skull_head.png
+:width: 350px
+:snark: No one knows you're a rat.
+:artist: Ed Emshwiller
+:date: 1958
+:license: CC BY-SA 4.0
+:description: Rat inside robot head with controls and levers.
+include::ROOT:partial$articulate.adoc[]
