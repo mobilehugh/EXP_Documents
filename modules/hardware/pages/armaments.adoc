@@ -1,16 +1,4 @@
-= Miscellaneous Weapons
-
-Miscellaneous weapons are unique technomagical artifacts that do not fit into typical weapon types.
-These weapons have bizarre twists that make them different from the regular bizarre weapons.
-Miscellaneous weapons are killing devices, and they are used to deliver injury and death.
-
-.*Miscellaneous Weapon Checklist*
-. <<_miscellaneous_weapon_type,Miscellaneous Weapon Type>>
-. <<_miscellaneous_weapon_parameters,Miscellaneous Weapon Parameters>>
-
-== Miscellaneous Weapon Type
-
-include::ROOT:partial$CH49_Table_Miscellaneous_Weapon_Type.adoc[]
+= Armaments
 
 :art: arm_of_ephro.png
 :width: 350px
@@ -18,10 +6,76 @@ include::ROOT:partial$CH49_Table_Miscellaneous_Weapon_Type.adoc[]
 :artist: Hugh   
 :date: 1991     
 :license: CC BY-SA 4.0
-:description: Drawing of a flying stick with serrated disks on both ends.
-
+:description: A flying stick with serrated disks on both ends.
 include::ROOT:partial$articulate.adoc[]
 
+Armaments are miscellaneous weapons with unique technomagical properties that do not fit into typical weapon types.
+These weapons have bizarre twists that make them different from the regular bizarre weapons.
+Miscellaneous weapons are killing devices, and they are used to deliver damage and destruction.
+
+.*Armament Checklist*
+. <<_generate_type, Armament Type>>
+. <<_attack_type, Attack Type>>
+. <<_number,Number>>
+. <<_description, Description>>
+. <<_parameters,Parameters>>
+
+== Generate Type
+
+include::hardware:partial$list_of_armaments.adoc[]
+
+== Armament Data
+
+=== Attack Type
+Armaments have many different attack types. 
+An armament could be an area of effect weapon or a striking weapon
+The refers to the attack type of the miscellaneous weapon.
+Jump here for the gory details of xref:combat:attack_types.adoc[Attack Types,window=_blank]
+
+=== Number
+Armaments are usually single weapons.
+If more than one unit is possible it is described in the armament description.
+
+=== Description
+Armaments usually have distinct descriptions based on their use case. 
+To modify a toys' description jump to xref:software:CH44_Appearances.adoc[Appearances,window=_blank].
+
+=== Parameters
+The details for the roll playing system and tactical combat.
+
+==== Range 
+The range is how far the weapon can shoot and retain its accuracy. 
+The range is a hardware limitation and does not reflect the skills of the persona in any way. 
+The weapon's range is limited by wavering bullets, dissipating charges, or decaying material.
+
+The range lists a number and a negative number in brackets, 120h (-230). The first number is the range in hexes where there are no range penalties. The number in brackets is the per hex penalty for targets beyond the weapons range (first number).
+
+A weapon has the following range parameters 120h (-230). 
+The persona can shoot any target within 120 hexes with no penalties. 
+A target 121 hexes away has a -230 attack roll penalty. A target 123 hexes away has a -690 attack roll penalty.
+The range parameters of 100h (-1000) indicate a weapon with a maximum range of 100 hexes and no further.
+Past versions of EXP called the number in brackets the decay value of the weapon.
+
+==== Damage 
+The damage is the range of hit points the target loses when the player wins an attack roll.
+Shoot weapons get no STR Force Bonus.
+
+==== Duration 
+Duration is the amount of use that the miscellaneous weapon can withstand before it depletes its battery charge.
+The duration parameter can show units, the number of charges, or other metrics indicating when the device needs recharging, reloading, etc.
+
+==== Wate 
+The wate is simply the wate of the weapon in kilograms, excluding batteries.
+This value is added to the persona's wate allowance if she decides to carry the weapon.
+
+==== EXPS 
+The persona wins this experience point award for identifying the miscellaneous weapon.
+The player may identify the weapon by deduction or activation.
+
+==== Value 
+The value indicates the MSRP (Money Suggested for RolePlaying) of the miscellaneous weapon in eps. 
+
+== Catalogue
 
 === Arm of Ephro 
 [horizontal]
@@ -46,17 +100,6 @@ The arm attacks twice per unit, has an AR of 900, and can move at ten h/u (via a
 Unlike other robots, this one is destroyed when it reaches 0 HPS,
 The arm of ephro will start with 10-100 (10d10) Hit Points.
 
-:art: blackhole_oops.png
-:width: 350px
-:snark: Small but mighty
-:artist: Patrick Redding    
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of people and machines being violently pulled into a singularity.
-
-include::ROOT:partial$articulate.adoc[]
-
-
 === Black Hole 
 [horizontal]
 Type:: Special
@@ -75,9 +118,18 @@ While this process is not instantaneous, it cannot be stopped and is absolutely 
 Anything lost to a black hole is lost from both time and space and can never be retrieved.
 Pretty serious stuff.
 
+:art: blackhole_oops.png
+:width: 350px
+:snark: Small but mighty
+:artist: Patrick Redding    
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Drawing of people and machines into a singularity.
+include::ROOT:partial$articulate.adoc[]
+
 An activated black hole does not suck the air out of a room. 
 An activated black hole does pull everything within light-years towards it.
-An activated blackholed does not generate darkness beyond its one hex radius.
+An activated black hole does not generate darkness beyond its one hex radius.
 There is some debate whether this weapon is a black hole at all. 
 Maybe it is a tiny black hole?
 Maybe it is a field gravity anomaly that behaves like a black hole?
@@ -125,16 +177,6 @@ It has a steel nib and an inkwell and writes very nicely.
 However, drawing back the pocket clip ignites the ink, firing the steel nib as a lethal projectile.
 This pen is mightier than a sword.
 
-:art: compucrafted_dagger.png
-:width: 350px
-:snark: More comp more stabby.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Stylized futuristic looking dagger.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Compucrafted Weapon 
 [horizontal]
 Type:: Strike or Fling
@@ -147,7 +189,17 @@ Value:: Special
 
 The compucrafted weapon is a new and improved version of a mundane weapon type.
 Compucrafted weapons are better balanced, better engineered, and use better materials, 
-The compucrafted equivalent of a mundane weapon is easier to use and more dangerous. 
+The compucrafted equivalent of a mundane weapon is easier to use and more dangerous.
+
+:art: compucrafted_dagger.png
+:width: 350px
+:snark: More comp more stabby.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Stylized futuristic looking dagger.
+include::ROOT:partial$articulate.adoc[]
+
 Compucrafted weapons have an attack roll bonus of +3-300 (3d100) and a damage bonus of +1-8 (1d8).
 Thus a compucrafted sword could have an attack roll bonus of +120 and a Force Bonus bonus of +5.
 The compucrafted weapon's wate is half the mundane weapon's wate. 
@@ -155,7 +207,7 @@ The wate alteration has no adverse effect on the weapon.
 It is still a more potent killing device.
 The compucrafted weapon's value is equal to its mundane cost multiplied by its attack roll bonus.
 
-include::ROOT:partial$CH49_Table_Compucrafted.adoc[]
+include::hardware:partial$compucrafted_weapon.adoc[]
 
 === Comm Blaster 
 [horizontal]
@@ -205,15 +257,7 @@ A successful hit will simply cut something off.
 The damage incurred by inorganic targets should be at least catastrophic.
 A cutting lazer will inflict 100 to 600 (10d6 times 10) HPS of damage to robots per successful hit.
 
-:art: displacement_gloves.png
-:width: 350px
-:snark: Force field sucker punch
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of human face eating a force field knuckly sandwich.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Displacement Gloves 
 [horizontal]
@@ -225,21 +269,20 @@ Wate:: 0.4 kg
 EXPS:: 240
 Value:: 600
 
+:art: displacement_gloves.png
+:width: 350px
+:snark: Force field sucker punch
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Humanoid face eating a force field knuckly sandwich.
+include::ROOT:partial$articulate.adoc[]
+
 The principle of displacement gloves is straightforward.
 A force field projects the damaging force ahead of the incoming fist.
 The displacement gloves alter the range of the striking force after each attack, making it difficult for the target to get familiar with the device.
 There is a +150 attack roll bonus for punches offered.
 The bonus is primarily due to the target's confusion rather than increased combat skill.
-
-:art: electro_staff.png
-:width: 250px   
-:snark: Electro staff discharging
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Old timey staff weapon with electricity pulsing off it's business end.
-
-include::ROOT:partial$articulate.adoc[]
 
 === Electro Weapon
 [horizontal]
@@ -251,12 +294,21 @@ Wate:: Plus 0.3 kg
 EXPS:: 500
 Value:: Plus 900
 
+:art: electro_staff.png
+:width: 250px   
+:snark: Electro staff discharging
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Old timey staff weapon with electricity pulsing off it's business end.
+include::ROOT:partial$articulate.adoc[]
+
 Electro weapons are non-powered weapons with an added electrical charge.
 Electro weapons are also called zappers.
 The electro weapon attacks the same as its base weapon type, but the electro weapon has an added kick of +2 to 16 hit points of shock damage.
 When the battery charge runs out, an electro weapon still works as a mundane weapon.
 
-include::ROOT:partial$CH49_Table_Electro.adoc[]
+include::hardware:partial$electro_weapons.adoc[]
 
 === Expando Dagger 
 [horizontal]
@@ -346,15 +398,7 @@ The nature of the damage is up to the referee as well.
 There may be a wall of tiny pebbles hurtling at terminal velocity, a massive beam of destruction from the sky, a missile strike, or something odder.
 Once a giant anvil labelled 16 tonnes crashed onto the geo disk. 
 
-:art: grapple_whip.png
-:width: 300px
-:snark: Whip and hold.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Classic looking black whip composed of woven leather.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Grapple Whip 
 [horizontal]
@@ -370,6 +414,15 @@ A grapple whip can be used as a regular whip-cracking damage out with a snap.
 With an added twist, the grapple whip will tangle itself around the target.
 The player must win an attack roll to grapple a target.
 The grapple whip leaps from the attacker's grasp and starts to crush the grappled target.
+
+:art: grapple_whip.png
+:width: 300px
+:snark: Whip and hold.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Classic looking black whip composed of woven leather.
+include::ROOT:partial$articulate.adoc[]
 
 The crushing and cutting of the grapple whip inflicts 4-24 (4d6) hit points of damage each unit.
 The grapple whip will continue to grapple, crush and cut until it finds itself.
@@ -400,15 +453,7 @@ The grenade wate requirement becomes less stringent as the grenade launcher incr
 The grenades load unarmed, and they auto-trigger and detonate upon firing.
 This weapon is pump-activated and requires batteries to function.
 
-:art: inertia_axe.png
-:width: 250px
-:snark: Power assisted chopping device.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Axe with articulated and powered handle.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Inertia Weapon
 [horizontal]
@@ -424,11 +469,20 @@ Inertia weapons technomagically increase their inertia the moment they contact a
 While this increase in wate and force increases damage, it does not improve on attack rolls.
 The damage delivered is three times the mundane weapons damage plus ten hit points. 
 
+:art: inertia_axe.png
+:width: 250px
+:snark: Power assisted chopping device.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Axe with articulated and powered handle.
+include::ROOT:partial$articulate.adoc[]
+
 For example, a sword that inflicts 1-8 (1d8) hit points in damage would inflict 3-24 (3d8).
 Then ten additional hit points plus the persona's Force Bonus are added to the total damage.
 An inertia weapon that has no power functions the same as its mundane base weapon.
 
-include::ROOT:partial$CH49_Table_Inertia.adoc[]
+include::hardware:partial$inertia_weapons.adoc[]
 
 === Lazer Bolo 
 [horizontal]
@@ -452,8 +506,6 @@ The bolo can explode on any sized target but can only trip up medium, small and 
 If the bolo does not explode and does not tangle the target, it snaps back into a ball and must cool for three units.
 On occasion, a bolo fight emerges where the same bolo flies back and forth.
 
-
-
 === Lite Sabre
 [horizontal]
 Type:: Strike (no Force Bonus)
@@ -468,7 +520,7 @@ A lite sabre is an energy sword that retracts into its hilt.
 There are three different types of lite sabre, each having its damage, duration, and value.
 The three types of lite swords refer to the composition of the energy blade of the weapon. 
 
-include::ROOT:partial$CH49_Table_Lite_Sabre_Type.adoc[]
+include::hardware:partial$lite_sabre_types.adoc[]
 
 If you need a random colour for the lite sabre then jump to xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
 
@@ -479,7 +531,6 @@ If you need a random colour for the lite sabre then jump to xref:software:CH55_A
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Young woman with electrified baseball bat in full swing.
-
 include::ROOT:partial$articulate.adoc[]
 
 ==== Clear
@@ -589,18 +640,7 @@ Until the boosters kick in, the weapons are indistinguishable from their mundane
 The boosters are activated when launched, and the rocket weapon screams into action.
 Rocket-assisted weapons are initially self-powered, but the booster rockets triple their range and increase their damage (15 + 2 times damage).
 
-Jump to mundane formerly non-power projectile weapon list xref:hardware:CH49_Misc_Weapons.adoc#_type_b_weapons[here,window=_blank].
-
-:art: rocket_launcher_shells..png
-:width: 350px
-:snark: Not your NASA rockets
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a tube with a trigger and some stylized rocket ammunition.
-
-include::ROOT:partial$articulate.adoc[]
-
+To determine what kind of mundane projectile is rocket powered jump to <<_fling_weapons,Fling Weapons>>.
 
 === Rocket Launcher 
 [horizontal]
@@ -617,6 +657,15 @@ The missile's warhead explodes like a shrapnel grenade with a two hex radius of 
 Like all other area of effect weapons, the firer targets a hex.
 The target hex has an Defence Rating of 600, and a miss uses the grenade miss table.
 The typical grenade area of effect carnage follows.
+
+:art: rocket_launcher_shells..png
+:width: 350px
+:snark: Not your NASA rockets
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: A simple tube with a trigger and some stylized rocket ammunition.
+include::ROOT:partial$articulate.adoc[]
 
 If the player targets a single unlucky persona, she must win an attack roll against the target's Defence Rating.
 There is no area of effect blast, but the target takes triple damage.
@@ -639,7 +688,7 @@ Add the value of the grenade to the value of the rocket launcher.
 There is a 42% chance the rocket launcher has an exotic delivery method.
 The exotic missile type replaces the standard expanding gas delivery method.
 
-include::ROOT:partial$CH49_Table_Special_Rocket_Type.adoc[]
+include::hardware:partial$rocket_launcher_specials.adoc[]
 
 Auto strike::
 A computerized targeting sight allows the firer to attack solitary targets with ease.
@@ -671,7 +720,7 @@ Each decoy increases the value of the rocket launcher by 100000.
 Delay::
 The persona uses the targeting system to identify the target hex and pulls the trigger.
 When fired, the missile slowly exits the tube and heads off in a random direction.
-The rocket takes a leisurely and uninterceptable course to the target.
+The rocket takes a leisurely course to the target.
 This rocket cannot follow moving targets and only works for hexagons and buildings. 
 The rocket arrives 2-20 (2d10) units after being launched.
 An attack roll is still required to hit the target hex.
@@ -681,7 +730,7 @@ Memory::
 The persona uses the targeting system to identify the target and pulls the trigger.
 The missile will remember this location or persona and immediately starts tracking the target.
 A memory missile can arrive much later. 
-The rocket can travel up to 100 kilometres or ten days to find and detonate on its target.
+The rocket can travel up to 100 klicks or ten days to find and detonate on its target.
 The rocket can go around corners, maneuver stairs, and even wait for an elevator.
 The rocket cannot navigate off-planet or public transit.
 An attack roll is still required when the rocket lands. 
@@ -701,17 +750,6 @@ The missile can also lock onto a vehicle chasing it down at supersonic speed.
 The missile will take 0-3 units to catch up with a targeted vehicle.
 A successful attack roll is still required. 
 Vehicle compensations increase the value of the rocket launcher by 200000.
-
-:art: spinning_wheel_of_death.png
-:width: 350px
-:snark: Not spinning Not deadly
-:artist: Peggy Lynn MacIsaac
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Giant serrated device sitting on table with built in crank. 
-
-include::ROOT:partial$articulate.adoc[]
-
 
 
 === Spinning Wheel of Death 
@@ -736,6 +774,15 @@ The wheel does not discern between player personas and referee personas.
 If there is and paucity of targets, the wheel could come back for the persona that launched it.
 Once the wheel makes its decision, it hurtles in for the kill.
 The device employs callous AI, as well as thermal and motion detectors. 
+
+:art: spinning_wheel_of_death.png
+:width: 350px
+:snark: Not spinning Not deadly
+:artist: Peggy Lynn MacIsaac
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Giant serrated device sitting on table with built in crank. 
+include::ROOT:partial$articulate.adoc[]
 
 The wheel automatically hits less important referee personas.
 The SWOD automatically wins its attack roll against flora, fauna, and cannon fodder.
@@ -775,7 +822,7 @@ For example, instead of taking 13 hit points in damage, the target is hit with a
 Failing the saving roll leaves the target stunned for 1-4 (1d4) minutes. 
 Inorganic personas take damage from the electrical nature of the attack but cannot be stunned.
 
-include::ROOT:partial$CH49_Table_Stun.adoc[]
+include::hardware:partial$stun_weapons.adoc[]
 
 ==== Gauntlets
 The stun gauntlets appear as bulky electronic gloves.
@@ -836,7 +883,7 @@ Wate:: 4 kg
 EXPS:: 475 
 Value:: 542000
 
-The temporal disrupter is a chrono accelerator that instantly ages targets.
+The temporal disrupter is a chrono-accelerator that instantly ages targets.
 A successful attack roll inflicts 3-36 (3d12) hit points of damage and ages the persona one year per point of damage.
 The ageing effect is instantaneous and permanent.
 
@@ -881,16 +928,6 @@ Violent removal of the toss garotte requires 30 hit points of damage.
 The target suffers the damage as well.
 If a toss garotte kills a persona during strangulation, it has accidentally decapitated the target.
 
-:art: nass_bruckles .png
-:width: 350px
-:snark: Worse than a knuckle sandwich.
-:artist: JEShields
-:date: 2014
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: High tech brass knuckles with a screen and wires.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Vibro Weapon
 [horizontal]
 Type:: Strike 
@@ -901,12 +938,20 @@ Wate:: +1.3kg
 EXPS:: 500
 Value:: 5000
 
+:art: nass_bruckles .png
+:width: 350px
+:snark: Worse than a knuckle sandwich.
+:artist: JEShields
+:date: 2014
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: High tech brass knuckles with a screen and wires.
+include::ROOT:partial$articulate.adoc[]
+
 Vibro weapons are non-powered thrusting and striking weapons that amplify their deadliness by vibrating at hypersonic speeds.
 The vibration aids the weapons attack roll and damage roll. 
 Vibro weapons earn +100 on an attack roll and get +20 hit points to a damage roll.
 
-Jump to the xref:hardware:CH49_Misc_Weapons.adoc#_type_a_weapons[Strike Weapon,window=_blank] to see which mundane weapon is being vibrated.
-
+Jump to the |<<_strike_weapons,Strike Weapon>> to see which mundane weapon is being vibrated.
 
 === Web Gun 
 [horizontal]
@@ -950,55 +995,14 @@ The whammer returns 0-3 (1d4-1) units after each attack.
 The throwing action charges the whammer, and it requires no batteries.
 Any target trying to catch the whammer automatically gets takes damage.
 
-== Miscellaneous Weapon Parameters
 
-=== Type 
-The refers to the attack type of the miscellaneous weapon.
-Jump here for the gory details of xref:combat:attack_types.adoc[Attack Types,window=_blank]
-
-include::combat:partial$attack_types_details.adoc[]
-
-=== Range 
-The range is how far the weapon can shoot and retain its accuracy. 
-The range is a hardware limitation and does not reflect the skills of the persona in any way. 
-The weapon's range is limited by wavering bullets, dissipating charges, or decaying material.
-
-The range lists a number and a negative number in brackets, 120h (-230). The first number is the range in hexes where there are no range penalties. The number in brackets is the per hex penalty for targets beyond the weapons range (first number).
-
-A weapon has the following range parameters 120h (-230). 
-The persona can shoot any target within 120 hexes with no penalties. 
-A target 121 hexes away has a -230 attack roll penalty. A target 123 hexes away has a -690 attack roll penalty.
-
-The range parameters of 100h (-1000) indicate a weapon with a maximum range of 100 hexes and no further.
-
-Past versions of EXP called the number in brackets the decay value of the weapon.
-
-=== Damage 
-The damage is the range of hit points the target loses when the player wins an attack roll.
-Shoot weapons get no STR Force Bonus.
-
-=== Duration 
-Duration is the amount of use that the miscellaneous weapon can withstand before it depletes its battery charge.
-The duration parameter can show units, the number of charges, or other metrics indicating when the device needs recharging, reloading, etc.
-
-=== Wate 
-The wate is simply the wate of the weapon in kilograms, excluding batteries.
-This value is added to the persona's wate allowance if she decides to carry the weapon.
-
-=== EXPS 
-The persona wins this experience point award for identifying the miscellaneous weapon.
-The player may identify the weapon by deduction or activation.
-
-=== Value 
-The value indicates the MSRP (Money Suggested for RolePlaying) of the miscellaneous weapon in eps. 
-
-=== Accessory Tables 
+== Accessory Tables 
 Located here for your rolling convenience.
 
-==== Strike Weapon List
+=== Strike Weapons
 
-include::ROOT:partial$CH49_Table_Miscellaneous_Type_A_Weapons.adoc[]
+include::hardware:partial$mundane_strike_weapons_generation.adoc[]
 
-==== Fling Weapon List
+=== Fling Weapons
 
-include::ROOT:partial$CH49_Table_Random_Type_B_Miscellaneous_Weapons.adoc[]
+include::hardware:partial$mundane_fling_weapons_generation.adoc[]

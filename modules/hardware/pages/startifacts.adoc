@@ -14,7 +14,6 @@ ____
 :description: Relaxed researcher inspecting set of Russian dolls.
 include::ROOT:partial$articulate.adoc[]
 
-
 == Startifacts
 Startifact is a portmanteau of start and artifact.
 There is a legacy rule in EXP of fresh personas starting the game with a few artifacts.
@@ -42,7 +41,7 @@ In this case, the persona may get more than three items, although some are usele
 Spaceships, vehicles, robots and other powerful items stop startifact generation.
 In this case, the persona may get less than three items because of the item's power.
 
-== Vocation Limits
+== Limitations
 Personas are not allowed to amass artifacts related to their vocation.
 Vocation toy limits is a legacy rule within a legacy rule.
 This rule prevents personas from being overpowered with startifacts.
@@ -52,19 +51,25 @@ For example, a player rolling startifacts for her mercenary persona would stop o
 
 include::hardware:partial$toys_vocation_limitor.adoc[]
 
-== Startifact Type
+== Generation
 The referee is free to modify the roll on the fly.
 If a spacevehicle defeats the purpose of the entire campaign, roll again.
+If the table is looking for tables that focus on combat, uncombat, or cool stuff jump to xref:hardware:generation.adoc[TOY Generation].
 
-=== Limited
+=== Plot Protective
 This table generates TOYs that tend to not mess with plot as the unlimited table. 
 Referees may limit personas from austere milieus, aliens from limited tech strata to this table. 
 
 include::hardware:partial$toys_plot_safe.adoc[]
 
-NOTE: If it wrecks the game, roll again.
+NOTE: The roll must fit the plot. If not, roll again.
+
+=== Raw Roll 
+Anything goes technological chaos. 
 
 include::hardware:partial$toys_departments_list.adoc[]
+
+NOTE: The plot must roll with the artifacts. 
 
 == Presentation
 How the technological chaos arises is up to the milieu of the referee.
