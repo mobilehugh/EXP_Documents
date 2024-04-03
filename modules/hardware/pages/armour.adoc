@@ -6,14 +6,64 @@ Unless otherwise stated, the armour will include torso, limb, hand, foot, and he
 Armour does not include shields.
 
 .*Armour Checklist*
-. <<_armour_type,Armour Type>>
-. <<_armour_parameters,Armour Parameters>>
+. <<_generate_type,Armour Type>>
+. <<_description,Description>>
+. <<_parameters,Parameters>>
 
-== Armour Type
+== Generate Type
 
-include::ROOT:partial$CH42_Table_Armour_Type.adoc[]
+include::hardware:partial$list_of_armour.adoc[]
 
-== Armour Types
+== Armour Data
+
+=== Description
+Armour is pretty obviously armour.
+At very high tech levels artifact armour may be mistaken for clothing, or jewelry.
+Other times biomech powered armour can mistaken for robot parts.  
+If colour and other appointments are needed jump to xref:software:CH55_Appearances.adoc[Appearances,window=_blank].
+
+=== Parameters
+
+==== Defence Rating 
+The higher the Defence Rating, the better the protection offered to the wearer.
+Not all the armour in this chapter has a high Defence Rating, but each offers some unique form of special protection.
+
+The base Defence Rating of an unarmoured target is 500.
+The armour ratings are related to this base value.
+For instance, a suit of armour with an Defence Rating of 725 would give the wearer a base Defence Rating of 725 instead of 500.
+
+==== Restrictiveness 
+The more restrictive a suit of armour is, the more cumbersome and unyielding it is to normal body movement.
+The more cumbersome the armour, the higher its restrictiveness.
+The less restrictive armour is, the more that the persona can use her Dexterity to avoid taking damage.
+
+==== Wate
+The wate of armour is unnecessarily complicated.
+The wate includes a number followed by another number in brackets.
+The first number is a percentage.
+The second number is the total wate of this armour for a 70 kgs anthro persona.
+
+The percentage value helps the referee when fabricating armour for aliens or robots. 
+The total wate of the armour will be the percentage of the wearer's wate.
+If the percentage wate is 2.5% and the wearer has a wate of 100 kgs, the armour's wate is 2.5 kgs.
+The value in brackets is the armour's wate for a 70 kgs anthro, or 1.5 kgs).
+
+==== EXPS 
+This value is the number of Experience points the persona earns for identifying the armour's unique function.
+
+==== Value 
+The value of armour is unnecessarily complicated.
+The value includes a number followed by another number in brackets.
+The first number is a value per kilogram.
+The second number is the value of this armour for a 70 kgs anthro persona.
+
+The value per kilogram helps the referee when fabricating armour for aliens and robots.
+The value of a suit of ablative armour is 590 eps per kilogram of armour wate.
+So a three-kilogram suit of ablative armour is worth 1770 eps.
+The standard value for a 70 kgs anthro persona is 900 eps.
+ 
+
+== Armour Catalogue
 
 === Ablative Armour
 
@@ -74,7 +124,7 @@ Compucrafted armour is computer-designed versions of mundane armour types.
 They are designed to handle stress better, deflect blows better, be less restrictive, and have less wate.
 Compucrafted armour uses special alloys, plastics, and ceramics, unlike the mundane equivalents.
 
-include::ROOT:partial$CH42_Table_Compucrafted_Armour_Types.adoc[]
+include::hardware:partial$compucrafted_armour.adoc[]
 
 The Defence Rating (DEF) increases by 30-120 (3d4 x 10) from the base Defence Rating.
 Lighter and less cumbersome materials allow for more unrestricted body movement.
@@ -114,7 +164,7 @@ The persona can wear Flexion over armour and equipment.
 The flexion coverings can essentially withstand limitless damage.
 Flexion should only do so after the persona has sustained 1000 hit points in damage.
 
-include::ROOT:partial$CH42_Table_Flexion_Covering_Type.adoc[]
+include::hardware:partial$flexion_armour_type.adoc[]
 
 Concussion::
 Concuflex reduces the chance of being injured by concussion attacks.
@@ -181,7 +231,7 @@ Force field belts vary in the number of hit points they absorb.
 Once the belt absorbs this damage, it shuts off.
 The persona cannot use the force field belt before replacing the batteries.
 
-include::ROOT:partial$CH42_Table_Force_Field_Belt_Strength.adoc[]
+include::hardware:partial$force_field_belt_strength.adoc[]
 
 === Helmet 
 
@@ -206,8 +256,7 @@ The type of equipment installed is limited by wate and reason.
 Heavy artifacts would not only be impractical but would cause severe neck injury.
 The table is an abbreviated list of equipment that may be useful in a combat helmet.
 
-
-include::ROOT:partial$CH42_Table_Helmet_Accessory.adoc[]
+include::hardware:partial$helmet_accessory.adoc[]
 
 Communication:: 
 The communication device is generated at xref:hardware:CH48_Misc_Equip.adoc#_communicators[communicators,window=_blank].
@@ -222,12 +271,12 @@ Jump to xref:hardware:CH46_Guns.adoc#_gun_type[Gun,window=_blank] to generate th
 Veterinarian Equipment:: 
 The vet equipment must be reusable, and its wate cannot exceed 6kg.
 The artifact cannot be a disposable one, like a vedi-kit or special bandage dispenser.
-Jump to xref:hardware:CH47_Medical.adoc#_veterinary_equipment_type[Vet Equipment,window=_blank].
+Jump to xref:hardware:CH47_Medical.adoc#_veterinary_equipment_type[Biorepair,window=_blank].
 
 Miscellaneous Equipment:: 
 The miscellaneous artifact must be reusable, fair and its wate cannot exceed 6kg.
 For instance, a plastix helmet with a built-in fire log may be humorous but cruel.
-Jump to xref:hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Miscellaneous Equipment,window=_blank].
+Jump to xref:hardware:CH48_Misc_Equip.adoc#_miscellaneous_equipment_type[Device,window=_blank].
 
 Scope:: 
 There is no limit to the type of scope in a helmet.
@@ -268,7 +317,7 @@ Powered armour is servo-aided and computer-enhanced body armour.
 Typically powered armour is sealed, carries its power plant and fully integrates with its accessories.
 Powered armour enhances the wearer's attributes by electronically amplifying the persona's natural abilities.
 Powered armour becomes an anatomical extension of the persona, fully integrating her with the armour and its artifacts.
-Jump to xref:hardware:CH42_Powered_Armour.adoc[Powered Armour,window=_blank].
+Jump to xref:hardware:CH42_Powered_Armour.adoc[Biomech,window=_blank].
 
 === Protex
 
@@ -289,7 +338,7 @@ Combat will destroy Protex reasonably quickly.
 Protex armour can withstand 400 HPS of damage.
 Any hit points of damage that the persona suffers are considered Protex damage.
 
-include::ROOT:partial$CH42_Table_Protex_Armour.adoc[]
+include::hardware:partial$protex_armour_type.adoc[]
 
 === Shield 
 
@@ -305,7 +354,7 @@ The shields here are like bucklers or tower shields, not force fields.
 A shield can only protect one flank and does not cover the entire persona.
 They are crafted from specific armour types and offer bonuses in AR and defences.
 
-include::ROOT:partial$CH42_Table_Shield_Type.adoc[]
+include::hardware:partial$shield_type.adoc[]
 
 Ablative Shield::
 This shield functions like the armour type <<_ablative_armour,Ablative>>. 
@@ -345,7 +394,7 @@ The shield gives an Defence Rating bonus of +75 and impairs the user's accuracy.
 Using a plastix shield will inflict an attack roll penalty of -100.
 
 Powered Shield::
-A powered shield is an attachment for an upper limb of xref:hardware:CH42_Powered_Armour.adoc[Powered Armour,window=_blank].
+A powered shield is an attachment for an upper limb of xref:hardware:CH42_Powered_Armour.adoc[Biomech,window=_blank].
 The shield only works with the peripheral point of a powered armour limb.
 The shield gives an Defence Rating bonus of +100 and 0-2 (1d3-1) accessories.
 The accessories for a powered shield are generated at xref:hardware:CH42_Powered_Armour.adoc#_upper_limbs[Upper Limbs,window=_blank].
@@ -355,20 +404,19 @@ A protex shield functions like the armour type <<_protex,Protex>>.
 There is no adjustment of the persona's Defence Rating. 
 The shield absorbs 100-400 (1d4x100) hit points of the protex type. 
 
+=== Vac Suit
+The vacuum resistance suit protects organic personas from the harm of space.
+The cumbersome vac suit beats being simultaneously asphyxiated, boiled and frozen.
+The vac suit can also be called a spacesuit.
+
 :art: vac_suit_MiltonLuros_1953.png
 :width: 450px
 :snark: Have your vac suit ready
 :artist: Milton Luros
 :date: 1953
 :license: CC BY-SA 4.0
-:description: Drawing of a humanoid wearing a space suit and floating far above the planet.
-
+:description: A humanoid wearing a space suit and floating far above a planet.
 include::ROOT:partial$articulate.adoc[]
-
-=== Vac Suit
-The vacuum resistance suit protects organic personas from the harm of space.
-The cumbersome vac suit beats being simultaneously asphyxiated, boiled and frozen.
-The vac suit can also be called a spacesuit.
 
 NOTE: *Exatmo = EXterior to ATMOsphere. Inatmo = INside ATMOsphere.*
 
@@ -378,7 +426,7 @@ Vac suits will rip only if subject to direct damaging forces.
 For example, shooting or intentionally cutting a vac suit may cause it to rupture.
 None of these vac suits can survive entering into an atmosphere. 
 
-include::ROOT:partial$CH42_Table_Vac_Suit.adoc[]
+include::hardware:partial$vac_suit_type.adoc[]
 
 ==== Civilian
 
@@ -475,43 +523,3 @@ There is no cryogenic suspension.
 Upon incapacitation of the wearer, a military vac destroys itself and its wearer.
 The suit melts into harmless space debris, leaving no helpful evidence behind.
 
-== Armour Parameters
-
-=== Defence Rating 
-The higher the Defence Rating, the better the protection offered to the wearer.
-Not all the armour in this chapter has a high Defence Rating, but each offers some unique form of special protection.
-
-The base Defence Rating of an unarmoured target is 500.
-The armour ratings are related to this base value.
-For instance, a suit of armour with an Defence Rating of 725 would give the wearer a base Defence Rating of 725 instead of 500.
-
-=== Restrictiveness 
-The more restrictive a suit of armour is, the more cumbersome and unyielding it is to normal body movement.
-The more cumbersome the armour, the higher its restrictiveness.
-The less restrictive armour is, the more that the persona can use her Dexterity to avoid taking damage.
-
-=== Wate
-The wate of armour is unnecessarily complicated.
-The wate includes a number followed by another number in brackets.
-The first number is a percentage.
-The second number is the total wate of this armour for a 70 kgs anthro persona.
-
-The percentage value helps the referee when fabricating armour for aliens or robots. 
-The total wate of the armour will be the percentage of the wearer's wate.
-If the percentage wate is 2.5% and the wearer has a wate of 100 kgs, the armour's wate is 2.5 kgs.
-The value in brackets is the armour's wate for a 70 kgs anthro, or 1.5 kgs).
-
-=== EXPS 
-This value is the number of Experience points the persona earns for identifying the armour's unique function.
-
-=== Value 
-The value of armour is unnecessarily complicated.
-The value includes a number followed by another number in brackets.
-The first number is a value per kilogram.
-The second number is the value of this armour for a 70 kgs anthro persona.
-
-The value per kilogram helps the referee when fabricating armour for aliens and robots.
-The value of a suit of ablative armour is 590 eps per kilogram of armour wate.
-So a three-kilogram suit of ablative armour is worth 1770 eps.
-The standard value for a 70 kgs anthro persona is 900 eps.
- 
