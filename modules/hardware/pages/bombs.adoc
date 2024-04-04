@@ -6,8 +6,7 @@
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of bombs falling from bomb bay doors.
-
+:description: Bombs falling from bomb bay doors.
 include::ROOT:partial$articulate.adoc[]
 
 Bombs are a subsection of grenades.
@@ -20,23 +19,105 @@ The intensity of a bomb attack cannot exceed 25.
 
 .*Bombs are very deadly.*
 ====
-Misuse of a fusion bomb would melt an entire expedition in a flash.
-Even safe aerosols can become dangerous when amplified to the proportions of a bomb.
-A foam bomb could entomb an entire unsuspecting expedition.
+Misuse of bombs, which is usually guaranteed, can melt an entire expedition in a flash.
 ====
 
 .*Bomb Checklist*
-. <<_bomb_type, Bomb Type>>
+. <<_generate_type, Bomb Type>>
+. <<_creator_template,Bomb Template>>
 . <<_detonator,Detonator>>
 . <<_number,Number>>
 . <<_description, Description>>
-. <<_bomb_Parameters,Bomb Parameters>>
+. <<_parameters,Parameters>>
 
-== Bomb Type
+== Generate Type
 
-include::ROOT:partial$CH44_Table_Bomb_Type.adoc[]
+include::hardware:partial$list_of_bombs.adoc[]
 
-== Bomb Types
+== Bomb Data
+
+===  Creator Template
+The is the core template used to convert an aerosol or grenade into a bomb. 
+
+[horizontal]
+Range:: Not applicable
+Area of Effect:: times 20
+Damage:: times 10
+Wate:: times 25
+EXPS:: No change
+Value:: times 50
+
+=== Detonator
+A bomb's detonator is the nitty-gritty of the device.
+Unlike grenades and aerosols, bomb detonators are *NOT* designed with persona safety in mind.
+The bombs have radio detonators, fuses, or other long-range triggering devices that allow for user safety.
+Once the detonator is activated, the bomb will explode, spreading death all about itself.
+Fooling with a bomb's detonator could very quickly annihilate an entire expedition.
+There is a 75% chance that a bomb's detonator is separate from the bomb itself.
+Safety first.
+
+:art: bomb_short_fuse.png
+:width: 250px
+:snark: Worst nuke fuse ever.
+:artist: StudioStoks
+:date: 2015
+:license: Copyright StudioStoks 2015 
+:description: Humanoid hand holding a spherical black bomb with lit fuse.
+include::ROOT:partial$articulate.adoc[]
+
+=== Number
+Bombs come in the loneliest number, one.
+
+=== Description
+Bombs are military devices that tend to lack branding and colour. 
+It is very fun to disguise a bomb and make it appear un-bomb like. 
+Each bomb has a basic shape, like a grenade has a basic shape. 
+If flashy colours, appendages and strange shapes are your jam jump to xref:software:CH55_Appearances.adoc[Appearances,window=_blank].  
+
+include::hardware:partial$explosive_shapes.adoc[]
+
+:art: mechanic_garbage_bomb.png
+:width: 250px
+:snark: Some people hate recycling.
+:artist: Patrick Redding
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Humanoid affixing a timer to a garbage can. 
+include::ROOT:partial$articulate.adoc[]
+
+=== Parameters
+
+==== Range 
+Bombs cannot be thrown and do not have a range.
+
+==== Area of Effect 
+The area of effect of bombs is almost always a radius in hexes.
+The cover granted to a bomb attack must be much more substantial than that needed to impede other areas of effect attacks.
+In the case of a bomb, only a military bunker may be able to protect the target.
+Bombs are deadly.
+The goal of a bomb is to destroy large areas effectively and economically.
+
+==== Damage 
+The damage parameter has a range of hit points and the dice for calculating the damage amount in parentheses. 
+If there is no damage parameter listed, the weapon likely has some other horrible effect.
+
+Any damage that the base weapon inflicts is multiplied by 10.
+This multiplier raises even the most trivial area of effect weapon damage to killer proportions.
+If the referee feels that a non-lethal base weapon has been made too deadly by the change in damage, she may feel free to alter it.
+
+==== Wate 
+A bomb will have a wate 25 times greater than its base artifact type.
+The wate is in kgs.
+
+==== EXPS 
+Bombs are worth the same number of EXPS of the grenade or aerosol that they imitate.
+
+==== Value 
+The value of a bomb is 50 times that of its base artifact type.
+The value is in eps.
+
+
+== Bomb Catalogue
 
 === Air Raid Siren
 
@@ -161,7 +242,7 @@ This micro rending of molecular connections causes severe damage.
 Personas and equipment do not appear to have any apparent damage or injury.
 Only a detailed inspection of equipment, or bodies, will reveal the microscopic tears. 
 
-== Dissolver 
+=== Dissolver 
 
 [horizontal]
 Base Weapon:: xref:hardware:CH45_Grenades.adoc#_corrosive_grenade[Corrosive Grenade,window=_blank]
@@ -190,12 +271,12 @@ The diversionizer is a shock and awe weapon.
 The bomb can be composed of smoke, sonic, flash or any combination.
 While it may not be directly lethal, its effects often result in fatalities.
 
-include::ROOT:partial$CH45_Table_Pyro_Combo.adoc[]
+include::hardware:partial$pyrotechnic_components.adoc[]
 
 Smoke:: 
 The diversionizer's smoke attack fills the area of effect with very dense smoke.
 The smoke will last for 1-10 (1d10) hours.
-For a fancy smoke colour, jump to the <<_bomb_colour,Colour Table>>.
+For a fancy smoke colour, jump to the xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour your whirled,window=_blank].
 
 Flash:: 
 The diversionizer's flash bomb will blind any target that has optical sensors.
@@ -344,10 +425,9 @@ The easiest way to determine is to make a random facet roll.
 :date: 2010
 :license: CC BY-SA 4.0
 :description: Diagram showing grenade miss direction on hexagon sheet.
-
 include::ROOT:partial$articulate.adoc[]
 
-include::ROOT:partial$CH44_Table_Jumping_Jack_Pattern.adoc[]
+include::hardware:partial$jumping_jack_pattern.adoc[]
 
 === Junk Yard 
 
@@ -469,6 +549,11 @@ What mad alien race would invent such a sick and twisted weapon?
 * 400h blinding flash
 * 600h radiation attack
 
+The effects of a nuclear device are cumulative.
+Consider a persona that is within 200 hexes taking 600 HPS of damage.
+First, she subtracts 600 HPS from HPS Total (ha ha ha).
+She then catches fire, is blinded and takes a 25 intensity radiation attack.
+
 .*Immolation*
 Any flammable object within 300 hexes of the epicentre catches fire.
 The immolation includes personas as well as equipment.
@@ -483,11 +568,6 @@ Vision restores spontaneously in 1-10 (1d10) days.
 .*Radiation*
 Any target within 600 hexes is subject to a lethal radiation attack.
 The intensity of the attack is 25.
-
-The effects of a nuclear device are cumulative.
-Consider a persona that is within 200 hexes taking 600 HPS of damage.
-First, she subtracts 600 HPS from HPS Total (hahaha).
-She catches fire, is blinded and suffers a 25 intensity radiation attack.
 
 .*Residual Radiation*
 For effect, the ref can make the 200 hex area of effect a lingering radiation zone.
@@ -508,7 +588,8 @@ This bomb colours everything within range to match the same colour as the bomb's
 A paint bomb could paint everything within range in stripes or even plaid.
 Personas caught in the area of effect will be temporarily blinded for 1 minute.
 Unclothed organic personas must save vs intensity 1-6 (1d6) damaging poison. 
-To determine the paint colour and pattern, jump to <<_bomb_colour,Bomb Colour>>.
+To determine the paint colour and pattern, jump to the xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour your whirled,window=_blank].
+
 
 === Polarizer
 
@@ -573,7 +654,7 @@ The cloud will disperse over 10 to 80 (1d8 x 10) weeks.
 The dense smog requires excavation equipment for removal.
 If the range penalties are in play, the smog counts as opaque.
 The colour of the smog will match the colour of the casing of the bomb.
-To determine the smog colour jump to <<_bomb_colour,Bomb Colour>>.
+To determine the smog colour jump to the xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour your whirled,window=_blank].
 
 === Toxin Bomb 
 
@@ -639,100 +720,7 @@ Consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank] to 
 
 The colour of the web will be the same as the colour of the bomb casing.
 
-:art: bomb_short_fuse.png
-:width: 250px
-:snark: Worst nuke fuse ever.
-:artist: StudioStoks
-:date: 2015
-:license: Copyright StudioStoks 2015 
-:description: Drawing of humanoid hand holding a spherical black bomb with lit fuse.
 
-include::ROOT:partial$articulate.adoc[]
 
-== Detonator
-A bomb's detonator is the nitty-gritty of the device.
-Unlike grenades and aerosols, bomb detonators are *NOT* designed with persona safety in mind.
-The bombs have radio detonators, fuses, or other long-range triggering devices that allow for user safety.
-Once the detonator is activated, the bomb will explode, spreading death all about itself.
-Fooling with a bomb's detonator could very quickly annihilate an entire expedition.
-There is a 75% chance that a bomb's detonator is separate from the bomb itself.
-Safety first.
-
-:art: mechanic_garbage_bomb.png
-:width: 250px
-:snark: Some people hate recycling.
-:artist: Patrick Redding
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of humanoid man affixing a timer to a garbage can. 
-
-include::ROOT:partial$articulate.adoc[]
-
-== Number
-Bombs come in the loneliest number, one.
-
-== Description
-Bombs have shapes and colours the same as grenades do.
-Even if the bomb has an aerosol effect, it will have one of the bomb shapes generated in this section.
-
-=== Bomb Shape
-
-include::ROOT:partial$CH44_Table_Bomb_Shape.adoc[]
-
-=== Bomb Shape Shift
-This table is optional.
-
-include::ROOT:partial$CH44_Table_Bomb_Shape_Adjustment.adoc[]
-
-=== Bomb Adornment
-Adornments are the most fun and aggravating descriptors of bombs. 
-
-include::ROOT:partial$CH44_Table_Bomb_Strange_Adornment.adoc[]
-
-=== Bomb Colour
-Keep it simple with a 1d10 roll, or make it zany with a 1d100 roll.
-
-include::ROOT:partial$add_colour_to_your_world.adoc[]
-
-== Bomb Parameters
-
-=== Bomb Creator Template
-
-[horizontal]
-Range:: Not applicable
-Area of Effect:: times 20
-Damage:: times 10
-Wate:: times 25
-EXPS:: No change
-Value:: times 50
-
-=== Range 
-Bombs cannot be thrown and do not have a range.
-
-=== Area of Effect 
-The area of effect of bombs is almost always a radius in hexes.
-The cover granted to a bomb attack must be much more substantial than that needed to impede other areas of effect attacks.
-In the case of a bomb, only a military bunker may be able to protect the target.
-Bombs are deadly.
-The goal of a bomb is to destroy large areas effectively and economically.
-
-=== Damage 
-The damage parameter has a range of hit points and the dice for calculating the damage amount in parentheses. 
-If there is no damage parameter listed, the weapon likely has some other horrible effect.
-
-Any damage that the base weapon inflicts is multiplied by 10.
-This multiplier raises even the most trivial area of effect weapon damage to killer proportions.
-If the referee feels that a non-lethal base weapon has been made too deadly by the change in damage, she may feel free to alter it.
-
-=== Wate 
-A bomb will have a wate 25 times greater than its base artifact type.
-The wate is in kgs.
-
-=== EXPS 
-Bombs are worth the same number of EXPS of the grenade or aerosol that they imitate.
-
-=== Value 
-The value of a bomb is 50 times that of its base artifact type.
-The value is in eps.
 
 
