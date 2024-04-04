@@ -1,21 +1,54 @@
-= Miscellaneous Equipment
+= Devices and Gadgets
 
-Miscellaneous equipment covers those artifacts that don't have a specific home.
-Examples are visual aids, computers, lights, and special ammunition.
-Miscellaneous equipment also includes some rare and unique devices.
+Devices and gadgets includes those artifacts that don't have a specific home.
+Examples are visual aids, computers, lights, and weird ammunition.
+Devices and gadgets also includes some rare and unique devices.
 Examples of these are dehydrators and tesseract boxes.
 
-
-
 .*Miscellaneous Equipment Checklist*
-. <<_miscellaneous_equipment_type,Miscellaneous Equipment Type>>
-. <<_miscellaneous_equipment_parameters,Miscellaneous Equipment Parameters>>
+. <<_generate_type,Device Type>>
+. <<_description, Description>>
+. <<_parameters,Parameters>>
 
-== Miscellaneous Equipment Type
+== Generate Type
 
-include::ROOT:partial$CH48_Table_Miscellaneous_Equipment_Type.adoc[]
+include::hardware:partial$list_of_devices_and_gadgets.adoc[]
 
-== Miscellaneous Equipment Types
+== Device Data
+
+=== Description
+The appearances of these devices is as varied as there are devices in the universe. 
+Of all the artifact departments the devices are the most likely to not be understood by their shape. 
+If no obvious description comes to mind jump to xref:software:CH55_Appearances.adoc[Appearances,window=_blank].
+
+=== Parameters
+
+==== Vocation 
+Vocation represents the persona vocation best suited for the device.
+If the vocation attribute indicates Mechanic, then the artifact is used by mechanics.
+If the artifact vocation is labelled Spie, then it is an artifact for spying.
+If the vocation is labelled None, then it sits in no particular vocation category.
+
+==== Duration 
+Duration indicates how much use the device can endure before the user must replace the battery set.
+It would be unusual for a battery set to run down, but who knows, it may happen just when the device is most needed!
+Other toys have a predetermined number of uses before the user must replace the battery set.
+Single-use artifacts usually consume themselves to reach their objective.
+Artifacts with the duration of Power Source need a connection to a  power source like a wall outlet or a generator.
+These are artifacts that require enormous power plants like nuclear generators and hydroelectric dams.
+
+==== Wate 
+The wate parameter lists the wate of the device in kilograms.
+This parameter is added to the persona's wate allowance if she is carrying the artifact.
+
+==== EXPS
+The experience point value is for the persona, or personas, who correctly identifies the device. Identification can occur before or after the device is used.
+
+==== Value
+The value parameter is how many electrum pieces the device is worth. The value of a device may be priceless in certain situations of milieus.
+
+
+== Device Catalogue
 
 === Absorber 
 
@@ -33,14 +66,13 @@ All absorbers have the same specifications and abilities.
 They eliminate the substance in question in a non-violent manner.
 
 They have a three hex radius of effect in which the toxic material will have absolutely no effect.
-For instance, a radiation absorber would reduce the effects of radiation within the three hex area of effect for the duration of the battery set.
+For instance, a radiation absorber would reduce the effects of radiation __within__ the three hex area of effect for the duration of the battery set.
 The absorber will also clean up an area around itself by drawing in and neutralizing the offending substance.
 The absorbers reduce the duration and area of effect to 1/4 of expected.
 Substances like smoke, radiation and gas clouds drop to 1/4 of their area of effect and duration.
 For those absorbers that can absorb damage, each HPS of damage absorbed counts as 1 hour of battery life.
 
-//table fix
-include::ROOT:partial$CH48_Table_Absorber_Type.adoc[]
+include::hardware:partial$absorber_types.adoc[]
 
 === Aerosol Regulator 
 
@@ -74,11 +106,9 @@ The ammo is for bolt action rifles, derringers, semi-automatic weapons, full-aut
 These are the typical weapons that explosively launch bullets.
 Other special weapons (fusion, plasma) do not have special ammo.
 An ammo cache has 1 to 1000 rounds.
-Whether or not ammo fits an available weapon can be determined by sphincter-dice
-//link fix
+Whether or not ammo fits an available weapon can be determined by xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank]
 
-//table fix
-include::ROOT:partial$CH48_Table_Ammunition.adoc[]
+include::hardware:partial$ammunition_unique.adoc[]
 
 
 === Anti Grav Backpack 
@@ -129,16 +159,6 @@ There is another version of the belt that can replace a brassiere.
 The antigrav belt, or brassiere, does not lift the persona into the air, allowing them to fly around.
 Antigrav boots allow a persona to fly around, defying gravity.
 
-:art: antigravboots.png
-:width: 350px
-:snark: Light on your feet
-:artist: Peggy Lynn MacIsaac
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a pair of cowboy boots flying in the air.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Anti Grav Boots 
 
 [horizontal]
@@ -147,6 +167,15 @@ Duration:: 10 day per Battery
 Wate:: 8kg each
 EXPS:: 250
 Value:: 250000
+
+:art: antigravboots.png
+:width: 350px
+:snark: Light on your feet
+:artist: Peggy Lynn MacIsaac
+:date: 1991
+:license: CC BY-SA 4.0
+:description: A pair of cowboy boots flying in the air.
+include::ROOT:partial$articulate.adoc[]
 
 Antigrav boots are the typical antigrav unit found in most sciency fiction milieus.
 Antigrav boots allow the wearer to fly about without the worries of gravity.
@@ -215,37 +244,31 @@ Value:: Special
 Attractors are heavy boxes that employ a fantastical array of chemical, pheromonal, gravitational, magnetic, and even stranger mechanisms to redirect objects in motion.
 The box can attract waves of energy, aliens, or projectiles.
 
-include::ROOT:partial$CH48_Table_Attractor_Type.adoc[]
+include::hardware:partial$attractor_types.adoc[]
 
-==== Ballistic
-The ballistic attractor redirects high-velocity projectiles.
+==== Aliens
+This device attracts organic lifeforms from the family diversidae.  
+When activated, aliens from far and wide will shuffle, hop and slither towards the attractor.
+In most cases, the alien will be a referee persona that helps move the story along.
+Player persona aliens must win a Mind roll or head towards the attractor.
+The alien attractor has no specific range but has a specific impact on the story.
+For example, deploying this device in a zoo would create chaos.
+
+include::hardware:partial$effected_persona_type.adoc[]
+
+==== Ballistics
+The ballistic attractor redirects __high-velocity__ projectiles.
 Bullets, missiles or gauss slugs change direction towards the attractor.
 The attractor does not affect low-velocity projectiles like arrows or spears.
 Expedition ballistics are also affected by the attractor.
 
-The projectile must pass through the device's area of effect. 
+The projectile must pass through the device's 10 hex area of effect. 
 The projectiles change course and crash harmlessly into the ground around the attractor.
 Artillery, bombs, and grenades may still have their area of effect attack after redirection. 
 The ballistic attractor also makes a decent targeting device.
 
-The ballistic attractor has a 20 hex radius, a value of 33000, and is a mercenary artifact.
-
-==== Robots
-The robot attractor draws robots from far and wide.
-The device has no specific range other than it helps move the story along.
-The attractor creates data and signals that make a robot within the range come and check things out.
-A moving bot may believe the attractor has a delivery for her.
-A combot may believe there is an enemy infiltration.
-A policing bot may believe there is a crime in progress.
-In other cases, it will be hordes of mindless drones.
-Player persona robots must win a control factor roll or head towards the attractor.
-
-//table fix
-
-The robot attractor has a value of 100000 and is a mechanic artifact.
-
-==== Communications
-The communications attractor acts like a black hole sucking information into it.
+==== Comms
+The communications attractor acts like a black hole sucking in information.
 The attractor redirects and disrupts data transfer through the physical space. 
 Any electromagnetic waves transporting data, such as radio or lazer, are redirected to the attractor.
 The field knocks out radio communications, disrupts hard-wired data lines and even face-to-face speech.
@@ -257,30 +280,15 @@ This device does not attract psionic communications, sign language, the written 
 In a major urban center, the energy load on the attractor can become dangerous. 
 When used in any dense communication environment, the artifact will seep radiation.
 Personas within five hexes must win a radiation roll versus intensity 4-24 (4d6) radiation.
-The radius of the comms attractor is 1 kilometre, but the story trumps this range.
-
-The communications attractor is has a value of 1000000 and is a mechanic artifact.
-
-==== Aliens
-This device attracts organic lifeforms from the family diversidae.  
-When activated, aliens from far and wide will shuffle, hop and slither towards the attractor.
-In most cases, the alien will be a referee persona that helps move the story along.
-Player persona aliens must win a Mind roll or head towards the attractor.
-The alien attractor has no specific range but has a specific impact on the story.
-For example, deploying this device in a zoo would create chaos.
-
-The alien attractor has a value of 100000 and is a biologist/nomad artifact.
-
-include::hardware:partial$effected_persona_type.adoc[]
+The radius of the comms attractor is 1 kilometre, but story trumps this range.
 
 ==== Energy
-This attractor specifically draws energy within its area of effect.
+This attractor specifically draws energy within its 10 hex area of effect.
 It is very effective at disrupting energy attacks like fusion and plasma attacks. 
 The attractor will also draw down power from energy transmission sources like power lines.
 The attractor does not drain batteries unless the battery is using broadcast power. 
-A mechanic to harness this attracted energy to recharge batteries.
+A mechanic may harness this attracted energy to recharge batteries.
 Recharging batteries from an energy attractor is an 8DD maneuver.
-A critical loss could result in battery damage. 
 
 In an energy-rich environment, the load on the attractor can become very high. 
 This overload may cause the attractor to seep radiation.
@@ -289,22 +297,28 @@ Personas within five hexes must win a radiation roll versus intensity 4-24 (4d6)
 The energy attractor has a range of 10 hexes, a value of 100000 and is a mechanic artifact.
 
 ==== Lazers
-This attractor redirects all lazer projectiles.
-The lazer must pass through the device's area of effect. 
+This attractor redirects energy dense lazer projectiles.
+The lazer must pass through the device's 10 hex area of effect. 
 Any lazer attacks or lazer communications redirect towards the attractor.
 Energy attacks like fusion, fission or plasma attacks are no affected by this device.
 Expedition lazers are also affected by the attractor.
 The lazer beams dissipate harmlessly around the attractor.
 
-The lazer attractor has a 20 hex radius, a value of 33000, and is a mercenary artifact.
-
 ==== Projectiles
-This attractor redirects low-velocity projectiles.
-The projectile must pass through the device's area of effect. 
+This attractor redirects __low-velocity__ projectiles.
+The projectile must pass through the device's 10 hex area of effect. 
 The device redirects arrows, rocks or daggers, forcing them to fall safely on the ground.
 Projectiles like bullets or lazers are unaffected by this attractor.
 
-The projectile attractor has a 20 hex radius, a value of 33000, and is a mercenary artifact.
+==== Robots
+The robot attractor draws robots from far and wide.
+The device has no specific range other than it helps move the story along.
+The attractor creates data and signals that make a robot within the range come and check things out.
+A moving bot may believe the attractor has a delivery for her.
+A combot may believe there is an enemy infiltration.
+A policing bot may believe there is a crime in progress.
+Player robots must win a control factor roll to not be attracted to the device
+If you don't have a robot in mind jump to xref:referee_personas:robot_rp.adoc#_series[Robot Series].
 
 === Auto Lock Pick 
 
@@ -369,7 +383,7 @@ Wate:: 500gms
 EXPS:: 2006
 Value:: 220000
 
-The computerized autocard is for defeating *electronic* locks.
+The computerized autocard is for defeating __electronic__ locks.
 The auto card is not destructive and does not damage the lock or door
 The auto card should avoid setting off alarms if they are detected. 
 The autocard opens electronic locks or the electronic parts of a mechanical lock.
@@ -426,7 +440,7 @@ A one battery lazer pistol attached to a battery slot holding eight batteries co
 A mechanic is required to connect the battery slot to an artifact.
 Connecting a battery slot to an artifact is a 9DD maneuver.
 
-=== Battery Recharger 
+=== Battery Recharger
 
 [horizontal]
 Vocation:: None
@@ -444,7 +458,7 @@ The battery recharger can recharge 3-18 (3d6) batteries at once.
 The persona must connect the battery recharger to a power source.
 Recharging a full set of batteries takes 8 hours.
 
-=== Robot Neutralizer 
+=== Bot Neutralizer
 
 [horizontal]
 Vocation:: Mechanic
@@ -475,18 +489,8 @@ So turning one robot off may turn another robot on within the three hex area of 
 
 Mechanics will earn a bonus of +42 on any robot-related PT rolls with this artifact.
 
-:art: atomizer.png
-:width: 350px
-:snark: Jail time cancelled
-:artist: Peggy Lynn MacIsaac
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Human operating beam cutting through jail bars.
 
-include::ROOT:partial$articulate.adoc[]
-
-
-=== Canceller 
+=== Canceller
 
 [horizontal]
 Vocation:: Mechanic
@@ -495,13 +499,22 @@ Wate:: 2.3kg
 EXPS:: 850
 Value:: 50000
 
+:art: atomizer.png
+:width: 350px
+:snark: Jail time cancelled
+:artist: Peggy Lynn MacIsaac
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Human operating beam cutting through jail bars.
+include::ROOT:partial$articulate.adoc[]
+
 The canceller safely disperses matter into its useless components.
 A canceller can disperse one hex of matter per use.
 The wate of the dispersed substance is not crucial because personas are usually trying to pass by a barrier.
 The device has industrial safeguards which only allow the canceller to disperse homogeneous or simple substances.
 The canceller does not affect complex objects such as robots or organics.
 
-include::ROOT:partial$CH48_Table_Cancelled_Substance.adoc[]
+include::hardware:partial$canceller_material.adoc[]
 
 === Climate Band 
 
@@ -550,7 +563,7 @@ A onesie or a cloak can replace the above items.
 This clothing is specialized and has rare and unique properties.
 The persona cannot use clothing in conjunction with armour.
 
-include::ROOT:partial$CH48_Table_Clothing_Type.adoc[]
+include::hardware:partial$clothing_artifact.adoc[]
 
 ==== Compucammo
 Compucammo passes light from behind the wearer onto the suit.
@@ -605,20 +618,6 @@ In the darkness, the stealth suit will offer a +20 bonus on sneaky PT rolls.
 
 The stealth suit is worth 4242 and is considered a spie or nomad, or mercenary artifact.
 
-
-
-:art: all_hale_radio.png
-:width: 350px
-:snark: All hale the radio
-:artist: Rogers
-:date: 1951
-:license: CC BY-SA 4.0
-:description: Drawing of bald robed humanoid hold up radio like a bible. 
-
-include::ROOT:partial$articulate.adoc[]
-
-
-//23) Communicators reworked for a helmet in armour
 === Communicators 
 
 [horizontal]
@@ -628,6 +627,15 @@ Wate:: Special
 EXPS:: Special
 Value:: Special
 
+:art: all_hale_radio.png
+:width: 350px
+:snark: All hale the radio
+:artist: Rogers
+:date: 1951
+:license: CC BY-SA 4.0
+:description: a bald robed humanoid holding up radio like a bible. 
+include::ROOT:partial$articulate.adoc[]
+
 There are several communication transceivers that personas can use to chat.
 They mainly vary in size, which affects the transmission range.
 The bigger the transceiver is, the further its range.
@@ -636,29 +644,12 @@ These devices are supposed to be useful and assist the players in helping develo
 
 Each communicator has a unique ability and a size.
 
-==== Unique Ability
-include::ROOT:partial$CH48_Table_Comm_Twist.adoc[]
-
-Data::
-Robots can use a data-enhanced unit to communicate in their electronic tongues.
-Data ability doubles the value of the communicator.
-
-Encrypted::
-Harder to comprehend when intercepted and much harder to intercept.
-
-Lazer::
-Line of site communication only. 
-Interception is only possible by physically diverting the lazer.
-Lazer comms increase the device's value by ten times.
-
-Telepathic::
-Users can pass their thoughts to each other through the thinkspace.
-These messages are instantaneous and do no travel through the physical space.
-Interception of telepathic comms requires unique equipment or psionic mutations.
-Telepathic comms increase the device's value by 100 times.
+.*Communicator Checklist*
+. <<_communicator_size,Communicator Size>>
+. <<_transmission_type,Transmission Type>>
 
 ==== Communicator Size
-include::ROOT:partial$CH48_Table_Communicator_Type.adoc[]
+include::hardware:partial$communicator_size.adoc[]
 
 Dental::
 Dental communicators are very light, no more than 5 gm, and can hide on one of the persona's molars.
@@ -681,7 +672,6 @@ They have a 12-kilometre range, are worth 25 EXPS / 500 eps, and will number 1-1
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Hand holding a fancy video data phone.
-
 include::ROOT:partial$articulate.adoc[]
 
 Handheld::
@@ -690,8 +680,6 @@ These appear as radios or mobile telephones and weigh 500 gms.
 These communicators are slightly programmable and have multiple channels.
 Mechanics can engage in electronic security countermeasures (security scrambling of their signals) with a 4DD maneuver.
 These communicators have a 24-kilometre range, are worth 25 EXPS / 1000 eps, and will number 1-6 (1d6).
-
-
 
 Backpack::
 The backpack communicator is a portable 15 kg radio station.
@@ -717,15 +705,31 @@ Exatmo comms has a space vehicle range of 2-12 (2d6) light-years, is worth 600 E
 Included comms units are cumulative. 
 For instance, a space vehicle communicator could monitor, encrypt and manipulate the signals of 4 vehicle communicators, 12 backpack communicators, and 63 handheld communicators.
 
-:art: radar_compass_detector.png
-:width: 250px
-:snark: Going my way.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Hand held futuristic detector with tiny direction monitor. 
+==== Transmission Type
+include::hardware:partial$communicator_transmission.adoc[]
 
-include::ROOT:partial$articulate.adoc[]
+Standard::
+Mundane terran radio transmissions.
+
+Data::
+Extended for data communication with robots and AIs.
+This data-enhanced unit can communicate in their electronic tongues.
+Data transmission doubles the value of the communicator.
+
+Encrypted::
+Harder to comprehend when intercepted and much harder to intercept.
+
+Lazer::
+Line of site communication only. 
+Interception is only possible by physically diverting the lazer.
+Combining this with dental communicators has strong comedy potential.
+Lazer comms increase the device's value by ten times.
+
+Telepathic::
+Users can pass their thoughts to each other through the thinkspace.
+These messages are instantaneous and do no travel through the physical space.
+Interception of telepathic comms requires unique equipment or psionic mutations.
+Telepathic comms increase the device's value by 100 times.
 
 === Compass 
 
@@ -735,6 +739,15 @@ Duration:: Until Destroyed
 Wate:: 1.5kg 
 EXPS:: 93
 Value:: 250
+
+:art: radar_compass_detector.png
+:width: 250px
+:snark: Going my way.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Hand held futuristic detector with tiny direction monitor. 
+include::ROOT:partial$articulate.adoc[]
 
 A compass is a direction maintaining device or anything that attains a constant direction for reference.
 This compass will maintain any direction programmed into it or any of several standard directional indicators.
@@ -765,18 +778,6 @@ Wate:: Special
 EXPS:: Special
 Value:: Special
 
-Computers are black boxes of data with which the persona can interact.
-The data and interactions are either general (autonomous Intelligence) or specific (vocation computers).
-
-include::ROOT:partial$CH48_Table_Comp_Type.adoc[]
-
-==== AI Computers
-Autonomous Intelligence (AI) is a highly interactive artificial Intelligence with both consciousness and immeasurable computational power.
-Artificial general Intelligence is one of mundane terra's current obsessions.
-In EXP, AI refers to autonomous Intelligence or aware Intelligence, and calling it artificial may piss it off. 
-An AI  computer will almost certainly become a referee persona with emotions, personality and goals.
-To fabricate an AI, jump to xref:referee_personas:ai_rp.adoc[Autonomous Intelligence,window=_blank].
-
 :art: class_computer_with_stuff.png
 :width: 350px
 :snark: Vocation computer with connectors.
@@ -784,9 +785,11 @@ To fabricate an AI, jump to xref:referee_personas:ai_rp.adoc[Autonomous Intellig
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Open box with computer monitor in lid and attachments stuffed in.
-
 include::ROOT:partial$articulate.adoc[]
 
+Computers are black boxes of data with which the persona can interact.
+Computers will be vocation computers automatically.
+If the referee is on board there is a 1 in 10 chance that the device will be an AI.
 
 ==== Vocation Computers 
 Vocation computers have a wate of 10 kg, and a technicolour screen and a touch display.
@@ -804,17 +807,15 @@ Players get one bonus roll per three EXPS levels.
 The player gets to choose the highest roll for her bonus.
 So a 6th level persona would get three rolls of 3-30 picking the best roll.
 
-include::ROOT:partial$CH48_Table_Vocation_Computers.adoc[]
+include::hardware:partial$vocation_computer_type.adoc[]
 
-:art: control_baton.png
-:width: 350px
-:snark: Stick it to powered armour
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a short baton with a button and hand strap.
+==== AI Computers
+Autonomous Intelligence (AI) is a highly interactive artificial Intelligence with both consciousness and immeasurable computational power.
+Artificial general Intelligence is one of mundane terra's current obsessions.
+In EXP, AI refers to autonomous Intelligence or aware Intelligence, and calling it artificial may piss it off. 
+An AI  computer will almost certainly become a referee persona with emotions, personality and goals.
+To fabricate an AI, jump to xref:referee_personas:ai_rp.adoc[Autonomous Intelligence,window=_blank].
 
-include::ROOT:partial$articulate.adoc[]
 
 === Control Baton 
 
@@ -825,10 +826,19 @@ Wate:: 2.5 kg
 EXPS:: 631
 Value:: 125000
 
+:art: control_baton.png
+:width: 350px
+:snark: Stick it to biomech armour
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: A short baton with a button and hand strap.
+include::ROOT:partial$articulate.adoc[]
+
 The control baton is similar in appearance to a field marshal's baton.
-However, this baton can instantly shut down powered armour.
+However, this baton can instantly shut down biomech armour.
 There are two buttons located on the rather heavy handheld device.
-One button will completely immobilize a suit of powered armour.
+One button will completely immobilize a suit of biomech armour.
 The other will re-mobilize it.
 
 The control baton's off button disconnects the armour wearer's physiologic connections to the suit.
@@ -839,13 +849,13 @@ E.g., the armour's hover would not shut off and drop a persona to her death.
 When control returns to the wearer, it takes a while to reconnect.
 There will 5-50 (5d10) units of reconnection time taken before the suit is operational again.
 
-A control baton is a tool meant for powered armour training. 
+A control baton is a tool meant for biomech armour training. 
 The shut-off is for the safety and punishment of trainees.
-There is a 42% chance that this will work on a specific suit of powered armour.
+There is a 42% chance that this will work on a specific suit of biomech armour.
 If the baton does work, the persona within the armour is at the mercy of the baton holder.
 
 The baton has a range of 50 hexes.
-A mechanic earns a bonus of +15 when making rolls related to powered armour.
+A mechanic earns a bonus of +15 when making rolls related to biomech armour.
 
 === Cords 
 
@@ -857,9 +867,9 @@ EXPS:: 42
 Value:: Special
 
 Cords can be used as rope for climbing, tying things down, making macrame, or whatever.
-These are special cords with unique properties possibly useful for the expedition.
+These are special cords with unique properties are possibly useful for the expedition.
 
-include::ROOT:partial$CH48_Table_Cord_Type.adoc[]
+include::hardware:partial$cord_type.adoc[]
 
 Alloy::
 Alloy cord is more robust and lighter than ordinary rope.
@@ -886,17 +896,6 @@ Monofilament wire can support 1998kg in wate without making special accommodatio
 Monofilament cord comes in lengths of 3-60 (3d20) hexes.
 Its wate is 10gms per hex and is worth 1000 per hex.
 
-
-:art: lazer_hand_saw.png
-:width: 250px
-:snark: A cut above a common cutter.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Hacksaw with a lazer instead of a blade.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Cutters 
 
 [horizontal]
@@ -906,26 +905,26 @@ Wate:: 0.6 kg
 EXPS:: 390
 Value:: Special
 
+:art: lazer_hand_saw.png
+:width: 250px
+:snark: A cut above a common cutter.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Hacksaw with a lazer instead of a blade.
+include::ROOT:partial$articulate.adoc[]
+
 Cutters are artifacts designed to cut through most anything.
 A cutter will be able to slice through stone, alloy, ceramics or space vehicle hull.
 A cutter is not a weapon and only works on sessile objects.
 All cutters have safety features that prevent injury to organic materials.
 The lazer cutter will slice through a suit of armour but leave the persona inside unharmed.
+
 Cutters are for industry and not combat.
+An ambushed robot or biomech suit is immune to a cutter.
+A persona could cut an __incapacitated__ robot or immobilized biomech suit to shreds.
 
-An ambushed robot or suit of powered armour is immune to a cutter, but the persona could cut an incapacitated robot or immobilized powered armour to shreds.
-
-include::ROOT:partial$CH48_Table_Cutter_Type.adoc[]
-
-:art: dehydrator.png
-:width: 400px
-:snark: Big thing to make small things
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of human silhouette standing beside a large bin machine. 
-
-include::ROOT:partial$articulate.adoc[]
+include::hardware:partial$cutter_artifact_type.adoc[]
 
 === Dehydrator
 
@@ -935,6 +934,15 @@ Duration:: Power Source
 Wate:: 2301kg
 EXPS:: 2069
 Value:: 10000000420
+
+:art: dehydrator.png
+:width: 400px
+:snark: Big thing to make small things
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Human silhouette standing beside a large bin machine. 
+include::ROOT:partial$articulate.adoc[]
 
 The dehydrator cryogenically suspends an object and then ejects up to 99.9942% of its molecular components.
 The dehydrator then bags the gray powder in a nondescript cellophane bag.
@@ -973,15 +981,7 @@ The dehydrator must cool down for 1 hour per kilogram dehydrated.
 Mixing bags of dehydrated grey powder does not mix up the objects.
 The complex memory molecule maintains each object's integrity.
 
-:art: detector_detecting.png
-:width: 250px
-:snark: Detector detecting detectors
-:artist: Louis Glanzman
-:date: 1953
-:license: CC BY-SA 4.0
-:description: Drawing of space suited humanoid looking at computer on stand.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Detectors
 
@@ -991,6 +991,15 @@ Duration:: 5 days per Battery
 Wate:: 3.5 kg
 EXPS:: 1200
 Value:: 950
+
+:art: detector_detecting.png
+:width: 250px
+:snark: Detector detecting detectors
+:artist: Louis Glanzman
+:date: 1953
+:license: CC BY-SA 4.0
+:description: Space suited humanoid looking at computer on stand.
+include::ROOT:partial$articulate.adoc[]
 
 Detectors are classic devices for leading expeditions to excitement, fun, and danger.
 All detectors are black boxes with a pistol grip and an unmistakable business end.
@@ -1006,7 +1015,7 @@ Detectors are 90% efficient.
 They will discover the mutant, detect the lie, or find the bomb 90% of the time.
 Detectors find the closest detectable thing first.
 
-include::ROOT:partial$CH48_Table_Detector_Type.adoc[]
+include::hardware:partial$detector_types.adoc[]
 
 === Detonator Box
 
@@ -1041,8 +1050,11 @@ Value:: 1000
 Filters protect the persona's sensory organs from short-term hazards.
 The filters consist of nose plugs, earplugs, or contact lenses.
 The filters allow the sensor to function normally but will filter out any damaging effects.
-
-//table fix missing table 
+There is an equal chance of any of the filters. 
+Roll a 1d12.
+1-4 is ear filters.
+5-8 is eye filters.
+9-12 is nose filters.
 
 Ear Filters::
 The ear filter fits snugly in the ear and does not impair hearing at all.
@@ -1053,7 +1065,7 @@ The filter negates one attack and sacrifices itself.
 Ear filters come in pairs of 1-12 (1d12).
 
 Eye Filters::
-The eye filter is a contact lens and does blur sight at all. 
+The eye filter is a contact lens that does not blur sight at all. 
 Any anthro and some aliens can use these safety lenses.
 The filter changes its structure when subject to any blinding attack.
 The filter negates the attack and safely disintegrates.
@@ -2023,28 +2035,3 @@ The disintegrator harnesses energy released from the previously disintegrated ma
 There will always be just enough energy for the subsequent disintegration.
 The waste disposer will disintegrate itself if subject to tampering.
 
-== Miscellaneous Equipment Parameters
-
-=== Vocation 
-Vocation represents the persona vocation best suited for the device.
-If the vocation attribute indicates Mechanic, then the artifact is used by mechanics.
-If the artifact vocation is labelled Spie, then it is an artifact for spying.
-If the vocation is labelled None, then it sits in no particular vocation category.
-
-=== Duration 
-Duration indicates how much use the device can endure before the user must replace the battery set.
-It would be unusual for a battery set to run down, but who knows, it may happen just when the device is most needed!
-Other toys have a predetermined number of uses before the user must replace the battery set.
-Single-use artifacts usually consume themselves to reach their objective.
-Artifacts with the duration of Power Source need a connection to a  power source like a wall outlet or a generator.
-These are artifacts that require enormous power plants like nuclear generators and hydroelectric dams.
-
-=== Wate 
-The wate parameter lists the wate of the device in kilograms.
-This parameter is added to the persona's wate allowance if she is carrying the artifact.
-
-=== EXPS
-The experience point value is for the persona, or personas, who correctly identifies the device. Identification can occur before or after the device is used.
-
-=== Value
-The value parameter is how many electrum pieces the device is worth. The value of a device may be priceless in certain situations of milieus.
