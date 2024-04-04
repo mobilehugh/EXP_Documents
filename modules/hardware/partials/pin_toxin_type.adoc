@@ -1,10 +1,9 @@
-// Table 44.6 Gas Type
-.*Pin Toxin Type*
+.*Pin Toxin Type Table* 
 [width="75%",cols="3*^",frame="all", stripes="even"]
 |===
 3+<|Determine what the pin injects into the target.
 s|Die Roll (1d100)
-s|Gas Effect
+s|Toxin
 s|Duration
 
 |01-10
@@ -13,14 +12,14 @@ s|Duration
 
 |11-20
 |xref:hardware:CH50_Pharmaceuticals.adoc#_heal[Heal]
-|See pharmaceutical
+|Damage = healing
 
 |21-30
 |Death
 |Forever
 
 |31-40
-|xref:referee_personas:anthro_rp.adoc#_insane[Insanity]
+|xref:referee_personas:rp_story_cues#_irrational[Irrationality]
 |1-4 days
 
 |41-50
@@ -44,15 +43,15 @@ s|Duration
 |1-4 days
 
 |91-99
-|xref:hardware:CH50_Pharmaceuticals.adoc#_pharmaceutical_type[Pharmaceutical]
-|See pharmaceutical
+|xref:hardware:CH50_Pharmaceuticals.adoc#_pharmaceutical_type[Pharma Effect]
+|As rolled. 
 
 |00
 |Ref's Own Table
 |
 
 s|Die Roll
-s|Gas Effect
+s|Toxin
 s|Duration
 
 3+<|Lethargy - halve all rolls. 
