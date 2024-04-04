@@ -1,11 +1,4 @@
-= Veterinary Equipment
-
-Veterinary equipment is for repairing organic machines.
-Each piece of vet equipment performs its private miracle, but nothing does everything, and some things do nothing.
-Even though the equipment is highly advanced, the equipment still requires some input from so-called professionals.
-Veterinarians are the primary users of vet artifacts.
-Most artifacts merely require a single vet to point the device correctly.
-While other artifacts require an entire xref:uncombat:task_rolls.adoc#_research_teams[Research Teams,window=_blank].
+= Biorepair Equipment
 
 :art: medical_equipment_combat.png
 :width: 350px
@@ -13,19 +6,55 @@ While other artifacts require an entire xref:uncombat:task_rolls.adoc#_research_
 :artist: Patrick Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of human soldier being tended to by white coated veterinarian.
-
+:description: A humanoid soldier being tended to by white coated veterinarian.
 include::ROOT:partial$articulate.adoc[]
 
-.*Vet Equipment Checklist*
+Biorepair equipment is for repairing organic machines.
+Each piece of equipment performs its own private miracle, but nothing does everything, and some things do nothing.
+Even though biorepair is highly advanced, it still requires input from so-called professionals.
+Veterinarians are the primary users of biorepair artifacts.
+Most artifacts merely require a single vet to point the device correctly.
+While other artifacts require an entire xref:uncombat:task_rolls.adoc#_research_teams[Research Teams,window=_blank].
+
+
+.*Biorepair Checklist*
 . <<_veterinary_equipment_type,Veterinary Equipment Type>>
-. <<_vet_equipment_parameters,Vet Equipment Parameters>>
+. <<_description, Description>>
+. <<_parameters,Parameters>>
 
-== Veterinary Equipment Type
+== Generate Type
 
-include::ROOT:partial$CH47_Table_Medical_Equipment.adoc[]
+include::hardware:partial$list_of_biorepair.adoc[]
 
-== Veterinary Equipment Types
+== Biorepair Data
+
+=== Description
+Biorepair equipment can look like pretty much anything.
+While some biorepair artifacts have general descriptions like a bed, or a coffin, they could be anything.  
+To modify a toys' description jump to xref:software:CH55_Appearances.adoc[Appearances,window=_blank].
+
+=== Biorepair Parameters
+
+==== Duration 
+The duration parameter indicates how much use the persona can get from the artifact.
+Single-use and disposable biorepair equipment improve patient hygiene and corporate profits.
+
+Other devices have a time for their duration parameter, like 500 units, 25 hours or 10 kgs of flesh.
+Each treatment depletes the duration by a set amount, and when the duration is all gone, the device needs new batteries.
+
+==== Wate 
+The wate of medical equipment is the functional wate of the artifact, excluding batteries.
+Wate is also a proxy for tech level, where low tech level machines are bigger and heavier.
+
+==== EXPS 
+The experience point value is for the persona, or personas, who correctly identifies the device.
+Identification can occur before or after the device is used.
+
+==== Value 
+The value parameter is how many electrum pieces the device is worth.
+The value of a device may be priceless in certain situations of milieus.
+
+== Biorepair Catalogue
 
 === Age Determiner 
 
@@ -146,16 +175,6 @@ The auto tourniquet does not heal damage but does prevent further damage.
 The electric tourniquet will always function (no batteries necessary) if attached to a warm organic creature.
 Veterinarians earn +20 on any task rolls that involve blood loss (surgery to severe trauma).
 
-:art: medical_bot_suturing.png
-:width: 350px
-:snark: Automated suturing device
-:artist: Patrick Redding
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of human receiving sutures from a tiny robot.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Bandage Box 
 
 [horizontal]
@@ -164,6 +183,15 @@ Bonuses:: +20 quick fixes, +10 surgery rolls
 Wate:: 5kg
 EXPS:: 500
 Value:: 1500
+
+:art: medical_bot_suturing.png
+:width: 350px
+:snark: Automated suturing device
+:artist: Patrick Redding
+:date: 1991
+:license: CC BY-SA 4.0
+:description:  Humanoid receiving sutures from a tiny robot.
+include::ROOT:partial$articulate.adoc[]
 
 The bandage box is not just a collection of bandages and plasters.
 A bandage box will crawl all over the patient's body, sewing, gluing, and bandaging wounds it finds.
@@ -190,7 +218,7 @@ If the persona is weak the attachment will atrophy.
 Biorganic attachments are relatively easy for a veterinarian or a biologist to attach.
 Not all attachments are created equal.
 
-include::ROOT:partial$CH47_Table_Biorganic_Attachment_Type.adoc[]
+include::hardware:partial$biorganic_attachments.adoc[]
 
 Basic Unit::
 The basic unit requires a veterinarian for attachment.
@@ -222,7 +250,7 @@ The luxury plus biorganic attachment looks like a sausage-in-a-bag.
 This lack of definition gives it the flexibility to more exotic limb types.
 A luxury edition biorganic attachment can replace fins, wings, noses, trunks, ears, eyelids, or damaged phenomic mutations.
 The luxury plus attachment includes a non-defective phenomic mutation.
-This mutation can be a xref:wetware:CH59_Physical.adoc#_combat_mutations[Physical Combat Mutation,window=_blank], or a xref:wetware:CH59_Physical.adoc#_non_combat_mutations[Physical Non-Combat Mutation,window=_blank].
+This mutation can be a xref:wetware:CH59_Physical.adoc#_combat_mutations[Phenomic Combat Mutation,window=_blank], or a xref:wetware:CH59_Physical.adoc#_non_combat_mutations[Phenomic Uncombat Mutation,window=_blank].
 If the persona is not missing a limb, they will still acquire the mutation.
 A vet is not required, and there is a 99% chance of attachment success.
 The luxury plus edition is worth 500 EXPS and 5500000 eps.
@@ -254,7 +282,7 @@ The degree of difficulty for stacking is 12 per level.
 So 12DD the first time and 24DD the second time.
 Failure results in an attribute penalty equal to the attribute bonus.  
 
-include::ROOT:partial$CH47_Table_Biorganic_Replacement_Type.adoc[]
+include::hardware:partial$biorganic_replacements.adoc[]
 
 Blood Filters::
 The blood filter is a super spleen combined with fortified bone marrow, strengthening the quality of the personas lifeblood.
@@ -294,7 +322,6 @@ The conductive tissue biorganic replacement is worth 500000 eps.
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Mammal four chamber heart with mechanical attachments. 
-
 include::ROOT:partial$articulate.adoc[]
 
 Contractile Tissue:: 
@@ -341,7 +368,7 @@ The pump biorganic replacement is worth 200000 eps.
 
 Lung::
 The lung biorganic replacement improves the persona's respiratory status.
-The improved respiratory tissue can be more lung, better gills, or hyperphotosynthetic leaves.
+The improved respiratory tissue can be more lung, better gills, or more photosynthetic leaves.
 The replacement will improve the persona's Constitution.
 The persona receives a permanent CON increase of +10%.
 The bonus must be at least one and no more than two points.
@@ -382,22 +409,6 @@ The improved appearance of the persona improves her Charisma.
 The persona receives a permanent Charisma increase of +20%.
 The bonus must be at least one and no more than three points.
 The softening biorganic replacement is worth 1000000 eps.
-
-=== Vision Goggles
-
-[horizontal]
-Duration:: 12 months per Battery
-Bonuses:: Nil
-Wate:: 500 gm (includes Battery)
-EXPS:: 960
-Value:: 200000 + Battery
-
-Vision goggles will restore sight to an anthro persona struck by visual impairment.
-The goggles restore sight up to a range of 1 hex per point of Awareness.
-The vision goggles
-A persona with an Awareness of 12 could see 12 hexes in daylight and complete darkness.
-If the persona has no visual impairment, they still enjoy the night vision effects.
-
 
 === Blood Clot Disruptor 
 
@@ -490,6 +501,27 @@ The cardio vest can rhythmically contract to pump the heart and lungs and keep v
 The cardio vest will maintain the persona for a few hours to get to long-term life support.
 In most circumstances, a cardio vest will synchronize and work in unison with an anesthetics mask.
 
+=== Cauterizing Ray 
+
+[horizontal]
+Duration:: 20 units per Battery
+Bonuses:: +20 for bleeding related rolls
+Wate:: 3kg
+EXPS:: 1002
+Value:: 220000
+
+The cauterizing ray expertly seals openings that leak vital fluids.
+The vital fluids can be blood, sap or whatever goo the anthro circulates.
+The device assists a vet on both external and internal uses.
+Each use burns through 1 unit of battery storage.
+
+Weaponizing this device yields unpredictable results.
+A successful attack roll inflicts 2-12 (2d6) hit points of damage.
+There is a 1% chance per hit point of damage of inflicting enduring damage.
+Enduring damage is immune to rapid healing by regeneration, quick fixes, and pharma heals.
+Enduring damage from a cauterizing ray must wait until after combat for the attention of a veterinarian.
+Each attack drains five units of battery power.
+Four attacks would drain a full battery.
 
 === Cerebro Converter
 
@@ -528,7 +560,7 @@ If properly exploited by the referee can translate into an endless source of fun
 . Donation Roll
 . Task Roll
 . Malfunction Roll
- 
+
 ==== Donation Roll
 The donor consciousness is transferring into the receiver's brain. 
 The receiver brain consciousness is fighting for its existence.
@@ -571,7 +603,7 @@ If the machine malfunctions, the mechanic must win her task roll to prevent a si
 If the donation was successful, but the vet lost her task roll, there is no side effect.
 If the donation was successful, but there was a machine malfunction, there is a side effect.
 
-include::ROOT:partial$CH47_Table_Cerebro_Converter_Side_Effects.adoc[]
+include::hardware:partial$cerebro_converter_side_effects.adoc[]
 
 Confluence::
 Confluence is the mixing of two consciousnesses in the same physical space. 
@@ -589,10 +621,10 @@ The player of the donor consciousness gets a saving roll versus a mental attack 
 The intensity of the mental attack is equal to the DD of the maneuver.
 If the player fails her saving roll, the cerebro converter creates one vegetative husk and one lifeless husk.
 
-Insanity::
-The conversion is a failure, and both consciousnesses now have insanity.
-Insanities in EXP are persona task irritations and not mundane terran mental illnesses.
-Jump to xref:referee_personas:anthro_rp.adoc#_introverted[mild insanity,window=_blank] for some inspiration.
+Irrationality::
+The conversion is a failure, and both consciousnesses now have an irrational personality trait.
+Irrationalities in EXP are role play irritations and not mundane terran mental illnesses.
+Jump to xref:referee_personas:anthro_rp.adoc#_introverted[mild irrationality,window=_blank] for some inspiration.
 
 Mind Blank::
 The conversion is a failure, and both consciousnesses are at risk of mind blanking.
@@ -615,7 +647,7 @@ The impacts of tech level on artifacts is cover in xref:software:CH56_Tech_Level
 A typical cerebro converter will be tech level ten.
 Transferring a donor to another anthro is 25DD, and transferring a donor into storage (organic or inorganic) is 30DD.
 
-include::ROOT:partial$CH47_Table_Cerebro_Converter_and_Tech_Level_(TL).adoc[]
+include::hardware:partial$cerebro_converter_tech_level.adoc[]
 
 === Cloning Equipment 
 
@@ -678,7 +710,7 @@ If the machine suffers major damage or worse, the cloning is a failure.
 Most often, a clone brew will fail catastrophically.
 The tank will contain a jumbling blob of bones, tubes, organs and rumpled skin.
 
-include::ROOT:partial$CH47_Table_Cloning_Machine_and_Tech_Level.adoc[]
+include::hardware:partial$cloning_and_tech_level.adoc[]
 
 === Coma Control Box 
 
@@ -702,12 +734,12 @@ A veterinarian must resuscitate the person when the device is removed.
 
 [horizontal]
 Duration:: 15 Days per Battery
-Bonuses:: +10 for stablization rolls
-Wate:: 70kg + attachments + Battery
-EXPS:: 700 + attachments
-Value:: 15000 + attachments
+Bonuses:: +10 for stabilization rolls
+Wate:: 70kg + accessories + Battery
+EXPS:: 700 + accessories
+Value:: 15000 + accessories
 
-A comfy couch is a mobile medical bed stocked with medical attachments.
+A comfy couch is a mobile medical bed stocked with medical accessories.
 The comfy couch uses antigrav instead of a mattress, safely supporting the patient.
 The bed can carry up to 300kg, but only one patient at a time. 
 The couch easily moves around at a maximum speed of 3 h/u.
@@ -717,19 +749,19 @@ The comfy couch may still have wheels.
 The comfy couch does not carry inorganic artifacts and does not like being used as a sled. 
 
 A comfy couch may have built-in veterinary equipment to complement vet care.
-The attachments automatically start working on the patient it is supporting.
-Every couch gets 0-3 (d4-1) on the Attachments Table.
+The accessories automatically start working on the patient it is supporting.
+Every couch gets 0-3 (d4-1) accessories.
 These additional artifacts add to the wate, EXP and value to the comfy couch.
 
 The comfy couch has the nickname porter plus.
 
-include::ROOT:partial$CH47_Table_Comfy_Couch_Attachments.adoc[]
+include::hardware:partial$comfy_couch_accessories.adoc[]
 
 === Consciousness Headband 
 
 [horizontal]
 Duration:: 20 uses 
-Bonuses:: +20 on consciousness rolls
+Bonuses:: +20 on consciousness rolls 
 Wate:: 200gm no battery
 EXPS:: 200
 Value:: 50000
@@ -743,127 +775,6 @@ Each use will inflict 0-5 (1d6-1) hit points of electrical damage to the persona
 
 The unit is self-contained and disposable.
 
-=== Cauterizing Ray 
-
-[horizontal]
-Duration:: 20 units per Battery
-Bonuses:: +20 for bleeding related rolls
-Wate:: 3kg
-EXPS:: 1002
-Value:: 220000
-
-The cauterizing ray expertly seals openings that leak vital fluids.
-The vital fluids can be blood, sap or whatever goo the anthro circulates.
-The device assists a vet on both external and internal uses.
-Each use burns through 1 unit of battery storage.
-
-Weaponizing this device yields unpredictable results.
-A successful attack roll inflicts 2-12 (2d6) hit points of damage.
-There is a 1% chance per hit point of damage of inflicting enduring damage.
-Enduring damage is immune to rapid healing by regeneration, quick fixes, and pharma heals.
-Enduring damage from a cauterizing ray must wait until after combat for the attention of a veterinarian.
-Each attack drains five units of battery power.
-Four attacks would drain a full battery.
-
-=== Hearing Headphones 
-
-[horizontal]
-Duration:: Unlimited
-Bonuses:: Special
-Wate:: 1.2kg
-EXPS:: 275
-Value:: 90000
-
-These headphones allow any hearing-impaired persona to hear normally.
-The device is weather resilient but does not work underwater or exatmo.
-The headphones are acoustically powered and do not require batteries.
-This device does not work for inorganic personas or machines.
-The persona enjoys +2 AWE for hearing-based maneuvers while wearing the headphones.
-Such maneuvers include safe cracking, detecting ambush, machine repairs. 
-When being worn for enhancement, sonic attacks inflict double damage to the persona.
-
-=== Drug Analyzer
-
-[horizontal]
-Duration:: 20 analyses per Battery
-Bonuses:: +25 on pharmacologic maneuvers
-Wate:: 10kg + Battery
-EXPS:: 250
-Value:: 50000
-
-The drug analyzer is a somewhat portable pharmacological analyzer.
-The analyzer assists a vet in analyzing a sample to identify it.
-The machine determines the type, effects, duration, side effects, and value of pharmaceuticals.
-It can also identify poisons and toxins.
-
-The analyzer prefers a full dose of the pharmaceutical to use for study.
-The analysis is destructive and consumes the entire dose.
-The data can be printed out or screened out depending on the milieu.
-A drug analyzer will store a molecular copy of the sample, allowing for future reproduction of the analyzed drug.
-A drug analyzer does not fabricate pharma.
-
-The degree of difficulty for the task roll depends on the tech level of the drug analyzer.
-Successful interpretation requires a vet task roll win.
-It is strongly recommended to build a xref:uncombat:task_rolls.adoc#_research_teams[Research Team,window=_blank] when using analyzing drugs.
-
-=== Drug analysis Degree of Difficulty
-.DD = 42 - Analyzer Tech Level
-****
-DD = 42 - Tech level 10 = 42 - 10 = 32
-****
-
-The time taken to analyze a sample is story-related. 
-Ideally, the duration of the analysis will be the most exciting duration possible.
-
-:art: pharma_box.png
-:width: 350px
-:snark: A box of vet stuff.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Open container full of medical type stuff. 
-
-include::ROOT:partial$articulate.adoc[]
-
-=== Drug Box 
-
-[horizontal]
-Duration:: 5 doses per Battery
-Bonuses:: +42 on pharmacologic rolls
-Wate:: 35kg + Battery
-EXPS:: 900
-Value:: 900000
-
-A drug box fabricates pharmaceuticals like a pharmacy in a drum.
-The box comes with a random and limited list of supplies.
-There is no limit to the number of pharmaceuticals the drug box can learn.
-The drug box does *not* analyze and copy meds.
-The drug box is not a pharmaceutical photocopier. 
-To add a new prescription requires a drug analyzer or a veterinarian. 
-
-Successful fabrication of a pharmaceutical does not require a veterinarian.
-However, a veterinarian's input decreases the chance of adverse effects.
-
-xref:uncombat:task_rolls.adoc#_research_teams[Research Teams] may be required for fancy rare medications.
-The difficulty of the maneuver depends on the chance of adverse effects.
-
-==== Existing Prescriptions
-A drug box may come with some existing prescriptions that it is ready to fabricate.
-The drug box has 0-3 (1d4-1) rolls on the Starting Pharma Table.
-There will be 1-10 (1d10) doses of each pharma type.
-
-include::ROOT:partial$CH47_Table_Drug_Box_Start.adoc[]
-
-==== A Nice Pairing
-There is a slight chance that a drug box will have a <<_drug_analyzer,Drug Analyzer>> built-in.
-The chance of this nice pairing is 1% per tech level of drug box
-A tech level 12 drug box has a 12% of being combined with a drug analyzer.
-The drug analyzer increases the wate and value of the drug box.
-The multi-tool will come with *no* existing prescriptions if the drug box and drug analyzer are combined.
-
-==== Duration
-Fabricating a pharmaceutical takes 1-8 (1d8) hours per dose.
-Ideally, the duration of the fabrication will be the most exciting duration possible.
 
 === Eye Cleanser
 
@@ -899,6 +810,24 @@ The blanket will function until it is damaged.
 The blanket is delicate, and a mere three hit points of damage destroys it.
 A fever control blanket is disposable and is disposable.
 
+=== Hearing Headphones 
+
+[horizontal]
+Duration:: Unlimited
+Bonuses:: Special
+Wate:: 1.2kg
+EXPS:: 275
+Value:: 90000
+
+These headphones allow any hearing-impaired persona to hear normally.
+The device is weather resilient but does not work underwater or exatmo.
+The headphones are acoustically powered and do not require batteries.
+This device does not work for inorganic personas or machines.
+The persona enjoys +2 AWE for hearing-based maneuvers while wearing the headphones.
+Such maneuvers include safe cracking, detecting ambush, machine repairs. 
+When being worn for enhancement, sonic attacks inflict double damage to the persona.
+
+
 === Incubator 
 
 [horizontal]
@@ -915,7 +844,7 @@ All organics are grown to survive outside of the womb, seed or spore sack.
 The incubator requires a vet or biologist to operate. 
 A nomad can also use an incubator to grow plants quickly.
 
-include::ROOT:partial$CH47_Table_Incubation_Times.adoc[]
+include::hardware:partial$incubation_duration_estimation.adoc[]
 
 When combined with a cloning tank, the incubator can safely speed up clone growth.
 
@@ -938,7 +867,7 @@ The detector does not make an exact diagnosis but guides the vet to better treat
 :artist: Louis Glanzman
 :date: 1953
 :license: CC BY-SA 4.0
-:description: Drawing of scientist people standing in front of gigantic computer screen.
+:description: Sciency people standing in front of gigantic computer screen.
 
 include::ROOT:partial$articulate.adoc[]
 
@@ -990,7 +919,7 @@ Charisma is the only attribute that can drop below zero.
 Death leads to decrepitude. 
 The death experience damages every attribute.
 A rebooted persona suffers the following attribute penalties.
-AWE, CHA, CON, DEX, INT, STR and HPMimum will lose 0 to 3 points (d4-1).
+AWE, CHA, CON, DEX, INT, STR and HPMinimum will lose 0 to 3 points (d4-1).
 If the persona zeroes one of her attributes during a life ray treatment, she is permanently dead.
 The life ray is far from perfect, and personas who keep dying will eventually die.
 
@@ -1012,94 +941,11 @@ Due to legacy and convention, the storage bag is 'crinkly.'
 The capper moulds itself onto any sized stump. 
 The amputated part fits into the limb capper's crinkly bag.
 The capper preserves nerve endings, tendons, and muscles of amputations for reinsertion.
-The crinkly bag keeps the amputation ready for reimplantation for several days.
+The crinkly bag keeps the amputation ready for implantation for several days.
 
 The limb capper is a common artifact in milieus frequented by knites.
 As an aside, the crinkly bag will store a sandwich indefinitely.
 
-:art: vedi_kit_low_tech.png
-:width: 350px
-:snark: Low tech vedi kit.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Old school medical kit with mortar, pestle, bandages.
-
-include::ROOT:partial$articulate.adoc[]
-
-=== Vedi Kit 
-
-[horizontal]
-Duration:: Single Use
-Bonuses:: +20 on healing rolls
-Wate:: 200gms
-EXPS:: 100
-Value:: 215
-
-The vedi kit (veterinarian medical kit) is a disposable single-use tool kit for making quick fixes.
-The quick fix is a temporary healing maneuver best done by veterinarians.
-The kit contains bioelectric painkillers, tissue adhesives, cutting acids, spray-on bandages, and fur remover.
-For sanity reasons, vedi kits melt into useless blobs after use.
-Vedi kits are also called medi kits, med packs, veti kits and first aid kits.
-When found in the field, there will usually be 1-6 vedi kits. 
-
-=== Vedi Wrap
-
-[horizontal]
-Duration:: Single Use
-Bonuses:: +20 on healing rolls
-Wate:: 100gms
-EXPS:: 100
-Value:: 3000
-
-A vedi wrap is a patch of self-adhering synthetic skin that melts onto injured skin.
-The wrap can be easily applied to obvious wounds by personas of any vocation. 
-Once applied, the wrap's effect is immediate, and the wrap prevents any further damage.
-The wrap will heal up to 30 hit points of specific skin damage.
-
-include::ROOT:partial$CH47_Table_Medi_Wrap_Type.adoc[]
-
-Veterinarians can extend the use of a vedi wrap by winning task rolls.
-A veterinarian can extend a vedi wrap to cover multiple wounds allowing one vedi wrap multiple uses.
-Extending a vedi wrap is 3DD per extension (3DD then 6DD then 9DD).
-
-Veterinarians can extend a vedi wrap to heal different injury types.
-A thermal burn vedi wrap could heal a chemical burn.
-This a 3DD maneuver.
-
-NOTE: *A vedi wrap is not a veggie wrap and is not edible.*
-
-Vedi wraps are also called medi wraps, med packs, plasters, veti wraps and first aid wraps.
-
-:art: vedi_kit_hi_tech.png
-:width: 350px
-:snark: Advance vedical kit.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Futuristic medical bag with detectors and sciency medicines.
-
-include::ROOT:partial$articulate.adoc[]
-
-
-=== Vedical Kit 
-
-[horizontal]
-Duration:: 42 uses.
-Bonuses:: +42 emergency rolls
-Wate:: 10kg
-EXPS:: 2000
-Value:: 500000
-
-The vedical kit (veterinarian medical kit)combines a simple diagnostic computer and a pile of medical supplies.
-The vedical kit is not an autonomous device but assists any persona in making quick fixes.
-The quick fix is a temporary healing maneuver best done by veterinarians.
-Other persona vocations can use a vedical kit, but they can only do quick fixes and get no bonuses.
-Vets enjoy a +42 bonus on any acute care maneuvers (quick fixes, poison cures, etc.).
-The diagnostic computer runs out of power, and the stores run out of materials after 42 uses.
-Recharging a medical kit is left to the improvisational talents of the referee.
-
-A vedical kit is also called a medical kit, trauma box or fist aid machine.
 
 === Metab Counter 
 
@@ -1175,6 +1021,117 @@ A persona with a 15 MND would have a psionic barrier of 30.
 If the mental attack passes the neuro cap's psionic barrier, the persona still gets a save versus a mental attack.
 The neuro cap will also block any psionic mutation that the persona attempts to emit.
 
+=== Pharma Analyzer
+
+[horizontal]
+Duration:: 20 analyses per Battery
+Bonuses:: +25 on pharmacologic maneuvers
+Wate:: 10kg + Battery
+EXPS:: 250
+Value:: 50000
+
+The pharma analyzer is a somewhat portable pharmacological analyzer.
+The analyzer assists a vet in analyzing a sample to identify it.
+The machine determines the type, effects, duration, side effects, and value of pharmaceuticals.
+It can also identify poisons and toxins.
+
+The analyzer prefers a full dose of the pharmaceutical to use for study.
+The analysis is destructive and consumes the entire dose.
+The data can be printed out or screened out depending on the milieu.
+A pharma analyzer will store a molecular copy of the sample, allowing for future reproduction of the analyzed pharma.
+A pharma analyzer does not fabricate pharma.
+
+The degree of difficulty for the task roll depends on the tech level of the pharma analyzer.
+Successful interpretation requires a vet task roll win.
+It is strongly recommended to build a xref:uncombat:task_rolls.adoc#_research_teams[Research Team,window=_blank] when using analyzing pharma.
+
+[discrete]
+=== Pharma analysis Degree of Difficulty
+.DD = 42 - Analyzer Tech Level
+****
+DD = 42 - Tech level 10 = 42 - 10 = 32
+****
+
+The time taken to analyze a sample is story-related. 
+Ideally, the duration of the analysis will be the most exciting duration possible.
+
+:art: pharma_box.png
+:width: 350px
+:snark: A box of vet stuff.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Open container full of medical type stuff. 
+include::ROOT:partial$articulate.adoc[]
+
+=== Pharma Box 
+
+[horizontal]
+Duration:: 5 doses per Battery
+Bonuses:: +42 on pharmacologic rolls
+Wate:: 35kg + Battery
+EXPS:: 900
+Value:: 900000
+
+A pharma box fabricates pharmaceuticals like a pharmacy in a drum.
+The box comes with a random and limited list of supplies.
+There is no limit to the number of pharmaceuticals the pharma box can learn.
+The pharma box does *not* analyze and copy pharma.
+The pharma box is not a pharmaceutical photocopier. 
+To add a new prescription requires a pharma analyzer or a veterinarian. 
+
+Successful fabrication of a pharmaceutical does not require a veterinarian.
+However, a veterinarian's input decreases the chance of adverse effects.
+
+xref:uncombat:task_rolls.adoc#_research_teams[Research Teams] may be required for fancy rare medications.
+The difficulty of the maneuver depends on the chance of adverse effects.
+
+==== Existing Prescriptions
+A pharma box may come with some existing prescriptions that it is ready to fabricate.
+The pharma box has 0-3 (1d4-1) rolls on the Starting Pharma Table.
+There will be 1-10 (1d10) doses of each pharma type.
+
+include::hardware:partial$pharma_box_scripts.adoc[]
+
+==== A Nice Pairing
+There is a slight chance that a pharma box will have a <<_pharma_analyzer,Pharma Analyzer>> built-in.
+The chance of this nice pairing is 1% per tech level of pharma box
+A tech level 12 pharma box has a 12% of being combined with a pharma analyzer.
+The pharma analyzer increases the wate and value of the pharma box.
+The multi-tool will come with *no* existing prescriptions if the pharma box and pharma analyzer are combined.
+
+==== Duration
+Fabricating a pharmaceutical takes 1-8 (1d8) hours per dose.
+Ideally, the duration of the fabrication will be the most exciting duration possible.
+
+=== Phenotype Detector
+
+[horizontal]
+Duration:: Unlimited
+Bonuses:: +15 for type related rolls
+Wate:: 2.1kg
+EXPS:: 300
+Value:: 25000
+
+This handy little box helps detect the taxonomy of organic personas. 
+The detector works on deceased specimens as well.
+
+EXP has a sciency fiction taxonomy to separate the three families.
+Jump to xref:roll_playing_system:families.adoc[Families,window=_blank] for more info.
+The family level reading will be Hominidae (anthros), diversidae (aliens), or inorganic.
+The genus-level reading for anthros is homo.
+The species-level reading for anthros is the anthro type.
+Anthro types are Avis (avarian), Canis (canine), Felis (feline), etcetera.
+An aquarian would register as Hominidae Homo Pisces.
+The subspecies would be its appearance shark, goldfish, or octopus.
+
+The genus-level reading for alien depends on what the referee named it.
+Brand new aliens can be registered and cross-referenced to other registered aliens. 
+This detector allows a biologist to build a menagerie of sciency fiction names.
+The famous sandworm from https://en.wikipedia.org/wiki/Sandworms_of_Dune[Arrakis] would register as Diversidae Lumbricalis Arrakis Humongous.
+Later the sandworm may be renamed Diversidae Lumbricalis Arrakis Melange.
+A phenotype detector can add a tremendous amount of work for the referee.
+
 === Poison Detector 
 
 [horizontal]
@@ -1241,33 +1198,6 @@ The probing takes 1 to 100 units of melodramatic agony.
 If the mutant fails their saving roll, the veterinarian must win a 12DD to detect the mutation type (16DD for biologists).
 The psionic box can combine with a Cerebro converter to search the target's mind like a https://en.wikipedia.org/wiki/Rolodex[roll-a-dex].
 
-=== Phenotype Detector
-
-[horizontal]
-Duration:: Unlimited
-Bonuses:: +15 for type related rolls
-Wate:: 2.1kg
-EXPS:: 300
-Value:: 25000
-
-This handy little box helps detect the taxonomy of organic personas. 
-The detector works on deceased specimens as well.
-
-EXP has a sciency fiction taxonomy to separate the three families.
-Jump to xref:roll_playing_system:families.adoc[Families,window=_blank] for more info.
-The family level reading will be Hominidae (anthros), diversidae (aliens), or inorganic.
-The genus-level reading for anthros is homo.
-The species-level reading for anthros is the anthro type.
-Anthro types are Avis (avarian), Canis (canine), Felis (feline), etcetera.
-An aquarian would register as Hominidae Homo Pisces.
-The subspecies would be its appearance shark, goldfish, or octopus.
-
-The genus-level reading for alien depends on what the referee named it.
-Brand new aliens can be registered and cross-referenced to other registered aliens. 
-This detector allows a biologist to build a menagerie of sciency fiction names.
-The famous sandworm from https://en.wikipedia.org/wiki/Sandworms_of_Dune[Arrakis] would register as Diversidae Lumbricalis Arrakis Humongous.
-Later the sandworm may be renamed Diversidae Lumbricalis Arrakis Melange.
-A phenotype detector can add a tremendous amount of work for the referee.
 
 === Rejuv Chamber 
 
@@ -1307,7 +1237,7 @@ If the vet loses her 20 DD task roll, the patient loses 1 point off a random att
 Regardless of what requires rejuvenation, the patient only loses on attribute point.
 The attribute reduced is randomly determined.
 
-include::ROOT:partial$CH47_Table_Rejuv_Damage.adoc[]
+include::hardware:partial$rejuv_chamber_attribute_cost.adoc[]
 
 Only treatments that need point restoration can harm the patient.
 Treating parasites, diseases, poisons, tumours, and pharma side effects will not damage the persona.
@@ -1319,16 +1249,6 @@ A patient undergoing an 8DD maneuver would require 8 hours in the machine.
 Vets can speed up the process by increasing the degree of difficulty of the maneuver.
 The rejuv chamber does not work like a stasis bag and ejects personas when the treatment finishes. 
 
-:art: omnilingual.png
-:width: 450px
-:snark: BIPAP for biohazard
-:artist: Kelly Freas
-:date: 1957
-:license: CC BY-SA 4.0
-:description: Drawing of woman wearing oxygen mask standing in front of skyscraper ruins.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Respirator 
 
 [horizontal]
@@ -1337,6 +1257,15 @@ Bonuses:: +15 on breathing rolls
 Wate:: 2.5kg
 EXPS:: 500
 Value:: 50000
+
+:art: omnilingual.png
+:width: 450px
+:snark: BIPAP for biohazard
+:artist: Kelly Freas
+:date: 1957
+:license: CC BY-SA 4.0
+:description: Humanoid wearing oxygen mask standing in front of skyscraper ruins.
+include::ROOT:partial$articulate.adoc[]
 
 A Respirator will monitor, regulate and maintain respiration in organic personas.
 For example, the respirator moves carbon dioxide for florians and oxygen for canines.
@@ -1347,15 +1276,7 @@ If any breathing irregularities arise, the respirator will take over.
 The device will filter out toxic substances in the air but does not have an air supply.
 It protects the persona from toxic air but is not usable underwater.
 
-:art: laser_scalpel.png
-:width: 350px
-:snark: Smoking edge of the blade
-:artist: Patrick Redding
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of pen shaped device cutting skin with lazer beam.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Scalpel 
 
@@ -1365,6 +1286,15 @@ Bonuses:: +15 on fleshy rolls
 Wate:: 100gm
 EXPS:: 200
 Value:: 1500
+
+:art: laser_scalpel.png
+:width: 350px
+:snark: Smoking edge of the blade
+:artist: Patrick Redding
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Pen shaped device cutting skin with lazer beam.
+include::ROOT:partial$articulate.adoc[]
 
 This scalpel is a blade-less finely adjustable surgical flesh cutting device.
 A scalpel will easily cut through any organic covering.
@@ -1477,25 +1407,90 @@ There may be a socket in the skull, a tinfoil hat, a keyboard deck, a coily cord
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Image of military medical kit with red cross symbols.
 
+=== Vedi Kit 
+
+[horizontal]
+Duration:: Single Use
+Bonuses:: +20 on healing rolls
+Wate:: 200gms
+EXPS:: 100
+Value:: 215
+
+The vedi kit (veterinarian medical kit) is a disposable single-use tool kit for making quick fixes.
+The quick fix is a temporary healing maneuver best done by veterinarians.
+The kit contains bioelectric painkillers, tissue adhesives, cutting acids, spray-on bandages, and fur remover.
+For sanity reasons, vedi kits melt into useless blobs after use.
+Vedi kits are also called medi kits, med packs, vedi kits and first aid kits.
+When found in the field, there will usually be 1-6 vedi kits. 
+
+=== Vedi Wrap
+
+[horizontal]
+Duration:: Single Use
+Bonuses:: +20 on healing rolls
+Wate:: 100gms
+EXPS:: 100
+Value:: 3000
+
+A vedi wrap is a patch of self-adhering synthetic skin that melts onto injured skin.
+The wrap can be easily applied to obvious wounds by personas of any vocation. 
+Once applied, the wrap's effect is immediate, and the wrap prevents any further damage.
+The wrap will heal up to 30 hit points of specific skin damage.
+
+include::hardware:partial$vedi_wrap_type.adoc[]
+
+Veterinarians can extend the use of a vedi wrap by winning task rolls.
+A veterinarian can extend a vedi wrap to cover multiple wounds allowing one vedi wrap multiple uses.
+Extending a vedi wrap is 3DD per extension (3DD then 6DD then 9DD).
+
+Veterinarians can extend a vedi wrap to heal different injury types.
+A thermal burn vedi wrap could heal a chemical burn.
+This a 3DD maneuver.
+
+NOTE: *A vedi wrap is not a veggie wrap and is not edible.*
+
+Vedi wraps are also called medi wraps, med packs, plasters, vedi wraps and first aid wraps.
+
+:art: vedi_kit_hi_tech.png
+:width: 350px
+:snark: Advance vedical kit.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Futuristic medical bag with detectors and sciency medicines.
 include::ROOT:partial$articulate.adoc[]
 
-== Vet Equipment Parameters
 
-=== Duration 
-The duration parameter indicates how much use the persona can get from the artifact.
-Single-use and disposable vet equipment improve patient hygiene and corporate profits.
+=== Vedical Kit
 
-Other devices have a time for their duration parameter, like 500 units, 25 hours or 10 kgs of flesh.
-Each treatment depletes the duration by a set amount, and when the duration is all gone, the device needs new batteries.
+[horizontal]
+Duration:: 42 uses.
+Bonuses:: +42 emergency rolls
+Wate:: 10kg
+EXPS:: 2000
+Value:: 500000
 
-=== Wate 
-The wate of medical equipment is the functional wate of the artifact, excluding batteries.
-Wate is also a proxy for tech level, where low tech level machines are bigger and heavier.
+The vedical kit (veterinarian medical kit)combines a simple diagnostic computer and a pile of medical supplies.
+The vedical kit is not an autonomous device but assists any persona in making quick fixes.
+The quick fix is a temporary healing maneuver best done by veterinarians.
+Other persona vocations can use a vedical kit, but they can only do quick fixes and get no bonuses.
+Vets enjoy a +42 bonus on any acute care maneuvers (quick fixes, poison cures, etc.).
+The diagnostic computer runs out of power, and the stores run out of materials after 42 uses.
+Recharging a medical kit is left to the improvisational talents of the referee.
 
-=== EXPS 
-The experience point value is for the persona, or personas, who correctly identifies the device.
-Identification can occur before or after the device is used.
+A vedical kit is also called a medical kit, trauma box or fist aid machine.
 
-=== Value 
-The value parameter is how many electrum pieces the device is worth.
-The value of a device may be priceless in certain situations of milieus.
+=== Vision Goggles
+
+[horizontal]
+Duration:: 12 months per Battery
+Bonuses:: Nil
+Wate:: 500 gm (includes Battery)
+EXPS:: 960
+Value:: 200000 + Battery
+
+Vision goggles will restore sight to an anthro persona struck by visual impairment.
+The goggles restore sight up to a range of 1 hex per point of Awareness.
+The vision goggles
+A persona with an Awareness of 12 could see 12 hexes in daylight and complete darkness.
+If the persona has no visual impairment, they still enjoy the night vision effects.
