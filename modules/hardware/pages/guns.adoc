@@ -1,7 +1,5 @@
 = Guns
 
-Guns are weapons designed for lethal personal combat.
-
 :art: pistols_pistols-pistols.png
 :width: 550px
 :snark: Pistols can have any shape.
@@ -9,7 +7,6 @@ Guns are weapons designed for lethal personal combat.
 :date: 1991
 :license: CC BY-SA 4.0
 :description: Four futuristic pistols in a row.
-
 include::ROOT:partial$articulate.adoc[]
 
 :art: rifles_rifles_rifles.png
@@ -18,30 +15,109 @@ include::ROOT:partial$articulate.adoc[]
 :artist: Mike Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Four futuristic fifles in a row.
-
+:description: Three futuristic rifles in a row.
 include::ROOT:partial$articulate.adoc[]
+
+Guns are personal combat weapons designed to delivery damage and destruction.
 
 .*Gun Checklist*
-. <<_gun_type,Gun Type>>
-. <<_gun_parameters,Gun Parameters>>
+. <<_generate_type,Gun Type>>
+. <<_power_level,Power Level>>
+. <<_description,Description>>
+. <<_parameters,Gun Parameters>>
+
+== Generate Type
+
+include::hardware:partial$list_of_guns.adoc[]
+
+== Gun Data
+
+=== Power Level
+Power level is a generic term for calibre or the weapon.
+Power level could be the diameter of the bullet or the amount of lazer force each attack delivers.
+The default power level is medium power, and only if a change is needed is this table used.
+There are five different power levels, and the most common is medium power. 
+
+include::hardware:partial$gun_calibre_types.adoc[]
+
+=== Description
+Guns typically look like rifles or pistols. 
+Very low tech or very high tech guns may have unique shapes. 
+To modify a toys' description jump to xref:software:CH55_Appearances.adoc[Appearances,window=_blank].
+
+=== Parameters
+
+==== Attack Type 
+The attack types indicate the frequency of attack that the powered projectile weapon has.
+Attack Shoot has one attack roll per unit.
+Attack Types D and E have two and three attack rolls per unit.
+Attack Flotto is for Full auto, and the player makes five attack rolls per unit with some special rules. 
+For all the deets jump to xref:combat:attack_types.adoc[Attack Types,window=_blank].
+
+==== Range 
+The range is how far the weapon can shoot and retain its accuracy.
+The range is a hardware limitation and does not reflect the skills of the persona in any way.
+The weapon's range is limited by wavering bullets, dissipating charges, or decaying material.
+
+The range lists a number and a negative number in brackets, 120h (-230).
+The first number is the range in hexes where there are no range penalties.
+The number in brackets is the per hex penalty for targets beyond the weapons range (first number).
+
+A weapon has the following range parameters 120h (-230).
+The persona can shoot any target within 120 hexes with no penalties.
+A target 121 hexes away has a -230 attack roll penalty.
+A target 123 hexes away has a -690 attack roll penalty.
+
+The range parameters of 100h (-1000) indicate a weapon with a maximum range of 100 hexes and no further.
+
+The number in brackets was previously called the decay value of the weapon.
+
+==== Accuracy 
+Accuracy simply reflects the accuracy of the gun.
+The better balanced and better designed the weapon, the easier it is to hit the target.
+The player adds the accuracy parameter of the gun to her attack roll.
+A weapon with an accuracy of +50 adds +50 to every kilodie roll the player makes with the weapon. 
+
+==== Damage 
+Damage is the number of hit points the weapon subtracts from the target with a successful attack roll.
+Most often, the damage parameter is a number range with the suggested die roll in brackets.
+For example, 4-48 (4d12) indicates a weapon that inflicts 4-48 hit points of damage, and four twelve-sided dice will generate the value.
+If there is a list of five different damage ranges, such as 5-60, 5-50, 4-48, 3-30, 2-20, then the weapon has power levels.
+
+==== Magazine 
+The magazine lists the number of attack rolls before having to reload.
+Emptying the magazine can mean using up all the bullets, expending all the fuel or draining the battery.
+A gun with a magazine of 45 can shoot 45 rounds before the persona must reload.
+
+==== Wate 
+Wate lists the unloaded wate of the gun in kilograms.
+There are several different parameters for wate.
+The first number is the wate of the weapon, and the number in parenthesis is the wate of the ammunition.
+
+The weapon wate is usually a single number, but weapons with different power levels (calibres) have three values.
+The first wate is for high powered versions, the middle wate is for the medium powered version, and the last wate is for low powered versions.
+For example, 4.62, *2.75*, and 1.95 represent 4.63 kgs for the high powered version (XHP and HP), 2.75 kgs for the medium powered version (MP) and 1.95 kgs for the low powered versions (LP and XLP)
+
+The ammunition wate is usually a single value in brackets.
+If the value is a percentage (like 1.5%), the ammunition wate is a percentage of the weapon wate.
+If the value is a precise wate (200 gms), the ammunition wate is specifically that amount.
+If the value in the brackets says (battery), the ammunition wate is that of a battery (usually 100 gms).
+If the value in the brackets says (fuel), the ammunition wate is that of the fuel (usually negligible).
+
+Ammunition wate is for encumbrance purists.
+
+==== EXPS 
+The persona wins this experience point award for identifying the gun. 
+The player may identify the gun by deduction or firing. 
+
+==== Value 
+The value indicates the MSRP (Money Suggested in RolePlaying) of the gun in eps.
+The value in brackets is the value of the ammunition in eps.
 
 
-== Gun Type
+== Gun Catalogue
 
-include::ROOT:partial$CH46_Table_Gun_Type.adoc[]
 
-== Gun Types
-
-:art: pistol_aerosol.png
-:width: 250px
-:snark: Convert ozone damage to real damage.
-:artist: Mike Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Pistol with chamber for holding gas on body.
-
-include::ROOT:partial$articulate.adoc[]
 
 === Aerosol Pistol 
 
@@ -55,6 +131,15 @@ Wate:: 0.5kg
 EXPS:: 500
 Value:: 2000
 
+:art: pistol_aerosol.png
+:width: 250px
+:snark: Convert ozone damage to real damage.
+:artist: Mike Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Pistol with chamber for holding gas canister.
+include::ROOT:partial$articulate.adoc[]
+
 An aerosol pistol amplifies the range and efficiencies of aerosols.
 The aerosol pistol doubles the range and triples the number of charges.
 The pistol does not alter the area of effect, duration, or damage of an aerosol.
@@ -64,15 +149,7 @@ An aerosol with a ten hex range and three hex area of effect would have a 20 hex
 A malfunction indicates a loss of all remaining charges.
 There is a slim chance (determined by the ref) of the weapon exploding on malfunction.
 
-:art: aerosol_rifle.png
-:width: 450px
-:snark: Convert Ozone damage to real damage.
-:artist: JEShields
-:date: 2014
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Fancy rifle with extra bulbs and things.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Aerosol Rifle 
 
@@ -86,6 +163,15 @@ Wate:: 1.6kg
 EXPS:: 500
 Value:: 8000
 
+:art: aerosol_rifle.png
+:width: 450px
+:snark: Convert Ozone damage to real damage.
+:artist: JEShields
+:date: 2014
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Fancy rifle with extra bulbs and things.
+include::ROOT:partial$articulate.adoc[]
+
 An aerosol rifle amplifies the range and efficiencies of aerosols.
 The aerosol rifle triples the range and quintuples (five times) the number of charges.
 The rifle does not alter the area of effect, duration, or damage of an aerosol.
@@ -95,15 +181,7 @@ An aerosol with a ten hex range and three hex area of effect would have a 30h ra
 A malfunction indicates a loss of all remaining charges.
 There is a slim chance (determined by the ref) of the weapon exploding on malfunction.
 
-:art: pyrotomic_disintegrator_pistol.png
-:width: 250px
-:snark: Patented pyrotomic disintegrator pistol
-:artist: G.C. Schaible
-:date: 1953
-:license: CC BY-SA 4.0
-:description: Drawing of toy pistol from patent office 1953.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Antimat Pistol
 
@@ -117,6 +195,15 @@ Wate:: 2.7kg (5gm)
 EXPS:: 900
 Value:: 100000 (10000)
 
+:art: pyrotomic_disintegrator_pistol.png
+:width: 250px
+:snark: Patented pyrotomic disintegrator pistol
+:artist: G.C. Schaible
+:date: 1953
+:license: CC BY-SA 4.0
+:description: Toy pistol from patent office 1953.
+include::ROOT:partial$articulate.adoc[]
+
 An antimat pistol launches a microparticle of antimatter suspended in a lattice of electrons.
 This lattice will shatter when it hits a liquid or solid.
 The resulting explosion will instantly annihilate 50 kg of matter.
@@ -126,15 +213,7 @@ Everything in the ten hex radius will take 25 to 70 (5d10+20) hit points of dama
 A malfunction with this weapon means the electron lattice has shattered within the gun.
 A malfunction usually indicates a harmless misfire, but if the ref is in a bad mood, the gun may disintegrate itself.
 
-:art: pyrotomic_disintegrator_rifle.png
-:width: 450px
-:snark: Patented pyrotomic disintegrator rifle
-:artist: G.C. Schaible
-:date: 1953
-:license: CC BY-SA 4.0
-:description: Drawing of toy rifle from patent office 1953.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Antimat Rifle 
 
@@ -148,7 +227,16 @@ Wate:: 5kg (10gm)
 EXPS:: 900
 Value:: 375000 (15000)
 
-An antimat rifle launches a microparticle of antimatter suspended in a lattice of electrons.
+:art: pyrotomic_disintegrator_rifle.png
+:width: 450px
+:snark: Patented pyrotomic disintegrator rifle
+:artist: G.C. Schaible
+:date: 1953
+:license: CC BY-SA 4.0
+:description: Toy rifle from patent office 1953.
+include::ROOT:partial$articulate.adoc[]
+
+An antimat rifle launches a micro-particle of antimatter suspended in a lattice of electrons.
 This lattice will shatter when it hits a liquid or solid.
 The resulting explosion will instantly annihilate 100 kg of matter.
 The explosion releases a blast of heavy particles and superheated gases that will affect everything within a 25h radius regardless of cover.
@@ -156,17 +244,6 @@ Everything in the 25h radius will take 25-70 (5d10+20) hit points of damage.
 
 A malfunction with this weapon means the electron lattice has shattered within the gun.
 A malfunction usually means a harmless misfire, but if the ref is in a bad mood, the gun may disintegrate itself.
-
-
-:art: bee_gun.png
-:width: 250px
-:snark: 1B and not 2B.
-:artist: Mike Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Pistol with image of bee on casing.
-
-include::ROOT:partial$articulate.adoc[]
 
 === Beegun 
 
@@ -180,6 +257,15 @@ Wate:: 2kg (200gm)
 EXPS:: 500
 Value:: 250000 (30000)
 
+:art: bee_gun.png
+:width: 250px
+:snark: 1B and not 2B.
+:artist: Mike Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Pistol with image of bee on casing.
+include::ROOT:partial$articulate.adoc[]
+
 The beegun's activation chamber excites a normally docile insect into a poisonous rage.
 After two units of warming up, the beegun is ready to fire.
 If the player wins an attack roll, the insect will inject a deadly and instantaneous poison.
@@ -190,15 +276,6 @@ The ammunition for a beegun is not reusable.
 A malfunction can only occur with the ammo of this weapon.
 A malfunction indicates a non-poisonous projectile.
 
-:art: bolt_action_rifle.png
-:width: 450px
-:snark: Classic single shot long gun.
-:artist: Mike Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Rifle with wooden stock and bolt for chambering bullets.
-
-include::ROOT:partial$articulate.adoc[]
 
 === Bolt Action rifle
 
@@ -212,20 +289,19 @@ Wate:: 3.7 kg, *3.4 kg*, 3.1 kg (1.5%)
 EXPS:: 400
 Value:: 500 (1)
 
+:art: bolt_action_rifle.png
+:width: 450px
+:snark: Classic single shot long gun.
+:artist: Mike Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Rifle with wooden stock and bolt for chambering bullets.
+include::ROOT:partial$articulate.adoc[]
+
 The bolt action rifle is your familiar mundane terran hunting, or target, rifle.
 This weapon can also be called a pump-action, revolving chamber, steam, or pneumo-rifle.
 
 A malfunction with this weapon is an ammo misfire and not a jam.
-
-:art: pistol_cryo.png
-:width: 250px
-:snark: Freeze! 
-:artist: Mike Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Futuristic pistol with square large barrel.
-
-include::ROOT:partial$articulate.adoc[]
 
 === Cryogun 
 
@@ -238,6 +314,15 @@ Magazine:: 10 per Battery
 Wate:: 2kg + Battery
 EXPS:: 700
 Value:: 6000
+
+:art: pistol_cryo.png
+:width: 250px
+:snark: Freeze! 
+:artist: Mike Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Futuristic pistol with square large barrel.
+include::ROOT:partial$articulate.adoc[]
 
 A cryogun precipitously drops the temperature creating ice, snow and death.
 This weapon inflicts both damage and freezes the target in place.
@@ -257,15 +342,7 @@ This weapon is also known as a Frigid Aire or a cop gun (they don't have to yell
 
 A malfunction results in the loss of a charge.
 
-:art: death_ray_pistol.png
-:width: 250px
-:snark: Death on demand.
-:artist: Mike Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Pistol with funnel like barrel.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Death Ray Pistol
 [horizontal]
@@ -278,6 +355,15 @@ Wate:: 1.25kg (1.5%) + Battery
 EXPS:: 250
 Value:: 200 (1)
 
+:art: death_ray_pistol.png
+:width: 250px
+:snark: Death on demand.
+:artist: Mike Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Pistol with funnel like barrel.
+include::ROOT:partial$articulate.adoc[]
+
 The death ray pistol attacks the electrochemical life force of organic creatures.
 The beam attack must score a hit to be effective.
 The death ray inflicts 2-16 (2d8) hit points of damage plus a good chance of death.
@@ -288,16 +374,6 @@ This weapon is also called a kill-o-zap gun or a terminator.
 
 The malfunction of this weapon will occasionally call for an attack on the firer.
 Normal malfunctions result in the loss of all remaining charges.
-
-:art: gun_soft_serve.png
-:width: 250px
-:snark: Disposable disposer.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Modern fake looking pistol with swirly barrel. 
-
-include::ROOT:partial$articulate.adoc[]
 
 === Derringer 
 
@@ -311,6 +387,15 @@ Wate:: 1.25 (1.5%)
 EXPS:: 250
 Value:: 200 (1)
 
+:art: gun_soft_serve.png
+:width: 250px
+:snark: Disposable disposer.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Modern fake looking pistol with swirly barrel. 
+include::ROOT:partial$articulate.adoc[]
+
 The derringer is a compact and concealable weapon pistol.
 It is composed of plastic alloys, and is coated with fingerprint resistant materials.
 The derringer can be melted to nothing by submerging it in boiling water. 
@@ -319,16 +404,6 @@ When being concealed, this weapon will give bonuses of +20 on sneaky PT rolls.
 This weapon is also known as a family planner, or a Saturday night special.
 
 A malfunction will jettison dud ammo and jam the weapon.
-
-:art: disintigration_gun.png
-:width: 450px
-:snark: Disassembly inspired.
-:artist: Mike Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Futuristic boxy looking gun with dish instead of barrel.
-
-include::ROOT:partial$articulate.adoc[]
 
 === Disintegration Gun 
 
@@ -341,6 +416,15 @@ Magazine:: 5
 Wate:: 4.5kg + Batteries
 EXPS:: 20
 Value:: 500 000 + Batteries
+
+:art: disintegration_gun.png
+:width: 450px
+:snark: Disassembly inspired.
+:artist: Mike Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Futuristic boxy looking gun with dish instead of barrel.
+include::ROOT:partial$articulate.adoc[]
 
 The disintegration gun turns solids into elemental particles. 
 The nicely organized matter turns into a cloud of dust.
@@ -372,8 +456,6 @@ Partial disintegration inflicts 1-20 (1d20) hit points in damage per kg destroye
 For example, a 100 kg target that has 21 kg disintegrated will take 8-64 plus 20-400.
 Very few personas survive a disintegration event. 
 
-
-
 .*Other Stuff*
 The disintegrated matter must be semi-contiguous.
 For example, a hit on the backpack, would annihilate the backpack, and send its contents clattering to the floor.
@@ -385,16 +467,6 @@ WARNING: Nomenclature overlap could lead to different methods of disintegration.
 A weapon malfunction indicates an internal disintegration event.
 This will most likely destroy the weapon.
 This gun is also known as a vaporizer, a duster and a dismodulator.
-
-:art: tom_corbett_pistol.png
-:width: 250px
-:snark: Zapping pistol
-:artist: M. Hirsch
-:date: 1953
-:license: CC BY-SA 4.0
-:description: Drawing of futuristic pistol from Tom Corbett TV show merchandise.
-
-include::ROOT:partial$articulate.adoc[]
 
 === Electron Pistol 
 
@@ -408,6 +480,15 @@ Wate:: 1.3 kg, *1.0kg*, 0.8 kg + Battery
 EXPS:: 500
 Value:: 5000 + Battery
 
+:art: tom_corbett_pistol.png
+:width: 250px
+:snark: Zapping pistol
+:artist: M. Hirsch
+:date: 1953
+:license: CC BY-SA 4.0
+:description: Futuristic pistol from Tom Corbett TV show merchandise.
+include::ROOT:partial$articulate.adoc[]
+
 The electron pistol releases a beam of electron tearing molecules.
 This pistol's electron beam is unaffected by force fields.
 An electron pistol's beam is not absorbed by the force field and damages the target.
@@ -416,15 +497,7 @@ The medium powered electron pistol damage is 3-30 and its wate is 1 kg.
 
 A malfunction results in a fully drained battery.
 
-:art: tom_corbett_rifle.png
-:width: 450px
-:snark: Zapping rifle
-:artist: M. Hirsch
-:date: 1953
-:license: CC BY-SA 4.0
-:description: Drawing of futuristic rifle from Tom Corbett TV show merchandise.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Electron Rifle 
 
@@ -437,6 +510,15 @@ Magazine:: 15 per Battery
 Wate:: 4.2 kg, 4.0 kg, 3.8 kg (+ Battery)
 EXPS:: 750
 Value:: 20000 + Battery
+
+:art: tom_corbett_rifle.png
+:width: 450px
+:snark: Zapping rifle
+:artist: M. Hirsch
+:date: 1953
+:license: CC BY-SA 4.0
+:description: Futuristic rifle from Tom Corbett TV show merchandise.
+include::ROOT:partial$articulate.adoc[]
 
 A minute organized beam of electrons massacre the target's molecules.
 The beam has the ability to punch holes in force fields.
@@ -1831,44 +1913,8 @@ A malfunction indicates a malformed water droplet and the loss of a charge.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Gun Parameters
 
-=== Attack Type 
-The attack types indicate the frequency of attack that the powered projectile weapon has.
-Attack Shoot has one attack roll per unit.
-Attack Types D and E have two and three attack rolls per unit.
-Attack Flotto is for Full auto, and the player makes five attack rolls per unit with some special rules. 
-For all the deets jump to xref:combat:attack_types.adoc[Attack Types,window=_blank].
-
-=== Range 
-The range is how far the weapon can shoot and retain its accuracy.
-The range is a hardware limitation and does not reflect the skills of the persona in any way.
-The weapon's range is limited by wavering bullets, dissipating charges, or decaying material.
-
-The range lists a number and a negative number in brackets, 120h (-230).
-The first number is the range in hexes where there are no range penalties.
-The number in brackets is the per hex penalty for targets beyond the weapons range (first number).
-
-A weapon has the following range parameters 120h (-230).
-The persona can shoot any target within 120 hexes with no penalties.
-A target 121 hexes away has a -230 attack roll penalty.
-A target 123 hexes away has a -690 attack roll penalty.
-
-The range parameters of 100h (-1000) indicate a weapon with a maximum range of 100 hexes and no further.
-
-The number in brackets was previously called the decay value of the weapon.
-
-=== Accuracy 
-Accuracy simply reflects the accuracy of the gun.
-The better balanced and better designed the weapon, the easier it is to hit the target.
-The player adds the accuracy parameter of the gun to her attack roll.
-A weapon with an accuracy of +50 adds +50 to every kilodie roll the player makes with the weapon. 
-
-=== Damage 
-Damage is the number of hit points the weapon subtracts from the target with a successful attack roll.
-Most often, the damage parameter is a number range with the suggested die roll in brackets.
-For example, 4-48 (4d12) indicates a weapon that inflicts 4-48 hit points of damage, and four twelve-sided dice will generate the value.
-If there is a list of five different damage ranges, such as 5-60, 5-50, 4-48, 3-30, 2-20, then the weapon has power levels.
+// todo find me a home
 
 :art: ammo_weapon.png
 :width: 450px
@@ -1877,42 +1923,4 @@ If there is a list of five different damage ranges, such as 5-60, 5-50, 4-48, 3-
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Rifle with oblong barrel opening and top fed revolving feed.
-
 include::ROOT:partial$articulate.adoc[]
-
-=== Power Levels
-Power level is a generic term for calibre or the weapon.
-Power level could be the diameter of the bullet or the amount of lazer force each attack delivers.
-There are five different power levels, and the most common is medium power. 
-
-include::ROOT:partial$CH46_Table_Weapon_Calibre.adoc[]
-
-=== Magazine 
-The magazine lists the number of attack rolls before having to reload.
-Emptying the magazine can mean using up all the bullets, expending all the fuel or draining the battery.
-A gun with a magazine of 45 can shoot 45 rounds before the persona must reload.
-
-=== Wate 
-Wate lists the unloaded wate of the gun in kilograms.
-There are several different parameters for wate.
-The first number is the wate of the weapon, and the number in parenthesis is the wate of the ammunition.
-
-The weapon wate is usually a single number, but weapons with different power levels (calibres) have three values.
-The first wate is for high powered versions, the middle wate is for the medium powered version, and the last wate is for low powered versions.
-For example, 4.62, *2.75*, and 1.95 represent 4.63 kgs for the high powered version (XHP and HP), 2.75 kgs for the medium powered version (MP) and 1.95 kgs for the low powered versions (LP and XLP)
-
-The ammunition wate is usually a single value in brackets.
-If the value is a percentage (like 1.5%), the ammunition wate is a percentage of the weapon wate.
-If the value is a precise wate (200 gms), the ammunition wate is specifically that amount.
-If the value in the brackets says (battery), the ammunition wate is that of a battery (usually 100 gms).
-If the value in the brackets says (fuel), the ammunition wate is that of the fuel (usually negligible).
-
-Ammunition wate is for encumbrance purists.
-
-=== EXPS 
-The persona wins this experience point award for identifying the gun. 
-The player may identify the gun by deduction or firing. 
-
-=== Value 
-The value indicates the MSRP (Money Suggested in RolePlaying) of the gun in eps.
-The value in brackets is the value of the ammunition in eps.
