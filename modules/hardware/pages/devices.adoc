@@ -699,7 +699,7 @@ A is worth 400 EXPS / 20000 eps and includes 0 to 3  (1d4-1) backpack communicat
 Space Vehicle:: (600/100000)  
 The space vehicle communicator is a transmissions laboratory that allows for the most elaborate planetside ECM maneuvers.
 The space vehicle comms can manipulate voices, eavesdrop, decrypt and synthesize fake messages.
-This comms laboratory is part of a space vehicle and requires a ship's computer and a ship's powerplant to operate.
+This comms laboratory is part of a space vehicle and requires a ship's computer and a ship's power plant to operate.
 Exatmo comms has a space vehicle range of 2-12 (2d6) light-years, is worth 600 EXPS and 100000 eps and includes 0 to 5 (1d6-1) vehicle communicators, 
 
 Included comms units are cumulative. 
@@ -1050,6 +1050,7 @@ Value:: 1000
 Filters protect the persona's sensory organs from short-term hazards.
 The filters consist of nose plugs, earplugs, or contact lenses.
 The filters allow the sensor to function normally but will filter out any damaging effects.
+
 There is an equal chance of any of the filters. 
 Roll a 1d12.
 1-4 is ear filters.
@@ -1089,10 +1090,10 @@ Wate:: 2 kg
 EXPS:: 99
 Value:: Special
 
-Firelogs are a high-technology take on the old fireplace log.
+Fire logs are a high-technology take on the old fireplace log.
 Al fire logs have a ripcord starter and easily ignite in any weather.
 
-// insert table 692
+include::hardware:partial$fire_log_types.adoc[]
 
 Wooden::
 A pull of the ripcord produces 2 hours of colourful dancing flames and heat.
@@ -1135,7 +1136,7 @@ Wate:: 1.5kg
 EXPS:: 103
 Value:: 5000
 
-The food culture is a polydodecahedron shaped colony of nutritious fungus on a stick.
+The food culture is a icosahedron shaped colony of nutritious fungus on a stick.
 Although it sounds unappetizing, the food culture is sanitary, tasty and very nutritious.
 The culture can supply a medium-sized anthro persona with a day's nutrition.
 The spongy matrix supplies adequate hydration as well.
@@ -1162,7 +1163,7 @@ A mechanic is required to adapt the generator to charge a battery type.
 Adapting a battery is a 2DD maneuver.
 The generator cannot recharge psionic or broadcast batteries.
 
-include::ROOT:partial$CH55_Table_Fuel_Type.adoc[]
+include::hardware:partial$power_source_types.adoc[]
 
 === Hooks
 
@@ -1206,9 +1207,9 @@ Proper labels have long since worn away.
 Only the referee knows what will instantly appear when the persona adds water.
 Instant stuff usually comes from a <<_dehydrator,Dehydrator>>.
 
-WARNING: *Mistaking instant stuff for food is disastrous for a hungry persona.*
+WARNING: *Mistaking instant stuff for food is disastrous for impulsive personas.*
 
-include::ROOT:partial$CH48_Table_Instant_Stuff.adoc[]
+include::hardware:partial$instant_stuff.adoc[]
 
 === Jet Boots
 
@@ -1227,7 +1228,7 @@ The wearer must have a wate between 40 and 140 kg.
 There are some limitations to jet boots.
 Jet boots do not hover.
 A persona can only use powered weapons while jet booting. 
-Strike and B weapons would unbalance the jet booter.
+Strike and  fling weapons would unbalance the jet booter.
 If needed, the boots have a handling class equal to half the persona's Dexterity.
 
 === Jet Backpack
@@ -1247,7 +1248,7 @@ The user must have a wate between 40 and 200 kgs.
 
 There are some limitations with a jet backpack.
 A persona can only use powered weapons while jet backpacking. 
-Strike and B weapons would unbalance the jet backpack.
+Strike and fling weapons would unbalance the jet backpack.
 If needed, the boots have a handling class equal to half the persona's Dexterity.
 
 === Joiners
@@ -1270,14 +1271,14 @@ Joiners do not reconnect complex components between materials.
 Haphazardly gluing a robot peripheral back on will yield a non-functional peripheral.
 
 While the bond is permanent, the laws of physics still apply to the objects.
-Joining a polearm to an anthro's head will bond but will most likely pull the flesh off the persona's forehead. 
+Joining a pole arm to an anthro's head will bond but will most likely pull the flesh off the persona's forehead. 
 
 If the joiner is connecting materials, it will not run out.
 If the joiner is creating de novo objects it will quickly expire.
 For example, a tube of glue will bond materials endlessly.
 Using the glue to construct a helmet will cause it to run out. 
 
-include::ROOT:partial$CH48_Table_Joiner_Type.adoc[]
+include::hardware:partial$joiner_artifact_type.adoc[]
 
 Sonic:: 
 A sonic joiner, or sonic welder, employs acoustic vibrations to meld substances together.
@@ -1305,15 +1306,7 @@ The tape may come on a roll or a fancy dispenser.
 Tape can join materials at the rate of 1 hex per unit.
 A mechanic can manipulate the setting time, bond strength and bond duration with this joiner.
 
-:art: kirlian_talisman.png
-:width: 250px
-:snark: Order or Chaos?
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of a circular pendant with a complex pattern.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Kirlian Talisman 
 
@@ -1324,9 +1317,18 @@ Wate:: Negligible
 EXPS:: 200
 Value:: Special
 
+:art: kirlian_talisman.png
+:width: 250px
+:snark: Order or Chaos?
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: A circular pendant with a complex pattern.
+include::ROOT:partial$articulate.adoc[]
+
 The Kirlian Talisman is a concentration symbol employed by xref:vocations:knite.adoc[Knite Vocation,window=_blank].
 The talisman amplifies the Knite's psionic focus.
-A Kirlian Talisman will promote either _order_ (knite) or _chaos_ (anti-knite).
+A Kirlian Talisman will support either _order_ (knite) or _chaos_ (anti-knite).
 
 A Kirlian talisman is a potent weapon against its opposite sect.
 A knite talisman can injure an anti-knite and vice versa.
@@ -1341,15 +1343,7 @@ A Kirlian talisman is invaluable to knites and worthless to other vocations.
 
 If a knite finds a Kirlian talisman, it will usually be from the opposite sect. 
 
-:art: lazer_pen.png
-:width: 350px
-:snark: Not as powerful as a lazer sword
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of overly thick pen with hazard switch. 
 
-include::ROOT:partial$articulate.adoc[]
 
 === Lazer Pen 
 
@@ -1359,6 +1353,16 @@ Duration:: 1000 words
 Wate:: 90gms
 EXPS:: 42
 Value:: 29
+
+:art: lazer_pen.png
+:width: 350px
+:snark: Not as powerful as a lazer sword
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Overly thick pen with hazard switch. 
+include::ROOT:partial$articulate.adoc[]
+
 
 A lazer pen will burn a crisp black line onto any surface, at any angle in any environment.
 The line width can be varied, and the lazer pen works exatmo.
@@ -1379,19 +1383,19 @@ EXPS:: 10
 Value:: 10000
 
 These lights serve are the electronic torches lighting the darkness.
-Each light will also have a unique property built-in.
+Each light will also have a unique feature built-in.
 When used for illumination, the artifact is indistinguishable from an everyday flashlight.
 
 For normal illumination purposes, the light has a range and terminus diameter. 
 The user can dial down the terminus diameter to half a hex in diameter. 
 The range of regular illumination is also the range of the light's unique property.
 The width of the light beam spreads as it gets further away from the source.
-The beamwidth will be less than a hex wide at the source and will increase in width by one hex per 16 hexes of range, with terminus widths of 1, 2, 4, or 8 hexes.
+The beam width will be less than a hex wide at the source and will increase in width by one hex per 16 hexes of range, with terminus widths of 1, 2, 4, or 8 hexes.
 A wall that is 64 hexes away has a circle of light two hexes in radius  (4 hexes in diameter).
 
-include::ROOT:partial$CH48_Table_Light_Power.adoc[]
+include::hardware:partial$light_artifact_power.adoc[]
 
-include::ROOT:partial$CH48_Table_Light_Special.adoc[]
+include::hardware:partial$light_artifact_feature.adoc[]
 
 === Locks 
 
@@ -1412,7 +1416,7 @@ Mundane locks are worth 1000, and autonomous locks are worth 100000.
 
 Spies and mechanics earn a +10 bonus on lock-related rolls with this artifact.
 
-include::ROOT:partial$CH48_Table_Lock_Type.adoc[]
+include::hardware:partial$lock_artifact_types.adoc[]
 
 === Mapper 
 
@@ -1430,15 +1434,7 @@ E.g., buildings, roads, mines, logging, dredging, canals, dams, irrigation, etc.
 The map can be reviewed on a monitor or printed out on flammable, water-soluble sheets.
 This device is for advancing and developing the story and not for bypassing challenges or puzzles. 
 
-:art: psionic_headband.png
-:width: 350px
-:snark: Psionic head vice
-:artist: Andrew Leydenfrost
-:date: 1955
-:license: CC BY-SA 4.0
-:description: Drawing of human wearing electronic device on his head.
 
-include::ROOT:partial$articulate.adoc[]
 
 === Mindlink 
 
@@ -1449,13 +1445,21 @@ Wate:: 2 kg
 EXPS:: 900 
 Value:: 195000
 
+:art: psionic_headband.png
+:width: 350px
+:snark: Psionic head vice
+:artist: Andrew Leydenfrost
+:date: 1955
+:license: CC BY-SA 4.0
+:description: Humanoid wearing an uncomfortable electronic device on their head.
+include::ROOT:partial$articulate.adoc[]
+
 The mindlink allows an organic persona to communicate with electronic equipment.
 The device allows organic personas to peruse files or chat with inorganic consciousnesses.
 A simple computer could be read like a book, while a robot could involve in a conversation.
 A mindlink cannot bypass encryption, nor does it allow the persona to control the machine.
 The larger the machine, the greater the chance mindlink will be able to connect.
 When using a mindlink, a mechanic gets a bonus of +42 on computer rolls.
-
 
 === Money Counter 
 
@@ -1550,7 +1554,7 @@ The recorder will also be able to record data from the detector as well.
 The recorder type includes some unique recording media.
 The recorder that also can record telepathy is worth 1000000. 
 
-include::ROOT:partial$CH48_Table_Recorder.adoc[]
+include::hardware:partial$recorder_artifact_types.adoc[]
 
 === Robot 
 
@@ -1638,16 +1642,6 @@ There is a 10% chance that a rocket roller skates will be an identically functio
 If the player so desires, the rocket roller skate could be a rocket skateboard instead.
 
 
-:art: scopes.png
-:width: 350px
-:snark: Not the mouthwash
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of two boxy shaped and one telescope shaped rifle scopes
-
-include::ROOT:partial$articulate.adoc[]
-
 === Scopes 
 
 [horizontal]
@@ -1656,6 +1650,15 @@ Duration:: 250 Shots per Battery
 Wate:: 1 kg
 EXPS:: 500 (Special)
 Value:: Special
+
+:art: scopes.png
+:width: 350px
+:snark: Not the mouthwash
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Two boxy shaped and one telescope shaped rifle scopes
+include::ROOT:partial$articulate.adoc[]
 
 A scope is a device that aids the player's attack roll.
 Artifact scopes range from a sight mounted on a rifle to a gyroscope on a sword.
@@ -1666,70 +1669,72 @@ Every scope has an attack roll bonus and a specialization.
 .*Scope Checklist*
 . Scope Attack Type
 . Scope Attack Roll Bonus
-. Scope Specialization
+. Scope Base Value
+. Scope Feature
 
-==== Scope Weapon Type
+==== Scope Attack Type
 Each scope works with a specific attack type. 
 The scope is not interchangeable, and the technology only works on its designated weapon type.
 A scope designed for thrusting and striking weapons would not look like a rifle scope.
 A scope for Strike weapons could be a box on the hilt or a bracelet.
 The scope would then modify the motion of the blade to improve the attack roll.
 
-include::ROOT:partial$CH48_Table_Scope_Weapon_Type.adoc[]
+include::hardware:partial$scope_attack_type.adoc[]
 
 ==== Scope Attack Roll Bonus
-The sight uses computers lazers, sonar, and servos and to create an attack bonus.
-The attack bonus is rolled on a 1d4 times 30 (1d4*30).
-The to hit bonus is either +30, +60, +90, or +120.
+.1d4 times 30 (1d4*30)
+****
+The attack roll bonus is +30, +60, +90, or +120
+****
 
 The player adds the bonus to her final attack roll.
-The player's attack roll plus the attack bonus can exceed the persona's Max Roll (Max).
-The player adds the attack bonus to her attack roll regardless of the scope's specialization.
+A scope allows the player to exceed the persona's Max Roll (Max).
 For example, a persona with a Max Roll of 710 could generate an attack roll of 800 with a +90 scope.
 
+==== Scope Base Value
 The value of this scope is equal to 1000 per to hit bonus.
-E.g., a scope with +90 to hit is worth 90 000.
+A scope with +90 to hit is worth 90 000.
 
 ==== Scope Specialization
 Scope Specialization determines what unique feature the scope has.
 The unique ability of the scope works in uncombat situations.
 A player can look down a scope to see through the smoke at any time.
 
+include::hardware:partial$scope_feature_type.adoc[]
 
-include::ROOT:partial$CH48_Table_Scope_Specialization.adoc[]
-
-Auto strike::
+==== Auto strike
 This scope compensates for virtually any error that the persona can make in combat.
-The autoscope is the point-and-shoot equivalent for a weapon.
-The weapon must have a line of sight and cannot shoot through cover, concealment or severe weather.
-The player makes an attack roll.
-A win on the attack roll becomes a critical hit. 
+An autoscope is the cheat code equivalent for a weapon.
+The scope must have line of sight and cannot shoot through cover, concealment or severe weather.
+The player must still make an attack roll.
+
+A successful attack roll becomes a critical hit. 
 Jump to xref:uncombat:critical_checks.adoc#_critical_hit[Critical Hits,window=_blank].
-Critical hits can increase damage by up to four times.
 A miss on the attack roll becomes a regular hit.
 A weapon malfunction is the only way to miss.
+
 There is an *EXPS penalty* for using an autoscope. 
 Combat experience is reduced to 10% using the autoscope. 
 The value of this artifact is 10000 times the base attack bonus.
 
-Climate:: 
+==== Climate 
 The climate scope compensates for all meteorological conditions except darkness.
 The scope removes all penalties for wind, fog, rain, snow etc. 
 The climate scope is worth double the base value of the scope.
 
-Darkness::
+==== Darkness
 This night scope cancels penalties for darkness.
 The scope uses a combination of IR, UV, and whatever else helps the darkened attack.
 The darkness scope does not give up its position unless intentionally detected. 
 There is no value bonus for a darkness scope.
 
-Gravity:: 
+==== Gravity 
 The gravity scope allows the weapon to be unimpeded by 0 to 8 gravities.
 In ZOG, the scope compensates for kickback and protects its user from being thrown around.
 This scope is exatmo hardened.
 The gravity specialization triples the value of this scope. 
 
-Multi-scope:: 
+==== Multi-scope 
 The multi-scope is a combination of multiple scopes into a single artifact.
 So a multi-scope could be a climate and darkness scope.
 Each scope gets another roll on the attack rolls bonus section. 
@@ -1738,11 +1743,12 @@ It would also attack cleanly in any weather or darkness.
 Each visit to multi-scope adds another scope to a maximum of three scopes and a maximum attack roll bonus of +250.
 The value of a multi-scope is the combined value of the scopes times 10. 
 
-Pacifist::
+==== Pacifist
 The pacifist scope is a non-lethal auto strike scope.
 The scope determines a target's most vulnerable points.
 Instead of delivering a killing attack, the pacifist scope delivers a debilitating attack.
 A pacifist scope has an attack roll bonus, like all other scopes.
+
 After a successful attack roll, the player rolls damage. 
 The pacifist scope converts the damage into a percent chance to stun the opponent.
 Each point of damage inflicted will have a 2% chance of stunning the target for 0 to 9 (1d10-1) units.
@@ -1750,7 +1756,7 @@ A pacifist scope does not work with area of effect weapons or weapons of malicio
 For example, this scope does not work with a fusion pistol or flame thrower.
 The value of the scope is increased by 1000000.
 
-Range::
+==== Range
 Range scopes increase the effective range of the weapon.
 The range extender scope doubles the weapon's range and halves the decay.
 The scope optimizes a projectile's decay by compensating for wind and gravity effects.
@@ -1758,7 +1764,7 @@ A weapon with a range of 50 and decay of -100 improves to a range of 100 and a d
 For Strike attacks, the range extender allows the weapon to make a Fling attack with a range of STR in hexes.
 There is no increased value for a range extender scope.
 
-Smoke::
+==== Smoke
 The smoke cutting scope can sight through mist, fog, smoke, and other gaseous obfuscations.
 The player suffers no attack roll penalties in smoke when using this scope. 
 There is no value modifier with a smoke scope.
@@ -1789,8 +1795,7 @@ If the machine loses power, all Charisma bonuses immediately disappear.
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of human women jumping into a cave wearing a skintight outfit and firing a pistol.
-
+:description: Humanoid jumping into a cave wearing a skintight outfit and firing a pistol.
 include::ROOT:partial$articulate.adoc[]
 
 === Superconductor Suit 
@@ -1801,6 +1806,15 @@ Duration:: Until Destroyed
 Wate:: 0.6 kg
 EXPS:: 50
 Value:: 130000
+
+:art: sony_stealth_suit_action.png
+:width: 450px
+:snark: High tech haute couture
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Humanoid jumping into a cave wearing a skintight outfit and firing a pistol.
+include::ROOT:partial$articulate.adoc[]
 
 The superconductor suit is a skintight jumpsuit that improves Dexterity.
 Typically the superconductor suit is worn underneath clothing or armour.
@@ -1911,24 +1925,13 @@ Any artifact timepiece will automatically synchronize with nearby watches.
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Obvious watch with wristband no face. 
-
 include::ROOT:partial$articulate.adoc[]
 
 There is a 90% chance the timepiece is part of another artifact.
 Allowing for another roll on the TOYs.
 For example, the timepiece could be in a rifle or a microwave oven.
 
-include::ROOT:partial$CH48_Table_Timepiece.adoc[]
-
-:art: low_tech_vizaids_desat.png
-:width: 450px
-:snark: Nick's M2V2
-:artist: Studiostoks
-:date: 2015
-:license: CC BY-SA 4.0
-:description: Drawing of woman wearing an enormous convoluted mechanical visor.
-
-include::ROOT:partial$articulate.adoc[]
+include::hardware:partial$timepiece_artifact_types.adoc[]
 
 === Visual Aids 
 
@@ -1939,10 +1942,19 @@ Wate:: 1 kg
 EXPS:: 75
 Value:: Special
 
+:art: low_tech_vizaids_desat.png
+:width: 450px
+:snark: Nick's M2V2
+:artist: Studiostoks
+:date: 2015
+:license: CC BY-SA 4.0
+:description: Humanoid wearing an enormous convoluted mechanical visor.
+include::ROOT:partial$articulate.adoc[]
+
 The visual aids are a host of goggles that help persona's through the darkness, smoke, or worse.
 Visual aids are often called vizauds, vizaids, optical enhancers or happy goggles.
 
-include::ROOT:partial$CH48_Table_Visual_Aid_Type.adoc[]
+include::hardware:partial$visual_aid_types.adoc[]
 
 Binox:: 
 These are electronic binoculars that allow the persona to see further and with greater detail.
@@ -2008,16 +2020,6 @@ The ZBGs will even detect danger behind the persona.
 The glasses are special to nothings and will count as 4242 EXPS.
 ZBG vizauds have a value of 42042. 
 
-:art: machine_thing.png
-:width: 450px
-:snark: Wasting resources for waste resource
-:artist: Louis Glanzman
-:date: 1954
-:license: CC BY-SA 4.0
-:description: Drawing of humanoid standing in front of techno tube hold a techno thing.
-
-include::ROOT:partial$articulate.adoc[]
-
 === Waste Disposer 
 
 [horizontal]
@@ -2026,6 +2028,15 @@ Duration:: As Needed
 Wate:: 15 kg
 EXPS:: 859
 Value:: 36000
+
+:art: machine_thing.png
+:width: 450px
+:snark: Wasting resources for waste resource
+:artist: Louis Glanzman
+:date: 1954
+:license: CC BY-SA 4.0
+:description: Humanoid standing in front of techno tube hold a techno thing.
+include::ROOT:partial$articulate.adoc[]
 
 A waste disposer is an entirely safe disintegration device (or so the manufacturer says).
 Waste is placed into a drawer, the drawer is closed, and the trash is disintegrated with a poof noise.
