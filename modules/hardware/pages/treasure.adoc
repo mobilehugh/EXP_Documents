@@ -1,5 +1,14 @@
 = Treasure
 
+:art: treasure_chips_sand.png
+:width: 250px
+:snark: Arrgh space pirate plunder
+:artist: Peggy Lynn MacIsaac
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Open treasure chest with gold and computer parts.
+include::ROOT:partial$articulate.adoc[]
+
 Virtually anything can be considered treasure.
 A treasure artifact is only valuable for it's value. 
 Treasure rarely has any useful purpose other than it's value.
@@ -9,31 +18,22 @@ Assigning value to treasure is deliciously random, and literal junk can have eno
 Treasure can lead to repetitive dice rolling.
 Everyone needs practice rolling dice and the more you practice the luckier you are. 
 
-:art: treasure_chips_sand.png
-:width: 250px
-:snark: Arrgh space pirate plunder
-:artist: Peggy Lynn MacIsaac
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of open treasure chest with gold and computer parts.
-
-include::ROOT:partial$articulate.adoc[]
-
 To refresh on how money works in EXP jump to xref:uncombat:money.adoc[Money,window=_blank].
 
 .*Treasure Checklist*
-. <<_value,Value>>
-. <<_treasure_type,Treasure Type>>
+. <<_treasure_value,Treasure Value>>
+. <<_treasure_types,Treasure Type>>
 
-== Value
+== Treasure Value
 The base value is determined on the below table. 
 The base value is multiplied by 1-100 (1d100) to determine the value is eps.
 The referee can adjust the base multiplier depending on the mythos of the game.
 During times of economic recession the multiplier could be decreased to 1-10 (1d10).
 During economic booms the multiplier could be increased to 1-1000 (kilo-die)
 
-include::ROOT:partial$CH53_Table_Treasure_Value.adoc[]
+include::hardware:partial$treasure_values.adoc[]
 
+[discrete]
 === Value Extremes
 If a treasure is less that 4242 eps in value it does not count a TOY roll.
 The persona will get the treasure, but earn another roll on the TOYs.
@@ -47,13 +47,11 @@ While negative treasure is not possible debt is.
 The treasure value table could represent a persona's starting debt.
 Nothings with very low social standing could start the campaign with debt. 
 
-== Treasure Type
+== Treasure Types
 Presently, treasure is nothing more than a value awaiting some form.
 The treasure formats give the treasure some tangible, identifiable character.
 
-include::ROOT:partial$CH53_Table_Treasure_Format.adoc[]
-
-== Treasure Types
+include::hardware:partial$treasure_types.adoc[]
 
 === Substance 
 The treasure consists of a substance that may or may not be obviously valuable.
@@ -61,7 +59,7 @@ Of all the treasure types substance is the heaviest and can be difficult to cart
 An entirely random wate of 1-1000 (kilodie) kgs is assigned to the substance.
 Extremely valuable substances may be a mine, factory, stored in a building. 
 
-include::ROOT:partial$CH53_Table_Substance_Type.adoc[]
+include::hardware:partial$treasure_substances.adoc[]
 
 === Crystal 
 Crystal is a generic term imprecisely including gems, and other shiny baubles.
@@ -69,7 +67,7 @@ Players quickly associate shiny baubles with treasure.
 An entirely random wate of 1-1000 (kilodie) grams is assigned to the crystal.
 Crystals are free range and are not included in jewelry. 
 
-include::ROOT:partial$CH53_Table_Stone_Type.adoc[]
+include::hardware:partial$treasure_stupid_rocks.adoc[]
 
 === Ornament 
 Ornaments are trinkets designed to adorn the body of the wearer.
@@ -89,13 +87,11 @@ In the end the system creates an outline of a piece of ornamental jewelry.
 Minute descriptive details are left to the artistic imagination of the ref.
 Valuable jewelry will certainly have a history and story attached.
 
-include::ROOT:partial$CH53_Table_Ornament_Composition.adoc[]
+include::hardware:partial$treasure_ornament_components.adoc[]
 
-include::ROOT:partial$CH53_Table_Ornament_Location.adoc[]
+include::hardware:partial$treasure_ornament_location.adoc[]
 
-include::ROOT:partial$CH53_Table_Application_Method.adoc[]
-
-
+include::hardware:partial$treasure_ornament_application.adoc[]
 
 === Info
 Treasure info is composed of info and gossip that does not affect the story. 
@@ -104,35 +100,24 @@ The treasure could be a love letter, corporate plan, or civic Intelligence.
 One way to keep information treasure out of the expedition's story is to encrypt it.
 The wate (kg) of the information is usually negligible.
 
-include::ROOT:partial$CH53_Table_Information_Type.adoc[]
-
-:art: space_cards.png
-:width: 300px
-:snark: Spacecards from the edge.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Three postcards from outerspace. 
-
-include::ROOT:partial$articulate.adoc[]
+include::hardware:partial$treasure_info_formats.adoc[]
 
 === Relic 
 A relic is a piece of Junque applied arbitrary value for obtuse cultural reasons.
 The object can be a luxury piece of random junk: an antique;
 a souvenir (owned by some important someone);
 or commodity shipment consisting of many units of random junk.
-
 Jump to xref:hardware:junque.adoc[Junque,window=_blank] to generate a relic for the treasure value. 
 
-:art: eps_on_table.png
-:width: 250px   
-:snark: Electrum pieces.
+:art: space_cards.png
+:width: 300px
+:snark: Space cards from the edge.
 :artist: JEShields
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
-:description: Several coins laying on an old wooden table.
-
+:description: Three postcards from outer space. 
 include::ROOT:partial$articulate.adoc[]
+
 
 === Cash 
 Cash treasure is currency, coin, money etc. 
@@ -141,7 +126,16 @@ The treasure could be a pile of cash, a credit chit, a some monetary recording t
 The below table includes typical types of cash. 
 For a walk on the random side the treasure value could be stored on an Info Type. 
 
-include::ROOT:partial$CH53_Table_Cash_Presentation.adoc[]
+:art: eps_on_table.png
+:width: 250px   
+:snark: Electrum pieces.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Several coins laying on an old wooden table.
+include::ROOT:partial$articulate.adoc[]
+
+include::hardware:partial$treasure_cash_types.adoc[]
 
 === Mixed 
 Mixed treasures will have their values mixed amongst the basic treasure types found here.
@@ -149,4 +143,4 @@ For example a relic or an ornament could be a form of cash.
 Cash or crystal could be information.
 Just shakes things up a bit.
 
-include::ROOT:partial$CH53_Table_Mixed_Treasure.adoc[]
+include::hardware:partial$treasure_combinations.adoc[]
