@@ -10,65 +10,57 @@
 include::ROOT:partial$articulate.adoc[]
 
 The pharma described in this chapter are fantastic miracle substances capable of diagnosing, preparing, and administering the proper remedy.
-They can do wonders, but they can also have deadly side effects.
+They can do wonders, but they can also have deadly toxic effects.
 Pharmaceuticals come in groups of doses called a prescription.
 A prescription may consist of pills, injections or liquids.
 A prescription will typically have a negligible wate.
 
 .*Pharma Checklist*
 . <<_generate_type,Pharma Type>>
-. <<_prescription,Prescription>>
-.. <<_labelling,Labelling>>
-.. <<_delivery_method,Delivery Method>>
-.. <<_metabolism,Metabolism>>
-.. <<_side_effects,Side Effects>>
-.. <<_doses,Doses>>
+. <<_labelling,Labelling>>
+. <<_delivery_method,Administration>>
+. <<_metabolism,Metabolism>>
+. <<_doses,Doses>>
+. <<_side_effects,Toxicity>>
 . <<_parameters,Parameters>>
 
-== Pharma Type
+== Generate Type
 
 include::hardware:partial$list_of_pharma.adoc[]
 
 == Pharma Data
 
-== Prescription
-
-.*Prescription Checklist*
-. <<_labelling,Labelling>>
-. <<_delivery_method,Delivery Method>>
-. <<_metabolism,Metabolism>>
-. <<_side_effects,Side Effects>>
-. <<_doses,Doses>>
-
 === Labelling
 Prescriptions on mundane terra are usually well labelled.
 In EXP, the apothecary that filled this prescription may have been deceased for a thousand years, or the language used no longer exists.
 In short, prescription markings are essentially random. 
-A living vet is the best bet for identifying an artifact pharma.
+A vet is the best bet for identifying, and administering, artifact pharma.
 
-include::ROOT:partial$CH50_Table_Prescription_Markings.adoc[]
+include::hardware:partial$pharma_labelling.adoc[]
 
-== Delivery Method
-The delivery method indicates the manner in how a dose gets inside the persona's physiology.
-The delivery method includes an entirely uninformative colour for the pharma.
+=== Administration
+The administration method indicates how the pharma dose gets into the persona's physiology.
+Since the admin method determines the shape of the pharma it also doubles as appearance.
+So administration is where the entirely unhelpful colour of the pharma is determined as well.
+The colour indicates the pill, container or liquid colour.
 Jump to xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour] to spice things up.
-The colour indicates the pill colour or the container colour in the case of an inhaler.
 
-include::ROOT:partial$CH50_Table_Method_of_Administration.adoc[]
+include::hardware:partial$pharma_admin_types.adoc[]
 
 === Metabolism
 There are many different persona types in EXP.
-Metabolism is an optional rule that can throw some pharmacologic curve balls at the players.
-Metabolism mostly has impacts on side effects. 
-The metabolism interactions between family types (anthro, alien, robot) can lead to severe adverse reactions.
+Metabolism is an __optional rule__ that can throw some pharmacologic curve balls into the story.
+The metabolism interactions between family types (anthro, alien, robot) can lead to severe toxicity reactions.
+There are no particular intra genus interactions. 
+A feline can use canine pharma with at most cosmetic consequences.
 
-include::ROOT:partial$CH50_Table_Pharmaceutical_Intended__Metabolism.adoc[]
+include::hardware:partial$pharma_family_metabolism.adoc[]
 
 ==== Anthro
 This pharma is for for anthros.
-Often the players will stop there and not worry about specific anthro types.
+Often the players will stop there and not worry about specific genus.
 If the anthro type does not match the metabolism type of the pharma, the safety level decreases by half.
-If an alien is using an anthro pharma, there is an automatic adverse effect.
+If an alien is using an anthro pharma, there is an automatic toxicity effect.
 Anthro metabolism pharma does not affect robots.
 
 ==== Alien 
@@ -76,7 +68,7 @@ This pharma is for a specific alien species.
 Alien pharma is designed for a specific alien species and does not work between aliens.
 The method of delivery will match the size of the alien.
 Gigantic aliens would have larger pills and syringes.
-If an anthro or a non-species alien uses this pharma, they automatically have an adverse effect.
+If an anthro or a non-species alien uses this pharma, they automatically have an toxicity effect.
 Alien metabolism pharma does not affect robots.
 
 ==== Robot 
@@ -84,44 +76,40 @@ This pharma is a nanosynthetic meant only for robots.
 Robot pharma are like spectacular motor oils or bizarre fuels.
 Liquid programming is another label for robotic materials that cause pharma effects.
 For example, a robotic injection would appear more like a pneumatic dagger than a hypodermic needle.
-Anthros or aliens that manage to dose themselves with robot pharma have a <<_poison,poison pharma>> adverse effect.
+Anthros or aliens that manage to dose themselves with robot pharma have n automatic toxicity effect.
 
-=== Side Effects 
-Pharmaceuticals in EXP are complicated technological compounds that both diagnose and remodel the persona's body.
-This level of invasiveness makes Side Effects very common with pharma.
-A Side Effect is an unexpected change in the body's chemistry that arises from taking a pharma.
-The side effects here are all adverse effects. 
-A side effect may be harmful or good, while adverse effects are all bad.
+=== Doses
+Doses of pharma is the equivalent of the amount of pharma found. 
+For complicated pharma only one dose is available. 
+One can consider all pharma complicated except for Trauma heals. 
+Trauma heals are complicated but startifact Trauma heals come in script of 1-8 (1d8) 
 
-==== Safe Dosing
-The higher the tech level and the higher the pharma's safety level, the less likely chance of an adverse effect.
-If the campaign does not use tech level, the default value of TL 10 applies.
+=== Toxicity
+Pharma in EXP are complicated technological compounds that both diagnose and remodel the persona's body.
+This level of invasiveness makes Toxicity very common.
+A toxicity is an unexpected change in the body's chemistry that arises from taking pharma.
+A side effect may be harmful or good, while toxicity effects are all bad.
 
-==== Chance of Safe Dosing
-.Percent chance safe dose = Safety Level * Tech Level
-****
-% safe dose = 3 * 10 = 30%. 30 or less on 1d100 is a safe dose.
-****
+Essentially the player makes a saving throw against the toxicity of the pharma every time it is used. 
+Toxic effects are usually random, but the referee can assign specific toxicities to a pharma
 
-==== Adverse Effect
-If the dosing is not safe, the persona will suffer an adverse effect.
-The adverse effects themselves are not lethal, but their consequences can be.
-The player rolls a brand new adverse effect for every unsafe dose imbibed.
+The higher the tech level the safer the pharma.
+If pharma safety and tech level is a thing the player may add half the pharma's tech level to her saving roll.
+
+WARNING: *Side effect and adverse effects are unused euphamisms because artifacts don't have marketing campaigns.*
+
+==== Toxic Effect
+Failing the saving roll will result in a toxic effect.
+Toxic effects can be irritating or life threatening. 
+
 
 // todo combine these tables
 include::ROOT:partial$CH50_Table_Pharmaceutical_Side_Effect.adoc[]
 include::ROOT:partial$CH50_Table_Poison_Type.adoc[]
 
-=== Doses
-The more expensive the pharma is, the fewer doses per prescription.
-One dose equals one effect. 
-The number of doses could represent the number of pills in a bottle or puffs in an inhaler.
+==== Toxicity Duration
 
-Vets can extend the number of doses in a prescription.
-The more valuable the dose, the harder it is to split a dose. 
-
-include::ROOT:partial$CH50_Table_Pharma_Dosing.adoc[]
-
+include::hardware:partial$pharma_durations.adoc[]
 
 === Parameters
 Explanations of the pharma parameters.
@@ -129,15 +117,15 @@ Explanations of the pharma parameters.
 ==== Duration 
 This note describes the length of time that the effect of the pharma will last.
 The onset is instantaneous, and the body will return to normal at the end of the duration.
-Remember that side effects may have a longer duration than the pharma's effect.
+Remember that toxic effects may have a longer duration than the pharma's effect.
 A Permanent duration indicates a permanent change in the patient's body.
 The player must roll those drugs with a range of times listed for a duration each time a dose is applied.
 
 ==== Safety 
-Safety is simply the chance that the substance has no side effects.
+Safety is simply the chance that the substance has no toxic effects.
 The player makes a safety check for each dose taken.
 Safety is usually equal to the tech level of the pharma.
-A tech level 10 pharma has a 10% chance of no side effects.
+A tech level 10 pharma has a 10% chance of no toxic effects.
 If tech level is not part of your ruleset, the default is TL10.
 
 ==== EXPS 
@@ -162,7 +150,6 @@ include::ROOT:partial$articulate.adoc[]
 
 
 == Pharma Catalogue
-
 
 === Altergenic
 
@@ -225,7 +212,7 @@ Value is 250000 per dose.
 Attribute::
 The attribute cure can restore attributes reduced by natural ageing or unnatural attacks. 
 For example if a persona had her strength reduced by an injury the attribute cure would repair this. 
-This cure only has side effects if there are no degraded attributes.
+This cure only has toxic effects if there are no degraded attributes.
 The attribute cure will repair the most recently damaged attribute.
 Value is 500000 per dose.
 
@@ -354,162 +341,11 @@ A trauma heal cannot be used on a persona that just imbibed a resus heal.
 When administered by a veterinarian the toxicity of the trauma heal can be avoided.
 
 
-
-
-
-
-
-
-
-=== DNA 
-
-[horizontal]
-Duration:: Until next time.
-Toxicity:: 1
-EXPS:: 1000
-Value:: 2000000
-
-DNA is a pharma for repairing or replacing injured or missing organs and limbs. 
-Each DNA pharma has a specific focus, but it will replace any missing, damaged, or malfunctioning organ or limb.
-If there is something to repair or replace, imbibing DNA is straightforward.
-If the persona has no malfunctioning or missing parts bits, the DNA's impact is more random (fun).
-DNA will diagnose what is missing and get to work repairing or replacing.
-The process will finish in 10-100 (10d10) hours.
-
-.*DNA Checklist*
-. Side Effects
-. Metabolism Type
-
-==== Side Effects
-If a persona using DNA has all her body parts intact, the pharma becomes confused, leading to side effects.
-Repairing amputated limbs is not all that common unless the campaign is full of limb chopping Knites.
-More commonly, a risk-taking persona will imbibe the DNA without knowledge of its effects.
-
-There is a percent chance that the persona will gain a vestigial new limb growing from a random body location.
-There is also a percent chance that the limb will be vestigial in size and shape but controlled by the personas. 
-The percent chance of growing a new limb is equal to the persona's Constitution score. 
-The chance of being able to control the limb is equal to the persona's Dexterity score.
-A persona with an  11 CON and 14 DEX has an 11% of growing something new and a 14% chance of controlling it.
-
-A vet can dial in the misuse of this pharma to get desired parts.
-This would be a 42DD maneuver and a xref:uncombat:task_rolls.adoc#_research_teams[Research Teams] is recommended.
-
-include::combat:partial$hit_location_snap.adoc[]
-
-==== Metabolism Types
-DNA creates a proper and functioning body part regardless of its metabolism type.
-For example, if a feline were to use canine DNA to replace a missing arm, she would have a canine arm.
-This dog arm would be a fully functioning dog-like limb on an otherwise feline persona.
-An alien metabolism type would create a limb that resembles an xref:aliens:alien_shape.adoc#_terrain_types[Alien Body Part,window=_blank].
-A canine may have a limb that looks like a worm, but it would function perfectly well. 
-Not surprisingly, a robotic metabolism type will replace the missing limb or part with a cybernetic appearing limb. 
-
-include::ROOT:partial$CH50_Table_Pharmaceutical_Intended__Metabolism.adoc[]
-
-:art: pharma_pills.png
-:width: 350px
-:snark: Say no to candy.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Toy robot with either pills or candy spilling out.
-include::ROOT:partial$articulate.adoc[]
-
-=== Narcotic 
-
-[horizontal]
-Duration:: Special
-Toxicity:: 5
-EXPS:: -42 (yes minus)
-Value:: 42
-
-Narcotics are recreational pharma.
-The narcotic effect may be a side effect of a malfunctioning pharma or a bespoke recreational pharma.
-In EXP, narcotics do not offer insightful experiences that enhance Mind.
-Narcotics render personas useless for their duration and have both temporary and permanent adverse effects.
-
-Narcotics temporarily impair the persona's Awareness, Dexterity, Intelligence and Mind attributes.
-For the duration of the impairment, the persona's AWE, DEX, and INT drop by 1-6 (1d6) points, and her Mind drops by half.
-It is up to the referee to decide if the attribute drop can kill the persona.
-Narcotic misadventures regularly kill pure strains on terra mundane.
-Knites avoid any such excursions into the chaos of the mind.
-
-Narcotics permanently decrease the persona's EXPS total by 42 points.
-
-include::ROOT:partial$CH50_Table_Narcotic_Effect_Duration.adoc[]
-
-include::ROOT:partial$CH50_Table_Narcotic_Effect.adoc[]
-
-
-
-
-
-:art: pro_vaxxer.png
-:width: 350px
-:snark: This will only hurt a lot.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Image of fancy looking hypodermic needle.
-include::ROOT:partial$articulate.adoc[]
-
-=== Inoculation 
-
-[horizontal]
-Duration:: Permanent
-Toxicity:: 8
-EXPS:: 1001
-Value:: 1000000
-
-Inoculations are not cures. 
-Inoculations are not heals.
-They neither repair nor fix the persona.
-Inoculations increase the persona's resistance to future effects.
-If a persona inoculated against paralysis, she will double her CON when trying to win a saving throw versus paralysis or stun attacks.
-
-include::ROOT:partial$CH50_Table_Inoculation_Type.adoc[]
-
-
-=== Mutation Effect 
-
-[horizontal]
-Duration:: 2-200 (2d100) hours
-Toxicity:: 1/4 (TL / 4)
-EXPS:: 100
-Value:: 2000000
-
-This pharma gives the persona a temporary mental or phenomic mutation effect.
-The persona transiently acquires either a physical or psionic mutation.
-Unlike the gradual onset of the permanent mutation, the mutation effect comes quickly reveals its power.
-
-include::hardware:partial$pharma_mutation_type.adoc[]
-
-Colour::
-Colour deviations are a *permanent* side effect of this pharma.
-The colour change immediately appears with a mutation effect.
-This colour change can be as simple or as fancy as the referee desires.
-Make a jump over to xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
-
-Mental::
-The persona has acquired a psionic mutation effect.
-The psionic mutation comes on with a ferocious headache and quickly reveals itself.
-Jump to xref:wetware:CH58_Mental.adoc#_mutation_type[Psionic Mutations,window=_blank] to generate a fresh new mutation. 
-*This mutation cannot be a defect.*
-When the duration ends, the psionic mutation fades away.
-
-Physical::
-The persona has acquired a phenomic mutation effect.
-The phenomic mutation violently explodes out of the persona's body.
-The process is painful and unseemly.
-Jump to xref:wetware:CH59_Physical.adoc[Phenomic Mutations,window=_blank] to generate the mutation.
-*This mutation cannot be a defect.*
-When the duration ends, the phenomic mutation withers away and falls off.
-
 === Intumescent
 
 [horizontal]
 Duration:: 1-6 (1d6) minutes
-Toxicity:: 1
+Toxicity:: 6
 EXPS:: 100
 Value:: 2000000
 
@@ -527,15 +363,147 @@ Super awareness may let the persona smell chemical formulas or see microscopic c
 Super mind may let the persona see Kirlian auras.
 Spectacular charisma may let the persona woo a large crowd with a magnificent oration.
 
-The effects of this pharma are desirable to players, but abuse will lead to severe adverse effects for personas.
-If the expedition has repeated access to this prescription, the referee may need to apply some specific limitations.
-Long recovery times with debilitated attributes are suitable methods for game balance.
-If the persona temporarily enjoyed a 24 DEX with the intumescent, she may suffer a 6 DEX for a few days after dosing.
+The effects of this pharma are desirable to players, but abuse will lead to worsening toxicity.
+Simultaneous intumescent use multiplies their toxicities.
+So using a strength and intelligence intumescent has a toxicity of 36.
+Using them too close together has additive toxicity. 
+So using two strengths in a row has a toxicity of 12.
 
-include::ROOT:partial$CH50_Table_Periodic_Intumescent_Type.adoc[]
+include::hardware:partial$pharma_intumescent_types.adoc[]
 
+:art: pro_vaxxer.png
+:width: 350px
+:snark: This will only hurt a lot.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Image of fancy looking hypodermic needle.
+include::ROOT:partial$articulate.adoc[]
 
+=== Inoculation 
 
+[horizontal]
+Duration:: Permanent
+Toxicity:: 18
+EXPS:: 1001
+Value:: 1000000
 
+Inoculations are not cures. 
+Inoculations are not heals.
+They neither repair nor fix the persona.
+Inoculations increase the persona's resistance to future effects.
+If a persona inoculated against paralysis, she will double her CON when trying to win a saving throw versus paralysis or stun attacks.
+Stacking different inoculations has additive toxicity.
+
+include::hardware:partial$pharma_inoculation_types.adoc[]
+
+:art: pharma_pills.png
+:width: 350px
+:snark: Say no to candy.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Toy robot with either pills or candy spilling out.
+include::ROOT:partial$articulate.adoc[]
+
+=== Narcotic 
+
+[horizontal]
+Duration:: Special
+Toxicity:: 24
+EXPS:: -42 (yes minus)
+Value:: 42
+
+Narcotics are recreational pharma.
+The narcotic effect may be a side effect of a malfunctioning pharma or a bespoke recreational pharma.
+In EXP, narcotics do not offer insightful experiences that enhance one's mind.
+Narcotics render personas ineffective for their duration and have both temporary and permanent toxicity effects.
+The duration of the narcotic effect is the used the pharm toxic effect duration table. 
+
+Narcotics temporarily impair the persona's Awareness, Dexterity, Intelligence and Mind attributes.
+For the duration of the impairment, the persona's AWE, DEX, and INT drop by 1-6 (1d6) points, and her Mind drops by half.
+It is up to the referee to decide if the attribute drop can kill the persona.
+Narcotic misadventures regularly kill pure strains on terra mundane.
+Knites avoid any such excursions into the chaos of the mind.
+
+Narcotics permanently decrease the persona's EXPS total by 42 points.
+
+include::hardware:partial$pharma_durations.adoc[]
+
+include::hardware:partial$pharma_narcotic_effect.adoc[]
+
+=== Regen 
+
+[horizontal]
+Duration:: Until next time.
+Toxicity:: 20
+EXPS:: 1000
+Value:: 2000000
+
+Regen is a pharma for repairing or replacing injured or missing organs and limbs. 
+Each regen pharma has a specific focus, but the pharma will always attempt to fix something.
+If there is damaged biologic system imbibing regen pharma is straightforward.
+Regen will diagnose what is missing and get to work repairing or replacing.
+If the persona has no malfunctioning or missing bits, the regen pharma will still try and fix something.
+This will have a random (fun) effect on the persona
+The process is usually noisy and gross and takes about 10-100 (10d10) hours.
+
+The appearance and nature of the regen part will reflect the family metabolism of the pharma.
+For example, if a feline were to use canine regen to replace a missing arm, she would have a canine arm.
+This dog arm would be a fully functioning dog-like limb on an otherwise feline persona.
+An alien metabolism type would create a limb that resembles an xref:aliens:alien_shape.adoc#_terrain_types[Alien Body Part,window=_blank].
+A canine may have a limb that looks like a worm, but it would function perfectly well. 
+Not surprisingly, a robotic metabolism type will replace the missing limb or part with a cybernetic appearing limb. 
+
+==== Special Toxicity Effects
+Regen pharma has the usual toxicity and associated toxicity effects. 
+The special vestigial limb toxicity is rare and only occurs in personas that have nothing to fix, and suffer a standard toxic reaction.
+
+Regen pharma has a very unique toxicity effect of possibly generating a random vestigial limb.
+If a persona using regen has all her body parts intact, the pharma becomes confused.
+Confused regen pharma will try and fix something that is not broken, growing a vestigial limb from a random location.
+If the player fails a saving roll against the regen pharma toxicity using her CON she will get a vestigial limb.
+If the player wins a saving roll against the regen pharma toxicity using her DEX she can control the vestigial limb. 
+A persona can only have one controllable vestigial limb.
+
+include::combat:partial$hit_location_snap.adoc[]
+
+A vet can dial in the misuse of this pharma to get desired parts.
+This would be a 42DD maneuver and a xref:uncombat:task_rolls.adoc#_research_teams[Research Teams] is recommended.
+
+=== Transgenic 
+
+[horizontal]
+Duration:: 2-200 (2d100) hours
+Toxicity:: 18
+EXPS:: 100
+Value:: 2000000
+
+This pharma gives the persona a temporary psionic or phenomic mutation effect.
+The persona transiently acquires a mutation.
+Unlike the gradual onset of the altergenic pharma, the mutation effect comes quickly reveals its power.
+
+include::hardware:partial$pharma_mutation_type.adoc[]
+
+Colour::
+Colour deviations are a *permanent* side effect of this pharma.
+The colour change immediately appears with a mutation effect.
+This colour change can be as simple or as fancy as the referee desires.
+Make a jump over to xref:software:CH55_Appearances.adoc#_colour_your_whirled[Colour,window=_blank].
+
+Psionic::
+The persona has acquired a psionic mutation effect.
+The psionic mutation comes on with a ferocious headache and quickly reveals itself.
+Jump to xref:wetware:CH58_Mental.adoc#_mutation_type[Psionic Mutations,window=_blank] to generate a fresh new mutation. 
+*This mutation cannot be a defect.*
+When the duration ends, the psionic mutation fades away.
+
+Phenomic::
+The persona has acquired a phenomic mutation effect.
+The phenomic mutation violently explodes out of the persona's body.
+The process is painful and unseemly.
+Jump to xref:wetware:CH59_Physical.adoc[Phenomic Mutations,window=_blank] to generate the mutation.
+*This mutation cannot be a defect.*
+When the duration ends, the phenomic mutation withers away and falls off.
 
 
