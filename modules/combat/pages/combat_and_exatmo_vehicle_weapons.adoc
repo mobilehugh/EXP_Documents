@@ -1,9 +1,9 @@
-= Exatmo Vehicle Combat Tools
+= Spacecraft Combat Tools
 
-These are the details of exatmo vehicle attacks and defences function. 
-The actual devices are brought into being when the exatmo vehicle is generated. 
-Space vehicles are created in the xref:hardware:CH52_Space_Vehicle.adoc[Space Vehicles] section.
-Players and referees should understand space vehicles before blowing them up.
+These are the details of spacecraft attacks and defences function. 
+The actual devices are brought into being when the spacecraft is generated. 
+Spacecraft are created in the xref:hardware:spacecraft.adoc[Spacecraft] section.
+Players and referees should understand spacecraft before blowing them up.
 
 == Attacks
 Attacks are a collection of electronic, kinetic, and energy weapons that one ship uses to control or damage another ship.
@@ -23,7 +23,7 @@ Some attacks work as defences as well.
 
 ECM is an abbreviation for electronic countermeasures, and it is pronounced "easy em."
 ECM is the battle for control over the electromagnetic spectrum.
-In space vehicle combat, ECM is the battle for control over the electronics of the target ship.
+In spacecraft combat, ECM is the battle for control over the electronics of the target ship.
 Attack ECM can confuse the target ship's defences with false data and manipulate the target ship's essential components.
 ECM can be used defensively instead.
 An ECM is only capable of doing one of each per turn.
@@ -45,7 +45,7 @@ All such falsified data will increase the chance of success of a ship's attack.
 * Attack Rolls (physical) +150 per Computer Level
 * Success Rolls (electronic) *3% per Computer Level
 
-Consider a space vehicle with a level 2 computer employing ECM Attack Assist.
+Consider a spacecraft with a level 2 computer employing ECM Attack Assist.
 The player would get +300 on Attack Rolls when attacking with physical elements like missiles, mines and artillery.
 When making Success Rolls for electronic or navigational elements like Attack Control or Ramming Attempts the player would a bonus of +6.
 
@@ -153,7 +153,7 @@ target = 100 - success = 10. Player must roll 10 or higher to ram.
 
 === Ram Begets Ram
 Each time an attacker has a failed ram, the target gets a chance to ram in return.
-The target space vehicle gets one ram attempt per failure.
+The target spacecraft gets one ram attempt per failure.
 If an attacker fails three ramming attempts, the target ship gets three ram attempts. 
 
 === Ram Location
@@ -180,11 +180,11 @@ This goal is achieved by penetrating the hull and delivering the artillery's des
 Space vehicle artillery has the same damages and effects as the inatmo artillery it is modelled after.
 The two differences are ammunition stores and range. 
 Energy-based weapons can fire as long as the ship has fuel, and ammunition requiring ammo will have 100 times the regular supply.
-There are no range penalties during space vehicle combat. 
+There are no range penalties during spacecraft combat. 
 
-The expedition cannot fire space vehicle artillery from exatmo to inatmo.
+The expedition cannot fire spacecraft artillery from exatmo to inatmo.
 This artillery cannot cross into an atmosphere.
-Once the space vehicle is inatmo, the players can use the artillery as usual. 
+Once the spacecraft is inatmo, the players can use the artillery as usual. 
 
 === Attack Roll
 Artillery requires a successful attack roll to inflict damage.
@@ -204,7 +204,7 @@ Boarding is congenial ramming.
 Boarding lines up airlocks to prepare for a breach and boarding of the target vessel.
 The attacker can only use boarding to force airlocks together while exatmo (exterior to atmosphere).
 Once connected, the attacking crew will breach the airlock of the target ship and then board.
-Boarding is a preferred attack because it preserves the target space vehicle, hostages, cargo and is a lot more fun.
+Boarding is a preferred attack because it preserves the target spacecraft, hostages, cargo and is a lot more fun.
 
 .*Boarding Checklist*
 . Determine the number of board attempts
@@ -254,12 +254,12 @@ Mechanics and spies are more proficient at airlock opening than dumb old mercena
 == Grenades
 *Grenades are Turn Order 5*
 
-The types of space vehicle grenades are the same as their inatmo counterparts.
+The types of spacecraft grenades are the same as their inatmo counterparts.
 The main difference is that these grenades travel by mini-missile or mini-mines, and they must win an attack roll to damage the target.
 Inatmo personas throw grenades and only need to get close to damage a target.
 
-The grenade is a space vehicle vs a space vehicle weapon.
-A successful attack roll must be made against the space vehicle's Defence Rating to inflict damage.
+The grenade is a spacecraft vs a spacecraft weapon.
+A successful attack roll must be made against the spacecraft's Defence Rating to inflict damage.
 If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
 
 Grenade delivery systems have diminutive titles because they only deliver grenades. 
@@ -319,7 +319,7 @@ Using a missile is about destroying a target vessel.
 
 *A vessel can control 1 missile per 3 computer levels.*
 
-Missiles can target any detectable space vehicle.
+Missiles can target any detectable spacecraft.
 No vessel can outrun a missile, but they can buy some time.
 This allows for time to impact countdowns and story building.
 ECM can impair a missile's ability to function.
@@ -383,7 +383,7 @@ Naval artillery only works exatmo and cannot cross or be used in the atmosphere.
 Keeping in mind that a vessel cannot escape into the atmosphere in time to avoid this attack.
 
 == Defences
-A space vehicle's defences both defend against attacks and the hostile environment of outer space.
+A spacecraft's defences both defend against attacks and the hostile environment of outer space.
 Defences are a mix of combat defences and essential exatmo life support protections.
 
 .*Defences*
@@ -409,8 +409,8 @@ Control ECM cannot turn off life support or threaten the well-being of the ship'
 
 include::combat:partial$life_support_onion.adoc[]
 
-Destroying life support is rarely the goal of space vehicle combat. 
-Space vehicles are too valuable to destroy utterly.
+Destroying life support is rarely the goal of spacecraft combat. 
+Spacecraft are too valuable to destroy utterly.
 A loss of life support destroys all life on the ship, and more importantly, the ship's computer.
 Life support has onion layer protection, and the outer layers protect the inner layers. 
 One cannot damage life support without disabling the hull and then gravity control first.
@@ -419,7 +419,7 @@ A partially damaged life support system will maintain a fraction of the atmosphe
 A fully operational life support system taking major damage would only have 60% of the previously had atmosphere.
 This thin atmosphere will make it more challenging to work and stay conscious.
 
-If a space vehicle loses all layers of life support at once, the ship will suffer explosive decompression.
+If a spacecraft loses all layers of life support at once, the ship will suffer explosive decompression.
 Decompression destroys all organic materials (personas) and delicate inorganic devices (computers, robots, toys).
 
 == Gravity Control
@@ -434,7 +434,7 @@ The ship's computer can adjust the gravity from 0.5 to 1.5 gravities.
 
 Gravity control maintains a comfortable working gravity throughout the ship at all times. 
 Personas onboard will not notice any difference between a stationary ship and one making combat maneuvers near light speed.
-Almost any maneuver performed by a space vehicle would destroy all organic materials (personas) and destroy all delicate inorganic devices (computers, robots, toys) without gravity.
+Almost any maneuver performed by a spacecraft would destroy all organic materials (personas) and destroy all delicate inorganic devices (computers, robots, toys) without gravity.
 
 NOTE: *Gravity control is a sciency fiction mechanism designed for role-playing fun.*
 
@@ -465,13 +465,13 @@ The hull is the containment and physical defence system of the ship.
 The hull also defends against both hostile environments and attacks.
 The star cruiser's hull is the last line of defence.
 
-The hull supplies the space vehicle's Defence Rating used in combat.
+The hull supplies the spacecraft's Defence Rating used in combat.
 The hull and Defence Rating have an intimate relationship.
 In combat, the hull absorbs damage decreasing Defence Rating.
 
 NOTE: *The Hull Defence Rating (DEF) protects the Hull. Once the Hull DEF is is less than 420, the Hull takes direct damage rolls.*
 
-Defensive ECM can increase the space vehicle's AR against attack rolls.
+Defensive ECM can increase the spacecraft's AR against attack rolls.
 The increase in AR is a transient electronic deception and does not alter the Hull DEF.
 
 == Defencive ECM
@@ -483,7 +483,7 @@ So if a mechanic has ECM level 2 and the computer level is 3, then the ECM will 
 ECM is an accessory unit of the ship's computer. 
 Electronic countermeasures are both attack ECM and defence ECM.
 An ECM unit cannot be both at the same time.
-If the space vehicle has only 1 ECM unit, the players must decide how to use it each combat turn.
+If the spacecraft has only 1 ECM unit, the players must decide how to use it each combat turn.
 
 ECM can be used to attack or defend. 
 For more info about attack ECM jump to <<_attack_ecm,Attack ECM>>
@@ -552,9 +552,9 @@ This passive protection does not use any extra fuel.
 include::combat:partial$life_support_onion.adoc[]
 
 == Guns
-A gun is a purely defensive element in space vehicle combat.
+A gun is a purely defensive element in spacecraft combat.
 A gun does not sound like a defensive tool, but occasionally the best defence is a good offence.
-Guns on space vehicles are anti-personnel air lock defence weapons.
+Guns on spacecraft are anti-personnel air lock defence weapons.
 In ship-to-ship combat, a gun is an ineffectual weapon.
 However, to prevent boarding or airlock intrusion, a mounted gun can be very effective.
 

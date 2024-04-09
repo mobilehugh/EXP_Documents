@@ -98,24 +98,16 @@ If pharma safety and tech level is a thing the player may add half the pharma's 
 
 WARNING: *Side effect and adverse effects are unused euphemisms because artifacts don't have marketing campaigns.*
 
-==== Toxic Effect
+==== Toxicity Effect
 Failing the saving roll will result in a toxic effect.
 Toxic effects can be irritating or life threatening. 
 
-
-// todo combine these tables
 include::hardware:partial$pharma_toxicity_effects.adoc[]
 
 ==== Toxicity Duration
 
 include::hardware:partial$pharma_durations.adoc[]
 
-==== Lethal Toxic Effects
-This table is not used in EXP. 
-It is kept here for posterity and may be of use somehow.
-Lethal toxic effects are left over from the Poison Pharma removed in version 7.
-
-include::hardware:partial$pharma_lethal_toxin_types.adoc[]
 
 === Parameters
 Explanations of the pharma parameters.
@@ -437,6 +429,14 @@ Narcotics permanently decrease the persona's EXPS total by 42 points.
 include::hardware:partial$pharma_durations.adoc[]
 
 include::hardware:partial$pharma_narcotic_effect.adoc[]
+
+
+=== Poison
+This table is not used in EXP. 
+It is kept here for posterity and may be of use somehow.
+Lethal toxic effects are left over from the Poison Pharma removed in version 7.
+
+include::hardware:partial$pharma_lethal_toxin_types.adoc[]
 
 === Regen 
 
