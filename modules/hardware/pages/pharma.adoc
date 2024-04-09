@@ -96,7 +96,7 @@ Toxic effects are usually random, but the referee can assign specific toxicities
 The higher the tech level the safer the pharma.
 If pharma safety and tech level is a thing the player may add half the pharma's tech level to her saving roll.
 
-WARNING: *Side effect and adverse effects are unused euphamisms because artifacts don't have marketing campaigns.*
+WARNING: *Side effect and adverse effects are unused euphemisms because artifacts don't have marketing campaigns.*
 
 ==== Toxic Effect
 Failing the saving roll will result in a toxic effect.
@@ -104,12 +104,18 @@ Toxic effects can be irritating or life threatening.
 
 
 // todo combine these tables
-include::ROOT:partial$CH50_Table_Pharmaceutical_Side_Effect.adoc[]
-include::ROOT:partial$CH50_Table_Poison_Type.adoc[]
+include::hardware:partial$pharma_toxicity_effects.adoc[]
 
 ==== Toxicity Duration
 
 include::hardware:partial$pharma_durations.adoc[]
+
+==== Lethal Toxic Effects
+This table is not used in EXP. 
+It is kept here for posterity and may be of use somehow.
+Lethal toxic effects are left over from the Poison Pharma removed in version 7.
+
+include::hardware:partial$pharma_lethal_toxin_types.adoc[]
 
 === Parameters
 Explanations of the pharma parameters.
