@@ -1,18 +1,16 @@
-// Table 54.13 Fuel Type
-.*Engine and Fuel Type*
+.*Fuel Type Table*
 [width="85%",cols="^,<,<,<",frame="all", stripes="even"]
 |===
 
-4+<|Determine fuel type for an inatmo (planetary) vehicle.
-|
-s|Fuel Type
-s|Vehicle
-s|Refill
+4+<|Determine the vehicle's fuel (and engine) type.
 
 s|Die Roll (1d100)
-s|Basic
-s|Range (km)
 s|Type
+s|Range (km)
+s|Refill
+
+4+^s|Basic
+
 
 |01-20
 |Gas
@@ -39,10 +37,8 @@ s|Type
 |3d4 times 100
 |Rewind
 
-|--
-s|Recharging
-|--
-|--
+4+^s|Recharging
+
 
 |81-84
 |Gravitational
@@ -59,10 +55,8 @@ s|Recharging
 |8d4 times 100
 |Rest in light
 
-|--
-s|Continuous
-|--
-|--
+4+^s|Continuous
+
 
 |93-95
 |Broadcast
@@ -88,6 +82,7 @@ s|Die Roll
 s|Fuel Type
 s|Range (km)
 s|Refill
+
 4+<|A psionic powered vehicle would kill the organic occupants. This fuel type is a campaign choice.
 
 |===

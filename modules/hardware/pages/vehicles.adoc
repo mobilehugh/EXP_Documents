@@ -1,9 +1,4 @@
-= Inatmo Vehicles
-
-A vehicle is essentially any machine designed to help personas get from point A to point B.
-Inatmo vehicles operate within the atmosphere of a planet.
-Unlike their outer space cousins (spacecraft), inatmo vehicles operate in a planet's gravity well.
-Personas drive these vehicles unless accessories indicate otherwise.
+= Vehicles
 
 :art: vehicle_fnord_full.png
 :width: 450px
@@ -11,9 +6,13 @@ Personas drive these vehicles unless accessories indicate otherwise.
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of a boxy compact car with treads instead of wheels.
-
+:description: A boxy compact car with treads instead of wheels.
 include::ROOT:partial$articulate.adoc[]
+
+A vehicle is any machine designed to help personas get from point A to point B.
+Vehicles operate within the atmosphere of a planet.
+Unlike their outer space cousins (spacecraft), vehicles operate in a planet's gravity well.
+Personas drive these vehicles unless accessories indicate otherwise.
 
 The player generates her vehicle randomly.
 This randomness makes for wild and curious vehicles.
@@ -29,117 +28,30 @@ The vehicle design is for anthro personas.
 Every vehicle has an engine, a body, a braking system, a steering device, and some space for passengers.
 The vehicle may also have a windscreen, roof, signal lights, instrument panel, and doors.
 Vehicles created for an alien society would reflect the needs of that alien species.
-Vehicles created for a robotic society would reflect the needs of that alien species.
+Vehicles created for a robotic society would reflect the needs of that robot series.
 The referee must exercise her creative muscle to accommodate cars for robots or gigantic alien species.
 
-.*Vehicle Construction List*
-. <<_vehicle_type,Vehicle Type>>
-. <<_vehicle_purpose,Vehicle Purpose>>
-. <<_speed,Speed>>
-. <<_acceleration,Acceleration>>
-. <<_locomotion,Locomotion>>
-. <<_engine_and_fuel_type,Engine and Fuel>>
-. <<_handling_level,Handling Level>>
-. <<_accessories,Accessories>>
-. <<_adaptability,Adaptability>>
-. <<_exps,EXPS>>
-. <<_value,Value>>
+.*Vehicle Fabrication
+. Vehicle Format - shape and size
+. Vehicle Usage - accessories
 
-== Vehicle Type
+== Vehicle Format
 Vehicle type determines the appearance, shape and size of the vehicle.
 Included with the vehicle type are passenger capacity, cargo capacity, and vehicle wate.
 Vehicle type is a framework to start creating on.
 
-include::ROOT:partial$CH54_Table_Primary_Format.adoc[]
+include::hardware:partial$vehicle_format.adoc[]
 
-=== Cargo Type
-
-:art: alien_beasts_of_burden.png
-:width: 450px
-:snark: Low tech cargo van.
-:artist: Morey
-:date: 1962
-:license: CC BY-SA 4.0
-:description: Drawing of alien quadrupeds pulling wooden cart.
-
-include::ROOT:partial$articulate.adoc[]
-
-Cargo vehicles are devoted to the transport of things other than passengers.
-Cargo vehicles are vans, trucks, and pick-ups. 
-They have limited passenger capacity and have space for moving stuff.
-The passenger portion of this vehicle is secondary to the cargo space.
-The passenger cabin may, or may not, have access to the cargo hold.
-
-include::ROOT:partial$CH54_Table_Cargo_Vehicle_Type.adoc[]
-
-=== Leisure Type
-
-:art: flying_naudosaucers.png
-:width: 450px
-:snark: Nice evening for a cruise.
-:artist: Morey
-:date: 1962
-:license: CC BY-SA 4.0
-:description: Drawing of two flying saucers in star lit sky.
-
-include::ROOT:partial$articulate.adoc[]
-
-The leisure vehicle is the most familiar vehicle type. 
-Most mundane terran vehicle ownership is of the leisure vehicle type.
-They include minis, sedans, coupes, motorcycles and mini-vans.
-Leisure vehicles are designed for commuting, touring, or parking in front of a house.
-They are primarily for passenger travel and have little space allotted for cargo.
-
-include::ROOT:partial$CH54_Table_Leisure_Vehicle_Type.adoc[]
-
-=== Passenger Type
-
-:art: passenger_vehicle.png
-:width: 450px
-:snark: Where toad sir?
-:artist: Michael Jackson
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of humanoid toad in driver seat of flying taxi cab.
-
-include::ROOT:partial$articulate.adoc[]
-
-The passenger vehicles are persona cargo vehicles.
-They safely move anthros, aliens or robots from one place to another.
-They have seating and some cargo space for passenger belongings.
-Typical passenger vehicles are taxis, vans and buses.
-
-include::ROOT:partial$CH54_Table_Passenger_Vehicle_Type.adoc[]
-
-=== Self Powered Type
-
-:art: darth_pogo.png
-:width: 450px
-:snark: Legalize skate boards.
-:artist: Peggy Lynn McIsaac
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Drawing of skate boarder with caped humanoid on pogo stick.
-
-include::ROOT:partial$articulate.adoc[]
-
-These are engineless modes of transport that get the persona from A to B.
-Self-powered vehicles employ gears, pulleys and elastics to get around.
-These are not your ordinary self-powered vehicles since they can attain tremendous speeds.
-Pogo sticks, bicycles, skateboards are typical self-powered types of vehicles.
-
-include::ROOT:partial$CH54_Table_Self_Powered_Vehicle_Type.adoc[]
-
-== Vehicle Type Parameters
+=== Parameters
 These are the parameters that the vehicle type contributes to the overall vehicle function.
 
-=== Appearance
+==== Appearance
 The vehicle appearance only suggests a basic shape for the vehicle type.
 The vehicle appearances match mundane terran vehicles of the same name.
 Imaginative players should not limit themselves by the appearance of the vehicle type.
 The appearance is a framework for function and not a defining appearance.
 
-=== Passengers
+==== Passengers
 The passengers' parameter represents the number of personas that can be safely seated in the vehicle.
 Passenger-type vehicles have lots of passenger capacity.
 Self-powered type vehicles have limited passenger capacity.
@@ -150,8 +62,7 @@ Self-powered type vehicles have limited passenger capacity.
 :artist: Ed Carter
 :date: 1950
 :license: CC BY-SA 4.0
-:description: Drawing of two handsome antennae clad humanoids paddling on giant leaves.
-
+:description: Two handsome antennae clad humanoids paddling on giant leaves.
 include::ROOT:partial$articulate.adoc[]
 
 Exceeding passenger capacity has adverse effects on vehicle handling and maneuvers.
@@ -160,13 +71,13 @@ There are also severe consequences for unrestrained passengers in vehicle collis
 The seating capacity is for medium-sized anthro personas. 
 Creating vehicles for gigantic robots or minute aliens will require referee maths.
 
-=== Cargo
+==== Cargo
 The cargo parameter indicates the amount of space for stuff.
 Cargo capacity is a combination of wate and volume.
 A vehicle may be able to manage additional wate but does not have space for the junk.
 Cargo-type vehicles have enormous cargo capacity, while self-powered vehicles have almost none.
 
-=== Wate
+==== Wate
 The vehicle wate parameter indicates the vehicle's unloaded wate.
 Vehicle wate is important in collisions, terrain, transport, or running over stuff.
 The wate of a vehicle is in kilograms or tonnes.
@@ -180,7 +91,83 @@ For example, a double-stretch passenger vehicle (articulated bus) needs 60 hexes
 The hex mat space works out to 3 hexes wide by 20 hexes long.
 Typically these hexes are arranged in a rectangle, but accessories and usage may alter this shape.
 
-== Vehicle Purpose
+
+=== Cargo
+
+:art: alien_beasts_of_burden.png
+:width: 450px
+:snark: Low tech cargo van.
+:artist: Morey
+:date: 1962
+:license: CC BY-SA 4.0
+:description: Alien quadrupeds pulling wooden cart.
+include::ROOT:partial$articulate.adoc[]
+
+Cargo vehicles are devoted to the transport of things other than passengers.
+Cargo vehicles are vans, trucks, and pick-ups. 
+They have limited passenger capacity and have space for moving stuff.
+The passenger portion of this vehicle is secondary to the cargo space.
+The passenger cabin may, or may not, have access to the cargo hold.
+
+include::hardware:partial$vehicle_format_cargo.adoc[]
+
+=== Leisure
+
+:art: flying_naudosaucers.png
+:width: 450px
+:snark: Nice evening for a cruise.
+:artist: Morey
+:date: 1962
+:license: CC BY-SA 4.0
+:description: Two flying saucers in star lit sky.
+include::ROOT:partial$articulate.adoc[]
+
+The leisure vehicle is the most familiar vehicle type. 
+Most mundane terran vehicle ownership is of the leisure vehicle type.
+They include minis, sedans, coupes, motorcycles and mini-vans.
+Leisure vehicles are designed for commuting, touring, or parking in front of a house.
+They are primarily for passenger travel and have little space allotted for cargo.
+
+include::hardware:partial$vehicle_format_leisure.adoc[]
+
+=== Passenger
+
+:art: passenger_vehicle.png
+:width: 450px
+:snark: Where toad sir?
+:artist: Michael Jackson
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Humanoid toad in driver seat of flying taxi cab.
+include::ROOT:partial$articulate.adoc[]
+
+The passenger vehicles are persona cargo vehicles.
+They safely move anthros, aliens or robots from one place to another.
+They have seating and some cargo space for passenger belongings.
+Typical passenger vehicles are taxis, vans and buses.
+
+include::hardware:partial$vehicle_format_passenger.adoc[]
+
+=== Self Powered
+
+:art: darth_pogo.png
+:width: 450px
+:snark: Legalize skate boards.
+:artist: Peggy Lynn McIsaac
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Humanoid skate boarder riding with a caped humanoid on pogo stick.
+include::ROOT:partial$articulate.adoc[]
+
+These are engineless modes of transport that get the persona from A to B.
+Self-powered vehicles employ gears, pulleys and elastics to get around.
+These are not your ordinary self-powered vehicles since they can attain tremendous speeds.
+Pogo sticks, bicycles, skateboards are typical self-powered types of vehicles.
+
+include::hardware:partial$vehicle_format_self_powered.adoc[]
+
+
+== Vehicle Usage
 The vehicle type gives the vehicle size and shape. 
 The vehicle's purpose gives its reason to be.
 Vehicle purpose determines the accessories and operating specifications of the vehicle.
@@ -192,7 +179,7 @@ A leisure vehicle type with a high-performance purpose could be a race car.
 The appearance and structure modify further to reflect a race car.
 The referee and players are responsible for describing these elements.
 
-include::ROOT:partial$CH54_Table_Secondary_Vehicle_Use.adoc[]
+include::hardware:partial$vehicle_usage_types.adoc[]
 
 === High Performance
 
@@ -202,22 +189,21 @@ include::ROOT:partial$CH54_Table_Secondary_Vehicle_Use.adoc[]
 :artist: Kelly Freas
 :date: 1955
 :license: CC BY-SA 4.0
-:description: Drawing of feline quadruped staring at boxy shaped floating car.
-
+:description: Feline quadruped staring at boxy shaped floating car.
 include::ROOT:partial$articulate.adoc[]
 
 High-performance vehicles are souped-up, chromed-out rubber melting machines.
 The vehicles are devoted to speed, acceleration, range, and maneuverability.
-A leisure vehicle with a high-performance purpose could be a classic muscle car.
-A passenger vehicle with a high performance purpose could be a limousine.
+A leisure vehicle with a high-performance usage could be a classic muscle car.
+A passenger vehicle with a high performance usage could be a limousine.
 
+.*High Performance Accessories*
+* Acceleration +10%
+* Speed +20%
+* Handling +2
+* plus 0-3 rolls on the High Performance Accessories Table
 
-High performance vehicles get  +10% on acceleration, +20% on speed, and +2 on handling class.
-High performance vehicles also get 1-3 rolls on the High Performance Accessories Table.
-Accessory effects are cumulative.
-Descriptions of acceleration, speed, and handling level appear later.
-
-include::ROOT:partial$CH54_Table_High_Performance_Bonuses.adoc[]
+include::hardware:partial$vehicle_accessories_high_performance.adoc[]
 
 === Industrial
 
@@ -227,8 +213,7 @@ include::ROOT:partial$CH54_Table_High_Performance_Bonuses.adoc[]
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of hight speed van with a weapon turret on the roof driving off road.
-
+:description: High speed van with a weapon turret driving off road.
 include::ROOT:partial$articulate.adoc[]
 
 Industrial vehicles have specific commercial purposes.
@@ -237,14 +222,16 @@ A skateboard with a shovel accessory is a shovel with wheels.
 A pick-up truck with a shovel accessory is a dirt-removing machine.
 The industrial accessories will require some creative shoehorning, but hopefully, most are self-explanatory.
 
-Every industrial vehicle gets at least one accessory.
-Then there is a 50% of getting a second accessory, a 25% chance of a third accessory and a 13% chance of a fourth accessory.
-The maximum number of accessories is four.
-
 Each accessory adds 25% to vehicle wate. 
-So four accessories would increase the vehicle wate by 100%.
+A four accessory industrial usage vehicle would double the vehicle wate.
 
-include::ROOT:partial$CH54_Table_Industrial_Accessory.adoc[]
+.*Industrial Accessories*
+* 100% for one accessory, add 25% wate
+* 50% for second accessory, add 50% wate
+* 25% for third accessory, add 75% wate
+* 10% for fourth accessory, double wate
+
+include::hardware:partial$vehicle_accessories_industrial.adoc[]
 
 ==== Accessory Weaponization
 Players want to use industrial accessories as weapons.
@@ -263,13 +250,13 @@ At that time, the players can decide what the accessories combat parameters are.
 :artist: Pat Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of modern tank kicking up dust at speed.
-
+:description: Modern appearing tank kicking up dust at speed.
 include::ROOT:partial$articulate.adoc[]
 
 Combat vehicles are tougher than other vehicles.
 They resist being shot, crushed and intentionally abused.
 A leisure type vehicle with a combat purpose could be a jeep.
+A combat pogo stick?
 
 Combat vehicles are combat-hardened.
 They are harder to hit and harder to damage.
@@ -283,7 +270,12 @@ Combat accessories integrate with the vehicle.
 They are not detachable and would require a mechanic to remove them.
 The combat accessories can define the vehicle as a tank or a jeep, or a driving bomb.
 
-include::ROOT:partial$CH54_Table_Military_Accessories.adoc[]
+.*Combat Accessories*
+* Defence Rating 700
+* Extent of Damage Rolls reduced 50%
+* plus 1-3 rolls on the Combat Accessories Table
+
+include::hardware:partial$vehicle_accessories_combat.adoc[]
 
 === Recreational
 Recreational vehicles are for persona comfort.
@@ -293,7 +285,12 @@ Most vehicles get one roll on the table.
 Large vehicle gets an additional accessory per 20 passenger spots.
 A recreational passenger vehicle that holds 60 passengers gets three extra rolls.
 
-include::ROOT:partial$CH54_Table_Recreational_Vehicle_Accessories.adoc[]
+.*Recreational Accessories*
+* Cup holders
+* 1 roll on the Recreational Accessories Table
+* 1 additional roll per 30 passengers or 4 tonnes of cargo space
+
+include::hardware:partial$vehicle_accessories_recreational.adoc[]
 
 == Speed
 Speed refers to the maximum speed that the vehicle can attain.
@@ -309,19 +306,14 @@ A flying vehicle may not be able to float at 0 h/u in the air.
 An enormous vehicle may have a much reduced reverse speed.
 A water-borne vehicle may not be able to reverse at all.
 
+[discrete]
 === Vehicle Maximum Speed
 .speed = 6d12 h/u
 ****
 Max speed = 6 + 6 + 6 + 6 + 6 + 6 = 36 h/u (130 kmh)
 ****
 
-.*For convenience*
-* 1 h/u = 1 m/s
-* 1 h/u = 3.6 kmh
-* 1 h/u = 2.2 mph
-* 25 h/u = Gale force wind
-* 45 h/u = 100 mph
-* 342 h/u = Speed of sound
+include::uncombat:partial$observations_on_speed.adoc[]
 
 == Acceleration
 Acceleration indicates how much faster the vehicle can travel from one unit to the next.
@@ -335,8 +327,7 @@ Acceleration generally requires maths.
 :artist: Michael Jackson, mod HM
 :date: 1991, 2010
 :license: CC BY-SA 4.0
-:description: Drawing of small car with tracks driving out of the image frame.
-
+:description: Small car with tracks driving out of the image frame.
 include::ROOT:partial$articulate.adoc[]
 
 For example, two vehicles have the same speed of 50 h/u.
@@ -352,9 +343,10 @@ Vehicle Also has an acceleration of 10 h/u per unit and a top speed of 20 h/u.
 After ten units, Won will be going 50 h/u and quickly catches up because Also is going a mere 20 h/u.
 
 ====
-It is best to avoid complex maths and do what is best for the story. 
+It is best to avoid complex maths and choose story. 
 ====
 
+[discrete]
 === Maximum Vehicle Acceleration
 .acceleration = (10d20) / 10 in h/u
 ****
@@ -379,26 +371,29 @@ NOTE: *Self Powered vehicles do not have a locomotion type.*
 :artist: Moller / Format
 :date: 1887 (yes "18" 87)
 :license: CC BY-SA 4.0
-:description: Drawing of wooden ship with air screws and propeller flying in the clouds.
-
+:description: Wooden ship with air screws and propeller flying in the clouds.
 include::ROOT:partial$articulate.adoc[]
 
-=== Locomotion Type
+[discrete]
+=== Speed and Locomotion
 The speed of a vehicle determines the locomotion options.
 A slow-moving vehicle (10 h/u) uses the <15 h/u (left) column
 A vehicle with a top speed of 30 h/u uses the middle column.
 A speedy vehicle (200 h/u) use the >110 h/h  (right) column.
 
+Limiting locomotion type by speed is a mundane terran approach to speed and engineering.
+If the table is fine with 200 kmh piston driven vehicle simply use the leftmost column.
+
 The brackets following the locomotion type indicate the number of wheels, balloons, or jets moving the vehicle.
 
-include::ROOT:partial$CH54_Table_Vehicle_Locomotion.adoc[]
+include::hardware:partial$vehicle_locomotion.adoc[]
 
-=== Complementary Locomotion Types
+[discrete]
+=== Complementary Type
 Some vehicles combine two locomotion types.
 For example, a set of jet engines may move around a vehicle with wheels.
-An asterisk " ^*^ " marks those locomotion types that can have a complementary locomotion type.
 
-include::ROOT:partial$CH54_Table_Vehicle_Secondary_Locomotion.adoc[]
+include::hardware:partial$vehicle_locomotion_complementary.adoc[]
 
 :art: Inatmo_vehicle_industrial.png
 :width: 450px
@@ -407,10 +402,9 @@ include::ROOT:partial$CH54_Table_Vehicle_Secondary_Locomotion.adoc[]
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Floating junker vehicle with mini crane and broken sign.
-
 include::ROOT:partial$articulate.adoc[]
 
-=== Antigrav (1)
+=== Antigrav
 Antigrav is a classic sciency fiction mode of travel
 The vehicle can travel about as though gravity does not affect it.
 As ideal as antigrav is, it will only function within a gravity well.
@@ -420,15 +414,16 @@ Complementary antigrav supplies buoyancy, and the locomotion type moves the vehi
 
 Antigrav is an air based locomotion.
 
-=== Balloons (1d12)
+=== Balloons
 Balloons offer both movement force and maneuverability to the vehicle.
 The balloons appear very dynamic, inflating and deflating rapidly to change direction and move the vehicle.
+There are 1-12 (1d12) balloons moving the vehicle.
 
 Complementary balloons supply buoyancy and the locomotion type moves the vehicle.
 
 Balloons are air based locomotion types. 
 
-=== Chemical slide (1)
+=== Chemical slide
 The chemical slide allows the vehicle to slide along any surface effortlessly.
 This process leaves a quickly evaporating trail, not unlike a giant slug.
 This comparison does not necessarily imply the vehicle will be slow.
@@ -437,22 +432,24 @@ A complementary chemical slide provides a frictionless surface, and the locomoti
 
 The chemical slide is a land and water based locomotion.
 
-=== Electromagnetic legs (1d4)
+=== Electromagnetic legs
 Electromagnetic legs are visible beams of energy lift and propel the vehicle.
 These legs keep the vehicle about a meter off the ground. 
 Electromagnetic legs keep the vehicle level on varying terrain and offer a very stable ride.
+There are 1-4 (1d4) electromagnetic legs moving the vehicle
 
 Electromagnetic legs are a land based locomotion.
 
-=== Jets (1d4+1)
+=== Jets
 Jets force gases at high speed to generate movement.
 The jets create thrust and maneuverability.
 Jets are intake-less and do not eject dangerous super-heated propellants.
 Cosmetic wings can accompany jets to resemble mundane terran jet planes.
+There are 2-5 (1d4+1) jets moving the vehicle.
 
 Jets are an air based locomotion.
 
-=== Magnetic (1)
+=== Magnetic
 A magnetic locomotion unit allows the vehicle to hover above the ground at a fixed height.
 The vehicle cannot hover more than one hex above the ground.
 The magnetic drive keeps the vehicle level on varying terrain and offers a very stable ride.
@@ -460,43 +457,48 @@ Vehicles with magnetic locomotion will often float around long after their destr
 
 The magnetic drive is a land and water based locomotion.
 
-=== Pistons (1d10)
+=== Pistons
 Pistons quickly poke up and down, keeping the vehicle balanced and moving.
 The ride is not a rough one, but from the outside may look chaotic.
 The pistons are immaculately timed and keep the vehicle stable.
+There 1-10 (1d10) pistons moving the vehicle
 
 Pistons are a land based locomotion. 
 
-=== Pods (4d4)
+=== Pods
 Pods are mechanical legs with multiple articulations.
 The articulated poles hop, scuttle or patter the vehicle around.
 The ride is not a rough one, but from the outside may look chaotic.
+There are 4-16 (4d4) pods moving the vehicle.
 
 This locomotion type is land-based. 
 
-=== Propellers (1d6)
+=== Propellers
 Propellers are quiet, safely encased airscrews.
 The propellers offer thrust and maneuverability to the vehicle. 
 Cosmetic wings can accompany propellers to resemble mundane terran planes.
+There are 1-6 (1d6) propellers moving the vehicle.
 
 Propellers are an air based locomotion.
 
-=== Sails (1d3)
+=== Sails
 Sails are very sturdy, electro molecular planes that catch air for movement.
 Vehicle sails operate perfectly well in a raging wind or a dead calm.
 The sails offer thrust and maneuverability. 
+There are 1-3 (1d3) sails moving the vehicle.
 
 Sails can be air, land or water based locomotion, but only one of the three.
 
-=== Skis (1d4+2)
+=== Skis
 Skis are attached to articulated pods that skate the vehicle over terrain.
-There is no difference in speed whether the vehicle is trotting uphill or sliding down slopes.
+A ski driven vehicle has no speed difference uphill or downhill.
+There are 3-7 (1d4+2) skis moving the vehicle.
 
 Complementary skis offer a contact surface for locomotion while the primary locomotion type moves the vehicle.
 
 Skis are a land and water based locomotion.
 
-=== Slog bag (1)
+=== Slog bag
 A slog bag appears like a fluid-filled sack attached to the undercarriage of the vehicle.
 However, it does not contain a liquid.
 The slog bag moves like a sack of mercury and undulates and contorts itself along the surface.
@@ -506,12 +508,14 @@ The slog bag is a land and water based locomotion type.
 === Tracks (1d6)
 Tracks look like and are nothing more than rubber-coated tank tracks.
 Each track operates individually, and they coordinate to generate force and maneuvers.
+There are 1-6 (1d6) tracks moving the vehicle.
 
 Tracks are a land based locomotion type.
 
-=== Wheels (1d12)
+=== Wheels
 They are solid, puncture-proof and can roll across any terrain.
 Each wheel operates individually, and they coordinate to generate force and maneuvers.
+There are 1-12 (1d12) wheels moving the vehicle.
 
 Complementary wheels offer a contact surface and maneuvers the vehicle, while the locomotion type provides the thrust.
 
@@ -523,40 +527,53 @@ Wheels are a land based locomotion type.
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of a wheelless military troop transport flying at fourty five degrees. 
-
+:description: Low flying military troop transport hitting fourty five degrees. 
 include::ROOT:partial$articulate.adoc[]
 
-=== Air Based Locomotion
+== Modality
+Almost all vehicles are land based vehicles similar to our mundane terran cars.
+The locomotion types indicate whether they are land based, air based, water based or some combination.
+If it suits the milieu and story an air based locomotion could be a flying vehicle. 
+
+=== Air
 Air based locomotion indicates the ability to fly supported by gas, most commonly air.
-Air based locomotions cannot drive on land or water.
+Air based locomotion cannot drive on land or water.
 They may slowly taxi on land but only make speed while in the air.
 
 Air based locomotion indicated a vehicle has flight and can travel in three dimensions.
 Three-dimensional movement and adds massive complexity to tactical combat.
 The referee may ground air based locomotion types to preserve game balance.
 
-=== Land Based Locomotion
+=== Land
 Land based locomotion vehicles can only drive on solid ground.
 Land based locomotion is the most common type of locomotion on mundane terra.
 
-=== Water Based Locomotion
+=== Water
 Water based locomotion allows the vehicle to travel over liquid, most commonly water.
 The mundane terran form of this travel is a boat.
 If the vehicle has water only locomotion, it will harbour many boat like qualities. 
 
-== Engine and Fuel Type
-The engine determines the fuel type, and they are intimately connected.
+=== Underwater
+There are no rules for submarine equipment in EXP.
+The table will have to dive into that one themselves.
+
+=== Exatmo
+Out of atmosphere vehicles are called spacecraft, and have their own section.
+For more info about exatmo vehicles jump to xref:hardware:spacecraft.adoc[Spacecraft,window=_blank]
+
+== Fuel
+The fuel type determines the engine type as well
+Engine and fuel are intimately connected.
 The engine powers all aspects of the vehicle.
 Locomotion and all accessories get their energy from the engine.
-As the engine operates, it burns fuel.
+As the engine supplies energy, it burns fuel.
 
 There are typical fuels and atypical fuels. 
 Some engines require refitting as opposed to refuelling.
 Coils get demagnetized, rubber bands wind down, and fuel tanks empty.
 Refitting and refuelling are primarily cosmetic, and it is the same difference to keeping the engine running.
 
-include::ROOT:partial$CH54_Table_Fuel_Type.adoc[]
+include::hardware:partial$vehicle_fuel_types.adoc[]
 
 :art: motocycle_cyberpunk.png
 :width: 450px
@@ -564,11 +581,10 @@ include::ROOT:partial$CH54_Table_Fuel_Type.adoc[]
 :artist: James Shields
 :date: 2014
 :license: Copyright JEShields Stock Art
-:description: Drawing of human on motorcycle making a sharp turn.
-
+:description: Humanoid on motorcycle making a sharp turn.
 include::ROOT:partial$articulate.adoc[]
 
-== Handling Level
+== Handling
 The handling level of a vehicle is the combination of the elements of maneuverability, responsiveness and stability.
 Handling level includes steering sensitivity, brake response, traction, balance, and chassis design.
 The higher the handling level, the better the chance of success with driving maneuvers.
