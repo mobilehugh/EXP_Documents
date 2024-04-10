@@ -129,7 +129,7 @@ include::ROOT:partial$articulate.adoc[]
 
 .*Drive Checklist*
 . <<_configuration,Drive Configuration>>
-. <<_power,Drive Power>>
+. <<_power_level,Power Level>>
 
 === Configuration
 The configuration of the drive types determines the spacecraft type.
@@ -199,7 +199,7 @@ A spacecraft with both inatmo and exatmo drives can enter and exit a planet's at
 
 All of the inatmo drive types function equally well.
 
-include::ROOT:partial$CH52_Table_Inatmo_Drive_Type.adoc[]
+include::hardware:partial$spacecraft_drives_inatmo.adoc[]
 
 Antigrav::
 Classic sciency fiction anti-gravity units suspend and maneuver the ship above the planet's surface.
@@ -237,7 +237,7 @@ The special drives turn insurmountable distances into science fiction pulp.
 
 All special drives function equally well.
 
-include::ROOT:partial$CH52_Table_Special_Drive_Type.adoc[]
+include::hardware:partial$spacecraft_drives_special.adoc[]
 
 Bloater::
 A bloater drive expands the ship and its contents by increasing the space between its molecules.
@@ -280,7 +280,7 @@ Once space-time is folded, the spacecraft passes through the base of the fold.
 This distance traveled is short, but the distance covered is enormous.
 Warp drives are also called origami or laundry drives.
 
-=== Drive Power
+=== Power Level
 The drive power represents how powerful the drive is.
 The more powerful the drive, the faster, further the drive goes.
 Each drive type has its own power level between one and ten.
@@ -288,7 +288,7 @@ The player rolls drive power from 1-10 (1d10) for each drive the spacecraft has.
 The player may roll three times for a starship (exatmo, inatmo, and special) or once for a space tug (exatmo only).
 The more powerful the drive is, the more hull space it occupies.
 
-include::ROOT:partial$CH52_Table_Drive_Level_and_Size.adoc[]
+include::hardware:partial$spacecraft_drive_power_levels.adoc[]
 
 Drive Power Level::
 The player rolls drive power from 1-10 (1d10) for each drive the spacecraft has.
@@ -329,11 +329,11 @@ Fuel is a tool to make gameplay more challenging and the storytelling more inter
 The players can dispense with fuel's rules if desired.
 
 .*Fuel Checklist*
-. <<_fuel_type,Fuel Type>>
-. <<_fuel_level,Fuel Level>>
-. <<_fuel_consumption,Fuel Consumption>>
+. <<_type,Fuel Type>>
+. <<_capacity,Fuel Capacity>>
+. <<_consumption,Fuel Consumption>>
 
-=== Fuel Type
+=== Type
 A spacecraft's fuel type is a fun descriptor.
 It is entirely up to the referee if gas from one vessel is compatible with gas from another vessel.
 A spacecraft will only have one fuel type.
@@ -341,11 +341,10 @@ Each drive type will use the same fuel type.
 The drive types may use the same fuel, but each drive type has different needs and rates of consumption.
 Whether the spacecraft has a full tank, a half tank or vapours is up to the referee and the milieu of the campaign.
 
-For more information about fuel and energy jump to the generic mythos section -> xref:appendices:generic_mythos.adoc#_energy_and_power[Energy and Power,window=_blank].
+For more information about fuel and energy jump to xref:appendices:generic_mythos.adoc#_energy_and_power[Energy and Power,window=_blank].
 
-include::ROOT:partial$CH52_Table_Fuel_Type.adoc[]
+include::hardware:partial$power_source_types.adoc[]
 
-//.1(5)+.2(10.5)+.2(22)+.3(220)+.1(900)+0.05(3750)+0.04(21000)
 
 :art: spacevehicle_gigantic.png
 :width: 450px
@@ -353,28 +352,29 @@ include::ROOT:partial$CH52_Table_Fuel_Type.adoc[]
 :artist: Unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of very big space ship built around a rock.
-
+:description: A very big space ship built around a rock.
 include::ROOT:partial$articulate.adoc[]
 
-=== Fuel Level
-The drive types the spacecraft has, the more fuel the spacecraft may have.
-Each drive type contributes an amount to the shared fuel storage.
+
+=== Capacity
+Capacity is the amount of fuel storage within the spacecraft.
+The more drive types the spacecraft has, the more fuel the spacecraft may have.
+Each drive type contributes an amount to the shared fuel capacity.
 The fuel storage occupies hull space on the vessel.
 The fuel amount also determines the range of the spacecraft.
  
-include::ROOT:partial$CH52_Table_Fuel_Storage.adoc[]
+include::hardware:partial$spacecraft_fuel_capacity.adoc[]
 
-Fuel Level::
+Capacity::
 The fuel level indicates how much fuel each drive type contributes to the total fuel level.
 For example, a spaceship has the following fuel levels: inatmo 8, exatmo 9 and special 3.
 The total fuel level is 20, which determines the fuel storage and fuel range.
 
-Fuel Storage::
+Storage Size::
 Fuel storage indicates the amount of space that the fuel occupies in the hull of the vessel.
 The total fuel level of all the drive types determines the size of the fuel storage.
 Each fuel level occupies 1% of the hull displacement.
-A fuel level of 20 occupies 20% of the vessel's hull space.
+A fuel capacity of 20 occupies 20% of the vessel's hull space.
 If this were a 100-tonne spaceship, a fuel level of 20 would occupy 20 tonnes of hull space.
 
 Range::
@@ -383,7 +383,7 @@ The fuel level indicates the number of months that the ship can operate with a f
 A vessel with a fuel level of 20 would have a range of 20 months. 
 The following section on fuel consumption explains the concept of fuel range as months.
 
-=== Fuel Consumption
+=== Consumption
 Fuel consumption varies with the drive type and how the expedition is using it.
 Combat fuel consumption is much higher than tourist or haulage fuel consumption.
 
@@ -401,11 +401,11 @@ A special drive jump uses one month of fuel and moves the ship as many light-yea
 A 10 tonne or a 100-tonne vessel would use one month of their fuel storage to make the jump.
 This method allows the ship to make several jumps before refuelling but does not bog the players down with astronomical calculations.
 
-include::ROOT:partial$CH52_Table_Fuel_Consumption.adoc[]
+include::hardware:partial$spacecraft_fuel_consumption.adoc[]
 
 So a spacecraft with 15 months of fuel could make 15 special drive jumps or compete in 60 turns of space combat or 90 minutes of inatmo flight.
 A spacecraft drops out of combat if there is less than one week of fuel onboard.
-Running out of fuel during combat is a victory condition for the vessel that does not run out of fuel.
+Depleting an opponent of fuel is a victory condition.
 A spacecraft cannot jump if there is less than one month of fuel onboard.
 
 The nature of refuelling depends on the referee's milieu and campaign.
@@ -415,8 +415,8 @@ Other fuel types may require days of retooling by highly skilled space mechanics
 == Computer
 The computer is the vessel, and the vessel is the computer.
 The computer integrates deeply with every system on the spacecraft.
-The computer manages special drive jumps, combat maneuvers, life support, gravity and more.
-A spacecraft requires a computer and crew to function.
+The computer is essential for special drive jumps, combat maneuvers, life support, gravity and more.
+A spacecraft requires both a computer and crew to function.
 Pilots, navigators and engineers work on the spacecraft through the ship's computer.
 Software can replace the crew of a spacecraft, but there are no manual spacecraft.
 
@@ -439,6 +439,7 @@ The referee may consider the ship's computer a referee persona.
 However, it will be friendly and helpful for vessel operations.
 The expedition may interact with the computer via devices or voice interaction.
 
+[discrete]
 === Computer Level
 The higher the computer level, the more powerful it is.
 A higher ship's computer level improves everything from the galley food to combat maneuvers. 
@@ -457,7 +458,6 @@ So a 200-tonne starship with a level 4 computer would have 8 tonnes of computer 
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Swirling image of a many stars and galaxies.
-
 include::ROOT:partial$articulate.adoc[]
 
 == Software
@@ -474,22 +474,20 @@ There is no limit to the amount of software a ship's computer can store, but the
 A spacecraft is limited to using one software title per level of computer at once.
 Players will have to make choices about what is the most critical package to run.
 
-=== Crew Replacement Software
+=== Crew
 Crew replacement software indicates programmes and mechanical devices that can replace essential crew.
-In some circumstances, the crew software replaces the required crewmember completely.
+In some circumstances, the crew software replaces the required crew member completely.
 In other circumstances, the programmes direct a persona or robot on how to operate the system.
 
 A spacecraft is limited to using one software title per level of computer at once.
 Players may have to make choices about what is the most critical software to run.
 A low-level ship's computer may always require a persona crew member to function.
 
-The table for crew replacement software is a bit different.
-The table used to generate software is a __Chance__ Table. 
-The player rolls decidice (1d100) for every programme, and there is a chance of having it.
+The player rolls decidice (1d100) for each programme, and there is a chance of having it.
 A level 3 computer has a 60% chance of an astrogation programme and a 15% chance of a piloting programme.
 The player rolls once for every item on the chance table, i.e., she makes a separate roll for astrogation, navigation etc.
 
-include::ROOT:partial$CH52_Table_Software_Crew.adoc[]
+include::hardware:partial$spacecraft_programmes_crew.adoc[]
 
 Astrogation::
 This programme allows any persona to pilot the special drives.
@@ -514,269 +512,18 @@ This programme allows any persona to hand over all maneuvers to the ship's compu
 Piloting includes navigation, astrogation and combat maneuvers. 
 Piloting software is very advanced, and it may have its own personality that interacts with the personas and ship's computer.
 
-=== Miscellaneous Software
+=== Operations
 Miscellaneous software consists of programmes that vary from functional to sublime.
 The programmes include both the hardware and software that the packages need to operate.
 The programmes allow the ship's computer to carry out the task and help personas perform maneuvers.
 
 When a persona can use the ship's computer for a maneuver, she enjoys a bonus of +1 per computer level.
 For instance, a persona who can use the etiquette programme to help cater a fancy dinner.
- If the computer level is 5, the persona gets a +5 DD bonus when maki9ng the meal. 
+ If the computer level is 5, the persona gets a +5 DD bonus when making the meal. 
 
 The player makes one roll per level of the ship's computer. 
 
-include::ROOT:partial$CH55_Table_Space_Vehicle_Software.adoc[]
-
-== Defensive Systems
-A ship's defences comprise anything that protects the contents of the spacecraft.
-The defences include computer programmes and structural protections.
-For example, the computer assists with evasive maneuvers, the hull is fortified, and there is a force field.
-Life support, gravity and hull are considered defensive systems. 
-Life support works together to defend against the harshness of exatmo.
-Intentional defences, like ECM and shields, are designed to protect the ship in combat.
-
-To learn how defensive systems work in combat jump to 
-xref:combat:combat_and_exatmo_vehicle_intro.adoc[Spacecraft Combat,window=_blank].
-
-The table used to generate defensive systems is a __Chance__ Table. 
-The player rolls decidice (1d100) for every defence on the list.
-A level 3 computer has a 30% chance of electronic countermeasures and a 6% chance of active defences.
-The player rolls once for every item on the chance table, i.e., she makes a separate roll for ECM, Shields etc.
-
-include::ROOT:partial$CH52_Table_Defences.adoc[]
-
-=== Life Support
-Life support maintains a comfortable environment for the organic and delicate inorganic contents of the ship.
-The most straightforward description is an 'outer space air conditioner.'
-Destroying the life support system exposes all of the hull's contents to the deadly vacuum of space.
-
-Life support is entirely self-contained and is impossible to tamper with and hard to destroy.
-The life support system functions entirely unknown for the players until something goes wrong.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
-
-=== Gravity System
-Gravity maintains a safe, comfortable and convenient gravitational force throughout the space vessel.
-The gravity system allows the personas to work in comfort and protects them from extreme maneuvering gravities.
-A spacecraft's exatmo drives generate gravities that would kill any organic or delicate inorganic persona.
-
-Gravity works on walkways, workspaces, cargo holds, cabins, and the exterior hull.
-The ship's computer controls gravity at a constant attraction of 1g with local adjustments between 0.5  and 1.5 gravities.
-
-Gravity is entirely self-contained and is difficult to tamper with and hard to destroy.
-The gravity system functions entirely unknown for the players until something goes wrong.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
-
-=== Hull
-The hull defines the space vessel.
-The hull protects the contents of the spacecraft from the lethal vacuum of space.
-Every spacecraft system is part of the hull, and the hull contains every spacecraft system.
-
-The hull also determines the shape of the spacecraft.
-The players decide the shape of their spacecraft.
-Most often, the hull is an oblong spheroid that contains the spacecraft's contents.
-A spacecraft that can enter the atmosphere may have a more streamlined appearance. 
-
-The hull is the structure that maintains the ship's gravity and life support.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
-
-=== Defence Rating 
-The Defence Rating indicates the strength of the spacecraft's hull.
-The Defence Rating is in addition to the shape and structure that the hull offers. 
-The hull and Defence Rating have an intimate relationship.
-The Defence Rating protects the hull and makes its appearance as the hull strength during hull creation.
-
-The Defence Rating of the hull determines the structural resilience of the hull during combat. 
-Attack rolls must be higher than the hull's Defence Rating to damage the vessel.
-Damage reduces Defence Rating.
-Once the Defence Rating drops to 420, it no longer protects the hull.
-
-The Defence Rating is a component of the life support system.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
-
-=== ECM
-Electronic countermeasures (ECM) manipulate the electromagnetic spectrum to defend the ship.
-A more powerful ship's computer makes for more effective electronic countermeasures.
-ECM is a combination of programming and equipment.
-ECM is integrated throughout the ship and connects to every ship system.
-
-ECM uses all kinds of electronic deception to both defend or attack.
-Personas can use the ECM unit to defend the ship or attack another ship.
-One ECM unit cannot do both in the same combat turn.
-
-Personas can work in unison with ECM to protect the space vessel.
-For example, a mechanic with ECM 2 working with a level 3 computer creates a total ECM level of 5.
-
-Electronic countermeasures are not part of the life support onion.
-
-=== Shields
-The shields protect the hull Defence Rating from energy and kinetic attacks.
-These are the classic sciency fiction shields that handsome captains raise just before combat.
-The defensive shield can be a force field or a structural mechanism. 
-Both mechanisms work by distributing the destructive force across the entire hull.
-This faux scientific diffusion effectively dampers the damage.
-The shields have an active mode that the players turn on to thwart intentional damage.
-Shields also have a passive mode, and when present, they are part of the life support onion.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
-
-=== Guns
-A gun is a defensive tool in spacecraft combat.
-A gun does not sound like a defensive tool, but occasionally the best defence is a good offence.
-Guns on spacecraft are anti-personnel air lock defence weapons.
-In ship-to-ship combat, a gun is an ineffectual weapon.
-However, to prevent boarding or airlock intrusion, a mounted gun can be very effective.
-To create the airlock gun jump to xref:hardware:guns.adoc#_generate_type[Guns,window=_blank]
-
-Guns are not part of the life support onion.
-
-.*Airlock Defensive Guns*
-* can swap between inside and outside the airlock
-* operate inatmo or exatmo
-* Can be controlled by personas or ship's computer
-* has unlimited ammo to defend against boarding
-** ammo may deplete for game balance and fun
-* has an AR equal to the ship's hull
-* damaged by Hull DEF damage or airlock damage
-
-=== Active
-Active defences are fancy mechanisms that attack incoming attacks.
-Active defences are sometimes called actives.
-They can eject missiles, shrapnel, energy blasts, lazer matrices, or crystalline discharges. 
-All active defences function equally, and the description is the player's choice.
-Their goal is to dissipate, prematurely detonate, or destroy incoming attacks.
-Active defences work against grenades, mines, or artillery.
-Actives do not work against boarding, ramming, ECM, or naval artillery.
-
-Active defences are not part of the life support onion.
-
-.*Notes about active defences*
-* Active defences are automated
-** Gunnery skilled personas can help
-* Active defences work inatmo and exatmo
-* Actives cannot be weaponized
-
-=== Life Support Onion
-The life support onion is the layering of the spacecraft defences that protect the contents of the hull.
-The innermost part of the onion is life support itself. 
-Before anything can damage or impair life support, it must work its way through all the outer layers. 
-
-Before damaging life support, the outer layers of the onion must be disabled or destroyed. 
-The outermost layer of the onion is the ship’s shields. 
-If the ship does not have shields, the outermost layer of the onion is the hull Defence Rating. 
-The hull Defence Rating must fail before the hull can be damaged. 
-The hull must fail before gravity control can be damaged. 
-Gravity control must fail before life support can be damaged.
-
-include::ROOT:partial$CH52_Table_Life_Support_Onion.adoc[]
-
-== Offensive Systems
-Space vehicle combat is highly discouraged due to the high probability of persona mortality.
-Offensive systems are for damaging and disabling spacecraft. 
-Due to the value of spacecraft, they rarely suffer intentional destruction.
-The offensive systems are tools for weakening a vessel in preparation for boarding.
-
-A spacecraft may have offensive systems because they are pirate scum.
-A spacecraft may have offensive systems to fight pirate scum.
-There is no official EXP military spacecraft.
-A vessel that has naval artillery, mines, or missiles becomes a military spacecraft.
-
-To learn how offensive systems work in combat jump to 
-xref:combat:combat_and_exatmo_vehicle_intro.adoc[Spacecraft Combat,window=_blank].
-
-The table used to generate offensive systems is a __Chance__ Table. 
-The player rolls decidice (1d100) for every attack on the list.
-The referee goes down the list rolling once for each attack type.
-So a spacecraft with exatmo drive level 4 would have a 20% chance of ramming, a 16% chance of ECM, and a 2 percent chance of Naval Artillery.
-
-include::ROOT:partial$CH52_Table_Attacks.adoc[]
-
-=== Boarding
-Boarding lines up airlocks to prepare for a breach and boarding of the target vessel.
-All spacecraft can attempt to dock with another vessel forcibly.
-Boarding is congenial ramming.
-Boarding only works exatmo (exterior to atmosphere).
-Once connected, the attacking crew will breach the airlock of the target ship and then board.
-This method of attack preserves the target spacecraft, generating hostages, free cargo, and is a lot more fun.
-
-=== Ramming
-Ramming is aggressive boarding casting caution to the solar wind.
-A ramming spacecraft has a specialized airlock that can attach to any part of the target ship's hull.
-Once attached, the attacking party must breach the hull or airlock to enter the ship.
-Ramming is similar to boarding, except that ramming has lots of crunching and scraping noises.
-
-=== ECM
-ECM is the acronym for electronic countermeasures.
-ECM units battle for control over the electromagnetic spectrum.
-In spacecraft combat, ECM is the battle for control over the electronics of the other vessel. 
-
-ECM uses all kinds of electronic deception to both defend or attack.
-So the personas can use the ECM unit to defend the ship or attack another ship.
-One ECM unit cannot do both in the same combat turn.
-
-Personas can work in unison with ECM to protect the space vessel.
-For example, a mechanic with ECM 2 working with a level 3 computer creates a total ECM level of 5.
-
-=== Grenades
-Grenades in space!
-In spacecraft combat, grenades are tiny bombs exploding against the hull to damage the internal mechanisms of the ship.
-Grenades launch their attack by mini-missile or mini-mine.
-
-They do not enjoy the area of effect attack of their terrestrial counterparts.
-Grenades require a successful attack roll to inflict damage.
-If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
-Grenade delivery systems have diminutive titles because they only deliver grenades. 
-Naval missiles and naval mines deliver bombs.
-
-include::ROOT:partial$CH52_Table_Spacer_Grenade_Type.adoc[]
-
-=== Bombs
-Bombs are lethal attack weapons.
-Bombs are both dangerous and destructive.
-Bombs delivery systems are either missiles or mines.
-Missiles and mines can also be called naval missiles or naval mines.
-Having this type of offensive system indicates a combat vessel of some fashion.
-
-In space, bombs are an area of effect weapon.
-Bombs need only explode near the ship's hull to inflict damage to the contents within.
-A bomb is guaranteed to damage a target with a successful attack roll.
-Every bomb gets a second chance to damage a vessel just by getting close enough. 
-If the raw attack roll of a missile or mine is higher than 500, the target is still damaged.
-
-include::ROOT:partial$CH52_Table_Spacer_Bomb_Type.adoc[]
-
-=== Artillery
-The purpose of ship artillery is to damage the target ship so that it ceases to function.
-This goal is to wear down shields and armour and directly damaging the hull if necessary.
-In space combat terms, artillery is very tiny and is only in range when vessels are boarding or ramming. 
-Naval artillery is the literal big gun of space combat.
-
-In space combat (exatmo), artillery must win an attack roll to damage the target vessel.
-While inside the atmosphere (inatmo), artillery functions as an area of effect weapon on terrestrial targets.
-Artillery cannot cross into the atmosphere or out of an atmosphere.
-
-Ship artillery has the same ranges, damages, and effects as the artillery it is modelled after.
-Energy-based weapons can fire as long as the ship has fuel, and artillery requiring ammo will have 100 times the regular supply.
-
-include::ROOT:partial$CH52_Table_Spacer_Artillery_Type.adoc[]
-
-=== Naval Artillery
-Naval artillery is for destroying the target ship.
-Naval artillery is not for softening the target vessel.
-The sheer force of naval artillery leads to the target's destruction.
-One use of naval artillery exhausts a whole day's worth of fuel.
-Naval artillery requires a gunnery program and a gunner.
-Without this complement, the ship cannot fire its naval artillery.
-
-NOTE: *Artillery are big guns. Naval artillery are big big big guns.*
-
-Naval artillery is more deadly than regular deadly artillery.
-Naval artillery inflicts three times the damage and has 100 times the range.
-Naval artillery only works exatmo and cannot fire inatmo or cross into an atmosphere.
-
-The player rolls on the spacer artillery table above and then does arithmetic as directed below.
-
-include::ROOT:partial$CH52_Table_Naval_Artillery.adoc[]
-
-include::ROOT:partial$CH52_Table_Example_Naval_Artillery.adoc[]
+include::hardware:partial$spacecraft_programmes_operational.adoc[]
 
 == Crew
 Spacecraft vary in size from personal craft to city-sized leviathans.
@@ -809,8 +556,7 @@ These three are the essential crew needed.
 :artist: JEShields
 :date: 2016-2021
 :license: Copyright JEShields Stock Art. jeshields.com
-:description: Spaceship cockpit with humanoid robot pilot and woman navigator.
-
+:description: Spaceship cockpit with humanoid robot pilot and humanoid navigator.
 include::ROOT:partial$articulate.adoc[]
 
 === Pilot 
@@ -883,8 +629,7 @@ Guests, soldiers, cattle without proper vet attention will get sick in deep spac
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of luxury cruise liner space ship orbiting a planet.
-
+:description: Luxury cruise liner space ship orbiting a planet.
 include::ROOT:partial$articulate.adoc[]
 
 === Steward 
@@ -895,7 +640,7 @@ Without a steward, guests will undoubtedly be in a bad temper and may even rebel
 A spacecraft requires one steward for every 50 passengers.
 
 .*Qualified Steward*
-. Nothing vocation with SOC<400
+. Nothing vocation with SOC < 420
 . Social robot
 . Domestic janitorial robot
 
@@ -904,7 +649,7 @@ One optional crew member who the expedition may actively shun is the ship's admi
 The ship's administrator will arrange docking papers, interpret cartage laws, balance accounts, designate cargo allotments, and fill in as the ship's legal advisor.
 
 .*Qualified Administrator*
-. Nothing vocation with INT <12
+. Nothing vocation with INT < 12
 . Transport robot
 . Datalyzer robot
 
@@ -913,21 +658,266 @@ The diplomat is good at being excruciatingly polite, even to the most horrific o
 A diplomat will attempt to keep the crew, the guests, (and especially the personas) from offending rarely encountered cultures.
 
 .*Qualified Diplomat*
-. Nothing vocation with CHA >12
+. Nothing vocation with CHA > 12
 . Biologist with culture and sociology
 . Social robot
 
-== Cargo
-Cargo is the tonnage remaining after deducting the space taken up by drives, fuel, and computers.
-The cargo does not immediately become space for cargo.
-Other spacecraft features occupy potential cargo space.
-These are cold storage, workspaces, cabins, and corridors.
-All of these cargo space deductions are essential for an operational spacecraft.
-The player must account for all the following items as she sees fit.
-Plotting out the cargo and operational essentials has the most significant impact on spacecraft design. 
-It is during this process that the players create a simple map of the spacecraft. 
 
-=== Access Port (mandatory)
+== Defensive Systems
+A ship's defences comprise anything that protects the contents of the spacecraft.
+The defences include computer programmes and structural protections.
+For example, the computer assists with evasive maneuvers, the hull is fortified, and there is a force field.
+Life support, gravity and hull are considered defensive systems. 
+Life support works together to defend against the harshness of exatmo.
+Intentional defences, like ECM and shields, are designed to protect the ship in combat.
+
+The player rolls decidice (1d100) for every defence on the list.
+A level 3 computer has a 30% chance of electronic countermeasures and a 6% chance of active defences.
+The player rolls once for every item on the chance table, i.e., she makes a separate roll for ECM, Shields etc.
+
+include::hardware:partial$spacecraft_defensive_systems.adoc[]
+
+=== Defensive Onion
+The life support onion is the layering of the spacecraft defences that protect the contents of the hull.
+The innermost part of the onion is life support itself. 
+Before anything can damage or impair life support, it must work its way through all the outer layers. 
+
+Before damaging life support, the outer layers of the onion must be disabled or destroyed. 
+The outermost layer of the onion is the ship’s shields. 
+If the ship does not have shields, the outermost layer of the onion is the hull Defence Rating. 
+The hull Defence Rating must fail before the hull can be damaged. 
+The hull must fail before gravity control can be damaged. 
+Gravity control must fail before life support can be damaged.
+
+include::hardware:partial$spacecraft_onion_of_life.adoc[]
+
+To learn how defensive systems work in combat jump to 
+xref:combat:combat_and_exatmo_vehicle_intro.adoc[Spacecraft Combat,window=_blank].
+
+
+=== Life Support
+Life support maintains a comfortable environment for the organic and delicate inorganic contents of the ship.
+The most straightforward description is an 'outer space air conditioner.'
+Destroying the life support system exposes all of the hull's contents to the deadly vacuum of space.
+
+Life support is entirely self-contained and is impossible to tamper with and hard to destroy.
+The life support system functions entirely unknown for the players until something goes wrong.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+
+=== Gravity
+Gravity maintains a safe, comfortable and convenient gravitational force throughout the space vessel.
+The gravity system allows the personas to work in comfort and protects them from extreme maneuvering gravities.
+A spacecraft's exatmo drives generate gravities that would kill any organic or delicate inorganic persona.
+
+Gravity works on walkways, workspaces, cargo holds, cabins, and the exterior hull.
+The ship's computer controls gravity at a constant attraction of 1g with local adjustments between 0.5  and 1.5 gravities.
+
+Gravity is entirely self-contained and is difficult to tamper with and hard to destroy.
+The gravity system functions entirely unknown for the players until something goes wrong.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+
+=== Hull
+The hull defines the space vessel.
+The hull protects the contents of the spacecraft from the lethal vacuum of space.
+Every spacecraft system is part of the hull, and the hull contains every spacecraft system.
+
+The hull also determines the shape of the spacecraft.
+The players decide the shape of their spacecraft.
+Most often, the hull is an oblong spheroid that contains the spacecraft's contents.
+A spacecraft that can enter the atmosphere may have a more streamlined appearance. 
+
+The hull is the structure that maintains the ship's gravity and life support.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+
+=== Armour 
+Armour indicates the strength of the spacecraft's hull.
+Armour is in addition to the shape and structure that the hull offers. 
+The hull and Armour have an intimate relationship.
+The Armour protects the hull and makes its appearance as the hull strength during hull creation.
+
+NOTE: Armour is hull strength is defence rating. 
+
+The Armour of the hull determines the structural resilience of the hull during combat. 
+Attack rolls must be higher than the hull's Armour to damage the vessel.
+Damage reduces Defence Rating.
+Once the Armour drops to 420, it no longer protects the hull.
+
+The Armour is a component of the life support system.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+
+=== ECM
+Electronic countermeasures (ECM) manipulate the electromagnetic spectrum to defend the ship.
+A more powerful ship's computer makes for more effective electronic countermeasures.
+ECM is a combination of programming and equipment.
+ECM is integrated throughout the ship and connects to every ship system.
+
+ECM uses all kinds of electronic deception to both defend or attack.
+Personas can use the ECM unit to defend the ship or attack another ship.
+One ECM unit cannot do both in the same combat turn.
+
+Personas can work in unison with ECM to protect the space vessel.
+For example, a mechanic with ECM 2 working with a level 3 computer creates a total ECM level of 5.
+
+Electronic countermeasures are not part of the life support onion.
+
+=== Shields
+The shields protect the hull Defence Rating from energy and kinetic attacks.
+These are the classic sciency fiction shields that handsome captains raise just before combat.
+The defensive shield can be a force field or a structural mechanism. 
+Both mechanisms work by distributing the destructive force across the entire hull.
+This faux scientific diffusion effectively dampers the damage.
+The shields have an active mode that the players turn on to thwart intentional damage.
+Shields also have a passive mode, and when present, they are part of the life support onion.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+
+=== Guns
+A gun is a defensive tool in spacecraft combat.
+A gun does not sound like a defensive tool, but occasionally the best defence is a good offence.
+Guns on spacecraft are anti-personnel air lock defence weapons.
+In ship-to-ship combat, a gun is an ineffectual weapon.
+However, to prevent boarding or airlock intrusion, a mounted gun can be very effective.
+To create the airlock gun jump to xref:hardware:guns.adoc#_generate_type[Guns,window=_blank]
+
+Guns are not part of the life support onion.
+
+.*Airlock Defensive Guns*
+* can swap between inside and outside the airlock
+* operate inatmo or exatmo
+* Can be controlled by personas or ship's computer
+* has unlimited ammo to defend against boarding
+** ammo may deplete for game balance and fun
+* has an AR equal to the ship's hull
+* damaged by Hull DEF damage or airlock damage
+
+=== Active
+Active defences are fancy mechanisms that attack incoming attacks.
+Active defences are sometimes called actives.
+They can eject missiles, shrapnel, energy blasts, lazer matrices, or crystalline discharges. 
+All active defences function equally, and the description is the player's choice.
+Their goal is to dissipate, prematurely detonate, or destroy incoming attacks.
+Active defences work against grenades, mines, or artillery.
+Actives do not work against boarding, ramming, ECM, or naval artillery.
+
+.*Notes about active defences*
+* Active defences are automated
+** Gunnery skilled personas can help
+* Active defences work inatmo and exatmo
+* Actives cannot be weaponized
+
+== Offensive Systems
+Space vehicle combat is highly discouraged due to the high probability of persona mortality.
+Offensive systems are for damaging and disabling spacecraft. 
+Due to the value of spacecraft, they rarely suffer intentional destruction.
+The offensive systems are tools for weakening a vessel in preparation for boarding.
+
+A spacecraft may have offensive systems because they are pirate scum.
+A spacecraft may have offensive systems to fight pirate scum.
+There is no official EXP military spacecraft.
+A vessel that has naval artillery, mines, or missiles becomes a military spacecraft.
+
+To learn how offensive systems work in combat jump to 
+xref:combat:combat_and_exatmo_vehicle_intro.adoc[Spacecraft Combat,window=_blank].
+
+The player rolls decidice (1d100) for every attack on the list.
+The referee goes down the list rolling once for each attack type.
+So a spacecraft with exatmo drive level 4 would have a 20% chance of ramming, a 16% chance of ECM, and a 2 percent chance of Naval Artillery.
+
+include::hardware:partial$spacecraft_offensive_systems.adoc[]
+
+=== Boarding
+Boarding lines up airlocks to prepare for a breach and boarding of the target vessel.
+All spacecraft can attempt to dock with another vessel forcibly.
+Boarding is congenial ramming.
+Boarding only works exatmo (exterior to atmosphere).
+Once connected, the attacking crew will breach the airlock of the target ship and then board.
+This method of attack preserves the target spacecraft, generating hostages, free cargo, and is a lot more fun.
+
+=== Ramming
+Ramming is aggressive boarding casting caution to the solar wind.
+A ramming spacecraft has a specialized airlock that can attach to any part of the target ship's hull.
+Once attached, the attacking party must breach the hull or airlock to enter the ship.
+Ramming is similar to boarding, except that ramming has lots of crunching and scraping noises.
+
+=== ECM
+ECM is the acronym for electronic countermeasures.
+ECM units battle for control over the electromagnetic spectrum.
+In spacecraft combat, ECM is the battle for control over the electronics of the other vessel. 
+
+ECM uses all kinds of electronic deception to both defend or attack.
+So the personas can use the ECM unit to defend the ship or attack another ship.
+One ECM unit cannot do both in the same combat turn.
+
+Personas can work in unison with ECM to protect the space vessel.
+For example, a mechanic with ECM 2 working with a level 3 computer creates a total ECM level of 5.
+
+=== Grenades
+Grenades in space!
+In spacecraft combat, grenades are tiny bombs exploding against the hull to damage the internal mechanisms of the ship.
+Grenades launch their attack by mini-missile or mini-mine.
+
+They do not enjoy the area of effect attack of their terrestrial counterparts.
+Grenades require a successful attack roll to inflict damage.
+If the attack roll is unsuccessful, the grenade detonates ineffectively and silently in space.
+Grenade delivery systems have diminutive titles because they only deliver grenades. 
+Naval missiles and naval mines deliver bombs.
+
+include::hardware:partial$spacecraft_grenades.adoc[]
+
+=== Bombs
+Bombs are lethal attack weapons.
+Bombs are both dangerous and destructive.
+Bombs delivery systems are either missiles or mines.
+Missiles and mines can also be called naval missiles or naval mines.
+Having this type of offensive system indicates a combat vessel of some fashion.
+
+In space, bombs are an area of effect weapon.
+Bombs need only explode near the ship's hull to inflict damage to the contents within.
+A bomb is guaranteed to damage a target with a successful attack roll.
+Every bomb gets a second chance to damage a vessel just by getting close enough. 
+If the raw attack roll of a missile or mine is higher than 500, the target is still damaged.
+
+include::hardware:partial$spacecraft_bombs.adoc[]
+
+=== Artillery
+The purpose of ship artillery is to damage the target ship so that it ceases to function.
+This goal is to wear down shields and armour and directly damaging the hull if necessary.
+In space combat terms, artillery is very tiny and is only in range when vessels are boarding or ramming. 
+Naval artillery is the literal big gun of space combat.
+
+In space combat (exatmo), artillery must win an attack roll to damage the target vessel.
+While inside the atmosphere (inatmo), artillery functions as an area of effect weapon on terrestrial targets.
+Artillery cannot cross into the atmosphere or out of an atmosphere.
+
+Ship artillery has the same ranges, damages, and effects as the artillery it is modelled after.
+Energy-based weapons can fire as long as the ship has fuel, and artillery requiring ammo will have 100 times the regular supply.
+
+include::hardware:partial$spacecraft_artillery.adoc[]
+
+=== Naval Artillery
+Naval artillery is for destroying the target ship.
+Naval artillery is not for softening the target vessel.
+The sheer force of naval artillery leads to the target's destruction.
+One use of naval artillery exhausts a whole day's worth of fuel.
+Naval artillery requires a gunnery program and a gunner.
+Without this complement, the ship cannot fire its naval artillery.
+
+NOTE: *Artillery are big guns. Naval artillery are big big big guns.*
+
+Naval artillery is more deadly than regular deadly artillery.
+Naval artillery inflicts three times the damage and has 100 times the range.
+Naval artillery only works exatmo and cannot fire inatmo or cross into an atmosphere.
+
+The player rolls on the spacer artillery table above and then does arithmetic as directed below.
+
+include::hardware:partial$spacecraft_naval_artillery.adoc[]
+
+== Baked-in Systems
+Spacecraft are not guaranteed to have an airlock, cabins, sickbays. 
+These are all choices made by the referee or player generating the spacecraft.
+Every spacecraft will have the required systems described below.
+None of the required systems occupy, or need, cargo space and built into the spacecraft.
+
+=== Access Port
 Allows access to the spacecraft when inatmo. 
 If the spacecraft has an airlock, the airlock can function as the inatmo access portal. 
 
@@ -935,6 +925,51 @@ If the spacecraft has an airlock, the airlock can function as the inatmo access 
 Workspaces are even more mandatory than the essential crew.
 Workspaces are not the same as cabins.
 Each crew member (pilot, engineer, astrogator) requires a half tonne of workspace.
+
+=== Utility Corridors
+The entire ship is accessible by utility corridors.
+Utility corridors occupy no significant amount of hull space.
+However, they are cramped, claustrophobic and slow to navigate.
+
+=== Datalocks 
+Datalocks are also called hardpoints.
+Data locks are electronic accesses to the exterior of the hull.
+Every external contraption requiring exatmo access (guns, missiles, viewers, etc.) requires a datalock.
+A ship has ten datalocks per computer level.
+
+=== Emergency Response 
+Emergency response is part of the ship's life support system.
+Spacecraft will have automated emergency equipment and processes.
+The ship will temporarily repair minor air leaks.
+The ship will suppress small fires.
+The ship will close off bulkheads to contain raging fire, depressurization or radiation leaks.
+
+The ship can only look after itself in a limited way.
+Major events must be dealt with by the crew.
+Major hull repair, radiation clean up and passenger rescue need actual personas on board.
+
+:art: space_ship_shape.png
+:width: 450px
+:snark: The player shapes the shipshape ship's shape.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Pointy alien looking spaceship. 
+include::ROOT:partial$articulate.adoc[]
+
+== Accessory Systems
+The accessory systems are the non-essential, but fun sciency fiction components of spacecraft. 
+They include airlocks, cold storage, workspaces, cabins, and corridors.
+There is no system for generating these accessory systems.
+What the 
+
+Spacecraft size determines what can be attached to or built into the spacecraft. 
+More specifically how much hull space is left after drives, computer and fuel have been taken into account.
+
+All of these cargo space deductions are essential for an operational spacecraft.
+The player must account for all the following items as she sees fit.
+Plotting out the cargo and operational essentials has the most significant impact on spacecraft design. 
+It is during this process that the players create a simple map of the spacecraft. 
 
 === Airlock
 An airlock allows passengers, crew and stuff to get in and out without decompressing the spacecraft.
@@ -947,7 +982,7 @@ The ship will only allow the identified crew to enter the spacecraft.
 Airlocks are safe.
 It would be nearly impossible to eject a life form from a functioning airlock.
 
-NOTE: Airlocks do not deduct cargo space but do require cargo space.
+NOTE: Airlocks do not deduct cargo space but require cargo space.
 
 An airlock takes up no space __inside__ the spacecraft.
 However, an airlock requires 5 tonnes of cargo space.
@@ -972,12 +1007,12 @@ A 10-tonne cargo lock can load/unload 10 tonnes of cargo per hour or a day or wh
 
 === Cargo Airlock
 Cargo airlocks are enormous airlocks that only gigantic spacecraft can use.
-The cargo airlock can move cargo or without depressurizing the spacecraft.
+The cargo airlock can move cargo in and out without depressurizing the spacecraft.
 A cargo airlock requires at least 500 tonnes of vacant cargo space.
 The cargo airlock also occupies cargo space.
 A spacecraft loses 1 tonne of cargo space per 2 tonnes of cargo airlock size.
 
-There is no open hull force field protected cargo airlocks in EXP.
+There are no open hull force field protected cargo airlocks in EXP.
 Development is ongoing, and EXP users may reach this milestone with expected technological advances.
 
 === Cold Storage 
@@ -999,39 +1034,6 @@ The entire ship is accessible by utility corridors.
 Utility corridors occupy no significant amount of hull space.
 However, they are cramped, claustrophobic and slow to navigate.
 
-=== Example Calculation
-All remaining cargo space is honest to goodness cargo space.
-Cargo space is protected from exatmo and allows for the transfer of stuff.
-Often the expedition will earn money for transporting cargo.
-More often, the cargo will become the focus of an exatmo spacecraft adventure.
-
-Let's walk through an example 100 tonne spacecruiser (space bus).
-Exatmo drives level 10.
-Fuel storage level 5.
-Computer level 4.
-There are 20 passengers, 16 in cold storage and 4 in Cabins.
-The crew consists of a pilot, engineer, doctor, and steward.
-There are no robots and no crew replacement software.
-After all deductions, there are leaves 63 tonnes of cargo space in the vessel.
-The remaining cargo space allows for a cargo lock and multiple airlocks.
-The cargo lock does not work inatmo, so its inclusion is a mystery.
-Sixty tonnes is the capacity of two mundane terran dump trucks.
-
-include::ROOT:partial$CH52_Table_Calculate_Cargo_Space.adoc[]
-
-:art: space_ship_shape.png
-:width: 450px
-:snark: The player shapes the shipshape ship's shape.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Pointy alien looking spaceship. 
-
-include::ROOT:partial$articulate.adoc[]
-
-== Space Chattels
-Space chattels cover equipment and architecture common to ancient and future space travel.
-
 === External Drives 
 External drives are self-explanatory.
 Either the exatmo or inatmo drives are on the outside of the hull.
@@ -1040,12 +1042,6 @@ The drawback of this system is that the drive units are more vulnerable to attac
 External drives can either be accessed directly through the hull or via an airlock.
 
 Special drives can never be external.
-
-=== Datalocks 
-Datalocks are also called hardpoints.
-Data locks are electronic accesses to the exterior of the hull.
-Every external contraption requiring exatmo access (guns, missiles, viewers, etc.) requires a datalock.
-A ship has ten datalocks per computer level.
 
 === Vac Suits 
 Vac suits allow delicate organic life forms to survive exatmo.
@@ -1064,17 +1060,6 @@ Passengers and crew not in gravity couches during high-g combat maneuvers are de
 
 Only combat vessels have grav couches by default. 
 A combat vessel is a spacecraft with naval artillery, bombs or grenades.
-
-=== Emergency Response 
-Emergency response is part of the ship's life support system.
-Spacecraft will have automated emergency equipment and processes.
-The ship will temporarily repair minor air leaks.
-The ship will suppress small fires.
-The ship will close off bulkheads to contain raging fire, depressurization or radiation leaks.
-
-The ship can only look after itself in a limited way.
-Major events must be dealt with by the crew.
-Major hull repair, radiation clean up and passenger rescue need actual personas on board.
 
 === Life Bloat  
 A life bloat will maintain four passengers (up to 250 kg in wate each) in cryogenic suspension for an indefinite length of time.
@@ -1116,13 +1101,36 @@ The player rolls once for every item on the chance table, i.e., she makes a sepa
 
 include::ROOT:partial$CH52_Table_Spacer_Robots.adoc[]
 
-== EXPS
+
+== Cargo Space
+All remaining cargo space is honest to goodness cargo space.
+Cargo space is protected from exatmo and allows for the transfer of stuff.
+Often the expedition will earn money for transporting cargo.
+More often, the cargo will become the focus of an exatmo spacecraft adventure.
+
+Let's walk through an example 100 tonne spacecruiser (space bus).
+Exatmo drives level 10.
+Fuel storage level 5.
+Computer level 4.
+There are 20 passengers, 16 in cold storage and 4 in Cabins.
+The crew consists of a pilot, engineer, doctor, and steward.
+There are no robots and no crew replacement software.
+After all deductions, there are leaves 63 tonnes of cargo space in the vessel.
+The remaining cargo space allows for a cargo lock and multiple airlocks.
+The cargo lock does not work inatmo, so its inclusion is a mystery.
+Sixty tonnes is the capacity of two mundane terran dump trucks.
+
+include::ROOT:partial$CH52_Table_Calculate_Cargo_Space.adoc[]
+
+== Parameters
+
+=== EXPS
 The EXPS value of a spacecraft is impossible to assess.
 The expedition earns experience for a spacecraft once they have flown it somewhere.
 In austere resource campaigns, the EXPS award for an earned spacecraft is one complete EXPS level.
 If spacecraft are commonplace, this EXPS award only counts once.
 
-== Value
+=== Value
 A spacecraft's value depends on several components: hull, drives, computer, etc.
 Wear and tear may have reduced a ship to worthlessness in one culture, while another will pay dearly for anything that can get them into orbit.
 Spacecraft are precious.
@@ -1130,13 +1138,14 @@ Spacecraft with powerful computers and special drives are worth enormous amounts
 
 include::ROOT:partial$CH52_Table_Space_Vehicle_Value.adoc[]
 
-=== Example Value Calculation
+==== Example Value Calculation
 The following is an example value using the space bus from the <<_example_calculation,cargo space calculation>>.
 The spacecruiser has 100 tonnes displacement, Defence Rating of 700, exatmo drive 10, fuel level 5, computer level 4
 
 include::ROOT:partial$CH52_Table_Space_Vehicle_Value_Calc.adoc[]
 
-== Operational Costs
+
+== Operations
 Space vehicle maintenance and operational cost are tedious.
 The main operational costs of a spaceship are wages and fuel.
 Maintenance carried out by the ship's engineer costs nothing and is completed correctly.
@@ -1151,13 +1160,19 @@ Refitting takes weeks to months.
 :artist: Ladrimal
 :date: 1887 (yes 1887)
 :license: CC BY-SA 4.0
-:description: Drawing of workers repairing propeller of flying ship.
-
+:description: Workers repairing propeller of flying ship.
 include::ROOT:partial$articulate.adoc[]
 
 General refitting is necessary for alloy hulls.
 After extended travels or any combat, the hull will require refitting.
 Not refitting the spacecraft will lead to mechanical failure.
 The refitting will cost between 0.01% and 0.1% (rolled on 1d10) of the ship's total value.
-Woah, it takes a lot of cargo to refit a bit spacecraft.
+Woah, it takes a lot of cargo haulage to refit a big spacecraft.
 If the refitting costs were .05% of the ship's value, then a spacecraft worth 500000000 would cost 250000 to refit.
+
+
+
+
+// todo determine what this is
+//.1(5)+.2(10.5)+.2(22)+.3(220)+.1(900)+0.05(3750)+0.04(21000)
+
