@@ -1,24 +1,23 @@
-// Table 52.18 Spacer Robots
-.*Spacer Robots*
-[width="75%",cols="<1,^1,<2",frame="all", stripes="even"]
+.*Spacer Robots Table*
+[width="75%",cols="<2,^1,<2",frame="all", stripes="even"]
 |===
-3+<|Check for each robot type. Chance times computer level. Roll under with 1d100.
+3+<|Check for each robot type. Chance plus computer level. Roll under with 1d100.
 
-s|Type
-s|Chance per Level
+s|Robot Series
+s|Chance
 s|Bonus
 
 |xref:robots:series_combot.adoc[C-Combot,window=_blank]
-|1/2
-|Chance times 10 if naval weapons
+|-1
+|Times 10 if any naval weapons
 
 |xref:robots:series_datalyzer.adoc[D-Datalyzer,window=_blank]
 |2
-|+1% per special drive level
+|+1 per special drive level
 
 |xref:robots:series_industrial.adoc#_industrial_lifter_robot[IL-Lifter,window=_blank]
 |2
-|+1% per 5 tonnes cargo
+|+1 per 50 tonnes cargo
 
 |xref:robots:series_maintenance.adoc[M-Maintenance,window=_blank]
 |3
@@ -26,21 +25,21 @@ s|Bonus
 
 |xref:robots:series_veterinarian.adoc[V-Veterinarian,window=_blank]
 |2
-|+5% per cabin guest.
+|+1 per cabin guest.
 
 |xref:robots:series_social.adoc[S-Social,window=_blank]
 |4
-|+5% per cabin guest.
+|+ 4 per cabin guest.
 
 |xref:robots:series_transport.adoc#_exatmo_transport_robot[TX-Exatmo Transport,window=_blank]
 |2
-|+3 if examto drives
+|+3 if exatmo drives
 
 |xref:robots:series_transport.adoc#_inatmo_transport_robot[TI-Inatmo Transport,window=_blank]
 |2
-|+3 if intamo drives
+|+3 if inatmo drives
 
-s|Type
+s|Robot Series
 s|Chance
 s|Bonus
 |===

@@ -23,22 +23,6 @@ Spacecraft can be found, stolen, rented, lent or inherited by the expedition.
 Space travel may be the campaign goal or just to mechanism to expand campaign horizons.
 Either way, access to a spaceship brings the level of fantasy to galactic proportions.
 
-.*Spacecraft Checklist*
-. <<_nomenclature,Nomenclature>>
-. <<_hull,Hull>>
-. <<_drives,Drives>>
-. <<_fuel,Fuel>>
-. <<_computer,Computer>> 
-. <<_software,Software>>
-. <<_defensive_systems,Defensive Systems>>
-. <<_offensive_systems,Offensive Systems>>
-. <<_crew,Crew>>
-. <<_cargo,Cargo>>
-. <<_space_chattels,Chattels>>
-. <<_exps,EXPS>>
-. <<_value,Value>>
-. <<_operational_costs,Costs>>
-
 == Nomenclature
 The type of spacecraft reflects its function.
 The spacecraft types starship and airship indicate different functions.
@@ -920,14 +904,19 @@ None of the required systems occupy, or need, cargo space and built into the spa
 === Access Port
 Allows access to the spacecraft when inatmo. 
 If the spacecraft has an airlock, the airlock can function as the inatmo access portal. 
+A spacecraft may have one access port per 20 tonnes of hull size.
+Access ports are not limited by hull space or cargo space. 
 
-=== Workspaces (mandatory)
-Workspaces are even more mandatory than the essential crew.
-Workspaces are not the same as cabins.
+=== Workspaces
+Every crew member requires a workspace. 
+A workspace is __not__ a cabin or an office. 
+The workspace may be a chair with a console with or without 
 Each crew member (pilot, engineer, astrogator) requires a half tonne of workspace.
 
 === Utility Corridors
 The entire ship is accessible by utility corridors.
+Utility corridors connect workspaces, drives, computers and fuel systems. 
+They are cramped, claustrophobic and slow to navigate.
 Utility corridors occupy no significant amount of hull space.
 However, they are cramped, claustrophobic and slow to navigate.
 
@@ -937,12 +926,11 @@ Data locks are electronic accesses to the exterior of the hull.
 Every external contraption requiring exatmo access (guns, missiles, viewers, etc.) requires a datalock.
 A ship has ten datalocks per computer level.
 
-=== Emergency Response 
-Emergency response is part of the ship's life support system.
-Spacecraft will have automated emergency equipment and processes.
-The ship will temporarily repair minor air leaks.
-The ship will suppress small fires.
-The ship will close off bulkheads to contain raging fire, depressurization or radiation leaks.
+=== OSHA 
+Outer space habitat assurance is an extension of the life support system.
+OSHA will temporarily repair minor air leaks, and suppress small fires.
+OSHA may also close off bulkheads to contain larger fire, depressurization or radiation leaks.
+While it appears that this is for the crew of the spacecraft it is actually there to protect the ship's computer.
 
 The ship can only look after itself in a limited way.
 Major events must be dealt with by the crew.
@@ -959,19 +947,26 @@ include::ROOT:partial$articulate.adoc[]
 
 == Accessory Systems
 The accessory systems are the non-essential, but fun sciency fiction components of spacecraft. 
-They include airlocks, cold storage, workspaces, cabins, and corridors.
-There is no system for generating these accessory systems.
-What the 
+They include airlocks, cold storage, workspaces, cabins, sickbays, and corridors.
+The types of accessories available depend on hull space. 
 
-Spacecraft size determines what can be attached to or built into the spacecraft. 
-More specifically how much hull space is left after drives, computer and fuel have been taken into account.
+=== Hull Space 
+Hull space determines what can be attached to or built into the spacecraft. 
+Hull space is the remaining tonnage available after drives, computer and fuel is taken into account. 
+Accessories are limited to available hull space. 
 
-All of these cargo space deductions are essential for an operational spacecraft.
-The player must account for all the following items as she sees fit.
-Plotting out the cargo and operational essentials has the most significant impact on spacecraft design. 
-It is during this process that the players create a simple map of the spacecraft. 
+Let's walk through an example 100 tonne spacecruiser (space bus).
+Exatmo drives level 10.
+Fuel storage level 5.
+Computer level 4.
+
+include::hardware:partial$spacecraft_hull_space.adoc[]
 
 === Airlock
+
+* Requires: 5 tonnes
+* Occupies: 0 tonnes
+
 An airlock allows passengers, crew and stuff to get in and out without decompressing the spacecraft.
 Airlocks work perfectly well inatmo.
 Airlocks are simple, secure and safe.
@@ -982,51 +977,74 @@ The ship will only allow the identified crew to enter the spacecraft.
 Airlocks are safe.
 It would be nearly impossible to eject a life form from a functioning airlock.
 
-NOTE: Airlocks do not deduct cargo space but require cargo space.
-
 An airlock takes up no space __inside__ the spacecraft.
-However, an airlock requires 5 tonnes of cargo space.
-Smaller spacecraft do not have enough space for an airlock.
-A ship can have one airlock for every 5 tonnes of vacant cargo space.
-Airlocks are free to be located anywhere on the spacecraft.
-So a ship with a 15 tonnes vacant cargo hold could support three airlocks anywhere on its hull.
-A ship with 2 tonnes vacant cargo space would only have an inatmo access port.
+However, an airlock requires at least 5 tonnes of hull space.
+A ship can have one airlock for every 5 tonnes of  hull space.
+So a ship with a 15 tonnes  hull hold could support three airlocks anywhere on its hull.
 
-A spacecraft without an airlock depends on inatmo boarding either planetside or in a larger spacecraft hanger.
+Smaller spacecraft do not have enough space for an airlock.
+Airlocks are free to be located anywhere on the spacecraft.
+A ship with only 2 tonnes of hull space can only have an access port.
+
+=== Cargo Airlock
+
+* Requires: 500 tonnes
+* Occupies: 1 tonnes per 2 tonnes capacity
+
+Cargo airlocks are enormous airlocks that only gigantic spacecraft can use.
+The cargo airlock can move cargo in and out without depressurizing the spacecraft.
+A cargo airlock requires at least 500 tonnes of hull space.
+Cargo airlocks are rated by how many tonnes of cargo they can move at once.
+For example a cargo airlock may need to allow a 10 tonnes spacecraft to pass through it.
+For every 2 tonnes of capacity 1 tonne of hull space is required. 
+So a cargo airlock that allows 10 tonnes of spacecraft to exit exatmo would eat 5 tonnes of hull space. 
+
+There are no open hull force field protected cargo airlocks in EXP.
+Development is ongoing, and EXP users may reach this milestone with expected technological advances.
+
+=== Cabins 
+
+* Requires: 1 tonnes
+* Occupies: 1 tonnes
+
+Cabins are a space luxury.
+If a spacecraft has passengers, other than in cold storage, it must have cabin space.
+If a spacecraft has cabins it must have corridors connecting them. 
+Each cabin requires one tonne of hull space and can comfortably house two passengers.
 
 === Cargo Lock
+
+* Requires: 50 tonnes
+* Occupies: 0 tonnes
+
 A larger ship may prefer a cargo lock.
 A cargo lock is not pressurized and can only work inatmo. 
-A cargo lock is a big inatmo access portal.
-A cargo lock requires a minimum of 50 tonnes of vacant cargo space.
+It is like a big access portal.
+A cargo lock requires a minimum of 50 tonnes of hull space.
 A cargo lock does not occupy any cargo space.
 
 A cargo lock is more than just a door; it is a system.
 A typical cargo lock has a capacity of 10 tonnes.
 A 10-tonne cargo lock can load/unload 10 tonnes of cargo per hour or a day or whatever.
 
-=== Cargo Airlock
-Cargo airlocks are enormous airlocks that only gigantic spacecraft can use.
-The cargo airlock can move cargo in and out without depressurizing the spacecraft.
-A cargo airlock requires at least 500 tonnes of vacant cargo space.
-The cargo airlock also occupies cargo space.
-A spacecraft loses 1 tonne of cargo space per 2 tonnes of cargo airlock size.
-
-There are no open hull force field protected cargo airlocks in EXP.
-Development is ongoing, and EXP users may reach this milestone with expected technological advances.
-
 === Cold Storage 
+
+* Requires: 0.25 tonnes
+* Occupies: 0.25 tonnes
+
+
 Cold storage is for cryogenic suspension of organic material less than 250 kg in wate.
 The freezers will maintain life, with no drain on life support, and will continue to function after life support has failed.
 Cold storage will work until the cold storage box itself is destroyed.
 Each cold storage space occupies a half tonne of cargo space.
 
-=== Cabins 
-Cabins are somewhat of a luxury, but it is impossible to have guests (other than in cold storage) without cabin space.
-Each cabin requires one tonne of hull space and can comfortably house two passengers.
-
 === Corridors 
-Corridors only apply to any passageways that connect luxury cabins, workspaces or ship systems.
+
+* Requires: 0.2 tonnes
+* Occupies: 0.2 tonnes per hex
+
+Corridors are passageways that connect cabins, workspaces or ship systems.
+Corridors are considered a space luxury, but are required if there are cabins.
 Cabin corridors require 200 kg of hull space per map hex (2 meters) of passage.
 If personas want to run from the artillery bay to the exatmo drives quickly, corridors are a must.
 
@@ -1034,50 +1052,55 @@ The entire ship is accessible by utility corridors.
 Utility corridors occupy no significant amount of hull space.
 However, they are cramped, claustrophobic and slow to navigate.
 
-=== External Drives 
+=== External Drives
+
+* Requires: 0 tonnes
+* Occupies: increases hull space
+
 External drives are self-explanatory.
-Either the exatmo or inatmo drives are on the outside of the hull.
-This innovation converts the hull space they occupied into cargo space.
+Exatmo or inatmo drives are bolted onto the outside of the hull freeing up hull space.
 The drawback of this system is that the drive units are more vulnerable to attack during combat.
-External drives can either be accessed directly through the hull or via an airlock.
+Any attack that damages the hull of the spacecraft would damage the external drives. 
+External drives are accessed directly through the hull or via an airlock.
 
-Special drives can never be external.
-
-=== Vac Suits 
-Vac suits allow delicate organic life forms to survive exatmo.
-A spacecraft will have one civilian vac suit per crew member and luxury cabin.
-So a pleasure cruiser with five crew and six cabins would have eleven civilian vac suits.
-
-There is a 10% chance per civilian vac suit that there will be an industrial vac suit.
-
-For more information about vac suits jump xref:hardware:armour.adoc#_vac_suit[Vac Suits,window=_blank].
+Special drives are delicate and can never be external.
 
 === Gravity Couches
-Gravity couches are chairs specially designed to save the body from damage during high-g maneuvers.
+
+* Requires: 0 tonnes
+* Occupies: 0 tonnes
+
+Gravity couches are specialized chairs designed to save the body from damage during the lethal maneuvers of combat.
 They are composed of force-absorbing materials and restraining belts.
-Grav couches are only needed when the vessel's gravity system has failed.
+Grav couches allow a spacecraft to maneuver even with a damage gravity system.
 Passengers and crew not in gravity couches during high-g combat maneuvers are dead.
 
-Only combat vessels have grav couches by default. 
+These are military devices and are only found on military craft (pirate or government).
 A combat vessel is a spacecraft with naval artillery, bombs or grenades.
 
-=== Life Bloat  
+=== Life Bloats
+
+* Requires: 0.25 tonnes
+* Occupies: 0.25 tonnes (1 per 4 guests)
+
 A life bloat will maintain four passengers (up to 250 kg in wate each) in cryogenic suspension for an indefinite length of time.
 The cryogenic suspension will begin when the balloon-like life bloat is subject to exatmo.
 There will be one life bloat for every four luxury passengers.
 
-=== Sickbay 
-The sickbay is the doctor's place of operation and personal respite.
-A sickbay can hold four patients and takes up two cabins (2 tonnes) worth of space.
-There is a 1% chance per organic persona that the spacecraft will include a sickbay.
-If the spacecraft has a doctor, there will automatically be a sickbay.
-
 === Machine Shop
+
+* Requires: 2 tonnes
+* Occupies: 2 tonnes
+
 The machine shop is a mechanic's place of operation and personal respite.
 A machine shop requires two cabins (2 tonnes) worth of space.
 There is a 5% chance per robot on board of having a machine shop.
 
-=== Food Machine 
+=== Mess 
+
+* Requires: 1 tonnes
+* Occupies: 1 tonnes (1 per 10 guests)
+
 The food machine will generate nutritionally balanced meals for anything that eats.
 The referee determines the palatability of said foodstuffs.
 Most food machines employ algae, or fungal, cultures to create the primary heterotrophic food groups.
@@ -1093,17 +1116,37 @@ The robots can be on board to replace crew, to aid crew, or as paying guests.
 The chance of a ship sporting a particular robotic has many factors. 
 The depth of persona fabrication that goes into spacer robots depends on the referee's resources and story needs.
 
-The table used to generate space robots is a __Chance__ Table. 
-The player rolls decidice (1d100) for every robot type, and there is a chance of having it.
-A level 3 computer has a 15% chance of having a maintenance robot on board.
+The player rolls decidice (1d100) for every robot type.
+A level 3 computer has a 6% chance of having a maintenance robot on board.
 The player rolls once for every item on the chance table, i.e., she makes a separate roll for combots, social robots etc.
 
 
-include::ROOT:partial$CH52_Table_Spacer_Robots.adoc[]
+include::hardware:partial$spacecraft_robots.adoc[]
 
+=== Sickbay 
+
+* Requires: 2 tonnes
+* Occupies: 2 tonnes
+
+The sickbay is the veterinarian's place of operation and personal respite.
+A sickbay can hold four patients and takes up two cabins (2 tonnes) worth of space.
+There is a 1% chance per organic persona that the spacecraft will include a sickbay.
+If the spacecraft has a ship's doc (veterinarian), there will automatically be a sickbay.
+
+=== Vac Suits 
+
+* Requires: 0 tonnes
+* Occupies: 0 tonnes
+
+Vac suits allow delicate organic life forms to survive exatmo.
+A spacecraft will have one civilian vac suit per crew member and luxury cabin.
+So a pleasure cruiser with five crew and six cabins would have eleven civilian vac suits.
+
+There is a 10% chance per civilian vac suit that there will be an industrial vac suit.
+
+For more information about vac suits jump xref:hardware:armour.adoc#_vac_suit[Vac Suits,window=_blank].
 
 == Cargo Space
-All remaining cargo space is honest to goodness cargo space.
 Cargo space is protected from exatmo and allows for the transfer of stuff.
 Often the expedition will earn money for transporting cargo.
 More often, the cargo will become the focus of an exatmo spacecraft adventure.
@@ -1120,7 +1163,7 @@ The remaining cargo space allows for a cargo lock and multiple airlocks.
 The cargo lock does not work inatmo, so its inclusion is a mystery.
 Sixty tonnes is the capacity of two mundane terran dump trucks.
 
-include::ROOT:partial$CH52_Table_Calculate_Cargo_Space.adoc[]
+include::hardware:partial$spacecraft_cargo_space.adoc[]
 
 == Parameters
 
@@ -1136,14 +1179,13 @@ Wear and tear may have reduced a ship to worthlessness in one culture, while ano
 Spacecraft are precious.
 Spacecraft with powerful computers and special drives are worth enormous amounts.
 
-include::ROOT:partial$CH52_Table_Space_Vehicle_Value.adoc[]
+include::hardware:partial$spacecraft_value.adoc[]
 
 ==== Example Value Calculation
-The following is an example value using the space bus from the <<_example_calculation,cargo space calculation>>.
-The spacecruiser has 100 tonnes displacement, Defence Rating of 700, exatmo drive 10, fuel level 5, computer level 4
+The following is an example value using the space bus from above.
+The spacecruiser has 100 tonnes displacement, Defence Rating of 700, exatmo drive 10, fuel level 5, computer level 4, etc.
 
-include::ROOT:partial$CH52_Table_Space_Vehicle_Value_Calc.adoc[]
-
+include::hardware:partial$spacecraft_value_example.adoc[]
 
 == Operations
 Space vehicle maintenance and operational cost are tedious.
@@ -1171,8 +1213,4 @@ Woah, it takes a lot of cargo haulage to refit a big spacecraft.
 If the refitting costs were .05% of the ship's value, then a spacecraft worth 500000000 would cost 250000 to refit.
 
 
-
-
-// todo determine what this is
-//.1(5)+.2(10.5)+.2(22)+.3(220)+.1(900)+0.05(3750)+0.04(21000)
 
