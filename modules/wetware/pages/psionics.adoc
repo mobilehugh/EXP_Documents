@@ -10,17 +10,17 @@ Psionic mutations require concentration of the mind, like lifting a weight invol
 The attribute that powers psionic mutations is Mind.
 
 
-.*Psionic Mutation Checklist*
-. <<_mental_mutation_type,Any Mutation Type>>
+.*Psionic Mutations*
+. <<_generate_type,Any Psionic Mutation>>
+.. <<_no_defects,No Defects (start up)>>
+.. <<_combat_mutations,Combat Mutations>>
 .. <<_non_combat_mutations,Non Combat Mutations>>
 .. <<_defective_mutations,Defective Mutations>>
-.. <<_combat_mutations,Combat Mutations>>
-. <<_psionic_mutation_attribute_explanations,Psionic Mutation Attribute Explanations>>
 
 
 == Generate Type
 
-include::ROOT:partial$CH58_Table_Mental_Mutation_Type.adoc[]
+include::wetware:partial$psionic_list_all.adoc[]
 
 == Mutation Types
 
@@ -35,7 +35,7 @@ General Bonus:: Combat Ratio +4
 This mutant can absorb the assigned force that would typically damage her.
 A laser bolt will dissipate over her entire body, or radiation will pass through her unaffected.
 The damage type that the persona can absorb is determined on the Absorption Table.
-A persona with absorption can absorb an amount of damage equal to her HPMimum plus 3 HPS per experience level.
+A persona with absorption can absorb an amount of damage equal to her HPM plus 3 HPS per experience level.
 Damage cannot be reduced to less than one point of damage.
 For example, a level 4 persona with 30 HPS could absorb 42 HPS in damage.
 If the attack is supposed to inflict less than 42 HPS of damage, she will take no damage.
@@ -2561,20 +2561,25 @@ Any simple effect that the mutation has on the dice rolling of the persona shoul
 == Mutation Sub Tables
 When you quickly need a specific type of mutation
 
-=== Defective Mutations
-Nature, pharma, or side effect. 
-Here is where you unleash biomagical tragedy.
+=== No Defects
+Best for start up psionic mutations. 
 
-include::ROOT:partial$CH58_Table_Defective_Mental_Mutations.adoc[]
+include::wetware:partial$psionic_list_no_defect.adoc[]
 
 === Combat Mutations
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic violence.
 
-include::ROOT:partial$CH58_Table_Combat_Mental_Mutations.adoc[]
+include::wetware:partial$psionic_list_combat.adoc[]
 
-=== Non Combat Mutations
+=== Uncombat Mutations
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic curiosity.
 
-include::ROOT:partial$CH59_Table_Non-Combat_Physical_Mutations.adoc[]
+include::wetware:partial$psionic_list_uncombat.adoc[]
+
+=== Defective Mutations
+Nature, pharma, or side effect. 
+Here is where you unleash biomagical tragedy.
+
+include::wetware:partial$psionic_list_defects.adoc[]

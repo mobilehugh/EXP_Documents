@@ -10,14 +10,14 @@ Even the most cursory vet exam would expose this mutant as different.
 
 .*Phenomic Mutation Checklist*
 . <<_mutation_type,Any Mutation Type>>
-.. <<_non_combat_mutations,Non Combat Mutations>>
-.. <<_defective_mutations,Defective Mutations>>
+.. <<_no_defect,No Defects (start up)>>
 .. <<_combat_mutations,Combat Mutations>>
-. <<_phenomic_mutation_attribute_explanations,Phenomic Mutation Attribute Explanations>>
+.. <<_uncombat_mutations,Uncombat Mutations>>
+.. <<_defective_mutations,Defective Mutations>>
 
 == Mutation Type
 
-include::ROOT:partial$CH59_Table_Physical_Mutations.adoc[]
+include::wetware:partial$phenomic_list_all.adoc[]
 
 == Mutation Types
 
@@ -236,7 +236,7 @@ Duration:: As needed
 Frequency:: As needed
 General Bonus:: Combat Ratio +5, +25 on sneaky rolls
 
-The mutant's skin has photodetector cells and chromocytes.
+The mutant's skin has photo-detector cells and chromocytes.
 The combination of these two skin cells allows the mutant to blend into the surrounding environment.
 Chameleon skin is continually attempting to conceal itself by matching the background.
 This mutant's skin will even change colour to match the inside of her clothing.
@@ -372,7 +372,7 @@ This persona's Charisma score is reduced by 2 points.
 
 Style::
 A diminished sense of style makes the mutant completely unable to dress, design, or decorate in any way possible.
-The mutant does not dress ironically, cutely or idiosynchratically.
+The mutant does not dress ironically, cutely or idiosyncratically.
 The mutant dresses badly, inappropriately and somewhat offensively.
 This makes the persona a tragic cook, painter, stylist, writer, and haute couture is incomprehensible.
 This persona's Charisma score is reduced by 1 point and her social standing is reduced by 30 percent.
@@ -441,7 +441,7 @@ Frequency:: Special
 General Bonus:: None
 
 On this mutant's belly is a 4 cm thick buildup of nutritious and tasty regenerating flesh.
-The flesh is a muscley, slightly denatured, and stocked with all the essential nutrients.
+The flesh is a muscly, slightly denatured, and stocked with all the essential nutrients.
 To sustain herself, the mutant tears strips of edible tissue off her belly.
 Each strip is a yummy snack. 
 The edible tissue supplies a day's food for the mutant.
@@ -865,7 +865,7 @@ The flashlight is often the mutant's forehead, but sometimes the palm or knee ha
 If desired, the mutant can project a beam emitting from her forehead, extending straight ahead for one hex per point of adjusted STR.
 The mutant can produce the flashlight as needed.
 
-NOTE: This mutation variation was previously called "fleshlight." The adult toy market now has this moniker firmly in its grip.
+NOTE: This mutation variation was previously called "flesh light." The adult toy market now has this moniker firmly in its grip.
 
 .*Flash Attack*
 The mutant can excite the glowing organisms to emit a violent blast of blinding light.
@@ -879,7 +879,7 @@ If she wins the Awareness roll, she will suffer blurry vision for 2-20 (2d10) un
 Targets with blurred vision have tearing eyes, light sensitivity, and can barely function.
 Targets with blurred vision suffer -200 on attack rolls, -200 on AR, +8DD task rolls, half movement, etc.
 
-:art: Refrigererator_man.png
+:art: refrigerator_man.png
 :width: 250px
 :snark: Cool man
 :artist: Andrew Brechin
@@ -1050,7 +1050,7 @@ Thus a mutant with five extra legs would double her movement rate.
 Mouths::
 The mutant has 1 to 4 (1d4) extra mouths.
 The mouths are smaller, malformed, craggily toothed, fully functional mouths.
-The extra mouths can be in synch or out of synch with the mutant's cakehole.
+The extra mouths can be in synch or out of synch with the mutant's cake hole.
 The extra mouths can drool, chew, spit and eject vomit, but they do not talk.
 There is a CHA penalty of -1 per extra mouth.
 This mutation variant is a defect and does not count as a start-up mutation.
@@ -1090,7 +1090,7 @@ Blood Absorbing::
 This consists of an external blood sucking tentacle, and an internal blood filtering organ.
 The large tentacle burrows to a major artery, injects anticoagulants, and aggressively pumps blood from the target.
 The organ will drain 1 to 6 (d6) hit points worth of blood per experience level each unit that the blood draining tentacle is attached.
-A 4th level mutant would dratn 4d6 worth of vital juices from her target each unit that the blood draining organ remains attached.
+A 4th level mutant would drain 4d6 worth of vital juices from her target each unit that the blood draining organ remains attached.
 This attack increases the mutant's CR by 3.
 
 A target will definitely be aware that the tentacle is attached, and she will make every effort to detach it.
@@ -1131,7 +1131,7 @@ This mutation increases the mutant's CR by 2.
 
 Ink Producing::
 This organ produces an enormous supply of fine black ink.
-The gland opens on to the mutant's skin via a sphinkter in which she can clip a quill pen, and write until she dies of old age.
+The gland opens on to the mutant's skin via a sphincter in which she can clip a quill pen, and write until she dies of old age.
 
 The ink can also be violently ejected in a liquid environment as a distracting screen (6 hexes by 9 hexes).
 The screen will dissipate in 3 to 30 units.
@@ -1737,7 +1737,7 @@ Mouth::
 The mutant's mouth is now a muscle laden boney drawer.
 The flesh drawer slides open, and the mutant drops her food and drink into it.
 Rotating teeth ground food as the drawer retracts.
-The strange new mouth functions like any other cakehole and is considered cosmetic.
+The strange new mouth functions like any other cake hole and is considered cosmetic.
 
 Nose::
 The mutant's nose is now a highly dynamic stalk of flesh, cartilage and holes.
@@ -1981,7 +1981,7 @@ The mutant must touch the target to inflict the effects of the mutation, whether
 The touch must be hand, paw or claw to skin, fur or scales.
 Some touch mutations can be conducted through material that would be considered conductive, like metal.
 Some touch mutations may still be effective if derma-to-derma contact cannot be made.
-They may be mutations with very short ranges, several millimetres, and a successful attack roll may be all that is needed to get within range.
+They may be mutations with very short ranges, several millimeters, and a successful attack roll may be all that is needed to get within range.
 
 === Duration
 The duration of a mutation almost always refers to the length of time that the mutation effects last.
@@ -2048,22 +2048,22 @@ When you quickly need a specific type of mutation.
 === No Defects
 Best for start up phenomic mutations. 
 
-// todo no defect subtable
+include::wetware:partial$phenomic_list_no_defect.adoc[]
 
 === Combat Mutations
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic violence.
 
-include::ROOT:partial$CH59_Table_Combat_Physical_Mutations.adoc[]
+include::wetware:partial$phenomic_list_combat.adoc[]
 
 === Uncombat Mutations
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic curiosity.
 
-include::ROOT:partial$CH59_Table_Non-Combat_Physical_Mutations.adoc[]
+include::wetware:partial$phenomic_list_uncombat.adoc[]
 
 === Defect Mutations
 Nature, pharma, or side effect. 
 Here is where you unleash biomagical tragedy.
 
-include::ROOT:partial$CH59_Table_Defective_Physical_Mutations.adoc[]
+include::wetware:partial$phenomic_list_defects.adoc[]
