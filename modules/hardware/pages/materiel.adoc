@@ -26,7 +26,7 @@ NOTE: *Consider existing artifacts when generating materiel.*
 .*Materiel Checklist*
 . Align with an existing artifact (optional)
 . <<_generate_type,Materiel Type>>
-. xref:software:CH56_Tech_Level.adoc[Tech Level,window=_blank] (optional) 
+. xref:hardware:tech_level.adoc[Tech Level,window=_blank] (optional) 
 
 == Generate Type
 
@@ -67,17 +67,17 @@ Ten sets for an antimat pistol using two batteries is ten chunks of antimatter a
 
 include::hardware:partial$materiel_ammo_amount.adoc[]
 
-=== Power Level
-Power level, aka calibre, is an optional rule. 
-
-include::hardware:partial$gun_calibre_types.adoc[]
-
 ==== Armoury
 An armoury represents an endless amount of ammunition.
 An ammunition dispensary is not mobile, and the expedition does not get to carry it around.
 An armoury could be a battery recharger or broadcast power.
 An armoury could be an ammo dispenser or ammunition store.
 An armoury conveniently justifies endless munitions for combat fun.
+
+=== Power Level
+Power level, aka calibre, is an optional rule. 
+
+include::hardware:partial$gun_calibre_types.adoc[]
 
 == Cells 
 Many artifacts require a stored energy source to operate.

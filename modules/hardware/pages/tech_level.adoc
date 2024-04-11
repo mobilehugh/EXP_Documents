@@ -1,12 +1,5 @@
 = Tech Level
 
-An artifact's tech level (TL) reflects the technological advancement of who created the device.
-The higher the tech level, the more advanced the device.
-The lower the tech level of the device, the less advanced the device.
-EXP is the game of technological chaos, and high tech level items can exist alongside low tech level items.
-The referee is free to choose a tech level for all artifacts in her campaign. 
-The following paragraphs detail how to manage various tech levels in EXP.
-
 :art: very_high_tech_anti_grav.png
 :width: 350px
 :snark: A very high tech antigrav device.
@@ -14,16 +7,21 @@ The following paragraphs detail how to manage various tech levels in EXP.
 :date: 2014
 :license: Copyright JEShields Stock Art. jeshields.com
 :description: Woman in desert robes riding a carpet.
-
 include::ROOT:partial$articulate.adoc[]
 
-.*Tech Level Checklist*
-. Roll Tech Level
-. Adjust wate
-. Adjust value
-. Adjust description
-. Adjust Identification difficulty
 
+An artifact's tech level (TL) reflects the technological advancement of who created the device.
+The higher the tech level, the more advanced the device.
+The lower the tech level of the device, the less advanced the device.
+EXP is the game of technological chaos, and high tech level items can exist alongside low tech level items.
+The referee is free to choose a tech level for all artifacts in her campaign. 
+The following paragraphs detail how to manage various tech levels in EXP.
+
+.*Tech Level Checklist*
+. <<_generate_tech_level,Generate Tech Level>>
+. <<_implications,Implication>>
+
+== Preamble Ramble
 The usual tech level is ten. 
 Tech level ten reflects the tech of the level of mundane terra in the late 20th century.
 One could argue that in the 2020s, the tech level of mundane terra is possibly 11, with gusts up to 12.
@@ -31,14 +29,15 @@ This discussion is beyond the scope of this text, and the base tech level remain
 All artifacts that the TOY system generates is a tech level ten device.
 Any variation from tech level ten changes the wate, value and appearance of the artifact.
 
+=== Low Tech
+
 :art: bomb_low_tech_plane.png
 :width: 250px
 :snark: Peace Maker Low Tech
 :artist: unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of smug humans standing around a propeller plane and atomic bomb.
-
+:description: Smug humanoids standing around a propeller plane and atomic bomb.
 include::ROOT:partial$articulate.adoc[]
 
 The lower the technology of the item, the worse off it is.
@@ -47,14 +46,15 @@ A large building full of water buckets may represent a society's best calculator
 A windmill may be a patented commercial water pump.
 Low tech level items can be confusing, and therefore hard to identify. 
 
+=== High Tech
+
 :art: bomb_high_tech_dog.png
 :width: 250px
 :snark: Peace Maker High Tech.
 :artist: Unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of smug dog burying mouth sized atomic bomb.
-
+:description: Smug dog burying bite sized atomic bomb.
 include::ROOT:partial$articulate.adoc[]
 
 The higher the technology of the item, the better it is.
@@ -64,7 +64,7 @@ A flotto laser rifle may look like a stick and behave like a wand.
 A psionic headband may look like a 1970s elastic sweatband and have a built-in radio.
 Very high tech items can appear magical. 
 
-== Timekeeping Example
+=== Progression
 Timekeeping is an essential and familiar procedure for us mundane humanoids. 
 The below table roughly and historically inaccurately outlines the impact of tech level on timekeeping.
 The table starts at tech level 0, where there is no concept of time.
@@ -84,12 +84,38 @@ The concept is all that matters.
 Other devices have absorbed the clock.
 The clock is no longer integral to the process of timekeeping.
 
-include::ROOT:partial$CH56_Table_Tech_Level_and_the_Time_Piece.adoc[]
+include::hardware:partial$tech_level_time_piece.adoc[]
 
-== Mixing It Up
+=== Tech and Tools 
+Included here for completeness of preamble ramble.
+
+include::appendices:partial$tool_usage_examples_tech_level.adoc[]
+
+=== Tech Level Ten 
+All equipment described in the technology section is tech level ten (TL10).
+Tech level ten is an arbitrary number that allows space for tech levels below and above.
+Tech level ten is a familiar reference point for us on mundane terra.
+TL10 is that point where all the facets of science--mathematics, electronics, physics, biology--can work together to create any device.
+
+The tech level of one device does not represent the tech level of the entire culture.
+A tech level ten culture will have devices that have higher and lower tech levels. 
+One can find high tech artifacts in low tech cultures.
+The corollary is true as well. 
+One can find low tech artifacts in high tech cultures.
+
+=== Mixing It Up
 The referee can choose to have a consistent tech level for all the artifacts in her milieu and campaign.
 This campaign choice is legitimate.
 The following paragraphs give guidance for mixing up tech levels in EXP.
+
+:art: two_saws.png
+:width: 350px
+:snark: Same tool different tech levels.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Old school hacksaw paired with lazer blade hacksaw.
+include::ROOT:partial$articulate.adoc[]
 
 The TOY system operates under the basic assumption that any device can appear at any tech level.
 The tech level refers to the tech level of the *specific artifact*.
@@ -102,40 +128,16 @@ Mix all of these differing technological development sources, and one has the te
 
 NOTE: As of 2020, there are at least 300 competing patents for http://tinyw.in/AJRp[dog poop scoopers] on mundane terra.
 
-== Tech Level Ten 
-All equipment described in the technology section is tech level ten (TL10).
-Tech level ten is an arbitrary number that allows space for tech levels below and above.
-Tech level ten is a familiar reference point for us on mundane terra.
-TL10 is that point where all the facets of science--mathematics, electronics, physics, biology--can work together to create any device.
-
-The tech level of one device does not represent the tech level of the entire culture.
-A tech level ten culture will have devices that have higher and lower tech levels. 
-One can find high tech artifacts in low tech cultures.
-The corollary is true as well. 
-One can find low tech artifacts in high tech cultures.
-
-== Assigning Tech Level
+== Generate Tech Level
 The vast majority of equipment will be tech level 10.
 If the players and referee agree with random tech levels, refer to the table below.
 
-include::ROOT:partial$CH56_Table_Assign_Tech_Level.adoc[]
+include::hardware:partial$tech_level_generation.adoc[]
 
-:art: two_saws.png
-:width: 350px
-:snark: Same tool different tech levels.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Old school hacksaw paired with lazer blade hacksaw.
-
-include::ROOT:partial$articulate.adoc[]
-
-== Effect of TL 
+== Implications
 Changing a device's tech level from ten alters the device's wate, experience point reward, value and the ability to identify it.
 Each tech level has a different impact on the wate, EXPS, and value of the artifact. 
 Higher tech levels make the artifact lighter and more valuable. 
-
-include::ROOT:partial$CH56_Table_Effect_of_Tech_Level_(TL)_on_Artifact.adoc[]
 
 === Wate 
 The wate column indicates the change in the artifact's wate.
@@ -147,7 +149,7 @@ At TL 16, the pistol's wate would be 0.9 kg (wate multiplier of 0.5).
 The change in wate cannot be detrimental to the function of the artifact. 
 For example, a very light sword would inflict the same damage as it's lower tech level counterpart.
 
-=== Experience Points 
+=== EXPS
 The experience points (EXPS) column indicates the change in the artifact's experience point award for identification.
 Multiply the EXPS adjustment with the artifact's EXPS value to get the new EXPS for the tech level.
 The EXPS award can increase for both lower and higher tech devices. 
@@ -184,5 +186,10 @@ The artifact may look entirely different--e.g., a key may be a metal ball touche
 A tech level ten lazer pistol has no artifact identification penalty.
 At tech level three, the same lazer pistol has an artifact identification penalty of -4.
 At tech level twenty, that lazer pistol has an artifact identification penalty of -8.
+
+=== Convenience Table
+
+include::hardware:partial$tech_level_implications.adoc[]
+
 
 

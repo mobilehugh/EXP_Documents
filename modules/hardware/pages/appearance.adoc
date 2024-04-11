@@ -15,49 +15,33 @@ Artifact appearances need not be utterly random, and the referee's milieu can in
 NOTE: An ideal description is a short sentence that differentiates the artifact from everything else.
 
 .*Appearance Checklist*
-. Colour
-. General Shape
-. Style
-. Descriptors
-.. Cleanliness
-.. Age
-.. Usage
+. <<_shape,Shape>>
+. <<_style,Style>>
+. <<_descriptors,Descriptors>>
+. <<_colour,Colour>>
 
-== Colour
-Colour has the most impact on the appearance of the artifact.
-Artifacts can have any colour: a red and blue rifle, a lime green detector, or an orange striped aerosol.
-
-=== Colour Your Whirled
-Add colour. 
-Use 1d12 for snap colours.
-Roll 1d100 to go zany.
-
-include::ROOT:partial$add_colour_to_your_world.adoc[]
-
-== General Shape
+== Shape
 The general shape depends on the hardware, and it's tech level.
-Tech level ten devices tend to appear as familiar TL10 devices.
+Tech level ten devices tend to appear as familiar mundane terran devices.
 For example, a tech level ten rifle will look like a rifle. 
-The rifle may have unique colours, style or descriptors, but it will still look like a rifle.
+The rifle may have unique colours, style and descriptors, but it will still look like a rifle.
 A tech level twenty rifle may not look like a rifle at all. 
 A tech level two rifle may not look like a rifle either.
-
 So for familiar devices, the shape remains the same. 
-The artifact shape may be entirely random for high or low tech level devices. 
-In these cases where a rifle may not look like a rifle, we call on the Robot Shape Tables. 
+The artifact shape may be random for aberrant tech level artifacts. 
 
-=== Basic Shape
+=== Basic
 The volume of the device will fit into this shape.
 Feel free to contort the shape.
 
 include::robots:partial$basic_shapes.adoc[]
 
-=== Contortion of Basic Shape
+=== Contortion
 This table manipulates the basic shape to reflect the infinity that is commercial design.
 
 include::robots:partial$basic_shape_distortions.adoc[]
 
-=== Strange Adornments
+=== Adornments
 These are fun and aggravating descriptors to distract the players. 
 
 include::hardware:partial$strange_adornments.adoc[]
@@ -69,7 +53,7 @@ The Aztec accented blue suitcase offers a description and a distinct identificat
 The styling does not affect the tech level of the artifact.
 For example, a TL10 lazer pistol with Ancient Greek design principles is not technology.
 
-include::ROOT:partial$CH55_Table_Appearance_Style.adoc[]
+include::hardware:partial$appearance_stylings.adoc[]
 
 == Descriptors
 Descriptors reflect the cleanliness, age and usage of the device.
@@ -79,15 +63,30 @@ A destroyed looking black detector box is perfectly functional.
 
 === Cleanliness
 Cleanliness is a description and does not reflect the artifact's performance or value.
+High tech level artifacts may have self cleaning properties that make them appear very clean.
 
-include::ROOT:partial$CH55_Table_Descriptors_Clean.adoc[]
+include::hardware:partial$appearance_cleanliness.adoc[]
 
 === Age
 Age is a description and does not reflect the artifact's performance or value.
+Age appearance also does not reflect the actual age of an artifact. 
+High tech level artifacts may have self cleaning properties that make them appear brand new.
 
-include::ROOT:partial$CH55_Table_Descriptors_Age.adoc[]
+include::hardware:partial$appearance_age.adoc[]
 
-==== Usage
+=== Usage
 Usage is a description and does not reflect the artifact's performance or value.
 
-include::ROOT:partial$CH55_Table_Descriptors_Usage.adoc[]
+include::hardware:partial$appearance_usage.adoc[]
+
+== Colour
+Colour has the most impact on the appearance of the artifact.
+Artifacts can have any colour: a red and blue rifle, a lime green detector, or an orange striped aerosol.
+
+=== Colour Your Whirled
+Add colour. 
+Use 1d12 for snap colours.
+Roll 1d100 to go zany.
+Further tables are optional
+
+include::ROOT:partial$add_colour_to_your_world.adoc[]
