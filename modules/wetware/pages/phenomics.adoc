@@ -2042,14 +2042,13 @@ The general bonus listing of the mutation could contain several arcane bits of i
 The mutation may indicate a bonus for maneuver rolls, attribute rolls or negotiation rolls.
 Any simple effect that the mutation has on the dice rolling of the persona should be included beside the general bonus listing.
 
-== Mutation Sub Tables
-When you quickly need a specific type of mutation
+== Sub Tables
+When you quickly need a specific type of mutation.
 
-=== Defective Mutations
-Nature, pharma, or side effect. 
-Here is where you unleash biomagical tragedy.
+=== No Defects
+Best for start up phenomic mutations. 
 
-include::ROOT:partial$CH59_Table_Defective_Physical_Mutations.adoc[]
+// todo no defect subtable
 
 === Combat Mutations
 Nature, pharma, malfunction, or evolution.
@@ -2057,8 +2056,14 @@ Here is where you unleash genetic violence.
 
 include::ROOT:partial$CH59_Table_Combat_Physical_Mutations.adoc[]
 
-=== Non Combat Mutations
+=== Uncombat Mutations
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic curiosity.
 
 include::ROOT:partial$CH59_Table_Non-Combat_Physical_Mutations.adoc[]
+
+=== Defect Mutations
+Nature, pharma, or side effect. 
+Here is where you unleash biomagical tragedy.
+
+include::ROOT:partial$CH59_Table_Defective_Physical_Mutations.adoc[]
