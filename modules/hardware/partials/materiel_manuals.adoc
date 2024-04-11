@@ -1,27 +1,30 @@
-// Table 55.New Amount of Support Equipment Manuals
-.*Number of Manuals*
+.*Manual Type Table*
 [width="75%",cols="^,<",frame="all", stripes="even"]
 |===
 2+<|Generate the number of manuals.
+
 s|Die Roll (1d100)
 s|Manuals
 
 |01-10
-|1/2
+|Partial Instruction
 
-|11-75
-|1
+|11-20
+|Partial Repair
+
+|21-75
+|Instruction
 
 |76-85
-|2
+|Repair
 
 |86-95
-|3
+|Combo
 
-|96-98
-|4
+|96-97
+|Fabrication
 
-|99
+|98-99
 |Library 
 
 |00

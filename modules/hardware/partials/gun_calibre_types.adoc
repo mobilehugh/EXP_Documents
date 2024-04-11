@@ -1,47 +1,53 @@
-// Table 46.1 Weapon Calibre
-.*Power Level*
-[width="85%",cols="2*^,<2,2*^",frame="all", stripes="even"]
+.*Weapon Power Level Table *
+[width="85%",cols="^,<2,3*^",frame="all", stripes="even"]
 |===
-5+<|Some guns have different damage levels based on energy transfer. With bullets it is size and mass, with energy weapons it is capacitors and efficiencies. 
+5+<|Calibre, barrel size, lens capacity, agitator volume. 
+
 s|Die Roll (1d100)
 s|Power Level
 s|
-s|Value Adjust
-s|Battery Adjust
+s|Value
+s|Battery
 
 |01-05
+|Extra Low Powered
 |XLP
-|Extra Low Powered 
 |0.75
-|-20%
+|0.5
 
 |06-20
-|LP
 |Low Powered
+|LP
 |0.8
-|-10%
+|0.75
 
 |21-80
-|MP
 |Medium Powered
+|MP
 |1.0
 |Nil Adjust
 
 |81-95
-|HP
 |High Powered
+|HP
 |2.0
-|+10%
+|1.5
 
 |96-00
-|XHP
 |Extra High Powered
+|XHP
 |3.0
-|+20%
+|2.0
 
-s|Die Roll (1d100)
+s|Die Roll
 s|Power Level
 s|
-s|Value Adjust
-s|Battery Adjust
+s|Adjust
+s|Adjust
+
+5+<|XLP weapon value is times 0.75 and half the number of batteries.
+
+5+<|XHP weapon value is times 3.0 and double the number of batteries.
+
+
 |===

@@ -1,0 +1,399 @@
+= Materiel
+
+:art: video_conference.png
+:width: 350px
+:snark: Face to face with televid
+:artist: Morey
+:date: 1962
+:license: CC BY-SA 4.0
+:description: Humanoids chatting via a screen.
+include::ROOT:partial$articulate.adoc[]
+
+Materiel is artifacts that exist to make other artifacts shine. 
+Types of materiel are batteries, ammunition, fuel, manuals, software and spare parts.
+Materiel does not include brassieres or jockstraps.
+Materiel does not have a function on its own. 
+However, some materiel is precious.
+
+Many artifacts require materiel to function: guns need ammo; detectors need batteries; vehicles need fuel; computers need meaning; everything needs instructions, and everything wears out.
+
+This materiel section exists to support players in scarce resource campaigns.
+It is not a tool to render toys impotent and defeat a game's fun. 
+EXP is the game of technological chaos, not the game of carrying defunct equipment. 
+
+NOTE: *Consider existing artifacts when generating materiel.*
+
+.*Materiel Checklist*
+. Align with an existing artifact (optional)
+. <<_generate_type,Materiel Type>>
+. xref:software:CH56_Tech_Level.adoc[Tech Level,window=_blank] (optional) 
+
+== Generate Type
+
+include::hardware:partial$list_of_materiel.adoc[]
+
+== Ammunition 
+Ammunition is so essential to most weapons that it can hardly be considered materiel.
+Most guns are useless without ammo unless being used as a club.
+Ammo materiel needs a weapon type and amount. 
+Calibre is optional.
+
+:art: spent.png
+:width: 300px
+:snark: Spent money. Spent casings.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Two bullet casings laying on the ground.
+include::ROOT:partial$articulate.adoc[]
+
+=== Type  
+Is there an existing weapon for the ammunition type to match?
+If there is no existing weapon, roll randomly on the ammo type table.
+This roll determines the type of ammo found.
+A  weapon that uses batteries would have battery sets. 
+A weapon that uses bullets would have magazines.
+A weapon that has special fuel would have both the special fuel and the batteries.
+
+include::hardware:partial$materiel_ammo_types.adoc[]
+
+=== Amount
+The number of ammo sets determines the amount of ammo found.
+An ammo set is a complete set of what is needed to arm a weapon.
+Ten ammo sets are entirely different depending on the weapon type.
+Ten sets for a rifle with a 15 round magazine would mean 150 bullets.
+Ten sets for a lazer pistol using one battery would indicate ten batteries.
+Ten sets for an antimat pistol using two batteries is ten chunks of antimatter ammo and twenty batteries. 
+
+include::hardware:partial$materiel_ammo_amount.adoc[]
+
+=== Power Level
+Power level, aka calibre, is an optional rule. 
+
+include::hardware:partial$gun_calibre_types.adoc[]
+
+==== Armoury
+An armoury represents an endless amount of ammunition.
+An ammunition dispensary is not mobile, and the expedition does not get to carry it around.
+An armoury could be a battery recharger or broadcast power.
+An armoury could be an ammo dispenser or ammunition store.
+An armoury conveniently justifies endless munitions for combat fun.
+
+== Cells 
+Many artifacts require a stored energy source to operate.
+The most common stored energy source is batteries.
+Batteries should make the game more fun by limiting powerful weapons and a sense of conservation.
+
+:art: battery_pack.png
+:width: 250px
+:snark: Extra wate equals extra lazer bolts.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Lazer pistol with extension cord to battery pack on belt.
+include::ROOT:partial$articulate.adoc[]
+
+
+=== Power Type
+The cell type determines the sciency fiction process that the battery employs to create electricity.
+An artifact may require a specific cell type and number of cells to function.
+Some campaigns will allow cell types to be interchangeable. 
+Cell types should add fun to the game and not frustration. 
+For more information about fuel and energy jump to xref:appendices:generic_mythos.adoc#_energy_and_power[Energy and Power,window=_blank].
+
+
+
+include::hardware:partial$power_source_types.adoc[]
+
+=== Amount
+How many cells are found in the cache. 
+
+include::hardware:partial$materiel_cells_amount.adoc[]
+
+==== Power Source
+Power source can indicate a receptacle or generator that powers the artifact.
+If the artifact is mobile, there may be a charging station for the artifact.
+A power source conveniently justifies endless energy for combat and research fun.
+
+=== Powerpack
+Powerpacks are a collection of cells combined into one device.
+Powerpacks have a cell type and number of cells to power any artifact with a powerpack plug.
+So a power pack with 16 cells could power a four-battery lazer rifle four times over before expending.
+A 16 cell powerpack could power a one cell mutation detector for 80 days. 
+Powerpacks contain a number of cells equal to a materiel battery stash.
+
+include::hardware:partial$materiel_cells_powerpack.adoc[]
+
+=== Multicell
+A multicell is a single cell that replaces an entire battery set. 
+If the player generates four cells per set, the multicell can replace four cells.
+If an artifact required four solid cells to operate, a multicell with four cells could replace them.
+A multicell does not work like a power pack, and a four-cell multicell cannot power a single cell artifact four times over. 
+A multicell must have at least two cells per set.
+
+=== Parameters
+
+==== Wate
+All cells, including multicells, have a wate of 0.1 kg (100 gm).
+Power packs have a wate of 2 kg, regardless of the number of cells.
+
+==== EXPS
+There are no experience points earned for batteries. 
+
+==== Value
+A basic cell is worth 100 eps
+A recharging cell is worth 1000 eps.
+A continuous cell is worth 10000 eps.
+A powerpack or multicell adds all the cells and doubles the value. 
+A psionic cell can be priceless, or free. 
+
+== Fuel 
+Fuel powers vehicles and spacecraft in EXP.
+Many campaigns will forgo fuel for fun, and that is an entirely reasonable approach.
+The rules for fuels are for scarce resource campaigns.
+For more information about fuel and energy jump to xref:appendices:generic_mythos.adoc#_energy_and_power[Energy and Power,window=_blank].
+
+
+=== Type
+If the expedition is discovering a fuel cache, the referee should match it with an existing vehicle.
+
+include::hardware:partial$vehicle_fuel_types.adoc[]
+
+=== Amount
+The amount of fuel is determined by the vehicle type it is designed for.
+The fuel type and amount should align with an existing vehicle or spacevehicle.
+If the expedition has a recreational sedan they will find 1 to 6 refills for that vehicle.
+
+include::hardware:partial$materiel_fuel_refills.adoc[]
+
+There is a chance that the fuel may be for a spacecraft. 
+
+==== Depot
+If the player rolls depot as an amount, then there is an unlimited supply of fuel present. 
+This may be a refinery, robot dispenser, or bubbling geographic anomaly.
+A depot cannot move, but it does represent an endless supply of the needed resource.
+
+=== Parameters
+Listing fuel amounts in kilometres of range and months of service make wate and value determination a bit tricky.
+Determining fuel wate is a situation that uses post factualization.
+Post factualization allows the referee to determine game elements retrospectively while pretending it was always so.
+
+==== Wate
+Basic fuel types have a  wate of 10kg per 100 kilometres of fuel.
+Rechargeable and continuous fuel types have a wate that is 3% of the vehicle wate. 
+
+If the fuel is for an existing spacecraft, and the number of months worth of fuel has a wate based on the ship tonnage.
+If there is no existing spacecraft, the law of averages indicates that an average month of fuel has a wate of 10 tonnes.
+
+==== EXPS
+There are no experience points earned for finding fuel.
+
+==== Value
+The milieu of the campaign determines the value of the fuel.
+A scarcity based campaign may make fuel acquisition the entire point of the game.
+A space-faring campaign may make fuel a cheap and accessible commodity used to travel the galaxy.
+One eps per kilogram of fuel makes a decent reference and conversation point.
+
+
+== Manuals
+Manuals help the personas understand, use and repair artifacts and equipment. 
+The referee should assign manuals to existing artifacts and equipment.
+If the manual is purely random then the player will use the TOY system.
+TOYs is used to generate what artifact the manual is for.
+
+An artifact discovered in the rubble of a mutant's lair is not likely to have a manual.
+Guns purchased a the local Laz-R-Mart will have an instruction manual.
+A vehicle stolen from a garage may have a repair manual along for the ride. 
+
+The manual will reflect the complexity of the artifact.
+Spacecraft will have enormous manuals stored within their onboard computers. 
+A vibro mace may have a simple pamphlet describing it's use in pictograms.
+
+=== Type
+There are two types of manuals: instructional and repair. 
+The vast majority of manuals will be instruction manuals.
+An instruction manual may be as simple as a pamphlet or as gargantuan as a computer system.
+Repair manuals are less common than instruction manuals.
+Repair manuals are virtually useless to any persona that is not a mechanic.
+A bonus of +50 on the task table roll is granted to a mechanic when using a repair manual.
+
+include::hardware:partial$materiel_manuals.adoc[]
+
+==== Partial
+A half manual is somehow less than a full manual.
+The manual may be missing pages, in a strange dialect or not match the exact artifact.
+A partial manual should not be useless. 
+A partial manual gives half the bonuses earned from an instruction or repair manual.
+
+// todo rationalize task and AID benefits with actual rules
+
+==== Instruction
+Instruction manuals help personas identify and use an artifact safely.
+Instruction manuals add +3 to any AID Rolls, and +5 to any mechanic tasks with the artifact.
+
+==== Repair
+Repair manuals are aimed at mechanics and help them fix or extend an artifact.
+Repair manuals are not usable by personas that are not mechanics.
+Repair manuals add +5 to any AID Rolls, and +10 to any mechanic tasks with the artifact.
+
+==== Combo
+Both the instructional and repair manual is present. 
+Woot!
+
+==== Fabrication
+These are the construction plans for an artifact.
+These are only comprehensible by a mechanic with an interest or ability with the artifact.
+Fabrication manuals add +15 to any mechanic tasks with the artifact.
+
+==== Library
+A library is a collection of instructional and repair manuals for all manner of equipment.
+There was a time when a library represented a fixed building full of books.
+Even in mundane terra, a library can live in a fancy book (electronic book).
+The format of the manual determines the type of library.
+A library full of paper sheets would be like a library from the last millennium. 
+A library on a fancy book would resemble a tablet or computer.
+
+=== Format
+The manual format is mostly for appearance and plays a role in the manual's mobility.
+A built-in manual will be part of the artifact. 
+Sheet manuals can become very large.
+A plastic sheet manual for a spacecraft might resemble a library, but for just one artifact. 
+
+include::hardware:partial$materiel_manual_format.adoc[]
+
+=== Parameters
+
+==== Wate
+Unless the manual is a library or built into the device, the persona should be able to carry it around.
+If the wate of a manual is too much for a persona to carry, then the manual had better be for a large complex artifact.
+
+==== EXPS
+When a mechanic uses a repair manual in conjunction with an artifact, she is awarded the experience point value of that artifact.
+
+==== Value
+The value of an instruction manual comes from the identification and ability to operate the artifact.
+Repair manuals can be quite valuable.
+As a rule, a manual is worth 1/100 of the value of the artifact.
+For a spacecraft, the manual is very valuable in terms of ship function and plain value.
+
+== Programmes
+Programmes are collections of code that provide skills and insights for inorganic brains.
+The inorganic brains include computers of the following types: vocation, spacecraft, robotic, AI and biological.
+The referee should consider generating programmes for existing inorganic brains. 
+For example, if there is a robot persona, consider having a robotic programme. 
+
+:art: bio_computer_virus_desat.png
+:width: 250px
+:snark: Nasty computer virus
+:artist: Studiostoks
+:date: 2015
+:license: Copyright Studiostoks
+:description: A humanoid being attack by tentacles coming out of a computer tablet.
+include::ROOT:partial$articulate.adoc[]
+
+NOTE: A programme fully integrate with the artifact, and is *single-use*.
+
+=== Type
+The programme type indicates computer brain compatibility.
+The programmes are not cross-platform, and a vocation computer programme does work with a spacecraft computer.
+The programme is strictly limited to the particular computer brain unless it is designated a cross-platform programme.
+
+include::hardware:partial$materiel_programme_types.adoc[]
+
+=== Autonomous
+AI programmes work in the MOM series of autonomously intelligent computers.
+MOM computers are part of the generic mythos of EXP.
+For more info jump to xref:referee_personas:ai_rp.adoc[Autonomous Intelligence,window=_blank].
+The programme will add knowledge to the AI. 
+AI programmes are different from peripherals in that they lack physical world interfaces. 
+
+include::hardware:partial$materiel_programmes_ai.adoc[]
+
+=== Biologic
+A biologic brain programme allows an organic persona (anthro or alien) to acquire new skills and abilities instantly.
+These programmes are only for insertion and integration with an organic brain.
+The programme will give the persona the described ability regardless of her vocation type or family.
+The programme may be inserted directly into the skull, delivered via the eyes and ears, or implanted using vet equipment.
+The referee can choose to roll on either an <<_autonomous,Autonomous Programme>> or a <<_vocation,Vocation Programme>>.
+An organic persona cannot have a spacecraft programme.
+
+=== Poly
+A cross-platform programme can be inserted into any brain system.
+The player rolls again on the Programme Type Table, ignoring, Poly Repo, and Spacecraft until a programme is found.
+Whether the programme is an Autonomous, Robotic or Vocation, it is usable by any brain system.
+
+=== Repo
+A repository is a collection of programmes that the player can search, download and reuse.
+The repo could be a collection of floppy disks or a crystal holding several valuable programmes.
+A repo will hold 1-4 (1d4) programmes that can be used by inorganic brain systems. 
+The player rolls again on the Programme Type Table, ignoring Poly and Repo, the repo's programmes are found.
+A repo is powerful, but it should not be a plot breaking artifact.
+
+=== Robotic
+Robotic brain programmes extend the skills of a robot persona. 
+These programmes are only for insertion and integration with a robotic brain.
+The robot persona will add the programme to her repertoire regardless of her robot type.
+The programme may be inserted through a port or nailed onto the robot with a sledgehammer.
+The referee can choose to roll on either an <<_autonomous,Autonomous Programme>> or a <<_vocation,Vocation Programme>>.
+A robot cannot have a spacecraft programme.
+
+=== Vocation
+Vocation programmes work with vocation computers.
+Vocation computers assist personas with technical maneuvers carried out by their vocation.
+A programme will decrease the difficulty of a maneuver by 0-5 (d6-1) degrees of difficulty.
+
+include::hardware:partial$materiel_programmes_vocation.adoc[]
+
+=== Spacecraft
+Spacecraft programmes work with spacecraft computers. 
+
+include::hardware:partial$spacecraft_programmes_operational.adoc[]
+
+=== Format 
+The programme format is an esthetic choice.
+There is no performance difference between each of the programme formats.
+A format may change the wate of the programme artifact, but it cannot render it useless.
+
+include::hardware:partial$materiel_programme_format.adoc[]
+
+=== Parameters
+A programme is a single use entity that melds with the inorganic brain.
+The programme cannot be reused and the brain is permanently changed.
+Space vehicle programmes can have porting, and tooling necessary for the programme to work.
+
+==== Wate
+Most often the programme can be carried by the persona (< 1 kg). 
+Enormous Autonomous and Spacecraft programmes may can be hefty (10 kg). 
+
+==== EXPS
+1000 each for identifying, installing and using. (max 3000)
+
+==== Value
+* AI programme, 1000000 eps
+* Biologic 2000042 eps
+* Poly times 2
+* Repo times 10
+* Robotic programme 100000 eps
+* Spacecraft programme 500000 eps
+
+== Spare Parts 
+Spare parts help mechanics repair damaged or worn-out equipment.
+A mechanic could also use spare parts to enhance a piece of equipment.
+
+:art: space_suit_bulky_face_with_pencil.png
+:width: 250px
+:snark: Happy mech Happy spaceship
+:artist: Studiostoks
+:date: 2018
+:license: Copyright by Studiostoks
+:description: Happy humanoid in bulky space suit with a floating screwdriver.
+include::ROOT:partial$articulate.adoc[]
+
+Spare parts usually enter the game when a strategic piece of equipment (the one needed to save the universe) breaks down.
+Spare parts will always be related to some artifact existing in the expedition already.
+Spare parts will appear as unidentifiable odds and sods with a wate 25% of the artifact in question.
+Spare parts will have no particular value.
+A mechanic will gain +30 on repair task maneuvers if spare parts are present.
+
+If the referee chooses to have a completely random spare part jump to -> xref:hardware:a_introduction.adoc#_toy_type[Toy Type,window=_blank]. 
+
