@@ -594,7 +594,7 @@ NOTE: Handling Level was formerly known as maneuverability*
 
 High performance vehicles adjust their handling level upwards after rolling the handling level.
 
-include::ROOT:partial$CH54_Table_Handling_Level.adoc[]
+include::hardware:partial$vehicle_handling.adoc[]
 
 == Accessories
 Accessories are a collection of annoying to wonderful additions to a vehicle.
@@ -606,21 +606,20 @@ An accessory can be junk that adds character or a game-changing artifact that de
 :artist: Leon Bennett
 :date: 1887
 :license: CC BY-SA 4.0
-:description: Drawing of a maritime sailing ship flying above paris lighting the sky with searchlights.
-
+:description: A maritime vessel lighting paris from above.
 include::ROOT:partial$articulate.adoc[]
 
 The player gets one roll on the Accessory Type Table.
 Junk Accessories do not count as a roll.
 The player stops rolling if she has three junk accessories, one mundane or one artifact accessories.
 
-include::ROOT:partial$CH54_Table_Accessory_Type.adoc[]
+include::hardware:partial$vehicle_accessory_type.adoc[]
 
-include::ROOT:partial$CH54_Table_Junk_Accessories.adoc[]
+include::hardware:partial$vehicle_accessory_junque.adoc[]
 
-include::ROOT:partial$CH54_Table_Normal_Vehicle_Accessories.adoc[]
+include::hardware:partial$vehicle_accessory_mundane.adoc[]
 
-include::ROOT:partial$CH54_Table_Special_Vehicle_Accessories.adoc[]
+include::hardware:partial$vehicle_accessory_luxury.adoc[]
 
 == Adaptability
 Adaptability represents how easy the vehicle is to repair and add new parts.
@@ -628,6 +627,7 @@ Adaptability improves the degree of difficulty of any performance rolls.
 The adaptability is multiplied by four and added to the mechanic's Maneuver Roll.
 Adaptability ranges from +5 (very adaptable) to -5 (very unadaptable).
 
+[discrete]
 === Calculating Adaptability
 .Adaptability = 1d6 - 1d6 (range +5 to -5)
 ****
@@ -638,7 +638,6 @@ Adaptability = 6  - 4 = +2. Bonus = 2 * 4 = +8 on performance roll.
 Mechanics often find themselves repairing engines. 
 Parts will match if the vehicle type and fuel types match. 
 An engine block for a semi-trailer would not be compatible with that of a pick-up truck.
-The referee would also be allowed to consult the INSERT.
 
 == EXPS
 Vehicles have no EXPS value for most personas.
