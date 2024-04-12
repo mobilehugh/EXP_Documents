@@ -5,21 +5,122 @@ The effects of phenomic mutations take place within the physical space.
 Phenomic mutations are not subtle and usually alter the mutant's appearance.
 The changes can range from oversized ears to wings to disgusting faux organs.
 Even the most cursory vet exam would expose this mutant as different.
-
-//phenomic mutations have a tell
+In short phenomic mutations always have a 'tell' that makes the persona different.
 
 .*Phenomic Mutation Checklist*
 . <<_mutation_type,Any Mutation Type>>
-.. <<_no_defect,No Defects (start up)>>
+.. <<_no_defects,No Defects (start up)>>
 .. <<_combat_mutations,Combat Mutations>>
 .. <<_uncombat_mutations,Uncombat Mutations>>
 .. <<_defective_mutations,Defective Mutations>>
+
+== Parameters
+
+Each mutation has certain properties that describe what it is and how it affects play.
+The attributes of each mutation are explained in the following paragraphs.
+Not only should the basic feature of a mutation be recorded, but the mutation number and the page number where the mutation can be found.
+
+=== Range
+The range of a mutation indicates how far away the effects of the mutation can be delivered to a target.
+Any exception to this meaning of mutation range will be specified in the mutation.
+Many mutations can affect targets hexes away;
+others require contact;
+and some have a radius of effect.
+Ranges are not devoted solely to offensive mutations, and even defensive mutations may be critically affected by range limits.
+
+The intensity of a mutation cannot be regulated, and neither can its area of effect.
+Only a single target mutation can be adjusted for different ranges from the persona.
+Mutations that have areas of effect will indiscriminately affect all targets in this area of effect.
+
+Nothing can stop a mutation which travels directly from one mind to another.
+ESP, gyrokinesis, and telekinesis can pass through any barrier if the mutant has positive proof that the target exists.
+Those mutations which manipulate the environment to attack a target, such as mental blast, or launch-able quills, are subject to terrain effects.
+
+==== Distance
+The most common is the ranged mutation.
+Ranged mutations can be directed at any target within the range of the mutant.
+The range is determined by the MND and EXPS level of the attacker.
+For example, a mutation may have a range of one hex @ MND.
+This means one hex per point of Mind and, with a 12 MND, a mutant could use the mutation 12 hexes away.
+There are variations to this common range format.
+Two hexes per MND would yield a 24 hex range with a 12 MND.
+One hex per four MND would yield a three hex range with a 12 MND.
+If the range includes MND and experience level, then the two are added.
+A fourth level persona with a 12 MND would have a 16 hex range with a mutation that was listed as one hex per (MND + level).
+
+==== Area of Effect
+Radius ranges are spherical and use the location hex of the persona for the centre.
+Thus a mutation with a ten hex radius of effect would contain all targets within ten hexes, including above and below the mutant.
+The area of effect would include everything in the 20 hex diameter sphere.
+
+==== Touch
+Touch mutations are self-explanatory.
+The mutant must touch the target to inflict the effects of the mutation, whether benevolent or not.
+The touch must be hand, paw or claw to skin, fur or scales.
+Some touch mutations can be conducted through material that would be considered conductive, like metal.
+Some touch mutations may still be effective if derma-to-derma contact cannot be made.
+They may be mutations with very short ranges, several millimeters, and a successful attack roll may be all that is needed to get within range.
+
+=== Duration
+The duration of a mutation almost always refers to the length of time that the mutation effects last.
+If the mutant has telekinetic flight, she can stay aloft for the duration of the mutation.
+Mutations usually require complete concentration on the part of the mutant.
+If a mutation obviously does not require complete concentration on the part of the mutant, then the concentration need not be maintained.
+Mutations that are always in constant use do not require a significant portion of the mutant's mental or physical resources.
+
+Mutations usually last so many units per point of MND, and they may also be affected by the persona's experience level.
+If a mutation has a duration of one until per MND, then the mutant can make the mutation last 12 units if she has a 12 MND.
+Other variations of duration exist, and they all function identically to the range variations discussed earlier, except that units replace hexes.
+Mutations with random durations are determined each time the mutation is employed.
+Such mutations indicate that the mutant has set in motion physical effects which she has no control over.
+
+==== Until Saves
+If the duration is "until saves," the mutant may continue the attack until the victim saves or is dead.
+
+==== Permanent
+When the duration says "permanent." it indicates that the effects won't dissipate on their own accord.
+For instance, permanent healing of HPS means that they will not disappear after a certain number of units, but it does not mean that the mutant has a cache of indestructible HPS.
+
+==== Constant
+Most mutations can be stopped whenever the mutant sees fit, except those mutations that have a "`constant`" duration or an "`until dead`" duration.
+These mutations will function until the mutant is dead or has the mutation excised.
+
+=== Frequency
+The frequency of the mutation indicates how often it can be used during a daily cycle of the mutant.
+The frequency assumes a 24 hour day (see Chapter 12: Time and Movement) where the mutant sleeps around eight hours each day.
+If the mutant is in a situation where there is no planetary rotation or one where there is no 24-hour cycle, a complete rest (eight hours`' sleep) will be equivalent to the completion of a daily cycle.
+
+Most mutations can be used several times a day, depending on the MND and level of the mutant.
+The more powerful the mutation, the less frequently it can be used each day.
+If the frequency of a mutation is one per four MND, a persona with a 12 MND could employ it three times each day and would have to rest eight hours before using it again.
+For this type of mutation, rest for the brain is essential.
+Unless otherwise stated, a mutation can be used at least once a day.
+This includes mutations which have very low frequencies (e.g.
+One per 13 MND).
+This mutation could be used once a day, even by a persona with an MND of six.
+
+Mutations that can be used more frequently are labelled "as needed" and just as the title states. 
+The mutant can use such a mutation as it is needed.
+"Constant" mutations are usually defects, and they constantly project their effects regardless of what the mutant is doing.
+Constant mutations always function whether the mutant is asleep or awake.
+
+Mutations cannot be stored.
+A mutant cannot use a mutation more often one day than the next because she saved some uses from the previous day.
+The mutant may use the mutation no more than the frequency states, and each use is cumulative until she rests.
+Mutations cannot be compounded to double an effect.
+The mutant can only use one mutation at a time unless one of the mutations has a "`constant`" or "`as needed`" frequency.
+
+The mutant has used a mutation whenever the effects start.
+Even if the target saves and the mutation has no effect, the mutation has been used.
+If the mutant voluntarily stops the mutation, then it has been used.
+If the mutant switches from one target to another, this will usually indicate another use.
+
 
 == Mutation Type
 
 include::wetware:partial$phenomic_list_all.adoc[]
 
-== Mutation Types
+== Mutation List
 
 === Acidic Enzymes 
 
@@ -63,6 +164,7 @@ If an attack harms the mutant, there is a chance that her body will adapt to the
 
 The mutant's Constitution and Intelligence determine if she will adapt to an attack. 
 
+[discrete]
 === Adaptation Chance
 .% chance = CON + INT + EXPS Level
 ****
@@ -120,7 +222,7 @@ The referee should play the mutation as an annoying inconvenience, with occasion
 It is also possible that nothing is nearby to be attracted to the mutant.
 Attracted personas usually show up when they will complicate things the most.  
 
-include::ROOT:partial$CH59_Table_Attraction_Odor.adoc[]
+include::hardware:partial$effected_persona_type.adoc[]
 
 === Arms 
 
@@ -143,12 +245,16 @@ Each extra arm has a penalty of -1 on the mutant's Dexterity attribute.
 A mutant with two extra arms and a 14 DEX would reduce her DEX to 12.
 This penalty is the same regardless of the location of the extra arm.
 
-include::ROOT:partial$CH59_Table_Extra_Arm_Location.adoc[]
+include::combat:partial$hit_location_snap.adoc[]
 
 Surgically removing the extra arms does not improve her confused Dexterity attribute.
 The mutation mental control over physical state will allow the mutant to control these autonomous arms.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
+
+
+
+=== Body Structure Change 
 
 :art: cubist_mutation_flesh_blob.png
 :width: 250px
@@ -156,11 +262,8 @@ include::ROOT:partial$a_defect_disclaimer.adoc[]
 :artist: Patrick Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of a human shaped like a box.
-
+:description: Humanoid parts shaped into  a cube.
 include::ROOT:partial$articulate.adoc[]
-
-=== Body Structure Change 
 
 [horizontal]
 Range:: Persona
@@ -226,7 +329,7 @@ The carapace will get thicker as the carapace table roll increases.
 
 A mutant cannot thin her carapace over time.
 
-include::ROOT:partial$CH59_Table_Carapace_Covering.adoc[]
+include::wetware:partial$phenomic_carapace.adoc[]
 
 === Chameleon 
 
@@ -334,10 +437,7 @@ Duration:: Until Dead
 Frequency:: Constant
 General Bonus:: Defect
 
-WARNING: Some of these mutations are actual challenges in our terra mundane world.
-The player should re-roll if this mutation causes duress for her.
-We are hear to have fun. 
-Don't be a jerk.  
+include::wetware:partial$a_defect_compassion.adoc[]
 
 Diminished senses are serious disabilities that the persona is challenged with.
 Effective gaming with a diminished sense defect should be rewarded with large amounts of experience points.
@@ -346,9 +446,9 @@ Cures, or replacement parts for the persona should be one of a priority of one o
 This mutation is a defect and does not count as a start up mutation.
 The player receives another roll on the Phenomic Mutation Table.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
-include::ROOT:partial$CH59_Table_Diminished_Sense.adoc[]
+include::wetware:partial$phenomic_diminished_sense.adoc[]
 
 Sixth::
 A diminished sixth sense prevents the mutant from connecting her consciousness to the Think Space.
@@ -430,7 +530,7 @@ This mutant heals twice as fast as other personas when recuperating.
 Most personas heal one hit point each day. 
 This mutant heals two hit points each day.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 === Edible Tissue 
 
@@ -519,9 +619,11 @@ If surgically removed, it will aggressively grow back in one to four (1-4) days.
 The growth has a CHA penalty of minus 0 to 3 (d4-1) points, but no other penalties can apply.
 If the fat cell accumulation is on the mutant's face, they will not suffer any AWE penalty or attack roll penalty.
 
-include::ROOT:partial$CH59_Table_Fat_Cell_Accumulation.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+NOTE: How did you get that hump? What hump?
+
+include::combat:partial$hit_location_anthro.adoc[]
 
 === Gas Generation 
 
@@ -542,7 +644,7 @@ The player can choose any noticeable cloud colour they like.
 This mutation cannot generate invisible or undetectable gas, and where the gas emits from is obvious.
 If you need a random xref:hardware:appearance.adoc#_colour_your_whirled[Colour,window=_blank].
 
-include::ROOT:partial$CH59_Table_Poison_Gas_Type.adoc[]
+include::wetware:partial$phenomic_gas_generation.adoc[]
 
 Death::
 This mutant releases a highly toxic green cloud of death.
@@ -637,7 +739,6 @@ Cold and cold-based attacks have their damage reduced for this mutant.
 The mutant's heat production counters the effect of cold attacks.
 Heat based attacks inflict typical damage on a mutant with heat generation.
 
-
 === Heightened Attribute 
 
 [horizontal]
@@ -649,7 +750,7 @@ General Bonus:: Special
 Heightened attribute pushes one of the mutant's physical dimensions into the stratosphere.
 This mutation transforms the mutant's body to reflect the heightened attribute.
 
-include::ROOT:partial$CH59_Table_Heightened_Attribute.adoc[]
+include::wetware:partial$phenomic_heightened_attribute.adoc[]
 
 Awareness::
 The Awareness attribute determines how well the mutant's consciousness interfaces with her environment.
@@ -727,7 +828,7 @@ General Bonus:: None
 Heightened vision adds an exotic vision type to the mutant's regular optical sensors.
 The mutant may switch between either vision type as needed.
 
-include::ROOT:partial$CH59_Table_Heightened_Vision.adoc[]
+include::wetware:partial$phenomic_heightened_vision.adoc[]
 
 Betty Davis::
 Betty Davis eyes will tease and unease personas around the mutant.
@@ -885,8 +986,7 @@ Targets with blurred vision suffer -200 on attack rolls, -200 on AR, +8DD task r
 :artist: Andrew Brechin
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of an obese human with a fridge built into his belly.
-
+:description: An obese humanoid with a fridge built into their belly.
 include::ROOT:partial$articulate.adoc[]
 
 === Mechanical Insertion 
@@ -928,8 +1028,7 @@ If a persona's mechanical insertion were a spaceship, a vehicle, a combot or an 
 :artist: Peggy Lynn MacIsaac
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of human with springs for legs and arms.
-
+:description: A humanoid with springs for legs and arms.
 include::ROOT:partial$articulate.adoc[]
 
 === Mechanical Prosthesis 
@@ -940,6 +1039,8 @@ Duration:: Until Removed
 Frequency:: Constant
 General Bonus:: Defect, Combat Ratio halved
 
+include::wetware:partial$a_defect_compassion.adoc[]
+
 Somewhere along the line, fate led to replacing one or more of the mutant's limbs with blatantly defective mechanical devices.
 Scraping metal levers and gears wind into the mutant's nerves and muscles.
 A prosthesis is subject to rust, and malfunctions, and breakdowns.
@@ -949,12 +1050,9 @@ The referee may check for malfunction monthly or when the prosthesis takes damag
 A prosthesis does not alter the mutant's WATE or attributes. 
 As much of a noisy hassle, the mechanical prosthesis represents it is better than no limb at all. 
 
-WARNING: Some of these mutations are actual challenges in our terra mundane world.
-The player should re-roll if this mutation causes duress.
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
-
-include::ROOT:partial$CH59_Table_Mechanical_Prosthesis_Type.adoc[]
+include::wetware:partial$phenomic_mechanical_prosthesis.adoc[]
 
 === Mitosis 
 
@@ -993,7 +1091,7 @@ Multiple body parts is a genetic phenomenon that can be helpful or harmful to th
 Some of the extra body parts will be entirely under the mutant's control.
 Some of the extra body parts are nothing but malformed cosmetic reproductions.
 
-include::ROOT:partial$CH59_Table_Multiple_Body_Parts.adoc[]
+include::wetware:partial$phenomic_multiple_parts.adoc[]
 
 Arms::
 The mutant has 1-4 (1d4) extra arms protruding from her torso.
@@ -1076,7 +1174,7 @@ This mutant has a specialized new organ that carries out some peculiar process.
 The new organ is not essential to the mutant's life.
 Unless specified otherwise, the mutations can be used as often as needed.
 
-include::ROOT:partial$CH59_Table_New_Organ_Type.adoc[]
+include::wetware:partial$phenomic_new_organ.adoc[]
 
 Air Producing::
 This enormous gland is located within the torso of the mutant and it digests food to produce oxygen and nitrogen.
@@ -1108,7 +1206,7 @@ The mutant will not not suffer damage from prolonged bleeding effects, nor will 
 The organ is very sensitive, and will not aggravate internal injuries by pumping liters of blood into the persona's abdomen or skull.
 The extra supply of blood keeps the persona from going into shock, easier to perform vet PT rolls on, and harder to knock unconscious.
 The player doubles her persona's hit points when making a DSS roll, loses half as many hit points per turn when comatose, and gives vets a +15 PT roll bonus when working on her.
-For more information about damage and healing refer to http://expgame.com/?page_id=267[Chapter 13: Health].
+For more information about damage and healing jump to xref:uncombat:health.adoc[Health,window=_blank].
 
 Electricity Storage::
 This mutant has an organic rechargeable battery as her new organ.
@@ -1206,6 +1304,8 @@ Duration:: Until Dead
 Frequency:: Constant
 General Bonus:: Defect
 
+include::wetware:partial$a_defect_compassion.adoc[]
+
 This mutant is subject to all diseases. 
 She has the pleasure of starting the campaign with one chronic non-terminal disease.
 No resistance to disease is not limited to infectious diseases.
@@ -1213,10 +1313,7 @@ All manner of illness, both real and imagined, afflict the mutant.
 Her Constitution works normally against poison, damage and injury, but offers no resistance to illness checks.
 Instead of using her CON attribute to fight disease the mutant uses a random value of 0 to 3 (d4-1).
 
-WARNING: Some of these mutations are actual challenges in our terra mundane world.
-The player should re-roll if this mutation causes duress.
-
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 === No Resistance To Poison 
 
@@ -1232,7 +1329,7 @@ Her Constitution works normally against illness, damage and injury, but offers n
 Instead of using her CON attribute to fight disease the mutant uses a random value of 0 to 3 (d4-1).
 Pharmaceuticals that are imbibed have double effect, but the chance of side effects are tripled.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 === Oversized Body Part
 
@@ -1247,7 +1344,7 @@ The oversized body part will challenge the mutant with clothing, armour, and soc
 Oversized body part is not a defect. 
 There is an associated benefit to the persona for their oversized body part.
 
-include::ROOT:partial$CH59_Table_Oversized_Body_Part.adoc[]
+include::wetware:partial$phenomic_oversized_part.adoc[]
 
 === Photosynthetic Skin 
 
@@ -1283,7 +1380,7 @@ The light produced is barely enough to read by, but it is enough to be easily se
 All but the most extreme efforts to contain the glow fail. 
 The mutant also registers as a radiation anomaly.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 === Pockets 
 
@@ -1464,7 +1561,7 @@ Removing the explosive by-product from the mutant's body will only have a tempor
 The mutant will return to self-destructive levels after one restful sleep.
 Surgery may also result in the accidental detonation of this mutation.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 === Shape Change 
 
@@ -1546,7 +1643,7 @@ So plated skin increases the base Defence Rating from 500 to 650.
 The impact is purely on Defence Rating, and the skin structure change offers not other special abilities.
 Often mutants with this mutation are averse to wearing armour out of pride or comfort
 
-include::ROOT:partial$CH59_Table_Skin_Structure_Change.adoc[]
+include::wetware:partial$phenomic_skin_change.adoc[]
 
 === Smoke Screen 
 
@@ -1621,7 +1718,7 @@ The player must win an attack roll on a specific target for the poison to take.
 If the attack roll is successful, the target still gets a poison roll to deflect the poison effect.
 These poisons are organic and do not affect inorganic targets like robots.
 
-include::ROOT:partial$CH59_Table_Poison_Type.adoc[]
+include::wetware:partial$phenomic_spit_poison.adoc[]
 
 Killing::
 Killing poison inflicts damage on the target, and with enough damage, the target can die.
@@ -1676,11 +1773,19 @@ Mutants with high Charisma will have organized inviting quills, but a mutant wit
 :artist: Peggy Lynn MacIsaac
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of humanoid with a horn on her forehead and tentacles holding weapons.
-
+:description: Humanoid with a horn on her forehead and tentacles holding weapons.
 include::ROOT:partial$articulate.adoc[]
 
 === Strange New Body Part
+
+:art: tentacle_horn_woman.png
+:width: 250px
+:snark: Tentacular!
+:artist: Peggy Lynn MacIsaac
+:date: 1991
+:license: CC BY-SA 4.0
+:description: Humanoid with a horn on her forehead and tentacles holding weapons.
+include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
 Range:: Persona Only
@@ -1693,7 +1798,7 @@ The strange new body part is not a defect.
 Some of the strange new body parts are only cosmetic.
 If the player has rolled a purely cosmetic mutation, she should get another roll on the phenomic mutation table.
 
-include::ROOT:partial$CH59_Table_Strange_New_Body_Part.adoc[]
+include::wetware:partial$phenomic_strange_new_part.adoc[]
 
 Antennae::
 The mutant has a pair of organic antennae sticking out of the top of her head.
@@ -1826,17 +1931,18 @@ If the mutant loses consciousness (not sleeping), the symbiote breaks free.
 If the target is more intelligent than the mutant, the target gets daily poison rolls to break free.
 If the target is less intelligent than the mutant, the target gets weekly poison rolls to break free.
 
+
+
+=== Tearaway Body Part
+
 :art: detachable_hands_eye.png
 :width: 250px
 :snark: An eye in both hands is worth...
 :artist: Patrick Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of a human woman with her eyes in her hands crawling away from her.
-
+:description: A humanoid holding her eyes in her hands, which are crawling away.
 include::ROOT:partial$articulate.adoc[]
-
-=== Tearaway Body Part
 
 [horizontal]
 Range:: 1h per Adjusted AWE
@@ -1867,14 +1973,16 @@ Duration:: Until Dead
 Frequency:: Constant
 General Bonus:: Defect
 
+include::wetware:partial$a_defect_compassion.adoc[]
+
 The undersized body part is completely obvious to any observer. 
 Even unintelligent flora and fauna may notice.
 There is no attribute penalty for having undersized body parts.
 The effect is cosmetic, and each part functions as expected.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
-include::ROOT:partial$CH59_Table_Undersized_Body_Part.adoc[]
+include::wetware:partial$phenomic_undersized_part.adoc[]
 
 === Vibrations 
 
@@ -1936,106 +2044,6 @@ Her flying movement rate cannot be less than 8 h/u.
 The wingspan of the mutant keeps her from flying within normal buildings.
 Wings require atmosphere to work.
 
-== Phenomic Mutation Attribute Explanations
-
-Each mutation, whether mental or physical, has certain properties that describe what it is and how it affects play.
-The attributes of each mutation are explained in the following paragraphs.
-Not only should the basic feature of a mutation be recorded, but the mutation number and the page number where the mutation can be found.
-
-=== Range
-The range of a mutation indicates how far away the effects of the mutation can be delivered to a target.
-Any exception to this meaning of mutation range will be specified in the mutation.
-Many mutations can affect targets hexes away;
-others require contact;
-and some have a radius of effect.
-Ranges are not devoted solely to offensive mutations, and even defensive mutations may be critically affected by range limits.
-
-The intensity of a mutation cannot be regulated, and neither can its area of effect.
-Only a single target mutation can be adjusted for different ranges from the persona.
-Mutations that have areas of effect will indiscriminately affect all targets in this area of effect.
-
-Nothing can stop a mutation which travels directly from one mind to another.
-ESP, gyrokinesis, and telekinesis can pass through any barrier if the mutant has positive proof that the target exists.
-Those mutations which manipulate the environment to attack a target, such as mental blast, or launch-able quills, are subject to terrain effects.
-
-==== Distance
-The most common is the ranged mutation.
-Ranged mutations can be directed at any target within the range of the mutant.
-The range is determined by the MND and EXPS level of the attacker.
-For example, a mutation may have a range of one hex @ MND.
-This means one hex per point of Mind and, with a 12 MND, a mutant could use the mutation 12 hexes away.
-There are variations to this common range format.
-Two hexes per MND would yield a 24 hex range with a 12 MND.
-One hex per four MND would yield a three hex range with a 12 MND.
-If the range includes MND and experience level, then the two are added.
-A fourth level persona with a 12 MND would have a 16 hex range with a mutation that was listed as one hex per (MND + level).
-
-==== Area of Effect
-Radius ranges are spherical and use the location hex of the persona for the centre.
-Thus a mutation with a ten hex radius of effect would contain all targets within ten hexes, including above and below the mutant.
-The area of effect would include everything in the 20 hex diameter sphere.
-
-==== Touch
-Touch mutations are self-explanatory.
-The mutant must touch the target to inflict the effects of the mutation, whether benevolent or not.
-The touch must be hand, paw or claw to skin, fur or scales.
-Some touch mutations can be conducted through material that would be considered conductive, like metal.
-Some touch mutations may still be effective if derma-to-derma contact cannot be made.
-They may be mutations with very short ranges, several millimeters, and a successful attack roll may be all that is needed to get within range.
-
-=== Duration
-The duration of a mutation almost always refers to the length of time that the mutation effects last.
-If the mutant has telekinetic flight, she can stay aloft for the duration of the mutation.
-Mutations usually require complete concentration on the part of the mutant.
-If a mutation obviously does not require complete concentration on the part of the mutant, then the concentration need not be maintained.
-Mutations that are always in constant use do not require a significant portion of the mutant's mental or physical resources.
-
-Mutations usually last so many units per point of MND, and they may also be affected by the persona's experience level.
-If a mutation has a duration of one until per MND, then the mutant can make the mutation last 12 units if she has a 12 MND.
-Other variations of duration exist, and they all function identically to the range variations discussed earlier, except that units replace hexes.
-Mutations with random durations are determined each time the mutation is employed.
-Such mutations indicate that the mutant has set in motion physical effects which she has no control over.
-
-==== Until Saves
-If the duration is "until saves," the mutant may continue the attack until the victim saves or is dead.
-
-==== Permanent
-When the duration says "permanent." it indicates that the effects won't dissipate on their own accord.
-For instance, permanent healing of HPS means that they will not disappear after a certain number of units, but it does not mean that the mutant has a cache of indestructible HPS.
-
-==== Constant
-Most mutations can be stopped whenever the mutant sees fit, except those mutations that have a "`constant`" duration or an "`until dead`" duration.
-These mutations will function until the mutant is dead or has the mutation excised.
-
-=== Frequency
-The frequency of the mutation indicates how often it can be used during a daily cycle of the mutant.
-The frequency assumes a 24 hour day (see Chapter 12: Time and Movement) where the mutant sleeps around eight hours each day.
-If the mutant is in a situation where there is no planetary rotation or one where there is no 24-hour cycle, a complete rest (eight hours`' sleep) will be equivalent to the completion of a daily cycle.
-
-Most mutations can be used several times a day, depending on the MND and level of the mutant.
-The more powerful the mutation, the less frequently it can be used each day.
-If the frequency of a mutation is one per four MND, a persona with a 12 MND could employ it three times each day and would have to rest eight hours before using it again.
-For this type of mutation, rest for the brain is essential.
-Unless otherwise stated, a mutation can be used at least once a day.
-This includes mutations which have very low frequencies (e.g.
-One per 13 MND).
-This mutation could be used once a day, even by a persona with an MND of six.
-
-Mutations that can be used more frequently are labelled "as needed" and just as the title states. 
-The mutant can use such a mutation as it is needed.
-"Constant" mutations are usually defects, and they constantly project their effects regardless of what the mutant is doing.
-Constant mutations always function whether the mutant is asleep or awake.
-
-Mutations cannot be stored.
-A mutant cannot use a mutation more often one day than the next because she saved some uses from the previous day.
-The mutant may use the mutation no more than the frequency states, and each use is cumulative until she rests.
-Mutations cannot be compounded to double an effect.
-The mutant can only use one mutation at a time unless one of the mutations has a "`constant`" or "`as needed`" frequency.
-
-The mutant has used a mutation whenever the effects start.
-Even if the target saves and the mutation has no effect, the mutation has been used.
-If the mutant voluntarily stops the mutation, then it has been used.
-If the mutant switches from one target to another, this will usually indicate another use.
 
 === General Bonus
 The general bonus listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
@@ -2062,7 +2070,7 @@ Here is where you unleash genetic curiosity.
 
 include::wetware:partial$phenomic_list_uncombat.adoc[]
 
-=== Defect Mutations
+=== Defective Mutations
 Nature, pharma, or side effect. 
 Here is where you unleash biomagical tragedy.
 

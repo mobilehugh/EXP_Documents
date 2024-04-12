@@ -14,8 +14,113 @@ The attribute that powers psionic mutations is Mind.
 . <<_generate_type,Any Psionic Mutation>>
 .. <<_no_defects,No Defects (start up)>>
 .. <<_combat_mutations,Combat Mutations>>
-.. <<_non_combat_mutations,Non Combat Mutations>>
+.. <<_uncombat_mutations,Non Combat Mutations>>
 .. <<_defective_mutations,Defective Mutations>>
+
+== Parameters
+Each mutation has certain properties that describe what it is and how it affects play.
+The attributes of each mutation are explained in the following paragraphs.
+Not only should the basic feature of a mutation be recorded, but the mutation number and the page number where the mutation can be found.
+
+=== Range
+The range of a mutation indicates how far away the effects of the mutation can be delivered to a target.
+Any exception to this meaning of mutation range will be specified in the mutation.
+Many mutations can affect targets hexes away;
+others require contact;
+and some have a radius of effect.
+Ranges are not devoted solely to offensive mutations, and even defensive mutations may be critically affected by range limits.
+
+The intensity of a mutation cannot be regulated, and neither can its area of effect.
+Only a single target mutation can be adjusted for different ranges from the persona.
+Mutations that have areas of effect will indiscriminately affect all targets in this area of effect.
+
+Nothing can stop a mutation which travels directly from one mind to another.
+ESP, gyrokinesis, and telekinesis can pass through any barrier if the mutant has positive proof that the target exists.
+Those mutations which manipulate the environment to attack a target, such as mental blast, or launch-able quills, are subject to terrain effects.
+
+==== Distance
+The most common is the ranged mutation.
+Ranged mutations can be directed at any target within the range of the mutant.
+The range is determined by the MND and EXPS level of the attacker.
+For example, a mutation may have a range of one hex @ MND.
+This means one hex per point of Mind and, with a 12 MND, a mutant could use the mutation 12 hexes away.
+There are variations to this common range format.
+Two hexes per MND would yield a 24 hex range with a 12 MND.
+One hex per four MND would yield a three hex range with a 12 MND.
+If the range includes MND and experience level, then the two are added.
+A fourth level persona with a 12 MND would have a 16 hex range with a mutation that was listed as one hex per (MND + level).
+
+==== Area of Effect
+Radius ranges are spherical and use the location hex of the persona for the centre.
+Thus a mutation with a ten hex radius of effect would contain all targets within ten hexes, including above and below the mutant.
+The area of effect would include everything in the 20 hex diameter sphere.
+
+==== Touch
+Touch mutations are self-explanatory.
+The mutant must touch the target to inflict the effects of the mutation, whether benevolent or not.
+The touch must be hand, paw or claw to skin, fur or scales.
+Some touch mutations can be conducted through material that would be considered conductive, like metal.
+Some touch mutations may still be effective if derma-to-derma contact cannot be made.
+They may be mutations with very short ranges, several millimetres, and a successful attack roll may be all that is needed to get within range.
+
+=== Duration
+The duration of a mutation almost always refers to the length of time that the mutation effects last.
+If the mutant has telekinetic flight, she can stay aloft for the duration of the mutation.
+Mutations usually require complete concentration on the part of the mutant.
+If a mutation obviously does not require complete concentration on the part of the mutant, then the concentration need not be maintained.
+Mutations that are always in constant use do not require a significant portion of the mutant's mental or physical resources.
+
+Mutations usually last so many units per point of MND, and they may also be affected by the persona's experience level.
+If a mutation has a duration of one until per MND, then the mutant can make the mutation last 12 units if she has a 12 MND.
+Other variations of duration exist, and they all function identically to the range variations discussed earlier, except that units replace hexes.
+Mutations with random durations are determined each time the mutation is employed.
+Such mutations indicate that the mutant has set in motion physical effects which she has no control over.
+
+==== Until Saves
+If the duration is "until saves," the mutant may continue the attack until the victim saves or is dead.
+
+==== Permanent
+When the duration says "permanent." it indicates that the effects won't dissipate on their own accord.
+For instance, permanent healing of HPS means that they will not disappear after a certain number of units, but it does not mean that the mutant has a cache of indestructible HPS.
+
+==== Constant
+Most mutations can be stopped whenever the mutant sees fit, except those mutations that have a "`constant`" duration or an "`until dead`" duration.
+These mutations will function until the mutant is dead or has the mutation excised.
+
+=== Frequency
+The frequency of the mutation indicates how often it can be used during a daily cycle of the mutant.
+The frequency assumes a 24 hour day (see Chapter 12: Time and Movement) where the mutant sleeps around eight hours each day.
+If the mutant is in a situation where there is no planetary rotation or one where there is no 24-hour cycle, a complete rest (eight hours`' sleep) will be equivalent to the completion of a daily cycle.
+
+Most mutations can be used several times a day, depending on the MND and level of the mutant.
+The more powerful the mutation, the less frequently it can be used each day.
+If the frequency of a mutation is one per four MND, a persona with a 12 MND could employ it three times each day and would have to rest eight hours before using it again.
+For this type of mutation, rest for the brain is essential.
+Unless otherwise stated, a mutation can be used at least once a day.
+This includes mutations which have very low frequencies (e.g.
+One per 13 MND).
+This mutation could be used once a day, even by a persona with an MND of six.
+
+Mutations that can be used more frequently are labelled "as needed" and just as the title states. 
+The mutant can use such a mutation as it is needed.
+"Constant" mutations are usually defects, and they constantly project their effects regardless of what the mutant is doing.
+Constant mutations always function whether the mutant is asleep or awake.
+
+Mutations cannot be stored.
+A mutant cannot use a mutation more often one day than the next because she saved some uses from the previous day.
+The mutant may use the mutation no more than the frequency states, and each use is cumulative until she rests.
+Mutations cannot be compounded to double an effect.
+The mutant can only use one mutation at a time unless one of the mutations has a "`constant`" or "`as needed`" frequency.
+
+The mutant has used a mutation whenever the effects start.
+Even if the target saves and the mutation has no effect, the mutation has been used.
+If the mutant voluntarily stops the mutation, then it has been used.
+If the mutant switches from one target to another, this will usually indicate another use.
+
+=== General Bonus
+The general bonus listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
+The mutation may indicate a bonus for maneuver rolls, attribute rolls or negotiation rolls.
+Any simple effect that the mutation has on the dice rolling of the persona should be included beside the general bonus listing.
 
 
 == Generate Type
@@ -43,7 +148,7 @@ Absorption cannot be used to gain HPS.
 
 For combined attacks the players may need consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank].
 
-include::ROOT:partial$CH58_Table_Absorption_Type.adoc[]
+include::wetware:partial$psionic_absorption.adoc[]
 
 === Alternate Banishment
 
@@ -304,7 +409,7 @@ For example, a persona with 14 AWE has a 42% chance of finding safe water.
 The water must be within range, and the search will last about 1-12 (1d12) minutes. 
 This mutation will also send personas in the correct general direction of the water. 
 
-include::ROOT:partial$CH58_Table_Detection_Type.adoc[]
+include::wetware:partial$psionic_detections.adoc[]
 
 === Directional Sense 
 
@@ -376,7 +481,7 @@ The fusion gun is specifically not attracted by this mutation.
 Energy attraction turns off if the mutant is unconscious or sleeping.
 Directly attacking this mutant with an energy weapon does not improve the attack roll. 
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 === Extrasensory Perception 
 
@@ -426,17 +531,18 @@ The referee may just ask a player what their persona is thinking.
 The mutant may or may not have nefarious intent with the information. 
 This kind of power is what leads to a general mistrust of psionic mutation powers.
 
+
+
+=== Force Field Generation 
+
 :art: force_field_crash.png
 :width: 250px
 :snark: Insurance nightmare
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of car crashing around a pedestrian protected an invisible shiled.
-
+:description: Vehicle crashing around a pedestrian protected an invisible shield.
 include::ROOT:partial$articulate.adoc[]
-
-=== Force Field Generation 
 
 [horizontal]
 Range:: Persona Only
@@ -593,7 +699,12 @@ Negotiations go poorly.
 Family dinners were cancelled long ago.
 Mutants with this defect are often isolated and surrounded by inorganic personas.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
+
+
+
+
+=== Illusion Generation 
 
 :art: illusion_generation_maybe.png
 :width: 250px
@@ -601,12 +712,8 @@ include::ROOT:partial$a_defect_disclaimer.adoc[]
 :artist: Peggy Lynn MacIsaac
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of woman in library confused by images of fairgrounds.
-
+:description: Humanoid in a library confused by images of fairgrounds.
 include::ROOT:partial$articulate.adoc[]
-
-
-=== Illusion Generation 
 
 [horizontal]
 Range:: 5h per Adjusted MND
@@ -636,7 +743,7 @@ Illusions are affected by their complexity and believability.
 The more complex the illusion, the more energy the mutant expends to maintain it.
 A full-featured audio, visual, somatic, and olfactory illusion will have a short duration.
 
-include::ROOT:partial$CH58_Table_Duration_of_Illusion.adoc[]
+include::wetware:partial$psionic_illusion_duration.adoc[]
 
 The less believable the illusion, the less likely it is to work.
 Smells, sounds and fleeting images are believable, and the target may succumb to them without getting a psionic roll.
@@ -668,7 +775,7 @@ This mutation only works on organic personas.
 The more critical the memory, the harder it is to eradicate it.
 The more critical the memory, the shorter the time it is eradicated.
 
-include::ROOT:partial$CH58_Table_Memory_Importance_and_Eradication.adoc[]
+include::wetware:partial$psionic_information_eradication.adoc[]
 
 If necessary, the referee can randomly determine how valuable memory is to the target persona.
 The importance of a memory can be determined by a 1d8 roll.
@@ -920,19 +1027,20 @@ The mutant can use magnetic control to attract herself to a large metallic objec
 This is done at the discretion of the mutant. 
 Smaller objects will still be drawn towards. 
 
-:art: babooshka_head_maze.png
-:width: 250px
-:snark: Teamwork in one consciouness
-:artist: Studiostoks
-:date: 2015
-:license: Copyright Studiostoks
-:description: Drawing of man with many heads inside his head.
 
-include::ROOT:partial$articulate.adoc[]
 
 
 
 === Mass Mind 
+
+:art: babooshka_head_maze.png
+:width: 250px
+:snark: Teamwork in one consciousness
+:artist: Studiostoks
+:date: 2015
+:license: Copyright Studiostoks
+:description: Humanoid with many heads inside their head.
+include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -967,17 +1075,18 @@ This mutation is fraught with complicated interactions.
 If the mass mind doubles the range of death field generation, does it affect the mutant?
 If intense discussions arise remember that xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank] can help answer the unanswerable. 
 
+
+
+=== Mechanical Sense 
+
 :art: mechanical_medical_desat.png
 :width: 250px
 :snark: Heart beats not by dre
 :artist: Studiostoks
 :date: 2015
 :license: Copyright by Studiostoks
-:description: Drawing of mechanical heart surrounded by pair of headphones.
-
+:description: Mechanical heart surrounded by pair of headphones.
 include::ROOT:partial$articulate.adoc[]
-
-=== Mechanical Sense 
 
 [horizontal]
 Range:: Persona Only
@@ -1094,7 +1203,7 @@ Mental control checks are warranted if the mutant places the target in peril.
 Mentally controlled targets are not suicidal, and their survival mechanisms will challenge self-harm.
 The player should also remember that harming the target can also damage the mutant.
 
-include::ROOT:partial$CH58_Table_Mental_Control_Checks.adoc[]
+include::wetware:partial$psionic_mental_control.adoc[]
 
 Targets do not like to be mentally controlled, but dependence is possible.
 The mutant can dismiss a target from mental control only if the target wins her psionic roll.
@@ -1152,7 +1261,7 @@ The mutant's Mind is not zero.
 The mutant still has a Mind for her other psionic mutations, vocations, or will power checks.
 However, when she is subject to a psionic attack, her effective MND is zero.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 === Molecular Disruption 
 
@@ -1218,18 +1327,19 @@ However the next unit the alien makes its saving throw, and the mutant gets no b
 If the mutant were a biologist and were trying to make an identification on the alien she would automatically add 10 to her PT roll.
 If the alien failed her saving throw again, the mutant biologist would get to add her AWE to the PT roll also, for a total PT roll bonus of 24.
 
+
+
+
+=== Molecular Phase Transformation
+
 :art: melting_woman_gutter.png
 :width: 250px
 :snark: Melting into the background
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of human woman half turned into water escaping down drain.
-
+:description: Humanoid half turned into liquid state escaping down drain.
 include::ROOT:partial$articulate.adoc[]
-
-
-=== Molecular Phase Transformation
 
 [horizontal]
 Range:: Persona Only
@@ -1384,7 +1494,10 @@ Any target 35kg or less will totally transmute if they fail a psionic roll.
 A partially transmuted target has a chance to convert to total transmutation.
 The more damage inflicted, the more likely the target will convert to total transmutation and avoid injury.
 
-//table dropped in version 6.0
+
+
+
+=== Muscle Manipulation 
 
 :art: muscle_manipulation_otters.png
 :width: 250px
@@ -1392,11 +1505,8 @@ The more damage inflicted, the more likely the target will convert to total tran
 :artist: Patrick Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of two humanoid otters where one is making the other punch himself in the snout.
-
+:description: Two humanoid otters where one is making the other punch himself in the snout.
 include::ROOT:partial$articulate.adoc[]
-
-=== Muscle Manipulation 
 
 [horizontal]
 Range:: 4h per Adjusted MND
@@ -1434,9 +1544,6 @@ The target must win a psionic roll or die from the attack.
 Both central and peripheral muscle manipulations can be carried on dying or recently dead personas.
 For example, a recently dead persona could posthumously raise its offensive middle talon. 
 The mutant could keep the heart of a dead persona beating with muscle manipulation.
-
-
-// table dropped in version 6.0
 
 
 === Neuronegation 
@@ -1502,19 +1609,16 @@ She can avoid bullets, area of effect weapons, poison gas, fall damage and radia
 Phase is a profoundly effective defensive mutation. 
 Phase does not protect the mutant from purely psionic psionic mutation attacks.
 
+=== Planal Hideaway 
+
 :art: planal_hideaway_bomb_slug.png
 :width: 250px
 :snark: I am getting into out of here
 :artist: Unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of a humanoid slug escaping a nuclear device by jumping through a door in space and time.
-
+:description: A humanoid slug escaping a nuclear device by jumping through a door in space and time.
 include::ROOT:partial$articulate.adoc[]
-
-
-
-=== Planal Hideaway 
 
 [horizontal]
 Range:: Special
@@ -1634,17 +1738,16 @@ This mutation is the perfect psionic refrigerator.
 The holdaway will involuntarily open if the mutant dies or is unconscious and dying.
 The items fall 1 hex to the ground in a clattering mess.
 
+=== Polar Disruption 
+
 :art: magnetic_control_minivan.png
 :width: 250px
 :snark: Chasing a moving car
 :artist: Patrick Redding
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of humanoid fish being magnetically dragged away by a minivan.
-
+:description: Humanoid fish being magnetically dragged away by a minivan.
 include::ROOT:partial$articulate.adoc[]
-
-=== Polar Disruption 
 
 [horizontal]
 Range:: 1h per 20kg Wate
@@ -1676,8 +1779,7 @@ In an attracting polar disruption, items immediately fly at the mutant and gentl
 In a repulsing polar disruption, items fly away from the mutant and land outside the range of attack.
 Neither the mutant nor the items are damaged when things start flying around. 
 
-
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
 
 === Power Drain 
@@ -1762,7 +1864,7 @@ To remain within the radius of effect the persona must win a psionic roll.
 This roll must be won by fellow expedition members and attacking aliens as well.
 The protective shell does not make the  is not 
 
-include::ROOT:partial$CH58_Table_Protective_Shell.adoc[]
+include::hardware:partial$effected_persona_type.adoc[]
 
 === Psionic Defence 
 
@@ -1921,7 +2023,10 @@ The mutant can cause deafness, blindness, or a loss of tactile and olfactory sen
 The more critical the sensation, the more likely the target will win the psionic roll. 
 Removing the sensation of pain can benefit the target in certain circumstances. 
 
-include::ROOT:partial$CH58_Table_Sensory_Deprivation_Effect.adoc[]
+include::wetware:partial$psionic_sensory_deprivation.adoc[]
+
+
+=== Sociability Field Generation 
 
 :art: sociability_field_cop_cat.png
 :width: 250px
@@ -1929,12 +2034,8 @@ include::ROOT:partial$CH58_Table_Sensory_Deprivation_Effect.adoc[]
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of two humans in police armour visibly smitten by woman in sunglasses.
-
+:description: Humanoids in police armour visibly smitten by humanoid in sunglasses.
 include::ROOT:partial$articulate.adoc[]
-
-
-=== Sociability Field Generation 
 
 [horizontal]
 Range:: 1/2h per EXPS Level
@@ -2001,7 +2102,7 @@ This mutation damages both organic and inorganic audio sensors.
 Targets do not get a psionic roll versus this attack.
 The amount of damage delivered depends on how far the target is from the mutant.
 
-include::ROOT:partial$CH59_Table_Sonic_Attack_Volume.adoc[]
+include::wetware:partial$psionic_sonic_attack.adoc[]
 
 .*6h Range Example*
 * 0h to 1h = 4-32
@@ -2165,7 +2266,7 @@ The mutant can hover, skim along the ground, or soar high into the air.
 
 Telekinetic flight works in any milieu except underwater. 
 Neither gravity nor atmosphere is necessary for telekinetic flight.
-The mutant cannot carry too much equipment when telekinetically flying.
+The mutant cannot carry much when telekinetically flying.
 Using the xref:uncombat:encumbrance.adoc#_encumbrance_levels[Encumbrance,window=_blank] rules the mutant must be un-encumbered.
 If she is carrying too much junk, telekinetic flight does not work.
 
@@ -2174,8 +2275,6 @@ The mutant uses her MND instead of her DEX on the xref:anthros:movement_rate.ado
 A persona with a 12 MND could telekinetically fly at 15 h/u.
 There is no official limit to the speed of telekinetic flight.
 However, extreme speeds may exceed the tolerances of the mutant's body.
-
-// todo correct telekinetic flight too fucking fast
 
 === Telempathy 
 
@@ -2231,7 +2330,7 @@ The referee may offer more teleports per day with higher chances of failure.
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
-include::ROOT:partial$CH58_Table_Teleportation_Failure_Effect.adoc[]
+include::wetware:partial$psionic_teleportation_fail.adoc[]
 
 === Thought Imitation 
 
@@ -2410,6 +2509,7 @@ When startled, every weapon within range of the mutant's defect is checked for a
 If there are no stressors on the mutant, the referee may make one random check per day.
 Due to life experience, mutants with weapon discharging tend to avoid trigger weapons.
 
+[discrete]
 === Chance of weapon discharge
 .1/2 percent per MND - EXPS Level 
 ****
@@ -2422,9 +2522,13 @@ The referee may have non-life-threatening devices turn on at any time.
 Weapon's discharging will turn on televids, stereos, vehicle ignitions without notice.
 If the accidental activation is life-threatening, the referee must use her once a day check.
 
-include::ROOT:partial$a_defect_disclaimer.adoc[]
+include::wetware:partial$a_defect_disclaimer.adoc[]
 
-include::ROOT:partial$CH58_Table_Direction_of_Weapon_Discharge.adoc[]
+
+[discrete]
+=== Direction Helpers
+
+include::wetware:partial$psionic_weapon_discharge.adoc[]
 
 :art: Figure_grenade_miss_direction_d12.png
 :width: 250px
@@ -2433,8 +2537,6 @@ include::ROOT:partial$CH58_Table_Direction_of_Weapon_Discharge.adoc[]
 :date: 2010
 :license: CC BY-SA 4.0
 :description: Diagram of grenade miss direction using a hexagon sheet.
-
-.*Alternative Random Direction*
 include::ROOT:partial$articulate.adoc[]
 
 === Weather Tell 
@@ -2452,113 +2554,9 @@ In addition to the accurate weather report, this mutation also predicts underwat
 The mutant can give same day readings with 100% accuracy.
 The chance of correctly forecasting events decreases by 5% for every day in the future.
 
-== Psionic Mutation Attribute Explanations
-Each mutation, whether mental or physical, has certain properties that describe what it is and how it affects play.
-The attributes of each mutation are explained in the following paragraphs.
-Not only should the basic feature of a mutation be recorded, but the mutation number and the page number where the mutation can be found.
-
-=== Range
-The range of a mutation indicates how far away the effects of the mutation can be delivered to a target.
-Any exception to this meaning of mutation range will be specified in the mutation.
-Many mutations can affect targets hexes away;
-others require contact;
-and some have a radius of effect.
-Ranges are not devoted solely to offensive mutations, and even defensive mutations may be critically affected by range limits.
-
-The intensity of a mutation cannot be regulated, and neither can its area of effect.
-Only a single target mutation can be adjusted for different ranges from the persona.
-Mutations that have areas of effect will indiscriminately affect all targets in this area of effect.
-
-Nothing can stop a mutation which travels directly from one mind to another.
-ESP, gyrokinesis, and telekinesis can pass through any barrier if the mutant has positive proof that the target exists.
-Those mutations which manipulate the environment to attack a target, such as mental blast, or launch-able quills, are subject to terrain effects.
-
-==== Distance
-The most common is the ranged mutation.
-Ranged mutations can be directed at any target within the range of the mutant.
-The range is determined by the MND and EXPS level of the attacker.
-For example, a mutation may have a range of one hex @ MND.
-This means one hex per point of Mind and, with a 12 MND, a mutant could use the mutation 12 hexes away.
-There are variations to this common range format.
-Two hexes per MND would yield a 24 hex range with a 12 MND.
-One hex per four MND would yield a three hex range with a 12 MND.
-If the range includes MND and experience level, then the two are added.
-A fourth level persona with a 12 MND would have a 16 hex range with a mutation that was listed as one hex per (MND + level).
-
-==== Area of Effect
-Radius ranges are spherical and use the location hex of the persona for the centre.
-Thus a mutation with a ten hex radius of effect would contain all targets within ten hexes, including above and below the mutant.
-The area of effect would include everything in the 20 hex diameter sphere.
-
-==== Touch
-Touch mutations are self-explanatory.
-The mutant must touch the target to inflict the effects of the mutation, whether benevolent or not.
-The touch must be hand, paw or claw to skin, fur or scales.
-Some touch mutations can be conducted through material that would be considered conductive, like metal.
-Some touch mutations may still be effective if derma-to-derma contact cannot be made.
-They may be mutations with very short ranges, several millimetres, and a successful attack roll may be all that is needed to get within range.
-
-=== Duration
-The duration of a mutation almost always refers to the length of time that the mutation effects last.
-If the mutant has telekinetic flight, she can stay aloft for the duration of the mutation.
-Mutations usually require complete concentration on the part of the mutant.
-If a mutation obviously does not require complete concentration on the part of the mutant, then the concentration need not be maintained.
-Mutations that are always in constant use do not require a significant portion of the mutant's mental or physical resources.
-
-Mutations usually last so many units per point of MND, and they may also be affected by the persona's experience level.
-If a mutation has a duration of one until per MND, then the mutant can make the mutation last 12 units if she has a 12 MND.
-Other variations of duration exist, and they all function identically to the range variations discussed earlier, except that units replace hexes.
-Mutations with random durations are determined each time the mutation is employed.
-Such mutations indicate that the mutant has set in motion physical effects which she has no control over.
-
-==== Until Saves
-If the duration is "until saves," the mutant may continue the attack until the victim saves or is dead.
-
-==== Permanent
-When the duration says "permanent." it indicates that the effects won't dissipate on their own accord.
-For instance, permanent healing of HPS means that they will not disappear after a certain number of units, but it does not mean that the mutant has a cache of indestructible HPS.
-
-==== Constant
-Most mutations can be stopped whenever the mutant sees fit, except those mutations that have a "`constant`" duration or an "`until dead`" duration.
-These mutations will function until the mutant is dead or has the mutation excised.
-
-=== Frequency
-The frequency of the mutation indicates how often it can be used during a daily cycle of the mutant.
-The frequency assumes a 24 hour day (see Chapter 12: Time and Movement) where the mutant sleeps around eight hours each day.
-If the mutant is in a situation where there is no planetary rotation or one where there is no 24-hour cycle, a complete rest (eight hours`' sleep) will be equivalent to the completion of a daily cycle.
-
-Most mutations can be used several times a day, depending on the MND and level of the mutant.
-The more powerful the mutation, the less frequently it can be used each day.
-If the frequency of a mutation is one per four MND, a persona with a 12 MND could employ it three times each day and would have to rest eight hours before using it again.
-For this type of mutation, rest for the brain is essential.
-Unless otherwise stated, a mutation can be used at least once a day.
-This includes mutations which have very low frequencies (e.g.
-One per 13 MND).
-This mutation could be used once a day, even by a persona with an MND of six.
-
-Mutations that can be used more frequently are labelled "as needed" and just as the title states. 
-The mutant can use such a mutation as it is needed.
-"Constant" mutations are usually defects, and they constantly project their effects regardless of what the mutant is doing.
-Constant mutations always function whether the mutant is asleep or awake.
-
-Mutations cannot be stored.
-A mutant cannot use a mutation more often one day than the next because she saved some uses from the previous day.
-The mutant may use the mutation no more than the frequency states, and each use is cumulative until she rests.
-Mutations cannot be compounded to double an effect.
-The mutant can only use one mutation at a time unless one of the mutations has a "`constant`" or "`as needed`" frequency.
-
-The mutant has used a mutation whenever the effects start.
-Even if the target saves and the mutation has no effect, the mutation has been used.
-If the mutant voluntarily stops the mutation, then it has been used.
-If the mutant switches from one target to another, this will usually indicate another use.
-
-=== General Bonus
-The general bonus listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
-The mutation may indicate a bonus for maneuver rolls, attribute rolls or negotiation rolls.
-Any simple effect that the mutation has on the dice rolling of the persona should be included beside the general bonus listing.
 
 
-== Mutation Sub Tables
+== Sub Tables
 When you quickly need a specific type of mutation
 
 === No Defects
