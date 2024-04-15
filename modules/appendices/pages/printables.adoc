@@ -26,48 +26,44 @@ Not only does this stay in EXP's docs as code goals, but allows players to style
 All the tools are free and open source.
 
 
-== Persona Record Sheets
-A collection of PDFs that are used to keep track of personas with pencil and paper.
+== Record Sheets
+A collection of PDFs that are used to keep track of personas, and stuff, with pencil and paper.
+Download, print and play.
 We don't need to kill a tree.
 Try the open source PDF tool https://xournalpp.github.io/[Xournal].
-Download, print and play.
 
-// Table Download for Print
 .*Persona Records*
-[width="85%",cols="<5,^2,^2",frame="all", stripes="even"]
+[width="85%",cols="<2,<3",frame="all", stripes="even"]
 |===
-3+<|PDF persona record sheets. Yes it is lonely right now. 
+2+<|PDF record sheets. A way to record personas, toys and less.
+
 s|Printable
-s|Type
-s|Size
+s|Comment
 
-|xref:ROOT:attachment$anthro_record_v7.pdf[Anthro Record v7]
-|PDF
-|74k
+2+^|Player Persona Records
 
-|xref:ROOT:attachment$alien_record_v7.pdf[Alien Record v7]
-|PDF
-|98k
+|xref:ROOT:attachment$anthro_record_v7.pdf[anthro_record_v7.pdf]
+|Latest PDF for player persona record
 
-|xref:ROOT:attachment$robot_record_v7.pdf[Robot Record v7]
-|PDF
-|123k
+|xref:ROOT:attachment$alien_record_v7.pdf[alien_record_v7.pdf]
+|Latest PDF for player persona record
 
-3+^|Support PDFs
+|xref:ROOT:attachment$robot_record_v7.pdf[robot_record_v7.pdf]
+|Latest PDF for player persona record
 
-|xref:ROOT:attachment$campaign_sheet_v7.pdf[Campaign Record v7]
-|PDF
-|30k
+2+^|Support PDFs
 
-|xref:ROOT:attachment$4d2_mechanic_v61.pdf[4D2 Mechanic v6.1]
-|PDF
-|177k
+|xref:ROOT:attachment$campaign_sheet_v7.pdf[campaign_sheet_v7.pdf]
+|PDF page for keeping campaign notes off of persona record
+
+|xref:ROOT:attachment$4d2_mechanic_v61.pdf[4d2_mechanic_v61.pdf]
+|One pager for 4D2 Roll Playing system
 
 
 s|Printable
-s|Type
-s|Size
-3+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
+s|Comment
+
+2+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
 |===
 
 == Build Your Own 
@@ -77,74 +73,63 @@ The ADOC files correspond with the PDF of the same name.
 The pdf_theme.yml will be needed for styling, and SVGs decompressed from the zip.
 
 .*Support Files*
-[width="85%",cols="<5,^2,^2",frame="all", stripes="even"]
+[width="85%",cols="<2,<3",frame="all", stripes="even"]
 |===
-3+<|Mostly PDFs. Some relevant. Some historical.
-s|Printable
-s|Type
-s|Size
+2+<|Files needed to build the PDFs found above. 
 
-|xref:ROOT:attachment$theme.yml[theme for PDF]
-|YML
-|600b
+s|File Name
+s|Comment
 
-|xref:ROOT:attachment$svg.zip[SVGs for PDF]
-|SVGs
-|1.6k
+|xref:ROOT:attachment$theme.yml[theme.yml]
+|Config css for asciidoc-pdf
 
-|xref:ROOT:attachment$anthro_record_v7.adoc[Anthro Record v7 Code]
-|ADOC
-|6k
+|xref:ROOT:attachment$svg.zip[svg.zip]
+|Zip of SVGs needed for asciidoc-pdf
 
-|xref:ROOT:attachment$alien_record_v7.adoc[Alien Record v7 Code]
-|ADOC
-|7k
+|xref:ROOT:attachment$anthro_record_v7.adoc[anthro_record_v7.adoc]
+|asciidoc file to make PDF from asciidoc-pdf
+
+|xref:ROOT:attachment$alien_record_v7.adoc[alien_record_v7.adoc]
+|asciidoc file to make PDF from asciidoc-pdf
 
 |xref:ROOT:attachment$campaign_sheet_v7[Campaign Sheet v7 Code]
-|ADOC
-|3k
+|asciidoc file to make PDF from asciidoc-pdf
 
-s|Printable
-s|Type
-s|Size
-3+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
+s|File Name
+s|Comment
+
+2+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
 |===
 
 == Historical
 Things from the past that may be useful. 
 For example, using persona record sheets from v5 (2010) that are missing in v7. 
 
-.*Historical Downloads*
-[width="85%",cols="<5,^2,^2",frame="all", stripes="even"]
+.*Historical Files*
+[width="85%",cols="<2,<3",frame="all", stripes="even"]
 |===
-3+<|Mostly PDFs. Some relevant. Some historical.
-s|Printable
-s|Type
-s|Size
+2+<|Some PDFs. Some relevant. Some historical. 
 
-|xref:ROOT:attachment$exp_game_v401.pdf[EXP Game v4.01 (1993)]
-|PDF
-|32M
+s|File Name
+s|Comment
 
-|xref:ROOT:attachment$anthro_record_sheet_v5.pdf[Anthro Record v5]
-|PDF
-|287k
+|xref:ROOT:attachment$exp_game_v401.pdf[exp_game_v401.pdf]
+|32M PDF of EXP v4 from 1993
 
-|xref:ROOT:attachment$robot_record_v5.pdf[Robot Record v5]
-|PDF
-|112k
+|xref:ROOT:attachment$anthro_record_sheet_v5.pdf[anthro_record_sheet_v5.pdf]
+|PDF of EXP v5 persona record 2010
 
-|xref:ROOT:attachment$alien_record_sheet_v5.pdf[Alien Record v5]
-|PDF
-|112K
+|xref:ROOT:attachment$robot_record_v5.pdf[robot_record_v5.pdf]
+|PDF of EXP v5 persona record 2010
 
-|xref:ROOT:attachment$toy_record_v5.pdf[TOY Record v5]
-|PDF
-|123k
+|xref:ROOT:attachment$alien_record_sheet_v5.pdf[alien_record_sheet_v5.pdf]
+|PDF of EXP v5 persona record 2010
 
-s|Printable
-s|Type
-s|Size
-3+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
+|xref:ROOT:attachment$toy_record_v5.pdf[toy_record_v5.pdf]
+|PDF of EXP v5 toy record 2010
+
+s|File Name
+s|Comment
+
+2+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
 |===
-
