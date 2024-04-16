@@ -50,7 +50,7 @@
 == Combat
 
 // this should be an include
-[width="90%",cols="3,3,3,3,3",frame="none", grid="none" stripes="none"]
+[width="90%",cols="5*^",frame="none", grid="none" stripes="none"]
 |===
 
 s|DEF
@@ -67,7 +67,7 @@ s|HPS
 
 5+s|ATTACK TABLE
 
-s|Type
+<s|Type
 s|Skilled
 s|Raw
 s|Max
@@ -75,21 +75,21 @@ s|Force
 
 
 
-s|Strike
+<s|Strike
 |__{strike_skill}__
 |__{strike_raw}__
 |__{strike_max}__
 |__{strike_force}__
 
 
-s|Fling
+<s|Fling
 |__{fling_skill}__
 |__{fling_raw}__
 |__{fling_max}__
 |__{fling_force}__
 
 
-s|Shoot
+<s|Shoot
 |__{shoot_skill}__
 |__{shoot_raw}__
 |__{shoot_max}__
@@ -120,18 +120,18 @@ s|Interests
 |{interest_1}
 |{skill_1}
 |{skill_4}
-|{skill_5}
+|{skill_7}
 
 |{gift_2}
 |{interest_2}
 |{skill_2}
-|{skill_6}
-|{skill_7}
+|{skill_5}
+|{skill_8}
 
 |{gift_3}
 |{interest_3}
 |{skill_3}
-|(skill_8)
+|{skill_6}
 |{skill_9}
 
 5+<|[.small]#*Vocation*: what the persons does. *Level*: how good they are.# +
@@ -175,22 +175,18 @@ Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_
 [width="100%",cols="4*<", frame="none", grid ="none",  stripes="none"]
 |===
 
-4+|Wate Allowance
+|*Wate Allowance:* {wa}
+|*SPRINT:* {eval:#{wa}/4}
+|*CARRY:* {eval:#{wa}*1.5}
+|*LIFT:* {eval:#{wa}*2.5}
 
-s|WA: {wa}
-s|SPRINT: {eval: #{wa}/4}
-s|CARRY: {eval: #{wa}*1.5}
-s|LIFT: {eval: #{wa}*2.5}
-
-4+|[.small]#*WA*: STR wate allowance, *Sprint*: WA/4 *Carry*:WA*1.5, *Lift*: WA*2.5#
 
 4+<|special toy here
 4+<|special toy here hopefully living includes
 4+<|special toy here
+4+|[.small]#*WA*: STR wate allowance, *Sprint*: WA/4 *Carry*:WA*1.5, *Lift*: WA*2.5#
 
 |===
-
-
 
 == PDF
 Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}.pdf[{persona_name} PDF]
@@ -198,7 +194,7 @@ Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_fil
 == JSON
 The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
 
-[source, json]
+// {sources_json}
 {dashes}
 {json_file}
 {dashes}
