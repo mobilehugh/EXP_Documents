@@ -50,7 +50,7 @@
 == Combat
 
 // this should be an include
-[width="90%",cols="5*^",frame="none", grid="none" stripes="none"]
+[width="75%",cols="5*<",frame="none", grid="none" stripes="none"]
 |===
 
 s|DEF
@@ -65,7 +65,7 @@ s|HPS
 |
 |
 
-5+s|ATTACK TABLE
+5+<s|ATTACK TABLE
 
 <s|Type
 s|Skilled
@@ -79,21 +79,21 @@ s|Force
 |__{strike_skill}__
 |__{strike_raw}__
 |__{strike_max}__
-|__{strike_force}__
+^|__{strike_force}__
 
 
 <s|Fling
 |__{fling_skill}__
 |__{fling_raw}__
 |__{fling_max}__
-|__{fling_force}__
+^|__{fling_force}__
 
 
 <s|Shoot
 |__{shoot_skill}__
 |__{shoot_raw}__
 |__{shoot_max}__
-|__{shoot_force}__
+^|__{shoot_force}__
 
 
 
@@ -175,16 +175,15 @@ Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_
 [width="100%",cols="4*<", frame="none", grid ="none",  stripes="none"]
 |===
 
-|*Wate Allowance:* {wa}
-|*SPRINT:* {eval:#{wa}/4}
-|*CARRY:* {eval:#{wa}*1.5}
-|*LIFT:* {eval:#{wa}*2.5}
+|*Wate Allowance:* {wa} kg
+|*SPRINT:* {wa_sprint}
+|*CARRY:* {wa_carry}
+|*LIFT:* {wa_lift}
 
 
-4+<|special toy here
-4+<|special toy here hopefully living includes
-4+<|special toy here
-4+|[.small]#*WA*: STR wate allowance, *Sprint*: WA/4 *Carry*:WA*1.5, *Lift*: WA*2.5#
+4+<|toy one
+4+<|toy two
+4+<|toy three
 
 |===
 
@@ -195,8 +194,11 @@ Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_fil
 The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
 
 // {sources_json}
+
 {dashes}
+
 {json_file}
+
 {dashes}
 
 
