@@ -50,49 +50,54 @@
 == Combat
 
 // this should be an include
-[width="90%",cols="3,3,3,3,3,3,4,5",frame="none", grid="none" stripes="none"]
+[width="90%",cols="3,3,3,3,3",frame="none", grid="none" stripes="none"]
 |===
 
-5+s|ATTACK TABLE
 s|DEF
 s|MOVE
-|*HPS:* {hpm} 
-
-<|Type
-<|Skilled
-<|Raw
-<|Max
-|Force
-|{def}
-|{move_land} h/u land
-.4+|
-
-|Strike
-<|{strike_skill}
-<|{strike_raw}
-<|{strike_max}
-<|{strike_force}
-|
-|{move_air} h/u air
-
-|Fling
-<|{fling_skill}
-<|{fling_raw}
-<|{fling_max}
-<|{fling_force}
-|
-|{move_water} h/u water
-
-|Shoot
-<|{shoot_skill}
-<|{shoot_raw}
-<|{shoot_max}
-<|{shoot_force}
+s|HPS
 |
 |
 
+|__{def}__
+|__{move_land}__ __h/u__
+|__{hpm} __
+|
+|
 
-8+<|[.small]#*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks# +
+5+s|ATTACK TABLE
+
+s|Type
+s|Skilled
+s|Raw
+s|Max
+s|Force
+
+
+
+s|Strike
+|__{strike_skill}__
+|__{strike_raw}__
+|__{strike_max}__
+|__{strike_force}__
+
+
+s|Fling
+|__{fling_skill}__
+|__{fling_raw}__
+|__{fling_max}__
+|__{fling_force}__
+
+
+s|Shoot
+|__{shoot_skill}__
+|__{shoot_raw}__
+|__{shoot_max}__
+|__{shoot_force}__
+
+
+
+5+<|[.small]#*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks# +
 [.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll, *Max*: maximum attack roll, *Force*: add to damage roll# +
 [.small]#*DEF*: defence, *Move*: hexes per unit *HPS*:hit points total#
 
@@ -194,7 +199,8 @@ Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_fil
 The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
 
 [source, json]
-----
+{dashes}
 {json_file}
-----
+{dashes}
+
 
