@@ -1,34 +1,19 @@
 // formats an anthro RP with attributes from the file that calls it
+:table-stripes: none
 
-== Introduction
-
-:art: {image_file}
-:width: 100px
-:artist: {image_artist}
-:date: {image_date}
-:license: CC BY-SA 4.0
-:description: {image_description}
-
-[width="100%",cols="<,<", frame="none", grid="none",  stripes="none"]
+[width="100%",cols="<1,<3", frame="none", grid="none", stripes="none"]
 |===
-.2+|image:pre_rolls:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
-|Persona Name *{persona_name}*
-
+.2+|image:pre_rolls:{image_file}[width="150px", alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
 |{description}
 
+|{image_description}
+
 |===
 
-
-
-
-
-
-
+== Attributes
 
 [width="100%",cols="9*^",frame="none", grid="none", stripes="none"]
 |===
-
-9+<|Attributes
 
 |AWE
 |CHA
@@ -50,24 +35,23 @@
 |__{soc}__
 |__{hpm}__
 
-|awareness
+|~awareness~
 |charisma
 |constitution
 |dexterity
-|intelligence
+|~intelligence~
 |mind
 |strength
 |privilege
-|toughness
+|~toughness~
 
 |===
 
+== Combat
 
 // this should be an include
 [width="90%",cols="3,3,3,3,3,3,4,5",frame="none", grid="none" stripes="none"]
 |===
-
-8+<|Combat Info {attack_table}
 
 5+s|ATTACK TABLE
 s|DEF
@@ -108,18 +92,16 @@ s|MOVE
 |
 
 
-8+<|*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks
+8+<|~*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks~
 8+<|*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll, *Max*: maximum attack roll, *Force*: add to damage roll
 8+<|*DEF*: defence, *Move*: hexes per unit *HPS*:hit points total
 
 |===
 
-
+== Tasks 
 
 [width="90%",cols="1,1,1,1,1",frame="none", grid="none" stripes="none"]
 |===
-
-5+<|Task Info
 
 2+|*Vocation:* {vocation}
 |*Level:* {level} 
@@ -129,42 +111,25 @@ s|Gifts
 s|Interests
 3+s|Skills
 
-
-//gift_1 assessment
-ifeval::["{gift_1}" != ""]
 |{gift_1}
-endif::[]
-// gift_1 is present
+|{interest_1}
+|{skill_1}
+|{skill_4}
+|{skill_5}
 
-ifeval::["{gift_1}" == ""]
-|
-endif::[]
-// gift_1 is present
+|{gift_2}
+|{interest_2}
+|{skill_2}
+|{skill_6}
+|{skill_7}
 
+|{gift_3}
+|{interest_3}
+|{skill_3}
+|(skill_8)
+|{skill_9}
 
-
-
-
-
-
-|
-|
-|
-|
-
-|
-|
-|
-|
-|
-
-|
-|
-|
-|
-|
-
-5+<|*Vocation*: what the persons does. *Level*: how experienced the persona is
+5+<|~*Vocation*: what the persons does. *Level*: how experienced the persona is~
 
 5+<|*Gifts*: natural actions. *Interests*: broad Knowledge (+1), *Skills*: specific knowledge, ability (+2)
 
@@ -172,10 +137,10 @@ endif::[]
 
 
 
-[width="%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
-|===
+== Biology
 
-6+<|Biologic Info
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
 
 2+<|*Family:* {family}
 2+<|*Genus:* {genus}
@@ -185,148 +150,39 @@ endif::[]
 2+<|*Hite:* {hite} {hite_suffix}
 2+<|*Wate:* {wate} {wate_suffix}
 
-6+<s|MUTATIONS:
+6+<s|MUTATIONS: {mutations}
 
-6+<|
 
-6+<|
-
-6+<|
-
-6+<|
 
 |===
 
 
+== RP Fun
+{description}
 
-[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
-|===
+{persona name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_origin}, and {rp_fun_arc_future}.
+Their {appearance_hygiene} {appearance_dress} clothing choice smell like {appearance_smell}.
+Their sound is: {laban_sound}. Their move is {laban_move}.
 
-6+<|Persona Info
+Religion: {belief_religion} Philosophy: {belief_philosophy} Politics: {belief_politics}
 
-6+<|
-
-6+<|
-
-6+<|
-
-6+<|
-
-6+^|Persona info only. Please use campaign sheets for campaign info.
-
-|===
-
-<<<
-
-[width="100%",cols="<3,<.>1", frame="none", grid ="none",  stripes="none"]
-|===
-|Persona Name
-|Player:
-|===
-
-
+== Equipment
 
 [width="100%",cols="4*<", frame="none", grid ="none",  stripes="none"]
 |===
 
 4+|Wate Allowance
 
-s|WA:
-s|SPRINT:
-s|CARRY:
-s|LIFT:
+s|WA: {wa}
+s|SPRINT: {eval: {wa}/4}
+s|CARRY: {eval: {wa}*1.5}
+s|LIFT: {eval: {wa}*2.5}
 
 4+|*WA*: STR wate allowance, *Sprint*: WA/4 *Carry*:WA*1.5, *Lift*: WA*2.5
 
-|===
-
-
-
-[width="100%",cols="<3,<1,<1,<4", frame="none", grid ="none",  stripes="none"]
-|===
-
-4+|TOYs
-
-s|ITEM
-s|WT(kg)
-s|TTL(kg)
-s|INFO
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-|ITEM
-|WT(kg)
-|TTL(kg)
-|INFO
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-4+<|
-
-s|ITEM
-s|WT(kg)
-s|TTL(kg)
-s|INFO
-
-
-|===
-
-
-
-[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
-|===
-
-6+<|Persona Info
-
-6+<|
-
-6+<|
-
-6+<|
-
-6+<|
-
-6+<|
-
-6+<|
-
-6+<|
-
-6+<|
-
-6+^|Persona info only. Please use campaign sheets for campaign info.
+4+<|special toy here
+4+<|special toy here hopefully living includes
+4+<|special toy here
 
 |===
 
@@ -334,3 +190,12 @@ s|INFO
 
 == PDF
 Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}.pdf[{persona_name} PDF]
+
+== JSON
+The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
+
+[source, json]
+----
+{json_file}
+----
+

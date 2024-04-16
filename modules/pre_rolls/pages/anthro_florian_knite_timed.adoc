@@ -1,6 +1,5 @@
 = Night Shadii
 
-
 // FILE DATA
 :record_format: anthro_format_rp
 
@@ -15,7 +14,7 @@
 :jsonl_name: NIGHT_SHADII_anthro_florian_generalis_knite_1703087031.jsonl
 
 //SWITCHES
-:rp: true
+
 
 //HEADER
 :persona_name: Night Shadii
@@ -71,14 +70,16 @@
 :wate: 52
 :wate_suffix: kgs
 
+:mutations: none
+
 //Mutations dictionary  "Mutations": {}, 
 
 // TASKS
 
 //GIFTs, presently calculated by level
 :gift_1: Kirlian Sight
-:gift_4:
-:gift_7:
+:gift_2:
+:gift_3:
 
 // INTERESTs in a list ["Think Space", "Physical Space"] needs to be summed
 // interests can compound and have values
@@ -112,35 +113,25 @@
 
 
 //HISTORY single string stored in a list
-:rp_fun_arc_origin: Nearby
-:rp_fun_arc_present: Curious and trusting
+:rp_fun_arc_origin: nearby
+:rp_fun_arc_origin: curious and trusting
 :rp_fun_arc_future: Make it to tomorrow
 
 //APPEARANCES
-:appearance_dress: Sports Team
-:appearance_hygiene: Dishevelled
+:appearance_dress: sports team
+:appearance_hygiene: dishevelled
 :appearance_gender: Stamen
 :appearance_smell: Hay
 
 //LABANATIONS
-:laban_move: Glide (Light, Slow, Direct)
-:laban_sound: Flick (Light, Fast, Indirect)
+:laban_move: slide (Light, Slow, Direct)
+:laban_sound: flick (Light, Fast, Indirect)
 
 //BELIEFS
 :belief_religion: None
 :belief_philosophy: None
 :belief_politics: None
 
+:json_file: {"Player_Name": "hugh", "Persona_Name": "Night Shadii", "FAMILY": "Anthro", "FAMILY_TYPE": "Florian", "FAMILY_SUB": "Generalis", "Fallthrough": true, "Bespoke": false, "RP": true, "RP_Cues": true, "Bin": false, "AWE": 8, "CHA": 7, "CON": 7, "DEX": 14, "INT": 8, "MND": 21, "STR": 9, "SOC": 173, "HPM": 21, "WA": 14, "AR": 542, "Move": 3, "Age_Spans": [], "Age_Cat": "Older", "Age": 103, "Age_Suffix": "years", "Size_Cat": "Medium", "Hite": 171, "Hite_Suffix": "cms", "Wate": 52, "Wate_Suffix": "kgs", "Quick_Description": "A 103 years old generalis florian knite", "RP_Fun": ["Arc: Past: Nearby, Present: Curious and trusting, Goal: Make it to tomorrow.", "Dress: Sports Team, Hygiene: Dishevelled, Odor: Hay", "Personality: Lustful, Introverted", "Labanations: Voice: Flick (Light, Fast, Indirect), Move: Glide (Light, Slow, Direct)", "Beliefs: Religion: None, Philosophy: None, Politics: None."], "Vocation": "Knite", "Level": 1, "EXPS": 1500, "Mutations": {}, "Interests": ["Think Space", "Physical Space"], "Skills": ["Mimic", "Militarization", "Languages"], "Proficiencies": [], "Equipment": [], "Date_Created": "Wed-20-Dec-2023(15:43)", "Date_Updated": "Wed-20-Dec-2023(15:43)", "File_Name": "NIGHT_SHADII_anthro_florian_generalis_knite_1703087031.jsonl"}
 
 include::pre_rolls:partial${record_format}.adoc[]
-
-
-
-
-== JSON
-The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools] and was Created: Wed-20-Dec-2023(15:43) for Hugh
-
-[source, json]
-----
-{"Player_Name": "hugh", "Persona_Name": "Night Shadii", "FAMILY": "Anthro", "FAMILY_TYPE": "Florian", "FAMILY_SUB": "Generalis", "Fallthrough": true, "Bespoke": false, "RP": true, "RP_Cues": true, "Bin": false, "AWE": 8, "CHA": 7, "CON": 7, "DEX": 14, "INT": 8, "MND": 21, "STR": 9, "SOC": 173, "HPM": 21, "WA": 14, "AR": 542, "Move": 3, "Age_Spans": [], "Age_Cat": "Older", "Age": 103, "Age_Suffix": "years", "Size_Cat": "Medium", "Hite": 171, "Hite_Suffix": "cms", "Wate": 52, "Wate_Suffix": "kgs", "Quick_Description": "A 103 years old generalis florian knite", "RP_Fun": ["Arc: Past: Nearby, Present: Curious and trusting, Goal: Make it to tomorrow.", "Dress: Sports Team, Hygiene: Dishevelled, Odor: Hay", "Personality: Lustful, Introverted", "Labanations: Voice: Flick (Light, Fast, Indirect), Move: Glide (Light, Slow, Direct)", "Beliefs: Religion: None, Philosophy: None, Politics: None."], "Vocation": "Knite", "Level": 1, "EXPS": 1500, "Mutations": {}, "Interests": ["Think Space", "Physical Space"], "Skills": ["Mimic", "Militarization", "Languages"], "Proficiencies": [], "Equipment": [], "Date_Created": "Wed-20-Dec-2023(15:43)", "Date_Updated": "Wed-20-Dec-2023(15:43)", "File_Name": "NIGHT_SHADII_anthro_florian_generalis_knite_1703087031.jsonl"}
-----
