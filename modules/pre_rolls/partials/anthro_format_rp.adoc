@@ -1,17 +1,27 @@
 // formats an anthro RP with attributes from the file that calls it
 
-[width="100%",cols="<3,<.>1", frame="none", grid ="none",  stripes="none"]
+== Introduction
+
+:art: {image_file}
+:width: 100px
+:artist: {image_artist}
+:date: {image_date}
+:license: CC BY-SA 4.0
+:description: {image_description}
+
+[width="100%",cols="<,<", frame="none", grid="none",  stripes="none"]
 |===
+.2+|image:pre_rolls:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
 |Persona Name *{persona_name}*
-|Player: {player_name}
+
+|{description}
+
 |===
 
 
 
-[width="100%",cols="<1,<1", frame="none", grid ="none",  stripes="none"]
-|===
-2+|Description {description}
-|===
+
+
 
 
 
@@ -319,3 +329,8 @@ s|INFO
 6+^|Persona info only. Please use campaign sheets for campaign info.
 
 |===
+
+
+
+== PDF
+Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}.pdf[{persona_name} PDF]

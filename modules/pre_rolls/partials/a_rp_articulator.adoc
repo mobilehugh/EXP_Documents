@@ -1,0 +1,16 @@
+// this is for inserting art
+// attributes are set in the referring adoc
+// using inline image because it allows tooltip 
+// centering by assigning imageblock css
+
+[.imageblock.inlinefix]
+image:pre_rolls:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
+
+// removing the attributes to avoid polluting next image 
+:art:
+:width:
+:snark:
+:artist:
+:date:
+:license: 
+:description:
