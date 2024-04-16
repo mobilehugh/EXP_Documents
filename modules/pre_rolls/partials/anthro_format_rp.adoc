@@ -92,9 +92,9 @@ s|MOVE
 |
 
 
-8+<|[.x-small]#*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks#
-8+<|[.x-small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll, *Max*: maximum attack roll, *Force*: add to damage roll#
-8+<|[.x-small]#*DEF*: defence, *Move*: hexes per unit *HPS*:hit points total#
+8+<|[.small]#*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks# +
+[.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll, *Max*: maximum attack roll, *Force*: add to damage roll# +
+[.small]#*DEF*: defence, *Move*: hexes per unit *HPS*:hit points total#
 
 |===
 
@@ -129,9 +129,8 @@ s|Interests
 |(skill_8)
 |{skill_9}
 
-5+<|*Vocation*: what the persons does. *Level*: how experienced the persona is
-
-5+<|*Gifts*: natural actions. *Interests*: broad Knowledge (+1), *Skills*: specific knowledge, ability (+2)
+5+<|[.small]#*Vocation*: what the persons does. *Level*: how good they are.# +
+[.small]#*Gifts*: natural actions. *Interests*: broad Knowledge (+1), *Skills*: specific knowledge, ability (+2)#
 
 |===
 
@@ -150,7 +149,7 @@ s|Interests
 2+<|*Hite:* {hite} {hite_suffix}
 2+<|*Wate:* {wate} {wate_suffix}
 
-6+<s|MUTATIONS: {mutations}
+6+<|*MUTATIONS:* {mutations}
 
 
 
@@ -160,11 +159,11 @@ s|Interests
 == RP Fun
 {description}
 
-{persona name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_origin}, and {rp_fun_arc_future}.
+{persona_name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_present}, and {rp_fun_arc_future}.
 Their {appearance_hygiene} {appearance_dress} clothing choice smell like {appearance_smell}.
-Their sound is: {laban_sound}. Their move is {laban_move}.
+VOICE: {laban_sound}. MOVE: {laban_move}.
 
-Religion: {belief_religion} Philosophy: {belief_philosophy} Politics: {belief_politics}
+Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_politics}.
 
 == Equipment
 
@@ -174,11 +173,11 @@ Religion: {belief_religion} Philosophy: {belief_philosophy} Politics: {belief_po
 4+|Wate Allowance
 
 s|WA: {wa}
-s|SPRINT: {eval: {wa}/4}
-s|CARRY: {eval: {wa}*1.5}
-s|LIFT: {eval: {wa}*2.5}
+s|SPRINT: {eval: #{wa}/4}
+s|CARRY: {eval: #{wa}*1.5}
+s|LIFT: {eval: #{wa}*2.5}
 
-4+|*WA*: STR wate allowance, *Sprint*: WA/4 *Carry*:WA*1.5, *Lift*: WA*2.5
+4+|[.small]#*WA*: STR wate allowance, *Sprint*: WA/4 *Carry*:WA*1.5, *Lift*: WA*2.5#
 
 4+<|special toy here
 4+<|special toy here hopefully living includes
