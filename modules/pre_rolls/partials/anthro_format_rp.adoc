@@ -50,7 +50,7 @@
 == Combat
 
 // this should be an include
-[width="75%",cols="5*<",frame="none", grid="none" stripes="none"]
+[width="80%",cols="5*<",frame="none", grid="none" stripes="none"]
 |===
 
 s|DEF
@@ -79,21 +79,21 @@ s|Force
 |__{strike_skill}__
 |__{strike_raw}__
 |__{strike_max}__
-^|__{strike_force}__
+|__{strike_force}__
 
 
 <s|Fling
 |__{fling_skill}__
 |__{fling_raw}__
 |__{fling_max}__
-^|__{fling_force}__
+|__{fling_force}__
 
 
 <s|Shoot
 |__{shoot_skill}__
 |__{shoot_raw}__
 |__{shoot_max}__
-^|__{shoot_force}__
+|__{shoot_force}__
 
 
 
@@ -139,8 +139,6 @@ s|Interests
 
 |===
 
-
-
 == Biology
 
 [width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
@@ -156,16 +154,13 @@ s|Interests
 
 6+<|*MUTATIONS:* {mutations}
 
-
-
 |===
 
 
 == RP Fun
-{description}
-
-{persona_name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_present}, and {rp_fun_arc_future}.
+{description}. {persona_name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_present}, and {rp_fun_arc_future}.
 Their {appearance_hygiene} {appearance_dress} clothing choice smell like {appearance_smell}.
+
 VOICE: {laban_sound}. MOVE: {laban_move}.
 
 Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_politics}.
@@ -175,10 +170,10 @@ Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_
 [width="100%",cols="4*<", frame="none", grid ="none",  stripes="none"]
 |===
 
-|*Wate Allowance:* {wa} kg
-|*SPRINT:* {wa_sprint}
-|*CARRY:* {wa_carry}
-|*LIFT:* {wa_lift}
+|*Allowance:* {wa} kg
+|*Sprint:* {wa_sprint} kg
+|*Carry:* {wa_carry} kg 
+|*Lift:* {wa_lift} kg
 
 
 4+<|toy one
@@ -193,12 +188,10 @@ Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_fil
 == JSON
 The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
 
-// {sources_json}
-
 {dashes}
 
 {json_file}
 
-{dashes}
+
 
 
