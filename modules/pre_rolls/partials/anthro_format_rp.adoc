@@ -1,0 +1,321 @@
+// formats an anthro RP with attributes from the file that calls it
+
+[width="100%",cols="<3,<.>1", frame="none", grid ="none",  stripes="none"]
+|===
+|Persona Name *{persona_name}*
+|Player: {player_name}
+|===
+
+
+
+[width="100%",cols="<1,<1", frame="none", grid ="none",  stripes="none"]
+|===
+2+|Description {description}
+|===
+
+
+
+[width="100%",cols="9*^",frame="none", grid="none", stripes="none"]
+|===
+
+9+<|Attributes
+
+|AWE
+|CHA
+|CON
+|DEX
+|INT
+|MND
+|STR
+|SOC
+|HPM
+
+|__{awe}__
+|__{cha}__
+|__{con}__
+|__{dex}__
+|__{int}__
+|__{mnd}__
+|__{str}__
+|__{soc}__
+|__{hpm}__
+
+|awareness
+|charisma
+|constitution
+|dexterity
+|intelligence
+|mind
+|strength
+|privilege
+|toughness
+
+|===
+
+
+// this should be an include
+[width="90%",cols="3,3,3,3,3,3,4,5",frame="none", grid="none" stripes="none"]
+|===
+
+8+<|Combat Info {attack_table}
+
+5+s|ATTACK TABLE
+s|DEF
+s|MOVE
+|*HPS:* {hpm} 
+
+<|Type
+<|Skilled
+<|Raw
+<|Max
+|Force
+|{def}
+|{move_land} h/u land
+.4+|
+
+|Strike
+<|{strike_skill}
+<|{strike_raw}
+<|{strike_max}
+<|{strike_force}
+|
+|{move_air} h/u air
+
+|Fling
+<|{fling_skill}
+<|{fling_raw}
+<|{fling_max}
+<|{fling_force}
+|
+|{move_water} h/u water
+
+|Shoot
+<|{shoot_skill}
+<|{shoot_raw}
+<|{shoot_max}
+<|{shoot_force}
+|
+|
+
+
+8+<|*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks
+8+<|*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll, *Max*: maximum attack roll, *Force*: add to damage roll
+8+<|*DEF*: defence, *Move*: hexes per unit *HPS*:hit points total
+
+|===
+
+
+
+[width="90%",cols="1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+5+<|Task Info
+
+2+|*Vocation:* {vocation}
+|*Level:* {level} 
+2+|*EXPS:* {exps}
+
+s|Gifts
+s|Interests
+3+s|Skills
+
+
+//gift_1 assessment
+ifeval::["{gift_1}" != ""]
+|{gift_1}
+endif::[]
+// gift_1 is present
+
+ifeval::["{gift_1}" == ""]
+|
+endif::[]
+// gift_1 is present
+
+
+
+
+
+
+
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+5+<|*Vocation*: what the persons does. *Level*: how experienced the persona is
+
+5+<|*Gifts*: natural actions. *Interests*: broad Knowledge (+1), *Skills*: specific knowledge, ability (+2)
+
+|===
+
+
+
+[width="%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+6+<|Biologic Info
+
+2+<|*Family:* {family}
+2+<|*Genus:* {genus}
+2+<|*Species:* {species}
+
+2+<|*Age:* {age} {age_suffix}
+2+<|*Hite:* {hite} {hite_suffix}
+2+<|*Wate:* {wate} {wate_suffix}
+
+6+<s|MUTATIONS:
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+<|
+
+|===
+
+
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+6+<|Persona Info
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+^|Persona info only. Please use campaign sheets for campaign info.
+
+|===
+
+<<<
+
+[width="100%",cols="<3,<.>1", frame="none", grid ="none",  stripes="none"]
+|===
+|Persona Name
+|Player:
+|===
+
+
+
+[width="100%",cols="4*<", frame="none", grid ="none",  stripes="none"]
+|===
+
+4+|Wate Allowance
+
+s|WA:
+s|SPRINT:
+s|CARRY:
+s|LIFT:
+
+4+|*WA*: STR wate allowance, *Sprint*: WA/4 *Carry*:WA*1.5, *Lift*: WA*2.5
+
+|===
+
+
+
+[width="100%",cols="<3,<1,<1,<4", frame="none", grid ="none",  stripes="none"]
+|===
+
+4+|TOYs
+
+s|ITEM
+s|WT(kg)
+s|TTL(kg)
+s|INFO
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+|ITEM
+|WT(kg)
+|TTL(kg)
+|INFO
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+4+<|
+
+s|ITEM
+s|WT(kg)
+s|TTL(kg)
+s|INFO
+
+
+|===
+
+
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+6+<|Persona Info
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+<|
+
+6+^|Persona info only. Please use campaign sheets for campaign info.
+
+|===

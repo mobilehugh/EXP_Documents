@@ -1,0 +1,156 @@
+// this is the adoc -> HTML for pre-rolls
+// 1) choose the partial that formats the pre-roll
+// 2) partial is called record_format
+
+
+// RECORD FORMAT CHOICES 
+// determine which partial to include as last line.
+// anthro, anthro_rp, anthro_canon, anthro_cannon
+// alien, alien_rp, alien_canon, alien_cannon
+// robot, robot_rp, robot_canon, robot_cannon
+// ai
+// toy
+// vehicle
+// spacecraft
+// roller
+
+:record_format: [string] no adoc
+
+// SUPPORT DATA
+:rp: [true. false]
+:image: [none, file_name_string]
+:date_created: Wed-20-Dec-2023(15:43)
+:date_updated: Wed-20-Dec-2023(15:43)
+:jsonl_name: NIGHT_SHADII_anthro_florian_generalis_knite_1703087031.jsonl
+
+//INFO  
+:persona_name: [unknown, string]
+:player_name: [referee, string]
+:description: [string]
+
+//ATTRIBUTES
+:attributes: [true. false]
+
+:awe: [none, int]
+:cha: [none, int]
+:con: [none, int]
+:dex: [none, int]
+:int: [none, int]
+:mnd: [none, int]
+:str: [none, int]
+:soc: [none, int]
+:hpm: [none, int]
+
+// COMBAT
+:attack_table: [true. false]
+
+:strike_skill: [none, int]
+:strike_raw: [none, int]
+:strike_max: [none, int]
+:strike_force: [none, int]
+
+:fling_skill: [none, int]
+:fling_raw: [none, int]
+:fling_max: [none, int]
+:fling_force: [none, int]
+
+:shoot_skill: [none, int]
+:shoot_raw: [none, int]
+:shoot_max: [none, int]
+:shoot_force: [none, int]
+
+:def: [442, int]
+:move_land: [none, int]
+:move_air: [none, int]
+:move_water: [none, int]
+
+//BIOLOGIC data
+
+
+:family: Anthro, Alien, Robot, ai
+:genus: Florian
+:species: Generalis
+
+:age_cat: Older
+:age: 103
+:age_suffix: years
+
+:size_cat: Medium
+:hite: 171
+:hite_suffix: cms
+:wate: 52
+:wate_suffix: kgs
+
+//Mutations dictionary  "Mutations": {}, 
+
+// TASKS
+
+//GIFTs, presently calculated by level
+:gift_1: [none, string]
+:gift_4: [none, string]
+:gift_7: [none, string]
+
+//INTERESTs in a list ["Think Space", "Physical Space"] needs to be summed
+:interest_1: [none, string+int]
+:interest_2: [none, string+int]
+:interest_3: [none, string+int]
+
+//SKILLs in a list ["Mimic", "Militarization", "Languages"] needs to be calculated
+:skill_1: [none, string+int]
+:skill_2: [none, string+int]
+:skill_3: [none, string+int]
+:skill_4: [none, string+int]
+:skill_5: [none, string+int]
+:skill_6: [none, string+int]
+:skill_7: [none, string+int]
+:skill_8: [none, string+int]
+:skill_9: [none, string+int]
+
+:vocation: 
+:level: 
+:exps: 
+:exps_goal:
+
+//EQUIPMENT
+// calculate Sprint, Carry and Lift 
+// Equipment is a list "Equipment": []
+
+
+
+:wa: [none, int]
+:wa_sprint: eval?
+:wa_carry: eval?
+:wa_lift: eval?
+
+
+
+//HISTORY single string stored in a list
+:rp_fun_arc_origin: [none, string]
+:rp_fun_arc_present: [none, string]
+:rp_fun_arc_future: [none, string]
+
+//APPEARANCES
+:appearance_dress: [none, string]
+:appearance_hygiene: [none, string]
+:appearance_gender: [none, string]
+:appearance_smell: [none, string]
+
+//LABANATIONS
+:laban_move: [none, string]
+:laban_sound: [none, string]
+
+//BELIEFS
+:belief_religion: [none, string]
+:belief_philosophy: [none, string]
+:belief_politics: [none, string]
+
+
+
+// format is listed as an attribute at top, but included here
+// include::pre_rolls:partial${record_format}[]
+
+
+
+
+
+
