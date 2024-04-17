@@ -1,7 +1,7 @@
 // place image to left and description to right.
 
 // check to see if non-standard image_width (usu 200px)
-ifdef::image_width[]
+ifeval::[{image_size} > 0]
 [width="100%",cols="<1,<3", frame="none", grid="none", stripes="none", role="no-striping"]
 |===
 |image:pre_rolls:{image_file}[width="{image_width}", alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
@@ -10,7 +10,7 @@ ifdef::image_width[]
 endif::[]
 
 // do this if standard image_width
-ifndef::env-setup[]
+ifeval::["{image_size}" == ""]
 [width="100%",cols="<1,<3", frame="none", grid="none", stripes="none", role="no-striping"]
 |===
 |image:pre_rolls:{image_file}[width="200px", alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
