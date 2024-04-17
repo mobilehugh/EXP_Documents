@@ -185,7 +185,7 @@ include::pre_rolls:page${item_1}[]
 
 |*Allowance:* {wa} kg
 |*Sprint:* {wa_sprint} kg
-|*Carry:* {wa_carry} kg 
+|*Carry:* {wa_carry} kg
 |*Lift:* {wa_lift} kg
 |
 
@@ -196,9 +196,6 @@ include::pre_rolls:page${item_1}[]
 2+|{toy_description}
 2+|xref:hardware:{toy_xref}[{toy_name}]
 |{toy_wate}
-
-
-
 
 |===
 
@@ -223,7 +220,7 @@ endif::[]
 ifeval::["{json_file}" != ""]
 The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
 
-{dashes}
+----
 
 {json_file}
 
