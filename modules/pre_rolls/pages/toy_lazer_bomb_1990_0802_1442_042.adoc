@@ -10,6 +10,6 @@
 :toy_xref: bombs.adoc#_land_scraper
 
 
-ifeval::["{toy_print_out}" <> "false"]
+ifeval::["{toy_print_out}" != "false"]
 include::pre_rolls:partial$format_toy.adoc[]
 endif::[]
