@@ -112,7 +112,7 @@ s|Force
 |*Level:* {level} 
 2+|*EXPS:* {exps}
 
-s|Gifts
+s|{gift_title}
 s|Interests
 3+s|Skills
 
@@ -183,15 +183,31 @@ Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_
 |===
 
 == PDF
-Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}.pdf[{persona_name} PDF]
+
+ifeval::["{pdf_file}" == ""]
+This persona record does not have a PDF. 
+endif::[]
+
+ifeval::["{pdf_file}" != ""]
+Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}[{persona_name} PDF]
+endif::[]
+
 
 == JSON
+
+ifeval::["{json_file}" == ""]
+This persona record does not have a JSON file. 
+endif::[]
+
+
+ifeval::["{json_file}" != ""]
 The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
 
 {dashes}
 
 {json_file}
 
+endif::[]
 
 
 
