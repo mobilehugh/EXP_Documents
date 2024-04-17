@@ -183,7 +183,7 @@ VOICE: {laban_sound}. MOVE: {laban_move}.
 
 
 
-
+include::pre_rolls:partial${item_1}[]
 
 [width="100%",cols="5*<", frame="none", grid ="none",  stripes="none"]
 |===
@@ -198,15 +198,10 @@ VOICE: {laban_sound}. MOVE: {laban_move}.
 2+|Name
 |Wate
 
-include::pre_rolls:partial${item_1}[]
 2+|{toy_description}
 2+|{toy_name}
 |{toy_wate} kg
 
-include::pre_rolls:partial${item_2}[]
-2+|{toy_description}
-2+|{toy_name}
-|{toy_wate} kg
 
 
 
