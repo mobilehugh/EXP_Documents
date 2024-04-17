@@ -178,6 +178,13 @@ VOICE: {laban_sound}. MOVE: {laban_move}.
 
 == Equipment
 
+
+
+
+
+
+
+
 [width="100%",cols="5*<", frame="none", grid ="none",  stripes="none"]
 |===
 
@@ -187,14 +194,21 @@ VOICE: {laban_sound}. MOVE: {laban_move}.
 |*Lift:* {wa_lift} kg
 |
 
-
 2+|Description
 2+|Name
 |Wate
 
-ifeval::["{item_1}" != ""]
-{item_1}
-endif::[]
+include::pre_rolls:partial${item_1}[]
+2+|{toy_description}
+2+|{toy_name}
+|{toy_wate} kg
+
+include::pre_rolls:partial${item_2}[]
+2+|{toy_description}
+2+|{toy_name}
+|{toy_wate} kg
+
+
 
 |===
 
