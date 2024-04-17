@@ -192,7 +192,7 @@ VOICE: {laban_sound}. MOVE: {laban_move}.
 2+|Name
 |Wate
 
-ifeval::["{item_1}" == ""]
+ifeval::["{item_1}" != ""]
 {item_1}
 endif::[]
 
