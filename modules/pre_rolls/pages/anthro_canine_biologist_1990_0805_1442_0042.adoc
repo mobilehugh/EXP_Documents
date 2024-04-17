@@ -1,7 +1,7 @@
 = Bertrand Byrde
 
 // FILE DATA
-:record_format: anthro_format_rp
+:record_format: format_anthro_rp.adoc
 
 :image_file: rp_betrand_byrde.png
 :image_description: A proper looking jalabiya wearing poodle holding an ointment bottle and dispenser
@@ -136,8 +136,8 @@
 :wa_lift: 17
 
 :item_1: toy_lazer_bomb_1990_0802_1442_042.adoc
-:item_2: a_schema_toy.adoc
-:item_3: a_schema_toy.adoc
+:item_2: toy__null.adoc
+:item_3: toy__null.adoc
 
 
 
@@ -146,4 +146,4 @@
 :json_file:
 
 // FIRE the RECORD FORMAT Mrs Nesbitt.
-include::pre_rolls:partial${record_format}.adoc[]
+include::pre_rolls:partial${record_format}[]
