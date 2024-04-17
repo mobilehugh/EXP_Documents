@@ -1,12 +1,9 @@
-// formats an anthro RP with attributes from the file that calls it
-:table-stripes: none
+// anthro RP format
 
 [width="100%",cols="<1,<3", frame="none", grid="none", stripes="none", role="no-striping"]
 |===
-.2+|image:pre_rolls:{image_file}[width="200px", alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
-|{description}
-
-|{image_description}
+|image:pre_rolls:{image_file}[width="200px", alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
+.^|{image_description}. {description}.
 
 |===
 
@@ -53,7 +50,7 @@
 [width="80%",cols="5*<",frame="none", grid="none" stripes="none"]
 |===
 
-s|DEF
+s|DEFENCE
 s|MOVE
 s|HPS
 |
@@ -73,14 +70,11 @@ s|Raw
 s|Max
 s|Force
 
-
-
 <s|Strike
 |__{strike_skill}__
 |__{strike_raw}__
 |__{strike_max}__
 |__{strike_force}__
-
 
 <s|Fling
 |__{fling_skill}__
@@ -88,18 +82,16 @@ s|Force
 |__{fling_max}__
 |__{fling_force}__
 
-
 <s|Shoot
 |__{shoot_skill}__
 |__{shoot_raw}__
 |__{shoot_max}__
 |__{shoot_force}__
 
-
-
-5+<|[.small]#*Strike*: self powered melee, *Fling*: self powered ranged, *Shoot*: powered attacks# +
-[.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll, *Max*: maximum attack roll, *Force*: add to damage roll# +
-[.small]#*DEF*: defence, *Move*: hexes per unit *HPS*:hit points total#
+5+<|[.small]#*DEFENCE*: how hard to hit, *Move*: hexes per unit *HPS*:hit points total# +
+[.small]#*Strike*: self powered melee, *Fling*: self powered ranged *Shoot*: powered attacks# +
+[.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll# +
+[.small]#*Max*: maximum attack roll, *Force*: add to damage roll# +
 
 |===
 
@@ -134,8 +126,8 @@ s|Interests
 |{skill_6}
 |{skill_9}
 
-5+<|[.small]#*Vocation*: what the persons does. *Level*: how good they are.# +
-[.small]#*Gifts*: natural actions. *Interests*: broad Knowledge (+1), *Skills*: specific knowledge, ability (+2)#
+5+<|[.small]#*Vocation*: what the persons does. *Level*: how good they are. *EXPS*: total experience# +
+[.small]#*{gift_title}*: natural actions. *Interests*: broad Knowledge (+1), *Skills*: specific knowledge, ability (+2)#
 
 |===
 
@@ -158,12 +150,38 @@ s|Interests
 
 
 == RP Fun
-{description}. {persona_name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_present}, and {rp_fun_arc_future}.
-Their {appearance_hygiene} {appearance_dress} clothing choice smell like {appearance_smell}.
+{description}. {persona_name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_present}, and want to {rp_fun_arc_future}.
+Their {appearance_hygiene} {appearance_dress} dress smells like {appearance_smell}.
+
+// religious belief
+ifeval::["{belief_religion}" == "None"]
+They have no religious beliefs. 
+endif::[]
+
+ifeval::["{belief_religion}" != "None"]
+They follow a religion of {belief_religion}.
+endif::[]
+
+// philosophical belief
+ifeval::["{belief_philosophy}" == "None"]
+They have no specific philosophy. 
+endif::[]
+
+ifeval::["{belief_philosophy}" != "None"]
+Their life philosophy is {belief_philosophy}.
+endif::[]
+
+ifeval::["{belief_politics}" == "None"]
+They have no politics. 
+endif::[]
+
+ifeval::["{belief_politics}" != "None"]
+Their politics are {belief_politics}.
+endif::[]
+
+{persona_name} has a {personality} personality. 
 
 VOICE: {laban_sound}. MOVE: {laban_move}.
-
-Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_politics}.
 
 == Equipment
 
@@ -176,9 +194,11 @@ Religion: {belief_religion}; Philosophy: {belief_philosophy}; Politics: {belief_
 |*Lift:* {wa_lift} kg
 
 
-4+<|toy one
-4+<|toy two
-4+<|toy three
+2+|Description
+|Name
+|Wate
+
+
 
 |===
 
