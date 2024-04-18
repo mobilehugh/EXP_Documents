@@ -2,13 +2,11 @@
 
 
 // image test
-
-
 ifeval::["{image_file}" != ""]
 [width="100%",cols="<{image_size},<3", frame="none", grid="none", stripes="none", role="no-striping"]
 |===
 |image:pre_rolls:{image_file}[width="400",alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
-.^|{toy_description}.
+.^|[larger]#*{toy_description}.*#
 |===
 endif::[]
 
