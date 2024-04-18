@@ -2,19 +2,7 @@
 
 = {toy_name} {toy_department}
 
-// image test
-ifeval::["{image_file}" != ""]
-[width="100%",cols="<{image_size},<3", frame="none", grid="none", stripes="none", role="no-striping"]
-|===
-|image:{image_folder}:{image_file}[width="400",alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
-.^|[larger]#*This toy looks like {toy_description}.*#
-|===
-endif::[]
-
-
-ifeval::["{image_file}" == ""]
-== {toy_description}
-endif::[]
+include::pre_rolls:partial$format_intro_and_image.adoc[]
 
 [width="100%",cols="<1,<2", frame="none", grid="none"]
 |===

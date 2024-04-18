@@ -1,11 +1,17 @@
 // place image to left and description to right.
 
 // change image size by adjusting the column share relative to description column
+// if there is no image then prints a heading using title_description
 
+ifeval::["{image_file}" != ""]
 [width="100%",cols="<{image_size},<3", frame="none", grid="none", stripes="none", role="no-striping"]
 |===
 |image:{image_folder}:{image_file}[width="400",alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
-.^|{image_description}. {description}.
+.^|[larger]#{title_prefix} {title_description}.#
 |===
+endif::[]
 
 
+ifeval::["{image_file}" == ""]
+== {title_description}
+endif::[]
