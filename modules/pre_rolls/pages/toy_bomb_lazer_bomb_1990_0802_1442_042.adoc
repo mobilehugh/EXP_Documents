@@ -1,9 +1,10 @@
 //attributes data for lazer bomb
 
 :image_file: toy_bomb_fuse.png
+:image_folder: pre_rolls
 :image_description: old timey bomb with a short fuse
-:image_artist: Aimagination prompt HM
-:image_date: 2023
+:image_artist: Studiostoks
+:image_date: 2015
 :image_size: 1
 
 :toy_description: a big gold bag
@@ -15,6 +16,10 @@
 :tech_level: 10
 :toy_info: 150h radius; 12d4 x 10 damage; terrain hugging lazer wash
 :toy_xref: bombs.adoc#_land_scraper
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
 
 ifeval::["{toy_print_out}" != "false"]
 include::pre_rolls:partial$format_toy.adoc[]
