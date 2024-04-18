@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: pro_vaxxer.png
+:image_folder: root
+:image_description: Image of fancy looking hypodermic needle
+:image_artist: JE Shields
+:image_date: 2016-2021
+:image_size: 1
+
+:title_description: Syringes of iridescent silver liquid
+:title_prefix:
+
+:toy_name: Intumescent
+:toy_department: Pharma
+:toy_wate: 50 gms
+:toy_exps: 250
+:toy_value: 250000
+:tech_level: 10
+:toy_info: +50% to dexterity, minimum 16, increase move.
+:toy_xref: pharma.adoc#_intumescent
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

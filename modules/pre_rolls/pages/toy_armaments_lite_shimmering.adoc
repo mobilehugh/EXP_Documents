@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: type_a_sword.png
+:image_folder: root
+:image_description: A sabre surrounded by shimmering light
+:image_artist: JE Shields 
+:image_date: 2015-2023
+:image_size: 1
+
+:title_description: A sabre surrounded by blue shimmering light
+:title_prefix: This toy looks like
+
+:toy_name: Shimmering Lite Sabre
+:toy_department: Armaments
+:toy_wate: 1.2 kg
+:toy_exps: 700
+:toy_value: 100000
+:tech_level: 19
+:toy_info: 4d6 damage. not a knite focus artifact. 
+:toy_xref: armaments.adoc#_lite_sabre
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
