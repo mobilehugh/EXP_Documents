@@ -191,29 +191,8 @@ VOICE: {laban_sound}. MOVE: {laban_move}.
 
 // EQUIPMENT
 
-== Equipment
+include::pre_rolls:partial$format_equipment_list.adoc[]
 
-:toy_print_out: false
-include::pre_rolls:page${item_1}[]
-
-[width="100%",cols="5*<", frame="none", grid ="none",  stripes="none"]
-|===
-
-|*Allowance:* {wa} kg
-|*Sprint:* {wa_sprint} kg
-|*Carry:* {wa_carry} kg
-|*Lift:* {wa_lift} kg
-|
-
-2+|Description
-2+|Name
-|Wate
-
-2+|{title_description}
-2+|xref:hardware:{toy_xref}[{toy_name}]
-|{toy_wate}
-
-|===
 
 == PDF
 

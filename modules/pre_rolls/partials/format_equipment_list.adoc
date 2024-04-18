@@ -1,0 +1,63 @@
+// formats all the stuff about equipment 
+// gets the data from the persona record attributes 
+
+// :toy_print_out: false;  flags that the toy is not to be printed
+
+// include::pre_rolls:page${item_x}[]; gets toy information
+
+
+== Equipment
+
+:toy_print_out: false
+
+[width="100%",cols="5*<", frame="none", grid ="none",  stripes="none"]
+|===
+
+5+|Wate Allowance (what can be carried)
+
+|*Allowance:* {wa} kg
+|*Sprint:* {wa_sprint} kg
+|*Carry:* {wa_carry} kg
+|*Lift:* {wa_lift} kg
+|
+
+2+|Description
+2+|Name
+|Wate
+
+|===
+
+// limited to three toys, each line separate 
+
+include::pre_rolls:page${item_1}[]
+
+ifeval::["{item_1}" != ""]
+[width="100%",cols="5*<", frame="none", grid ="bottom",  role="no-striping"]
+|===
+2+|{title_description}
+2+|xref:hardware:{toy_xref}[{toy_name}]<- link info
+|{toy_wate}
+|===
+endif::[]
+
+include::pre_rolls:page${item_2}[]
+
+ifeval::["{item_2}" != ""]
+[width="100%",cols="5*<", frame="none", grid ="bottom",  role="no-striping"]
+|===
+2+|{title_description}
+2+|xref:hardware:{toy_xref}[{toy_name}]<- link info
+|{toy_wate}
+|===
+endif::[]
+
+include::pre_rolls:page${item_3}[]
+
+ifeval::["{item_3}" != ""]
+[width="100%",cols="5*<", frame="none", grid ="bottom",  role="no-striping"]
+|===
+2+|{title_description}
+2+|xref:hardware:{toy_xref}[{toy_name}]<- link info
+|{toy_wate}
+|===
+endif::[]
