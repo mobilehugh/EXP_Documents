@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: 
+:image_folder: pre_rolls
+:image_description:
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: A partially deflated sphere
+:title_prefix: This toy looks like
+
+:toy_name: Soccer Ball
+:toy_department: Junque
+:toy_wate: 1 kg
+:toy_exps: 42 
+:toy_value: 42
+:tech_level: 10
+:toy_info: a ball sport ball that does not bounce.
+:toy_xref: junque.adoc#_sports
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
