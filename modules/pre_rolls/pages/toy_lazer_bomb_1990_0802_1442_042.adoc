@@ -1,14 +1,16 @@
-//attribute data for lazer bomb
+//attributes data for lazer bomb
 
+:toy_image:
 :toy_description: a big gold bag
+
 :toy_name: Land Scraper
-:toy_wate: 25
+:toy_department: Bomb
+:toy_wate: 25 kg
 :toy_exps: 300
 :toy_value: 250000
 :tech_level: 10
 :toy_info: 150h radius; 12d4 damage; terrain hugging
 :toy_xref: bombs.adoc#_land_scraper
-
 
 ifeval::["{toy_print_out}" != "false"]
 include::pre_rolls:partial$format_toy.adoc[]

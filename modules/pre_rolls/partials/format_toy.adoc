@@ -1,11 +1,47 @@
-= {toy_description}
+= {toy_bame} {toy_department}
 
-{toy_description}
 
-Name: {toy_name}
+// image test
 
-Info: {toy_info}
 
+ifeval::["{toy_image}" != ""]
+[width="100%",cols="<{image_size},<3", frame="none", grid="none", stripes="none", role="no-striping"]
+|===
+|image:pre_rolls:{toy_image}[width="400",alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
+.^|{toy_description}.
+|===
+endif::[]
+
+
+ifeval::["{toy_image}" == ""]
+== {toy_description}
+
+endif::[]
+
+[width="100%",cols="<,<", frame="none", grid="none"]
+|===
+s|NAME:
+|{toy_name}
+
+s|DEPARTMENT:
+|xref:pre_rolls:{toy_xref}[{toy_department}] <- link to info
+
+s|TECH LEVEL:
+|{tech_level}
+
+s|WATE:
+|{toy_wate}
+
+s|EXPS:
+|{toy_exps} 
+
+s|VALUE:
+|{toy_value}
+
+s|INFO:
+|{toy_info}
+
+|===
 
 
 

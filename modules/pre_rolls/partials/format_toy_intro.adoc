@@ -1,0 +1,12 @@
+// place image to left and description to right.
+
+// change image size by adjusting the column share relative to description column
+
+[width="100%",cols="<{image_size},<3", frame="none", grid="none", stripes="none", role="no-striping"]
+|===
+|image:pre_rolls:{image_file}[width="400",alt='{image_description}', title='Artist: {image_artist} Date: {image_date} License: CC BY-SA 4.0']
+.^|{image_description}. {description}.
+|===
+
+//width="{image_size}"
+
