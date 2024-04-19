@@ -13,5 +13,5 @@ endif::[]
 
 
 ifeval::["{image_file}" == ""]
-== {title_description}
+[larger]#{title_prefix} {title_description}.#
 endif::[]
