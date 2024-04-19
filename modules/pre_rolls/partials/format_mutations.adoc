@@ -8,6 +8,10 @@ ifeval::["{mutations}" == "none"]
 endif::[]
 
 
+ifeval::["{mutations}" != "none"]
+[larger]#{mutation_type}:#
+endif::[]
+
 // limited to three toys, each line separate 
 
 ifeval::["{mutation_1}" != ""]

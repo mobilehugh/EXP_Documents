@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_armour_plastix_19.png
+:image_folder: pre_rolls
+:image_description: A white suit composed of ceramic plates.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a high tech white suit with plates.
+:title_prefix: This toy looks like
+
+:toy_name: Plastix
+:toy_department: Armour
+:toy_wate: 0.14 kg
+:toy_exps: 105
+:toy_value: 7000
+:tech_level: 19
+:toy_info: Defence 800 minimum, restrictiveness 1, -7 on AID
+:toy_xref: armour.adoc#_plastix
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
