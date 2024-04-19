@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_armour_flexion_projectile.png
+:image_folder: pre_rolls
+:image_description: A jacket covered in overlapping scales on a coat hanger.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a trench coat covered in overlapping ceramic scales
+:title_prefix: This armour looks like 
+
+:toy_name: Flexion
+:toy_department: Armour
+:toy_wate: 1.9 kg
+:toy_exps: 334
+:toy_value: 500
+:tech_level: 10
+:toy_info: Defence +150 vs bullets 
+:toy_xref: armour.adoc#_flexion
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
