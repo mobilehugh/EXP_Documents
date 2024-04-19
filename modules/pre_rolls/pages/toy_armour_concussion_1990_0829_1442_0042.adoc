@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_armour_concussion.png
+:image_folder: pre_rolls
+:image_description: A puffy winter jacket hanging on a coat hanger.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a puffy winter jacket
+:title_prefix: This armour looks like 
+
+:toy_name: Concussion
+:toy_department: Armour
+:toy_wate: 2.0 kg
+:toy_exps: 200
+:toy_value: 1200
+:tech_level: 10
+:toy_info: Defence 625 minimum,  half crushing damage 
+:toy_xref: armour.adoc#_concussion
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
