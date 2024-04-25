@@ -1,0 +1,28 @@
+//attributes data for lazer bomb
+
+:image_file: toy_bomb_spherical.png
+:image_folder: pre_rolls
+:image_description: A big metallic sphere.
+:image_artist: Studiostoks
+:image_date: 2015
+:image_size: 1
+
+:title_description: a big black techno sphere
+:title_prefix: This toy looks like
+
+:toy_name: Diffusion
+:toy_department: Bomb
+:toy_wate: 100 kg
+:toy_exps: 700
+:toy_value: 120000
+:tech_level: 10
+:toy_info: 140h radius; 12d8 x 10 damage; terrain hugging lazer wash
+:toy_xref: bombs.adoc#_diffusion_bomb
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

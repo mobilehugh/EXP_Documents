@@ -1,0 +1,28 @@
+//attributes data for lazer bomb
+
+:image_file: toy_bomb_clown_device.png
+:image_folder: pre_rolls
+:image_description: A soft clown doll with dials and a pull string.
+:image_artist: Studiostoks
+:image_date: 2015
+:image_size: 1
+
+:title_description: a not menacing at all clown doll with a pull string
+:title_prefix: This toy looks like
+
+:toy_name: Nuclear Device
+:toy_department: Bomb
+:toy_wate: 50 kg
+:toy_exps: 300
+:toy_value: 100000
+:tech_level: 10
+:toy_info: 200h small/tiny explode or 10d12x10, 300h immolate, 400h blinding, 600h rads
+:toy_xref: bombs.adoc#_nuclear_device
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
