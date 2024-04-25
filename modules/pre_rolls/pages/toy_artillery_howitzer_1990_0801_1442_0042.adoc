@@ -1,0 +1,27 @@
+//attributes data for toy
+
+:image_file: toy_artillery_whaler.png
+:image_folder: pre_rolls
+:image_description: A cannon on tracks with a harpoon sticking out of the barrel.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a cannon with a harpoon sticking out the front
+:title_prefix: This toy looks like
+
+:toy_name: Howitzer
+:toy_department: artillery
+:toy_wate: 278 kg
+:toy_exps: 400
+:toy_value: 50000
+:tech_level: 10
+:toy_info: 1200h range, 12d12, 2d6 radius
+:toy_xref: hardware:artillery.adoc#_howitzer
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
