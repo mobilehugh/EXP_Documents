@@ -1,23 +1,24 @@
 //attributes data for toy
 
-:image_file: toy_artillery_howitzer.png
+:image_file: toy_grenade_mini.png
 :image_folder: pre_rolls
-:image_description: An oversized bolt action rifle mounted on wheels.
+:image_description: A hairy hand holding a handful of hand grenades.
 :image_artist: dolly aimage prompt by HM 
 :image_date: 2024
 :image_size: 1
 
-:title_description: an oversized bolt action rifle mounted on wheels
+:title_description: a tiny hand grenade
 :title_prefix: This toy looks like
 
-:toy_name: Howitzer
-:toy_department: artillery
-:toy_wate: 278 kg
-:toy_exps: 400
-:toy_value: 50000
+:toy_name: Mini 
+:toy_department: grenades
+:toy_wate: 100 gms
+:toy_exps: 170
+:toy_value: 1000
 :tech_level: 10
-:toy_info: 1200h range, 12d12, 2d6 radius
-:toy_xref: artillery.adoc#_howitzer
+:toy_info: 1/4 fling range, 3d6 damage, 3 at once
+:toy_xref: grenades.adoc#_mini_grenade
+
 
 // this checks nature of the include call
 // if being used in a table on a persona record the toy_print_out is supplied
