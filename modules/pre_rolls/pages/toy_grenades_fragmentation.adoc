@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: grenade_loveless.png
+:image_folder: ROOT
+:image_description: A metal pinapple with a pull pin.
+:image_artist: unknown
+:image_date: unknown
+:image_size: 1
+
+:title_description: a frag grenade, but may be a perfume bottle
+:title_prefix: This toy looks like
+
+:toy_name: Fragementation 
+:toy_department: grenades
+:toy_wate: 0.75 kg
+:toy_exps: 175
+:toy_value: 75
+:tech_level: 10
+:toy_info: 1h radius, 5d10
+:toy_xref: grenades.adoc#_fragmentation
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
