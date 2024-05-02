@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_grenade_pin.png
+:image_folder: pre_rolls
+:image_description: An ball covered in push pins and a loop at the top.
+:image_artist: Dolly aimage. prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a sphere full of push pins and loop for hanging on a ceremonial bush
+:title_prefix: This toy looks like
+
+:toy_name: Pin 
+:toy_department: grenades
+:toy_wate: 1 kg
+:toy_exps: 275
+:toy_value: 250
+:tech_level: 10
+:toy_info: 4h radius, 1d10 per pin, intensity 3d6, unconscious 1d4 hours
+:toy_xref: grenades.adoc#_pin
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
