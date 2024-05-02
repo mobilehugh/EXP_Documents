@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_aerosol_molecular.png
+:image_folder: pre_rolls
+:image_description: An aerosol canister.
+:image_artist: Dolly aimage. prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: an aerosol canister
+:title_prefix: This toy is
+
+:toy_name: Diffusion 
+:toy_department: aerosols
+:toy_wate: 2 kg
+:toy_exps: 300
+:toy_value: 2500
+:tech_level: 10
+:toy_info: 10h range, 7h radius, 12d8 damage
+:toy_xref: aerosols.adoc#_molecular_diffusion
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
