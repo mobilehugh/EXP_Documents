@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_guns_lazer_rifle.png
+:image_folder: pre_rolls
+:image_description: A sleek looking rifle.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a bluish rifle with a lens instead of barrel
+:title_prefix: This toy looks like
+
+:toy_name: Lazer Rifle
+:toy_department: guns
+:toy_wate: 3.6 kg
+:toy_exps: 500
+:toy_value: 6000
+:tech_level: 10
+:toy_info: 150h -40 range; 3d10 damage; 3 solid cells 15 shots
+:toy_xref: guns.adoc#_lazer_rifle
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

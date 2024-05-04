@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_gun_gauss_pistol.png
+:image_folder: pre_rolls
+:image_description: A sleek looking pistol.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a bolt action rifle
+:title_prefix: This toy is a 
+
+:toy_name: Gauss Pistol
+:toy_department: guns
+:toy_wate: 1.8 kg
+:toy_exps: 500
+:toy_value: 3000
+:tech_level: 10
+:toy_info: sotto; 100h -55 range; 5d10 damage (XHP); ammo clip 10 shots
+:toy_xref: guns.adoc#_gauss_pistol
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
