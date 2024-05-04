@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_guns_plasma_rifle.png
+:image_folder: pre_rolls
+:image_description: A futuristic looking rifle with batteries.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a rifle with a water chamber and batteries
+:title_prefix: This toy looks like 
+
+:toy_name: Plasma Rifle
+:toy_department: guns
+:toy_wate: 4 kg
+:toy_exps: 700
+:toy_value: 360000
+:tech_level: 10
+:toy_info: 160h -50 range; 4d12 damage; ammo and 3 solar batteries 10 shots
+:toy_xref: guns.adoc#_plasma_rifle
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
