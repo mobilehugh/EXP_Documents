@@ -1,0 +1,27 @@
+//attributes data for toy
+
+:image_file: toy_gun_lazer_pistol_variable_19.png
+:image_folder: pre_rolls
+:image_description: A fancy chonky flashlight. 
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: an oversized heavy flashlight
+:title_prefix: This toy looks like
+
+:toy_name: Variable Lazer Pistol
+:toy_department: guns
+:toy_wate: 0.7 kg
+:toy_exps: 700
+:toy_value: 22500
+:tech_level: 19
+:toy_info: 180h -80 range; flashlight; 2d8 intensity stun; 4d10, 4d8, 3d10 damage; 4 mag cells 20 charges
+:toy_xref: guns.adoc#_variable_lazer_pistol
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
