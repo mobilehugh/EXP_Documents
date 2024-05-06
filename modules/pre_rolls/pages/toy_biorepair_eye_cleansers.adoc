@@ -1,0 +1,28 @@
+//attributes data for lazer bomb
+
+:image_file: toy_biorepair_eye_cleansers.png
+:image_folder: pre_rolls
+:image_description: A pair of opaque swimming goggles. 
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a pair of opaque swimming goggles
+:title_prefix: This toy looks like
+
+:toy_name: Eye Cleanser
+:toy_department: biorepair
+:toy_wate:  0.15 kg
+:toy_exps: 250
+:toy_value: 3000
+:tech_level: 10
+:toy_info: Negate chemical damage. +10 on eye Tasks. single use.
+:toy_xref: biorepair.adoc#_eye_cleanser
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

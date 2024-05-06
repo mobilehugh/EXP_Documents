@@ -1,0 +1,28 @@
+//attributes data for lazer bomb
+
+:image_file: toy_biorepair_fever_control.png
+:image_folder: pre_rolls
+:image_description: A cellophane bag containing a tightly folded metallic blanket.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a cellophane bag containing a tightly folded metallic blanket
+:title_prefix: This toy looks like
+
+:toy_name: Fever Control Blanket
+:toy_department: biorepair
+:toy_wate:  0.05 kg
+:toy_exps: 50
+:toy_value: 150
+:tech_level: 10
+:toy_info: Stable temp from -10 to +40; +10 on bioregulation Tasks; single use
+:toy_xref: biorepair.adoc#_fever_control_blanket
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
