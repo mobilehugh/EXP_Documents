@@ -1,0 +1,27 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_anti_grav_belt.png
+:image_folder: pre_rolls
+:image_description: A belt with a red light and battery.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a belt with a red light and battery
+:title_prefix: This toy looks like
+
+:toy_name: Antigrav Belt
+:toy_department: devices
+:toy_wate:  0.1 kg
+:toy_exps: 375
+:toy_value: 5000
+:tech_level: 10
+:toy_info: holds up trousers using antigrav; 1 dynamo cell unlimited
+:toy_xref: devices.adoc#_anti_grav_belt
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

@@ -1,0 +1,27 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_anti_grav_boot.png
+:image_folder: pre_rolls
+:image_description: A floating high top sneaker.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a floating high top sneaker
+:title_prefix: This toy looks like
+
+:toy_name: Antigrav Boots
+:toy_department: devices
+:toy_wate:  16 kg
+:toy_exps: 250
+:toy_value: 250000
+:tech_level: 10
+:toy_info: travel against gravity; 8 dynamo cells for a day of use
+:toy_xref: devices.adoc#_anti_grav_boots
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
