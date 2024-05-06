@@ -19,12 +19,6 @@
 :toy_info: +10 on stabilzation Task rolls; transport; 10 solid cells for 2 hours
 :toy_xref: biorepair.adoc#_comfy_couch
 
-.*Additional Comfy Couch Accessories*
-* xref:pre_rolls:toy_biorepair_cardio_vest.adoc[Cardio Vest,window=_blank]
-* xref:pre_rolls:toy_biorepair_injury_detector.adoc[Injury Detector,window=_blank]
-* xref:pre_rolls:toy_biorepair_resipirator.adoc[Respirator,window=_blank]
-* xref:pre_rolls:toy_biorepair_stasis_bag.adoc[Stasis Bag,window=_blank]
-
 
 // this checks nature of the include call
 // if being used in a table on a persona record the toy_print_out is supplied
@@ -32,3 +26,10 @@
 ifeval::["{toy_print_out}" != "false"]
 include::pre_rolls:partial$format_toy.adoc[]
 endif::[]
+
+
+.*Additional Comfy Couch Accessories*
+* xref:pre_rolls:toy_biorepair_cardio_vest.adoc[Cardio Vest,window=_blank]
+* xref:pre_rolls:toy_biorepair_injury_detector.adoc[Injury Detector,window=_blank]
+* xref:pre_rolls:toy_biorepair_resipirator.adoc[Respirator,window=_blank]
+* xref:pre_rolls:toy_biorepair_stasis_bag.adoc[Stasis Bag,window=_blank]
