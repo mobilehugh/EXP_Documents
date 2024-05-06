@@ -1,0 +1,28 @@
+//attributes data for lazer bomb
+
+:image_file: toy_biorepair_limb_capper.png
+:image_folder: pre_rolls
+:image_description: A cellophane wrapped soft plastic bowl.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a cellophane wrapped soft bowl with goo
+:title_prefix: This toy looks like
+
+:toy_name: Limb Capper
+:toy_department: biorepair
+:toy_wate:  0.150 kg
+:toy_exps: 50
+:toy_value: 200
+:tech_level: 10
+:toy_info: autoseals amputated limb; +5 on tissue related Tasks
+:toy_xref: biorepair.adoc#_limb_capper
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

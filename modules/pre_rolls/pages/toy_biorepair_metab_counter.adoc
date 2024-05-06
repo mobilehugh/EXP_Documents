@@ -1,0 +1,28 @@
+//attributes data for lazer bomb
+
+:image_file: toy_biorepair_metab_counter.png
+:image_folder: pre_rolls
+:image_description: A small handheld box with sciency dials and screens.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a small handheld box with sciency dials and screens
+:title_prefix: This toy looks like
+
+:toy_name: Metab Counter
+:toy_department: biorepair
+:toy_wate:  1 kg
+:toy_exps: 300
+:toy_value: 25000
+:tech_level: 10
+:toy_info: +15 on Vet Tasks; +10 on Biologist Tasks; 3 mag cells
+:toy_xref: biorepair.adoc#_metab_counter
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

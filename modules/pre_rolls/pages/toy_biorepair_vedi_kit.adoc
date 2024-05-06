@@ -1,0 +1,28 @@
+//attributes data for lazer bomb
+
+:image_file: toy_biorepair_vedi_kit.png
+:image_folder: pre_rolls
+:image_description: A box with bandages and biorepair thingies.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a box with bandages and biorepair ditzels
+:title_prefix: This toy looks like
+
+:toy_name: Vedi Kit
+:toy_department: biorepair
+:toy_wate:  0.150 kg
+:toy_exps: 100
+:toy_value: 215
+:tech_level: 10
+:toy_info: single use quick fix support +20 on trauma Tasks
+:toy_xref: biorepair.adoc#_vedi_kit
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
