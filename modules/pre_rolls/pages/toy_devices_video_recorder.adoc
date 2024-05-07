@@ -1,0 +1,30 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_recorder_video.png
+:image_folder: pre_rolls
+:image_description: A monitor in a box with two hovering camera drones.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a monitor in a box with two hovering camera drones
+:title_prefix: This toy looks like
+
+:toy_name: Video Recorder
+:toy_department: devices
+:toy_wate:  10.6 kg
+:toy_exps: 250
+:toy_value: 29000
+:tech_level: 10
+:toy_info: combined editor recorder detector; detect lies 90%; 3 solar cells
+:toy_xref: devices.adoc#_recorders
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+//additional pre roll toy data goes here
+

@@ -1,23 +1,23 @@
 // attribute data for a  pre-rolled toy
 
-:image_file: toy_devices_adhesive_watch.png
+:image_file: toy_device_kirlian_talisman.png
 :image_folder: pre_rolls
-:image_description: A piece of thick tape with numbers on it.
+:image_description: A an ornate hand sized ornament.
 :image_artist: Dolly aimage prompt HM
 :image_date: 2024
 :image_size: 1
 
-:title_description: a piece of thick tape with numbers on it
+:title_description: a an ornate hand sized ornament
 :title_prefix: This toy looks like
 
-:toy_name: Timepiece
+:toy_name: Kirlian Talisman
 :toy_department: devices
-:toy_wate:  0 kg
-:toy_exps: 50
-:toy_value: 2000
+:toy_wate:  0.42 kg
+:toy_exps: 42
+:toy_value: 4242
 :tech_level: 10
-:toy_info: adheres to skin; times, dates, altitude, etc on the skin
-:toy_xref: devices.adoc#_timepieces
+:toy_info: Knite Talisman; Anti-knite lose 1d4 MIND; +15 knite tasks
+:toy_xref: devices.adoc#_kirlian_talisman
 
 // this checks nature of the include call
 // if being used in a table on a persona record the toy_print_out is supplied
@@ -25,3 +25,6 @@
 ifeval::["{toy_print_out}" != "false"]
 include::pre_rolls:partial$format_toy.adoc[]
 endif::[]
+
+//additional pre roll toy data goes here
+

@@ -1,0 +1,29 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_aerosol_reg.png
+:image_folder: pre_rolls
+:image_description: A thick disk with a dial and nozzle attached.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a thick disk with a dial and nozzle attached
+:title_prefix: This toy looks like
+
+:toy_name: Aerosol Regulator
+:toy_department: devices
+:toy_wate:  0.5 kg
+:toy_exps: 500
+:toy_value: 10000
+:tech_level: 10
+:toy_info: gives aerosol and extra 1d4 uses; +10 on aerosol tasks; One use per canister
+:toy_xref: devices.adoc#_aerosol_regulator
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+//additional pre roll toy data goes here

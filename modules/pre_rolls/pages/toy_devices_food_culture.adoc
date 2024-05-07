@@ -1,23 +1,23 @@
 // attribute data for a  pre-rolled toy
 
-:image_file: toy_devices_adhesive_watch.png
+:image_file: toy_device_food_culture.png
 :image_folder: pre_rolls
-:image_description: A piece of thick tape with numbers on it.
+:image_description: A fungus blob on a stick.
 :image_artist: Dolly aimage prompt HM
 :image_date: 2024
 :image_size: 1
 
-:title_description: a piece of thick tape with numbers on it
+:title_description: a fungus blob on a stick
 :title_prefix: This toy looks like
 
-:toy_name: Timepiece
+:toy_name: Food Culture
 :toy_department: devices
-:toy_wate:  0 kg
-:toy_exps: 50
-:toy_value: 2000
+:toy_wate:  1.5 kg
+:toy_exps: 103
+:toy_value: 5000
 :tech_level: 10
-:toy_info: adheres to skin; times, dates, altitude, etc on the skin
-:toy_xref: devices.adoc#_timepieces
+:toy_info: one anthro days food and water; 6 hours to re-grow
+:toy_xref: devices.adoc#_food_culture
 
 // this checks nature of the include call
 // if being used in a table on a persona record the toy_print_out is supplied
@@ -25,3 +25,5 @@
 ifeval::["{toy_print_out}" != "false"]
 include::pre_rolls:partial$format_toy.adoc[]
 endif::[]
+
+//additional pre roll toy data goes here
