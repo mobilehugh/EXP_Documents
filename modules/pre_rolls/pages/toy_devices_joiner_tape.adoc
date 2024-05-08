@@ -1,0 +1,30 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_joiner_tape.png
+:image_folder: pre_rolls
+:image_description: A roll of duct tape with dials and gauges.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a roll of duct tape with dials and gauges
+:title_prefix: This toy looks like
+
+:toy_name: Joiner Tape
+:toy_department: devices
+:toy_wate:  0.5 kg
+:toy_exps: 100
+:toy_value: 250
+:tech_level: 10
+:toy_info: join things; timed release or join. Single use.
+:toy_xref: devices.adoc#_filters
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+//additional pre roll toy data goes here
+

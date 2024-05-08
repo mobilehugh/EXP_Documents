@@ -1,0 +1,30 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_filter_eyes.png
+:image_folder: pre_rolls
+:image_description: A pair of silvery contact lenses in a circular box.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a pair of silvery contact lenses in a circular box
+:title_prefix: This toy looks like
+
+:toy_name: Eye Filters
+:toy_department: devices
+:toy_wate:  0 kg
+:toy_exps: 250
+:toy_value: 300
+:tech_level: 10
+:toy_info: protect vs blinding attacks, double save roll
+:toy_xref: devices.adoc#_filters
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+//additional pre roll toy data goes here
+

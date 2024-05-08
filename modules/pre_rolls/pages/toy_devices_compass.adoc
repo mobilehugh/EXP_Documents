@@ -1,0 +1,30 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_compass.png
+:image_folder: pre_rolls
+:image_description: A techno-compass with buttons.
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a techno-compass with buttons
+:title_prefix: This toy looks like
+
+:toy_name: Compass
+:toy_department: devices
+:toy_wate:  1.5 kg
+:toy_exps: 10
+:toy_value: 93
+:tech_level: 250
+:toy_info: wayfinding device; +15 on direction tasks; +8 nomad tasks.
+:toy_xref: devices.adoc#_compass
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+//additional pre roll toy data goes here
+

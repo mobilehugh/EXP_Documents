@@ -1,0 +1,30 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_robotic_override.png
+:image_folder: pre_rolls
+:image_description: A high tech pick axe
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a high tech pick axe
+:title_prefix: This toy looks like
+
+:toy_name: Robotic Override
+:toy_department: devices
+:toy_wate:  1 kg
+:toy_exps: 2006
+:toy_value: 994000
+:tech_level: 10
+:toy_info: take over a robot; strike attack
+:toy_xref: devices.adoc#_robotic_override
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+//additional pre roll toy data goes here
+

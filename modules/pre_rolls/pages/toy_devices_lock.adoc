@@ -1,0 +1,30 @@
+// attribute data for a  pre-rolled toy
+
+:image_file: toy_devices_lock.png
+:image_folder: pre_rolls
+:image_description: A bumpy padlock with two bumpy keys
+:image_artist: Dolly aimage prompt HM
+:image_date: 2024
+:image_size: 1
+
+:title_description: a padlock and two keys covered in tiny spheres
+:title_prefix: This toy looks like
+
+:toy_name: Padlock
+:toy_department: devices
+:toy_wate:  1 kg
+:toy_exps: 200
+:toy_value: 10
+:tech_level: 10
+:toy_info: lock things up; +15 Spie task roll when picking same lock
+:toy_xref: devices.adoc#_locks
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+//additional pre roll toy data goes here
+
