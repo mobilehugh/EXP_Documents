@@ -1,0 +1,32 @@
+//attributes data for toy
+
+:image_file: toy_pharma_pills.png
+:image_folder: pre_rolls
+:image_description: Two pills.
+:image_artist: Dolly aimage. Prompt HM.
+:image_date: 2024
+:image_size: 1
+
+:title_description: a black and tan pill
+:title_prefix: Toy looks like
+
+:toy_name: Transgenic Skin
+:toy_department: Pharma
+:toy_wate: nil
+:toy_exps: 300
+:toy_value: 2000000
+:tech_level: 10
+:toy_info: temp phenomic - Skin Structure Change; 2d100 hours; black thatched skin +80 Defence rating.
+:toy_xref: pharma.adoc#_intumescent
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// add additional information here
+
+For more information about the phenomic mutation xref:wetware:phenomics.adoc#_skin_structure_change[skin structure change jump here,window=_blank].

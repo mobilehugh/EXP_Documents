@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_armaments_rocket_launcher.png
+:image_folder: pre_rolls
+:image_description: A large pipe with a trigger and rockets.
+:image_artist: JE Shields 
+:image_date: 2015-2023
+:image_size: 1
+
+:title_description: A large pipe with a trigger and rockets
+:title_prefix: This toy looks like
+
+:toy_name: Rocket Launcher
+:toy_department: Armaments
+:toy_wate: 10 kg
+:toy_exps: 230
+:toy_value: 5000
+:tech_level: 10
+:toy_info:  shoot; 75h -100 range; 5h radius; 6d60 damage; decoys +100 1d4 decoys; 4 round mag
+:toy_xref: armaments.adoc#_rocket_launcher
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

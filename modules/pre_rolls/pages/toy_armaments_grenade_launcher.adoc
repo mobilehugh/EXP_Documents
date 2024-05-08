@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_armaments_grenade_launcher.png
+:image_folder: pre_rolls
+:image_description: A pistol with enormous calibre.
+:image_artist: JE Shields 
+:image_date: 2015-2023
+:image_size: 1
+
+:title_description: A pistol with enormous calibre
+:title_prefix: This toy looks like
+
+:toy_name: Grenade Launcher
+:toy_department: Armaments
+:toy_wate: 1.4 kg
+:toy_exps: 350
+:toy_value: 4500
+:tech_level: 10
+:toy_info:  shoot; 90h -125 range; 3 grenades; 6 mag cells 12 shots 
+:toy_xref: armaments.adoc#_grenade_launcher
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]

@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file: toy_armament_inertia_scimitar.png
+:image_folder: pre_rolls
+:image_description: A scimitar.
+:image_artist: JE Shields 
+:image_date: 2015-2023
+:image_size: 1
+
+:title_description: A scimitar with a battery slot
+:title_prefix: This toy looks like
+
+:toy_name: Inertia Scimitar
+:toy_department: Armaments
+:toy_wate: 2.1 kg
+:toy_exps: 300
+:toy_value: 700
+:tech_level: 10
+:toy_info:  strike; 3d8+10 damage; 2 liq cells 10 hits 
+:toy_xref: armaments.adoc#_intertia_weapon
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
