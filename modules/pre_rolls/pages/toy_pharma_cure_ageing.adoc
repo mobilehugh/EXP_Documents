@@ -1,23 +1,23 @@
 //attributes data for toy
 
-:image_file: toy_pharma_bandage.png
+:image_file: toy_pharma_potion.png
 :image_folder: pre_rolls
-:image_description: A thick plaster bandage.
+:image_description: A bottle of fluid.
 :image_artist: Dolly aimage. Prompt HM.
 :image_date: 2024
 :image_size: 1
 
-:title_description:  thick black and yellow plaster bandage
-:title_prefix: Toy looks like a
+:title_description: a bottle of transparent blue fluid
+:title_prefix: Toy looks like
 
-:toy_name: Heal Resus and Dex
+:toy_name: Cure Ageing
 :toy_department: Pharma
-:toy_wate: nil
-:toy_exps: 100
-:toy_value: 10000
+:toy_wate: 0.1 kgs
+:toy_exps: 300
+:toy_value: 250000
 :tech_level: 10
-:toy_info: resus: negative HPS to 0; restore 3 DEX.
-:toy_xref: pharma.adoc#_heal
+:toy_info: cures any ageing damage; if no damage +10% to life span
+:toy_xref: pharma.adoc#_cure
 
 
 // this checks nature of the include call
