@@ -1,0 +1,31 @@
+//attributes data for toy
+
+:image_file: toy_pharma_lotion.png
+:image_folder: pre_rolls
+:image_description: A lotion tube.
+:image_artist: Dolly aimage. Prompt HM.
+:image_date: 2024
+:image_size: 1
+
+:title_description:  tube of green lotion
+:title_prefix: Toy looks like a
+
+:toy_name: Narcotic
+:toy_department: Pharma
+:toy_wate: nil
+:toy_exps: 100
+:toy_value: 10000
+:tech_level: 10
+:toy_info: Euphoria with outbursts of random inaction; 1d1000 minutes
+:toy_xref: pharma.adoc#_heal
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// add additional information here
+
