@@ -1,0 +1,30 @@
+//attributes data for toy
+
+:image_file: toy_treasure_relic_sweater.png
+:image_folder: pre_rolls
+:image_description: A comfy sweater on a fancy hanger wrapped in clear plastic.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a comfy sweater on a fancy hanger wrapped in clear plastic
+:title_prefix: This toy looks like
+
+:toy_name: Relic Sweater
+:toy_department: treasure
+:toy_wate: 2 kgs
+:toy_exps: 0 
+:toy_value: 65000000
+:tech_level: 10
+:toy_info: comfy sweater of a presently famous media personality
+:toy_xref: treasure.adoc#_relic
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here

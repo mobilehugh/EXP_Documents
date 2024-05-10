@@ -1,0 +1,30 @@
+//attributes data for toy
+
+:image_file: toy_treasure_crystal_diamond.png
+:image_folder: pre_rolls
+:image_description: A diamond.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a diamond
+:title_prefix: This toy looks like
+
+:toy_name: diamond
+:toy_department: treasure
+:toy_wate: 0.1 kg
+:toy_exps: 0
+:toy_value: 250000
+:tech_level: 10
+:toy_info: a diamond
+:toy_xref: treasure.adoc#_crystal
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here

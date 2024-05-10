@@ -1,0 +1,30 @@
+//attributes data for toy
+
+:image_file: toy_pharma_lotion.png
+:image_folder: pre_rolls
+:image_description: A tube of paint.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a tube of green paint
+:title_prefix: This toy looks like
+
+:toy_name: Paint Ornament
+:toy_department: treasure
+:toy_wate: 0.1 kg
+:toy_exps: 0
+:toy_value: 930
+:tech_level: 10
+:toy_info: a tube of cosmetic paint
+:toy_xref: treasure.adoc#_ornament
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
