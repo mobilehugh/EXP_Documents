@@ -1,0 +1,30 @@
+//attributes data for toy
+
+:image_file: toy_junque_livestock_grimble.png
+:image_folder: pre_rolls
+:image_description: An anenome with crab legs holding candy.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: an anenome with crab legs holding candy
+:title_prefix: This toy looks like
+
+:toy_name: Livestock Grimblebay
+:toy_department: Junque
+:toy_wate: nil
+:toy_exps: 42 
+:toy_value: 42
+:tech_level: 10
+:toy_info: tiny anenome with crab legs; bays; eats gum only
+:toy_xref: junque.adoc#_livestock
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here

@@ -1,0 +1,30 @@
+//attributes data for toy
+
+:image_file: toy_junque_whiz_click.png
+:image_folder: pre_rolls
+:image_description: A thing that goes whiz and click.
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a small box with levers and dials and buttons
+:title_prefix: This toy looks like
+
+:toy_name: Fiddle Junk
+:toy_department: Junque
+:toy_wate: nil
+:toy_exps: 42 
+:toy_value: 42
+:tech_level: 10
+:toy_info: a thing that goes whiz and click; Nothings +1 mind saves
+:toy_xref: junque.adoc#_fiddle_junque
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
