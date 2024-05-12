@@ -1,0 +1,48 @@
+//attributes data for toy
+
+:image_file: toy_vehicle_explorations_truck.png
+:image_folder: pre_rolls
+:image_description: A .
+:image_artist: Dolly aimage. Prompt HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a 
+:title_prefix: This toy is
+
+:toy_name: Explorations Truck
+:toy_department: vehicle
+:toy_wate: 7000 kgs
+:toy_exps: 0
+:toy_value: 350000
+:tech_level: 10
+:toy_info: a jet propelled flatbed truck used for mineral exploration
+:toy_xref: vehicle.adoc
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
+
+.*Vehicle Data*
+* FORMAT: Cargo
+** Size: Van
+** Passengers: 2
+** Cargo: 2500 kgs
+* USAGE: Industrial
+* SPEED: 38 h/u (136 kmh)
+* ACCEL: 8 h/u
+* LOCOMOTION: jets
+* MANEUVERABILITY: 7
+* ENGINE/FUEL: liquid (1200 kms)
+* ACCESSORIES
+** HIG reinforced
+** Drill to get samples
+** Sluice box 
+
+// todo 1 robots, vacsuits etc

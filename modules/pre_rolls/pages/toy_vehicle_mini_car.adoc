@@ -1,0 +1,47 @@
+//attributes data for toy
+
+:image_file: vehicle_fnord_full.png
+:image_folder: ROOT
+:image_description: A two door tracked vehicle.
+:image_artist: Mike Jackson 
+:image_date: 1991
+:image_size: 1
+
+:title_description: a two door tracked vehicle
+:title_prefix: This toy is
+
+:toy_name: Mini Car
+:toy_department: vehicle
+:toy_wate: 600 kgs
+:toy_exps: 0
+:toy_value: 30000
+:tech_level: 10
+:toy_info: a recreational leisure vehicle
+:toy_xref: vehicle.adoc
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
+
+.*Vehicle Data*
+* FORMAT: Leisure
+** Size: mini
+** Passengers: 4
+** Cargo: 60 kgs
+* USAGE: Recreational
+* SPEED: 45 h/u (162 kmh)
+* ACCEL: 5 h/u
+* LOCOMOTION: tracks
+* MANEUVERABILITY: 4
+* ENGINE/FUEL: gaseous (1600 kms)
+* ACCESSORIES
+** four sided awning
+** too many lights
+
+// todo 1 robots, vacsuits etc
