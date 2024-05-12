@@ -1,0 +1,106 @@
+//attributes data for toy
+
+:image_file: spacevehicle_deep_space.png
+:image_folder: ROOT
+:image_description: A smallish space vehicle.
+:image_artist: Patrick Redding 
+:image_date: 1991
+:image_size: 1
+
+:title_description: a smallish space vehicle
+:title_prefix: This toy is a
+
+:toy_name: Long Range Traveller
+:toy_department: spacecraft
+:toy_wate: 5 tonnes
+:toy_exps: 0
+:toy_value: 5168126000
+:tech_level: 10
+:toy_info: a space ship for carrying one anthro
+:toy_xref: spacecraft.adoc
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
+
+.*Spacecraft Data*
+* *HULL*
+** Size: 5 tonnes
+** Comp: Smart Metal
+** Strength: 1100
+* *DRIVES*
+** Exatmo level 6 (Gravetics)
+** Inatmo level 3 (Antigrav)
+** Special level 10 (time slip)
+* *FUEL*
+** Type Solid
+** Storage 19 months
+** Wate 0.85 tonnes
+* *COMPUTER*
+** level 10
+** Wate 0.5 tonnes
+* *SOFTWARE*
+** Crew 
+*** Astrogation
+*** Gunnery
+*** Medical
+*** Pilot
+** Operations
+*** Anti-hijack
+*** Armada
+*** Brig
+*** Cammo
+*** Maneuvers
+*** Surveillance
+** Miscellaneous
+*** Administration
+*** Banking
+*** Book Reader
+*** Chapel
+*** Communications
+*** Detectors
+*** Diplomacy
+*** Entertainment
+*** Etiquette
+*** Forensics
+*** Fuel Control
+*** Library 
+*** Mapping
+*** Medical
+*** Mechanicals
+*** Veterinary
+*** Navigation 
+*** Weapons
+*** Translation
+*** Xenobiology
+* *DEFENSIVE*
+. Life Support
+. Gravity
+. Armour
+. ECM
+* *OFFENSIVE*
+. Boarding
+. Ramming  
+* *CREW*
+** Mechanic
+
+.*Space Allotment*
+* Remaining 1.85 tonnes
+* Lock (inatmo only)
+* Cargo 1 tonne
+
+.*Equipment*
+* OSHA
+* Food Machine
+* Gravity Couch
+* Vacsuit Industrial 
+* Robot - Datalyzer
+
+
+// todo 1 robots, vacsuits etc

@@ -1,0 +1,131 @@
+//attributes data for toy
+
+:image_file: spacevehicle_QE_lots.png
+:image_folder: ROOT
+:image_description: An enormous space vehicle.
+:image_artist: Mike Jackson 
+:image_date: 1991
+:image_size: 1
+
+:title_description: an enormous space vehicle
+:title_prefix: This toy is a
+
+:toy_name: Luxury Troop Transport
+:toy_department: spacecraft
+:toy_wate: >4300 tonnes
+:toy_exps: 0
+:toy_value: 303262000000
+:tech_level: 10
+:toy_info: a space ship for carrying lots of anthros
+:toy_xref: spacecraft.adoc
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
+
+.*Spacecraft Data*
+* *HULL*
+** Size: 4300 tonnes
+** Comp: Alloy
+** Strength: 1500
+* *DRIVES*
+** Exatmo level 7 (Gravetics)
+** Inatmo level 7 (Propellers)
+** Special level 4 (warp)
+* *FUEL*
+** Type Solid
+** Storage 12 months
+** Wate 473 tonnes
+* *COMPUTER*
+** level 8
+** Wate 344 tonnes
+* *SOFTWARE*
+** Crew 
+*** Astrogation
+*** Mechanical
+*** Relations
+** Operations
+*** Anti-hijack
+*** Brig
+*** Gun Control
+*** Mimic
+*** Surveillance
+** Miscellaneous
+*** Administration
+*** Appraisals
+*** Book Reader
+*** Entertainment
+*** Fuel Control
+*** Law
+*** Library 
+*** Mapping
+*** Medical
+*** Mechanicals
+*** Veterinary
+*** Navigation 
+*** Robot Control
+*** Translation
+*** Xenobiology
+* *DEFENSIVE*
+. Life Support
+. Gravity
+. Armour
+. ECM
+* *OFFENSIVE*
+. Boarding
+. Ramming
+. ECM
+. Artillery 
+* *CREW*
+** Pilot
+** Astrogator
+** Mechanic
+** Gunner
+** Doctor
+** Steward
+** Administrator
+
+.*Space Allotment*
+* Remaining 1209 tonnes
+* Datalocks 80
+* Airlocks 5 internal
+* Airlocks 10 external
+* Cabins 200
+* Cabins Luxury 5
+* Cargo Airlock 1 (500 tonnes)
+* Cargo Lock 1 (100 tonnes)
+* Cargo Space 900 tonnes
+* Cold Storage 20 units
+* Corridors 50 hexes
+* Locks 50
+* Recreation Center
+* Work spaces 20
+
+.*Equipment*
+* OSHA
+* Food Machine
+* Gravity Couches 15
+* Life Bloats 25
+* Sick Bay
+* Vacsuits Civilian 215
+* Vacsuits Industrial 5
+* Vacsuit Military 20
+* Spacecraft - Long Range Traveller
+* Vehicle - Hypertaxi
+* Robot - Datalyzer
+* Robot - Combot
+* Robot - Maintenance 
+* Robot - Relations
+
+// todo 4 robots, vacsuits etc
+
+
+
+
+
