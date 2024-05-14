@@ -23,15 +23,7 @@ The shape of the alien persona fits into the alien size previously generated.
 If the alien size is small, the assembled alien will be small. 
 An alien with a wate of 10kg and a tiger torso would have a proportionally scaled-down tiger torso.
 
-== Alien Description Checklist
-. Head Part
-.. <<_alien_head_adornment,Alien Head Adornment>> (optional)
-. Torso Part
-.. <<_alien_torso_adornment,Alien Torso Adornment>> (optional)
-. Arms Part
-.. <<_alien_arms_adornment,Alien Arms Adornment>>(optional)
-. Legs Part
-. Coat and Colour
+== Introduction
 
 The player generates a head, torso, arms and legs.
 Each body part represents the shape of each animal. 
@@ -40,7 +32,7 @@ For example, a scorpion torso would not be poisonous.
 The body part may not even have the same colour or coat texture of the animal type.
 The body parts' mash-up determines the alien's shape and her movement rate.
 
-== Terrain Types
+== Terrain Parts
 Each alien body part has some lowercase letters in parenthesis beside it.
 These are the alien's terrain types and determine the alien's movement rate in different terrain. 
 Goose (law) indicates the body part is shaped like a goose's and works well on land, water and air. 
@@ -61,25 +53,25 @@ include::ROOT:partial$articulate.adoc[]
 * lynx (l)
 * manta ray (w)
 
-=== Head Part
+=== Head
 The alien's head part _usually_ stores the alien's brain and sensors.
 The head is _usually_ located at the front of the alien.
 Record the terrain types (l, a, w, s) associated with the head part.
-The player may add an optional <<_alien_head_adornment,Alien Head Adornment>> later.
+The player may add an optional <<_head_adornment,Head Adornment>> later.
 
-=== Torso Part
+=== Torso
 The alien's torso part _usually_ stores the alien's vital organs.
 The part does not indicate the types of vital organs, but they are most likely in the torso.
 Record the terrain types (l, a, w, s) associated with the torso part.
-The player may add an optional <<_alien_torso_adornment,Alien Torso Adornment>> later.
+The player may add an optional <<_torso_adornment,Torso Adornment>> later.
 
-=== Arms Part
+=== Arms
 The alien's arms part _usually_ indicates the alien's front limbs and articulators.
 The arms part does not affect whether the alien is a tool user or not.
 Record the terrain types (l, a, w, s) associated with the arms part.
-The player may add optional <<_alien_arms_adornment,Alien Arms Adornment>> later.
+The player may add optional <<_arms_adornment,Arms Adornment>> later.
 
-=== Legs Part
+=== Legs
 The legs part _usually_ indicates the primary way the alien moves.
 Record the terrain types (l, a, w, s) associated with the legs part.
 The legs part does not solely determine alien locomotion.
@@ -97,7 +89,7 @@ Adornments are entirely descriptive.
 Adornments do not detract from or add any abilities to the alien. 
 The player chooses the details (amount and size) of the adornments. 
 
-=== Alien Head Adornment
+=== Head Adornment
 
 :art: alien_head_adornment.png
 :width: 250px
@@ -111,20 +103,20 @@ include::ROOT:partial$articulate.adoc[]
 
 include::aliens:partial$alien_shape_head_adornment.adoc[]
 
-=== Alien Torso Adornment
+=== Torso Adornment
 
 include::aliens:partial$alien_shape_torso_adornment.adoc[]
 
-=== Alien Arms Adornment
+=== Arms Adornment
 
 include::aliens:partial$alien_shape_arm_adornment.adoc[]
 
-== Alien Coat
+== Coat
 The aliens need not appear as a patchwork of feathers, hide and fur.
 Most players will choose a single coat type for their alien.
 This covering can be chosen from any of the four parts or created de novo.
 
-== Alien Coat Colour
+== Coat Colour
 The aliens need not appear as a patchwork of diverse colours.
 Most players will choose a single coat colour for their alien.
 This covering can be chosen from any of the four parts or created de novo.
@@ -149,7 +141,7 @@ An alien with no body parts would be a gaseous or blob entity.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Shape and Tool Use
+== Tool Use
 The arms part has no bearing on whether the alien is a tool user or not. 
 The society elements determine tool use, not the alien's shape.
 An alien with opposable thumbs may not recognize a tool at all.
@@ -160,7 +152,7 @@ The society elements determine tool use, not the alien's shape.
 An alien with no obvious tool using appendages will still be a tool user.
  Flippers, hooves, or fins adapt to tool use, or the tools adapt to flippers hooves or fins.
 
-== Shape and Proportions
+== Proportions
 Each body part is proportional to the other body parts in the description.
 The alien's size attribute (Small, Medium, Large, etc.) determines the alien size, not her body parts.
 A mosquito head part combined with a bear torso part would have matching sizes.
@@ -174,7 +166,7 @@ A giraffe head part combined with a sperm whale torso part would still be tiny.
 The alien looks like a square blubbery body with a giraffe head on a long neck.
 The whole abomination is about the size of a german shepherd. 
 
-== Shape and Biology
+== Biology
 This section is yet another reiteration that the alien parts represent shape, not function.
 Don't let scientific knowledge get in the way of fun and storytelling.
 
@@ -191,7 +183,7 @@ The alien's internal composition consists of alien biology unlike biology on mun
 Fantastical artifacts have sciency fiction  _black box_ technomagical explanations.
 Alien biology also enjoys this _black box_ explanation.
 
-== Shape and Movement
+== Movement
 Alien shape and Dexterity score determines its movement rate.
 The alien's Dexterity score will determine her base movement rate. 
 The alien's shape indicates which terrain types the alien is capable of moving on.
