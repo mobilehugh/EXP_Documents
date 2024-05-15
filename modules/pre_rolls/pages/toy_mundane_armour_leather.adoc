@@ -1,24 +1,23 @@
 //attributes data for toy
 
-:image_file: toy_materiel_spare_part_02.png
+:image_file: toy_mundane_armour_leather.png
 :image_folder: pre_rolls
-:image_description: A piece of equipment with no obvious use
+:image_description: A suit of ornate leather armour.
 :image_artist: Dolly aimage. Prompt HM 
 :image_date: 2024
 :image_size: 1
 
-:title_description: a piece of equipment with no obvious use
+:title_description: a suit of ornate leather armour
 :title_prefix: This toy looks like
 
-:toy_name: Spare Part for Tracks
-:toy_department: Materiel
-:toy_wate: nil
+:toy_name: Leather Armour
+:toy_department: Mundane
+:toy_wate: 3 kg
 :toy_exps: 42
-:toy_value: 42
+:toy_value: 5
 :tech_level: 10
-:toy_info: 1 spare part for a vehicle track locomotion
-:toy_xref: materiel.adoc#_spare_parts
-
+:toy_info: +50 DEF; 
+:toy_xref: mundane.adoc#_body_armour
 
 // this checks nature of the include call
 // if being used in a table on a persona record the toy_print_out is supplied

@@ -1,23 +1,23 @@
 //attributes data for toy
 
-:image_file: toy_materiel_spare_part_02.png
+:image_file: toy_mundane_weapon_cross_bow.png
 :image_folder: pre_rolls
-:image_description: A piece of equipment with no obvious use
+:image_description: A cross bow with a scope.
 :image_artist: Dolly aimage. Prompt HM 
 :image_date: 2024
 :image_size: 1
 
-:title_description: a piece of equipment with no obvious use
+:title_description: a cross bow with a scope
 :title_prefix: This toy looks like
 
-:toy_name: Spare Part for Tracks
-:toy_department: Materiel
-:toy_wate: nil
+:toy_name: Bow
+:toy_department: Mundane
+:toy_wate: 1.35 kg
 :toy_exps: 42
-:toy_value: 42
+:toy_value: 170
 :tech_level: 10
-:toy_info: 1 spare part for a vehicle track locomotion
-:toy_xref: materiel.adoc#_spare_parts
+:toy_info: crossbow with 1d20 bolts; shoot; 45h -100 range; 1d10 damage
+:toy_xref: mundane.adoc#_shoot_weapons
 
 
 // this checks nature of the include call
@@ -28,3 +28,18 @@ include::pre_rolls:partial$format_toy.adoc[]
 endif::[]
 
 // put random stuff here
+
+Bow, small
+	
+
+0.95
+	
+
+1d6
+	
+
+30
+	
+
+None
+
