@@ -1,0 +1,31 @@
+//attributes data for toy
+
+:image_file: toy_materiel_manual_instruction.png
+:image_folder: pre_rolls
+:image_description: A spiral bound book with technical writing in it.
+:image_artist: Dolly aimage. Prompt HM 
+:image_date: 2024
+:image_size: 1
+
+:title_description: a spiral bound book with technical writing in it
+:title_prefix: This toy looks like
+
+:toy_name: Repair Manual for an Inertia Scimitar
+:toy_department: Materiel
+:toy_wate: nil
+:toy_exps: 42
+:toy_value: 42
+:tech_level: 10
+:toy_info: 1 full repair manual for an Inertia Scimitar
+:toy_xref: materiel.adoc#_manuals
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
+To find out more about a pharma analyer xref:hardware:armaments.adoc#_intertia_weapon[Inertia Scimitar, window=_blank]

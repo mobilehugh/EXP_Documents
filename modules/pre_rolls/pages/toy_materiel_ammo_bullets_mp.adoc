@@ -1,0 +1,30 @@
+//attributes data for toy
+
+:image_file: spent.png
+:image_folder: ROOT
+:image_description: Two shell casings.
+:image_artist: JE Shields. JE Shields Stock Art. 
+:image_date: 2021
+:image_size: 1
+
+:title_description: a pile of bullets
+:title_prefix: This toy looks like
+
+:toy_name: Ammo Low Powered
+:toy_department: Materiel
+:toy_wate: nil
+:toy_exps: 42
+:toy_value: 42
+:tech_level: 10
+:toy_info: 10d100 rounds for any low powered (LP) pistol or rifle.
+:toy_xref: materiel.adoc#_ammunition
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
+
+// put random stuff here
