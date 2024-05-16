@@ -29,13 +29,14 @@
 
 // limited to three toys, each line separate 
 
-include::pre_rolls:page${item_1}[]
+include::pre_rolls:example${item_1}[]
 
 ifeval::["{item_1}" != "toy__null.adoc"]
 [width="100%",cols="5*<", frame="none", grid ="rows",  role="no-striping"]
+
 |===
 2+|{title_description}
-2+|xref:pre_rolls:{item_1}[{toy_name}]<- link info
+2+|xref:{toy_department}#{item_1}[{toy_name}]<- link info
 |{toy_wate}
 |===
 endif::[]
