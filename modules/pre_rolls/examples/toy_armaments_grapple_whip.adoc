@@ -19,12 +19,5 @@
 :toy_info: fling attach; 1 h range; 1d4+1 damage; grapple target
 :toy_xref: armaments.adoc#_grapple_whip
 
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
 
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-//additional pre roll toy data goes here
 

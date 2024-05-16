@@ -19,10 +19,3 @@
 :toy_info: 8hg radius 2h deep foam deposit, hardens in 4 minutes
 :toy_xref: aerosols.adoc#_foam
 
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]

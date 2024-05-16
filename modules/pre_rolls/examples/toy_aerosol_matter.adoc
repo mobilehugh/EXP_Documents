@@ -19,9 +19,3 @@
 :toy_info: 12h radius, 1d4 minutes, detect invisible, +65 attack roll
 :toy_xref: aerosols.adoc#_matter_detector
 
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
