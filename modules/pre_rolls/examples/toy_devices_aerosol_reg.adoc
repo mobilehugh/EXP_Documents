@@ -18,12 +18,4 @@
 :tech_level: 10
 :toy_info: gives aerosol and extra 1d4 uses; +10 on aerosol tasks; One use per canister
 :hardware_xref: devices.adoc#_aerosol_regulator
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-//additional pre roll toy data goes here
+:toy_xref: toy_devices_.adoc#_aerosol_regulator

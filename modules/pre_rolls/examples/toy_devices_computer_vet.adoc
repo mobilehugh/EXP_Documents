@@ -18,13 +18,5 @@
 :tech_level: 10
 :toy_info: +3d10 on Vet task rolls. 3 solar cells
 :hardware_xref: devices.adoc#_computers
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-//additional pre roll toy data goes here
+:toy_xref: toy_devices_.adoc#_veterinarian_computer
 

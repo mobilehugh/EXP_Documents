@@ -18,10 +18,4 @@
 :tech_level: 10
 :toy_info: holds up trousers using antigrav; 1 dynamo cell unlimited
 :hardware_xref: devices.adoc#_anti_grav_belt
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_devices_.adoc#_antigrav_belt
