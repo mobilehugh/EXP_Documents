@@ -10,7 +10,7 @@
 :toy_description: a bottle of brackish fluid
 :toy_description_prefix: Toy looks like
 
-:toy_name: Altergenic Heat Generation
+:toy_name: Altergenic Heater
 :toy_department: Pharma
 :toy_wate: 0.1 kgs
 :toy_exps: 300
@@ -18,15 +18,6 @@
 :tech_level: 10
 :toy_info: permanent phenomic; Heat Generation, green skin; CON+level range; 3d6+level damage heat blast
 :hardware_xref: pharma.adoc#_altergenic
+:toy_xref: toy_pharma_.adoc#_altergenic_heater
 
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// add additional information here
-
-For more information about the phenomic mutation xref:wetware:phenomics.adoc#_heat_generation[skin structure change jump here,window=_blank].
+//For more information about the phenomic mutation xref:wetware:phenomics.adoc#_heat_generation[skin structure change jump here,window=_blank].

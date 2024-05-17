@@ -10,7 +10,7 @@
 :toy_description:  thick black and yellow plaster bandage
 :toy_description_prefix: Toy looks like a
 
-:toy_name: Heal Resus and Dex
+:toy_name: Heal Resus Dex
 :toy_department: Pharma
 :toy_wate: nil
 :toy_exps: 100
@@ -18,14 +18,5 @@
 :tech_level: 10
 :toy_info: resus: negative HPS to 0; restore 3 DEX.
 :hardware_xref: pharma.adoc#_heal
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// add additional information here
+:toy_xref: toy_pharma_.adoc#_heal_resus_dex
 

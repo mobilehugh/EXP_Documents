@@ -10,7 +10,7 @@
 :toy_description: a cross bow with a scope
 :toy_description_prefix: This toy looks like
 
-:toy_name: Bow
+:toy_name: Cross Bow
 :toy_department: Mundane
 :toy_wate: 1.35 kg
 :toy_exps: 42
@@ -18,14 +18,5 @@
 :tech_level: 10
 :toy_info: crossbow with 1d20 bolts; shoot; 45h -100 range; 1d10 damage
 :hardware_xref: mundane_equipment.adoc#_shoot_weapons
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// put random stuff here
+:toy_xref: toy_mundane_.adoc#_cross_bow
 

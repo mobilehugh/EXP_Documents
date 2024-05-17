@@ -18,14 +18,5 @@
 :tech_level: 10
 :toy_info: bow with 1d20 arrows; fling; 15h -100 range; 1d6 damage; don't load like this hilarious AI error
 :hardware_xref: mundane_equipment.adoc#_fling_weapons
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// put random stuff here
+:toy_xref: toy_mundane_.adoc#_bow
 

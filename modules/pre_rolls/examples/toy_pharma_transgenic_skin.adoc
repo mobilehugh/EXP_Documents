@@ -18,15 +18,6 @@
 :tech_level: 10
 :toy_info: temp phenomic - Skin Structure Change; 2d100 hours; black thatched skin +80 Defence rating.
 :hardware_xref: pharma.adoc#_transgenic
+:toy_xref: toy_pharma_.adoc#_transgenic_skin
 
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// add additional information here
-
-For more information about the phenomic mutation xref:wetware:phenomics.adoc#_skin_structure_change[skin structure change jump here,window=_blank].
+// For more information about the phenomic mutation xref:wetware:phenomics.adoc#_skin_structure_change[skin structure change jump here,window=_blank].
