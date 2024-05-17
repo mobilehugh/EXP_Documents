@@ -18,11 +18,4 @@
 :tech_level: 10
 :toy_info: +15 on Vet Tasks; +10 on Biologist Tasks; 3 mag cells
 :hardware_xref: biorepair.adoc#_metab_counter
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_biorepair.adoc#_metab_counter
