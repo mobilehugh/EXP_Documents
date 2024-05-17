@@ -10,21 +10,12 @@
 :toy_description: a pile of bullets
 :toy_description_prefix: This toy looks like
 
-:toy_name: Ammo Low Powered
+:toy_name: Ammo Extra High Powered
 :toy_department: Materiel
 :toy_wate: nil
 :toy_exps: 42
 :toy_value: 42
 :tech_level: 10
-:toy_info: 10d100 rounds for any low powered (LP) pistol or rifle.
+:toy_info: 10d100 rounds for any extra high powered (XHP) pistol or rifle.
 :hardware_xref: materiel.adoc#_ammunition
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// put random stuff here
+:toy_xref: toy_materiel_.adoc#_ammo_extra_high_powered

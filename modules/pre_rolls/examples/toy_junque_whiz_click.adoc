@@ -18,13 +18,4 @@
 :tech_level: 10
 :toy_info: a thing that goes whiz and click; Nothings +1 mind saves
 :hardware_xref: junque.adoc#_fiddle_junque
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// put random stuff here
+:toy_xref: toy_junque_.adoc#fiddle_junk

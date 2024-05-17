@@ -10,7 +10,7 @@
 :toy_description: a piece of equipment with no obvious use
 :toy_description_prefix: This toy looks like
 
-:toy_name: Spare Part for a Howitzer
+:toy_name: Spare Part of Howitzer
 :toy_department: Materiel
 :toy_wate: nil
 :toy_exps: 42
@@ -18,14 +18,7 @@
 :tech_level: 10
 :toy_info: 1 spare part for a howitzer
 :hardware_xref: materiel.adoc#_spare_parts
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_materiel_.adoc#_spare_part_of_howitzer
 
 // put random stuff here
-To find out more about a pharma analyer xref:hardware:artillery.adoc#_howizer[Howitzer, window=_blank]
+// To find out more about howitzers xref:hardware:artillery.adoc#_howizer[Howitzer, window=_blank]

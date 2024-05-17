@@ -10,7 +10,7 @@
 :toy_description: a soft cover colouring book
 :toy_description_prefix: This toy looks like
 
-:toy_name: Book
+:toy_name: Colouring Book
 :toy_department: Junque
 :toy_wate: nil
 :toy_exps: 42 
@@ -18,13 +18,4 @@
 :tech_level: 10
 :toy_info: blank colouring book; Nothing +1 art tasks
 :hardware_xref: junque.adoc#_books
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// put random stuff here
+:toy_xref: toy_junque_.adoc#_colouring_book

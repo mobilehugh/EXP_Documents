@@ -18,13 +18,4 @@
 :tech_level: 10
 :toy_info: 10d10 liquid based battery cells.
 :hardware_xref: materiel.adoc#_cells
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// put random stuff here
+:toy_xref: toy_materiel_.adoc#_battery_liquid_cell
