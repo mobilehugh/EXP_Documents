@@ -18,10 +18,4 @@
 :tech_level: 19
 :toy_info: 180h -80 range; flashlight; 2d8 intensity stun; 4d10, 4d8, 3d10 damage; 4 mag cells 20 charges
 :hardware_xref: guns.adoc#_variable_lazer_pistol
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_guns_.adoc#_variable_lazer_pistol_19

@@ -18,10 +18,4 @@
 :tech_level: 10
 :toy_info: sotto-3; 110h -44 range; 4d12 damage (XHP); ammo mag 25 shots
 :hardware_xref: guns.adoc#_semi_auto_rifle
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_guns_.adoc#_sotto_rifle

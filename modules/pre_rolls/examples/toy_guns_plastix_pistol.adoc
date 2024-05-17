@@ -18,11 +18,4 @@
 :tech_level: 10
 :toy_info: sotto-3; 35h -40 range; 2d10 damage (XLP); special vs plastix armour; ammo cylinder 10 shots
 :hardware_xref: guns.adoc#_plastix_pistol
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_guns_.adoc#_plastix_pistol

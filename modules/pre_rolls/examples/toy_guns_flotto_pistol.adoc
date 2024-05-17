@@ -18,10 +18,4 @@
 :tech_level: 10
 :toy_info: flotto; 60h -70 range; 2d8 damage; 1 mag 15 shots
 :hardware_xref: guns.adoc#_full_auto_pistol
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_guns_.adoc#_flotto_pistol

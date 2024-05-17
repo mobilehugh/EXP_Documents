@@ -18,11 +18,4 @@
 :tech_level: 25
 :toy_info: 3h radius, 5d8 then 2d10 for 1d8 units of burn
 :hardware_xref: grenades.adoc#_corrosive
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_grenades_.adoc#_corrosive_25
