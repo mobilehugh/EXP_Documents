@@ -18,13 +18,10 @@
 :tech_level: 10
 :toy_info: auto enmeshes persona that gets into it
 :hardware_xref: biomech.adoc
+:toy_xref: toy_armour_.adoc#_powered_biomech
 
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
+////
+following is additional stuff placed right on toy_armour_.adoc due to technical limitations
 
 An auto surgeon will enmesh the persona with the biomech suit.
 The persona's physiology and the biomech armour become intimately integrated. 
@@ -54,6 +51,7 @@ Designed for any anthro persona.
 * Leg, Right
 ** 1 accessory point
 ** 2 storage compartments (1/2 WA each)
+ //// 
 
 
 
@@ -65,9 +63,3 @@ Designed for any anthro persona.
 
 
 
-
-
-
-
-
-endif::[]

@@ -18,11 +18,4 @@
 :tech_level: 19
 :toy_info: Defence 800 minimum, restrictiveness 1, -7 on AID
 :hardware_xref: armour.adoc#_plastix
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_armour_.adoc#_plastix_19

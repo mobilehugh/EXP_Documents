@@ -1,6 +1,6 @@
 //attributes data for toy
 
-:image_file: toy_armour_force_field_2.png
+:image_file: toy_armour_force_field.png
 :image_folder: pre_rolls
 :image_description: Thick electric belt with fanny pack.
 :image_artist: dolly aimage prompt by HM 
@@ -10,19 +10,12 @@
 :toy_description: a thick electric belt with fanny pack
 :toy_description_prefix: Looks like
 
-:toy_name: Force Field
+:toy_name: Force Field 125
 :toy_department: Armour
 :toy_wate: 0.75 kg
 :toy_exps: 500
-:toy_value: 15000
+:toy_value: 600000
 :tech_level: 10
-:toy_info: Absorb 75 HPS per 1 magnetic cell set
+:toy_info: Absorb 125 HPS per 3 plasmoid cell set
 :hardware_xref: armour.adoc#_force_field
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_armour_.adoc#_force_field_125

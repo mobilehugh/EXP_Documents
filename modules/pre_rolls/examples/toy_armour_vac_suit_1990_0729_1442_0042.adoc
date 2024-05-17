@@ -10,7 +10,7 @@
 :toy_description: an overly thick matte black jump suit
 :toy_description_prefix: Looks like
 
-:toy_name: Military Vac Suit
+:toy_name: Vac Suit Military
 :toy_department: Armour
 :toy_wate: 15 kg
 :toy_exps: 350
@@ -18,11 +18,4 @@
 :tech_level: 10
 :toy_info: DEF 700. 6 day exatmo survival, lazer comms
 :hardware_xref: armour.adoc#_vac_suit
-
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
+:toy_xref: toy_armour_.adoc#_vac_suit_military
