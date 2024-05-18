@@ -2,13 +2,393 @@
 
 Pre rolls for space passage.
 
-include::toy_spacecraft_hyper_taxi.adoc[]
+include::pre_rolls:example$toy_spacecraft_hyper_taxi.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
 
-include::toy_spacecraft_long_range_traveller.adoc[]
+.*Hyper Taxi Data*
+* *HULL*
+** Size: 10 tonnes
+** Comp: Alloy
+** Strength: 1100
+* *DRIVES* - spaceship
+** Exatmo level 6 (Gravetics)
+** Inatmo level 9 (Antigrav)
+* *FUEL*
+** Type Liquid
+** Storage 15 months
+** Wate 1.5 tonnes
+* *COMPUTER*
+** level 8
+** Wate 0.8 tonnes
+* *SOFTWARE*
+** Crew 
+*** Astrogation
+*** Mechanical
+*** Relations
+*** Pilot
+** Operations
+*** Anti-hijack
+*** Brig
+*** Maneuvers
+** Miscellaneous
+*** Communications
+*** Entertainment
+*** Navigation 
+*** Translation
+* *DEFENSIVE*
+. Life Support
+. Gravity
+. Armour
+* *OFFENSIVE*
+. Boarding
+* *CREW*
+** Pilot
+** Steward
 
-include::toy_spacecraft_luxury_transport.adoc[]
+.*Space Allotment*
+* Remaining 7.2 tonnes
+* Airlock 1
+* Cabins 5
+* Cargo Space 1 tonne
+* Corridors 6h
+* Workspaces 2
 
-include::toy_spacecraft_long_ore_carrier.adoc[]
+.*Equipment*
+* OSHA
+* Life bloat 3
+* Vacsuit Civilian 16 
+* Robot - Relations
 
-include::toy_spacecraft_police_boat.adoc[]
+
+include::pre_rolls:example$toy_spacecraft_long_range_traveller.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
+
+.*Long Range Traveller Data*
+* *HULL*
+** Size: 5 tonnes
+** Comp: Smart Metal
+** Strength: 1100
+* *DRIVES* - starship
+** Exatmo level 6 (Gravetics)
+** Inatmo level 3 (Antigrav)
+** Special level 10 (time slip)
+* *FUEL*
+** Type Solid
+** Storage 19 months
+** Wate 0.85 tonnes
+* *COMPUTER*
+** level 10
+** Wate 0.5 tonnes
+* *SOFTWARE*
+** Crew 
+*** Astrogation
+*** Gunnery
+*** Medical
+*** Pilot
+** Operations
+*** Anti-hijack
+*** Armada
+*** Brig
+*** Cammo
+*** Maneuvers
+*** Surveillance
+** Miscellaneous
+*** Administration
+*** Banking
+*** Book Reader
+*** Chapel
+*** Communications
+*** Detectors
+*** Diplomacy
+*** Entertainment
+*** Etiquette
+*** Forensics
+*** Fuel Control
+*** Library 
+*** Mapping
+*** Medical
+*** Mechanicals
+*** Veterinary
+*** Navigation 
+*** Weapons
+*** Translation
+*** Xenobiology
+* *DEFENSIVE*
+. Life Support
+. Gravity
+. Armour
+. ECM
+* *OFFENSIVE*
+. Boarding
+. Ramming  
+* *CREW*
+** Mechanic
+
+.*Space Allotment*
+* Remaining 1.85 tonnes
+* Lock (inatmo only)
+* Cargo 1 tonne
+
+.*Equipment*
+* OSHA
+* Food Machine
+* Gravity Couch
+* Vacsuit Industrial 
+* Robot - Datalyzer
+
+
+include::pre_rolls:example$toy_spacecraft_luxury_transport.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
+
+.*Luxury Troop Transport Data*
+* *HULL*
+** Size: 4300 tonnes
+** Comp: Alloy
+** Strength: 1500
+* *DRIVES* - starship
+** Exatmo level 7 (Gravetics)
+** Inatmo level 7 (Propellers)
+** Special level 4 (warp)
+* *FUEL*
+** Type Solid
+** Storage 12 months
+** Wate 473 tonnes
+* *COMPUTER*
+** level 8
+** Wate 344 tonnes
+* *SOFTWARE*
+** Crew 
+*** Astrogation
+*** Mechanical
+*** Relations
+** Operations
+*** Anti-hijack
+*** Brig
+*** Gun Control
+*** Mimic
+*** Surveillance
+** Miscellaneous
+*** Administration
+*** Appraisals
+*** Book Reader
+*** Entertainment
+*** Fuel Control
+*** Law
+*** Library 
+*** Mapping
+*** Medical
+*** Mechanicals
+*** Veterinary
+*** Navigation 
+*** Robot Control
+*** Translation
+*** Xenobiology
+* *DEFENSIVE*
+. Life Support
+. Gravity
+. Armour
+. ECM
+* *OFFENSIVE*
+. Boarding
+. Ramming
+. ECM
+. Artillery 
+* *CREW*
+** Pilot
+** Astrogator
+** Mechanic
+** Gunner
+** Doctor
+** Steward
+** Administrator
+
+.*Space Allotment*
+* Remaining 1209 tonnes
+* Datalocks 80
+* Airlocks 5 internal
+* Airlocks 10 external
+* Cabins 200
+* Cabins Luxury 5
+* Cargo Airlock 1 (500 tonnes)
+* Cargo Lock 1 (100 tonnes)
+* Cargo Space 900 tonnes
+* Cold Storage 20 units
+* Corridors 50 hexes
+* Locks 50
+* Recreation Center
+* Work spaces 20
+
+.*Equipment*
+* OSHA
+* Food Machine
+* Gravity Couches 15
+* Life Bloats 25
+* Sick Bay
+* Vacsuits Civilian 215
+* Vacsuits Industrial 5
+* Vacsuit Military 20
+* Spacecraft - Long Range Traveller
+* Vehicle - Hypertaxi
+* Robot - Datalyzer
+* Robot - Combot
+* Robot - Maintenance 
+* Robot - Relations
+
+
+include::pre_rolls:example$toy_spacecraft_long_ore_carrier.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
+
+.*Ore Carrier Data*
+* *HULL*
+** Size: 3600 tonnes
+** Comp: Alloy
+** Strength: 2500
+* *DRIVES* - spacecruiser
+** Exatmo level 8 (Fusion)
+* *FUEL*
+** Type LIquid
+** Storage 5 months
+** Wate 180 tonnes
+* *COMPUTER*
+** level 3
+** Wate 108 tonnes
+* *SOFTWARE*
+** Crew 
+*** Mechanical
+** Operations
+*** Anti-hijack
+*** Brig
+*** Surveillance
+** Miscellaneous
+*** Communications
+*** Detectors
+*** Entertainment
+*** Forensics
+*** Industrial
+*** Library 
+*** Mapping
+*** Medical
+*** Mechanicals
+*** Robot
+*** Translation
+*** Weapons
+*** Xenobiology
+* *DEFENSIVE*
+. Life Support
+. Gravity
+. Armour
+* *OFFENSIVE*
+. Boarding
+. Ramming
+* *CREW*
+** Astrogator
+** Doctor
+** Administrator
+** Mechanic
+** Pilot
+
+.*Space Allotment*
+* Remaining 3024 tonnes
+* Datalocks 80
+* Airlocks 5 internal
+* Cabins 10
+* Cargo Airlock 4 (500 tonnes)
+* Cargo Lock 1 (100 tonnes)
+* Cargo Space 3007 tonnes
+* Cold Storage 10 units
+* Corridors 10 hexes
+* Work spaces 5
+
+.*Equipment*
+* Food Machine
+* Vacsuit Civilian 10
+* Vacsuit Industrial 2
+* Robot - Datalyzer
+* Robot - Industrial Lifter
+
+
+include::pre_rolls:example$toy_spacecraft_police_boat.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
+
+.*Police Boat Data*
+* *HULL*
+** Size: 300 tonnes
+** Comp: Alloy
+** Strength: 1100
+* *DRIVES* - starcruiser
+** Exatmo level 6 (Fusion)
+** Special level 6 (Time Slip)
+* *FUEL*
+** Type PLasmoid
+** Storage 16 months
+** Wate 48 tonnes
+* *COMPUTER*
+** level 4
+** Wate 12 tonnes
+* *SOFTWARE*
+** Crew 
+*** Gunnery
+** Operations
+*** Anomaly
+*** Anti-hijack
+*** Armada
+*** Maneuvers
+*** Mimic
+*** Surveillance
+** Miscellaneous
+*** Chapel
+*** Communications
+*** Detectors
+*** Diplomacy
+*** Mechanicals
+*** Navigation
+*** Veterinary
+*** Navigation 
+*** Translation
+*** Weapons
+* *DEFENSIVE*
+. Life Support
+. Gravity
+. Armour
+. ECM
+. Shields
+. Active
+* *OFFENSIVE*
+. Boarding
+. Ramming
+. ECM
+. Grenades
+. Bombs
+. Artillery
+. Naval Artillery 
+* *CREW*
+** Pilot
+** Astrogator
+** Mechanic
+** Gunner
+** Doctor
+** Diplomat
+
+.*Space Allotment*
+* Remaining 204 tonnes
+* Datalocks 80
+* Airlocks 10 internal
+* Airlocks 15 external
+* Cabins 10
+* Cargo Space 130 tonnes
+* Cold Storage 20 units
+* Corridors 20 hexes
+* Work spaces 10
+
+.*Equipment*
+* OSHA
+* Food Machine
+* Gravity Couches 15
+* Sick Bay
+* Vacsuits Industrial 5
+* Vacsuit Military 50
+* Spacecraft - xref:pre_rolls:toy_spacecraft_.adoc#_long_range_traveller[Long Range Traveller,window=_blank]
+* Spacecraft - xref:pre_rolls:toy_spacecraft_.adoc#_hyper_taxi[Hyper Taxi,window=_blank]
+* Robot - Combot
+
 

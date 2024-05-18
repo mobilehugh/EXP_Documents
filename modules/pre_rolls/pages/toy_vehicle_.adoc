@@ -2,14 +2,124 @@
 
 Pre rolls for your inatmo transport needs.
 
-include::toy_vehicle_explorations_truck.adoc[]
+include::pre_rolls:example$toy_vehicle_explorations_truck.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
 
-include::toy_vehicle_mini_car.adoc[]
+.*Exploration Truck Data*
+* FORMAT: Cargo
+** Size: Van
+** Passengers: 2
+** Cargo: 2500 kgs
+* USAGE: Industrial
+* SPEED: 38 h/u (136 kmh)
+* ACCEL: 8 h/u
+* LOCOMOTION: jets
+* MANEUVERABILITY: 7
+* ENGINE/FUEL: liquid (1200 kms)
+* ACCESSORIES
+** HIG reinforced
+** Drill to get samples
+** Sluice box 
 
-include::toy_vehicle_pogo_planter.adoc[]
 
-include::toy_vehicle_speed_cycle.adoc[]
+include::pre_rolls:example$toy_vehicle_mini_car.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
 
-include::toy_vehicle_transporter.adoc[]
+.*Mini Car Data*
+* FORMAT: Leisure
+** Size: mini
+** Passengers: 4
+** Cargo: 60 kgs
+* USAGE: Recreational
+* SPEED: 45 h/u (162 kmh)
+* ACCEL: 5 h/u
+* LOCOMOTION: tracks
+* MANEUVERABILITY: 4
+* ENGINE/FUEL: gaseous (1600 kms)
+* ACCESSORIES
+** four sided awning
+** too many lights
+
+
+include::pre_rolls:example$toy_vehicle_pogo_planter.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
+
+.*Pogo Planter Data*
+* FORMAT: Self Powered
+** Size: pogo stick
+** Passengers: 1
+** Cargo: 0 kgs
+* USAGE: Industrial
+* SPEED: 31 h/u (108 kmh)
+* ACCEL: 5 h/u.*Pogo Planter Data*
+* FORMAT: Self Powered
+** Size: pogo stick
+** Passengers: 1
+** Cargo: 0 kgs
+* USAGE: Industrial
+* SPEED: 31 h/u (108 kmh)
+* ACCEL: 5 h/u
+* LOCOMOTION: antigrav supported pogo
+* MANEUVERABILITY: 4
+* ENGINE/FUEL: self powered (100 kms)
+* ACCESSORIES
+** Seed Planter
+** Sweepers
+** Too many lights
+** Insect deflector
+** No blind spot
+* LOCOMOTION: antigrav supported pogo
+* MANEUVERABILITY: 4
+* ENGINE/FUEL: self powered (100 kms)
+* ACCESSORIES
+** Seed Planter
+** Sweepers
+** Too many lights
+** Insect deflector
+** No blind spot
+
+include::pre_rolls:example$toy_vehicle_speed_cycle.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
+
+.*Speed Cycle Data*
+* FORMAT: Leisure
+** Size: Motocycle
+** Passengers: 2
+** Cargo: 20 kgs
+* USAGE: High Performance
+* SPEED: 71 h/u (256 kmh)
+* ACCEL: 14 h/u
+* LOCOMOTION: wheels
+* MANEUVERABILITY: 12
+* ENGINE/FUEL: solid (440 kms)
+* ACCESSORIES
+** Off road hardened
+** High performance (applied above)
+** Fuzzy dashboard
+** Insect deflector
+** No blind spot
+
+include::pre_rolls:example$toy_vehicle_transporter.adoc[]
+include::pre_rolls:partial$format_toy.adoc[]
+
+.*Transport Tank Data*
+* FORMAT: Passenger
+** Size: short bus
+** Passengers: 22
+** Cargo: 880 kgs
+* USAGE: Military
+* SPEED: 64 h/u (230 kmh)
+* ACCEL: 13 h/u
+* LOCOMOTION: antigrav
+* MANEUVERABILITY: 8
+* ENGINE/FUEL: solid (480 kms)
+* ACCESSORIES
+** Off road hardened
+** Damage hardened (50% damage reduction)
+** High performance
+** Cammo
+** xref:pre_rolls:toy_armaments_.adoc#_grenade_launcher[Grenade Launcher,window=_blank] 90h -125 range
+** xref:pre_rolls:toy_grenades_.adoc#_fragmentation[Fragmentation Grenades,  window=_blank] 1h radius; 5d10 damage; 70 rounds
+** xref:pre_rolls:toy_artillery_.adoc#_howitzer[Howitzer,window=_blank] 1200h range; 2d6 radius; 12d12 damage; 11 rounds
 
 

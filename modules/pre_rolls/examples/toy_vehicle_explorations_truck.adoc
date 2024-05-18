@@ -18,31 +18,5 @@
 :tech_level: 10
 :toy_info: a jet propelled flatbed truck used for mineral exploration
 :hardware_xref: vehicles.adoc
+:toy_xref: toy_vehicle_.adoc#_explorations_truck
 
-
-// this checks nature of the include call
-// if being used in a table on a persona record the toy_print_out is supplied
-
-ifeval::["{toy_print_out}" != "false"]
-include::pre_rolls:partial$format_toy.adoc[]
-endif::[]
-
-// put random stuff here
-
-.*Vehicle Data*
-* FORMAT: Cargo
-** Size: Van
-** Passengers: 2
-** Cargo: 2500 kgs
-* USAGE: Industrial
-* SPEED: 38 h/u (136 kmh)
-* ACCEL: 8 h/u
-* LOCOMOTION: jets
-* MANEUVERABILITY: 7
-* ENGINE/FUEL: liquid (1200 kms)
-* ACCESSORIES
-** HIG reinforced
-** Drill to get samples
-** Sluice box 
-
-// todo 1 robots, vacsuits etc
