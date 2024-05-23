@@ -65,11 +65,11 @@ endif::[]
 
 include::pre_rolls:example${item_2}[]
 
-ifeval::["{item_2}" != "toy__null.adoc"]
-|xref:pre_rolls:{toy_xref}[{toy_name},window=_blank]
-|{toy_description}
-|{toy_wate}
-endif::[]
+// ifeval::["{item_2}" != "toy__null.adoc"]
+// |xref:pre_rolls:{toy_xref}[{toy_name},window=_blank]
+// |{toy_description}
+// |{toy_wate}
+// endif::[]
 
 include::pre_rolls:example${item_3}[]
 

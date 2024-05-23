@@ -1,0 +1,28 @@
+//attributes data for toy
+
+:image_file:
+:image_folder: pre_rolls
+:image_description:
+:image_artist: dolly aimage prompt by HM 
+:image_date: 2024
+:image_size: 1
+
+:toy_description: 
+:toy_description_prefix: This toy looks like
+
+:toy_name: 
+:toy_department: 
+:toy_wate: 
+:toy_exps: 
+:toy_value: 
+:tech_level: 
+:toy_info:
+:hardware_xref: 
+
+
+// this checks nature of the include call
+// if being used in a table on a persona record the toy_print_out is supplied
+
+ifeval::["{toy_print_out}" != "false"]
+include::pre_rolls:partial$format_toy.adoc[]
+endif::[]
