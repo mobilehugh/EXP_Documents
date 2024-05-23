@@ -36,40 +36,31 @@ s|NAME
 s|DESCRIPTION
 s|WATE
 
-3+s|above the include
+|===
 
 include::pre_rolls:example${item_1}[]
 
-|{toy_name}
-|{toy_description}
-|{toy_wate}
 
 ifeval::["{item_1}" != "toy__null.adoc"]
 
-|toy name
-|toy description
-|toy wate
+{toy_name} {toy_description} {toy_wate}
 
-
-
-|xref:pre_rolls:{toy_xref}[{toy_name},window=_blank]
-|{toy_description}
-|{toy_wate}
 endif::[]
 
 ifeval::["{item_1}" == "toy__null.adoc"]
-[width="100%",cols="5*<", frame="none", grid ="rows",  role="no-striping"]
-3+|{persona_name} is travelling light.
+
+{persona_name} is travelling light.
+
 endif::[]
 
 
 include::pre_rolls:example${item_2}[]
 
-// ifeval::["{item_2}" != "toy__null.adoc"]
-// |xref:pre_rolls:{toy_xref}[{toy_name},window=_blank]
-// |{toy_description}
-// |{toy_wate}
-// endif::[]
+ifeval::["{item_2}" != "toy__null.adoc"]
+
+{toy_name} {toy_description} {toy_wate}
+
+endif::[]
 
 include::pre_rolls:example${item_3}[]
 
@@ -97,4 +88,3 @@ ifeval::["{item_5}" != "toy__null.adoc"]
 endif::[]
 
 // end the table built above
-|===
