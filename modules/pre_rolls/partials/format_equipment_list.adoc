@@ -24,7 +24,6 @@
 
 == Equipment
 
-:toy_print_out: false
 
 // limited to five  toys, each line separate 
 
@@ -37,7 +36,13 @@ s|NAME
 s|DESCRIPTION
 s|WATE
 
+3+s|above the include
+
 include::pre_rolls:example${item_1}[]
+
+|{toy_name}
+|{toy_description}
+|{toy_wate}
 
 ifeval::["{item_1}" != "toy__null.adoc"]
 
