@@ -38,6 +38,8 @@ s|WATE
 
 |===
 
+
+// item 1
 include::pre_rolls:example${item_1}[]
 
 
@@ -53,7 +55,7 @@ ifeval::["{item_1}" == "toy__null.adoc"]
 
 endif::[]
 
-
+// item 2
 include::pre_rolls:example${item_2}[]
 
 ifeval::["{item_2}" != "toy__null.adoc"]
@@ -62,6 +64,8 @@ ifeval::["{item_2}" != "toy__null.adoc"]
 
 endif::[]
 
+
+// item 3
 include::pre_rolls:example${item_3}[]
 
 ifeval::["{item_3}" != "toy__null.adoc"]
@@ -70,6 +74,8 @@ ifeval::["{item_3}" != "toy__null.adoc"]
 |{toy_wate}
 endif::[]
 
+
+// item 4
 include::pre_rolls:example${item_4}[]
 
 ifeval::["{item_4}" != "toy__null.adoc"]
@@ -79,6 +85,7 @@ ifeval::["{item_4}" != "toy__null.adoc"]
 endif::[]
 
 
+// item 5
 include::pre_rolls:example${item_5}[]
 
 ifeval::["{item_5}" != "toy__null.adoc"]
@@ -87,4 +94,3 @@ ifeval::["{item_5}" != "toy__null.adoc"]
 |{toy_wate}
 endif::[]
 
-// end the table built above
