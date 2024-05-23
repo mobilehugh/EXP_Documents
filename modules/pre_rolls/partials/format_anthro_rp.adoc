@@ -6,6 +6,10 @@
 include::pre_rolls:partial$format_intro_and_image.adoc[]
 
 
+// RP FUN
+
+include::pre_rolls:partial$format_rp_fun.adoc[]
+
 // ATTRIBUTES
 
 == Attributes
@@ -156,38 +160,9 @@ s|Interests
 
 |===
 
+// MUTATIONs
 
 include::pre_rolls:partial$format_mutations.adoc[]
-
-
-// RP FUN
-
-== RP Fun
-{description}. {persona_name} is from {rp_fun_arc_origin}. They are {rp_fun_arc_present}, and want to {rp_fun_arc_future}.
-Their {appearance_hygiene} {appearance_dress} dress smells like {appearance_smell}.
-// religious belief
-ifeval::["{belief_religion}" == "None"]
-They have no religion. 
-endif::[]
-ifeval::["{belief_religion}" != "None"]
-They follow a religion of {belief_religion}.
-endif::[]
-// philosophical belief
-ifeval::["{belief_philosophy}" == "None"]
-They have no philosophy. 
-endif::[]
-ifeval::["{belief_philosophy}" != "None"]
-Their life philosophy is {belief_philosophy}.
-endif::[]
-ifeval::["{belief_politics}" == "None"]
-They have no politics. 
-endif::[]
-ifeval::["{belief_politics}" != "None"]
-Their politics are {belief_politics}.
-endif::[]
-{persona_name} has a {personality} personality. 
-
-VOICE: {laban_sound}. MOVE: {laban_move}.
 
 
 // EQUIPMENT
