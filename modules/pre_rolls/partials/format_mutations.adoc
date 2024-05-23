@@ -15,36 +15,41 @@ endif::[]
 
 
 ifeval::["{mutation_1}" != ""]
-[width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_1_xref}[{mutation_1}].
+s|xref:wetware:{mutation_1_xref}[{mutation_1},window=_blank]
+|{mutation_1_desc}
 |===
 endif::[]
 
 ifeval::["{mutation_2}" != ""]
-[width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_2_xref}[{mutation_2}].
+s|xref:wetware:{mutation_2_xref}[{mutation_2},window=_blank]
+|{mutation_2_desc}
 |===
 endif::[]
 
 ifeval::["{mutation_3}" != ""]
-[width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_3_xref}[{mutation_3}].
+s|xref:wetware:{mutation_3_xref}[{mutation_3},window=_blank]
+|{mutation_3_desc}
 |===
 endif::[]
 
 ifeval::["{mutation_4}" != ""]
-[width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_4_xref}[{mutation_4}].
+s|xref:wetware:{mutation_4_xref}[{mutation_4},window=_blank]
+|{mutation_4_desc}
 |===
 endif::[]
 
 ifeval::["{mutation_5}" != ""]
-[width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_5_xref}[{mutation_5}]. <- link
+s|xref:wetware:{mutation_5_xref}[{mutation_5},window=_blank]
+|{mutation_5_desc}
 |===
 endif::[]
