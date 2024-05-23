@@ -1,44 +1,44 @@
 // formats all the stuff about mutations 
 // gets the data from the persona record attributes 
 
+== Mutations
 
 // if no mutations then state type and none
 ifeval::["{mutations}" == "none"]
-[larger]#{mutation_type}: None#
+[larger]#None#
 endif::[]
 
 
-ifeval::["{mutations}" != "none"]
-[larger]#{mutation_type}:#
-endif::[]
+// ifeval::["{mutations}" != "none"]
+// [larger]#{mutation_type}:#
+// endif::[]
 
-// limited to three toys, each line separate 
 
 ifeval::["{mutation_1}" != ""]
 [width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_1_xref}[{mutation_1}]. <- link
+2+|xref:wetware:{mutation_1_xref}[{mutation_1}].
 |===
 endif::[]
 
 ifeval::["{mutation_2}" != ""]
 [width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_2_xref}[{mutation_2}]. <- link
+2+|xref:wetware:{mutation_2_xref}[{mutation_2}].
 |===
 endif::[]
 
 ifeval::["{mutation_3}" != ""]
 [width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_3_xref}[{mutation_3}]. <- link
+2+|xref:wetware:{mutation_3_xref}[{mutation_3}].
 |===
 endif::[]
 
 ifeval::["{mutation_4}" != ""]
 [width="100%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
 |===
-2+|xref:wetware:{mutation_4_xref}[{mutation_4}]. <- link
+2+|xref:wetware:{mutation_4_xref}[{mutation_4}].
 |===
 endif::[]
 
