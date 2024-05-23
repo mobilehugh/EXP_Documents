@@ -40,6 +40,13 @@ s|WATE
 include::pre_rolls:example${item_1}[]
 
 ifeval::["{item_1}" != "toy__null.adoc"]
+
+|toy name
+|toy description
+|toy wate
+
+
+
 |xref:pre_rolls:{toy_xref}[{toy_name},window=_blank]
 |{toy_description}
 |{toy_wate}
