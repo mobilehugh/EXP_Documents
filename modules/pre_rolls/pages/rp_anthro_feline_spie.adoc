@@ -1,0 +1,172 @@
+= Hal
+
+// FILE DATA
+:record_format: format_anthro_rp.adoc
+
+:image_file: rp_hal_the_spie.png
+:image_folder: pre_rolls
+:image_description: A smiling plump tabby wearing a peasant smock.
+:image_artist: Dolly aimage. Prompt HM
+:image_date: 2024
+:image_size: 2
+
+:toy_description: an excited anthro ostrich
+:toy_description_prefix: This persona looks like
+
+
+:pdf_file: rp_anthro_hal.pdf
+:date_created: 1990_0806_1442_0042
+:date_updated: 1990_0806_1442_0042
+:jsonl_name: 
+
+//SWITCHES
+
+
+//HEADER
+:persona_name: Halligareum P'Ara-Tusminorium
+:player_name: Hugh
+:description: Adult feline spie.
+
+//ATTRIBUTES
+:awe: 15
+:cha: 15
+:con: 15
+:dex: 22
+:int: 17
+:mnd: 7
+:str: 10
+:soc: 940
+:hpm: 49
+
+// COMBAT
+
+:strike_skill: 273
+:strike_raw: 68
+:strike_max: 898
+:strike_force: 5
+
+:fling_skill: 271
+:fling_raw: 54
+:fling_max: 921
+:fling_force: 3
+
+:shoot_skill: 371
+:shoot_raw: 85
+:shoot_max: 1046
+:shoot_force: 0
+
+:def: 1026
+:move_land: 12
+:move_air: 0
+:move_water: 0
+
+//BIOLOGIC data
+:family: Anthro
+:genus: Feline
+:species: Tabby
+
+:age_cat: Adult
+:age: 15034
+:age_suffix: years
+
+:size_cat: Medium
+:hite: 152
+:hite_suffix: cms
+:wate: 50
+:wate_suffix: kgs
+
+:mutations: no
+:mutation_type: Mutations
+
+:mutation_1: 
+:mutation_1_xref: 
+:mutation_1_desc: 
+
+:mutation_2: 
+:mutation_2_xref: 
+:mutation_2_desc: 
+
+:mutation_3: 
+:mutation_3_xref: 
+:mutation_3_desc:
+:mutation_4:
+:mutation_4_xref:
+:mutation_4_desc:
+
+:mutation_5:
+:mutation_5_xref:
+:mutation_5_desc:
+
+
+//Mutations dictionary  "Mutations": {}, 
+
+// TASKS
+
+//GIFTs, presently calculated by level
+:gift_title: Tricks
+:gift_1: Deceive
+:gift_2: Escape
+:gift_3: Stun
+
+// INTERESTs in a list ["Think Space", "Physical Space"] needs to be summed
+// interests can compound and have values
+:interest_1: Infiltration-7
+:interest_2: Deception-6
+:interest_3: Destruction-2
+
+//SKILLs in a list ["Mimic", "Militarization", "Languages"] needs to be calculated
+:skill_1: Martial Arts-4
+:skill_2: Assassintation
+:skill_3: Disquise-3
+:skill_4: Interrogation-2
+:skill_5: Lock bypass-4
+:skill_6: Sleight of Hand-4
+:skill_7: Stealth-2
+:skill_8: Stun-3
+:skill_9: 
+
+:vocation: spie
+:level: 15
+:exps: 3250000
+:exps_goal: 3700000
+
+//HISTORY single string stored in a list
+:rp_fun_arc_origin: just out of a stasis chamber
+:rp_fun_arc_present: asking curious and irrelevant questions
+:rp_fun_arc_future: do some practical jokes
+
+//APPEARANCES
+:appearance_dress: medieval peasant
+:appearance_hygiene: clean
+:appearance_gender: neither
+:appearance_smell: pine
+
+//LABANATIONS
+:personality: practical joker
+:laban_move: delicate and precise 
+:laban_sound: rumbling 
+:comments: who's counting anyways
+
+//BELIEFS
+:belief_religion: one creator
+:belief_philosophy: laughing
+:belief_politics: capitalist
+
+//EQUIPMENT
+
+:wa: 15
+:wa_sprint: 4
+:wa_carry: 23
+:wa_lift: 38
+
+:item_1: toy_armour_compucrafted_plate.png
+:item_2: toy_guns_slug_thrower.adoc
+:item_3: toy_armour_force_field_2_1990_0729_1442_0042.adoc
+:item_4: toy_pharma_heal_trauma.adoc
+:item_5: toy_aerosol_web.adoc
+
+
+//JSON STRING
+:json_file:
+
+include::pre_rolls:partial${record_format}[]
