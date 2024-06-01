@@ -64,6 +64,8 @@ include::pre_rolls:partial$format_intro_and_image.adoc[]
 
 == Combat
 
+
+=== Combat Data
 // this should be an include
 [width="80%",cols="6*<",frame="none", grid="none" stripes="none"]
 |===
@@ -81,7 +83,12 @@ s|HPS
 |__{move_air}__ __h/u__
 |__{move_water}__ __h/u__
 
-6+<s|ATTACK TABLE
+|===
+
+=== Attack Table
+
+[width="80%",cols="6*<",frame="none", grid="none" stripes="none"]
+|===
 
 <s|Type
 s|Skilled
@@ -122,10 +129,12 @@ s|Freq
 
 // BIOLOGY INFO
 
-== Biology and Society
+== Biologic Data
 
 [width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
 |===
+
+6+<|*Common Name:* {common_name}
 
 2+<|*Family:* {family}
 2+<|*Genus:* {genus}
@@ -135,14 +144,20 @@ s|Freq
 2+<|*Wate:* {wate} {wate_suffix}
 2+<|*Age:* {age} {age_suffix} ({age_cat})
 
-6+s|Life Span in {age_suffix}
+|===
 
-|Child
-|Adol
-|Adult
-|Older
-|Aged
-|Total
+
+=== Life Span in {age_suffix}
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+s|Child
+s|Adol
+s|Adult
+s|Older
+s|Aged
+s|Total
 
 |0-{child_age}
 |{child_age}-{adol_age}
@@ -151,31 +166,52 @@ s|Freq
 |>{older_age}
 |{life_span}
 
-6+s|Shape and Appearance
+|===
+
+
+=== Shape and Appearance
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
 
 |
 s|Head
-s|Body
+s|Torso
 s|Arms
 s|Legs
 |
 
 
-s|Part
+s|Body Part
 |{head_part}
 |{torso_part}
 |{arms_part}
 |{legs_part}
 |
 
-s|Adorn
+s|Adornment
 |{head_adorn}
 |{torso_adorn}
 |{arms_adorn}
 |{legs_adorn}
 |
 
-6+s|Biology
+2+s|Sound
+2+s|Aroma
+2+s|Colour
+
+
+2+|{laban_sound}
+2+|{appearance_smell}
+2+|{coat_colour}
+
+
+|===
+
+=== Biology
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
 
 s|Biome
 s|Food Source
@@ -191,8 +227,12 @@ s|Grouping
 |{domicile}
 |{grouping}
 
+|===
 
-6+s|Society
+=== Society
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
 
 s|Flora/Fauna
 s|Tools
