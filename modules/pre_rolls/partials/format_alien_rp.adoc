@@ -1,0 +1,263 @@
+// anthro RP format
+
+
+// INTRODUCTION and IMAGE
+
+include::pre_rolls:partial$format_intro_and_image.adoc[]
+
+
+// RP Fun
+
+== RP Fun
+
+.*Story*
+* Past: {rp_fun_arc_origin}.
+* Present: {rp_fun_arc_present}.
+* Future: {rp_fun_arc_future}.
+
+.*Externals*
+* Sound: {laban_sound}
+* Aroma: {appearance_smell}
+
+// ATTRIBUTES
+
+== Attributes
+
+[width="100%",cols="9*^",frame="none", grid="none", stripes="none"]
+|===
+
+|AWE
+|CHA
+|CON
+|DEX
+|INT
+|MND
+|STR
+|SOC
+|HPM
+
+|__{awe}__
+|__{cha}__
+|__{con}__
+|__{dex}__
+|__{int}__
+|__{mnd}__
+|__{str}__
+|__{soc}__
+|__{hpm}__
+
+|~awareness~
+|~charisma~
+|~constitution~
+|~dexterity~
+|~intelligence~
+|~mind~
+|~strength~
+|~privilege~
+|~toughness~
+
+|===
+
+
+
+// COMBAT INFO
+
+== Combat
+
+// this should be an include
+[width="80%",cols="6*<",frame="none", grid="none" stripes="none"]
+|===
+
+s|DEFENCE
+s|HPS
+.2+s|MOVE
+|LAND
+|AIR
+|WATER
+
+|__{def}__
+|__{hit_point_dice}__
+|__{move_land}__ __h/u__
+|__{move_air}__ __h/u__
+|__{move_water}__ __h/u__
+
+6+<s|ATTACK TABLE
+
+<s|Type
+s|Skilled
+s|Raw
+s|Max
+s|DMG
+s|Freq
+
+<s|Strike
+|__{strike_skill}__
+|__{strike_raw}__
+|__{strike_max}__
+|__{strike_force}__
+|__{strike_freq}__
+
+<s|Fling
+|__{fling_skill}__
+|__{fling_raw}__
+|__{fling_max}__
+|__{fling_force}__
+|__{fling_freq}__
+
+
+<s|Shoot
+|__{shoot_skill}__
+|__{shoot_raw}__
+|__{shoot_max}__
+|__{shoot_force}__
+|__{shoot_freq}__
+
+
+6+<|[.small]#*DEFENCE*: how hard to hit, *Move*: hexes per unit *HPS*:dice used for HPS# +
+[.small]#*Strike*: self powered melee, *Fling*: self powered ranged *Shoot*: powered attacks# +
+[.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll# +
+[.small]#*Max*: maximum attack roll, *DMG*: dice rolled for damage, *Freq*: attacks per unit# +
+
+|===
+
+// BIOLOGY INFO
+
+== Biology and Society
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+2+<|*Family:* {family}
+2+<|*Genus:* {genus}
+2+<|*Species:* {species}
+
+2+<|*Size:* {size_cat}
+2+<|*Wate:* {wate} {wate_suffix}
+2+<|*Age:* {age} {age_suffix} ({age_cat})
+
+6+s|Life Span in {age_suffix}
+
+|Child
+|Adol
+|Adult
+|Older
+|Aged
+|Total
+
+|0-{child_age}
+|{child_age}-{adol_age}
+|{adol_age}-{adult_age}
+|{adult_age}-{older_age}
+|>{older_age}
+|{life_span}
+
+6+s|Shape and Appearance
+
+|
+s|Head
+s|Body
+s|Arms
+s|Legs
+|
+
+
+s|Part
+|{head_part}
+|{torso_part}
+|{arms_part}
+|{legs_part}
+|
+
+s|Adorn
+|{head_adorn}
+|{torso_adorn}
+|{arms_adorn}
+|{legs_adorn}
+|
+
+6+s|Biology
+
+s|Biome
+s|Food Source
+s|Procurement
+s|Repro
+s|Dwelling
+s|Grouping
+
+|{biome}
+|{food_source}
+|{food_procure}
+|{reproduction}
+|{domicile}
+|{grouping}
+
+
+6+s|Society
+
+s|Flora/Fauna
+s|Tools
+s|Language
+s|Culture
+s|Education
+s|Vocations
+
+
+s|{feral}
+|{tool_usage}
+|{language}
+|{culture}
+|{education}
+|{vocations}
+
+|===
+
+// MUTATIONs
+
+include::pre_rolls:partial$format_mutations.adoc[]
+
+// TASK INFO
+
+include::pre_rolls:partial$format_tasks.adoc[]
+
+// EQUIPMENT
+
+// :item_1: toy__null.adoc
+// :item_2: toy__null.adoc
+// :item_3: toy__null.adoc
+// :item_4: toy__null.adoc
+// :item_5: toy__null.adoc
+
+include::pre_rolls:partial$format_equipment_list.adoc[]
+
+
+== PDF
+
+ifeval::["{pdf_file}" == ""]
+This persona record does not have a PDF. 
+endif::[]
+
+ifeval::["{pdf_file}" != ""]
+Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}[{persona_name} PDF]
+endif::[]
+
+
+== JSON
+
+:dashes: ----
+
+ifeval::["{json_file}" == ""]
+This persona record does not have a JSON file. 
+endif::[]
+
+
+ifeval::["{json_file}" != ""]
+The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
+
+{dashes}
+
+{json_file}
+
+endif::[]
+
+
+

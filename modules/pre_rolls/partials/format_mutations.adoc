@@ -1,7 +1,19 @@
 // formats all the stuff about mutations 
 // gets the data from the persona record attributes 
 
+
+ifeval::["{family}" == "Anthro"]
 == Mutations
+endif::[]
+
+ifeval::["{family}" == "Alien"]
+== Evolutations
+endif::[]
+
+ifeval::["{family}" == "Robot"]
+== Malfunctations
+endif::[]
+
 
 // if no mutations then state type and none
 ifeval::["{mutations}" == "none"]
