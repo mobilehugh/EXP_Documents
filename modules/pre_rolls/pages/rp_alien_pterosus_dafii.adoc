@@ -1,0 +1,213 @@
+=  Prey
+
+// FILE DATA
+:record_format: format_alien_rp.adoc
+
+:image_file: alien_duck_dino_grasshopper_conifer.png
+:image_folder: ROOT
+:image_description: A small duck faced grasshopper.
+:image_artist: Nelson
+:image_date: 1991
+:image_size: 2
+
+:toy_description: a small duck faced grasshopper
+:toy_description_prefix: This persona looks like
+
+:pdf_file: rp_alien_pterosus_dafii.pdf
+:date_created: 1990_0806_1442_0042
+:date_updated: 1990_0806_1442_0042
+:jsonl_name: 
+
+
+//HEADER
+:persona_name: Pterosus Dafii
+:player_name: Hugh
+:description: A small duck faced grasshopper.
+
+//ATTRIBUTES
+:awe: 10
+:cha: 12
+:con: 7  
+:dex: 5
+:int: 3
+:mnd: 24
+:str: 3
+:soc: 500
+:hpm: 24
+
+// COMBAT
+
+:strike_skill: 30
+:strike_raw: 30
+:strike_max: 730
+:strike_force: 1d8
+:strike_freq: 2
+
+:fling_skill: 0
+:fling_raw: 0
+:fling_max: 0
+:fling_force: 0
+:fling_freq: 0
+
+:shoot_skill: 0
+:shoot_raw: 0
+:shoot_max: 0
+:shoot_force: 0
+:shoot_freq: 0 
+
+
+:def: 726
+:hit_point_dice: 7d6
+:move_land: 3
+:move_air: 3
+:move_water: 1
+
+
+//Alien BIOLOGIC data
+:family: Alien
+:genus: Pterosus
+:species: Dafii
+:common_name: Prey
+
+// SHAPE
+:head_part: Duck
+:head_adorn: 
+:torso_part: Pterosaur
+:torso_adorn: Cones
+:arms_part: Grasshopper
+:arms_adorn: 
+:legs_part: Conifer 
+:legs_adorn: Strands
+
+:coat_colour: lime green
+
+// Age Info
+//aged_age = life span
+:age_cat: Older
+:age: 36
+:age_suffix: years
+
+:child_age: 0.4
+:adol_age: 2.8
+:adult_age: 17
+:older_age: 38
+:life_span: 40
+
+:size_cat: Small
+:hite: 
+:hite_suffix:
+:wate: 22
+:wate_suffix: kgs
+
+:biome: Desert
+:food_source: Unknown
+:food_procure: Uses mutation
+:reproduction: Vivaporous
+:domicile: Hollow
+:grouping: Swarm
+
+
+// EVOLUTATION infomation
+:mutations: yes
+:mutation_type: Mutations
+
+:mutation_1: Time Stop
+:mutation_1_xref: psionics.adoc#_time_stop
+:mutation_1_desc: stops time for 24 units to secretly feed 
+
+:mutation_2: 
+:mutation_2_xref: 
+:mutation_2_desc: 
+
+:mutation_3: 
+:mutation_3_xref: 
+:mutation_3_desc:
+
+:mutation_4:
+:mutation_4_xref:
+:mutation_4_desc:
+
+:mutation_5:
+:mutation_5_xref:
+:mutation_5_desc:
+
+
+//Alien SOCIOLOGIC data
+:feral: Yes
+:tool_usage: None
+:language: None
+:culture: None
+:education: None
+:vocations: None
+
+
+// TASKS
+
+//GIFTs, presently calculated by level
+:gift_title:
+:gift_1:
+:gift_2:
+:gift_3:
+
+// INTERESTs in a list ["Think Space", "Physical Space"] needs to be summed
+// interests can compound and have values
+:interest_1: 
+:interest_2: 
+:interest_3: 
+
+//SKILLs in a list ["Mimic", "Militarization", "Languages"] needs to be calculated
+:skill_1: 
+:skill_2: 
+:skill_3: 
+:skill_4: 
+:skill_5: 
+:skill_6: 
+:skill_7: 
+:skill_8: 
+:skill_9: 
+
+:vocation: Alien
+:level: 1
+:exps: 1642
+:exps_goal: 2000
+
+//HISTORY single string stored in a list
+:rp_fun_arc_origin: Fleeing from predator
+:rp_fun_arc_present: observing expedition
+:rp_fun_arc_future: hiding from predator
+
+//APPEARANCES
+:appearance_dress: 
+:appearance_hygiene:
+:appearance_gender:
+:appearance_smell: Cinnamon
+
+//LABANATIONS
+:personality:
+:laban_move: 
+:laban_sound: orchestral tuning 
+:comments: 
+
+//BELIEFS
+:belief_religion:
+:belief_philosophy:
+:belief_politics:
+
+//EQUIPMENT
+
+:wa: 7
+:wa_sprint: 2
+:wa_carry: 10
+:wa_lift: 17
+
+:item_1: toy__null.adoc
+:item_2: toy__null.adoc
+:item_3: toy__null.adoc
+:item_4: toy__null.adoc
+:item_5: toy__null.adoc
+
+
+//JSON STRING
+:json_file:
+
+include::pre_rolls:partial${record_format}[]
