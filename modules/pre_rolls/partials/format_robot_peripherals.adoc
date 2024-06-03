@@ -1,0 +1,49 @@
+// formats all the stuff for robot peripherals 
+// gets the data from the persona record attributes 
+
+=== Peripheral Systems
+
+// if no peripherals then state type and none
+ifeval::["{peripherals}" == "none"]
+[larger]#None#
+endif::[]
+
+ifeval::["{peripheral_1}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{peripheral_1_xref}[{peripheral_1},window=_blank]
+|{peripheral_1_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_2}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{peripheral_2_xref}[{peripheral_2},window=_blank]
+|{peripheral_2_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_3}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{peripheral_3_xref}[{peripheral_3},window=_blank]
+|{peripheral_3_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_4}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{peripheral_4_xref}[{peripheral_4},window=_blank]
+|{peripheral_4_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_5}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{peripheral_5_xref}[{peripheral_5},window=_blank]
+|{peripheral_5_desc}
+|===
+endif::[]

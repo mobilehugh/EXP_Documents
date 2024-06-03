@@ -1,0 +1,49 @@
+// formats all the stuff for robot attacks 
+// gets the data from the persona record attributes 
+
+=== Offensive Systems
+
+// if no attacks then state type and none
+ifeval::["{attacks}" == "none"]
+[larger]#None#
+endif::[]
+
+ifeval::["{attack_1}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{attack_1_xref}[{attack_1},window=_blank]
+|{attack_1_desc}
+|===
+endif::[]
+
+ifeval::["{attack_2}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{attack_2_xref}[{attack_2},window=_blank]
+|{attack_2_desc}
+|===
+endif::[]
+
+ifeval::["{attack_3}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{attack_3_xref}[{attack_3},window=_blank]
+|{attack_3_desc}
+|===
+endif::[]
+
+ifeval::["{attack_4}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{attack_4_xref}[{attack_4},window=_blank]
+|{attack_4_desc}
+|===
+endif::[]
+
+ifeval::["{attack_5}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{attack_5_xref}[{attack_5},window=_blank]
+|{attack_5_desc}
+|===
+endif::[]

@@ -1,0 +1,244 @@
+// anthro RP format
+
+
+// INTRODUCTION and IMAGE
+
+include::pre_rolls:partial$format_intro_and_image.adoc[]
+
+
+// RP Fun
+
+== RP Fun
+
+.*Story*
+* Past: {rp_fun_arc_origin}.
+* Present: {rp_fun_arc_present}.
+* Future: {rp_fun_arc_future}.
+
+// ATTRIBUTES
+
+== Attributes
+
+[width="100%",cols="9*^",frame="none", grid="none", stripes="none"]
+|===
+
+
+|AWE
+|CHA
+|CON
+|DEX
+|INT
+|STR
+|SOC
+|HPM
+|
+
+
+|__{awe}__
+|__{cha}__
+|__{con}__
+|__{dex}__
+|__{int}__
+|__{str}__
+|__{soc}__
+|__{hpm}__
+|
+
+
+|~awareness~
+|~charisma~
+|~constitution~
+|~dexterity~
+|~intelligence~
+|~strength~
+|~privilege~
+|~toughness~
+|
+
+
+2+>s|ROBOTIC PRIMES:
+s|__{con_prime}__
+s|__{dex_prime}__
+s|__{int_prime}__
+s|__{str_prime}__
+|
+|
+|
+
+
+2+>s|Control Factor:
+<|_{control_factor}_
+|
+2+>s|Adaptability:
+<|__{adaptability}__
+|
+|
+
+
+|===
+
+
+
+// COMBAT INFO
+
+== Combat
+
+
+=== Combat Data
+// this should be an include
+[width="80%",cols="5*<",frame="none", grid="none" stripes="none"]
+|===
+
+s|DEFENCE
+.2+s|MOVE
+|LAND
+|AIR
+|WATER
+
+|__{def}__
+|__{move_land}__ __h/u__
+|__{move_air}__ __h/u__
+|__{move_water}__ __h/u__
+
+|===
+
+=== Attack Table
+
+[width="80%",cols="5*<",frame="none", grid="none" stripes="none"]
+|===
+
+<s|Type
+s|Skilled
+s|Raw
+s|Max
+s|Force
+
+<s|Strike
+|__{strike_skill}__
+|__{strike_raw}__
+|__{strike_max}__
+|__{strike_force}__
+
+<s|Fling
+|__{fling_skill}__
+|__{fling_raw}__
+|__{fling_max}__
+|__{fling_force}__
+
+<s|Shoot
+|__{shoot_skill}__
+|__{shoot_raw}__
+|__{shoot_max}__
+|__{shoot_force}__
+
+
+
+5+<|[.small]#*DEFENCE*: how hard to hit, *Move*: hexes per unit# +
+[.small]#*Strike*: self powered melee, *Fling*: self powered ranged *Shoot*: powered attacks# +
+[.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll# +
+[.small]#*Max*: maximum attack roll, *Force*: str add to damage# +
+
+|===
+
+// BIOLOGY INFO
+
+== Mechanical Info
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+6+<|*Common Name:* {common_name}
+
+2+<|*Family:* {family}
+2+<|*Series:* {series}
+2+<|*Model:* {model}
+
+2+<|*Size:* {size_cat}
+2+<|*Wate:* {wate} {wate_suffix}
+2+<|*Age:* {age} {age_suffix} ({age_cat})
+
+|===
+
+=== Spec Sheet
+
+[width="100%",cols="1,1,1,1,1,1",frame="none", grid="none" stripes="none"]
+|===
+
+s|Fabricator
+s|Sensors
+s|Locomation
+s|Fuel Type
+s|Duration
+s|Value
+
+|{fabricator}
+|{sensors}
+|{locomotion}
+|{fuel_cell}
+|{power_duration}
+|{value}
+
+|===
+
+// list offensive systems
+
+include::pre_rolls:partial$format_robot_attacks.adoc[]
+
+// list defensive systems
+
+include::pre_rolls:partial$format_robot_defences.adoc[]
+
+// list peripheral systems
+
+include::pre_rolls:partial$format_robot_peripherals.adoc[]
+
+// MUTATIONs
+
+include::pre_rolls:partial$format_mutations.adoc[]
+
+// TASK INFO
+
+include::pre_rolls:partial$format_tasks.adoc[]
+
+// EQUIPMENT
+
+// :item_1: toy__null.adoc
+// :item_2: toy__null.adoc
+// :item_3: toy__null.adoc
+// :item_4: toy__null.adoc
+// :item_5: toy__null.adoc
+
+include::pre_rolls:partial$format_equipment_list.adoc[]
+
+
+== PDF
+
+ifeval::["{pdf_file}" == ""]
+This persona record does not have a PDF. 
+endif::[]
+
+ifeval::["{pdf_file}" != ""]
+Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}[{persona_name} PDF]
+endif::[]
+
+
+== JSON
+
+:dashes: ----
+
+ifeval::["{json_file}" == ""]
+This persona record does not have a JSON file. 
+endif::[]
+
+
+ifeval::["{json_file}" != ""]
+The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[EXP Python Tools]
+
+{dashes}
+
+{json_file}
+
+endif::[]
+
+
+

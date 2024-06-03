@@ -1,0 +1,49 @@
+// formats all the stuff for robot defences 
+// gets the data from the persona record attributes 
+
+=== Defensive Systems
+
+// if no defences then state type and none
+ifeval::["{defences}" == "none"]
+[larger]#None#
+endif::[]
+
+ifeval::["{defence_1}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{defence_1_xref}[{defence_1},window=_blank]
+|{defence_1_desc}
+|===
+endif::[]
+
+ifeval::["{defence_2}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{defence_2_xref}[{defence_2},window=_blank]
+|{defence_2_desc}
+|===
+endif::[]
+
+ifeval::["{defence_3}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{defence_3_xref}[{defence_3},window=_blank]
+|{defence_3_desc}
+|===
+endif::[]
+
+ifeval::["{defence_4}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{defence_4_xref}[{defence_4},window=_blank]
+|{defence_4_desc}
+|===
+endif::[]
+
+ifeval::["{defence_5}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:robots:{defence_5_xref}[{defence_5},window=_blank]
+|{defence_5_desc}
+|===
+endif::[]

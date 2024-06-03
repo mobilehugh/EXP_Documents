@@ -5,7 +5,12 @@ ifeval::["{family}" == "Alien" && "{tool_user}" == "feral"]
 Find food. Reproduce. Repeat
 endif::[]
 
-ifeval::["{vocation}" != "Alien"]
+ifeval::["{family}" == "Robot"]
+== Tasks
+Do what {series} robots do.
+endif::[]
+
+ifeval::["{vocation}" == "Biologist" || "{vocation}" == "Knite" || "{vocation}" == "Mechanic" || "{vocation}" == "Mercenary" || "{vocation}" == "Nomad" || {vocation}" == "Nothing" || {vocation}" == "Spie" || {vocation}" == "Veterinarian"]
 == Tasks 
 
 [width="90%",cols="1,1,1,1,1",frame="none", grid="none" stripes="none"]
