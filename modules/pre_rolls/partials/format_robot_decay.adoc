@@ -1,0 +1,115 @@
+// formats all the stuff for robot decay table 
+// gets the data from the persona record attributes 
+
+== Robot Decay Table
+
+// if no defences then state type and none
+ifeval::["{ttl_00}" == ""]
+[larger]#None#
+endif::[]
+
+ifeval::["{ttl_00}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|TTL
+s|AWE
+s|CHA
+s|CON
+s|DEX
+s|INT
+s|STR
+s|HPM
+s|PART
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_00}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_00}
+|{awe_00}
+|{cha_00}
+|{con_00}
+|{dex_00}
+|{int_00}
+|{str_00}
+|{hpm_00}
+|{part_00}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_01}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_01}
+|{awe_01}
+|{cha_01}
+|{con_01}
+|{dex_01}
+|{int_01}
+|{str_01}
+|{hpm_01}
+|{part_01}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_02}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_02}
+|{awe_02}
+|{cha_02}
+|{con_02}
+|{dex_02}
+|{int_02}
+|{str_02}
+|{hpm_02}
+|{part_02}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_03}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_03}
+|{awe_03}
+|{cha_03}
+|{con_03}
+|{dex_03}
+|{int_03}
+|{str_03}
+|{hpm_03}
+|{part_03}
+
+|===
+endif::[]
+
+ifeval::["{ttl_04}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_04}
+|{awe_04}
+|{cha_04}
+|{con_04}
+|{dex_04}
+|{int_04}
+|{str_04}
+|{hpm_04}
+|{part_04}
+
+|===
+endif::[]
