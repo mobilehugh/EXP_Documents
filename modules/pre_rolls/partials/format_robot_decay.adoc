@@ -1,7 +1,7 @@
 // formats all the stuff for robot decay table 
 // gets the data from the persona record attributes 
 
-== Robot Decay Table
+== {common_name} Decay Table
 
 // if no defences then state type and none
 ifeval::["{ttl_00}" == ""]
@@ -11,6 +11,8 @@ endif::[]
 ifeval::["{ttl_00}" != ""]
 [width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
 |===
+
+9+<|TTL = total damage sustained; Part = system damaged
 
 s|TTL
 s|AWE
@@ -110,6 +112,134 @@ s|{ttl_04}
 |{str_04}
 |{hpm_04}
 |{part_04}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_05}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_05}
+|{awe_05}
+|{cha_05}
+|{con_05}
+|{dex_05}
+|{int_05}
+|{str_05}
+|{hpm_05}
+|{part_05}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_06}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_06}
+|{awe_06}
+|{cha_06}
+|{con_06}
+|{dex_06}
+|{int_06}
+|{str_06}
+|{hpm_06}
+|{part_06}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_07}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_07}
+|{awe_07}
+|{cha_07}
+|{con_07}
+|{dex_07}
+|{int_07}
+|{str_07}
+|{hpm_07}
+|{part_07}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_08}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_08}
+|{awe_08}
+|{cha_08}
+|{con_08}
+|{dex_08}
+|{int_08}
+|{str_08}
+|{hpm_08}
+|{part_08}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_09}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_09}
+|{awe_09}
+|{cha_09}
+|{con_09}
+|{dex_09}
+|{int_09}
+|{str_09}
+|{hpm_09}
+|{part_09}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_10}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|{ttl_10}
+|{awe_10}
+|{cha_10}
+|{con_10}
+|{dex_10}
+|{int_10}
+|{str_10}
+|{hpm_10}
+|{part_10}
+
+|===
+endif::[]
+
+
+ifeval::["{ttl_00}" != ""]
+[width="90%",cols="8*^,<", frame="none", grid ="rows",  role="no-striping"]
+|===
+
+s|TTL
+s|AWE
+s|CHA
+s|CON
+s|DEX
+s|INT
+s|STR
+s|HPM
+s|PART
+
+9+<|TTL = total damage sustained; Part = system damaged
 
 |===
 endif::[]

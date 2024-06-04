@@ -140,7 +140,7 @@ s|Force
 
 |===
 
-// BIOLOGY INFO
+// Mechanical INFO
 
 == Mechanical Info
 
@@ -210,11 +210,6 @@ include::pre_rolls:partial$format_tasks.adoc[]
 
 include::pre_rolls:partial$format_equipment_list.adoc[]
 
-// decay table 
-
-include::pre_rolls:partial$format_robot_decay.adoc[]
-
-
 
 == PDF
 
@@ -244,6 +239,12 @@ The below json will work with the https://github.com/mobilehugh/EXP_Game_Tools[E
 {json_file}
 
 endif::[]
+
+
+// decay table 
+
+include::pre_rolls:partial$format_robot_decay.adoc[]
+
 
 
 
