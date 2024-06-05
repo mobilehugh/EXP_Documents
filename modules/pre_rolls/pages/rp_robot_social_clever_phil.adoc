@@ -1,63 +1,63 @@
-=  Datalyzer QT1
+=  Clever Phil
 
 // FILE DATA
 :record_format: format_rp_robot.adoc
 
-:image_file: hobbot.png
+:image_file: avarian_clever_phil.png
 :image_folder: ROOT
-:image_description: A medium sized flattened box with three propellers and skis.
-:image_artist: Pat Redding.
+:image_description: An obvious robot shaped like an avarian wearing a fedora.
+:image_artist: unknown.
 :image_date: 1991
 :image_size: 2
 
-:toy_description: a medium sized flattened box with three propellers and skis
+:toy_description: an obvious robot shaped like an avarian wearing a fedora 
 :toy_description_prefix: This persona looks like
 
-:pdf_file: rp_robot_datalyzer_qt1.pdf
-:date_created: 1990_0806_1442_0042
-:date_updated: 1990_0806_1442_0042
+:pdf_file: rp_robot_social_clever_phil.pdf
+:date_created: 1990_0807_1442_0042
+:date_updated: 1990_0807_1442_0042
 :jsonl_name: 
 
 
 //HEADER
-:persona_name: QT1
+:persona_name: Clever Phil
 :player_name: Hugh
-:description: A datalyzer robot.
+:description: A social robot.
 
 //ATTRIBUTES
 :awe: 11
 :cha: 15
-:con: 13  
-:dex: 2
-:int: 24
+:con: 8  
+:dex: 5
+:int: 22
 :mnd: --
-:str: 12
-:soc: 500
-:hpm: 39
+:str: 7
+:soc: 990
+:hpm: 24
 
 :con_prime: 2
 :dex_prime: 1
 :int_prime: 4
-:str_prime: 2
+:str_prime: 1
 
 :adaptability: 15
-:control_factor: 26
+:control_factor: 24
 
 // COMBAT
 
-:strike_skill: 70
+:strike_skill: 60
 :strike_raw: 0
 :strike_max: --
-:strike_force: 12
+:strike_force: 7
 :strike_freq: 0
 
-:fling_skill: 76
+:fling_skill: 165
 :fling_raw: 0
 :fling_max: --
-:fling_force: 6
+:fling_force: 4
 :fling_freq: 0
 
-:shoot_skill: 130
+:shoot_skill: 135
 :shoot_raw: 0
 :shoot_max: --
 :shoot_force: 0
@@ -65,48 +65,48 @@
 
 
 :def: 700
-:move_land: 2
-:move_air: 2
+:move_land: 4
+:move_air: 0
 :move_water: 0
 
 
 //Alien BIOLOGIC data
 :family: Robot
-:series: Datalyzer
-:model: QT1
-:common_name: QT1
+:series: Social
+:model: Ph1l
+:common_name: Clever Phil
 
 // SHAPE
-:colour: Silver
+:colour: reddish
 
 // Age Info
 :age_cat: Broken In
 :age: unknown
 :age_suffix: years
 
-:size_cat: Small
-:hite: 75
+:size_cat: medium
+:hite: 170
 :hite_suffix: cms
-:wate: 42
+:wate: 75
 :wate_suffix: kgs
 
-:fabricator: Purestrain
-:sensors: Video x 2, IR; Organic
-:locomotion: props pushing skis
-:fuel_cell: liquid
-:power_duration: 13 months
+:fabricator: Avarian
+:sensors: Video x 3; Sonar
+:locomotion: bipedal
+:fuel_cell: broadcast
+:power_duration: range based
 :offensive:
 :defensive:
 :peripheral:
-:value: 60000
+:value: 100000
 
 // OFFENSIVE Systems information
 :attacks: yes
 :attack_type: Offensive
 
-:attack_1: Ram blunt flat
+:attack_1: Ram blunt protruberance
 :attack_1_xref: systems_offensive.adoc#_ramming
-:attack_1_desc: must win CF roll, 1d4+1d4
+:attack_1_desc: must win CF roll, 1d6+1d6
 
 :attack_2: 
 :attack_2_xref: 
@@ -126,12 +126,12 @@
 
 
 // DEFENSIVE Systems information
-:defences: none
+:defences: yes
 :defence_type: Defensive
 
-:defence_1: 
-:defence_1_xref: 
-:defence_1_desc: 
+:defence_1: Force Field
+:defence_1_xref: systems_defensive.adoc#_force_field
+:defence_1_desc: absorb 50 HPS kinetic damage
 
 :defence_2: 
 :defence_2_xref: 
@@ -154,21 +154,21 @@
 :peripherals: yes
 :peripheral_type: Peripheral
 
-:peripheral_1: Damage Analysis
+:peripheral_1: Speak 220 languages
 :peripheral_1_xref: systems_peripherals.adoc#_basic_peripherals
-:peripheral_1_desc: Assess and recognize damage to self
+:peripheral_1_desc: social bot skill
 
-:peripheral_2: Articulation
+:peripheral_2: Tend to 44 guest at once
 :peripheral_2_xref: systems_peripherals.adoc#_basic_peripherals
-:peripheral_2_desc: may grab and use external devices
+:peripheral_2_desc: social bot skill
 
-:peripheral_3: 
-:peripheral_3_xref: 
-:peripheral_3_desc:
+:peripheral_3: Navigate 22 different cultures
+:peripheral_3_xref: systems_peripherals.adoc#_basic_peripherals
+:peripheral_3_desc: social bot skill
 
-:peripheral_4:
-:peripheral_4_xref:
-:peripheral_4_desc:
+:peripheral_4: Communications
+:peripheral_4_xref: systems_peripherals.adoc#_basic_peripherals
+:peripheral_4_desc: Comms system integration
 
 :peripheral_5:
 :peripheral_5_xref:
@@ -176,12 +176,12 @@
 
 
 // EVOLUTATION information
-:mutations: yes
+:mutations: none
 :mutation_type: Mutations
 
-:mutation_1: Heightened Brain Talent
-:mutation_1_xref: psionics.adoc#_heightened_brain_talent
-:mutation_1_desc: can solve any problem theoretically 
+:mutation_1: 
+:mutation_1_xref: 
+:mutation_1_desc: 
 
 :mutation_2: 
 :mutation_2_xref: 
@@ -230,9 +230,9 @@
 :skill_9: 
 
 //HISTORY single string stored in a list
-:rp_fun_arc_origin: None
-:rp_fun_arc_present: Assessing the expedition
-:rp_fun_arc_future: Looking for a new problem
+:rp_fun_arc_origin: tending to guest and their rooms
+:rp_fun_arc_present: tending to the expedition
+:rp_fun_arc_future: plan the next event
 
 //APPEARANCES
 :appearance_dress: 
@@ -253,10 +253,10 @@
 
 //EQUIPMENT
 
-:wa: 34
-:wa_sprint: 34
-:wa_carry: 34
-:wa_lift: 34
+:wa: 12
+:wa_sprint: 12
+:wa_carry: 12
+:wa_lift: 12
 
 :item_1: toy__null.adoc
 :item_2: toy__null.adoc
@@ -267,131 +267,116 @@
 //decay table info
 
 // level_00 no damage
-:ttl_00: 39
+:ttl_00: 24
 :awe_00: 11
-:cha_00: 15
-:con_00: 13  
-:dex_00: 2
-:int_00: 24
-:str_00: 12
-:hpm_00: 39
+:cha_00: 11
+:con_00: 8  
+:dex_00: 5
+:int_00: 22
+:str_00: 7
+:hpm_00: 24
 :part_00: None
 
-// level_01
-:ttl_01: 74
+// level_01 no damage
+:ttl_01: 35
 :awe_01: 11
-:cha_01: 15
-:con_01: 13  
-:dex_01: 2
-:int_01: 23
-:str_01: 12
-:hpm_01: 35
+:cha_01: 11
+:con_01: 8  
+:dex_01: 5
+:int_01: 22
+:str_01: 7
+:hpm_01: 21
 :part_01: Peripheral
 
 // level_02
-:ttl_02: 105
+:ttl_02: 53
 :awe_02: 9
-:cha_02: 15
-:con_02: 13  
-:dex_02: 2
-:int_02: 23
-:str_02: 12
-:hpm_02: 31
+:cha_02: 11
+:con_02: 8  
+:dex_02: 5
+:int_02: 21
+:str_02: 7
+:hpm_02: 18
 :part_02: Sensors
 
 // level_03
-:ttl_03: 129
+:ttl_03: 69
 :awe_03: 8
-:cha_03: 15
-:con_03: 13  
-:dex_03: 2
-:int_03: 22
-:str_03: 12
-:hpm_03: 27
+:cha_03: 11
+:con_03: 8  
+:dex_03: 5
+:int_03: 20
+:str_03: 7
+:hpm_03: 16
 :part_03: Sensors
 
 // level_04
-:ttl_04: 153
+:ttl_04: 83
 :awe_04: 7
-:cha_04: 15
-:con_04: 13  
-:dex_04: 2
-:int_04: 21
-:str_04: 12
-:hpm_04: 24
+:cha_04: 11
+:con_04: 8  
+:dex_04: 5
+:int_04: 19
+:str_04: 7
+:hpm_04: 14
 :part_04: Sensors
 
-
 // level_05
-:ttl_05: 174
-:awe_05: 6
-:cha_05: 15
-:con_05: 13  
-:dex_05: 2
-:int_05: 20
-:str_05: 12
-:hpm_05: 21
-:part_05: Sensors
-
+:ttl_05: 95
+:awe_05: 7
+:cha_05: 11
+:con_05: 8  
+:dex_05: 5
+:int_05: 19
+:str_05: 7
+:hpm_05: 12
+:part_05: Peripheral
 
 // level_06
-:ttl_06: 192
+:ttl_06: 105
 :awe_06: 6
-:cha_06: 15
-:con_06: 12  
-:dex_06: 2
-:int_06: 20
-:str_06: 11
-:hpm_06: 18
-:part_06: Power
-
+:cha_06: 11
+:con_06: 8  
+:dex_06: 5
+:int_06: 18
+:str_06: 7
+:hpm_06: 10
+:part_06: Sensors
 
 // level_07
-:ttl_07: 208
+:ttl_07: 114
 :awe_07: 6
-:cha_07: 15
-:con_07: 12  
-:dex_07: 2
-:int_07: 20
-:str_07: 11
-:hpm_07: 16
-:part_07: Peripheral
-
+:cha_07: 11
+:con_07: 8  
+:dex_07: 4
+:int_07: 18
+:str_07: 6
+:hpm_07: 9
+:part_07: Locomotion
 
 // level_08
-:ttl_08: 222
+:ttl_08: 122
 :awe_08: 5
-:cha_08: 14
-:con_08: 11  
-:dex_08: 1
-:int_08: 19
-:str_08: 10
-:hpm_08: 14
+:cha_08: 9
+:con_08: 7  
+:dex_08: 2
+:int_08: 17
+:str_08: 5
+:hpm_08: 8
+:part_08: Control
+
+// level_09
+:ttl_08: 129
+:awe_08: --
+:cha_08: --
+:con_08: --  
+:dex_08: 0
+:int_08: --
+:str_08: --
+:hpm_08: 7
 :part_08: Control
 
 
-// level_09
-:ttl_09: 234
-:awe_09: 5
-:cha_09: 14
-:con_09: 11  
-:dex_09: 1
-:int_09: 19
-:str_09: 10
-:hpm_09: 12
-:part_09: Peripheral
-
-
-// level_10
-:ttl_10: 244
-:awe_10: 
-:cha_10: 
-:con_10:   
-:dex_10: 0
-:int_10: 
-:str_10: 
-:hpm_10: 
-:part_10: Control
 
 //JSON STRING
 :json_file:

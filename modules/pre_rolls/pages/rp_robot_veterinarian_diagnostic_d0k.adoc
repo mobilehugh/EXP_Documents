@@ -1,0 +1,293 @@
+=  D0k
+
+// FILE DATA
+:record_format: format_rp_robot.adoc
+
+:image_file: medibot_diagnostic.png
+:image_folder: ROOT
+:image_description: An elongated box with sensors on top and wheels on bottom.
+:image_artist: Pat Redding
+:image_date: 1991
+:image_size: 2
+
+:toy_description: an elongated box with sensors on top and wheels on bottom
+:toy_description_prefix: This persona looks like
+
+:pdf_file: rp_robot_veterinarian_diagnostic_d0k.pdf
+:date_created: 1990_0807_1442_0042
+:date_updated: 1990_0807_1442_0042
+:jsonl_name: 
+
+
+//HEADER
+:persona_name: D0k
+:player_name: Hugh
+:description: A diagnostic veterinarian robot.
+
+//ATTRIBUTES
+:awe: 17
+:cha: 8
+:con: 8  
+:dex: 17
+:int: 19
+:mnd: --
+:str: 1
+:soc: 800
+:hpm: 16
+
+:con_prime: 2
+:dex_prime: 3
+:int_prime: 3
+:str_prime: 1
+
+:adaptability: 10
+:control_factor: 26
+
+// COMBAT
+
+:strike_skill: 90
+:strike_raw: 0
+:strike_max: --
+:strike_force: 1
+:strike_freq: 0
+
+:fling_skill: 190
+:fling_raw: 0
+:fling_max: --
+:fling_force: 1
+:fling_freq: 0
+
+:shoot_skill: 180
+:shoot_raw: 0
+:shoot_max: --
+:shoot_force: 0
+:shoot_freq: 0 
+
+
+:def: 700
+:move_land: 14
+:move_air: 0
+:move_water: 0
+
+
+//Alien BIOLOGIC data
+:family: Robot
+:series: Veterinarian
+:model: Diagnostic
+:common_name: D0k
+
+// SHAPE
+:colour:  white 
+
+// Age Info
+:age_cat: brand new
+:age: unknown
+:age_suffix: years
+
+:size_cat: Tiny
+:hite: 30
+:hite_suffix: cms
+:wate: 5
+:wate_suffix: kgs
+
+:fabricator: Purestrain
+:sensors: Video x 5
+:locomotion: 9 wheels
+:fuel_cell: Nuclear Cell
+:power_duration: 26 months
+:value: 225000
+
+// OFFENSIVE Systems information
+:attacks: yes
+:attack_type: Offensive
+
+:attack_1: Blunt Flat
+:attack_1_xref: systems_offensive.adoc#_ramming
+:attack_1_desc: must win CF to ram; 1d4+1d4@3h/u
+
+:attack_2: 
+:attack_2_xref: 
+:attack_2_desc: 
+
+:attack_3: 
+:attack_3_xref: 
+:attack_3_desc: 
+
+:attack_4: 
+:attack_4_xref: 
+:attack_4_desc: 
+
+:attack_5:
+:attack_5_xref:
+:attack_5_desc:
+
+
+// DEFENSIVE Systems information
+:defences: yes
+:defence_type: Defensive
+
+:defence_1: Camouflage
+:defence_1_xref: systems_defensive.adoc#_camouflage
+:defence_1_desc: hide inside buildings and rooms
+
+:defence_2: 
+:defence_2_xref: 
+:defence_2_desc: 
+
+:defence_3: 
+:defence_3_xref: 
+:defence_3_desc:
+
+:defence_4:
+:defence_4_xref:
+:defence_4_desc:
+
+:defence_5:
+:defence_5_xref:
+:defence_5_desc:
+
+
+// PERIPHERAL Systems information
+:peripherals: yes
+:peripheral_type: Peripheral
+
+:peripheral_1: damage analysis
+:peripheral_1_xref: systems_peripherals.adoc#_fancy_peripheral
+:peripheral_1_desc: doctor heal thyself
+
+:peripheral_2: 
+:peripheral_2_xref: 
+:peripheral_2_desc:
+
+:peripheral_3: 
+:peripheral_3_xref: 
+:peripheral_3_desc:
+
+:peripheral_4:
+:peripheral_4_xref:
+:peripheral_4_desc:
+
+:peripheral_5:
+:peripheral_5_xref:
+:peripheral_5_desc:
+
+
+// EVOLUTATION information
+:mutations: none
+:mutation_type: Mutations
+
+:mutation_1: 
+:mutation_1_xref: 
+:mutation_1_desc: 
+
+:mutation_2: 
+:mutation_2_xref: 
+:mutation_2_desc: 
+
+:mutation_3: 
+:mutation_3_xref: 
+:mutation_3_desc:
+
+:mutation_4:
+:mutation_4_xref:
+:mutation_4_desc:
+
+:mutation_5:
+:mutation_5_xref:
+:mutation_5_desc:
+
+// TASKS
+
+:vocation: Veterinarian
+:level: 7
+:exps: 120000
+:exps_goal: 125000
+
+//GIFTs, presently calculated by level
+:gift_title: Approaches
+:gift_1: Quick Fix
+:gift_2: Resuscitation
+:gift_3: Suggestion
+
+// INTERESTs in a list ["Think Space", "Physical Space"] needs to be summed
+// interests can compound and have values
+:interest_1: Diagnosis-4
+:interest_2: Treatment-2
+:interest_3: Research
+
+//SKILLs in a list ["Mimic", "Militarization", "Languages"] needs to be calculated
+:skill_1: Psionics-3
+:skill_2: Phenomics-2
+:skill_3: Internals
+:skill_4: Neurology
+:skill_5: Aging-2
+:skill_6: Spacer Sickness
+:skill_7: Decompression
+:skill_8: Trauma-2
+:skill_9: 
+
+//HISTORY single string stored in a list
+:rp_fun_arc_origin: heading from sick bay
+:rp_fun_arc_present: diagnosing an expedition member
+:rp_fun_arc_future: prevent space accidents
+
+//APPEARANCES
+:appearance_dress: 
+:appearance_hygiene:
+:appearance_gender:
+:appearance_smell: 
+
+//LABANATIONS
+:personality:
+:laban_move: 
+:laban_sound: 
+:comments: 
+
+//BELIEFS
+:belief_religion:
+:belief_philosophy:
+:belief_politics:
+
+//EQUIPMENT
+
+:wa: 4.5
+:wa_sprint: 4.5
+:wa_carry: 4.5
+:wa_lift: 4.5
+
+:item_1: toy__null.adoc
+:item_2: toy__null.adoc
+:item_3: toy__null.adoc
+:item_4: toy__null.adoc
+:item_5: toy__null.adoc
+
+
+//JSON STRING
+:json_file:
+
+//decay table info
+
+// level_00 no damage
+:ttl_00: 16
+:awe_00: 17
+:cha_00: 8
+:con_00: 8  
+:dex_00: 17
+:int_00: 19
+:str_00: 1
+:hpm_00: 16
+:part_00: None
+
+// level_01 no damage
+:ttl_01: 30
+:awe_01: --
+:cha_01: --
+:con_01: --  
+:dex_01: --
+:int_01: --
+:str_01: 0
+:hpm_01: 14
+:part_01: Control
+
+
+include::pre_rolls:partial${record_format}[]
