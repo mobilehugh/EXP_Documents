@@ -1,0 +1,116 @@
+// AI RP format
+
+
+// INTRODUCTION and IMAGE
+
+include::pre_rolls:partial$format_intro_and_image.adoc[]
+
+
+// RP Fun
+== RP Fun
+
+.*Externals*
+* Voice: {laban_sound}
+
+.*Internals*
+* Personality: {personality}
+* Religion:    {belief_religion}
+* Politics:    {belief_politics}
+* Philosophy:  {belief_philosophy}
+
+.*Story*
+* Past: {rp_fun_arc_origin}.
+* Present: {rp_fun_arc_present}
+* Future: {rp_fun_arc_future}.
+
+== Autonomous Intelligence Data
+
+[width="100%",cols="5*^",frame="none", grid="none", stripes="none"]
+|===
+
+s|Family
+s|Distribution
+s|Generalization
+s|INT
+s|Value
+
+|{family}
+|{distribution}
+|{generalization}
+|{int}
+|{value}
+
+5+<|*Fabrictor*: {fabricator}
+
+
+
+|===
+
+
+// MUTATIONs
+
+include::pre_rolls:partial$format_mutations.adoc[]
+
+
+// formats all the stuff for robot peripherals 
+// gets the data from the persona record attributes 
+
+=== Peripheral Systems
+
+// if no peripherals then state type and none
+ifeval::["{peripherals}" == "none"]
+[larger]#None#
+endif::[]
+
+ifeval::["{peripheral_1}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:referee_personas:{peripheral_1_xref}[{peripheral_1},window=_blank]
+|{peripheral_1_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_2}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:referee_personas:{peripheral_2_xref}[{peripheral_2},window=_blank]
+|{peripheral_2_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_3}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:referee_personas:{peripheral_3_xref}[{peripheral_3},window=_blank]
+|{peripheral_3_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_4}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:referee_personas:{peripheral_4_xref}[{peripheral_4},window=_blank]
+|{peripheral_4_desc}
+|===
+endif::[]
+
+ifeval::["{peripheral_5}" != ""]
+[width="75%",cols="2*<", frame="none", grid ="rows",  role="no-striping"]
+|===
+s|xref:referee_personas:{peripheral_5_xref}[{peripheral_5},window=_blank]
+|{peripheral_5_desc}
+|===
+endif::[]
+
+
+== PDF
+
+AIs do not do paper. This persona record does not have a PDF.
+
+
+== JSON
+
+An AI cannot be safely conatined in a json.
+
+
+

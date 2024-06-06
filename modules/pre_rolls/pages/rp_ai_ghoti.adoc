@@ -1,0 +1,104 @@
+= GHOTI
+
+// FILE DATA
+:record_format: format_rp_ai.adoc
+
+:image_file: rp_ai_ghoti.png
+:image_folder: pre_rolls
+:image_description: A single sad looking goldfish in a high tech portable aquarium.
+:image_artist: Dolly aimage. Prompt HM.
+:image_date: 2024
+:image_size: 2
+
+:toy_description: a single sad looking goldfish in a high tech portable aquarium
+:toy_description_prefix: This persona looks like
+
+:pdf_file: 
+:date_created: 1990_0807_1442_0042
+:date_updated: 1990_0807_1442_0042
+:jsonl_name:
+
+// Distribution
+:distribution: sessile
+
+// Generalization
+:generalization: Matriarch
+
+// INT
+:int: 31
+
+// Peripherals
+// PERIPHERAL Systems information
+:peripherals: yes
+:peripheral_type: Peripheral
+
+:peripheral_1: Hospital
+:peripheral_1_xref: ai_rp.adoc#_peripherals
+:peripheral_1_desc: operate, manage and plan for a hospital
+
+:peripheral_2: Research 
+:peripheral_2_xref: ai_rp.adoc#_peripherals
+:peripheral_2_desc: operate, manage and plan for a research facility
+
+:peripheral_3: Psionics
+:peripheral_3_xref: ai_rp.adoc#_peripherals
+:peripheral_3_desc: operate, manage and plan for psionics development
+
+:peripheral_4:
+:peripheral_4_xref: ai_rp.adoc#_peripherals
+:peripheral_4_desc:
+
+:peripheral_5:
+:peripheral_5_xref: ai_rp.adoc#_peripherals
+:peripheral_5_desc:
+
+// EVOLUTATION infomation
+:mutations: yes
+:mutation_type: Mutations
+
+:mutation_1: Mental Control
+:mutation_1_xref: psionics.adoc#_mental_control
+:mutation_1_desc: control the mind and body of an organics
+
+:mutation_2: 
+:mutation_2_xref: 
+:mutation_2_desc: 
+
+:mutation_3: 
+:mutation_3_xref: 
+:mutation_3_desc:
+
+:mutation_4:
+:mutation_4_xref:
+:mutation_4_desc:
+
+:mutation_5:
+:mutation_5_xref:
+:mutation_5_desc:
+
+// Personality
+:rp_fun_arc_origin: escaped from a containment facility
+:rp_fun_arc_present: usually being carried by expedition
+:rp_fun_arc_future: wants to get back to it's tank
+
+//LABANATIONS
+:personality: condescending
+:laban_sound: quiet and direct
+
+//BELIEFS
+:belief_religion: None
+:belief_philosophy: Determinism
+:belief_politics: None
+
+// Taxonomy
+:family: AI
+:genus: Sessile
+:species: Matriarch
+:fabricator: aquarian
+
+// Interacting
+// Value
+:value: unmeasurable
+
+// FIRE the RECORD FORMAT Mrs Nesbitt.
+include::pre_rolls:partial${record_format}[]
