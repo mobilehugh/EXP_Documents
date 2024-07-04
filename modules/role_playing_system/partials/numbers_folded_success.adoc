@@ -1,12 +1,13 @@
 .*Folded Success Table*
 [width="75%",cols="^,<", stripes="even"]
 |===
-2+<|Folded 4D2 Roll = Number -> Outcomes.
+2+<|Folded Success Roll. More number more better. +
+2d6 - 2d6 (drop negative) -> Number (0 to 10) -> Outcome.
 
 s|Number
 s|Outcome
 
-s|10
+s|{set:cellbgcolor:#00FF00}10
 s|[green-row]#Immaculate Success#
 
 s|9
@@ -36,11 +37,12 @@ s|[green-row]#Solid Success#
 s|1
 s|[green-row]#Bare Success#
 
-s|0
-s|[yellow-row]#Detent#
+s|{set:cellbgcolor:#FFFF00}0
+s|Detente
 
-s|Number
+s|{set:cellbgcolor!}Number
 s|Outcome
-2+<|2d6 - 2d6 (ignore negative) = Number (0 to 10) -> Outcome.
+
+2+<|for mathies \|2d6 - 2d6\| (absolute) -> Number (0 to 10) -> Outcome.
 
 |===

@@ -1,46 +1,47 @@
 .*Folded Failure Table*
 [width="75%",cols="^,<", stripes="even"]
 |===
-2+<|Folded 4D2 Roll = Number -> Outcomes.
+2+<|Folded Failure Roll. The higher the worser. +
+2d6 - 2d6 (drop negative) -> Number (0 to 10) -> Outcome.
 
 s|Number
 s|Outcome
 
-s|10
-s|[red-row]#Cataclysmic Failure#
+s|{set:cellbgcolor:#FF0000}10
+s|Cataclysmic Failure
 
 s|9
-s|[red-row]#Calamitous Failure#
+s|Calamitous Failure
 
 s|8
-s|[red-row]#Disastrous Failure#
+s|Disastrous Failure
 
 s|7
-s|[red-row]#Grievous Failure#
+s|Grievous Failure
 
 s|6
-s|[red-row]#Complete Failure#
+s|Complete Failure
 
 s|5
-s|[red-row]#Massive Failure#
+s|Massive Failure
 
 s|4
-s|[red-row]#Severe Failure#
+s|Severe Failure
 
 s|3
-s|[red-row]#Major Failure#
+s|Major Failure
 
 s|2
-s|[red-row]#Clear Failure#
+s|Clear Failure
 
 s|1
-s|[red-row]#Minor Failure#
+s|Minor Failure
 
-s|0
-s|[yellow-row]#Detent#
+s|{set:cellbgcolor:#FFFF00}0
+s|Detente
 
-s|Number
+s|{set:cellbgcolor!}Number
 s|Outcome
-2+<|2d6 - 2d6 (ignore negative) = Number (0 to 10) -> Outcome.
+2+<|for mathies \|2d6 - 2d6\| (absolute) -> Number (0 to 10) -> Outcome.
 
 |===
