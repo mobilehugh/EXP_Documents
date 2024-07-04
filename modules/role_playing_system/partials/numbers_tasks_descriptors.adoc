@@ -7,95 +7,96 @@ s|Number
 s|Outcome
 s|Descriptor
 
-s|+10
-s|[green-row]#Immaculate Success#
+s|{set:cellbgcolor:#00FF00}+10
+s|Immaculate Success
 |Invention
 
 s|+9
-s|[green-row]#Wondrous Success#
+s|Wondrous Success
 |Enhancement, Permanent
 
 s|+8
-s|[green-row]#Magnificent Success#
+s|Magnificent Success
 |Enhancement, Temporary
 
 s|+7
-s|[green-row]#Majestic Success#
-|Shift for Days
+s|Majestic Success
+|Improve for Days
 
 
 s|+6
-s|[green-row]#Masterful Success#
-|Shift for Hours
+s|Masterful Success
+|Improve for Hours
 
 s|+5
-s|[green-row]#Extraordinary Success#
-|Shift for Minutes
+s|Extraordinary Success
+|Improve for Minutes
 
 s|+4
-s|[green-row]#Outstanding Success#
-|Lasts Months
+s|Outstanding Success
+|Repair lasts Months
 
 s|+3
-s|[green-row]#Superior Success#
-|Lasts Weeks
+s|Superior Success
+|Repair lasts Weeks
 
 s|+2
-s|[green-row]#Solid Success#
-|Lasts Days
+s|Solid Success
+|Repair lasts Days
 
 s|+1
-s|[green-row]#Bare Success#
-|Lasts Hours
+s|Bare Success
+|Repair lasts Hours
 
-s|0
-s|[yellow-row]#Detent#
-s|Keep struggling. 
+s|{set:cellbgcolor:#FFFF00}0
+s|Detent
+s|Keep trying. 
 
-s|-1
-s|[red-row]#Minor Failure#
+s|{set:cellbgcolor:#FF0000}-1
+s|Minor Failure
 |Try Again
 
 s|-2
-s|[red-row]#Clear Failure#
+s|Clear Failure
 |Wait Minutes
 
 s|-3
-s|[red-row]#Major Failure#
+s|Major Failure
 |Wait Hours
 
 s|-4
-s|[red-row]#Severe Failure#
+s|Severe Failure
 |Wait Days
 
 s|-5
-s|[red-row]#Massive Failure#
+s|Massive Failure
 |Wait Weeks
 
 s|-6
-s|[red-row]#Complete Failure#
+s|Complete Failure
 |Complication
 
 s|-7
-s|[red-row]#Grievous Failure#
+s|Grievous Failure
 |Severe Complication
 
 s|-8
-s|[red-row]#Disastrous Failure#
+s|Disastrous Failure
 |Damage
 
 s|-9
-s|[red-row]#Calamitous Failure#
+s|Calamitous Failure
 |Severe Damage
 
 s|-10
-s|[red-row]#Cataclysmic Failure#
+s|Cataclysmic Failure
 |Destruction
 
-s|Number
+s|{set:cellbgcolor:#FAFAFA}Number
 s|Outcome
 s|Descriptors
 
-3+<|Descriptors are cumulative.
+3+<|{set:cellbgcolor:#F2F2F2}Descriptors are cumulative. +
+3+<|Improvement for days also has a repair that lasts months.
 |===
 

@@ -12,116 +12,118 @@ s|Outcome
 s|Organic
 s|Inorganic
 
-s|+10
-s|[green-row]#Immaculate Success#
-|Fatal Wound
-|Attribute Loss x 2
+s|{set:cellbgcolor:#00FF00}+10
+s|Immaculate Success
+|Fatal Blow
+|Brain destroyed
 
 s|+9
-s|[green-row]#Wondrous Success#
-|Fatal Wound
-|Attribute Loss x 1
+s|Wondrous Success
+|Wound, fatal
+|Power destroyed
 
 
 s|+8
-s|[green-row]#Magnificent Success#
-|Mortal Wound
-|Attribute Damage
+s|Magnificent Success
+|Wound, mortal
+|Peripheral destroyed
 
 s|+7
-s|[green-row]#Majestic Success#
-|Mortal Wound
-|Peripheral Destruction
+s|Majestic Success
+|Wound, severe
+|Peripheral damaged
 
 s|+6
-s|[green-row]#Masterful Success#
-|Severe Wound
-|Programme Destruction
+s|Masterful Success
+|Wound
+|Software destroyed
 
 
 s|+5
-s|[green-row]#Extraordinary Success#
-|Wound
-|Peripheral Damage
+s|Extraordinary Success
+|Wound, minor
+|Software damaged
 
 s|+4
-s|[green-row]#Outstanding Success#
-|Severe Stun
-|Programme Damage
+s|Outstanding Success
+|Stun, severe
+|Software impaired
 
 s|+3
-s|[green-row]#Superior Success#
+s|Superior Success
 |Stun
-|Severe Rattle
+|Rattle, severe
 
 s|+2
-s|[green-row]#Solid Success#
+s|Solid Success
 |Knockback
 |Rattle
 
 s|+1
-s|[green-row]#Bare Success#
+s|Bare Success
 |Backfoot
-|Cosmetic Injury
+|Cosmetic
 
 
-s|0
-s|[yellow-row]#Detent#
+s|{set:cellbgcolor:#FFFF00}0
+s|Detente
 2+<s|Ongoing combat story
 
-s|-1
-s|[red-row]#Minor Failure#
-|Nil
-|Nil
+s|{set:cellbgcolor:#FF0000}-1
+s|Minor Failure
+|Backfoot
+|Cosmetic
 
 s|-2
-s|[red-row]#Clear Failure#
-|Backfoot
-|Cosmetic Damage
-
-s|-3
-s|[red-row]#Major Failure#
+s|Clear Failure
 |Knockback
 |Rattle
 
-s|-4
-s|[red-row]#Severe Failure#
+s|-3
+s|Major Failure
 |Stun
-|Severe Rattle
+|Rattle, severe
+
+s|-4
+s|Severe Failure
+|Stun, severe
+|Software impaired
 
 s|-5
-s|[red-row]#Massive Failure#
-|Severe Stun
-|Programme Damage
+s|Massive Failure
+|Wound, minor
+|Software damaged
 
 s|-6
-s|[red-row]#Complete Failure#
+s|Complete Failure
 |Wound
-|Peripheral Damage
+|Software destroyed
 
 s|-7
-s|[red-row]#Grievous Failure#
-|Severe Wound
-|Programme Destruction
+s|Grievous Failure
+|Wound, severe
+|Peripheral damaged
 
 s|-8
-s|[red-row]#Disastrous Failure#
-|Mortal Wound
-|Peripheral Destruction
+s|Disastrous Failure
+|Wound, mortal
+|Peripheral destroyed
 
 s|-9
-s|[red-row]#Calamitous Failure#
-|Mortal Wound
-|Attribute Damage
+s|Calamitous Failure
+|Wound, fatal
+|Power Destroyed
 
 s|-10
-s|[red-row]#Cataclysmic Failure#
-|Fatal Wound
-|Attribute Loss x 1
+s|Cataclysmic Failure
+|Fatal blow
+|Brain destroyed
 
-s|Number
+s|{set:cellbgcolor:#FAFAFA}Number
 s|Outcome
 2+<s|Descriptors for combat
 
-4+<|2d6 - 2d6 = Number (+10 to -10) -> Outcome -> Descriptor.
+4+<|{set:cellbgcolor:#F2F2F2}Descriptors are cumulative. +
+4+<|Organic: A wound is also a severe stun.
+4+<|Inorganic: Software impaired is also a severe rattle. If there is no software, slide to peripheral. 
 |===
