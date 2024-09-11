@@ -872,7 +872,7 @@ include::hardware:partial$spacecraft_bombs.adoc[]
 The purpose of ship artillery is to damage the target ship so that it ceases to function.
 This goal is to wear down shields and armour and directly damaging the hull if necessary.
 In space combat terms, artillery is very tiny and is only in range when vessels are boarding or ramming. 
-Naval artillery is the literal big gun of space combat.
+This offensive system is NOT naval artillery.
 
 In space combat (exatmo), artillery must win an attack roll to damage the target vessel.
 While inside the atmosphere (inatmo), artillery functions as an area of effect weapon on terrestrial targets.
@@ -902,10 +902,10 @@ The player rolls on the spacer artillery table above and then does arithmetic as
 include::hardware:partial$spacecraft_naval_artillery.adoc[]
 
 == Baked-in Systems
-Spacecraft are not guaranteed to have an airlock, cabins, sickbays. 
+Spacecraft are not guaranteed to have an airlock, cabins, or sickbays. 
 These are all choices made by the referee or player generating the spacecraft.
-Every spacecraft will have the required systems described below.
-None of the required systems occupy, or need, cargo space and built into the spacecraft.
+Every spacecraft will have the required baked-in systems below.
+None of the required systems occupy, or need, cargo space and are built into the spacecraft.
 
 === Access Port
 Allows access to the spacecraft when inatmo. 
@@ -916,7 +916,7 @@ Access ports are not limited by hull space or cargo space.
 === Workspaces
 Every crew member requires a workspace. 
 A workspace is __not__ a cabin or an office. 
-The workspace may be a chair with a console with or without 
+The workspace may be a chair with, or without, a console. 
 Each crew member (pilot, engineer, astrogator) requires a half tonne of workspace.
 
 === Utility Corridors
@@ -933,9 +933,9 @@ Every external contraption requiring exatmo access (guns, missiles, viewers, etc
 A ship has ten datalocks per computer level.
 
 === OSHA 
-Outer space habitat assurance is an extension of the life support system.
+Outer Space Habitat Assurance is an extension of the life support system.
 OSHA will temporarily repair minor air leaks, and suppress small fires.
-OSHA may also close off bulkheads to contain larger fire, depressurization or radiation leaks.
+OSHA may also close off bulkheads to contain larger fires, depressurization or radiation leaks.
 While it appears that this is for the crew of the spacecraft it is actually there to protect the ship's computer.
 
 The ship can only look after itself in a limited way.
@@ -986,7 +986,7 @@ It would be nearly impossible to eject a life form from a functioning airlock.
 An airlock takes up no space __inside__ the spacecraft.
 However, an airlock requires at least 5 tonnes of hull space.
 A ship can have one airlock for every 5 tonnes of  hull space.
-So a ship with a 15 tonnes  hull hold could support three airlocks anywhere on its hull.
+So a ship with a 15 tonnes hull could support three airlocks anywhere on its hull.
 
 Smaller spacecraft do not have enough space for an airlock.
 Airlocks are free to be located anywhere on the spacecraft.
@@ -1042,7 +1042,7 @@ A 10-tonne cargo lock can load/unload 10 tonnes of cargo per hour or a day or wh
 Cold storage is for cryogenic suspension of organic material less than 250 kg in wate.
 The freezers will maintain life, with no drain on life support, and will continue to function after life support has failed.
 Cold storage will work until the cold storage box itself is destroyed.
-Each cold storage space occupies a half tonne of cargo space.
+Each cold storage space occupies a quarter tonne of cargo space.
 
 === Corridors 
 
@@ -1076,13 +1076,13 @@ Special drives are delicate and can never be external.
 * Requires: 0 tonnes
 * Occupies: 0 tonnes
 
-Gravity couches are specialized chairs designed to save the body from damage during the lethal maneuvers of combat.
+Gravity couches are specialized chairs designed to save delicate life forms from damage during the lethal maneuvers of combat.
 They are composed of force-absorbing materials and restraining belts.
 Grav couches allow a spacecraft to maneuver even with a damage gravity system.
 Passengers and crew not in gravity couches during high-g combat maneuvers are dead.
 
-These are military devices and are only found on military craft (pirate or government).
-A combat vessel is a spacecraft with naval artillery, bombs or grenades.
+These are military devices and are only found on military craft (pirate, corpo, or government).
+A military vessel is any spacecraft that has artillery, mines or missiles.
 
 === Life Bloats
 
@@ -1119,7 +1119,7 @@ If the food machine is busy enough, it would be reasonable to give it a personal
 Robots are a common occurrence on long-haul spacecraft.
 The use of robots must reflect the referee's milieu.
 The robots can be on board to replace crew, to aid crew, or as paying guests.
-The chance of a ship sporting a particular robotic has many factors. 
+The chance of a ship sporting a particular robot has many factors. 
 The depth of persona fabrication that goes into spacer robots depends on the referee's resources and story needs.
 
 The player rolls decidice (1d100) for every robot type.
@@ -1166,7 +1166,7 @@ The crew consists of a pilot, engineer, doctor, and steward.
 There are no robots and no crew replacement software.
 After all deductions, there are leaves 63 tonnes of cargo space in the vessel.
 The remaining cargo space allows for a cargo lock and multiple airlocks.
-The cargo lock does not work inatmo, so its inclusion is a mystery.
+The cargo lock does not work exatmo, so its inclusion is a mystery.
 Sixty tonnes is the capacity of two mundane terran dump trucks.
 
 include::hardware:partial$spacecraft_cargo_space.adoc[]
@@ -1177,7 +1177,7 @@ include::hardware:partial$spacecraft_cargo_space.adoc[]
 The EXPS value of a spacecraft is impossible to assess.
 The expedition earns experience for a spacecraft once they have flown it somewhere.
 In austere resource campaigns, the EXPS award for an earned spacecraft is one complete EXPS level.
-If spacecraft are commonplace, this EXPS award only counts once.
+If spacecraft are commonplace, this EXPS is only awarded once.
 
 === Value
 A spacecraft's value depends on several components: hull, drives, computer, etc.
