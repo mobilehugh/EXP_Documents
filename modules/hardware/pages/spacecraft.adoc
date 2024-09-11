@@ -14,22 +14,23 @@ ____
 :description: Two space suited humanoids floating around their space camper on a moon.
 include::ROOT:partial$articulate.adoc[]
 
-A spacecraft is any vehicle can function outside planetary atmospheres and sail off into the wild black yonder.
+A spacecraft is any vehicle that can function outside planetary atmospheres and sail off into the wild black yonder.
 Spacecraft have specially sealed hulls, super-powerful engines, and technomagical drives that hop enormous distances.
 Spacecraft can be the entire focus of a story or a mere tool to advance a story.
-The spacecraft creation system does not lend itself to on-the-spot artifacts.
 
 A spacecraft may be a piece of garbage discarded by a 1000 planet armada, or the priceless effort of a culture trying to escape its gravity well.
 Spacecraft can be found, stolen, rented, lent or inherited by the expedition.
 Space travel may be the campaign goal or just to mechanism to expand campaign horizons.
 Either way, access to a spaceship brings the level of fantasy to galactic proportions.
 
+The spacecraft creation system is complex and does not lend itself to on-the-spot artifacts.
+
 == Nomenclature
 The type of spacecraft reflects its function.
 The spacecraft types starship and airship indicate different functions.
 A starship does it all. 
-A starship can travel between stars (special drive), between planets (exatmo drive) and enter the atmosphere (inatmo drive).
-An airship can only maneuver within a planet's atmosphere and gravity (inatmo drive).
+A starship can travel between stars, between planets and enter an atmosphere.
+An airship can only maneuver within a planet's atmosphere and gravity well.
 An airship could be a plane or a dirigible, but not a spacecraft.
 
 Exatmo is a contraction of "exterior to the atmosphere." 
@@ -37,6 +38,11 @@ Exatmo is deadly to all life forms unless they are specifically protected.
 Inatmo is a contraction of "in the atmosphere."
 Inatmo is usually safe for lifeforms with ground, gravity and atmosphere. 
 Special drives defy existing physics to transport the expedition across the vastness of space.
+
+* drive - fancy word for engine
+* exatmo - exterior to atmosphere
+* inatmo - interior to atmosphere
+* special - an engine that outside of space and time
 
 include::appendices:partial$space_vehicle_nomenclature.adoc[]
 
@@ -48,12 +54,12 @@ The only guarantees are a hull, drives, computers, and life support.
 The layout and appearance depend on the referee and players.
 
 == Hull
-A hull is the outer covering of a seed. 
-A spacecraft hull encases the ship's contents, protecting them from exatmo.
 The first assumption about spacecraft is that they have hulls.
+A hull is like the outer covering of a seed. 
+A spacecraft hull encases the ship's contents, protecting them from exatmo.
+The ship's hull is an intimate part of the ship's life support and gravity systems. 
 The shape of the hull is determined entirely for dramatic effect.
 Spacecraft shaped like pirate ships are acceptable if this fits the referee's milieu.
-The ship's hull is an intimate part of the ship's life support and gravity systems. 
 
 .*Hull Checklist*
 . <<_size,Size>>
@@ -80,7 +86,6 @@ include::hardware:partial$spacecraft_hull_size.adoc[]
 
 === Composition 
 Hull Composition is more of a descriptor.
-All hulls function the same except regarding maintenance.
 Most spacecraft will be composed of metal, plastix, and ceramic alloys.
 Smart hulls are self-maintaining and slowly repair themselves.
 Smart hulls offer no combat benefit at all. 
@@ -92,7 +97,7 @@ include::hardware:partial$spacecraft_hull_composition.adoc[]
 Hull strength determines the hull's ability to prevent damage to the ship's interior components.
 It is a mix of composition strength, shape and redundancy.
 The hull strength is also the hull Defence Rating (DEF). 
-The hull cannot be damaged before depleting the hull's AR. 
+The hull cannot be damaged before depleting the hull's Defence Rating. 
 This depletion can happen fast in spacecraft combat.
 
 include::hardware:partial$spacecraft_hull_defence.adoc[]
@@ -149,7 +154,7 @@ The starjumper also has the name transfer station or transport satellite.
 Airship::
 An airship only has an inatmo drive and cannot travel outside of a planet's orbit or atmosphere.
 Airships also have names like plane, dirigible, or rocket.
-Mundane terra has a few airships that can drop off satellites and crash back to terra aqua.
+Mundane terra has a few airships that can throw satellites into orbit before crashing back to terra aqua.
 
 :art: space_cruiser_slick_looking.png
 :width: 450px
@@ -300,8 +305,8 @@ The special drive can travel 20 light-years (LY) per level.
 A level 6 special drive can travel 120 light-years in one moment.
 The referee can change to what works best for the milieu and campaign, i.e., parsecs or astronomical units.
 A special drive jump is usually instantaneous.
-The referee can change to what works best for the milieu or campaign, i.e., days or weeks per jump unit.
-Regardless of the special drive type, the vessel travels through xref:appendices:generic_mythos.adoc#_the_spaces[hyperspace,window=_blank].. 
+The referee can change this duration to what works best for the campaign, i.e., a jump may take days or weeks.
+Regardless of the special drive type, the vessel travels through xref:appendices:generic_mythos.adoc#_the_spaces[hyperspace,window=_blank].
 There is no communication within hyperspace or between hyperspace and physical space.
 
 TIP: Rules maintain game balance and assist creativity. +
@@ -379,7 +384,7 @@ Using date time for monitoring fuel consumption allows for limits on fuel (if th
 Each month of range consists of 30 days of fuel use.
 A month of range is for that specific spacecraft.
 The range takes into account the vessel size and all fuel necessary for the task at hand.
-Choosing a time of fuel burn proved to be the easiest way to keep track of fuel consumption.
+Choosing time to measure fuel burn proved to be the easiest way to keep track of fuel consumption.
 
 Consider a special drive jump as an example.
 A special drive jump uses one month of fuel and moves the ship as many light-years as the special drive level indicates.
@@ -446,7 +451,7 @@ So a 200-tonne starship with a level 4 computer would have 8 tonnes of computer 
 include::ROOT:partial$articulate.adoc[]
 
 == Software
-Computer software broadens the ship's computer skills in specific areas.
+Computer software broadens the ship computer's skills in specific areas.
 All spacecraft automagically maintain life support, gravity and keep things from exploding.
 A spacecraft needs direction from personas to get up and go.
 A ship's computer is artificially intelligent but not autonomously intelligent.
@@ -455,8 +460,8 @@ The computer level determines the effectiveness of the software.
 The software will include any hardware and connections it needs to function on the vessel.
 A software package may physically bolt onto the spacecraft or be auto-downloaded from https://github.com/mobilehugh/EXP_Documents[GitHub].
 
-There is no limit to the amount of software a ship's computer can store, but there is a limit to the number of programmes that it can simultaneously operate. 
-A spacecraft is limited to using one software title per level of computer at once.
+There is no limit to the amount of software a ship's computer can house, but there is a limit to the number of programmes that it can simultaneously operate. 
+A spacecraft is limited to deploying one software title per computer level at once.
 Players will have to make choices about what is the most critical package to run.
 
 === Crew
@@ -464,8 +469,8 @@ Crew replacement software indicates programmes and mechanical devices that can r
 In some circumstances, the crew software replaces the required crew member completely.
 In other circumstances, the programmes direct a persona or robot on how to operate the system.
 
+Crew replacement software is limited by the computer's level. 
 A spacecraft is limited to using one software title per level of computer at once.
-Players may have to make choices about what is the most critical software to run.
 A low-level ship's computer may always require a persona crew member to function.
 
 The player rolls decidice (1d100) for each programme, and there is a chance of having it.
@@ -504,7 +509,7 @@ The programmes allow the ship's computer to carry out the task and help personas
 
 When a persona can use the ship's computer for a maneuver, she enjoys a bonus of +1 per computer level.
 For instance, a persona who can use the etiquette programme to help cater a fancy dinner.
- If the computer level is 5, the persona gets a +5 DD bonus when making the meal. 
+If the computer level is 5, the persona gets a +5 DD bonus when making the meal. 
 
 The player makes one roll per level of the ship's computer. 
 
@@ -550,7 +555,7 @@ The pilot is the overseer of all the ship's functions.
 She is responsible for executing planetary maneuvers, star system maneuvers, combat maneuvers, ship procedures, and ship authority.
 All of these tasks require the intimate cooperation of the ship's computer and the pilot.
 Without a pilot, the ship is a motionless piece of space opera potential.
-No ship cannot travel without a pilot.
+No ship can travel without a pilot.
 Spacecraft can have personalities and attitudes, but they are *not* autonomous lifeforms. 
 
 Every 10000 tonnes of displacement requires an additional pilot (co-pilot).
@@ -662,7 +667,7 @@ The player rolls once for every item on the chance table, i.e., she makes a sepa
 
 include::hardware:partial$spacecraft_defensive_systems.adoc[]
 
-=== Defensive Onion
+=== Life Support Onion
 The life support onion is the layering of the spacecraft defences that protect the contents of the hull.
 The innermost part of the onion is life support itself. 
 Before anything can damage or impair life support, it must work its way through all the outer layers. 
@@ -687,7 +692,7 @@ Destroying the life support system exposes all of the hull's contents to the dea
 
 Life support is entirely self-contained and is impossible to tamper with and hard to destroy.
 The life support system functions entirely unknown for the players until something goes wrong.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Gravity
 Gravity maintains a safe, comfortable and convenient gravitational force throughout the space vessel.
@@ -699,7 +704,7 @@ The ship's computer controls gravity at a constant attraction of 1g with local a
 
 Gravity is entirely self-contained and is difficult to tamper with and hard to destroy.
 The gravity system functions entirely unknown for the players until something goes wrong.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Hull
 The hull defines the space vessel.
@@ -712,7 +717,7 @@ Most often, the hull is an oblong spheroid that contains the spacecraft's conten
 A spacecraft that can enter the atmosphere may have a more streamlined appearance. 
 
 The hull is the structure that maintains the ship's gravity and life support.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Armour 
 Armour indicates the strength of the spacecraft's hull.
@@ -728,7 +733,7 @@ Damage reduces Defence Rating.
 Once the Armour drops to 420, it no longer protects the hull.
 
 The Armour is a component of the life support system.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === ECM
 Electronic countermeasures (ECM) manipulate the electromagnetic spectrum to defend the ship.
@@ -753,7 +758,7 @@ Both mechanisms work by distributing the destructive force across the entire hul
 This faux scientific diffusion effectively dampers the damage.
 The shields have an active mode that the players turn on to thwart intentional damage.
 Shields also have a passive mode, and when present, they are part of the life support onion.
-Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_defensive_onion,Life Support Onion>>.
+Life support, gravity, Defence Rating, hull and shield (if present) are all part of the <<_life_support_onion,Life Support Onion>>.
 
 === Guns
 A gun is a defensive tool in spacecraft combat.
@@ -771,7 +776,7 @@ Guns are not part of the life support onion.
 * Can be controlled by personas or ship's computer
 * has unlimited ammo to defend against boarding
 ** ammo may deplete for game balance and fun
-* has an AR equal to the ship's hull
+* has an DEF equal to the ship's hull
 * damaged by Hull DEF damage or airlock damage
 
 === Active
