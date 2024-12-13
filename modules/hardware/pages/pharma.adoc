@@ -266,7 +266,7 @@ Value is 50000 per dose.
 Trauma::
 A trauma cure removes any __abnormal__ reduction to the persona's hit point maximum (HPM).
 If there is no injury to the persona's hit points max, the patient's hit point max increases by 10%
-The trauma cure has no impact on the patient's hit point total (HPS).
+The trauma cure has no impact on the patient's hit point max (HPM).
 Value is 250000 per dose.
 
 Ubiquitous::
@@ -304,7 +304,7 @@ EXPS:: 100
 Value:: Special
 
 Heals are pharma that immediately repair damaged tissue.
-The vast majority of heals repair physical damage and improve the persona's hit point total (HPS).
+The vast majority of heals repair physical damage and improve the persona's hit point (HPS).
 The less common heal type restores damaged attributes.
 
 include::hardware:partial$pharma_heal_type.adoc[]

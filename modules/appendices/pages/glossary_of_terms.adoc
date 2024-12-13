@@ -216,17 +216,22 @@ HIG::
 High gravity.
 
 Hit Points (HPS):: 
-The persona's hit points indicate how much damage she can take. 
-A persona with many hit points can sustain a lot of damage. 
+The persona's hit points indicate how much more damage she can take. 
+A persona with many hit points can sustain a lot more damage. 
 A persona loses hit points when she is hurt. 
 If a persona loses too many hit points they die.
 
-Hit Points Max (HPM, HPM):: 
+Hit Points Max (HPM):: 
 The maximum number of hit points that the persona has.
-Being at hit poits max is the least damage a persona can be.
+Being at hit points max is the least damaged a persona can be.
 The persona cannot exceed her hit points max from healing.
 
-Hit Points (HPS Total, HPT):: 
+Hit Points (HPS) vs Hit Points Max (HPM)::
+Hit points represents how many hit points the persona has left.
+Hit points can go up and down depending on damage and healing.
+Hit points Max represents the most hit points a persona can have.
+
+Hit Points Total (HPS Total, HPT):: 
 Deprecated. See Hit Points
 
 Hit:: 
