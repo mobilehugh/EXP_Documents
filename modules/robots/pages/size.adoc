@@ -2,9 +2,14 @@
 
 The robot has a general descriptor of its size called a size category.
 The size descriptor determines the Hite and Wate of the robot.
-The robot size catergories are Tiny, Small, Medium, Large and Gigantic.
+The robot size categories are Tiny, Small, Medium, Large and Gigantic.
 The majority of player persona robots will be either Small, Medium or Large.
 These robot sizes are human relatable. 
+
+== Size
+Robot size is determined by its series or model type.
+A expendable combot is medium sized, and a hobbot is small or tiny sized.
+Usually the qualitative size description is enough for players. 
 
 There are two additional robot sizes not available to player personas.
 These are Nano and Giga. 
@@ -37,6 +42,22 @@ include::robots:partial$wate_to_hite_estimation.adoc[]
 
 // todo fix the table based on size in kgs tonnes and hexes occupied
 
+=== Reach
+The reach of a robot is how far away from it's torso can it impact the world.
+The reach of an anthro is easily understood by referees and players alike. 
+However the reach of a robot with a cow shaped body and octopus arms may not be as clear.
+Once extremes of size are added into the size "reach" can become complicated indeed.
+
+Typically the robot's arms will be it's reaching limbs. 
+If a robot has no arms reaching may not be part of their existence or they can use their legs. 
+Reach only applies to grabbing objects or strike attacks. 
+Reach does not apply to fling attacks, shoot attacks or psionic evolutations.
+
+Small and Tiny robot reach is limited to the hex that they are in.
+Medium and large robots can reach into the adjacent hex.
+Gigantic robots can reach through the adjacent hex and into the next hex over.
+
+[discrete]
 == if you need to know
 Wate to Size estimates is based on the following. 
 
