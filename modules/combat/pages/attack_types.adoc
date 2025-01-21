@@ -62,6 +62,34 @@ A mercenary can split their Skilled Strike Attack Bonus amongst several attacks 
 A spie may have multiple martial arts attacks per unit. 
 There is no special nomenclature for having multiple Strike Attacks per unit. 
 
+=== Range
+Striking weapons by definition are not ranged weapons like arrows, but there are some range implications.
+Striking weapon range may be easier to describe as reach. 
+A dagger cannot reach over an adjacent hex to attack, but a spear could. 
+Other weapons cannot be used while grappling is in effect. 
+__Target hex__ is the where the target is. 
+__Same hex__ is the hex that the persona is in.
+
+Most of this goes out the window when players are using Large or Gigantic alien personas. 
+These rules are aimed at medium sized personas.
+
+.Range Descriptions
+* Close
+** Requires target to be in same hex.
+** Can be used in grappling combat.
+* Normal
+** Target can be in any adjacent hex.
+** Cannot be used properly on target in same hex (no Force bonus)
+** Cannot be used at all in grappling combat.
+* Reach
+** Target may have one hex space between attacker.
+** Cannot be used on target in adjacent, or same hex. 
+* Mounted
+** Unidirectional attack mounted on a heavy high speed mount.
+** Miss requires entire reorientation of mount. 
+** Cannot be used on a target in adjacent or next hex. 
+
+
 == Fling Attacks
 *Non-powered projectile attacks*
 
@@ -90,6 +118,7 @@ Range::
 The range represents how many hexes the weapon can fly true.
 There are no attack roll penalties within the weapon's range.
 Beyond the range, the weapon becomes much less accurate. 
+Fling attacks cannot be used for target's in the same hex or when grappling.
 
 Decay::
 When attacking a target beyond the weapon's range, the attack roll suffers decay penalties.
@@ -151,6 +180,8 @@ Range::
 The range represents how many hexes the weapon can fly true.
 There are no attack roll penalties within the weapon's range.
 Beyond the range, the weapon becomes much less accurate. 
+A crossbow can be used on a target in the attackers hex.
+However, a crossbow cannot be reloaded when grappling.
 
 Decay::
 When attacking a target beyond the weapon's range, the attack roll suffers decay penalties.

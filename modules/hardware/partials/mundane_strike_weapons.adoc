@@ -1,48 +1,49 @@
 .*Strike Weapons Table*
-[width="90%",cols="<,4*^",frame="all", stripes="even"]
+[width="95%",cols="<,<,3*^",frame="all", stripes="even"]
 |===
 5+<|Non-powered thrusting and striking weapon data. 
 
 s|Weapon
-s|Length (cm)
+s|Range (cm)
 s|Wate (kg)
-s|AR Bonus
+s|DEF Bonus
 s|Damage (HPS)
 
 |Axe
-|70
+|Normal (70)
 |1.8
 |1
-|1d10+2
+|1d6+1
 
 |Brass Knuckles
-|--
+|Close
 |0.4
 |0
-|1d3
+|1d2-1
 
 |Chain
-|70
-|2.0
+|Normal (70)
+|1.8
 |0
-|1d6+1
+|1d6
 
 |Fist +
 Paw +
 Punch
+|Close
 |--
 |--
-|--
-|1d4-3
+|1d4-2 +
+Min zero
 
 |Flail, small
-|70
-|0.5
-|1
-|1d4
+|Normal (70)
+|1.8
+|0
+|1d6+1
 
 |Flail, large
-|120
+|Reach (120)
 |1.5
 |1.5
 |1d8
@@ -50,144 +51,144 @@ Punch
 |Foot +
 Hoof +
 Kick
-|--
+|Close
 |--
 |--
 |1d4-1
 
 |Fork
-|175
+|Reach (175)
 |1.6
 |2
-|2d4
+|2d4+1
 
 |Hammer
-|130
+|Normal (100)
 |3.0
 |0
-|2d6+2
+|1d8
 
 |Lance, small
-|400
+|Mounted (400)
 |10.0
 |0
 |4d4
 
 |Lance, large
-|500
+|Mounted (500)
 |13.0
 |0
 |4d6
 
 |Mace, small
-|40
+|Normal (40)
 |1.0
 |1
-|1d3
+|1d4
 
 |Mace, large
-|75
+|Normal (100)
 |2.5
 |2
 |1d6
 
 |Morning Star
-|120
+|Reach (150)
 |1.75
 |0
-|1d6+1d4
+|1d8
 
 |Orchid
-|20
+|Close (20)
 |0.9
-|1
-|1d4+1
-
-|Pick, small
-|40
-|1.5
 |1
 |1d4
 
+|Pick, small
+|Close (40)
+|1.2
+|1
+|1d4-1
+
 |Pick, large
-|90
+|Normal (90)
 |2.5
 |2
-|1d10+2
+|1d8
 
 |Pike
-|300
+|Reach (300)
 |8.0
 |0
-|2d6
+|1d8
 
 |Point (dagger)
-|35
+|Close (35)
 |0.3
 |0
-|1d3
+|1d3-1
 
 |Scimitar
-|90
+|Normal (90)
 |1.2
 |1
 |1d8
 
 |Spear
-|200
+|Reach(200)
 |2.5
 |2
-|1d12+1
+|1d8
 
 |Staff, small
-|90
+|Normal (90)
 |1.5
 |1
-|1d4+1
+|1d4
 
 |Staff, large
-|180
+|Reach (180)
 |2.0
 |3
 |1d6
 
 |Sword, short
-|60
+|Close (60)
 |0.4
 |0
 |1d4
 
 |Sword, medium
-|90
-|0.8
+|Normal (90)
+|1.5
 |1
 |1d8
 
 |Sword, long
-|120
-|1.2
+|Normal (120)
+|2.0
 |2
 |1d10
 
 |Sword, combo
-|150
+|Normal (150)
 |1.8
 |2.5
-|1d12
+|1d8
 
 |Sword, double 
-|180
-|2.4
+|Reach (180)
+|3.5
 |3
-|2d8
+|1d12
 
 s|Weapon
-s|Length (cm)
+s|Range (cm)
 s|Wate (kg)
-s|AR Bonus
+s|DEF Bonus
 s|Damage (HPS)
 
+5+<|Rule data can be found at xref:combat:attack_types.adoc[Attack Types]
 
 |===
 
-// todo combine with stinky cousin
