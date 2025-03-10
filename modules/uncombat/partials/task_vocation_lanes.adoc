@@ -1,9 +1,13 @@
-.*Vocation Task Compatibility Table*
+.*Vocation Task Aptitude Table*
 [width="75%",cols="<,8*^",frame="all", stripes="even"]
 |===
 9+<|Not everyone can do everything. 
 
-s|Vocation
+.2+s|Persona +
+Vocation
+8+^s|Target Vocation
+
+
 s|Biologist
 s|Knite
 s|Mech
@@ -15,86 +19,86 @@ s|Vet
 
 |Biologist
 |--
+|100
+|30
+|24
+|12
 |42
-|5
-|6
-|3
-|2
-|5
-|3
+|30
+|12
 
 |Knite
-|5
+|30
 |--
-|5
-|2
-|4
-|42
-|4
-|5
+|30
+|12
+|20
+|100
+|30
+|30
 
 
 |Mechanic
-|3
-|42
+|30
+|100
 |--
-|5
-|2
-|3
-|5
-|3
+|20
+|42
+|42
+|20
+|30
 
 |Mercenary
-|6
-|42
-|6
+|30
+|100
+|30
 |--
-|4
-|2
-|3
-|6
+|30
+|42
+|20
+|30
 
 
 |Nomad
-|3
-|42
-|3
-|4
+|12
+|100
+|12
+|16
 |--
-|2
-|4
-|3
+|42
+|16
+|12
 
 
 |Nothing
-|6
-|42
-|5
-|5
-|4
+|24
+|100
+|20
+|20
+|16
 |--
-|6
-|5
+|24
+|20
 
 
 |Spie
-|6
+|30
+|100
+|30
+|16
+|30
 |42
-|6
-|4
-|3
-|2
 |--
-|4
+|30
 
 |Veterinarian
-|3
+|12
+|100
+|30
+|40
+|24
 |42
-|4
-|6
-|3
-|2
-|5
+|30
 |--
 
 
@@ -107,5 +111,8 @@ s|Nomad
 s|Nothing
 s|Spie
 s|Vet
+
+9+<|This penalty is added to the difficulty of the task. 
+
 
 |===

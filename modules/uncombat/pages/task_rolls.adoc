@@ -4,17 +4,16 @@ Task rolls are made by players when their persona is attempting something.
 The task roll is a check for success. 
 If the player wins the task roll, her persona has succeeded at the something.
 
-NOTE: *Task Rolls have replaced Performance Tables from previous versions.*
+Tasks can be mundane, like trying to repair a loose door knob.
+Tasks are pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Fredericton di-collating time re-modulator.
+Tasks can be uncombat related like making a pie.
+Tasks can be attempted in combat like trying to fight with two weapons at once. 
+The list of tasks are infinite, and there is no list of them all for space reasons. 
 
-Tasks can be mundane, like trying to repair a vehicle engine.
-Other tasks are pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Fredericton di-collating time re-modulator.
-Task rolls are used for vocation skills, abilities and gifts as well. 
-Task rolls do not cover driving. 
-There is an entire section devoted to xref:uncombat:driving.adoc[Driving,window=_blank].
-
-The more complex the task, the more difficult it is to succeed.
-Every task has its degree of difficulty (DD).
-The more complex the task, the higher the difficulty, and the higher the DD, the higher the task roll required to succeed.
+It is expected that there will be a host of tasks that players call on frequently. 
+These tasks are considered skills, however it is also expected that players will be making up tasks on the fly.
+Some of these tasks may become skills. 
+The goal of this section is to support a crunchy, but fun, way for personas to attempt mundane, weird and wonderful things. 
 
 :art: monkey_box_anger.png
 :width: 250px
@@ -25,42 +24,49 @@ The more complex the task, the higher the difficulty, and the higher the DD, the
 :description: Humanoid baboon getting mad at a technological box.
 include::ROOT:partial$articulate.adoc[]
 
-Sometimes a task will be too difficult for one persona to complete on their own. 
-<<_research_teams,Research Teams>> are crucial to completing highly complicated tasks.
+[discrete]
+== TLDR
+.Interests + Skills * 2 + Aptitude > Difficulty = Success
+****
+Research interest 1, Herbivore expertise 2, Biologist level 3 vs Difficulty 42 +
+1d100 + Competency 8 must beat 42 to win when researching a herbivore,
+****
 
-== Task Roll 
+== When to Task
+Task rolls are for events that matter in the story.
+It is not expected that players are checking to see if their personas can cross the street, toss a ball, or climb onto a chicken coop.
+A task roll is expected if the success fail consequence has an impact on the story. 
+This being said there are player conditions, such as inebriation or concussion, where __everything__ will require a task roll. 
 
-.*Steps To Task Rolls*
-. <<_competency,Determine Competency>>
+== How to Task 
+In short, the player must roll higher than the difficulty of the task on a 1d100.  
+
+A task roll has a few steps. 
+The first is to determine the Difficulty (DD) of the task at hand.
+The second is the determine the Competency (Comp) of the persona attempting the task. 
+The last is the make a roll on a 1d100. 
+Rolling higher than the DD means the task is a success. 
+Simple in theory a tad crunchier in practice.
+
+.*Steps of a Task Rolls*
 . <<_difficulty,Determine Difficulty>>
-. <<_target_roll,Determine Target Roll>>
+. <<_competency,Determine Competency>>
 . <<_bonuses,Determine Bonuses>>
 . <<_make_the_roll,Make the Roll>>
 
-=== Competency
-The Competency is a combination of the persona's EXPS Level and her skills.
-A persona can use her EXPS Level for any task that fits within her vocation.
-If the persona also has an applicable skill, she can add this to her Competency.
+== Difficulty
+The more complex something is the greater the Difficulty (DD).
+If a task roll is indicated there will be a Difficulty associated with it.
+The difficulty of the task is the number that the player must roll higher than on a 1d100.
+In the vocation section there are many skills that are assigned a difficulty
 
-If the persona does not have aptitude in the task area they cannot have competence. 
-Aptitude can be as simple as staying in your vocation's lane, or more nuanced.
-For a more nuanced view jump to <<_aptitude,Aptitude>>.
+NOTE: *Diffulty is shortened to DD for historical reasons and is an homage to Degree of Difficulty.*
 
-==== Calculation
-.Competency = EXPS Level + Interests + Skills * 2
-****
-3rd biologist Research interest 1, Herbivore skill 2 +
-Competency 6 studying herbivores. 
-****
-
-// lots of examples to add here
-
-=== Difficulty
-The more complicated something is the higher the Degree of Difficulty (DD).
-Almost every task has a degree of difficulty associated with it.
 While the lowest DD possible is 1 there is no limit to how high a DD can go.
 However, the DD can be so high that it is impossible to win the Task Roll.
-For example, cloning is a DD 42 task. 
+For example, cloning is a DD 200 task. 
+
+include::uncombat:partial$task_difficulty.adoc[]
 
 If a task does not exist or there is no assigned degree of difficulty, the players and referee must negotiate one.
 The players and referee only need to agree on a qualitative term describing the difficulty of the task.
@@ -71,59 +77,56 @@ If there is a freezer, this task should be automatic, but there may be some triv
 So the referee and players agree that this is task has a trivial difficulty.
 If there is no freezer, and the expedition is on a hot planet where the water is full of sediment, the difficulty should be impossible or bizarre.
 
-include::uncombat:partial$task_difficulty.adoc[]
+For tasks that have an enormously high difficulty the players may find success by creating a task team, or a research team. 
+A task team is for quick tasks where players can create a team competency that is larger than the sinlge persona.
+A research team is put together for a project that make take a long time with multiple attempts to complete (like cloning).
 
-=== Target Roll
-The target roll is the actual number that the player must roll higher than to win the task roll.
-The target roll is like the Defence Rating of a task.
-The player must roll equal to or higher than the target roll.
-The higher the persona's skill score (EXPS level plus skills), the lower the target roll.
-The higher the task's degree of difficulty, the higher the target roll.
+== Competency
+The competency the bonus that the player adds to her 1d100 roll when trying to beat a task difficulty.
 
-The target roll can be tabulated or calculated.
-A tabulated target roll employs a table comparing the degree of difficulty to skill score. 
-A calculated target roll employs simple maths to determine the target roll.
-Very high skill scores and very high DDs require calculation.
+Competency is a combination of the persona's knowledge and aptitude.
+Knowledge is a mixture of the persona's vocation interests and expertise.
+Her aptitude reflects her persona's experience. 
+A persona can use her EXPS Level for any task that fits within her vocation.
+If the persona also has an applicable skill, she can add this to her Competency.
 
-==== Tabulated
-No calculations are required.
-Compare DD to skill score to get the target roll.
-For example, skill score 5 intersects with DD 5 to yield a target roll of 66.
-The player must roll 66 or higher on a 1d100 to win her task roll.
-The higher the persona's skill score, the lower the player's target roll.
-Very high skill scores and very high DDs exceed the Target Rolls Table's limits and require calculation.
+.Competency = Knowledge plus Aptitude
 
-Table needs a bigger page.
-Jump to the xref:uncombat:task_target_tabulated.adoc[Task Target Table]
+=== Knowledge 
+The knowledge component of competency is reflected in the persona's interests and expertise. 
+Interests are broad areas of knowledge that can be applied to many different tasks.
+Expertise contributes more to competency, but has less applications. 
+For example, and interest in research could assist any research related task roll.
+However an expertise in pumpkins would only assist when the task involves pumpkins. 
 
-==== Calculated
-Players can calculate the target roll using some simple maths and a tiny table.
-The higher the skill score, the greater the impact on the target roll.
-Using the <<_tabulated,table>> is much faster.
+A vocation is literally built on it's knowledge. 
 
-.Data Needed
-. Difficulty (DD)
-. Competency (Comp)
-. Aptitude 
-
-Difficulty and competency are needed.
-Aptitude refers to how close the task is to th
-
-A persona with no aptitude indicates that a persona is attempting a task out of her vocation.
-For example, a mercenary trying to identify an alien flower would have no aptitude. 
+=== Aptitude
+Aptitude determines how much of the persona's experience level improves competency.
+The higher the persona's level the more their competency improves.
+However aptitude is limited by by tasks that one's vocation would carry out. 
+A veterinarian would not be able to apply aptitude to tasks that are purely martial in nature. 
+If the persona does not have aptitude in the task area they cannot have competence. 
+Aptitude can be as simple as staying in your vocation's lane, or more nuanced.
 
 include::uncombat:partial$task_aptitude_competency_multiplier.adoc[]
 
-==== Target Roll Calculation
-.Target Roll = 56 + (4 * DD) - (Skill Score * Multiplier)
-****
-DD 10 vs Comp 8 = 56 + (4 * 10) - (8 * 2) = 56 + 40 - 16 = 80 +
-DD 6 vs Comp 11 = 56 + (4 * 6) - (11 * 3) = 56 + 24 - 33 = 47 +
-DD 30 vs Comp 9 = 56 + (4 * 30) - (9 * 2) = 56 + 120 - 18 = 158 +
-DD 2 vs Comp 18 = 56 + (4 * 2) - (18 *4) = 56 + 8 - 64 = -8
-****
+[discrete]
+==== Stay In Your Lane
+I can do that.
 
-=== Bonuses
+Often personas will want to accomplish a task that is not within the realm of their vocation.
+Mercenaries often need the vet skills quick fix and stabilization.
+A mechanic may want to to do spie stuff on a security system.
+
+The cross vocation penalties are for individual personas trying to expand their scope of practice.
+These degree of difficulty penalties are in addition to zeroing the skill score by lack of aptitude.
+A Mechanic trying to use the knite gift energy would face a DD of 45 and have zero skill score (target roll of 236).
+The same mechanic trying to use the nothing skill of righteous indignation would have a DD of 4-9 and zero skill score (target roll from 72 to 92).
+
+include::uncombat:partial$task_vocation_lanes.adoc[]
+
+== Bonuses
 The player adds bonuses to her 1d100 roll.
 Bonuses often mean the difference between success and failure.
 Bonuses can come from every which way.
@@ -140,7 +143,7 @@ Many referees will offer task roll bonuses for good role-playing descriptions.
 :description: Humanoid lizard wearing a beloved fedora about to lift a treasure artifact.
 include::ROOT:partial$articulate.adoc[]
 
-==== Attribute Bonuses
+=== Attribute Bonuses
 The most common bonuses are vocation attribute bonuses.
 If the task fits into the vocation's aptitude, the player can add an attribute to the 1d100 roll.
 For combat tasks, mercenaries can add their STR.
@@ -148,7 +151,7 @@ For knowledge-based tasks, biologists can add their INT.
 
 include::uncombat:partial$vocation_attribute_bonus.adoc[]
 
-==== Role Playing Bonuses
+=== Role Playing Bonuses
 The more role-playing is integrated into the roll playing system, the more fun the play is.
 Role-playing bonuses for task rolls incentivize fun descriptions from the players. 
 The following are examples of player descriptions that should earn task roll bonuses.
@@ -171,10 +174,10 @@ A good description could get a 1d4 bonus.
 A description that rocks all the players may get a 1d10 bonus. 
 Small bonuses that lead to success generate quite a bit of excitement.
 
-=== Make the Roll
-The player rolls the 1d100, adds in the bonuses and hopes to beat the target roll. 
-Any roll equal to or higher than the target roll is a success.
-Any roll less than the target roll is a failure.
+== Make the Roll
+The player rolls the 1d100, adds in their competency and any bonuses and hopes to beat the task difficulty. 
+Any roll equal to or higher than the difficulty is a success.
+Any roll less than the difficulty is a failure.
 
 :art: performance_roll_mecha_hammer.png
 :width: 250px
@@ -185,150 +188,41 @@ Any roll less than the target roll is a failure.
 :description: Small human hammering repairs on top of giant mech suit.
 include::ROOT:partial$articulate.adoc[]
 
-== Aptitude
-I can do that.
 
-Often personas will want to accomplish a task that is not within the realm of their vocation.
-Mercenaries often need the vet skills quick fix and stabilization.
-A mechanic may want to to do spie stuff on a security system.
+=== Examples
+3rd level mechanic with repair interest of 3 and bomb expertise of 2 wants to defuse a bomb.
+Competency is 10 (3 + 4 + 3), bonus 13 (DEX) for a plus 23 to the 1d100 roll.
 
-The cross vocation penalties are for individual personas trying to expand their scope of practice.
-These degree of difficulty penalties are in addition to zeroing the skill score by lack of aptitude.
-A Mechanic trying to use the knite gift energy would face a DD of 45 and have zero skill score (target roll of 236).
-The same mechanic trying to use the nothing skill of righteous indignation would have a DD of 4-9 and zero skill score (target roll from 72 to 92).
 
-include::uncombat:partial$task_vocation_lanes.adoc[]
+6th level veterinarian with treatment interest of 4, burns expertise of 2 is treating a burn.
+Competency is 20 (12 + 4 + 4), with an rpg bonus of 4 (making a Mr Burns joke) for a plus 24 to the 1d100 roll.
 
-== Research Teams
-Research teams allow groups of personas to pool their experience skills for a greater chance of success.
-Several mechanics may share their expertise to solve a scientific problem or repair a broken warp drive.
-A  team of veterinarians could work together to save a life.
-The skill score of a research team is the sum of the skill scores of all its members.
-Every player with a persona on the research team gets to make a task roll using the team's combined skill score.
-If any of the players win their task roll, then the entire team is successful.
+9th level mercenary with combat interest of 6, ambidextrous expertise of 2 and pistols expertise 2 wants to use two pistols at once.
+Competency is 41 (27 + 6 + 8), bonus 11 (DEX) for a plus of 52 to the 1d100 roll. 
 
-:art: research_team_biovet.png
-:width: 300px
-:snark: Biologist and vet working together.
-:artist: Kelly Freas
-:date: 1957
-:license: CC BY-SA 4.0
-:description: Drawing of two humans working together on delicate project.
+=== Success 
+If the difficulty of the task is equalled or beat the persona reaps the reward of the successful task. 
 
-include::ROOT:partial$articulate.adoc[]
+=== Failure
+EXP does not have partial successes.
+If the player rolls less than the difficulty the task is a failure. 
+If the player is extremely close to being successful the referee may allow the player to go for an role playing bonus. 
 
-=== Composition
-Every research team must have a team leader.
-The EXPS Level of the team leader determines the size of the research team.
-The team can consist of one persona per level of the team leader in addition to themselves.
-A team leader cannot lead a persona with a higher EXPS level than herself.
+The consequences of a failure may be simple and apparaent. 
+A mercenary wanting to do ambidextrous combat fails their task roll they may revert to single weapon combat or suffer the dual wielding penalty.
+A mechanic that fails at defusing a bomb may leave the bomb in an undefused state or may detonate the bomb.
+It is considered poor play to kill a persona outright for a failed task roll. 
+An element of out of the frying pan into the fire consequence is more fun.
 
-For example, a 5th level veterinarian could lead a team of 5 veterinarians.
-That could be a combined research team of skill score 30 with five five task rolls.
-Teams can accomplish amazing things.
-However, teams cannot get together to solve intricate campaign puzzles created by the referee.
-As always, plot points are dice roll resistant.
+For most fail tasks the persona can try again later.
+There is no particular indications for how much later. 
+A combat related failed task, ambidextrous combat or grappling may have to wait until the end of combat or a new opponent.
+A research related failed task may be delayed a day or may require replenishment of materiel. 
+A failed enhancement of a persona's toy would only damage the toy in extreme circumstances. 
+For example if the persona was trying to make an extreme modification to the toy. 
 
-:art: alien_research_team.png
-:width: 300px
-:snark: Research teams can be technical and cute.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: 
-
-include::ROOT:partial$articulate.adoc[]
-
-A team can be composed of different vocations.
-The players must justify each vocation type's involvement on the research team.
-For example, a 7th level biologist could lead a team of 5 biologists, a mercenary, and a spie.
-If the research team was trying to determine the chance of alien revolution, this team makes sense.
-If the research team were trying to determine the direction of alien migration, including the spie and mercenary would not make sense.
-
-=== Example
-An operating room research team has a 4th level veterinarian team leader.
-The team comprises two 3rd level vets, a 3rd level biologist and a 2nd level nomad.
-They are working together to fix a famous alien the expedition accidentally ran over with a hovercar.
-They need to repair her articulated wing flaps. 
-The Degree of Difficulty of the procedure is 20DD.
-
-The research team's total skill score is 15 (4 + 3 + 3 + 3 + 2).
-
-Each team member would get a chance to beat the Target Roll of 76.
-The procedure is a success if any of the five players roll 76 or higher.
-
-== Task Duration
-How long a task takes depends on a combination of common sense and degree of difficulty (DD).
-Some tasks have specifically assigned durations.
-Performing open-heart surgery (a difficult task) would always take longer than ten minutes.
-However, the equally difficult task of performing a double somersault would take an instant.
-
-Combat-related tasks happen during the unit of combat unless otherwise specified.
-Research teamwork that requires months can pass in an instant with a few task rolls.
-
-include::uncombat:partial$task_durations.adoc[]
-
-A persona carrying out a 4 DD task would require 0-99 units of time.
-At the end of which, the player would make her task roll.
-Most of the time, this duration information is a nerd fascination.
-If time is not of the essence, then don't play on this table. 
-During combat time, these durations may be critical.
-Outside of combat time, the task durations pass instantly.
-
-A biologist trying to identify an alien species could take up to 3 minutes to make a decision.
-The duration reflects the time she spent leafing through her notes and observing before making a decision.
-
-A mercenary attempting pistol with pistol ambidextrous combat would have no such time duration, and success, or failure, is instantaneous.
-
-NOTE: *A task roll is won in an instant, but the research and prep may take months.*
-
-Research teams should always check for the duration of tasks. 
-A task that takes months to complete could be reflected in gameplay with sub-missions to get materials or other team members.
-
-== Example Tasks
-This list is not exhaustive. 
-The most common kinds of tasks encountered play testing EXP for a decade are listed here.
-Many are silly. 
-
-Successful Task Rolls are granular and represent dice rolls that change a session, not a campaign.
-As with all dice rolls in the Roll Playing System, a successful task should not change a campaign's course.
-Plot points are highly resistant to dice rolls. 
-
-IMPORTANT: *These tables are not exhaustive.*
-
-=== General 
-General tasks represent day-to-day things that personas may want to do.
-Under normal circumstances, there should be no task roll required for these actions.
-The referee would need some fun excuse to force the player to make a task roll.
-If a persona needs to bake a cake for her dessert, she should simply bake a cake.
-If the persona is baking a cake to impress an alien dignitary, then a task roll is part of the fun.
-If the persona needs to bake a cake after drinking a https://en.wikipedia.org/wiki/Zaphod_Beeblebrox#Pan-Galactic_Gargle_Blaster[uncombat:task_rolls.adoc], then a task roll is part of the fun.
-
-include::uncombat:partial$general_tasks.adoc[]
-
-=== Biologist
-include::vocations:partial$biologist_tasks.adoc[]
-
-=== Knite
-Only a knite can accomplish knite tasks. 
-include::vocations:partial$knite_tasks.adoc[]
-
-=== Mechanic
-include::vocations:partial$mechanic_tasks.adoc[]
-
-=== Mercenary
-include::vocations:partial$mercenary_tasks.adoc[]
-
-=== Nomad
-include::vocations:partial$nomad_tasks.adoc[]
-
-=== Nothing
-Other vocations have little or no concept of these irrelevant skills.
-include::vocations:partial$nothing_tasks.adoc[]
-
-=== Spie Tasks
-include::vocations:partial$spie_tasks.adoc[]
-
-=== Veterinarian
-include::vocations:partial$veterinarian_tasks.adoc[]
+=== Critical Checks
+Critical task rolls are not automatic successes but offer a huge bonus to the task roll. 
+Rolling a natural 99 or 100 allows the player to add an additional 1d100 to the task roll. 
+For more information jump to xref:uncombat:critical_checks.adoc[Critical Checks,window=_blank].
 
