@@ -68,7 +68,7 @@ For example, cloning is a DD 200 task.
 
 include::uncombat:partial$task_difficulty.adoc[]
 
-If a task does not exist or there is no assigned degree of difficulty, the players and referee must negotiate one.
+If a task does not exist, or there is no assigned difficulty, the players and referee must negotiate one.
 The players and referee only need to agree on a qualitative term describing the difficulty of the task.
 A dice roll will randomly determine the actual value of the DD.
 
@@ -120,7 +120,7 @@ Mercenaries often need the vet skills quick fix and stabilization.
 A mechanic may want to to do spie stuff on a security system.
 
 The cross vocation penalties are for individual personas trying to expand their scope of practice.
-These degree of difficulty penalties are in addition to zeroing the skill score by lack of aptitude.
+These difficulty penalties are in addition to zeroing the skill score by lack of aptitude.
 A Mechanic trying to use the knite gift energy would face a DD of 45 and have zero skill score (target roll of 236).
 The same mechanic trying to use the nothing skill of righteous indignation would have a DD of 4-9 and zero skill score (target roll from 72 to 92).
 
@@ -184,7 +184,7 @@ Any roll less than the difficulty is a failure.
 :snark: Delicate repairs underway.
 :artist: Patrick Redding
 :date: 1991
-:license: CC BY-SA 4.0
+:license: CC BY-SA 4.0 
 :description: Small human hammering repairs on top of giant mech suit.
 include::ROOT:partial$articulate.adoc[]
 
@@ -236,4 +236,31 @@ The duration of a task will be guided by the referee with the input of the table
 
 include::uncombat:partial$task_durations.adoc[]
 
+
+== Teamwork
+Personas can work together to make a success more likely. 
+This requires a task that can be shared between personas.
+Reflex task rolls like dodging or ambidextrous combat usually cannot be shared. 
+
+Teamwork is for simple, brief tasks that are not projects. 
+A merc and mechanic may work together to breach a door.
+A biologist and a nomad may work together to find a warren. 
+Two veterinarians may work together to stabilize an injured anthro.
+
+.*Teamwork Making the Dream Work*
+. Maximum of three team members
+. *Lowest two competencies* are combined
+. Each player gets to make a task roll
+
+Teamwork can improve the chance of success by combining the two lowest competencies, and up to three players can roll.
+Consider a mercenary with a competency of 11 and a mechanic with a competency of 16 trying to breach a door.
+Both players can try and beat the difficulty with a 1d100 roll plus 27. 
+That means two rolls with an improved bonus. 
+If spie with competency 21 decided to help out the merc and mech the bonus would remain 27.
+However three players can roll but the bonus is still only 27.
+This is a too many cooks spoil the broth limitation on the bonuses. 
+
+A research team is different from teamwork. 
+A research team can have any number of personas involved and they work on a project
+For more byzantine complicated shenanigans these, jump to xref:uncombat:task_rolls_projects.adoc[Project]
 

@@ -1,11 +1,57 @@
 = Projects
 
-Research teams allow groups of personas to pool their experience skills for a greater chance of success.
-Several mechanics may share their expertise to solve a scientific problem or repair a broken warp drive.
-A  team of veterinarians could work together to save a life.
-The skill score of a research team is the sum of the skill scores of all its members.
-Every player with a persona on the research team gets to make a task roll using the team's combined skill score.
-If any of the players win their task roll, then the entire team is successful.
+Creative players like to build things that don't exist in the world. 
+Once the concept of a task is "try anything" the table quickly wants to build anything.
+Projects itch that scratch by allowing the expedition to have a go at near anything.
+
+Most projects are not changing the course of history in the world.
+One would expect that creating a hyperdrive for a low tech level milieu would be an entire campaign, not at project.
+However modifying a weapon to increase it's damage, or improving the speed of a vehicle is a reasonable project. 
+
+.*Steps of a Project*
+. <<_difficulty,Difficulty>>
+. <<_duration,Duration>>
+. <<_research_team,Research Team>>
+. <<_bonuses,Determine Bonuses>>
+. <<_make_the_roll,Make the Roll(s)>>
+
+== Difficulty
+The more complex something is the greater the Difficulty (DD).
+Every project has a Difficulty associated with it.
+The Difficulty of a project is the same as the difficulty of a task.
+The project difficulty is also the 
+
+NOTE: *Difficulty is shortened to DD for historical reasons and is an homage to Degree of Difficulty.*
+
+While the lowest DD possible is 1 there is no limit to how high a DD can go.
+However, the DD can be so high that it is impossible to win the Task Roll.
+For example, cloning is a DD 200 task. 
+
+include::uncombat:partial$task_difficulty.adoc[]
+
+If a project reflects a task that has no assigned difficulty, the players and referee must negotiate one.
+The players and referee only need to agree on a qualitative term describing the difficulty of the project.
+
+== Duration
+Project duration is primarily for story telling purposes. 
+Some difficult projects can take an enormous amount of time. 
+It is expected that the campaign will continue in some capacity when a project takes months. 
+Very long projects are expected to be very complex enterprises that may become campaign elements. 
+It would make sense to have the expedition run sessions related a project.
+They may need materiel, information, or personnel to keep the project moving forward.
+If the table agrees to simply roll through a 2 year project things __must__ happen in the milieu.
+
+include::uncombat:partial$project_durations.adoc[]
+
+An expedition may choose to not pursue a project that takes too long. 
+
+== Research Team
+The core element of the project is the research team. 
+Research teams allows the entire expedition to pool their talents for a greater chance of success.
+A research team can be composed of any composition of personas. 
+Mercenaries can contribute to a veterinarian project and a spie could contribute to a mechanic project.
+Every player gets to roll for success. 
+Referee personas can be included in the research team and function as another player.
 
 :art: research_team_biovet.png
 :width: 300px
@@ -17,17 +63,12 @@ If any of the players win their task roll, then the entire team is successful.
 
 include::ROOT:partial$articulate.adoc[]
 
-== Composition
+=== Team Leader
 Every research team must have a team leader.
-The EXPS Level of the team leader determines the size of the research team.
+The Level of the team leader determines the size of the research team.
 The team can consist of one persona per level of the team leader in addition to themselves.
-A team leader cannot lead a persona with a higher EXPS level than herself.
-
-For example, a 5th level veterinarian could lead a team of 5 veterinarians.
-That could be a combined research team of skill score 30 with five five task rolls.
-Teams can accomplish amazing things.
-However, teams cannot get together to solve intricate campaign puzzles created by the referee.
-As always, plot points are dice roll resistant.
+A team leader cannot lead a persona with a higher Level than herself.
+A 7th level biologist could lead a team of 5 biologists, a mercenary, and a spie.
 
 :art: alien_research_team.png
 :width: 300px
@@ -39,48 +80,106 @@ As always, plot points are dice roll resistant.
 
 include::ROOT:partial$articulate.adoc[]
 
-A team can be composed of different vocations.
-The players must justify each vocation type's involvement on the research team.
-For example, a 7th level biologist could lead a team of 5 biologists, a mercenary, and a spie.
-If the research team was trying to determine the chance of alien revolution, this team makes sense.
-If the research team were trying to determine the direction of alien migration, including the spie and mercenary would not make sense.
+== Bonuses
+The bonuses for a project depend on the competencies of the personas involved. 
+The top two competencies are added together to determine the research team's bonus.
+Every player rolls with the same bonus. 
 
-== Example
-An operating room research team has a 4th level veterinarian team leader.
-The team comprises two 3rd level vets, a 3rd level biologist and a 2nd level nomad.
-They are working together to fix a famous alien the expedition accidentally ran over with a hovercar.
+.*Research Team Bonus*
+. Team members limited by team lead
+. *Highest two competencies* are combined
+. Each player gets to make a task roll
+
+A team working to make a faster engine for an all terrain vehicle have a research team.
+There is are two mechanic with competency 14 and 12, a mercenary with competency 16, and a nothing with competency 4. 
+A four players would get to roll with a bonus of 30 to try and beat the difficulty.
+It is possible that the mechanics may both fail their rolls but the nothing wins the roll.
+This makes for storyful outcomes.  
+
+=== Toys
+Special equipment can assist the research team.
+A diagnostics computer could add to the bonus of the research team. 
+If a veterinarian had a vet computer with a +20 bonus the player could add +20 to her project roll.
+Toy bonuses only benefit the player making the roll and NOT the entire research team.
+So only the player running the veterinarian person would get +20 when they make the project roll.
+
+=== Labs
+Most projects would expect to have a laboratory or at the least an office to keep track of data.
+There are no bonuses of an office per se, but a bespoke research lab could add a bonus to all the player rolls. 
+For example, working on a vehicle upgrade in a full garage could give a bonus to the entire team. 
+
+== Make the Roll
+Shorter duration projects all every team member to roll with bonus to try and beat the difficulty.
+Any roll that meets or beats the difficulty leads to a success of the project.
+
+=== Examples
+The expedition accidentally ran over a famous alien with their hovercar.
 They need to repair her articulated wing flaps. 
-The Degree of Difficulty of the procedure is 20DD.
+The Difficulty of the procedure is 100DD.
+The table has agreed that the procedure will take 5 hours. 
+They have put together a research team as follows:
 
-The research team's total skill score is 15 (4 + 3 + 3 + 3 + 2).
+.Research Team 
+* Team Lead Veterinarian 4th level competency 16
+* Two 3rd level vets with competencies 12 and 15
+* 3rd level biologist with competency 21
+* 2nd level nomad with competency 15
 
-Each team member would get a chance to beat the Target Roll of 76.
-The procedure is a success if any of the five players roll 76 or higher.
+They are working in a makeshift surgery that gives them no team bonuses. 
+The nomad has a book about articulated wing flaps that gives her +10 on her roll.
 
-== Task Duration
-How long a task takes depends on a combination of common sense and degree of difficulty (DD).
-Some tasks have specifically assigned durations.
-Performing open-heart surgery (a difficult task) would always take longer than ten minutes.
-However, the equally difficult task of performing a double somersault would take an instant.
+All 5 players would get to roll 1d100 plus 37 and the player with the nomad would have plus 47.
+They will likely succeed as a team. 
 
-Combat-related tasks happen during the unit of combat unless otherwise specified.
-Research teamwork that requires months can pass in an instant with a few task rolls.
+The expedition wants to upgrade their spacecraft special drive to double it's power level.
 
-include::uncombat:partial$project_durations.adoc[]
+The Difficulty of the procedure is 200DD.
+The table has agreed that the procedure will take 11 months. 
+They have put together a research team as follows:
 
-A persona carrying out a 4 DD task would require 0-99 units of time.
-At the end of which, the player would make her task roll.
-Most of the time, this duration information is a nerd fascination.
-If time is not of the essence, then don't play on this table. 
-During combat time, these durations may be critical.
-Outside of combat time, the task durations pass instantly.
+.Research Team 
+* Team Lead Nomad 6th level competency 16
+* Two 3rd level mechanics with competencies 12 and 21
+* 3rd level mercenary with competency 6
+* 5th level nothing with competency 3
 
-A biologist trying to identify an alien species could take up to 3 minutes to make a decision.
-The duration reflects the time she spent leafing through her notes and observing before making a decision.
+The spacecraft has a mechanical room with special drive tools giving a bonus of +10. 
+The nomad has a little golden book about special drives giving her a +10 on her roll.
 
-A mercenary attempting pistol with pistol ambidextrous combat would have no such time duration, and success, or failure, is instantaneous.
+All 5 players would get to roll 1d100 plus 47 and the player with the nomad would have plus 57.
+They cannot succeed as they need to roll 200 or more. 
+The nothing has project management so the team can roll for success in quartiles.
+This means that they can fail at 3 months, improve the Difficulty and try again. 
+Upgrading the special drives could become a campaign motor with side quests and other tribulations. 
 
-NOTE: *A task roll is won in an instant, but the research and prep may take months.*
+=== Success 
+A success should be success for projects that are not altering the plot or milieu of the campaign.
+A success may bring storyful troubles for the expedition if they are altering the order of the world.
 
-Research teams should always check for the duration of tasks. 
-A task that takes months to complete could be reflected in gameplay with sub-missions to get materials or other team members.
+=== Failure
+Failure is a bit more nuanced with a project than a task. 
+The research team may not meet their goal, but they will reap some benefits.
+Failure will also soften the Difficulty and allow the team to try again.
+
+
+.*Project Failure Results*
+* Research team does not meet goal.
+* Difficulty decreases by 1d4 per member of research team (max 20 difficulty)
+* personas earn EXPS
+* new duration much be less than the previous duration
+
+If the team likes there is a table listing kinds of project failures. 
+Hopefully the failure reason will offer some storyful outcome.
+
+include::uncombat:partial$task_rolls_project_failure.adoc[]
+
+
+=== Critical Checks
+Critical task rolls are not automatic successes but offer a huge bonus to the task roll. 
+Rolling a natural 99 or 100 allows the player to add an additional 1d100 to their task roll. 
+For more information jump to xref:uncombat:critical_checks.adoc[Critical Checks,window=_blank].
+Some tables may decide to not allow for critical checks on projects if the research team is too large. 
+
+
+
+
