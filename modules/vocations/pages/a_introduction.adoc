@@ -48,6 +48,14 @@ As the persona increases her experience level in her vocation, she improves her 
 * <<_alien_as_a_vocation,Alien>>: Does alien things.
 * <<_robot_as_a_vocation,Robot>>: Does robot things.
 
+.*Vocation Creation*
+. Vocation determination (choice or rolled)
+. knowledge acquisition (choice or rolled)
+.. interests
+.. expertise
+. skill acquisition 
+.. gift determination
+
 
 EXP is an anthropomorphic rules system, and the vocation system is based on anthropomorphs.
 Every anthro persona has a vocation, even if that vocation is no vocation at all (Nothing).
@@ -60,6 +68,27 @@ Each vocation has it's own set of knowledge areas.
 Each vocation has it's own set of tasks.
 These tasks are called skills. 
 Some skills are limited to a solitary vocation, others can be used by all vocations. 
+
+== Vocation Selection
+The persona's attribute scores determine her vocation.
+The attribute minimums for vocations are present to maintain game balance.
+Veterinarians need Charisma, and spies need Dexterity and mercenaries need hit points.
+The attribute score must be greater than or equal to the vocation requirement.
+For example, a biologist must have a combined Awareness and Intelligence greater than or equal to 18.
+A persona with a 4 INT and a 14 AWE can become a biologist, but not a mechanic, 
+Usually, a player will have a list of vocations to choose from for her persona.
+The default anthro vocation is the nothing vocation.
+
+include::vocations:partial$required_attributes.adoc[]
+
+=== Vocation Selection Example
+A persona has the attributes: AWE 6, CHA 15, CON 17, DEX 9, INT 14, MND 12, STR 6, and HPM 42.
+The persona's social standing (SOC) is not part of the vocation selection process.
+The player has a wide selection of vocations from which to choose.
+This persona could be any of the following: biologist, mechanic, mercenary, nothing, or veterinarian.
+
+include::vocations:partial$selection_example.adoc[]
+
 
 == Knowledge 
 A vocation's knowledge represents things that the persona knows. 
@@ -121,26 +150,6 @@ A veterinarian has procedures, a spie has tricks, a biologist has knacks.
 It is fine to refer to these as gifts.
 
 Gifts are vocation specific and new ones are earned as the persona gains new experience levels. 
-
-== Vocation Selection
-The persona's attribute scores determine her vocation.
-The attribute minimums for vocations are present to maintain game balance.
-Veterinarians need Charisma, and spies need Dexterity and mercenaries need hit points.
-The attribute score must be greater than or equal to the vocation requirement.
-For example, a biologist must have a combined Awareness and Intelligence greater than or equal to 18.
-A persona with a 4 INT and a 14 AWE can become a biologist, but not a mechanic, 
-Usually, a player will have a list of vocations to choose from for her persona.
-The default anthro vocation is the nothing vocation.
-
-include::vocations:partial$required_attributes.adoc[]
-
-=== Vocation Selection Example
-A persona has the attributes: AWE 6, CHA 15, CON 17, DEX 9, INT 14, MND 12, STR 6, and HPM 42.
-The persona's social standing (SOC) is not part of the vocation selection process.
-The player has a wide selection of vocations from which to choose.
-This persona could be any of the following: biologist, mechanic, mercenary, nothing, or veterinarian.
-
-include::vocations:partial$selection_example.adoc[]
 
 == Vocations and Role-Playing
 The persona should have at least a keen interest, or possibly an obsession, with her vocation.
@@ -232,7 +241,6 @@ Under these circumstances the alien can pursue an anthro vocation.
 Aliens with anthro vocations are an edge case, and the referee and player must decide how to integrate this combined pathway.
 
 To pursue a player persona alien xref:aliens:a_introduction.adoc[jump here].
-
 
 == Take a Vocation
 It is a good idea to take a vocation once in a while.
