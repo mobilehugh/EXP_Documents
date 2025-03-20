@@ -1,5 +1,10 @@
 = Mercenary
 
+[quote]
+____
+*Breaks organic and inorganic things.*
+____
+
 :art: mercenaries.png
 :width: 450px
 :snark: High tech merc vs lo tech merc.
@@ -15,20 +20,13 @@ Mercs are valuable for the clutter of combat skills that they possess.
 They represent the dog-meat essential for the survival of any expedition in combat. 
 Mercs do not personally regard themselves as dog-meat.
 
-== Mercenary Abilities
-Mercenary abilities are mostly concerned with inflicting damage on organic and inorganic objects.
-Their abilities are divided in to actions (gifts), interests and skills.
-Mercenary actions are gifts that help define the persona as a mercenary. 
+If your game requires attribute requirements for vocations a mercenary's HPM must beat 40 and her combined CON, DEX and STR must beat 22. 
+
+== Knowledge
+Mercenary knowledge is mostly concerned with inflicting damage on organic and inorganic objects.
 Interests are broad areas the mercenary is good at like combat or tactics. 
-Mercenary skills are item or task specific abilities like pistols or grenades. 
-Interests and skills assist the persona with her tasks.
-
-=== Actions
-The mercenary actions (gifts) are abilities that only a mercenary persona has.
-New actions are added when the persona gains a certain level of experience.
-The player cannot choose her personas actions. 
-
-include::vocations:partial$mercenary_actions.adoc[]
+Mercenary expertise is more narrow like pistols or grenades. 
+Interests and expertise assist the persona with her skills.
 
 === Interests
 These are broad areas of interest that the mercenary has. 
@@ -38,7 +36,7 @@ Tactical interests are the officer side of executing tasks related to the bigger
 If the mercenary wanted to avoid an ambush, or organize a room entry she calls on her tactical interests.
 
 At startup the player gets one roll per 3 points of INT. 
-Each interest includes a skill roll as well.
+Each interest includes an area of expertise as well.
 After startup the player can roll or choose one additional interest per new EXPS level.
 
 include::vocations:partial$mercenary_interests.adoc[]
@@ -53,149 +51,159 @@ For example, if the persona is making a task roll for ambidextrous combat the co
 Tactical interests assist the mercenary regarding decisions that do not affect direct combat.
 For example, artillery use or planning an ambush is a tactical  interest.
 
-==== Special Interest
+==== Specialist Interest
 These are special interests that do not involve combat or tactical interests.
 For example, knocking open a door, or combat in zero gravity can benefit from special interests.
 These are not special ops interests per se, but many of the special skills fall into those categories.
 
-=== Skills
-Skills are much more specific than interests and can refer to a specific weapon type or a specific task. 
-The skills will assist the persona in completing task rolls related to the skill.
-A mercenary gets one skill per corresponding interest. 
-So combat interest will earn the persona a combat skill as well.
+=== Expertise
+Expertise represents much more specific knowledge than interests and can refer to a specific weapon type or a specific task. 
+An expertise assists the persona in completing task rolls related to the skill.
+A mercenary gets one expertise per corresponding interest. 
+So combat interest will earn the persona a combat expertise as well.
 
-==== Combat Skills
-Combat skills assist the persona on any attack rolls she makes with the described weapon.
-The skill would also help the persona when working with a uncombat task with the weapon.
-The combat skill Pistols, Full Auto would give an attack roll bonus for flotto pistol.
-The Pistols, Full Auto would also give a task bonus when cleaning or unjamming a flotto pistol
+==== Combat Expertise
+Combat expertise assists the persona on any attack rolls she makes with the described weapon.
+The expertise would also help the persona when making an uncombat task roll.
+The combat expertise Pistols, Flotto would give an attack roll bonus for flotto pistol.
+The Pistols, Flotto would also give a task bonus when cleaning or unjamming a flotto pistol
 
 The player makes one roll per interest at startup and gets an additional roll for each new EXPS level.
 
 include::vocations:partial$mercenary_skills_combat.adoc[]
 
 Combat weapon skills are cumulative and separable. 
-So a persona with Rifles, Full Auto, and Rifles Bolt action would have Rifles +2 and Full auto +1
-This would allow for +3 with flotto rifles, +3 with bolt action rifles and +2 with any other rifle.
+So a persona with Rifles: Flotto, and Rifles: Pump would have Rifles 2, Flotto 1 and Pump 1
+The expertise with flotto and pump action rifles is 3 and 2 with any other rifle.
+
+NOTE: each combat expertise converts to +20 on her attack roll
 
 When using the tactical combat rules and kilodie attack rolls the player adds +20 per combat skill.
-The player adds  +60 with flotto and bolt action rifles attack rolls and +40 with any other rifle attack roll.
-These bonuses can exceed the persona's Max Roll. 
+The player above adds +60 with flotto and bolt action rifles attack rolls and +40 with any other rifle attack roll.
+These bonuses allow the player to *exceed* the persona's Max Roll. 
 
-==== Tactical Skills
-Tactical skills give the persona a bonus when making task rolls for the specific skill.
-Some of the tactical skills also give weapon bonuses, like artillery or bombs.
-Such skills are not considered weapon attacks because they are not considered personal weapons. 
-Other tactical skills are esoteric and represent "officer type" skills.
+==== Tactical Expertise
+Tactical expertise gives the player a bonus when making applicable task rolls.
+Some of the tactical expertise give attack roll bonuses.
+Most tactical expertise reflects logistics, and area of effect weapon expertise.
 
 include::vocations:partial$mercenary_skills_tactical.adoc[]
 
-==== Special Skills 
-Special skills give the persona a bonus on tasks that are neither tactical nor combat.
-However, these skills can definitely be used in combat situations.
-For example, the submersive skill will assist the persona in underwater combat.
-There are not special ops skills per se, but represent specializations that would require specialization beyond a weapon skill.
+==== Specialist Expertise 
+Specialist expertise give the persona a bonus on tasks that are neither tactical nor combat.
+However, this expertise can definitely be used in combat situations.
+For example, the submersive expertise will assist the persona in underwater combat.
 
 include::vocations:partial$mercenary_skills_special.adoc[]
 
-== Specific Skills
-Due to the importance of combat abilities the following paragraphs shed some light on the more common abilities.
+== Skills
+Skills are things that the persona does. 
+The player uses her persona knowledge to improve the chance of completing a skill.
+The persona can have special skills called gifts that they automatically succeed at. 
+Mercenary gifts are called actions. 
 
-=== Bolstering Defence Rating
-The mercenary can increase her Defence Rating, making her more difficult to damage in combat.
-The mercenary increases her defence by decreasing her attack.
-The player can transfer points from her Skilled Bonus to her Defence Rating.
-So her chance to hit decreases but her chance to be hit decreases as well.
-This trade-off can change every unit, and the player doe not need to win a task roll.
-Bolster AR is an automatic combat ability for mercenaries.
-
-Let's consider a 3rd level merc with a Skilled of 158 and an AR of 620.
-She could drop her Skilled to 98 and increase her AR to 680.
-
-The Skilled Bonus use must match the attack type.
-The player can use her persona's Strike Skilled against Strike attack.
-A mercenary can transfer 20 Skilled points to AR per EXPS level. 
-The amount transferred cannot exceed the mercenary's Skilled Bonus.
-The player can use only the pure attack table Skilled Bonus.
-Other bonuses, like scope bonuses, do not apply.
-The mercenary can use her bolstered AR against one attack per EXPS level.
-
-=== Divided Attacks
-Mercenaries can make extra attack rolls with non-powered weapons.
-Non-powered weapons are thrusting and striking (Strike) and non-powered missiles (Fling).
-Powered weapons (Shoot) have a mechanical rate of fire limitation, and the divided attack ability does not apply.
-Divided attacks are automatic, and the player does not make a task roll.
-
-The player divides her Skilled Bonus between the attack rolls. 
-Hence the name divided attacks.
-The persona gets one additional attack every two levels of experience to a maximum of 4 divided attacks per unit.
-A 4th level mercenary is attacking with an axe and has a Skilled of 210.
-She could chop once with a Skilled of 210 or 3 times with a Skilled of +70;
-
-To maintain game efficiency, players should make their calculations in advance.
-
-=== Ambidextrous Combat
-Mercenaries can use weapons with both hands without penalty.
-The player must win a task roll or usual penalties for ambidextrous combat.
-Ambidextrous combat allows the mercenary to combine any weapon types they can carry.
-
-.Example Ambidextrous Combos
-* two rifles
-* pistol and sword
-* two swords
-* aerosol and dagger
-* two grenades
-
-Under normal circumstances, a persona suffers a severe penalty for ambidextrous combat.
-The typical penalty is -200 for the dominant hand and -300 for the non-dominant hand.
-If the player wins a task roll, the mercenary does not suffer these penalties.
-If they miss their task roll, the merc will suffer -200 and -300 on the two attacks.
-
-The DD of the task roll is 12. 
-If the player wants to combine ambidextrous combat and divided attacks, DD is 24.
-
-==== Poly-dextrous Combat
-Aliens can come with multiple attacks pre-evolved.
-An alien mercenary gets the same abilities as any other mercenary.
-However, mercenary abilities only apply to weapons that the alien mercenary uses, not her native attacks.
-For example, an alien with two natural attacks per unit cannot use divided attacks or ambidexterity on her biological attacks. 
-A mercenary alien could use her natural attacks and her weapon attacks simultaneously. 
-Each alien is different, and whether her natural and weapon attacks work simultaneously must be negotiated between the referee and players.
-
-=== Absolute Proficiency
-Mercenaries are proficient in any weapon that they use.
-So a mercenary using a lazer pistol she just purchased up would use her Skilled Bonus.
-Absolute proficiency only works with fully identified personal weapons.
-This ability does not work on unidentified artifact weapons, but the mercenary is most likely to identify a gun.
-This ability does not work on weapon systems of mass destruction.
-
-=== Snap Reload
-The mercenary can reload her weapon and attack in the same unit.
-Most personas would have to miss at least a combat unit to reload a weapon.
-The snap reload can also be used as a snap weapon exchange.
-The player must win a 6 DD task roll to snap reload or snap change weapons.
-If the mercenary is trying to snap reload during ambidextrous combat, the DD increases to 12. 
-A mercenary cannot combine snap reload, ambidextrous combat and divided attacks. 
-If the player loses the task roll, the mercenary reloads like all other personas.
-
-.*Example Three Rolls*
-* Hand-to-hand, striking
-* Pistol, revolver, XLP (extra-low powered)
-* Pistol, revolver, MP (medium-powered)
-* Extra Roll!
-* Grenades, Buildings
-
-== Task Examples
-Mercenary tasks are devoted to combat and harming organic and inorganic targets.
-These tasks are all about destroy, destroy, and destroy.
-
-A mercenary must have a weapon to work with.
-This must be an actual weapon that is not improvised from the persona's body (a fist is not a mace).
-The referee may make a target roll more difficult if the mercenary does not have a weapon.
+Mercenary tasks can involve anything martial.
+Merc tasks are mostly action based and reflect destruction, or support destruction.
 
 For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
-include::vocations:partial$mercenary_tasks.adoc[]
+//
+// when the compendium is extended do not forget biologist_tasks.adoc table 
+//
+
+=== Compendium
+A none exhaustive list of mercenary skills arranged by increasing difficulty.
+
+Skill Example (42) ::
+One line description of skill. Difficulty is in brackets. 
+
+==== Trivial
+Salute (12) ::
+    Gesticulate deference to superior.
+
+==== Easy
+Proficiency (24) ::
+    Use a personal weapon as skilled. 
+
+Ambidextrous, Pistols (24) ::
+    Use two pistols at once no penalty.
+
+Snap Reload (24) ::
+    Reload a weapon without time loss.
+
+Snap Unjam (24) ::
+    Unjam a __weapon__ without time loss.
+
+Breach, Civilian (24) ::
+    Destructively remove a civilian locked door.
+
+Bolster (36) ::
+    Move attack bonus points to defence (DEF). 
+
+Conscious (36) ::
+    Remain conscious when HPS are negative. 
+
+==== Normal
+Divide (42) ::
+    Split attack bonus between attack rolls.
+
+Ambush Ambivalence (42) ::
+    Act during ambush as if no ambush.
+
+Safe Shot, Grenade (42) ::
+    Fling a grenade to avoid one target.
+
+Ambidextrous, Striking (42) ::
+    Use two striking weapons no penalty.
+
+Flanking (42) ::
+    Achieve flanking bonuses. 
+
+Deflank (64) ::
+    Remove attacker flanking bonus. 
+
+
+Running Cover (64) ::
+    Run and maintain full Defence rating.
+
+
+==== Hard
+Ambidextrous, Rifles (84) ::
+    Use two rifles at once no penalty.
+
+Safe Shot, Aerosol (84) ::
+    Maneuver an aerosol to avoid one target.
+
+Ambidextrous, Grenades (84) ::
+    Use two grenades at once no penalty.
+
+Dodge Grenade (100) ::
+    Half kinetic HPS damage from grenade. 
+
+
+==== Tough
+Ambidextrous, Fling (126) ::
+    Use two striking weapons no penalty.
+
+Dodge Artillery (100) ::
+    Half kinetic HPS damage from artillery. 
+
+
+==== Impossible
+Falling (168) ::
+    Do any lesser difficult task while falling. 
+
+==== Bizarre
+Dodge Bomb (242) ::
+    Avoid bomb damage. 
+
+=== Actions
+The mercenary actions (gifts) are skills where the persona automatically succeeds.
+New actions are added when the persona gains a certain level of experience.
+
+include::vocations:partial$mercenary_actions.adoc[]
+
+
 
 == Experience
 The benefits of increasing experience levels are more weapon skills and improved success with task rolls.
