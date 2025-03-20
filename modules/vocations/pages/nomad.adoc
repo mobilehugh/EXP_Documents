@@ -53,6 +53,15 @@ The biome interest will assist any endeavour that involves a biome.
 This is astoundingly broad and it is rare that a nomad task does not involve a biome. 
 A nomad that has a nomad interest automatically gets a biome expertise. 
 
+:art: biome_modern_space.png
+:width: 450px
+:snark: Biomes are not just trees and dirt.
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Landscape of futuristic wall in front of planet and stars.
+include::ROOT:partial$articulate.adoc[]
+
 ==== Survival Interest
 All nomads, and all personas for that matter, are interested in surviving.
 A survival interest will assist the player in any task rolls that represents survival tasks.
@@ -100,6 +109,28 @@ The aliens that domestication skills work on are typically flora and fauna.
 Remember to include biome expertise with domestication task rolls.
 
 include::vocations:partial$nomad_skills_domestication.adoc[]
+
+=== Organizing
+Knowledge is cumulative and separatory.
+This means that an expertise in the biome Arid, Freezing, Desert Ruins, can be combined with the biome Arid, Hot, Tundra Ruins. 
+
+.Organizing Biome Expertise 
+* Arid, Freezing, Desert Ruins
+* Arid, Hot, Tundra Ruins
+* Passage, Back track
+* Passage, hidden
+
+.Reorganized Skills
+* Arid - 2
+* Ruins - 2
+* Passage - 2
+* Freezing - 1
+* Desert - 1
+* Back track - 1
+* Hidden - 1
+
+When attempting a skill like hidden (1) safe passage (2) in arid (2) ruins (2) the expertise is 7.
+Biome expertise is very helpful when attempting nomad skills.   
 
 == Skills
 Nomad skills are about surviving and manipulating the environment surrounding the persona.
@@ -150,6 +181,9 @@ Fire From Something (24)::
 Preserves (24)::
     Preserve food for later. 
 
+Track, Oblivious (24)::
+    Follow and find prey unaware of tracking. 
+
 ==== Normal
 Quick Fix (42)::
     Heal 1d6 HPS immediately.
@@ -172,8 +206,11 @@ Make Clothing (42)::
 Quick Fix (42)::
     Heal 1d6 HPS immediately.
 
+Track on Land (42 + INT)::
+    Follow and find typical prey. 
+
 Poison Arrest (56)::
-    Stop poison progress. Not heal
+    Stop poison progress. Not heal.
 
 ==== Hard
 Alien organization (84)::
@@ -197,6 +234,15 @@ Poison Reverse (84)::
 Radiation Arrest (84)::
     Stop ongoing effects of radiation.
 
+Track in Water (84 + INT)::
+    Find and follow prey in water.
+
+Domesticate, Befriend (84)::
+    Make flora fauna alien follow around
+
+Domesticate, Tricks (104)::
+    Train flora fauna alien some simple tricks.
+
 ==== Tough
 Water from Sand (126)::
     Find water in arid biomes. 
@@ -210,6 +256,13 @@ Food from Poison (126)::
 Poison Cure (126)::
     Reverse all poison effects (even HPS damage).
 
+Domesticate, Imprint (126)::
+    Make flora fauna alien friend. 
+
+Track in air (126 + INT)::
+    Follow and find flying prey.
+
+
 ==== Impossible
 Food from Pharma (168)::
     Turn pharma into food. 
@@ -221,121 +274,8 @@ Water from Vacuum (210)::
 Track across Vacuum (210)::
     Find target across planets.
 
-
-
-=== Domestication
-Nomadic domestication involves the befriending and training of alien flora and fauna.
-Aliens with language, culture, education, vocations or tool users are not flora or fauna.
-Domestication is limited to flora and fauna aliens.
-Domestication does not work during combat or with violently defeated aliens.
-Domestication does not work with hungry aliens where the nomad is dinner.
-Robots cannot be domesticated.
-
-.*Domestication Stages*
-. Befriending 1-25 (INT) DD
-. Taming 2-50 (2*INT) DD
-. Training 2-50 (Assigned) DD
-
-Befriending is the first stage of domestication. 
-Befriending indicates an alien that trusts and won't run from the nomad.
-The degree of difficulty (DD) for befriending is equal to the alien's INT.
-
-Taming is the second stage of domestication. 
-The nomad must befriend an alien before being taming.
-Taming indicates the alien has attained a pet status.
-The degree of difficulty (DD) for taming is equal to twice the alien's INT.
-
-Train for tricks is the third stage of domestication.
-The nomad must tame an alien before teaching tricks.
-The referee and players assign the DD of the trick.
-The more valuable the trick, the higher the DD.
-The player must win a task roll at double the trick's DD to train the alien.
-The player must win a task roll to carry out the trick successfully.
-Failing to carry out a trick should be humorous, not deadly.
-
-The nomad has decided to domesticate a Festinated Wumpus. 
-The Festinated Wumpus has a 4 INT. 
-The Wumpus is a herbivore that the expedition has never hunted or killed.
-The Wumpus does not use tools and has no language. 
-
-To befriend the Wumpus, the nomad must make a 4DD task roll.
-To tame the Wumpus, the nomad must make an 8DD task roll.
-Training the Wumpus to retrieve an ammo pack is a 12DD trick.
-To train the trick is a 24DD task roll.
-The nomad must win a 12DD task roll every time the Wumpus retrieves an ammo pack.
-
-=== Safe Passage
-The nomad can determine a safe passage through seemingly impassable terrain: a mountain range, a toxic area, or a red light district.
-Safe passage may require multiple task rolls: one roll to get through the city and another to avoid police.
-The DD for safe passage has a range of 1-12 (1d12).
-Safe passage cannot avoid plot points or story elements.
-
-=== Tracking
-Nomads can track anything that they want.
-Tracking is not limited to flora and fauna. 
-The nomad can track robots and vehicles as well.
-There are two aspects of tracking, following and finding.
-
-..*Tracking Abilities*
-* Following 1-10 (1d10) DD
-** Avoiding add INT
-* Finding 1-10 (1d10) DD
-** Hiding add INT
-* Reverse tracking 2-50 (2*INT) DD
-
-.Following
-Following is used to keep up with a moving target. 
-Following uses clues and intuition to track an unseen target.
-The ability can follow an alien in the forest or a taxi in a megalopolis.
-The nomad follows her target until the target stops moving.
-If a target is trying to avoid following the target's Intelligence is added to the DD.
-A successful following of a target does not guarantee successfully finding a target.
-
-.Finding
-Finding places the nomad face to face with her target.
-If the target was initially moving, the player must win a task roll for following first.
-After following an alien for a few hours in the forest, the player must win a finding maneuver to get that photograph.
-If a target is not moving, the player needs only win a finding maneuver.
-Finding a deserted warehouse in a city or a persona hiding in the bushes are two examples.
-If a target is hiding, the player must add the target's Intelligence to the DD of the finding maneuver.
-Finding hidden intelligent personas can be very hard indeed.
-
-.Reverse Tracking
-This ability allows the nomad to determine if she is being tracked. 
-Reverse tracking lets the nomad know that she is being tracked.
-To determine what is tracking her, the player must win a following and finding task rolls.
-The nomad will have to follow and find what is tracking her using the 
-
-
-== Organizing Abilities
-
-.Example Nomad SKills 
-* Farm, Toxic
-* Forest, Toxic
-* Farm, Underground
-* Coniferous, Normal
-
-.Reorganized Skills
-* Farm - 2
-* Toxic - 2
-* Forest - 1
-* Coniferous - 1
-* Underground - 1
-
-Skills are cumulative and separable. 
-A nomad trying to follow a rogue tractor on a toxic (2) farm (2) would get +4 on her task roll.
-Finding a safe campsite in an underground (1) cave have a bonus of +1.
-
-:art: biome_modern_space.png
-:width: 450px
-:snark: Biomes are not just trees and dirt.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Landscape of futuristic wall in front of planet and stars.
-include::ROOT:partial$articulate.adoc[]
-
-
+Domesticate, Parentalize (210)::
+    Make flora fauna alien protect nomad like their spawn.
 
 === Adaptations
 The nomad's adaptations (gifts) are skills where the persona automatically succeeds.
