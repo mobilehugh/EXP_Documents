@@ -1,5 +1,10 @@
 = Mechanic
 
+[quote]
+____
+*Repairs and improves inorganic things.*
+____
+
 :art: mechanic.png
 :width: 250px
 :snark: Mechanic mechanizing a mech.
@@ -18,20 +23,13 @@ Unfortunately, they only have bits and bytes of rudimentary knowledge at their d
 Mechanics are exceptionally skilled at identifying artifacts.
 This vocation is essential if the expedition expects to repair equipment or create new contraptions.
 
-== Abilities
-Mechanic abilities focus on the inorganic world. 
-The mechanic is in tune with mechanical processes and fixing and making things are their passion.
-Mechanic abilities are divided into crafts (gifts) that allow the persona to automatically complete mechanical tasks.
-Crafts are the inherent abilities that help define the persona as a mechanic.
-Mechanics also have areas of interest and specific skills based on the those interests. 
-While the player can mix and match interests and skills, crafts are hardwired and can only be acquired level progression.
+If your game limits vocations by attributes a mechanic must have an INT 13 or higher.
 
-=== Crafts
-A mechanic's crafts (gifts) define the persona as a mechanic. 
-Crafts are the inherent abilities that reflect how the persona is in tune with the organic world. 
-Crafts cannot be chosen, and are added as the persona increases in experience levels.
-
-include::vocations:partial$mechanic_crafts.adoc[]
+== Knowledge
+Mechanic knowledge focuses on the inorganic world. 
+The mechanic is in tune with mechanical processes, and fixing/making things is their passion.
+Mechanics have areas of interest and expertise based.
+These interests and expertise are combined to make the persona more likely to succeed at skills. 
 
 === Interests
 Interests are broad approaches to the mechanical world that improve the chance of success when making task rolls.
@@ -41,7 +39,8 @@ When building something that doesn't exist, or when trying to combine equipment 
 
 At startup, the persona gets one interest per three points of Intelligence score.
 A persona with a 12 INT would get three rolls on the Mechanic Interest Table. 
-After startup the persona earns another interest with each new experience level.
+Each interest roll has an associated expertise roll. 
+After startup the persona earns another interest and expertise with each new experience level.
 The player can choose to roll on the Mechanic Interest Table, or choose a specific interest
 
 include::vocations:partial$mechanic_interest_list.adoc[]
@@ -56,44 +55,69 @@ The persona could salvage parts from a destroyed object
 The enhance interest assists the mechanic in any task where they are improving and existing artifact or toy.
 For example, improving the range of a crossbow falls under the enhance interest. 
 However if that crossbow is broken, the enhance interest does not benefit the task roll. 
-Enhancement does not include miniturization. 
+Enhancement does not include miniaturization. 
 
 ==== Research Interest
 The research interest is used to push the boundaries of engineering, fabrication, physics, and sciency fiction.
 The persona can use the research interest to create a new machine, or process. 
 THe research interest can also be used to make toy smaller, or to combine two toys together.
 
-=== Skills
-Mechanic skills are more specific areas of expertise, knowledge or aptitude. 
-The skills can represent tasks or very focused processes. 
-The player can stack skills and interests 
+=== Expertise
+Mechanic expertise represents more specific areas of knowledge. 
+The expertise can represent tasks or very focused processes. 
+The player can stack expertise and interests 
 
-At startup the player gets one skill per interest. 
-So a mechanic with repair 2 and enhance 1 would get 3 rolls on the mechanic skills table.
-After start up the persona gets one new interest per new experience level. 
-As described above the player can roll or choose the new interest.
-Each new interest includes a new skill.
-The player can choose or roll the new skill.  
+At startup the player gets one expertise per interest. 
+So a mechanic with repair 2 and enhance 1 would get 3 rolls on the mechanic expertise table.
+After start up the persona gets one new expertise per new experience level. 
+As described above the player can roll or choose the new expertise.
 
 include::vocations:partial$mechanic_skills.adoc[]
 
-== Organizing Abilities
+=== Organizing
+Mechanic expertise and interests are cumulative and combinable.
 
-.Example Mechanic Skill List
-* Repair 2
-* Enhance 1
-* Chemistry 3
-* Detectors 1
-* Mending 1
+.Example Mechanic Knowledge
+* Repair interest 2
+* Enhance interest 1
+* Chemistry expertise 3
+* Detectors expertise 1
+* Mending expertise1
 
-Mechanic skills and interests are cumulative and combinable.
-A task that involved improving a hover car lubricant  the mechanic a task roll bonus of +4 (Chemistry 3 and Enhance 1)
-If the task involved chemistry and detectors, her task roll bonus would be at least +4.
-If she were mending a broken chemical detector, her task roll bonus would be +6 (Chemistry 3, Repair 2, Mending 1).
+To improve lubrication of a vehicle the player could use Enhance 1 and Chemistry 3 when calculating competency 
 
-== Specific Skills
+== Skills
 For some reason there is a lot of detail available regarding mechanic abilities. 
 This is probably due to game play edge cases encountered running previous mechanic personas. 
+
+=== Compendium
+A none exhaustive list of mechanic skills arranged by increasing difficulty.
+
+Skill Example (42) ::
+One line description of skill. Difficulty is in brackets. 
+
+==== Trivial
+
+
+==== Easy
+
+
+==== Normal
+
+
+==== Hard
+
+
+
+==== Tough
+
+
+==== Impossible
+
+
+==== Bizarre
+
+
 
 === Mnemonic Trapping 
 Mnemonic trapping allows the mechanic to memorize crucial technical information. 
@@ -133,6 +157,13 @@ The referee may increase the task difficulty if the mechanic does not have a too
 For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
 include::vocations:partial$mechanic_tasks.adoc[]
+
+=== Crafts
+A mechanic's crafts (gifts) define the persona as a mechanic. 
+Crafts are the inherent abilities that reflect how the persona is in tune with the organic world. 
+Crafts cannot be chosen, and are added as the persona increases in experience levels.
+
+include::vocations:partial$mechanic_crafts.adoc[]
 
 == Experience
 The benefits of increasing experience levels are more skills, improved task roll success, and somewhat better combat skills. Mechanics earn experience points for completing procedures rolls (80 EXPS per DD) and role-playing within their vocation. Only 20% of combat experience can go towards a mechanic's experience point total.
