@@ -1,5 +1,11 @@
 = Veterinarian
 
+[quote]
+____
+*Repairs and improves organic things.*
+____
+
+
 :art: veterinarian.png
 :width: 250px
 :snark: Vet resuscitating an insect.
@@ -16,6 +22,8 @@ Vets are self-trained and have *not* suffered at a college or school.
 They learned from oral histories, experimentation, pamphlets or bits of AV material. 
 Their work may be temporary or permanent, incompetent or miraculous.
 
+If your table is using attribute determined vocations a veterinarian must have a CHA 12 or higher, and a combined INT and DEX 16 or higher. 
+
 == Conduct
 Veterinarians need the trust of their patients to function.
 The therapeutic relationship depends on Charisma, trust and skill.
@@ -31,9 +39,226 @@ It is also possible that a guild or club may take issue with a violent vet.
 This conduct is a general goal.
 The persona need not be a pacifist or sacrifice their lives senselessly.
 
-== Vet Abilities
-Vet abilities are particular aptitudes that a vet can accomplish and other vocations cannot.
-They are divided into approaches (gifts), interests and skills.
+== Knowledge
+The veterinarian's knowledge is focused on fixing broken organic things. 
+They can work on anthros and aliens alike.
+It is expected that a veterinarian would be familiar with a diversidae alien before repairing one.
+However, the veterinarian would still be the best at knowing what to do with a denovo alien.
+
+=== Interests
+The interests of a veterinarian indicate broad areas of knowledge and comprehension.
+Veterinarian interests are divided into diagnosis, treatment and research. 
+An interest in diagnosis will help with any task roll that involves figuring out what is wrong with a persona.
+Treatment interest helps the player win task rolls that alter (hopefully for the better) the wellness of a persona.
+An interest in research assists the persona when enhancing or inventing procedures and devices related to healing.
+
+At startup the player gets 1 roll on the interest table per 3 points of Charisma.
+A veterinarian with a 12 CHA would get 4 rolls on the interests table.
+After startup the persona earns another interest with each new experience level.
+The player can choose to roll on the Veterinarian Interest Table, or choose a specific interest.
+
+include::vocations:partial$veterinarian_interests.adoc[]
+
+=== Diagnosis Interest
+The diagnostic interest is a broad approach to figuring out what is wrong.
+This interest can be applied to any task that involves figuring out what is broken.
+
+==== Treatment Interest
+The treatment interest assists the persona when any treatment task is being attempted. 
+
+==== Research Interest
+Research is anything outside the realm of treatment and diagnosis.
+Research interests could be applied to tasks: enhancements, cybernetics, pharma, or new previously unknown processes.
+
+=== Expertise
+The veterinarian expertise reflects narrow areas of focus with deeper comprehension. 
+The skills are quite specific and fall under one of the three interests described above.
+
+The player makes one roll on the skill table per interest generated. 
+A new skill is acquired at each new experience level.
+
+==== Diagnostic Expertise
+Diagnostic expertise is more narrow and assists with task rolls that fit into the expertise. 
+An expertise in aging would assist any task roll that involves aging.
+
+include::vocations:partial$veterinarian_skills_diagnostics.adoc[]
+
+==== Treatment Expertise
+Treatment expertise represent knowledge that helps repair, or stabilize an ailing persona. 
+A trauma expertise would help when treating any injuries.
+
+include::vocations:partial$veterinarian_skills_treatment.adoc[]
+
+==== Research Expertise
+Research expertise represents a collection of narrow foci outside of the realm of treatment and diagnosis.
+Research expertise can assist with enhancements, cybernetics, new pharma, or new previously unknown processes.
+
+include::vocations:partial$veterinarian_skills_research.adoc[]
+
+
+== Skills
+Skills are things that the persona does. 
+The player uses her persona knowledge to improve the chance of completing a skill.
+The persona can have special skills called gifts that they automatically succeed at. 
+Veterinarian gifts are called approaches. 
+
+Veterinarian tasks involve healing anything organic.
+Vet tasks are a mix of getting answers and physical maneuvers.
+The minimal equipment required by a veterinarian is her smile and black bag. 
+The referee may make a target roll more difficult if the veterinarian does not have these elements.
+
+For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
+
+//
+// when the compendium is extended do not forget biologist_tasks.adoc table 
+//
+
+=== Compendium
+A none exhaustive list of veterinarian skills arranged by increasing difficulty.
+
+Skill Example (42) ::
+One line description of skill. Difficulty is in brackets. 
+
+==== Trivial
+Biological (12) ::
+    Is it biological? Yes. No. 
+
+Sentience (12) ::
+    Sentience present. Yes. No. 
+
+Living (18) ::
+    Is it alive and living. Yes. No.
+
+Autopsy, Fun (12) ::
+    Disassemble a cadaver.
+
+Stasis Bag (18) ::
+    Safely stuff into stasis bag. 
+
+
+==== Easy
+Quick Fix (24) ::
+    Heal 1d6 HPS immediately.
+
+Calm Persona (24) ::
+    Help a persona relax. 
+
+Admin Pharma (24) ::
+    No adverse effects. 
+
+Fail Pharma (32) ::
+    Guarantee adverse effects.
+
+Unstun (32) ::
+    Immediately remove stun effect one persona. 
+
+==== Normal
+Strong Fix (42) ::
+    Heal 2d6 HPS over 2 units.
+
+
+Open Stasis Bag (42) ::
+    Retrieve patient from stasis bag alive.
+
+Stabilize (42) ::
+    Stop persona from losing negative HPS.
+
+Cryogenic Wake (56) ::
+    Safely emerge from cryogenic sleep.
+
+Poison Arrest (56) ::
+    Stop poison progress. Not heal
+
+Heal 50 (50) ::
+    Restore to 50% HPM. Uncombat only. 
+
+
+==== Hard
+Autopsy, Diagnostic (84) ::
+    Disassemble to determine disease death.
+
+Power Fix (84) ::
+    Heal 3d6 HPS over 3 units. 
+
+Calm Frenzy (84) ::
+    Arrest and ursidae frenzy.
+
+Resuscitate (84) ::
+    Restore to zero HPS and unconscious. 
+
+Poison Reverse (84) ::
+    Reverse the effects of a poison (except HPS damage).
+
+Radiation Arrest (84) ::
+    Stop ongoing effects of radiation.
+
+Heal 90(90) ::
+    Restore to 90% HPM. Uncombat only. 
+
+Restore Attribute (96) ::
+    Revive an injured attribute (not from aging).
+
+Psionic Break (96) ::
+    Interrupt a psionic attack.
+
+Subliminal Suggestion (108) ::
+    Interject a thought without detection.
+
+Hearing Restoration (108) ::
+    Reverse any deafness.
+
+
+==== Tough
+Autopsy, Forensic (126) ::
+    Disassemble to determine criminal death.
+
+Poison Cure (126) ::
+    Reverse all poison effects (even HPS damage).
+
+Radiation Cure (126) ::
+    Reverse all radiation effects (even HPS damage).
+
+Unstun Group (126) ::
+    Unstun all within one hex range. 
+
+Paralyzing Pinch (126) ::
+    Touch target for physical collapse (anthro only).
+
+Mind Inventory (142) ::
+    Detect mind control. 
+
+Cryogenic Sleep (156) ::
+    Safely place into cryogenic sleep.
+
+Vision Restoration (156) ::
+    Restore any blindness. 
+
+==== Impossible
+Attribute Boost (168) ::
+    Temporarily boost attribute 1d3 for minutes.
+
+Death Pinch (168) ::
+    Touch target for cardiac arrest (anthro only).
+
+Phenomic Removal (168) ::
+    Safely remove a phenomic mutation.
+
+Reattach Members (196) ::
+    Reverse the handiwork of knites.
+
+==== Bizarre
+Attribute Enhance (210) ::
+    Permanently increase an attribute by 1 (not MIND).
+
+Psionic Removal (210) ::
+    Unsafely remove a psionic mutation. 
+
+Pharma Creation (242) ::
+    I wanna new drug. 
+
+Aging Stagnation (242) ::
+    Arrest aging effect. One at a time.
+
 
 === Approaches
 Approaches (gifts) are the inherent talents that define the persona as a veterinarian.
@@ -42,127 +267,9 @@ An approach happens immediately unless combat time is activated.
 
 include::vocations:partial$veterinarian_approaches.adoc[]
 
-=== Interests
-The interests of a veterinarian indicate broad areas of knowledge, skill or comprehension.
-Veterinarian interests are divided into diagnosis, treatment and research. 
-An interest in diagnosis will help with any task roll that involves figuring out what is wrong with a persona.
-Treatment interest helps the player win task rolls that alter (hopefully for the better) the wellness of a persona.
-An interest in research assists the persona when enhancing or inventing procedures and devices related to healing.
-
-At startup the player gets 1 roll on the interest table per 4 points of Charisma.
-At each additional experience level the player can roll or choose a new interest.
-
-include::vocations:partial$veterinarian_interests.adoc[]
-
-=== Skills
-The veterinarian skills are abilities that are focused onto one area of knowledge or procedure. 
-The skills are quite specific and fall under one of the three interests described above.
-
-The player makes one roll on the skill table per interest generated. 
-A new skill is acquired at each new experience level.
-
-==== Diagnostic
-Figuring out what is wrong with an organic persona.
-The task may entirely involve figuring out what is malfunctioning.
-If what is wrong is obvious a diagnosis task can be attempted to assist the treatment task. 
-
-include::vocations:partial$veterinarian_skills_diagnostics.adoc[]
-
-==== Treatment 
-Treatment skills are abilities that repair or cure or temporize an ailing persona. 
-Diagnosis is figuring out what is wrong treatment is fixing it. 
-
-include::vocations:partial$veterinarian_skills_treatment.adoc[]
-
-==== Research
-Research is anything outside the realm of treatment and diagnosis.
-Research skills include enhancements, cybernetics, new pharma, or new previously unknown processes.
-
-include::vocations:partial$veterinarian_skills_research.adoc[]
-
-== Specific Skills
-
-Quick Fix::
-This ability allows the vet to repair injured personas quickly.
-Quick fixes give the patient persona an HPS boost. 
-They are most commonly quickly carried out during combat.
-The difficulty and during of a quick fix depends on the amount of healing desired.
-
-// Vet Quick Fix new for versions 6.0
-.*Vet Quick Fixes*
-[width="75%",cols="3*^",frame="all", stripes="even"]
-|===
-3+<|Snappy HPS restorations. 
-
-s|Heal Amount
-s|DD
-s|Time Required
-
-|5%
-|5
-|1 unit
-
-|10%
-|10
-|2 units
-
-|15%
-|15
-|3 units
-
-|20%
-|20
-|4 units
-
-s|Heal Amount
-s|DD
-s|Time Required
-|===
-
-Subliminal Suggestion::
-A veterinarian can pop words into the minds of unsuspecting targets.
-The vet can force simple commands such as don't jump, drop it, or stop on the target.
-The more reasonable that the suggestion is, the more likely that the subliminal suggestion will succeed.
-There is no saving roll for the target if the player wins the task roll.
-The degree of difficulty depends on the target's Mind.
-If the target has a 9 MND, the DD of the maneuver is 9.
-
-Paralyzing Pinch::
-The vet can render the target unconscious using a dramatic pinch technique.
-Willing patients do not require the vet to make an attack roll.
-In an unwilling patient, the player must first win an attack roll.
-The vet must apply the pinch for 0-2 units (1d3-1), and each unit indicates the player must win another attack roll. 
-Only after the successful attack rolls is the task roll made.
-A failed task roll leaves the target enjoying a harmless shoulder grip.
-There is no saving roll for the target if the player wins the task roll.
-The degree of difficulty depends on the target's Constitution.
-If the target has a 9 CON, the DD of the maneuver is 9.
-
-Death Pinch::
-Death Pinch is the deadly version of the paralyzing pinch.
-There are no voluntary receivers of this attack.
-The vet must apply the pinch for 0-2 units (1d3-1), and each unit indicates the player must win another attack roll. 
-Only after the successful attack rolls is the task roll made.
-A failed task roll leaves the target enjoying a harmless shoulder grip.
-The target gets a saving throw versus poison.
-The degree of difficulty depends on the target's Constitution.
-If the target has a 9 CON, the DD of the maneuver is 18.
-
-== Task Examples
-Vet maneuvers involve the healing, repair and enhancement of organic life forms.
-Vet maneuvers can be considered Gut or Knowledge maneuvers.
-The referee can adjust task Roll bonuses depending on where the maneuver lies.
-
-The vet must be able to smile at her patient.
-Personal connection is essential equipment for successful veterinarian maneuvers.
-The referee may make a target roll more difficult if the vet cannot emotionally connect with her patient.
-
-For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
-
-include::vocations:partial$veterinarian_tasks.adoc[]
 
 == Experience
-The benefits of increasing experience levels are more skills, improved task roll bonus, and not much else. 
+The benefits of increasing experience levels are more skills, improved task roll bonus, and additional approaches.
 Veterinarians earn experience points for completing maneuvers and role-playing within their vocation.
 Only 10% of combat experience can go towards a vet's experience point total.
 
