@@ -87,65 +87,6 @@ Mechanic expertise and interests are cumulative and combinable.
 To improve lubrication of a vehicle the player could use Enhance 1 and Chemistry 3 when calculating competency 
 
 == Skills
-For some reason there is a lot of detail available regarding mechanic abilities. 
-This is probably due to game play edge cases encountered running previous mechanic personas. 
-
-=== Compendium
-A none exhaustive list of mechanic skills arranged by increasing difficulty.
-
-Skill Example (42) ::
-One line description of skill. Difficulty is in brackets. 
-
-==== Trivial
-
-
-==== Easy
-
-
-==== Normal
-
-
-==== Hard
-
-
-
-==== Tough
-
-
-==== Impossible
-
-
-==== Bizarre
-
-
-
-=== Mnemonic Trapping 
-Mnemonic trapping allows the mechanic to memorize crucial technical information. 
-A mechanic can mnemonically trap dimensions, instructions, serial numbers, or other technical information. 
-To memorize important information, the player must win a task roll.
-The degree of difficulty (DD) of the task roll increases with the information's amount and complexity.
-None technical information like people's names or anniversaries is even more difficult to mnemonically trap.
-This ability's typical DD range is 1-8 (1d8).
-
-=== Brainstorming
-This ability allows the mechanic to solve complex problems by thinking laterally and thinking imaginatively.
-Using brainstorming can solve a problem completely, partially, or not at all.
-If the brainstorming attempt fails, the persona will most likely postulate a hair-brained idea instead of no idea.
-The difficulty (DD) of the task roll increases with the complexity of the mechanical problem.
-Plot points and interpersonal problems are resistant to Brainstorming. 
-This ability's typical DD range is 1-20 (1d20).
-
-=== Mental Patenting
-The mechanic can memorize a maneuver that she has successfully completed.
-Mental patenting allows the mechanic to repeat the maneuver flawlessly.
-If the mechanic is upgrading ammo for a mercenary repeatedly, she may want to mentally patent the procedure.
-Successful mental patenting will allow her to upgrade the ammo flawlessly in the future.
-Mental patented maneuvers do not work with research teams.
-Mental patented maneuvers do not earn experience points.
-This ability's degree of difficulty is three times the maneuver DD.
-To mentally patent a 4DD maneuver requires a DD12 task roll.
-
-== Task Examples
 Mechanic tasks involve anything inorganic or mechanical in nature.
 These tasks are all about fixing, modifying and creating mechanical devices.
 Most mechanic tasks are knowledge based and Dexterity based task roll bonuses will reflect this.
@@ -156,12 +97,93 @@ The referee may increase the task difficulty if the mechanic does not have a too
 
 For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
-include::vocations:partial$mechanic_tasks.adoc[]
+=== Compendium
+A none exhaustive list of mechanic skills arranged by increasing difficulty.
+
+Skill Example (42)::
+One line description of skill. Difficulty is in brackets. 
+
+==== Trivial
+Mechanical (12)::
+    Is it a machine? Yes. No.
+
+Broken (12)::
+    Is it broken? Yes. No.
+
+==== Easy
+Quick Repair (24)::
+    Unbreak for one more use. Trivial and minor damage.
+
+Bake A Pie (24)::
+    Make a pie from ingredients.
+
+==== Normal
+Mnemonic Trapping (42)::
+    Memorize a technical thing.
+
+Scavenge Parts (42)::
+    Get some good parts from a machine.
+
+Repair (42)::
+    Fully repair less than major damage.
+
+Find Data (42)::
+    Get needed data from data stream.
+
+Terminal Access (42)::
+    Access a computer. 
+
+ID Normal Artifact (42)::
+    Identify toy tech level 10.
+
+==== Hard
+Hard Repair (84)::
+    Fully repair less than Critical damage.
+
+Reverse Polarity (84)::
+    Make a machine go backwards. Once. 
+
+ID Low Tech Artifact (84)::
+    Identify toy tech level less than 10.
+
+
+==== Tough
+Robot Override (126)::
+    Temporarily block a robot goal.
+
+Tough Repair (126)::
+    Fully repair less than Cataclysmic damage.
+
+Compactify (126)::
+    Decrease wate by 2 times.
+
+ID High Tech Artifact (12)::
+    Identify toy tech level 15 to 19.
+
+
+Multi-equip (148)::
+    Integrate two toys into one. 
+
+==== Impossible
+ID Alien Artifact (168)::
+    Identify alien or tech level 20 plus artifact.
+
+Sotto to Flotto (168)::
+    Move a gun to full auto.
+
+Miniaturization (168)::
+    Decrease wate by 10 times. 
+
+==== Bizarre
+Robot Control (210)::
+    Take over a robot.
+
+Fabricate (210)::
+    Create a new toy. 
 
 === Crafts
-A mechanic's crafts (gifts) define the persona as a mechanic. 
-Crafts are the inherent abilities that reflect how the persona is in tune with the organic world. 
-Crafts cannot be chosen, and are added as the persona increases in experience levels.
+The mechanics crafts (gifts) are skills where the persona automatically succeeds.
+New actions are added when the persona gains more experience levels.
 
 include::vocations:partial$mechanic_crafts.adoc[]
 
