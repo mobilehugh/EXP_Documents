@@ -1,5 +1,10 @@
 = Nomad
 
+[quote]
+____
+*Survive using few things.*
+____
+
 :art: nomad_urban.png
 :width: 250px
 :snark: Urban nomad in city biome.
@@ -21,63 +26,56 @@ Nomads can aid the expedition by providing a source of intuitive survival skills
 NOTE: Nomads can be sociable and have no political baggage.  
 
 Nomads will generally shun technology if it is unnecessary for survival.
-They prefer to sleep in a hollow log or a dumpster rather than a hotel room or tent.
+They may prefer to sleep in a hollow log or a dumpster rather than a hotel room or tent.
 There is no penalty for a nomad who uses technology.
 
-== Nomadic Abilities
-Nomads have abilities, that are divided between adaptions (gifts), interests and skills.
-Adaptions are nomad specific abilities that the persona acquires at specific experience levels.
-An adaption is a built in task that the nomad can practice without making a task roll.
+If the campaign is limited vocations by attributes nomads have the following minimums:
+AWE 10, CON 6, INT 5 and HPM 20
+
+== Knowledge
+Nomadic knowledge is focused on biomes, survival and domestication. 
 The interests are broad areas that the nomad excels in.
 An interest can be applied to many different skills.
-Skills are more specific and can assist very specific task rolls. 
-
-=== Adaptations
-Adaptions are gifts that the nomad carries with themselves and help define them "being a nomad."
-Adaptions cannot be chosen and are assigned as the persona increases in experience levels. 
-Nomads get new adaptions at 1st, 4th and 7th levels of EXPS.
-
-include::vocations:partial$nomad_adaptations.adoc[]
+An expertise is more focused, and offers greater benefit to appropriate task rolls. 
 
 === Interests
 Interests are broad abilities that can represent experience that can assist skills and tasks. 
 Nomad interests are intentionally wide ranging and can be very loosely applied to most any nomad task.
 
-At startup the persona gets one interest per 4 points of Awareness, and one additional interest per new experience level. 
+At startup the persona gets one interest per 3 points of Awareness, and one additional interest per new experience level. 
 
 include::vocations:partial$nomad_interests.adoc[]
 
-==== Biome Interests
+==== Biome Interest
 Biomes are the bread and butter of a nomad. 
-A biome is a geographically, ecologically or socially unique biological location.
-When the nomad is in a familiar biome she enjoys task roll bonuses on nearly everything she does in that space.
-Each biome interest earns the player an additional biome skill. 
-Nomads quickly become very competent in their preferred biomes.
+A biome is a geographically, ecologically or socially unique location.
+The biome interest will assist any endeavour that involves a biome. 
+This is astoundingly broad and it is rare that a nomad task does not involve a biome. 
+A nomad that has a nomad interest automatically gets a biome expertise. 
 
-==== Survival Interests
+==== Survival Interest
 All nomads, and all personas for that matter, are interested in surviving.
 A survival interest will assist the player in any task rolls that represents survival tasks.
 For example, a safe passage task roll would benefit from the survival interest. 
 Whereas trying to domesticate an alien pack mammal would not.
 
-==== Domestication Interests
+==== Domestication Interest
 Nomads can have an interest in domestication aliens for their personal use. 
+Domestication helps the nomad when working with aliens from the diversidae family.
+While an anthro may be __alien__ this expertise only applies to diversidae aliens.  
 The domestication interest will assist the persona in tasks that are part of domesticating aliens.
-The process of domestication is elaborate and covered below. 
 
-=== Skills
+=== Expertise
 Skills are specific abilities that assist with more specific task rolls. 
 A skill could represent knowledge, experience or training. 
 The player rolls one skill per interest, and if the person earns another interest they gain another skill. 
 
-==== Biome Skills
+==== Biome Expertise
+A biome is a geographically, ecologically or socially unique location.
 The nomad is assisted for any task attempted in a familiar biome.
-There is no penalty for acting outside one's biome. 
-The player makes one roll on the biome table per biome interest. 
-The Alien Biome Table is included here for efficiency of the now, and the future. 
-Each biome skill includes a biome and characteristic.
+Biome expertise is cumulative and assists literally any task roll 
 
-include::aliens:partial$biome_list.adoc[]
+Due to space considerations the biome constructor is found at the end of this page <<_biome_constructor,Jump there>>.
 
 :art: nomad.png
 :width: 250px
@@ -88,70 +86,142 @@ include::aliens:partial$biome_list.adoc[]
 :description: Two humans sheltering from sun in an alien desert.
 include::ROOT:partial$articulate.adoc[]
 
-==== Survival Skills
-These are skills that specifically assist the persona in performing survival tasks. 
-They include tasks like finding water, food and shelter.
-Remember to add in biome skills and interests to improve the chance of success of the task.
+==== Survival Expertise
+Survival expertise is knowledge that assists the nomad in performing survival tasks. 
+This expertise area includes things like finding water or calming a feral alien. 
+Remember to include biome expertise with survival task rolls.
 
 include::vocations:partial$nomad_skills_survival.adoc[]
 
-==== Domestication Skills
-These are skills that help the nomad when working with aliens. 
+==== Domestication Expertise
+Domestication expertise helps the nomad when working with aliens from the diversidae family.
+While an anthro may be __alien__ this expertise only applies to diversidae aliens.  
 The aliens that domestication skills work on are typically flora and fauna. 
-There are details about the complicated process of domesticating an alien below.
-The table is a mix of Biologist taxonomy skills and specific nomadic domestication skills. 
+Remember to include biome expertise with domestication task rolls.
 
 include::vocations:partial$nomad_skills_domestication.adoc[]
 
-== Specific Skills
-Some example explanations to help guide nomad abilities and tasks.
+== Skills
+Nomad skills are about surviving and manipulating the environment surrounding the persona.
+These terrains are called biomes and can be natural, industrial or residential.
+These skills  are about personal survival.
 
-=== Water
-This ability allows to nomad to read the environment, do a bit of dowsing, and sniff out some water.
-Each win on the task roll will find enough water for one anthro for one day.
-The player can keep making task rolls until she fails.
-If she were to fail on the first task roll, she found no water that day.
+A nomad has no essential equipment.
+Unlike any other vocation a nomad may be inhibited by survival tools like tents, or fire starters.
+The referee may increase task difficulty if the nomad is glamping (glamorous camping).
 
-.*Water Abilities*
-* Find 1-4 (1d4) DD
-* Purify 5-8 (1d4+4) DD
-* Find source 9-12 (1d4+8 (1 DD);
+For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
-=== Shelter 
-Find shelter allows the nomad to either find or build shelter employing nothing other than the biome's materials.
-The shelter can protect from the elements, local pests, or toxins.
-The nomad must win a task roll for every persona that she is sheltering, camping or clothing.
+=== Compendium
+A none exhaustive list of nomad skills arranged by increasing difficulty.
 
-.*Shelter Abilities*
-* Fire 1 DD
-* Find 1-6 (1d6) DD
-* Safe campsite 5-10 (1d6+4) DD
-* Craft clothing 9-14 (1d6+8) DD
+Skill Example (42)::
+One line description of skill. Difficulty is in brackets. 
 
-The nomad can produce fire from local materials.
-Creating fire is more difficult with challenging elements and austere conditions.
+==== Trivial
+Biological (12)::
+    Is it biological? Yes. No. 
 
-The safe campsite ability is an improvement on find shelter.
-A safe campsite is free from natural disasters and less likely to be approached by hungry flora and fauna.
+Sentience (12)::
+    Sentience present. Yes. No. 
 
-Craft clothing involves the fabrication of protective clothing from local materials.
-The clothing could offer warmth, ventilation, or protection from inhospitable environments.
-Often players wish to have camouflaged clothing.
-Crafting camouflage doubles the DD of the task roll.
+Passage In Safety (12)::
+    Find safe passage when no danger
 
-=== Food 
-This ability allows the nomad to find sustenance from the local environment. 
-The player must make a  task roll for every hungry mouth.
+Living (18)::
+    Is it alive and living. Yes. No.
 
-.*Food Abilities*
-* Find 1-8 (1d8) DD
-* Safe preparation 3-10 (1d8+2) DD
-* Yummy preparation 5-12 (1d8+4) DD
-* Cure poison 1-25 (intensity) DD
+==== Easy
+Water Safety (24)::
+    Safe water in wet biomes.
 
-The Nomad can cure an organic poison that comes from the biome.
-The nomad could cure a poisonous alien bite but not a military neurotoxin.
-If the poison has an intensity of 12, the DD would be 12.
+Edible (24)::
+    Is it edible? Yes. No. 
+
+Make Sausage (24)::
+    Make a yummy sausage. 
+
+Shelter from Forest (24)::
+    Make self shelter in dense vegetation. 
+
+Fire From Something (24)::
+    Make fire when stuff around. 
+
+Preserves (24)::
+    Preserve food for later. 
+
+==== Normal
+Quick Fix (42)::
+    Heal 1d6 HPS immediately.
+
+Food from Food (42)::
+    Make normal survival food safe. 
+
+Energy Source (42)::
+    What does it eat?
+
+Water From Rocks (42)::
+    Find water in Dry biomes.
+
+Shelter from Nothing (42)::
+    Make safe shelter in city or tundra. 
+
+Make Clothing (42)::
+    Make appropriate survival clothing. 
+
+Quick Fix (42)::
+    Heal 1d6 HPS immediately.
+
+Poison Arrest (56)::
+    Stop poison progress. Not heal
+
+==== Hard
+Alien organization (84)::
+    Solo, family, herd, pack. 
+
+Food from Toxic (84)::
+    Make toxic survival food safe. 
+
+Fire from Nothing (84)::
+    Make fire in denuded areas. 
+
+Make Cammo (84)::
+    Make camouflaged clothing for biome. 
+
+Calm Frenzy (84)::
+    Arrest and ursidae frenzy.
+
+Poison Reverse (84)::
+    Reverse the effects of a poison (except HPS damage).
+
+Radiation Arrest (84)::
+    Stop ongoing effects of radiation.
+
+==== Tough
+Water from Sand (126)::
+    Find water in arid biomes. 
+
+Shelter from Eyes (126)::
+    Make safe shelter under surveillance.
+
+Food from Poison (126)::
+    Make poisonous food safe.
+
+Poison Cure (126)::
+    Reverse all poison effects (even HPS damage).
+
+==== Impossible
+Food from Pharma (168)::
+    Turn pharma into food. 
+
+==== Bizarre
+Water from Vacuum (210)::
+    Find water exatmo.
+
+Track across Vacuum (210)::
+    Find target across planets.
+
+
 
 === Domestication
 Nomadic domestication involves the befriending and training of alien flora and fauna.
@@ -265,19 +335,13 @@ Finding a safe campsite in an underground (1) cave have a bonus of +1.
 :description: Landscape of futuristic wall in front of planet and stars.
 include::ROOT:partial$articulate.adoc[]
 
-== Task Examples
-Nomad tasks are about surviving and manipulating the environment surrounding the persona.
-These terrains are called biomes and can be natural, industrial or residential.
-These tasks  are about personal survival.
-Nomadic tasks  are mostly Gut tasks  and the player may enjoy an AWE bonus the Task Roll.
 
-A nomad has no essential equipment.
-Unlike any other vocation a nomad may be inhibited by survival tools like tents, or fire starters.
-The referee may make a target roll more difficult if the nomad is glamping (glamorous camping).
 
-For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
+=== Adaptations
+The nomad's adaptations (gifts) are skills where the persona automatically succeeds.
+New adaptations are added when the persona gains more experience levels.
 
-include::vocations:partial$nomad_tasks.adoc[]
+include::vocations:partial$nomad_adaptations.adoc[]
 
 == Experience
 Nomads get half experience for combat and EXPS for successful maneuvers.
@@ -285,4 +349,10 @@ Faithful role-playing of the nomad vocation will earn EXPS for the persona.
 Increasing levels allows the nomad a greater chance of survival in the wild or combat.
 
 include::vocations:partial$nomad_exps.adoc[]
+
+== Biome Constructor
+Biome tables are included here for convenience.
+
+include::aliens:partial$biome_list.adoc[]
+
 
