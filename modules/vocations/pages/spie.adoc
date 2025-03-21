@@ -64,7 +64,7 @@ This Defence Rating bonus does not improve the AR of worn armour.
 
 
 == Knowledge
-Spies have a collection of tricks (gifts), interests and skills. 
+Spie knowledge is broken down into interests and expertise. 
 Interests are broad areas of interest.
 For example, an interest in infiltration would help the player making and infiltration related task rolls.
 The interest of incapacitation will assist whenever the spie is trying to incapacitate a target.
@@ -122,102 +122,154 @@ Skill Example (42)::
 One line description of skill. Difficulty is in brackets. 
 
 ==== Trivial
+No Guilt (12)::
+    Expunge guilty feelings. 
+
+Escape! (12)::
+    Out of frying pan into fire. 
 
 ==== Easy
+Case, Low Tech (24)::
+    Find security weakness. Less than tech level 10.
 
+Disguise, Planned (24 + AWE)::
+    Careful planned hiding of appearance from strangers.
+
+Bypass, Low Tech (24)::
+    Get past security measures. Less than tech level 10. 
+
+Sneak, In Crowd (24)::
+    Move self around without being noticed in a crowd.
+
+Encrypt (24)::
+    Make data hard to read for others. 
+
+Decrypt, Low Tech (24)::
+    Read encrypted data in low tech (<10).
+
+Forgery, Low Tech (24)::
+    Create fake document in tech level <9.
 
 ==== Normal
+Bribery (42)::
+    Jump order with value. Mutual benefit.
 
+Blackmail (42)::
+    Extract value with information. Coercive.
 
+Decrypt, Normal (42)::
+    Read encrypted data in normal tech enviro (10).
+
+Case, Mundane (42)::
+    Find security weakness. Tech level 10-14
+
+Disguise, Fast (42 + AWE)::
+    Temporary improvised hiding of appearance from strangers.
+
+Lying (42 + MND)::
+    Falsification without tells. 
+
+Bypass, Mundane (42):: 
+    Get past security measures. Tech level 10-14.
+
+Stun, surprise (42 + CON)::
+    Total surprise. Successful attack roll. 
+
+Climb (42)::
+    Find a way to climb something not obviously climbable.
+
+Sneak, Standard (42)::
+    Move self around without being noticed.
+
+Trap (42)::
+    Set trap to activate alarm or attack. 
+
+Forgery, Normal (42)::
+    Create fake document in tech level 10.
+
+Pilfer (43 + AWE)::
+    Sleight of hand conceal hand sized thing.
+
+Interrogation (42 + MND)::
+    Get info from anthro using pressure. 
 
 ==== Hard
+Case, Secure (84)::
+    Find security weakness in secure facility.
 
+Disguise, Known (84 + AWE)::
+    Hiding appearance from folks that know the persona. 
+
+Bypass, Secure (84)::
+    Get past security measures. Tech level 15-19.
+
+Sneak, Security(84)::
+    Move self around without being noticed in secure situation.
+
+Incapacitate (84 + AWE + LEVEL)::
+    Requires total surprise. Successful attack roll. Ranged attack. 
+
+Stun, Combat (84 + CON + LEVEL)::
+    Successful attack roll.
+
+Decrypt, Secure (84)::
+    Read encrypted data in secure or higher tech (11-19).
+
+Forgery, High Tech (84)::
+    Create fake document in tech level 11-19.
 
 ==== Tough
+Case, Higher Tech (126)::
+    Find security weakness. Tech level 15-19.
 
+Disguise, Close (126 + AWE)::
+    Hiding appearance from friends. 
+
+Bypass, Higher Tech (126)::
+    Find security weakness. Tech level 15-19.
+
+Assassinate (126 + AWE + LEVEL)::
+    Requires total surprise. Successful attack roll. Ranged attack. 
+
+Sneak, Combat (126)::
+    Move self around without being noticed in during combat.
+
+Decrypt, High Tech (126)::
+    Read encrypted data tech level 20 and up.
+
+Forgery, Secure (126)::
+    Create fake document in tech level >20.
+
+==== Impossible
+Case, High Tech (168)::
+    Find security weakness. Tech level 20 and up.
+
+Bypass, High Tech (168)::
+    Find security weakness. Tech level 20 and up.
+
+Disguise, Family (168 + AWE)::
+    Hiding appearance from family, expedition members.
+
+Decrypt, Secret (168 + INT)::
+    Read encrypted data tech professionally encrypted.
 
 ==== Bizarre
+Disguise, Self (210)::
+    Hiding appearance from self.
 
+==== Glossary
 
-Assassination::
-Assassination allows the spie to instantly and irrevocably kill a target with a single attack.
-Under certain conditions, with the correct weaponry, a spie may carry out an assassination.
-There are lots of required conditions for an assassination.
-Assassination requires knowledge of the target's anatomy.
-Whether a spie can assassinate robots and aliens is up to the referee. 
+Picking Locks::
+    Use Bypass security.
 
-.*Assassination Checklist*
-. Win an ambush
-. Win an attack roll
-. Win a task results roll
-. Using an appropriate weapon
+Picking Pockets::
+    Use Pilfer.
 
-If the player fulfills these four requirements, the target is irrevocably dead.
-Medical science cannot medically repair the victim.
+Trap Removal::
+    Use Bypass Security.
 
-The spie must have complete surprise through a successful ambush.
-For more information about surprise jump to xref:combat:ambush.adoc[Ambush,window=_blank].
-An assassination cannot happen during combat or when the target is in a hyper-aware state.
-
-There will be attack roll bonuses with a successful ambush. 
-The player must win an attack roll before making the assassination task results roll.
-
-The spie must be using a controllable weapon like a sword, pistol or rifle. 
-Area of effect weapons, flame throwers and fusion weapons lack the precise control assassinate at target.
-It is not about the damage the weapon delivers but its stealth.
-If the task results roll is successful, the player does not even roll damage, and the target is dead.
-
-The degree of difficulty for the task results roll is equal to the target's Awareness attribute score.
-The referee can alter the DD as she sees fit.
-Plot points and player personas are highly resistant to the assassination ability.
-
-If the player fails the task results roll, the weapon still inflicts damage on the target.
-If the damage kills the target, it is not considered an assassination by the spie.
-A target that dies during a failed assassination attempt could still be resuscitated.
-
-Only a failed task results roll will reveal the spie's position in a long-range attack.
-
-.*Incapacitate vs Assassinate*
-There is a variation on this ability where the spie incapacitates the target by wounding.
-There is no difference in the DD of the maneuver, but the player must roll damage.
-If the damage does not accidentally kill the target, then the spie has successfully incapacitated the target.
-
-Disguise::
-Spies are naturally adept at not appearing as themselves.
-A spie can alter the appearance of her hite and wate with no effort at all.
-A spie can make herself appear 50% taller or 25% shorter.
-A spie can make herself appear 50% heavier or 25% skinnier.
-These changes in hite and wate do not require a task results roll.
-
-More elaborate the disguise, the more difficult the task results roll.
-The ability to detect a disguise depends on the Awareness attribute of the observer.
-Anthros cannot disguise themselves as aliens or robots. 
-Vice versa applies. 
-
-.*Impersonation DD*
-* Stranger 1-6 (1d6) DD
-* Coworker 1-12 (1d12) DD
-* Friend 2-25 (1d12 + 1/2AWE) DD
-* Family member 2-37 (1d12 + AWE) DD
-* Intimate partner 3-62 (1d12 + 2*AWE) DD
-
-The player may be required to make this task results roll multiple times. 
-A failed task results roll for disguise reveals the disguise but not the spie.
-
-Bonuses are available to the player.
-Surgical interventions, planning, research can improve the chances of success.
-If the spie is disguising her voice, the referee should reduce the degree of difficulty.
-
-Stun::
-Stun is a specialized martial arts attack used by tv and movie spies across the universe.
-Stun represents the single knock-out hand chop.
-The stun works best as a surprise attack but can also be useful in combat. 
-The spie can only attempt to stun a target once per combat unit.
-The player must win an attack roll and a task results roll to stun an opponent successfully.
-The difficulty is equal to the MND of the target.
-A successful task results roll drops the target unconscious and uninjured to the ground.
-An unsuccessful roll inflicts no damage and leads to embarrassment and humour.
-
+Sleight of Hand::
+    Use Pilfer.
 
 
 :art: mysterious_exit.png
@@ -229,109 +281,9 @@ An unsuccessful roll inflicts no damage and leads to embarrassment and humour.
 :description: Human escaping out of, or into, a room via a chandelier.
 include::ROOT:partial$articulate.adoc[]
 
-Assassination::
-Each assassination skill level reduces her assassination task results roll by 3DD.
-
-Bribery::
-Bribery allows the spie to convince personas to act out of context for remuneration.
-Some upstanding citizens may refuse any attempt at bribery.
-While others look at the additional remuneration as a business transaction
-The persona can use her bribery skill to slip across a border, get into a concert, or avoid a traffic ticket.
-Personas cannot bribe people into damaging themselves.
-Bribery has a DD range of 1-12 (1d12).
-The greater the risk for the bribee, the higher the degree of difficultly.
-
-Blackmail::
-Blackmail is a variation on bribery where the target is a victim and does not benefit in the transaction.
-Blackmail has a DD range of 1-12 (1d12).
-
-Casing::
-The spie uses casing to assess the risks of trying to penetrate a structure.
-Successful casing determines otherwise hidden alarms and security systems. 
-Casing has a minimum DD range of 1-12 (1d12).
-The referee may modify this DD as she sees fit.
-
-Climbing::
-Climbing tricks allow the spie to channel her inner monkey.
-Spie climbing is a combination of freestyle and parkour.
-Climbing has a minimum DD range of 1-8 (1d8).
-The referee may modify this DD as she sees fit.
-
-Concealment::
-Concealment is the art of hiding objects on the body of the spie.
-The spie can hide weapons or money in her fat folds, armpits, fur, or orifices.
-The difficulty is adjusted depending on the intensity of the search.
-Concealment has a minimum DD range of 5-12 (1d8+4).
-The referee may modify this DD as she sees fit.
-A successful task results roll allows the spie to sneak information or reveal information.
-
-Cryptography::
-The spie can use this trick to encode or decode data.
-The encrypted material can take on any form the spie sees fit.
-The ref should adjust the difficulty to reflect the complexity of the code.
-Cryptography has a minimum DD range of 9-16 (1d8+8).
-The referee may modify this DD as she sees fit.
-A successful task results roll allows the spie to sneak stuff past a search.
-
-Escape::
-A spie can use her escape trick to avoid an otherwise inevitable event.
-A successful escape only delays impending doom.
-The spie can only use an escape roll to escape the impending doom.
-The spie can jump out of the way of a giant speeding robot, but she may jump off a bridge to do so. 
-_out of the frying pan and usually into the fire_.
-Cryptography has a minimum DD range of 9-16 (1d8+8).
-The referee may modify this DD as she sees fit.
-Escape cannot avoid plot or story points, but it may delay them for dramatic effect.
-
-Forgery::
-Forgery is the spie's art form.
-Forgery ranges from falsifying legal documents to counterfeiting currency.
-Forgery is time-consuming.
-Forgery has a minimum DD range of 5-12 (1d8+4).
-The referee may modify this DD as she sees fit.
-A successful task results roll creates a passable document.
-
-Interrogation::
-Interrogation is the formal or informal push for information from an unwilling persona.
-The spie can get information from a target by cajoling, deceiving, threatening, or hurting.
-The degree of difficulty is equal to the target's Mind score.
-An interrogation on a persona with a 10 MND would be a 10 DD maneuver.
-
-Lying::
-A successful task results roll allows the persona to deceive lie detectors, immigration officers, legal cross-examination, or scrutiny.
-The lying trick should not replace an opportunity for role-playing.
-The degree of difficulty is equal to the target's Mind score.
-Lying to a persona with a 10 MND would be a 10 DD maneuver.
-
-Picking Locks::
-Bypass things that keep things protected.
-The locks include doors, boxes, safes, ignitions etc.
-Lock picking is non-destructive.
-Smashing a lock or shooting it with the Hollywood Unlocking Blaster is not lock picking.
-The nature of the lock decides the degree of difficulty.
-Tool locks are mechanical, and tech locks are electronic, comp locks may use facial recognition, and AI locks are the hardest to pick.
-
-Picking Pockets::
-Picking pockets is any sleight of hand resulting in the transfer of wealth or property to the spie.
-The spie removes items from the pocket, flap, purse, or pouch of a primary observer.
-The degree of difficulty depends on the Awareness of the target. 
-The action rarely will deceive electronic surveillance equipment such as hidden cameras or alarm systems.
-The degree of difficulty is equal to the target's Awareness score.
-Picking the pocket of a persona with a 10 AWE is be a 10 DD maneuver.
-
-Stealth Movement::
-Stealth is like spie camouflage.
-Stealth includes the ability to hide in the shadows, move silently, and avoid detection.
-The degree of difficulty is equal to the observer's Awareness score.
-Sneaking past a persona with a 10 AWE is be a 10 DD maneuver.
-The player must win a task results roll for every observer.
-
-
 === Tricks
-The spie tricks (gifts) are those abilities that help define the persona as a spie. 
-No other vocation has access to these abilities.
-Spie tricks are baked in and not trained. 
-The spie gets tricks at 1st, 4th and 7th level.
+Spie tricks (gifts) are skills that the player does not need to make a task roll for. 
+The persona gets one knack at first level and more difficult ones are added at prescribed levels. 
 
 include::vocations:partial$spie_tricks.adoc[]
 
