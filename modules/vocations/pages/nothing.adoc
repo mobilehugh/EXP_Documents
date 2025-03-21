@@ -1,5 +1,10 @@
 = Nothing
 
+[quote]
+____
+*Infatuated with material things.*
+____
+
 :art: nothing_sales.png
 :width: 250px
 :snark: Fun guy car sales.
@@ -10,29 +15,26 @@
 include::ROOT:partial$articulate.adoc[]
 
 The nothing is the non-vocation vocation.
-The nothing is the unskilled civilian of the role-playing world.
-Most player personas become nothings because they lack any other vocation attributes. 
-There are no requirements to follow the nothing vocation besides being alive.
-A player can choose the nothing vocation for her persona.
-
-NOTE: Nothings can have a <<_vocation_aspiration,vocation aspiration>>, allowing them to follow a vocation eventually.
-
-
-== Core Elements
+This vocation represents the typical civilian of the role-playing world.
 Other vocations have keen areas of interest that assist the expedition's survival.
 The nothing vocation is mainly concerned about material goods and their social standing.
 A nothing career has no measurable value to the expedition.
 
-=== Social Standing
+There are no attribute requirements to become a nothing. 
+In tables that apply vocation attribute limitations some personas are forced to be nothings. 
+
+NOTE: Nothings can have a <<_vocation_aspiration,vocation aspiration>>, allowing them to follow a vocation eventually.
+
+== Social Standing
 The nothing's most important attribute is her social standing (SOC).
 In many cases she will be comparing her social standing to that of other nothings.
 These challenge rolls could used to get to the front of a line or get a larger portion of gruel.
 
 Most personas rolled their social standing (SOC) when generating attributes.
 A nothing's social standing is the root of her self-worth.
-The higher their social standing, the more influential the nothing is.
+The higher their social standing, the more influential the nothing.
 For the nothing vocation, social standing is synonymous with wealth and power.
-Other vocations may understand social standing's value but have little or no interest in it.
+Other vocations may understand social standing's value but have little or no interest in the attribute.
 For more information about SOC, jump to xref:attributes:social_standing.adoc[social standing,window=_blank].
 
 A persona can improve her social standing by increasing her EXPS levels.
@@ -49,14 +51,14 @@ Pulling privilege does not work on personas with vocations.
 Nothings can only use this ability on other nothings for inconsequential outcomes.
 Examples of pulling privilege are using SOC to: get sports ball tickets, jump the queue, university admission, or hairstylist appointment.
 
-=== Net Worth
+== Net Worth
 Nothings also have a monetary net worth that is calculated completely differently from other vocations.
 Personas in other vocations are more focused on their vocation than their remuneration. 
 Nothings are the opposite of this.
 They measure their self worth by their net worth.
 The nothing's net worth is calculated at startup after all abilities are generated. 
 
-==== Calculation
+=== Calculation
 Personas in the nothing vocation start with a lump of material value.
 This wealth is never an artifact or useful device.
 The source of wealth is usually limited to the persona's home.
@@ -78,30 +80,33 @@ NOTE: A nothing cannot get an artifact when calculating net worth.
 
 include::hardware:partial$treasure_values.adoc[]
 
-== Nothing Abilities
-Nothing abilities generally don't help the expedition out during combat or research.
-However, the nothing abilities can get the expedition access to funding or connections to help reach their goals.
-The nothing vocation has pulls (gifts), interests and skills. 
+== Knowledge
+The nothing vocation and knowledge may seem contradictory, but nothings have knowledge.
+While there are nothing interests and expertise these are generally not useful to the expedition in combat or projects. 
+However, nothings can get the expedition access to funding or make connections.
 All of these focus on the nothing moving ahead in their culture. 
 
-=== Pulls 
-These are the gifts that allow the nothing function in her home setting.
-Pulls have little or no impact on the expedition's lofty goals, but certainly can help.
-Pulls are not chosen by the player and are granted to the persona as she acquires nothing EXPS levels.
-
-include::vocations:partial$nothing_pulls.adoc[]
-
 === Interests
-A nothing has three interests: career, homes, and privilege.
+There are three nothing interests: career, homes, and privilege.
 Career interest will assist the player with any task rolls she makes related to her persona's career.
-The homes interest strengthens any tasks the nothing is trying to complete in regards to her home bases.
-The privilege interest assist the persona with any task where she is getting her way through connections and not merit.
+The home interest is similar to a biome, but only allows them to exercise their privilege within that home.
+The privilege interest assists the persona any time she is moving upwards through connections and not merit.
+
+At startup the player gets one roll on the interest table per 3 points of highest attribute.
+However, a nothing cannot use her INT attribute to generate interests. 
+So if a persona has a 12 AWE, 9 CHA, and 15 INT she may use her AWE to get 4 rolls on the interests table.
+After startup the persona may roll or choose an additional interest for each new experience level 
 
 include::vocations:partial$nothing_interests.adoc[]
 
-=== Skills 
-Nothing skills are very diverse, some are like biomes, others are careers, and yet others are obnoxious tasks.
-The skills will assist the nothing in any task where the player can apply the chosen interests or skills.  
+=== Expertise 
+Nothing expertise can represent past job experience, places of habitation, or pure displays of privilege.
+Even though nothing knowledge seems counter intuitive interests and expertise help the nothing persona with their task rolls. 
+
+At startup the persona gets one area of expertise per interest. 
+So a nothing with Privilege 2 and Home 1 would get 2 rolls on the Privilege Table and 1 roll on the Home Table.
+After start up the persona gets one new expertise per experience level. 
+The player can roll on one of the expertise tables or choose a specific expertise.
 
 :art: nothing_suit.png
 :width: 250px
@@ -112,7 +117,7 @@ The skills will assist the nothing in any task where the player can apply the ch
 :description: Feline humanoid dressed in a suit and tie.
 include::ROOT:partial$articulate.adoc[]
 
-==== Career Skills
+==== Career Expertise
 A nothing's career is not a vocation.
 The persona's career may be something that they talk about a lot, but it has no value to expedition survival.
 It will be a rare circumstance when a nothing can use her career to aid the expedition.
@@ -123,20 +128,16 @@ A nothing may aim to become the best chef in the city, an accountant, or the fas
 
 include::vocations:partial$nothing_skills_career.adoc[]
 
-==== Home Skills
+==== Home Expertise
 Nothings are not from nowhere.
 The nothing home is like a cultural biome.
 A home is where the persona's social standing and wealth have the most influence.
 A nothing vocation can have multiple homes.
 
-The persona adds a new home at every new EXPS Level.
-The player can choose to extend an existing home or randomly generate a new one.
-If a persona gains an EXPS level in a foreign home, she automatically adds it to her home list.
-
 include::vocations:partial$nothing_skills_homes.adoc[]
 
-==== Privilege Skills
-These are specific actions that nothings can undertake to forward their privilege and meritless advancement. 
+==== Privilege Expertise
+These are narrow areas of knowledge that nothings can use to push their privilege and meritless advancement. 
 
 include::vocations:partial$nothing_skills_privilege.adoc[]
 
@@ -149,7 +150,7 @@ include::vocations:partial$nothing_skills_privilege.adoc[]
 :description: Pleather bag with draw string and coins spilling out.
 include::ROOT:partial$articulate.adoc[]
 
-== Task Examples
+== Skills 
 Nothing tasks are about surviving in the social fabric of wealth, fame and luxury.
 Nothing tasks do not really exist, as they offer nothing of worth to the expedition.
 If the expedition convinces the referee that a nothing maneuver is possible it will be a Gut maneuver.
@@ -160,8 +161,77 @@ The referee may make a target roll more difficult if the nothing has nothing.
 
 For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
-include::vocations:partial$nothing_tasks.adoc[]
+=== Compendium 
+A none exhaustive list of nothing skills arranged by increasing difficulty.
 
+Skill Example (42)::
+One line description of skill. Difficulty is in brackets. 
+
+==== Trivial
+Be Afraid (12)::
+    Ensure others know you are afraid.
+
+Fall Asleep (12)::
+    Get shut eye anywhere.
+
+==== Easy
+Attention (24)::
+    Make oneself the center of attention. 
+
+Eat Fast (24)::
+    Fill cake hole quietly and quickly.
+
+Recall Name (24)::
+    Recall a referee persona name. 
+
+==== Normal
+Dress for Success (42)::
+    Wear the right clothes to a function.
+
+Attention, Diversion (42)::
+    Make someone else the center of attention.
+
+Righteous Indignation (42)::
+    Project righteous indignation.
+
+Tie a Tie (42)::
+    Correctly apply tie to self.
+
+Queue Jumping (42)::
+    Get self past queue.
+
+==== Hard
+Wakey Wakey (84)::
+    Wake up at correct time.
+
+Tie Another's Tie (84)::
+    Correctly apply tie to another.
+
+Queue Trashing (84)::
+    Get expedition past queue.
+
+==== Tough
+Loan, Residential (126)::
+    Get a loan for habitation.
+
+Loan, Commercial (148)::
+    Get a loan for business.
+
+==== Impossible
+Venture Capital (168)::
+    Secure venture capital. 
+
+==== Bizarre
+Quick Fix (210)::
+    Heal 1d6 HPS. 
+
+
+=== Pulls 
+These are the gifts that allow the nothing function in her home setting.
+Pulls have little or no impact on the expedition's lofty goals, but certainly can help.
+Pulls are not chosen by the player and are granted to the persona as she acquires nothing EXPS levels.
+
+include::vocations:partial$nothing_pulls.adoc[]
 
 == Experience
 Nothings gain experience points by earning money.
