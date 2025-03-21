@@ -22,62 +22,122 @@ There is no moral code for spies, and they can be on the side of good, evil or b
 It is hard to distinguish the bad from the not-so-bad in the realm of violent espionage.
 
 Spies are an excellent source of dangerous assignments (from governments, corporations, societies or private citizens).
-Spies are not dependent on a commission and may carry out a little extortion or kidnapping for their profit (or fun).
+Spies are not dependent on a commission and may carry out a little extortion or kidnapping for their own profit (or fun).
 Spies are often members of secret guilds or naughty lodges dedicated to the clandestine arts.
 How deeply involved the expedition gets with a spie's source depends on the ref's milieu or scenario set up.
 
+For campaigns using vocation attribute requirements:
+AWE, CHA, CON, DEX, INT, MND and STR total above 92 and HPM above 30.
 
-== Spie Abilities
+== Martial Arts
+Spies have their style of fancy hand-to-hand combat.
+The martial art includes kicks, punches, bites, chops, head butts, and body slams.
+The martial arts ability is for unarmoured hand-to-hand combat only.
+Martial arts attacks do not use weapons and are only effective on targets in an adjacent hex.
+
+include::vocations:partial$spie_martial_arts.adoc[]
+
+Attack Bonus::
+The player uses the Skilled Strike attack on the attack roll.
+Martial arts does not get to use the force bonus on damage. 
+
+Attack Order::
+The attack order is the secret sauce of spie martial arts.
+The attack order allows experienced spies to get an attack roll in before and during their opponent's attacks.
+The attack order supersedes initiative.
+
+.*Martial Arts Attack Order*
+* Before - attack roll before opponent attack regardless of initiative
+* During - attack roll during opponent attack regardless of initiative
+* Normal - normal initiative and attack roll timing.
+
+If two spies are using martial arts tied attacks (like both have before attacks) use initiative between the spies. 
+
+Attack Damage::
+An attack roll win delivers the damage listed.
+The player does not use force bonus when using martial arts. 
+
+Defence Bonus::
+A spie's Defence Rating (DEF) increases through dodges, parries, blocks, and rolls.
+This martial arts DEF is for an *unarmoured* dress like a tuxedo or bathing suit.
+This Defence Rating bonus does not improve the AR of worn armour.
+
+
+== Knowledge
 Spies have a collection of tricks (gifts), interests and skills. 
-Spie tricks are baked in abilities of a spie persona. 
-The spie gets new tricks with new levels.
 Interests are broad areas of interest.
 For example, an interest in infiltration would help the player making and infiltration related task rolls.
 The interest of incapacitation will assist whenever the spie is trying to incapacitate a target.
-Skills are much more specific and indicate either a focus of knowledge or a maneuver. 
-
-=== Tricks
-The spie tricks (gifts) are those abilities that help define the persona as a spie. 
-No other vocation has access to these abilities.
-Spie tricks are baked in and not trained. 
-The spie gets tricks at 1st, 4th and 7th level.
-
-include::vocations:partial$spie_tricks.adoc[]
+Expertise represents deeper and more narrow area of knowledge. 
 
 === Interests
-Interests are broad areas of interest that the spie has aptitude in.
+Interests are broad areas of knowledge that the spie has aptitude in.
 The interests are infiltration, deception and destruction.
 Any task that the persona pursues that involves sneaking would benefit from the infiltration interest.
 The destruction interest supports any task that involve weapons or an  unwilling increase in entropy.
 
+A startup the player makes 1 roll on the interests table per 3 points of INT. 
+After startup the persona gets to roll, or choose, one new interest per EXPS level. 
+
 include::vocations:partial$spie_interests.adoc[]
 
-=== Skills
-Spie skills are specific tasks, knowledge foci, or maneuvers that the spie can call upon to complete tasks. 
-The spie skills are divided up by their interests, and there is a skill table for infiltration, deception and destruction.
+=== Expertise
+Spie expertise are more narrow areas of knowledge that assist the persona even more when making a task roll. 
 
-==== Infiltration Skills
-Getting into where one should not be skills. 
-These skills do not involve face to face deception, but deception of architecture and security systems.
+Personas get one expertise per interest at startup. 
+After startup personas may choose, or roll, for another expertise each EXPS level. 
+
+==== Infiltration Expertise
+Expertise at getting into where one should not be. 
+This expertise does not involve face to face deception, but deception of architecture and security systems.
 The player makes one roll per infiltration interest. 
 
 include::vocations:partial$spie_skills_infiltration.adoc[]
 
-==== Deception Skills
-These are skills for face to face trickery and shenanigans deception and manipulation. 
-The player makes one roll per deception interest.
+==== Deception Expertise
+This area of expertise is for face to face trickery and shenanigans and manipulations. 
 
 include::vocations:partial$spie_skills_deception.adoc[]
 
-==== Destruction Skills
-These skills focus on combat and mayhem.
-The spie can gather skills with particular weapon types, and field skills. 
-The player makes one roll per deception interest.
+==== Destruction Expertise
+Expertise in combat and mayhem.
+The spie can gather expertise with weapons or field skills.
 
 include::vocations:partial$spie_skills_destruction.adoc[]
 
-== Specific Skills
-Limitations and expectations of various spie tasks. 
+== Skills
+Spie tasks are about deception, treachery and sneaky violence.
+
+Spies have essential equipment.
+A spie must have some element of deception in their persona equipment.
+Deceptive equipment includes a pair of dark sunglasses, a fake ID or a trench coat.
+The referee may make a target roll more difficult if the spie no tools of deception.
+
+For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
+
+=== Compendium
+A none exhaustive list of biologist skills arranged by increasing difficulty.
+
+Skill Example (42)::
+One line description of skill. Difficulty is in brackets. 
+
+==== Trivial
+
+==== Easy
+
+
+==== Normal
+
+
+
+==== Hard
+
+
+==== Tough
+
+
+==== Bizarre
+
 
 Assassination::
 Assassination allows the spie to instantly and irrevocably kill a target with a single attack.
@@ -158,47 +218,7 @@ The difficulty is equal to the MND of the target.
 A successful task results roll drops the target unconscious and uninjured to the ground.
 An unsuccessful roll inflicts no damage and leads to embarrassment and humour.
 
-Martial Arts::
-Spies have their style of deadly hand-to-hand combat.
-The martial art includes kicks, punches, bites, chops, head butts, and body slams.
-The martial arts ability is for unarmoured hand-to-hand combat only.
-Martial arts attacks do not use weapons and are only effective on targets in an adjacent hex.
 
-The attack roll uses the Skilled Bonus (Skilled) from the Strike line on the attack table.
-The Force Bonus (Force) is from the Fling line on the attack table.
-
-include::vocations:partial$spie_martial_arts.adoc[]
-
-Amour Rating Bonus::
-A spie's Defence Rating (DEF) increases through dodges, parries, blocks, and rolls.
-This martial arts AR is for an unarmoured dress like a tuxedo or bathing suit.
-This Defence Rating bonus does not improve the AR of worn armour. 
-
-Attack Frequency::
-This column indicates the number of martial arts attacks the spie can make each unit.
-The number of attacks applies to the number of martial arts attacks that the persona can make.
-The number of attacks does not apply to any weapon attacks.
-A first level spie gets one martial arts attack per unit. 
-A fifth level spie gets three martial arts attacks per unit.
-
-Attack Damage::
-An attack roll win delivers the damage listed.
-The player adds her Fling Force Bonus to this roll.
-The Fling weapon damage bonus (Force) is  1/4 of the persona's Strength.
-A first level spie with a 12 STR inflicts 1d4+3 HPS in damage.
-A fifth level spie with a 12 STR inflicts 1d8+3 HPS in damage.
-
-Attack Order::
-The attack order is the secret sauce of the spie's martial arts.
-The attack order allows experienced spies to get an attack roll in before and during their opponent's attacks.
-A fifth level spie gets one attack roll before and one attack roll during the opponent's attack.
-If this 5th level spie wins the initiative roll, she gets three attacks before her opponent.
-The attack order supersedes initiative.
-
-.*Martial Arts Attack Order*
-* Normal - normal initiative and attack roll timing.
-* Before - attack roll before opponent attack regardless of initiative
-* During - attack roll during opponent attack regardless of initiative
 
 :art: mysterious_exit.png
 :width: 250px
@@ -306,18 +326,14 @@ The degree of difficulty is equal to the observer's Awareness score.
 Sneaking past a persona with a 10 AWE is be a 10 DD maneuver.
 The player must win a task results roll for every observer.
 
-== Task Examples
-Spie tasks are about deception, treachery and sneaky violence.
-Most spie tasks are considered combat maneuvers. 
 
-Spies have essential equipment.
-A spie must have some element of deception in their persona equipment.
-Deceptive equipment includes a pair of dark sunglasses, a fake ID or a trench coat.
-The referee may make a target roll more difficult if the spie no tools of deception.
+=== Tricks
+The spie tricks (gifts) are those abilities that help define the persona as a spie. 
+No other vocation has access to these abilities.
+Spie tricks are baked in and not trained. 
+The spie gets tricks at 1st, 4th and 7th level.
 
-For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
-
-include::vocations:partial$spie_tasks.adoc[]
+include::vocations:partial$spie_tricks.adoc[]
 
 
 == Experience
