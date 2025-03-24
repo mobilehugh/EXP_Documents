@@ -284,7 +284,6 @@ Kirlian Danger (12)::
 Telekinesis, Drama (12)::
     Attract a light (<1 kg) unfastened object immediately into palm. Range = MND hexes.
 
-
 ==== Easy
 Muffle (24 + AWE)::
     Induce silence over a quiet sound. 
@@ -294,7 +293,6 @@ Multiple Attacks (24)::
 
 Kirlian Find (24 + DEX)::
     Find hidden objects or personas.
-
 
 ==== Normal
 Imbue Energy Sword (42)::
@@ -309,8 +307,24 @@ Kirlian Truth (42 + MND)::
 Mimic (42 + AWE)::
     Create benign sound to distract target.
 
+Pressure (42 + MND)::
+    Psionically incapacitate a persona with choking fear or guilt. Range = nearby.
+
+Suggestion, Spoken (42 + MND)::
+    Get persona to repeat what the knite just spoke.
 
 ==== Hard
+Disarm, Telekinesis (84 + STR)::
+    Attract an opponent's pistol or sword immediately into palm. Range = nearby. 
+
+Kirlian Defence (84 + MND)::
+    Double MND when defending against psionic intrusion via the think space. 
+
+Disarm, Energy Sword (84 + DEX)::
+    Amputate the weapon hand from an attacker in close combat. Requires strike attack roll. 
+
+Suggestion, Thought (84 + MND)::
+    Get persona to repeat what the knite just thought.
 
 ==== Tough
 Kirlian Intent (126 + MND)::
@@ -319,129 +333,22 @@ Kirlian Intent (126 + MND)::
 Reflect Incoming (126)::
     Return an energy shoot attack (lazer, plasma) with her energy sword. Raw Shoot Attack. 
 
+Deflect With Palm (126 + DMG)::
+    Deflect an energy shoot attack (lazer, plasma) with her open palm.
+
+Telekinesis, Fling (126)::
+    Turn random objects into fling attacks. 1d4 DMG per gift, no force bonus.  
+
 ==== Impossible
 Kirlian Fate (168)::
     See general fate of kirlian aura. 
-
 
 ==== Bizarre
 Imbue Talisman (210)::
     Turn a non-technological trinket or knick-knack into a Kirlian Talisman. 
 
-
-
-
-=== Suggestion
-Suggestion allows the knite to put words into the mouths of susceptible personas.
-The gift of suggestion is a transient mind control where the target will repeat and believe what they are told.
-For example, the knite may tell a bodybuilder, "these aren't the roids you're looking for," and the bodybuilder will agree and look for other roids. 
-The effect is not permanent and only works as a temporary distraction. 
-
-The player must win a task roll, and then the target must lose a saving roll before a suggestion takes.
-This gift's DD increases as the difficulty increases. 
-
-.*Suggested Suggestion DDs*
-* Spoken, native language 4DD
-* Spoken, foreign language 8DD
-* Silent, native language 12DD
-* Silent, no language 16DD
-
-=== Telekinesis
-This ability allows the knite to move objects without touching them.
-The knite can move a large object slowly or a small object quickly. 
-The knite can only inanimate objects.
-The object must both be within the range of her telekinesis and be visible to the knite.
-An object held by an unwilling persona gets a saving roll to avoid telekinesis.
-
-The range of telekinesis is one hex per point of adjusted Mind.
-The player must determine her knite's Mind wate allowance using her MND on the xref:anthros:wate_allowance.adoc[Wate Allowance Table,window=_blank].
-A persona with a 20 MND would have a 20 hex range and a 34 kg MND wate allowance.
-
-The knite's experience level determines the number of telekinetic objects the knite can move at once.
-A knite can telekinese one object for every two experience levels. 
-A 6th level knite can telekinese three objects at once. 
-
-.*Heavy and Slow*
-To slowly move a large object requires the knite's full attention.
-She can lift twice her MND wate allowance times her 'amount' in kilograms.
-A 6th level knite with a 20 MND could slowly lift  204 kgs off the ground.
-This ability's typical DD ranges from 2-12 (2d6)
-
-NOTE: Lifting a 5500 kg space fighter from a bog requires a level 30 knite with a 33 MND.
-
-.*Small and Fast*
-To quickly move small objects requires no special attention from the knite.
-She can snatch weapons from hands or hurl objects at targets while engaging in combat.
-The number of objects the knite can fling around at once is equal to one per two experience levels. 
-The total wate of the objects the knite can fling at once is equal to her wate allowance.
-A 6th level knite with a 20 MND could telekinese one object at 34 kgs, two objects at 17 kgs or three objects at 11 kgs.
-
-When hurling objects as weapons, they are an Attack Fling (non-powered ranged attack).
-The player must make a attack table for this attack where her MND replaces her STR.
-There is no Force Bonus for telekinetically hurled objects.
-If the player wins an attack roll, the attack inflicts 1-6 (1d6) hit points of damage per object. 
-This ability's typical DD ranges from 1-6 (1d6).
-
-A 6th level knite with a 20 MND could telekinese one object for 3d6, two objects at 2d6 or three objects at 1d6.
-
-.*Lifted from above*
-* Range: 1 hex per MND + Levels
-* WA: MND on WA chart
-* Amount: 1 per 3 Levels
-* Slow: 2* WA * Amount
-* Fast: Total WA or 1d6 per Amount
-
-=== Pressure 
-Pressure fills the target with overwhelming emotion.
-The knite must be within reach of the target.
-The target is incapacitated if she fails her saving roll.
-The knite must reapply the pressure every five units (10 seconds).
-A Knite using pressure will flood the target with incapacitating guilt.
-An Anti-Knites using pressure will flood the target with asphyxiating fear.
-Both versions of pressure are equally immobilizing.
-This gift's typical DD range is 1-8 (1d8).
-
-=== Kirlian Defense
-Kirlian defence allows the knite to harden her consciousness with Kirlian energy.
-The trance-like state blocks mental incursions by other knites or psionic mutations.
-While in her psionic fortress, the knite cannot use any gifts or psionic mutations.
-If the player wins a task roll against DD 4, her Kirlian defence is active.
-The persona can then block attacks by winning a saving roll.
-
-
-
-
-
-==== Deflection
-A knite can use her energy sword to deflect damaging attacks.
-If an attack roll on the knite is successful, she can opt to deflect the attack.
-The knite can deflect arrows, bullets and lazer blasts by combining parries and Kirlian energy.
-The knite cannot deflect area of effect attacks or energy attacks like electron or fusion weapons. 
-She can deflect attacks from any direction, except when ambushed.
-
-To successfully deflect an attack, the player must win a task roll.
-The DD for this ability is 1/42 of the attack roll made on her.
-So an attack roll of 840 would require the player to win a 20 DD task roll. 
-
-The knite can deflect one attack per two experience levels.
-Thus a 4th level knite could deflect two attacks per unit.
-Remember that she need only deflect those attacks that will hit her.
-
-==== Amputation
-The most devastating energy sword ability is that of amputation.
-The energy sword is capable of excising any limb that it hits.
-Amputation does not remove heads, and there is no decapitation ability.
-The target must have limbs and be small, medium or large sized.
-Tiny and gigantic personas are amputation resistant.
-
-The player must declare she is making an amputation attempt.
-The more damage the energy sword attack inflicts, the more likely the amputation chance.
-There is a 1% chance per hit point of damage.
-If there is a chance of amputation, the player must win a task roll to remove the limb.
-
-Inflicting 15 HPS in damage has a 15% chance of an amputation check.
-The knite must make a task roll against a DD equal to 1/100 of the target's Defence Rating.
-A target with a 500 AR would be a 5 DD task roll.
+Telekinesis, Massive (210)::
+    Slowly and dramatically lift something stupidly big. Like a 5000 kg vehicle. Range = nearby.
 
 === Gifts
 Knites are the only vocation that calls their gift, gifts. 
