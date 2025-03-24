@@ -1,171 +1,171 @@
-.*Driving Maneuvers and Difficulty Table*
+.*Driving Maneuvers Difficulty Table*
 [width="75%",cols="<,<,^",frame="all", stripes="even"]
 |===
 3+<|Degree of Difficulty of typical driving maneuvers.
-3+<|Don't forget the penalties!
+3+<|Don't forget the speed adjustment (speed - DEX)!
 
 2+^s|MANEUVERS
-^s|DD
+^s|Difficulty
 
 s|Straight Ahead
 |
-|0
+|12
 
 s|Drifting
 |
-|Turning +1 per hex distance
+|42
 
 2+<s|Turning, avoiding, swerving
-^s|DD
+^s|Difficulty
 
 |
 |1 facet point or 30^o^
-|2
+|12
 
 |
 |1 facet or 60^o^	
-|3
+|24
 
 |
 |2 facet points or 90^o^	
-|4
+|42
 
 |
 |2 facets or 120^o^	
-|7
+|84
 
 |
 |3 facet points or 150^o^	
-|10
+|126
 
 |
 |3 facets or 180^o^	
-|13
+|168
 
 2+<s|Parking
-^s|DD
+^s|Difficulty
 
 |
 |Drive in	
-|0
+|12
 
 |
 |Back in	
-|1
+|18
 
 |
 |Parallel	
-|2
+|210
 
 |
 |Drift in	
-|6
+|84
 
 |
 |Land in	
-|10
+|126
 
 |
 |Flying	in
-|6
+|168
 
 
 2+<s|Jumping
-^s|DD
+^s|Difficulty
 
 |
 |Straight	
-|3 per hex
+|32 per hex
 
 |
 |Corkscrew	
-|20
+|168
 
 |
 |End over	
-|25
+|210
 
 
 
 s|Side walling
 |
-|15
+|126
 
 s|Dead Stop	
 |
-|5
+|24
 
 2+^s|PENALTIES
-^s|DD
+^s|Adjustment
 
 s|Speed
-|h/u - DEX
-|+1 DD per 10 h/u
+|h/u - DEX - Handling
+|+1 per h/u
 
 2+<s|Fog, Smoke, Gas
-^s|DD
+^s|Adjustment
 
 |
 |Normal
-|+3
+|+12
 
 |
 |Dense
-|+5
+|+24
 
 
 |
 |Opaque
-|+7
+|+42
 
 2+<s|Darkness
-^s|DD
+^s|Adjustment
 
 |
 |Moonlit
-|+3
+|+12
 
 |
 |Starlit
-|+5
+|+24
 
 
 |
 |Void
-|+7
+|+42
 
 
 2+<s|Snow, sand storm
-^s|DD
+^s|Adjustment
 
 |
 |Normal
-|+3
+|+12
 
 |
 |Heavy
-|+5
+|+24
 
 
 |
 |Blizzard
-|+7
+|+42
 
 2+<s|Rain, hail storm
-^s|DD
+^s|Adjustment
 
 |
 |Normal
-|+2
+|+12
 
 |
 |Heavy
-|+3
+|+24
 
 
 |
 |Monsoon
-|+4
+|+42
 
 s|Harsh Snark	
 |
