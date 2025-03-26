@@ -53,7 +53,7 @@ A player persona robot can run away, immobilize attackers, or even fight back if
 :description: Angry janitorial robot waving a broom at a human who messed up the floor.
 include::ROOT:partial$articulate.adoc[]
 
-== Priority Commands
+== Robotic Commands
 Priority commands are specialized attacks made by mechanics with robot skills.
 Strangely worded commands can *immobilize a robot* by creating logical dilemmas within its reasoning circuitry.
 Priority commands are the robot's version of a mental attack on the robot's circuitry.
@@ -66,11 +66,11 @@ The referee and the players negotiate the effect of the priority command.
 include::robots:partial$malfunction_location.adoc[]
 
 The higher the robot's control factor, the more difficult it is for a priority command to be successful.
-The Degree of Difficulty (DD) of such a priority command is equal to the robot's CF. 
+The Difficulty (DD) of a priority command is 128 plus the robot's CF. 
 Referees will often have priority commands prepared for their robot referee personas.
 Scenario-related priority commands can come along with clues found in the milieu of the game.
 
-== Robot Overrides
+== Robot Override
 Robotic overrides are specialized attacks made by mechanics with robot skills.
 Robotic overrides can involve strangely worded commands, and mechanical interventions may allow the mechanic to *control the robot*.
 There are even specialized artifacts that assist robot override. 
@@ -80,7 +80,7 @@ Successful robot override turns temporarily turns control of the robot over to t
 A robotic override would be devastating to a player persona robot.
 Control lasts 1-100 minutes (1d100).
 The override can end abruptly, freeing the robot to exact revenge. 
-The minimum Task Roll DD (degree of difficulty) should be 2 DD per point of Control Factor. 
+The robotic override difficulty  is 168 plus the robot's Control Factor. 
 
 Robotic overrides on powerful plot-related robots may require missions to acquire the needed tech and knowledge.
 

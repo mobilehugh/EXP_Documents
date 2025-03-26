@@ -276,11 +276,8 @@ The remaining 25% of the time, the biorganic replacement will be a luxury unit t
 The self-inserting unit still requires a veterinarian, but success is guaranteed and requires no special operating theatre.
 The value of a luxury self-inserting is ten times that of the basic unit.
 
-Stacking biorganic replacements is dangerous and leads to bad outcomes.
-Stacking a biorganic replacement always requires a veterinarian and likely an entire research team.
-The degree of difficulty for stacking is 12 per level. 
-So 12DD the first time and 24DD the second time.
-Failure results in an attribute penalty equal to the attribute bonus.  
+For veterinarians to attach a biorganic attachment is a tough (126) task roll. 
+This number may improve for higher tech level attachments. 
 
 include::hardware:partial$biorganic_replacements.adoc[]
 
@@ -556,52 +553,58 @@ Any procedure failure, like a power failure, interruption by combat, or a failed
 The adverse effects of Cerebro conversion are drastic.
 If properly exploited by the referee can translate into an endless source of fun.
 
-.*Success Checklist*
-. Donation Roll
+.*Failure Checkpoints*
+. Receiver Rejection
 . Task Roll
 . Malfunction Roll
 
-==== Donation Roll
-The donor consciousness is transferring into the receiver's brain. 
-The receiver brain consciousness is fighting for its existence.
+==== Receiver Rejection
+The donor consciousness is being forced into the receiver's brain. 
+The receiver consciousness is fighting for its existence.
 The more powerful the receiver's consciousness, the more difficult it is to wipe.
-If there is a donation failure, the veterinarian must still make her task roll.
+It is possible that receiver consciousness may be too powerful to be cerebro converted.
 
-==== Chance of Donation Success
-.(INT + MND of donor) / (INT + MND + LVL receiver)
+Receiver rejection is a modified attribute challenge that the donor consciousness must win.
+
+==== Overcoming Rejection
+.Donor (INT + MND + 1d20) > Receiver (INT + MND + LVL)
 ****
-Chance = (9 INT + 6 MND) / (9 INT + 9 MND + LVL 3) +
-Chance = (9 + 6) / (9 + 9 + 3) = 15 / 21 = 71%
+Donor with 10 INT and 10 MND versus 5th level receiver with 10 INT and 10 MND +
+Donor must roll 5 or higher on the 1d20 or the conversion fails. 
 ****
 
 ==== Task Roll
-For the cerebral conversion to be a success,  a vet must also win a task roll.
-If the donation is successful, the vet can still mess up the procedure.
+For the cerebral conversion to be a success,  a vet must win a task roll.
+A cerebro converter can assist any veterinarian in other cerebral task rolls.
+The cerebro converter may be used to remove a bad memory, or insert a piece of knowledge. 
 It is strongly recommended to build a xref:uncombat:task_rolls.adoc#_research_teams[Research Team,window=_blank] when using a cerebro converter.
 
-The difficulty of the task roll depends on the tech level of the cerebro converter and the type of donation the vet is doing.
+The difficulty of the task roll depends the type of cerebro conversion the vet is doing.
 A typical cerebro converter will be tech level ten.
-Transferring a donor to another anthro is 25DD, and transferring a donor into storage (organic or inorganic) is 30DD.
-Higher tech level cerebro converters decrease the degree of difficulty and allow for more elaborate conversions. 
+Transferring a donor to another anthro is tough difficulty (126), and unethical.
+Transferring a donor into storage (organic or inorganic) is impossible difficulty (168).
+
+.*Tech Level Converter Bonus*
+* TL < 10: +30
+* TL 10 - 19: +40 to +49 (20 + TL) 
+* TL 20 - 25: +70 to +80 (20 + TL + TL
 
 ==== Malfunction Roll
 The cerebro converter has a chance of breaking down under the duress of a conversion.
-The chance of machine failure and damage is 1/2% per DD of maneuver.
-So if the degree of difficulty is 20, there is a 10% chance of machine malfunction.
-If there is a mechanic on the research team, she can prevent malfunction by winning a task roll set to the conversion's DD.
+The chance of machine failure and damage is 1% and if the player rolls 42 on a 1d100 the converter has suffered a malfunction
 Jump to xref:combat:equipment_damage.adoc#_extent[Equipment Damage,window=_blank]. 
 If the machine suffers critical damage or is destroyed, the conversion is a failure.
 
 ==== Failures 
-A cerebro conversion failure can lead to side effects like insanity and death.
+A cerebro conversion failure can lead to adverse effects like insanity and death.
 A failure at any step (donation, task or malfunction) prevents conversion.
-A conversion failure may result in a side effect. 
+A conversion failure may result in a adverse effect. 
 
-If the donation fails, the veterinarian must win her task roll to prevent a side effect.
-If the machine malfunctions, the mechanic must win her task roll to prevent a side effect.
+If the donation fails, the veterinarian must win her task roll to prevent a adverse effect.
+If the machine malfunctions, the mechanic must win her task roll to prevent a adverse effect.
 
-If the donation was successful, but the vet lost her task roll, there is no side effect.
-If the donation was successful, but there was a machine malfunction, there is a side effect.
+If the donation was successful, but the vet lost her task roll, there is no adverse effect.
+If the donation was successful, but there was a machine malfunction, there is a adverse effect.
 
 include::hardware:partial$cerebro_converter_side_effects.adoc[]
 
@@ -616,7 +619,7 @@ Confluence is an excellent story propelling tool.
 Death::
 Death by cerebro converter is the result of wiping too much from the receiver brain or storage medium.
 The consciousness converts into a  dead body and is lost. 
-Death is the most dangerous possible side effect of the cerebro converter.
+Death is the most dangerous possible adverse effect of the cerebro converter.
 The player of the donor consciousness gets a saving roll versus a mental attack or dies.
 The intensity of the mental attack is equal to the DD of the maneuver.
 If the player fails her saving roll, the cerebro converter creates one vegetative husk and one lifeless husk.
@@ -638,16 +641,6 @@ Psionic Mutation::
 The cerebro conversion fails, and both personas suffer a defective psionic mutation.
 The persona must win a mental attack roll or suffer a xref:wetware:psionics.adoc#_defective_mutations[Defective Psionic Mutation,window=_blank].
 The intensity of the mental attack is the same as the DD of the maneuver.
-
-==== Less Failure Through Science
-The higher the tech level of the cerebro converter, the more dependable the artifact's function.
-The lower the converter's wate, the higher its tech level.
-The impacts of tech level on artifacts is cover in xref:hardware:tech_level.adoc[Tech Level,window=_blank].
-
-A typical cerebro converter will be tech level ten.
-Transferring a donor to another anthro is 25DD, and transferring a donor into storage (organic or inorganic) is 30DD.
-
-include::hardware:partial$cerebro_converter_tech_level.adoc[]
 
 === Cloning Equipment 
 
@@ -675,6 +668,9 @@ To copy a consciousness into a clone requires a <<_cerebro_converter,cerebro con
 . Task Roll
 . Malfunction Roll
 
+There are references to the tech level of the cloning equipment. 
+Any tech level less than 10 is low tech, and any tech level greater than 15 is high tech. 
+
 ==== Sample Size
 The more advanced the cloning equipment, the less of a sample is needed.
 A low-tech cloning machine needs to have a living body present for the entire process.
@@ -684,25 +680,36 @@ The typical cloning machine is tech level ten and needs a living copy for a samp
 Cloning cannot proceed unless the necessary sample size is available.
 
 ==== Task Roll
-For cloning to be a success,  a vet must win a task roll.
-The difficulty of the task roll depends on the tech level of the cloning equipment.
-Typically cloning equipment is tech level ten, and cloning is a 20DD maneuver.
-Higher tech level cloning equipment decreases the degree of difficulty of cloning. 
+For cloning to be a success, the player must win a task roll.
+The biologist has a cloning skill with a bizarre difficulty of 210.
+When using cloning equipment the player gets a bonus that depends it's tech level.
+Low tech cloning equipment (TL < 10) can only add the stated +20 to the roll.
+Better than low tech cloning equipment (TL > 9) can add their tech level to roll as well.
+If the tech level is greater than 19 the tech level can be added twice to roll 
+
+.*Tech Level Cloning Bonus*
+* TL < 10: +20
+* TL 10 - 19: +30 to +39 (20 + TL) 
+* TL 20 - 25: +60 to +70 (20 + TL + TL)
+
 It is strongly recommended to build a xref:uncombat:task_rolls.adoc#_research_teams[Research Team,window=_blank] when using cloning equipment.
 
 ==== Cloning Duration
-The cloning process takes one day per degree of difficulty.
-For example, a 20 DD clone takes 20 days to brew.
-Brewing a clone has a biblical minimum of seven days.
-Speeding up the cloning process increases the chance of failure.
-Each day that the clone brewing is sped up increases the DD by one.
-Speeding up a 20 day clone brew to a ten-day clone brew creates a 30DD maneuver.
+The cloning process takes less time the higher the tech level.
+Low tech cloning may take months to brew up a clone.
+Normal tech (TL 10 - 15) takes weeks to complete the clone.
+Super high tech cloning may take days. 
+Formerly there was a terran biblical minimum of 7 days to make a clone.
+
+Artificially speeding up the cloning process increases the chance of failure.
+If the players want to speed clone they can transfer the bonus for speed. 
+So the time to clone can be halved if they half their cloning equipment bonus. 
+
 
 ==== Malfunction Roll
 The cloning equipment has a chance of breaking down under the complex process of cloning.
-The chance of machine failure is 1% per DD of maneuver.
-So if the degree of difficulty is 20, there is a 20% chance of machine malfunction.
-If there is a mechanic on the research team, she can prevent malfunction by winning a task roll set to the conversion's DD.
+The chance of machine failure is 1%.
+If the player rolls a 42 on 1d100 the cloning equipment has malfunctioned.
 Jump to xref:combat:equipment_damage.adoc#_extent[Equipment Damage,window=_blank]. 
 If the machine suffers major damage or worse, the cloning is a failure.
 
@@ -1041,16 +1048,12 @@ The data can be printed out or screened out depending on the milieu.
 A pharma analyzer will store a molecular copy of the sample, allowing for future reproduction of the analyzed pharma.
 A pharma analyzer does not fabricate pharma.
 
-The degree of difficulty for the task roll depends on the tech level of the pharma analyzer.
-Successful interpretation requires a vet task roll win.
-It is strongly recommended to build a xref:uncombat:task_rolls.adoc#_research_teams[Research Team,window=_blank] when using analyzing pharma.
+The bonus offered on task rolls increases with the tech level of the pharma analyzer.
 
-[discrete]
-=== Pharma analysis Degree of Difficulty
-.DD = 42 - Analyzer Tech Level
-****
-DD = 42 - Tech level 10 = 42 - 10 = 32
-****
+.*Tech Level Pharma Bonus*
+* TL < 10: +20
+* TL 10 - 19: +30 to +39 (20 + TL) 
+* TL 20 - 25: +60 to +70 (20 + TL + TL)
 
 The time taken to analyze a sample is story-related. 
 Ideally, the duration of the analysis will be the most exciting duration possible.
@@ -1211,7 +1214,8 @@ Value:: 210000042
 The rejuv chamber is a technomagical device that repairs damaged organic personas.
 A rejuv chamber is the classic sciency fiction fluid-filled tank where the injured are submerged to heal. 
 This artifact does *not* restore life to the dead and does *not* grow back missing limbs.
-A deceased persona will only clog up a rejuv chamber. 
+A deceased persona will only clog up a rejuv chamber.
+
 The rejuv will remove bullets, replace burned skin, set bones, excise tumours, drain swellings, trephine a skull, fix blood chemistry, filter toxins, and groom the patient's hair, nails and skin.
 After a stint in a rejuv chamber, the patient will feel refreshed, clean, and alive.
 Some personas use the device as a personal groomer.
@@ -1224,30 +1228,26 @@ The rejuv chamber cannot repair INT, MND or HPM.
 If an attribute drops below one (except CHA and HPS Total), the persona is irrevocably dead.
 
 To have a safe rejuv chamber experience, the vet must win a task roll.
-The degree of difficulty of the maneuver is 1 DD per point of rejuvenation.
-So repairing 10 HPS would be a 10 DD maneuver, and fixing 1 STR point is a 1DD maneuver. 
-xref:uncombat:task_rolls.adoc#_research_teams[Research Teams,window=_blank] are recommended when running a rejuv chamber.
+The difficulty of the task roll is determined by the skill being attempted. 
+The rejuv chamber will make the likelihood of success much higher. 
 
-Vet failure will result in the removal of one point from one attribute to repair another. 
-The rejuv chamber robs Peter to pay Paul. 
-Instead of growing fresh tissue, the chamber moves tissue around instead.
-A failure by the research team leads to the persona loses an attribute to undertake the rejuvenation.
+.*Tech Level Rejuv Chamber Bonus*
+* TL < 10: +42
+* TL 10 - 19: +52 to +61 (20 + TL) 
+* TL 20 - 25: +82 to +92 (20 + TL + TL)
 
-If the vet loses her 20 DD task roll, the patient loses 1 point off a random attribute and returns to full health. 
-Regardless of what requires rejuvenation, the patient only loses on attribute point.
+If the player fails the task roll the rejuv chamber will forge ahead and complete the task. 
+The device moves flesh around instead of creating new tissue; essentially robbing Peter to pay Paul. 
+Essentially any persona can use a rejuv chamber but there is an attribute cost to do so. 
 The attribute reduced is randomly determined.
 
 include::hardware:partial$rejuv_chamber_attribute_cost.adoc[]
 
-Only treatments that need point restoration can harm the patient.
+Only treatments that require the restoration of points (HPS, attributes) will eat an attribute.
 Treating parasites, diseases, poisons, tumours, and pharma side effects will not damage the persona.
 At full health, a persona can get a fabulous manicure and hair doo without risk.
 
-Treatment duration depends on what requires rejuvenation. 
-A patient healing 20 HPS would require 20 hours in the machine.
-A patient undergoing an 8DD maneuver would require 8 hours in the machine.
-Vets can speed up the process by increasing the degree of difficulty of the maneuver.
-The rejuv chamber does not work like a stasis bag and ejects personas when the treatment finishes. 
+Treatment duration depends on what helps the story best. 
 
 === Respirator 
 
