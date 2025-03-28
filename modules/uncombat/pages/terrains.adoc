@@ -153,9 +153,11 @@ Aerosols are unaffected by changes in gravity.
 
 === Tasks
 Task Rolls are impacted based on the level of encumbrance the persona suffers.
-Task Rolls for maneuvers unaffected by gravity suffer no penalty. 
+Task Rolls unaffected by gravity, like thinking or answering a question, suffer no penalty. 
 Purely mental processes are affected the least. 
 Highly dextrous processes are affected the most.
+
+The encumbrance suffered by the persona's own wate is used used a gravity penalty stand in.
 
 include::uncombat:partial$encumbrance_and_tasks.adoc[]
 
@@ -752,10 +754,10 @@ A specialized underwater grenade launcher (torpedo) can deliver grenades.
 Aerosols do not work underwater unless described to do so. 
 
 === Tasks
-Water has a dampening effect on maneuvers.
+Water has a dampening effect on tasks.
 Touch is hampered, vision is affected, and smell and taste are useless.
 The persona must also deal with equipment that wants to float away, sink, or dissolve.
-There is a +7DD penalty when attempting maneuvers underwater.
+There is a +20 penalty when attempting task rolls underwater.
 Aquatic life forms (aquarian anthros and aquatic aliens) do not suffer this penalty.
 
 === Drowning

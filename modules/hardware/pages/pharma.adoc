@@ -24,6 +24,10 @@ A prescription will typically have a negligible wate.
 . <<_side_effects,Toxicity>>
 . <<_parameters,Parameters>>
 
+image::ROOT:image$:acceleration.png[]
+
+
+
 == Generate Type
 
 include::hardware:partial$list_of_pharma.adoc[]
@@ -231,7 +235,7 @@ Value is 50000 per dose.
 Mutation::
 This cure removes the patient's most recent mutation. 
 The cure does not discriminate and removes beneficial and defective mutations.
-A veterinarian 20DD maneuver is needed for the mutation cure to remove a particular mutation.
+A veterinarian must win a normal (42) difficulty task roll to remove a specific mutation.
 Value is 1000000 per dose.
 
 Psionics::
@@ -246,7 +250,7 @@ A rad cure removes any ongoing effects of radiation from the persona.
 If taken early enough, the cure can avoid damage from radiation as well.
 How early is early enough? 
 The persona would have to know that radiation damage is imminent. 
-A veterinarian can use this cure to prevent radiation damage with a successful 15DD maneuver per dose.
+A veterinarian that wins a normal (42) task roll can reverse all radiation effects with this pharma.
 Value is 50000 per dose.
 
 Thermal::
@@ -270,11 +274,11 @@ The trauma cure has no impact on the patient's hit point max (HPM).
 Value is 250000 per dose.
 
 Ubiquitous::
-The ubiquitous cure is programable by a veterinarian to cure what ails the persona. 
+The ubiquitous cure is programmable by a veterinarian to cure whatever ails the patient. 
 The vet and persona can choose whatever they would like cured with this generic cure.
-The vet must win a 10 DD maneuver roll.
-More difficult cures like curing a defective mutation or a mental illness would increase the DD.
-If a pharmacologic impasse arises the players should consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank].
+Physical, or phenomic, ailments are normal (42) difficulty. 
+A psionic or psychological ailment is hard (84) difficulty.
+If a pharmacologic impasse arises the players  should consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank].
 Value is 4200042 per dose.
 
 
@@ -475,7 +479,7 @@ A persona can only have one controllable vestigial limb.
 include::combat:partial$hit_location_snap.adoc[]
 
 A vet can dial in the misuse of this pharma to get desired parts.
-This would be a 42DD maneuver and a xref:uncombat:task_rolls.adoc#_research_teams[Research Teams] is recommended.
+This would be a tough (126 + toxicity) task roll and a xref:uncombat:task_rolls.adoc#_research_teams[Research Team] is recommended.
 
 === Transgenic 
 

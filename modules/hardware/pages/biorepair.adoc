@@ -266,18 +266,20 @@ EXPS:: 960
 Value:: Special
 
 A biorganic replacement is a self-inserting organ in a bag. 
-The organs can come from tissue culture vats, harvested from clones or criminals, or alien life forms.
+The organs can come from tissue culture vats, harvested from clones, criminals, or alien life forms.
 The biorganic replacement can enhance an existing system or replace an ailing one.
 The new organs possess new and bizarre features, almost always strengthening the persona.
 
-75% of the time, the biorganic replacement will be a basic unit requiring surgical insertion by a veterinarian.
-Correctly inserting this attachment is an 8DD maneuver and requires a surgical theatre and anesthesia.
-The remaining 25% of the time, the biorganic replacement will be a luxury unit that is self-inserting.
-The self-inserting unit still requires a veterinarian, but success is guaranteed and requires no special operating theatre.
-The value of a luxury self-inserting is ten times that of the basic unit.
+Typically, the biorganic replacement will be a basic unit requiring surgical insertion by a veterinarian.
+Inserting a basic replacement is a tough (126) difficulty task and may require a surgical theatre.
 
-For veterinarians to attach a biorganic attachment is a tough (126) task roll. 
-This number may improve for higher tech level attachments. 
+25% of the time, the biorganic replacement will be a luxury unit that is self-inserting.
+The luxury unit still requires a veterinarian, but success is guaranteed and requires not operating theatre.
+The value of a biorganic replacement is ten times that of a basic unit.
+
+The tech level of a biorganic replacement improves the likelihood of insertion and luxuriousness.
+The referee may add the tech level to the chance that the replacement is a luxury unit.
+The player may add the tech level of the replacement to her 
 
 include::hardware:partial$biorganic_replacements.adoc[]
 
@@ -545,7 +547,7 @@ There is a new INT, MND, personality, memories, vocation and EXPS in the new bra
 
 IMPORTANT: *These actions are both ethically dubious and medically dangerous.*
 
-Cerebro conversion is a dangerous maneuver for the personas, players and the referee.
+Cerebro conversion is a dangerous procedure for the personas, players and the referee.
 For the personas, there is a high chance of death, insanity, and mental loss.
 The users must be aware that the cerebro converter is indiscriminate, and all knowledge (family life, loves, hates, gossip) transfers into the receiving brain.
 
@@ -882,7 +884,7 @@ include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
 Duration:: Power Source
-Bonuses:: +30 on all vet maneuvers
+Bonuses:: +30 on all vet task rolls
 Wate:: 55kg
 EXPS:: 3000
 Value:: 950000
@@ -1032,7 +1034,7 @@ The neuro cap will also block any psionic mutation that the persona attempts to 
 
 [horizontal]
 Duration:: 20 analyses per Battery
-Bonuses:: +25 on pharmacologic maneuvers
+Bonuses:: +25 on pharma task rolls
 Wate:: 10kg + Battery
 EXPS:: 250
 Value:: 50000
@@ -1085,9 +1087,10 @@ To add a new prescription requires a pharma analyzer or a veterinarian.
 
 Successful fabrication of a pharma does not require a veterinarian.
 However, a veterinarian's input decreases the chance of adverse effects.
-
+The preventing adverse effects has a difficulty equal to the chance of an adverse effect.
+For example, fabricating an altergenic without adverse effect would be difficulty 42.
 xref:uncombat:task_rolls.adoc#_research_teams[Research Teams] may be required for fancy rare medications.
-The difficulty of the maneuver depends on the chance of adverse effects.
+
 
 ==== Existing Prescriptions
 A pharma box may come with some existing prescriptions that it is ready to fabricate.
@@ -1096,6 +1099,10 @@ There will be 1-10 (1d10) doses of each pharma type.
 
 include::hardware:partial$pharma_box_scripts.adoc[]
 
+==== Duration
+Fabricating a pharma takes 1-8 (1d8) hours per dose.
+Ideally, the duration of the fabrication will be the most exciting duration possible.
+
 ==== A Nice Pairing
 There is a slight chance that a pharma box will have a <<_pharma_analyzer,Pharma Analyzer>> built-in.
 The chance of this nice pairing is 1% per tech level of pharma box
@@ -1103,9 +1110,7 @@ A tech level 12 pharma box has a 12% of being combined with a pharma analyzer.
 The pharma analyzer increases the wate and value of the pharma box.
 The multi-tool will come with *no* existing prescriptions if the pharma box and pharma analyzer are combined.
 
-==== Duration
-Fabricating a pharma takes 1-8 (1d8) hours per dose.
-Ideally, the duration of the fabrication will be the most exciting duration possible.
+
 
 === Phenotype Detector
 
@@ -1417,7 +1422,7 @@ EXPS:: 100
 Value:: 215
 
 The vedi kit (veterinarian medical kit) is a disposable single-use tool kit for making quick fixes.
-The quick fix is a temporary healing maneuver best done by veterinarians.
+The quick fix is a temporary healing skill best done by veterinarians.
 The kit contains bioelectric painkillers, tissue adhesives, cutting acids, spray-on bandages, and fur remover.
 For sanity reasons, vedi kits melt into useless blobs after use.
 Vedi kits are also called medi kits, med packs, vedi kits and first aid kits.
@@ -1472,9 +1477,9 @@ Value:: 500000
 
 The vedical kit (veterinarian medical kit)combines a simple diagnostic computer and a pile of medical supplies.
 The vedical kit is not an autonomous device but assists any persona in making quick fixes.
-The quick fix is a temporary healing maneuver best done by veterinarians.
+The quick fix is a temporary healing skill  best done by veterinarians.
 Other persona vocations can use a vedical kit, but they can only do quick fixes and get no bonuses.
-Vets enjoy a +42 bonus on any acute care maneuvers (quick fixes, poison cures, etc.).
+Vets enjoy a +42 bonus on any acute care task rolls (quick fixes, poison cures, etc.).
 The diagnostic computer runs out of power, and the stores run out of materials after 42 uses.
 Recharging a medical kit is left to the improvisational talents of the referee.
 
