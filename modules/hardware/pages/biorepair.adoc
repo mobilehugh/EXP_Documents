@@ -133,9 +133,8 @@ Psionic mutations stop working.
 
 Veterinarians can manipulate the beam for more exact effects.
 For example, removing one mutation while preserving another is a veterinarian manoeuver.
-Working around a phenomic mutation is a 3DD maneuver, and a
-psionic mutation is a 10DD maneuver.
-If a vet wanted to eliminate a mutant's pus-producing organ while retaining her symbiotic attachment, the player must win a 13DD task roll.
+Working around a phenomic mutation is a normal (42) task, and working around a psionic mutation is a tough (126) task.
+If a vet wanted to eliminate a mutant's pus-producing organ while retaining her symbiotic attachment, the player must win a normal (42) task roll.
 
 === Anti Virus Beam 
 
@@ -222,7 +221,7 @@ include::hardware:partial$biorganic_attachments.adoc[]
 
 Basic Unit::
 The basic unit requires a veterinarian for attachment.
-Attaching a basic unit is a DD4 maneuver.
+Attaching a basic unit is a hard (100) task.
 Reasons for failure could be sizing, anthro type or technique.
 If there is any questions about limb sizing or matching consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank].
 This attachment only works for anthro arms or legs.
@@ -620,11 +619,11 @@ Confluence is an excellent story propelling tool.
 
 Death::
 Death by cerebro converter is the result of wiping too much from the receiver brain or storage medium.
-The consciousness converts into a  dead body and is lost. 
+The consciousness converts into a dead body and is lost. 
 Death is the most dangerous possible adverse effect of the cerebro converter.
-The player of the donor consciousness gets a saving roll versus a mental attack or dies.
-The intensity of the mental attack is equal to the DD of the maneuver.
-If the player fails her saving roll, the cerebro converter creates one vegetative husk and one lifeless husk.
+The player of the donor consciousness must win against a mind attack of 42 or die.
+The competency of the veterinarian can be subtracted from the target roll, however the challenge cannot be less than 12. 
+If the player fails the roll, the cerebro converter creates one vegetative husk and one lifeless husk.
 
 Irrationality::
 The conversion is a failure, and both consciousnesses now have an irrational personality trait.
@@ -635,14 +634,17 @@ Mind Blank::
 The conversion is a failure, and both consciousnesses are at risk of mind blanking.
 Mind blanking removes all memories, skills and EXPS.
 The blanking most often afflicts brains, but robots, AIs and storage mediums can suffer blanking.
-Each consciousness must win a mental attack roll against the DD of the conversion or lose all EXPS and skills.
-If a player persona suffers mind blanking, the referee will usually have the fugue last for a specific amount of time.
+The player of the donor consciousness must win against a mind attack of 42 or be mind wiped
+The competency of the veterinarian can be subtracted from the target roll, however the challenge cannot be less than 12. 
 Memories slowly returning is an excellent opportunity for some storytelling.
 
 Psionic Mutation:: 
 The cerebro conversion fails, and both personas suffer a defective psionic mutation.
-The persona must win a mental attack roll or suffer a xref:wetware:psionics.adoc#_defective_mutations[Defective Psionic Mutation,window=_blank].
-The intensity of the mental attack is the same as the DD of the maneuver.
+The must roll against a mind attack of 42 or suffer a xref:wetware:psionics.adoc#_defective_mutations[Defective Psionic Mutation,window=_blank].
+The competency of the veterinarian can be subtracted from the target roll, however the challenge cannot be less than 12. 
+A more generous referee will allow the player to roll a psionic (no defective) mutation for her persona. 
+Abuse of this malfunction will eventually lead to psionic defects.
+
 
 === Cloning Equipment 
 
@@ -914,7 +916,9 @@ For instance, a vet must reattach an amputated limb before restoration.
 
 To properly operate the life ray requires a successful task roll.
 The difficulty is 1 DD per hour since the death. 
-For example, a patient that has been dead for 6 hours would be a DD6 maneuver.
+A patient that has been dead for 6 hours would have to beat a 6 DD task roll.
+Each day is another 24 DD for the task roll. 
+Clearly personas that have been long deceased cannot be resurrected with the life ray. 
 
 The life ray is not a healing device. 
 The persona will be restored to zero HPS and regain consciousness.
@@ -1179,7 +1183,7 @@ An antidote doubles the persona's Constitution for poison saving rolls.
 An antidote or treatment has no effect if the persona is already dead.
 
 Reconfiguring a poison box to make poison is very hard and quite likely will destroy the machine.
-Creating a poison box would require a research team and is at least a 42DD maneuver. 
+Creating a poison box would require a research team and is normal (24) difficulty task roll. 
 A failed attempt at reconfiguring a poison box for nefarious purposes would permanently damage the device.
 
 === Psionic Box 
@@ -1199,11 +1203,13 @@ The veterinarian can use the psionic box to probe the local area for a psionic a
 For instance, a veterinarian could use the psionic box to eavesdrop on telepathic conversations or generate simplistic psionic signals.
 
 Attaching the psionic box to a mutant's scalp can deduce a psionic mutation's effects.
-The psionic box would reveal the ability to manipulate time and not a diagnosis called Time Stop.
-The mutant can defend against the intrusion by winning a mental attack of intensity 4-24 (4d6).
-The level of the veterinarian making the assessment is added to the intensity, increasing her chances of success.
+The psionic box would reveal the ability to manipulate time, and not a diagnosis called Time Stop.
+The mutant can defend against the intrusion by winning a mind roll against the competency of the veterinarian.
 The probing takes 1 to 100 units of melodramatic agony.
-If the mutant fails their saving roll, the veterinarian must win a 12DD to detect the mutation type (16DD for biologists).
+If the mutant fails their mind roll, the veterinarian must still win a task roll.
+To detect psionic mutations is easy (24) difficulty.
+To diagnose a psionic mutation is hard (84) difficulty. 
+A biologist can use this device as well, but suffers a +20 increase in the difficulty score. 
 The psionic box can combine with a Cerebro converter to search the target's mind like a https://en.wikipedia.org/wiki/Rolodex[roll-a-dex].
 
 
@@ -1339,7 +1345,7 @@ A stasis bag requires an atmosphere and a temperature between -80°C and +80°C.
 The bag does not work exatmo.
 
 A vet, biologist or mechanic must properly open a stasis bag.
-The player must win a 5 DD task roll of the contents rapidly spoil. 
+The player must win an easy (24) task roll or the contents rapidly spoil. 
 Spoiled contents are dead and suffer accelerated aromatic decomposition.
 Failure when opening a stasis bag from long-term storage can lead to explosive spoiling.
 Explosive spoiling does not inflict damage but results in a grenade of grossness.
