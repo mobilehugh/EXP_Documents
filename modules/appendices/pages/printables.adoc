@@ -14,7 +14,6 @@ ____
 :description: Square robot on tracks. Many frantic arms each holding a sheet of paper.
 include::ROOT:partial$articulate.adoc[]
 
-== Introduction
 EXP is a table top sciency fiction role playing game.
 Printables is the section where you can get the files for printing the necessary stuff to play.
 If you are feeling old school you can snag a copy of EXP v4. 
@@ -32,80 +31,63 @@ Download, print and play.
 We don't need to kill a tree.
 Try the open source PDF tool https://xournalpp.github.io/[Xournal, window="_blank"].
 
-.*Persona Records*
-[width="85%",cols="<2,<3",frame="all", stripes="even"]
+.*Latest PDFs*
+[width="90%",cols="<2,<3",frame="all", stripes="even"]
 |===
-2+<|PDF record sheets. A way to record personas, toys and less.
+2+<|Latest files to assist live tabletop play.
 
-s|Printable
-s|Comment
 
 2+^|Player Persona Records
 
-|xref:ROOT:attachment$anthro_record_2025_0114.pdf[anthro_record_2025_0114.pdf, window="_blank"]
-|Latest PDF for Anthro persona record
+s|Download
+s|Comment
 
-|xref:ROOT:attachment$alien_record_2025_0114.pdf[alien_record_2025_0114.pdf, window="_blank"]
-|Latest PDF for Alien persona record
+|xref:ROOT:attachment$anthro_record_2025_0408.pdf[Anthro Record, window="_blank"]
+|PDF, letter sized, portrait
 
-|xref:ROOT:attachment$robot_record_2025_0114.pdf[robot_record_2025_0114.pdf, window="_blank"]
-|Latest PDF for Robot persona record
+|xref:ROOT:attachment$anthro_record_land_2025_0408.pdf[Anthro Record Landscape, window="_blank"]
+|PDF, letter sized, landscape (hard to make :o)
 
-2+^|Support PDFs
+|xref:ROOT:attachment$alien_record_2025_0408.pdf[Alien Record, window="_blank"]
+|PDF, letter sized, portrait
 
-|xref:ROOT:attachment$campaign_helper_2025_0114.pdf[campaign_helper_2025_0114.pdf, window="_blank"]
-|PDF page for note taking
+|xref:ROOT:attachment$robot_record_2025_0408.pdf[Robot Record, window="_blank"]
+|PDF, letter sized, portrait
 
-|xref:ROOT:attachment$toy_tracker_2025_0114.pdf[toy_tracker_2025_0114.pdf, window="_blank"]
-|PDF page for equipment and toys
+2+^|Other Records
 
-|xref:ROOT:attachment$role_playing_one_pager_v7.pdf[4d2_mechanic_v70.pdf, window="_blank"]
-|One pager for 4D2 Roll Playing system
+|xref:ROOT:attachment$spacer_record_2025_0401.pdf[Spacecraft Record, window="_blank"]
+|Spacecraft details, PDF, letter sized, portrait
 
+|xref:ROOT:attachment$note_sheet_2025_0408.pdf[Note Taking Sheet, window="_blank"]
+|Sheets for stories, PDF, letter sized, portrait
 
-s|Printable
+|xref:ROOT:attachment$toy_sheet_2025_0408.pdf[Toy Info Sheet, window="_blank"]
+|Sheets for toys, PDF, letter sized, portrait
+
+|xref:ROOT:attachment$role_playing_one_pager_v7.pdf[Role Playing Game (one pager), window="_blank"]
+|Role Playing system, PDF, letter sized, portrait
+
+2+^|Build your own
+
+|xref:ROOT:attachment$adoc_to_pdf_2025_0408.zip[Build your own zip, window="_blank"]
+|zip of adocs, svgs, ymls for building above in asciidoctor-pdf (126K)
+
+s|Download
 s|Comment
 
 2+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
 |===
 
-== Build Your Own 
-Below are the files necessary to generate (most) of the PDFs above.
-If you can install asciidoc-pdf you can download and create persona record sheets for EXP.
-The ADOC files correspond with the PDF of the same name.
-The pdf_theme.yml will be needed for styling, and SVGs decompressed from the zip.
+=== Build Your Own 
+For those with individual needs and better layout skills.
 
-.*Support Files*
-[width="85%",cols="<2,<3",frame="all", stripes="even"]
-|===
-2+<|Files needed to build the PDFs found above. 
-
-s|File Name
-s|Comment
-
-|xref:ROOT:attachment$theme.yml[theme.yml, window="_blank"]
-|Config css for asciidoc-pdf
-
-|xref:ROOT:attachment$svg.zip[svg.zip, window="_blank"]
-|Zip of SVGs needed for asciidoc-pdf
-
-|xref:ROOT:attachment$anthro_record_2025_0114.adoc[anthro_record_2025_0114.adoc, window="_blank"]
-|asciidoc file to make PDF from asciidoc-pdf
-
-|xref:ROOT:attachment$robot_record_2025_0114.adoc[robot_record_2025_0114.adoc, window="_blank"]
-|asciidoc file to make PDF from asciidoc-pdf
-
-|xref:ROOT:attachment$campaign_helper_2025_0114.adoc[campaign_helper_2025_0114.adoc, window="_blank"]
-|asciidoc file to make PDF from asciidoc-pdf
-
-|xref:ROOT:attachment$toy_tracker_2025_0114.adoc[toy_tracker_2025_0114.adoc, window="_blank"]
-|asciidoc file to make PDF from asciidoc-pdf
-
-s|File Name
-s|Comment
-
-2+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
-|===
+.*Steps for building PDFs*
+. download and unzip folder adoc_to_pdf_xxxx_xxxx.zip
+. install asciidoc-pdf (a gem file)
+.. https://docs.asciidoctor.org/pdf-converter/latest/install/[install instructions, window="_blank"]
+. asciidoctor-pdf -a pdf-theme=styling/your_theme.yml your_file-adoc
+.. will likely create a your_file.pdf
 
 == Historical
 Things from the past that may be useful. 
@@ -120,35 +102,39 @@ s|File Name
 s|Comment
 
 |xref:ROOT:attachment$exp_game_v401.pdf[exp_game_v401.pdf, window="_blank"]
-|32M PDF of EXP v4 from 1993
-
-|xref:ROOT:attachment$anthro_record_v7.pdf[anthro_record_v7.pdf, window="_blank"]
-|PDF for Anthro record v7 from 2024
-
-|xref:ROOT:attachment$alien_record_v7.pdf[alien_record_v7.pdf, window="_blank"]
-|PDF for Alien record v7 from 2024
-
-|xref:ROOT:attachment$robot_record_v7.pdf[robot_record_v7.pdf, window="_blank"]
-|PDF for Robot record v7 from 2024
-
+|32M PDF of EXP v4 from (1993)
 
 |xref:ROOT:attachment$anthro_record_sheet_v5.pdf[anthro_record_sheet_v5.pdf, window="_blank"]
-|PDF of EXP v5 anthro record 2010
+|PDF of EXP v5 anthro record (2010)
 
 |xref:ROOT:attachment$robot_record_v5.pdf[robot_record_v5.pdf, window="_blank"]
-|PDF of EXP v5 robot record 2010
+|PDF of EXP v5 robot record (2010)
 
 |xref:ROOT:attachment$alien_record_sheet_v5.pdf[alien_record_sheet_v5.pdf, window="_blank"]
-|PDF of EXP v5 alien record 2010
+|PDF of EXP v5 alien record (2010)
 
 |xref:ROOT:attachment$toy_record_v5.pdf[toy_record_v5.pdf, window="_blank"]
-|PDF of EXP v5 toy record 2010
+|PDF of EXP v5 toy record (2010)
 
 |xref:ROOT:attachment$4d2_mechanic_v61.pdf[4d2_mechanic_v61.pdf, window="_blank"]
-|Outdated theatrical system one pager
+|Theatrical system one pager (2020)
+
+|xref:ROOT:attachment$anthro_record_v7.pdf[anthro_record_v7.pdf, window="_blank"]
+|PDF for Anthro record v7 from (2024)
+
+|xref:ROOT:attachment$alien_record_v7.pdf[alien_record_v7.pdf, window="_blank"]
+|PDF for Alien record v7 from (2024)
+
+|xref:ROOT:attachment$robot_record_v7.pdf[robot_record_v7.pdf, window="_blank"]
+|PDF for Robot record v7 from (2024)
+
+|xref:ROOT:attachment$anthro_record_2025_0114.pdf[anthro_record_2025_0114.pdf, window="_blank"]
+|Anthro Record from (2025)
 
 s|File Name
 s|Comment
 
 2+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
 |===
+
+
