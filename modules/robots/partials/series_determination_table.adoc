@@ -1,28 +1,40 @@
 .*Robot Series Determination Table*
-[width="75%",cols="^,<,19*<"]
+[width="100%",cols="^,<2,19*<"]
 |===
-21+<|Use robot prime attributes to determine robotic type. 
-s|ROBOT ID
-s|ROBOT TYPE
-s|CON 1
-s|CON 2
-s|CON 3
-s|CON 4
+21+<|Use robot prime attributes to determine robotic series. 
+
 s|
-s|DEX 1
-s|DEX 2
-s|DEX 3
-s|DEX 4
 s|
-s|INT 1
-s|INT 2
-s|INT 3
-s|INT 4
+4+s|CON (Prime)
 s|
-s|STR 1
-s|STR 2
-s|STR 3
-s|STR 4
+4+s|DEX (Prime)
+s|
+4+s|INT (Prime)
+s|
+4+s|STR (Prime)
+
+s|ID
+s|SERIES
+s|1
+s|2
+s|3
+s|4
+s|
+s|1
+s|2
+s|3
+s|4
+s|
+s|1
+s|2
+s|3
+s|4
+s|
+s|1
+s|2
+s|3
+s|4
+
 
 |A
 |Android
@@ -312,27 +324,38 @@ s|STR 4
 |
 |
 
-s|ROBOT ID
-s|ROBOT TYPE
-s|CON 1
-s|CON 2
-s|CON 3
-s|CON 4
+s|ID
+s|SERIES
+s|1
+s|2
+s|3
+s|4
 s|
-s|DEX 1
-s|DEX 2
-s|DEX 3
-s|DEX 4
+s|1
+s|2
+s|3
+s|4
 s|
-s|INT 1
-s|INT 2
-s|INT 3
-s|INT 4
+s|1
+s|2
+s|3
+s|4
 s|
-s|STR 1
-s|STR 2
-s|STR 3
-s|STR 4
+s|1
+s|2
+s|3
+s|4
 
+s|
+s|
+4+s|CON (Prime)
+s|
+4+s|DEX (Prime)
+s|
+4+s|INT (Prime)
+s|
+4+s|STR (Prime)
+
+21+<|Add up all the IDs (letters) to determine robot series. 
 
 |===
