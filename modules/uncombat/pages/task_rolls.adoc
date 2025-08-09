@@ -5,14 +5,14 @@ The task roll is a check for success.
 If the player wins the task roll, her persona has succeeded at the something.
 
 Tasks can be mundane, like trying to repair a loose door knob.
-Tasks are pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Fredericton di-collating time re-modulator.
-Tasks can be uncombat related like making a pie.
-Tasks can be attempted in combat like trying to fight with two weapons at once. 
-The list of tasks are infinite, and there is no list of them all for space reasons. 
+Tasks can be pure sciency fiction, like strapping a grommet-sized oscillating refractometer onto a Fredericton di-collating time re-modulator.
+Tasks can be uncombat related, like making a pie.
+Tasks can be combat related, like trying to fight with two weapons at once. 
+The possible number of tasks is infinite, and there is no complete list of due to space reasons. 
 
 It is expected that there will be a host of tasks that players call on frequently. 
-These tasks are considered skills, however it is also expected that players will be making up tasks on the fly.
-Some of these tasks may become skills. 
+These tasks are the same as skills, but for simplicity we are calling everything a task. 
+It is expected that players will make tasks up on the fly.
 The goal of this section is to support a crunchy, but fun, way for personas to attempt mundane, weird and wonderful things. 
 
 :art: monkey_box_anger.png
@@ -26,45 +26,46 @@ include::ROOT:partial$articulate.adoc[]
 
 [discrete]
 == TLDR
-.Interests + Expertise * 2 + Aptitude > Difficulty = Success
+.1d100 + Interests + Expertise * Level + Experience > Difficulty = Success
 ****
-Research interest 1, Herbivore expertise 2, Biologist level 3 vs Difficulty 42 +
-1d100 + Competency 8 must beat 42 to win when researching a herbivore,
+Task difficulty is 42: 1 Research interest, 2 Herbivore expertise, and 3 EXPS levels +
+1d100 + (1 + 6 + 3) must beat 42 to win the task roll
 ****
 
 == When to Task
 Task rolls are for events that matter in the story.
-It is not expected that players are checking to see if their personas can cross the street, toss a ball, or climb onto a chicken coop.
-A task roll is expected if the success fail consequence has an impact on the story. 
-This being said there are player conditions, such as inebriation or concussion, where __everything__ will require a task roll. 
+Players should not make task rolls to see if their personas can cross the street, toss a ball, or climb onto a chicken coop.
+A task roll is used if the consequence has an impact on the story. 
+There are player conditions, such as inebriation or concussion, where __everything__ will require a task roll. 
 
 == How to Task 
 In short, the player must roll higher than the difficulty of the task on a 1d100.  
 
 A task roll has a few steps. 
-The first is to determine the Difficulty (DD) of the task at hand.
-The second is the determine the Competency (Comp) of the persona attempting the task. 
+The first is to determine the Difficulty (DD) of the task.
+The second is to determine the Competency (knowledge plus level bonus) of the persona.
+The third is to check for any bonuses that can be applied.  
 The last step is to make a roll on a 1d100. 
 Rolling higher than the DD means the task is a success. 
 Simple in theory a tad crunchier in practice.
 
-.*Steps of a Task Rolls*
-. <<_difficulty,Determine Difficulty>>
-. <<_competency,Determine Competency>>
-. <<_bonuses,Determine Bonuses>>
-. <<_make_the_roll,Make the Roll>>
+.*Steps of a Task Roll*
+. <<_difficulty, Determine Difficulty>>
+. <<_competency, Determine Competency>>
+. <<_bonuses, Determine Bonuses>>
+. <<_make_the_roll, Make the Roll>>
 
 == Difficulty
 The more complex something is the greater the Difficulty (DD).
-If a task roll is indicated there will be a Difficulty associated with it.
+If a task roll is indicated there will be a difficulty associated with it.
 The difficulty of the task is the number that the player must roll higher than on a 1d100.
-In the vocation section there are many skills that are assigned a difficulty
+In the vocation section there are many common tasks that have assigned difficulties.
 
 NOTE: *Difficulty is shortened to DD for historical reasons and is an homage to Degree of Difficulty.*
 
-While the lowest DD possible is 1 there is no limit to how high a DD can go.
-However, the DD can be so high that it is impossible to win the Task Roll.
-For example, cloning is a DD 200 task. 
+While the lowest DD possible is 1, there is no limit to how high a DD can go.
+A difficulty can become so high that a single persona cannot succeed at the task.
+For example, cloning is a DD 200 task and cloning requires a team to be successful. 
 
 include::uncombat:partial$task_difficulty.adoc[]
 
@@ -84,32 +85,49 @@ A research team is put together for a project that make take a long time with mu
 == Competency
 The competency the bonus that the player adds to her 1d100 roll when trying to beat a task difficulty.
 
-Competency is a combination of the persona's knowledge and aptitude.
+Competency is a combination of the persona's knowledge and levels.
 Knowledge is a mixture of the persona's vocation interests and expertise.
 Her aptitude reflects her persona's experience. 
 A persona can use her EXPS Level for any task that fits within her vocation.
-If the persona also has an applicable skill, she can add this to her Competency.
 
-.Competency = Knowledge plus Aptitude
-
-=== Knowledge 
 The knowledge component of competency is reflected in the persona's interests and expertise. 
 Interests are broad areas of knowledge that can be applied to many different tasks.
-Expertise contributes more to competency, but has less applications. 
+Expertise is more specific, but contributes more to roll when applicable.
 For example, and interest in research could assist any research related task roll.
-However an expertise in pumpkins would only assist when the task involves pumpkins. 
+However, an expertise in pumpkins would only assist when the task involves pumpkins. 
 
-A vocation is literally built on it's knowledge. 
+.Competency = Interests + Expertise*Level + Experience 
 
-=== Aptitude
-Aptitude determines how much of the persona's experience level improves competency.
+=== Interests
+Every vocation has 3 core interests that represent general knowledge that helps the persona win task rolls.
+Areas of interest are broad and can be applied quite easily to a task.
+There should always be an applicable interest for the player to use. 
+For each interest the player adds 1 point 1d100 roll.
+So a biologist with Research 3 would get to add 3 to her task roll.
+
+=== Expertise
+Every vocation has areas of expertise that are part of the persona's knowledge.
+An are of expertise is more focused than an an area of interest. 
+It is quite possible that an area of expertise will not be applicable to a task.
+When expertise aligns with a task the player can add their EXPS level for each point of expertise.
+So a 1st level biologist with herbivore-2 could add 2 to her task roll, but at 3rd leve she can add 6. 
+
+=== Experience
+The persona's EXPS level impacts the task roll. 
+The player can always add their player's experience bonus to the task roll. 
+At higher levels the experience bonus may overshadow both interests and expertise.
 The higher the persona's level the more their competency improves.
-However aptitude is limited by by tasks that one's vocation would carry out. 
-A veterinarian would not be able to apply aptitude to tasks that are purely martial in nature. 
-If the persona does not have aptitude in the task area they cannot have competence. 
-Aptitude can be as simple as staying in your vocation's lane, or more nuanced.
+
+Employing the below table: 
+* a 3rd level persona would add 3 to any task roll
+* a 5th level persona would add 10 to any task roll
 
 include::uncombat:partial$task_aptitude_competency_multiplier.adoc[]
+
+With this bonus comes limitations.
+A high level veterinarian would not be able to carry out spie tasks like assassination. 
+If the persona does not have aptitude in the task area they cannot have competence. 
+Aptitude can be as simple as staying in your vocation's lane, or more nuanced.
 
 [discrete]
 ==== Stay In Your Lane
@@ -117,7 +135,7 @@ I can do that.
 
 Often personas will want to accomplish a task that is not within the realm of their vocation.
 Mercenaries often need the vet skills quick fix and stabilization.
-A mechanic may want to to do spie stuff on a security system.
+A mechanic may want to do spie stuff on a security system.
 It is completely reasonable for a referee to disallow unrealistic task roll attempts that injure the story.
 A mechanic that wants to use the easy (12) knite skill of kirlian sight should just be told no.
 The following is an unnecessary arithmetic demonstration as to why. 
@@ -128,7 +146,7 @@ The same mechanic trying to use the nothing skill of righteous indignation (42) 
 
 include::uncombat:partial$task_vocation_lanes.adoc[]
 
-== Bonuses
+== Extra Bonuses
 The player adds bonuses to her 1d100 roll.
 Bonuses often mean the difference between success and failure.
 Bonuses can come from every which way.
@@ -177,7 +195,7 @@ A description that rocks all the players may get a 1d10 bonus.
 Small bonuses that lead to success generate quite a bit of excitement.
 
 == Make the Roll
-The player rolls the 1d100, adds in their competency and any bonuses and hopes to beat the task difficulty. 
+The player rolls the 1d100, adds in their competency and extra bonuses and hopes to beat the task difficulty. 
 Any roll equal to or higher than the difficulty is a success.
 Any roll less than the difficulty is a failure.
 
@@ -193,14 +211,13 @@ include::ROOT:partial$articulate.adoc[]
 
 === Examples
 3rd level mechanic with repair interest of 3 and bomb expertise of 2 wants to defuse a bomb.
-Competency is 10 (3 + 4 + 3), bonus 13 (DEX) for a plus 23 to the 1d100 roll.
-
+Competency is 12 (3 + 6 + 3), bonus 13 (DEX) for a plus 26 to the 1d100 roll.
 
 6th level veterinarian with treatment interest of 4, burns expertise of 2 is treating a burn.
-Competency is 20 (12 + 4 + 4), with an rpg bonus of 4 (making a Mr Burns joke) for a plus 24 to the 1d100 roll.
+Competency is 28 (4 + 12 + 12), with a role playing bonus of 4 (making a Mr Burns joke) for a plus 32 to the 1d100 roll.
 
 9th level mercenary with combat interest of 6, ambidextrous expertise of 2 and pistols expertise 2 wants to use two pistols at once.
-Competency is 41 (27 + 6 + 8), bonus 11 (DEX) for a plus of 52 to the 1d100 roll. 
+Competency is 69 (6 + 36 + 27), bonus 11 (DEX) for a plus of 80 to the 1d100 roll. 
 
 === Success 
 If the difficulty of the task is exceeded, or equalled, the persona reaps the reward of the successful task. 
@@ -213,13 +230,13 @@ If the player is extremely close to being successful the referee may allow the p
 The consequences of a failure may be simple and apparent. 
 A mercenary wanting to do ambidextrous combat fails their task roll they may revert to single weapon combat or suffer the dual wielding penalty.
 A mechanic that fails at defusing a bomb may leave the bomb in an un-defused state or may detonate the bomb.
-It is considered poor play to kill a persona outright for a failed task roll. 
+*It is considered poor play to kill a persona outright for a failed task roll.*
 An element of out of the frying pan into the fire consequence is more fun.
 
 For most fail tasks the persona can try again later.
 There is no particular indications for how much later. 
 A combat related failed task, ambidextrous combat or grappling may have to wait until the end of combat or a new opponent.
-A research related failed task may be delayed a day or may require replenishment of materiel. 
+Research related failed tasks may be delayed a day or may require replenishment of materiel. 
 A failed enhancement of a persona's toy would only damage the toy in extreme circumstances. 
 For example if the persona was trying to make an extreme modification to the toy. 
 
@@ -259,10 +276,10 @@ Consider a mercenary with a competency of 11 and a mechanic with a competency of
 Both players can try and beat the difficulty with a 1d100 roll plus 27. 
 That means two rolls with an improved bonus. 
 If spie with competency 21 decided to help out the merc and mech the bonus would remain 27.
-However three players can roll but the bonus is still only 27.
+However, three players can roll, but the bonus is still only 27.
 This is a too many cooks spoil the broth limitation on the bonuses. 
 
 A research team is different from teamwork. 
-A research team can have any number of personas involved and they work on a project
-For more byzantine complicated shenanigans these, jump to xref:uncombat:task_rolls_projects.adoc[Project]
+A research team can have any number of personas involved, and they work on a project
+For more Byzantine complicated shenanigans these, jump to xref:uncombat:task_rolls_projects.adoc[Project]
 
