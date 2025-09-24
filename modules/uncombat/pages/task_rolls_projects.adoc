@@ -1,6 +1,6 @@
 = Projects
 
-Creative players like to build things that don't exist in the world. 
+Creative players like to build things that don't exist. 
 Once the concept of a task is "try anything" the table quickly wants to build anything.
 Projects itch that scratch by allowing the expedition to have a go at near anything.
 
@@ -39,7 +39,6 @@ It is expected that the campaign will continue in some capacity when a project t
 Very long projects are expected to be very complex enterprises that may become campaign elements. 
 It would make sense to have the expedition run sessions related a project.
 They may need materiel, information, or personnel to keep the project moving forward.
-If the table agrees to simply roll through a 2 year project things __must__ happen in the milieu.
 
 include::uncombat:partial$project_durations.adoc[]
 
@@ -51,7 +50,7 @@ Research teams allows the entire expedition to pool their talents for a greater 
 A research team can be composed of any composition of personas. 
 Mercenaries can contribute to a veterinarian project and a spie could contribute to a mechanic project.
 Every player gets to roll for success. 
-Referee personas can be included in the research team and function as another player.
+Referee personas can be included in the research team.
 
 :art: research_team_biovet.png
 :width: 300px
@@ -91,10 +90,10 @@ Every player rolls with the same bonus.
 . Each player gets to make a task roll
 
 A team working to make a faster engine for an all terrain vehicle have a research team.
-There is are two mechanic with competency 14 and 12, a mercenary with competency 16, and a nothing with competency 4. 
-All four players would get to roll with a bonus of 30 to try and beat the difficulty.
-It is possible that the mechanics may both fail their rolls, but the nothing wins the roll.
-This makes for storyful outcomes.  
+There is are two mechanics with competencies of 14 and 12, a mercenary with a competency 16, and a nothing with competency 4. 
+All four players get to roll with a project competency of 30 (mechanic's 14 and mercenary's 16) to try and beat the difficulty.
+It is possible that the mechanics and the merccenary fail their rolls, but the nothing wins the roll.
+This would be a successful project, and a storyful outcome.  
 
 === Toys
 Special equipment can assist the research team.
@@ -108,11 +107,40 @@ Most projects would expect to have a laboratory or at the least an office to kee
 There are no bonuses of an office per se, but a bespoke research lab could add a bonus to all the player rolls. 
 For example, working on a vehicle upgrade in a full garage could give a bonus to the entire team. 
 
-== Make the Roll
-Shorter duration projects all every team member to roll with bonus to try and beat the difficulty.
-Any roll that meets or beats the difficulty leads to a success of the project.
 
-=== Examples
+== Make the Roll
+Every player gets to roll 1d100 plus the research team's competency. 
+If any payer beats the difficulty the project is a success
+
+=== Success 
+A success should be success for projects that are not altering the plot or milieu of the campaign.
+A success may bring storyful troubles for the expedition if they are altering the order of the world.
+
+=== Failure
+Failure is a bit more nuanced with a project than a task. 
+The research team may not meet their goal, but they will reap some benefits.
+Failure will also soften the Difficulty and allow the team to try again.
+
+.*Project Failure Results*
+* Research team does not meet goal.
+* Difficulty *decreases* by 1d4 per member of research team (max 20 difficulty)
+* personas earn EXPS
+* new duration much be less than the previous duration
+
+If the team likes there is a table listing kinds of project failures. 
+Hopefully the failure reason will offer some storyful outcome.
+
+include::uncombat:partial$task_rolls_project_failure.adoc[]
+
+
+=== Critical Checks
+Critical task rolls are not automatic successes but offer a huge bonus to the task roll. 
+Rolling a natural 99 or 100 allows the player to add another 1d100 to their task roll. 
+For more information jump to xref:uncombat:critical_checks.adoc[Critical Checks,window=_blank].
+Some tables may decide to not allow for critical checks on projects if the research team is too large. 
+
+
+== Examples
 The expedition accidentally ran over a famous alien with their hovercar.
 They need to repair her articulated wing flaps. 
 The Difficulty of the procedure is 100DD.
@@ -152,33 +180,6 @@ The nothing has project management, so the team can roll for success in quartile
 This means that they can fail at 3 months, improve the Difficulty and try again. 
 Upgrading the special drives could become a campaign motor with side quests and other tribulations. 
 
-=== Success 
-A success should be success for projects that are not altering the plot or milieu of the campaign.
-A success may bring storyful troubles for the expedition if they are altering the order of the world.
-
-=== Failure
-Failure is a bit more nuanced with a project than a task. 
-The research team may not meet their goal, but they will reap some benefits.
-Failure will also soften the Difficulty and allow the team to try again.
-
-
-.*Project Failure Results*
-* Research team does not meet goal.
-* Difficulty decreases by 1d4 per member of research team (max 20 difficulty)
-* personas earn EXPS
-* new duration much be less than the previous duration
-
-If the team likes there is a table listing kinds of project failures. 
-Hopefully the failure reason will offer some storyful outcome.
-
-include::uncombat:partial$task_rolls_project_failure.adoc[]
-
-
-=== Critical Checks
-Critical task rolls are not automatic successes but offer a huge bonus to the task roll. 
-Rolling a natural 99 or 100 allows the player to add another 1d100 to their task roll. 
-For more information jump to xref:uncombat:critical_checks.adoc[Critical Checks,window=_blank].
-Some tables may decide to not allow for critical checks on projects if the research team is too large. 
 
 
 
