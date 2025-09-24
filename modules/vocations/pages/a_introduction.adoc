@@ -16,7 +16,7 @@ include::ROOT:partial$articulate.adoc[]
 
 A vocation is more of an attitude than a profession.
 Choosing a vocation in EXP does not mean that the persona has had any special training.
-The information and skills that the persona can utilize are self-taught.
+The information and tasks that the persona can utilize are self-taught.
 Vocations do not preclude training, and the milieu may have
 diplomas or degrees granted by professional institutions.
 Even in the case of training, the persona is still self-taught.
@@ -61,13 +61,13 @@ EXP is an anthropomorphic rules system, and the vocation system is based on anth
 Every anthro persona has a vocation, even if that vocation is no vocation at all (Nothing).
 Aliens and robots do not have vocations, they are vocations unto themselves. 
 
-The vocations are composed of knowledge and skills. 
+The vocations are composed of knowledge and tasks. 
 Vocation knowledge is what the persona knows. 
 Knowledge is used by the persona to succeed at tasks. 
 Each vocation has it's own set of knowledge areas.
 Each vocation has it's own set of tasks.
-These tasks are called skills. 
-Some skills are limited to a solitary vocation, others can be used by all vocations. 
+These tasks are called tasks. 
+Some tasks are limited to a solitary vocation, others can be used by all vocations. 
 
 == Vocation Selection
 The persona's attribute scores determine her vocation.
@@ -79,7 +79,7 @@ A persona with a 4 INT and a 14 AWE can become a biologist, but not a mechanic,
 Usually, a player will have a list of vocations to choose from for her persona.
 The default anthro vocation is the nothing vocation.
 
-include::vocations:partial$required_attributes.adoc[]
+include::vocations:partial$vocation_attributes.adoc[]
 
 === Example
 A persona has the attributes: AWE 6, CHA 15, CON 17, DEX 9, INT 14, MND 12, STR 6, and HPM 42.
@@ -87,8 +87,7 @@ The persona's social standing (SOC) is not part of the vocation selection proces
 The player has a wide selection of vocations from which to choose.
 This persona could be any of the following: biologist, mechanic, mercenary, nothing, or veterinarian.
 
-include::vocations:partial$selection_example.adoc[]
-
+include::vocations:partial$vocation_selection_example.adoc[]
 
 == Knowledge 
 A vocation's knowledge represents things that the persona knows. 
@@ -126,36 +125,44 @@ Expertise is cumulative and a mercenary could have bombs 4 as an expertise.
 Expertise is vocation specific, and is randomly assigned or chosen by the player. 
 A persona gets additional expertise with increasing experience levels.
 
-== Skills
-Skills are tasks that are best performed by a specific vocation.
-However, other vocations can attempt each other's skills as task rolls. 
-Some skills are entirely vocation specific.
-For example, assassination can only be attempted by a spie, and a mercenary would not be good at tracking.
-
-The persona's interests, expertise and experience level determine what skills the persona can perform.
-Initially some skills will be out of reach as the player could not beat the difficulty easily. 
-Persona's are welcome to try anything
-
-=== Compendium
-Each vocation has a compendium of skills, aka tasks, that are appropriate for the vocation. 
-It is expected that the player will record some of the key skills from the compendium on the persona record. 
-The compendium is not exhaustive and it is expected that the table will have tasks that are not listed.
-These tasks may become skills that the persona has or be disposable one offs. 
-
 === Gifts
-Gifts are skills that the persona has committed to knowledge.
-The persona can complete gifted skill without effort and offer a guaranteed modicum of success. 
+Gifts are tasks that the persona has committed to knowledge.
+The persona can complete gifted task with the player having to win a task roll.
 For example, a veterinarian has the gift of Quick Fix. 
 This allows her to immediately heal her colleague a small amount. 
-A mercenary has the gift of proficiency in personal weapons. 
-A mercenary can pick up a weapon and understand it's basic use. 
+A mercenary has the gift of ambidextrous combat with swords. 
+This allows her to use two swords without making the task roll. 
 The gifts are inherent understandings that the persona has. 
-They are not learned by training or schooling or video meetings. 
-Each vocation has it's own silly name for their gifts. 
-A veterinarian has procedures, a spie has tricks, a biologist has knacks. 
-It is fine to refer to these as gifts.
+As the persona advances in her vocation she can add more gifts. 
 
-Gifts are vocation specific and new ones are earned as the persona gains new experience levels. 
+The player can create a bespoke task as a gift.
+If the desired gift does not exist as a vocation task the player table and referee must vet the gift.
+The existing task lists for the vocation should be used to guide denovo gifts. 
+
+Each vocation has it's own silly name for their gifts. 
+If a player refers to her persona's task roll as a gift that should be understood. 
+It is also possible for a player to create a bespoke 
+
+include::vocations:partial$vocation_gifts.adoc[]
+
+== Tasks
+A task is anything that a persona tries to do.
+Vocations have lists of tasks that are best performed by a specific vocation.
+However, vocations can attempt each other's tasks as task rolls. 
+Some tasks are entirely vocation specific.
+For example, assassination can only be attempted by a spie, and a mercenary would not be good at tracking.
+
+NOTE: A task can be skill, a procedure, a concept, an action. 
+
+The persona's interests, expertise and experience level determine how well the persona performs at a task.
+Initially some tasks will be out of reach as the player could not beat the difficulty easily. 
+Persona's are welcome to try anything.
+
+=== Compendium
+Each vocation has a compendium of tasks, aka tasks, that are appropriate for the vocation. 
+It is expected that the player will record some of the key tasks from the compendium on the persona record. 
+The compendium is not exhaustive and it is expected that the table will have tasks that are not listed.
+These tasks may become tasks that the persona has or be disposable one offs. 
 
 == Role-Playing
 The persona should have at least a keen interest, or possibly an obsession, with her vocation.
@@ -163,13 +170,13 @@ Veterinarians should show compassion and a desire to heal.
 Biologists should show respect, if not awe, for the natural organic world.
 Anti-knites should take on any opportunity to increase the universe's entropy level.
 
-Players that do not roleplay their persona's vocation can face challenges.
-Villainous veterinarians and altruistic anti-knites may see their skills weaken.
-Nomads living in decadent luxury will find their survival skills starting to rust.
+Players that do not role-play their persona's vocation can face challenges.
+Villainous veterinarians and altruistic anti-knites may see their tasks weaken.
+Nomads living in decadent luxury will find their survival tasks starting to rust.
 
 Initially, their actions will cost them vocation related experience points.
 Continuing transgressions may make it impossible for the persona to carry out her tasks.
-A murderous veterinarian may find that her skills don't work well on those who know the truth.
+A murderous veterinarian may find that her tasks don't work well on those who know the truth.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
@@ -191,7 +198,7 @@ The referee decides if the player is combining or switching personas in good fai
 === Combining
 Combining vocations is when the player has a persona with two vocations concurrently.
 For example, a biologist mechanic can do biologist and mechanic tasks. 
-The persona advances both levels simultaneously and can use skills from both vocations.
+The persona advances both levels simultaneously and can use tasks from both vocations.
 
 The amount of experience required for each new level will be equal to the sum of both vocations plus 10% of the total.
 A combined mechanic-biologist would need 4400 EXPS to reach second level.
@@ -206,9 +213,9 @@ If the persona has the vocation's attribute requirements, she can switch any tim
 
 For example, a mercenary may suddenly get a conscience and devote the rest of her life to the study of biology.
 If she has the appropriate attributes, she can do this switch at any time.
-The persona's mercenary skills freeze at her exit level.
+The persona's mercenary tasks freeze at her exit level.
 She begins collecting experience points as a first-level biologist with zero EXPS.
-She can still use her mercenary skills but only collects experience as a biologist.
+She can still use her mercenary tasks but only collects experience as a biologist.
 
 If the persona does not have the attributes to make a vocation, she can follow the nothing vocation until she gets the necessary EXPS.
 
