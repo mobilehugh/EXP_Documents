@@ -55,7 +55,10 @@ Interests 1, Expertise 2, Level 3 +
 .*Steps of a Task Roll*
 . <<_difficulty, Determine Difficulty>>
 . <<_competency, Determine Competency>>
-. <<_bonuses, Determine Bonuses>>
+.. <<_interests, Interests>>
+.. <<_expertise, Expertise>>
+.. <<_Experience, Experience>>
+. <<_bonuses, Bonuses>>
 . <<_make_the_roll, Make the Roll>>
 
 == Difficulty
@@ -64,7 +67,7 @@ If a task roll is indicated there will be a difficulty associated with it.
 The difficulty of the task is the number that the player must roll higher than on a 1d100.
 In the vocation section there are many common tasks that have assigned difficulties.
 
-NOTE: *Difficulty is shortened to DD for historical reasons and is an homage to Degree of Difficulty.*
+NOTE: *Difficulty is shortened to DD for historical reasons (Degree of Difficulty).*
 
 While the lowest DD possible is 1, there is no limit to how high a DD can go.
 A difficulty can become so high that a single persona cannot succeed at the task.
@@ -74,21 +77,23 @@ include::uncombat:partial$task_difficulty.adoc[]
 
 If a task does not exist, or there is no assigned difficulty, the players and referee must negotiate one.
 The players and referee only need to agree on a qualitative term describing the difficulty of the task.
-A dice roll will randomly determine the actual value of the DD.
 
 Let's consider a persona that wants to make some ice from water.
 If there is a freezer, this task should be automatic, but there may be some trivial interference.
 So the referee and players agree that this task has a trivial difficulty.
-If there is no freezer, and the expedition is on a hot planet where the water is full of sediment, the difficulty should be impossible or bizarre.
+If there is no freezer, and the expedition is on a hot planet where the water is full of sediment, the difficulty could be impossible or bizarre.
 
-For tasks that have an enormously high difficulty the players may find success by creating a task team, or a research team. 
-A task team is for quick tasks where players can create a team competency that is larger than the single persona.
-A research team is put together for a project that may take a long time with multiple attempts to complete (like cloning).
+For tasks that have an enormously high difficulty the players may find success by us teamwork or create a project. 
+Teamwork allows a few personas to work together to improve the chance of beating the difficulty.
+A project enlists a research team for complex tasks that take a long time. 
+For more information, jump to xref:uncombat:task_rolls_projects.adoc[Projects,window=_blank], or <<_teamwork, Teamwork>>.
+
+
 
 == Competency
-The competency is a collective term for all the bonuses that the player adds to her 1d100 roll.
+Competency is a collective term for the knowledge bonuses that the player adds to her 1d100 roll.
 
-Competency is a combination of the persona's knowledge and levels.
+Competency is a combination of the persona's knowledge and experience.
 Knowledge is a mixture of the persona's vocation interests and expertise.
 Her aptitude reflects her persona's experience. 
 A persona can use her EXPS Level for any task that fits within her vocation.
@@ -99,20 +104,27 @@ Expertise is more specific, but contributes more to the roll when applicable.
 For example, an interest in research could assist any research related task roll.
 However, an expertise in pumpkins would only assist when the task involves pumpkins. 
 
-.Competency = Interests + Expertise*Level + Experience 
+[discrete]
+== Competency
+Interests + Expertise + Experience
+****
+Interests add +1 per interest +
+Expertise add EXPS level per expertise +
+Experience add amount from table below
+****
 
 === Interests
 Every vocation has 3 core interests that represent general knowledge that helps the persona win task rolls.
 Areas of interest are broad and can be applied quite easily to a task.
 There should always be an applicable interest for the player to use. 
-For each interest the player adds 1 point 1d100 roll.
+For each interest the player adds 1 point to the 1d100 roll.
 So a biologist with Research 3 would get to add 3 to her task roll.
 
 === Expertise
 Every vocation has areas of expertise that are part of the persona's knowledge.
 An area of expertise is more focused than an area of interest. 
-It is quite possible that an area of expertise will not be applicable to a task.
-When expertise aligns with a task the player can add their EXPS level for each point of expertise.
+It is possible that an area of expertise will not be applicable to a task.
+The player adds their EXPS level for each point of expertise.
 So a 1st level biologist with herbivore-2 could add 2 to her task roll, but at 3rd level she can add 6. 
 
 === Experience
@@ -127,8 +139,7 @@ Employing the below table:
 
 include::uncombat:partial$task_aptitude_competency_multiplier.adoc[]
 
-There are limitations to this bonus.
-A high level veterinarian would not be able to carry out spie tasks like assassination. 
+There are limitations to the experience bonus.
 If the persona does not have aptitude in the task area they cannot have competence. 
 Aptitude can be as simple as staying in your vocation's lane, or more nuanced.
 
@@ -149,7 +160,8 @@ The same mechanic trying to use the nothing skill of righteous indignation (42) 
 
 include::uncombat:partial$task_vocation_lanes.adoc[]
 
-== Extra Bonuses
+== Bonuses
+Bonuses are added to the roll for the run of the game, and are unrelated to competency.
 The player adds bonuses to her 1d100 roll.
 Bonuses often mean the difference between success and failure.
 Bonuses can come from every which way.
@@ -228,17 +240,17 @@ If the difficulty of the task is exceeded, or equalled, the persona reaps the re
 === Failure
 EXP does not have partial successes.
 If the player rolls less than the difficulty the task is a failure. 
-If the player is extremely close to being successful the referee may allow the player to go for an roll playing bonus. 
+If the player is extremely close to being successful the referee may allow the player to go for a roleplaying bonus. 
 
 The consequences of a failure may be simple and apparent. 
-A mercenary wanting to do ambidextrous combat fails their task roll they may revert to single weapon combat or suffer the dual wielding penalty.
-A mechanic that fails at defusing a bomb may leave the bomb in an undefused state or may detonate the bomb.
+A mercenary failing at ambidextrous combat may revert to single weapon combat, or suffer the dual wielding penalty.
+A mechanic that fails at defusing a bomb may leave the bomb in an undefused state, or may detonate the bomb.
 *It is considered poor play to kill a persona outright for a failed task roll.*
 An element of out of the frying pan into the fire consequence is more fun.
 
 For most failed tasks the persona can try again later.
 There is no particular indication for how much later. 
-A combat related failed task, ambidextrous combat or grappling may have to wait until the end of combat or a new opponent.
+A combat related failed task, like grappling may have to wait until the next opponent.
 Research related failed tasks may be delayed a day or may require replenishment of materiel. 
 A failed enhancement of a persona's toy would only damage the toy in extreme circumstances. 
 For example if the persona was trying to make an extreme modification to the toy. 
