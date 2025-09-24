@@ -74,18 +74,6 @@ So a biologist with taxonomy 2 and culture 1 would get 2 rolls on the taxonomy e
 After start up the persona gets one new expertise per experience level. 
 The player can roll on one of the expertise tables or choose a specific expertise.
 
-=== Culture
-Culture expertise focuses on understanding the interactions of groups of organic life forms. 
-These expertise can be used to predict what a pack of aliens might do, or try and predict an election.
-
-include::vocations:partial$biologist_expert_cultural.adoc[]
-
-=== Research
-Research expertise focuses on specific areas of research of the organic world.
-These areas of expertise can be used to make an antivenom, clone an alien, or enhance a mutation.
-
-include::vocations:partial$biologist_expert_research.adoc[]
-
 === Taxonomy
 Taxonomy is about identifying and categorizing organic species.
 Each skill includes a tasks and a biome type. 
@@ -93,13 +81,25 @@ A taxonomy skill could look like this: Taxonomy - Herbivore - Desert Biome.
 
 include::vocations:partial$biologist_expert_taxonomy.adoc[]
 
-=== Knacks 
+=== Research
+Research expertise focuses on specific areas of research of the organic world.
+These areas of expertise can be used to make an antivenom, clone an alien, or enhance a mutation.
+
+include::vocations:partial$biologist_expert_research.adoc[]
+
+=== Culture
+Culture expertise focuses on understanding the interactions of groups of organic life forms. 
+These expertise can be used to predict what a pack of aliens might do, or try and predict an election.
+
+include::vocations:partial$biologist_expert_cultural.adoc[]
+
+== Knacks 
 Biologist knacks (gifts) are tasks that the player does not need to make a task roll for. 
 The persona gets one knack at first level and more difficult ones are added at prescribed levels. 
 
 include::vocations:partial$biologist_knacks.adoc[]
 
-=== Organizing
+== Organizing
 A biologist can rack up a lot of knowledge.
 What follows is a way to keep track of them. 
 
@@ -138,8 +138,17 @@ When studying a herbivore in a desert biome, she will get a total bonus of 5  (t
 * Knacks
 ** Bioligical (is it organic)
 
+== Experience
+The benefits of increasing experience levels is increased knowledge, aptitude and knacks, improved task success.
+Biologists marginally improve their combat tasks as well.
+Biologists earn experience points for completing procedures and role-playing within their vocation.
+Only 20% of combat experience can go towards a biologist's experience point total.
 
-== Compendium
+include::vocations:partial$biologist_exps.adoc[]
+
+== Tasks
+
+=== Compendium
 Biologist tasks involve anything organic that does not involve healing.
 Most biologist tasks are knowledge based unless an obvious physical intervention is involved.
 The minimal equipment required by a biologist is her notebook. 
@@ -155,6 +164,7 @@ A non-exhaustive list of biologist tasks arranged by increasing difficulty.
 Skill Example (42)::
 One line description of skill. Difficulty is in brackets. 
 
+[discrete]
 === Trivial
 Biological (12)::
     Is it biological? Yes. No. 
@@ -162,6 +172,7 @@ Biological (12)::
 Sentience (12)::
     Sentience present. Yes. No. 
 
+[discrete]
 === Easy
 Living (24)::
     Is it alive and living. Yes. No.
@@ -175,6 +186,7 @@ Flora or Fauna (36)::
 Ranged Attacks (36)::
     Is this alien gonna fling stuff. 
 
+[discrete]
 === Normal
 Age (42)::
     Estimate chronologic age.
@@ -197,6 +209,7 @@ Energy Source (42)::
 Threat level (42)::
     Degree of danger potential. 
 
+[discrete]
 === Hard
 Health Care (84)::
     Is there a healer in the group?
@@ -207,14 +220,17 @@ Mutated (84)::
 Mutation Type (84)::
     Psionic or phenomic
 
+[discrete]
 === Tough
 Phenomic Identification (126)::
     Identify nature of phenomic mutation. 
 
+[discrete]
 === Impossible
 Psionic Identification (168)::
     Identify nature of phenomic mutation. 
 
+[discrete]
 === Bizarre
 
 Cloning (242)::
@@ -223,19 +239,9 @@ Cloning (242)::
 Gene Design (242)::
     Create new gene expressions. 
 
+=== List
+
+include::vocations:partial$biologist_tasks.adoc[]
 
 
-== Experience
-The benefits of increasing experience levels is increased knowledge, aptitude and knacks, improved task success.
-Biologists marginally improve their combat tasks as well.
-Biologists earn experience points for completing procedures and role-playing within their vocation.
-Only 20% of combat experience can go towards a biologist's experience point total.
-
-include::vocations:partial$biologist_exps.adoc[]
-
-
-== Biome Constructor
-Biome tables are included here for convenience.
-
-include::aliens:partial$biome_list.adoc[]
 
