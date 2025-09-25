@@ -29,16 +29,15 @@ Nomads will generally shun technology if it is unnecessary for survival.
 They may prefer to sleep in a hollow log or a dumpster rather than a hotel room or tent.
 There is no penalty for a nomad who uses technology.
 
-If the campaign is limited vocations by attributes nomads have the following minimums:
-AWE 10, CON 6, INT 5 and HPM 20
+If the campaign has vocation attribute selection nomads require a combined Awareness and Constitution greater than 18. 
 
 == Knowledge
 Nomadic knowledge is focused on biomes, survival and domestication. 
 The interests are broad areas that the nomad excels in.
-An interest can be applied to many different skills.
+An interest can be applied to many different tasks.
 An expertise is more focused, and offers greater benefit to appropriate task rolls. 
 
-=== Interests
+== Interests
 Interests are broad abilities that can represent experience that can assist skills and tasks. 
 Nomad interests are intentionally wide ranging and can be very loosely applied to most any nomad task.
 
@@ -46,7 +45,7 @@ At startup the persona gets one interest per 3 points of Awareness, and one addi
 
 include::vocations:partial$nomad_interests.adoc[]
 
-==== Biome Interest
+=== Biome
 Biomes are the bread and butter of a nomad. 
 A biome is a geographically, ecologically or socially unique location.
 The biome interest will assist any endeavour that involves a biome. 
@@ -62,19 +61,19 @@ A nomad that has a nomad interest automatically gets a biome expertise.
 :description: Landscape of futuristic wall in front of planet and stars.
 include::ROOT:partial$articulate.adoc[]
 
-==== Survival Interest
+=== Survival
 All nomads, and all personas for that matter, are interested in surviving.
 A survival interest will assist the player in any task rolls that represents survival tasks.
 For example, a safe passage task roll would benefit from the survival interest. 
 Whereas trying to domesticate an alien pack mammal would not.
 
-==== Domestication Interest
+=== Domestication
 Nomads can have an interest in domestication aliens for their personal use. 
 Domestication helps the nomad when working with aliens from the diversidae family.
 While an anthro may be __alien__ this expertise only applies to diversidae aliens.  
 The domestication interest will assist the persona in tasks that are part of domesticating aliens.
 
-=== Expertise
+== Expertise
 Skills are specific abilities that assist with more specific task rolls. 
 A skill could represent knowledge, experience or training. 
 
@@ -83,10 +82,7 @@ So a nomad with Domestication 2 and Survival 1 would get 2 rolls on the Domestic
 After start up the persona gets one new expertise per experience level. 
 The player can roll on one of the expertise tables or choose a specific expertise.
 
-
-
-
-==== Biome Expertise
+=== Biome
 A biome is a geographically, ecologically or socially unique location.
 The nomad is assisted for any task attempted in a familiar biome.
 Biome expertise is cumulative and assists literally any task roll 
@@ -102,22 +98,29 @@ Due to space considerations the biome constructor is found at the end of this pa
 :description: Two humans sheltering from sun in an alien desert.
 include::ROOT:partial$articulate.adoc[]
 
-==== Survival Expertise
+=== Survival
 Survival expertise is knowledge that assists the nomad in performing survival tasks. 
 This expertise area includes things like finding water or calming a feral alien. 
 Remember to include biome expertise with survival task rolls.
 
-include::vocations:partial$nomad_skills_survival.adoc[]
+include::vocations:partial$nomad_expert_survival.adoc[]
 
-==== Domestication Expertise
+=== Domestication
 Domestication expertise helps the nomad when working with aliens from the diversidae family.
 While an anthro may be __alien__ this expertise only applies to diversidae aliens.  
 The aliens that domestication skills work on are typically flora and fauna. 
 Remember to include biome expertise with domestication task rolls.
 
-include::vocations:partial$nomad_skills_domestication.adoc[]
+include::vocations:partial$nomad_expert_domestication.adoc[]
 
-=== Organizing
+=== Adaptations
+The nomad's adaptations (gifts) are skills where the persona automatically succeeds.
+New adaptations are added when the persona gains more experience levels.
+
+include::vocations:partial$nomad_adaptations.adoc[]
+
+
+== Organizing
 Knowledge is cumulative and separatory.
 This means that an expertise in the biome Arid, Freezing, Desert Ruins, can be combined with the biome Arid, Hot, Tundra Ruins. 
 
@@ -138,6 +141,13 @@ This means that an expertise in the biome Arid, Freezing, Desert Ruins, can be c
 
 When attempting a skill like hidden (1) safe passage (2) in arid (2) ruins (2) the expertise is 7.
 Biome expertise is very helpful when attempting nomad skills.   
+
+== Experience
+Nomads get half experience for combat and EXPS for successful task rolls.
+Faithful role-playing of the nomad vocation will earn EXPS for the persona.
+Increasing levels allows the nomad a greater chance of survival in the wild or combat.
+
+include::vocations:partial$nomad_exps.adoc[]
 
 == Skills
 Nomad skills are about surviving and manipulating the environment surrounding the persona.
@@ -229,7 +239,7 @@ Food from Toxic (84)::
 Fire from Nothing (84)::
     Make fire in denuded areas. 
 
-Make Cammo (84)::
+Make Camo (84)::
     Make camouflaged clothing for biome. 
 
 Calm Frenzy (84)::
@@ -284,18 +294,7 @@ Track across Vacuum (210)::
 Domesticate, Parentalize (210)::
     Make flora fauna alien protect nomad like their spawn.
 
-=== Adaptations
-The nomad's adaptations (gifts) are skills where the persona automatically succeeds.
-New adaptations are added when the persona gains more experience levels.
 
-include::vocations:partial$nomad_adaptations.adoc[]
-
-== Experience
-Nomads get half experience for combat and EXPS for successful task rolls.
-Faithful role-playing of the nomad vocation will earn EXPS for the persona.
-Increasing levels allows the nomad a greater chance of survival in the wild or combat.
-
-include::vocations:partial$nomad_exps.adoc[]
 
 == Biome Constructor
 Biome tables are included here for convenience.
