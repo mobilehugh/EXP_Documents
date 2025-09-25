@@ -20,18 +20,18 @@ Mercs are valuable for the clutter of combat skills that they possess.
 They represent the dog-meat essential for the survival of any expedition in combat. 
 Mercs do not personally regard themselves as dog-meat.
 
-If your game requires attribute requirements for vocations a mercenary's HPM must beat 40 and her combined CON, DEX and STR must beat 22. 
+If your game requires attribute requirements for vocations a mercenary's HPM must beat 40. 
 
 == Knowledge
-Mercenary knowledge is mostly concerned with inflicting damage on organic and inorganic objects.
+Mercenary knowledge is concerned with inflicting damage on organic and inorganic objects.
 Interests are broad areas the mercenary is good at like combat or tactics. 
 Mercenary expertise is more narrow like pistols or grenades. 
 Interests and expertise assist the persona with her skills.
 
-=== Interests
+== Interests
 These are broad areas of interest that the mercenary has. 
 Combat interests will assist the persona in any combat related tasks she is undertaking.
-For example, shooting a lazer gun or throwing a grenade would benefit from combat interests.
+For example, tasks related to shooting a lazer gun or throwing a grenade would benefit from combat interests.
 Tactical interests are the officer side of executing tasks related to the bigger picture of a battle.
 If the mercenary wanted to avoid an ambush, or organize a room entry she calls on her tactical interests.
 
@@ -41,28 +41,28 @@ After startup the player can roll or choose one additional interest per new EXPS
 
 include::vocations:partial$mercenary_interests.adoc[]
 
-==== Combat Interest
+=== Combat
 This interest is about weapons. 
 Combat interests lead to combat skills that are usually weapon specific.
 Combat interest can assist the persona when making task rolls related to combat tasks.
 For example, if the persona is making a task roll for ambidextrous combat the combat interest will help.
 
-==== Tactical Interest
+=== Tactical
 Tactical interests assist the mercenary regarding decisions that do not affect direct combat.
 For example, artillery use or planning an ambush is a tactical  interest.
 
-==== Specialist Interest
+=== Specialist
 These are special interests that do not involve combat or tactical interests.
 For example, knocking open a door, or combat in zero gravity can benefit from special interests.
 These are not special ops interests per se, but many of the special skills fall into those categories.
 
-=== Expertise
+== Expertise
 Expertise represents much more specific knowledge than interests and can refer to a specific weapon type or a specific task. 
 An expertise assists the persona in completing task rolls related to the skill.
 A mercenary gets one expertise per corresponding interest. 
 So combat interest will earn the persona a combat expertise as well.
 
-==== Combat Expertise
+=== Combat
 Combat expertise assists the persona on any attack rolls she makes with the described weapon.
 The expertise would also help the persona when making an uncombat task roll.
 The combat expertise Pistols, Flotto would give an attack roll bonus for flotto pistol.
@@ -70,7 +70,7 @@ The Pistols, Flotto would also give a task bonus when cleaning or unjamming a fl
 
 The player makes one roll per interest at startup and gets an additional roll for each new EXPS level.
 
-include::vocations:partial$mercenary_skills_combat.adoc[]
+include::vocations:partial$mercenary_expert_combat.adoc[]
 
 Combat weapon skills are cumulative and separable. 
 So a persona with Rifles: Flotto, and Rifles: Pump would have Rifles 2, Flotto 1 and Pump 1
@@ -82,34 +82,44 @@ When using the tactical combat rules and kilodie attack rolls the player adds +2
 The player above adds +60 with flotto and bolt action rifles attack rolls and +40 with any other rifle attack roll.
 These bonuses allow the player to *exceed* the persona's Max Roll. 
 
-==== Tactical Expertise
+=== Tactical
 Tactical expertise gives the player a bonus when making applicable task rolls.
 Some of the tactical expertise give attack roll bonuses.
 Most tactical expertise reflects logistics, and area of effect weapon expertise.
 
-include::vocations:partial$mercenary_skills_tactical.adoc[]
+include::vocations:partial$mercenary_expert_tactical.adoc[]
 
-==== Specialist Expertise 
+=== Specialist 
 Specialist expertise give the persona a bonus on tasks that are neither tactical nor combat.
 However, this expertise can definitely be used in combat situations.
 For example, the submersive expertise will assist the persona in underwater combat.
 
-include::vocations:partial$mercenary_skills_special.adoc[]
+include::vocations:partial$mercenary_expert_special.adoc[]
 
-== Skills
-Skills are things that the persona does. 
-The player uses her persona knowledge to improve the chance of completing a skill.
+== Actions
+The mercenary actions (gifts) are skills where the persona automatically succeeds.
+New actions are added when the persona gains a certain level of experience.
+Players can create bespoke actions for their persona after a review by the player table and referee.
+
+include::vocations:partial$mercenary_actions.adoc[]
+
+== Experience
+The benefits of increasing experience levels are more weapon skills and improved success with task rolls.
+Mercenaries earn experience points for completing task rolls and role-playing within their vocation.
+Mercenaries gain 110% of combat EXPS earned.
+
+include::vocations:partial$mercenary_exps.adoc[]
+
+== Tasks
+Tasks are things that the persona does. 
+The player uses her persona knowledge to improve the chance of completing a task.
 The persona can have special skills called gifts that they automatically succeed at. 
 Mercenary gifts are called actions. 
 
 Mercenary tasks can involve anything martial.
 Merc tasks are mostly action based and reflect destruction, or support destruction.
 
-For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
-
-//
-// when the compendium is extended do not forget biologist_tasks.adoc table 
-//
+For the intricate details of how to resolve tasks in EXP jump to xref:uncombat:task_rolls.adoc[Task Rolls].
 
 === Compendium
 A non-exhaustive list of mercenary skills arranged by increasing difficulty.
@@ -117,10 +127,12 @@ A non-exhaustive list of mercenary skills arranged by increasing difficulty.
 Skill Example (42)::
 One line description of skill. Difficulty is in brackets. 
 
+[discrete]
 ==== Trivial
 Salute (12)::
     Gesticulate deference to superior.
 
+[discrete]
 ==== Easy
 Proficiency (24)::
     Use a personal weapon as skilled. 
@@ -141,8 +153,9 @@ Bolster (36)::
     Move attack bonus points to defence (DEF). 
 
 Conscious (36)::
-    Remain conscious when HPS are negative. 
+    Remain conscious when HPS are negative.
 
+[discrete]
 ==== Normal
 Divide (42)::
     Split attack bonus between attack rolls.
@@ -166,7 +179,7 @@ Deflank (64)::
 Running Cover (64)::
     Run and maintain full Defence rating.
 
-
+[discrete]
 ==== Hard
 Ambidextrous, Rifles (84)::
     Use two rifles at once no penalty.
@@ -180,7 +193,7 @@ Ambidextrous, Grenades (84)::
 Dodge Grenade (100)::
     Half kinetic HPS damage from grenade. 
 
-
+[discrete]
 ==== Tough
 Ambidextrous, Fling (126)::
     Use two striking weapons no penalty.
@@ -188,30 +201,17 @@ Ambidextrous, Fling (126)::
 Dodge Artillery (100)::
     Half kinetic HPS damage from artillery. 
 
-
+[discrete]
 ==== Impossible
 Falling (168)::
     Do any lesser difficult task while falling. 
 
+[discrete]
 ==== Bizarre
 Dodge Bomb (242)::
     Avoid bomb damage. 
 
-=== Actions
-The mercenary actions (gifts) are skills where the persona automatically succeeds.
-New actions are added when the persona gains a certain level of experience.
+== List
+This is a list of the tasks from the compendium in alphabetical order. 
 
-include::vocations:partial$mercenary_actions.adoc[]
-
-== Experience
-The benefits of increasing experience levels are more weapon skills and improved success with task rolls.
-Mercenaries earn experience points for completing task rolls and role-playing within their vocation.
-Mercenaries gain 110% of combat EXPS earned.
-
-include::vocations:partial$mercenary_exps.adoc[]
-
-
-== Biome Constructor
-Biome tables are included here for convenience.
-
-include::aliens:partial$biome_list.adoc[]
+include::vocations:partial$mercenary_tasks.adoc[]
