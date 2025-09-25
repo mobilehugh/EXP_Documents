@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "dictionaryDefinitions": [
+    { "name": "custom-words", "path": ".vscode/cspell-custom-words.txt", "addWords": true }
+  ],
+  "dictionaries": ["custom-words"],
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**"
+  ],
+  "ignoreRegExpList": [
+    "^:.*$"  
+  ],
+  "allowCompoundWords": true
+}
+
