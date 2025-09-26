@@ -14,10 +14,9 @@ ____
 :description: Humanoid warthog picking the lock on a wall safe. 
 include::ROOT:partial$articulate.adoc[]
 
-The spie is a tough, mean, and ruthless vocation.
-Spies are highly skilled in unarmed combat, deception, and assassination.
+Spies are masters of deception, infiltration and targeted violence.
 Spies can employ any combination of these abilities to satisfy their goals.
-A spie is not a psychopath by nature. 
+The spie is a tough, mean, and ruthless vocation, however a spie is not a psychopath by nature. 
 There is no moral code for spies, and they can be on the side of good, evil or both.
 It is hard to distinguish the bad from the not-so-bad in the realm of violent espionage.
 
@@ -26,8 +25,49 @@ Spies are not dependent on a commission and may carry out a little extortion or 
 Spies are often members of secret guilds or naughty lodges dedicated to the clandestine arts.
 How deeply involved the expedition gets with a spie's source depends on the ref's milieu or scenario set up.
 
-For campaigns using vocation attribute requirements:
-AWE, CHA, CON, DEX, INT, MND and STR total above 92 and HPM above 30.
+For campaigns using vocation attribute requirements.
+Total of the following attributes: AWE, CHA, CON, DEX, INT, MND and STR must meet or beat 92.
+
+== Knowledge
+Spie knowledge is broken down into interests, expertise and martial arts. 
+Interests are broad areas of interest.
+For example, an interest in infiltration would help the player making and infiltration related task rolls.
+The interest of incapacitation will assist whenever the spie is trying to incapacitate a target.
+Expertise represents deeper and more narrow area of knowledge. 
+
+== Interests
+Interests are broad areas of knowledge that the spie has aptitude in.
+The interests are infiltration, deception and destruction.
+Any task that the persona pursues that involves sneaking would benefit from the infiltration interest.
+The destruction interest supports any task that involve weapons or an  unwilling increase in entropy.
+
+A startup the player makes 1 roll on the interests table per 3 points of INT. 
+After startup the persona gets to roll, or choose, one new interest per EXPS level. 
+
+include::vocations:partial$spie_interests.adoc[]
+
+== Expertise
+Spie expertise are narrow areas of knowledge that assist the persona even more when making a task roll. 
+Personas get one expertise per interest at startup. 
+After startup personas may choose, or roll, for another expertise each EXPS level. 
+
+=== Infiltration
+Expertise at getting into where one should not be. 
+This expertise does not involve face to face deception, but deception of architecture and security systems.
+The player makes one roll per infiltration interest. 
+
+include::vocations:partial$spie_expert_infiltration.adoc[]
+
+=== Deception
+This area of expertise is for face to face trickery and shenanigans and manipulations. 
+
+include::vocations:partial$spie_expert_deception.adoc[]
+
+=== Destruction
+Expertise in combat and mayhem.
+The spie can gather expertise with weapons or field skills.
+
+include::vocations:partial$spie_expert_destruction.adoc[]
 
 == Martial Arts
 Spies have their style of fancy hand-to-hand combat.
@@ -62,50 +102,27 @@ A spie's Defence Rating (DEF) increases through dodges, parries, blocks, and rol
 This martial arts DEF is for an *unarmoured* dress like a tuxedo or bathing suit.
 This Defence Rating bonus does not improve the AR of worn armour.
 
+:art: mysterious_exit.png
+:width: 250px
+:snark: Out of the frying pan...
+:artist: Leon Bennet
+:date: 1879
+:license: CC BY-SA 4.0
+:description: Human escaping out of, or into, a room via a chandelier.
+include::ROOT:partial$articulate.adoc[]
 
-== Knowledge
-Spie knowledge is broken down into interests and expertise. 
-Interests are broad areas of interest.
-For example, an interest in infiltration would help the player making and infiltration related task rolls.
-The interest of incapacitation will assist whenever the spie is trying to incapacitate a target.
-Expertise represents deeper and more narrow area of knowledge. 
+== Tricks
+Spie tricks (gifts) are skills that the player does not need to make a task roll for. 
+The persona gets one knack at first level and more difficult ones are added at prescribed levels. 
 
-=== Interests
-Interests are broad areas of knowledge that the spie has aptitude in.
-The interests are infiltration, deception and destruction.
-Any task that the persona pursues that involves sneaking would benefit from the infiltration interest.
-The destruction interest supports any task that involve weapons or an  unwilling increase in entropy.
+include::vocations:partial$spie_tricks.adoc[]
 
-A startup the player makes 1 roll on the interests table per 3 points of INT. 
-After startup the persona gets to roll, or choose, one new interest per EXPS level. 
+== Experience
+The benefits of increasing experience levels are more tricks, improved task results, and improved combat skills. Spies earn experience points for completing tasks and role-playing within their vocation. Only 75% of combat experience can go towards a spie's experience point total.
 
-include::vocations:partial$spie_interests.adoc[]
+include::vocations:partial$spie_exps.adoc[]
 
-=== Expertise
-Spie expertise are more narrow areas of knowledge that assist the persona even more when making a task roll. 
-
-Personas get one expertise per interest at startup. 
-After startup personas may choose, or roll, for another expertise each EXPS level. 
-
-==== Infiltration Expertise
-Expertise at getting into where one should not be. 
-This expertise does not involve face to face deception, but deception of architecture and security systems.
-The player makes one roll per infiltration interest. 
-
-include::vocations:partial$spie_skills_infiltration.adoc[]
-
-==== Deception Expertise
-This area of expertise is for face to face trickery and shenanigans and manipulations. 
-
-include::vocations:partial$spie_skills_deception.adoc[]
-
-==== Destruction Expertise
-Expertise in combat and mayhem.
-The spie can gather expertise with weapons or field skills.
-
-include::vocations:partial$spie_skills_destruction.adoc[]
-
-== Skills
+== Tasks
 Spie tasks are about deception, treachery and sneaky violence.
 
 Spies have essential equipment.
@@ -257,7 +274,13 @@ Decrypt, Secret (168 + INT)::
 Disguise, Self (210)::
     Hiding appearance from self.
 
-==== Glossary
+=== List
+An alpha order of the tasks outlined above.
+
+include::vocations:partial$spie_tasks.adoc[]
+
+=== Glossary
+Some legacy terms are translated here.
 
 Picking Locks::
     Use Bypass security.
@@ -272,24 +295,6 @@ Sleight of Hand::
     Use Pilfer.
 
 
-:art: mysterious_exit.png
-:width: 250px
-:snark: Out of the frying pan...
-:artist: Leon Bennet
-:date: 1879
-:license: CC BY-SA 4.0
-:description: Human escaping out of, or into, a room via a chandelier.
-include::ROOT:partial$articulate.adoc[]
-
-=== Tricks
-Spie tricks (gifts) are skills that the player does not need to make a task roll for. 
-The persona gets one knack at first level and more difficult ones are added at prescribed levels. 
-
-include::vocations:partial$spie_tricks.adoc[]
 
 
-== Experience
-The benefits of increasing experience levels are more tricks, improved task results, and improved combat skills. Spies earn experience points for completing tasks and role-playing within their vocation. Only 75% of combat experience can go towards a spie's experience point total.
-
-include::vocations:partial$spie_exps.adoc[]
 
