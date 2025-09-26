@@ -121,25 +121,38 @@ include::vocations:partial$nomad_adaptations.adoc[]
 
 == Organizing
 Knowledge is cumulative and separatory.
-This means that an expertise in the biome Arid, Freezing, Desert Ruins, can be combined with the biome Arid, Hot, Tundra Ruins. 
 
-.Organizing Biome Expertise 
-* Arid, Freezing, Desert Ruins
-* Arid, Hot, Tundra Ruins
-* Passage, Back track
-* Passage, hidden
+.Unorganized Biome Knowledge 
+* Interest Biomes
+* Expertise Frigid desert
+* Interest Biomes
+* Expertise Frigid forest
+* Interest Biomes
+* Tropical forest
+* Interest Survival
+* Expertise Tracking
+* Interest Survival
+* Expertise Tracking
+* Interest Domesticate
+* Expertise Armoured
+* Adaptation Food Yummy
 
-.Reorganized Skills
-* Arid - 2
-* Ruins - 2
-* Passage - 2
-* Freezing - 1
-* Desert - 1
-* Back track - 1
-* Hidden - 1
+.Reorganized Knowledge
+* Interests
+** Biomes - 3
+** Survival - 2
+** Domesticate - 1
+* Expertise
+** Tracking - 2
+** Frigid desert - 1
+** Frigid forest - 1
+** Tropical forest - 1
+** Armoured - 1
+** Food Yummy - 1
 
-When attempting a skill like hidden (1) safe passage (2) in arid (2) ruins (2) the expertise is 7.
-Biome expertise is very helpful when attempting nomad skills.   
+Nomads can separate their expertise. 
+Maybe overlap is a better description.
+If the nomad were doing a task in a Frigid forest biome she would get interest 3 (biomes - 3) and expertise 4 (Frigid - 2 and Forest - 2). 
 
 == Experience
 Nomads get half experience for combat and EXPS for successful task rolls.
@@ -295,4 +308,4 @@ Domesticate, Parentalize (210)::
 
 === List
 
-include:vocations:partial$nomad_tasks.adoc[]
+include::vocations:partial$nomad_tasks.adoc[]
