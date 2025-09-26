@@ -82,13 +82,6 @@ So a nomad with Domestication 2 and Survival 1 would get 2 rolls on the Domestic
 After start up the persona gets one new expertise per experience level. 
 The player can roll on one of the expertise tables or choose a specific expertise.
 
-=== Biome
-A biome is a geographically, ecologically or socially unique location.
-The nomad is assisted for any task attempted in a familiar biome.
-Biome expertise is cumulative and assists literally any task roll 
-
-Due to space considerations the biome constructor is found at the end of this page <<_biome_constructor,Jump there>>.
-
 :art: nomad.png
 :width: 250px
 :snark: Nomads desert biome.
@@ -97,6 +90,13 @@ Due to space considerations the biome constructor is found at the end of this pa
 :license: CC BY-SA 4.0
 :description: Two humans sheltering from sun in an alien desert.
 include::ROOT:partial$articulate.adoc[]
+
+=== Biome
+A biome is a geographically, ecologically or socially unique location.
+The nomad is assisted for any task attempted in a familiar biome.
+Biome expertise is cumulative and assists literally any task roll 
+
+include::vocations:partial$nomad_expert_biomes.adoc[]
 
 === Survival
 Survival expertise is knowledge that assists the nomad in performing survival tasks. 
@@ -113,12 +113,11 @@ Remember to include biome expertise with domestication task rolls.
 
 include::vocations:partial$nomad_expert_domestication.adoc[]
 
-=== Adaptations
+== Adaptations
 The nomad's adaptations (gifts) are skills where the persona automatically succeeds.
 New adaptations are added when the persona gains more experience levels.
 
 include::vocations:partial$nomad_adaptations.adoc[]
-
 
 == Organizing
 Knowledge is cumulative and separatory.
@@ -149,10 +148,10 @@ Increasing levels allows the nomad a greater chance of survival in the wild or c
 
 include::vocations:partial$nomad_exps.adoc[]
 
-== Skills
-Nomad skills are about surviving and manipulating the environment surrounding the persona.
+== Tasks
+Nomad tasks are about surviving and manipulating the environment surrounding the persona.
 These terrains are called biomes and can be natural, industrial or residential.
-These skills  are about personal survival.
+These tasks  are about personal survival.
 
 A nomad has no essential equipment.
 Unlike any other vocation a nomad may be inhibited by survival tools like tents, or fire starters.
@@ -161,7 +160,7 @@ The referee may increase task difficulty if the nomad is glamping (glamorous cam
 For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
 === Compendium
-A non-exhaustive list of nomad skills arranged by increasing difficulty.
+A non-exhaustive list of nomad tasks arranged by increasing difficulty.
 
 Skill Example (42)::
 One line description of skill. Difficulty is in brackets. 
@@ -294,11 +293,6 @@ Track across Vacuum (210)::
 Domesticate, Parentalize (210)::
     Make flora fauna alien protect nomad like their spawn.
 
+=== List
 
-
-== Biome Constructor
-Biome tables are included here for convenience.
-
-include::aliens:partial$biome_list.adoc[]
-
-
+include:vocations:partial$nomad_tasks.adoc[]
