@@ -40,7 +40,7 @@ For more information about SOC, jump to xref:attributes:social_standing.adoc[soc
 A persona can improve her social standing by increasing her EXPS levels.
 A nothing adds 1-100 (1d100) to her social standing for each new EXPS level.
 
-=== Pulling Privilege
+=== Privilege
 A nothing persona has one main ability, and it allows her to get her way whether she deserves it or not.
 A nothing can apply social pressure on another nothing to get her way.
 Pulling privilege involves using connections, wealth or career power to get their way.
@@ -51,14 +51,12 @@ Pulling privilege does not work on personas with vocations.
 Nothings can only use this ability on other nothings for inconsequential outcomes.
 Examples of pulling privilege are using SOC to: get sports ball tickets, jump the queue, university admission, or hairstylist appointment.
 
-== Net Worth
-Nothings also have a monetary net worth that is calculated completely differently from other vocations.
+=== Worth
+Nothings also have a monetary worth that is calculated completely differently from other vocations.
 Personas in other vocations are more focused on their vocation than their remuneration. 
 Nothings are the opposite of this.
 They measure their self worth by their net worth.
-The nothing's net worth is calculated at startup after all abilities are generated. 
 
-=== Calculation
 Personas in the nothing vocation start with a lump of material value.
 This wealth is never an artifact or useful device.
 The source of wealth is usually limited to the persona's home.
@@ -86,7 +84,7 @@ While there are nothing interests and expertise these are generally not useful t
 However, nothings can get the expedition access to funding or make connections.
 All of these focus on the nothing moving ahead in their culture. 
 
-=== Interests
+== Interests
 There are three nothing interests: career, homes, and privilege.
 Career interest will assist the player with any task rolls she makes related to her persona's career.
 The home interest is similar to a biome, but only allows them to exercise their privilege within that home.
@@ -99,7 +97,7 @@ After startup the persona may roll or choose an additional interest for each new
 
 include::vocations:partial$nothing_interests.adoc[]
 
-=== Expertise 
+== Expertise 
 Nothing expertise can represent past job experience, places of habitation, or pure displays of privilege.
 Even though nothing knowledge seems counter intuitive interests and expertise help the nothing persona with their task rolls. 
 
@@ -117,7 +115,7 @@ The player can roll on one of the expertise tables or choose a specific expertis
 :description: Feline humanoid dressed in a suit and tie.
 include::ROOT:partial$articulate.adoc[]
 
-==== Career Expertise
+=== Career
 A nothing's career is not a vocation.
 The persona's career may be something that they talk about a lot, but it has no value to expedition survival.
 It will be a rare circumstance when a nothing can use her career to aid the expedition.
@@ -126,20 +124,20 @@ A nothing can pursue greatness in her nothing career.
 However, her social standing solely determines her career success and nothing else.
 A nothing may aim to become the best chef in the city, an accountant, or the fastest cage cleaner.
 
-include::vocations:partial$nothing_skills_career.adoc[]
+include::vocations:partial$nothing_expert_career.adoc[]
 
-==== Home Expertise
+=== Home
 Nothings are not from nowhere.
 The nothing home is like a cultural biome.
 A home is where the persona's social standing and wealth have the most influence.
 A nothing vocation can have multiple homes.
 
-include::vocations:partial$nothing_skills_homes.adoc[]
+include::vocations:partial$nothing_expert_homes.adoc[]
 
-==== Privilege Expertise
+=== Privilege
 These are narrow areas of knowledge that nothings can use to push their privilege and meritless advancement. 
 
-include::vocations:partial$nothing_skills_privilege.adoc[]
+include::vocations:partial$nothing_expert_privilege.adoc[]
 
 :art: sack_of_luchre.png
 :width: 250px
@@ -150,7 +148,55 @@ include::vocations:partial$nothing_skills_privilege.adoc[]
 :description: Pleather bag with draw string and coins spilling out.
 include::ROOT:partial$articulate.adoc[]
 
-== Skills 
+== Pulls 
+These are the gifts that allow the nothing function in her home setting.
+Pulls have little or no impact on the expedition's lofty goals, but certainly can help.
+
+include::vocations:partial$nothing_pulls.adoc[]
+
+== Experience
+Nothings gain experience points by earning money.
+Nothings only get 10% of combat experience.  
+Nothings are the only vocation that earns EXPS from money.
+A nothing earns 1 EXPS for every 100 eps made.
+Earned money is monies collected from life-threatening exploration.
+Earned does not include gifts, stipends, grants, awards, or risk-free salaries.
+
+=== Career Nothing
+
+[discrete]
+=== Nothing EXPS for EPS
+.1 EXPS per 100 eps
+****
+A nothing who earns 1k adds 10 EXPS to her EXPS Total.
+****
+
+The persona only gains nothing EXPS levels if the player has chosen this as her persona's sole vocation.
+If the player has chosen to pursue nothing as her persona's vocation, she increases EXPS levels as she earns experience. 
+Each new EXPS level increases the persona's SOC and adds a new home.
+
+The persona does *not* use these EXPS levels if she has a vocation aspiration.
+
+include::vocations:partial$nothing_exps.adoc[]
+
+=== Vocation Aspiration
+A nothing can pursue a full-fledged vocation if the player desires.
+The player can declare her nothing persona to have a vocation aspiration at any time.
+However, it is best to make a vocation aspiration clear when the persona is created.
+
+Instead of using EXPS to gain experience levels, the player pools her  EXPS to pursue her preferred vocation.
+The nothing persona vocation aspiration allows a player to pursue a vocation even if her persona lacks the attributes.
+Vocation aspiration cannot bypass the attribute requirements for the knite vocation.
+
+NOTE: a persona with  vocation aspiration present while earning pooled EXPS. 
+
+A nothing persona aspiring to become a mercenary must collect 18001 EXPS to become a mercenary persona.
+Once she has earned those 18042 EXPS, she becomes a first level mercenary.
+The persona leaves the nothing vocation behind and becomes a full-fledged mercenary with 0 EXPS.
+
+include::vocations:partial$nothing_aspiration_exps.adoc[]
+
+== Tasks 
 Nothing tasks are about surviving in the social fabric of wealth, fame and luxury.
 Nothing tasks do not really exist, as they offer nothing of worth to the expedition.
 
@@ -158,7 +204,7 @@ The essential equipment for a nothing is any useless item of arbitrary value.
 This could be a some cash, a credit card or a vacation souvenir.
 The referee may make a target roll more difficult if the nothing has nothing.
 
-For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
+For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[Task Rolls].
 
 === Compendium 
 A non-exhaustive list of nothing skills arranged by increasing difficulty.
@@ -224,52 +270,7 @@ Venture Capital (168)::
 Quick Fix (210)::
     Heal 1d6 HPS. 
 
+=== List
+An alpha order list of the tasks described above.
 
-=== Pulls 
-These are the gifts that allow the nothing function in her home setting.
-Pulls have little or no impact on the expedition's lofty goals, but certainly can help.
-Pulls are not chosen by the player and are granted to the persona as she acquires nothing EXPS levels.
-
-include::vocations:partial$nothing_pulls.adoc[]
-
-== Experience
-Nothings gain experience points by earning money.
-Nothings only get 10% of combat experience.  
-Nothings are the only vocation that earns EXPS from money.
-A nothing earns 1 EXPS for every 100 eps made.
-Earned money is monies collected from life-threatening exploration.
-Earned does not include gifts, stipends, grants, awards, or risk-free salaries.
-
-=== Career Nothing
-
-[discrete]
-=== Nothing EXPS for EPS
-.1 EXPS per 100 eps
-****
-A nothing who earns 1k adds 10 EXPS to her EXPS Total.
-****
-
-The persona only gains nothing EXPS levels if the player has chosen this as her persona's sole vocation.
-If the player has chosen to pursue nothing as her persona's vocation, she increases EXPS levels as she earns experience. 
-Each new EXPS level increases the persona's SOC and adds a new home.
-
-The persona does *not* use these EXPS levels if she has a vocation aspiration.
-
-include::vocations:partial$nothing_exps.adoc[]
-
-=== Vocation Aspiration
-A nothing can pursue a full-fledged vocation if the player desires.
-The player can declare her nothing persona to have a vocation aspiration at any time.
-However, it is best to make a vocation aspiration clear when the persona is created.
-
-Instead of using EXPS to gain experience levels, the player pools her  EXPS to pursue her preferred vocation.
-The nothing persona vocation aspiration allows a player to pursue a vocation even if her persona lacks the attributes.
-Vocation aspiration cannot bypass the attribute requirements for the knite vocation.
-
-NOTE: a persona with  vocation aspiration present while earning pooled EXPS. 
-
-A nothing persona aspiring to become a mercenary must collect 18001 EXPS to become a mercenary persona.
-Once she has earned those 18042 EXPS, she becomes a first level mercenary.
-The persona leaves the nothing vocation behind and becomes a full-fledged mercenary with 0 EXPS.
-
-include::vocations:partial$nothing_aspiration_exps.adoc[]
+include::vocations:partial$nothing_tasks.adoc[]
