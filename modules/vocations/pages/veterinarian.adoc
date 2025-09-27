@@ -77,29 +77,28 @@ The skills are quite specific and fall under one of the three interests describe
 The player makes one roll on the skill table per interest generated. 
 A new skill is acquired at each new experience level.
 
-=== Diagnostic Expertise
+=== Diagnostic
 Diagnostic expertise is more narrow and assists with task rolls that fit into the expertise. 
 An expertise in aging would assist any task roll that involves aging.
 
-include::vocations:partial$veterinarian_skills_diagnostics.adoc[]
+include::vocations:partial$veterinarian_expert_diagnostics.adoc[]
 
-=== Treatment Expertise
+=== Treatment
 Treatment expertise represent knowledge that helps repair, or stabilize an ailing persona. 
 A trauma expertise would help when treating any injuries.
 
-include::vocations:partial$veterinarian_skills_treatment.adoc[]
+include::vocations:partial$veterinarian_expert_treatment.adoc[]
 
-==== Research Expertise
+==== Research
 Research expertise represents a collection of narrow foci outside of the realm of treatment and diagnosis.
 Research expertise can assist with enhancements, cybernetics, new pharma, or new previously unknown processes.
 
-include::vocations:partial$veterinarian_skills_research.adoc[]
+include::vocations:partial$veterinarian_expert_research.adoc[]
 
-
-== Skills
-Skills are things that the persona does. 
-The player uses her persona knowledge to improve the chance of completing a skill.
-The persona can have special skills called gifts that they automatically succeed at. 
+== Tasks
+Tasks are things that the persona does. 
+The player uses her persona knowledge to improve the chance of completing a task.
+The persona can have special tasks called gifts that they automatically succeed at. 
 Veterinarian gifts are called approaches. 
 
 Veterinarian tasks involve healing anything organic.
@@ -109,12 +108,22 @@ The referee may make a target roll more difficult if the veterinarian does not h
 
 For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
-//
-// when the compendium is extended do not forget biologist_tasks.adoc table 
-//
+== Approaches
+Approaches (gifts) are the inherent talents that define the persona as a veterinarian.
+The player does not have to roll to succeed with an approach.
+An approach happens immediately unless combat time is activated.
+
+include::vocations:partial$veterinarian_approaches.adoc[]
+
+== Experience
+The benefits of increasing experience levels are more skills, improved task roll bonus, and additional approaches.
+Veterinarians earn experience points for completing tasks and role-playing within their vocation.
+Only 10% of combat experience can go towards a vet's experience point total.
+
+include::vocations:partial$veterinarian_exps.adoc[]
 
 === Compendium
-A non-exhaustive list of veterinarian skills arranged by increasing difficulty.
+A non-exhaustive list of veterinarian tasks arranged by increasing difficulty.
 
 Skill Example (42)::
 One line description of skill. Difficulty is in brackets. 
@@ -170,7 +179,6 @@ Poison Arrest (56)::
 
 Heal 50 (50)::
     Restore to 50% HPM. Uncombat only. 
-
 
 ==== Hard
 Autopsy, Diagnostic (84)::
@@ -265,18 +273,8 @@ Pharma Creation (242)::
 Aging Stagnation (242)::
     Arrest aging effect. One at a time.
 
+=== List
+An alpha ordered list of tasks from above.
 
-=== Approaches
-Approaches (gifts) are the inherent talents that define the persona as a veterinarian.
-The player does not have to roll to succeed with an approach.
-An approach happens immediately unless combat time is activated.
+include::vocations:partial$veterinarian_tasks.adoc[]
 
-include::vocations:partial$veterinarian_approaches.adoc[]
-
-
-== Experience
-The benefits of increasing experience levels are more skills, improved task roll bonus, and additional approaches.
-Veterinarians earn experience points for completing tasks and role-playing within their vocation.
-Only 10% of combat experience can go towards a vet's experience point total.
-
-include::vocations:partial$veterinarian_exps.adoc[]
