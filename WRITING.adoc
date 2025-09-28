@@ -1,0 +1,94 @@
+= PROJECT Style Quirks
+
+EXP is the game of technological chaos. It is a sciency fiction traditional role playing game. It is meant to be played at an actual table with real people interacting in person. 
+This files in this project are adoc files intended for an antoradocs build to create the webpage http://rules.expgame.com
+
+== Neologisms
+EXP has many made up words that impart silliness and point of difference. 
+Please use GB and CA spelling.
+This has been outlined in CSPELL.
+
+Please use cspell-custom-words.txt located in .vscode in the root directory
+
+here is another list
+* Canadian spelling: use "armour" and "defence" (not "armor", "defense").
+* Use "lazer" instead of "laser".
+* Use "maneuver" instead of "manoeuvre" (clarity over CA/GB norm).
+* Use "hi-tech" and "lo-tech" as house neologisms (preferred over "high-tech/low-tech" or "hi tech/lo tech").
+* Use "uncombat" (no hyphen) as a house neologism; do not change to "un-combat".
+* Use "Sciency Fiction" instead of "science fiction".
+* Capitalize and use the named spaces: "Think Space", "Hyper Space", and "Cyber Space".
+* Use "hite" for height and "wate" for weight.
+* role playing should be role-playing everywhere
+* Knite and Anti-Knite are correct capitalization
+* Use Kirlian (capitalized) for Kirlian energy, aura, etc.
+* exatmo is for exterior to atmosphere and is
+* inatmo is for inside atmosphere
+* zog is for zero g or zero gravity
+* spie is for spy
+* earth is referred to as Mundane Terra, it's people mundane Terrans
+* she is used instead of he and they. this is a legacy anomaly.
+* Sotto and sotto for semi auto usually regarding a weapon
+* Flotto and flotto for full auto usually regarding a weapon
+
+
+
+== Grammar
+Please review for gross grammatical errors.
+Ignore style concerns or awkward grammar.
+Only point out structural errors and typos please.
+I have a huge problem with passive voice, please point out passive voice problems. 
+
+== Game Terms
+Capitalize defined EXP mechanics and column names when referenced in prose.
+
+.Capitalize when referring to specific mechanics
+* Skilled, Unskilled, Max Roll, Force (as attack table terms)
+
+.Lowercase when generic
+* maximum roll (generic phrase), skilled play (non-term usage)
+
+== Typographic Quotes
+Authors should use curly/typographic quotes and apostrophes in source files for best output quality.
+
+.Quotes and apostrophes
+* Use ’ for apostrophes (expedition’s), not '
+* Use “ ” for double quotes, not "
+* Use ‘ ’ for single quotes, not '
+* Prose only: apply to narrative text meant for readers.
+* Exclude markup, code, and identifiers: do not change quotes/apostrophes inside include directives, xrefs/links/URLs, file paths, attribute names/values, code or literal blocks, or IDs/anchors.
+* If you pasted straight quotes, please smarten them during editing.
+
+== Error Presentation
+Do not change the file being worked on.
+Only present errors in the chat window.
+List them in order of appearance in the file. 
+Format each error as follows.
+
+.format of error presentation
+* line number of error, with type of error
+** LINE 42: typo or plural mismatch etc
+* the error preceded by the word ERROR
+** ERROR: limply perceives todanked.
+* the correction with no quotes
+** REPAIR: Limply Percival toed the tanker.
+* do not use quotes around the ERROR or REPAIR 
+* please put a space between  each error
+
+== Asciidoc 
+All the files are .adoc files 
+Please do not change spellings inside includes, images or other antoradoc calls without checking first
+The files are structure for antoradocs web builds so some includes are formulated differently.
+If an include is encountered it is okay to recursively check the spelling in that adoc
+
+.adoc ignore list
+* include::ROOT:partial$articulate.adoc[] immediately follows an attribute block without a separating blank line
+* :license: CC BY-SA 4.0 okay with wrong spelling would have to change it 400 times.
+
+== Do not change files
+Please do not change files unless explicitly asked to.
+
+== Output an error file 
+
+print out the list of errors created into a file called error_erase.txt 
+If there is an existing error_erase.txt over write it with the new version
