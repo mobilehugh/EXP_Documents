@@ -11,7 +11,7 @@ ____
 :artist: Michael Jackson
 :date: 1992
 :license: CC BY-SA 4.0
-:description: Humanoid warthog picking the lock on a wall safe. 
+:description: Humanoid warthog picking the lock on a wall safe.
 include::ROOT:partial$articulate.adoc[]
 
 Spies are masters of deception, infiltration and targeted violence.
@@ -23,9 +23,9 @@ It is hard to distinguish the bad from the not-so-bad in the realm of violent es
 Spies are an excellent source of dangerous assignments (from governments, corporations, societies or private citizens).
 Spies are not dependent on a commission and may carry out a little extortion or kidnapping for their own profit (or fun).
 Spies are often members of secret guilds or naughty lodges dedicated to the clandestine arts.
-How deeply involved the expedition gets with a spie's source depends on the ref's milieu or scenario set up.
+How deeply involved the expedition gets with a spie's source depends on the milieu of the campaign.
 
-For campaigns using vocation attribute requirements.
+For campaigns using vocation attribute requirements:
 Total of the following attributes--AWE, CHA, CON, DEX, INT, MND and STR--must meet or beat 92.
 
 == Knowledge
@@ -33,39 +33,41 @@ Spie knowledge is broken down into interests, expertise and martial arts.
 Interests are broad areas of interest.
 For example, an interest in infiltration would help the player making an infiltration related task rolls.
 The interest of incapacitation will assist whenever the spie is trying to incapacitate a target.
-Expertise represents deeper and narrower area of knowledge. 
+Expertise represents a deeper and narrower area of knowledge. 
 
 == Interests
-Interests are broad areas of knowledge that the spie has aptitude in.
+Interests are broad areas of knowledge in which the spie has aptitude.
 The interests are infiltration, deception and destruction.
 Any task that the persona pursues that involves sneaking would benefit from the infiltration interest.
 The destruction interest supports any task that involves weapons or an unwilling increase in entropy.
 
-A startup the player makes 1 roll on the interests table per 3 points of INT. 
+At startup, the player makes 1 roll on the interests table per three points of INT. 
 After startup, the persona gets to roll, or choose, one new interest per EXPS level. 
 
 include::vocations:partial$spie_interests.adoc[]
 
 == Expertise
-Spie expertise are narrow areas of knowledge that assist the persona even more when making a task roll. 
+Spie expertise are narrow areas of knowledge that assist the persona when making a task roll.
+Expertise is narrower than an interest and is less likely to apply to a task.
+However, when an expertise does apply is helps the task roll more than an interest does.
 Personas get one expertise per interest at startup. 
 After startup, personas may choose, or roll, for another expertise each EXPS level. 
 
 === Infiltration
-Expertise in getting into where one should not be. 
+Expertise in getting into places where one should not be. 
 This expertise does not involve face-to-face deception, but the deception of architecture and security systems.
 The player makes one roll for each infiltration interest. 
 
 include::vocations:partial$spie_expert_infiltration.adoc[]
 
 === Deception
-This area of expertise is for face to face trickery and shenanigans and manipulations. 
+This area of expertise is for face-to-face trickery, shenanigans, and manipulations. 
 
 include::vocations:partial$spie_expert_deception.adoc[]
 
 === Destruction
 Expertise in combat and mayhem.
-The spie can gather expertise with weapons or field expertise.
+The spie can gain expertise with weapons or field techniques.
 
 include::vocations:partial$spie_expert_destruction.adoc[]
 
@@ -78,12 +80,13 @@ Martial arts attacks do not use weapons and are effective only against targets i
 include::vocations:partial$spie_martial_arts.adoc[]
 
 Attack Bonus::
-The player uses the tasked Strike attack on the attack roll.
-Martial arts does not get to use the force bonus on damage. 
+When using martial arts the player uses the Strike - Skilled portion of the attack table. 
+It is presumed the persona is proficient in their martial arts attacks. 
+Martial arts attacks *do not use Force bonus* on damage. 
 
 Attack Order::
 The attack order is the secret sauce of spie martial arts.
-The attack order allows experienced spies to get an attack roll in before and during their opponent's attacks.
+The attack order allows experienced spies to make an attack roll before and during their opponents’ attacks.
 The attack order supersedes initiative.
 
 .*Martial Arts Attack Order*
@@ -91,11 +94,11 @@ The attack order supersedes initiative.
 * During - attack roll during opponent attack regardless of initiative
 * Normal - normal initiative and attack roll timing.
 
-If two spies are using martial arts tied attacks (like both have before attacks) use initiative between the spies. 
+If two spies have tied martial arts attacks (for example, both have Before), use initiative between the spies. 
 
 Attack Damage::
 An attack roll win delivers the listed damage.
-The player does not use force bonus when using martial arts. 
+The player does not use the Force bonus when using martial arts.
 
 Defence Bonus::
 A spie's Defence Rating (DEF) increases through dodges, parries, blocks, and rolls.
@@ -112,7 +115,7 @@ This Defence Rating bonus does not improve the AR of worn armour.
 include::ROOT:partial$articulate.adoc[]
 
 == Tricks
-Spie tricks (gifts) are tasks that the player does not need to make a task roll for. 
+Spie tricks (gifts) are tasks the player does not need to make a task roll for.
 The persona gets one knack at first level and more difficult ones are added at prescribed levels. 
 
 include::vocations:partial$spie_tricks.adoc[]
@@ -157,7 +160,7 @@ Spie tasks are about deception, treachery and sneaky violence.
 Spies have essential equipment.
 A spie must have some element of deception in their persona equipment.
 Deceptive equipment includes a pair of dark sunglasses, a fake ID or a trench coat.
-The referee may make a target roll more difficult if the spie no tools of deception.
+The referee may make a target roll more difficult if the spie has no tools of deception.
 
 For the intricate details of how to resolve tasks in EXP xref:uncombat:task_rolls.adoc[jump here].
 
@@ -184,14 +187,14 @@ Disguise, Planned (24 + AWE)::
 Bypass, Low Tech (24)::
     Get past security measures. Less than tech level 10. 
 
-Sneak, In Crowd (24)::
+Sneak, Crowded (24)::
     Move self around without being noticed in a crowd.
 
 Encrypt (24)::
     Make data hard to read for others. 
 
 Decrypt, Low Tech (24)::
-    Read encrypted data in low tech (<10).
+    Read encrypted data in lo-tech (<10).
 
 Forgery, Low Tech (24)::
     Create fake document in tech level <9.
@@ -215,7 +218,7 @@ Disguise, Fast (42 + AWE)::
 Lying (42 + MND)::
     Falsification without tells. 
 
-Bypass, Mundane (42):: 
+Bypass, Mundane (42)::
     Get past security measures. Tech level 10-14.
 
 Stun, Surprise (42 + CON)::
@@ -249,11 +252,11 @@ Disguise, Known (84 + AWE)::
 Bypass, Secure (84)::
     Get past security measures. Tech level 15-19.
 
-Sneak, Security(84)::
+Sneak, Security (84)::
     Move self around without being noticed in a secure location.
 
 Incapacitate (84 + AWE + LEVEL)::
-    Requires total surprise. Successful attack roll. Ranged attack. 
+    Requires a successful ambush and attack roll.
 
 Stun, Combat (84 + CON + LEVEL)::
     Successful attack roll.
@@ -284,7 +287,7 @@ Decrypt, High Tech (126)::
     Read encrypted data. Tech level 20 and up.
 
 Forgery, Secure (126)::
-    Create a fake document.  Tech level 20 and up.
+    Create a fake document. Tech level 20 and up.
 
 ==== Impossible
 Case, High Tech (168)::
@@ -299,7 +302,7 @@ Disguise, Family (168 + AWE)::
 Decrypt, Secret (168 + INT)::
     Read professionally encrypted data.
 
-==== Bizarre 
+==== Bizarre
 Disguise, Self (210)::
     Hiding appearance from self.
 
@@ -318,7 +321,7 @@ Picking Pockets::
     Use Pilfer.
 
 Trap Removal::
-    Use Bypass Security.
+    Use Bypass security.
 
 Sleight of Hand::
     Use Pilfer.
