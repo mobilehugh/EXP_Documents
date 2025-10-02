@@ -90,33 +90,47 @@ include::vocations:partial$vocation_selection_example.adoc[]
 
 == Knowledge
 A vocation's knowledge represents things that the persona knows. 
+The knowledge base of the vocation represents it's literal definition.
 Knowledge is split into two parts: interests and expertise. 
-A persona is more likely to have expertise that is related to the persona's interests, and those interests reflect the vocation.
+Each vocation has tables devoted to knowledge this would inform that vocation.
+A veterinarian has knowledge around healing, and a mercenary has knowledge around combat.
+This does not mean that there are some overlapping knowledge.
 
-Knowing how to sharpen a knife is knowledge, actually sharpening the knife is a task. 
-Interests and expertise are combined to help with tasks. 
-Each persona gets a collection of interests and expertise at first level and adds more as they gain experience. 
+Knowledge is not limited to book knowledge.
+Some of the knowledge is definitely about how to do things. 
+Recalling details about alien anatomy is knowledge, and being skilled at cutting meat cakes is also knowledge.
+Knowing how to sharpen a knife is knowledge, but actually sharpening the knife is a task.
+Without getting over philosophical: anything that assists a player's roll in succeeding at a task is knowledge.
+
+There are two areas of knowledge: interest and expertise. 
+Each vocation has dedicated interest and expertise tables.
+The player can roll randomly on, or select from, these tables.
+Players can also create bespoke knowledge, but this is only recommended for experienced play tables. 
 
 === Interests
-Interests are broad areas of knowledge. 
-For example, research is an interest. 
+Interests are broad areas of knowledge.
+For example, research is an interest.
 Typical areas of interest are research, repair, and combat, etc.
 Interests are wide in scope by design and can be used to assist all kinds of tasks. 
 
-A biologist may be interested in taxonomy (which will help identify aliens), or culture (which will help them understand a cultural). 
-A mechanic can have an interest in repairs which will help her fix things. 
-A nothing may have an interest in careers, which will help her with career related tasks. 
+A biologist may be interested in taxonomy (which will help identify aliens), or culture (which will help them understand a culture).
+A mechanic can have an interest in repairs which will help her fix things.
+A nothing may have an interest in careers, which will help her with career related tasks.
 
-Interests are cumulative and a nomad may have survival 3 interest. 
-This indicates lots of knowledge about survival, and improves the chance of success on survival tasks. 
+Interests are cumulative and a nomad may have survival 3 interest.
+This indicates lots of knowledge about survival, and improves the chance of success on survival tasks.
 
 Interests are vocation specific, and are randomly assigned or chosen by the player. 
 A persona gets new interests with increasing experience levels.
 
 === Expertise
-Expertise is specific knowledge. 
-Expertise usually has a concise description like: pistols, cloning, tracking. 
-They are narrow in scope by design, and can be used to assist tasks.
+Expertise is more specific knowledge. 
+They are narrow in scope.
+An expertise usually has a concise description like: pistols, cloning, tracking. 
+Expertise knowledge can only use be for specific tasks. 
+However, this knowledge is much more helpful when making task roles. 
+A persona with a combat interest can use that knowledge in any combat situation.
+If the persona had pistol expertise she could only use that knowledge when the task is pistol related.
 
 A spie can have expertise in bribery
 A veterinarian can have expertise in trauma.
@@ -132,12 +146,13 @@ For example, a veterinarian has the gift of Quick Fix.
 This allows her to immediately heal her colleague a small amount. 
 A mercenary has the gift of ambidextrous combat with swords. 
 This allows her to use two swords without making the task roll. 
-The gifts are inherent understandings that the persona has. 
 As the persona advances in her vocation she can add more gifts. 
 
 The player can create a bespoke task as a gift.
 If the desired gift does not exist as a vocation task the player table and referee must vet the gift.
 The existing task lists for the vocation should be used to guide de novo gifts. 
+
+NOTE:: Alternate names for gifts have been removed. Below is for flavour and fun.
 
 Each vocation has it's own silly name for their gifts. 
 If a player refers to her persona's task roll as a gift that should be understood. 
@@ -155,14 +170,21 @@ For example, assassination can only be attempted by a spie, and a mercenary woul
 NOTE: A task can be skill, a procedure, a concept, an action. 
 
 The persona's interests, expertise and experience level determine how well the persona performs at a task.
-Initially some tasks will be out of reach as the player could not beat the difficulty easily. 
-Persona's are welcome to try anything.
+Initially some tasks will be out of reach as the player could not beat the listed difficulty.
+For the intricate details of how to resolve tasks in EXP jump to xref:uncombat:task_rolls.adoc[Task Rolls].
 
 === Compendium
 Each vocation has a compendium of tasks that are appropriate for the vocation. 
+The compendium is organized by task difficulty. 
+The explanations of tasks in the compendium is limited on purpose.
+
 It is expected that the player will record some of the key tasks from the compendium on the persona record. 
 The compendium is not exhaustive and it is expected that the table will have tasks that are not listed.
-These tasks may become tasks that the persona has or be disposable one offs. 
+
+=== List
+The task list is organized by vocation.
+It is a list of tasks in alphabetical order.
+In all other respects it should have the same info as the compendium.
 
 == Role-Playing
 The persona should have at least a keen interest, or possibly an obsession, with her vocation.
