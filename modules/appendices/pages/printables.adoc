@@ -5,18 +5,16 @@ ____
 *It is harder to burn history than delete it.*
 ____
 
-
-
 // FIXME bureaucracy bot is gone
 
 EXP is a tabletop Sciency Fiction role-playing game.
 Printables is the section where you can get the files for printing the necessary stuff to play.
 If you are feeling old school you can snag a copy of EXP v4. 
-If you only have 6 sided dice to use you can snag a 4D2 Mechanic One Pager. 
+If you only have 6 sided dice to use you can snag a 4D2 Mechanic one-pager. 
 
-All version 7 PDFs will have their accompanying docs as code ADOC companion downloadable as well.
-An ADOC file is a markdown file that can be converted into a PDF using Asciidoc-pdf tools. 
-Not only does this stay in EXP's docs as code goals, but allows players to style their PDFs as they see fit. 
+All version 7 PDFs include an accompanying docs‑as‑code ADOC companion download as well.
+An ADOC file is a markdown file that can be converted into a PDF using asciidoctor-pdf tools. 
+This supports EXP’s docs‑as‑code goals and lets players style their PDFs as they see fit. 
 All the tools are free and open source.
 
 
@@ -25,6 +23,12 @@ A collection of PDFs that are used to keep track of personas, and stuff, with pe
 Download, print and play.
 We don't need to kill a tree.
 Try the open source PDF tool https://xournalpp.github.io/[Xournal, window="_blank"].
+
+
+// ***********
+// LATEST PDFs
+// ***********
+
 
 .*Latest PDFs*
 [width="100%",cols="<2,<3",frame="all", stripes="even"]
@@ -37,27 +41,24 @@ Try the open source PDF tool https://xournalpp.github.io/[Xournal, window="_blan
 s|Download
 s|Comment
 
-|xref:ROOT:attachment$anthro_record_2025_0408.pdf[Anthro Record, window="_blank"]
+|xref:ROOT:attachment$anthro_portrait_2025_1008.pdf[Anthro Record, window="_blank"]
 |PDF, letter sized, portrait
 
-|xref:ROOT:attachment$anthro_record_land_2025_0408.pdf[Anthro Record Landscape, window="_blank"]
-|PDF, letter sized, landscape (hard to make :o)
-
-|xref:ROOT:attachment$alien_record_2025_0408.pdf[Alien Record, window="_blank"]
+|xref:ROOT:attachment$alien_portrait_2025_1008.pdf[Alien Record, window="_blank"]
 |PDF, letter sized, portrait
 
-|xref:ROOT:attachment$robot_record_2025_0416.pdf[Robot Record, window="_blank"]
+|xref:ROOT:attachment$robot_portrait_2025_1008.pdf[Robot Record, window="_blank"]
 |PDF, letter sized, portrait
 
 2+^|Other Records
 
-|xref:ROOT:attachment$spacer_record_2025_0401.pdf[Spacecraft Record, window="_blank"]
+|xref:ROOT:attachment$spacer_portrait_2025_1008.pdf[Spacecraft Record, window="_blank"]
 |Spacecraft details, PDF, letter sized, portrait
 
-|xref:ROOT:attachment$note_sheet_2025_0408.pdf[Note Taking Sheet, window="_blank"]
+|xref:ROOT:attachment$note_sheet_2025_1008.pdf[Note Taking Sheet, window="_blank"]
 |Sheets for stories, PDF, letter sized, portrait
 
-|xref:ROOT:attachment$toy_sheet_2025_0408.pdf[Toy Info Sheet, window="_blank"]
+|xref:ROOT:attachment$toy_sheet_2025_1008.pdf[Toy Info Sheet, window="_blank"]
 |Sheets for toys, PDF, letter sized, portrait
 
 |xref:ROOT:attachment$role_playing_one_pager_v7.pdf[Role-Playing Game (one pager), window="_blank"]
@@ -65,32 +66,80 @@ s|Comment
 
 2+^|Build your own
 
-|xref:ROOT:attachment$adoc_to_pdf_2025_0416.zip[Build your own zip, window="_blank"]
-|zip of adocs, svgs, ymls for building above in asciidoctor-pdf (126K)
+|xref:ROOT:attachment$adoc_to_pdf_2025_1008.zip[Build your own zip, window="_blank"]
+|Zip file of ADOCs, SVGs, YMLs and PDFs  (126K)
 
 s|Download
 s|Comment
 
 2+<|All licensed by Hugh MacLeod under CC BY-SA 4.0.
 
-2+<|Al files are less than 1M in size. 
+2+<|All files are less than 1M in size. 
 
 |===
 
 === Build Your Own 
-For those with individual needs and better layout skills.
+PDFs are the only way to properly print out persona records for face to face table play. 
+Ultimately it would be nice that these PDFs could be fillable by the players directly.
+This exceeds the skill set and patience of the author at this time. 
+Keeping in mind that avoiding proprietary software is an important part of this enterprise. 
+
+This is made available for those who wish to alter their persona records.
+The author does not pretend to have any graphic design skills. 
+
+File the file at https://rules.expgame.com/appendices/printables.html[Printables at EXP Game, window="_blank"]
+
+Nomenclature of the files is described here.
+yyyy refers to the year, like 2025.
+mmdd refers to the 2 digit month (mm) and the 2 digit day (dd).
+So the adoc_to_pdf zip released on April 20th 2024 would be adoc_to_pdf_2025_0420.zip.
+This dating format is also applied to adoc files and pdf files. 
+
+.*Contents of adoc_to_pdf_yyyy_mmdd.zip*
+. /styling folder
+.. contains yml themes
+.. contains the svg files
+. /PDF folder
+.. pdf files of the latest printouts (for convenience)
+. adoc files that can be converted to PDFs
+.. this is folder in which to run asciidoctor-pdf
+
+.*Let's just print some PDFs*
+. download and unzip folder adoc_to_pdf_yyyy_mmdd.zip
+. navigate to the created folder (adoc_to_pdf_yyyy_mmdd)
+. navigate to the PDF folder
+. print 'em out
+.. these may differ from built PDFs
+.. double sided long edge works best
 
 .*Steps for building PDFs*
-. download and unzip folder adoc_to_pdf_xxxx_xxxx.zip
 . install asciidoc-pdf (a gem file)
-.. https://docs.asciidoctor.org/pdf-converter/latest/install/[install instructions, window="_blank"]
-. asciidoctor-pdf -a pdf-theme=styling/your_theme.yml your_file-adoc
-.. will likely create a your_file.pdf
+.. https://docs.asciidoctor.org/pdf-converter/latest/install/[asciidoctor install instructions, window="_blank"]
+. download and unzip folder adoc_to_pdf_yyyy_mmdd.zip
+. navigate to the created folder (adoc_to_pdf_yyyy_mmdd)
+. run asciidoctor-pdf -a pdf-theme=styling/desired_theme.yml desired_file.adoc
+.. anthro: asciidoctor-pdf -a pdf-theme=styling/theme_portrait.yml anthro_portrait_yyyy_mmdd.adoc
+.. alien: asciidoctor-pdf -a pdf-theme=styling/theme_portrait.yml alien_portrait_yyyy_mmdd.adoc
+... uses same theme as anthro
+.. robot: asciidoctor-pdf -a pdf-theme=styling/them_portrait_robot.yml robot_portrait_yyyy_mmdd.adoc
+.. alien: asciidoctor-pdf -a pdf-theme=styling/theme_alien_landscape.yml alien_landscape_yyyy_mmdd.adoc
+... alien landscape is used for alien arena to save space on the table
+. above patterns should be enough to sort out most others. 
 
-TIP::
-----
-The Build your own zip file has a copy of every recent PDF.
-----
+For those with individual needs and better layout skills.
+
+.*Steps for editing ADOCs*
+. download and unzip folder adoc_to_pdf_yyyy_mmdd.zip
+. navigate to the created folder (adoc_to_pdf_yyyy_mmdd)
+. open adoc files in a TEXT editor, because every character counts 
+. https://docs.asciidoctor.org/asciidoc/latest/[how to asciidoc, window="_blank"]
+. go to above for printing out your beautiful new PDFs.
+
+
+If you don't want to print stuff out and don't want to use a virtual table top. https://xournalpp.github.io/[xournal] is an open source markup tool. 
+
+
+TIP:: The Build your own zip file has a copy of every recent PDF.
 
 
 == Historical
@@ -134,6 +183,30 @@ s|Comment
 
 |xref:ROOT:attachment$anthro_record_2025_0114.pdf[anthro_record_2025_0114.pdf, window="_blank"]
 |Anthro Record from (2025)
+
+|xref:ROOT:attachment$anthro_record_2025_0408.pdf[anthro_record_2025_0408.pdf, window="_blank"]
+|PDF, letter sized, portrait
+
+|xref:ROOT:attachment$anthro_record_land_2025_0408.pdf[anthro_record_land_2025_0408, window="_blank"]
+|PDF, letter sized, landscape (hard to make :o)
+
+|xref:ROOT:attachment$alien_record_2025_0408.pdf[alien_record_2025_0408.pdf, window="_blank"]
+|PDF, letter sized, portrait
+
+|xref:ROOT:attachment$robot_record_2025_0416.pdf[robot_record_2025_0416.pdf, window="_blank"]
+|PDF, letter sized, portrait
+
+|xref:ROOT:attachment$spacer_record_2025_0401.pdf[spacer_record_2025_0401.pdf, window="_blank"]
+|Spacecraft details, PDF, letter sized, portrait
+
+|xref:ROOT:attachment$note_sheet_2025_0408.pdf[note_sheet_2025_0408.pdf, window="_blank"]
+|Sheets for stories, PDF, letter sized, portrait
+
+|xref:ROOT:attachment$toy_sheet_2025_0408.pdf[toy_sheet_2025_0408.pdf, window="_blank"]
+|Sheets for toys, PDF, letter sized, portrait
+
+|xref:ROOT:attachment$adoc_to_pdf_2025_0416.zip[adoc_to_pdf_2025_0416.zip, window="_blank"]
+|zip of adocs, svgs, ymls for building above in asciidoctor-pdf (126K)
 
 s|File Name
 s|Comment
