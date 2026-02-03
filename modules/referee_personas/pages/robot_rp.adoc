@@ -82,23 +82,6 @@ A hexagon is 200 cm across.
 
 include::robots:partial$wate_to_hite_estimation.adoc[]
 
-== Shape
-The volume of the robot will fit into this shape.
-
-include::robots:partial$basic_shapes.adoc[]
-
-[discrete]
-=== Contortion of Basic Shape
-This table manipulates the basic shape of the robot.
-This step is optional and is present to help reflect the randomness that is commercial design.
-
-include::robots:partial$basic_shape_distortions.adoc[]
-
-[discrete]
-=== Attachments 
-Useless attachments.
-
-include::robots:partial$peripherals_of_uselessness.adoc[]
 
 == Defence Rating
 Robot RPs have an AR of 700.
@@ -215,6 +198,36 @@ A 3rd level robot with a 15 INT score, and a 3 INT Prime has a CF = 24
 == Adaptability
 If there is a need to know the referee persona's adaptability check the fabrication info for the robot type.
 
+== Appearance
+The robot appearance is entirely up to the player running the persona. 
+Following are some elements to help with generating an appearance. 
+
+=== Shape
+The volume of the robot will fit into this shape.
+
+include::robots:partial$basic_shapes.adoc[]
+
+[discrete]
+=== Contortion of Basic Shape
+This table manipulates the basic shape of the robot.
+This step is optional and is present to help reflect the randomness that is commercial design.
+
+include::robots:partial$basic_shape_distortions.adoc[]
+
+[discrete]
+=== Attachments 
+Useless attachments.
+
+include::robots:partial$peripherals_of_uselessness.adoc[]
+
+=== Wear and Age
+Robots do not age.
+Unlike organic life forms, robots only decay from damage and not time. 
+The longer it has been since fabrication allows for an estimate of how much damage the robot has experienced.
+The robot age table was previously called the decrepitude table.
+
+include::referee_personas:partial$robot_wear_appearance.adoc[]
+
 == Value
 Most referee persona robots do not like to talk about their value. 
 If there is a need to know the referee persona's value check the fabrication info for the robot type.
@@ -226,16 +239,6 @@ Is a high tech level robot less able to ram because it is now lighter?
 Tech level could increase the value of a robot, improve its power plant, and overall alter its appearance.
 Would steam power a low tech level robot? 
 For more info and the effects of altering tech levels, jump to xref:hardware:tech_level.adoc[Tech Level,window=_blank].
-
-
-
-== Age
-Robots do not age.
-Unlike organic life forms, robots only decay from damage and not time. 
-The longer it has been since fabrication allows for an estimate of how much damage the robot has experienced.
-The robot age table was previously called the decrepitude table.
-
-include::referee_personas:partial$robot_wear_appearance.adoc[]
 
 == Attack Table
 The attack table keeps track of the persona's combat skills and increases with EXPS level.
