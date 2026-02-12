@@ -123,7 +123,7 @@ The mutation may indicate a bonus for maneuver rolls, attribute rolls or negotia
 Any simple effect that the mutation has on the dice rolling of the persona should be included beside the general bonus listing.
 
 
-== Psionic Mutations
+== Psionic Mutations List
 
 include::wetware:partial$psionic_list_all.adoc[]
 
@@ -2005,7 +2005,7 @@ The mutant can re-attack the target with seizure projection immediately.
 . Psionic roll at -3. Move None. -200 Attack roll. -4 all else.
 . Psionic roll at -4. Total body seizure and unconsciousness.
 
-=== Sensory Deprivation 
+=== Aisthoclasis 
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -2013,15 +2013,16 @@ Duration:: 1u per 4 Adjusted MND
 Frequency:: 1 per 8 Adjusted MND
 General Bonus:: Combat Ratio +6, +10 on vet rolls
 
-Sensory deprivation allows the mutant to disrupt any of the target's senses.
+Aisthoclasis breaks the senses of an organic target.
+This mutation can turn off one of the target's senses.
 The attack is only effective against organic personas.
-The target must win a psionic roll or lose the chosen sensory input.
+The target must win a psionic roll or lose the described sensory input.
 Sensory deprivation is selective, and the target remains conscious and likely surprised.
 The mutant can cause deafness, blindness, or a loss of tactile and olfactory senses.
 The more critical the sense, the more likely the target will win the psionic roll. 
 Removing the sensation of pain can benefit the target in certain circumstances. 
 
-include::wetware:partial$psionic_sensory_deprivation.adoc[]
+include::wetware:partial$psionic_aisthoclasis.adoc[]
 
 
 === Sociability Field Generation 
@@ -2554,27 +2555,29 @@ The chance of correctly forecasting events decreases by 5% for every day in the 
 
 
 
-== Sub Tables
-When you quickly need a specific type of mutation
+== Psionic Sub Tables
+When you quickly need a specific type of mutation.
+If you want a raw roll (combat, uncombat and defects) xref:wetware:psionics.adoc#_psionic_mutations_list[jump here,window=_blank].
+
 
 === No Defects
 Best for start up psionic mutations. 
 
 include::wetware:partial$psionic_list_no_defect.adoc[]
 
-=== Combat Mutations
+=== Combat
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic violence.
 
 include::wetware:partial$psionic_list_combat.adoc[]
 
-=== Uncombat Mutations
+=== Uncombat
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic curiosity.
 
 include::wetware:partial$psionic_list_uncombat.adoc[]
 
-=== Defective Mutations
+=== Defective
 Nature, pharma, or side effect. 
 Here is where you unleash biomagical tragedy.
 

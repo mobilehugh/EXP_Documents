@@ -126,7 +126,7 @@ Any simple effect that the mutation has on the dice rolling of the persona shoul
 
 
 
-== Phenomic Mutations
+== Phenomic Mutations List
 
 include::wetware:partial$phenomic_list_all.adoc[]
 
@@ -1649,25 +1649,28 @@ Enlarging does not alter her wate, attributes or skill task.
 Besides allowing her to reach the top shelf, the mutant gets a Force Bonus bonus of +50% non-powered attacks. 
 
 
-===  Skin Structure Change 
+===  Dermatofortia 
 
 [horizontal]
-Range:: Persona Only
+Range:: Skin Deep
 Duration:: Until Dead
 Frequency:: Constant
 General Bonus:: None
 
-Skin structure change has both a cosmetic and defensive effect on the mutant's skin.
-The skin structure change does not alter any attributes or affect her ability to wear armour.
-The mutant enjoys all the benefits of the armour type and none of the drawbacks.
-For example, skin structure changes have no restrictiveness or encumbrance penalties. 
+Dermatofortia has both a cosmetic and defensive effect on the mutant.
+The cosmetic change is not a negative one. 
+If the persona has a high charisma (CHA) the plates will look handsome and appropriate.
 The structurally changed skin is simply the mutant's skin.
-The Defence Rating changes affect the base Defence Rating of the mutant.
-So plated skin increases the base Defence Rating from 500 to 650.
-The impact is purely on Defence Rating, and the skin structure change offers not other special abilities.
+The skin structure change does not alter any attributes or affect the persona's ability to wear armour.
+For example, skin structure changes have no restrictiveness or encumbrance penalties. 
+The impact is purely on Defence Rating, and dermatofortia offers not other special abilities.
+Dermatofortia can improve the mutant's defence (DEF) considerably.
+So plated skin increases the persona's Defence Rating by 150.
+If the mutant's defence was previously 500 her defence is now 650.
+
 Often mutants with this mutation are averse to wearing armour out of pride or comfort
 
-include::wetware:partial$phenomic_skin_change.adoc[]
+include::wetware:partial$phenomic_dermatofortia.adoc[]
 
 === Smoke Screen 
 
@@ -2076,27 +2079,30 @@ Wings require atmosphere to work.
 
 
 
-== Sub Tables
+== Phenomic Sub Tables
 When you quickly need a specific type of mutation.
+If you want a raw roll (combat, uncombat and defects) xref:wetware:phenomics.adoc#_phenomic_mutations_list[jump here,window=_blank].
+
 
 === No Defects
-Best for start up phenomic mutations. 
+Best for start up phenomic mutations.
+It is like a raw roll but has no defects.
 
 include::wetware:partial$phenomic_list_no_defect.adoc[]
 
-=== Combat Mutations
+=== Combat
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic violence.
 
 include::wetware:partial$phenomic_list_combat.adoc[]
 
-=== Uncombat Mutations
+=== Uncombat
 Nature, pharma, malfunction, or evolution.
 Here is where you unleash genetic curiosity.
 
 include::wetware:partial$phenomic_list_uncombat.adoc[]
 
-=== Defective Mutations
+=== Defective
 Nature, pharma, or side effect. 
 Here is where you unleash biomagical tragedy.
 
