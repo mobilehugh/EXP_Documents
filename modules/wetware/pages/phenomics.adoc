@@ -1704,38 +1704,35 @@ In situations of extreme stress, the mutant may involuntarily deploy her smoke s
 ===  Laryngoclasia 
 
 [horizontal]
-Range:: 1h per 2 Adjusted STR
+Range:: 2 + Level hexes
 Duration:: Special
 Frequency:: 1 per 2 Adjusted CON
 General Bonus:: None
 
-Sonar attack allows the mutant to create noises so loud they are destructive. 
+Laryngoclasia allows the mutant to create noises so loud they are destructive. 
 The mutant's neck has obvious bellows that can blast air through specialized vocal cords.
 Immediately before attacking, the mutant's bellows billow out to beyond her nose.
 The scream attack combines high and low-frequency wavelengths that deliver destructive force to the target.
 The further away the target is, the less damage the sonar attack inflicts. 
-A 2nd level mutant with a 10 STR has a radius of effect of 6 hexes.
+A 2nd level mutant has a radius of effect of 4 hexes.
 
-include::wetware:partial$psionic_sonic_attack.adoc[]
+include::wetware:partial$phenomic_laryngoclasia.adoc[]
 
 .*6h Range Example*
-* 0h to 1h = 4-32
-* 1h to 3h = 3-24
-* 3h to 6h = 2-24
-* 6h to 7h = 1-8
+* 0h to 1h = 4-32 (immediate)
+* 1h to 4h = 3-24 (ranged)
+* 5h = 2-16 (past)
 
-The sonar energy damages every target in the area of effect. 
-The player makes one roll for all the targets in the area of effect.
+The acoustic energy damages every target in the area of effect.
+Fellow expedition members are also affected by the sonar attack.
+The mutant is unaffected by her sonar attack.
+
 In addition to damaging the targets, there is a chance of deafening audio sensors.
-The sonar attack can shut down organic and inorganic sensors.
-Objects taking the full force of the attack have a percent chance of going deaf.
-Full force is considered those mutants within the one hex range or less.
+Laryngoclasia can shut down organic and inorganic sensors.
 A percentile roll less than or equal to the damage will deafen the target. 
 Organic systems remain deaf for 1-8 (1d8) hours, but inorganic audio systems must await repair.
 
-The sonar attack damages everything in the area of effect with a sonar blast of force.
-The mutant's fellow expedition members are also affected by the sonar attack.
-The mutant is unaffected by her sonar attack.
+
 
 
 === Spit Poison 
