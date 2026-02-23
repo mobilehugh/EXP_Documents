@@ -2085,33 +2085,30 @@ Sonar may not be able to function through some helmets.
 
 Sonic attacks on the mutant do double damage and disable her sonar for 1 to 4 days.
 
-=== Sonic Attack 
+=== Sonoclasia 
 
 [horizontal]
-Range:: 1h per 2 Adjusted MND
+Range:: 2 plus Level hexes
 Duration:: Speed of Sound
-Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio +3
+Frequency:: 1 per 2 Adjusted MND
+General Bonus:: Combat Ratio +4
 
 This mutant can release a deadly burst of sonic energy.
 The attack is a psionically adjusted version of the mutant's speech.
 Words become a sphere of damaging ultra-high and ultra-low frequencies. 
-Sonic attack damages all objects within the radius of effect.
 This mutation damages both organic and inorganic audio sensors.
+However the mutant is not affected by her own sonoclasia
 Targets do not get a psionic roll versus this attack.
 The amount of damage delivered depends on how far the target is from the mutant.
+Below is the radius of effect for a second level mutant.
 
-include::wetware:partial$psionic_sonic_attack.adoc[]
+include::wetware:partial$psionic_sonoclasia.adoc[]
 
-.*6h Range Example*
-* 0h to 1h = 4-32
-* 1h to 3h = 3-24
-* 3h to 6h = 2-24
-* 6h to 7h = 1-8
+.*4h Range Example*
+* 0h to 1h = 3-24 (immediate)
+* 1h to 4h = 2-16 (ranged)
+* 5h = 1-8 (past)
 
-Targets with enhanced audio sensors, such as sonar, take double damage.
-
-Severe damage can deafen the audio sensors.
 There is a 1% chance per point of damage of being deafened by each sonic attack.
 The chance of audio sensor damage is not cumulative.
 Each new attack calculates a unique percent chance of damage.
@@ -2119,7 +2116,9 @@ The organic audio sensors of anthros and aliens will recover in 1-8 (1d8) hours.
 Inorganic audio sensors remain broken until repaired.
 Sonic attacks still inflict damage if the target is deafened.
 
-The mutant is unaffected by her sonic attack.
+The mutant can protect one target per EXPS Level from being damaged within the radius of effect.
+So a 2nd level mutant could keep two of her team mates from being blasted by sonoclasia.
+
 
 === Sonic Reproduction 
 
