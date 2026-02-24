@@ -1657,12 +1657,12 @@ To change back to her base shape, she will have to wait until the mutation recha
 === Spit Poison 
 
 [horizontal]
-Range:: 1h per Adjusted STR
+Range:: 3 + Level hexes
 Duration:: Special
 Frequency:: Alternating Units
 General Bonus:: Combat Ratio +9
 
-The mutant has poison producing glands that can eject poisonous spittle at tremendous distances.
+The mutant has poison producing glands that can eject poisonous spittle some distance.
 The player must win an attack roll on a specific target for the poison to take.
 If the attack roll is successful, the target still gets a poison roll to deflect the poison effect.
 These poisons are organic and do not affect inorganic targets like robots.
@@ -1672,13 +1672,13 @@ include::wetware:partial$phenomic_spit_poison.adoc[]
 Killing::
 Killing poison inflicts damage on the target, and with enough damage, the target can die.
 The killing poison intensity is random for each attack.
-Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+Intensity varies from 9-17 (1d8+9) intensity plus the mutant's experience level.
 The target takes half damage if she wins a poison roll.
 
 Nausea::
 Nausea poison incapacitates the target with vomiting and dizziness.
 The nausea poison intensity is random for each attack.
-Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+Intensity varies from 9-17 (1d8+9) intensity plus the mutant's experience level.
 The target is unaffected by the nausea poison if she wins her poison roll.
 If the target loses her poison roll, the nausea poison incapacitates the target for 1-10 units.
 
@@ -1686,7 +1686,7 @@ Paralysis::
 Paralysis poison incapacitates the target by paralyzing their skeletal muscles.
 The poison does not affect the mutant's breathing or heart muscles. 
 The paralysis poison intensity is random for each attack.
-Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+Intensity varies from 9-17 (1d8+9) intensity plus the mutant's experience level.
 The target is unaffected by the paralysis poison if she wins her poison roll.
 If the target loses her poison roll, the paralysis poison incapacitates the target for 1-10 units.
 
@@ -1694,7 +1694,7 @@ Unconsciousness::
 Unconsciousness poison incapacitates the target by rendering her unconscious.
 The poison does not affect the mutant's breathing or heart muscles. 
 The unconsciousness poison intensity is random each attack.
-Intensity varies from 1-8 (1d8) intensity plus the mutant's experience level.
+Intensity varies from 9-17 (1d8+9) intensity plus the mutant's experience level.
 The target is unaffected by the unconscious poison if she wins her poison roll.
 If the target loses her poison roll, she will remain unconscious until awakened.
 The unconscious target will remain out cold for at least 1-10 units.
