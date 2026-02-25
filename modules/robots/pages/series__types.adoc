@@ -6,7 +6,7 @@ From a heavy offensive combot capable of annihilating entire cities to a delicat
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.* 
 
-.List of Robot Types
+.List of Robot Series (Types)
 * xref:robots:series_android.adoc[A-Android,window=_blank]
 * xref:robots:series_combot.adoc[C-Combot,window=_blank]
 * xref:robots:series_datalyzer.adoc[D-Datalyzer,window=_blank]
@@ -44,7 +44,7 @@ We will use the Datalyzer Fabrication Info as an example.
 |1d2+2 (1-3) HPM per point of CON
 
 |Adaptability
-|15%
+|0
 
 |Size
 |Small
@@ -65,7 +65,7 @@ We will use the Datalyzer Fabrication Info as an example.
 |===
 
 == Title
-The title lists the name of the robot type, its ID, and a catchy blurb about it.
+The title lists the name of the robot series, its ID, and a catchy blurb about it.
 The ID is the letter in brackets.
 The Datalyzer's ID is D. 
 For convenience, the ID is always the first letter of the robot type. 
@@ -97,10 +97,11 @@ For more information, jump to xref:robots:damage_and_demolition.adoc[Robot Hit P
 
 === Adaptability
 Adaptability indicates how easy it is to modify the robot type. 
-The higher the adaptability percentage, the easier it is to modify the robot type.
-The datalyzer has an adaptability bonus of 15%, which is a standard adaptability value.
-A heavy offensive combot has an adaptability penalty at  -100%.
-For detailed information jump to  xref:robots:adaptability.adoc[Adaptability,window=_blank].
+The higher the adaptability, the easier it is to modify the robot type.
+The datalyzer has an adaptabilty (ADP) of 0. 
+A hobbot has an adaptability of 42, which is added to the player's task roll.
+A heavy offensive combot has an adaptability of -100, which added to the mechanic's task roll
+For detailed information jump to xref:robots:adaptability.adoc[Adaptability,window=_blank].
 
 === Size
 The size of the robot type is self-explanatory.
