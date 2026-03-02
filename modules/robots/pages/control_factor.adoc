@@ -21,7 +21,7 @@ Control factor (CF) is unique to the family Machinidae.
 
 
 == Calculate Control Factor
-.CF= (INT score) + (INT Prime* EXPS Level)
+.CF = INT score + (INT Prime * EXPS Level)
 ****
 A 3rd level robot with a 15 INT score, and a 3 INT Prime has a CF = 24
 ****
@@ -69,12 +69,10 @@ However, having the same janitorial robot intentionally mess up a bathroom would
 Messing up a bathroom in the mansion she used to work as her previous owner asks her to clean it up would be nearly impossible for the janitorial robot.
 
 
-
-
 include::uncombat:partial$task_difficulty.adoc[]
 
 == Make the Roll
-The player always rolls a 1d20 and adds her control factor to the roll.
+The player always rolls a 1d100 and adds her control factor to the roll.
 It is nearly impossible to fail trivial and easy control factor difficulties.
 The player must roll higher than or equal to the control factor roll's difficulty.
 The control factor roll is a target roll.
@@ -82,9 +80,9 @@ The robot persona either wins or loses.
 There are no hazy ties or partial wins with a target roll.
 
 === Control Factor Roll
-.1d20 + Control Factor >= Difficulty
+.1d100 + Control Factor >= Difficulty
 ****
-With a 12 CF  the 1d20 roll must be 12 or higher to beat difficulty 24. 
+With a 12 CF  the 1d100 roll must be 12 or higher to beat difficulty 24. 
 ****
 
 === Loss of Control
