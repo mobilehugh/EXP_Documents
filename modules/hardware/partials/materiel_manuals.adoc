@@ -1,35 +1,49 @@
 .*Manual Type Table*
-[width="75%",cols="^,<",frame="all", stripes="even"]
+[width="75%",cols="^,<,<",frame="all", stripes="even"]
 |===
-2+<|Generate the number of manuals.
+3+<|Generate the type of artifact literature.
 
 s|Die Roll (1d100)
 s|Manuals
+s|Bonuses
+
 
 |01-10
-|Partial Instruction
+|Instruction, Partial
+|+5 AID
 
 |11-20
-|Partial Repair
+|Repair, Partial
+|+5 AID, +21 repair
 
 |21-75
 |Instruction
+|+10 AID, +21 repair
 
 |76-85
 |Repair
+|+5 AID, +42 repair
 
 |86-95
 |Combo
+|+10 AID, +42 repair
 
 |96-97
 |Fabrication
+|+21 repair, +42 research 
 
 |98-99
-|Library 
+|Library
+|Auto AID, +42 all rolls
 
 |00
 |Ref's Own Table
+|
 
 s|Die Roll
 s|Manuals
+s|Bonuses
+
+3+<|AID bonus applies to all personas, repair and research are mechanic bonuses
+
 |===
