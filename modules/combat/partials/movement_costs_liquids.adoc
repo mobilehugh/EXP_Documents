@@ -1,7 +1,7 @@
 .*Liquids Movement Cost Table*
 [width="75%",cols="<,5*^",frame="all", stripes="even"]
 |===
-6+<|Movement cost in hexes. Splash, swim, sink etc. 
+6+<|Movement PENALTY in h/u. Splash, swim, sink etc. 
 
 s|Depth
 s|Tiny
@@ -11,46 +11,46 @@ s|Large
 s|Gigantic
 
 |Ankles
-|3 hex
-|2 hex
-|1 hex
+|3 h/u
+|2 h/u
+|1 h/u
 |0
 |0
 
 |Knees
-|4 hex
-|3 hex
-|2 hex
-|1 hex
+|4 h/u
+|3 h/u
+|2 h/u
+|1 h/u
 |0
 
 |Legs
 |Swim
-|4 hex
-|3 hex
-|2 hex
-|1 hex
+|4 h/u
+|3 h/u
+|2 h/u
+|1 h/u
 
 |Waist
 |Swim
 |Swim
-|4 hex
-|3 hex
-|2 hex
+|4 h/u
+|3 h/u
+|2 h/u
 
 |Shoulder
 |Swim
 |Swim
 |Swim
-|4 hex
-|3 hex
+|4 h/u
+|3 h/u
 
 |Deep
 |Swim
 |Swim
 |Swim
 |Swim
-|4 hex
+|4 h/u
 
 |Way Deep
 |Swim
@@ -65,4 +65,8 @@ s|Small
 s|Medium
 s|Large
 s|Gigantic
+
+6+<|If penalty decreases move to < 1 h/u must swim.  
+
+
 |===

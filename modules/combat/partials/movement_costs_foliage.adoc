@@ -1,7 +1,7 @@
 .*Foliage Movement Cost Table*
 [width="75%",cols="<,5*^",frame="all", stripes="even"]
 |===
-6+<|Foliage movement cost in hexes. 
+6+<|Movement PENALTY in h/u. 
 
 s|Depth
 s|Tiny
@@ -11,46 +11,46 @@ s|Large
 s|Gigantic
 
 |Low
-|1 hex
+|1 h/u
 |0
 |0
 |0
 |0
 
 |Short
-|1 hex
-|1 hex
+|1 h/u
+|1 h/u
 |0
 |0
 |0
 
 |Normal
-|2 hex
-|1 hex
-|1 hex
+|2 h/u
+|1 h/u
+|1 h/u
 |0
 |0
 
 |High
-|2 hex
-|2 hex
-|1 hex
-|1 hex
+|2 h/u
+|2 h/u
+|1 h/u
+|1 h/u
 |0
 
 |Tall
-|3 hex
-|2 hex
-|2 hex
-|1 hex
-|1 hex
+|3 h/u
+|2 h/u
+|2 h/u
+|1 h/u
+|1 h/u
 
 |Mess
 |Climb
-|3 hex
-|2 hex
-|2 hex
-|1 hex
+|3 h/u
+|2 h/u
+|2 h/u
+|1 h/u
 
 |Barrier
 |Climb
@@ -65,4 +65,7 @@ s|Small
 s|Medium
 s|Large
 s|Gigantic
+
+6+<|If penalty decreases move to < 1 h/u must climb.
+
 |===
