@@ -29,7 +29,7 @@ Critical checks can happen in attack rolls, attribute rolls, task rolls, driving
 
 Any amateur statistician will point out an impressive 998 is no more likely than an obscure 452. 
 However, an air of urgency always accompanies these extreme rolls.
-We all react hysterically to a roll kilodie of 000, but it is no more likely than a roll of 604.
+We all react hysterically to a kilodie roll of 000, but it is no more likely than a roll of 604.
 
 Critical checks spice up the game by adding that rare dose of the unexpected.
 A frail little alien may manage to damage that arrogant invader wearing powered armour.
@@ -47,9 +47,9 @@ Critical checks exist to revitalize, not to destroy, a campaign.
 ** attribute roll
 
 == Natural Roll
-Critical check must arise from a natural roll.
-No modifiers can cause a player generate a critical check.
-If the persona's bonuses add up to 1000, this does not count for a critical check.
+A critical check must arise from a natural roll.
+No modifiers can cause a player to generate a critical check.
+If the persona's roll and bonuses add up to 1000, this does __not count__ as a critical check.
 Only a natural 990 or higher on the kilodie roll would make a critical check.
 
 == Dice of Substance
@@ -75,10 +75,12 @@ The critical value is 042.
 ** the referee may consider a weapon malfunction
 * there are no critical fails with attack rolls
 
-NOTE: *Referees do not use critical hit damage adjusters against player personas.*
+TIP: Some tables allow the player to max the DMG roll. So a 1d8 weapon would do 8 HPS DMG.
+
+NOTE: *Referees do not use critical checks against player personas.*
 
 === 1d100
-The decidie only has critical checks when making a task roll.
+The deci-die only has critical checks when making a task roll.
 A 1d100, also called a deci-die, has three critical checks.
 There are two critical values and one critical range.
 The critical range is 95-00 (100), and the critical checks are 01 and 42.
@@ -94,7 +96,7 @@ The critical range is 95-00 (100), and the critical checks are 01 and 42.
 ** the persona gets EXPS for a critical fail
 
 === 1d20
-A twenty sider only has critical checks when making attribute rolls. 
+A twenty-sider only has critical checks when making attribute rolls. 
 A 1d20 has 1 critical check.
 The critical check is 20. 
 
@@ -140,10 +142,12 @@ include::ROOT:partial$articulate.adoc[]
 Critical Checks are limited as described above. 
 
 .*Nothing To Check Here*
-* Initiative Rolls
-* Ambush Rolls
-* Sphincter Rolls
-* Control Factor Rolls
-* Damage Rolls
-* Attributes Rolls
-* Any generative table roll
+* Initiative rolls
+* Ambush rolls
+* Sphincter rolls
+* Damage rolls
+* Generative rolls
+
+== Common Critical Check Table
+
+include::uncombat:partial$critical_checks.adoc[]
