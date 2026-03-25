@@ -50,35 +50,66 @@ Consult the lookup table below to record the attribute ranges.
 
 include::referee_personas:partial$robot_primes_from_attributes.adoc[]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 == Size
 The robot size consists of the robot's wate and the robot's hite.
 The wate of the robot plays a role in ramming damage. 
 Heavier robots inflict more damage.
 The hite of the robot determines its rough volume. 
 Bigger robots don't fit as well into anthro-sized spaces.
+Typical size categories include: Tiny, Small, Medium, Large and Gigantic. 
+There are some atypical robot sizes that really should only be referee personas.
 
-=== Wate
-
-include::referee_personas:partial$robot_wate_by_series.adoc[]
-
-==== Nano Bots
+=== Nano
 Any robot that has a wate of 4.2 kg or less has a chance of becoming an extremely small nano bot.
 The chance of the robot becoming a nano bot is 1 in 6 (1d6)
-Nano bots have a wate of  0 to 999 grams (1d1000-1).
+Nano bots have a wate of  0 to 999 grams (1d1000 - 1).
 A nano bot cannot have a wate greater than a kilogram.
 Nano robots have no change to their attributes, abilities or combat values.
 
-==== Mighty Machines
-Any robot with a wate of 4200 kg or more has a chance of becoming a mighty machine.
-The chance of the robot becoming a mighty machine is 1 in 6 (1d6).
+=== Colossal
+Any robot with a wate of 4200 kg or more has a chance of becoming a colossal machine.
+The chance of the robot becoming a colossal machine is 1 in 6 (1d6).
 Mighty machines have a wate of 6 to 600 tons (1d100 times 6).
 Mighty machines have no change to their attributes, abilities or combat values.
-However, in regards to ramming, mighty machines can increase their ramming ratio to 12 (versus 4).
+However, in regards to ramming, colossal machines can increase their ramming ratio to 12 (versus 4).
+
+NOTE: Colossal robots were formerly referred to as Mighty Machines.
+
+
+=== Wate
+
+include::robots:partial$size_category_to_wate.adoc[]
 
 === Hite
-Hite gives an estimation of the volume occupied by the robot.
-The referee rolls dimensions once for each of hite, width and length.
-A hexagon is 200 cm across. 
+
+include::robots:partial$size_category_to_hite.adoc[]
+
+=== Hite Wate Lookup Table
+
+include::referee_personas:partial$rp_robot_hite_wate_lookup.adoc[]
+
+
+
+
+
 
 include::robots:partial$wate_to_hite_estimation.adoc[]
 
