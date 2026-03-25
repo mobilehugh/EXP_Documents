@@ -14,8 +14,9 @@ To determine the Appearance of the robot jump to xref:robots:appearance.adoc[App
 
 == Size
 Robot size is determined by its series or model type.
-Ab expendable combot is medium sized, and a hobbot is small or tiny sized.
+An expendable combot is medium sized, and a hobbot is small or tiny sized.
 Usually the qualitative size description is enough for players. 
+If you can't remember your robot's size <<_size_lookup_table, jump here>>.
 
 There are two additional robot sizes not available to player personas.
 These are Nano and Colossal. 
@@ -35,8 +36,6 @@ include::robots:partial$size_category_to_wate.adoc[]
 The hite of the robot is a combination of volume and height.
 The player records her robot hite in centimetres.
 In most cases, the value of hite will determine how high the robot can reach and what may fit on her chassis.
-
-NOTE: Hite or volume does not alter robot wate. 
 
 If necessary, the player may roll all three dimensions for her robot, calculating the volume occupied by the persona.
 The player rolls for height, width and length.
@@ -61,6 +60,10 @@ Small and Tiny robot reach is limited to the hex that they are in.
 Medium and large robots can reach into the adjacent hex.
 Gigantic robots can reach through the adjacent hex and into the next hex over.
 
+== Size Lookup Table
+For your convenience the Robot Series Size Lookup Table is included here.
+
+include::robots:partial$robot_series_size_category.adoc[]
 
 include::robots:partial$wate_to_hite_estimation.adoc[]
 
