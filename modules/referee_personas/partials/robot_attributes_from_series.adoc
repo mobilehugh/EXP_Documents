@@ -1,10 +1,9 @@
 .*Robot Series/Model to Attributes Table*
-[width="95%",cols="^,<,7*^",frame="all", stripes="even"]
+[width="95%",cols="<,7*^",frame="all", stripes="even"]
 |===
-9+<|Attributes based on robot series and model
+8+<|Attributes based on robot series and model
 
-s|ID
-s|Series/Model
+s|ID (Series)
 s|AWE
 s|CHA
 s|CON
@@ -13,134 +12,128 @@ s|INT
 s|STR
 s|HPM
 
-|A
-|Android
+|A +
+Android
 |3d6
-|13+1d6
-|19+1d6
-|19+1d6
-|19+1d6
-|19+1d10
+|1d6 + 13
+|1d6 + 19
+|1d6 + 19
+|1d6 + 19
+|1d10 + 19
 |1d8
 
-|C-E
-|Expendable
+|C-E +
+Expendable
 |3d6
 |3d6
-|7+2d8
-|19+1d6
-|1+2d8
-|19+1d10
+|2d8 + 7
+|1d6 + 19
+|2d8 + 1
+|1d10 + 19
 |5
 
-
-|C-D
-|Defensive
+|C-D +
+Defensive
 |4d6
 |3d6
-|19+1d6
-|19+1d6
-|1+2d8
-|19+1d10
+|1d6 + 19
+|1d6 + 19
+|2d8 + 1
+|1d10 + 19
 |1d10 + 20
 
-
-|C-L
-|Light
+|C-L +
+Light
 |3d6
 |3d6
-|19+1d6
-|19+1d6
-|1+2d8
-|19+1d10
-|15+1d10
+|1d6 + 19
+|1d6 + 19
+|2d8 + 1
+|1d10 + 19
+|1d10 + 15
 
-
-|C-H
-|Heavy
+|C-H +
+Heavy
 |3d6
 |3d6
-|22+1d3
-|19+1d6
-|1+2d8
-|26+1d3
-|15+1d10
+|1d3 + 22
+|1d6 + 19
+|2d8 + 1
+|1d3 + 26
+|1d10 + 15
 
-|D
-|Datalyzer
+|D +
+Datalyzer
 |3d6
 |3d6
 |1d12
 |1d12
-|19+1d6
+|1d6 + 19
 |1d12
 |1d2 + 2
 
-
-|E-P
-|Planetary
-|13+1d6
+|E-P +
+Planetary
+|1d6 + 13
 |3d6
-|19+1d6
-|7+1d6
+|1d6 + 19
+|1d6 + 7
 |1d8
-|15+1d4
+|1d4 + 15
 |1d6 + 10
 
-
-|E-X
-|Exatmo
-|13+1d6
+|E-X +
+Exatmo
+|1d6 + 13
 |3d6
-|19+1d6
-|7+1d6
-|23+1d2
-|15+1d4
+|1d6 + 19
+|1d6 + 7
+|1d2 + 23
+|1d4 + 15
 |1d6 + 10
 
-|H
-|Hobbot
+|H +
+Hobbot
 |3d6
 |3d6
 |1d8
 |1d8
-|13+1d12
+|1d12 + 13
 |1d8
 |2d4
 
-|I-B
-|Builder
+|I-B +
+Builder
 |3d6
 |3d6
 |3d8
-|13+1d6
-|19+1d10
-|13+1d6
+|1d6 + 13
+|1d10 + 19
+|1d6 + 13
 |1d4 + 8
 
-
-|I-L
-|Lifting
+|I-L +
+Lifting
 |3d6
 |3d6
 |3d8
-|13+1d6
-|13+1d6
-|19+1d10
+|1d6 + 13
+|1d6 + 13
+|1d10 + 19
 |1d4 + 8
 
-|I-M
-|Moving
+|I-M +
+Moving
 |3d6
 |3d6
 |3d8
-|19+1d10
-|13+1d6
-|13+1d6
+|1d10 + 19
+|1d6 + 13
+|1d6 + 13
 |1d4 + 8
 
-|J-C
-|Commercial
+|J-C +
+Commercial
 |3d6
 |3d6
 |1d8
@@ -149,88 +142,88 @@ s|HPM
 |2d8
 |1d8
 
-|J-D
-|Domestic
+|J-D +
+Domestic
 |3d6
 |3d6
 |1d8
 |2d8
-|12+1d6
+|1d6 + 12
 |2d8
 |1d4
 
-|M
-|Maintenance
+|M +
+Maintenance
 |3d6
 |3d6
 |2d8
-|8+1d10
-|8+2d8
+|1d10 + 8
+|2d8 + 8
 |1d8
 |1d4
 
-|P-C
-|Civilian
+|P-C +
+Civilian
 |4d6
-|13+1d6
-|13+1d6
-|19+1d6
-|13+1d6
-|15+1d4
+|1d6 + 13
+|1d6 + 13
+|1d6 + 19
+|1d6 + 13
+|1d4 + 15
 |3d4
 
-|P-D
-|Detective
-|13+1d6
+|P-D +
+Detective
+|1d6 + 13
 |3d6
-|14+1d6
-|19+1d6
-|13+1d6
-|15+1d4
+|1d6 + 14
+|1d6 + 19
+|1d6 + 13
+|1d4 + 15
 |1d3 + 1
 
-|P-R
-|Riot
+|P-R +
+Riot
 |3d6
 |3d6
-|14+1d6
-|19+1d6
-|13+1d6
-|15+1d4
+|1d6 + 14
+|1d6 + 19
+|1d6 + 13
+|1d4 + 15
 |3d4
 
-|R-C
-|Containment
+|R-C +
+Containment
 |3d6
 |3d6
-|19+1d6
-|7+1d12
-|7+1d12
-|7+1d12
+|1d6 + 19
+|1d12 + 7
+|1d12 + 7
+|1d12 + 7
 |2d10+5
 
-|R-R
-|Retrieval
+|R-R +
+Retrieval
 |3d6
 |3d6
-|19+1d6
-|21+1d4
-|7+1d12
+|1d6 + 19
+|1d4 + 21
+|1d12 + 7
 |3d6
 |2d10+5
 
-|S
-|Social
+|S +
+Social
 |3d6
-|19+1d6
+|1d6 + 19
 |2d8
 |2d8
-|14+1d10
+|1d10 + 14
 |1d8
 |1d3 + 1
 
-|T-I
-|Inatmo
+|T-I +
+Inatmo
 |3d6
 |3d6
 |1d8
@@ -239,38 +232,37 @@ s|HPM
 |1d8
 |1d4 + 8
 
-|T-X
-|Exatmo
+|T-X +
+Exatmo
 |3d6
 |3d6
 |1d8
-|21+1d4
-|21+1d4
+|1d4 + 21
+|1d4 + 21
 |1d8
 |1d4 + 8
 
-|V-D
-|Diagnostic
-|19+1d6
-|13+3d6
+|V-D +
+Diagnostic
+|1d6 + 19
+|3d6 + 13
 |2d8
-|19+1d6
-|14+1d10
+|1d6 + 19
+|1d10 + 14
 |1d8
 |2
 
-|V-I
-|Interventional
+|V-I +
+Intervent
 |3d6
 |3d6
 |2d8
-|22+1d3
-|20+1d4
+|1d3 + 22
+|1d4 + 20
 |1d8
 |2
 
-s|ID
-s|Series/Model
+s|ID (Series)
 s|AWE
 s|CHA
 s|CON
@@ -279,11 +271,6 @@ s|INT
 s|STR
 s|HPM
 
-9+<|MND  = 0 
-9+<|SOC = 1d1000
-9+<|HPM is amount per CON
-
-
-
+8+<|MND = 0, SOC = 1d1000, HPM is amount per CON
 
 |===
