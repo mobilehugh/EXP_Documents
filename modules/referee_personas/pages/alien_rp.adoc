@@ -61,6 +61,7 @@ Minute aliens have a WATE of  0 to 999 grams (1d1000 - 1).
 A Minute alien will never have a WATE greater than a kilogram.
 Being Minute decreases the alien's STR and HPM but does not affect other attributes. 
 
+[discrete]
 ==== Minute Alien HPM and STR adjustment
 .HPM = (rolled HPM) * (wate/1000)
 .STR = (rolled STR) * (wate/1000)
@@ -77,7 +78,6 @@ Being a humongous alien is just an inconvenience as they have no alteration in t
 == Wate 
 
 include::aliens:partial$alien_size_cat_to_wate.adoc[]
-
 
 == Hite
 
