@@ -46,12 +46,6 @@ If the robot dimensions are ruining a finely tuned player persona, choose story 
 
 include::robots:partial$size_category_to_hite.adoc[]
 
-NOTE:
-
-include::robots:partial$wate_to_hite_estimation.adoc[]
-
-// todo fix the table based on size in kgs tonnes and hexes occupied
-
 === Reach
 For most persona's "reach" represents the distance they can grasp an object.
 The reach of an anthro is easily understood by referees and players alike.
@@ -67,10 +61,6 @@ Small and Tiny robot reach is limited to the hex that they are in.
 Medium and large robots can reach into the adjacent hex.
 Gigantic robots can reach through the adjacent hex and into the next hex over.
 
-[discrete]
-== if you need to know
-Wate to Size estimates is based on the following. 
 
-. 1 tonne of computer equipment occupies 3.5 cubic meters
-. 3.5 cubic meters is 1.2 x 1.2 x 2.4 meters of volume
-. very roughly 1 tonne of computer is 1 hex of hite
+include::robots:partial$wate_to_hite_estimation.adoc[]
+
