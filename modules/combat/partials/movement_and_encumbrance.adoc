@@ -1,28 +1,47 @@
 .*Movement and Encumbrance Table*
-[width="75%",cols="<,<",frame="all", stripes="even"]
+[width="75%",cols="<,<,<,<",frame="all", stripes="even"]
 |===
-2+<|Carrying stuff slows most personas down. 
+4+<|Carrying stuff impairs persona movement.
 
 s|Encumbrance
-s|Adjustment
+s|Land
+s|Air
+s|Water
 
 |Free
-|May Bolt (move times 2).
+|Normal (Bolt)
+|Normal
+|Normal
 
 |Light
-|May Run (move times 1.5).
+|Normal (Run)
+|Normal
+|Normal
 
 |Normal
-|Normal move rate
+|Normal
+|Normal
+|Normal
 
 |Burdened
 |Half move rate
+|Descend
+|Sink
 
-|Lift Only, Max Lift
+|Lift Only
 |No movement
+|Fall
+|Sink
+
+|Max Lift
+|No movement
+|Fall
+|Sink
 
 s|Encumbrance
-s|Adjustment
+s|Land
+s|Air
+s|Water
 
-2+<s|Only anthros can bolt or run. Alien and robot movement rates do not change.
+4+<|Only *anthros* can bolt (2xMove) or run (1.5xMove) on land.
 |===
