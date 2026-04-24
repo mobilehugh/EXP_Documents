@@ -33,38 +33,40 @@ A task roll is used if the consequence has an impact on the story.
 There are player conditions, such as inebriation or concussion, where __everything__ will require a task roll. 
 
 == How to Task 
-In short, the player must roll higher than the difficulty of the task on a 1d100.  
+In short, the player must roll equal to, or higher than, the difficulty of the task on a 1d100.
 
 A task roll has a few steps. 
 The first is to determine the Difficulty (DD) of the task.
-The second is to determine the Competency (knowledge plus level bonus) of the persona.
-The third is to check for any bonuses that can be applied.  
+The second is to determine the task roll bonus of the persona.
+The third is to check for any adjustments that can be applied.
 The last step is to make a roll on a 1d100. 
-Rolling higher than the DD means the task is a success. 
+Rolling higher than, or equal to, the DD means the task is a success.
 Simple in theory, a tad crunchier in practice.
 
 [discrete]
 == TLDR
-.1d100 + Interests + Expertise + Experience &ge; Difficulty
+.1d100 + Level Bonus + Interest Bonus + Expert Bonus &ge; Difficulty
 ****
-Interests 1, Expertise 2, Level 3 + 
-1d100 + (1 + 6 + 3) must beat 42 to win the task roll
+3rd level, Interest 1, Expertise 2: Level Bonus = 3, Interest Bonus = 1, Expert Bonus = 6 +
+1d100 + (3 + 1 + 6) must beat, or equal, 42 to win the task roll
 ****
 
 
 .*Steps of a Task Roll*
 . <<_difficulty, Determine Difficulty>>
-. <<_competency, Determine Competency>>
-.. <<_interests, Interests>>
-.. <<_expertise, Expertise>>
-.. <<_Experience, Experience>>
-. <<_bonuses, Bonuses>>
+.. DD is determined by the task or the referee
+. <<_level_bonus, Determine Level Bonus>>
+.. Always applied. Higher the EXPS Level the higher the bonus
+. <<_interest_bonus, Determine Interest Bonus>>
+.. Generally applied. Higher the interest score the higher the bonus
+. <<_expert_bonus, Determine Expert Bonus>>
+.. Specifically applied. Combination of EXPS Level and expertise score.
 . <<_make_the_roll, Make the Roll>>
 
 == Difficulty
 The more complex something is the greater the Difficulty (DD).
 If a task roll is indicated there will be a difficulty associated with it.
-The difficulty of the task is the number that the player must roll higher than on a 1d100.
+The difficulty of the task is the number that the player must roll higher than (or equal to) on a 1d100.
 In the vocation section there are many common tasks that have assigned difficulties.
 
 NOTE: *Difficulty is shortened to DD for historical reasons (Degree of Difficulty).*
@@ -88,30 +90,30 @@ Teamwork allows a few personas to work together to improve the chance of beating
 A project enlists a research team for complex tasks that take a long time. 
 For more information, jump to xref:uncombat:task_rolls_projects.adoc[Projects,window=_blank, rel="noopener noreferrer"], or <<_teamwork, Teamwork>>.
 
+== Level Bonus
+The level bonus is added to any task roll that the persona makes.
+Previously called the experience bonus the level bonus reflects the total life experience that the persona has.
+The higher the experience level (EXPS Level) the higher the Level Bonus
 
+include::uncombat:partial$level_bonus_table.adoc[]
 
-== Competency
-Competency is a collective term for the knowledge bonuses that the player adds to her 1d100 roll.
+A 4th level mercenary attempted to quick load her batteries would get a +4 Level bonus.
+She could also use the level bonus when trying to do tasks outside of her vocation, like finding shelter.
 
-Competency is a combination of the persona's knowledge and experience.
-Knowledge is a mixture of the persona's vocation interests and expertise.
-Her aptitude reflects her persona's experience. 
-A persona can use her EXPS Level for any task that fits within her vocation.
-
-The knowledge component of competency is reflected in the persona's interests and expertise. 
-Interests are broad areas of knowledge that can be applied to many different tasks.
-Expertise is more specific, but contributes more to the roll when applicable.
-For example, an interest in research could assist any research related task roll.
-However, an expertise in pumpkins would only assist when the task involves pumpkins. 
+== Interest Bonus
+The interest bonus is very general and the player should be able to find some interest to apply to their task roll.
+The interest bonus is equal to the interest score that the persona has.
+For example, if the mercenary above had Combat Interest 3 she would get +3 on her combat related task rolls.
+So her total bonus for a quick load of batteries would be LeveL Bonus plus Interest Bonus +7.
+Interest bonuses are very loosely applied and the persona would need to be well outside her vocation to not have one apply.
 
 [discrete]
-== Competency
-Interests + Expertise + Experience
+== Interest Bonus
+.Interest Bonus = Interest Score
 ****
-Interests add +1 per interest +
-Expertise add EXPS level per expertise +
-Experience add amount from table below
+A persona with a tactical interest of 3 would get an Interest Bonus of +3 on anything remotely tactical.
 ****
+
 
 === Interests
 Every vocation has 3 core interests that represent general knowledge that helps the persona win task rolls.
@@ -120,54 +122,31 @@ There should always be an applicable interest for the player to use.
 For each interest the player adds 1 point to the 1d100 roll.
 So a biologist with Research 3 would get to add 3 to her task roll.
 
+== Expert Bonus
+The expert bonus is very specific, and the player must have an expertise score before the bonus can be added.
+The expert bonus is equal to the expertise score times her EXPS Level.
+An expertise bonus can get very large and represents what the persona is really good at.
+
+[discrete]
+== Expert Bonus
+.Expert Bonus = Expertise Score * EXPS Level
+****
+3rd level and aerosol expertise 3 would get an Expert Bonus of +9 on aerosol related tasks.
+****
+
 === Expertise
 Every vocation has areas of expertise that are part of the persona's knowledge.
 An area of expertise is more focused than an area of interest. 
 It is possible that an area of expertise will not be applicable to a task.
-The player adds their EXPS level for each point of expertise.
-So a 1st level biologist with herbivore-2 could add 2 to her task roll, but at 3rd level she can add 6. 
 
-=== Experience
-The persona's EXPS level impacts the task roll. 
-The player can always add their persona's experience bonus to the task roll. 
-At higher levels the experience bonus may overshadow both interests and expertise.
-The higher the persona's level the more their competency improves.
-
-Employing the below table: 
-* a 3rd level persona would add 3 to any task roll
-* a 5th level persona would add 10 to any task roll
-
-include::uncombat:partial$task_aptitude_competency_multiplier.adoc[]
-
-There are limitations to the experience bonus.
-If the persona does not have aptitude in the task area they cannot have competence. 
-Aptitude can be as simple as staying in your vocation's lane, or more nuanced.
-
-[discrete]
-==== Stay In Your Lane
-I can do that.
-
-Often personas will want to accomplish a task that is not within the realm of their vocation.
-Mercenaries often need the vet skills quick fix and stabilization.
-A mechanic may want to do spie stuff on a security system.
-It is completely reasonable for a referee to disallow unrealistic task roll attempts that injure the story.
-A mechanic who wants to use the easy (12) knite skill of Kirlian sight should just be told no.
-The following is an unnecessary arithmetic demonstration as to why. 
-
-The competency for the persona is zero, and the penalty from the table is also added.
-A mechanic trying to use the knite skill Kirlian sight would have to roll 154 on 1d100 with no bonuses.
-The same mechanic trying to use the nothing skill of righteous indignation (42) have to beat 84 on the 1d100.
-
-include::uncombat:partial$task_vocation_lanes.adoc[]
-
-== Bonuses
-Bonuses are added to the roll for the run of the game, and are unrelated to competency.
-The player adds bonuses to her 1d100 roll.
-Bonuses often mean the difference between success and failure.
-Bonuses can come from every which way.
-Some TOYs give task roll bonuses.
-Some computers give task roll bonuses.
-Many referees will offer task roll bonuses for good role-playing descriptions.
+== Adjustments
+Adjustments are added to the roll for the fun of the game.
+The player adds adjustments to her 1d100 roll.
+Adjustments often mean the difference between success and failure.
+Adjustments can come from every which way.
+Some TOYs give task roll adjustments.
+Some computers give task roll adjustments.
+Many referees will offer task roll adjustments for good role-playing descriptions.
 
 :art: indiana_lizard.png
 :width: 250px
@@ -178,17 +157,29 @@ Many referees will offer task roll bonuses for good role-playing descriptions.
 :description: Humanoid lizard wearing a beloved fedora about to lift a treasure artifact.
 include::ROOT:partial$articulate.adoc[]
 
-=== Attribute Bonuses
-The most common bonuses are vocation attribute bonuses.
+=== Stay In Your Lane
+I can do that.
+
+Often personas will want to accomplish a task that is not within the realm of their vocation.
+Mercenaries often need the vet tasks like quick fix and stabilization.
+A mechanic may want to do spie stuff on a security system.
+It is completely reasonable for a referee to disallow unrealistic task roll attempts that injure the story.
+A mechanic who wants to use the easy (12 DD) knite task of Kirlian sight should just be told no.
+The following is an unnecessary arithmetic demonstration as to why.
+
+include::uncombat:partial$task_vocation_lanes.adoc[]
+
+=== Attribute Adjustments
+The most common adjustments are vocation attribute adjustments.
 If the task fits into the vocation's aptitude, the player can add an attribute to the 1d100 roll.
 For combat tasks, mercenaries can add their STR.
 For knowledge-based tasks, biologists can add their INT.
 
 include::uncombat:partial$vocation_attribute_bonus.adoc[]
 
-=== Role-Playing Bonuses
-The more role-playing is integrated into the Roll-Playing system, the more fun the play is.
-Role-playing bonuses for task rolls incentivize fun descriptions from the players.
+=== Role Playing Adjustments
+The more role playing is integrated into the Roll Playing system, the more fun the play is.
+Role playing adjustments for task rolls incentivize fun descriptions from the players.
 The following are examples of player descriptions that should earn task roll bonuses.
 “I'm going to leaf through my notes here and try to identify this bizarre creature.” 
 Or “I summon all the forces of evil beneath me, as I try to apply pressure to this weakling altruist.”
@@ -209,8 +200,8 @@ A good description could get a 1d4 bonus.
 A description that rocks all the players may get a 1d10 bonus. 
 Small bonuses that lead to success generate quite a bit of excitement.
 
-== Make the Roll
-The player rolls the 1d100, adds their competency and extra bonuses and hopes to beat the task difficulty. 
+== Task Roll Examples
+The player rolls the 1d100, adds their Bonuses and applicable adjustments and hopes to beat the task difficulty.
 Any roll equal to or higher than the difficulty is a success.
 Any roll less than the difficulty is a failure.
 
@@ -223,29 +214,38 @@ Any roll less than the difficulty is a failure.
 :description: Small human hammering repairs on top of a giant mech suit.
 include::ROOT:partial$articulate.adoc[]
 
+* 3rd level mechanic with repair interest of 3 and bomb expertise of 2 wants to defuse a bomb.
+** Level Bonus +3
+** Interest Bonus +3
+** Expertise Bonus +6
+** Role Playing adjustment for detailed description of green vs blue wire +2
+*  1d100 + 14 vs defuse simple bomb, difficulty of 42 (normal).
 
-=== Examples
-3rd level mechanic with repair interest of 3 and bomb expertise of 2 wants to defuse a bomb.
-Competency is 12 (3 + 6 + 3), bonus 13 (DEX) for a plus 26 to the 1d100 roll.
+* 6th level veterinarian with treatment interest of 4, burns expertise of 2 is treating a burn.
+** Level Bonus +12
+** Interest Bonus +4
+** Expert Bonus +12
+** No adjustments were applied
+* 1d100 + 28 vs treat simple burn, difficulty of 24 (Easy)
 
-6th level veterinarian with treatment interest of 4, burns expertise of 2 is treating a burn.
-Competency is 28 (4 + 12 + 12), with a role-playing bonus of 4 (making a Mr Burns joke) for a plus 32 to the 1d100 roll.
-
-9th level mercenary with combat interest of 6, ambidextrous expertise of 2 and pistols expertise 2 wants to use two pistols at once.
-Competency is 69 (6 + 36 + 27), bonus 11 (DEX) for a bonus of 80 to the 1d100 roll. 
+* 9th level mercenary with combat interest of 6, ambidextrous expertise of 2 wants to use two pistols at once.
+** Level Bonus +27
+** Interest Bonus +6
+** Expert Bonus +18
+** Attribute Adjustment DEX of 11
+* 1d100 + 62 vs ambidextrous pistols, difficulty of 24 (Easy). Can overcome negative adjustments.
 
 === Success 
 If the difficulty of the task is exceeded, or equalled, the persona reaps the reward of the successful task. 
 
 === Failure
 EXP does not have partial successes.
-If the player rolls less than the difficulty the task is a failure. 
-If the player is extremely close to being successful the referee may allow the player to go for a role-playing bonus. 
+If the player rolls less than the difficulty the task is a failure.
 
 The consequences of a failure may be simple and apparent. 
 A mercenary failing at ambidextrous combat may revert to single weapon combat, or suffer the dual wielding penalty.
 A mechanic that fails at defusing a bomb may leave the bomb in an undefused state, or may detonate the bomb.
-*It is considered poor play to kill a persona outright for a failed task roll.*
+*It is considered rude to kill a persona outright for a failed task roll.*
 An element of out of the frying pan into the fire consequence is more fun.
 
 For most failed tasks the persona can try again later.
@@ -253,7 +253,14 @@ There is no particular indication for how much later.
 A combat related failed task, like grappling may have to wait until the next opponent.
 Research related failed tasks may be delayed a day or may require replenishment of materiel. 
 A failed enhancement of a persona's toy would only damage the toy in extreme circumstances. 
-For example if the persona was trying to make an extreme modification to the toy. 
+For example if the persona was trying to make an extreme modification to the toy.
+
+[discrete]
+==== Really Close to Success
+If the player's roll is very close to a success the referee may elect to allow the player a role playing adjustment.
+This is done purely for drama and fun.
+The player does not get to roll again but may add a 1d4 or 1d10 depending on what the table thinks of their description.
+This is optional and should be done for fun once in a while, or for important rolls that are dramatically close.
 
 === Critical Checks
 Critical task rolls are not automatic successes but offer a huge bonus to the task roll. 
@@ -270,7 +277,6 @@ The duration of a task will be guided by the referee with the input of the table
 
 include::uncombat:partial$task_durations.adoc[]
 
-
 == Teamwork
 Personas can work together to make a success more likely. 
 This requires a task that can be shared between personas.
@@ -283,14 +289,14 @@ Two veterinarians may work together to stabilize an injured anthro.
 
 .*Teamwork Making the Dream Work*
 . Maximum of three team members
-. *Lowest two competencies* are combined
+. *Lowest two total task roll bonuses* are combined
 . Each player gets to make a task roll
 
-Teamwork can improve the chance of success by combining the two lowest competencies, and up to three players can roll.
-Consider a mercenary with a competency of 11 and a mechanic with a competency of 16 trying to breach a door.
+Teamwork can improve the chance of success by combining the two lowest total task roll bonuses, and up to three players can roll.
+Consider a mercenary with a task roll bonus of 11 and a mechanic with a task roll bonus of 16 trying to breach a door.
 Both players can try and beat the difficulty with a 1d100 roll plus 27. 
 That means two rolls with an improved bonus. 
-If a spie with competency 21 decided to help out the merc and mech the bonus would remain 27.
+If a spie with task roll bonus 21 decided to help out the merc and mech the bonus would remain 27.
 However, three players can roll, but the bonus is still only 27.
 This is a "too many cooks spoil the broth" situation. 
 
