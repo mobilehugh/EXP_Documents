@@ -5,7 +5,7 @@
 
 
 s|ROW
-5+<|Labelled rows are for explanation, and are not part of attack table.
+5+<|Labeled rows are for explanation, and are not part of attack table.
 
 s|1
 s|Attack Type
@@ -42,7 +42,7 @@ s|Shoot
 |===
 5+<|ROW 1 lists the attack table headings.
 
-s|<<_attack_type,Attack Type>>
+s|xref:combat:attack_types.adoc#_attack_types[Attack Type,window=_blank]
 4+|Type of attack being used. Striking vs projectile vs powered.
 
 s|Skilled
@@ -55,15 +55,15 @@ s|Max
 4+|<<_max_roll,Max Roll>>. This is the highest attack roll the player can make.
 
 s|Force
-4+|<<_force_bonus,Force Bonus>>. The player adds this number to the damage roll. 
+4+|<<_force_bonus,Force Bonus>>. The player adds this number to the damage roll.
 |===
 
 [width="95%",cols="^,<,<,<,<",frame="all", stripes="even"]
 |===
 5+<|ROW 2 lists data for persona powered thrusting and striking attacks like swords.
 
-s|<<_strike,Strike>>
-4+|Strike attacks are thrusting and striking weapons. 
+s|xref:combat:attack_types.adoc#_strike_attacks[Strike,window=_blank]
+4+|Strike attacks are thrusting and striking weapons.
 
 |100
 4+|Player adds this number to attack roll when using her <<_proficiencies,familiar>> sword.
@@ -82,8 +82,8 @@ s|<<_strike,Strike>>
 |===
 5+<|ROW 3 lists data for persona powered projectile attacks like bows.
 
-s|<<_fling,Fling>>
-4+|Fling attacks are non-powered projectile weapons. 
+s|xref:combat:attack_types.adoc#_fling_attacks[Fling,window=_blank]
+4+|Fling attacks are non-powered projectile weapons.
 
 |125
 4+|Player adds this number to attack roll when using her <<_proficiencies,familiar>> bow.
@@ -103,8 +103,8 @@ s|<<_fling,Fling>>
 |===
 5+<|ROW 4 lists data for powered projectile attacks like guns.
 
-s|<<_shoot,Shoot>>
-4+|Shoot attacks are powered projectile weapons. 
+s|xref:combat:attack_types.adoc#_shoot_attacks[Shoot,window=_blank]
+4+|Shoot attacks are powered projectile weapons.
 
 |150
 4+|Player adds this number to attack roll when using her <<_proficiencies,familiar>> lazer pistol.
