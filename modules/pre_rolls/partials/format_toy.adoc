@@ -10,7 +10,12 @@ s|NAME:
 |{toy_name}
 
 s|DEPARTMENT:
-|xref:hardware:{hardware_xref}[{toy_department}] <- link to info
+ifeval::["{hardware_xref}" != ""]
+|xref:hardware:{hardware_xref}[{toy_department},window=_blank] <- link to info
+endif::[]
+ifeval::["{hardware_xref}" == ""]
+|{toy_department}
+endif::[]
 
 s|TECH LEVEL:
 |{tech_level}
