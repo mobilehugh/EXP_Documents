@@ -1,16 +1,26 @@
-= PROJECT Style Quirks
+= Writing Guide
 
-EXP is the game of technological chaos. It is a sciency fiction traditional role playing game. It is meant to be played at an actual table with real people interacting in person. 
-This files in this project are adoc files intended for an antoradocs build to create the webpage http://rules.expgame.com
+EXP is the game of technological chaos. 
+It is a sciency fiction traditional role playing game. 
+It is meant to be played at an actual table with real people interacting in person. 
+This files in this project are adoc files intended for an Antoradocs build to create the web site.
+That web site is found at http://rules.expgame.com
+AntoraDocs toolchain is required. https://docs.antora.org/antora/latest/
 
-== Neologisms
+== Antoradocs and Asciidoc Issues
+All the files are .adoc files 
+Please do not change spellings inside includes, images or other Antoradocs calls without checking first
+The files are structure for antoradocs web builds so some includes are formulated differently.
+If an include is encountered it is okay to recursively check the spelling in that adoc
+
+.adoc ignore list
+* include::ROOT:partial$articulate.adoc[] immediately follows an attribute block without a separating blank line
+* :license: CC BY-SA 4.0 okay with wrong spelling would have to change it 400 times.
+
+== Game Words
 EXP has many made up words that impart silliness and point of difference. 
-Please use GB and CA spelling.
-This has been outlined in CSPELL.
-
-Please use cspell-custom-words.txt located in .vscode in the root directory
-
-here is another list
+* Please use GB and CA spelling unless otherwise specified
+* repo includes a codebook.toml list of spelling preferences
 * Canadian spelling: use "armour" and "defence" (not "armor", "defense").
 * Use "lazer" instead of "laser".
 * Use "maneuver" instead of "manoeuvre" (clarity over CA/GB norm).
@@ -32,23 +42,22 @@ here is another list
 * Flotto and flotto for full auto usually regarding a weapon
 * Michael Jackson is the actual name of the artist
 
-
-== Grammar
-Please review for gross grammatical errors.
-Ignore style concerns or awkward grammar.
-Only point out structural errors and typos please.
-I have a huge problem with passive voice, please point out passive voice problems. 
-
 == Game Terms
-Capitalize defined EXP mechanics and column names when referenced in prose.
+Capitalise defined EXP mechanics and column names when referenced in prose.
 
-.Capitalize when referring to specific mechanics
+.Capitalise when referring to specific mechanics
 * Skilled, Unskilled, Max Roll, Force (as attack table terms)
 
 .Lowercase when generic
 * maximum roll (generic phrase), skilled play (non-term usage)
 
-== Typographic Quotes
+== Grammar
+Please review for gross grammatical errors.
+Ignore style concerns or awkward grammar.
+Only point out structural errors and typos please.
+Identify passive voice. 
+
+== Typography
 Authors should use curly/typographic quotes and apostrophes in source files for best output quality.
 
 .Quotes and apostrophes
@@ -59,44 +68,21 @@ Authors should use curly/typographic quotes and apostrophes in source files for 
 * Exclude markup, code, and identifiers: do not change quotes/apostrophes inside include directives, xrefs/links/URLs, file paths, attribute names/values, code or literal blocks, or IDs/anchors.
 * If you pasted straight quotes, please smarten them during editing.
 
-== Error Presentation
-Do not change the file being worked on.
-Only present errors in the chat window.
-List them in order of appearance in the file. 
-Format each error as follows.
+== LLM and Agent Issues
+If you are plugging this into an LLM
+Or you are an LLM digesting this Style Guide
 
-.format of error presentation
-* line number of error, with type of error
-** LINE 42: typo or plural mismatch etc
-* the error preceded by the word ERROR
-** ERROR: limply perceives todanked.
-* the correction with no quotes
-** REPAIR: Limply Percival toed the tanker.
-* do not use quotes around the ERROR or REPAIR 
-* please put a space between  each error
+* Do not change the file being worked on.
+* Only present errors in the chat window.
+* List them in order of appearance in the file. 
+* Format each error as follows.
+** line number of error, with type of error
+*** LINE 42: typo or plural mismatch etc
+** the error preceded by the word ERROR
+*** ERROR: limply perceives todanked.
+** the correction with no quotes
+*** REPAIR: Limply Percival toed the tanker.
+** do not use quotes around the ERROR or REPAIR 
+** please put a line between  each error
+* Do not change files
 
-== Asciidoc 
-All the files are .adoc files 
-Please do not change spellings inside includes, images or other antoradoc calls without checking first
-The files are structure for antoradocs web builds so some includes are formulated differently.
-If an include is encountered it is okay to recursively check the spelling in that adoc
-
-.adoc ignore list
-* include::ROOT:partial$articulate.adoc[] immediately follows an attribute block without a separating blank line
-* :license: CC BY-SA 4.0 okay with wrong spelling would have to change it 400 times.
-
-== Do not change files
-Please do not change files unless explicitly asked to.
-
-== Output an error file 
-
-print out the list of errors created into a file called error_erase.txt 
-If there is an existing error_erase.txt over write it with the new version
-
-== Future Problems
-gifts are fucked. 
-remove alternate gift names. 
-replace gift tables 
-remove interest splitting. 
-detail how gifts work in vocation 
-especially the not 5 impossible thing
