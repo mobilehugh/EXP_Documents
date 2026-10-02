@@ -122,7 +122,7 @@ s|Freq
 
 6+<|[.small]#*DEFENCE*: how hard to hit, *Move*: hexes per unit *HPS*:dice used for HPS# +
 [.small]#*Strike*: self powered melee, *Fling*: self powered ranged *Shoot*: powered attacks# +
-[.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to unskilled attack roll# +
+[.small]#*Skilled*: add to skilled attack rolls, *Raw*: add to Raw attack rolls# +
 [.small]#*Max*: maximum attack roll, *DMG*: dice rolled for damage, *Freq*: attacks per unit# +
 
 |===
@@ -276,6 +276,7 @@ ifeval::["{pdf_file}" == ""]
 This persona record does not have a PDF. 
 endif::[]
 
+
 ifeval::["{pdf_file}" != ""]
 Download an approximate pdf for this persona. xref:pre_rolls:attachment${pdf_file}[{persona_name} PDF]
 endif::[]
@@ -298,5 +299,3 @@ The below json will work with the EXP Python Tools
 {json_file}
 
 endif::[]
-
-
