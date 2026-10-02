@@ -15,31 +15,40 @@ Do not mistake desire and creativity for actual commitment or capacity to achiev
 Perspiration has transformed some of these aspirations into rules.
 
 .*Roadmap Components*
-. <<_solid_roadmap,Solid Roadmap>>
-. <<_soft_roadmap,Soft Roadmap>>
-. <<_archive,Archive>>
-. <<_versions,Versions>>
+. <<_near_roadmap,Near Roadmap>>
+. <<_distant_roadmap,Distant Roadmap>>
 . <<_archive,Morgue>>
 . <<_darlings,Darlings>>
 
-== Solid Roadmap
-Things that are actually being actively allocated.
+== Near Roadmap
+Things that are actually being actively worked on.
 These are likely on a piece of paper on my actual desk.
 
-* change Area (area of effect) to Zone Attacks
-* return unskilled to Raw Bonus
-* rework Pre Rolls using private EXP_Tools
+* change area attacks (area of effect) to zone Attacks
+* return unskilled bonus to Raw Bonus
+* rework Pre Rolls
+** short blurb and PDF, JSON
 * rework Tasks in all vocations
 ** more fun
 ** tighter, snazzier nomenclature
+** 3 trees by 30 each 
+** fancier name task lists
 * update 4D2 system to reflect the "A" team
 ** Appearance
 ** Attributes
 ** Abilities
 
+.*Automation*
+* AI
+* Toys
+** Per Persona
+** Per Type 
+** Per Cache
+** VTT integration
 
-== Soft Roadmap
-These are things that would be really nice work on, but gotta be realistic. 
+== Distant Roadmap
+These are things that would be really nice work on.
+However, the solo dev gotta be realistic.
 
 .*Generic Mythos Missing Parts*
 * time and chronovores hideaways, teleport, time stop and planal hiders.
@@ -50,34 +59,17 @@ These are things that would be really nice work on, but gotta be realistic.
 ** Autonomous Intelligence (AI) are fabricated with consciousness
 ** Artificial Intelligence is not conscious, but may appear so
 
-=== EXP Media
-This actually exists on youtube: Sciency Fiction movie trailers and shorts.
+.*EXP Media Update*
+* Turn into long list of described video materials.
 
-.*Prerequisites*
-. Live action preferred
-. Only seminal movie of franchise
-. No animation (cell or computer) -- flexible
-. No supers -- absolute
-. Described in terms of EXP vocations and snark.
-.. Mechanic meets knite. Critical roll kills 1.25 million. (Star Wars, 1977)
-.. Nomad has telepathic pet and questionable culinary proclivities. (A Boy and His Dog, 1975)
-.. Mercenaries fight aliens and an android. (Aliens, 1985)
-.. Mercenaries lose their powered armour but still fight aliens. (Starship Troopers, 1997)
-
-=== Scenarios
-There is a cheezy pre-rolled scenario in the reference document @ page 755 aka PDF page 769.
-Remember this is V4 from 1993. 
-
-.Impending Scenarios (2026 or later)
+.*Scenarios (part of pre-rolls)*
 * Tsolodvor 
 * GHOTI
 * Kinder Kilner Haus for Wayward Mutants
 * Adventures of Turnip
 * Algo 
 
-== Soft Proposals
-Elements that are mostly conceptual at this stage. 
-
+.*Bucket Oh Stuff*
 * avoid double diminishing goals, as in EXPS
 * defence rating as a target or an adjustment
 * the desired story of the ref and players wins
@@ -100,8 +92,242 @@ Elements that are mostly conceptual at this stage.
 * make the game more generous
 * make the game more random
 
-== Archive
-Stuff that had no place in the present document. 
+
+
+== Morgue
+The den of dead darlings, dumb decisions, and dreary demonstrations. 
+
+[discrete]
+=== Oddities
+The electronic pre-rolls were lost in a WP failure between V5 and V6.
+There is a reference document in PDF form at xref:ROOT:attachment$exp_game_v401.pdf[EXP 4.01 1993 (32M)].
+Remember this is V4 from 1993.
+
+All original artwork from 1991 was located on 2024_0609_1442. 
+New pieces found. 
+
+[discrete]
+=== Versions
+There are no longer planned versions in the roadmap. 
+Versioning just became too heavy for this solo dev.
+I have reverted to github for versioning with occasional notes for milestones. 
+The present version is just called (http://rules.expgame.com[rules]). 
+Versioning is now done by date (2025_0312) and updated xref:credits.adoc[here].
+Proposed versioning with numerals (8, 9 etc) has been moved to the morgue.
+Items will be removed from the morgue and placed into proposal and soft proposals as time permits. 
+
+.*Version 6.0* (retired Jan 2024)
+This is version 6.X of EXP The game of technological chaos. 
+Estimated finish date is December 2021. 
+A detailed progress description is available via https://docs.google.com/spreadsheets/d/1F9m7keUraYriyFHnk_unvE0gU1-dyO_rqECyTF76prI/edit?usp=sharing[gdocs].
+A repository of progress is maintained on https://github.com/mobilehugh/EXP_Documents[github].
+
+.*Milestones for version 6*
+* This build 15-June-2021
+* Last build 09-May-2021
+* Future milestone automation due 31-Dec-2021
+* Next milestone infuse new art due 1-July-2021
+* Milestone: all sections refactored 15-June-2021
+* Milestone: all previous art added 03-Jan-2021
+* Milestone: all sections rewritten 09-Dec-2020
+* The pandemic pause ended 16-July-2020
+* The pandemic pause began 13-Mar-2020
+* There was a leap year update on 29-Feb-2020.
+* There was a palindromic update on 20:20-20-02-2020.
+* There was a palindromic update on 2020-0202.
+
+.*Versions 7.x* (retired Jan 2025)
+Active version as of 14-jan-2024.
+This will be the first version as a 0.5 FTE developer.
+A blog, progress sheets and repos can be found at(http://expgame.com[expgame.com]).
+Completion date is 14-June-2024.
+
+.*Goals of Versions 7.x*
+* move from letters to words 
+** weapons types become descriptive
+** attack tables instead of attack tables
+** shorten STR and MND
+* pre-roll implementation
+* reorganize ROOT with sub-folders
+* aimagination infiltration
+* community building
+* active promotions
+* expansion of automation section
+** how to make personas
+** how to local copy exp
+* move HPT back to HPS
+
+.*Version 8.0*
+* 3d printing of personas
+** Anthros
+** Aliens
+** Robots
+* Procedural drawing of personas
+** Anthros
+** Aliens
+** Robots
+* Extended mythos assistance
+** Campaign creation
+** story frameworks
+** flora fauna ecosystem
+** corporations, religions, governments
+* VTT (virtual tabletop) world integration.
+* appendiceal add ons 
+** Alien Arena
+** Space Opera
+** Postapocalypso
+** Mutant fest
+
+.*Version 7 punt downs*
+* Automated persona creation
+* Support tools such as persona creation. Online persona storage
+* community building
+* VTT (virtual tabletop) rule integration.
+* images on or off 
+* aimaginations vs images switch
+* roll vs role switch
+* d1000, 4d2 mechanic switch
+
+
+====
+EXP V7, er V8, um maybe V9, will be the first TTRPG 2.0.
+A TTRPG or RPG 2.0 is a tabletop RPG designed for computer support from the ground up.
+====
+
+.*Version 9.0*
+* AI integration
+** generating worlds
+** referee personas
+** scenarios
+* GPT5 maybe? ;)
+
+[discrete]
+=== d20 Task Roll 
+Some find the Task Rolls in the Roll-Playing system too much effort. 
+It really does require maths and may slow down game play. 
+The d20 Task Roll would align better with Saves and Competitions which are already d20 based.
+
+The problem with a d20 task roll is that at higher level tasks the roll becomes irrelevant
+Legacy system used three distinct die roll types.
+
+.*Legacy d100 task rolls*
+* d20 for attributes rolls
+* d100 for task rolls
+* d1000 for attack rolls
+
+.*Steps for d20 Task Roll*
+. <<_determine_difficulty,Determine Difficulty>>
+. <<_determine_the_task_roll,Determine the Task Roll>>
+
+[discrete]
+==== Determine Difficulty
+Knowing the difficulty of a task is only described generally. 
+The persona would not know the actual number.
+
+.*d20 Difficulty List*
+* Facile - 2
+* Trivial - 4
+* Easy - 8
+* Usual - 16
+* Unusual - 24
+* Hard - 32
+* Really Hard - 38
+* Tough - 64
+* Impossible - 128
+* Plot - 666 
+
+[discrete]
+==== Determine the Task Roll
+The player rolls a d20 plus whatever bonuses apply.
+
+.*Roll 1d20 plus...*
+* Appropriate attribute
+* Interests
+* Skills
+* Level
+* Mutations?
+* Fun description (1d4)
+
+Players add all their rolls as part of a research team. 
+
+[discrete]
+=== MSTR to MND 
+These changes did happen but the research is in the here.
+Proposed Changes to Attributes.
+Physical Strength (STR)-> Strength (STR).
+Mental Strength (MND) -> Mind (MND).
+
+.*MND Options*
+* Acuity
+* Aura
+* Cognition
+* Flux
+* Fortitude
+* Grit
+* Mastery
+* Metaphysics
+* Mindcraft
+* Potentiality
+* Psyche
+* Psychokinesis
+* Psychomotor
+* psychonic
+* Radiance
+* Resilience
+* Resonance
+* Serendipity
+* Telekinesis
+* Thoughtforce
+* Volition
+* Willforce
+
+== Code Snippets
+
+[.line-through]#This text will be struck through.#
+
+[source]
+----
+// this is for inserting art
+// attributes are set in the referring adoc
+// using inline image because it allows tooltip 
+// centering by assigning imageblock css
+
+  "insert IMAGE": {
+    "prefix": "adoc ins IMAGE",
+    "body": [
+      ":art: $1",
+      ":width: 250px",
+      ":snark: $2",
+      ":artist: $3",
+      ":date: $4",
+      ":license: CC BY-SA 4.0",
+      ":description: $5",
+      "",
+      "include::ROOT:partial\\$articulate.adoc[]"
+    ],
+    "description": "<- do this"
+  }
+
+articulate.adoc is the include
+
+[.imageblock.inlinefix]
+image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
+
+[.imageblock]
+*{snark}*
+
+// removing the attributes to avoid polluting next image 
+:art:
+:width:
+:snark:
+:artist:
+:date:
+:license: 
+:description:
+----
+
+
+== Darlings
 
 === Pithy Aphorisms
 A Posse of Pithy Aphorisms
@@ -184,264 +410,3 @@ Personas can start with artifacts, find artifacts, or get paid with artifacts.
 Austere milieus may start personas with nothing but dust and dreams.
 Creator species may allow the personas to browse the toy categories like an online store.
 ====
-
-=== Oddities
-
-The electronic pre-rolls were lost in a WP failure between V5 and V6.
-There is a reference document in PDF form at xref:ROOT:attachment$exp_game_v401.pdf[EXP 4.01 1993 (32M)].
-Remember this is V4 from 1993.
-
-All original artwork from 1991 was located on 2024_0609_1442. 
-New pieces found. 
-
-
-=== Code Snippets
-
-[.line-through]#This text will be struck through.#
-
-[source]
-----
-// this is for inserting art
-// attributes are set in the referring adoc
-// using inline image because it allows tooltip 
-// centering by assigning imageblock css
-
-  "insert IMAGE": {
-    "prefix": "adoc ins IMAGE",
-    "body": [
-      ":art: $1",
-      ":width: 250px",
-      ":snark: $2",
-      ":artist: $3",
-      ":date: $4",
-      ":license: CC BY-SA 4.0",
-      ":description: $5",
-      "",
-      "include::ROOT:partial\\$articulate.adoc[]"
-    ],
-    "description": "<- do this"
-  }
-
-articulate.adoc is the include
-
-[.imageblock.inlinefix]
-image:ROOT:{art}[width="{width}", alt='{description}', title='Artist: {artist} Date: {date} License: {license}']
-
-[.imageblock]
-*{snark}*
-
-// removing the attributes to avoid polluting next image 
-:art:
-:width:
-:snark:
-:artist:
-:date:
-:license: 
-:description:
-----
-
-== Versions
-There are no longer planned versions in the roadmap. 
-Versioning just became too heavy for this solo dev.
-I have reverted to github for versioning with occasional notes for milestones. 
-The present version is just called (http://rules.expgame.com[rules]). 
-Versioning is now done by date (2025_0312) and updated xref:credits.adoc[here].
-Proposed versioning with numerals (8, 9 etc) has been moved to the morgue.
-Items will be removed from the morgue and placed into proposal and soft proposals as time permits. 
-
-== Morgue
-The den of dead darlings, dumb decisions, and dreary demonstrations. 
-
-[discrete]
-=== d20 Task Roll 
-Some find the Task Rolls in the Roll-Playing system too much effort. 
-It really does require maths and may slow down game play. 
-The d20 Task Roll would align better with Saves and Competitions which are already d20 based.
-
-The problem with a d20 task roll is that at higher level tasks the roll becomes irrelevant
-Legacy system used three distinct die roll types.
-
-.*Legacy d100 task rolls*
-* d20 for attributes rolls
-* d100 for task rolls
-* d1000 for attack rolls
-
-.*Steps for d20 Task Roll*
-. <<_determine_difficulty,Determine Difficulty>>
-. <<_determine_the_task_roll,Determine the Task Roll>>
-
-[discrete]
-==== Determine Difficulty
-Knowing the difficulty of a task is only described generally. 
-The persona would not know the actual number.
-
-.*d20 Difficulty List*
-* Facile - 2
-* Trivial - 4
-* Easy - 8
-* Usual - 16
-* Unusual - 24
-* Hard - 32
-* Really Hard - 38
-* Tough - 64
-* Impossible - 128
-* Plot - 666 
-
-[discrete]
-==== Determine the Task Roll
-The player rolls a d20 plus whatever bonuses apply.
-
-.*Roll 1d20 plus...*
-* Appropriate attribute
-* Interests
-* Skills
-* Level
-* Mutations?
-* Fun description (1d4)
-
-Players add all their rolls as part of a research team. 
-
-[discrete]
-=== MSTR to MND 
-These changes did happen but the research is in the here.
-Proposed Changes to Attributes.
-Physical Strength (STR)-> Strength (STR).
-Mental Strength (MND) -> Mind (MND).
-
-.*MND Options*
-* Acuity
-* Aura
-* Cognition
-* Flux
-* Fortitude
-* Grit
-* Mastery
-* Metaphysics
-* Mindcraft
-* Potentiality
-* Psyche
-* Psychokinesis
-* Psychomotor
-* psychonic
-* Radiance
-* Resilience
-* Resonance
-* Serendipity
-* Telekinesis
-* Thoughtforce
-* Volition
-* Willforce
-
-[discrete]
-=== Version 6.0 (retired Jan 2024)
-This is version 6.X of EXP The game of technological chaos. 
-Estimated finish date is December 2021. 
-A detailed progress description is available via https://docs.google.com/spreadsheets/d/1F9m7keUraYriyFHnk_unvE0gU1-dyO_rqECyTF76prI/edit?usp=sharing[gdocs].
-A repository of progress is maintained on https://github.com/mobilehugh/EXP_Documents[github].
-
-.*Milestones for version 6*
-* This build 15-June-2021
-* Last build 09-May-2021
-* Future milestone automation due 31-Dec-2021
-* Next milestone infuse new art due 1-July-2021
-* Milestone: all sections refactored 15-June-2021
-* Milestone: all previous art added 03-Jan-2021
-* Milestone: all sections rewritten 09-Dec-2020
-* The pandemic pause ended 16-July-2020
-* The pandemic pause began 13-Mar-2020
-* There was a leap year update on 29-Feb-2020.
-* There was a palindromic update on 20:20-20-02-2020.
-* There was a palindromic update on 2020-0202.
-
-[discrete]
-=== Versions 7.x (retired Jan 2025)
-Active version as of 14-jan-2024.
-This will be the first version as a 0.5 FTE developer.
-A blog, progress sheets and repos can be found at(http://expgame.com[expgame.com]).
-Completion date is 14-June-2024.
-
-.*Goals of Versions 7.x*
-* move from letters to words 
-** weapons types become descriptive
-** attack tables instead of attack tables
-** shorten STR and MND
-* pre-roll implementation
-* reorganize ROOT with sub-folders
-* aimagination infiltration
-* community building
-* active promotions
-* expansion of automation section
-** how to make personas
-** how to local copy exp
-* move HPT back to HPS
-
-.*Goals of Automation*
-. Persona Record Sheet Generation
-.. Referee vs Player Personas
-... Anthro
-... Alien
-... Robot
-... AI
-. Independent functions utilized by above 
-.. Attribute Generation
-.. Type Selection
-.. Mutation creation
-.. Vocation selection
-.. Attack Tables
-.. Name generators
-... Anthro for sub types
-... Aliens given and species
-... Robot Leet Name, Model and Corp
-.. Toys
-... Per Persona
-... Per Type 
-... Per Cache
-. Online storage for generated data
-. VTT integration
-. Hardcopy generation for TT play
-
-[discrete]
-=== Version 8.0
-* 3d printing of personas
-** Anthros
-** Aliens
-** Robots
-* Procedural drawing of personas
-** Anthros
-** Aliens
-** Robots
-* Extended mythos assistance
-** Campaign creation
-** story frameworks
-** flora fauna ecosystem
-** corporations, religions, governments
-* VTT (virtual tabletop) world integration.
-* appendiceal add ons 
-** Alien Arena
-** Space Opera
-** Postapocalypso
-** Mutant fest
-
-.*Version 7 punt downs*
-* Automated persona creation
-* Support tools such as persona creation. Online persona storage
-* community building
-* VTT (virtual tabletop) rule integration.
-* images on or off 
-* aimaginations vs images switch
-* roll vs role switch
-* d1000, 4d2 mechanic switch
-
-
-====
-EXP V7, er V8, um maybe V9, will be the first TTRPG 2.0.
-A TTRPG or RPG 2.0 is a tabletop RPG designed for computer support from the ground up.
-====
-
-[discrete]
-=== Version 9.0
-* AI integration
-** generating worlds
-** referee personas
-** scenarios
-* GPT5 maybe? ;)
