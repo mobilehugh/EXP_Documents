@@ -250,34 +250,34 @@ The player rolls 2, 0, 3 indicating 5 rounds hitting the target.
 The target will suffer 10d10 hit points of damage. 
 The weapon discharges 15 rounds of ammunition regardless.
 
-== Area Attacks
-*Area of effect attacks*
+== Zone Attacks
+*Zone Attacks*
 
-An area of effect attack covers a predetermined area of combat with effect (usually damage).
+A Zone Attack covers a predetermined area of combat with effect (usually damage).
 Typically all targets in the area are affected by the attack regardless of Defence. 
-Most often an area of effect weapons delivers damage via hit point removal, but special effects can also be delivered by Area Attacks.
+Most often a Zone Attack weapon delivers damage via hit point removal, but special effects can also be delivered by Zone Attacks.
 A frag grenade obviously deals damage via an explosion, but a sleeping gas aerosol may make the targets fall asleep
 
-When the player makes an Attack Roll with an Area Weapon she makes an Attack Roll against a location and *not* a target's Defence.
+When the player makes an Attack Roll with a Zone Attack weapon she makes an Attack Roll against a location and *not* a target's Defence.
 The Attack Roll is made against a target hexagon on the combat field and does *not* consider the Defense ratings of any of the personas in the area of effect.
 
-The player targets a specific hex for the Area Attack.
+The player targets a specific hex for the Zone Attack.
 The Attack Roll determines if she hits to desired hexagon.
-Everything else is determined by the mechanics of the Area Attack
-The player must win an attack roll versus AR 542 to have her persona's area of effect weapon land where she wants.
+Everything else is determined by the mechanics of the Zone Attack.
+The player must win an attack roll versus AR 542 to have her persona's Zone Attack weapon land where she wants.
 Every persona in the area of effect is damaged.
 There is no saving throw.
-For more explosive details on Area Attacks there is a whole section at:  
-xref:combat:area_attacks.adoc[Area of Effect,window=_blank, rel="noopener noreferrer"].
+For more explosive details on Zone Attacks there is a whole section at:
+xref:combat:area_attacks.adoc[Zone Attacks,window=_blank, rel="noopener noreferrer"].
 
 NOTE: a static hexagon has a Defense of 542
 
-=== Area Weapons
-Most Area Attacks are weapons like xref:hardware:grenades.adoc[Grenades,window=_blank, rel="noopener noreferrer"] or
+=== Zone Attack Weapons
+Most Zone Attacks are weapons like xref:hardware:grenades.adoc[Grenades,window=_blank, rel="noopener noreferrer"] or
 xref:hardware:aerosols.adoc[Aerosols,window=_blank, rel="noopener noreferrer"].
-An alien or robot can have a Area Attack.
-Below are the mundane area of effect weapons.
-Mundane Area Attacks function as Fling attacks.
+An alien or robot can have a Zone Attack.
+Below are the mundane Zone Attack weapons.
+Mundane Zone Attacks function as Fling attacks.
 
 include::hardware:partial$mundane_weapons_area.adoc[]
 
@@ -299,25 +299,25 @@ What dice to use to generate the radius of effect.
 
 Damage::
 Damage indicates how many hit points the weapon removes from the target's hit points.
-There are no Strength adjustments for Area weapons.
+There are no Strength adjustments for Zone Attack weapons.
 
 === Grenade Attacks
-*Self powered area of affect attack*
+*Self-powered Zone Attack*
 
-A grenade is a self contained Area Attack that is aimed at a target hex. 
-The hex where the grenade lands is the epicenter of the Area Attack
+A grenade is a self-contained Zone Attack that is aimed at a target hex.
+The hex where the grenade lands is the epicenter of the Zone Attack.
 The grenade goes off and the mechanics of the grenade determine the effect and the area.
-The player adds the Fling Bonus, excluding the Force Bonus, to the Attack Roll when throwing a Grenade Area Weapon.
+The player adds the Fling Bonus, excluding the Force Bonus, to the Attack Roll when throwing a Grenade Zone Attack weapon.
 If the persona is using a grenade launcher type weapon the player adds the Shoot Bonus to her Attack Roll. 
 Irregardless of using Fling or Shoot the target is a hexagon with a defence of 542.
 
 To find out what happens if you miss go to:  
-xref:combat:area_attacks.adoc[Area of Effect,window=_blank, rel="noopener noreferrer"].
+xref:combat:area_attacks.adoc[Zone Attacks,window=_blank, rel="noopener noreferrer"].
 
 === Aerosol Attacks
-*Automated area of affect attack*
+*Automated Zone Attack*
 
-An aerosol is a self contained Area Attack that instantly occupies a specified area of effect. 
+An aerosol is a self-contained Zone Attack that instantly occupies a specified area of effect.
 An aerosol does not have an epicenter and can have a very oddly shaped area of effect
 The aerosol is triggered and the mechanics of the aerosol determine the effect and the area.
 The effect is automatic and no Attack Roll needs to be made.
@@ -327,7 +327,7 @@ The player adds the Shoot Bonus to her Attack Roll if the aerosol requires a tar
 The hexagon has a defence of 542.
 
 To find out what happens if you miss go to:  
-xref:combat:area_attacks.adoc[Area of Effect,window=_blank, rel="noopener noreferrer"].
+xref:combat:area_attacks.adoc[Zone Attacks,window=_blank, rel="noopener noreferrer"].
 
 == Psionic Attacks
 *Mind powered attacks with various effects*
@@ -335,6 +335,5 @@ xref:combat:area_attacks.adoc[Area of Effect,window=_blank, rel="noopener norefe
 Psionic attacks are listed here to keep EXP grounded in its Sciency Fiction roots.
 A Psionic Attack Type arises from an anthro mutation, and alien evolutation or a robot malfunctation that gives unique powers to the persona.
 Mutations can be which can be psionic or phenomic. 
-Phenomic mutations are physical in nature and use existing attack types like Strike, Fling, Shoot or Area.
+Phenomic mutations are physical in nature and use existing attack types like Strike, Fling, Shoot, or Zone.
 Psionic mutations can be used instantly by the persona, travel across imaginary planes of existence, and are only limited by the mutations description.
-
