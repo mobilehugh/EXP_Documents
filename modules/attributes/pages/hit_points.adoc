@@ -1,5 +1,11 @@
 = Hit Points (HPS)
 
+[quote]
+____
+*Durability over death.*
+____
+
+
 :art: hitpoints.png
 :width: 
 :snark: How much damage can one take?
@@ -77,5 +83,28 @@ Following are some brief examples.
 ** Robots do not heal hit points, and the risk of repairs usually exceed benefits. 
 
 
-include::attributes:partial$hit_point_ranges.adoc[]
+.*Hit Points Maximum by Family*
+[width="75%",cols="<,^,^,^"]
+|===
 
+|
+s|Anthro
+s|Alien
+s|Robot
+
+s|Range
+|5-90
+|1-750
+|1-520
+
+s|Determined by
+|CON
+|CON and Size
+|CON and Series
+
+|
+s|Anthro
+s|Alien
+s|Robot
+
+|===
