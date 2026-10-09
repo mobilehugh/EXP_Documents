@@ -11,7 +11,7 @@ ____
 :artist: Studiostoks
 :date: 2017
 :license: Copyright 2017 Studiostoks
-:description: Space suit wearing humanoid carrying briefcase and thumb up for a ride in outer space. 
+:description: Space suit wearing humanoid carrying briefcase and thumb up for a ride in outer space.
 include::ROOT:partial$articulate.adoc[]
 
 A vocation is more of an attitude than a profession.
@@ -21,10 +21,10 @@ Vocations do not preclude training, and the milieu may have
 diplomas or degrees granted by professional institutions.
 Even in the case of training, the persona is still self-taught.
 
-NOTE: Previously vocations were called classes.
+NOTE: Previously, vocations were called classes.
 
 The vocation represents innate abilities, desire, and personal interest.
-Two vocation types are biologist and mechanic.
+Two example vocation types are biologist and mechanic.
 The mechanic has a keen sense for interpreting the mechanical world.
 A mechanic likely doesn't have an antigrav maintenance diploma.
 The mechanic is more like a Ms. Fix-it or a bicycle repair person.
@@ -38,25 +38,25 @@ As the persona increases her experience level in her vocation, she improves her 
 
 include::vocations:partial$vocation_types_list.adoc[]
 
-.*Vocation Creation*
-. Vocation determination (choice or rolled)
-. Knowledge acquisition (choice or rolled)
-.. interests
-.. expertise
-.. gift determination
+.*Vocation Creation Steps*
+. Vocation Selection
+. Knowledge acquisition
+.. Interests
+.. Expertise
+.. Gift(s)
 . Tasks (pick some favourites)
+
+The vocations are composed of knowledge and tasks.
+Vocation knowledge is what the persona knows.
+Knowledge is used by the persona to succeed at tasks.
+Each vocation has its own set of knowledge.
+Each vocation has its own set of tasks.
+Some tasks are limited to a solitary vocation, others can be used by all vocations.
 
 EXP is an anthropomorphic rules system, and the vocation system is based on anthropomorphs.
 Every anthro persona has a vocation, even if that vocation is no vocation at all (Nothing).
-Aliens and robots do not have vocations; they are vocations unto themselves. 
+Aliens and robots do not have vocations; they are vocations unto themselves.
 However, some robots can function as a vocation, and some alien species can have vocations in their society.
-
-The vocations are composed of knowledge and tasks. 
-Vocation knowledge is what the persona knows. 
-Knowledge is used by the persona to succeed at tasks. 
-Each vocation has its own set of knowledge.
-Each vocation has its own set of tasks.
-Some tasks are limited to a solitary vocation, others can be used by all vocations. 
 
 == Vocation Selection
 The persona's attribute scores determine her vocation.
@@ -71,37 +71,39 @@ The default anthro vocation is the nothing vocation.
 include::vocations:partial$vocation_attributes.adoc[]
 
 === Example
-A persona has the attributes: AWE 6, CHA 15, CON 17, DEX 9, INT 14, MND 12, STR 6, and HPM 42.
+A persona has the following attributes: AWE 6, CHA 15, CON 17, DEX 9, INT 14, MND 12, STR 6, and HPM 38.
 The persona's social standing (SOC) is not part of the vocation selection process.
 The player has a wide selection of vocations from which to choose.
-This persona could be any of the following: biologist, mechanic, mercenary, nothing, or veterinarian.
+This persona could be any of the following: biologist, mechanic, nothing, or veterinarian.
 
 include::vocations:partial$vocation_selection_example.adoc[]
 
 == Knowledge
-A vocation's knowledge represents things that the persona knows. 
+A vocation's knowledge represents things that the persona knows.
 The knowledge base of the vocation represents it's literal definition.
-Knowledge is split into two parts: interests and expertise. 
+Knowledge is split into two parts: interests and expertise.
 Each vocation has tables devoted to knowledge this would inform that vocation.
 A veterinarian has knowledge around healing, and a mercenary has knowledge around combat.
 This does not mean that there are some overlapping knowledge.
 
 Knowledge is not limited to book knowledge.
-Some of the knowledge is definitely about how to do things. 
+Some of the knowledge is definitely about how to do things.
 Recalling details about alien anatomy is knowledge, and being skilled at cutting meat cakes is also knowledge.
 Knowing how to sharpen a knife is knowledge, but actually sharpening the knife is a task.
 Without getting over philosophical: anything that assists a player's roll in succeeding at a task is knowledge.
 
-There are two areas of knowledge: interest and expertise. 
+There are two areas of knowledge: interest and expertise.
 Each vocation has dedicated interest and expertise tables.
 The player can roll randomly on, or select from, these tables.
-Players can also create bespoke knowledge, but this is only recommended for experienced play tables. 
+Players can also create bespoke knowledge, but this is only recommended for experienced play tables.
+
+NOTE: Interests, Expertise and Gifts help the persona succeed at Tasks
 
 === Interests
 Interests are broad areas of knowledge.
 For example, research is an interest.
 Typical areas of interest are research, repair, and combat, etc.
-Interests are wide in scope by design and can be used to assist all kinds of tasks. 
+Interests are wide in scope by design and can be used to assist all kinds of tasks.
 
 A biologist may be interested in taxonomy (which will help identify aliens), or culture (which will help them understand a culture).
 A mechanic can have an interest in repairs which will help her fix things.
@@ -110,15 +112,15 @@ A nothing may have an interest in careers, which will help her with career relat
 Interests are cumulative and a nomad may have survival 3 interest.
 This indicates lots of knowledge about survival, and improves the chance of success on survival tasks.
 
-Interests are vocation specific, and are randomly assigned or chosen by the player. 
+Interests are vocation specific, and are randomly assigned or chosen by the player.
 A persona gets new interests with increasing experience levels.
 
 === Expertise
-Expertise is more specific knowledge. 
+Expertise is more specific knowledge.
 They are narrow in scope.
-An expertise usually has a concise description like: pistols, cloning, tracking. 
-Expertise knowledge can only use be for specific tasks. 
-However, this knowledge is much more helpful when making task roles. 
+An expertise usually has a concise description like: pistols, cloning, tracking.
+Expertise knowledge can only use be for specific tasks.
+However, this knowledge is much more helpful when making task roles.
 A persona with a combat interest can use that knowledge in any combat situation.
 If the persona had pistol expertise she could only use that knowledge when the task is pistol related.
 
@@ -126,45 +128,85 @@ A spie can have expertise in bribery
 A veterinarian can have expertise in trauma.
 Expertise is cumulative and a mercenary could have bombs 4 as an expertise.
 
-Expertise is vocation specific, and is randomly assigned or chosen by the player. 
+Expertise is vocation specific, and is randomly assigned or chosen by the player.
 A persona gets additional expertise with increasing experience levels.
 
 === Gifts
 Gifts are tasks that the persona has committed to knowledge.
 The persona can complete gifted task with the player having to win a task roll.
-For example, a veterinarian has the gift of Quick Fix. 
-This allows her to immediately heal her colleague a small amount. 
-A mercenary has the gift of ambidextrous combat with swords. 
-This allows her to use two swords without making the task roll. 
-As the persona advances in her vocation she can add more gifts. 
+For example, a veterinarian has the gift of Quick Fix.
+This allows her to immediately heal her colleague a small amount.
+A mercenary has the gift of ambidextrous combat with swords.
+This allows her to use two swords without making the task roll.
+As the persona advances in her vocation she can add more gifts.
 
 The player can create a bespoke task as a gift.
 If the desired gift does not exist as a vocation task the player table and referee must vet the gift.
-The existing task lists for the vocation should be used to guide de novo gifts. 
+The existing task lists for the vocation should be used to guide de novo gifts.
 
 NOTE: Alternate names for gifts have been removed. Below is for flavour and fun.
 
 include::vocations:partial$vocation_gifts.adoc[]
 
+=== Organization
+It is helpful to organize the persona's knowledge.
+Below is an example of a collection of interests, expertise and gifts for a biologist.
+You do not need to understand each interest or area of expertise; simply observe how the biologist’s knowledge is organized.
+
+:art: biologist_footprint_symbol.png
+:width: 350px
+:snark: Footprint? Language? Bad Map?
+:artist: JEShields
+:date: 2016-2021
+:license: Copyright JEShields Stock Art. jeshields.com
+:description: Mystical connected semi-circles scratched into ground.
+include::ROOT:partial$articulate.adoc[]
+
+.*Unorganized Knowledge*
+* Interest - Taxonomy
+* Expertise - Herbivores
+* Interest - Taxonomy
+* Expertise - Detritivores
+* Interest - Culture
+* Expertise - Languages, verbal
+* Gift - Is it Biological
+
+Interests and expertise are cumulative and separated.
+The persona has two taxonomy interests, and the player can use them on any task related to taxonomy.
+Even if the persona has no expertise in trapping aliens, she can still use her taxonomy 2 interest when working on a task related to web making alien.
+When working to identify a herbivore she would be able to use both her interests in taxonomy and her expertise in herbivores.
+
+.*Organized Knowledge*
+* *Interests*
+** Taxonomy - 2
+** Culture - 1
+* *Expertise*
+** Herbivores - 1
+** Detritivores - 1
+** Languages, Verbal - 1
+* *Gifts*
+** Biological?
+
+
 == Tasks
 A task is anything that a persona tries to do.
 Vocations have lists of tasks that are best performed by a specific vocation.
-However, vocations can attempt each other's tasks as task rolls. 
+However, vocations can attempt each other's tasks as task rolls.
 Some tasks are entirely vocation specific.
 For example, assassination can only be attempted by a spie, and a mercenary would not be good at tracking.
 
-NOTE: A task can be skill, a procedure, a concept, an action. 
+NOTE: A task can be skill, a procedure, a concept, or an action.
 
 The persona's interests, expertise and experience level determine how well the persona performs at a task.
 Initially some tasks will be out of reach as the player could not beat the listed difficulty.
 For the intricate details of how to resolve tasks in EXP jump to xref:uncombat:task_rolls.adoc[Task Rolls].
 
 === Compendium
-Each vocation has a compendium of tasks that are appropriate for the vocation. 
-The compendium is organized by task difficulty. 
+Each vocation has a compendium of tasks that are appropriate for the vocation.
+The compendium is organized by task difficulty.
 The explanations of tasks in the compendium is limited on purpose.
 
-It is expected that the player will record some of the key tasks from the compendium on the persona record. 
+It is expected that the player will record some of the key tasks from the compendium on the persona record.
 The compendium is not exhaustive and it is expected that the table will have tasks that are not listed.
 
 === List
@@ -197,15 +239,15 @@ The persona must have the attribute requirements for both vocations.
 There are situations where the ref and players may allow a persona to have more than one vocation.
 A player may wish to change things up with her persona.
 The expedition may need a particular vocation, and a player volunteers to cross-train her persona.
-For example, a mercenary persona may add in the mechanic vocation to ensure maintenance of the the spaceship's naval artillery.  
+For example, a mercenary persona may add in the mechanic vocation to ensure maintenance of the the spaceship's naval artillery.
 
-The referee is the final arbiter on multi-vocation personas. 
+The referee is the final arbiter on multi-vocation personas.
 Less mature players may abuse this privilege.
 The referee decides if the player is combining or switching personas in good faith.
 
 === Combining
 Combining vocations is when the player has a persona with two vocations concurrently.
-For example, a biologist mechanic can do biologist and mechanic tasks. 
+For example, a biologist mechanic can do biologist and mechanic tasks.
 The persona advances both levels simultaneously and can use tasks from both vocations.
 
 The amount of experience required for each new level will be equal to the sum of both vocations plus 10% of the total.
@@ -215,7 +257,7 @@ Nomads, nothings and spies cannot combine with any other vocation.
 A persona cannot be a combined knite and anti-knite.
 
 === Switching
-Switching vocations is when the player moves her persona from one vocation to another. 
+Switching vocations is when the player moves her persona from one vocation to another.
 Switching vocations is less demanding than combining vocations.
 If the persona has the vocation's attribute requirements, she can switch any time.
 
@@ -230,16 +272,16 @@ If the persona does not have the attributes to make a vocation, she can follow t
 == Robots
 The vocations in this section represent the anthropomorphic pursuits of knowledge and skill.
 Robots do not pursue a specific vocation, and are considered a vocation unto themselves.
-Robots have series and models that are built to fulfill specific goals. 
+Robots have series and models that are built to fulfill specific goals.
 These goals are the robot's vocation.
 In a sense a robot does not have a vocation, a robot is a vocation.
 
 * A transport robot's vocation is driving.
-* An exploration robot's vocation is exploring. 
+* An exploration robot's vocation is exploring.
 
 Playing a robot persona is very challenging and not recommended for neophytes.
 Robots engage in the milieu the same as any other player persona.
-Robots can earn experience, gain levels and improve their free will. 
+Robots can earn experience, gain levels and improve their free will.
 
 A robot may acquire an anthro vocation through programming, peripherals, or malfunction.
 Robots with anthro vocations are an edge case, and the referee and player must decide how to integrate this combined pathway.
@@ -257,8 +299,8 @@ Playing an alien persona is challenging and not recommended for neophytes.
 Aliens engage in the milieu the same as any other player persona.
 Aliens can earn experience, gain levels, and improve their evolutations and combat skills.
 
-An alien can be born into a society that has education and vocation. 
-Under these circumstances the alien can pursue an anthro vocation. 
+An alien can be born into a society that has education and vocation.
+Under these circumstances the alien can pursue an anthro vocation.
 Aliens with anthro vocations are an edge case, and the referee and player must decide how to integrate this combined pathway.
 
 To pursue a player persona alien, jump to xref:aliens:a_introduction.adoc[Aliens].
@@ -266,4 +308,4 @@ To pursue a player persona alien, jump to xref:aliens:a_introduction.adoc[Aliens
 == Take a Vocation
 It is a good idea to take a vocation once in a while.
 Relaxing vocations that connect with nature are healthy.
-However, improving one's lifestyle is much more effective at reducing stress than a holiday vocation. 
+However, improving one's lifestyle is much more effective at reducing stress than a holiday vocation.
