@@ -1,148 +1,208 @@
-Task Example (42)::
-One-line description of task. Difficulty is in brackets. 
+.*Veterinarian Task Compendium*
+[width="85%",cols="<3,^2,<5",frame="all",stripes="even"]
+|===
+3+<|A non-exhaustive list of veterinarian tasks arranged by increasing difficulty.
 
-==== Trivial
-Biological? (12)::
-    Is it biological? Yes/No. 
+s|Task
+s|Difficulty
+s|Description
 
-Sentience (12)::
-    Sentience present. Yes/No. 
+3+s|Trivial
 
-Living? (18)::
-    Is it alive and living? Yes/No.
+|Biological?
+|12
+|Is it biological? Yes/No.
 
-Autopsy, Fun (12)::
-    Disassemble a cadaver.
+|Sentience
+|12
+|Sentience present. Yes/No.
 
-Stasis Bag (18)::
-    Safely put stuff into a stasis bag. 
+|Living?
+|18
+|Is it alive and living? Yes/No.
 
+|Autopsy, Fun
+|12
+|Disassemble a cadaver.
 
-==== Easy
-Quick Fix (24)::
-    Heal 1d6 HPS immediately.
+|Stasis Bag
+|18
+|Safely put stuff into a stasis bag.
 
-Calm Persona (24)::
-    Help a persona relax. 
+3+s|Easy
 
-Admin Pharma (24)::
-    No adverse effects. 
+|Quick Fix
+|24
+|Heal 1d6 HPS immediately.
 
-Fail Pharma (32)::
-    Guarantee adverse effects.
+|Calm Persona
+|24
+|Help a persona relax.
 
-Unstun (32)::
-    Immediately remove stun effect from one persona. 
+|Admin Pharma
+|24
+|No adverse effects.
 
-==== Normal
-Strong Fix (42)::
-    Heal 2d6 HPS over 2 units.
+|Fail Pharma
+|32
+|Guarantee adverse effects.
 
-Open Stasis Bag (42)::
-    Retrieve patient from stasis bag alive.
+|Unstun
+|32
+|Immediately remove stun effect from one persona.
 
-Stabilize (42)::
-    Stop persona from losing negative HPS.
+3+s|Normal
 
-Cryogenic Wake (56)::
-    Safely emerge from cryogenic sleep.
+|Strong Fix
+|42
+|Heal 2d6 HPS over 2 units.
 
-Poison Arrest (56)::
-    Stop poison progress. Does not heal.
+|Open Stasis Bag
+|42
+|Retrieve patient from stasis bag alive.
 
-Heal 50% (50)::
-    Restore to 50% HPM. Uncombat only. 
+|Stabilize
+|42
+|Stop persona from losing negative HPS.
 
-==== Hard
-Autopsy, Diagnostic (84)::
-    Disassemble to determine cause of death.
+|Cryogenic Wake
+|56
+|Safely emerge from cryogenic sleep.
 
-Power Fix (84)::
-    Heal 3d6 HPS over 3 units. 
+|Poison Arrest
+|56
+|Stop poison progress. Does not heal.
 
-Calm Frenzy (84)::
-    Arrest an Ursidae frenzy.
+|Heal 50%
+|50
+|Restore to 50% HPM. Uncombat only.
 
-Resuscitate (84)::
-    Restore the persona to zero HPS and unconsciousness.
+3+s|Hard
 
-Poison Reverse (84)::
-    Reverse the effects of a poison (except HPS damage).
+|Autopsy, Diagnostic
+|84
+|Disassemble to determine cause of death.
 
-Radiation Arrest (84)::
-    Stop ongoing effects of radiation.
+|Power Fix
+|84
+|Heal 3d6 HPS over 3 units.
 
-Heal 90% (90)::
-    Restore to 90% HPM. Uncombat only.
+|Calm Frenzy
+|84
+|Arrest an Ursidae frenzy.
 
-Restore Attribute (96)::
-    Revive an injured attribute (not from aging).
+|Resuscitate
+|84
+|Restore the persona to zero HPS and unconsciousness.
 
-Psionic Break (96)::
-    Interrupt a psionic attack.
+|Poison Reverse
+|84
+|Reverse the effects of a poison (except HPS damage).
 
-Biorganic Attachment (100)::
-    Attach a biorganic attachment.
+|Radiation Arrest
+|84
+|Stop ongoing effects of radiation.
 
+|Heal 90%
+|90
+|Restore to 90% HPM. Uncombat only.
 
-Subliminal Suggestion (108)::
-    Interject a thought without detection.
+|Restore Attribute
+|96
+|Revive an injured attribute (not from aging).
 
-Hearing Restoration (108)::
-    Reverse any deafness.
+|Psionic Break
+|96
+|Interrupt a psionic attack.
 
+|Biorganic Attachment
+|100
+|Attach a biorganic attachment.
 
-==== Tough
-Autopsy, Forensic (126)::
-    Disassemble to determine criminal death.
+|Subliminal Suggestion
+|108
+|Interject a thought without detection.
 
-Biorganic Replacement (126)::
-    Insert a biorganic replacement.
+|Hearing Restoration
+|108
+|Reverse any deafness.
 
-Poison Cure (126)::
-    Reverse all poison effects (even HPS damage).
+3+s|Tough
 
-Radiation Cure (126)::
-    Reverse all radiation effects (even HPS damage).
+|Autopsy, Forensic
+|126
+|Disassemble to determine criminal death.
 
-Unstun Group (126)::
-    Unstun all within one hex range. 
+|Biorganic Replacement
+|126
+|Insert a biorganic replacement.
 
-Paralyzing Pinch (126)::
-    Touch target for physical collapse (anthro only).
+|Poison Cure
+|126
+|Reverse all poison effects (even HPS damage).
 
-Mind Inventory (142)::
-    Detect mind control. 
+|Radiation Cure
+|126
+|Reverse all radiation effects (even HPS damage).
 
-Cryogenic Sleep (156)::
-    Safely place into cryogenic sleep.
+|Unstun Group
+|126
+|Unstun all within one hex range.
 
-Vision Restoration (156)::
-    Restore any blindness. 
+|Paralyzing Pinch
+|126
+|Touch target for physical collapse (anthro only).
 
-==== Impossible
-Attribute Boost (168)::
-    Temporarily boost an attribute by 1d3 for 1d3 minutes.
+|Mind Inventory
+|142
+|Detect mind control.
 
-Death Pinch (168)::
-    Touch target for cardiac arrest (anthro only).
+|Cryogenic Sleep
+|156
+|Safely place into cryogenic sleep.
 
-Phenomic Removal (168)::
-    Safely remove a phenomic mutation.
+|Vision Restoration
+|156
+|Restore any blindness.
 
-Reattach Members (196)::
-    Reverse the handiwork of Knites.
+3+s|Impossible
 
-==== Bizarre
-Attribute Enhance (210)::
-    Permanently increase an attribute by 1 (not MIND).
+|Attribute Boost
+|168
+|Temporarily boost an attribute by 1d3 for 1d3 minutes.
 
-Psionic Removal (210)::
-    Unsafely remove a psionic mutation. 
+|Death Pinch
+|168
+|Touch target for cardiac arrest (anthro only).
 
-Pharma Creation (242)::
-    I wanna new drug. 
+|Phenomic Removal
+|168
+|Safely remove a phenomic mutation.
 
-Aging Stagnation (242)::
-    Arrest an aging effect. One at a time.
+|Reattach Members
+|196
+|Reverse the handiwork of Knites.
 
+3+s|Bizarre
+
+|Attribute Enhance
+|210
+|Permanently increase an attribute by 1 (not MIND).
+
+|Psionic Removal
+|210
+|Unsafely remove a psionic mutation.
+
+|Pharma Creation
+|242
+|I wanna new drug.
+
+|Aging Stagnation
+|242
+|Arrest an aging effect. One at a time.
+
+s|Task
+s|Difficulty
+s|Description
+
+|===
