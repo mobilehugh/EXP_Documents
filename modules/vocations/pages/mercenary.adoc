@@ -28,7 +28,7 @@ Interests are broad areas in which the mercenary excels, such as combat or tacti
 Mercenary expertise is narrower like pistols or grenades. 
 Interests and expertise assist the persona with her tasks.
 
-== Interests
+=== Interests
 These are broad areas of interest that the mercenary has. 
 Combat interests will assist the persona in any combat-related tasks she is undertaking.
 For example, tasks related to shooting a lazer gun or throwing a grenade would benefit from combat interests.
@@ -41,28 +41,28 @@ After startup, the player can roll or choose one additional interest per new EXP
 
 include::vocations:partial$mercenary_interests.adoc[]
 
-=== Combat
+==== Combat
 This interest is about weapons. 
 Combat interests lead to combat tasks that are usually weapon-specific.
 Combat interests can assist the persona when making task rolls related to combat tasks.
 For example, if the persona is making a task roll for ambidextrous combat, the combat interests will help.
 
-=== Tactical
+==== Tactical
 Tactical interests assist the mercenary regarding decisions that do not affect direct combat.
 For example, artillery use or planning an ambush are tactical interests.
 
-=== Specialist
+==== Specialist
 These are special interests that do not involve combat or tactical interests.
 For example, knocking open a door, or combat in zero gravity can benefit from special interests.
 These are not special ops interests per se, but many of the special tasks fall into those categories.
 
-== Expertise
+=== Expertise
 Expertise represents much more specific knowledge than interests and can refer to a specific weapon type or a specific task. 
 An expertise assists the persona in completing task rolls related to the task.
 A mercenary gets one expertise per corresponding interest. 
 So combat interests will earn the persona a combat expertise as well.
 
-=== Combat
+==== Combat
 Combat expertise assists the persona on any attack rolls she makes with the described weapon.
 The expertise would also help the persona when making an uncombat task roll.
 The combat expertise Pistols, Flotto would give an attack roll bonus when using any flotto pistol.
@@ -82,31 +82,24 @@ When using the tactical combat rules and kilodie attack rolls, the player adds +
 The player above adds +60 with flotto and bolt-action rifles attack rolls and +40 with any other rifle attack roll.
 These bonuses allow the player to *exceed* the persona's Max Roll. 
 
-=== Tactical
+==== Tactical
 Tactical expertise gives the player a bonus when making applicable task rolls.
 Some of the tactical expertise give attack roll bonuses.
 Most tactical expertise reflects logistics, and area of effect weapons use.
 
 include::vocations:partial$mercenary_expert_tactical.adoc[]
 
-=== Specialist
+==== Specialist
 Specialist expertise gives the persona a bonus on tasks that are neither tactical nor combat.
 However, this expertise can definitely be used in combat situations.
 For example, the submerged expertise will assist the persona in any underwater tasks.
 
 include::vocations:partial$mercenary_expert_special.adoc[]
 
-== Gifts
+=== Gifts
 The mercenary gifts are tasks at which the persona automatically succeeds.
 
 include::vocations:partial$mercenary_gifts.adoc[]
-
-== Experience
-The benefits of increasing experience levels are more weapon expertise and improved success with task rolls.
-Mercenaries earn experience points for completing task rolls and role-playing within their vocation.
-Mercenaries gain 110% of combat EXPS earned.
-
-include::vocations:partial$mercenary_exps.adoc[]
 
 == Tasks
 Tasks are things that the persona does. 
@@ -128,3 +121,10 @@ include::vocations:partial$mercenary_compendium.adoc[]
 This is a list of the tasks from the compendium, but presented in alphabetical order. 
 
 include::vocations:partial$mercenary_tasks.adoc[]
+
+== Experience
+The benefits of increasing experience levels are more weapon expertise and improved success with task rolls.
+Mercenaries earn experience points for completing task rolls and role-playing within their vocation.
+Mercenaries gain 110% of combat EXPS earned.
+
+include::vocations:partial$mercenary_exps.adoc[]
