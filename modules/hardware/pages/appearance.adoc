@@ -5,11 +5,11 @@ Generating an artifact appearance is fun and helpful for the campaign.
 Unidentified equipment is called artifacts, and giving them a distinct appearance helps keep track of them.
 If the players know what a device is, its description is purely cosmetic.
 When the players don't know what a device is, it's description offers a fun way to record it on her persona record.
-For example, a red pistol with glowing tubes is more dramatic and fun than pistol #2f421. 
+For example, a red pistol with glowing tubes is more dramatic and fun than pistol #2f421.
 
-The referee can use appearance to fuel the milieu of her campaign. 
+The referee can use appearance to fuel the milieu of her campaign.
 The appearance generated for artifacts can influence the culture from which they arose.
-An imperial city may have lazer pistols that sport roman flourishes and dark red alloys. 
+An imperial city may have lazer pistols that sport roman flourishes and dark red alloys.
 Artifact appearances need not be utterly random, and the referee's milieu can inform how they appear.
 
 NOTE: An ideal description is a short sentence that differentiates the artifact from everything else.
@@ -23,12 +23,12 @@ NOTE: An ideal description is a short sentence that differentiates the artifact 
 == Shape
 The general shape depends on the hardware, and it's tech level.
 Tech level ten devices tend to appear as familiar mundane terran devices.
-For example, a tech level ten rifle will look like a rifle. 
+For example, a tech level ten rifle will look like a rifle.
 The rifle may have unique colours, style and descriptors, but it will still look like a rifle.
-A tech level twenty rifle may not look like a rifle at all. 
+A tech level twenty rifle may not look like a rifle at all.
 A tech level two rifle may not look like a rifle either.
-So for familiar devices, the shape remains the same. 
-The artifact shape may be random for aberrant tech level artifacts. 
+So for familiar devices, the shape remains the same.
+The artifact shape may be random for aberrant tech level artifacts.
 
 === Basic
 The volume of the device will fit into this shape.
@@ -42,7 +42,7 @@ This table manipulates the basic shape to reflect the infinity that is commercia
 include::robots:partial$basic_shape_distortions.adoc[]
 
 === Adornments
-These are fun and aggravating descriptors to distract the players. 
+These are fun and aggravating descriptors to distract the players.
 
 include::hardware:partial$strange_adornments.adoc[]
 
@@ -69,7 +69,7 @@ include::hardware:partial$appearance_cleanliness.adoc[]
 
 === Age
 Age is a description and does not reflect the artifact's performance or value.
-Age appearance also does not reflect the actual age of an artifact. 
+Age appearance also does not reflect the actual age of an artifact.
 High tech level artifacts may have self cleaning properties that make them appear brand new.
 
 include::hardware:partial$appearance_age.adoc[]
@@ -79,8 +79,29 @@ Usage is a description and does not reflect the artifact's performance or value.
 
 include::hardware:partial$appearance_usage.adoc[]
 
-== Colour
-Colour has the most impact on the appearance of the artifact.
-Artifacts can have any colour: a red and blue rifle, a lime green detector, or an orange striped aerosol.
+=== Colour
+If some colour is needed to spice things up.
 
-include::persona_creation:partial$add_colour_to_your_world.adoc[]
+.*Colour Your Whirled*
+* Simple colour with a 1d12 on the <<_colour_table,Colour Table>>
+* Fancy colour with a 1d100 on the <<_colour_table,Colour Table>>
+* Give the colour an optional <<_colour_affect_table,Affect>>
+* Add a second colour with a <<_colour_pattern_table,Pattern>>
+
+==== Colour Table
+This is a combined simple and fancy colour name table.
+Use a 1d12 to quickly get a simple colour.
+Use a 1d100 to get a fancy colour.
+
+include::persona_creation:partial$colour_names.adoc[]
+
+==== Colour Affect Table
+When colour is just no enough.
+
+include::persona_creation:partial$colour_affects.adoc[]
+
+
+==== Colour Pattern Table
+When one colour is not enough.
+
+include::persona_creation:partial$colour_patterns.adoc[]
