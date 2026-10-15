@@ -2,7 +2,7 @@
 
 The combat rules in the Roll-Playing System employs an attack matrix called the attack table.
 The player refers to the attack table every time she makes an attack roll.
-A robot's attack table is for their baked-in attacks and malfunctioning peripherals.
+A robot’s attack table is for their baked-in attacks and malfunctioning peripherals.
 Robots cannot simply pick up and use any old weapon they find. 
 
 == Robots and Weapons
@@ -16,7 +16,7 @@ If a robot has no appropriate articulation they cannot pick up and use a gun, a 
 Full stop.
 To even ram a target the player will need to win a Control Factor roll if their persona does not have ramming skill 
 
-NOTE: Playing a robot is more "alien" than playing an alien. 
+NOTE: Playing a robot is more “alien” than playing an alien.
 
 === Articulation
 Every player will want their robot persona to be able to use artifact weapons that they find laying around.
@@ -37,7 +37,7 @@ In this edge case the player and referee may choose to generate a vocation attac
 This is the only way a robot persona is able to employ a fully formed attack table.
 For example, the player may use a Mercenary or Nomad Attack Table whan making attack rolls. 
 
-The player can use this vocation attack table for their external "found laying around" artifact weapons.
+The player can use this vocation attack table for their external “found laying around” artifact weapons.
 The robotic attack table can be used for baked-in attacks. 
 Managing the burden of having two attack tables is up to the referee and the table of players.
 Robots can be powerful and being able to use their super charged attributes to shoot things may affect game balance.
@@ -61,32 +61,32 @@ include::combat:partial$attack_table_blank.adoc[]
 . <<_force_bonus,Force Bonus>>
 
 == Skilled Bonus
-The Skilled Bonus (Skilled) is for the robot's baked-in attacks and malfunctioning peripherals acquired during fabrication.
+The Skilled Bonus (Skilled) is for the robot’s baked-in attacks and malfunctioning peripherals acquired during fabrication.
 If the attack is appropriate, the player adds the Skilled Bonus to her attack roll.
 The Skilled Bonus has two main components: Attributes Component and Level Componenent.
-The persona's Skilled Bonus increases as the they gains EXPS levels. 
+The persona’s Skilled Bonus increases as the they gains EXPS levels.
 
 include::robots:partial$attack_table_robot_skilled_bonus_calculation.adoc[]
 
 TIP: Breaking the Skilled Bonus into components may be helpful
 
 === Attribute Component
-The persona's attributes determine the majority of the robot's Skilled Bonus.
+The persona’s attributes determine the majority of the robot’s Skilled Bonus.
 Strong robots are good at ramming.
 Dextrous robots are good at firing arrows.
-If a persona's attributes increase or decrease, the player should recalculate her attack table.
+If a persona’s attributes increase or decrease, the player should recalculate her attack table.
 In the case of robots, attributes tend to decrease.
 
 include::robots:partial$attack_table_robot_skilled_attribute_component.adoc[]
 
 === Prime Component
-The robot primes determine the range of the robot's CON, DEX, INT and STR attributes.
+The robot primes determine the range of the robot’s CON, DEX, INT and STR attributes.
 The prime bonus is equal to the robotic prime times its attribute.
 
 include::robots:partial$attack_table_robot_skilled_prime_component.adoc[]
 
 === Level Component
-The attack type determines the robot's level bonus.
+The attack type determines the robot’s level bonus.
 The player adds the level bonus for each EXPS level of her alien, including her first level.
 Initially, the level bonus plays a small role in the Skilled, but the contribution grows with EXPS.
 
@@ -94,7 +94,7 @@ include::robots:partial$attack_table_robot_skilled_level_component.adoc[]
 
 == Raw Bonus
 Robots do not have a Raw Bonus. 
-A robot's programming does not allow Raw attacks, and the robot's Raw is zero.
+A robot’s programming does not allow Raw attacks, and the robot’s Raw is zero.
 Robot Raw is the easiest of all the attack table elements to calculate.
 
 include::robots:partial$attack_table_robot_raw_fraction.adoc[]
@@ -102,7 +102,7 @@ include::robots:partial$attack_table_robot_raw_fraction.adoc[]
 == Max Roll
 Robots do not have a Max Roll.
 There is no upper limit to what the player can generate for her attack roll.
-This techno-malarky is supposed to reflect the robot's lack of nervousness or insecurity.
+This techno-malarky is supposed to reflect the robot’s lack of nervousness or insecurity.
 
 include::robots:partial$attack_table_robot_max_roll.adoc[]
 
@@ -110,7 +110,7 @@ include::robots:partial$attack_table_robot_max_roll.adoc[]
 When the player has won an attack roll, she can add her Force Bonus to the damage roll.
 Robots contribute more of their Strength to the Force Bonus due to the engineering of their inorganic materials. 
 From an attribute standpoint a robot STR of 12 equals an alien STR of 12. 
-Shoot attacks do not depend on the robot's Strength and have no Force Bonus.
+Shoot attacks do not depend on the robot’s Strength and have no Force Bonus.
 
 include::robots:partial$attack_table_robot_force_bonus.adoc[]
 
