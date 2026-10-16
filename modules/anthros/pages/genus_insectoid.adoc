@@ -10,45 +10,7 @@
 
 include::ROOT:partial$articulate.adoc[]
 
-// Table 4.12 Insectoid Data
-.*Insectoid Data*
-[width="75%",cols="<,<,<",frame="all"]
-
-|===
-3+<|Data required to hatch an insectoid player persona.
-
-s|Attribute Minimums
-2+<|MND 12
-
-s|Attribute Adjustments
-2+<|Nil
-
-s|Age
-2+<|21-32 (1d12 + 20) years
-
-s|Abilities
-2+<|<<_neural_stability,Neural Stability>>
-
-s|Size
-s|Hite (cm)
-s|Wate (kg)
-// One size fits all not present
-
-|Stout
-|125+(8d20)-40
-|60
-
-|Lean
-|150+(6d20)-50
-|55
-
-3+<|xref:anthros:anthro_size.adoc[Calculate Hite and Wate]
-
-3+<|Example species: Ant, Beetle, Fly, Mantis, Pill bug, Scorpion, Spider, Worm.
-
-|===
-
-Insectoid is short for Hominidae Homo Insectum.
+Insectoid is common name for the Hominidae Homo Insectum.
 Insectoids are humanoid bugs.
 An insectoid persona could resemble a bee, spider, worm, slug, flea, mosquito, beetle, tick, louse, moth, grasshopper, dragonfly, etc.
 Every insectoid has two arms, two legs, a torso and a face.
@@ -57,6 +19,44 @@ The persona may also have additional decorative limbs or wings.
 The anthro type is entirely decorative.
 For example, an insectoid spider would not be poisonous or build a web.
 An insectoid may have a stinger for a tail, but it would not be sharp or poisonous.
+
+Example species: Ant, Beetle, Fly, Mantis, Pill bug, Scorpion, Spider, Worm.
+
+== Hatching Data
+
+[width="75%",cols="<,<",frame="all"]
+|===
+2+<|Attribute Data
+
+s|Minimums
+|MND 12
+
+s|Adjustments
+|Nil
+
+s|Age
+|21-32 (1d12 + 20) years
+
+s|Abilities
+|<<_neural_stability,Neural Stability>>
+
+s|Sizes
+|Stout and Lean
+
+s|Stout Hite (cm)
+|125+(8d20)-40
+
+s|Stout Wate (kg)
+|60
+
+s|Lean Hite (cm)
+|150+(6d20)-50
+
+s|Lean Wate (kg)
+|55
+
+2+<|xref:anthros:anthro_size.adoc[Calculate Hite and Wate,window=_blank, rel="noopener noreferrer"]
+|===
 
 == Neural Stability
 Insectoids have very resilient brain structures.

@@ -1,67 +1,105 @@
 = Anthro Attributes
 
 Anthro attributes are generated randomly and added to the persona record sheet.
-Attributes determine both the physical abilities and type of the anthro persona. 
+Attributes determine both the physical abilities and type of the anthro persona.
 Randomly determining anthro attributes is based on ruleset legacy and game balance.
 Using multiple dice to generate random numbers creates more organic ability curves.
-The weak and strong are outliers. 
+The weak and strong are outliers.
 
 include::anthros:partial$anthro_attribute_generation.adoc[]
 
 == Mind Adjustment
-The Mind attribute of an anthro persona increases with her Intelligence attribute. 
-This Mind adjustment is only for anthro personas. 
+The Mind attribute of an anthro persona increases with her Intelligence attribute.
+This Mind adjustment is only for anthro personas.
 Most referees will not reduce a persona’s Mind during persona creation.
-The intelligence adjustment of Mind can lead to a persona with a negative attribute. 
-Attributes less than one is fatal for personas. 
+The intelligence adjustment of Mind can lead to a persona with a negative attribute.
+Attributes less than one is fatal for personas.
 
 include::anthros:partial$mind_adjust_by_intelligence.adoc[]
 
-== Alternate Generation Systems
-It is easy enough to incorporate alternate attribute generation systems.
-EXP bases all its rules on a system where 3 and 18 are rare attribute scores. 
-Bonuses and penalties in EXP reflect anthro attributes based on this on the three die six curves.
-Small increases in average attribute scores can lead to powerful personas.
-The referee and players should choose the approach that works best for them.
-Don’t let rules get in the way of the story or the fun.
+== Hit Points
+Hit points (HPS) measure how much physical punishment a persona can endure before going unconscious or dying.
+An anthro’s Constitution determines her physiologic health, and in turn her hit points.
+Hit points are a dynamic currency of well being.
+They are reduced when the anthro is injured, and losing too many hit points is fatal.
 
-=== Drop the lowest
-Drop the lowest is a simple enough mechanism for increasing anthro attributes.
-Players roll 4d6 and drop the lowest die roll. 
-If a player rolls 4, 3, 5, and 2, she drops the 2, and her total is 12. 
+For anthros hit points also determines consciousness and ability to recover from being stunned.
 
-The impact on the nature of the game using drop the lowest is astounding. 
-Expeditions are composed of powerful vocations like spies and knites.
-The ruleset still works, and using drop the lowest is up to the players and referee.
+=== Hit Points Max (HPM)
+*aka full health*
 
-====
-Using python computer models generating personas with drop the lowest made the vocations spie, and knite, commonplace vocations.
-====
+When a player is generating her anthro's hit points for the first time she is creating her personas hit point max.
+The hit points max (HPM) is the full health for the persona.
+The persona gets one hit point per point of constitution (CON) plus 1d8 per two points of constitution.
+So a persona with a CON of 10 would get 10 plus 5d8 hit points.
+HPM is generated once at anthro generation and is recorded like any other attribute.
+A good HPM is required to become a mercenary.
 
-For technical reasons, Social Standing and hit points cannot be part of drop the lowest. 
+.*Hit Points Max (HPM) Full Health*
+* *HPM = (1/2 CON x 1d8) + CON*
+* Rounding benefits the player
+** CON = 5, 3d8 + 5
+** CON = 12, 6d8 + 12
 
-=== Roll and assign
-Roll and assign is a system that preserves the 3d6 curve and still allows players to alter their attributes as desired. 
-The player rolls her attributes in the standard fashion used 3d6.
-She can then move the attribute scores around as she sees fit.
-She can swap her 12 Awareness with her 16 Charisma.
-If the referee and players want to have an expedition of knites, then include Mind in this process.
 
-For technical reasons, Social Standing and HPS cannot be part of the roll and assign system. 
+=== Minimum Hit Points
+*aka death*
 
-=== Point System
-Point system attribute generation has no random component at all.
-The player gets a collection of points that they distribute between appropriate attributes. 
-A typical point system is based on a 3d6 system and gives 70 points.
-A generous point system is based on 4d6 drop lowest and gives 91 points.
+Hit points is an attribute that can drop below one without killing the persona.
+A persona with a negative hit point total is unconscious and dying from physical trauma.
+Having a negative hit point total is often referred to as “being negative.”
+A persona with a negative hit points value is unconscious, and can do nothing other than lay about and bleed.
 
-Point systems become alarmingly complicated, very rapidly.
-In theory, point systems allow players to create the persona they want.
-However, the amount of time spent couriering points around is time-consuming.
-Many players find the responsibility of creating their personas de novo stressful.
+As an anthro gets damaged in combat her hit points keep going down.
+At zero hit points an anthro goes unconscious and is dying.
+Hit points can be returned by healing, and dying can be stopped by resuscitation.
+These interventions are described in the vocation xref:vocations:veterinarian.adoc[veterinarian].
 
-Players are smart and creative, and the referee may need some rules for the point assignment.
-The player must assign at least 3 points to each of her attributes is a good start. 
-The referee may limit point assignment to Mind to keep variety in the expedition.
+.*Minimum Hit Points (Death)*
+* *Unconscious = Zero Hit Points*
+** Unconscious personas cannot act
+* *Death = Zero - (1/2 HPM)*
+** HPS immediately start draining once negative
+** HPM = 22, dead at -11 HPS
+** HPM = 40, dead at -20 HPS
 
-For technical reasons, Social Standing and HPS cannot be part of a point system.
+The persona loses one hit point every five units (10 seconds) her hit point total is negative.
+A persona at -2 hit points will drop to -3 hit points five units later, and then -4 hits points 10 seconds after that.
+This physiologic collapse continues until the hit point total reaches her hit point minimum, and the persona is dead.
+This rapid decline to death does not stop unless medically treated.
+For more information about healing and death jump to xref:uncombat:health.adoc[Health,window=_blank, rel="noopener noreferrer"].
+
+=== System Shock
+*optional rule for getting stunned in combat*
+
+System shock checks to see if a persona is incapacitated by a bolus of damage.
+Whenever a persona loses more than half her hit point total (HPS) in one attack, she must make a System Shock roll, or fall unconscious.
+Unlike the unconsciousness described in hit points minimum the persona is not dying.
+This is like a stun check.
+This rule is optional and hardly ever used.
+
+.*Damage System Shock Roll*
+* *1d20 + HPS + CON + Level > 42*
+* the player must score higher than 42 or be stunned
+* HPS is present hit points not HPM, CON is constitution
+** HPS = 10, CON = 10, Level = 3, 1d20 = 10; 33 < 42 -> knocked out
+** HPS = 10, CON = 10, Level = 3, 1d20 = 20; 43 > 42 -> keep fighting
+
+
+=== Recovery
+*optional rule for recovering from a combat stun*
+
+A recovery roll (REC) is a check to see if a persona awakens from their trauma-induced slumber.
+The persona remains inactive until she makes a successful recovery roll.
+The REC is a specialized attribute roll that takes into consideration the persona’s hit point total.
+
+.*Recovery Roll*
+* *1d20 + HPS + CON + Level > 32*
+* the player must score higher than 32 or remain stunned
+* HPS is present hit points not HPM, CON is constitution
+** HPS = 10, CON = 10, Level = 3, 1d20 = 5; 28 < 32 -> stay down
+** HPS = 10, CON = 10, Level = 3, 1d20 = 20; 43 > 32 -> back in the fight
+
+Recovery rolls only apply to personas with an HPS greater than 0.
+The player can check every few units during combat or whenever the referee feels a recovery roll is appropriate.
+Once combat has ended, all stunned personas should immediately recover and join in on the game.

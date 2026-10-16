@@ -10,47 +10,45 @@
 
 include::ROOT:partial$articulate.adoc[]
 
-// Table 4.15 Rodentia Data
-.*Rodentia Data*
-[width="75%",cols="<,<,<",frame="all"]
-
-|===
-3+<|Rodent data for player personas.
-
-s|Attribute Minimums
-2+<|CHA 12
-
-s|Attribute Adjustments
-2+<|AWE +2; DEX +1; STR -1
-
-s|Age
-2+<| 5-25 (1d20 + 4) years
-
-s|Abilities
-2+<|<<_speedy,Speedy>>, <<_night_vision,Night Vision>>
-
-s|Size
-s|Hite (cm)
-s|Wate (kg)
-// One size fits all not present
-
-|One size fits all
-|175+(2d20)-20
-|71
-
-3+<|xref:anthros:anthro_size.adoc[Calculate Hite and Wate]
-
-3+<|Example species: Beaver, Gerbil, Guinea pig, Mole, Mouse, Racoon, Rat, Sloth.
-
-|===
-
-Rodentia is short for Hominidae Homo Rodens.
+Rodentia is common name for the Hominidae Homo Rodens.
 Rodentia are humanoid rat people.
 Rodentia can appear as beaver, kangaroo, rat, mouse, mole, porcupine, hedgehog, gopher, platypus, hamster, gerbil, squirrel, etc.
 Every rodentia has two arms, two legs, a torso and a face.
 Rodentia are fur covered humanoids with paws, rodent heads and tails.
 Rodents have none of the powers of their chosen type.
 For example, a rodentia beaver cannot chew timber, and a platypus would not be poisonous.
+
+Example species: Beaver, Gerbil, Guinea pig, Mole, Mouse, Racoon, Rat, Sloth.
+
+== Birth Data
+
+[width="75%",cols="<,<",frame="all"]
+|===
+2+<|Attribute Data
+
+s|Minimums
+|CHA 12
+
+s|Adjustments
+|AWE +2; DEX +1; STR -1
+
+s|Age
+|5-25 (1d20 + 4) years
+
+s|Abilities
+|<<_speedy,Speedy>>, <<_night_vision,Night Vision>>
+
+s|Size
+|One size fits all
+
+s|Hite (cm)
+|175+(2d20)-20
+
+s|Wate (kg)
+|71
+
+2+<|xref:anthros:anthro_size.adoc[Calculate Hite and Wate,window=_blank, rel="noopener noreferrer"]
+|===
 
 == Speedy
 Rodents can move fast and are uninhibited by terrain.
@@ -61,9 +59,7 @@ So if a rodent is running through thick grass, she would not suffer any movement
 
 == Night Vision
 Rodentia have limited night vision.
-The night vision does not work if artificial light is present. 
+The night vision does not work if artificial light is present.
 For example, a torch or searchlight would disable rodent night vision.
-In complete darkness, a rodent can see two hexes per point of Awareness. 
+In complete darkness, a rodent can see two hexes per point of Awareness.
 A rodentia with a 12 Awareness can see 24 hexes in darkness.
-
-
