@@ -29,36 +29,29 @@ Example species: Clydesdale, Cow, Donkey, Gazelle, Giraffe, Sheep, Shetland, Zeb
 
 == Foaling Data
 
-[width="75%",cols="<,<",frame="all"]
+[width="75%",cols="<,<",frame="all", options="noheader"]
 |===
-2+<|Attribute Data
+2+<s|Attributes
 
-s|Minimums
+|Requirements
 |DEX 8; STR 10
 
-s|Adjustments
+|Adjustments
 |DEX +1; INT -1; MND -2; STR +2
 
-s|Age
-|10-29 (1d20 + 9) years
+s|Age (years)
+|26-35 (1d10 + 25)
 
 s|Abilities
 |<<_gallop,Gallop>>, <<_jump,Jump>>
 
-s|Sizes
-|Quaint and Robust
+2+s|Quaint Sized
+|Hite (cm); Wate (kg)
+|179+(2d20)-20; 71
 
-s|Quaint Hite (cm)
-|179+(2d20)-20
-
-s|Quaint Wate (kg)
-|71
-
-s|Robust Hite (cm)
-|186+(2d20)-20
-
-s|Robust Wate (kg)
-|81
+2+s|Robust Sized
+|Hite (cm); Wate (kg)
+|186+(2d20)-20; 81
 
 2+<|xref:anthros:anthro_size.adoc[Calculate Hite and Wate,window=_blank, rel="noopener noreferrer"]
 |===

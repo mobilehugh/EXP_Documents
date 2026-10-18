@@ -23,18 +23,18 @@ Example species: Apple, Coconut, Daisy, Fern, Pine, Rose, Shroom, Turnip.
 
 == Germination Data
 
-[width="75%",cols="<,<",frame="all"]
+[width="75%",cols="<,<",frame="all", options="noheader"]
 |===
-2+<|Attribute Data
+2+<s|Attributes
 
-s|Minimums
+|Requirements
 |CON 12; INT 12
 
-s|Adjustments
+|Adjustments
 |INT +1
 
-s|Age
-|21-40  (1d20 + 20) years
+s|Age (years)
+|61-80 (1d20 + 60)
 
 s|Abilities
 |<<_photosynthesis,Photosynthesis>>
@@ -42,11 +42,8 @@ s|Abilities
 s|Size
 |One size fits all.
 
-s|Hite (cm)
-|165+(3d20)-30
-
-s|Wate (kg)
-|50
+|Hite (cm); Wate (kg)
+|165+(3d20)-30; 50
 
 2+<|xref:anthros:anthro_size.adoc[Calculate Hite and Wate,window=_blank, rel="noopener noreferrer"]
 |===

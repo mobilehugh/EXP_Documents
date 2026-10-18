@@ -20,36 +20,29 @@ Example species: Black, Brown, Grizzly, Bald bear, Panda, Polar, Sloth, Sun.
 
 == Birth Data
 
-[width="75%",cols="<,<",frame="all"]
+[width="75%",cols="<,<",frame="all", options="noheader"]
 |===
-2+<|Attribute Data
+2+<s|Attributes
 
-s|Minimums
+|Requirements
 |DEX 4; INT 4; STR 12
 
-s|Adjustments
+|Adjustments
 |CON +1; INT -2; STR +2
 
-s|Age
-|9-12 (1d4 + 8) years
+s|Age (years)
+|16-25 (1d10 + 15)
 
 s|Abilities
 |<<_hibernation,Hibernation>>, <<_frenzy,Frenzy>>
 
-s|Sizes
-|Big and Bigger
+2+s|Big Sized
+|Hite (cm); Wate (kg)
+|176+(2d20)-20; 78
 
-s|Big Hite (cm)
-|176+(2d20)-20
-
-s|Big Wate (kg)
-|78
-
-s|Bigger Hite (cm)
-|208+(2d20)-20
-
-s|Bigger Wate (kg)
-|139
+2+s|Bigger Sized
+|Hite (cm); Wate (kg)
+|208+(2d20)-20; 139
 
 2+<|xref:anthros:anthro_size.adoc[Calculate Hite and Wate,window=_blank, rel="noopener noreferrer"]
 |===
