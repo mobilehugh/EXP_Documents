@@ -42,11 +42,11 @@ Don't be a jerk.
 Psionics were formerly called Mental Mutations and Phenomics were formerly called Physical Mutations.
 
 .Mutation Chance Variations
-* Mutations desired *doubles the chance*
-* Mutations not desired *zeroes the chance*
-* player should not suffer duress by a mutation
-* humanoid anthros can automatically mutate
-* purestrain cannot start with phenomic mutations
+* *double Chance* if desired
+* *zero Chance* if not desired
+* *100% Chance* if humanoid genus
+* *zero Chance phenomic* if purestrain genus
+* Defects should not cause duress
 
 include::anthros:partial$anthro_phenomic_check.adoc[]
 
