@@ -3,74 +3,30 @@
 The combat rules in the Roll-Playing System employs an attack matrix called the attack table.
 The player refers to the attack table every time she makes an attack roll.
 Following are the details of how to calculate an attack table for an anthro persona.
+This section has cursory explanations and no detailed calculations.
+For more info jump to xref:combat:attack_table_anthro.adoc[Anthro Attack Table,window=_blank, rel="noopener noreferrer"]
 
-The anthro attack table includes the persona’s vocation in it’s calculation.
-Sometimes the anthro attack table will be referred to as a vocation attack table.
-Alien and robot personas have their own unique attack tables, which do not include vocation data. 
-If an alien or robot persona has a vocation it is possible that she may use this vocation based attack table.
+The attack table is composed of four roll bonuses spread across 3 attack types.
 
-This section has cursory explanations and detailed calculations. 
-For more info jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank, rel="noopener noreferrer"].
+.*Attack Roll Bonuses*
+* xref:combat:attack_table_details.adoc#_skilled_bonus[Skilled Bonus,window=_blank, rel="noopener noreferrer"]
+** when using familiar weapons
+* xref:combat:attack_table_details.adoc#_raw_bonus[Raw Bonus,window=_blank, rel="noopener noreferrer"]
+** when using unskilled weapons
+* xref:combat:attack_table_details.adoc#_max_roll[Max Roll,window=_blank, rel="noopener noreferrer"]
+** the highest roll possible
+* xref:combat:attack_table_details.adoc#_force_bonus[Force Bonus,window=_blank, rel="noopener noreferrer"]
+** added to damage roll
 
-include::combat:partial$attack_table_blank.adoc[]
+.*Attack Types*
+* xref:combat:attack_types.adoc#_strike_attacks[Striking attacks,window=_blank, rel="noopener noreferrer"]
+** swords, clubs, axes
+* xref:combat:attack_types.adoc#_fling_attacks[Fling attacks,window=_blank, rel="noopener noreferrer"]
+** bows, rocks, daggers, shuriken
+* xref:combat:attack_types.adoc#_shoot_attacks[Shooting attacks,window=_blank, rel="noopener noreferrer"]
+** guns, lazers, crossbows.
 
-.*Attack Table Calculation Order*
-. <<_skilled_bonus,Skilled Bonus>>
-.. xref:anthros:attack_table.adoc#_attribute_component[Attribute Component,window=_blank]
-.. xref:anthros:attack_table.adoc#_level_component[Level Component,window=_blank]
-. <<_raw_bonus,Raw Bonus>>
-. <<_max_roll,Max Roll>>
-. <<_force_bonus,Force Bonus>>
-
-== Skilled Bonus
-The Skilled Bonus (Skilled) is for weapons in which the persona is skilled.
-The player adds the Skilled to her attack roll when her persona uses a weapon in which she is proficient.
-The Skilled Bonus has two main components: Attributes Bonus and Level bonus.
-The persona’s Skilled increases as the persona gains EXPS levels.
-
-include::anthros:partial$attack_table_anthro_skilled_total.adoc[]
-
-TIP: Breaking the Skilled Bonus into components may be helpful
-
-=== Attribute Component
-The persona’s attributes determine the majority of the persona’s Skilled Bonus.
-Strong personas wield crushing weapons well.
-Dextrous personas wield projectile weapons well.
-If a persona’s attributes increase or decrease, the player should recalculate her attack table.
-
-include::anthros:partial$attack_table_anthro_skilled_attribute_component.adoc[]
-
-=== Level Component
-The persona’s vocation determines her level bonus.
-Each vocation has its level bonus.
-The level bonus is added per level of experience that the persona has.
-Adding the level component to the skilled bonus at first level is a matter to be decided by the table.
-
-include::anthros:partial$attack_table_anthro_skilled_level_component.adoc[]
-
-== Raw Bonus
-The Raw Bonus (Raw) is not a wrestling thang.
-A persona’s Raw Bonus represents the persona’s raw attribute abilities.
-Usually this is reserved for weapons that the persona is not skilled with.
-This reduction of her Skilled depends on her vocation and weapon type.
-The Raw Bonus Table numbers are percentages that the player multiplies the Skilled by.
-A nomad with a 100 Skilled would have a 25 Raw for unfamiliar weapons.
-
-include::anthros:partial$attack_table_anthro_raw_fraction.adoc[]
-
-== Max Roll
-The Max Roll is the highest roll that a player can make on the kilo-die attack roll.
-There is always a chance to damage an attacker using xref:uncombat:critical_checks.adoc[Critical Checks,window=_blank, rel="noopener noreferrer"].
-
-include::anthros:partial$attack_table_anthro_max.adoc[]
-
-== Force Bonus
-When the player has won an attack roll, she can add her Force Bonus to her damage roll.
-Powered weapons like guns and rifles have no Force Bonus.
-
-include::anthros:partial$attack_table_anthro_force.adoc[]
-
-== Anthro Attack Table Example
-A second level spie has the following attributes: AWE 12, CHA 11, CON 12, DEX 10, INT 12, MND 14 and STR 16.
-
-include::anthros:partial$attack_table_anthro_example.adoc[]
+These items create a matrix of arithmetic fun called an attack table.
+If the persona were attacking with her familiar pistol the player would add her Skilled Shoot bonus to her attack roll.
+If the persona were throwing a can of beans the player would add her Raw Fling bonus to her attack roll.
+These bonuses are based on the persona's attributes, increase with experience levels, and vary with vocation.

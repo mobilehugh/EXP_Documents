@@ -1,22 +1,68 @@
 = Anthro Size
 
+Persona size has two components, hite and wate.
+Hite, aka height, is the persona’s length in centimetres (cm).
+Wate, aka weight, is the persona’s volume/mass in kilograms (kg).
 Anthros are human-sized.
-In the vernacular of EXP, anthros are medium sized.
+In the vernacular of EXP, anthros are *medium sized*.
 The occasional ursidae may sneak onto the bottom of the large scale.
-Only alien and robot personas can be tiny or gigantic.
-Size has two components, hite and wate.
-Hite, aka height, is the persona’s length in centimetres (cms).
-Wate, aka weight, is the persona’s volume/mass in kilograms (kgs).
-
-A combined table of all genera hite and base wate is included for convenience.
-The base wate on this table is *NOT* the persona’s wate in kg.
-This is the base wate from which the persona’s wate is calculated.
 
 Hite and wate are genderless in EXP.
 The player can choose a descriptor to influence their hite and wate.
 The player is also welcome to choose a hite and wate that suits their persona.
 Don’t let rules get in the way of the story or fun.
 
-.*Calculate Hite and Wate*
-* xref:anthros:anthro_hite_calc.adoc[Calculate Hite, window=_blank, rel="noopener noreferrer"]
-* xref:anthros:anthro_wate_calc.adoc[Calculate Wate, window=_blank, rel="noopener noreferrer"]
+== Hite
+Anthro persona hite is measured in centimeters (cm).
+The player is welcome to choose whatever hite she desires as long as it fits into the milieu and story.
+For those who wish to generate their persona's hite you are in the correct place.
+
+Each anthro genus has a hite calculation listed with their persona.
+A canine anthro has a hite calculation of 150+(1d12-8).
+The player rolls 1d12 subtracts 8 and then adds that value to 150.
+If the player rolls 8, their canine's hite would be 150 cm.
+
+.*Hite Determination*
+* Canine hite calculation is 150+(1d12-8)
+* if 1d12 rolls 12, 150 + (4) = 154 cm
+* if 1d12 rolls 1, 150 + (-7) = 143 cm
+
+Calculating hite is that simple.
+First number is the base hite of the anthro type.
+The base hite for a canine is 150 cm.
+This number becomes important when calculating the persona's wate.
+
+== Wate
+Anthro persona wate is measured in kilograms (kg).
+The player is welcome to choose whatever wate she desires as long as it fits into the milieu and story.
+For those who wish to generate their persona's wate you are in the correct place.
+
+Each anthro has a wate value.
+This number is called the base wate.
+The persona's wate is calculated.
+There are no dice rolls made.
+The personas hite and base hite are used to calculate the persona's wate
+
+Our canine friend above has a base hite of 150.
+This is the first number in the hite calculation *150*+(1d12-8)
+The canine also has a base wate value of 48.
+
+Every persona rolls a variance of 2d20-20.
+This is used to massage the hite and push the wate into a wider range.
+There is no need to understand this, but it will be more fun if you use the variance.
+
+.*Wate Determination*
+. Determine the base hite
+.. Canine base hite is 150
+. Determine the variance (2d20-20)
+.. for example 20
+. Add the actual hite and variance
+.. 154+20 is 174
+. Divide the base hite by the variance
+. 150 / 174 = 0.86
+. Determine the base wate
+.. Canine base wate is 48
+. Modify the base wate by the fraction
+.. 48 * 0.86 = 41 kg
+
+Often arithmetic averse players just use the base wate.
