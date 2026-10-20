@@ -11,7 +11,7 @@
 include::ROOT:partial$articulate.adoc[]
 
 The size of an alien is not just a descriptive element.
-Alien persona size influences hit points, damage, reach, wate and hite. 
+Alien persona size influences hit points, damage, reach, wate and hite.
 This is why size is determine so early in alien persona generation.
 The alien size has a qualitative descriptive like Large, or Small.
 Anthros are Medium sized and use the same size descriptor.
@@ -34,15 +34,15 @@ An enormous size is a constant role-playing challenge.
 :artist: Virgil Finlay
 :date: 1966
 :license: CC BY-SA 4.0
-:description: Drawing of two humans staring into an alien larger than both of them. 
+:description: Drawing of two humans staring into an alien larger than both of them.
 
 include::ROOT:partial$articulate.adoc[]
 
 == Size Determination
 Size is a qualitative description of the alien’s size.
-It lack wate and hite information. 
+It lack wate and hite information.
 Often the qualitative size of the alien is good enough for the players.
-Alien size is randomly determined for persona aliens. 
+Alien size is randomly determined for persona aliens.
 
 include::aliens:partial$size_category_list.adoc[]
 
@@ -56,14 +56,14 @@ The referee may choose to adjust the alien’s size based on her attributes.
 Stronger creatures tend to be larger and dextrous creatures tend to be smaller.
 The player adds her persona’s Strength and subtracts her persona’s Dexterity from the Alien Size Table result.
 An alien with a 22 STR and a 12 DEX would add 10 to her Alien Size Table result.
-A die roll of 67 increases to 77, and the alien moves from medium sized to large sized. 
+A die roll of 67 increases to 77, and the alien moves from medium sized to large sized.
 
 == Wate
 The wate of the alien is measured in kilograms.
 Exact wate amount is useful for evolutations, collisions, rescue operations and bragging rights.
 The most common way to determine wate is by using the Size Category Wate Table.
 The player makes a mildly complicated die roll to determine her persona's wate in kilograms.
-Player personas cannot be Minute or Humongous. 
+Player personas cannot be Minute or Humongous.
 They are included on the table for information purposes.
 
 
@@ -73,7 +73,7 @@ A player with a large sized alien would five 1d100’s and adds 100 to determine
 Rolling 39, 41, 11, 89 and 67 gives her alien a wate of 347 kg.
 Her alien has no description, no name, or abilities, but its wate is 347 kg.
 
-If you do not have a 1d50 handy, roll a 1d100 and divide by 2, or re-roll of you get 51 or higher. 
+If you do not have a 1d50 handy, roll a 1d100 and divide by 2, or re-roll of you get 51 or higher.
 
 == Hite
 The hite of the alien is measured in centimeters.
@@ -84,13 +84,13 @@ include::aliens:partial$hite_size_category.adoc[]
 
 == Reach
 The reach of an alien is how far away from it’s torso can it impact the world.
-The reach of an anthro is easily understood by referees and players alike. 
+The reach of an anthro is easily understood by referees and players alike.
 However the reach of an alien with a cow shaped body and octopus arms may not be as clear.
 Once extremes of size are added into the size “reach” can become complicated indeed.
 
 Typically the alien’s arms will be it’s reaching limbs.
-If an alien has no arms reaching may not be part of their existence or they can use their legs. 
-Reach only applies to grabbing objects or strike attacks. 
+If an alien has no arms reaching may not be part of their existence or they can use their legs.
+Reach only applies to grabbing objects or strike attacks.
 Reach does not apply to fling attacks, shoot attacks or psionic evolutations.
 
 include::aliens:partial$reach_size_category.adoc[]
@@ -98,9 +98,9 @@ include::aliens:partial$reach_size_category.adoc[]
 Minute aliens have to land on their target before reaching them.
 This means that a minute alien must win an attack roll against 300 defence and land on their target.
 
-Tiny aliens must use a move to reach a target inside the hex that they are in. 
-This does not seem like much but every player in tactical combat enjoys a move and attack. 
-This really limits Tiny aliens. 
+Tiny aliens must use a move to reach a target inside the hex that they are in.
+This does not seem like much but every player in tactical combat enjoys a move and attack.
+This really limits Tiny aliens.
 
 Small aliens must be in the same hex as their target but do not have to sacrifice their movement.
 
@@ -110,16 +110,20 @@ Large aliens can reach across their adjacent hexagon and into any hexagon connec
 
 Gigantic aliens can reach across 2 hexagons. This is very dangerous in close combat.
 
+== Space
+How much space does an alien occupy on the hex table?
+Hite and wate may answer the question, but sometimes the table needs to know how much space an alien occupies.
 
+include::aliens:partial$wate_to_space.adoc[]
 
-== dflkj
+== Density
+Sometimes using size category does not work for determining the alien's hite.
+Below is a table that uses alien wate to guide alien hite.
+This table is roughly based on density.
 
+.*Alien Density Assumptions*
+* 1 tonne of dense meat occupies 3.5 cubic meters
+* 3.5 cubic meters is 1.2 x 1.2 x 2.4 meters of volume
+* roughly 1 tonne of persona is 1 hex of hite
 
-
-include::robots:partial$wate_to_hite_estimation.adoc[]
-
-
-
-
-
-
+include::aliens:partial$wate_to_size.adoc[]
