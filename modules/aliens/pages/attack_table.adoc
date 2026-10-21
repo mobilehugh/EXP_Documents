@@ -2,78 +2,38 @@
 
 The combat rules in the Roll-Playing System employs an attack matrix called the attack table.
 The player refers to the attack table every time she makes an attack roll.
-An alien’s attack table is for their evolved natural attacks.
-The Strike Attack would be for her nasty bite attack, and the Fling Attack would be for her steaming sap blob spittles. The alien attack table is not for artifact weapons. 
+Following are the details of how to calculate an attack table for an alien persona.
+This section has cursory explanations and no detailed calculations.
+For more info jump to xref:combat:attack_table_alien.adoc[Alien Attack Table,window=_blank, rel="noopener noreferrer"]
 
+The attack table is composed of four roll bonuses spread across 3 attack types.
 
+.*Attack Roll Bonuses*
+* xref:combat:attack_table_details.adoc#_skilled_bonus[Skilled Bonus,window=_blank, rel="noopener noreferrer"]
+** when using natural attacks like claws, hooves or spittle
+** may apply to skilled weapons if the alien is a tool user
+* xref:combat:attack_table_details.adoc#_raw_bonus[Raw Bonus,window=_blank, rel="noopener noreferrer"]
+** can never apply to natural attacks
+** may apply to unskilled weapons it the alien is an educated tool user
+* xref:combat:attack_table_details.adoc#_max_roll[Max Roll,window=_blank, rel="noopener noreferrer"]
+** the highest roll possible
+* xref:combat:attack_table_details.adoc#_force_bonus[Force Bonus,window=_blank, rel="noopener noreferrer"]
+** always zero for natural attacks, as STR is rolled into the damage roll
+** may apply to weapons if the alien is a tool user
 
-This section has cursory explanations and detailed calculations. 
-For more info jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank, rel="noopener noreferrer"].
+.*Attack Types*
+* xref:combat:attack_types.adoc#_strike_attacks[Striking attacks,window=_blank, rel="noopener noreferrer"]
+** Mouths, claws, beaks, hooves, horns, antlers
+* xref:combat:attack_types.adoc#_fling_attacks[Fling attacks,window=_blank, rel="noopener noreferrer"]
+** Quills, spittles, spines, cones, bone spurs
+* xref:combat:attack_types.adoc#_shoot_attacks[Shooting attacks,window=_blank, rel="noopener noreferrer"]
+** Lazer eyes, energy bolts, gas propelled chunks
 
-== Aliens and Weapons
-The attack table generated here is for the alien’s naturally evolved attacks and *not* artifact weapons.
-For an alien to even consider using a weapon the species must be a tool user.
-Even a simple tool user can use an artifact weapon (gun, grenade, axe, etc).
-However flora or fauna aliens do not even comprehend tools of any kind.
-A non-tool using alien would step over the fusion rifle and attack the robot with her beak. 
-
-If an alien does not have a Vocation she must use the Raw Bonus of zero.
-If the alien species has education and she can follow a Vocation then a Vocation Attack Table is generated for artifact weapons attacks. 
+These items create a matrix of arithmetic fun called an attack table.
+If the alien were attacking with her natural claw attack the player would add her skilled strike bonus to her attack roll.
+These bonuses are based on the persona's attributes, increase with experience levels.
 
 .*Aliens and Artifact Weapons*
-* Flora or Fauna - No weapon use or interest at all
+* Flora or Fauna - No weapons use or interest in them at all, always natural attacks
 * Tool Using - May use a weapon with Raw Bonus of zero
 * Educated - May use Vocation Attack Table and it’s Skilled Bonus
-
-The player can use a Vocation Attack Table for  artifact weapons.
-The Alien Attack Table is used for evolved natural attacks. 
-Managing the burden of having two attack tables is up to the referee and the table of players.
-Aliens can be powerful and being able to use their super charged attributes to shoot things may affect game balance.
-
-The player can create a Vocation Attack Table for her educabucated tool usin’ alien by jumping xref:combat:attack_table_anthro.adoc[here,window=_blank, rel="noopener noreferrer"].
-
-== Attack Table
-This section has cursory explanations and detailed calculations. 
-For more info jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank, rel="noopener noreferrer"].
-
-include::combat:partial$attack_table_blank.adoc[]
-
-.*Attack Table Checklist*
-. <<_skilled_bonus,Skilled Bonus>>
-. <<_raw_bonus,Raw Bonus>>
-. <<_max_roll,Max Roll>>
-. <<_force_bonus,Force Bonus>>
-
-== Skilled Bonus
-The Skilled Bonus (Skilled) is for the alien’s natural attacks.
-The player adds the Skilled to her attack roll when her persona is attacking.
-The Skilled has two main components: Attributes Bonus and Level bonus.
-The persona’s Skilled increases as the persona gains EXPS levels.
-
-include::aliens:partial$alien_attack_table_calculation.adoc[]
-
-== Raw Bonus
-An alien always uses her Skilled Bonus for a natural attack.
-Alien’s Raw Bonus equals her Skilled Bonus.
-If the alien is a tool user wielding weapons, the player must generate an additional attack table that includes a Raw.
-
-include::aliens:partial$alien_attack_table_raw_bonus.adoc[]
-
-== Max Roll
-The Max Roll is the highest roll that a player can make on the kilo-die attack roll.
-There is always a chance to damage an attacker using xref:uncombat:critical_checks.adoc[Critical Checks,window=_blank, rel="noopener noreferrer"].
-
-include::aliens:partial$alien_attack_table_max_roll.adoc[]
-
-== Force Bonus
-Alien damage already includes both the alien’s size and Strength.
-There is no Force Bonus for alien attack roll wins.
-
-include::aliens:partial$alien_attack_table_force_bonus.adoc[]
-
-== Alien Attack Table Example
-A second-level gigantic alien has a 22 STR, 15 DEX, and a 3 INT.
-Her attack is spitting sharp blobs of resin which is Attack Fling.
-
-include::aliens:partial$alien_attack_table_example.adoc[]
-
