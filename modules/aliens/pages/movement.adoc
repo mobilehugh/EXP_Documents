@@ -1,61 +1,86 @@
 = Alien Movement
 
 Movement rate is one of the most important persona attributes in the tactical combat rules.
-Movement rate determines how fast an alien can move during combat. 
+Movement rate determines how fast an alien can move during combat.
 The faster the persona can move, the better they can evade and the quicker they can get to a target point.
 The movement rate, often just called ‘move,’ is measured in hexes per unit (h/u or hu).
 
-The alien’s shape determines how she moves, not how fast she moves.
+The alien’s shape determines how she moves, *not* how fast she moves.
 Denizens may hop, slither, scuttle, slime or gallop along.
 The type of locomotion does not affect the alien’s movement rate.
 For instance, an alien with snail leg parts would move as fast as an alien with leopard leg parts.
 
-.*Alien Movement Rate Checklist*
-. Base movement
-. Terrain types
-. Calculating movement
+The alien's dexterity (DEX) determines how fast she moves.
+So an alien snail and an alien leopard with the same DEX would have the same movement rate.
+An alien's actual movement rate takes a bit more work to determine
 
-== Movement Quarter
-.move (h/u) = DEX / 4
-****
-An alien with a 12 DEX would have a base movement quarter of 3 h/u. 
-****
 
-Determining the movement quarter is simple.
-The alien’s movement quarter is equal to one quarter the alien persona’s Dexterity score.
-When combining the alien’s movement quarter with its terrain types, the player can determine how fast the alien runs, flies and swims.
+.*Alien Movement Determination*
+. Quarter Unit
+. Terrain Totals
+. Calculating
 
-== Terrain Types
-The alien’s shape determines in which terrain types that the alien can move.
-Each body part includes some lowercase letters in parenthesis. 
-Goose (law) indicates the body part is shaped like a goose’s and works well on land, water and air.
-Goat (l) indicates the body part is shaped like a goat’s and works well on land.
+== Quarter Unit
+The quarter unit is a parcel of movement that the player uses to determine how fast the alien moves.
+The quarter unit is determined by dividing the alien's dexterity score by four.
+This value is rounded in the player's favour.
+Which in this case is rounding up.
+So an alien with a DEX of 12 would have a quarter unit of 3.
+While an alien with a DEX of 11 would also have a quarter unit of 3.
+
+.*Quarter Unit Calculation*
+* quarter unit = DEX / 4
+** quarter unit = 16 / 4 = 4
+** quarter unit = 9 / 4 = 2.25 = 2
+
+The lower the quarter unit the slower the alien.
+The quarter unit determines how fast the alien runs, flies and/or swims.
+
+== Terrain Totals
+Each body part includes some lowercase letters in parenthesis.
+This is the alien body part's terrain data.
+For example, Goose (law) indicates goose shaped body part operates on land (l), water (w) and air (a).
+While, Goat (l) indicates that the goat shaped body part only operates on land (l).
+
 
 include::aliens:partial$movement_terrains.adoc[]
 
 Land, air and water are familiar to us on mundane terra.
 In no way does this wording limit aliens to oxygen-based gases or water-based fluids.
-The terrain types allow aliens to run, fly, swim, be amphibious or immobile as a tree. 
-Often there is a mix of several terrain types. 
+The terrain types allow aliens to run, fly, swim, be amphibious or immobile as a tree.
+Often there is a mix of several terrain types.
+The below alien moves best on land, but can also fly and swim.
+This does not determine how fast she moves, only the relative speeds.
 
-Alien terrain type is more for determining how the alien moves than its existence.
-An alien with all water body shapes on a planet with no water would move slowly, not suffocate.
-How quickly the alien moves in the various terrains depends on how the base movement rate quarters.
+include::aliens:partial$movement_terrain_total.adoc[]
 
-== Calculating Movement
-An alien with mostly land body shapes will move faster on land than an alien with few land body shapes.
-An alien with all water body shapes will move very fast in the water, but not so well on land. 
+There are a few edge cases.
+A body part of None has no terrain to total.
+This will make the alien slower overall.
+The terrain data of (s-l), (s-w), or (s-a) indicates a sessile body part.
+This does not contribute to the alien's terrain total, but does indicate land, water or air features.
+Sessile land (s-l) would be like a plant or tree.
+Sessile water (s-w) would have aquatic features but not move, like an underwater plant or floating seaweed.
+Sessile air (s-a) would not fly, but could float in the air.
 
-An alien has a 12 DEX and movement quarter of 3 h/u.
-The alien has four land terrain types Head: Ant (l), Torso: Kangaroo (l), Arms: Lemur (l) and Legs: Slug (l).
-The terrain types are 4l, 0a, and 0w. 
-The alien’s movement rate is one movement quarter (3 h/u) per terrain letter.
-This alien moves 12 h/u (very fast) on land but cannot fly or swim.
+== Calculating
+The quarter unit and terrain totals are multiplied together to determine how fast any alien moves.
+Let's consider an alien with the convenient DEX of 12.
+This will generate a quarter unit of 3.
+Using the terrain totals of the Sheep, Wasp, Duck shaped alien above we get the following
 
-include::aliens:partial$movement_calculation.adoc[]
+.*Calculating Alien Movement Rates*
+* *Terrain Total times Quarter Unit*
+** Land = 3 x 3 = 9 h/u
+** Air = 2 x 3 = 6 h/u
+** Water = 1 x 3 = 3 h/u
 
-== Illustrated example “I like to swim”
-This alien has a 12 DEX and a movement quarter of 3 h/u.
+This alien can run at 9 h/u, fly at 6 h/u and swim at 3 h/u.
+
+An alien's movement rate should not exceed its DEX score.
+So an alien with a DEX of 12 should not have a land move of 14 h/u.
+
+=== I like to swim
 
 :art: alien_opossum_none_planaria_manta.png
 :width: 350px
@@ -67,20 +92,19 @@ This alien has a 12 DEX and a movement quarter of 3 h/u.
 
 include::ROOT:partial$articulate.adoc[]
 
+* DEX 12 = quarter unit of 3
 * Head: opossum (l)
 * Torso: none (-)
 * Arms: planaria (w)
 * Legs: manta ray (w)
 
 Having a torso of none reduces the alien’s overall speed.
-Visually the torso is composed of all the other parts. 
 
-* Land:  (l-1) the alien flops along at 3 h/u
-* Air:  (a-0) the alien cannot fly
-* Water: (w-2) the alien swims at 6 h/u
+* Land (l-1): flops along at 3 h/u
+* Air (a-0): cannot fly
+* Water(w-2): swims at 6 h/u
 
-== Illustrated example  “I like to run”
-This alien has a 14 DEX and a movement quarter of 4 h/u.
+=== I like to run
 
 :art: alien_trex_rabbit_dodo_dodo.png
 :width: 350px
@@ -92,14 +116,15 @@ This alien has a 14 DEX and a movement quarter of 4 h/u.
 
 include::ROOT:partial$articulate.adoc[]
 
+* DEX 14 = quarter unit of 4
 * Head: t-rex (l)
 * Torso: rabbit (l)
 * Arms: dodo (la)
 * Legs: dodo (la)
 
-Having a land terrain for every body part makes this alien a swift runner.
-Depending on its size, this alien may be an apex predator moving at nearly 60 km per hour on land.
+A land terrain total of 4 makes this alien a swift runner.
+It can run nearly 60 km per hour.
 
-* Land:  (l-4) the alien races along at 16 h/u
-* Air:  (a-2) the alien flies at 8 h/u
-* Water: (w-0) the alien cannot natively swim
+* Land (l-4): runs at 16 h/u
+* Air (a-2): flies at 8 h/u
+* Water (w-0): cannot swim

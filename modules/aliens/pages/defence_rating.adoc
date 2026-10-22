@@ -1,4 +1,4 @@
-= Alien Defence Rating
+= Alien Defence
 
 Defence Rating (DEF) is a combat measurement of how hard the alien is to damage.
 The higher the Defence Rating, the harder it is to hit the alien in combat.
@@ -23,17 +23,15 @@ The Defence Rating is determined entirely randomly.
 An alien’s base Defence Rating can range from 503 to 800.
 This Defence Rating represents the ‘naked’ Defence Rating of this alien species.
 
-Aliens can wear body armour, but alien body armour is extremely rare. 
+Aliens can wear body armour, but alien body armour is extremely rare.
 Before an alien could have worn armour in addition to her native armour, the species would have to be technologically capable.
 Body armour may exist for a species that has creator level in xref:aliens:society.adoc[Tool Usage,window=_blank, rel="noopener noreferrer"].
 
 The higher the Defence Rating, the tougher the alien.
 There is no Dexterity score bonus for alien Defence Rating.
 
-== Alien Defence Rating
 // tag::Alien_AR[]
-.AR = 3d100 + 500
-****
-Rolling 15, 89 and 64, would give an AR of 668.
-****
+.*Alien Defence Determination*
+* *DEF = 500 + 3d100*
+* DEF = 500 + (15, 89 and 64) = 668.
 // end::Alien_AR[]
