@@ -35,17 +35,14 @@ Doing this generates a pile of letters representing robot types.
 The player sums the number of times each letter is present and determines the robot type.
 For example, if the total number of *H*s exceeded all other robot type IDs, the persona would be an H-Hobbot.
 
-include::robots:partial$series_determination_table.adoc[]
+include::robots:partial$series_determination_table_web.adoc[]
 
-== Skip the Tables
-There is a single roll table if you find this byzantine, burdensome, and bloviated mechanism for robot type selection too much.
 
-xref:robots:series__selection_skip.adoc[]
 
 == Example
 A robot persona has the following prime attribute scores: CON 2, DEX 2, INT 3 and STR 4.
 
-include::robots:partial$series_determination_example.adoc[]
+include::robots:partial$series_determination_example_web.adoc[]
 
 .Reading down each column yields the following IDs
 * CON 2 (C, D, I, M, S, V)
@@ -56,3 +53,6 @@ include::robots:partial$series_determination_example.adoc[]
 The player adds up the robot IDs creating a list looking like this: A=1, C=3, D=2, E=1, H=1, I=3, J=1, M=3, P=1, R=2, S=3, and V=2.
 There is a tie between four robot types.
 The player may choose between C-Combot, I-Industrial, M-Maintenance, and S-Social robot types.
+
+
+include::robots:partial$selection_alternate_method_web.adoc[]

@@ -1,16 +1,21 @@
 = Robot Attributes
 
 Robot persona attribute values are equivalent to organic persona attribute values.
-A robot’s Strength of ten is the same as an anthro’s Strength of ten.
-The player’s pathway to generate robot attributes is quite different.
-Robots have a combination of prime attributes, regular attributes and irregular robot attributes.
+A robot’s Strength of 10 is the same as an anthro’s Strength of 10.
+However, the pathway to get to those equivalent values is convoluted.
+Players generate prime values for the 4 robotic prime attributes.
+These attributes determine series selection and inform regular attribute scores.
+The robot MND attribute works differently than for organics and they have
 
-include::robots:partial$robot_attribute_generation.adoc[]
-
-== Regular Attributes
-The player generates these regular attributes the same as she would for any other persona. 
-She rolls the assigned dice and records the score on her persona record sheet.
-The regular attributes are Awareness (AWE), Charisma (CHA) and social standing (SOC).
+.*Robot Attributes*
+. <<_prime_attributes,Prime Attributes>>
+** determine series selection
+** determine attribute scores
+. <<_regular_attributes,Regular Attributes>>
+** equivalent to organic scores
+. <<_robot_attributes,Robot Attributes>>
+** Adaptability is series dependent
+** Hit points is series dependent
 
 == Prime Attributes
 Prime attributes are the robot persona’s most important attributes.
@@ -19,68 +24,86 @@ The prime attributes are Constitution, Dexterity, Intelligence and Strength.
 
 Each prime attribute has a value between 1 and 4 (1d4).
 The higher the prime score, the higher the final attribute score will be.
-The player records the prime attribute score on the robot persona record. 
+The player records the prime attribute score on the robot persona record.
 The prime scores are immutable, and while the robot’s attribute score deteriorates, her prime score does not.
 
 include::robots:partial$prime_attributes_list.adoc[]
 
-A player that rolls a three for STR prime has a STR prime of 3.
-The player will also generate a conventional attribute score based on the prime attribute value.
-Each prime attribute has a prime score (1-4) and an attribute score (1-29).
+There is a location on the robot persona record sheet to record the robot's prime attributes.
 
-include::robots:partial$prime_attributes_translation.adoc[]
+== Regular Attributes
+The player generates these regular attributes the same as she would for any other persona.
+She rolls the assigned dice and records the score on her persona record sheet.
+The regular attributes are Awareness (AWE), Charisma (CHA) and social standing (SOC).
+Constitution, Intelligence, Dexterity and Strength are determined by their prime values.
 
-=== Prime Attributes Skip
-If the byzantine anachronistic robotic series selection process is too much there is a table for that.
-However the player must already have a robotic series chosen to skip. 
-To speed up the robot fabrication process use the following tables.
-
-.*Skip the Tables*
-. xref:robots:series__selection_skip.adoc[Series Selection Skip]
-. xref:robots:attribute_generation_skip.adoc[Attribute Generation Skip]
-
-== Irregular Attributes
-These attributes are specific only to robot personas. 
-
-
-=== Control Factor (CF)
-The first irregular attribute is the control factor (CF).
-Robot Control Factor determines whether a robot maintains its free will.
-Robot Type may keep a robot from doing what her persona wants.
-For more info about this attribute test jump to xref:robots:control_factor.adoc[Control Factor,window=_blank, rel="noopener noreferrer"].
-
-=== Adaptability (ADP)
-The second irregular attribute is adaptability (ADP).
-Robotic Adaptability determines how easily the robot can be altered. 
-Some robots are very amenable to being altered, and have a high adaptability.
-For example a Hobbot has a very high adaptability, while a heavy offensive combot has a very low adaptability. 
+include::robots:partial$robot_attribute_generation.adoc[]
 
 === Mind (MND)
-The third irregular attribute is Mind (MND).
 Robot personas have a Mind score of zero.
 A zero Mind does not indicate that robots are psionically vulnerable and easily manipulated.
 Robots do not have Mind because their consciousness does not exist within the Think Space.
-Robots are unaffected by mental attacks that function through the Think Space. 
+Robots are unaffected by mental attacks that function through the xref:appendices:generic_mythos.adoc#_the_spaces[Think Space, window=_blank, rel="noopener noreferrer"].
 Robots cannot be mind-controlled or subject to telempathy or have their mind read.
-If a robot must test her MND, she will use her Intelligence score instead. 
+If a robot must test her MND, she will use her INT score instead.
 
-== Example 
-The player would first generate her persona’s regular attributes.
+=== Prime Translations
+The prime attributes guide the value of the persona's regular attributes using the following scoring system.
+
+include::robots:partial$prime_attributes_translation_web.adoc[]
+
+== Series Attributes
+Series attributes are dependent on the series and model of the robot.
+At this point the robot model and series have not been determined.
+
+=== Adaptability (ADP)
+The second irregular attribute is adaptability (ADP).
+Robotic Adaptability determines how easily the robot can be altered.
+Some robots are very amenable to being altered, and have a high adaptability.
+For example a Hobbot has a very high adaptability, while a heavy offensive combot has a very low adaptability.
+
+=== Hit Points
+Each robot type has hit points listed on its fabrication info sheet.
+The player calculates her robot persona’s hit points max when the robot type is determined.
+The player multiplies the robot’s Constitution score by the hit points listed on the fabrication info sheet.
+An explorations robot (E) with a 20 CON could have between 220 and 320 hit points max.
+A datalyzer (D) with a 4 CON could have between 4 and 12 hit points max.
+The robot world is entirely unfair.
+
+== Example
+
+=== Primes
+The player rolls 1d4 for her CON_P, DEX_P, INT_P and STR_P.
+These are called constitution prime, dexterity prime, intelligence prime and strength prime.
+
+.*Prime Attributes*
+* CON_P = 1
+* DEX_P = 2
+* INT_P = 3
+* STR_P = 4
+
+These are recorded on the persona record and will help determined the robot model and series.
+
+=== Regulars
+The player first rolls her regular attributes just like any other persona being generated.
 She rolls 3d6 for her Awareness and Charisma and a 1d1000 for her social standing.
 Her persona’s regular attributes scores are 11 AWE, 8 CHA and 653 SOC.
 She records these scores on her persona record.
+Remember that Mind (MND) is automatically 0 for a robot persona.
 
-The player then generates her prime attributes (CON, DEX, INT and STR) using a 1d4.
-Her persona’s prime attributes are 1 CON, 2 DEX, 3 INT and 4 MND.
-She then generates the regular scores for each of the prime attributes.
+The remaining four regular attributes CON, DEX, INT, and STR need to be translated from the prime scores.
 Based on her prime attributes, she rolls 1d8 for her CON, 1d6 + 7 for her DEX, 1d6 + 13 for her INT and 1d10 + 19 for her STR.
-Her prime attributes have two values each.
-Her CON has a prime of 1 and a score of 6.
-Her DEX has a prime of 2 and a score of 11.
-Her INT has a prime of 3 and a score of 18.
-Her STR has a prime of 4 and a score of 27.
+The player rolls a CON of 6, a DEX or 11, an INT of 18 and a STR of 27.
+These are the attributes used to interact with the world.
 
-The attribute primes will determine the persona robot type.
-The attribute score will determine how the robot performs in the game.
+=== Series
+Series attributes are dependent on the series and model that the player selects for her robot.
+In the case of a xref:robots:series_hobbot.adoc[Hobbot,window=_blank,rel="noopener noreferrer"] robot persona:
+her Adaptability (ADP) is set at 42, and her Hit Points would be 2d4 per point of CON.
+Since her CON (not CON_P) is 6 should would roll 12d4 to determine Hit Points Max.
+The player rolls 24 for her hit points.
 
-
+== Alternate Method
+Attribute generation is intimately woven into robot model and series selection.
+If this Byzantine anachronistic process is too much one can just straight to xref:robots:series__selection_skip.adoc[Robot Series Selection, window=_blank, rel="noopener noreferrer" ].
+This will allow the player to pick their series and model and generate the attributes at that time.
