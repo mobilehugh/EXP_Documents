@@ -1,4 +1,8 @@
-= Android
+= Android (A)
+
+Androids are robots made in the image of their fabricator.
+They are mostly indistinguishable from their fabricator type.
+Typically it would require a vet or mechanic to determine their true nature.
 
 :art: android_academic.png
 :width: 250px
@@ -7,66 +11,71 @@
 :date: 2014
 :license: Copyright 2015 JEShields Stockart.
 :description: Drawing of human university lecturer sitting on desk holding a sword.
-
 include::ROOT:partial$articulate.adoc[]
 
-// Table 5.A Android
-.*Android Fabrication Info (A)*
-[width="75%",cols="2*<"]
+
+.*Android Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
-2+<|The anthro appearing robot found in low budget robot movies. 
+2+<|In their fabricator's image.
 
 2+<|*Attributes*
 
-|Primes
-|CON 4; DEX 4; INT 4; STR 4
+|*Primes*
+|*Regular*
 
-|Minimums
-|Special
+|CON_P 4
+|1d6 + 19
 
-|Hit Points
-|Special
+|DEX_P 4
+|1d6 + 19
 
-|Adaptability
+|INT_P 4
+|1d6 + 19
+
+|STR_P 4
+|1d10 + 19
+
+
+|*Hit Points*
+|(1/2 CON x 1d8) + CON (xref:anthros:generate_attributes.adoc#_hit_points[Anthro Hit Points])
+
+|*Adaptability*
 |-42
 
-|Size
-|Medium
+|*Size*
+|Medium (xref:anthros:generate_attributes.adoc#_anthro_size[Anthro Size])
 
-|Value:
-|100000000
+|*Value*
+|10,0000,000
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Nil
 
 |Offensive
 |Nil
 
 |Defensive
 |Nil
-
-|Peripheral
-|Nil
 |===
 
-Androids are robots made in the image of their fabricator.
-They are mostly indistinguishable from their fabricator type. 
-Typically it would require a vet or mechanic to determine their true nature.
-
 Androids are very independent robots and have a high degree of autonomy.
-An android is like any other robot and functions outside of its parameters. 
+An android is like any other robot and functions outside of its parameters.
 The player may still require control factor checks for reasonable requests from the fabricator type.
 
 The player has already fabricated her persona’s attribute scores.
 The persona continues to create her android persona like any other anthro persona.
 An android anthro will be unlike any other anthro.
-She would be able to choose nearly any vocation (except knite). 
-Androids have no offensive, defensive or peripheral systems. 
-Androids have no mutations. 
+She would be able to choose nearly any vocation (except knite).
+Androids have no offensive, defensive or peripheral systems.
+Androids have no mutations.
 The persona appears to be a powerful, smart, fast and tough anthro.
 
 If the fabricator type is feline, the android will look like a feline anthro.
 The referee may allow the player to choose her android’s fabricator type.
-If the fabricator type is alien or robot, the android still appears as an anthro type. 
+If the fabricator type is alien or robot, the android still appears as an anthro type.
 If the referee is up for the exponential amount of work, it could be fun to model the alien android after an alien species.
 However, modelling an android to appear as another robot is too recursively bizarre even for EXP.
 

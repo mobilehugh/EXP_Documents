@@ -1,4 +1,9 @@
-= Maintenance
+= Maintenance (M)
+
+A maintenance robot is a mechanic in a drum.
+This robot acts as a functioning xref:vocations:mechanic.adoc[mechanic,window=_blank, rel="noopener noreferrer"].
+“Maint” robots are interested in maintaining, repairing and improving inorganic objects.
+
 
 :art: maintenance_bot.png
 :width: 250px
@@ -10,53 +15,57 @@
 
 include::ROOT:partial$articulate.adoc[]
 
-//  maintenance 
-.*Maintenance Robot Fabrication Info (M)*
-[width="75%",cols="2*<"]
+//  maintenance
+.*Maintenance Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
 2+<|Mechanic in a drum.
 
 2+<|*Attributes*
 
-|Primes
-|CON 1,2; DEX 2, 3; INT 2, 3, 4; STR 1
+|*Primes*
+|*Regular*
 
-|Minimums
-|Nil.
+|CON_P 1 or 2
+|1d8 or 1d6 + 7
 
-|Hit Points
+|DEX_P 2 or 3
+|1d6 + 7 or 1d6 + 13
+
+|INT_P 2, 3 or 4
+|1d6 + 7, 1d6 + 13 or 1d6 + 19
+
+|STR_P 1
+|1d10
+
+|*Hit Points*
 |1-4 (1d4) per point of CON
 
-|Adaptability
+|*Adaptability*
 |+42
 
-|Size
+|*Size*
 |Small
 
-|Value:
-|100000 per point of INT
+|*Value*
+|100,000 per point of INT
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 2 rolls
 
 |Offensive
-|40% roll on Table 1
+|Table 1, 40% chance 1 roll
 
 |Defensive
-|40% for 1 roll
-
-|Peripheral
-|2 Basic
+|40% chance 1 roll
 |===
 
-A maintenance robot is a mechanic in a drum.
-This robot acts as a functioning xref:vocations:mechanic.adoc[mechanic,window=_blank, rel="noopener noreferrer"].
-“Maint” robots are interested in maintaining, repairing and improving inorganic objects.
 
 The maintenance robot gets more bonuses and skills than a typical mechanic.
 The player adds two times her INT score to any maintenance task rolls.
 The maint robot starts with many more skills than a regular mechanic.
-The player gets one roll on the mechanic skill table per two points of Intelligence score. 
+The player gets one roll on the mechanic skill table per two points of Intelligence score.
 
 include::vocations:partial$mechanic_expert.adoc[]
-
-

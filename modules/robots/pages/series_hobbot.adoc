@@ -1,61 +1,68 @@
-= Hobbot
+= Hobbot (H)
 
-:art: hobbot.png 
+Hobbots are hobbyist robots put together by enthusiastic amateur roboticists.
+Hobbots can arise from a need for companionship, fun, or actual purpose.
+Hobbots are the most easily modified of all the robots.
+They also come with a plethora of Peripherals built-in.
+Hobbots have an unusual degree of uniqueness.
+Like snowflakes, no two hobbots are identical.
+Hobbots should not be underestimated because of their humble origins.
+A hobbot could easily hide a lethal or useful device in its chaotic chassis.
+
+:art: hobbot.png
 :width: 250px
 :snark: DIY blinged out with chrome accents.
 :artist: unknown
 :date: 1991
 :license: CC BY-SA 4.0
 :description: Drawing of hemispheric floating robot with many claw like arms.
-
 include::ROOT:partial$articulate.adoc[]
 
-//  Hobbot Data 
-.*Hobbot Fabrication Info (H)*
-[width="75%",cols="2*<"]
+//  Hobbot Data
+.*Hobbot Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
-2+<|Highly modifiable hobbyist robot. 
+2+<|Highly modifiable hobbyist robot.
 
 2+<|*Attributes*
 
-|Primes
-|CON 1; DEX 1; INT 3 or 4; STR 1
+|*Primes*
+|*Regular*
 
-|Minimums
-|Nil
+|CON_P 1
+|1d8
 
-|Hit Points
+|DEX_P 1
+|1d8
+
+|INT_P 3 or 4
+|1d6 + 13 or 1d6 + 19
+
+|STR_P 1
+|1d10
+
+|*Hit Points*
 |2-8 (2d4) per point of CON
 
-|Adaptability
+|*Adaptability*
 |+42
 
-|Size
+|*Size*
 |Small or Tiny
 
-|Value:
-|10000 times 1d6
+|*Value*
+|10,000 times 1d6
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 2-8 (2d4) rolls
 
 |Offensive
-|10% roll on Table 1
+|Table 1, 10% chance 1 roll
 
 |Defensive
-|50% for 1 roll
-
-|Peripheral
-|2-8 (2d4) Basic 
-
+|50% chance 1 roll
 |===
 
 // table insert 28
-
-Hobbots are hobbyist robots put together by enthusiastic amateur roboticists.
-Hobbots can arise from a need for companionship, fun, or actual purpose.
-Hobbots are the most easily modified of all the robots.
-They also come with a plethora of Peripherals built-in. 
-Hobbots have an unusual degree of uniqueness.  
-Like snowflakes, no two hobbots are identical.
-Hobbots should not be underestimated because of their humble origins.
-A hobbot could easily hide a lethal or useful device in its chaotic chassis.

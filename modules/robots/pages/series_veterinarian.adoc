@@ -1,4 +1,4 @@
-= Veterinarian
+= Veterinarian (V)
 
 Veterinarian robots are healers in a drum.
 They are also called medibots or vets.
@@ -11,9 +11,35 @@ Diagnostic vet robots figure out what ails the organic creature.
 Interventional vet robots repair, modify or enhance organic flesh.
 
 There is often a tendency for interventional robots to be used for nefarious purposes.
-Harming an organic persona would go against all their programming and require a control factor roll. 
+Harming an organic persona would go against all their programming and require a control factor roll.
 
-== Diagnostic Vet Robot
+.*Veterinarian Attribute Requirements*
+[width="75%",cols="2*<"]
+|===
+2+<| Attribute minimums required for veterinarian model
+
+s|Veterinarian Model
+s|Attributes
+
+|Diagnostic
+|Nil
+
+|Interventional
+|DEX 23; INT 21
+
+s|Veterinarian Model
+s|Attributes
+|===
+
+== Diagnostic (V-D)
+The forte of the diagnostic robot is diagnosis.
+Diagnosis is attributing a patient’s condition to an exact pathology.
+The diagnostic robot can accurately diagnose all but the most peculiar conditions.
+This robot is more interested in diagnosing than anything else.
+The diagnostic robot will only do the tests and scans necessary to diagnose.
+This robot does not like to intervene in the patient at all.
+Diagnostic robots do not perform surgery or do therapies.
+Many diagnostic robots feel that doing ‘procedures’ is beneath their station.
 
 :art: medibot_diagnostic.png
 :width: 250px
@@ -21,68 +47,72 @@ Harming an organic persona would go against all their programming and require a 
 :artist: Michael Jackson
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of many wheeled box robot with camera arms. 
+:description: Drawing of many wheeled box robot with camera arms.
 
 include::ROOT:partial$articulate.adoc[]
 
-//  Diagnostic Veterinarian Robot Fabrication Data 
-.*Diagnostic Veterinarian Robot Fabrication Info (V-D)*
-[width="75%",cols="2*<"]
+//  Diagnostic Veterinarian Robot Fabrication Data
+.*Diagnostic Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
-2+<|Thinking robot for diagnosing organic malfunctions.  
+2+<|Thinking robot for diagnosing organic malfunctions.
 
 2+<|*Attributes*
 
-|Primes
-|CON 1, 2; DEX 4; INT 3, 4; STR 1
+|*Primes*
+|*Regular*
 
+|CON_P 1 or 2
+|1d8 or 1d6 + 7
 
-|Minimums
-|Nil
+|DEX_P 4
+|1d6 + 19
 
-|Hit Points
+|INT_P 3 or 4
+|1d6 + 13 or 1d6 + 19
+
+|STR_P 1
+|1d10
+
+|*Hit Points*
 |2 per point of CON
 
-|Adaptability
+|*Adaptability*
 |0
 
-|Size
+|*Size*
 |Medium
 
-|Value:
-|2500000
+|*Value*
+|2,500,000
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 1 roll
 
 |Offensive
 |Nil
 
 |Defensive
-|10% for 1 roll (non-lethal)
+|10% chance 1 roll (non-lethal)
 
-|Peripheral
-|1 Basic
 |===
-
-The forte of the diagnostic robot is diagnosis.
-Diagnosis is attributing a patient’s condition to an exact pathology.
-The diagnostic robot can accurately diagnose all but the most peculiar conditions.
-This robot is more interested in diagnosing than anything else. 
-The diagnostic robot will only do the tests and scans necessary to diagnose.
-This robot does not like to intervene in the patient at all.
-Diagnostic robots do not perform surgery or do therapies. 
-Many diagnostic robots feel that doing ‘procedures’ is beneath their station.
 
 The diagnostic robot performs like a veterinarian in all areas except surgery.
 The diagnostic robot gets more bonuses and skills than a typical vet.
 A diagnostic vet robot gets a task roll bonus of twice her Intelligence score.
 
 The diagnostic robot gets many more skills than the typical veterinarian.
-When fabricating her robot, the player gets one roll on the veterinarian skill table per point of Intelligence score. 
-The diagnostic vet robot can still get interventional vet skills. 
+When fabricating her robot, the player gets one roll on the veterinarian skill table per point of Intelligence score.
+The diagnostic vet robot can still get interventional vet skills.
 They just will not be used for interventions.
 
-== Interventional Vet Robot
+== Interventional (V-I)
+Interventional medibots are capable of performing all manner of interventions.
+Interventional robots perform surgeries.
+They primarily perform Sciency Fiction surgeries.
+Interventionals can cut, sew, suck, remove, attach, remodel or improve organic flesh.
 
 :art: medibot_interventional.png
 :width: 250px
@@ -94,55 +124,58 @@ They just will not be used for interventions.
 
 include::ROOT:partial$articulate.adoc[]
 
-//  Interventional Veterinarian Robot Fabrication Data 
-.*Interventional Veterinarian Robot Fabrication Info (V-I)*
-[width="75%",cols="2*<"]
+.*Interventional Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
-2+<|Short on diagnostics. Long on mad skills.  
+2+<|Short on diagnostics. Long on mad skills.
 
 2+<|*Attributes*
 
-|Primes
-|CON 1, 2; DEX 4; INT 3, 4; STR 1
+|*Primes*
+|*Regular*
 
+|CON_P 1 or 2
+|1d8 or 1d6 + 7
 
-|Minimums
-|DEX 23; INT 21
+|DEX_P 4
+|1d6 + 19
 
-|Hit Points
+|INT_P 3 or 4
+|1d6 + 13 or 1d6 + 19
+
+|STR_P 1
+|1d10
+
+|*Hit Points*
 |2 per point of CON
 
-|Adaptability
+|*Adaptability*
 |0
 
-|Size
+|*Size*
 |Medium
 
-|Value:
-|5000000
+|*Value*
+|5,000,000
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 1 roll
 
 |Offensive
 |Nil
 
 |Defensive
-|10% for 1 roll (non-lethal)
+|10% chance 1 roll (non-lethal)
 
-|Peripheral
-|1 Basic
 |===
-
-Interventional medibots are capable of performing all manner of interventions.
-Interventional robots perform surgeries. 
-They primarily perform Sciency Fiction surgeries. 
-Interventionals can cut, sew, suck, remove, attach, remodel or improve organic flesh.
 
 They will do best when working under the guidance of a diagnostics robot or a veterinarian.
 However, interventional robots seem prideful and petulant when given such direction.
 
 Interventional robots have local and general anaesthetic skills.
-None of the procedures carried out will cause pain. 
+None of the procedures carried out will cause pain.
 The patient will be kept anaesthetized for as long as necessary or desired.
 
 The interventional robot performs like a veterinarian in all areas except diagnosis.
@@ -150,8 +183,5 @@ The interventional robot gets more bonuses and skills than a typical vet.
 An interventional vet robot gets a task roll bonus of twice her Dexterity score.
 
 The interventional robot gets many more skills than the typical veterinarian.
-When fabricating her robot, the player gets one roll on the veterinarian skill table per point of Intelligence score. 
-The interventional robot can still get diagnostic vet skills. 
-
-
-
+When fabricating her robot, the player gets one roll on the veterinarian skill table per point of Intelligence score.
+The interventional robot can still get diagnostic vet skills.

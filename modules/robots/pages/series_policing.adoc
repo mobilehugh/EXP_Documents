@@ -1,4 +1,4 @@
-= Policing
+= Policing (P)
 
 Policing robots are crime-fighting machines.
 These robots respect the lives and livelihoods (if legal) of all life forms.
@@ -7,17 +7,17 @@ Policing robots can be stationed anywhere.
 They are not limited to underserviced or violent areas.
 
 // new table for 6.0
-//  Robot Attribute Requirements 
+//  Robot Attribute Requirements
 .*Policing Robot Attribute Requirements*
 [width="75%",cols="2*<"]
 |===
-2+<| Attribute requirement for industrial robot type.
+2+<| Attribute minimums required for policing model
 
-s|Policing Type
+s|Policing Model
 s|Attributes
 
 |Civil
-|Nil.
+|Nil
 
 |Riot
 |CON 15
@@ -25,55 +25,62 @@ s|Attributes
 |Detective
 |INT 15
 
-s|Policing Type
+s|Policing Model
 s|Attributes
 |===
 
-== Civil Policing Robot
-
-//  Civil Policing Robot Fabrication Data 
-.*Civil Policing Robot Fabrication Info (P-C)*
-[width="75%",cols="2*<"]
-|===
-2+<|Policing civilian environments.
-
-2+<|*Attributes*
-
-|Primes
-|CON 3; DEX 4; INT 3; STR 3
-
-|Minimums
-|Nil.
-
-|Hit Points
-|3-12 (3d4) per point of CON
-
-|Adaptability
-|-25
-
-|Size
-|Medium or Small
-
-|Value:
-|100000 times 1d6
-
-2+<|*Systems*
-
-|Offensive
-|100% roll on Table 1
-
-|Defensive
-|100% for 1 roll
-
-|Peripheral
-|10% chance for 1 Basic
-|===
-
+== Civil (P-C)
 Civilian policing robots are constables on patrol in a drum.
 Civils can walk the beat, chase criminals, guard banks, issue tickets, etc.
 By sheer chance, this robot’s ID is P-C.
 This robot is the primary interface between the ‘people’ and law enforcement.
 Civilian policing robots have some special skills.
+
+.*Civil Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
+|===
+2+<|Policing civilian environments.
+
+2+<|*Attributes*
+
+|*Primes*
+|*Regular*
+
+|CON_P 3
+|1d6 + 13
+
+|DEX_P 4
+|1d6 + 19
+
+|INT_P 3
+|1d6 + 13
+
+|STR_P 3
+|1d4 + 15
+
+|*Hit Points*
+|3-12 (3d4) per point of CON
+
+|*Adaptability*
+|-25
+
+|*Size*
+|Medium or Small
+
+|*Value*
+|100,000 times 1d6
+
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 10% chance 1 roll
+
+|Offensive
+|Table 1, 100% chance 1 roll
+
+|Defensive
+|100% chance 1 roll
+|===
 
 === Commanding Voice
 When necessary, the civil robot can unleash booming amplified voice commands.
@@ -86,7 +93,7 @@ Player personas are unaffected by commanding voice.
 A non-lethal weapon is one that can disable or affect a target without harming it.
 A stun weapon, a sleep beam, or a nausea attack would be considered non-lethal.
 Less lethal weapons do not count.
-The player has three chances to roll a non-lethal weapon for her robot. 
+The player has three chances to roll a non-lethal weapon for her robot.
 If there is no non-lethal weapon after three rolls, the persona has no weapon.
 
 === Disarm
@@ -99,7 +106,11 @@ A civil robot is completely invested during a grapple and cannot do anything els
 To break from this grapple requires a successful bizarre STR roll.
 Civil robots will unglamorously drag their grappled collars back to the nearest brig.
 
-== Riobot Policing Robot
+== Riobot (P-R)
+Riot robots are big crowd control operatives.
+They often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc.
+Their goal is to contain and restrain unruly hordes of anthros.
+They function as a mobile jail with crowd suppression.
 
 :art: riobot.png
 :width: 250px
@@ -111,48 +122,52 @@ Civil robots will unglamorously drag their grappled collars back to the nearest 
 
 include::ROOT:partial$articulate.adoc[]
 
-//  Riobot Fabrication Data 
-.*Riobot Fabrication Info (P-R)*
-[width="75%",cols="2*<"]
+//  Riobot Fabrication Data
+.*Riobot Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
 2+<|Keeping the peace when things are in pieces.
 
 2+<|*Attributes*
 
-|Primes
-|CON 3; DEX 4; INT 3; STR 3
+|*Primes*
+|*Regular*
 
-|Minimums
-|CON 15
+|CON_P 3
+|1d6 + 13
 
-|Hit Points
+|DEX_P 4
+|1d6 + 19
+
+|INT_P 3
+|1d6 + 13
+
+|STR_P 3
+|1d4 + 15
+
+|*Hit Points*
 |3-12 (3d4) per point of CON
 
-|Adaptability
+|*Adaptability*
 |-100
 
-|Size
+|*Size*
 |Gigantic
 
-|Value:
-|1000000 times 1d6
+|*Value*
+|1,000,000 times 1d6
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 10% chance 1 roll
 
 |Offensive
 |None
 
 |Defensive
-|100% for 1 roll
-
-|Peripheral
-|10% chance for 1 Basic
+|100% chance 1 roll
 |===
-
-Riot robots are big crowd control operatives.
-They often turn up at labour disputes, surprise sales, food line-ups, rock concerts, etc.
-Their goal is to contain and restrain unruly hordes of anthros.
-They function as a mobile jail with crowd suppression.
 
 === Grapple and Detain
 Grapple and detain is a two-step process that the riobot employs to apprehend rioters.
@@ -162,8 +177,8 @@ If the target is unsuccessful, she is detained.
 Once detained, it is nearly impossible for a captive to break free.
 Detained protestors are subject to any area of effect weapons that the riobot deploys.
 
-The riobot can grapple one rioter per unit. 
-The riobot can carry out all other operations while grappling a rioter. 
+The riobot can grapple one rioter per unit.
+The riobot can carry out all other operations while grappling a rioter.
 A riobot can detain one target per point of STR.
 So a Riobot with a 20 STR can detain 20 targets.
 
@@ -174,9 +189,9 @@ So a Riobot with a 20 STR can detain 20 targets.
 
 === Crowd Control Peripherals
 These peripherals are attachments designed for crowd control.
-They are not malfunctioning peripherals. 
+They are not malfunctioning peripherals.
 They are bespoke riobot peripherals.
-These peripherals are non-lethal immobilization attacks, but accidents happen. 
+These peripherals are non-lethal immobilization attacks, but accidents happen.
 
 Riot Policing robot Peripheral for every three points of Intelligence.
 A riobot with a 12 Intelligence score would get four rolls on the Crowd Suppression Peripheral Table.
@@ -184,10 +199,10 @@ Multiple rolls of the same peripheral are intentional riobot redundancy.
 The riobot can use every peripheral every unit of combat.
 Multi-tasking is a crucial feature of crowd control.
 
-include::robots:partial$peripherals_riobot.adoc[]
+include::robots:partial$peripherals_riobot_web.adoc[]
 
 Water Cannon::
-A powerful jet of water shoots at a target, and an attack roll win knocks the target down. 
+A powerful jet of water shoots at a target, and an attack roll win knocks the target down.
 The water cannon’s range is one hex per point of Strength.
 
 Tear Gas::
@@ -210,7 +225,7 @@ The target will land 1-4 (1d4) hexes backwards and cannot move or act that unit.
 
 Weapon Malfunction::
 When activated, all weapons within range of the riobot are 50 times more likely to malfunction.
-For some weapons, this is extremely dangerous. 
+For some weapons, this is extremely dangerous.
 The range of weapon malfunction is one hex per point of the riobot’s Charisma score.
 
 Battery Drain::
@@ -223,49 +238,56 @@ The sleep beam is a not so gentle “nighty night meat bag” attack.
 The target must win a save versus the riobot’s Charisma or sleep until woken.
 Someone must intentionally wake the sleeping target—otherwise, Ms. Sleepy-pants will miss the riot.
 
-== Detective Policing Robot (P-D)
+== Detective (P-D)
+A detective policing robot is a criminologist in a drum.
+A detective can operate as a chief, manager, auditor, or technologist.
+The detective does not grapple with or detain methods.
+A detective directs civil robots to make arrests and do the dirty work.
+Detective policing robots focus on the apprehension of criminals.
+If an expedition engages in criminal activities, the detective may need to make CF checks.
 
-//  Detective Policing Robot Fabrication Data 
-.*Detective Policing Robot Fabrication Info (P-D)*
-[width="75%",cols="2*<"]
+.*Detective Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
 2+<|Detective, chief, manager, sleuth, criminologist in one.
 
 2+<|*Attributes*
 
-|Primes
-|CON 3; DEX 4; INT 3; STR 3
+|*Primes*
+|*Regular*
 
-|Minimums
-|INT 15
+|CON_P 3
+|1d6 + 13
 
-|Hit Points
+|DEX_P 4
+|1d6 + 19
+
+|INT_P 3
+|1d6 + 13
+
+|STR_P 3
+|1d4 + 15
+
+|*Hit Points*
 |2-4 (1+d3) per point of CON
 
-|Adaptability
+|*Adaptability*
 |0
 
-|Size
+|*Size*
 |Medium
 
-|Value:
-|100000 times 1d6
+|*Value*
+|100,000 times 1d6
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 1 roll
 
 |Offensive
-|100% roll on Table 1
+|Table 1, 100% chance 1 roll
 
 |Defensive
-|100% for 1 roll
-
-|Peripheral
-|1 Basic
+|100% chance 1 roll
 |===
-
-A detective policing robot is a criminologist in a drum.
-A detective can operate as a chief, manager, auditor, or technologist.
-The detective does not grapple with or detain methods. 
-A detective directs civil robots to make arrests and do the dirty work.
-Detective policing robots focus on the apprehension of criminals.
-If an expedition engages in criminal activities, the detective may need to make CF checks.

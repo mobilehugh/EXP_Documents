@@ -1,4 +1,4 @@
-= Janitorial
+= Janitorial (J)
 
 Janitorial robots clean up.
 Their philosophical goal is to decrease the entropy of the universe.
@@ -7,7 +7,25 @@ If the persona’s Intelligence score is 12 or better the player may choose to b
 Domestic janitors are smarter due to the rapidly shifting domestic environment.
 Commercial janitors tend to work in more regimented and dangerous environs.
 
-== Domestic Janitorial Robot
+.*Janitorial Attribute Requirements*
+[width="75%",cols="2*<"]
+|===
+2+<| Attribute minimums required for janitorial model
+
+s|Janitorial Model
+s|Attributes
+
+|Commercial
+|Nil
+
+|Domestic
+|INT 12
+
+s|Janitorial Model
+s|Attributes
+|===
+
+== Domestic (J-D)
 
 :art: janitorial.png
 :width: 250px
@@ -15,53 +33,61 @@ Commercial janitors tend to work in more regimented and dangerous environs.
 :artist: unknown
 :date: 1991
 :license: CC BY-SA 4.0
-:description: Drawing of cute robot vacuum with plunger and feather duster. 
-
+:description: Drawing of cute robot vacuum with plunger and feather duster.
 include::ROOT:partial$articulate.adoc[]
 
-//  Domestic Janitorial Fabrication Data 
-.*Domestic Janitorial Robot Fabrication Info (J-D)*
-[width="75%",cols="2*<"]
+//  Domestic Janitorial Fabrication Data
+.*Domestic Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
 2+<|Cleaning, mopping, and moping.
 
 2+<|*Attributes*
 
-|Primes
-|CON 1; DEX 1 or2; INT 1 or 2; STR 1 or 2
+|*Primes*
+|*Regular*
 
-|Minimums
-|INT 12 or higher.
+|CON_P 1
+|1d8
 
-|Hit Points
+|DEX_P 1 or 2
+|1d8 or 1d6 + 7
+
+|INT_P 1 or 2
+|1d8 or 1d6 + 7
+
+|STR_P 1 or 2
+|1d10 or 1d6 + 9
+
+|*Hit Points*
 |1-4 (1d4) per point of CON
 
-|Adaptability
+|*Adaptability*
 |+15
 
-|Size
+|*Size*
 |Small
 
-|Value:
-|100000 times 1d6
+|*Value*
+|100,000 times 1d6
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 1 roll
 
 |Offensive
-|10% roll on Table 1
+|Table 1, 10% chance 1 roll
 
 |Defensive
-|15% for 1 roll
-
-|Peripheral
-|1 Basic
+|15% chance 1 roll
 |===
 
-== Commercial Janitorial Robot
+== Commercial (J-C)
 
 :art: commercial_janitorial.png
 :width: 250px
-:snark: Cleaning up trash.  
+:snark: Cleaning up trash.
 :artist: Andrew Brechin
 :date: 1991
 :license: CC BY-SA 4.0
@@ -69,40 +95,49 @@ include::ROOT:partial$articulate.adoc[]
 
 include::ROOT:partial$articulate.adoc[]
 
-//  Commercial Janitorial Fabrication Data 
-.*Commercial Janitorial Robot Fabrication Info (J-C)*
-[width="75%",cols="2*<"]
+//  Commercial Janitorial Fabrication Data
+.*Commercial Fabrication Data*
+[width="85%",cols="<1,<2",frame="all"]
 |===
 2+<|Big messes, big cleaner.
 
 2+<|*Attributes*
 
-|Primes
-|CON 1; DEX 1 or2; INT 1 or 2; STR 1 or 2
+|*Primes*
+|*Regular*
 
-|Minimums
-|Nil.
+|CON_P 1
+|1d8
 
-|Hit Points
+|DEX_P 1 or 2
+|1d8 or 1d6 + 7
+
+|INT_P 1 or 2
+|1d8 or 1d6 + 7
+
+|STR_P 1 or 2
+|1d10 or 1d6 + 9
+
+|*Hit Points*
 |1-6 (1d6) per point of CON
 
-|Adaptability
+|*Adaptability*
 |0
 
-|Size
+|*Size*
 |Medium
 
-|Value:
-|100000 times 1d3
+|*Value*
+|100,000 times 1d3
 
-2+<|*Systems*
+2+<|*Peripherals*
+
+|Uncombat
+|Basic, 1 roll
 
 |Offensive
-|25% 2 rolls on Table 1
+|Table 1, 25% chance 2 rolls
 
 |Defensive
-|25% for 2 rolls
-
-|Peripheral
-|1 Basic
+|25% chance 2 rolls
 |===
