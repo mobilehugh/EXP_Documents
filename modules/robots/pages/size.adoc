@@ -4,22 +4,22 @@ The robot has a general descriptor of its size called a size category.
 The size descriptor determines the hite and wate of the robot.
 The robot size categories are Tiny, Small, Medium, Large and Gigantic.
 The majority of player persona robots will be either Small, Medium or Large.
-These robot sizes are human relatable. 
+These robot sizes are human relatable.
 
-Robot size includes wate and hite. 
+Robot size includes wate and hite.
 These are like a holding “shape” to allow other robot attributes to be calculated.
-The actual appearance of the robot is generated after size and peripherals. 
+The actual appearance of the robot is generated after size and peripherals.
 To determine the Appearance of the robot jump to xref:robots:appearance.adoc[Appearance,window=_blank, rel="noopener noreferrer"]
 
-
-== Size
+== Size Determination
 Robot size is determined by its series or model type.
 An expendable combot is medium sized, and a hobbot is small or tiny sized.
-Usually the qualitative size description is enough for players. 
-If you can’t remember your robot’s size <<_size_lookup_table, jump here>>.
+Usually the qualitative size description is enough for players.
+
+include::robots:partial$robot_series_size_category_web.adoc[]
 
 There are two additional robot sizes not available to player personas.
-These are Nano and Colossal. 
+These are Nano and Colossal.
 They only appear for referee personas.
 
 == Wate
@@ -30,7 +30,7 @@ A 100kg robot has the same wate as a 100kg anthro and the same wate as 100kg of 
 Wate is critical to robots as it determines how much damage is when ramming.
 Ramming is the only universal robotic attack.
 
-include::robots:partial$size_category_to_wate.adoc[]
+include::robots:partial$robot_size_cat_to_wate.adoc[]
 
 == Hite
 The hite of the robot is a combination of volume and height.
@@ -43,27 +43,39 @@ These rolls do not affect the wate of the robot.
 The player can arrange the dimensions in whatever order works best for the persona.
 If the robot dimensions are ruining a finely tuned player persona, choose story and fun over rules and rolls.
 
-include::robots:partial$size_category_to_hite.adoc[]
+include::robots:partial$robot_size_cat_to_hite.adoc[]
 
-=== Reach
+== Reach
 For most persona’s “reach” represents the distance they can grasp an object.
 The reach of an anthro is easily understood by referees and players alike.
 However the reach of a robot with a cow shaped body and octopus arms may not be as clear.
 Once extremes of size are added into the size “reach” can become complicated indeed.
 
 Hopefully the robot’s reach will be easily determined by some peripheral or articulation that represent it’s limbs.
-If a robot has no arms reaching may not be part of their existence or they can use their legs. 
-Reach only applies to grabbing objects or strike attacks. 
+If a robot has no arms reaching may not be part of their existence or they can use their legs.
+Reach only applies to grabbing objects or strike attacks.
 Reach does not apply to fling attacks, shoot attacks or psionic malfunctations.
 
 Small and Tiny robot reach is limited to the hex that they are in.
 Medium and large robots can reach into the adjacent hex.
 Gigantic robots can reach through the adjacent hex and into the next hex over.
 
-== Size Lookup Table
-For your convenience the Robot Series Size Lookup Table is included here.
+include::robots:partial$robot_size_cat_to_reach.adoc[]
 
-include::robots:partial$robot_series_size_category.adoc[]
+== Space
+How much space does the robot occupy on the hex table?
+Size category, hite and wate are often good enough, but sometimes a bit guidance is helpful.
 
-include::robots:partial$wate_to_hite_estimation.adoc[]
+include::aliens:partial$wate_to_space.adoc[]
 
+== Density
+Sometimes using size category does not work for determining the robot's hite.
+Below is a table that uses robot wate to guide alien hite.
+This table is roughly based on density.
+
+.*Robot Density Assumptions*
+* 1 tonne of electronics occupies 3.5 cubic meters
+* 3.5 cubic meters is 1.2 x 1.2 x 2.4 meters of volume
+* roughly 1 tonne of persona is 1 hex of hite
+
+include::aliens:partial$wate_to_size.adoc[]
