@@ -24,15 +24,10 @@ The player is responsible for role playing their persona's participation in comb
 In fact there may be existing safety features in place that prevent the robot from harming targets.
 Robots in attack level zero may have to make frequent xref:robots:control_factor.adoc[Free Will,window=_blank, rel="noopener noreferrer"] checks to engage in combat.
 
-
 === Creative Combat
 If the player wants her persona to smash a target with her lifting arm she would have to explain the action.
 If the persona had a striking offensive peripheral she could just attack.
 Robots in attack level zero may have to make frequent xref:robots:control_factor.adoc[Free Will,window=_blank, rel="noopener noreferrer"] checks to engage in combat.
-
-
-
-
 
 === Ramming
 All robots can ram themselves into targets.
@@ -45,13 +40,13 @@ What the surface is shaped like determines the damage type.
 Ramming can become increasingly more dangerous as the robot gains ramming levels.
 This is determined by Ramming Freedom.
 
-==== Surface
+==== Ramming Surface
 A robot will only be able to ram opponents with a pre-determined part of its chassis.
 This part will be considered the least vital and can withstand the repeated punishment.
 
 include::robots:partial$peripherals_offensive_ramming_web.adoc[]
 
-==== Freedom
+==== Ramming Freedom
 The player must win a control factor roll before allowing her robot persona to ram.
 If the control factor roll allows for a ramming attempt, the player must win an attack roll to inflict damage.
 The player determines the damage her ramming robot inflicts on the below table.
@@ -60,32 +55,33 @@ Ramming is a Strike attack.
 
 include::robots:partial$ramming_freedom.adoc[]
 
-
-
-
-
 == Attack Level One
+Most of these attacks are malfunctioning peripherals that can be weaponized by the robot.
 Do not underestimate this attack level.
 Attack Table One can generate a collection of lethal close combat attacks very quickly.
 There is also a chance to elevate to Attack Level Two from this table.
-Attacks do not require a player to win a control factor roll to misuse them.
+These attacks do not require a player to win a control factor roll to misuse them.
 
 include::robots:partial$peripherals_offensive_1.adoc[]
 
-=== Ramming Freedom One
-This allows the robot to ram targets without making a xref:robots:control_factor.adoc[Free Will,window=_blank, rel="noopener noreferrer"] check.
-This is a huge leap forward in the realm of smashing things.
-This robot still uses her raw strike bonus and still takes damage for the intentional collision.
-If the robot already has ramming freedom one they advance to ramming freedom two.
+Each time the robot lands at ramming freedom level four they move to a more dangerous ramming surface.
+So a robot with a flat (1d4) ramming surface would get the benefits of level four and increase damage to a blunt point (1d6).
 
 === Defensive System
 Sometimes the best offence is a good defence.
 Jump to xref:robots:peripherals_defensive.adoc[Defensive Peripherals,window=_blank, rel="noopener noreferrer"].
 
-=== Advance Attack Level
-The player makes one roll on the more dangerous Attack Table Two.
+=== Ramming Freedom
+Ramming freedom increases the amount of control that the robot has over ramming.
+Each visit to ramming freedom increases it by 1 level.
+So if this is the first time here the ramming freedom increases from level zero to level one.
+If the robot already has ramming freedom one they advance to ramming freedom two, and so on.
 
-=== Striking Peripheral
+Moving from level zero to level one allows the robot to ram targets without making a xref:robots:control_factor.adoc[Free Will,window=_blank, rel="noopener noreferrer"] check.
+This is a huge leap forward in the realm of smashing things.
+This robot still uses her raw strike bonus and still takes damage for the intentional collision.
+
+=== Strike Attack
 The robot may use one of her peripherals as a dangerous striking weapon.
 If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral.
 The striking peripheral is a Strike attack.
@@ -96,14 +92,8 @@ The player rolls on the Striking Peripheral Attack Table below to determine what
 
 include::robots:partial$peripherals_offensive_strike.adoc[]
 
-
-
-
-
-
-
-
-
+=== Advance Attack Level
+The player makes one roll on the more dangerous Attack Table Two.
 
 == Attack Level Two
 Attacks on this table are slightly more dangerous and further ranging than those on Attack Table One.
@@ -112,30 +102,69 @@ Attacks do not require a player to make a control factor roll to misuse them.
 
 include::robots:partial$peripherals_offensive_2.adoc[]
 
-=== Ramming Freedom Two
-This allows the robot to ram targets without making a xref:robots:control_factor.adoc[Free Will,window=_blank, rel="noopener noreferrer"] check.
-She can use her skilled strike bonus when trying to hit the target.
-This robot still takes damage for the intentional collision.
-If the robot already has ramming freedom two they advance to ramming freedom three.
+=== Electro Strike Attack
+This Strike attack is electrified.
+The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots.
+For more info jump to xref:hardware:armaments.adoc#_electro_weapon[Electro Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_striking_peripheral, Striking Peripheral>> to generate the attack type.
+
+=== Fling Attack
+The robot may use one of her peripherals as a deadly ranged weapon.
+If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral.
+This peripheral provides a Fling attack.
+A tool for putting lids on cans could instead launch them like shurikens.
+Multiple visits to Fling Attack are cumulative, and a robot can gather many simultaneous Fling attacks.
+
+The player rolls on the Fling Attack Peripherals Table below to determine what kind of weapon the peripheral most resembles.
+The Fling attack’s damage and ammunition supply are also on this table.
+
+include::robots:partial$peripherals_offensive_fling_web.adoc[]
 
 === Multiple Attacks
-The player makes two rolls on Attack Table One.
-These offensive peripherals are added to the robot's peripherals.
+The player makes 2 rolls on Attack Table One above.
+Multiple peripherals are additive, allowing the robot to have multiple strike attacks for instance.
+
+=== Ramming Freedom
+Ramming freedom increases the amount of control that the robot has over ramming.
+At this attack level the ramming freedom is increased by 2 levels.
+So if the robot has ramming freedom one it would be increased to ramming freedom three.
+
+=== Stun Strike Attack
+This strike attack includes a debilitating stun effect.
+The damage of the attack converts from hit points stun intensity.
+If attack is to inflict 12 hit points of damage, it delivers a 12 intensity stun instead.
+The target must win a saving roll against her Constitution or be stunned.
+Organic targets are stunned for 1-4 minutes, and inorganic targets are stunned for 1-4 units.
+For more info jump to xref:hardware:armaments.adoc#_stun_weapons[Stun Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_striking_peripheral, Striking Peripheral>> to generate the attack type.
 
 === Advance Attack Level
 The player makes one roll on the more dangerous Attack Table Three.
 
-=== Ranged Peripheral
-The robot may use one of her peripherals as a deadly ranged weapon.
-If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral.
-The ranged peripheral is a Fling attack.
-A tool for putting lids on cans could instead launch them like shurikens.
-Multiple visits to ranged peripheral are cumulative, and a robot can gather many simultaneous ranged attacks.
+== Attack Level Three
+Attacks on this table are more dangerous and peculiar.
+These attacks are a mix of baked-in devices and misused peripherals.
+Attacks do not require a player to make a control factor roll to misuse them.
 
-The player rolls on the Ranged Peripheral Attack Table below to determine what kind of weapon the peripheral most resembles.
-The ranged peripherals damage and ammunition supply is also on this table.
+include::robots:partial$peripherals_offensive_3.adoc[]
 
-include::robots:partial$peripherals_offensive_fling.adoc[]
+=== Electro Fling Attack
+This Fling attack is electrified.
+The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots.
+For more info jump to xref:hardware:armaments.adoc#_electro_weapon[Electro Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_fling_attack,Fling Attack>> to generate the fling attack type.
+
+=== Inertia Strike Attack
+This Strike attack increases its density on contact.
+The inertia weapon does triple the weapon damage plus ten hit points.
+For more info jump to xref:hardware:armaments.adoc#_inertia_weapon[Inertia Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_striking_peripheral, Striking Peripheral>> to generate the attack type.
+
+=== Multiple Attacks
+The player makes 3 rolls on Attack Table Two.
+This Attack Table Three result often leads to multiple attacks or improved attacks.
+This table result can make the persona cumbersome to play or overpowered.
+The referee may limit the total number of attacks to maintain game balance and story.
 
 === Nausea Attack
 The nausea attack temporarily incapacitates organic targets with overwhelming nausea.
@@ -183,146 +212,37 @@ The paralysis attack is cumulative and repeatedly generating this attack makes i
 The first appearance of paralysis attack is level one.
 Each level increases the range by one hex and the intensity by 1-4 (1d4).
 
-=== Powered Striking Peripheral
-The robot may use one of her peripherals as a deadly striking weapon.
-In addition to the regular Strike weapon damage, these peripherals are powered with an extra kick.
-Each powered striking peripheral has the properties of a particular miscellaneous weapon.
-To generate these attacks is a bit of a walk, but they are powerful and worth the player’s effort.
+=== Ramming Freedom
+Ramming freedom increases the amount of control that the robot has over ramming.
+At this attack level the ramming freedom is increased by 2 levels.
+So if the robot has ramming freedom one it would be increased to ramming freedom three.
 
-Use the table at <<_striking_peripheral, Striking Peripheral>> to generate the weapon type.
-
-If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral.
-A tool for mixing chemicals could become a vibrating mace.
-Multiple visits to powered striking peripherals are cumulative, and a robot can gather many simultaneous powered striking attacks.
-
-Electro::
-This Strike attack is electrified.
-The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots.
-For more info jump to xref:hardware:armaments.adoc#_electro_weapon[Electro Weapon,window=_blank, rel="noopener noreferrer"].
-
-Inertia::
-This Strike attack increases its density on contact.
-The inertia weapon does triple the weapon damage plus ten hit points.
-For more info jump to xref:hardware:armaments.adoc#_inertia_weapon[Inertia Weapon,window=_blank, rel="noopener noreferrer"].
-
-Stun::
-This Strike attack follows up with a debilitating stun attack.
+=== Stun Fling Attack
+This fling attack includes a debilitating stun attack.
 The damage of the attack converts from hit points stun intensity.
 If the successful attack is to inflict 12 hit points of damage, it delivers a 12 intensity stun instead.
 The target must win a saving roll against her Constitution or be stunned.
 Organic targets are stunned for 1-4 minutes, and inorganic targets are stunned for 1-4 units.
 For more info jump to xref:hardware:armaments.adoc#_stun_weapons[Stun Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_fling_attack,Fling Attack>> to generate the fling attack type.
 
-Vibro::
+=== Toxic Jet
+The toxic jet is a blast of nastiness that can damage both organic and inorganic targets.
+The name is intentionally generic as the referee and player will decide if the attack is acidic, alkali, pyro (heat) or cryo (cold).
+Only in very particular milieu or story situations will the type of toxic jet matter.
+
+The attack has a range of 1 hex per point of Dexterity.
+The toxic jet is a fling attack, and the player must win an attack roll to inflict damage.
+A toxic jet inflicts 1-8 (1d8) HPS of damage per point of combined STR_P and CON_P (primes).
+There are no damage bonuses for this attack.
+
+=== Vibro Strike Attack
 This Strike attack vibrates at damaging harmonic frequency.
 The vibro weapon has a damage bonus of +20 and an attack roll bonus of +100.
 For more info jump to xref:hardware:armaments.adoc#_vibro_weapon[Vibro Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_striking_peripheral, Striking Peripheral>> to generate the attack type.
 
-
-
-== Attack Level Three
-Attacks on this table are slightly more dangerous and far-ranging than those on Attack Table Two.
-These attacks are a mix of baked-in devices and misusing peripherals.
-Attacks do not require a player to make a control factor roll to misuse them.
-
-include::robots:partial$peripherals_offensive_3.adoc[]
-
-=== 3 Rolls on Attack Table One
-The player makes three rolls on Attack Table One.
-This Attack Table Three result leads to multiple attacks or improved attacks.
-This table result can make the persona cumbersome to play or overpowered.
-The referee may limit the total number of attacks to maintain game balance and story.
-
-=== 2 Rolls on Attack Table Two
-The player makes two rolls on Attack Table Two.
-This Attack Table Three result often leads to multiple attacks or improved attacks.
-This table result can make the persona cumbersome to play or overpowered.
-The referee may limit the total number of attacks to maintain game balance and story.
-
-=== Nausea Attack 2
-The nausea attack temporarily incapacitates organic targets with overwhelming nausea.
-This robotic attack is an area of effect weapon.
-This attack functions the same as two levels of <<_nausea_attack,Nausea Attack>>.
-If this is the first roll for nausea attack, it will start at level 2.
-Cumulative rolls here increase the nausea attack by 2 levels.
-
-=== Paralysis Attack 2
-The paralysis attack temporarily incapacitates organic targets with weakness.
-This robotic attack is an area of effect weapon.
-This attack functions the same as two levels of <<_paralysis_attack,Paralysis Attack>>.
-If this is the first roll for paralysis attack, it will start at level 2.
-Cumulative rolls here increase the paralysis attack by 2 levels.
-
-=== Powered Ranged Peripherals
-The robot may use one of her peripherals as a deadly ranged weapon.
-In addition to the regular Fling weapon damage, these peripherals include an extra kick.
-Each powered ranged peripheral has the properties of a particular miscellaneous weapon.
-To generate these attacks is a bit of a walk, but they are powerful and worth the player’s effort.
-
-Use the table at <<_ranged_peripheral,Ranged Peripheral>> to generate the weapon type.
-
-If the robot has no obvious peripheral to misuse, it may have the actual weapon for a peripheral.
-A tool for inserting power conducers could shoot electrified ceramic balls instead.
-Multiple visits to powered ranged peripheral are cumulative, and a robot can gather many simultaneous powered ranged attacks.
-
-// todo move the actual data here for each type of attack to avoid page flipping
-
-Electro::
-This Fling attack is electrified.
-The electro weapon has a damage bonus of 2-16 (2d8) and an attack roll bonus of +100 against robots.
-For more info jump to xref:hardware:armaments.adoc#_electro_weapon[Electro Weapon,window=_blank, rel="noopener noreferrer"].
-
-Inertia::
-This Fling attack increases its density on contact.
-The inertia weapon does triple the weapon damage plus ten hit points.
-For more info jump to xref:hardware:armaments.adoc#_inertia_weapon[Inertia Weapon,window=_blank, rel="noopener noreferrer"].
-
-Stun::
-This Fling attack follows up with a debilitating stun attack.
-The damage of the attack converts from hit points stun intensity.
-If the successful attack is to inflict 12 hit points of damage, it delivers a 12 intensity stun instead.
-The target must win a saving roll against her Constitution or be stunned.
-Organic targets are stunned for 1-4 minutes, and inorganic targets are stunned for 1-4 units.
-For more info jump to xref:hardware:armaments.adoc#_stun_weapons[Stun Weapon,window=_blank, rel="noopener noreferrer"].
-
-Vibro::
-This Fling attack vibrates at damaging harmonic frequency.
-The vibro weapon has a damage bonus of +20 and an attack roll bonus of +100.
-For more info jump to xref:hardware:armaments.adoc#_vibro_weapon[Vibro Weapon,window=_blank, rel="noopener noreferrer"].
-
-=== Thermal Blast
-A thermal blast can be extreme cold or heat that the robot ejects to damage a target.
-The player must choose between a pyro attack or a cryo attack, which cannot change.
-Both attacks function equally and do not cause fires or freeze things shut.
-
-The attack has a range of 1 hex per point of Dexterity.
-The thermal blast is a Fling attack, and the player must win an attack roll to inflict damage.
-A thermal blast inflicts 1-8 (1d8) hit points of damage per point of prime Strength.
-
-=== Corrosive Mist
-A corrosive mist can be acid or alkali haze that tat the robot ejects to damage a target.
-The player must choose between an acid or alkali mist attack.
-Both attacks function equally.
-
-The attack has a range of 1 hex per point of Dexterity.
-The corrosive mist is a Fling attack, and the player must win an attack roll to inflict damage.
-A corrosive mist inflicts 1-8 (1d8) hit points of damage per point of prime Constitution.
-
-=== Gun
-This attack is most likely an actual weapon built into the robot.
-If the player chooses it to be misused peripheral, the attack will function identical to the gun type.
-To determine the gun type jump to xref:hardware:guns.adoc#_generate_type[Guns,window=_blank, rel="noopener noreferrer"].
-
-=== Aerosol
-This attack is most likely an actual weapon built into the robot.
-If the player chooses it to be misused peripheral, the attack will function identical to the aerosol type.
-To determine the aerosol type jump to xref:hardware:aerosols.adoc[Aerosols,window=_blank, rel="noopener noreferrer"].
-
-The aerosol type rolled should be limited to a combat aerosol.
-There is no combat sub table for aerosols, and a useful combat aerosol may inflict no damage at all.
-Powerful aerosols may require a 24 hour recharge period.
-
-=== Table Four Attack
+=== Advance Attack Level
 The player makes one roll on the ever so more dangerous Attack Table Four.
 
 == Attack Level Four
@@ -331,19 +251,47 @@ The attacks found here are usually baked-in weapons and not malfunctioning perip
 The universal requirement is lethality.
 Soft-touch attacks are not permitted when using Attack Table Four.
 
+=== Disregard Fabricator
+Any robot that reaches attack level four automatically gets to disregard their fabricator.
+This offensive peripheral disengages any connection to the persona’s fabricator type.
+Fabricator based commands do not weigh on this robot’s programming.
+
 include::robots:partial$peripherals_offensive_4.adoc[]
 
-=== 4 Rolls on Attack Table Two
-The player makes four rolls on Attack Table Two.
-This Attack Table Four result leads to multiple attacks or improved attacks.
-This table result can make the persona cumbersome to play or overpowered.
-The referee may limit the total number of attacks to maintain game balance and story.
+=== Aerosol
+On Attack Table Four, an aerosol will be an actual weapon built into the robot.
+The aerosol type rolled must be a killing aerosol.
+No soft touch aerosols are allowed.
+The aerosol can recharge after one minute of uncombat time.
+To determine the aerosol type jump to xref:hardware:aerosols.adoc[Aerosols,window=_blank, rel="noopener noreferrer"].
 
-=== 3 Rolls on Attack Table Three
-The player makes three rolls on Attack Table Three.
-This Attack Table Four result leads to multiple attacks or improved attacks.
-This table result can make the persona cumbersome to play or overpowered.
-The referee may limit the total number of attacks to maintain game balance and story.
+
+=== Grenade
+This attack employs a self-launching lethal grenade attack.
+There is a minimum lethality required for the grenade.
+No soft touch grenades are allowed.
+The grenade must have a killing attack.
+
+The player must win a Fling attack roll to hit the target hex.
+Like all grenades, close does count.
+The grenade is an area of effect weapon damaging, targets and colleagues alike.
+The attack has a range of 2 hexes per point of Strength.
+To determine the grenade type jump to xref:hardware:grenades.adoc#_grenade_type[Grenades,window=_blank, rel="noopener noreferrer"].
+
+=== Gun
+This is most likely a baked in weapon for the robot to use.
+There is a minimum lethality required for the gun-type
+No soft touch guns are allowed.
+The attack must be a killing attack.
+The gun type will automatically upgrade to the rifle version.
+The gun power (calibre) will automatically upgrade to the highest power version.
+To determine the gun type jump to xref:hardware:guns.adoc#_generate_type[Guns,window=_blank, rel="noopener noreferrer"].
+
+=== Inertia Fling Attack
+This fling attack increases its density on contact.
+The inertia weapon does triple the weapon damage plus ten hit points.
+For more info jump to xref:hardware:armaments.adoc#_inertia_weapon[Inertia Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_fling_attack,Fling Attack>> to generate the fling attack type.
 
 === Lethal Jet
 The lethal jet is a killing poison attack.
@@ -371,38 +319,22 @@ Anthros and aliens are dead in ten units without intervention.
 Organic targets that win their saving throw take 1-4 hit points (1d4) of damage per point of poison intensity.
 If this damage proves lethal, the persona may switch her saving throw to a loss.
 
-=== Gun
-On Attack Table Four, a  gun is most likely an actual gun built into the robot.
-There is a minimum lethality required for the gun-type
-No soft touch guns are allowed.
-The attack must be a killing attack.
-The gun type will automatically upgrade to the rifle version.
-The gun power (calibre) will automatically upgrade to the highest power version.
-To determine the gun type jump to xref:hardware:guns.adoc#_generate_type[Guns,window=_blank, rel="noopener noreferrer"].
+=== Multiple Level Three Attacks
+The player makes 3 rolls on Attack Table Three.
+This table result can make the persona cumbersome to play or overpowered.
+The referee may limit the total number of attacks to maintain game balance and story.
 
-=== Grenade
-This attack employs a self-launching lethal grenade attack.
-There is a minimum lethality required for the grenade.
-No soft touch grenades are allowed.
-The grenade must have a killing attack.
+=== Multiple Level Two Attacks
+The player makes 4 rolls on Attack Table Two.
+This Attack Table Four result leads to multiple attacks or improved attacks.
+This table result can make the persona cumbersome to play or overpowered.
+The referee may limit the total number of attacks to maintain game balance and story.
 
-The player must win a Fling attack roll to hit the target hex.
-Like all grenades, close does count.
-The grenade is an area of effect weapon damaging, targets and colleagues alike.
-The attack has a range of 2 hexes per point of Strength.
-To determine the grenade type jump to xref:hardware:grenades.adoc#_grenade_type[Grenades,window=_blank, rel="noopener noreferrer"].
-
-=== Bomb
-The robot has a single bomb that she can launch from her chassis.
-The range of the attack is 1 kilometre per point of STR prime.
-To determine the bomb type jump to to xref:hardware:bombs.adoc[Bombs,window=_blank, rel="noopener noreferrer"].
-
-=== Aerosol
-On Attack Table Four, an aerosol will be an actual weapon built into the robot.
-The aerosol type rolled must be a killing aerosol.
-No soft touch aerosols are allowed.
-The aerosol can recharge after one minute of uncombat time.
-To determine the aerosol type jump to xref:hardware:aerosols.adoc[Aerosols,window=_blank, rel="noopener noreferrer"].
+=== Vibro Fling Attack
+This fling attack vibrates at damaging harmonic frequency.
+The vibro weapon has a damage bonus of +20 and an attack roll bonus of +100.
+For more info jump to xref:hardware:armaments.adoc#_vibro_weapon[Vibro Weapon,window=_blank, rel="noopener noreferrer"].
+Use the table at <<_fling_attack,Fling Attack>> to generate the fling attack type.
 
 === Combat Mutation
 The robot will have a baked-in weapon that functions like a mutation.
@@ -415,18 +347,3 @@ The player uses the robot’s Intelligence score for mutations that depend on Mi
 The mutation type can be a Psionic Mutation or a Phenomic Mutation.
 If the player rolls less than her constitution score on 1d100, the attack has a xref:wetware:phenomics.adoc#_combat_mutations[Phenomic Mutation,window=_blank, rel="noopener noreferrer"] effect.
 If the 1d100 roll is greater than her constitution score, the attack has a xref:wetware:psionics.adoc#_combat_mutations[Psionic Mutation,window=_blank, rel="noopener noreferrer"] effect.
-
-=== Disregard Fabricator
-This offensive peripheral disengages any connection to the persona’s fabricator type.
-Fabricator based commands do not weigh on this robot’s programming.
-
-This attack does not count as a roll.
-The player records this programming aberration on her persona record and restarts the Offensive System roll.
-So if the player started at Attack Table Two, she would restart on Attack Table Two.
-This restart may be frustrating to players.
-Robots do not exhibit frustration.
-
-=== Ref’s Own Table
-Look out! Here comes something zany.
-If the referee does not have a Ref’s Own Table, she can pick an appropriate level 4 attack for the robot.
-It is up to the referee if the player can pick a level 4 attack for her persona.
