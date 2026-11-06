@@ -1,4 +1,6 @@
-= Anthro Referee Personas
+= Anthros
+
+*Guide to making anthro referee personas.*
 
 Anthros are upright, bipedal humanoids.
 In the faux taxonomy, anthros are of the family Hominidae and the genus homo.
@@ -7,185 +9,100 @@ They have hands, heads and faces.
 The referee should massage the anthro RP to fit her milieu.
 This section is for helping creativity, not replacing it.
 
-== Record Sheet
-You will not be able to keep track of everything that is needed for a referee persona.
-It is recommended that you print out a persona record sheet to keep track of stuff.
-Download the bare bones PDF (75K) at xref:appendices:printables.adoc[Anthro Persona Record, window=_blank, rel="noopener noreferrer"]
+.*Anthro RP Pathway*
+. Determine xref:referee_personas:a_introduction.adoc#_relevance[relevance, window=_blank, rel="noopener noreferrer"]
+. xref:anthros:a_introduction.adoc[Anthro Delivery, window=_blank, rel="noopener noreferrer"]
+. Deviations
+.. xref:referee_personas:anthro_rp.adoc#_attributes[Attributes, window=_blank, rel="noopener noreferrer"]
+.. xref:referee_personas:anthro_rp.adoc#_genus[Genus, window=_blank, rel="noopener noreferrer"]
+.. xref:referee_personas:anthro_rp.adoc#_age[Age, window=_blank, rel="noopener noreferrer"]
+.. xref:referee_personas:anthro_rp.adoc#_vocation[Vocation, window=_blank, rel="noopener noreferrer"]
+.. xref:referee_personas:anthro_rp.adoc#_equipment[Equipment, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_experience_level[Experience Level, window=_blank, rel="noopener noreferrer"]
+. xref:personas:incidentals.adoc[Incidentals, window=_blank, rel="noopener noreferrer"]
+. xref:personas:rp_story_cues.adoc[Story Cues, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio, window=_blank, rel="noopener noreferrer"] - optional
+. xref:appendices:printables.adoc[Persona Record Sheet, window=_blank, rel="noopener noreferrer"]
+. Have a lot of fun!
 
-NOTE: *If it’s worth creating, it’s worth writing down.*
+== Anthro Delivery
+The core anthro is created using the player persona xref:anthros:a_introduction.adoc[Anthro Delivery, window=_blank, rel="noopener noreferrer"] section.
+The referee can make choices that reflect story needs right there, or use the variations described below.
 
-The referee persona record sheet is just another persona record sheet.
-There are few bonus elements of which the referee must keep track.
-Most player personas do not have elements like personality, politics or religion.
-The referee can also use the persona record sheet to keep track of interactions with the expedition.
+== Deviations
+These are strange things that referees may want in their referee personas that don't really work for player personas.
+This includes extremities of size and age.
+Or specific descriptions that the referee desires like strong, fast or ugly.
 
-== Relevance
-Not all RPs are created equal.
-Some personas are less important than others.
-The referee usually knows the importance of the persona before she starts generation.
-An RP’s relevance increases the more entangled they are with the expedition.
+=== Attributes
+Often a referee will want a tiny alien, a dumb alien, a slow alien, or even a stupid, slow, small alien (prey).
+Alien attributes tend to be higher than other personas.
+Descriptors such as tough, smart and strong give attribute values relative to anthro personas.
+This table may fall short if the referee is trying to generate an alien persona stronger than other aliens in her species.
+The downwards attribute modifications are most helpful.
 
-include::referee_personas:partial$persona_relevance.adoc[]
+==== Descriptors
+include::referee_personas:partial$attribute_descriptors_anthro_web.adoc[]
 
-:art: aquarium_not_aquarian.png
-:width: 250px
-:snark: An aquarium not an aquarian
-:artist: Imagestoks 
-:date: 2017
-:license: Copyright Imagestoks 2015
-:description: A space suit with fish swimming in the helmet.
-include::ROOT:partial$articulate.adoc[]
-
-== Genus
-The anthro genus should reflect the referee’s milieu.
-
-include::referee_personas:partial$anthro_genus_determination.adoc[]
-
-=== Species
-The anthro species should reflect the referee’s milieu.
-The most common species is generalis.
-Generalis is the typical non-descript anthro species.
-On mundane terra a canine generalis is called a __mutt__.
-
-include:referee_personas:partial$anthro_species_determination.adoc[]
-
-Anthro species are phenotypical, not scientific.
-Anthros are appearance only and are unfaithful to mundane terran science.
-
-.*Mundane terran examples*
-* https://en.wikipedia.org/wiki/List_of_fish_common_names[Aquarian]
-* https://en.wikipedia.org/wiki/List_of_dog_breeds[Canine]
-* https://en.wikipedia.org/wiki/List_of_horse_breeds[Equine]
-* https://en.wikipedia.org/wiki/Ungulate[Equine, even more]
-* https://en.wikipedia.org/wiki/Felidae[Feline]
-* https://en.wikipedia.org/wiki/Reptile[Reptilian]
-* https://en.wikipedia.org/wiki/Rodent[Rodentia]
-* https://en.wikipedia.org/wiki/Bear[Ursidae]
-
-== Size
-Use this single look-up table to create the anthro’s hite and wate.
-All anthros are considered to have the size category of Medium. 
-For a refresher on calculating hite and wate jump to xref:anthros:anthro_size.adoc[Anthro Size,window=_blank, rel="noopener noreferrer"].
-To choose specific sizes like obese, skinny tall or short, jump to <<_strong_descriptors,Strong Descriptors>>.
-
-include::referee_personas:partial$anthro_size_quick_table.adoc[]
-
-== Age
-First generate the age category of the referee persona and then hone in on an exact age in years.
-
-include::referee_personas:partial$age_categories.adoc[]
-
-include::referee_personas:partial$anthro_years_old.adoc[]
-
-== Attributes
-Referee persona attributes are slightly better than player persona attributes and do not affect the persona’s genus or vocation.
-The referee generates initial attributes for the referee persona using the attributes table below.
-The attributes are then modified to reflect the anthro genus and vocation.
-To choose descriptive attributes like slow, weak, or dumb jump to <<_strong_descriptors,Strong Descriptors>>.
-
-include::anthros:partial$anthro_attribute_generation.adoc[]
-
-=== 4d6DL
-For attributes with ranges of 3-18 can replace the 3d6 roll with a 4d6DL roll.
-With 4d6DL the player rolls 4d6 and drops the lowest die roll. 
-If a player rolls 4, 3, 5, and 2, she drops the 2, and her total is 12. 
-The impact on the nature of the game using drop the lowest is astounding. 
-Using 4d6DL allows for powerful vocations like spies and knites to be more frequent.
-
-=== Hit Points
-A referee persona’s Hit Points (HPS) maximum is determined the same as any other anthro persona.
-For more information about anthro hit points jump xref:anthros:generate_hit_points.adoc[here,window=_blank, rel="noopener noreferrer"].
-
-==== Calculation
-.HPS = (1/2 CON x 1d8) + CON
-****
-A persona with a CON of 11 would roll 6d8 and add 11. Rounding benefits the persona.
-****
-
-=== Genus Adjustment
+==== Genus Correction
 For player personas the attributes determine the choice of anthro genus.
 For referee personas the anthro genus alters the attributes
-Attributes are never corrected down. 
+Attributes are never corrected down.
 If the referee needs a clumsy feline, she can achieve this using the <<_strong_descriptors,Strong Descriptors>>.
 
-include::referee_personas:partial$anthro_genus_attribute_correction.adoc[]
+include::referee_personas:partial$anthro_genus_attribute_correction_web.adoc[]
 
-== Mutations
-Referee personas mutate the same as other personas. 
-The referee can push for mutations by doubling the chance.
-The table is be used as a guide if mutations are to be assigned.
-Purestrain anthros are not vessels for zany mutations.
-Insectoids rarely get phenomic mutations.
-Keep in mind that some mutations are campaign changers and should be appropriately rare.
-
-include::anthros:partial$anthro_phenomic_check.adoc[]
-
-include::anthros:partial$anthro_psionic_check.adoc[]
-
-NOTE: Psionics were formerly Mental Mutations and Phenomics were formerly Physical Mutations
-
-== Anthro RP EXPS Level
-Generate an experience level for every anthro RP.
-Anthros have vocations, and the EXPS level can be their most important roll.
-EXPS level impacts how many artifacts and skills the RP gets.
-
-include::referee_personas:partial$experience_levels.adoc[]
-
-== Anthro RP Vocation
-All anthros get a vocation. 
-The referee should choose the vocation that best suits the needs of the story and milieu.
-
-include::referee_personas:partial$vocation_determination.adoc[]
-
-=== Attribute Correction
+==== Vocation Correction
 RP attributes do not select the persona’s vocation type.
 The attributes are modified to reflect the vocation type.
-Attributes are never corrected down. 
+Attributes are never corrected down.
 However, if the referee needs a clumsy spie, she can achieve this at <<_strong_descriptors,Strong Descriptors>>
 
 include::referee_personas:partial$vocation_attribute_correction.adoc[]
 
-== Strong Descriptors
-The following table gives guidelines for numerical changes that various descriptors represent.
-This table can be used to spice up an entirely random referee persona. 
-Not everyone is great. 
-It largely lives at the end of this section for ease of calculations. 
-Strong descriptors can lead to anomalies like weak mercenaries, or clumsy spies. 
 
-include::referee_personas:partial$strong_descriptors.adoc[]
+=== Genus
+The anthro genus should reflect the referee’s milieu.
 
-== Movement Rate
-Movement rate is dependent on DEX and represented in hexes per unit.
-If the referee needs a slow or fast RP, this is modified at <<_strong_descriptors,Strong Descriptors>>
+include::referee_personas:partial$anthro_genus_determination.adoc[]
 
-include::anthros:partial$movement_rate_and_dexterity.adoc[]
+==== Species
+The anthro species should reflect the referee’s milieu.
+The most common species is generalis.
+Generalis is the typical nondescript anthro species.
+On mundane terra a canine generalis is called a __mutt__.
 
-== Defence Rating
-Defence Rating is adjusted using DEX.
-// this in include from Anthro AR
-include::anthros:defence_rating.adoc[lines=3..20]
+include::referee_personas:partial$anthro_species_determination_web.adoc[]
 
+Anthro species are phenotypical, not scientific.
+Anthros are appearance only and are unfaithful to mundane terran science.
 
-== Wate Allowance
-The better the STR, the more she can lift.
+=== Age
+Determine the age category for the anthro, and then choose any age inside that range.
 
-include::anthros:partial$wate_allowance_and_strength.adoc[]
+include::referee_personas:partial$age_categories.adoc[]
 
-== Equipment
-Referee personas carry equipment.
-They have food, survival equipment, funds, and toys.
-RPs get one TOYs roll for every experience level.
+=== Vocation
+All anthros get a vocation.
+The referee should choose the vocation that best suits the needs of the story and milieu.
 
-=== Mundane
+include::referee_personas:partial$vocation_determination.adoc[]
+
+=== Equipment
+Anthros are tool users by definition and they will have both mundane and artifact equipment at their disposal.
+RP equipment should reflect the milieu and plot of the story.
+For example, an RP in an austere post apocalyptic milieu would not have a portable black hole.
+
+==== Mundane
 Referee personas usually have what is necessary to survive in the local terrain.
 The persona’s survival equipment will vary with the terrain and the referee’s milieu.
+See xref:hardware:mundane_equipment.adoc[mundane equipment]
 
-xref:hardware:mundane_equipment.adoc[Mundane Equipment]
-
-=== TOYs
+==== Toys
 Toys are technological devices that behave like magical devices.
 If a referee persona needs a particular technological device, the referee will add it to the persona.
 The referee may limit  RP equipment to maintain game balance.
+See xref:hardware:startifacts.adoc[startifacts] (starting artifacts)
 
 Higher-level RPs will have successfully identified most of their toys.
 An RP may also have an unidentified technological toy.
@@ -197,36 +114,3 @@ A lower-level RP is more likely to be carrying around an artifact.
 * vocation limits do not apply
 * spacecraft, robot or vehicle limits do not apply
 * treasure is accumulated but does not count as roll
-
-include::hardware:partial$toys_departments_list.adoc[]
-
-== Attack Table
-The attack table keeps track of the persona’s combat skills and increases with EXPS level.
-The referee need not calculate a complete attack table for cannon, or canon, fodder referee personas.
-Canonical referee personas need a full attack table calculated.
-For general info about attack tables, jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank, rel="noopener noreferrer"] in tactical combat.
-For detailed info about the calculations below, jump to xref:combat:attack_table_anthro.adoc[Anthro attack table,window=_blank, rel="noopener noreferrer"].
-
-A second level spie has the following attributes: AWE 12 CHA 11 CON 12 DEX 10 INT 12 MND 14 and STR 16.
-
-include::combat:partial$attack_table_anthro_example.adoc[]
-
-== Startifacts
-Anthro RPs get startifacts like any other persona. 
-RPs are typically awarded one roll per EXPS Level. 
-High level RPs can be very dangerous by way of their TOYs alone.
-For Startifacts jump to xref:hardware:startifacts.adoc[Startifacts,window=_blank, rel="noopener noreferrer"]
-
-== Name
-The anthro should have a name as any anthro player persona does.
-For anthro, naming shenanigans jump to xref:anthros:name.adoc[Anthro Name,window=_blank, rel="noopener noreferrer"].
-
-== Story Cues
-There are all manner of story cues that the referee may wish to generate.
-All are optional. 
-For setting up story cues for this referee persona jump to xref:personas:rp_story_cues.adoc[Story Cues,window=_blank, rel="noopener noreferrer"].
-
-== Combat Ratio
-The combat ratio determines how dangerous a referee persona is.
-Combat ratio is partially optional, but plays a roll in assigning combat experience. 
-To generate a danger number for this persona jump to xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio,,window=_blank, rel="noopener noreferrer"].

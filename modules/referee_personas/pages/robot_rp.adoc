@@ -1,4 +1,6 @@
-= Robot RP
+= Robots
+
+*Guide to making anthro referee personas.*
 
 Robots are inorganic lifeforms.
 In the faux taxonomy, robots are of the family machinidae
@@ -6,318 +8,52 @@ Machinidae are life forms that are inorganic and fabricated.
 Anthros, Aliens or other Robots can fabricate robots.
 The robots here are referee persona robots fabricated by the referee.
 
-== Record Sheet
-You will not be able to keep track of everything that is needed for a referee persona.
-It is recommended that you print out a persona record sheet to keep track of stuff.
-Download the bare bones PDF (75K) at xref:appendices:printables.adoc[Robot Persona Record, window=_blank, rel="noopener noreferrer"]
+.*Robot RP Pathway*
+. Determine xref:referee_personas:a_introduction.adoc#_relevance[relevance, window=_blank, rel="noopener noreferrer"]
+. xref:robots:a_introduction.adoc[Robot Fabrication, window=_blank, rel="noopener noreferrer"]
+. Deviations
+.. xref:referee_personas:robot_rp.adoc#_series[Series, window=_blank, rel="noopener noreferrer"]
+.. xref:referee_personas:robot_rp.adoc#_size[Size, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_experience_level[Experience Level, window=_blank, rel="noopener noreferrer"]
+. xref:personas:incidentals.adoc[Incidentals, window=_blank, rel="noopener noreferrer"]
+. xref:personas:rp_story_cues.adoc[Story Cues, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio, window=_blank, rel="noopener noreferrer"] - optional
+. xref:appendices:printables.adoc[Persona Record Sheet, window=_blank, rel="noopener noreferrer"]
+. Have a lot of fun!
 
-NOTE: *If it’s worth creating, it’s worth writing down.*
+== Robot Fabrication
+The core anthro is created using the player persona xref:robots:a_introduction.adoc[Robot Fabrication, window=_blank, rel="noopener noreferrer"] section.
+The referee can make choices that reflect story needs right there, or use the variations described below.
 
-== Relevance
-Not all RPs are created equal.
-Some personas are less important than others.
-The referee usually knows the importance of the persona before she starts generation.
-An RP’s relevance increases the more entangled they are with the expedition.
+== Deviations
+These are strange things that referees may want in their referee personas that don't really work for player personas.
+This includes extremities of size and age.
+Or specific descriptions that the referee desires like strong, fast or ugly.
 
-include::referee_personas:partial$persona_relevance.adoc[]
 
-== Series
+
+=== Series
 For player personas determining their robot type is a laborious process.
 The referee can use the Single Roll Robot Type Table below.
 One roll using a 1d1000 chooses the robot RP type.
 The referee should massage the robot type to suit her campaign’s milieu.
 
-include::robots:partial$series_selection_single_roll.adoc[]
+include::robots:partial$series_selection_single_roll_web.adoc[]
 
-== Fabricator
-Where fabricator type does play a role is in delivering orders to the robot. 
-If a fabricator type tells a robot what to do, it is more likely to comply. 
-In short, the robot’s fabricator type is more successful at bossing the robot around.
-If a fabricator type makes a reasonable, on mission command to a robot, it would almost certainly result in a control factor roll.
-For more information about the implications of the fabricator type jump to xref:robots:fabricator.adoc[Robot Fabricator,window=_blank, rel="noopener noreferrer"].
+=== Size
+These extreme sizes are nano and colossal
 
-include::robots:partial$fabricator_type.adoc[]
-
-== Attributes
-Inverse to player personas, the RP robot’s series and model determines her attributes.
-While the table looks imposing, it is much faster than the player personas process.
-The attribute lookup table gives the direct attribute scores.
-The referee determines the robot’s prime attributes after her regular attributes.
-
-include::referee_personas:partial$robot_attributes_from_series.adoc[]
-
-=== Primes
-Some robot abilities depend on the robot’s prime attribute.
-For robot RPs the robot type determines the attribute ranges. 
-Consult the lookup table below to record the attribute ranges.
-
-include::referee_personas:partial$robot_primes_from_attributes.adoc[]
-
-
-== Size
-The robot size consists of the robot’s wate and the robot’s hite.
-The wate of the robot plays a role in ramming damage. 
-Heavier robots inflict more damage.
-The hite of the robot determines its rough volume. 
-Bigger robots don’t fit as well into anthro-sized spaces.
-Typical size categories include: Tiny, Small, Medium, Large and Gigantic. 
-There are some atypical robot sizes that really should only be referee personas.
-
-=== Nano
+==== Nano
 Any robot that has a wate of 4.2 kg or less has a chance of becoming an extremely small nano bot.
 The chance of the robot becoming a nano bot is 1 in 6 (1d6)
 Nano bots have a wate of  0 to 999 grams (1d1000 - 1).
 A nano bot cannot have a wate greater than a kilogram.
 Nano robots have no change to their attributes, abilities or combat values.
 
-=== Colossal
+==== Colossal
 Any robot with a wate of 4200 kg or more has a chance of becoming a colossal machine.
 The chance of the robot becoming a colossal machine is 1 in 6 (1d6).
-Mighty machines have a wate of 6 to 600 tons (1d100 times 6).
-Mighty machines have no change to their attributes, abilities or combat values.
+Colossal robots have a wate of 6 to 600 tons (1d100 times 6).
+Colossal robots have no change to their attributes, abilities or combat values.
 However, in regards to ramming, colossal machines can increase their ramming ratio to 12 (versus 4).
-
-NOTE: Colossal robots were formerly referred to as Mighty Machines.
-
-
-=== Wate
-
-include::robots:partial$robot_size_cat_to_wate.adoc[]
-
-=== Hite
-
-include::robots:partial$robot_size_cat_to_hite.adoc[]
-
-=== Reach
-
-include::robots:partial$robot_size_cat_to_reach.adoc[]
-
-=== Hite Wate Lookup Table
-
-include::referee_personas:partial$rp_robot_hite_wate_lookup.adoc[]
-
-
-
-
-
-
-include::robots:partial$wate_to_hite_estimation.adoc[]
-
-
-== Defence Rating
-Robot RPs have an AR of 700.
-A robot AR is the same as any other persona AR.
-A successful attack roll damages the robot as it would any other persona.
-Robots are different from organic personas and damage differently.
-Robot RPs are easy to hit but hard to destroy.
-
-== Movement
-The robot’s Dexterity score determines her movement rate.
-Robots are twice as fast as those other personas with the same DEX.
-Those robots which move faster than eight h/u must accelerate the same as vehicles.
-Robotic acceleration is one hex per unit per STR prime score.
-
-include::robots:partial$movement_rate_and_dexterity.adoc[]
-
-== Wate Allowance
-Bots are affected by encumbrance, though not as much as other referee personas.
-Strength determines the weight allowance of the robot.
-A robot with a STR level of 3 and a 17 STR would have a wate allowance of 75 kgs.
-Robot size does not affect a robot’s wate allowance.
-For more information about carry stuff, jump to xref:uncombat:encumbrance.adoc[Encumbrance,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$wate_allowance_and_prime_strength_web.adoc[]
-
-== Systems
-Robotic RPs may have offensive, defensive and peripheral systems.
-Generating systems for player persona robots is convoluted and fun.
-The referee can find the number of rolls for each system on the single lookup table below.
-The lookup table seems scary, but it is scientifically proven to be faster than the player robot persona method.
-
-include::referee_personas:partial$robot_systems_by_series.adoc[]
-
-== Offensive Systems
-These are the systems that harm others.
-On the lower level tables, the robot is misusing and weaponizing malfunctioning peripherals.
-On the higher level tables, the robot is using weapons baked-in during fabrication.
-The referee will dance back and forth between the attack tables, creating a murderous melange of machinery.
-
-=== Ramming 
-All robots can ram, but not without challenges.
-Only robots with ramming freedom can fling themselves around with self-destructive abandon.
-For more info about robot ramming, ram your way over to xref:robots:peripherals_offensive.adoc#_ramming[Robot Ramming,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$peripherals_offensive_ramming_web.adoc[]
-
-=== Table One
-These attacks include ramming, and the robot is misusing and weaponizing malfunctioning peripherals. 
-It is possible to get a roll on Attack Table Two to get more dangerous weapon systems.
-For details about these attacks jump to  xref:robots:peripherals_offensive.adoc#_attack_level_one[Attack Level One,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$peripherals_offensive_strike.adoc[]
-
-=== Table Two
-Slightly more dangerous attacks, but mainly consist of misused devices.
-It is possible to get several rolls on Attack Table One or move up to Attack Table Three.
-For details about these attacks jump to  xref:robots:peripherals_offensive.adoc#_attack_level_two[Attack Level Two,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$peripherals_offensive_2.adoc[]
-
-include::robots:partial$peripherals_offensive_fling_web.adoc[]
-
-=== Table Three
-Even more dangerous attacks.
-These attacks are a mix of baked-in weapons and misused devices.
-It is possible to get several rolls on Attack Table Two or move up to Attack Table Four.
-For details about these attacks jump to  xref:robots:peripherals_offensive.adoc#_attack_level_three[Attack Level Three,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$peripherals_offensive_3.adoc[]
-
-=== Table Four
-Even more dangerous attacks.
-These attacks are a mix of baked-in weapons and misused devices.
-It is possible to get several rolls on Attack Table Three.
-For details about these attacks jump to  xref:robots:peripherals_offensive.adoc#_attack_level_four[Attack Level Four,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$peripherals_offensive_4.adoc[]
-
-== Defensive Peripheral
-Robot defences can arise from misused peripherals or intentionally baked-in defensive systems.
-For more detailed explanations jump to xref:robots:peripherals_defensive.adoc[Defensive Peripherals,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$peripherals_defensive.adoc[]
-
-== Utility Peripheral
-These peripherals are attachments that give the robot some additional flexibility in performing its tasks.
-Peripherals are not weapons. 
-For more detailed explanations jump to xref:robots:peripherals_utility.adoc[Peripheral Systems,window=_blank, rel="noopener noreferrer"].
-
-=== Basic
-
-include::robots:partial$peripherals_utility_basic_list.adoc[]
-
-=== Fancy
-
-include::robots:partial$peripherals_utility_fancy_list_web.adoc[]
-
-== EXPS Level
-EXPS Levels improve the RP’s Control Factor, assist in saves and robot attributes.
-
-include::referee_personas:partial$experience_levels.adoc[]
-
-== Control Factor
-Calculate the persona’s control factor here.
-For more details jump to xref:uncombat:robot_free_will.adoc[Control Factor,window=_blank, rel="noopener noreferrer"].
-
-[discrete]
-=== Calculate Control Factor
-.CF= (INT score) + (INT Prime* EXPS Level)
-****
-A 3rd level robot with a 15 INT score, and a 3 INT Prime has a CF = 24
-****
-
-== Adaptability
-If there is a need to know the referee persona’s adaptability check the fabrication info for the robot type.
-
-== Appearance
-The robot appearance is entirely up to the player running the persona. 
-Following are some elements to help with generating an appearance. 
-
-=== Shape
-The volume of the robot will fit into this shape.
-
-include::robots:partial$basic_shapes.adoc[]
-
-[discrete]
-=== Contortion of Basic Shape
-This table manipulates the basic shape of the robot.
-This step is optional and is present to help reflect the randomness that is commercial design.
-
-include::robots:partial$basic_shape_distortions.adoc[]
-
-[discrete]
-=== Attachments 
-Useless attachments.
-
-include::robots:partial$peripherals_of_uselessness.adoc[]
-
-=== Wear and Age
-Robots do not age.
-Unlike organic life forms, robots only decay from damage and not time. 
-The longer it has been since fabrication allows for an estimate of how much damage the robot has experienced.
-The robot age table was previously called the decrepitude table.
-
-include::referee_personas:partial$robot_wear_appearance.adoc[]
-
-== Value
-Most referee persona robots do not like to talk about their value. 
-If there is a need to know the referee persona’s value check the fabrication info for the robot type.
-
-== Tech Level
-Tech level alters the wate and size of artifacts.
-There is no mechanism in EXP for altering robots based on their tech level. 
-Is a high tech level robot less able to ram because it is now lighter? 
-Tech level could increase the value of a robot, improve its power plant, and overall alter its appearance.
-Would steam power a low tech level robot? 
-For more info and the effects of altering tech levels, jump to xref:hardware:tech_level.adoc[Tech Level,window=_blank, rel="noopener noreferrer"].
-
-== Attack Table
-The attack table keeps track of the persona’s combat skills and increases with EXPS level.
-The referee may need two attack tables for her tool using aliens.
-For general info about attack tables, jump to xref:combat:attack_table_details.adoc[Attack Tables,window=_blank, rel="noopener noreferrer"] in tactical combat.
-For a detailed explanation of the outline below jump to xref:combat:attack_table_robot.adoc[Robot Attack Table,window=_blank, rel="noopener noreferrer"].
-
-This attack table is for baked-in offensive systems and ramming freedom.
-Robot RPs only have a Skilled Bonus (Skilled) for their baked-in attacks. 
-If a robot RP manages to use a gun, her Skilled is zero.
-If the robot type is Android (A), then the referee must make an anthro-like vocation-based attack table as well.
-For the vocation based attack table, jump to xref:combat:attack_table_anthro.adoc[Anthro attack table,window=_blank, rel="noopener noreferrer"].
-
-:art: bots_bots_bots.png
-:width: 350px
-:snark: Combat ratio can alter numbers.
-:artist: JEShields
-:date: 2016-2021
-:license: Copyright JEShields Stock Art. jeshields.com
-:description: Many flying robots.
-
-include::ROOT:partial$articulate.adoc[]
-
-== Spec Sheet
-Qualitative details about how the robot moves, sees, and powers itself.
-
-=== Power Source
-Robot power sources are Sciency Fiction supercells that allow the robot to operate.
-Recharging may be necessary.
-For more detailed information, jump to xref:robots:power_source.adoc[Power Source,window=_blank, rel="noopener noreferrer"].
-
-include::hardware:partial$power_source_types.adoc[]
-
-=== Sensors
-Robot sensors allow the robot RP to hear and see like any other persona.
-The higher the RPs Awareness, the more sensors they have. 
-For more detailed information, jump to xref:robots:sensors.adoc[Sensors,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$sensor_types.adoc[]
-
-=== Locomotion
-Robot locomotion allows the RP to get anywhere she can fit.
-For more detailed information, jump to xref:robots:locomotion.adoc[Locomotion,window=_blank, rel="noopener noreferrer"].
-
-include::robots:partial$locomotion_types_web.adoc[]
-include::robots:partial$locomotion_types_complementary.adoc[]
-
-== Name
-The robot should have a name like any other persona.
-Robot names can become complicated because they may need a persona name, model name and fabricator name.
-For more details on naming shenanigans, jump to xref:robots:name.adoc[Robot Name,window=_blank, rel="noopener noreferrer"].
-
-== Story Cues
-There are all manner of story cues that the referee may wish to generate.
-All are optional. 
-For setting up story cues for this referee persona jump to xref:personas:rp_story_cues.adoc[Story Cues,window=_blank, rel="noopener noreferrer"].
-
-== Combat Ratio
-The combat ratio determines how dangerous a referee persona is.
-Combat ratio is partially optional, but plays a roll in assigning combat experience. 
-To generate a danger number for this persona jump to xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio,,window=_blank, rel="noopener noreferrer"].
+Colossal robots were formerly referred to as Mighty Machines.
