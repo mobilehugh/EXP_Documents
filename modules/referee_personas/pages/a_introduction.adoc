@@ -140,5 +140,116 @@ Combat Ratio (CR) is an abstract measure of the referee persona’s toughness.
 The CR is a number that pretends to measure how dangerous an RP is in combat.
 The higher the combat ratio, the more powerful the adversary.
 The CR is used to determine the EXPS value and number of attackers.
-The CR is optional.
-The gory details can be found at xref:referee_personas:rp_combat_ratio.adoc[Combat Ratio, window=_blank, rel="noopener noreferrer"].
+*The CR is optional.*
+
+The Combat Ratio indicates how many player personas represent a fair fight.
+For this process, a player persona is a level one anthro persona with a typical attack table.
+The larger the combat ratio the more dangerous the referee persona.
+
+A referee persona with a CR of 20 should be able to handle 20 personas, or 4 5th level personas.
+This is a dangerous RP indeed.
+A referee persona with a CR of 1/4 would need 3 other friends for a fair fight against 1 player persona.
+This RP is very weak in indeed.
+
+The combat ratio applies to personal combat and is used to guide encounters and reward combat experience.
+
+=== Calculation
+Once the referee persona is created the referee walks through the following tables collecting Base and Multiplier values.
+The base values are added to the persona's base combat ration of 1.
+The multipliers are multiplied together and then multiplied by the final base combat ratio
+
+.*Combat Ratio Elements*
+. xref:referee_personas:a_introduction.adoc#_attack_bonus[Attack Bonus, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_attack_type[Attack Type, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_attack_frequency[Attack Frequency, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_attack_damage[Attack Damage, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_hit_points[Hit Points, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_movement[Movement, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_defence[Defence, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_attributes[Attributes, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_vocations[Vocations, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_mutations[Mutations, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_alien_specific[Alien Specific, window=_blank, rel="noopener noreferrer"]
+. xref:referee_personas:a_introduction.adoc#_robot_specific[Robot Specific, window=_blank, rel="noopener noreferrer"]
+
+.*Step by Step CR Example*
+. Base CR is 1, Base Multiplier is 1
+. Skilled Attack Bonus is 175
+.. Base +6 to 7
+.. Multiplier stays 1
+. Attack type is flotto
+.. Base +12 to 19
+.. Multiplier x2 to 2
+. Vocation is 4th level mercenary
+.. Base +4 to 23
+.. Multiplier x2 to 4
+. Final CR is Base x Multiplier
+.. 23 x 4 is 92
+.. 92 personas = fair fight
+
+=== Attack Bonus
+The highest skilled attack bonus on the RPs attack table is used for the combat ratio.
+
+include::referee_personas:partial$combat_ratio_skilled_bonus.adoc[]
+
+=== Attack Type
+The most dangerous attack type the RP has is used for the combat ratio.
+This includes the attack type of a weapon being used.
+
+include::referee_personas:partial$combat_ratio_attack_type.adoc[]
+
+=== Attack Frequency
+The total number of attacks possible per unit.
+If it is an alien with 2 strike attack and 1 fling that is 3 attacks per unit.
+Any persona with a full auto weapon would use the Flotto attack frequency
+
+include::referee_personas:partial$combat_ratio_attack_frequency.adoc[]
+
+=== Attack Damage
+The maximum amount of damage that could be inflicted at once.
+Choose the most powerful weapon to adjust the combat ratio.
+
+include::referee_personas:partial$combat_ratio_damage.adoc[]
+
+=== Hit Points
+The harder to break the more dangerous.
+This indicates the HPS at the start of combat not the HPM of the RP.
+
+include::referee_personas:partial$combat_ratio_hit_points.adoc[]
+
+=== Movement
+Fast opponents are more dangerous.
+Vehicle speeds do not count.
+
+include::referee_personas:partial$combat_ratio_movement.adoc[]
+
+=== Defence
+The harder to hit.
+
+include::referee_personas:partial$combat_ratio_defence.adoc[]
+
+=== Attributes
+If the RP has an extreme and relevant attribute these modification will apply.
+For example, a strong RP in a wrestling match, or trying to ambush a very aware target.
+
+include::referee_personas:partial$combat_ratio_attributes.adoc[]
+
+=== Vocations
+Some vocations more dangerous than others.
+
+include::referee_personas:partial$combat_ratio_vocation.adoc[]
+
+=== Mutations
+Mutations that can be used in combat have specific CR adjustments listed under their data.
+For example, xref:wetware:phenomics.adoc#_electrocusis[electrocusis, window=_blank, rel="noopener noreferrer"] has a CR adjustment of +4.
+This would increase the base by +4.
+
+=== Alien Specific
+These are for evolved alien abilities if the alien is in combat without tools.
+A tiny creator alien with a fusion pistol would have a high CR regardless.
+
+include::referee_personas:partial$combat_ratio_aliens.adoc[]
+
+=== Robot Specific
+
+include::referee_personas:partial$combat_ratio_robots.adoc[]
