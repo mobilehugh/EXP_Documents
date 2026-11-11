@@ -1,21 +1,14 @@
 = Psionic Mutations
+
 Psionic mutations function through the thinkspace of the EXP mythos.
 These mutations may impact the physical space, but the effect is delivered through the thinkspace.
-The thinkspace is a faux concept where organic consciousnesses exist. 
+The thinkspace is a faux concept where organic consciousnesses exist.
 In this space, consciousnesses interact, allowing for extrasensory perception and mind control.
 Psionic mutations do not alter the persona’s appearance, making these mutants indistinguishable from other personas.
-These mutations are also called psionics, psychic powers, or mental attacks. 
+These mutations are also called psionics, psychic powers, or mental attacks.
 
 Psionic mutations require concentration of the mind, like lifting a weight involves contraction of the muscles.
 The attribute that powers psionic mutations is Mind.
-
-
-.*Psionic Mutations*
-* <<_psionic_mutations_list,Any Psionic Mutation>>
-* <<_no_defects,No Defects (start up)>>
-* <<_combat,Combat Mutations>>
-* <<_uncombat,Non Combat Mutations>>
-* <<_defective,Defective Mutations>>
 
 == Parameters
 Each mutation has certain properties that describe what it is and how it affects play.
@@ -123,9 +116,9 @@ The mutation may indicate a bonus for maneuver rolls, attribute rolls or negotia
 Any simple effect that the mutation has on the dice rolling of the persona should be included beside the general bonus listing.
 
 
-== Psionic Mutations List
+include::mutations:partial$psionic_tables_web.adoc[]
 
-include::wetware:partial$psionic_list_all.adoc[]
+== Psionic Mutations
 
 
 === Absorption
@@ -147,9 +140,9 @@ Absorption cannot be used to gain HPS.
 
 For combined attacks the players may need consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank, rel="noopener noreferrer"].
 
-include::wetware:partial$psionic_absorption.adoc[]
+include::mutations:partial$psionic_absorption.adoc[]
 
-=== Aisthoclasis 
+=== Aisthoclasis
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -163,15 +156,15 @@ The attack is only effective against organic personas.
 The target must win a psionic roll or lose the described sensory input.
 Sensory deprivation is selective, and the target remains conscious and likely surprised.
 The mutant can cause deafness, blindness, or a loss of tactile and olfactory senses.
-The more critical the sense, the more likely the target will win the psionic roll. 
-Removing the sensation of pain can benefit the target in certain circumstances. 
+The more critical the sense, the more likely the target will win the psionic roll.
+Removing the sensation of pain can benefit the target in certain circumstances.
 
-include::wetware:partial$psionic_aisthoclasis.adoc[]
+include::mutations:partial$psionic_aisthoclasis.adoc[]
 
 NOTE: This mutation was formerly known as Sensory Deprivation.
 
 
-=== Alien Attachment 
+=== Alien Attachment
 
 [horizontal]
 Range:: Touch
@@ -184,9 +177,9 @@ The persona and an alien become psionically attached.
 The connection is totally different than a human-pet relationship.
 There is a synergistic effect that elevates the alien to a much higher level of function.
 The alien must be described as cannon fodder, or wildlife.
-The alien must be smaller than the persona. 
+The alien must be smaller than the persona.
 The persona’s wate must be twice that of the alien.
-The persona must be smarter than the alien. 
+The persona must be smarter than the alien.
 The persona’s Intelligence must be 3 times that of the alien.
 For example, a persona has a wate of 60kg and Intelligence of 12.
 This persona could bond with an alien 30kg or less and an INT of 4 or less.
@@ -200,34 +193,34 @@ The alien immediately increases its Intelligence through the connected conscious
 The persona’s Intelligence score is added to the alien’s Intelligence.
 In the example above, the persona would have a 12 INT, and the alien could have a new INT as high as 16.
 This makes the attached alien more intelligent than the persona.
-The alien frequently reminds the persona of this fact. 
+The alien frequently reminds the persona of this fact.
 Whether the alien’s MND is increased or not is up to the players.
 
 The alien heightens her previous drives of food and reproduction.
 She can guide the persona to clean water, clean food and eligible partners.
-The last heightened ability often has the alien always making said suggestions. 
+The last heightened ability often has the alien always making said suggestions.
 This is supposed to be a comedic relief source as the alien’s timing is never that good.
 
-The two can speak telepathically without anyone noticing the connection. 
-They just appear to be happier than the usual anthro-pet combo. 
+The two can speak telepathically without anyone noticing the connection.
+They just appear to be happier than the usual anthro-pet combo.
 The alien can only speak beyond telepathically with the persona.
 The alien does not use a name with communicating telepathically.
-The connection between the two is beyond names. 
+The connection between the two is beyond names.
 
-The bond is inseparable. 
+The bond is inseparable.
 The death of the persona will result in the death of the alien.
 The death of the alien will severely impact the persona.
-If the persona could have prevented the death, she will be hit with severe attribute injuries. 
+If the persona could have prevented the death, she will be hit with severe attribute injuries.
 The sudden loss of counsel and telepathic connection crushes the persona’s INT and MND.
 The persona loses 1-6 (1d6) points on each attribute.
 If either attribute drops below zero, the persona is dead.
-The lowered attributes will return at 1 point per day. 
+The lowered attributes will return at 1 point per day.
 The player can add the point to either attribute until she heals.
 The persona can only get another animal attachment once her attributes have been restored.
 
-An unwritten permutation of this mutation is analog attachment. 
+An unwritten permutation of this mutation is analog attachment.
 This allows the persona to have the same relationship with a robot.
-Both Intelligence and wate requirements apply. 
+Both Intelligence and wate requirements apply.
 
 === Alternate Banishment
 
@@ -251,11 +244,11 @@ If the save is successful, the mutation has no effect.
 Inorganic objects have a MND equal to the persona holding it.
 Stray objects have a MND of 0-9 (1d10 - 1).
 
-No one knows where the alternate space is, and the object or persona is permanently removed from the campaign. 
+No one knows where the alternate space is, and the object or persona is permanently removed from the campaign.
 Isn’t that like being killed?
 Yes, it is precisely like being killed.
 
-=== Amnesiafication 
+=== Amnesiafication
 
 [horizontal]
 Range:: 1h per Level
@@ -265,7 +258,7 @@ General Bonus:: Combat Ratio +6, +15 when convincing others
 
 The mutant can force a persona to forget something stored in her memory.
 The memory loss is temporary and total.
-The target will not even know that she has forgotten something. 
+The target will not even know that she has forgotten something.
 The thought, concept, skill is simply not there.
 The target must fail her psionic roll to have the memory erased.
 This mutation only works on organic personas.
@@ -273,24 +266,24 @@ This mutation only works on organic personas.
 The more critical the memory, the harder it is to eradicate it.
 The more critical the memory, the shorter the time it is eradicated.
 
-include::wetware:partial$psionic_information_eradication.adoc[]
+include::mutations:partial$psionic_information_eradication.adoc[]
 
 If necessary, the referee can randomly determine how valuable memory is to the target persona.
 The importance of a memory can be determined by a 1d8 roll.
 Essential memories like birthdays, names of children, skills and abilities should always be significant.
 Only a very powerful mutant psionically attacking a weak target could erase a skill or ability.
 
-Forgetting a memory can be very disconcerting for a target persona. 
+Forgetting a memory can be very disconcerting for a target persona.
 Repeated episodes of erasing information will raise a persona’s sense of paranoia and suspicion.
 
-Amnesiafication cannot be used to reverse engineer what the target persona knows. 
-The mutant must know that a particular memory is present before erasing it. 
+Amnesiafication cannot be used to reverse engineer what the target persona knows.
+The mutant must know that a particular memory is present before erasing it.
 Amnesiafication cannot be used to fish for what a target knows by erasing random memories.
 
 NOTE:: This mutation was formerly known as Information Eradication.
 
 
-=== Calculations 
+=== Calculations
 
 [horizontal]
 Range:: Persona Only
@@ -300,16 +293,16 @@ General Bonus::  +15 on any calculation rolls
 
 Calculations allows the mutant to solve any mathematical analysis in seconds.
 This arithmetic savant does not need paper, calculator to get the answer.
-The mutant does require accurate data to work with. 
+The mutant does require accurate data to work with.
 It is not a case of garbage in garbage out; the persona knows what info is missing.
 When it comes to arithmetic, this mutant is fast as any Autonomous Intelligence.
-The answer will be blurted out within 2 seconds. 
+The answer will be blurted out within 2 seconds.
 
 This will make the mutant an excellent gambler, estimator, or astrogator.
-The mutation is revered by mechanics and nothings. 
+The mutation is revered by mechanics and nothings.
 Any persona with this mutation can replace a spacecraft’s astrogation software.
 
-=== Communicate 
+=== Communicate
 
 [horizontal]
 Range:: Earshot
@@ -328,15 +321,15 @@ So she will understand but not be able to ‘smell’ back.
 If the mutant wants to speak the language permanently, she has a chance to add it to her repertoire.
 There is a chance equal to the persona’s adjusted Intelligence times three of adding the language.
 A 4th level mutant with a 10 INT would have a 42% chance to memorize the language.
-If the language is essential to the persona she can try again later. 
+If the language is essential to the persona she can try again later.
 Later is determined by the referee.
 The mutant can have a number of languages equal to her level plus INT memorized.
 The mutant described above could memorize 14 languages.
 
 A memorized language allows a mutant to pass any fluency test, avoid idiomatic errors in diplomacy, and develop devices to help her communicate.
-This mutation is especially helpful for biologists and nothings. 
+This mutation is especially helpful for biologists and nothings.
 
-=== Cryokinesis 
+=== Cryokinesis
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -359,7 +352,7 @@ If the target fails her next three psionic rolls, she will take more damage each
 Failing 3 rolls would result in 2d4 in the second unit, 3d4 in the third unit, and 4d4 in the fourth unit.
 The target will either break the freeze attack or die.
 When a target is killed by this attack, it is frozen solid.
-If the freeze cycle restarts, the damage per unit restarts at 1d4. 
+If the freeze cycle restarts, the damage per unit restarts at 1d4.
 A mutant with a 10 MND could inflict up to 50d4 in damage in her last unit.
 
 The benevolent cryokinesis acts like a psychic air conditioner.
@@ -367,7 +360,7 @@ This cooling only works on organic consciousnesses and cannot cool a machine or 
 The mutant can comfortably cool organics in a four hex radius.
 
 
-=== Detections 
+=== Detections
 
 [horizontal]
 Range:: 10h per Adjusted AWE
@@ -380,27 +373,27 @@ The persona gets one detection skill per 5 points of Awareness.
 If the persona has a 15 AWE, she will get three rolls on the below table.
 For example, she could detect water, poison and food.
 If the same detection is rolled twice, the detection mutation is twice as effective.
-A doubled detection has twice the range and doubles the effectiveness. 
+A doubled detection has twice the range and doubles the effectiveness.
 
 This mutation has two functional elements: detecting and locating.
 
-Detecting happens immediately. 
+Detecting happens immediately.
 If a lie, life or a robot is present, this mutation will immediately detect it.
-These detections have a binary presentation. 
+These detections have a binary presentation.
 Yes, there is a lie, but not what the lie is.
 Yes, the is life, but not whether it is friend or foe.
 
-When used to locate resources, the resource must actually be present. 
-For example, looking for pharma will only work if there is pharma to find. 
+When used to locate resources, the resource must actually be present.
+For example, looking for pharma will only work if there is pharma to find.
 This is up to the referee.
 The chance of successfully sniffing out a resource is equal to three times the persona’s Awareness.
 For example, a persona with 14 AWE has a 42% chance of finding safe water.
-The water must be within range, and the search will last about 1-12 (1d12) minutes. 
-This mutation will also send personas in the correct general direction of the water. 
+The water must be within range, and the search will last about 1-12 (1d12) minutes.
+This mutation will also send personas in the correct general direction of the water.
 
-include::wetware:partial$psionic_detections.adoc[]
+include::mutations:partial$psionic_detections.adoc[]
 
-=== Directional Sense 
+=== Directional Sense
 
 [horizontal]
 Range:: Special
@@ -414,14 +407,14 @@ The mutation has an unlimited range, but it does not work through hyperspace.
 If the mutant remains on the planet, she cannot get lost.
 She will find her way ‘back’ after air travel, underwater travel or unconscious travel.
 Knowing where to go does not guarantee the ability to get there.
-Travel may require boats, planes, or even spacecraft. 
-Directional sense does not work through hyperspace, and the mutant cannot find her way home after a special drive jump. 
+Travel may require boats, planes, or even spacecraft.
+Directional sense does not work through hyperspace, and the mutant cannot find her way home after a special drive jump.
 
-This mutant is an absolute master of all navigation. 
+This mutant is an absolute master of all navigation.
 This includes astrogation, aquatic, subaquatic and terrestrial navigation.
 
 
-=== Empathy 
+=== Empathy
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -440,9 +433,9 @@ A second psionic roll must be won to block the mutant from reading her emotions.
 
 The information gained from empathic probing has many advantages for the mutant.
 It will assist them greatly in negotiation, gambling, leadership, and dating.
-Empathy is not mind reading and does not give off details of plans or goals. 
+Empathy is not mind reading and does not give off details of plans or goals.
 
-=== Energy Attraction 
+=== Energy Attraction
 
 [horizontal]
 Range:: 10h per MND
@@ -460,19 +453,19 @@ An attack roll that was directed at another persona is redirected at this mutant
 Ouch.
 
 The redirected attack wastes significant energy and accuracy when changing direction.
-The attack roll has a penalty of -200. 
+The attack roll has a penalty of -200.
 If the attack roll is a hit, the damage is reduced by 25%.
 If the attack roll is a miss, the energy beam dissipates harmlessly.
 
 Energy attraction only affects gun attacks and does *not* attract artillery, bombs, or grenades.
-The fusion gun is specifically not attracted by this mutation. 
+The fusion gun is specifically not attracted by this mutation.
 
 Energy attraction turns off if the mutant is unconscious or sleeping.
-Directly attacking this mutant with an energy weapon does not improve the attack roll. 
+Directly attacking this mutant with an energy weapon does not improve the attack roll.
 
-include::wetware:partial$a_defect_disclaimer.adoc[]
+include::mutations:partial$a_defect_disclaimer.adoc[]
 
-=== Extrasensory Perception 
+=== Extrasensory Perception
 
 [horizontal]
 Range:: 2h per Adjusted MND
@@ -483,9 +476,9 @@ General Bonus:: Combat Ratio +5, +20 on interpersonal rolls
 Extrasensory perception (ESP) allows the mutant to listen in on the thoughts of other personas.
 This is the most famous of all the psionic powers in the world of Sciency Fiction.
 The mutant can probe the consciousness of organic creatures through the thinkspace.
-The persona does not listen in on actual words, but the icons of sentience. 
+The persona does not listen in on actual words, but the icons of sentience.
 This allows the understanding of any type of organic mind regardless of language or family.
-ESP is not able to probe a robotic mind. 
+ESP is not able to probe a robotic mind.
 
 The players are not expected to interpret the semiotics of alien consciousness.
 The referee will simply reveal the thoughts in plain language.
@@ -495,34 +488,34 @@ A lie would not only be detected, but the nature of the lie and what truth is as
 Having an Esper (a mutant with ESP) mutant is a total game-changer for the referee.
 
 A consciousness will attempt to repulse this level of intrusion.
-Before any information can be gleaned, the target must lose a psionic roll. 
+Before any information can be gleaned, the target must lose a psionic roll.
 A win on the psionic roll blocks the mutant from reading the target mind.
 A win on the psionic roll does not allow the persona to alter her thoughts to trick the mutant.
-Only another Esper could send fake thoughts to the mutant. 
+Only another Esper could send fake thoughts to the mutant.
 It is also impossible for the persona to know who or what was invading her mind.
 
 A failure on the psionic roll gives the mutant free range inside the target’s mind.
-The mutant has limited time inside the target mind. 
+The mutant has limited time inside the target mind.
 The mutant can read the target mind for 1 unit per point of adjusted MND.
 For example, a mutant with an adjusted MND of 15 could browse the target mind for half a minute.
 At the end of this time, the target gets another psionic roll to block the intrusion.
 The mutant may “listen in” until a psionic roll throws her out.
 
 Once blocked from reading the target mind, the mutant must have one night of restful sleep before trying again.
-The mutant can only listen to once consciousness at a time. 
+The mutant can only listen to once consciousness at a time.
 
-For the referee, this mutation can be a challenge. 
-It is easy to inform the player what is going on in the minds of referee personas. 
+For the referee, this mutation can be a challenge.
+It is easy to inform the player what is going on in the minds of referee personas.
 The referee can reveal plans, desires and ridiculous misconceptions about food to the player.
 The challenge is when the player decides to probe the mind of fellow players.
 This would be the highest level of team role-playing.
 The referee may just ask a player what their persona is thinking.
-The mutant may or may not have nefarious intent with the information. 
+The mutant may or may not have nefarious intent with the information.
 This kind of power is what leads to a general mistrust of psionic mutation powers.
 
 
 
-=== Force Field Generation 
+=== Force Field Generation
 
 :art: force_field_crash.png
 :width: 250px
@@ -567,15 +560,15 @@ If the mental attack acts via the physical space, it will be absorbed by the for
 The force field does not work exatmo and cannot protect the mutant from the vacuum of space.
 
 The shell allows anything to exit (except the mutant).
-The mutant can attack from within her force field using ranged attacks. 
+The mutant can attack from within her force field using ranged attacks.
 The mutant cannot use Strike attacks (non-powered thrusting and striking weapons) from within the shell.
 Unwanted objects within the force field can easily be evicted by the mutant.
-To share the force field with other personas, they must be hugging the mutant before shell generation. 
-If they let go, they will be ejected from the force field. 
+To share the force field with other personas, they must be hugging the mutant before shell generation.
+If they let go, they will be ejected from the force field.
 
-The mutant requires one night of restful sleep to generate another force field. 
+The mutant requires one night of restful sleep to generate another force field.
 
-=== Gyrokinesis 
+=== Gyrokinesis
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -594,13 +587,13 @@ The target is held in place and involuntarily begins to spin.
 The initial frequency of the revolutions is not high.
 The target suffers -50 on her attack roll, and +50 on attack rolls against her.
 The spinning makes it harder for her to hit a target and easier to be hit.
-In the second unit of the attack, the target gets a psionic roll. 
+In the second unit of the attack, the target gets a psionic roll.
 If she wins the psionic roll, the spinning stops.
 If she fails the psionic roll, she spins even faster, and the penalties get even worse.
 The target’s attack roll suffers a -100 penalty, and attacks against her increase to +100.
 The target must win a CON attribute roll or fall unconscious.
 This process repeats each unit until the target goes unconscious.
-In the 3rd unit of the attack, the target suffers a -150 attack roll penalty, a +150 bonus against her. She must win a CON attribute roll at -1 or go unconscious. 
+In the 3rd unit of the attack, the target suffers a -150 attack roll penalty, a +150 bonus against her. She must win a CON attribute roll at -1 or go unconscious.
 
 .*Example Gyrokinesis Attack*
 . No psionic roll allowed. -50 attack roll. +50 to be attacked.
@@ -608,10 +601,10 @@ In the 3rd unit of the attack, the target suffers a -150 attack roll penalty, a 
 . -150 attack roll. +150 to be attacked. CON attribute roll -1 to stay conscious.
 . -200 attack roll. +200 to be attacked. CON attribute roll -2 to stay conscious.
 . -250 attack roll. +250 to be attacked. CON attribute roll -3 to stay conscious.
-. A steady-state is reached. The CON attribute roll penalty increases. 
+. A steady-state is reached. The CON attribute roll penalty increases.
 
 The target can only use abilities like psionic mutations while spinning.
-It is impossible to do complicated maneuvers or tasks. 
+It is impossible to do complicated maneuvers or tasks.
 
 If helpful personas grapple the mutant, they may begin to spin as well. Touching the mutant adds the rescuers to the spinning mess if they fail a psionic roll.
 
@@ -619,16 +612,16 @@ After the first unit, the target will be spinning too fast to be grabbed.
 Fastening the target down prevents spinning but does not prevent the attack’s effects.
 
 The gyrokinesis attack stops if the target wins a psionic attack roll.
-The target will be incapacitated for 1 minute per unit she was spinning. 
-The gyrokinesis attack stops if the target loses consciousness. 
+The target will be incapacitated for 1 minute per unit she was spinning.
+The gyrokinesis attack stops if the target loses consciousness.
 The target will remain unconscious for 5 minutes per unit she was spinning.
-The gyrokinesis attack stops if the target dies. 
+The gyrokinesis attack stops if the target dies.
 The target will remain dead permanently.
 
-Gyrokinesis can be used against organic and inorganic targets. 
+Gyrokinesis can be used against organic and inorganic targets.
 Inanimate objects have a MND of 0-9 (1d10 - 1) and will resist being spun about.
 
-=== Hostility Field 
+=== Hostility Field
 
 [horizontal]
 Range:: 1h Radius
@@ -639,7 +632,7 @@ General Bonus:: -25 on negotiation rolls
 This mutation has a self-explanatory title.
 There is a field of hostility that surrounds this mutant.
 The mutant has some strange psychic effect on all creatures within a one hex range, causing them to have hostile emotions towards the mutant.
-This defect has no effect or inorganic personas. 
+This defect has no effect or inorganic personas.
 
 Outside of the radius of effect, personas have an indifferent attitude towards the mutant.
 This indifference turns to overt hostility once inside the area of effect.
@@ -653,18 +646,18 @@ Veterinarians are repulsed by them when trying to heal them.
 Or patients are repulsed by a veterinarian with this mutation.
 Relationships do not work out, ever.
 Store clerks are more than rude.
-Negotiations go poorly. 
+Negotiations go poorly.
 Family dinners were cancelled long ago.
 Mutants with this defect are often isolated and surrounded by inorganic personas.
 
-include::wetware:partial$a_defect_disclaimer.adoc[]
+include::mutations:partial$a_defect_disclaimer.adoc[]
 
-=== Hyperfocus 
+=== Hyperfocus
 
 [horizontal]
 Range:: Persona Only
 Duration:: Special
-Frequency:: Once per Sleep  
+Frequency:: Once per Sleep
 General Bonus:: Special
 
 Hyperfocus allows the mutant to the whole brain to obsess over one specific problem.
@@ -692,7 +685,7 @@ Unsolvable questions will injure the mutant and leave her bemusedly confused for
 
 NOTE: This mutation was formerly known as Heightened Brain Talent.
 
-=== Illusion Generation 
+=== Illusion Generation
 
 :art: illusion_generation_maybe.png
 :width: 250px
@@ -711,33 +704,33 @@ General Bonus:: Combat Ratio +5
 
 Illusion generation allows the mutant to generate sounds, images and sensations for the target.
 These illusions can range from a faint noise to a full audiovisual experience.
-The illusion only appears in the sensorium of the target. 
+The illusion only appears in the sensorium of the target.
 If the target wins a psionic roll, the illusion will not form.
 
 An auditory illusion could distract a target and have her wander off to investigate.
 An olfactory illusion could divert hungry wildlife.
 A visual illusion could cause a driver to veer off the road.
-A complete illusion with sound, smell, sensation, and moving imagery could trick a persona into engaging in a battle no one else can see. 
+A complete illusion with sound, smell, sensation, and moving imagery could trick a persona into engaging in a battle no one else can see.
 
 The mutation illusion generation only works on organic personas.
 
 The target will completely believe the illusion if they fail their psionic roll.
 They cannot be convinced otherwise.
 Challenging a persona experiencing such vivid sensations may lead to intense anger.
-The target will feel like they are being called a liar or delusional. 
+The target will feel like they are being called a liar or delusional.
 The illusion is solely within the target’s senses and nowhere else.
 
 Illusions are affected by their complexity and believability.
 The more complex the illusion, the more energy the mutant expends to maintain it.
 A full-featured audio, visual, somatic, and olfactory illusion will have a short duration.
 
-include::wetware:partial$psionic_illusion_duration.adoc[]
+include::mutations:partial$psionic_illusion_duration.adoc[]
 
 The less believable the illusion, the less likely it is to work.
 Smells, sounds and fleeting images are believable, and the target may succumb to them without getting a psionic roll.
-A Doppelganger expedition member attacking the target would get an enormous psionic roll bonus. 
+A Doppelganger expedition member attacking the target would get an enormous psionic roll bonus.
 
-The psionic roll bonus ranges from +1 to +6. 
+The psionic roll bonus ranges from +1 to +6.
 A way to estimate this is by giving +1 per concept the target needs to deny.
 Generating the illusion of good smelling food around chow time would get no bonuses.
 The ref may not even offer a psionic roll to the target.
@@ -745,7 +738,7 @@ Having the target’s mom (+1), who is from another planet (+2) and is deceased 
 
 Mighty mutants can create elaborate lethal illusions in the minds of weak targets.
 
-=== Indensification 
+=== Indensification
 
 [horizontal]
 Range:: 1.5h per Level
@@ -766,7 +759,7 @@ Defence Rating increases by 20%.
 Movement rate is decreased by 20%.
 Any force related damage is decreased by 20%.
 Falling damage is doubled.
-Inanimate objects double their wate. 
+Inanimate objects double their wate.
 Flying creatures fall from the sky.
 Swimming creatures sink.
 
@@ -775,13 +768,13 @@ Defence Rating decreases by 20%.
 Movement rate is increased by 20%, but the target has an increased chance of falling.
 Any force related damage is increased by 20%.
 Falling damage is decreased by 60%
-Inanimate objects halve their wate. 
+Inanimate objects halve their wate.
 Flying creatures don’t fall from the sky but can’t fly in a straight line.
 Swimming creatures float uncontrollably towards the surface.
 
 NOTE:: This mutation was formerly called Density Control.
 
-=== Infoporia 
+=== Infoporia
 
 [horizontal]
 Range:: Touch
@@ -791,7 +784,7 @@ General Bonus:: None
 
 Infoporia allows the mutant to store and transfer information from one persona to another.
 The mutant acts as a repository for the data and may not even understand what she is transmitting.
-The chunk of knowledge must be a discrete element. 
+The chunk of knowledge must be a discrete element.
 For example, the recipe for a secret sauce or a Mortal Moon Ship plan would be discrete enough.
 However, all childhood memories or secrets about your enemies would not be discrete enough.
 
@@ -804,27 +797,27 @@ Inorganic sources automatically protect their data.
 Inorganic sources use their INT score instead of their MND score for the psionic roll.
 
 Once the knowledge is acquired, it is stored in an incorruptible state until the mutant transmits it or is dead.
-The mutant cannot use this information as part of her knowledge base. 
+The mutant cannot use this information as part of her knowledge base.
 She can only transmit the data.
 The mutant can hold one discrete knowledge point per point of adjusted INT.
 
 Delivering the data is basically the reverse of acquiring the data.
 Organic personas must lose a psionic roll to have the knowledge inserted into their consciousness.
-Inorganic personas automatically absorb the information. 
+Inorganic personas automatically absorb the information.
 
 When infoporia has been blocked for the mutant, she must have one restful sleep before attempting transmission again.
 
-Once delivered, the information is gone. 
+Once delivered, the information is gone.
 One source and one destination only, the mutant is not a knowledge photocopier.
 Some mutants have transmitted knowledge into fellow personas for later retrieval and transmission.
 
-Infoporia cannot be used to reverse engineer what the target persona knows. 
-The mutant must know that a particular memory is present before copying it. 
+Infoporia cannot be used to reverse engineer what the target persona knows.
+The mutant must know that a particular memory is present before copying it.
 Infoporia cannot be used to fish for what a target knows beyond the source knowledge.
 
-NOTE:: This mutation was formerly called Knowledge Transmission. 
+NOTE:: This mutation was formerly called Knowledge Transmission.
 
-=== Intuition 
+=== Intuition
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -838,7 +831,7 @@ Intuition would not pre-warn a person of an ambush.
 If a mutant specifically asked about an ambush, an answer would be given.
 
 The answer to an intuition question has a binary answer.
-The answer could be a simple yes or no. 
+The answer could be a simple yes or no.
 The answer may be more like a feeling of danger or no danger.
 The answer never includes what is behind the door.
 The answer only refers to the immediate future and not the long term implications of the question.
@@ -846,8 +839,8 @@ The answer only refers to the immediate future and not the long term implication
 The question gets a psionic roll to not reveal anything to the mutant.
 Usually, the question has a Mind of 0-9 (1d10 - 1).
 If the question directly involves a persona, then that persona’s MND would be used for the psionic roll.
-The mutant will know if her intuition did not work. 
-A psionic roll won by the question does not equal a false intuition. 
+The mutant will know if her intuition did not work.
+A psionic roll won by the question does not equal a false intuition.
 
 The player wants to know if it is safe to break through a door into a new room.
 The question would be exactly that, “Is it safe to break into this room?”
@@ -858,13 +851,13 @@ If there is an activated combat robot in the room, intuition would reveal danger
 If there was an inactivated combat robot in the room, intuition would reveal safety.
 If the expedition activates the combat robot later, the first intuition was still correct.
 
-The intuition mutation is meant to be useful. 
+The intuition mutation is meant to be useful.
 So the referee should not be playing mind games trying to get the mutant killed.
 The intuition mutation is not all revealing.
 So the player should be playing 20 questions to disassemble a referee’s puzzle.
 The referee and players must work together to make intuition useful and fun.
 
-=== Levitation 
+=== Levitation
 
 [horizontal]
 Range:: Persona Only
@@ -876,7 +869,7 @@ Levitation allows the mutant to psionically counter gravity and float in the air
 This ability is made most apparent by levitating upwards and defying gravity itself.
 Levitation also allows the mutant to safely lower herself into a gravity well without falling.
 This mutation allows for up and down movement but not translational movement.
-However, it is straightforward for a levitating mutant to move around by other means. 
+However, it is straightforward for a levitating mutant to move around by other means.
 While not able to fly around, the tactical advantage of the literal high ground is essential.
 
 The mutant can move up and down at double her movement rate.
@@ -885,19 +878,19 @@ The levitation movement rate is determined by either her MND or DEX score.
 Levitation can be used to counter the effect of gravity changes.
 When levitation is active, the mutant has no penalties for any gravity between 0 and 8 G.
 She can absorb an additional gravity per 2 levels.
-Levitation cannot overcome a failed gravity system in xref:combat:combat_and_exatmo_vehicle_intro.adoc[Spacecraft Combat,window=_blank, rel="noopener noreferrer"]. 
+Levitation cannot overcome a failed gravity system in xref:combat:combat_and_exatmo_vehicle_intro.adoc[Spacecraft Combat,window=_blank, rel="noopener noreferrer"].
 
 Levitation can be used to assist in lifting heavy objects.
-The mutant can counter her own wate and add it to a dead lift. 
+The mutant can counter her own wate and add it to a dead lift.
 
 Levitating mutants can transfer combat forces into translation motion.
 This reduces the damage from kinetic force attacks by half.
-A hit from a lazer would have no kinetic force. 
+A hit from a lazer would have no kinetic force.
 A hit from an axe would be all kinetic force.
-Only half the damage is inflicted. 
+Only half the damage is inflicted.
 The other half of the damage sends the mutant flying away 1-8 (1d8) hexes.
 
-=== Life Leech 
+=== Life Leech
 
 [horizontal]
 Range:: Touch
@@ -913,31 +906,31 @@ Each touch by the mutant drains at least 5 hit points from the target.
 The amount drained increases by 1 hit points per level of the mutant.
 So a 3rd level mutant would drain 8  hit points per touch.
 The mutant can cling to an incapacitated target and kill them.
-Life leech works through any conductive material. 
+Life leech works through any conductive material.
 This mutant could punch, hug, or iron bar a target to activate life leech.
 
 The life force (hit points) is not wasted, and the life force heals the mutant.
 So if the mutant drains 8 hit points from the target, her HPS Total increased by 8.
 This does not stop until her HPS Total is double her HPM.
-So a mutant with an HPM of 21 could increase her HPS Total to 42. 
+So a mutant with an HPM of 21 could increase her HPS Total to 42.
 
 These bonus hit points quickly dissipate after the adrenaline of battle ceases.
 The mutant returns to her HPM after a nap or being knocked out.
 
-The mutation is constant. 
+The mutation is constant.
 A pat on the back, shake of the paw, or romantic hug will drain hit points.
-The target does no notice the lost hit points. 
+The target does no notice the lost hit points.
 The attack is painless, and there is no psionic roll to fight it.
 A sweet cuddle with this mutant would kill the snuggled persona dead in short order.
 They would not know what is happening.
 Romantic relationships are challenging indeed.
 
-This mutation is not a defect. 
-It is socially challenging. 
+This mutation is not a defect.
+It is socially challenging.
 Mutants with life leech are often isolated lonely personas.
 
 
-=== Light Wave Manipulation 
+=== Light Wave Manipulation
 
 [horizontal]
 Range:: Persona Only
@@ -963,13 +956,13 @@ This includes organic eyes and inorganic video sensors.
 The effect is on the persona only.
 However, she can include the equipment she is carrying.
 The persona must not be encumbered by her equipment.
-Too much junk too hard to bend the light. 
+Too much junk too hard to bend the light.
 For example, her backpack and personal devices fall within her range.
 The vehicle she is in or the powered armour she is wearing is outside her range.
 
 .Invisibility
 The most common use for this mutation is to hide within the visible spectrum.
-Invisibility does not reduce noises made by the mutant. 
+Invisibility does not reduce noises made by the mutant.
 Good listening could reveal her general location.
 Good sniffing could reveal her general location.
 Radar and sonar could detect the mutant.
@@ -980,12 +973,12 @@ Firing an energy weapon may reveal the mutant once the projectile leaves her per
 
 .Deflecting Lazers
 Any lazer attack from a personal weapon with a calibre less than extra high power can be bent by the persona.
-This does not work for artillery or energy weapons like fission, plasma or fusion weapons. 
-The persona cannot be both invisible and deflecting lazer attacks. 
+This does not work for artillery or energy weapons like fission, plasma or fusion weapons.
+The persona cannot be both invisible and deflecting lazer attacks.
 This requires too much concentration.
 
 
-=== Magnetic Control 
+=== Magnetic Control
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -1011,17 +1004,17 @@ If the persona wins the STR roll, she does not lose the object.
 However, all she can do is hold onto it.
 A sword could not be used as a weapon as she would be wrestling with it.
 
-Objects more than half her wate, but less than her wate slowly drift towards the mutant. 
-They will scrape along the ground at 2 hexes per unit. 
+Objects more than half her wate, but less than her wate slowly drift towards the mutant.
+They will scrape along the ground at 2 hexes per unit.
 The larger objects can be easily stopped by other personas.
 
 Objects that exceed the mutant’s wate are unaffected by magnetic control.
 The mutant can use magnetic control to attract herself to a large metallic object.
-This is done at the discretion of the mutant. 
-Smaller objects will still be drawn towards. 
+This is done at the discretion of the mutant.
+Smaller objects will still be drawn towards.
 
 
-=== Mass Mind 
+=== Mass Mind
 
 :art: babooshka_head_maze.png
 :width: 250px
@@ -1041,7 +1034,7 @@ General Bonus:: Combat Ratio +4, +10 on psionic rolls
 Mass mind allows the mutant to behave as a psionic amplifier.
 The mutant can channel and manipulate psionic mutation within the mass mind range.
 This allows the mutant to redirect a mental blast, or increase the range of telepathy or combine psionic mutations.
-Using mass mind can be helpful to the mutation user or detrimental. 
+Using mass mind can be helpful to the mutation user or detrimental.
 Redirecting a mental blast mutation would be frustrating for the mutant doing the blasting.
 Using mass mind to increase the range of a mental blast could be very helpful.
 
@@ -1049,25 +1042,25 @@ Only mutations with ranges can be redirected by the mutant’s mass mind.
 Mutations that require touch can only be redirected by mass mind if the mutant is within the touch circuit.
 
 Mass mind can only amplify or redirect a psionic attack.
-Mass mind cannot be used to dampen, or cancel, a mental attack. 
+Mass mind cannot be used to dampen, or cancel, a mental attack.
 When mass mind is being used to redirect a mutation, a psionic roll is given to prevent redirection.
 When mass mind is being used to amplify a mutation, no psionic roll is required.
 
-The mutant must choose from *one* of the following amplifications: double range, double intensity, or double damage. 
+The mutant must choose from *one* of the following amplifications: double range, double intensity, or double damage.
 The target persona gets all the same psionic rolls to defend themselves as they usually would.
 
 Mass mind could redirect mental blast from one persona target to another target.
 The mutant deploying mental blast must win a psionic roll, or the mental blast is diverted.
-Mass mind could be used to double the damage of mental blast. 
+Mass mind could be used to double the damage of mental blast.
 There would be no psionic roll needed when improving mental blast.
 
-This mutation is fraught with complicated interactions. 
+This mutation is fraught with complicated interactions.
 If the mass mind doubles the range of necroprojection, does it affect the mutant?
-If intense discussions arise remember that xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank, rel="noopener noreferrer"] can help answer the unanswerable. 
+If intense discussions arise remember that xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank, rel="noopener noreferrer"] can help answer the unanswerable.
 
 
 
-=== Mechanical Sense 
+=== Mechanical Sense
 
 :art: mechanical_medical_desat.png
 :width: 250px
@@ -1087,8 +1080,8 @@ General Bonus:: Combat Ratio *2, +42 on inorganic related rolls
 This mutant has a way with machines.
 Mechanical sense gives the mutant the ability to understand anything mechanical.
 The mutant can even telepathically communicate with machines.
-The mutant must touch the machine for the telepathy to work. 
-Simple machines like levers, swords, or clubs cannot communicate. 
+The mutant must touch the machine for the telepathy to work.
+Simple machines like levers, swords, or clubs cannot communicate.
 
 There is a chance that the mutant can communicate with a particular machine.
 The chance is 3% per point of adjusted MND.
@@ -1100,26 +1093,26 @@ The gun would answer telepathically to the mutant.
 The more complex the machine, the more developed the level of communication is.
 
 Mechanical sense can be organic or inorganic.
-The referee may allow the player to choose between the two. 
+The referee may allow the player to choose between the two.
 The chance of randomly having organic mechanical sense is 15%.
 The vast majority of mutants with mechanical sense will have the classic inorganic type.
 
 Organic mechanical sense allows the mutant to communicate with organic machines.
-The mutant could talk with a bone, liver, heart of a living organism. 
-The conversation is telepathic, and the mutant must be touching the body containing the machine. 
-There are some self-standing organic machines. 
+The mutant could talk with a bone, liver, heart of a living organism.
+The conversation is telepathic, and the mutant must be touching the body containing the machine.
+There are some self-standing organic machines.
 
 The chance of communicating with an organic machine is much less likely.
 The chance is 1% per point of adjusted MND.
 A 2nd level mutant with an 11 MND has a 13% chance of communing with an organic machine.
-The mutant must reconnect with the organic machine each time she wishes to chat. 
+The mutant must reconnect with the organic machine each time she wishes to chat.
 
-A mutant with an inorganic mechanical sense performs as a 2nd level mechanic. 
+A mutant with an inorganic mechanical sense performs as a 2nd level mechanic.
 A mutant with organic mechanical sense performs as a 2nd level veterinarian.
-The mutant can have any vocation and still function with those skills. 
-A 4th level spie would also function as a 2nd level mechanic. 
+The mutant can have any vocation and still function with those skills.
+A 4th level spie would also function as a 2nd level mechanic.
 
-=== Mental Blast 
+=== Mental Blast
 
 [horizontal]
 Range:: 2h per Adjusted MND
@@ -1135,16 +1128,16 @@ The mental blast cannot be hidden from any persona that witnesses it.
 The mutant can make this attack every other unit during combat.
 Mental blasts can be emitted without interrupting any other task.
 
-Mental blast requires a line of sight. 
-There is no psionic roll to defend against. 
+Mental blast requires a line of sight.
+There is no psionic roll to defend against.
 The blast rocks the physical space.
-No attack roll is required by the mutant. 
+No attack roll is required by the mutant.
 Only defences specifically designed against mental attacks are effective.
 
 This attack does 2-8 (2d4) HPS of damage, plus 1 HPS per level.
 A 4th level persona would inflict 6 to 12 (2d4+4) HPS of damage.
 
-=== Mental Control 
+=== Mental Control
 
 [horizontal]
 Range:: Special
@@ -1157,7 +1150,7 @@ The mutation works best with skin contact on an organic persona.
 If skin to skin contact is not possible, the mutant must win an attack roll.
 Once contact is made, the target must win a psionic roll or fall under the mutant’s control.
 
-When the target succumbs to mental control, touch is no longer required, and the mutant controls the target remotely. 
+When the target succumbs to mental control, touch is no longer required, and the mutant controls the target remotely.
 The range of mental control is 1 kilometer per point of adjusted Mind.
 Mental control does work across an atmosphere (from inatmo to exatmo).
 
@@ -1173,8 +1166,8 @@ The target’s mouth becomes the mutant’s mouth.
 The target’s consciousness is controlled by the mutant.
 This includes psionic mutations and phenomic mutations of the target.
 
-There are some complications the players must keep in mind. 
-When the mutant sleeps, the target sleeps. 
+There are some complications the players must keep in mind.
+When the mutant sleeps, the target sleeps.
 When the mutant is unconscious, the target goes unconscious.
 The connection between the mutant and the target allows for target effects to leak into the mutant.
 If the target is attacked with a psionic mutation, the mutant is also attacked.
@@ -1182,7 +1175,7 @@ If the target is knocked unconscious, the mutant must win a Constitution roll or
 If the target is killed, the mutant must win a Mind roll or go unconscious.
 
 .*Breaking Mental Control*
-The mutant will instantly know that Psionic control has been lost, but the loss of control should surprise the mutant. 
+The mutant will instantly know that Psionic control has been lost, but the loss of control should surprise the mutant.
 
 A target that exits the range of Psionic control automatically breaks free.
 Smarter targets get more frequent checks to escape mental control.
@@ -1191,7 +1184,7 @@ Mental control checks are warranted if the mutant places the target in peril.
 Mentally controlled targets are not suicidal, and their survival mechanisms will challenge self-harm.
 The player should also remember that harming the target can also damage the mutant.
 
-include::wetware:partial$psionic_mental_control.adoc[]
+include::mutations:partial$psionic_mental_control.adoc[]
 
 Targets do not like to be mentally controlled, but dependence is possible.
 The mutant can dismiss a target from mental control only if the target wins her psionic roll.
@@ -1200,7 +1193,7 @@ If the target has a 5 INT, the mutant must have to wait 3 days before attempting
 Low Intelligence personas can stay controlled for an extended time.
 
 
-=== Molecular Disruption 
+=== Molecular Disruption
 
 [horizontal]
 Range:: 1h per adjusted MND
@@ -1211,7 +1204,7 @@ General Bonus:: Combat Ratio *3
 This mutant can convert matter into a low energy gaseous state.
 Molecular disruption allows the mutant to obliterate solid objects by converting them into a cold cloud of gas.
 The mutant need only concentrate on the target to disrupt it at a molecular level.
-The target can be a persona or an inanimate object. 
+The target can be a persona or an inanimate object.
 Inanimate objects have an MND of 0-9 (1d10 - 1) or the same MND of the persona holding it.
 If the target wins a psionic roll, the disruption has no effect.
 
@@ -1220,19 +1213,19 @@ An 80 kg mutant can disrupt up to 40 kg of matter.
 If the mutant wants to disrupt less than the maximum amount of wate, she must win a psionic roll against herself.
 If the mutant wins the psionic roll, she can choose the number of kilograms disrupted.
 Immediately after molecular disruption, the mutant collapses and will be unconscious for 1 minute per kilogram disrupted.
-If the mutant disrupts 15 kgs of a target, she will be unconscious for 15 minutes. 
+If the mutant disrupts 15 kgs of a target, she will be unconscious for 15 minutes.
 The player must consider the safety of her persona post molecular disruption.
 
 Molecular disruption is diffuse and impossible to focus on a particular part of the target.
-The target takes 1d20 hit points in damage per kilogram disrupted. 
-The amount of damage is the same if the target is an inanimate object or a persona. 
+The target takes 1d20 hit points in damage per kilogram disrupted.
+The amount of damage is the same if the target is an inanimate object or a persona.
 If the wate of the disrupted matter is greater than the wate of the target, the target is irrevocably destroyed.
 
-The molecular disruption is silent and has no extraneous effect. 
+The molecular disruption is silent and has no extraneous effect.
 The gas is cold and does not create pressure.
 
 
-=== Molecular Examination 
+=== Molecular Examination
 
 [horizontal]
 Range:: 3h per adjusted MND
@@ -1265,7 +1258,7 @@ If the mutant were a biologist and were trying to make an identification on the 
 If the alien failed her saving throw again, the mutant biologist would get to add her AWE to the PT roll also, for a total PT roll bonus of 24.
 
 
-=== Myokinesis 
+=== Myokinesis
 
 :art: muscle_manipulation_otters.png
 :width: 250px
@@ -1285,19 +1278,19 @@ General Bonus:: Combat Ratio *6, + on vet rolls
 Myokinesis allows the mutant to control a muscle group and its associated motor nerves.
 This mutation can be used on any organic persona that uses limbs for leverage.
 Organic personas include aliens and anthros.
-This mutation has no effect on robots or inanimate machines. 
+This mutation has no effect on robots or inanimate machines.
 Myokinesis is divided into peripheral and central muscles.
-Peripheral muscles carry out are voluntary actions like walking or juggling. 
-Central muscles carry out involuntary actions like breathing and heart rate. 
+Peripheral muscles carry out are voluntary actions like walking or juggling.
+Central muscles carry out involuntary actions like breathing and heart rate.
 
 .*Peripheral Muscles*
-Peripheral muscles carry out are voluntary actions like walking or juggling. 
+Peripheral muscles carry out are voluntary actions like walking or juggling.
 Peripheral muscles typically are found on the limbs and face of a target.
 The mutant does not have to identify the specific muscles and nerves of the target’s anatomy.
 The mutant need only describe what she wants to happen.
 For example: close the eyes, one leg to trip another, make a wing stop working, force a fin to flag about limply, push an undesired button, pull a trigger too soon, not throw a grenade, or change target.
 
-Subtle Myokinesiss do not get a psionic roll and are automatically successful. 
+Subtle Myokinesiss do not get a psionic roll and are automatically successful.
 For example, dropping a piece of paper or turning a doorknob the wrong way would automatically succeed.
 Dangerous Myokinesiss require the target to lose a psionic roll to work.
 For example, changing targets or dropping a grenade at her feet.
@@ -1307,16 +1300,16 @@ Central muscles carry out involuntary actions like breathing and heart rate.
 Central muscles carry out essential life, maintaining actions like breathing or pumping fluids.
 For example: stop the heart, speed up the heart, stop breathing, drop blood pressure, increase blood pressure.
 Myokinesiss like stopping the heart, breathing, and inducing cardiovascular collapse are lethal.
-The target must win a psionic roll or die from the attack. 
+The target must win a psionic roll or die from the attack.
 
 Both central and peripheral Myokinesiss can be carried on dying or recently dead personas.
-For example, a recently dead persona could posthumously raise its offensive middle talon. 
+For example, a recently dead persona could posthumously raise its offensive middle talon.
 The mutant could keep the heart of a dead persona beating with Myokinesis.
 
 NOTE: This mutation was formerly known as Muscle Manipulation.
 
 
-=== Necroprojection 
+=== Necroprojection
 
 [horizontal]
 Range:: 1h per Level
@@ -1338,20 +1331,20 @@ If the mutant absorb 90 hit points from target personas she would remain unconsc
 During this unconscious state the mutant is very vulnerable.
 Once the mutant regains consciousness, she may immediately use her necroprojection again.
 
-The mutant cannot control the range of the necroprojection. 
+The mutant cannot control the range of the necroprojection.
 Initially it sucks the life out of everything within 1 hex range.
 At second level it absorbs all life within 2 hexes, and so on.
 The mutant becomes more and more dangerous as her experience level increases.
 
-The mutant can deselect 1 consciousness per 3 levels of experience. 
+The mutant can deselect 1 consciousness per 3 levels of experience.
 At 6th level the mutant’s death field has an enormous 6 hex area of effect and she can spare two personas from death.
 
 The referee can modify the duration of unconsciousness to limit the power of this mutation.
-For example, the mutant may be unconscious for 1 hour per hit point. 
+For example, the mutant may be unconscious for 1 hour per hit point.
 
 NOTE:: This mutation was formerly called Death Field Generation.
 
-=== Neuroemesis 
+=== Neuroemesis
 
 [horizontal]
 Range:: 1h per EXPS Level
@@ -1370,13 +1363,13 @@ These effects immediately stop when the persona is out of the area of effect.
 Neuroemesis is a useful mutation for immobilizing everything within the area of effect.
 However, the nausea attack is not discerning, and every organic persona within range is affected.
 Both friends, and foes, are hit with the nausea effect.
-With experience, the mutant can exclude specific personas from being affected by their mutation. 
+With experience, the mutant can exclude specific personas from being affected by their mutation.
 The mutant can protect one target per 2 EXPS levels from their neuroemesis mutation.
 For example, a 4th level mutant could keep 2 of her expedition members from being affected by the repulsion field.
 
 NOTE: This mutation was formerly known as Nausea Field Generation
 
-=== Neuronegation 
+=== Neuronegation
 
 [horizontal]
 Range:: 2h per Adjusted MND
@@ -1385,16 +1378,16 @@ Frequency:: 1 per 4 Adjusted MND
 General Bonus:: Combat Ratio *3, +40 for anaesthesia Rolls
 
 Neuronegation cuts the target off from all sensory input.
-The attack puts the target into a sensory anaesthetic state., 
+The attack puts the target into a sensory anaesthetic state.,
 All six senses are shut down: vision, hearing, touch, smell, taste, and psionic.
 The target’s consciousness is totally cut off from both the physical and think space.
 The target must win a psionic roll or collapse into a blankly staring husk.
 
 Whether the target is conscious or not is up to the referee.
 Psionic attacks cannot be used by, or used on, a target suffering neuronegation.
-The target is cut off from the think space in both directions. 
+The target is cut off from the think space in both directions.
 
-=== Phase 
+=== Phase
 
 [horizontal]
 Range:: Persona Only
@@ -1403,7 +1396,7 @@ Frequency:: 1 per 3 Adjusted MND
 General Bonus:: Combat Ratio *5
 
 Phase allows the mutant to momentarily drop out of the physical space leaving only a ghostly after image.
-Her body rapidly flickers between the hyper and think space, while her consciousness remains in the physical space. 
+Her body rapidly flickers between the hyper and think space, while her consciousness remains in the physical space.
 This is the explanation supplied by EXP’s generic Sciency Fiction mythos.
 
 The mutant can take a small amount of her equipment along for the ride.
@@ -1412,19 +1405,19 @@ From a ruling standpoint, she must be unencumbered for the phase mutation to wor
 
 Phase works automatically and lasts as long as the mutant desires for up to 1 unit (2 seconds).
 The mutant can move during this time but cannot engage in any other actions in the physical space.
-While phasing, the mutant cannot use any other psionic mutations. 
+While phasing, the mutant cannot use any other psionic mutations.
 
 The phase mutation is used to move through obstructions on the physical plane.
-The mutant can pass through walls up to a distance of up to her movement rate. 
+The mutant can pass through walls up to a distance of up to her movement rate.
 When phased the mutant’s movement rate is doubled for that one unit.
 A mutant with a movement rate of 4 h/u could pass through 8 hexes (16 meters) of obstructions.
-The mutant can move downwards into the land or water. 
-This mutation cannot be used to fly. 
+The mutant can move downwards into the land or water.
+This mutation cannot be used to fly.
 
 Phase would not allow a mutant to materialize within a solid object, even if this was the mutant’s goal.
 Self-preservation prevents the mutant from rematerializing within a solid structure.
 It does not protect the mutant from phasing into a dangerous non-solid location.
-For example, the mutant cannot get trapped inside a mountain. 
+For example, the mutant cannot get trapped inside a mountain.
 Still, she could rematerialize in water, a vacuum or outside a moving vehicle.
 Phase cannot be used to travel through mountain ranges.
 Phase could be used to probe a mountain range for caves.
@@ -1435,8 +1428,8 @@ If the mutant phases onto a fast-moving vehicle, she will hit the deck, moving a
 
 While phased, the mutant is impervious to damage on the physical plane.
 When phased, damage simply passes through the mutant.
-She can avoid bullets, area of effect weapons, poison gas, fall damage and radiation.  
-Phase is a profoundly effective defensive mutation. 
+She can avoid bullets, area of effect weapons, poison gas, fall damage and radiation.
+Phase is a profoundly effective defensive mutation.
 Phase does not protect the mutant from purely psionic psionic mutation attacks.
 
 === Phasemorphia
@@ -1458,16 +1451,16 @@ General Bonus:: Combat Ratio +2
 
 Phasemorphia allows the mutant to convert her body into a homogeneous solid, liquid or gas.
 The incredibly diverse molecular structure of the body instantly transforms into whichever phase the mutant chooses.
-This means that her bones, muscles, blood, skin, etc., transforms into a cohesive solid, liquid or gas. 
+This means that her bones, muscles, blood, skin, etc., transforms into a cohesive solid, liquid or gas.
 While transformed into the chosen phase, the mutant maintains her consciousness and is fully aware of her surroundings.
 Each of the phases offers benefits and limitations.
 
 When transformed, the mutant cannot carry or manipulate any of her equipment.
-None of her equipment is transformed, and the mutant can no longer interact with it. 
+None of her equipment is transformed, and the mutant can no longer interact with it.
 Clothes would be hanging off a solid statue, floating in a puddle or falling in a cloud of gas.
-Purely psionic mutations can be used while phase transformed. 
+Purely psionic mutations can be used while phase transformed.
 Phenomic mutations no longer function as they are now solid, liquid or gaseous.
-Those psionic mutations that manipulate the physical space cannot function when phased. 
+Those psionic mutations that manipulate the physical space cannot function when phased.
 
 The mutant can return back to her diverse molecular structure anytime.
 Converting back into her diverse molecular states takes about 1-4 (1d4) units.
@@ -1476,15 +1469,15 @@ Converting back into her diverse molecular states takes about 1-4 (1d4) units.
 The mutant transforms into a homogenous rock-like statue of herself.
 Her wate and volume remain the same.
 She is impervious to most attacks poison, radiation, exatmo etc.
-Processes like bleeding and burning are immediately stopped. 
+Processes like bleeding and burning are immediately stopped.
 
-The mutant is vulnerable to being hammered, chiselled and smashed. 
+The mutant is vulnerable to being hammered, chiselled and smashed.
 Projectiles don’t harm the mutant in the solid-state.
 Attackers can shoot the solid mutant all they want.
 Only if an attacker employs cutting tools is the mutant in danger.
 If an attacker somehow manages to cut off a chunk, the mutant will take damage when she reforms.
 The mutant loses 1d20 hit points per kilogram lost.
-If the mutant statue is sawed into pieces, they would be assumed to end up in pieces. 
+If the mutant statue is sawed into pieces, they would be assumed to end up in pieces.
 
 *Liquid Phase*::
 The mutant’s body will pour out of her present form into a cohesive puddle on the floor.
@@ -1492,14 +1485,14 @@ The mutant’s wate and volume remain the same while in the liquid phase.
 The liquid state of the mutant is very cohesive.
 The mutant does not have to worry about mixing with other liquids or being washed away.
 
-While transformed into a liquid, the mutant can ooze along at 1/2 her land movement rate. 
+While transformed into a liquid, the mutant can ooze along at 1/2 her land movement rate.
 If the mutant had a movement rate of 4h/u, she could ooze along at 2h/u.
-The liquid mutant can squeeze through cracks, under doors, along walls and cling to ceilings. 
+The liquid mutant can squeeze through cracks, under doors, along walls and cling to ceilings.
 
 Attacks that use kinetic energy have no effect on the liquid mutant.
-Stabbing, clubbing, shooting, puncturing or biting are equally ineffective. 
-Being liquid offers no protection from exatmo exposure. 
-Heat and electricity-based attacks can injure the liquefied mutant, but they do so at half damage. 
+Stabbing, clubbing, shooting, puncturing or biting are equally ineffective.
+Being liquid offers no protection from exatmo exposure.
+Heat and electricity-based attacks can injure the liquefied mutant, but they do so at half damage.
 If an active discussion erupts the players can consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank, rel="noopener noreferrer"].
 
 Any attacker trying to separate the liquid mutant with buckets must overcome the mutant’s fluid pressure (STR).
@@ -1510,27 +1503,27 @@ The mutant loses 1d20 hit points per kilogram lost.
 The mutant can generate a fluid pressure equal to her STR.
 The liquid pressure could be used to push open a door or move a box along the ground.
 However, the mutant cannot organize this pressure to turn a door handle or pull a trigger.
-The pressure could be used to depress a mechanical button. 
+The pressure could be used to depress a mechanical button.
 If an active discussion erupts the players can consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank, rel="noopener noreferrer"].
 
-A liquid mutant can drown a defenceless target faster than regular water. 
+A liquid mutant can drown a defenceless target faster than regular water.
 
-*Gas*:: 
+*Gas*::
 The mutant’s body transforms into a cloud of gas, and all her clothes and equipment fall to the ground.
 In the gaseous phase, the mutant’s wate remains the same, while her volume doubles.
 The gaseous state of the mutant is very cohesive.
 The mutant does not have to worry about mixing with other gases or being blown away.
 The gaseous mutant is not invisible and appears like a cloud.
 
-While transformed into gas, the mutant can float along at her land movement rate. 
+While transformed into gas, the mutant can float along at her land movement rate.
 If the mutant had a movement rate of 4h/u, she could float along at 4h/u in any direction.
-The gaseous mutant can squeeze through cracks, under doors, or float in the center of the room. 
+The gaseous mutant can squeeze through cracks, under doors, or float in the center of the room.
 In the gaseous state, the mutant can take advantage of prevailing winds to move even faster.
 
 Exposing the gaseous mutant to exatmo has the expected killing effects.
 Low or high-velocity kinetic attacks are ineffective against the gaseous mutant.
 Bullets, arrows, clubs, beaks, fists cannot damage a gaseous mutant.
-Lazer, fission, and fusion attacks inflict typical damage. 
+Lazer, fission, and fusion attacks inflict typical damage.
 
 Any attacker trying to separate the gaseous mutant must overcome the mutant’s vapour pressure (STR).
 If an attacker somehow manages to split off some of the gaseous mutant, she is damaged when she reforms.
@@ -1541,14 +1534,14 @@ When in the gaseous phase, the mutant can generate a vapour pressure equal to he
 The gaseous pressure could be used to pop open an unsealed box or push a box along the floor.
 This pressure cannot be used to push a button or pull a trigger.
 
-The gaseous mutant can suffocate a slow-moving or defenceless target. 
-The mutant can envelop the target in an oxygen-free cloud of herself. 
+The gaseous mutant can suffocate a slow-moving or defenceless target.
+The mutant can envelop the target in an oxygen-free cloud of herself.
 The horrendous specifics of suffocation are covered under xref:uncombat:terrains.adoc#_atmosphere[Terrain,window=_blank, rel="noopener noreferrer"].
 
 NOTE: This mutation was formerly known as Molecular Phase Transformation
 
 
-=== Phasoclasia 
+=== Phasoclasia
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -1571,16 +1564,16 @@ Otherwise, she will transmute exactly half her wate.
 If she wins the psionic roll against herself, she can choose how many kilograms she transmutes.
 
 Depending on the amount of matter transmuted, the target will be partially or totally transmuted.
-Partial transmutation is an attack that will most likely prove lethal to the target. 
+Partial transmutation is an attack that will most likely prove lethal to the target.
 Total transmutation is not lethal but incapacitates the target.
 
 .*Partial Transmutation*
 Partially transmuting a target into either a solid, liquid, or gas has equally harmful effects.
 A random chunk of the target is violently transmuted into a homogenous rock, puddle or cloud.
-Every kilogram of the target transmuted inflicts damage on the target. 
+Every kilogram of the target transmuted inflicts damage on the target.
 For each kilogram transmuted, the target takes 1d8 hit points in damage.
-There is no difference in damage between the three phases. 
-If a target loses 12kgs of wate to transmutation, she will lose 12d8 hit points. 
+There is no difference in damage between the three phases.
+If a target loses 12kgs of wate to transmutation, she will lose 12d8 hit points.
 The target must lose a psionic roll before undergoing partial transmutation.
 
 There is a 1% chance the target will undergo total transmutation for every hit point of damage inflicted.
@@ -1589,14 +1582,14 @@ If the target totally transmutes, they will not take any damage.
 
 .*Total Transmutation*
 Total transmutation indicates that the entire target has transmuted into either a solid, liquid or gas.
-The target is wholly transmuted and incapacitated in this state. 
-The target turns into a statue, a puddle or a cloud. 
+The target is wholly transmuted and incapacitated in this state.
+The target turns into a statue, a puddle or a cloud.
 Unlike <<_phasemorphia,Phasemorphia>>, the target cannot function when transmuted.
 The target’s equipment will tumble to the floor or hang off a perfect statue.
 
 Total transformation does not damage the target.
 After 1-1000 units, the target will return to it’s complicated state unharmed.
-They may have floated away on the wind or dripped into a sewer, but they will reform unharmed. 
+They may have floated away on the wind or dripped into a sewer, but they will reform unharmed.
 A more detailed read on total transmutation is available <<_phasemorphia,here>>.
 
 A target will totally transmute if it has a wate less than half the mutant’s wate.
@@ -1608,7 +1601,7 @@ The more damage inflicted, the more likely the target will convert to total tran
 
 NOTE: This was formerly called Molecular Phase Transmutation.
 
-=== Philoprojection 
+=== Philoprojection
 
 :art: sociability_field_cop_cat.png
 :width: 250px
@@ -1628,21 +1621,21 @@ General Bonus:: +20 on negotiations, +42 on Charisma rolls
 This mutant generates an aura of good humour and friendship around her.
 The personas will not fall in love, but they will be unusually friendly towards the mutant.
 There is no psionic roll granted to prevent the sociability field effect.
-The field is *not* a reality denial field. 
-Sociability field generation is not the same as mind control. 
+The field is *not* a reality denial field.
+Sociability field generation is not the same as mind control.
 The mutation will not overcome the instincts of a hungry or enraged alien, nor can it be used to pressure personas to place their lives at risk or carry out materially, socially, or personally suicidal acts.
-This mutation does not work on robots. 
+This mutation does not work on robots.
 Sociability field generation does not work over communication devices.
 
-While there is no psionic roll given, not all personas are affected by the field. 
+While there is no psionic roll given, not all personas are affected by the field.
 Personas with low Intelligence (INT <3) are unaffected by the field.
 Personas with very high Intelligence (INT>17) or Mind (MND>15) are unaffected by the sociability field.
 
-The mutant may have no idea that she has this mutation. 
-She will feel that people are friendly, and she assumes that most people are kind. 
+The mutant may have no idea that she has this mutation.
+She will feel that people are friendly, and she assumes that most people are kind.
 If the campaign uses the attribute social standing, this mutant cannot have an SOC less than 900.
 
-NOTE: This was formerly called Sociability Field. 
+NOTE: This was formerly called Sociability Field.
 
 === Physiostasis
 
@@ -1653,7 +1646,7 @@ Frequency:: As needed
 General Bonus:: Combat Ratio +5
 
 This mutant is capable of conscious control over the ordinarily automatic physical functions of her body.
-Physiostasis is used to reduce malevolent effects on the body. 
+Physiostasis is used to reduce malevolent effects on the body.
 This is done by controlling previously automated physiologic processes.
 Breathing can be made very shallow to reduce respiratory damage from gases.
 Arterial flow can be redirected away from a bleeding site.
@@ -1663,7 +1656,7 @@ Hormones can be controlled to reduce hunger, end fertility, or sugar levels.
 Malevolent physical effects can be reduced by 1 quarter.
 Benevolent physical effects can be increased by 4 times.
 
-If a killing poison was supposed to inflict 80 HPS in damage, it would only inflict 20 HPS. 
+If a killing poison was supposed to inflict 80 HPS in damage, it would only inflict 20 HPS.
 If the mutant is supposed to age a year, then she’ll only age 3 months.
 A paralysis effect would have one-quarter of the duration and one-quarter of the paralysis.
 This mutant heals 4 times as fast and can extend a pharma’s effect be 4 times.
@@ -1678,7 +1671,7 @@ For example, this mutation does not decrease mental control duration, but it wou
 NOTE: This mutation was formerly called Mental Control Over Physical State.
 
 
-=== Planal Hideaway 
+=== Planal Hideaway
 
 :art: planal_hideaway_bomb_slug.png
 :width: 250px
@@ -1697,7 +1690,7 @@ General Bonus:: None
 
 A planal hideaway is a convenient time-space aberration that is generated and manipulated by the mutant.
 This mutation is used to create an entrance into a room located beyond physical space.
-The hideaway can store both personas and stuff. 
+The hideaway can store both personas and stuff.
 This mutation is most often used by the mutant to hide from threats or to hide artifacts.
 Hence the name planal hideaway.
 
@@ -1705,9 +1698,9 @@ Hence the name planal hideaway.
 .*Getting In*
 A planal hideaway entrance is a stationary, 1 dimensional, black void parallel to the most robust local gravitational field (planet, star, or spaceship).
 If the hideaway is opened in total darkness, the entrance will always appear darker than the surroundings.
-The entrance only has one side, and personas simply walk into the dark cube-shaped room through the opening. 
-Anything that can fit in the 2m cube room can fit through the entrance. 
-Once the mutant closes the entrance, there is no trace left in the physical space. 
+The entrance only has one side, and personas simply walk into the dark cube-shaped room through the opening.
+Anything that can fit in the 2m cube room can fit through the entrance.
+Once the mutant closes the entrance, there is no trace left in the physical space.
 A mutant can always find and open her own planal hideaways.
 
 
@@ -1717,7 +1710,7 @@ Anything inside the cube will remain in stasis and be utterly unaffected by time
 Organic creatures can exist inside a planal hideaway without food or water indefinitely.
 Personas will not heal, nor will they deteriorate while locked into the planal hideaway.
 
-The planal hideaway is a 2m cube. 
+The planal hideaway is a 2m cube.
 There is no wate restriction for the hideaway, but there are volume restrictions.
 The longest item that can be fit in the cube can be determined https://www.wikihow.com/Find-the-Longest-Internal-Diagonal-of-a-Cube[here].
 The volume of a cube can be determined https://simple.wikipedia.org/wiki/Cube[here].
@@ -1727,11 +1720,11 @@ The greedy filling of a hideaway can be limited by time pressure imposed by comb
 For equipment, the planal hideaway experience is the same as any other box.
 For personas, the planal hideaway experience is a peculiar one.
 The cube walls cannot be readily perceived, and the room appears to be completely dark.
-Despite this sense of darkness, personas can see everything inside the hideaway. 
+Despite this sense of darkness, personas can see everything inside the hideaway.
 The walls do not reflect sound, and noises sound muffled and distant.
 Despite this, personas can easily hear each other speak and complain.
-There is no sense of time within the hideaway. 
-Timepieces, timekeeping abilities, or timekeeping mutations are at a standstill. 
+There is no sense of time within the hideaway.
+Timepieces, timekeeping abilities, or timekeeping mutations are at a standstill.
 The personas have no sense of time passing within the hideaway.
 This loss of time perception is a consequence of time having no effect within the planal hideaway.
 A 10 second, 10 year or 10000 year passage of time in physical space feels the same inside a hideaway.
@@ -1744,43 +1737,43 @@ The hideaway will not kill its creator on opening.
 The planal hideaway will not reopen into certain death.
 The hideaway will not open onto the surface of a sun, underwater or into a vacuum.
 
-The mutant must be present to open a planal hideaway. 
+The mutant must be present to open a planal hideaway.
 She does not need to be inside of it.
 A mutant can always find and open her own planal hideaways.
 
-All planal hideaways open if the mutant dies. 
+All planal hideaways open if the mutant dies.
 A planal hideaway can last indefinitely if the mutant is in it.
 
 .*Other Stuff*
-The mutant can have multiple planal hideaways hidden across the galaxy. 
+The mutant can have multiple planal hideaways hidden across the galaxy.
 She must be personally present to open and close each one.
-The mutant cannot have two planal hideaways open simultaneously. 
+The mutant cannot have two planal hideaways open simultaneously.
 
-A planal hideaway cannot be opened around a previous planal hideaway. 
-Opening a planal hideaway within a planal hideaway is up to the referee. 
+A planal hideaway cannot be opened around a previous planal hideaway.
+Opening a planal hideaway within a planal hideaway is up to the referee.
 The process can be refused outright or be accompanied by in-game challenges.
-Past in-game challenges have included releasing alien creatures that eat time. 
+Past in-game challenges have included releasing alien creatures that eat time.
 
 NOTE:: The mutant can always find and open her planal hideaways.
 
-Intentionally using the planal hideaway to damage a story arch is to be frowned upon. 
+Intentionally using the planal hideaway to damage a story arch is to be frowned upon.
 Using the planal hideaway to hide from a story challenge is acceptable.
 However, intending to stay in the hideaway for 20 million years is cheeky.
 Personas have no concept of time in the hideaway.
-The referee can justify reopening the hideaway in a time that keeps the mutant in the storyline. 
-The referee can justify reopening the hideaway when it puts the mutant in a completely different storyline. 
-The planal hideaway is meant to be convenient and fun. 
+The referee can justify reopening the hideaway in a time that keeps the mutant in the storyline.
+The referee can justify reopening the hideaway when it puts the mutant in a completely different storyline.
+The planal hideaway is meant to be convenient and fun.
 
-Combat within the planal hideaway tends to happen with younger players. 
+Combat within the planal hideaway tends to happen with younger players.
 Sometimes enemies jump into the hideaway at the last millisecond; other times, personas get bored.
 How would combat work in an environment outside of time and physical space?
-No powered weapons work. 
-No explosions happen. 
+No powered weapons work.
+No explosions happen.
 The personas would be limited to hand to hand combat where no one can die.
 If a persona activated a grenade, it would not detonate in the planal hideaway.
-The grenade would detonate the moment the hideaway opens. 
+The grenade would detonate the moment the hideaway opens.
 
-=== Planal Holdaway 
+=== Planal Holdaway
 
 [horizontal]
 Range:: Special
@@ -1790,24 +1783,24 @@ General Bonus:: None
 
 The planal holdaway is a convenient time-space aberration that follows the mutant around.
 The holdaway is essentially an extra-dimensional backpack.
-When the mutant opens her holdaway, a 1-dimensional circle of varying diameter opens. 
+When the mutant opens her holdaway, a 1-dimensional circle of varying diameter opens.
 The opening is darker than darkness, and the mutant can drop anything she likes into it.
-When an artifact is dropped into the opening, it disappears beyond time and the physical space. 
+When an artifact is dropped into the opening, it disappears beyond time and the physical space.
 The opening is always within reach of the mutant, but she cannot climb into it herself.
-The mutant can open the holdaway at any time, reach into it and remove what she wants. 
+The mutant can open the holdaway at any time, reach into it and remove what she wants.
 If a persona other than the mutant reaches into the darkness, they will pull out a random item.
- 
+
 The holdaway can store double the mutant’s wate allowance.
 The player uses the STR wate allowance table but substitutes her persona’s STR with her MND.
-The mutant can store 1 item equal to her wate allowance inside the holdaway or many things that add up to less than her wate allowance. 
+The mutant can store 1 item equal to her wate allowance inside the holdaway or many things that add up to less than her wate allowance.
 The holdaway is beyond time and physical space.
-All items are held in stasis and do not age, deteriorate or heal. 
+All items are held in stasis and do not age, deteriorate or heal.
 This mutation is the perfect psionic refrigerator.
 
 The holdaway will involuntarily open if the mutant dies or is unconscious and dying.
 The items fall 1 hex to the ground in a clattering mess.
 
-=== Polar Disruption 
+=== Polar Disruption
 
 :art: magnetic_control_minivan.png
 :width: 250px
@@ -1839,19 +1832,19 @@ If a large metallic object is nearby, the mutant may be affected by that object.
 If an active discussion arises regarding whether, or not, something is metallic consult the xref:uncombat:sphincter_rolls.adoc[Sphincter Roll,window=_blank, rel="noopener noreferrer"]
 
 The attack lasts 1-6 (1d6) units, and metallic items that are not moving need to check again.
-Suppose a nearby persona manages to hang onto her sword in the first unit of the attack. 
+Suppose a nearby persona manages to hang onto her sword in the first unit of the attack.
 In that case, she must recheck each attack unit.
 
-Typically polar disruption attracts items towards the mutant. 
+Typically polar disruption attracts items towards the mutant.
 If the mutant requests, there is a 50% chance the attack will be a repulsive polar disruption.
 In an attracting polar disruption, items immediately fly at the mutant and gently settle against her.
 In a repulsing polar disruption, items fly away from the mutant and land outside the range of attack.
-Neither the mutant nor the items are damaged when things start flying around. 
+Neither the mutant nor the items are damaged when things start flying around.
 
-include::wetware:partial$a_defect_disclaimer.adoc[]
+include::mutations:partial$a_defect_disclaimer.adoc[]
 
 
-=== Power Drain 
+=== Power Drain
 
 [horizontal]
 Range:: Touch
@@ -1868,16 +1861,16 @@ She must protect battery-powered artifacts from her touch as well.
 Power drain only works for healing if the battery is touch directly.
 So the mutant will drain batteries in artifacts but will not heal herself.
 
-A battery can only defend itself if it is being held by another persona. 
+A battery can only defend itself if it is being held by another persona.
 The persona holding the battery must lose a psionic roll before the battery is drained.
-If the mutant has the device in her own hands, no psionic roll is granted. 
+If the mutant has the device in her own hands, no psionic roll is granted.
 
-Power drain does not work on power cells (robots), fuel cells (vehicles), power generators, broadcast cells or psionic cells. 
+Power drain does not work on power cells (robots), fuel cells (vehicles), power generators, broadcast cells or psionic cells.
 
 If the mutant wishes, she has a 50% chance of being able to reverse this mutation.
-She can completely recharge a battery by sacrificing 1-12 (1d12) hit points.  
+She can completely recharge a battery by sacrificing 1-12 (1d12) hit points.
 
-=== Precognition 
+=== Precognition
 
 [horizontal]
 Range:: 3h per Adjusted MND
@@ -1896,7 +1889,7 @@ If a persona is about to shoot her, she will feel an urge to jump or move.
 The donut will remain poisoned, and the sniper will still make an attack roll.
 This mutant will probably act a little bit more paranoid than usual.
 
-=== Projected Sense 
+=== Projected Sense
 
 [horizontal]
 Range:: 5h per Adjusted MND
@@ -1920,7 +1913,7 @@ A flash, boom or mental attack could respectively injure the mutant’s sight, h
 To project more than one sense at a time requires multiple uses of the mutation.
 
 
-=== Protection Shell 
+=== Protection Shell
 
 [horizontal]
 Range:: 1h per EXPS Level
@@ -1931,11 +1924,11 @@ General Bonus:: Combat Ratio +2
 This mutant has a repulsion shell that wards off selected persona types.
 To remain within the radius of effect the persona must win a psionic roll.
 This roll must be won by fellow expedition members and attacking aliens as well.
-The protective shell does not make the  is not 
+The protective shell does not make the  is not
 
 include::hardware:partial$effected_persona_type.adoc[]
 
-=== Psionic Defence 
+=== Psionic Defence
 
 [horizontal]
 Range:: Persona Only
@@ -1949,10 +1942,10 @@ For example, mental control, Myokinesis directly attack the mutant.
 Psionic defence does not protect against those mental attacks that alter the physical world.
 A mutant with psionic defence would increase her MND against pyrokinesis, but not against a mental blast.
 
-At any point, the player is making a defensive psionic roll, her MND is doubled. 
+At any point, the player is making a defensive psionic roll, her MND is doubled.
 The minimum MND this mutant can have against psionic attack is 16.
 So a mutant with a 10 MND would have a 20 MND when fighting a psionic attack.
-A mutant with a 4 MND would have a 16 MND when fighting a psionic attack. 
+A mutant with a 4 MND would have a 16 MND when fighting a psionic attack.
 The mutant’s Mind is not doubled when attacking with psionic mutations.
 This mutation defends against benevolent intrusion into the mutant’s consciousness.
 
@@ -1973,9 +1966,9 @@ The mutant’s Mind is not zero.
 The mutant still has a Mind for her other psionic mutations, vocations, or will power checks.
 However, when she is subject to a psionic attack, her effective MND is zero.
 
-include::wetware:partial$a_defect_disclaimer.adoc[]
+include::mutations:partial$a_defect_disclaimer.adoc[]
 
-=== Purify 
+=== Purify
 
 [horizontal]
 Range:: Touch
@@ -1993,7 +1986,7 @@ This procedure will result in a 100% pure sample (which is immediately subject t
 Purify does not separate alloys or decompose composite materials.
 This mutation makes materials safe to be consumed or held by the mutant.
 
-=== Pyrokinesis 
+=== Pyrokinesis
 
 [horizontal]
 Range:: 2h per Adjusted MND
@@ -2016,14 +2009,14 @@ If the target fails her next three psionic rolls, she will take more damage each
 Failing 3 rolls would result in 2d4 in the second unit, 3d4 in the third unit, and 4d4 in the fourth unit.
 The target will either break the heating attack or die.
 When a target is killed by this attack, it is left a charred smoking husk.
-If the pyrokinesis cycle restarts, the damage per unit restarts at 1d4. 
+If the pyrokinesis cycle restarts, the damage per unit restarts at 1d4.
 A mutant with a 10 MND could inflict up to 50d4 in damage in the last unit.
 
 The benevolent pyrokinesis acts like a psychic space heater.
 This warming only works on organic consciousnesses and cannot overheat a machine or robot.
 The mutant can comfortably warm organic personas in a four hex radius.
 
-=== Restoration 
+=== Restoration
 
 [horizontal]
 Range:: Touch
@@ -2033,21 +2026,21 @@ General Bonus:: Combat Ratio +12, +25 on healing rolls
 
 Restoration allows the mutant to heal damaged organic creatures by merely touching them with her bare skin.
 If no skin is readily exposed, the mutant must win an attack roll against the target.
-The attack roll is required even if the target is voluntary. 
+The attack roll is required even if the target is voluntary.
 For example, during combat, a persona will readily remove their armour.
 
 Restoration heals an amount of HPS equal to the mutant’s hit points.
 A mutant with 13 hit points can restore 13 hit points to another by a mere touch.
 It is in the expedition’s interest to keep this mutant healthy.
-Restoration only restores hit points and does not cure diseases or regrow missing limbs. 
+Restoration only restores hit points and does not cure diseases or regrow missing limbs.
 The mutant cannot reverse to inflict damage.
 
-=== Seizure Projection 
+=== Seizure Projection
 
 [horizontal]
 Range:: 1h per Adjusted MND
 Duration:: Up to 5u
-Frequency:: 1 per 4 Adjusted MND 
+Frequency:: 1 per 4 Adjusted MND
 General Bonus:: Combat Ratio +4
 
 Seizure projection allows the mutant to induce random muscle contractions in a specific target.
@@ -2062,16 +2055,16 @@ By the 3rd failed psionic roll, the target can no longer move and has -200 on he
 
 If the target loses her psionic roll again, the target falls into a full-body seizure and goes unconscious.
 This seizure will last 1-4 (1d4) minutes and require further recovery once completed.
-The mutant can re-attack the target with seizure projection immediately. 
+The mutant can re-attack the target with seizure projection immediately.
 
 .*Example Seizure Projection Attack*
-. No psionic roll offered. Move -25%. -50 Attack roll. -1 all else. 
+. No psionic roll offered. Move -25%. -50 Attack roll. -1 all else.
 . Psionic roll at -1. Move -50%. -100 Attack roll. -2 all else.
 . Psionic roll at -2. Move -75%. -150 Attack roll. -3 all else.
 . Psionic roll at -3. Move None. -200 Attack roll. -4 all else.
 . Psionic roll at -4. Total body seizure and unconsciousness.
 
-=== Sonar 
+=== Sonar
 
 [horizontal]
 Range:: 20h per Adjusted MND
@@ -2082,7 +2075,7 @@ General Bonus:: Triple AWE in search or ambush
 This mutation gives the mutant sonar sight.
 Sonar sight operates on the acoustic reflection of various frequencies emitted from the mutant’s consciousness.
 The sonar allows the mutant to detect solid objects in a 360° radius.
-Sonar is not a phenomic mutation, and there is no anatomic change that is detectable on the mutant. 
+Sonar is not a phenomic mutation, and there is no anatomic change that is detectable on the mutant.
 
 Sonar allows the mutant to navigate in the dark, determine if holograms are solid or not, and she can see through smoke and water.
 Holograms and other projections are invisible to sonar.
@@ -2097,7 +2090,7 @@ Sonar may not be able to function through some helmets.
 
 Sonic attacks on the mutant do double damage and disable her sonar for 1 to 4 days.
 
-=== Sonoclasia 
+=== Sonoclasia
 
 [horizontal]
 Range:: 2 plus Level hexes
@@ -2107,14 +2100,14 @@ General Bonus:: Combat Ratio +4
 
 This mutant can release a deadly burst of sonic energy.
 The attack is a psionically adjusted version of the mutant’s speech.
-Words become a sphere of damaging ultra-high and ultra-low frequencies. 
+Words become a sphere of damaging ultra-high and ultra-low frequencies.
 This mutation damages both organic and inorganic audio sensors.
 However the mutant is not affected by her own sonoclasia
 Targets do not get a psionic roll versus this attack.
 The amount of damage delivered depends on how far the target is from the mutant.
 Below is the radius of effect for a second level mutant.
 
-include::wetware:partial$psionic_sonoclasia.adoc[]
+include::mutations:partial$psionic_sonoclasia.adoc[]
 
 .*4h Range Example*
 * 0h to 1h = 3-24 (immediate)
@@ -2131,7 +2124,7 @@ Sonic attacks still inflict damage if the target is deafened.
 The mutant can protect one target per EXPS Level from being damaged within the radius of effect.
 So a 2nd level mutant could keep two of her team mates from being blasted by sonoclasia.
 
-=== Sonomimesis 
+=== Sonomimesis
 
 [horizontal]
 Range:: Within Hearing
@@ -2149,12 +2142,12 @@ Each reproduction can last up to two units per point of adjusted MND.
 A 3rd level mutant with a 10 MND could make a recording up to 26 units in length.
 The number of recordings stored cannot exceed the mutant’s adjusted INT.
 Extreme volume cannot be reproduced solely by the mutant.
-So she would not be able to scream back a sonic attack. 
+So she would not be able to scream back a sonic attack.
 The reproduction could reproduce a heard sentence perfectly.
 The mutant could not recreate another persona’s speech pattern.
 
 
-=== Suggestion 
+=== Suggestion
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -2173,13 +2166,13 @@ Spoken suggestions are made orally by the mutant.
 Spoken suggestions only work if the target understands the language.
 Thought suggestions are directed at the target’s consciousness and do not depend on language.
 
-Spoken suggestions are more potent than thought suggestions. 
+Spoken suggestions are more potent than thought suggestions.
 The target gets a psionic roll bonus of +3 for thought suggestions.
 More sensible suggestions are stronger than dangerous proposals.
 Destructive suggestions like: harm yourself, attack your friend will undoubtedly fail.
 The referee can make psionic roll adjustments (+1 to +6) depending on the suggestion’s gravity.
 
-=== Technoclasia 
+=== Technoclasia
 
 [horizontal]
 Range:: 2h Radius
@@ -2199,24 +2192,24 @@ Due to life experience, mutants with weapon discharging tend to avoid trigger we
 
 [discrete]
 === Chance of weapon discharge
-.1/2 percent per MND - EXPS Level 
+.1/2 percent per MND - EXPS Level
 ****
 A weapon check for a 4th level mutant with a 12 MND equals a 4% chance of activation.
 ****
 
-As the mutant gains experience, the chance of accidental activation diminishes. 
+As the mutant gains experience, the chance of accidental activation diminishes.
 The chance of a weapon discharge cannot be less than 1%.
 The referee may have non-life-threatening devices turn on at any time.
 Weapon’s discharging will turn on televids, stereos, vehicle ignitions without notice.
 If the accidental activation is life-threatening, the referee must use her once a day check.
 
-include::wetware:partial$a_defect_disclaimer.adoc[]
+include::mutations:partial$a_defect_disclaimer.adoc[]
 
 
 [discrete]
 === Direction Helpers
 
-include::wetware:partial$psionic_weapon_discharge.adoc[]
+include::mutations:partial$psionic_weapon_discharge.adoc[]
 
 :art: Figure_grenade_miss_direction_d12.png
 :width: 250px
@@ -2227,7 +2220,7 @@ include::wetware:partial$psionic_weapon_discharge.adoc[]
 :description: Diagram of grenade miss direction using a hexagon sheet.
 include::ROOT:partial$articulate.adoc[]
 
-=== Telekinesis 
+=== Telekinesis
 
 [horizontal]
 Range:: 2h per Adjusted MND
@@ -2239,7 +2232,7 @@ Telekinesis allows the mutant to lift objects without touching them.
 When the mutant concentrates on an object, it will float through the air under the mutant’s control.
 Objects controlled by telekinesis are not subject to gravity or wind.
 The mutant controls the object’s translational motion with her will.
-Telekinesis cannot be used to control fine motor actions. 
+Telekinesis cannot be used to control fine motor actions.
 
 The mutant cannot use telekinesis on herself.
 Specifically, the mutant cannot use telekinesis to fly.
@@ -2250,7 +2243,7 @@ An object can be any persona type or an inanimate object.
 Anthros, aliens, robots and bags of turnips are vulnerable to telekinesis.
 Voluntary organic targets can be moved by telekinesis automatically.
 Involuntary organic targets can avoid telekinesis by winning a psionic roll.
-All inorganic targets must make a psionic roll to prevent telekinesis. 
+All inorganic targets must make a psionic roll to prevent telekinesis.
 Robots and artifacts cannot choose voluntary telekinesis.
 Inorganic objects are assigned a random MND of 0-9 (1d10 - 1).
 Artifacts in the hands of personas use the persona’s MND.
@@ -2267,12 +2260,12 @@ There are many ways to weaponize this mutation.
 Lifting a target straight up and dropping them is the simplest.
 Regular xref:uncombat:terrains.adoc#_falling[Falling,window=_blank, rel="noopener noreferrer"] damage applies.
 Lifting a target and dropping them off a cliff is very effective as well.
-Lifting an object and dropping it on a target can only be used on stationary targets. 
+Lifting an object and dropping it on a target can only be used on stationary targets.
 Dropping things is not effective if the target is moving.
 
 The most complicated way to weaponize telekinesis is also the most cinematic.
 Players love to hurl objects at targets during combat.
-The persona must first win an attack roll to hit the target. 
+The persona must first win an attack roll to hit the target.
 The attack is considered a non-powered projectile weapon (Fling).
 If there is an advantage, the player can switch the persona’s STR with her MND.
 After being thrown, an object is no longer under the control of telekinesis.
@@ -2289,7 +2282,7 @@ Determining the damage inflicted by a telekinetically thrown can be made trickie
 When throwing random objects at targets the most complicated ruleset to use is xref:combat:combat_and_robots.adoc#_ramming[Robotic Ramming,window=_blank, rel="noopener noreferrer"].
 
 
-=== Telekinetic Arm 
+=== Telekinetic Arm
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -2306,10 +2299,10 @@ The mutant can only generate one telekinetic arm at a time.
 
 The telekinetic arm takes damage from Zone Attacks.
 A telekinetic arm will dissipate if it takes more than half the mutant’s HPM.
-A mutant who has 50 HPM would lose her telekinetic arm at 25 HPS of damage. 
+A mutant who has 50 HPM would lose her telekinetic arm at 25 HPS of damage.
 The mutant takes no damage, but the arm will dissipate and drop any item it is carrying.
 
-=== Telekinetic Flight 
+=== Telekinetic Flight
 
 [horizontal]
 Range:: Persona Only
@@ -2321,7 +2314,7 @@ Telekinetic flight allows the mutant to fly through the air with the power of he
 She can defy gravity by merely concentrating her psionic powers.
 The mutant can hover, skim along the ground, or soar high into the air.
 
-Telekinetic flight works in any milieu except underwater. 
+Telekinetic flight works in any milieu except underwater.
 Neither gravity nor atmosphere is necessary for telekinetic flight.
 The mutant cannot carry much when telekinetically flying.
 Using the xref:uncombat:encumbrance.adoc#_encumbrance_levels[Encumbrance,window=_blank, rel="noopener noreferrer"] rules the mutant must have light encumbrance.
@@ -2333,7 +2326,7 @@ A persona with a 12 MND could telekinetically fly at 15 h/u.
 There is no official limit to the speed of telekinetic flight.
 However, extreme speeds may exceed the tolerances of the mutant’s body.
 
-=== Telempathy 
+=== Telempathy
 
 [horizontal]
 Range:: 1h per Adjusted MND
@@ -2347,17 +2340,17 @@ A Ursidae may frenzy when overwhelmed by anger.
 A patient may feel pleasure instead of pain during a procedure.
 A nervous persona would suddenly become calm.
 The emotions felt by the target are real to them and overwhelming.
-Fear will cause the target to bolt in terror; sadness will have them wailing and crying. 
+Fear will cause the target to bolt in terror; sadness will have them wailing and crying.
 Telempathy does not have subtle effects on the target.
 
 The target must fail her psionic roll for telempathy to work.
 
-Telempathy is not an area of effect mutation. 
+Telempathy is not an area of effect mutation.
 The mutant can attack multiple targets at once with additional uses of the mutation.
 Less intelligent personas may be incapable of comprehending higher emotions.
 Trying to make wildlife feel jealous would likely fail.
 
-=== Teleport 
+=== Teleport
 
 [horizontal]
 Range:: 500 km per Adjusted MND
@@ -2367,29 +2360,29 @@ General Bonus:: Combat Ratio +10
 
 Teleportation transports the mutant’s body and consciousness instantly across the physical space.
 The mutant visualizes herself in the new location, and her psionic powers correct reality to her visualization.
-The mutant slips through hyperspace via the think space and rematerializes in the physical space. 
+The mutant slips through hyperspace via the think space and rematerializes in the physical space.
 As long as the target hex is within range, the mutant can teleport there.
 There are no barriers to teleportation as it does not occur in physical space.
 If the mutant is travelling within hyperspace, the mutant can only teleport within the spacecraft.
 
 Teleportation is mostly safe and compensates for issues such as speed differential.
-If the mutant teleports off of a moving train, she reappears, standing where she intended. 
-She would not be smashed into the ground as if she jumped from a moving train. 
+If the mutant teleports off of a moving train, she reappears, standing where she intended.
+She would not be smashed into the ground as if she jumped from a moving train.
 Teleportation has an instinctive survival defence built-in.
 The mutant is unable to commit suicide by teleporting to certain death.
 Teleport would not work if the persona were teleporting into a vacuum.
 
-Teleportation is not without risk. 
+Teleportation is not without risk.
 There is a small chance of a teleport malfunction.
 Teleportation failure rules are up to the players.
-The referee may offer more teleports per day with higher chances of failure. 
+The referee may offer more teleports per day with higher chances of failure.
 
 TIP: Rules maintain game balance and assist creativity. +
 *Do not let rules get in the way of the story or the fun.*
 
-include::wetware:partial$psionic_teleportation_fail.adoc[]
+include::mutations:partial$psionic_teleportation_fail.adoc[]
 
-=== Thought Imitation 
+=== Thought Imitation
 
 [horizontal]
 Range:: 4h per Adjusted MND
@@ -2425,7 +2418,7 @@ If the target wins her psionic roll, the observation period has failed.
 Once the observation is successful, the mutant can imitate the target’s thoughts and, therefore, potential actions.
 
 Thought imitation allows the mutant to fake signatures, unlock secret codes, predict battle plans, and order the correct hors d’oeuvre for lunch.
-The mutant could predict the combat moves of the imitated mind. 
+The mutant could predict the combat moves of the imitated mind.
 Combat prediction makes the mutant the perfect sparring partner.
 Thought imitation is not mind reading and does not reveal secrets or information.
 The mutation will allow the mutant to respond exactly as the target would.
@@ -2433,9 +2426,9 @@ So she may not know the code to a secret door, but once at the door would type t
 
 Repeated thought imitations of the same target may be dangerous.
 Negative personality traits of the target may become hardwired in the mutant’s consciousness.
-For example, the mutant may start to exhibit the whiny attitude of the targeted persona. 
+For example, the mutant may start to exhibit the whiny attitude of the targeted persona.
 
-=== Time Stop 
+=== Time Stop
 
 [horizontal]
 Range:: Consciousness
@@ -2470,14 +2463,14 @@ She can fire her weapons and throw her knives, but nothing will happen until tim
 Psionic mutations do not work within the time-space aberration.
 If the mutant has other psionic mutations, she can deploy them during time stop.
 They would all simultaneously attack when time restarts.
-Time stop allows the mutant to stack any other psionic mutations that she has. 
+Time stop allows the mutant to stack any other psionic mutations that she has.
 
 Gravity does not function during time stop.
 However, the mutant still has limits to how much she can lift.
 She can lift ten times her xref:uncombat:encumbrance.adoc[Wate Allowance,window=_blank, rel="noopener noreferrer"] using her MND instead of STR.
 
 The range of the time stop is as far as the mutant can think.
-However, the effective range of time stop is how far the mutant can move. 
+However, the effective range of time stop is how far the mutant can move.
 This mutation leaves no visible traces anywhere in existence.
 However, there usually is a cacophony of chaos when time restarts.
 Not even the mutation time tell can easily detect this time-space aberration.
@@ -2487,7 +2480,7 @@ The mutant can eliminate any referee persona or win any combat situation.
 The mutation’s use is limited to every other day for a reason.
 Time stop may attract annoying creatures that are born of time-space aberrations.
 
-=== Time Tell 
+=== Time Tell
 
 [horizontal]
 Range:: Persona Only
@@ -2501,7 +2494,7 @@ Not only can she be pedantic about what happens when, but she can do so to sever
 The mutation can be used as an internal watch, for timing cycles of a fusion drive, for knowing exactly when to act, or for detecting time-space aberrations.
 The Time Tell mutation is multi-tasking, and she can carry out any number of these tasks simultaneously.
 
-=== Total Recuperation 
+=== Total Recuperation
 
 [horizontal]
 Range:: Persona Only
@@ -2515,14 +2508,14 @@ The mutation will not stop the effects of poisons, cancers, infections, or amput
 The mutant can instantly restore all her hit points.
 The persona’s HPS Total is recuperated to her HPM when this mutation is activated.
 Total recuperation can be consciously activated by the mutant or automatically activated when at less than 1 HPS Total.
-There must be remaining uses for total recuperation to automatically activate.  
+There must be remaining uses for total recuperation to automatically activate.
 
 Total recuperation also decreases ageing effects.
 This includes ageing attacks and natural ageing effects.
 The mutation will quarter the effects (4 years is only one year) of ageing.
 The mutant must be at full HPS to use total recuperation versus ageing.
 
-=== Ventriloquism 
+=== Ventriloquism
 
 [horizontal]
 Range:: 2h per Adjusted MND
@@ -2548,7 +2541,7 @@ This means the mutant must throw her voice as if it is coming out of her mouth.
 This results in the mutant appearing to lip-synch her own voice.
 
 
-=== Weather Tell 
+=== Weather Tell
 
 [horizontal]
 Range:: 1 day per Adjusted MND
@@ -2562,33 +2555,3 @@ She can predict all the normal weather conditions that one would expect.
 In addition to the accurate weather report, this mutation also predicts underwater tides, natural radiation surges, cave-ins, solar flares, earthquakes, tidal waves etc.
 The mutant can give same day readings with 100% accuracy.
 The chance of correctly forecasting events decreases by 5% for every day in the future.
-
-
-
-== Psionic Sub Tables
-When you quickly need a specific type of mutation.
-If you want an open roll (combat, uncombat and defects) xref:wetware:psionics.adoc#_psionic_mutations_list[jump here,window=_blank, rel="noopener noreferrer"].
-
-
-=== No Defects
-Best for start up psionic mutations. 
-
-include::wetware:partial$psionic_list_no_defect.adoc[]
-
-=== Combat
-Nature, pharma, malfunction, or evolution.
-Here is where you unleash genetic violence.
-
-include::wetware:partial$psionic_list_combat.adoc[]
-
-=== Uncombat
-Nature, pharma, malfunction, or evolution.
-Here is where you unleash genetic curiosity.
-
-include::wetware:partial$psionic_list_uncombat.adoc[]
-
-=== Defective
-Nature, pharma, or side effect. 
-Here is where you unleash biomagical tragedy.
-
-include::wetware:partial$psionic_list_defects.adoc[]
