@@ -111,10 +111,10 @@ Even if the target saves and the mutation has no effect, the mutation has been u
 If the mutant voluntarily stops the mutation, then it has been used.
 If the mutant switches from one target to another, this will usually indicate another use.
 
-=== General Bonus
-The general bonus listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
+=== Bonuses
+The bonuses listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
 The mutation may indicate a bonus for task rolls, attribute rolls or negotiation rolls.
-Any simple effect that the mutation has on the dice rolling of the persona should be included beside the general bonus listing.
+Any simple effect that the mutation has on the dice rolling of the persona should be included beside the bonuses listing.
 
 include::mutations:partial$phenomic_tables_web.adoc[]
 
@@ -123,10 +123,11 @@ include::mutations:partial$phenomic_tables_web.adoc[]
 === Acidic Enzymes
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted STR
 Duration:: Constant
 Frequency:: Alternating Units
-General Bonus:: Combat Ratio +2
+Bonuses:: CR +2
 
 This mutant has a muscular hyperactive stomach that produces excess amounts of acid and digestive enzymes.
 The mutant can eject spittle of corrosive acids.
@@ -149,10 +150,11 @@ Kissing is out of the question unless her partner also has this mutation.
 === Adaptation
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Special
 Frequency:: Constant
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 The immune system of this mutant works on a macroscopic level.
 Adaptation allows the mutant to develop immunity to any threat from the physical space.
@@ -195,10 +197,11 @@ If she develops permanent immunity to a 6th adaptation, the mutation will forget
 === Adipomegaly
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect, Combat Ratio *0.9
+Bonuses:: CR *0.9
 
 This mutation causes an increase in fat cells’ number and size in a specific location on the body (it’s not a malignant tumour).
 The blob of fat will always be harmless, noticeable, and embarrassing.
@@ -206,7 +209,7 @@ If surgically removed, it will aggressively grow back in one to four (1-4) days.
 The growth may have a CHA penalty of minus 0 to 3 (d4-1) points, but no other penalties can apply.
 If the adipomegaly is on the mutant’s face, they will not suffer any AWE penalty or attack roll penalty.
 
-NOTE:: This mutation was formerly called Fat Cell Accumulation
+NOTE: This mutation was formerly called Fat Cell Accumulation
 
 include::mutations:partial$a_defect_disclaimer.adoc[]
 
@@ -217,10 +220,11 @@ include::combat:partial$hit_location_anthro.adoc[]
 === Arespirosis
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: +100 breath holding tantrums
+Bonuses:: +100 breath holding tantrums
 
 This mutant does not need to exchange gases to respire.
 The mutant does not require light, oxygen, or carbon dioxide to carry out her life processes.
@@ -231,10 +235,11 @@ Inhaled poisons do not affect the mutant.
 === Arms
 
 [horizontal]
+Category:: Defect
 Range:: Fingertip
 Duration:: Permanent
 Frequency:: Constant
-General Bonus:: Defect, DEX penalty
+Bonuses:: DEX penalty
 
 The mutant is now the proud owner of an extra 1-4 randomly moving arms.
 The bonus arms are free willed and infuriating.
@@ -259,10 +264,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 === Attractemesis
 
 [horizontal]
+Category:: Uncombat
 Range:: 1km per STR
 Duration:: Special
 Frequency:: Constant
-General Bonus:: +2 CHA, +15 on negotiation rolls
+Bonuses:: +2 CHA, +15 on negotiation rolls
 
 Attractemesis makes this mutant very interesting to a specific type of persona.
 The mutation uses pheromones, chemotactic agents, tasty aromas, vibrations, and thought patterns.
@@ -284,17 +290,18 @@ The referee should play the mutation as an annoying inconvenience, with occasion
 It is also possible that nothing is nearby to be attracted to the mutant.
 Attracted personas usually show up when they will complicate things the most.
 
-NOTE:: Formerly called Attraction Odour
+NOTE: Formerly called Attraction Odour
 
 include::hardware:partial$effected_persona_type.adoc[]
 
 === Buoyancy
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 1 minute per Adjusted CON
 Frequency:: 1 per 4 Adjusted STR
-General Bonus:: +15 on wate related rolls
+Bonuses:: +15 on wate related rolls
 
 The mutant can equilibrate the density of her body to match that of the surfaces she is standing on.
 Density matching is achieved through bladders that can fill with gas, liquid, or solids.
@@ -325,15 +332,16 @@ The mutant reduces damage by 10% and flies one hex per point the 1d6 rolls.
 If the player rolls a three, the persona’s damage decreases by 30%, and she lands three hexes away.
 Decreasing density has been used to get a persona across a crevasse.
 
-NOTE:: This mutation was formerly called Density Manipulation.
+NOTE: This mutation was formerly called Density Manipulation.
 
 === Carapace
 
 [horizontal]
+Category:: Combat
 Range:: Skin Deep
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Special
+Bonuses:: Special
 
 The carapace is an unsightly build up of thick semi-pliable skin.
 The mutation offers a protective covering that reduces the damage and impairs appearance.
@@ -366,10 +374,11 @@ include::mutations:partial$phenomic_carapace.adoc[]
 === Chameleon
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: As needed
 Frequency:: As needed
-General Bonus:: Combat Ratio +5, +25 on sneaky rolls
+Bonuses:: CR +5, +25 on sneaky rolls
 
 The mutant’s skin has photo-detector cells and chromocytes.
 The combination of these two skin cells allows the mutant to blend into the surrounding environment.
@@ -389,10 +398,11 @@ Chameleon cannot hide the mutant from non-visual sensors like radar, sonar, good
 === Decoy
 
 [horizontal]
+Category:: Uncombat
 Range:: Special
 Duration:: Not Applicable
 Frequency:: Special
-General Bonus:: None
+Bonuses:: None
 
 The decoy is a detachable tail-like appendage that can be dropped by the mutant at will.
 The decoy looks like a lump of succulent flesh attached to the mutant’s hindquarters.
@@ -427,10 +437,11 @@ In social situations of great duress, the mutant’s decoy may spontaneously dro
 ===  Dermatofortia
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Skin Deep
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: None
+Bonuses:: None
 
 Dermatofortia has both a cosmetic and defensive effect on the mutant.
 The cosmetic change is not a negative one.
@@ -450,10 +461,11 @@ include::mutations:partial$phenomic_dermatofortia.adoc[]
 === Diminished Sense
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 include::mutations:partial$a_defect_compassion.adoc[]
 
@@ -535,10 +547,11 @@ The mutant’s Awareness score is reduced by 4 points and her Dexterity score is
 === Disgorgimorphia
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 3u per Adjusted CON
 Frequency:: 1 per 4 Adjusted CON
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 This mutant can increases or decrease her wate at will.
 The wate change is nearly immediate, and involves loud bodily noises.
@@ -560,10 +573,11 @@ The mutant will return to her normal wate if she is knocked unconscious.
 === Edible Tissue
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Special
-General Bonus:: None
+Bonuses:: None
 
 On this mutant’s belly is a 4 cm thick build up of nutritious and tasty regenerating flesh.
 The flesh is a muscly, slightly denatured, and stocked with all the essential nutrients.
@@ -579,10 +593,11 @@ The mutant can still eat and enjoys regular food.
 === Electrocusis
 
 [horizontal]
+Category:: Combat
 Range:: 1/2h per Adjusted STR
 Duration:: Not Applicable
 Frequency:: Alternating Units
-General Bonus:: Combat Ratio +4, +13 on resuscitation rolls
+Bonuses:: CR +4, +13 on resuscitation rolls
 
 A series of organs found in this mutant’s torso generate and store a powerful electric current.
 This stored electric charge can be conducted down the mutant’s limbs and delivered to an opponent.
@@ -610,10 +625,11 @@ Electricity based attacks inflict half damage on this mutant.
 ===  Enthalpy Attack.
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted STR
 Duration:: Not Applicable
 Frequency:: Alternating Units
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 This mutant has brine like blood and an overactive cardiovascular system.
 Her vascular system forces the briny blood to the surface of her skin, where sweaty evaporation cools it.
@@ -633,10 +649,11 @@ Cold based attacks inflict normal damage on a mutant with this mutation.
 === Gas Generation
 
 [horizontal]
+Category:: Combat
 Range:: Up to 5h radius
 Duration:: 0-3 (1d4 - 1) units
 Frequency:: 1 per 5 Adjusted CON
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 This mutant can release a noxious spume of gas from her mouth or some other orifice.
 The mutant is impervious to her generated gas type.
@@ -694,10 +711,11 @@ Targets remain unconscious for 1 minute per level of intensity of the attack.
 === Haste
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona Only
 Duration:: 1u per Adjusted CON
 Frequency:: 1 per 4 Adjusted CON
-General Bonus:: Combat Ratio *2
+Bonuses:: CR *2
 
 The mutant’s nervous system has highly conductive neurons, both centrally and peripherally.
 When haste is activated, the mutant’s body with an adrenaline-like super hormone allowing her to operate at double speed.
@@ -716,10 +734,11 @@ Haste does not work up to normal encumbrance, and fails at burdened or lift only
 === Heat Generation
 
 [horizontal]
+Category:: Combat
 Range:: 1 per Adjusted CON
 Duration:: Constant
 Frequency:: Alternating Units
-General Bonus:: Combat Ratio +10
+Bonuses:: CR +10
 
 Heat generation arises from a dangerously overactive metabolism.
 This mutant amplifies any process that generates heat.
@@ -747,10 +766,11 @@ Heat based attacks inflict typical damage on a mutant with heat generation.
 === Heightened Attribute
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Constant
 Frequency:: As Needed
-General Bonus:: Special
+Bonuses:: Special
 
 Heightened attribute pushes one of the mutant’s physical dimensions into the stratosphere.
 This mutation transforms the mutant’s body to reflect the heightened attribute.
@@ -825,10 +845,11 @@ The mutant’s Combat Ratio is increased by +8.
 === Heightened Vision
 
 [horizontal]
+Category:: Uncombat
 Range:: Special
 Duration:: Until Dead
 Frequency:: As Needed
-General Bonus:: None
+Bonuses:: None
 
 Heightened vision adds an exotic vision type to the mutant’s regular optical sensors.
 The mutant may switch between either vision type as needed.
@@ -899,10 +920,11 @@ The flesh around this mutant’s eyes is thickened and leathery, and her eyeball
 === Kapnogenesis
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 1h per Unit Duration
 Duration:: 1u per 3 Adjusted STR
 Frequency:: 1 per 2 Adjusted CON
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 Smoke screen allows the mutant to create a thick smoke that pours off her back.
 The mutant can superheat her back, causing a strong-smelling secretion to smoulder fiercely.
@@ -928,10 +950,11 @@ In situations of extreme stress, the mutant may involuntarily deploy her smoke s
 === Laryngoclasia
 
 [horizontal]
+Category:: Combat
 Range:: 2 + Level hexes
 Duration:: Speed of Sound
 Frequency:: 1 per 2 Adjusted CON
-General Bonus:: Combat Ratio + 3
+Bonuses:: CR + 3
 
 Laryngoclasia (sonic attack) allows the mutant to create noises so loud they are destructive.
 The mutant’s neck has obvious bellows that can blast air through specialized vocal cords.
@@ -962,10 +985,11 @@ Organic systems remain deaf for 1-8 (1d8) hours, but inorganic audio systems mus
 === Launchable Quills
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted STR
 Duration:: Special
 Frequency:: Special
-General Bonus:: Special
+Bonuses:: Special
 
 The mutant has up to a dozen launchable quills hanging from her chest.
 In the resting position, the quills hide easily under clothing and armour.
@@ -996,10 +1020,11 @@ If the quills are poisonous, the combat ratio triples.
 === Light Generation
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted CHA
 Duration:: Special
 Frequency:: 1 per 4 Adjusted CON
-General Bonus:: Combat Ratio *2
+Bonuses:: CR *2
 
 This mutant is in a symbiotic relationship with subdermal light-emitting organisms.
 The mutant’s nervous system releases chemicals that excite or depress the colonies of glowing organisms.
@@ -1044,10 +1069,11 @@ include::ROOT:partial$articulate.adoc[]
 === Mechanical Insertion
 
 [horizontal]
+Category:: Uncombat
 Range:: Special
 Duration:: As Needed
 Frequency:: As Needed
-General Bonus:: Special
+Bonuses:: Special
 
 Sometime, somewhere, somehow, this mutant’s body became integrated with an inorganic device.
 The device is part of the mutant’s nervous system, immune system and skeleton.
@@ -1086,10 +1112,11 @@ include::ROOT:partial$articulate.adoc[]
 === Mechanical Prosthesis
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Removed
 Frequency:: Constant
-General Bonus:: Defect, Combat Ratio halved
+Bonuses:: CR halved
 
 include::mutations:partial$a_defect_compassion.adoc[]
 
@@ -1109,10 +1136,11 @@ include::mutations:partial$phenomic_mechanical_prosthesis.adoc[]
 === Metabomegaly
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Death
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 The metabolism of this mutant operates at a rate three times greater than average.
 The mutant gives off heat, eats nine meals a day, and is jittery and active.
@@ -1121,15 +1149,16 @@ No matter how much she eats, she appears emaciated.
 For example, one food culture per day sustains an average medium-sized persona.
 This mutant needs three food cultures per day just to stay alive.
 
-NOTE:: This mutation was formerly called Increased Metabolism.
+NOTE: This mutation was formerly called Increased Metabolism.
 
 === Mitosis
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Special
 Frequency:: As needed
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 Mitosis allows the mutant to replace damaged or missing tissues and organs.
 The mutant will rapidly grow back a missing limb, regenerate a stolen liver, and smooth over scars.
@@ -1151,10 +1180,11 @@ Mitosis does not make her immortal, and if the mutant takes enough damage at onc
 === Multiple Body Parts
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Special
+Bonuses:: Special
 
 Multiple body parts is a genetic phenomenon that can be helpful or harmful to the mutant.
 Some of the extra body parts will be entirely under the mutant’s control.
@@ -1234,10 +1264,11 @@ The player should roll again on the Phenomic Mutations Table or the Multiple Bod
 === New Organ
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Special
+Bonuses:: Special
 
 This mutant has a specialized new organ that carries out some peculiar process.
 The new organ is not essential to the mutant’s life.
@@ -1354,10 +1385,11 @@ The randomly located opening cannot be plugged, or sewn shut, This mutation does
 === Oversized Body Part
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Combat Ratio +4
+Bonuses:: CR +4
 
 This mutation involves grossly oversized body part that cannot be hidden.
 The oversized body part will challenge the mutant with clothing, armour, and social situations.
@@ -1369,10 +1401,11 @@ include::mutations:partial$phenomic_oversized_part.adoc[]
 === Phosphorescence
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 Through the production of light-emitting materials in the skin, this mutant continually glows some unique colour.
 The player can choose the colour, or generate it at xref:hardware:appearance.adoc#_colour_your_whirled[Colour,window=_blank, rel="noopener noreferrer"].
@@ -1380,17 +1413,18 @@ The light produced is barely enough to read by, but it is enough to be easily se
 All but the most extreme efforts to contain the glow fail.
 The mutant also registers as a mild radiation anomaly.
 
-NOTE:: This mutation was formerly called Phosphorescent Skin.
+NOTE: This mutation was formerly called Phosphorescent Skin.
 
 include::mutations:partial$a_defect_disclaimer.adoc[]
 
 === Photosynthesis
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: None
+Bonuses:: None
 
 This mutant has light, hairless, almost translucent skin.
 The chloroplasts in her skin can act as a supplementary source of energy.
@@ -1404,15 +1438,16 @@ When getting restful periods of sleep in bright light, the mutant heals five tim
 If this is an anthro mutation, this mutant bleeds out at half the other anthro mutants’ speed.
 Damage from cold or heat-based attacks adds 1/2 damage if the mutant.
 
-NOTE:: This mutation was formerly called Photosynthetic Skin.
+NOTE: This mutation was formerly called Photosynthetic Skin.
 
 === Pockets
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: As Needed
-General Bonus:: +30 on concealment rolls
+Bonuses:: +30 on concealment rolls
 
 The mutant is capable of creating spontaneous pockets in her flesh.
 The pocket location and size are determined by the player as needed.
@@ -1427,10 +1462,11 @@ A 100kg mutant can store 5kg of equipment.
 === Pressurized Body
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 1u per Adjusted STR
 Frequency:: 1u per Adjusted CON
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 Pressurized body combines rapid gas production, inflatable body cavities, and resilient skin to increase her body’s internal pressure.
 Increasing her body pressure does not harm the mutant.
@@ -1450,10 +1486,11 @@ The cavity will heal like any other wound, and the mutant can continue to use th
 === Radiating Eyes
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted AWE
 Duration:: Not Applicable
 Frequency:: Alternating Units
-General Bonus:: Combat Ratio +5
+Bonuses:: CR +5
 
 This mutant can launch a visible beam of radiation from her eyes.
 The beam is her head’s size and usually has a distinct xref:hardware:appearance.adoc#_colour_your_whirled[Colour,window=_blank, rel="noopener noreferrer"].
@@ -1470,10 +1507,11 @@ This mutant’s eyes will glow the same colour as the radiation beam, and the fl
 === Regeneration
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Special
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 Every cell in this mutant’s body is capable of replicating when damaged.
 Regeneration allows the mutant to restore her hit points when damaged.
@@ -1508,10 +1546,11 @@ A 4th level mutant with a 10 CON could massively regenerate 28 HPS.
 === Rubbery Skin
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead and longer
 Frequency:: Constant
-General Bonus:: None
+Bonuses:: None
 
 A rubbery organic equivalent replaces the mutant’s skin.
 The player can pick the colour of the mutant’s slippery sheath.
@@ -1527,10 +1566,11 @@ Rubber dissolving aerosols will inflict 3 to 30 HPS of damage to this mutant.
 === Rust
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Touch
 Duration:: Permanent
 Frequency:: Constant
-General Bonus:: Combat Ratio +6
+Bonuses:: CR +6
 
 This mutation is complex and can quickly become complicated.
 What is metallic, and how does her touch affect artifacts?
@@ -1553,10 +1593,11 @@ Rust damage is catastrophic for robots, and most robots will fall back to ranged
 === Scalomorphia
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 1 min per Adjusted CHA
 Frequency:: 1 per 3 Adjusted CON
-General Bonus:: None
+Bonuses:: None
 
 The mutant can force the molecules of her body to snuggle closer together or drift further apart.
 Scalomorphia allows her to decrease or increase her size.
@@ -1577,10 +1618,11 @@ Besides allowing her to reach the top shelf, the mutant gets a Force Bonus bonus
 === Self Destruction
 
 [horizontal]
+Category:: Defect
 Range:: 2h per Level
 Duration:: Until Dead
 Frequency:: Once
-General Bonus:: Defect
+Bonuses:: None
 
 This mutation causes the mutant’s body to store highly hazardous products of respiration between her cells.
 There is enough explosive material to cause the mutant to explode fatally.
@@ -1614,10 +1656,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 === Sepsomegaly
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 include::mutations:partial$a_defect_compassion.adoc[]
 
@@ -1626,17 +1669,18 @@ Her condition is not limited to microbial agents alone.
 All manner of contagion, both real and imagined, afflicts the mutant.
 Her Constitution will work normally against all other kinds of saves: poison, radiation, etc.
 
-NOTE:: Formerly called No Resistance To Disease
+NOTE: Formerly called No Resistance To Disease
 
 include::mutations:partial$a_defect_disclaimer.adoc[]
 
 === Shape Change
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 1 min per Adjusted CHA
 Frequency:: 1 per 5 Adjusted CON
-General Bonus:: +150 on disguise rolls
+Bonuses:: +150 on disguise rolls
 
 Shape change allows the mutant to rearrange her body.
 She can change the pigmentation and texture of her skin.
@@ -1671,10 +1715,11 @@ To change back to her base shape, she will have to wait until the mutation recha
 === Spit Poison
 
 [horizontal]
+Category:: Combat
 Range:: 1h + 1h per Level
 Duration:: Special
 Frequency:: Alternating Units
-General Bonus:: Combat Ratio +9
+Bonuses:: CR +9
 
 The mutant has poison producing glands that can eject poisonous spittle some distance.
 The player must win an attack roll on a specific target for the poison to take.
@@ -1717,10 +1762,11 @@ The target will remain unconscious after the initial 1-10 units unless another p
 === Static Quills
 
 [horizontal]
+Category:: Combat
 Range:: Persona Only
 Duration:: Permanent
 Frequency:: Constant
-General Bonus:: Combat Ratio +2
+Bonuses:: CR +2
 
 Quills, spines, thorns and other nasty pointy things cover this mutant’s body.
 The quills layer is thick and offers an Defence Rating bonus of +101, but the mutant cannot wear armour.
@@ -1751,10 +1797,11 @@ include::ROOT:partial$articulate.adoc[]
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Special
+Bonuses:: Special
 
 The mutant has a strange new body part.
 The strange new body part is not a defect.
@@ -1856,10 +1903,11 @@ The shell’s hit points are separate from the mutant’s hit points and are dou
 === Symbiotic Attachment
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h
 Duration:: Permanent
 Frequency:: One
-General Bonus:: Special
+Bonuses:: Special
 
 Symbiotic attachment allows the mutant to control another persona via a specialized tentacle.
 The tentacle appears as a long umbilical cord with a spine filled suction cup.
@@ -1899,10 +1947,11 @@ If the target is less intelligent than the mutant, the target gets weekly poison
 === Tactomegaly
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 The mutant has no threshold for pain, and her pain receptors are hypersensitive.
 Any pain based damage is increased by 2-8 (2d8) hit points.
@@ -1912,7 +1961,7 @@ This mutant heals twice as fast as other personas when recuperating.
 Most personas heal one hit point each day.
 This mutant heals two hit points each day.
 
-NOTE:: This mutation was formerly called Double Physical Pain
+NOTE: This mutation was formerly called Double Physical Pain
 
 include::mutations:partial$a_defect_disclaimer.adoc[]
 
@@ -1928,10 +1977,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h per Adjusted AWE
 Duration:: 1 minute per Adjusted CON
 Frequency:: Special
-General Bonus:: None
+Bonuses:: None
 
 The mutant can tear off parts of her body, and they will continue to function as if still attached.
 The mutant could tear off an arm and have it open a door while she stands to the side.
@@ -1951,10 +2001,11 @@ When a body part reaches 0 hit points, it is dead, and the mutant has lost that 
 === Toxipenia
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 This mutant has no effective resistance to poison attack.
 Poison attacks inflict no additional damage, but are almost certain to effect this mutant.
@@ -1962,7 +2013,7 @@ Her Constitution works normally against illness, damage and injury, but offers r
 When making a poison related save the player cannot user person’s CON.
 Pharma effects and adverse effects are doubled.
 
-NOTE:: This mutation was formerly called No Resistance To Poison
+NOTE: This mutation was formerly called No Resistance To Poison
 
 include::mutations:partial$a_defect_disclaimer.adoc[]
 
@@ -1978,10 +2029,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona
 Duration:: 1 Hour per Adjusted CON
 Frequency:: 1 per 6 Adjusted CON
-General Bonus:: +100 on disguise rolls
+Bonuses:: +100 on disguise rolls
 
 This mutant has complete control over her unusually pliable body.
 The mutation transmogriphosis comes with an additional layer of cosmetic musculature, flexible bones, and controllable connective tissue.
@@ -2007,15 +2059,16 @@ When the mutation reaches the end of its duration, the persona rapidly returns t
 There is a 1% chance per hour in the restructured state that the mutant will stay in the new shape.
 A mutant that changed her hair colour to blue for 5 hours has a 5% chance of being left with blue hair.
 
-NOTE:: This mutation was formerly called Body Structure Change
+NOTE: This mutation was formerly called Body Structure Change
 
 === Undersized Body Part
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 include::mutations:partial$a_defect_compassion.adoc[]
 
@@ -2031,10 +2084,11 @@ include::mutations:partial$phenomic_undersized_part.adoc[]
 === Vibrations
 
 [horizontal]
+Category:: Combat
 Range:: Touch
 Duration:: As needed
 Frequency:: Alternating units
-General Bonus:: Combat Ratio +5
+Bonuses:: CR +5
 
 This mutant creates harmonic patterns transfer through her hands.
 The vibrations can be soothing and comforting or painful and dangerous.
@@ -2051,10 +2105,11 @@ When the object reaches zero hit points, it disintegrates.
 === Wings
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: As Needed
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 The mutant has a lovely pair of wings coming off her back.
 These wings allow the mutant to fly through the air with the greatest of ease.

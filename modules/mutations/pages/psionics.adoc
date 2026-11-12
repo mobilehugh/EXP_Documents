@@ -110,10 +110,10 @@ Even if the target saves and the mutation has no effect, the mutation has been u
 If the mutant voluntarily stops the mutation, then it has been used.
 If the mutant switches from one target to another, this will usually indicate another use.
 
-=== General Bonus
-The general bonus listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
+=== Bonuses
+The bonuses listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
 The mutation may indicate a bonus for maneuver rolls, attribute rolls or negotiation rolls.
-Any simple effect that the mutation has on the dice rolling of the persona should be included beside the general bonus listing.
+Any simple effect that the mutation has on the dice rolling of the persona should be included beside the bonuses listing.
 
 
 include::mutations:partial$psionic_tables_web.adoc[]
@@ -124,10 +124,11 @@ include::mutations:partial$psionic_tables_web.adoc[]
 === Absorption
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Combat Ratio +4
+Bonuses:: CR +4
 
 This mutant can absorb the assigned force that would typically damage her.
 A laser bolt will dissipate over her entire body, or radiation will pass through her unaffected.
@@ -145,10 +146,11 @@ include::mutations:partial$psionic_absorption.adoc[]
 === Aisthoclasis
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted MND
 Duration:: 1u per 4 Adjusted MND
 Frequency:: 1 per 8 Adjusted MND
-General Bonus:: Combat Ratio +6, +10 on vet rolls
+Bonuses:: CR +6, +10 on vet rolls
 
 Aisthoclasis breaks the senses of an organic target.
 This mutation can turn off one of the target’s senses.
@@ -167,10 +169,11 @@ NOTE: This mutation was formerly known as Sensory Deprivation.
 === Alien Attachment
 
 [horizontal]
+Category:: Uncombat
 Range:: Touch
 Duration:: Permanent
 Frequency:: 1 Alien per 7 Levels
-General Bonus:: +10 on biologist rolls
+Bonuses:: +10 on biologist rolls
 
 Alien attachment is pet bonding in the highest order.
 The persona and an alien become psionically attached.
@@ -225,10 +228,11 @@ Both Intelligence and wate requirements apply.
 === Alternate Banishment
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Level
 Duration:: Permanent
 Frequency:: Daily per 12 Adjusted MND
-General Bonus:: Combat Ratio +10
+Bonuses:: CR +10
 
 This mutation allows the mutant to transport objects to an alternate space of existence.
 An object can include whole personas, and they are transported against their will.
@@ -251,10 +255,11 @@ Yes, it is precisely like being killed.
 === Amnesiafication
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 1h per Level
 Duration:: Special
 Frequency:: 1 per 5 Adjusted MND
-General Bonus:: Combat Ratio +6, +15 when convincing others
+Bonuses:: CR +6, +15 when convincing others
 
 The mutant can force a persona to forget something stored in her memory.
 The memory loss is temporary and total.
@@ -280,16 +285,17 @@ Amnesiafication cannot be used to reverse engineer what the target persona knows
 The mutant must know that a particular memory is present before erasing it.
 Amnesiafication cannot be used to fish for what a target knows by erasing random memories.
 
-NOTE:: This mutation was formerly known as Information Eradication.
+NOTE: This mutation was formerly known as Information Eradication.
 
 
 === Calculations
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: As Needed
-General Bonus::  +15 on any calculation rolls
+Bonuses::  +15 on any calculation rolls
 
 Calculations allows the mutant to solve any mathematical analysis in seconds.
 This arithmetic savant does not need paper, calculator to get the answer.
@@ -305,10 +311,11 @@ Any persona with this mutation can replace a spacecraft’s astrogation software
 === Communicate
 
 [horizontal]
+Category:: Uncombat
 Range:: Earshot
 Duration:: Special
 Frequency:: Special
-General Bonus:: +15 on any language rolls
+Bonuses:: +15 on any language rolls
 
 This mutant’s brain understands the subliminal semiotics (meaning) of language.
 Communicate allows her to communicate with any communicating entity.
@@ -332,10 +339,11 @@ This mutation is especially helpful for biologists and nothings.
 === Cryokinesis
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted MND
 Duration:: 5u per Adjusted MND
 Frequency:: Once per 5 Adjusted MND
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 Cryokinesis allows the mutant to make things around her very cold.
 This mutation may be employed in a nasty way or a benevolent way.
@@ -363,10 +371,11 @@ The mutant can comfortably cool organics in a four hex radius.
 === Detections
 
 [horizontal]
+Category:: Uncombat
 Range:: 10h per Adjusted AWE
 Duration:: Special
 Frequency:: As Needed
-General Bonus:: +20 on searching rolls
+Bonuses:: +20 on searching rolls
 
 Detections give the mutant a veritable suite of organic detectors.
 The persona gets one detection skill per 5 points of Awareness.
@@ -396,10 +405,11 @@ include::mutations:partial$psionic_detections.adoc[]
 === Directional Sense
 
 [horizontal]
+Category:: Uncombat
 Range:: Special
 Duration:: Constant
 Frequency:: As Needed
-General Bonus:: +30 on wayfinding rolls
+Bonuses:: +30 on wayfinding rolls
 
 This mutant psionically locates herself within the thinkspace and cannot get lost.
 Directional sense allows the mutant to take a correct heading from as little as a claw’s pointing.
@@ -417,10 +427,11 @@ This includes astrogation, aquatic, subaquatic and terrestrial navigation.
 === Empathy
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h per Adjusted MND
 Duration:: Special
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: +20 for interpersonal rolls
+Bonuses:: +20 for interpersonal rolls
 
 This mutation allows the mutant to experience the feelings of personas near her.
 Empathy picks up on emotions like fear, joy, sorrow, pain, etc.
@@ -438,10 +449,11 @@ Empathy is not mind reading and does not give off details of plans or goals.
 === Energy Attraction
 
 [horizontal]
+Category:: Defect
 Range:: 10h per MND
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Defect
+Bonuses:: None
 
 This psionic mutation defect turns the persona into an energy sink.
 When an energy weapon is fired near this mutant, the bolt may redirect towards her.
@@ -468,10 +480,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 === Extrasensory Perception
 
 [horizontal]
+Category:: Uncombat
 Range:: 2h per Adjusted MND
 Duration:: 2u per Adjusted MND
 Frequency:: Special
-General Bonus:: Combat Ratio +5, +20 on interpersonal rolls
+Bonuses:: CR +5, +20 on interpersonal rolls
 
 Extrasensory perception (ESP) allows the mutant to listen in on the thoughts of other personas.
 This is the most famous of all the psionic powers in the world of Sciency Fiction.
@@ -527,10 +540,11 @@ This kind of power is what leads to a general mistrust of psionic mutation power
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Combat
 Range:: Persona Only
 Duration:: Until Destroyed
 Frequency:: 1 per Sleep
-General Bonus:: Combat Ratio *2
+Bonuses:: CR *2
 
 The force field generation mutation creates a protective shell around the mutant.
 The force field may appear as a shimmering translucent shell or be completely transparent.
@@ -571,10 +585,11 @@ The mutant requires one night of restful sleep to generate another force field.
 === Gyrokinesis
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted MND
 Duration:: 1u per Adjusted MND
 Frequency:: 1 per 6 Adjusted MND
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 This mutation forces a target to involuntarily revolve.
 The target will slightly elevate from the ground and begin to spin.
@@ -624,10 +639,11 @@ Inanimate objects have a MND of 0-9 (1d10 - 1) and will resist being spun about.
 === Hostility Field
 
 [horizontal]
+Category:: Defect
 Range:: 1h Radius
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: -25 on negotiation rolls
+Bonuses:: -25 on negotiation rolls
 
 This mutation has a self-explanatory title.
 There is a field of hostility that surrounds this mutant.
@@ -655,10 +671,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 === Hyperfocus
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Special
 Frequency:: Once per Sleep
-General Bonus:: Special
+Bonuses:: Special
 
 Hyperfocus allows the mutant to the whole brain to obsess over one specific problem.
 The mutant curls up into a ball, her temperature rises, and her eyes flicker and blink.
@@ -697,10 +714,11 @@ NOTE: This mutation was formerly known as Heightened Brain Talent.
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 5h per Adjusted MND
 Duration:: Special
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio +5
+Bonuses:: CR +5
 
 Illusion generation allows the mutant to generate sounds, images and sensations for the target.
 These illusions can range from a faint noise to a full audiovisual experience.
@@ -741,10 +759,11 @@ Mighty mutants can create elaborate lethal illusions in the minds of weak target
 === Indensification
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 1.5h per Level
 Duration:: 3u per Adjusted MND
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio +3
+Bonuses:: CR +3
 
 Indensification allows the mutant to change the density of a target.
 This mutation can be used on organic and inorganic targets.
@@ -772,15 +791,16 @@ Inanimate objects halve their wate.
 Flying creatures don’t fall from the sky but can’t fly in a straight line.
 Swimming creatures float uncontrollably towards the surface.
 
-NOTE:: This mutation was formerly called Density Control.
+NOTE: This mutation was formerly called Density Control.
 
 === Infoporia
 
 [horizontal]
+Category:: Uncombat
 Range:: Touch
 Duration:: Special
 Frequency:: Special
-General Bonus:: None
+Bonuses:: None
 
 Infoporia allows the mutant to store and transfer information from one persona to another.
 The mutant acts as a repository for the data and may not even understand what she is transmitting.
@@ -815,15 +835,16 @@ Infoporia cannot be used to reverse engineer what the target persona knows.
 The mutant must know that a particular memory is present before copying it.
 Infoporia cannot be used to fish for what a target knows beyond the source knowledge.
 
-NOTE:: This mutation was formerly called Knowledge Transmission.
+NOTE: This mutation was formerly called Knowledge Transmission.
 
 === Intuition
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h per Adjusted MND
 Duration:: Not Applicable
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: Combat Ratio +2, +29 on anything intuitive
+Bonuses:: CR +2, +29 on anything intuitive
 
 Intuition gives the mutant allows the mutant to correctly guess what will happen very soon.
 This mutation needs to be intentionally employed and does not “warn” the mutant without being activated.
@@ -860,10 +881,11 @@ The referee and players must work together to make intuition useful and fun.
 === Levitation
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 30u per Adjusted MND
 Frequency:: 1 per 2 Adjusted MND
-General Bonus:: Combat Ratio *4, +10 on sneaky rolls
+Bonuses:: CR *4, +10 on sneaky rolls
 
 Levitation allows the mutant to psionically counter gravity and float in the air.
 This ability is made most apparent by levitating upwards and defying gravity itself.
@@ -893,10 +915,11 @@ The other half of the damage sends the mutant flying away 1-8 (1d8) hexes.
 === Life Leech
 
 [horizontal]
+Category:: Combat
 Range:: Touch
 Duration:: Permanent
 Frequency:: Constant
-General Bonus:: Combat Ration +1 per HPS Drain
+Bonuses:: CR +1 per HPS Drain
 
 Life leech allows the mutant to painlessly drain the life force from a persona.
 The drained life force is measured in hit points and improves the mutant’s hit point total.
@@ -933,10 +956,11 @@ Mutants with life leech are often isolated lonely personas.
 === Light Wave Manipulation
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona Only
 Duration:: 30u per Adjusted MND
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio *4, +42 on sneaky rolls, +25 on optics rolls
+Bonuses:: CR *4, +42 on sneaky rolls, +25 on optics rolls
 
 This mutant can manipulate electromagnetic waves in the spectrum of visible light.
 She can warp and bend the waves to achieve a variety of effects.
@@ -981,10 +1005,11 @@ This requires too much concentration.
 === Magnetic Control
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 1h per Adjusted MND
 Duration:: 1u per Adjusted MND
 Frequency:: 1 per 2 Adjusted MND
-General Bonus:: Combat Ratio +2, +10 on magnetic rolls
+Bonuses:: CR +2, +10 on magnetic rolls
 
 Magnetic control allows the mutant to turn herself into a walking electromagnet.
 The effect is broader than a regular magnet as anything metallic is attracted.
@@ -1026,10 +1051,11 @@ Smaller objects will still be drawn towards.
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 1h per Adjusted MND
 Duration:: Special
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio +4, +10 on psionic rolls
+Bonuses:: CR +4, +10 on psionic rolls
 
 Mass mind allows the mutant to behave as a psionic amplifier.
 The mutant can channel and manipulate psionic mutation within the mass mind range.
@@ -1072,10 +1098,11 @@ If intense discussions arise remember that xref:uncombat:sphincter_rolls.adoc[Sp
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Combat Ratio *2, +42 on inorganic related rolls
+Bonuses:: CR *2, +42 on inorganic related rolls
 
 This mutant has a way with machines.
 Mechanical sense gives the mutant the ability to understand anything mechanical.
@@ -1115,10 +1142,11 @@ A 4th level spie would also function as a 2nd level mechanic.
 === Mental Blast
 
 [horizontal]
+Category:: Combat
 Range:: 2h per Adjusted MND
 Duration:: Permanent
 Frequency:: 1u Recharge
-General Bonus:: Combat Ratio +1 per Level
+Bonuses:: CR +1 per Level
 
 Mental blast is a psionic concussion wave felt in the physical space.
 The blast wave clearly emanates from the mutant’s forehead.
@@ -1140,10 +1168,11 @@ A 4th level persona would inflict 6 to 12 (2d4+4) HPS of damage.
 === Mental Control
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Special
 Duration:: Special
 Frequency:: Special
-General Bonus:: Combat Ratio *2 + CR of all mentally controlled
+Bonuses:: CR *2 + CR of all mentally controlled
 
 Mental control allows the mutant to take over the body and mind of another persona.
 The mutation works best with skin contact on an organic persona.
@@ -1196,10 +1225,11 @@ Low Intelligence personas can stay controlled for an extended time.
 === Molecular Disruption
 
 [horizontal]
+Category:: Combat
 Range:: 1h per adjusted MND
 Duration:: Permanent
 Frequency:: Special
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 This mutant can convert matter into a low energy gaseous state.
 Molecular disruption allows the mutant to obliterate solid objects by converting them into a cold cloud of gas.
@@ -1228,10 +1258,11 @@ The gas is cold and does not create pressure.
 === Molecular Examination
 
 [horizontal]
+Category:: Uncombat
 Range:: 3h per adjusted MND
 Duration:: Not Applicable
 Frequency:: As Needed
-General Bonus:: Combat Ratio +5, +10 on all examination rolls
+Bonuses:: CR +5, +10 on all examination rolls
 
 Molecular examination allows the mutant to determine the strengths and weaknesses in a structure.
 The target is instantly analyzed to determine it’s weakest point.
@@ -1270,10 +1301,11 @@ If the alien failed her saving throw again, the mutant biologist would get to ad
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Combat
 Range:: 4h per Adjusted MND
 Duration::  Special
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio *6, + on vet rolls
+Bonuses:: CR *6, + on vet rolls
 
 Myokinesis allows the mutant to control a muscle group and its associated motor nerves.
 This mutation can be used on any organic persona that uses limbs for leverage.
@@ -1312,10 +1344,11 @@ NOTE: This mutation was formerly known as Muscle Manipulation.
 === Necroprojection
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Level
 Duration:: Permanent
 Frequency:: Special
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 This deadly mutation allows the mutant to drain life from surrounding organic personas.
 Necroprojection instantly drains hit points from the target(s) caught in the area of effect.
@@ -1342,15 +1375,16 @@ At 6th level the mutant’s death field has an enormous 6 hex area of effect and
 The referee can modify the duration of unconsciousness to limit the power of this mutation.
 For example, the mutant may be unconscious for 1 hour per hit point.
 
-NOTE:: This mutation was formerly called Death Field Generation.
+NOTE: This mutation was formerly called Death Field Generation.
 
 === Neuroemesis
 
 [horizontal]
+Category:: Combat
 Range:: 1h per EXPS Level
 Duration:: 1u per Adjusted MND
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio *4
+Bonuses:: CR *4
 
 Neuroemesis incapacitates organic targets with nausea.
 This mutation works on all organic personas, including anthros and aliens.
@@ -1372,10 +1406,11 @@ NOTE: This mutation was formerly known as Nausea Field Generation
 === Neuronegation
 
 [horizontal]
+Category:: Combat
 Range:: 2h per Adjusted MND
 Duration:: 1-6 (1d6) minutes
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio *3, +40 for anaesthesia Rolls
+Bonuses:: CR *3, +40 for anaesthesia Rolls
 
 Neuronegation cuts the target off from all sensory input.
 The attack puts the target into a sensory anaesthetic state.,
@@ -1390,10 +1425,11 @@ The target is cut off from the think space in both directions.
 === Phase
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona Only
 Duration:: 1u or less
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: Combat Ratio *5
+Bonuses:: CR *5
 
 Phase allows the mutant to momentarily drop out of the physical space leaving only a ghostly after image.
 Her body rapidly flickers between the hyper and think space, while her consciousness remains in the physical space.
@@ -1444,10 +1480,11 @@ Phase does not protect the mutant from purely psionic psionic mutation attacks.
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 30u per Adjusted MND
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio +2
+Bonuses:: CR +2
 
 Phasemorphia allows the mutant to convert her body into a homogeneous solid, liquid or gas.
 The incredibly diverse molecular structure of the body instantly transforms into whichever phase the mutant chooses.
@@ -1544,10 +1581,11 @@ NOTE: This mutation was formerly known as Molecular Phase Transformation
 === Phasoclasia
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted MND
 Duration:: Special
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio *3, +25 on materiel rolls
+Bonuses:: CR *3, +25 on materiel rolls
 
 Phasoclasia allows the mutant to change targets into a solid, liquid or gas.
 Phasoclasia cannot be used by the mutant to transmute herself.
@@ -1613,10 +1651,11 @@ NOTE: This was formerly called Molecular Phase Transmutation.
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Uncombat
 Range:: 1/2h per EXPS Level
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: +20 on negotiations, +42 on Charisma rolls
+Bonuses:: +20 on negotiations, +42 on Charisma rolls
 
 This mutant generates an aura of good humour and friendship around her.
 The personas will not fall in love, but they will be unusually friendly towards the mutant.
@@ -1640,10 +1679,11 @@ NOTE: This was formerly called Sociability Field.
 === Physiostasis
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Constant
 Frequency:: As needed
-General Bonus:: Combat Ratio +5
+Bonuses:: CR +5
 
 This mutant is capable of conscious control over the ordinarily automatic physical functions of her body.
 Physiostasis is used to reduce malevolent effects on the body.
@@ -1683,10 +1723,11 @@ NOTE: This mutation was formerly called Mental Control Over Physical State.
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Uncombat
 Range:: Special
 Duration:: As Needed
 Frequency:: 1 per 20 Adjusted MND
-General Bonus:: None
+Bonuses:: None
 
 A planal hideaway is a convenient time-space aberration that is generated and manipulated by the mutant.
 This mutation is used to create an entrance into a room located beyond physical space.
@@ -1754,7 +1795,7 @@ Opening a planal hideaway within a planal hideaway is up to the referee.
 The process can be refused outright or be accompanied by in-game challenges.
 Past in-game challenges have included releasing alien creatures that eat time.
 
-NOTE:: The mutant can always find and open her planal hideaways.
+NOTE: The mutant can always find and open her planal hideaways.
 
 Intentionally using the planal hideaway to damage a story arch is to be frowned upon.
 Using the planal hideaway to hide from a story challenge is acceptable.
@@ -1776,10 +1817,11 @@ The grenade would detonate the moment the hideaway opens.
 === Planal Holdaway
 
 [horizontal]
+Category:: Uncombat
 Range:: Special
 Duration:: Until Dead
 Frequency:: As Needed
-General Bonus:: None
+Bonuses:: None
 
 The planal holdaway is a convenient time-space aberration that follows the mutant around.
 The holdaway is essentially an extra-dimensional backpack.
@@ -1812,10 +1854,11 @@ The items fall 1 hex to the ground in a clattering mess.
 include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
+Category:: Defect
 Range:: 1h per 20kg Wate
 Duration:: 1-6 (1d6) Units
 Frequency:: Random
-General Bonus:: Defect, +10 on magnetism rolls
+Bonuses:: +10 on magnetism rolls
 
 Polar disruption will randomly and unexpectedly turn the mutant into a super magnet.
 When under extreme duress, there is a chance that polar disruption will be activated.
@@ -1847,10 +1890,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 === Power Drain
 
 [horizontal]
+Category:: Uncombat
 Range:: Touch
 Duration:: Permanent
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio +4, +10 on battery rolls
+Bonuses:: CR +4, +10 on battery rolls
 
 Power drain allows the mutant to heal by draining potential energy from batteries.
 Any battery the mutant touches with her bare skin will be completely drained.
@@ -1873,10 +1917,11 @@ She can completely recharge a battery by sacrificing 1-12 (1d12) hit points.
 === Precognition
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 3h per Adjusted MND
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Combat Ratio +3, Impossible to Ambush
+Bonuses:: CR +3, Impossible to Ambush
 
 This mutant is psionically alerted to hostility or impending danger.
 If the mutant is asleep, the sensation of danger will awaken her.
@@ -1892,10 +1937,11 @@ This mutant will probably act a little bit more paranoid than usual.
 === Projected Sense
 
 [horizontal]
+Category:: Uncombat
 Range:: 5h per Adjusted MND
 Duration:: 1 per Adjusted MND
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: None
+Bonuses:: None
 
 The six basic senses of this mutant can be ethereally projected beyond the mutant’s body.
 The senses projected are hearing, sight, smell, taste, touch and the sixth sense.
@@ -1916,10 +1962,11 @@ To project more than one sense at a time requires multiple uses of the mutation.
 === Protection Shell
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h per EXPS Level
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Combat Ratio +2
+Bonuses:: CR +2
 
 This mutant has a repulsion shell that wards off selected persona types.
 To remain within the radius of effect the persona must win a psionic roll.
@@ -1931,10 +1978,11 @@ include::hardware:partial$effected_persona_type.adoc[]
 === Psionic Defence
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Combat Ratio *2
+Bonuses:: CR *2
 
 This mutant has a hardened consciousness against all manner of psionic attack.
 Psionic defence protects the mutant from mental attacks that work within the thinkspace.
@@ -1952,10 +2000,11 @@ This mutation defends against benevolent intrusion into the mutant’s conscious
 === Psychopenia
 
 [horizontal]
+Category:: Defect
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: Constant
-General Bonus:: Combat Ratio *0.5
+Bonuses:: CR *0.5
 
 This mutant’s consciousness is entirely open to the thinkspace.
 The defect renders the mutant mentally defenceless.
@@ -1971,10 +2020,11 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 === Purify
 
 [horizontal]
+Category:: Uncombat
 Range:: Touch
 Duration:: Permanent
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: +42 on cleansing rolls
+Bonuses:: +42 on cleansing rolls
 
 This mutation allows the mutant to purify substances by touching them with her bare skin.
 The purification process will destroy any infectious organisms or toxic contaminants.
@@ -1989,10 +2039,11 @@ This mutation makes materials safe to be consumed or held by the mutant.
 === Pyrokinesis
 
 [horizontal]
+Category:: Combat
 Range:: 2h per Adjusted MND
 Duration:: 5u per Adjusted MND
 Frequency:: 1 per 2 Adjusted MND
-General Bonus:: Combat Ratio +5
+Bonuses:: CR +5
 
 Pyrokinesis allows the mutant to make things around her very warm.
 This mutation may be employed in a nasty way or a benevolent way.
@@ -2019,10 +2070,11 @@ The mutant can comfortably warm organic personas in a four hex radius.
 === Restoration
 
 [horizontal]
+Category:: Uncombat
 Range:: Touch
 Duration:: Permanent
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: Combat Ratio +12, +25 on healing rolls
+Bonuses:: CR +12, +25 on healing rolls
 
 Restoration allows the mutant to heal damaged organic creatures by merely touching them with her bare skin.
 If no skin is readily exposed, the mutant must win an attack roll against the target.
@@ -2038,10 +2090,11 @@ The mutant cannot reverse to inflict damage.
 === Seizure Projection
 
 [horizontal]
+Category:: Combat
 Range:: 1h per Adjusted MND
 Duration:: Up to 5u
 Frequency:: 1 per 4 Adjusted MND
-General Bonus:: Combat Ratio +4
+Bonuses:: CR +4
 
 Seizure projection allows the mutant to induce random muscle contractions in a specific target.
 The initial muscle contractions are subtle and become progressively worse.
@@ -2067,10 +2120,11 @@ The mutant can re-attack the target with seizure projection immediately.
 === Sonar
 
 [horizontal]
+Category:: Uncombat
 Range:: 20h per Adjusted MND
 Duration:: Until Dead
 Frequency:: As Needed
-General Bonus:: Triple AWE in search or ambush
+Bonuses:: Triple AWE in search or ambush
 
 This mutation gives the mutant sonar sight.
 Sonar sight operates on the acoustic reflection of various frequencies emitted from the mutant’s consciousness.
@@ -2093,10 +2147,11 @@ Sonic attacks on the mutant do double damage and disable her sonar for 1 to 4 da
 === Sonoclasia
 
 [horizontal]
+Category:: Combat
 Range:: 2 plus Level hexes
 Duration:: Speed of Sound
 Frequency:: 1 per 2 Adjusted MND
-General Bonus:: Combat Ratio +4
+Bonuses:: CR +4
 
 This mutant can release a deadly burst of sonic energy.
 The attack is a psionically adjusted version of the mutant’s speech.
@@ -2127,10 +2182,11 @@ So a 2nd level mutant could keep two of her team mates from being blasted by son
 === Sonomimesis
 
 [horizontal]
+Category:: Uncombat
 Range:: Within Hearing
 Duration:: 2u per Adjusted MND
 Frequency:: As Needed
-General Bonus:: Combat Ratio +1, +10 vocal shenanigans
+Bonuses:: CR +1, +10 vocal shenanigans
 
 This mutation turns the mutant into a walking digital recorder.
 Perfect reproduction quality can be recorded and recreated for any audible sound.
@@ -2150,10 +2206,11 @@ The mutant could not recreate another persona’s speech pattern.
 === Suggestion
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h per Adjusted MND
 Duration:: Special
 Frequency:: 1 per Adjusted MND
-General Bonus:: Combat Ratio +5, +40 on negotiation rolls
+Bonuses:: CR +5, +40 on negotiation rolls
 
 Suggestion can press an intelligent organic persona to make choices she usually wouldn’t make.
 The mutant could speak a suggestion that this isn’t the parking space the target wants.
@@ -2175,10 +2232,11 @@ The referee can make psionic roll adjustments (+1 to +6) depending on the sugges
 === Technoclasia
 
 [horizontal]
+Category:: Defect
 Range:: 2h Radius
 Duration:: Until Dead
 Frequency:: 1 per Day
-General Bonus:: Defect, +10 on activation and accidental activation rolls
+Bonuses:: +10 on activation and accidental activation rolls
 
 Weapons discharging is a defect that causes mechanical devices to activate accidentally.
 Any device with a trigger, a button, or a detonator is capable of spontaneously activating.
@@ -2223,10 +2281,11 @@ include::ROOT:partial$articulate.adoc[]
 === Telekinesis
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 2h per Adjusted MND
 Duration:: 2u per Adjusted MND
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: Combat Ratio +5
+Bonuses:: CR +5
 
 Telekinesis allows the mutant to lift objects without touching them.
 When the mutant concentrates on an object, it will float through the air under the mutant’s control.
@@ -2285,10 +2344,11 @@ When throwing random objects at targets the most complicated ruleset to use is x
 === Telekinetic Arm
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h per Adjusted MND
 Duration:: 1u per Adjusted MND
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: Combat Ratio +5
+Bonuses:: CR +5
 
 This mutant has a telekinetic arm that can carry out fine motor actions.
 This invisible articulation can do anything from back-scratching to weapon using to pick-pocketing.
@@ -2305,10 +2365,11 @@ The mutant takes no damage, but the arm will dissipate and drop any item it is c
 === Telekinetic Flight
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: 30u per Adjusted MND
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 Telekinetic flight allows the mutant to fly through the air with the power of her mind.
 She can defy gravity by merely concentrating her psionic powers.
@@ -2329,10 +2390,11 @@ However, extreme speeds may exceed the tolerances of the mutant’s body.
 === Telempathy
 
 [horizontal]
+Category:: Uncombat
 Range:: 1h per Adjusted MND
 Duration:: 30u per Adjusted MND
 Frequency:: 1 per 6 Adjusted MND
-General Bonus:: Combat Ratio +2, +40 on negotiation rolls, +20 on vet rolls
+Bonuses:: CR +2, +40 on negotiation rolls, +20 on vet rolls
 
 Telempathy allows the mutant to project moods or feelings into the consciousness of organic personas.
 The mutant can force personas to feel pain, anger, love, hate, fear, etc.
@@ -2353,10 +2415,11 @@ Trying to make wildlife feel jealous would likely fail.
 === Teleport
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 500 km per Adjusted MND
 Duration:: Instantaneous
 Frequency:: 1 per 12 Adjusted MND
-General Bonus:: Combat Ratio +10
+Bonuses:: CR +10
 
 Teleportation transports the mutant’s body and consciousness instantly across the physical space.
 The mutant visualizes herself in the new location, and her psionic powers correct reality to her visualization.
@@ -2385,10 +2448,11 @@ include::mutations:partial$psionic_teleportation_fail.adoc[]
 === Thought Imitation
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: 4h per Adjusted MND
 Duration:: One Use
 Frequency:: As Needed
-General Bonus:: Combat Ratio +5, +42 on learning rolls
+Bonuses:: CR +5, +42 on learning rolls
 
 Thought imitation turns the mutant’s brain into a mental process tape recorder.
 By mere observation, the mutant can forge pathways in her consciousness that allow for perfect imitation.
@@ -2431,10 +2495,11 @@ For example, the mutant may start to exhibit the whiny attitude of the targeted 
 === Time Stop
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Consciousness
 Duration:: 1u per Adjusted MND
 Frequency:: 1 per 24 Adjusted MND
-General Bonus:: Combat Ratio *10
+Bonuses:: CR *10
 
 Time stop slows everything in physical space to an undetectable crawl.
 For the mutant, it appears as time has stopped around her.
@@ -2483,10 +2548,11 @@ Time stop may attract annoying creatures that are born of time-space aberrations
 === Time Tell
 
 [horizontal]
+Category:: Uncombat
 Range:: Persona Only
 Duration:: Until her time runs out
 Frequency:: Constant
-General Bonus:: Combat Ratio +2, +42 on timing rolls
+Bonuses:: CR +2, +42 on timing rolls
 
 Time tell turns the mutant into a walking atomic clock.
 She always knows the exact time of day, date, amount of time that has elapsed, duration of an event, or chronological order of any observed series of events.
@@ -2497,10 +2563,11 @@ The Time Tell mutation is multi-tasking, and she can carry out any number of the
 === Total Recuperation
 
 [horizontal]
+Category:: Combat, Uncombat
 Range:: Persona Only
 Duration:: Until Dead
 Frequency:: 1 per 12 Adjusted MND
-General Bonus:: Combat Ratio *3
+Bonuses:: CR *3
 
 Total recuperation allows the mutant to restore her body to a previously undamaged state instantly.
 The mutant repairs her traumatized tissues by comparing them to an undamaged template stored in her consciousness.
@@ -2518,10 +2585,11 @@ The mutant must be at full HPS to use total recuperation versus ageing.
 === Ventriloquism
 
 [horizontal]
+Category:: Uncombat
 Range:: 2h per Adjusted MND
 Duration:: 30u per Adjusted MND
 Frequency:: 1 per 3 Adjusted MND
-General Bonus:: Combat Ratio +1, +13 on trickery rolls
+Bonuses:: CR +1, +13 on trickery rolls
 
 Ventriloquism allows the mutant to generate acoustic waveforms using her mind.
 These sounds are generated within the mutant’s consciousness.
@@ -2544,10 +2612,11 @@ This results in the mutant appearing to lip-synch her own voice.
 === Weather Tell
 
 [horizontal]
+Category:: Uncombat
 Range:: 1 day per Adjusted MND
 Duration:: As Needed
 Frequency:: As Needed
-General Bonus:: +42 for nomad rolls
+Bonuses:: +42 for nomad rolls
 
 This mutant is intimately entwined with the meteorological nuances of her environment.
 Weather tell functions in any and all environments.
