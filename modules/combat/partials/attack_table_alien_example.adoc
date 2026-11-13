@@ -5,7 +5,7 @@
 4+<s|Skilled Bonus (Skilled)
 
 |Strike Attack
-3+<|10 * Adjusted STR
+3+<|10 * (STR + Level)
 
 |Calculation
 3+<|10 * (22 + 2) = 240
@@ -15,7 +15,7 @@ s|Skilled for Strike
 >s|240
 
 |Fling Attack
-3+<|10 * adjusted DEX
+3+<|10 * (DEX + Level)
 
 |Calculation
 3+<|10 * (15 + 2) = 170
@@ -25,7 +25,7 @@ s|Skilled for Fling
 >s|170
 
 |Shoot Attack
-3+<|10 * Adjusted INT
+3+<|10 * (INT + Level)
 
 |Calculation
 3+<|10 * (3 + 2) = 50
@@ -49,14 +49,14 @@ s|Raw for Strike
 
 
 |Fling Attack
-3+<|Adjusted DEX
+3+<|(DEX + Level)
 
 s|Raw for Fling
 2+|
 >s|17
 
 |Shoot Attack
-3+<|Adjusted INT
+3+<|(INT + Level)
 
 s|Raw for Shoot
 2+|(No Shoot attack - demo only)

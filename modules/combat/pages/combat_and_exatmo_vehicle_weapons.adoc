@@ -471,8 +471,8 @@ In combat, the hull absorbs damage decreasing Defence Rating.
 
 NOTE: *The Hull Defence Rating (DEF) protects the Hull. Once the Hull DEF is is less than 420, the Hull takes direct damage rolls.*
 
-Defensive ECM can increase the spacecraft’s AR against attack rolls.
-The increase in AR is a transient electronic deception and does not alter the Hull DEF.
+Defensive ECM can increase the spacecraft’s DEF against attack rolls.
+The increase in DEF is a transient electronic deception and does not alter the Hull DEF.
 
 == Defensive ECM
 Electronic countermeasures (ECM) deceptively manipulate the electromagnetic spectrum to defend the ship.
@@ -488,7 +488,7 @@ If the spacecraft has only 1 ECM unit, the players must decide how to use it eac
 ECM can be used to attack or defend. 
 For more info about attack ECM jump to <<_attack_ecm,Attack ECM>>
 
-=== AR Boost
+=== DEF Boost
 Most often, defensive ECM will be used to make the ship harder to attack.
 ECM creates false images of velocity, trajectory, rotation, size, etc.
 All of this electronic tom-foolery results in a +200 bonus to the ship’s Defence Rating per computer level.
@@ -526,7 +526,7 @@ Damaged ECM drops its effectiveness by the percentage indicated on the Extent of
 For example, ECM at 50% efficiency can only offer +100 per computer level to the ship’s Defence Rating.
 
 == Shields
-The shields protect the hull AR and hull from energy and kinetic attacks.
+The shields protect the hull DEF and hull from energy and kinetic attacks.
 A defensive shield may be a force field or a structural mechanism. 
 Both mechanisms work by distributing the destructive force across the entire hull.
 This faux scientific diffusion effectively dampers the damage.
@@ -566,7 +566,7 @@ However, to prevent boarding or airlock intrusion, a mounted gun can be very eff
 ** mercenaries do this best
 * has unlimited ammo to defend against boarding
 ** ammo can be limited to forward plot
-* has an AR equal to the ship’s hull
+* has a DEF equal to the ship’s hull
 ** including ECM and shields
 * damaged by Hull DEF damage or airlock damage location
 

@@ -28,19 +28,19 @@ The naked Defence Rating is the persona’s base Defence Rating when wearing no 
 In this case, naked means wearing no armour and not running around nude.
 Armour increases the persona’s Defence Rating and has other effects on the persona.
 
-.Naked Anthro AR = 500 + 6 * DEX
+.Naked Anthro DEF = 500 + 6 * DEX
 ****
-An anthro with a 15 DEX would have an AR of 590 when naked.
-****
-
-.Naked Alien AR = 3d100 + 500
-****
-Alien AR is random and unaffected by body parts or hide type.
+An anthro with a 15 DEX would have a DEF of 590 when naked.
 ****
 
-.Naked Robot AR = 700 
+.Naked Alien DEF = 3d100 + 500
 ****
-Robots have no AR adjustment. Easy to hit, hard to kill.
+Alien DEF is random and unaffected by body parts or hide type.
+****
+
+.Naked Robot DEF = 700
+****
+Robots have no DEF adjustment. Easy to hit, hard to kill.
 ****
 
 The persona’s Defence Rating includes all the dekes and dodges that one would use to avoid getting damaged in combat.
@@ -84,7 +84,7 @@ While it seems overly apparent, the persona must be wearing the armour to get th
 
 Restrictiveness::
 The more restrictive the armour the less the of the persona’s natural Defence Rating can be used.
-The AR Bonus gives and the <<_restrictiveness,Restrictiveness>>taketh away.
+The DEF Bonus gives and the <<_restrictiveness,Restrictiveness>>taketh away.
 
 Wate::
 The armour wate indicates the wate of the suit of armour in kilograms.
@@ -92,8 +92,8 @@ The wate of armour is excluded from the persona’s wate allowance when she is w
 If the persona is carrying her armour, the armour wate increases the wate she is carrying.
 
 A suit of leather armour would have a wate of 3 kilograms.
-A persona carrying her leather armour increases her wate allowance by 3 kg and does not get an Defence Rating bonus.
-A persona wearing her leather armour gets an Defence Rating bonus of +50, and there is no impact on her wate allowance.
+A persona carrying her leather armour increases her wate allowance by 3 kg and does not get a Defence Rating bonus.
+A persona wearing her leather armour gets a Defence Rating bonus of +50, and there is no impact on her wate allowance.
 
 Cost::
 Self explanatory.
@@ -264,7 +264,7 @@ Restrictiveness can reduce the persona’s Defence Rating by removing a persona�
 Restrictive armour prevents the persona from dodging and twisting to avoid damage.
 Strength can overcome this restrictiveness penalty.
 
-.Armoured Anthro AR = 500 + AR Bonus + (6 - Restrictiveness) * DEX
+.Armoured Anthro DEF = 500 + DEF Bonus + (6 - Restrictiveness) * DEX
 ****
 I don’t even feel like doing this arithmetic.
 ****
@@ -296,7 +296,7 @@ Inhospitable environments will destroy armour as quickly as any other mundane eq
 
 Unattended armour will damage.
 Whatever damage that the persona takes, the armour will take also.
-Armour has one hit point per point of AR.
+Armour has one hit point per point of DEF.
 A suit of unmaintained studded armour could withstand 575 hit points of damage before being wrecked.
 At zero hit points, the armour loses Defence Rating and structural integrity.
 
@@ -320,9 +320,9 @@ Leather armour for a 350 kg alien would have a wate of 15 kg.
 The first thing that referees will realize is that personas like attacking things that she has not prepared to be attacked.
 These include doorknobs, walls, windows, car wheels, and a host of other things that no one can foresee.
 
-The following tables do not reflect combat armour ratings.
-These armour ratings are for targeting uncombat targets, like those described above.
-The tables below are guidelines for assigning an Defence Rating (DEF)  to those items that typically do not have one.
+The following tables do not reflect combat defence ratings.
+These defence ratings are for targeting uncombat targets, like those described above.
+The tables below are guidelines for assigning a Defence Rating (DEF)  to those items that typically do not have one.
 
 include::combat:partial$defence_rating_and_target_size.adoc[]
 

@@ -95,8 +95,8 @@ The arm may spontaneously attack personas who the owner speaks harshly of or dis
 Whenever the persona gets angry or raises her voice, a 2% chance of the arm will go flying into action.
 There is no method of communication with this robot. 
 It only expresses its love by attacking the persona’s enemies.
-During combat, the arm fights in front of its owner and increases her AR by 75.
-The arm attacks twice per unit, has an AR of 900, and can move at ten h/u (via anti-gray).
+During combat, the arm fights in front of its owner and increases her DEF by 75.
+The arm attacks twice per unit, has a DEF of 900, and can move at ten h/u (via anti-gray).
 Unlike other robots, this one is destroyed when it reaches 0 HPS,
 The arm of ephro will start with 10-100 (10d10) Hit Points.
 
@@ -655,7 +655,7 @@ Value:: 6000
 The rocket launcher is a shoulder-mount directing tube that fires a tactical micro missile.
 The missile’s warhead explodes like a shrapnel grenade with a two hex radius of effect.
 Like all other area of effect weapons, the firer targets a hex.
-The target hex has an Defence Rating of 600, and a miss uses the grenade miss table.
+The target hex has a Defence Rating of 600, and a miss uses the grenade miss table.
 The typical grenade area of effect carnage follows.
 
 :art: rocket_launcher_shells..png
@@ -693,7 +693,7 @@ include::hardware:partial$rocket_launcher_specials.adoc[]
 Auto strike::
 A computerized targeting sight allows the firer to attack solitary targets with ease.
 The player can choose to hit a target hex for the usual effect.
-If the player target’s a solitary persona (to hit for triple damage), the target’s AR cannot be higher than 600.
+If the player target’s a solitary persona (to hit for triple damage), the target’s DEF cannot be higher than 600.
 Direct hits inflict triple damage and have no area of effect damage
 Auto strike increases the value of the rocket launcher by 5000000.
 

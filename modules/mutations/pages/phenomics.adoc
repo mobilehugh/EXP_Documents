@@ -7,114 +7,7 @@ The changes can range from oversized ears to wings to disgusting faux organs.
 Even the most cursory vet exam would expose this mutant as different.
 In short phenomic mutations always have a ‘tell’ that makes the persona different.
 
-== Parameters
-Each mutation has certain properties that describe what it is and how it affects play.
-The attributes of each mutation are explained in the following paragraphs.
-Not only should the basic feature of a mutation be recorded, but the mutation number and the page number where the mutation can be found.
-
-=== Range
-The range of a mutation indicates how far away the effects of the mutation can be delivered to a target.
-Any exception to this meaning of mutation range will be specified in the mutation.
-Many mutations can affect targets hexes away;
-others require contact;
-and some have a radius of effect.
-Ranges are not devoted solely to offensive mutations, and even defensive mutations may be critically affected by range limits.
-
-The intensity of a mutation cannot be regulated, and neither can its area of effect.
-Only a single target mutation can be adjusted for different ranges from the persona.
-Mutations that have areas of effect will indiscriminately affect all targets in this area of effect.
-
-Nothing can stop a mutation which travels directly from one mind to another.
-Psionic mutations like: ESP, gyrokinesis, and telekinesis can pass through any barrier if the mutant has proof that the target exists.
-However, phenomic mutations are often limited by terrain, and the persona must be able to see or touch the target.
-Phenomic mutations which manipulate the environment, such as mental blast, or launchable quills, are subject to terrain effects.
-
-==== Distance
-The most common is the ranged mutation.
-Ranged mutations can be directed at any target within the range of the mutant.
-The range is determined by a specific attribute and the EXPS level of the attacker.
-In the case of phenomic mutations there are a wide variety of attributes that can determine range: CON, DEX or STR.
-For the author’s convenience all examples below use Mind (MND).
-
-For example, a mutation may have a range of one hex @ MND.
-This means one hex per point of Mind and, with a 12 MND, a mutant could use the mutation 12 hexes away.
-There are variations to this common range format.
-Two hexes per MND would yield a 24 hex range with a 12 MND.
-One hex per four MND would yield a three hex range with a 12 MND.
-If the range includes MND and experience level, then the two are added.
-A fourth level persona with a 12 MND would have a 16 hex range with a mutation that was listed as one hex per (MND + level).
-
-==== Area of Effect
-Radius ranges are spherical and use the location hex of the persona for the centre.
-Thus a mutation with a ten hex radius of effect would contain all targets within ten hexes, including above and below the mutant.
-The area of effect would include everything in the 20 hex diameter sphere.
-
-==== Touch
-Touch mutations are self-explanatory.
-The mutant must touch the target to inflict the effects of the mutation, whether benevolent or not.
-The touch must be hand, paw or claw to skin, fur or scales.
-Some touch mutations can be conducted through material that would be considered conductive, like metal.
-Some touch mutations may still be effective if derma-to-derma contact cannot be made.
-They may be mutations with very short ranges, several millimetres, and a successful attack roll may be all that is needed to get within range.
-
-=== Duration
-The duration of a mutation almost always refers to the length of time that the mutation effects last.
-If the mutant has telekinetic flight, she can stay aloft for the duration of the mutation.
-Mutations usually require complete concentration on the part of the mutant.
-If a mutation obviously does not require complete concentration on the part of the mutant, then the concentration need not be maintained.
-Mutations that are always in constant use do not require a significant portion of the mutant’s mental or physical resources.
-
-Mutations usually last so many units per point of MND, and they may also be affected by the persona’s experience level.
-If a mutation has a duration of one unit per MND, then the mutant can make the mutation last 12 units if she has a 12 MND.
-Other variations of duration exist, and they all function identically to the range variations discussed earlier, except that units replace hexes.
-Mutations with random durations are determined each time the mutation is employed.
-Such mutations indicate that the mutant has set in motion physical effects which she has no control over.
-
-==== Until Saves
-If the duration is “until saves,” the mutant may continue the attack until the victim saves or is dead.
-
-==== Permanent
-When the duration says “permanent.” it indicates that the effects won’t dissipate on their own accord.
-For instance, permanent healing of HPS means that they will not disappear after a certain number of units, but it does not mean that the mutant has a cache of indestructible HPS.
-
-==== Constant
-Most mutations can be stopped whenever the mutant sees fit, except those mutations that have a ”`constant`” duration or an ”`until dead`” duration.
-These mutations will function until the mutant is dead or has the mutation excised.
-
-=== Frequency
-The frequency of the mutation indicates how often it can be used during a daily cycle of the mutant.
-The frequency assumes a 24 hour day (see Chapter 12: Time and Movement) where the mutant sleeps around eight hours each day.
-If the mutant is in a situation where there is no planetary rotation or one where there is no 24-hour cycle, a complete rest (eight hours`’ sleep) will be equivalent to the completion of a daily cycle.
-
-Most mutations can be used several times a day, depending on the MND and level of the mutant.
-The more powerful the mutation, the less frequently it can be used each day.
-If the frequency of a mutation is one per four MND, a persona with a 12 MND could employ it three times each day and would have to rest eight hours before using it again.
-For this type of mutation, rest for the brain is essential.
-Unless otherwise stated, a mutation can be used at least once a day.
-This includes mutations which have very low frequencies (e.g.
-One per 13 MND).
-This mutation could be used once a day, even by a persona with an MND of six.
-
-Mutations that can be used more frequently are labelled “as needed” and just as the title states.
-The mutant can use such a mutation as it is needed.
-“Constant” mutations are usually defects, and they constantly project their effects regardless of what the mutant is doing.
-Constant mutations always function whether the mutant is asleep or awake.
-
-Mutations cannot be stored.
-A mutant cannot use a mutation more often one day than the next because she saved some uses from the previous day.
-The mutant may use the mutation no more than the frequency states, and each use is cumulative until she rests.
-Mutations cannot be compounded to double an effect.
-The mutant can only use one mutation at a time unless one of the mutations has a ”`constant`” or ”`as needed`” frequency.
-
-The mutant has used a mutation whenever the effects start.
-Even if the target saves and the mutation has no effect, the mutation has been used.
-If the mutant voluntarily stops the mutation, then it has been used.
-If the mutant switches from one target to another, this will usually indicate another use.
-
-=== Bonuses
-The bonuses listing of the mutation could contain several arcane bits of information that are related to the use of the mutation in unexpected circumstances.
-The mutation may indicate a bonus for task rolls, attribute rolls or negotiation rolls.
-Any simple effect that the mutation has on the dice rolling of the persona should be included beside the bonuses listing.
+See xref:mutations:a_introduction.adoc#_parameters[Mutation Parameters,window=_blank, rel="noopener noreferrer"] for range, duration, frequency and bonuses.
 
 include::mutations:partial$phenomic_tables_web.adoc[]
 
@@ -124,7 +17,7 @@ include::mutations:partial$phenomic_tables_web.adoc[]
 
 [horizontal]
 Category:: Combat
-Range:: 1h per Adjusted STR
+Range:: 1h per (STR + Level)
 Duration:: Constant
 Frequency:: Alternating Units
 Bonuses:: CR +2
@@ -161,15 +54,12 @@ Adaptation allows the mutant to develop immunity to any threat from the physical
 Her body can adapt to fire, physical force, poison, radiation, and diseases.
 Adaptation is automatic, and her body will attempt to transform itself to prevent further damage.
 If an attack harms the mutant, there is a chance that her body will adapt to the attack.
-
 The mutant’s Constitution and Intelligence determine if she will adapt to an attack.
 
-[discrete]
-=== Adaptation Chance
-.% chance = CON + INT + EXPS Level
-****
-A 4th level mutant with a 12 CON and a 11 INT has a 27% chance of adaptation.
-****
+
+.*Adaptation Chance*
+* *% chance = CON + INT + Level*
+* 4th level, CON 12, INT 11 = 27% chance of adaptation
 
 If the player wins the roll, the persona will adapt to the threat.
 A bacterial infection could be pushed out through her skin or redirected to her stomach for digestion.
@@ -208,14 +98,12 @@ The blob of fat will always be harmless, noticeable, and embarrassing.
 If surgically removed, it will aggressively grow back in one to four (1-4) days.
 The growth may have a CHA penalty of minus 0 to 3 (d4-1) points, but no other penalties can apply.
 If the adipomegaly is on the mutant’s face, they will not suffer any AWE penalty or attack roll penalty.
+This mutation was formerly called Fat Cell Accumulation
 
-NOTE: This mutation was formerly called Fat Cell Accumulation
-
-include::mutations:partial$a_defect_disclaimer.adoc[]
 
 NOTE: How did you get that hump? What hump?
 
-include::combat:partial$hit_location_anthro.adoc[]
+include::mutations:partial$mutation_location_web.adoc[]
 
 === Arespirosis
 
@@ -254,12 +142,10 @@ Each extra arm has a penalty of -1 on the mutant’s Dexterity attribute.
 A mutant with two extra arms and a 14 DEX would reduce her DEX to 12.
 This penalty is the same regardless of the location of the extra arm.
 
-include::combat:partial$hit_location_snap.adoc[]
-
 Surgically removing the extra arms does not improve her confused Dexterity attribute.
-The mutation mental control over physical state will allow the mutant to control these autonomous arms.
+The mutation xref:mutations:psionics.adoc#_physiostasis[Physiostasis, window=_blank, rel="noopener noreferrer"] will allow the mutant to control these autonomous arms.
 
-include::mutations:partial$a_defect_disclaimer.adoc[]
+include::mutations:partial$mutation_location_web.adoc[]
 
 === Attractemesis
 
@@ -281,7 +167,7 @@ Attractemesis works best on wildlife, but more intelligent personas can succumb 
 The attracted persona will seek out the mutant.
 When the persona finally finds the mutant, the creature will realize neither food nor a mate is present.
 If the attracted persona wins a poison roll, she will most likely wander off disappointed.
-The intensity of the poison is equal to the mutant’s adjusted Charisma.
+The intensity of the poison is equal to the mutant’s (CHA + Level).
 It is also possible the attracted persona may find something else to eat at the same time.
 The attracted persona will hang around until they finally win their poison roll.
 
@@ -289,8 +175,7 @@ Attractemesis should not result in a constant swarm of giant deadly fauna attack
 The referee should play the mutation as an annoying inconvenience, with occasional episodes of violence.
 It is also possible that nothing is nearby to be attracted to the mutant.
 Attracted personas usually show up when they will complicate things the most.
-
-NOTE: Formerly called Attraction Odour
+This mutation was formerly called Attraction Odour
 
 include::hardware:partial$effected_persona_type.adoc[]
 
@@ -299,8 +184,8 @@ include::hardware:partial$effected_persona_type.adoc[]
 [horizontal]
 Category:: Uncombat
 Range:: Persona Only
-Duration:: 1 minute per Adjusted CON
-Frequency:: 1 per 4 Adjusted STR
+Duration:: 1 minute per (CON + Level)
+Frequency:: 1 per 4 (STR + Level)
 Bonuses:: +15 on wate related rolls
 
 The mutant can equilibrate the density of her body to match that of the surfaces she is standing on.
@@ -331,8 +216,7 @@ The higher the number, the less damage that is inflicted and the further she fli
 The mutant reduces damage by 10% and flies one hex per point the 1d6 rolls.
 If the player rolls a three, the persona’s damage decreases by 30%, and she lands three hexes away.
 Decreasing density has been used to get a persona across a crevasse.
-
-NOTE: This mutation was formerly called Density Manipulation.
+This mutation was formerly called Density Manipulation.
 
 === Carapace
 
@@ -349,10 +233,10 @@ A carapace makes the mutant more challenging to hit and damage.
 The thicker the carapace, the more defence is offered to the mutant.
 
 The Defence Rating adjustment changes the mutant’s base Defence Rating.
-With a partial carapace, the mutant’s base AR would increase by 99.
+With a partial carapace, the mutant’s base DEF would increase by 99.
 
-A partial carapace has an Defence Rating adjustment of +99.
-A mutant with a partial carapace would have a base AR of 599.
+A partial carapace has a Defence Rating adjustment of +99.
+A mutant with a partial carapace would have a base DEF of 599.
 Beyond partial carapace, the mutant cannot wear any other armour.
 
 If an attack roll is successful, the carapace will reduce the damage she takes.
@@ -369,7 +253,8 @@ The carapace will get thicker as the carapace table roll increases.
 
 A mutant cannot thin her carapace over time.
 
-include::mutations:partial$phenomic_carapace.adoc[]
+include::mutations:partial$phenomic_carapace_web.adoc[]
+
 
 === Chameleon
 
@@ -456,7 +341,7 @@ If the mutant’s defence was previously 500 her defence is now 650.
 
 Often mutants with this mutation are averse to wearing armour out of pride or comfort
 
-include::mutations:partial$phenomic_dermatofortia.adoc[]
+include::mutations:partial$phenomic_dermatofortia_web.adoc[]
 
 === Diminished Sense
 
@@ -467,16 +352,13 @@ Duration:: Until Dead
 Frequency:: Constant
 Bonuses:: None
 
-include::mutations:partial$a_defect_compassion.adoc[]
-
-Diminished senses are serious disabilities that the persona is challenged with.
-Effective gaming with a diminished sense defect should be rewarded with large amounts of experience points.
-The defects are difficult to role-play around, and the referee must be constantly aware of them.
+Diminished sense is challenging defect for the persona.
+Effective gaming with a diminished sense should be rewarded with large amounts of experience points.
+These defects are difficult to role-play around, and the referee must be constantly aware of them.
 Cures, or replacement parts for the persona should be one of a priority of one of the referee’s earlier scenarios.
 This mutation is a defect and does not count as a start up mutation.
 The player receives another roll on the Phenomic Mutation Table.
 
-include::mutations:partial$a_defect_disclaimer.adoc[]
 
 include::mutations:partial$phenomic_diminished_sense.adoc[]
 
@@ -549,8 +431,8 @@ The mutant’s Awareness score is reduced by 4 points and her Dexterity score is
 [horizontal]
 Category:: Uncombat
 Range:: Persona Only
-Duration:: 3u per Adjusted CON
-Frequency:: 1 per 4 Adjusted CON
+Duration:: 3u per (CON + Level)
+Frequency:: 1 per 4 (CON + Level)
 Bonuses:: CR +3
 
 This mutant can increases or decrease her wate at will.
@@ -594,7 +476,7 @@ The mutant can still eat and enjoys regular food.
 
 [horizontal]
 Category:: Combat
-Range:: 1/2h per Adjusted STR
+Range:: 1/2h per (STR + Level)
 Duration:: Not Applicable
 Frequency:: Alternating Units
 Bonuses:: CR +4, +13 on resuscitation rolls
@@ -626,7 +508,7 @@ Electricity based attacks inflict half damage on this mutant.
 
 [horizontal]
 Category:: Combat
-Range:: 1h per Adjusted STR
+Range:: 1h per (STR + Level)
 Duration:: Not Applicable
 Frequency:: Alternating Units
 Bonuses:: CR +3
@@ -652,7 +534,7 @@ Cold based attacks inflict normal damage on a mutant with this mutation.
 Category:: Combat
 Range:: Up to 5h radius
 Duration:: 0-3 (1d4 - 1) units
-Frequency:: 1 per 5 Adjusted CON
+Frequency:: 1 per 5 (CON + Level)
 Bonuses:: CR *3
 
 This mutant can release a noxious spume of gas from her mouth or some other orifice.
@@ -713,8 +595,8 @@ Targets remain unconscious for 1 minute per level of intensity of the attack.
 [horizontal]
 Category:: Combat, Uncombat
 Range:: Persona Only
-Duration:: 1u per Adjusted CON
-Frequency:: 1 per 4 Adjusted CON
+Duration:: 1u per (CON + Level)
+Frequency:: 1 per 4 (CON + Level)
 Bonuses:: CR *2
 
 The mutant’s nervous system has highly conductive neurons, both centrally and peripherally.
@@ -735,7 +617,7 @@ Haste does not work up to normal encumbrance, and fails at burdened or lift only
 
 [horizontal]
 Category:: Combat
-Range:: 1 per Adjusted CON
+Range:: 1 per (CON + Level)
 Duration:: Constant
 Frequency:: Alternating Units
 Bonuses:: CR +10
@@ -893,7 +775,7 @@ This mutant’s eyes are enormous and sit closer to her ears than her nose.
 
 Telescopic::
 The mutant can easily discern text at great distances.
-The mutant’s heightened vision has a range of 10 hexes per point of adjusted AWE.
+The mutant’s heightened vision has a range of 10 hexes per point of (AWE + Level).
 So a second level mutant with a 12 AWE could easily discern letters at 14 hexes.
 When using her telescopic eyes, the mutant has +100 on sniping attack rolls.
 The mutant cannot use the telescopic vision with scopes or visual aids.
@@ -909,7 +791,7 @@ The mutant’s eyes glow bright red in both darkness and daylight.
 
 X-Ray::
 X-Ray vision employs radioactive beams that penetrate otherwise opaque materials.
-The range of x-ray vision is one hex per 8 points of adjusted Awareness.
+The range of x-ray vision is one hex per 8 points of (AWE + Level).
 The mutant can look at bones through flesh, look through concrete walls, and find weapons at a glance.
 The mutant cannot see through metal, discern text on a page, or read a computer monitor.
 Using X-ray vision adds +30 to any rolls that would benefit from an x-ray view.
@@ -922,8 +804,8 @@ The flesh around this mutant’s eyes is thickened and leathery, and her eyeball
 [horizontal]
 Category:: Combat, Uncombat
 Range:: 1h per Unit Duration
-Duration:: 1u per 3 Adjusted STR
-Frequency:: 1 per 2 Adjusted CON
+Duration:: 1u per 3 (STR + Level)
+Frequency:: 1 per 2 (CON + Level)
 Bonuses:: CR +3
 
 Smoke screen allows the mutant to create a thick smoke that pours off her back.
@@ -953,7 +835,7 @@ In situations of extreme stress, the mutant may involuntarily deploy her smoke s
 Category:: Combat
 Range:: 2 + Level hexes
 Duration:: Speed of Sound
-Frequency:: 1 per 2 Adjusted CON
+Frequency:: 1 per 2 (CON + Level)
 Bonuses:: CR + 3
 
 Laryngoclasia (sonic attack) allows the mutant to create noises so loud they are destructive.
@@ -965,10 +847,10 @@ A 2nd level mutant has a radius of effect of 4 hexes.
 
 include::mutations:partial$phenomic_laryngoclasia.adoc[]
 
-.*4h Range Example*
-* 0h to 1h = 4-32 (immediate)
-* 1h to 4h = 3-24 (ranged)
-* 5h = 2-16 (past)
+.*3rd Level Mutant Example*
+* 0h to 1h = 4d8 damage, adjacent
+* 2h to 4h = 3d8 damage, in range
+* 5h = 2d8 damage, distant
 
 The acoustic energy damages every target in the area of effect.
 Fellow expedition members are also affected by the sonar attack.
@@ -979,14 +861,11 @@ Laryngoclasia can shut down organic and inorganic sensors.
 A percentile roll less than or equal to the damage will deafen the target.
 Organic systems remain deaf for 1-8 (1d8) hours, but inorganic audio systems must await repair.
 
-
-
-
 === Launchable Quills
 
 [horizontal]
 Category:: Combat
-Range:: 1h per Adjusted STR
+Range:: 1h per (STR + Level)
 Duration:: Special
 Frequency:: Special
 Bonuses:: Special
@@ -1021,9 +900,9 @@ If the quills are poisonous, the combat ratio triples.
 
 [horizontal]
 Category:: Combat
-Range:: 1h per Adjusted CHA
+Range:: 1h per (CHA + Level)
 Duration:: Special
-Frequency:: 1 per 4 Adjusted CON
+Frequency:: 1 per 4 (CON + Level)
 Bonuses:: CR *2
 
 This mutant is in a symbiotic relationship with subdermal light-emitting organisms.
@@ -1040,7 +919,7 @@ The symbiotic relationship between the mutant and organisms requires them to glo
 .*Flashlight*
 The mutant can organize the organisms to locate in a specific part of her body, and she can emit a beam of light from there.
 The flashlight is often the mutant’s forehead, but sometimes the palm or knee has been used.
-If desired, the mutant can project a beam emitting from her forehead, extending straight ahead for one hex per point of adjusted STR.
+If desired, the mutant can project a beam emitting from her forehead, extending straight ahead for one hex per point of (STR + Level).
 The mutant can produce the flashlight as needed.
 
 NOTE: This mutation variation was previously called “flesh light.” The adult toy market now has this moniker firmly in its grip.
@@ -1055,7 +934,7 @@ The intensity of the attack is equal to the mutant’s Charisma attribute.
 Blindness will last 1 to 6 minutes (30 units per minute).
 If she wins the Awareness roll, she will suffer blurry vision for 2-20 (2d10) units.
 Targets with blurred vision have tearing eyes, light sensitivity, and can barely function.
-Targets with blurred vision suffer -200 on attack rolls, -200 on AR, +42DD on sight related task rolls, half movement, etc.
+Targets with blurred vision suffer -200 on attack rolls, -200 on DEF, +42DD on sight related task rolls, half movement, etc.
 
 :art: refrigerator_man.png
 :width: 250px
@@ -1093,12 +972,13 @@ Any hardware greater than 10% of the mutant’s wate is not appropriate.
 The players should balance the randomness of the TOY system and the usefulness of the device.
 A player persona with a fusion grenade in there head is funny but should not count as a phenomic mutation.
 
+.*Mechanical Insertion Checklist*
+. Determine xref:hardware:a_introduction.adoc#_toy_type[hardware,window=_blank, rel="noopener noreferrer"].
+. Determine xref:combat:hit_locations.adoc[location,window=_blank, rel="noopener noreferrer"].
+
 For experienced players embracing the randomness of TOYS can be a lot of fun.
 If a persona’s mechanical insertion were a spaceship, a vehicle, a combot or an artillery piece, she would become a vital part of the campaign.
 
-.*Mechanical Insertion Checklist*
-. Determine insertion xref:hardware:a_introduction.adoc#_toy_type[Type,window=_blank, rel="noopener noreferrer"]
-. Determine insertion xref:combat:hit_locations.adoc[Location,window=_blank, rel="noopener noreferrer"]
 
 :art: mechanical_parts_limbs.png
 :width: 250px
@@ -1118,8 +998,6 @@ Duration:: Until Removed
 Frequency:: Constant
 Bonuses:: CR halved
 
-include::mutations:partial$a_defect_compassion.adoc[]
-
 Somewhere along the line, fate led to replacing one or more of the mutant’s limbs with blatantly defective mechanical devices.
 Scraping metal levers and gears wind into the mutant’s nerves and muscles.
 A prosthesis is subject to rust, and malfunctions, and breakdowns.
@@ -1128,8 +1006,6 @@ The chance of malfunction is determined by xref:uncombat:sphincter_rolls.adoc[Sp
 The referee may check for malfunction monthly or when the prosthesis takes damage in combat.
 A prosthesis does not alter the mutant’s WATE or attributes.
 As much of a noisy hassle, the mechanical prosthesis represents it is better than no limb at all.
-
-include::mutations:partial$a_defect_disclaimer.adoc[]
 
 include::mutations:partial$phenomic_mechanical_prosthesis.adoc[]
 
@@ -1148,8 +1024,7 @@ Continually eating food does not make this mutant obese.
 No matter how much she eats, she appears emaciated.
 For example, one food culture per day sustains an average medium-sized persona.
 This mutant needs three food cultures per day just to stay alive.
-
-NOTE: This mutation was formerly called Increased Metabolism.
+This mutation was formerly called Increased Metabolism.
 
 === Mitosis
 
@@ -1216,13 +1091,13 @@ Extra eyes one, three and five are fully functional eyes.
 Each fully functional eye adds one to the mutant’s Awareness.
 Extra eyes two, four and six are blind cosmetic oddities.
 
-Feet/Toes::
+Feet::
 The player chooses whether the mutant has either extra toes or extra feet.
 The mutant will have either an extra foot at the end of each leg or 1-3 (1d3) extra toes.
 These extra parts frustrate her haberdasher, but otherwise, neither harm nor help the mutant.
 While not a defect, the player should roll another multiple body part or an entirely new mutation.
 
-Hands/Fingers::
+Hands::
 The player chooses whether the mutant has either extra fingers or extra hands.
 The mutant will have either an extra hand at the end of each arm or 1-3 (1d3) extra fingers.
 These extra parts frustrate her haberdasher, but otherwise, neither harm nor help the mutant.
@@ -1335,7 +1210,7 @@ The ink can also be violently ejected in a liquid environment as a distracting s
 The screen will dissipate in 3 to 30 units.
 The mutant can also spray her ink jet on land as a blinding attack against a single target.
 The land attack has a range of 6 hexes, and a poison intensity (blinding), equal to half the attacker’s CON.
-The mutant will always have enough ink to write with, but can only eject it once a day per 4 points of adjusted CON.
+The mutant will always have enough ink to write with, but can only eject it once a day per 4 points of (CON + Level).
 This mutation increases the mutant’s CR by 2.
 
 Iron Stomach::
@@ -1355,7 +1230,7 @@ This amazing mutation absorbs ambient light, but has no effect on lazers, and ot
 This creates a blob of darkness around the mutant that grows by one hex per experience level.
 The amount of darkness can be controlled by the mutant, and gives her a bonus of +15 on sneaky PT rolls in the dark.
 
-Mental Attack Absorbing::
+Psionic Absorbing::
 This protective organ absorbs those waveforms which travel from thinkspace to thinkspace.
 This has the effect of absorbing mental attacks against the mutant’s thinkspace.[.Apple-converted-space]  The organ is reflected in a doubled MND when saving against a mental attack.
 This organ is not intelligent, and will also interfere with beneficial psionic mutation effects.
@@ -1396,7 +1271,7 @@ The oversized body part will challenge the mutant with clothing, armour, and soc
 Oversized body part is not a defect.
 There is an associated benefit to the persona for their oversized body part.
 
-include::mutations:partial$phenomic_oversized_part.adoc[]
+include::mutations:partial$phenomic_oversized_part_web.adoc[]
 
 === Phosphorescence
 
@@ -1412,10 +1287,8 @@ The player can choose the colour, or generate it at xref:hardware:appearance.ado
 The light produced is barely enough to read by, but it is enough to be easily seen at night.
 All but the most extreme efforts to contain the glow fail.
 The mutant also registers as a mild radiation anomaly.
+This mutation was formerly called Phosphorescent Skin.
 
-NOTE: This mutation was formerly called Phosphorescent Skin.
-
-include::mutations:partial$a_defect_disclaimer.adoc[]
 
 === Photosynthesis
 
@@ -1437,8 +1310,7 @@ The essential nutrients gently ooze along her internal sap lines.
 When getting restful periods of sleep in bright light, the mutant heals five times faster than other personas.
 If this is an anthro mutation, this mutant bleeds out at half the other anthro mutants’ speed.
 Damage from cold or heat-based attacks adds 1/2 damage if the mutant.
-
-NOTE: This mutation was formerly called Photosynthetic Skin.
+This mutation was formerly called Photosynthetic Skin.
 
 === Pockets
 
@@ -1464,14 +1336,14 @@ A 100kg mutant can store 5kg of equipment.
 [horizontal]
 Category:: Uncombat
 Range:: Persona Only
-Duration:: 1u per Adjusted STR
-Frequency:: 1u per Adjusted CON
+Duration:: 1u per (STR + Level)
+Frequency:: 1u per (CON + Level)
 Bonuses:: CR +3
 
 Pressurized body combines rapid gas production, inflatable body cavities, and resilient skin to increase her body’s internal pressure.
 Increasing her body pressure does not harm the mutant.
 Pressurizing her body protects her from concussive, crushing, and force-based attacks.
-The mutant can fall 1h per Adjusted STR and sustain no falling damage.
+The mutant can fall 1h per (STR + Level) and sustain no falling damage.
 Falling damage is reduced by half.
 Strike attacks, explosions, pressure waves, and vehicle crashes all halve the damage inflicted.
 Pressurized body protects against high-pressure atmospheres and low-pressure atmospheres.
@@ -1487,7 +1359,7 @@ The cavity will heal like any other wound, and the mutant can continue to use th
 
 [horizontal]
 Category:: Combat
-Range:: 1h per Adjusted AWE
+Range:: 1h per (AWE + Level)
 Duration:: Not Applicable
 Frequency:: Alternating Units
 Bonuses:: CR +5
@@ -1521,7 +1393,7 @@ This mutation quickly knits tissues like bone, skin and muscle back together aft
 Regeneration works well on burnt skin, repairing both acidic and flame damage quickly.
 
 Regeneration restores hit points every unit (2 seconds) whether the mutant is in combat or not.
-The mutant heals one hit point for every 5 points of adjusted Constitution every unit.
+The mutant heals one hit point for every 5 points of (CON + Level) every unit.
 For example, a 4th level mutant with a 16 CON would heal 4 HPS every unit.
 She will quickly regenerate to HPM, appearing as good as new.
 
@@ -1540,7 +1412,7 @@ Massive regeneration can be done voluntarily by the mutant at any time.
 The body will instinctively carry out massive regeneration if the mutant’s HPS total drops below zero.
 Ongoing regeneration is subtle, but massive regeneration is disgusting, violent, loud and messy.
 
-Massive regeneration heals two HPS per adjusted CON.
+Massive regeneration heals two HPS per (CON + Level).
 A 4th level mutant with a 10 CON could massively regenerate 28 HPS.
 
 === Rubbery Skin
@@ -1595,8 +1467,8 @@ Rust damage is catastrophic for robots, and most robots will fall back to ranged
 [horizontal]
 Category:: Uncombat
 Range:: Persona Only
-Duration:: 1 min per Adjusted CHA
-Frequency:: 1 per 3 Adjusted CON
+Duration:: 1 min per (CHA + Level)
+Frequency:: 1 per 3 (CON + Level)
 Bonuses:: None
 
 The mutant can force the molecules of her body to snuggle closer together or drift further apart.
@@ -1607,7 +1479,7 @@ The mutant’s equipment is unaffected by this transformation resulting in wardr
 
 The mutant can decrease her size down to 25% of her normal size.
 Shrinking does not alter her wate, attributes or skill task.
-Besides allowing her to fit into tight spaces, the mutant gets an Defence Rating bonus of +75.
+Besides allowing her to fit into tight spaces, the mutant gets a Defence Rating bonus of +75.
 Her clothes will drape around her like a tent.
 
 The mutant can increase her size by up to 150%  for her normal size.
@@ -1651,7 +1523,6 @@ Removing the explosive by-product from the mutant’s body will only have a temp
 The mutant will return to self-destructive levels after one restful sleep.
 Surgery may also result in the accidental detonation of this mutation.
 
-include::mutations:partial$a_defect_disclaimer.adoc[]
 
 === Sepsomegaly
 
@@ -1662,24 +1533,20 @@ Duration:: Until Dead
 Frequency:: Constant
 Bonuses:: None
 
-include::mutations:partial$a_defect_compassion.adoc[]
-
 This mutant is vulnerable to infections.
 Her condition is not limited to microbial agents alone.
 All manner of contagion, both real and imagined, afflicts the mutant.
 Her Constitution will work normally against all other kinds of saves: poison, radiation, etc.
+This mutation was formerly called No Resistance To Disease.
 
-NOTE: Formerly called No Resistance To Disease
-
-include::mutations:partial$a_defect_disclaimer.adoc[]
 
 === Shape Change
 
 [horizontal]
 Category:: Uncombat
 Range:: Persona Only
-Duration:: 1 min per Adjusted CHA
-Frequency:: 1 per 5 Adjusted CON
+Duration:: 1 min per (CHA + Level)
+Frequency:: 1 per 5 (CON + Level)
 Bonuses:: +150 on disguise rolls
 
 Shape change allows the mutant to rearrange her body.
@@ -1769,11 +1636,11 @@ Frequency:: Constant
 Bonuses:: CR +2
 
 Quills, spines, thorns and other nasty pointy things cover this mutant’s body.
-The quills layer is thick and offers an Defence Rating bonus of +101, but the mutant cannot wear armour.
+The quills layer is thick and offers a Defence Rating bonus of +101, but the mutant cannot wear armour.
 The precluded armour includes vac suits.
 The quills damage any attacker that punches, bites, or claws the pointy persona.
 If the attacker wins an attack roll against the mutant, the attacker takes 1-6 (1d6) hit points plus one per experience level.
-A 5th level mutant with static quills has a base AR of 601 and would passively deliver 6 to 11 HPS of damage when punched.
+A 5th level mutant with static quills has a base DEF of 601 and would passively deliver 6 to 11 HPS of damage when punched.
 Mutants with high Charisma will have organized inviting quills, but a mutant with low Charisma will have scraggly off putting quills.
 
 :art: tentacle_horn_woman.png
@@ -1786,15 +1653,6 @@ Mutants with high Charisma will have organized inviting quills, but a mutant wit
 include::ROOT:partial$articulate.adoc[]
 
 === Strange New Body Part
-
-:art: tentacle_horn_woman.png
-:width: 250px
-:snark: Tentacular!
-:artist: Peggy Lynn MacIsaac
-:date: 1991
-:license: CC BY-SA 4.0
-:description: Humanoid with a horn on her forehead and tentacles holding weapons.
-include::ROOT:partial$articulate.adoc[]
 
 [horizontal]
 Category:: Uncombat
@@ -1924,7 +1782,7 @@ For example, inflicting damage through powered armour would not count as connect
 This attack roll must be successful even if the target wishes to be symbiotically connected.
 If the mutant fails on her attack roll, the attachment immediately retracts back to the mutant.
 
-The intensity of the poison attack is equal to the mutant’s adjusted Intelligence score.
+The intensity of the poison attack is equal to the mutant’s (INT + Level) score.
 The target can use her Constitution or Intelligence score when making the poison roll.
 The poison roll reflects the resistance of the target’s neurologic system resisting the takeover.
 Unconscious targets get no poison roll to resist symbiotic attachment.
@@ -1960,12 +1818,8 @@ Note that this mutant much resembles a hypochondriac.
 This mutant heals twice as fast as other personas when recuperating.
 Most personas heal one hit point each day.
 This mutant heals two hit points each day.
+This mutation was formerly called Double Physical Pain.
 
-NOTE: This mutation was formerly called Double Physical Pain
-
-include::mutations:partial$a_defect_disclaimer.adoc[]
-
-=== Tear Away Body Parts
 
 :art: detachable_hands_eye.png
 :width: 250px
@@ -1976,10 +1830,12 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 :description: A humanoid holding her eyes in her hands, which are crawling away.
 include::ROOT:partial$articulate.adoc[]
 
+=== Tear Away Body Parts
+
 [horizontal]
 Category:: Uncombat
-Range:: 1h per Adjusted AWE
-Duration:: 1 minute per Adjusted CON
+Range:: 1h per (AWE + Level)
+Duration:: 1 minute per (CON + Level)
 Frequency:: Special
 Bonuses:: None
 
@@ -2012,12 +1868,7 @@ Poison attacks inflict no additional damage, but are almost certain to effect th
 Her Constitution works normally against illness, damage and injury, but offers resistance to poison rolls.
 When making a poison related save the player cannot user person’s CON.
 Pharma effects and adverse effects are doubled.
-
-NOTE: This mutation was formerly called No Resistance To Poison
-
-include::mutations:partial$a_defect_disclaimer.adoc[]
-
-=== Transmogriphosis
+This mutation was formerly called No Resistance To Poison.
 
 :art: cubist_mutation_flesh_blob.png
 :width: 250px
@@ -2028,11 +1879,15 @@ include::mutations:partial$a_defect_disclaimer.adoc[]
 :description: Humanoid parts shaped into  a cube.
 include::ROOT:partial$articulate.adoc[]
 
+
+
+=== Transmogriphosis
+
 [horizontal]
 Category:: Uncombat
 Range:: Persona
-Duration:: 1 Hour per Adjusted CON
-Frequency:: 1 per 6 Adjusted CON
+Duration:: 1 Hour per (CON + Level)
+Frequency:: 1 per 6 (CON + Level)
 Bonuses:: +100 on disguise rolls
 
 This mutant has complete control over her unusually pliable body.
@@ -2058,8 +1913,7 @@ An attack that delivers four hit points of damage would inflict eight hit points
 When the mutation reaches the end of its duration, the persona rapidly returns to her previous state.
 There is a 1% chance per hour in the restructured state that the mutant will stay in the new shape.
 A mutant that changed her hair colour to blue for 5 hours has a 5% chance of being left with blue hair.
-
-NOTE: This mutation was formerly called Body Structure Change
+This mutation was formerly called Body Structure Change.
 
 === Undersized Body Part
 
@@ -2070,14 +1924,10 @@ Duration:: Until Dead
 Frequency:: Constant
 Bonuses:: None
 
-include::mutations:partial$a_defect_compassion.adoc[]
-
 The undersized body part is completely obvious to any observer.
 Even unintelligent wildlife may notice.
 There is no attribute penalty for having undersized body parts.
 The effect is cosmetic, and each part functions as expected.
-
-include::mutations:partial$a_defect_disclaimer.adoc[]
 
 include::mutations:partial$phenomic_undersized_part.adoc[]
 

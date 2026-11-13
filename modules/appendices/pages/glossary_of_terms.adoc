@@ -14,10 +14,6 @@ Ability::
 Any capacity that the persona has.
 Abilities include gifts, interests, skills, mutations and baked in features.
 
-Adjusted::
-An attribute that is adjusted by the persona’s experience level.
-Adjusted MND is the persona’s MND plus EXPS Level.
-
 Aerosol::
 Canister that sprays out attacks, effects over an area of effect.
 
@@ -67,6 +63,10 @@ There are three main attack types.
 Strike: non-powered thrusting and striking attacks
 Fling: non-powered projectile attacks
 Shoot: powered projectile attacks
+
+Attribute + Level::
+Add the persona’s experience level to the named attribute.
+(MND + Level) is the persona’s MND plus EXPS Level.
 
 Attributes::
 These are the imaginary divisions of a persona’s physical abilities.
